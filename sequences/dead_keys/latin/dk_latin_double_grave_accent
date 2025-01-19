@@ -1,0 +1,90 @@
+# Latin Alphabet | Double Grave Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic combinations
+<dead_doublegrave> <space>              : "̏"    # Combining double grave accent
+<dead_doublegrave> <dead_doublegrave>   : "˵"   # Modifier middle double grave accent
+
+
+# Basic precomposed letter combinations 
+<dead_doublegrave> <A>  : "Ȁ"
+<dead_doublegrave> <a>  : "ȁ"
+<dead_doublegrave> <E>  : "Ȅ"
+<dead_doublegrave> <e>  : "ȅ"
+<dead_doublegrave> <I>  : "Ȉ"
+<dead_doublegrave> <i>  : "ȉ"
+<dead_doublegrave> <O>  : "Ȍ"
+<dead_doublegrave> <o>  : "ȍ"
+<dead_doublegrave> <R>  : "Ȑ"
+<dead_doublegrave> <r>  : "ȑ"
+<dead_doublegrave> <U>  : "Ȕ"
+<dead_doublegrave> <u>  : "ȕ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Double_accent_grave
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_doublegrave> <AE>                 : "Æ̏"
+<dead_doublegrave> <ae>                 : "æ̏"
+<dead_doublegrave> <multiply> <A> <E>   : "Æ̏"
+<dead_doublegrave> <multiply> <a> <e>   : "æ̏"
+<dead_doublegrave> <U0190>              : "Ɛ̏"      # Ɛ (Latin Epsilon) + Double Grave
+<dead_doublegrave> <U025B>              : "ɛ̏"      # ɛ (Latin Epsilon) + Double Grave
+<dead_doublegrave> <SCHWA>              : "Ə̏"      # Ə (Schwa) + Double Grave
+<dead_doublegrave> <schwa>              : "ə̏"      # ə (Schwa) + Double Grave
+<dead_doublegrave> <N>                  : "N̏"
+<dead_doublegrave> <n>                  : "n̏"
+<dead_doublegrave> <ENG>                : "Ŋ̏"      # Ŋ + Double Grave
+<dead_doublegrave> <eng>                : "ŋ̏"      # ŋ + Double Grave
+<dead_doublegrave> <OE>                 : "Œ̏"
+<dead_doublegrave> <oe>                 : "œ̏"
+<dead_doublegrave> <multiply> <O> <E>   : "Œ̏"
+<dead_doublegrave> <multiply> <o> <e>   : "œ̏"
+<dead_doublegrave> <U0186>              : "Ɔ̏"      # Ɔ + Double Grave
+<dead_doublegrave> <U0254>              : "ɔ̏"      # ɔ + Double Grave
+<dead_doublegrave> <UA7CB>              : "Ɤ̏"      # Ɤ (Ram's Horn) + Double Grave
+<dead_doublegrave> <U0264>              : "ɤ̏"      # ɤ (Ram's Horn) + Double Grave
+<dead_doublegrave> <U019C>              : "Ɯ̏"     # Ɯ (Turned M) + Double Grave
+<dead_doublegrave> <U026F>              : "ɯ̏"     # ɯ (Turned M) + Double Grave
+<dead_doublegrave> <U21BA> <M>          : "Ɯ̏"     # Ɯ (Turned M) + Double Grave
+<dead_doublegrave> <U21BA> <m>          : "ɯ̏"     # ɯ (Turned M) + Double Grave
+<dead_doublegrave> <U0245>              : "Ʌ̏"     # Ʌ + Double Grave
+<dead_doublegrave> <U028C>              : "ʌ̏"     # ʌ + Double Grave
+<dead_doublegrave> <U21BA> <V>          : "Ʌ̏"     # Ʌ + Double Grave
+<dead_doublegrave> <U21BA> <v>          : "ʌ̏"     # ʌ + Double Grave
+<dead_doublegrave> <W>                  : "W̏"
+<dead_doublegrave> <w>                  : "w̏"
+<dead_doublegrave> <Y>                  : "Y̏"
+<dead_doublegrave> <y>                  : "y̏"
+<dead_doublegrave> <Z>                  : "Z̏"
+<dead_doublegrave> <z>                  : "z̏"
+
+
+# Composed double acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Double_accent_grave
+#
+# [CUSTOM DEAD KEYS]:
+# - ᷎ (Combining Ogonek Above [U1DCE]) -> Represents the "Ogonek Above" dead key
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_doublegrave> <U0197>                          : "Ɨ̏"   # Ɨ + Double Grave
+<dead_doublegrave> <U0268>                          : "ɨ̏"   # ɨ + Double Grave
+<dead_doublegrave> <dead_stroke> <I>                : "Ɨ̏"
+<dead_doublegrave> <dead_stroke> <i>                : "ɨ̏"
+<dead_doublegrave> <dead_stroke> <Idotabove>        : "Ɨ̏"
+<dead_doublegrave> <dead_stroke> <idotless>         : "ɨ̏"
+<dead_doublegrave> <U0244>                          : "Ʉ̏"   # Ʉ + Double Grave
+<dead_doublegrave> <U0289>                          : "ʉ̏"   # ʉ + Double Grave
+<dead_doublegrave> <dead_stroke> <U>                : "Ʉ̏"   # Ʉ + Double Grave
+<dead_doublegrave> <dead_stroke> <u>                : "ʉ̏"   # ʉ + Double Grave
+<dead_doublegrave> <Zcaron>                         : "Ž̏"
+<dead_doublegrave> <zcaron>                         : "ž̏"
+<dead_doublegrave> <dead_caron> <Z>                 : "Ž̏"
+<dead_doublegrave> <dead_caron> <z>                 : "ž̏"
+
+##################
+# [END OF RULES] #
+##################
