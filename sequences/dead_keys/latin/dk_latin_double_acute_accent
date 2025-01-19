@@ -16,7 +16,7 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_aigu
+# [Main reference]: https://fr.wikipedia.org/wiki/Double_accent_aigu
 #
 # [CUSTOM DEAD KEYS]:
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
@@ -105,8 +105,8 @@
 <dead_doubleacute> <z>                  : "z̋"
 
 
-# Composed acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_aigu
+# Composed double acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Double_accent_aigu
 #
 # [CUSTOM DEAD KEYS]:
 # - ᷎ (Combining Ogonek Above [U1DCE]) -> Represents the "Ogonek Above" dead key
