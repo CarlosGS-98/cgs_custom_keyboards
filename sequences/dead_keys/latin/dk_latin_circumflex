@@ -1,0 +1,527 @@
+# Latin Alphabet | Circumflex Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic combinations
+<dead_circumflex> <space>           : "̂"    # Combining circumflex accent
+<dead_circumflex> <dead_circumflex> : "^"   # Caret
+<dead_circumflex> <less>            : "̭"    # Combining circumflex accent below
+<dead_circumflex> <greater>         : "ˆ"   # Modifier circumflex accent 
+
+
+# Basic precomposed letter combinations
+<dead_circumflex> <A>   : "Â"
+<dead_circumflex> <a>   : "â"
+<dead_circumflex> <C>   : "Ĉ"
+<dead_circumflex> <c>   : "ĉ"
+<dead_circumflex> <E>   : "Ê"
+<dead_circumflex> <e>   : "ê"
+<dead_circumflex> <G>   : "Ĝ"
+<dead_circumflex> <g>   : "ĝ"
+<dead_circumflex> <H>   : "Ĥ"
+<dead_circumflex> <h>   : "ĥ"
+<dead_circumflex> <I>   : "Î"
+<dead_circumflex> <i>   : "î"
+<dead_circumflex> <J>   : "Ĵ"
+<dead_circumflex> <j>   : "ĵ"
+<dead_circumflex> <O>   : "Ô"
+<dead_circumflex> <o>   : "ô"
+<dead_circumflex> <S>   : "Ŝ"
+<dead_circumflex> <s>   : "ŝ"
+<dead_circumflex> <U>   : "Û"
+<dead_circumflex> <u>   : "û"
+<dead_circumflex> <W>   : "Ŵ"
+<dead_circumflex> <w>   : "ŵ"
+<dead_circumflex> <Y>   : "Ŷ"
+<dead_circumflex> <y>   : "ŷ"
+<dead_circumflex> <Z>   : "Ẑ"
+<dead_circumflex> <z>   : "ẑ"
+
+
+# Precomposed Vietnamese letter combinations (Unidirectional)
+<dead_circumflex> <Aacute>              : "Ấ"
+<dead_circumflex> <aacute>              : "ấ"
+<dead_circumflex> <dead_acute> <A>      : "Ấ"
+<dead_circumflex> <dead_acute> <a>      : "ấ"
+<dead_circumflex> <Agrave>              : "Ầ"
+<dead_circumflex> <agrave>              : "ầ"
+<dead_circumflex> <dead_grave> <A>      : "Ầ"
+<dead_circumflex> <dead_grave> <a>      : "ầ"
+<dead_circumflex> <Ahook>               : "Ẩ"
+<dead_circumflex> <ahook>               : "ẩ"
+<dead_circumflex> <dead_hook> <A>       : "Ẩ"
+<dead_circumflex> <dead_hook> <a>       : "ẩ"
+<dead_circumflex> <Abelowdot>           : "Ậ"
+<dead_circumflex> <abelowdot>           : "ậ"
+<dead_circumflex> <dead_belowdot> <A>   : "Ậ"
+<dead_circumflex> <dead_belowdot> <a>   : "ậ"
+<dead_circumflex> <Eacute>              : "Ế"
+<dead_circumflex> <eacute>              : "ế"
+<dead_circumflex> <dead_acute> <E>      : "Ế"
+<dead_circumflex> <dead_acute> <e>      : "ế"
+<dead_circumflex> <Egrave>              : "Ề"
+<dead_circumflex> <egrave>              : "ề"
+<dead_circumflex> <dead_grave> <E>      : "Ề"
+<dead_circumflex> <dead_grave> <e>      : "ề"
+<dead_circumflex> <Ehook>               : "Ể"
+<dead_circumflex> <ehook>               : "ể"
+<dead_circumflex> <dead_hook> <E>       : "Ể"
+<dead_circumflex> <dead_hook> <e>       : "ể"
+<dead_circumflex> <Ebelowdot>           : "Ệ"
+<dead_circumflex> <ebelowdot>           : "ệ"
+<dead_circumflex> <dead_belowdot> <E>   : "Ệ"
+<dead_circumflex> <dead_belowdot> <e>   : "ệ"
+<dead_circumflex> <Oacute>              : "Ố"
+<dead_circumflex> <oacute>              : "ố"
+<dead_circumflex> <dead_acute> <O>      : "Ố"
+<dead_circumflex> <dead_acute> <o>      : "ố"
+<dead_circumflex> <Ograve>              : "Ồ"
+<dead_circumflex> <ograve>              : "ồ"
+<dead_circumflex> <dead_grave> <O>      : "Ồ"
+<dead_circumflex> <dead_grave> <o>      : "ồ"
+<dead_circumflex> <Ohook>               : "Ổ"
+<dead_circumflex> <ohook>               : "ổ"
+<dead_circumflex> <dead_hook> <O>       : "Ổ"
+<dead_circumflex> <dead_hook> <o>       : "ổ"
+<dead_circumflex> <Obelowdot>           : "Ộ"
+<dead_circumflex> <obelowdot>           : "ộ"
+<dead_circumflex> <dead_belowdot> <O>   : "Ộ"
+<dead_circumflex> <dead_belowdot> <o>   : "ộ"
+
+
+# Special Circumflex Combinations (Superscript)
+<dead_circumflex> <0>           : "⁰"
+<dead_circumflex> <1>           : "¹"
+<dead_circumflex> <2>           : "²"
+<dead_circumflex> <3>           : "³"
+<dead_circumflex> <4>           : "⁴"
+<dead_circumflex> <5>           : "⁵"
+<dead_circumflex> <6>           : "⁶"
+<dead_circumflex> <7>           : "⁷"
+<dead_circumflex> <8>           : "⁸"
+<dead_circumflex> <9>           : "⁹"
+<dead_circumflex> <plus>        : "⁺"
+<dead_circumflex> <minus>       : "⁻"
+<dead_circumflex> <equal>       : "⁼"
+<dead_circumflex> <period>      : "·"
+<dead_circumflex> <parenleft>   : "⁽"
+<dead_circumflex> <parenright>  : "⁾"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_circumflex> <U2C6F>            : "Ɐ̂"      # Ɐ + Circumflex
+<dead_circumflex> <U0250>            : "ɐ̂"      # ɐ + Circumflex
+<dead_circumflex> <U21BA> <A>        : "Ɐ̂"      # Ɐ + Circumflex
+<dead_circumflex> <U21BA> <a>        : "ɐ̂"      # ɐ + Circumflex
+<dead_circumflex> <AE>               : "Æ̂"
+<dead_circumflex> <ae>               : "æ̂"
+<dead_circumflex> <multiply> <A> <E> : "Æ̂"
+<dead_circumflex> <multiply> <a> <e> : "æ̂"
+<dead_circumflex> <U2C6D>            : "Ɑ̂"      # Ɑ (Latin Alpha) + Circumflex
+<dead_circumflex> <U0251>            : "ɑ̂"      # ɑ (Latin Alpha) + Circumflex
+<dead_circumflex> <B>                : "B̂"
+<dead_circumflex> <b>                : "b̂"
+<dead_circumflex> <D>                : "D̂"
+<dead_circumflex> <d>                : "d̂"
+<dead_circumflex> <U0190>            : "Ɛ̂"      # Ɛ (Latin Epsilon) + Circumflex
+<dead_circumflex> <U025B>            : "ɛ̂"      # ɛ (Latin Epsilon) + Circumflex
+<dead_circumflex> <SCHWA>            : "Ə̂"      # Ə (Schwa) + Circumflex
+<dead_circumflex> <schwa>            : "ə̂"      # ə (Schwa) + Circumflex
+<dead_circumflex> <U018E>            : "Ǝ̂"      # Ǝ (Turned E) + Circumflex
+<dead_circumflex> <U01DD>            : "ǝ̂"      # ǝ (Turned E) + Circumflex
+<dead_circumflex> <U21BA> <E>        : "Ǝ̂"      # Ǝ (Turned E) + Circumflex
+<dead_circumflex> <U21BA> <e>        : "ǝ̂"      # ǝ (Turned E) + Circumflex
+<dead_circumflex> <F>                : "F̂"
+<dead_circumflex> <f>                : "f̂"
+<dead_circumflex> <UA78D>            : "Ɥ̂"      # Ɥ (Turned H) + Circumflex
+<dead_circumflex> <U0265>            : "ɥ̂"      # ɥ (Turned H) + Circumflex
+<dead_circumflex> <U21BA> <H>        : "Ɥ̂"      # Ɥ (Turned H) + Circumflex
+<dead_circumflex> <U21BA> <h>        : "ɥ̂"      # ɥ (Turned H) + Circumflex
+<dead_circumflex> <U0196>            : "Ɩ̂"      # Ɩ (Latin Iota) + Circumflex
+<dead_circumflex> <U0269>            : "ɩ̂"      # ɩ (Latin Iota) + Circumflex
+<dead_circumflex> <K>                : "K̂"
+<dead_circumflex> <k>                : "k̂"
+<dead_circumflex> <L>                : "L̂"
+<dead_circumflex> <l>                : "l̂"
+<dead_circumflex> <M>                : "M̂"
+<dead_circumflex> <m>                : "m̂"
+<dead_circumflex> <N>                : "N̂"
+<dead_circumflex> <n>                : "n̂"
+<dead_circumflex> <ENG>              : "Ŋ̂"      # Ŋ + Circumflex
+<dead_circumflex> <eng>              : "ŋ̂"      # ŋ + Circumflex
+<dead_circumflex> <OE>               : "Œ̂"
+<dead_circumflex> <oe>               : "œ̂"
+<dead_circumflex> <multiply> <O> <E> : "Œ̂"
+<dead_circumflex> <multiply> <o> <e> : "œ̂"
+<dead_circumflex> <U0186>            : "Ɔ̂"      # Ɔ + Circumflex
+<dead_circumflex> <U0254>            : "ɔ̂"      # ɔ + Circumflex
+<dead_circumflex> <UA7CB>            : "Ɤ̂"      # Ɤ (Ram's Horn) + Circumflex
+<dead_circumflex> <U0264>            : "ɤ̂"      # ɤ (Ram's Horn) + Circumflex
+<dead_circumflex> <P>                : "P̂"
+<dead_circumflex> <p>                : "p̂"
+<dead_circumflex> <Q>                : "Q̂"
+<dead_circumflex> <q>                : "q̂"
+<dead_circumflex> <R>                : "R̂"
+<dead_circumflex> <r>                : "r̂"
+<dead_circumflex> <T>                : "T̂"
+<dead_circumflex> <t>                : "t̂"
+<dead_circumflex> <U01B1>            : "Ʊ̂"     # Ʊ (Latin Upsilon) + Circumflex
+<dead_circumflex> <U028A>            : "ʊ̂"     # ʊ (Latin Upsilon) + Circumflex
+<dead_circumflex> <U019C>            : "Ɯ̂"     # Ɯ (Turned M) + Circumflex
+<dead_circumflex> <U026F>            : "ɯ̂"     # ɯ (Turned M) + Circumflex
+<dead_circumflex> <U21BA> <M>        : "Ɯ̂"     # Ɯ (Turned M) + Circumflex
+<dead_circumflex> <U21BA> <m>        : "ɯ̂"     # ɯ (Turned M) + Circumflex
+<dead_circumflex> <V>                : "V̂"
+<dead_circumflex> <v>                : "v̂"
+<dead_circumflex> <U0245>            : "Ʌ̂"     # Ʌ + Circumflex
+<dead_circumflex> <U028C>            : "ʌ̂"     # ʌ + Circumflex
+<dead_circumflex> <U21BA> <V>        : "Ʌ̂"     # Ʌ + Circumflex
+<dead_circumflex> <U21BA> <v>        : "ʌ̂"     # ʌ + Circumflex
+<dead_circumflex> <U01B2>            : "Ʋ̂"     # Ʋ + Circumflex
+<dead_circumflex> <U028B>            : "ʋ̂"     # ʋ + Circumflex
+<dead_circumflex> <X>                : "X̂"
+<dead_circumflex> <x>                : "x̂"
+<dead_circumflex> <EZH>              : "Ʒ̂"     # Ʒ + Circumflex
+<dead_circumflex> <ezh>              : "ʒ̂"     # ʒ + Circumflex
+
+
+# Composed circumflex accent combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_circumflex> <Adiaeresis>                                  : "Ä̂"
+<dead_circumflex> <adiaeresis>                                  : "ä̂"
+<dead_circumflex> <dead_diaeresis> <A>                          : "Ä̂"
+<dead_circumflex> <dead_diaeresis> <a>                          : "ä̂"
+<dead_circumflex> <dead_diaeresis> <Aogonek>                    : "Ą̈̂"
+<dead_circumflex> <dead_diaeresis> <aogonek>                    : "ą̈̂"
+<dead_circumflex> <dead_diaeresis> <dead_ogonek> <A>            : "Ą̈̂"
+<dead_circumflex> <dead_diaeresis> <dead_ogonek> <a>            : "ą̈̂"
+<dead_circumflex> <dead_belowdiaeresis> <A>                     : "Â̤"
+<dead_circumflex> <dead_belowdiaeresis> <a>                     : "â̤"
+<dead_circumflex> <Atilde>                                      : "Ã̂"
+<dead_circumflex> <atilde>                                      : "ã̂"
+<dead_circumflex> <dead_tilde> <A>                              : "Ã̂"
+<dead_circumflex> <dead_tilde> <a>                              : "ã̂"
+<dead_circumflex> <dead_cedilla> <A>                            : "Â̧"
+<dead_circumflex> <dead_cedilla> <a>                            : "â̧"
+<dead_circumflex> <Aring>                                       : "Å̂"
+<dead_circumflex> <aring>                                       : "å̂"
+<dead_circumflex> <dead_abovering> <A>                          : "Å̂"
+<dead_circumflex> <dead_abovering> <a>                          : "å̂"
+<dead_circumflex> <U1E00>                                       : "Ḁ̂"   # Ḁ̂ + Circumflex
+<dead_circumflex> <U1E01>                                       : "ḁ̂"   # ḁ̂ + Circumflex
+<dead_circumflex> <dead_belowring> <A>                          : "Ḁ̂"
+<dead_circumflex> <dead_belowring> <a>                          : "ḁ̂"
+<dead_circumflex> <U01CD>                                       : "Â̌"   # Â + Caron
+<dead_circumflex> <U01CE>                                       : "â̌"   # â + Caron
+<dead_circumflex> <dead_caron> <A>                              : "Â̌"
+<dead_circumflex> <dead_caron> <a>                              : "â̌"
+<dead_circumflex> <Aogonek>                                     : "Ą̂"
+<dead_circumflex> <aogonek>                                     : "ą̂"
+<dead_circumflex> <dead_ogonek> <A>                             : "Ą̂"
+<dead_circumflex> <dead_ogonek> <a>                             : "ą̂"
+<dead_circumflex> <dead_ogonek> <Adiaeresis>                    : "Ą̈̂"
+<dead_circumflex> <dead_ogonek> <adiaeresis>                    : "ą̈̂"
+<dead_circumflex> <dead_ogonek> <dead_diaeresis> <A>            : "Ą̈̂"
+<dead_circumflex> <dead_ogonek> <dead_diaeresis> <a>            : "ą̈̂"
+<dead_circumflex> <dead_ogonek> <Amacron>                       : "Ą̄̂"
+<dead_circumflex> <dead_ogonek> <amacron>                       : "ą̄̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <A>               : "Ą̄̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <a>               : "ą̄̂"
+<dead_circumflex> <Amacron>                                     : "Ā̂"
+<dead_circumflex> <amacron>                                     : "ā̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <A>          : "Ā̱̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <a>          : "ā̱̂"
+<dead_circumflex> <dead_macron> <Aogonek>                       : "Ą̄̂"
+<dead_circumflex> <dead_macron> <aogonek>                       : "ą̄̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <A>               : "Ą̄̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <a>               : "ą̄̂"
+<dead_circumflex> <dead_belowmacron> <A>                        : "Â̱"
+<dead_circumflex> <dead_belowmacron> <a>                        : "â̱"
+<dead_circumflex> <dead_belowmacron> <Amacron>                  : "Ā̱̂"
+<dead_circumflex> <dead_belowmacron> <amacron>                  : "ā̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <A>          : "Ā̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <a>          : "ā̱̂"
+<dead_circumflex> <U01E2>                                       : "Ǣ̂"   # Ǣ + Circumflex
+<dead_circumflex> <U01E3>                                       : "ǣ̂"   # ǣ + Circumflex
+<dead_circumflex> <U1E06>                                       : "Ḇ̂"   # Ḇ + Circumflex
+<dead_circumflex> <U1E07>                                       : "ḇ̂"   # ḇ + Circumflex
+<dead_circumflex> <dead_belowmacron> <B>                        : "Ḇ̂"
+<dead_circumflex> <dead_belowmacron> <b>                        : "ḇ̂"
+<dead_circumflex> <Ediaeresis>                                  : "Ë̂"
+<dead_circumflex> <ediaeresis>                                  : "ë̂"
+<dead_circumflex> <dead_diaeresis> <E>                          : "Ë̂"
+<dead_circumflex> <dead_diaeresis> <e>                          : "ë̂"
+<dead_circumflex> <dead_diaeresis> <Eogonek>                    : "Ę̈̂"
+<dead_circumflex> <dead_diaeresis> <eogonek>                    : "ę̈̂"
+<dead_circumflex> <dead_diaeresis> <dead_ogonek> <E>            : "Ę̈̂"
+<dead_circumflex> <dead_diaeresis> <dead_ogonek> <e>            : "ę̈̂"
+<dead_circumflex> <dead_belowdiaeresis> <E>                     : "Ê̤"
+<dead_circumflex> <dead_belowdiaeresis> <e>                     : "ê̤"
+<dead_circumflex> <Etilde>                                      : "Ẽ̂"
+<dead_circumflex> <etilde>                                      : "ẽ̂"
+<dead_circumflex> <dead_tilde> <E>                              : "Ẽ̂"
+<dead_circumflex> <dead_tilde> <e>                              : "ẽ̂"
+<dead_circumflex> <U0228>                                       : "Ȩ̂"   # Ȩ + Circumflex
+<dead_circumflex> <U0229>                                       : "ȩ̂"   # ȩ + Circumflex
+<dead_circumflex> <dead_cedilla> <E>                            : "Ȩ̂"
+<dead_circumflex> <dead_cedilla> <e>                            : "ȩ̂"
+<dead_circumflex> <Ecaron>                                      : "Ê̌"
+<dead_circumflex> <ecaron>                                      : "ê̌"
+<dead_circumflex> <dead_caron> <E>                              : "Ê̌"
+<dead_circumflex> <dead_caron> <e>                              : "ê̌"
+<dead_circumflex> <Eogonek>                                     : "Ę̂"
+<dead_circumflex> <eogonek>                                     : "ę̂"
+<dead_circumflex> <dead_ogonek> <E>                             : "Ę̂"
+<dead_circumflex> <dead_ogonek> <e>                             : "ę̂"
+<dead_circumflex> <dead_ogonek> <Ediaeresis>                    : "Ę̈̂"
+<dead_circumflex> <dead_ogonek> <ediaeresis>                    : "ę̈̂"
+<dead_circumflex> <dead_ogonek> <dead_diaeresis> <E>            : "Ę̈̂"
+<dead_circumflex> <dead_ogonek> <dead_diaeresis> <e>            : "ę̈̂"
+<dead_circumflex> <dead_ogonek> <Emacron>                       : "Ę̄̂"
+<dead_circumflex> <dead_ogonek> <emacron>                       : "ę̄̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <E>               : "Ę̄̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <e>               : "ę̄̂"
+<dead_circumflex> <Emacron>                                     : "Ē̂"
+<dead_circumflex> <emacron>                                     : "ē̂"
+<dead_circumflex> <dead_macron> <Eogonek>                       : "Ę̄̂"
+<dead_circumflex> <dead_macron> <eogonek>                       : "ę̄̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <E>               : "Ę̄̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <e>               : "ę̄̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <E>          : "Ē̱̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <e>          : "ē̱̂"
+<dead_circumflex> <dead_belowmacron> <E>                        : "Ê̱"
+<dead_circumflex> <dead_belowmacron> <e>                        : "ê̱"
+<dead_circumflex> <dead_belowmacron> <Emacron>                  : "Ē̱̂"
+<dead_circumflex> <dead_belowmacron> <emacron>                  : "ē̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <E>          : "Ē̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <e>          : "ē̱̂"
+<dead_circumflex> <Ebreve>                                      : "Ê̆"
+<dead_circumflex> <ebreve>                                      : "ê̆"
+<dead_circumflex> <dead_breve> <E>                              : "Ê̆"
+<dead_circumflex> <dead_breve> <e>                              : "ê̆"
+<dead_circumflex> <dead_tilde> <E>                              : "Ɛ̃̂"
+<dead_circumflex> <dead_tilde> <e>                              : "ɛ̃̂"
+<dead_circumflex> <dead_cedilla> <U0190>                        : "Ɛ̧̂"   # Ɛ (Latin Epsilon) + Circumflex + Cedilla
+<dead_circumflex> <dead_cedilla> <U025B>                        : "ɛ̧̂"   # Ɛ (Latin Epsilon) + Circumflex + Cedilla
+<dead_circumflex> <Iacute>                                      : "Î́"
+<dead_circumflex> <iacute>                                      : "î́"
+<dead_circumflex> <dead_acute> <I>                              : "Î́"
+<dead_circumflex> <dead_acute> <i>                              : "î́"
+<dead_circumflex> <Igrave>                                      : "Î̀"
+<dead_circumflex> <igrave>                                      : "î̀"
+<dead_circumflex> <dead_grave> <I>                              : "Î̀"
+<dead_circumflex> <dead_grave> <i>                              : "î̀"
+<dead_circumflex> <Idiaeresis>                                  : "Ï̂"
+<dead_circumflex> <idiaeresis>                                  : "ï̂"
+<dead_circumflex> <dead_diaeresis> <I>                          : "Ï̂"
+<dead_circumflex> <dead_diaeresis> <i>                          : "ï̂"
+<dead_circumflex> <dead_belowdiaeresis> <I>                     : "Î̤"
+<dead_circumflex> <dead_belowdiaeresis> <i>                     : "î̤"
+<dead_circumflex> <Itilde>                                      : "Ĩ̂"
+<dead_circumflex> <itilde>                                      : "ĩ̂"
+<dead_circumflex> <dead_tilde> <I>                              : "Ĩ̂"
+<dead_circumflex> <dead_tilde> <i>                              : "ĩ̂"
+<dead_circumflex> <dead_cedilla> <I>                            : "Î̧"
+<dead_circumflex> <dead_cedilla> <i>                            : "î̧"
+<dead_circumflex> <dead_cedilla> <U0197>                        : "Ɨ̧̂"   # Ɨ + Circumflex + Cedilla
+<dead_circumflex> <dead_cedilla> <U0268>                        : "ɨ̧̂"   # ɨ + Circumflex + Cedilla
+<dead_circumflex> <dead_cedilla> <dead_stroke> <I>              : "Ɨ̧̂"   # Ɨ + Circumflex + Cedilla
+<dead_circumflex> <dead_cedilla> <dead_stroke> <i>              : "ɨ̧̂"   # ɨ + Circumflex + Cedilla
+<dead_circumflex> <dead_cedilla> <dead_stroke> <Idotabove>      : "Ɨ̧̂"
+<dead_circumflex> <dead_cedilla> <dead_stroke> <idotless>       : "ɨ̧̂"
+<dead_circumflex> <U01CF>                                       : "Î̌"   # Î + Caron
+<dead_circumflex> <U01D0>                                       : "î̌"   # î + Caron
+<dead_circumflex> <dead_caron> <I>                              : "Î̌"
+<dead_circumflex> <dead_caron> <i>                              : "î̌"
+<dead_circumflex> <Iogonek>                                     : "Į̂"
+<dead_circumflex> <iogonek>                                     : "į̂"
+<dead_circumflex> <dead_ogonek> <I>                             : "Į̂"
+<dead_circumflex> <dead_ogonek> <i>                             : "į̂"
+<dead_circumflex> <dead_ogonek> <Imacron>                       : "Į̄̂"
+<dead_circumflex> <dead_ogonek> <imacron>                       : "į̄̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <I>               : "Į̄̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <i>               : "į̄̂"
+<dead_circumflex> <Imacron>                                     : "Ī̂"
+<dead_circumflex> <imacron>                                     : "ī̂"
+<dead_circumflex> <dead_macron> <Iogonek>                       : "Į̄̂"
+<dead_circumflex> <dead_macron> <iogonek>                       : "į̄̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <I>               : "Į̄̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <i>               : "į̄̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <I>          : "Ī̱̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <i>          : "ī̱̂"
+<dead_circumflex> <dead_belowmacron> <I>                        : "Î̱"
+<dead_circumflex> <dead_belowmacron> <i>                        : "î̱"
+<dead_circumflex> <dead_belowmacron> <Imacron>                  : "Ī̱̂"
+<dead_circumflex> <dead_belowmacron> <imacron>                  : "ī̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <I>          : "Ī̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <i>          : "ī̱̂"
+<dead_circumflex> <U0197>                                       : "Ɨ̂"   # Ɨ + Circumflex
+<dead_circumflex> <U0268>                                       : "ɨ̂"   # ɨ + Circumflex
+<dead_circumflex> <dead_stroke> <I>                             : "Ɨ̂"   # Ɨ + Circumflex
+<dead_circumflex> <dead_stroke> <i>                             : "ɨ̂"   # ɨ + Circumflex
+<dead_circumflex> <dead_stroke> <Idotabove>                     : "Ɨ̂"
+<dead_circumflex> <dead_stroke> <idotless>                      : "ɨ̂"
+<dead_circumflex> <dead_stroke> <dead_cedilla> <I>              : "Ɨ̧̂"   # Ɨ + Circumflex + Cedilla
+<dead_circumflex> <dead_stroke> <dead_cedilla> <i>              : "ɨ̧̂"   # ɨ + Circumflex + Cedilla
+<dead_circumflex> <dead_stroke> <dead_cedilla> <Idotabove>      : "Ɨ̧̂"
+<dead_circumflex> <dead_stroke> <dead_cedilla> <idotless>       : "ɨ̧̂"
+<dead_circumflex> <dead_hook> <I>                               : "Î̉"
+<dead_circumflex> <dead_hook> <i>                               : "î̉"
+<dead_circumflex> <Ibelowdot>                                   : "Ị̂"
+<dead_circumflex> <ibelowdot>                                   : "ị̂"
+<dead_circumflex> <dead_belowdot> <I>                           : "Ị̂"
+<dead_circumflex> <dead_belowdot> <i>                           : "ị̂"
+<dead_circumflex> <dead_tilde> <E>                              : "Ɩ̃̂"
+<dead_circumflex> <dead_tilde> <e>                              : "ɩ̃̂"
+<dead_circumflex> <dead_cedilla> <L>                            : "Ļ̂"
+<dead_circumflex> <dead_cedilla> <l>                            : "ļ̂"
+<dead_circumflex> <dead_cedilla> <N>                            : "Ņ̂"
+<dead_circumflex> <dead_cedilla> <n>                            : "ņ̂"
+<dead_circumflex> <dead_acute> <dead_belowdiaeresis> <O>        : "Ố̤"
+<dead_circumflex> <dead_acute> <dead_belowdiaeresis> <o>        : "ố̤"
+<dead_circumflex> <Odiaeresis>                                  : "Ö̂"
+<dead_circumflex> <odiaeresis>                                  : "ö̂"
+<dead_circumflex> <dead_diaeresis> <O>                          : "Ö̂"
+<dead_circumflex> <dead_diaeresis> <o>                          : "ö̂"
+<dead_circumflex> <dead_belowdiaeresis> <O>                     : "Ô̤"
+<dead_circumflex> <dead_belowdiaeresis> <o>                     : "ô̤"
+<dead_circumflex> <dead_belowdiaeresis> <dead_acute> <O>        : "Ố̤"
+<dead_circumflex> <dead_belowdiaeresis> <dead_acute> <o>        : "ố̤"
+<dead_circumflex> <Otilde>                                      : "Õ̂"
+<dead_circumflex> <otilde>                                      : "õ̂"
+<dead_circumflex> <dead_tilde> <O>                              : "Õ̂"
+<dead_circumflex> <dead_tilde> <o>                              : "õ̂"
+<dead_circumflex> <dead_cedilla> <O>                            : "Ô̧"
+<dead_circumflex> <dead_cedilla> <o>                            : "ô̧"
+<dead_circumflex> <U01D1>                                       : "Ô̌"
+<dead_circumflex> <U01D2>                                       : "ô̌"
+<dead_circumflex> <dead_caron> <O>                              : "Ô̌"
+<dead_circumflex> <dead_caron> <o>                              : "ô̌"
+<dead_circumflex> <U01EA>                                       : "Ǫ̂"   # Ǫ + Circumflex
+<dead_circumflex> <U01EB>                                       : "ǫ̂"   # ǫ + Circumflex
+<dead_circumflex> <dead_ogonek> <O>                             : "Ǫ̂"
+<dead_circumflex> <dead_ogonek> <o>                             : "ǫ̂"
+<dead_circumflex> <dead_ogonek> <Omacron>                       : "Ǭ̂"
+<dead_circumflex> <dead_ogonek> <omacron>                       : "ǭ̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <O>               : "Ǭ̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <o>               : "ǭ̂"
+<dead_circumflex> <Omacron>                                     : "Ō̂"
+<dead_circumflex> <omacron>                                     : "ō̂"
+<dead_circumflex> <U01EC>                                       : "Ǭ̂"   # Ǫ + Circumflex + Macron
+<dead_circumflex> <U01ED>                                       : "ǭ̂"   # ǫ + Circumflex + Macron
+<dead_circumflex> <dead_macron> <U01EA>                         : "Ǭ̂"   # Ǫ + Circumflex + Macron
+<dead_circumflex> <dead_macron> <U01EB>                         : "ǭ̂"   # ǫ + Circumflex + Macron
+<dead_circumflex> <dead_macron> <dead_ogonek> <A>               : "Ǭ̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <o>               : "ǭ̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <O>          : "Ō̱̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <o>          : "ō̱̂"
+<dead_circumflex> <dead_belowmacron> <O>                        : "Ô̱"
+<dead_circumflex> <dead_belowmacron> <o>                        : "ô̱"
+<dead_circumflex> <dead_belowmacron> <Omacron>                  : "Ō̱̂"
+<dead_circumflex> <dead_belowmacron> <omacron>                  : "ō̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <O>          : "Ō̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <o>          : "ō̱̂"
+<dead_circumflex> <Obreve>                                      : "Ô̆"
+<dead_circumflex> <obreve>                                      : "ô̆"
+<dead_circumflex> <dead_breve> <O>                              : "Ô̆"
+<dead_circumflex> <dead_breve> <o>                              : "ô̆"
+<dead_circumflex> <U019F>                                       : "Ɵ̂"    # Ɵ + Circumflex
+<dead_circumflex> <U0275>                                       : "ɵ̂"    # ɵ + Circumflex
+<dead_circumflex> <dead_stroke> <O>                             : "Ɵ̂"
+<dead_circumflex> <dead_stroke> <o>                             : "ɵ̂"
+<dead_circumflex> <Oslash>                                      : "Ø̂"
+<dead_circumflex> <oslash>                                      : "ø̂"
+<dead_circumflex> <dead_tilde> <Oslash>                         : "Ø̃̂"
+<dead_circumflex> <dead_tilde> <oslash>                         : "ø̃̂"
+<dead_circumflex> <dead_tilde> <dead_longsolidusoverlay> <O>    : "Ø̃̂"
+<dead_circumflex> <dead_tilde> <dead_longsolidusoverlay> <o>    : "ø̃̂"
+<dead_circumflex> <dead_longsolidusoverlay> <O>                 : "Ø̂"
+<dead_circumflex> <dead_longsolidusoverlay> <o>                 : "ø̂"
+<dead_circumflex> <dead_longsolidusoverlay> <dead_tilde> <O>    : "Ø̃̂"
+<dead_circumflex> <dead_longsolidusoverlay> <dead_tilde> <o>    : "ø̃̂"
+<dead_circumflex> <dead_tilde> <U0186>                          : "Ɔ̃̂"
+<dead_circumflex> <dead_tilde> <U0254>                          : "ɔ̃̂"
+<dead_circumflex> <dead_cedilla> <U0186>                        : "Ɔ̧̂"   # Ɔ + Circumflex + Cedilla
+<dead_circumflex> <dead_cedilla> <U0254>                        : "ɔ̧̂"   # ɔ + Circumflex + Cedilla
+<dead_circumflex> <dead_belowring> <R>                          : "R̥̂"
+<dead_circumflex> <dead_belowring> <r>                          : "r̥̂"
+<dead_circumflex> <Uacute>                                      : "Û́"
+<dead_circumflex> <uacute>                                      : "û́"
+<dead_circumflex> <dead_acute> <U>                              : "Û́"
+<dead_circumflex> <dead_acute> <u>                              : "û́"
+<dead_circumflex> <dead_acute> <U1E72>                          : "Ṳ̂́"
+<dead_circumflex> <dead_acute> <U1E73>                          : "ṳ̂́"
+<dead_circumflex> <dead_acute> <dead_belowdiaeresis> <U>        : "Ṳ̂́"
+<dead_circumflex> <dead_acute> <dead_belowdiaeresis> <u>        : "ṳ̂́"
+<dead_circumflex> <Ugrave>                                      : "Û̀"
+<dead_circumflex> <ugrave>                                      : "û̀"
+<dead_circumflex> <dead_grave> <U>                              : "Û̀"
+<dead_circumflex> <dead_grave> <u>                              : "û̀"
+<dead_circumflex> <Udiaeresis>                                  : "Ü̂"
+<dead_circumflex> <udiaeresis>                                  : "ü̂"
+<dead_circumflex> <dead_diaeresis> <U>                          : "Ü̂"
+<dead_circumflex> <dead_diaeresis> <u>                          : "ü̂"
+<dead_circumflex> <U1E72>                                       : "Ṳ̂"    # Ṳ + Circumflex
+<dead_circumflex> <U1E73>                                       : "ṳ̂"    # ṳ + Circumflex
+<dead_circumflex> <dead_belowdiaeresis> <U>                     : "Ṳ̂"
+<dead_circumflex> <dead_belowdiaeresis> <u>                     : "ṳ̂"
+<dead_circumflex> <dead_belowdiaeresis> <dead_acute> <U>        : "Ṳ̂́"
+<dead_circumflex> <dead_belowdiaeresis> <dead_acute> <u>        : "ṳ̂́"
+<dead_circumflex> <Utilde>                                      : "Ũ̂"
+<dead_circumflex> <utilde>                                      : "ũ̂"
+<dead_circumflex> <dead_tilde> <U>                              : "Ũ̂"
+<dead_circumflex> <dead_tilde> <u>                              : "ũ̂"
+<dead_circumflex> <dead_cedilla> <U>                            : "Û̧"
+<dead_circumflex> <dead_cedilla> <u>                            : "û̧"
+<dead_circumflex> <Uring>                                       : "Ů̂"
+<dead_circumflex> <uring>                                       : "ů̂"
+<dead_circumflex> <dead_abovering> <U>                          : "Ů̂"
+<dead_circumflex> <dead_abovering> <u>                          : "ů̂"
+<dead_circumflex> <U01D3>                                       : "Û̌"   # Û + Caron
+<dead_circumflex> <U01D4>                                       : "û̌"   # û + Caron
+<dead_circumflex> <dead_caron> <U>                              : "Û̌"
+<dead_circumflex> <dead_caron> <u>                              : "û̌"
+<dead_circumflex> <Uogonek>                                     : "Ų̂"
+<dead_circumflex> <uogonek>                                     : "ų̂"
+<dead_circumflex> <dead_ogonek> <U>                             : "Ų̂"
+<dead_circumflex> <dead_ogonek> <u>                             : "ų̂"
+<dead_circumflex> <dead_ogonek> <Umacron>                       : "Ų̄̂"
+<dead_circumflex> <dead_ogonek> <umacron>                       : "ų̄̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <U>               : "Ų̄̂"
+<dead_circumflex> <dead_ogonek> <dead_macron> <u>               : "ų̄̂"
+<dead_circumflex> <Umacron>                                     : "Ū̂"
+<dead_circumflex> <umacron>                                     : "ū̂"
+<dead_circumflex> <dead_macron> <Uogonek>                       : "Ų̄̂"
+<dead_circumflex> <dead_macron> <uogonek>                       : "ų̄̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <U>               : "Ų̄̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <u>               : "ų̄̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <U>          : "Ū̱̂"
+<dead_circumflex> <dead_macron> <dead_belowmacron> <u>          : "ū̱̂"
+<dead_circumflex> <dead_belowmacron> <U>                        : "Û̱"
+<dead_circumflex> <dead_belowmacron> <u>                        : "û̱"
+<dead_circumflex> <dead_belowmacron> <Umacron>                  : "Ū̱̂"
+<dead_circumflex> <dead_belowmacron> <umacron>                  : "ū̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <U>          : "Ū̱̂"
+<dead_circumflex> <dead_belowmacron> <dead_macron> <u>          : "ū̱̂"
+<dead_circumflex> <U0244>                                       : "Ʉ̂"   # Ʉ + Circumflex
+<dead_circumflex> <U0289>                                       : "ʉ̂"   # ʉ + Circumflex
+<dead_circumflex> <dead_stroke> <U>                             : "Ʉ̂"
+<dead_circumflex> <dead_stroke> <u>                             : "ʉ̂"
+<dead_circumflex> <dead_hook> <U>                               : "Û̉"
+<dead_circumflex> <dead_hook> <u>                               : "û̉"
+<dead_circumflex> <Ubelowdot>                                   : "Ụ̂"
+<dead_circumflex> <ubelowdot>                                   : "ụ̂"
+<dead_circumflex> <dead_belowdot> <U>                           : "Ụ̂"
+<dead_circumflex> <dead_belowdot> <u>                           : "ụ̂"
+
+##################
+# [END OF RULES] #
+##################
