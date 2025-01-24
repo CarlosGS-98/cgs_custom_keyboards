@@ -1,0 +1,133 @@
+# Latin Alphabet | Inverted Breve Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic combinations
+<dead_invertedbreve> <space>                : "̉"    # Combining inverted breve
+<dead_invertedbreve> <dead_invertedbreve>   : "̉"    # Combining inverted breve
+<dead_invertedbreve> <less>                 : "̯"    # Combining lower inverted breve
+<dead_invertedbreve> <greater>              : "͡"    # Combining double upper inverted breve
+<dead_invertedbreve> <comma>                : "⁀"   # Character tie
+<dead_invertedbreve> <semicolon>            : "⁔"   # Undertie below
+<dead_invertedbreve> <period>               : "᷼"    # Combining double lower inverted breve
+
+
+# Basic precomposed letter combinations
+<dead_invertedbreve> <A>  : "Ȃ"
+<dead_invertedbreve> <a>  : "ȃ"
+<dead_invertedbreve> <E>  : "Ȇ"
+<dead_invertedbreve> <e>  : "ȇ"
+<dead_invertedbreve> <I>  : "Ȋ"
+<dead_invertedbreve> <i>  : "ȋ"
+<dead_invertedbreve> <O>  : "Ȏ"
+<dead_invertedbreve> <o>  : "ȏ"
+<dead_invertedbreve> <R>  : "Ȓ"
+<dead_invertedbreve> <r>  : "ȓ"
+<dead_invertedbreve> <U>  : "Ȗ"
+<dead_invertedbreve> <u>  : "ȗ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_en_chef
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_invertedbreve> <AE>                 : "Æ̑"
+<dead_invertedbreve> <ae>                 : "æ̑"
+<dead_invertedbreve> <multiply> <A> <E>   : "Æ̑"
+<dead_invertedbreve> <multiply> <a> <e>   : "æ̑"
+<dead_invertedbreve> <B>                  : "B̑"
+<dead_invertedbreve> <b>                  : "b̑"
+<dead_invertedbreve> <C>                  : "C̑"
+<dead_invertedbreve> <c>                  : "c̑"
+<dead_invertedbreve> <D>                  : "D̑"
+<dead_invertedbreve> <d>                  : "d̑"
+<dead_invertedbreve> <U0190>              : "Ɛ̑"      # Ɛ (Latin Epsilon) + Inverted Breve
+<dead_invertedbreve> <U025B>              : "ɛ̑"      # ɛ (Latin Epsilon) + Inverted Breve
+<dead_invertedbreve> <SCHWA>              : "Ə̑"      # Ə (Schwa) + Inverted Breve
+<dead_invertedbreve> <schwa>              : "ə̑"      # ə (Schwa) + Inverted Breve
+<dead_invertedbreve> <F>                  : "F̑"
+<dead_invertedbreve> <f>                  : "f̑"
+<dead_invertedbreve> <G>                  : "G̑"
+<dead_invertedbreve> <g>                  : "g̑"
+<dead_invertedbreve> <J>                  : "J̑"
+<dead_invertedbreve> <j>                  : "j̑"
+<dead_invertedbreve> <K>                  : "K̑"
+<dead_invertedbreve> <k>                  : "k̑"
+<dead_invertedbreve> <L>                  : "L̑"
+<dead_invertedbreve> <l>                  : "l̑"
+<dead_invertedbreve> <M>                  : "M̑"
+<dead_invertedbreve> <m>                  : "m̑"
+<dead_invertedbreve> <N>                  : "N̑"
+<dead_invertedbreve> <n>                  : "n̑"
+<dead_invertedbreve> <ENG>                : "Ŋ̑"      # Ŋ + Inverted Breve
+<dead_invertedbreve> <eng>                : "ŋ̑"      # ŋ + Inverted Breve
+<dead_invertedbreve> <OE>                 : "Œ̑"
+<dead_invertedbreve> <oe>                 : "œ̑"
+<dead_invertedbreve> <multiply> <O> <E>   : "Œ̑"
+<dead_invertedbreve> <multiply> <o> <e>   : "œ̑"
+<dead_invertedbreve> <U0186>              : "Ɔ̑"      # Ɔ + Inverted Breve
+<dead_invertedbreve> <U0254>              : "ɔ̑"      # ɔ + Inverted Breve
+<dead_invertedbreve> <UA7CB>              : "Ɤ̑"      # Ɤ (Ram's Horn) + Inverted Breve
+<dead_invertedbreve> <U0264>              : "ɤ̑"      # ɤ (Ram's Horn) + Inverted Breve
+<dead_invertedbreve> <P>                  : "P̑"
+<dead_invertedbreve> <p>                  : "p̑"
+<dead_invertedbreve> <Q>                  : "Q̑"
+<dead_invertedbreve> <q>                  : "q̑"
+<dead_invertedbreve> <S>                  : "S̑"
+<dead_invertedbreve> <s>                  : "s̑"
+<dead_invertedbreve> <T>                  : "T̑"
+<dead_invertedbreve> <t>                  : "t̑"
+<dead_invertedbreve> <U01B1>              : "Ʊ̑"     # Ʊ (Latin Upsilon) + Inverted Breve
+<dead_invertedbreve> <U028A>              : "ʊ̑"     # ʊ (Latin Upsilon) + Inverted Breve
+<dead_invertedbreve> <U019C>              : "Ɯ̑"     # Ɯ (Turned M) + Inverted Breve
+<dead_invertedbreve> <U026F>              : "ɯ̑"     # ɯ (Turned M) + Inverted Breve
+<dead_invertedbreve> <U21BA> <M>          : "Ɯ̑"     # Ɯ (Turned M) + Inverted Breve
+<dead_invertedbreve> <U21BA> <m>          : "ɯ̑"     # ɯ (Turned M) + Inverted Breve
+<dead_invertedbreve> <V>                  : "V̑"
+<dead_invertedbreve> <v>                  : "v̑"
+<dead_invertedbreve> <U0245>              : "Ʌ̑"     # Ʌ + Inverted Breve
+<dead_invertedbreve> <U028C>              : "ʌ̑"     # ʌ + Inverted Breve
+<dead_invertedbreve> <U21BA> <V>          : "Ʌ̑"     # Ʌ + Inverted Breve
+<dead_invertedbreve> <U21BA> <v>          : "ʌ̑"     # ʌ + Inverted Breve
+<dead_invertedbreve> <W>                  : "W̑"
+<dead_invertedbreve> <w>                  : "w̑"
+<dead_invertedbreve> <X>                  : "X̑"
+<dead_invertedbreve> <x>                  : "x̑"
+<dead_invertedbreve> <Y>                  : "Y̑"
+<dead_invertedbreve> <y>                  : "y̑"
+<dead_invertedbreve> <Z>                  : "Z̑"
+<dead_invertedbreve> <z>                  : "z̑"
+
+
+# Composed inverted breve combinations (Not directly encoded in Unicode) (Unidirectional)
+<dead_invertedbreve> <Ecaron>                       : "Ě̑"
+<dead_invertedbreve> <ecaron>                       : "ě̑"
+<dead_invertedbreve> <dead_caron> <E>               : "Ě̑"
+<dead_invertedbreve> <dead_caron> <e>               : "ě̑"
+<dead_invertedbreve> <Eogonek>                      : "Ę̑"
+<dead_invertedbreve> <eogonek>                      : "ę̑"
+<dead_invertedbreve> <dead_ogonek> <E>              : "Ę̑"
+<dead_invertedbreve> <dead_ogonek> <e>              : "ę̑"
+<dead_invertedbreve> <Ebelowdot>                    : "Ẹ̑"
+<dead_invertedbreve> <ebelowdot>                    : "ẹ̑"
+<dead_invertedbreve> <dead_belowdot> <E>            : "Ẹ̑"
+<dead_invertedbreve> <dead_belowdot> <e>            : "ẹ̑"
+<dead_invertedbreve> <dead_belowring> <N>           : "N̥̑"
+<dead_invertedbreve> <dead_belowring> <n>           : "n̥̑"
+<dead_invertedbreve> <U01EA>                        : "Ǫ̑"    # Ǫ + Inverted Breve
+<dead_invertedbreve> <U01EB>                        : "ǫ̑"    # ǫ + Inverted Breve
+<dead_invertedbreve> <dead_ogonek> <O>              : "Ǫ̑"
+<dead_invertedbreve> <dead_ogonek> <o>              : "ǫ̑"
+<dead_invertedbreve> <Obelowdot>                    : "Ọ̑"
+<dead_invertedbreve> <obelowdot>                    : "ọ̑"
+<dead_invertedbreve> <dead_belowdot> <O>            : "Ọ̑"
+<dead_invertedbreve> <dead_belowdot> <o>            : "ọ̑"
+<dead_invertedbreve> <Oslash>                       : "Ø̑"
+<dead_invertedbreve> <oslash>                       : "ø̑"
+<dead_invertedbreve> <dead_longsolidusoverlay> <O>  : "Ø̑"
+<dead_invertedbreve> <dead_longsolidusoverlay> <o>  : "ø̑"
+
+##################
+# [END OF RULES] #
+##################
