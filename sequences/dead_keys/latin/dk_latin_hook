@@ -1,0 +1,131 @@
+# Latin Alphabet | Hook Above Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic combinations
+<dead_hook> <space>     : "̉"    # Combining hook above
+<dead_hook> <dead_hook> : "̉"    # Combining hook above
+
+
+# Basic precomposed letter combinations
+<dead_hook> <A>  : "Ả"
+<dead_hook> <a>  : "ả"
+<dead_hook> <E>  : "Ẻ"
+<dead_hook> <e>  : "ẻ"
+<dead_hook> <I>  : "Ỉ"
+<dead_hook> <i>  : "ỉ"
+<dead_hook> <O>  : "Ỏ"
+<dead_hook> <o>  : "ỏ"
+<dead_hook> <U>  : "Ủ"
+<dead_hook> <u>  : "ủ"
+<dead_hook> <Y>  : "Ỷ"
+<dead_hook> <y>  : "ỷ"
+
+
+# Precomposed Vietnamese letter combinations (Unidirectional)
+<dead_hook> <Acircumflex>           : "Ẩ"
+<dead_hook> <acircumflex>           : "ẩ"
+<dead_hook> <dead_circumflex> <A>   : "Ẩ"
+<dead_hook> <dead_circumflex> <a>   : "ẩ"
+<dead_hook> <Abreve>                : "Ẳ"
+<dead_hook> <abreve>                : "ẳ"
+<dead_hook> <dead_breve> <A>        : "Ẳ"
+<dead_hook> <dead_breve> <a>        : "ẳ"
+<dead_hook> <Ecircumflex>           : "Ể"
+<dead_hook> <ecircumflex>           : "ể"
+<dead_hook> <dead_circumflex> <E>   : "Ể"
+<dead_hook> <dead_circumflex> <e>   : "ể"
+<dead_hook> <Ocircumflex>           : "Ổ"
+<dead_hook> <ocircumflex>           : "ổ"
+<dead_hook> <dead_circumflex> <O>   : "Ổ"
+<dead_hook> <dead_circumflex> <o>   : "ổ"
+<dead_hook> <Ohorn>                 : "Ở"
+<dead_hook> <ohorn>                 : "ở"
+<dead_hook> <dead_horn> <O>         : "Ở"
+<dead_hook> <dead_horn> <o>         : "ở"
+<dead_hook> <Uhorn>                 : "Ử"
+<dead_hook> <uhorn>                 : "ử"
+<dead_hook> <dead_horn> <U>         : "Ử"
+<dead_hook> <dead_horn> <u>         : "ử"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_en_chef
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_hook> <AE>                 : "Æ̉"
+<dead_hook> <ae>                 : "æ̉"
+<dead_hook> <multiply> <A> <E>   : "Æ̉"
+<dead_hook> <multiply> <a> <e>   : "æ̉"
+<dead_hook> <C>                  : "C̉"
+<dead_hook> <c>                  : "c̉"
+<dead_hook> <D>                  : "D̉"
+<dead_hook> <d>                  : "d̉"
+<dead_hook> <U0190>              : "Ɛ̉"      # Ɛ (Latin Epsilon) + Hook
+<dead_hook> <U025B>              : "ɛ̉"      # ɛ (Latin Epsilon) + Hook
+<dead_hook> <SCHWA>              : "Ə̉"      # Ə (Schwa) + Hook
+<dead_hook> <schwa>              : "ə̉"      # ə (Schwa) + Hook
+<dead_hook> <F>                  : "F̉"
+<dead_hook> <f>                  : "f̉"
+<dead_hook> <G>                  : "G̉"
+<dead_hook> <g>                  : "g̉"
+<dead_hook> <J>                  : "J̉"
+<dead_hook> <j>                  : "j̉"
+<dead_hook> <L>                  : "L̉"
+<dead_hook> <l>                  : "l̉"
+<dead_hook> <M>                  : "M̉"
+<dead_hook> <m>                  : "m̉"
+<dead_hook> <N>                  : "N̉"
+<dead_hook> <n>                  : "n̉"
+<dead_hook> <ENG>                : "Ŋ̉"      # Ŋ + Hook
+<dead_hook> <eng>                : "ŋ̉"      # ŋ + Hook
+<dead_hook> <OE>                 : "Œ̉"
+<dead_hook> <oe>                 : "œ̉"
+<dead_hook> <multiply> <O> <E>   : "Œ̉"
+<dead_hook> <multiply> <o> <e>   : "œ̉"
+<dead_hook> <U0186>              : "Ɔ̉"      # Ɔ + Hook
+<dead_hook> <U0254>              : "ɔ̉"      # ɔ + Hook
+<dead_hook> <UA7CB>              : "Ɤ̉"      # Ɤ (Ram's Horn) + Hook
+<dead_hook> <U0264>              : "ɤ̉"      # ɤ (Ram's Horn) + Hook
+<dead_hook> <P>                  : "P̉"
+<dead_hook> <p>                  : "p̉"
+<dead_hook> <Q>                  : "Q̉"
+<dead_hook> <q>                  : "q̉"
+<dead_hook> <R>                  : "R̉"
+<dead_hook> <r>                  : "r̉"
+<dead_hook> <S>                  : "S̉"
+<dead_hook> <s>                  : "s̉"
+<dead_hook> <T>                  : "T̉"
+<dead_hook> <t>                  : "t̉"
+<dead_hook> <U01B1>              : "Ʊ̉"     # Ʊ (Latin Upsilon) + Hook
+<dead_hook> <U028A>              : "ʊ̉"     # ʊ (Latin Upsilon) + Hook
+<dead_hook> <U019C>              : "Ɯ̉"     # Ɯ (Turned M) + Hook
+<dead_hook> <U026F>              : "ɯ̉"     # ɯ (Turned M) + Hook
+<dead_hook> <U21BA> <M>          : "Ɯ̉"     # Ɯ (Turned M) + Hook
+<dead_hook> <U21BA> <m>          : "ɯ̉"     # ɯ (Turned M) + Hook
+<dead_hook> <V>                  : "V̉"
+<dead_hook> <v>                  : "v̉"
+<dead_hook> <U0245>              : "Ʌ̉"     # Ʌ + Hook
+<dead_hook> <U028C>              : "ʌ̉"     # ʌ + Hook
+<dead_hook> <U21BA> <V>          : "Ʌ̉"     # Ʌ + Hook
+<dead_hook> <U21BA> <v>          : "ʌ̉"     # ʌ + Hook
+<dead_hook> <UA760>              : "Ꝡ̉"     # Ꝡ + Hook
+<dead_hook> <UA761>              : "ꝡ̉"     # ꝡ + Hook
+<dead_hook> <multiply> <V> <Y>   : "Ꝡ̉"     # Ꝡ + Hook
+<dead_hook> <multiply> <v> <y>   : "ꝡ̉"     # ꝡ + Hook
+<dead_hook> <W>                  : "W̉"
+<dead_hook> <w>                  : "w̉"
+<dead_hook> <Z>                  : "Z̉"
+<dead_hook> <z>                  : "z̉"
+
+
+# Composed Hook accent combinations (Not directly encoded in Unicode) (Unidirectional)
+<dead_hook> <Oslash>                         : "Ø̉"
+<dead_hook> <oslash>                         : "ø̉"
+<dead_hook> <dead_longsolidusoverlay> <O>    : "Ø̉"
+<dead_hook> <dead_longsolidusoverlay> <o>    : "ø̉"
+
+##################
+# [END OF RULES] #
+##################
