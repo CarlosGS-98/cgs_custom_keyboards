@@ -684,6 +684,8 @@
 <dead_acute> <dead_ogonek> <omacron>                        : "ǭ́"
 <dead_acute> <dead_ogonek> <dead_macron> <O>                : "Ǭ́"
 <dead_acute> <dead_ogonek> <dead_macron> <o>                : "ǭ́"
+<dead_acute> <dead_ogonek> <U014E>                          : "Ǫ̆́"   # Ǫ + Acute Accent + Breve
+<dead_acute> <dead_ogonek> <U014F>                          : "ǫ̆́"   # ǫ + Acute Accent + Breve
 <dead_acute> <dead_ogonek> <dead_breve> <O>                 : "Ǫ̆́"   # Ǫ + Acute Accent + Breve
 <dead_acute> <dead_ogonek> <dead_breve> <o>                 : "ǫ̆́"   # ǫ + Acute Accent + Breve
 <dead_acute> <U1DCE> <O>                                    : "Ó᷎"
@@ -871,7 +873,7 @@
 <dead_acute> <dead_belowmacron> <dead_macron> <U>           : "Ū̱́"
 <dead_acute> <dead_belowmacron> <dead_macron> <u>           : "ū̱́"
 <dead_acute> <dead_macron> <Ubreve>                         : "Ū̆́"
-<dead_acute> <dead_macron> <abreve>                         : "ū̆́"
+<dead_acute> <dead_macron> <ubreve>                         : "ū̆́"
 <dead_acute> <dead_macron> <dead_breve> <U>                 : "Ū̆́"
 <dead_acute> <dead_macron> <dead_breve> <u>                 : "ū̆́"
 <dead_acute> <dead_belowmacron> <U>                         : "Ú̱"

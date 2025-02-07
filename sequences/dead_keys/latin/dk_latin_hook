@@ -120,7 +120,7 @@
 <dead_hook> <z>                  : "z̉"
 
 
-# Composed Hook accent combinations (Not directly encoded in Unicode) (Unidirectional)
+# Composed hook combinations (Not directly encoded in Unicode) (Unidirectional)
 <dead_hook> <Oslash>                         : "Ø̉"
 <dead_hook> <oslash>                         : "ø̉"
 <dead_hook> <dead_longsolidusoverlay> <O>    : "Ø̉"
