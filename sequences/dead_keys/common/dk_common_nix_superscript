@@ -1,0 +1,33 @@
+# Common Dead Keys | *NIX Superscript Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing superscript characters
+# > using the circumflex accent (<dead_circumflex>),
+# > as it's customary under Unix-like systems.
+#
+
+# Superscript Circumflex (Western Arabic Numerals)
+<dead_circumflex> <0>           : "⁰"
+<dead_circumflex> <1>           : "¹"
+<dead_circumflex> <2>           : "²"
+<dead_circumflex> <3>           : "³"
+<dead_circumflex> <4>           : "⁴"
+<dead_circumflex> <5>           : "⁵"
+<dead_circumflex> <6>           : "⁶"
+<dead_circumflex> <7>           : "⁷"
+<dead_circumflex> <8>           : "⁸"
+<dead_circumflex> <9>           : "⁹"
+
+
+# Superscript Circumflex (ASCII)
+<dead_circumflex> <plus>        : "⁺"
+<dead_circumflex> <minus>       : "⁻"
+<dead_circumflex> <equal>       : "⁼"
+<dead_circumflex> <period>      : "·"
+<dead_circumflex> <parenleft>   : "⁽"
+<dead_circumflex> <parenright>  : "⁾"
+
+##################
+# [END OF RULES] #
+##################

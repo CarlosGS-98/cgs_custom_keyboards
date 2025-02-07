@@ -1,0 +1,32 @@
+# Common Dead Keys | *NIX Subscript Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing subscript characters
+# > using the caron/háček (<dead_caron>),
+# > as it's customary under Unix-like systems.
+#
+
+# Subscript Caron (Western Arabic Numerals)
+<dead_caron> <0>           : "₀"
+<dead_caron> <1>           : "₁"
+<dead_caron> <2>           : "₂"
+<dead_caron> <3>           : "₃"
+<dead_caron> <4>           : "₄"
+<dead_caron> <5>           : "₅"
+<dead_caron> <6>           : "₆"
+<dead_caron> <7>           : "₇"
+<dead_caron> <8>           : "₈"
+<dead_caron> <9>           : "₉"
+
+
+# Subscript Circumflex (ASCII)
+<dead_caron> <plus>        : "₊"
+<dead_caron> <minus>       : "₋"
+<dead_caron> <equal>       : "₌"
+<dead_caron> <parenleft>   : "₍"
+<dead_caron> <parenright>  : "₎"
+
+##################
+# [END OF RULES] #
+##################

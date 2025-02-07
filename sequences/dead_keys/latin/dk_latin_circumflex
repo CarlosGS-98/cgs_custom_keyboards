@@ -88,25 +88,6 @@
 <dead_circumflex> <dead_belowdot> <o>   : "ộ"
 
 
-# Special Circumflex Combinations (Superscript)
-<dead_circumflex> <0>           : "⁰"
-<dead_circumflex> <1>           : "¹"
-<dead_circumflex> <2>           : "²"
-<dead_circumflex> <3>           : "³"
-<dead_circumflex> <4>           : "⁴"
-<dead_circumflex> <5>           : "⁵"
-<dead_circumflex> <6>           : "⁶"
-<dead_circumflex> <7>           : "⁷"
-<dead_circumflex> <8>           : "⁸"
-<dead_circumflex> <9>           : "⁹"
-<dead_circumflex> <plus>        : "⁺"
-<dead_circumflex> <minus>       : "⁻"
-<dead_circumflex> <equal>       : "⁼"
-<dead_circumflex> <period>      : "·"
-<dead_circumflex> <parenleft>   : "⁽"
-<dead_circumflex> <parenright>  : "⁾"
-
-
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe
 #
@@ -395,16 +376,20 @@
 <dead_circumflex> <dead_belowdiaeresis> <o>                     : "ô̤"
 <dead_circumflex> <dead_belowdiaeresis> <dead_acute> <O>        : "Ố̤"
 <dead_circumflex> <dead_belowdiaeresis> <dead_acute> <o>        : "ố̤"
+<dead_circumflex> <dead_belowdiaeresis> <dead_caron> <O>        : "Ô̤̌"
+<dead_circumflex> <dead_belowdiaeresis> <dead_caron> <o>        : "ô̤̌"
 <dead_circumflex> <Otilde>                                      : "Õ̂"
 <dead_circumflex> <otilde>                                      : "õ̂"
 <dead_circumflex> <dead_tilde> <O>                              : "Õ̂"
 <dead_circumflex> <dead_tilde> <o>                              : "õ̂"
 <dead_circumflex> <dead_cedilla> <O>                            : "Ô̧"
 <dead_circumflex> <dead_cedilla> <o>                            : "ô̧"
-<dead_circumflex> <U01D1>                                       : "Ô̌"
-<dead_circumflex> <U01D2>                                       : "ô̌"
+<dead_circumflex> <Ocaron>                                      : "Ô̌"
+<dead_circumflex> <ocaron>                                      : "ô̌"
 <dead_circumflex> <dead_caron> <O>                              : "Ô̌"
 <dead_circumflex> <dead_caron> <o>                              : "ô̌"
+<dead_circumflex> <dead_caron> <dead_belowdiaeresis> <O>        : "Ô̤̌"
+<dead_circumflex> <dead_caron> <dead_belowdiaeresis> <o>        : "ô̤̌"
 <dead_circumflex> <U01EA>                                       : "Ǫ̂"   # Ǫ + Circumflex
 <dead_circumflex> <U01EB>                                       : "ǫ̂"   # ǫ + Circumflex
 <dead_circumflex> <dead_ogonek> <O>                             : "Ǫ̂"
@@ -475,6 +460,10 @@
 <dead_circumflex> <dead_belowdiaeresis> <u>                     : "ṳ̂"
 <dead_circumflex> <dead_belowdiaeresis> <dead_acute> <U>        : "Ṳ̂́"
 <dead_circumflex> <dead_belowdiaeresis> <dead_acute> <u>        : "ṳ̂́"
+<dead_circumflex> <dead_belowdiaeresis> <U01D3>                 : "Ṳ̂̌"
+<dead_circumflex> <dead_belowdiaeresis> <U01D4>                 : "ṳ̂̌"
+<dead_circumflex> <dead_belowdiaeresis> <dead_caron> <U>        : "Ṳ̂̌"
+<dead_circumflex> <dead_belowdiaeresis> <dead_caron> <u>        : "ṳ̂̌"
 <dead_circumflex> <Utilde>                                      : "Ũ̂"
 <dead_circumflex> <utilde>                                      : "ũ̂"
 <dead_circumflex> <dead_tilde> <U>                              : "Ũ̂"
@@ -489,6 +478,10 @@
 <dead_circumflex> <U01D4>                                       : "û̌"   # û + Caron
 <dead_circumflex> <dead_caron> <U>                              : "Û̌"
 <dead_circumflex> <dead_caron> <u>                              : "û̌"
+<dead_circumflex> <dead_caron> <U1E72>                          : "Ṳ̂̌"    # Ṳ + Circumflex + Caron
+<dead_circumflex> <dead_caron> <U1E73>                          : "ṳ̂̌"    # ṳ + Circumflex
+<dead_circumflex> <dead_caron> <dead_belowdiaeresis> <U>        : "Ṳ̂̌"
+<dead_circumflex> <dead_caron> <dead_belowdiaeresis> <u>        : "ṳ̂̌"
 <dead_circumflex> <Uogonek>                                     : "Ų̂"
 <dead_circumflex> <uogonek>                                     : "ų̂"
 <dead_circumflex> <dead_ogonek> <U>                             : "Ų̂"

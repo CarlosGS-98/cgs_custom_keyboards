@@ -465,7 +465,7 @@
 <dead_acute> <U01F4>                                        : "Ǵ̄"
 <dead_acute> <U01F5>                                        : "ǵ̄"
 <dead_acute> <dead_macron> <G>                              : "Ǵ̄"
-<dead_acute> <dead_caron> <g>                               : "ǵ̄"
+<dead_acute> <dead_macron> <g>                              : "ǵ̄"
 <dead_acute> <dead_tilde> <UA78D>                           : "Ɥ̃́"
 <dead_acute> <dead_tilde> <U0265>                           : "ɥ̃́"
 <dead_acute> <dead_tilde> <U21BA> <H>                       : "Ɥ̃́"
