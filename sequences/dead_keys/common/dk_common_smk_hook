@@ -1,0 +1,15 @@
+# Common Dead Keys | Hook Above Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the hook above
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_hook> <space>     : "̉"    # Combining hook above
+<dead_hook> <dead_hook> : "̉"    # Combining hook above
+
+##################
+# [END OF RULES] #
+##################

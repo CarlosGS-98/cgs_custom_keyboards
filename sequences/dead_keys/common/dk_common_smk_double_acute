@@ -1,0 +1,17 @@
+# Common Dead Keys | Double Acute Accent Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the double acute accent
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_doubleacute> <space>              : "̋"    # Combining double acute accent
+<dead_doubleacute> <dead_doubleacute>   : "˝"   # Regular spacing double acute accent
+<dead_doubleacute> <less>               : "˶"   # Modifier middle double acute
+<dead_doubleacute> <greater>            : "˶"   # Modifier middle double acute
+
+##################
+# [END OF RULES] #
+##################

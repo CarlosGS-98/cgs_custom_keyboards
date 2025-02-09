@@ -1,0 +1,18 @@
+# Common Dead Keys | Acute Accent Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the acute accent/tonos/oxia
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_acute> <space>        : "́"    # Combining acute accent
+<dead_acute> <dead_acute>   : "´"   # Regular spacing acute accent
+<dead_acute> <less>         : "̗"    # Combining acute accent below
+<dead_acute> <greater>      : "́"    # Combining acute tone mark
+<dead_acute> <comma>        : "ˊ"   # Modifier letter acute accent
+
+##################
+# [END OF RULES] #
+##################

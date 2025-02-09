@@ -1,13 +1,6 @@
 # Latin Alphabet | Circumflex Accent Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Basic combinations
-<dead_circumflex> <space>           : "̂"    # Combining circumflex accent
-<dead_circumflex> <dead_circumflex> : "^"   # Caret
-<dead_circumflex> <less>            : "̭"    # Combining circumflex accent below
-<dead_circumflex> <greater>         : "ˆ"   # Modifier circumflex accent 
-
-
 # Basic precomposed letter combinations
 <dead_circumflex> <A>   : "Â"
 <dead_circumflex> <a>   : "â"

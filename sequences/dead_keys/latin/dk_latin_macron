@@ -1,17 +1,6 @@
 # Latin Alphabet | Macron Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Basic combinations
-<dead_macron> <space>        : "̄"    # Combining macron
-<dead_macron> <dead_macron>  : "¯"   # Regular spacing macron
-<dead_macron> <less>         : "̱"    # Combining macron below
-<dead_macron> <greater>      : "͞"    # Combining double macron above
-<dead_macron> <comma>        : "ˉ"   # Modifier letter macron
-<dead_macron> <period>       : "͟"    # Combining double macron below
-<dead_macron> <minus>        : "᷌"    # Combining macron-breve
-<dead_macron> <underscore>   : "᷋"    # Combining breve-macron
-
-
 # Basic precomposed letter combinations
 <dead_macron> <A>                   : "Ā"
 <dead_macron> <a>                   : "ā"

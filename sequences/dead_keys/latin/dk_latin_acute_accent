@@ -1,14 +1,6 @@
 # Latin Alphabet | Acute Accent Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Basic combinations
-<dead_acute> <space>        : "́"    # Combining acute accent
-<dead_acute> <dead_acute>   : "´"   # Regular spacing acute accent
-<dead_acute> <less>         : "̗"    # Combining acute accent below
-<dead_acute> <greater>      : "́"    # Combining acute tone mark
-<dead_acute> <comma>        : "ˊ"   # Modifier letter acute accent
-
-
 # Basic precomposed letter combinations
 <dead_acute> <A>        : "Á"
 <dead_acute> <a>        : "á"

@@ -1,0 +1,20 @@
+# Common Dead Keys | Inverted Breve Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the inverted breve
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_invertedbreve> <space>                : "̉"    # Combining inverted breve
+<dead_invertedbreve> <dead_invertedbreve>   : "̉"    # Combining inverted breve
+<dead_invertedbreve> <less>                 : "̯"    # Combining lower inverted breve
+<dead_invertedbreve> <greater>              : "͡"    # Combining double upper inverted breve
+<dead_invertedbreve> <comma>                : "⁀"   # Character tie
+<dead_invertedbreve> <semicolon>            : "⁔"   # Undertie below
+<dead_invertedbreve> <period>               : "᷼"    # Combining double lower inverted breve
+
+##################
+# [END OF RULES] #
+##################

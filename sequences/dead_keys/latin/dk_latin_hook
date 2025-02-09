@@ -1,11 +1,6 @@
 # Latin Alphabet | Hook Above Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Basic combinations
-<dead_hook> <space>     : "̉"    # Combining hook above
-<dead_hook> <dead_hook> : "̉"    # Combining hook above
-
-
 # Basic precomposed letter combinations
 <dead_hook> <A>  : "Ả"
 <dead_hook> <a>  : "ả"

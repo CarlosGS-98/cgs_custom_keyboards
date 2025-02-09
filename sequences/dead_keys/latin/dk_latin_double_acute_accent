@@ -1,13 +1,6 @@
 # Latin Alphabet | Double Acute Accent Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Basic combinations
-<dead_doubleacute> <space>              : "̋"    # Combining double acute accent
-<dead_doubleacute> <dead_doubleacute>   : "˝"   # Regular spacing double acute accent
-<dead_doubleacute> <less>               : "˶"   # Modifier middle double acute
-<dead_doubleacute> <greater>            : "˶"   # Modifier middle double acute
-
-
 # Basic precomposed letter combinations
 <dead_doubleacute> <O>  : "Ő"
 <dead_doubleacute> <o>  : "ő"

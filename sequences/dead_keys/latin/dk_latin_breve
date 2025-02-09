@@ -1,15 +1,6 @@
 # Latin Alphabet | Breve Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Basic combinations
-<dead_breve> <space>        : "̆"    # Combining breve
-<dead_breve> <dead_breve>   : "˘"   # Regular spacing breve
-<dead_breve> <less>         : "̮"    # Combining breve below
-<dead_breve> <greater>      : "͝"    # Combining double breve above
-<dead_breve> <comma>        : "‿"   # Undertie
-<dead_breve> <period>       : "͜"    # Combining double breve below
-
-
 # Basic precomposed letter combinations
 <dead_breve> <A>    : "Ă"
 <dead_breve> <a>    : "ă"
