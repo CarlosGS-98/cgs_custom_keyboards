@@ -142,6 +142,10 @@
 <dead_doubleacute> <uogonek>                        : "ų̋"
 <dead_doubleacute> <dead_ogonek> <U>                : "Ų̋"
 <dead_doubleacute> <dead_ogonek> <u>                : "ų̋"
+<dead_doubleacute> <Umacron>                        : "Ū̋"
+<dead_doubleacute> <umacron>                        : "ū̋"
+<dead_doubleacute> <dead_macron> <U>                : "Ū̋"
+<dead_doubleacute> <dead_macron> <u>                : "ū̋"
 <dead_doubleacute> <U0244>                          : "Ʉ̋"   # Ʉ + Double Acute
 <dead_doubleacute> <U0289>                          : "ʉ̋"   # ʉ + Double Acute
 <dead_doubleacute> <dead_stroke> <U>                : "Ʉ̋"   # Ʉ + Double Acute

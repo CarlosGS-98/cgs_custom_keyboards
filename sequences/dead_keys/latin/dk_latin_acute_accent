@@ -462,10 +462,10 @@
 <dead_acute> <dead_tilde> <U01DD>                           : "ǝ̃́"
 <dead_acute> <dead_tilde> <U21BA> <E>                       : "Ǝ̃́"
 <dead_acute> <dead_tilde> <U21BA> <e>                       : "ǝ̃́"
-<dead_acute> <U01F4>                                        : "Ǵ̄"
-<dead_acute> <U01F5>                                        : "ǵ̄"
-<dead_acute> <dead_macron> <G>                              : "Ǵ̄"
-<dead_acute> <dead_macron> <g>                              : "ǵ̄"
+<dead_acute> <U1E20>                                        : "Ḡ́"   # Ḡ + Acute
+<dead_acute> <U1E21>                                        : "ḡ́"   # ḡ + Acute  
+<dead_acute> <dead_macron> <G>                              : "Ḡ́"
+<dead_acute> <dead_macron> <g>                              : "ḡ́"
 <dead_acute> <dead_tilde> <UA78D>                           : "Ɥ̃́"
 <dead_acute> <dead_tilde> <U0265>                           : "ɥ̃́"
 <dead_acute> <dead_tilde> <U21BA> <H>                       : "Ɥ̃́"
