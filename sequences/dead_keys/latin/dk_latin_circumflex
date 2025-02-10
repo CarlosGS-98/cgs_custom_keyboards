@@ -507,6 +507,10 @@
 <dead_circumflex> <ubelowdot>                                   : "ụ̂"
 <dead_circumflex> <dead_belowdot> <U>                           : "Ụ̂"
 <dead_circumflex> <dead_belowdot> <u>                           : "ụ̂"
+<dead_circumflex> <Ydiaeresis>                                  : "Ÿ̂"
+<dead_circumflex> <ydiaeresis>                                  : "ÿ̂"
+<dead_circumflex> <dead_diaeresis> <Y>                          : "Ÿ̂"
+<dead_circumflex> <dead_diaeresis> <y>                          : "ÿ̂"
 
 ##################
 # [END OF RULES] #

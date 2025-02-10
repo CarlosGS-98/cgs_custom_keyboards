@@ -1,0 +1,581 @@
+# Latin Alphabet | Diaeresis Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_diaeresis> <A>    : "Ä"
+<dead_diaeresis> <a>    : "ä"
+<dead_diaeresis> <E>    : "Ë"
+<dead_diaeresis> <e>    : "ë"
+<dead_diaeresis> <H>    : "Ḧ"
+<dead_diaeresis> <h>    : "ḧ"
+<dead_diaeresis> <I>    : "Ï"
+<dead_diaeresis> <i>    : "ï"
+<dead_diaeresis> <O>    : "Ö"
+<dead_diaeresis> <o>    : "ö"
+<dead_diaeresis> <t>    : "ẗ"
+<dead_diaeresis> <U>    : "Ü"
+<dead_diaeresis> <u>    : "ü"
+<dead_diaeresis> <W>    : "Ẅ"
+<dead_diaeresis> <w>    : "ẅ"
+<dead_diaeresis> <X>    : "Ẍ"
+<dead_diaeresis> <x>    : "ẍ"
+<dead_diaeresis> <Y>    : "Ÿ"
+<dead_diaeresis> <y>    : "ÿ"
+
+
+# Other precomposed diaeresis combinations (Unidirectional)
+<dead_diaeresis> <Iacute>           : "Ḯ"
+<dead_diaeresis> <iacute>           : "ḯ"
+<dead_diaeresis> <dead_acute> <I>   : "Ḯ"
+<dead_diaeresis> <dead_acute> <i>   : "ḯ"
+<dead_diaeresis> <Otilde>           : "Ṏ"
+<dead_diaeresis> <otilde>           : "ṏ"
+<dead_diaeresis> <dead_tilde> <O>   : "Ṏ"
+<dead_diaeresis> <dead_tilde> <o>   : "ṏ"
+<dead_diaeresis> <Uacute>           : "Ǘ"
+<dead_diaeresis> <uacute>           : "ǘ"
+<dead_diaeresis> <dead_acute> <U>   : "Ǘ"
+<dead_diaeresis> <dead_acute> <u>   : "ǘ"
+<dead_diaeresis> <Ugrave>           : "Ǜ"
+<dead_diaeresis> <ugrave>           : "ǜ"
+<dead_diaeresis> <dead_grave> <U>   : "Ǜ"
+<dead_diaeresis> <dead_grave> <u>   : "ǜ"
+<dead_diaeresis> <U01D3>            : "Ǚ"   # Ǔ + Diaeresis
+<dead_diaeresis> <U01D4>            : "ǚ"   # ǔ + Diaeresis
+<dead_diaeresis> <dead_caron> <U>   : "Ǚ"
+<dead_diaeresis> <dead_caron> <u>   : "ǚ"
+<dead_diaeresis> <Umacron>          : "Ǖ"
+<dead_diaeresis> <umacron>          : "ǖ"
+<dead_diaeresis> <dead_macron> <U>  : "Ǖ"
+<dead_diaeresis> <dead_macron> <u>  : "ǖ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_diaeresis> <U2C6F>            : "Ɐ̈"      # Ɐ + Diaeresis
+<dead_diaeresis> <U0250>            : "ɐ̈"      # ɐ + Diaeresis
+<dead_diaeresis> <U21BA> <A>        : "Ɐ̈"      # Ɐ + Diaeresis
+<dead_diaeresis> <U21BA> <a>        : "ɐ̈"      # ɐ + Diaeresis
+<dead_diaeresis> <UA732>            : "Ꜳ̈"     # Ꜳ + Diaeresis
+<dead_diaeresis> <UA733>            : "ꜳ̈"      # ꜳ + Diaeresis
+<dead_diaeresis> <multiply> <A> <A> : "Ꜳ̈"     # Ꜳ + Diaeresis
+<dead_diaeresis> <multiply> <a> <a> : "ꜳ̈"      # ꜳ + Diaeresis
+<dead_diaeresis> <AE>               : "Æ̈"
+<dead_diaeresis> <ae>               : "æ̈"
+<dead_diaeresis> <multiply> <A> <E> : "Æ̈"
+<dead_diaeresis> <multiply> <a> <e> : "æ̈"
+<dead_diaeresis> <UA734>            : "Ꜵ̈"     # Ꜵ + Diaeresis
+<dead_diaeresis> <UA735>            : "ꜵ̈"      # ꜵ + Diaeresis
+<dead_diaeresis> <multiply> <A> <O> : "Ꜵ̈"     # Ꜵ + Diaeresis
+<dead_diaeresis> <multiply> <a> <o> : "ꜵ̈"      # ꜵ + Diaeresis
+<dead_diaeresis> <UA736>            : "Ꜷ̈"     # Ꜷ + Diaeresis
+<dead_diaeresis> <UA737>            : "ꜷ̈"      # ꜷ + Diaeresis
+<dead_diaeresis> <multiply> <A> <U> : "Ꜷ̈"     # Ꜷ + Diaeresis
+<dead_diaeresis> <multiply> <a> <u> : "ꜷ̈"      # ꜷ + Diaeresis
+<dead_diaeresis> <UA738>            : "Ꜹ̈"     # Ꜹ + Diaeresis
+<dead_diaeresis> <UA739>            : "ꜹ̈"      # ꜹ + Diaeresis
+<dead_diaeresis> <multiply> <A> <V> : "Ꜹ̈"     # Ꜹ + Diaeresis
+<dead_diaeresis> <multiply> <a> <v> : "ꜹ̈"      # ꜹ + Diaeresis
+<dead_diaeresis> <U2C6D>            : "Ɑ̈"      # Ɑ (Latin Alpha) + Diaeresis
+<dead_diaeresis> <U0251>            : "ɑ̈"      # ɑ (Latin Alpha) + Diaeresis
+<dead_diaeresis> <B>                : "B̈"
+<dead_diaeresis> <b>                : "b̈"
+<dead_diaeresis> <C>                : "C̈"
+<dead_diaeresis> <c>                : "c̈"
+<dead_diaeresis> <D>                : "D̈"
+<dead_diaeresis> <d>                : "d̈"
+<dead_diaeresis> <U0190>            : "Ɛ̈"      # Ɛ (Latin Epsilon) + Diaeresis
+<dead_diaeresis> <U025B>            : "ɛ̈"      # ɛ (Latin Epsilon) + Diaeresis
+<dead_diaeresis> <SCHWA>            : "Ə̈"      # Ə (Schwa) + Diaeresis
+<dead_diaeresis> <schwa>            : "ə̈"      # ə (Schwa) + Diaeresis
+<dead_diaeresis> <U018E>            : "Ǝ̈"      # Ǝ (Turned E) + Diaeresis
+<dead_diaeresis> <U01DD>            : "ǝ̈"      # ǝ (Turned E) + Diaeresis
+<dead_diaeresis> <U21BA> <E>        : "Ǝ̈"      # Ǝ (Turned E) + Diaeresis
+<dead_diaeresis> <U21BA> <e>        : "ǝ̈"      # ǝ (Turned E) + Diaeresis
+<dead_diaeresis> <F>                : "F̈"
+<dead_diaeresis> <f>                : "f̈"
+<dead_diaeresis> <H>                : "Ḧ"
+<dead_diaeresis> <h>                : "ḧ"
+<dead_diaeresis> <UA78D>            : "Ɥ̈"      # Ɥ (Turned H) + Diaeresis
+<dead_diaeresis> <U0265>            : "ɥ̈"      # ɥ (Turned H) + Diaeresis
+<dead_diaeresis> <U21BA> <H>        : "Ɥ̈"      # Ɥ (Turned H) + Diaeresis
+<dead_diaeresis> <U21BA> <h>        : "ɥ̈"      # ɥ (Turned H) + Diaeresis
+<dead_diaeresis> <U0196>            : "Ɩ̈"      # Ɩ (Latin Iota) + Diaeresis
+<dead_diaeresis> <U0269>            : "ɩ̈"      # ɩ (Latin Iota) + Diaeresis
+<dead_diaeresis> <J>                : "J̈"
+<dead_diaeresis> <j>                : "j̈"
+<dead_diaeresis> <K>                : "K̈"
+<dead_diaeresis> <k>                : "k̈"
+<dead_diaeresis> <L>                : "L̈"
+<dead_diaeresis> <l>                : "l̈"
+<dead_diaeresis> <M>                : "M̈"
+<dead_diaeresis> <m>                : "m̈"
+<dead_diaeresis> <N>                : "N̈"
+<dead_diaeresis> <n>                : "n̈"
+<dead_diaeresis> <ENG>              : "Ŋ̈"      # Ŋ + Diaeresis
+<dead_diaeresis> <eng>              : "ŋ̈"      # ŋ + Diaeresis
+<dead_diaeresis> <OE>               : "Œ̈"
+<dead_diaeresis> <oe>               : "œ̈"
+<dead_diaeresis> <multiply> <O> <E> : "Œ̈"
+<dead_diaeresis> <multiply> <o> <e> : "œ̈"
+<dead_diaeresis> <UA74E>            : "Ꝏ̈"     # Ꝏ + Diaeresis
+<dead_diaeresis> <UA74F>            : "ꝏ̈"     # ꝏ + Diaeresis
+<dead_diaeresis> <multiply> <O> <O> : "Ꝏ̈"     # Ꝏ + Diaeresis
+<dead_diaeresis> <multiply> <o> <o> : "ꝏ̈"     # ꝏ + Diaeresis
+<dead_diaeresis> <U0186>            : "Ɔ̈"      # Ɔ + Diaeresis
+<dead_diaeresis> <U0254>            : "ɔ̈"      # ɔ + Diaeresis
+<dead_diaeresis> <UA7CB>            : "Ɤ̈"      # Ɤ (Ram's Horn) + Diaeresis
+<dead_diaeresis> <U0264>            : "ɤ̈"      # ɤ (Ram's Horn) + Diaeresis
+<dead_diaeresis> <P>                : "P̈"
+<dead_diaeresis> <p>                : "p̈"
+<dead_diaeresis> <Q>                : "Q̈"
+<dead_diaeresis> <q>                : "q̈"
+<dead_diaeresis> <R>                : "R̈"
+<dead_diaeresis> <r>                : "r̈"
+<dead_diaeresis> <S>                : "S̈"
+<dead_diaeresis> <s>                : "s̈"
+<dead_diaeresis> <T>                : "T̈"
+<dead_diaeresis> <U01B1>            : "Ʊ̈"     # Ʊ (Latin Upsilon) + Diaeresis
+<dead_diaeresis> <U028A>            : "ʊ̈"     # ʊ (Latin Upsilon) + Diaeresis
+<dead_diaeresis> <U019C>            : "Ɯ̈"     # Ɯ (Turned M) + Diaeresis
+<dead_diaeresis> <U026F>            : "ɯ̈"     # ɯ (Turned M) + Diaeresis
+<dead_diaeresis> <U21BA> <M>        : "Ɯ̈"     # Ɯ (Turned M) + Diaeresis
+<dead_diaeresis> <U21BA> <m>        : "ɯ̈"     # ɯ (Turned M) + Diaeresis
+<dead_diaeresis> <V>                : "V̈"
+<dead_diaeresis> <v>                : "v̈"
+<dead_diaeresis> <U0245>            : "Ʌ̈"     # Ʌ + Diaeresis
+<dead_diaeresis> <U028C>            : "ʌ̈"     # ʌ + Diaeresis
+<dead_diaeresis> <U21BA> <V>        : "Ʌ̈"     # Ʌ + Diaeresis
+<dead_diaeresis> <U21BA> <v>        : "ʌ̈"     # ʌ + Diaeresis
+<dead_diaeresis> <U01B2>            : "Ʋ̈"     # Ʋ + Diaeresis
+<dead_diaeresis> <U028B>            : "ʋ̈"     # ʋ + Diaeresis
+<dead_diaeresis> <UA760>            : "Ꝡ̈"     # Ꝡ + Diaeresis
+<dead_diaeresis> <UA761>            : "ꝡ̈"     # ꝡ + Diaeresis
+<dead_diaeresis> <multiply> <V> <Y> : "Ꝡ̈"
+<dead_diaeresis> <multiply> <v> <y> : "ꝡ̈"
+<dead_diaeresis> <Z>                : "Z̈"
+<dead_diaeresis> <z>                : "z̈"
+<dead_diaeresis> <EZH>              : "Ʒ̈"     # Ʒ + Diaeresis
+<dead_diaeresis> <ezh>              : "ʒ̈"     # ʒ + Diaeresis
+
+
+# Composed diaeresis combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+#
+# [CUSTOM DEAD KEYS]:
+# - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
+#
+<dead_diaeresis> <Aacute>                                       : "Ä́"
+<dead_diaeresis> <aacute>                                       : "ä́"
+<dead_diaeresis> <dead_acute> <A>                               : "Ä́"
+<dead_diaeresis> <dead_acute> <a>                               : "ä́"
+<dead_diaeresis> <dead_acute> <Aogonek>                         : "Ą̈́"
+<dead_diaeresis> <dead_acute> <aogonek>                         : "ą̈́"
+<dead_diaeresis> <dead_acute> <dead_ogonek> <A>                 : "Ą̈́"
+<dead_diaeresis> <dead_acute> <dead_ogonek> <a>                 : "ą̈́"
+<dead_diaeresis> <Agrave>                                       : "Ä̀"
+<dead_diaeresis> <agrave>                                       : "ä̀"
+<dead_diaeresis> <dead_grave> <A>                               : "Ä̀"
+<dead_diaeresis> <dead_grave> <a>                               : "ä̀"
+<dead_diaeresis> <dead_grave> <Aogonek>                         : "Ą̈̀"
+<dead_diaeresis> <dead_grave> <aogonek>                         : "ą̈̀"
+<dead_diaeresis> <dead_grave> <dead_ogonek> <A>                 : "Ą̈̀"
+<dead_diaeresis> <dead_grave> <dead_ogonek> <a>                 : "ą̈̀"
+<dead_diaeresis> <Acircumflex>                                  : "Ä̂"
+<dead_diaeresis> <acircumflex>                                  : "ä̂"
+<dead_diaeresis> <dead_circumflex> <A>                          : "Ä̂"
+<dead_diaeresis> <dead_circumflex> <a>                          : "ä̂"
+<dead_diaeresis> <dead_circumflex> <Aogonek>                    : "Ą̈̂"
+<dead_diaeresis> <dead_circumflex> <aogonek>                    : "ą̈̂"
+<dead_diaeresis> <dead_circumflex> <dead_ogonek> <A>            : "Ą̈̂"
+<dead_diaeresis> <dead_circumflex> <dead_ogonek> <a>            : "ą̈̂"
+<dead_diaeresis> <Atilde>                                       : "Ã̈"
+<dead_diaeresis> <atilde>                                       : "ã̈"
+<dead_diaeresis> <dead_tilde> <A>                               : "Ã̈"
+<dead_diaeresis> <dead_tilde> <a>                               : "ã̈"
+<dead_diaeresis> <dead_cedilla> <A>                             : "Ä̧"
+<dead_diaeresis> <dead_cedilla> <a>                             : "ä̧"
+<dead_diaeresis> <U01CD>                                        : "Ä̌"   # Ǎ + Diaeresis
+<dead_diaeresis> <U01CE>                                        : "ä̌"   # ǎ + Diaeresis
+<dead_diaeresis> <dead_caron> <A>                               : "Ä̌"
+<dead_diaeresis> <dead_caron> <a>                               : "ä̌"
+<dead_diaeresis> <dead_caron> <Aogonek>                         : "Ą̈̌"
+<dead_diaeresis> <dead_caron> <aogonek>                         : "ą̈̌"
+<dead_diaeresis> <dead_caron> <dead_ogonek> <A>                 : "Ą̈̌"
+<dead_diaeresis> <dead_caron> <dead_ogonek> <a>                 : "ą̈̌"
+<dead_diaeresis> <Aogonek>                                      : "Ą̈"
+<dead_diaeresis> <aogonek>                                      : "ą̈"
+<dead_diaeresis> <dead_ogonek> <A>                              : "Ą̈"
+<dead_diaeresis> <dead_ogonek> <a>                              : "ą̈"
+<dead_diaeresis> <dead_ogonek> <Aacute>                         : "Ą̈́"
+<dead_diaeresis> <dead_ogonek> <aacute>                         : "ą̈́"
+<dead_diaeresis> <dead_ogonek> <dead_acute> <A>                 : "Ą̈́"
+<dead_diaeresis> <dead_ogonek> <dead_acute> <a>                 : "ą̈́"
+<dead_diaeresis> <dead_ogonek> <Agrave>                         : "Ą̈̀"
+<dead_diaeresis> <dead_ogonek> <agrave>                         : "ą̈̀"
+<dead_diaeresis> <dead_ogonek> <dead_grave> <A>                 : "Ą̈̀"
+<dead_diaeresis> <dead_ogonek> <dead_grave> <a>                 : "ą̈̀"
+<dead_diaeresis> <dead_ogonek> <Acircumflex>                    : "Ą̈̂"
+<dead_diaeresis> <dead_ogonek> <acircumflex>                    : "ą̈̂"
+<dead_diaeresis> <dead_ogonek> <dead_circumflex> <A>            : "Ą̈̂"
+<dead_diaeresis> <dead_ogonek> <dead_circumflex> <a>            : "ą̈̂"
+<dead_diaeresis> <dead_ogonek> <U01CD>                          : "Ą̈̌"   # Ǎ + Diaeresis + Ogonek
+<dead_diaeresis> <dead_ogonek> <U01CE>                          : "ą̈̌"   # ǎ + Diaeresis + Ogonek
+<dead_diaeresis> <dead_ogonek> <dead_caron> <A>                 : "Ą̈̌"
+<dead_diaeresis> <dead_ogonek> <dead_caron> <a>                 : "ą̈̌"
+<dead_diaeresis> <dead_ogonek> <Amacron>                        : "Ą̈̄"
+<dead_diaeresis> <dead_ogonek> <amacron>                        : "ą̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <A>                : "Ą̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <a>                : "ą̈̄"
+<dead_diaeresis> <Amacron>                                      : "Ā̈"
+<dead_diaeresis> <amacron>                                      : "ā̈"
+<dead_diaeresis> <dead_macron> <A>                              : "Ā̈"
+<dead_diaeresis> <dead_macron> <a>                              : "ā̈"
+<dead_diaeresis> <dead_macron> <Aogonek>                        : "Ą̈̄"
+<dead_diaeresis> <dead_macron> <aogonek>                        : "ą̈̄"
+<dead_diaeresis> <dead_macron> <dead_ogonek> <A>                : "Ą̈̄"
+<dead_diaeresis> <dead_macron> <dead_ogonek> <a>                : "ą̈̄"
+<dead_diaeresis> <Abreve>                                       : "Ă̈"
+<dead_diaeresis> <abreve>                                       : "ă̈"
+<dead_diaeresis> <dead_diaeresis> <A>                           : "Ă̈"
+<dead_diaeresis> <dead_diaeresis> <a>                           : "ă̈"
+<dead_diaeresis> <Abelowdot>                                    : "Ạ̈"
+<dead_diaeresis> <abelowdot>                                    : "ạ̈"
+<dead_diaeresis> <dead_belowdot> <A>                            : "Ạ̈"
+<dead_diaeresis> <dead_belowdot> <a>                            : "ạ̈"
+<dead_diaeresis> <U023A>                                        : "Ⱥ̈"   # Ⱥ + Diaeresis
+<dead_diaeresis> <U2C65>                                        : "ⱥ̈"   # ⱥ + Diaeresis
+<dead_diaeresis> <dead_longsolidusoverlay> <A>                  : "Ⱥ̈"
+<dead_diaeresis> <dead_longsolidusoverlay> <a>                  : "ⱥ̈"
+<dead_diaeresis> <Eacute>                                       : "Ë́"
+<dead_diaeresis> <eacute>                                       : "ë́"
+<dead_diaeresis> <dead_acute> <E>                               : "Ë́"
+<dead_diaeresis> <dead_acute> <e>                               : "ë́"
+<dead_diaeresis> <dead_acute> <Eogonek>                         : "Ę̈́"
+<dead_diaeresis> <dead_acute> <eogonek>                         : "ę̈́"
+<dead_diaeresis> <dead_acute> <dead_ogonek> <E>                 : "Ę̈́"
+<dead_diaeresis> <dead_acute> <dead_ogonek> <e>                 : "ę̈́"
+<dead_diaeresis> <Egrave>                                       : "Ë̀"
+<dead_diaeresis> <egrave>                                       : "ë̀"
+<dead_diaeresis> <dead_grave> <E>                               : "Ë̀"
+<dead_diaeresis> <dead_grave> <e>                               : "ë̀"
+<dead_diaeresis> <dead_grave> <Eogonek>                         : "Ę̈̀"
+<dead_diaeresis> <dead_grave> <eogonek>                         : "ę̈̀"
+<dead_diaeresis> <dead_grave> <dead_ogonek> <E>                 : "Ę̈̀"
+<dead_diaeresis> <dead_grave> <dead_ogonek> <e>                 : "ę̈̀"
+<dead_diaeresis> <Ecircumflex>                                  : "Ë̂"
+<dead_diaeresis> <ecircumflex>                                  : "ë̂"
+<dead_diaeresis> <dead_circumflex> <E>                          : "Ë̂"
+<dead_diaeresis> <dead_circumflex> <e>                          : "ë̂"
+<dead_diaeresis> <dead_circumflex> <Eogonek>                    : "Ę̈̂"
+<dead_diaeresis> <dead_circumflex> <eogonek>                    : "ę̈̂"
+<dead_diaeresis> <dead_circumflex> <dead_ogonek> <E>            : "Ę̈̂"
+<dead_diaeresis> <dead_circumflex> <dead_ogonek> <e>            : "ę̈̂"
+<dead_diaeresis> <Etilde>                                       : "Ẽ̈"
+<dead_diaeresis> <etilde>                                       : "ẽ̈"
+<dead_diaeresis> <dead_tilde> <E>                               : "Ẽ̈"
+<dead_diaeresis> <dead_tilde> <e>                               : "ẽ̈"
+<dead_diaeresis> <U0228>                                        : "Ȩ̈"   # Ȩ + Diaeresis
+<dead_diaeresis> <U0229>                                        : "ȩ̈"   # ȩ + Diaeresis
+<dead_diaeresis> <dead_cedilla> <E>                             : "Ȩ̈"
+<dead_diaeresis> <dead_cedilla> <e>                             : "ȩ̈"
+<dead_diaeresis> <Ecaron>                                       : "Ë̌"
+<dead_diaeresis> <Ecaron>                                       : "ë̌"
+<dead_diaeresis> <dead_caron> <E>                               : "Ë̌"
+<dead_diaeresis> <dead_caron> <e>                               : "ë̌"
+<dead_diaeresis> <dead_caron> <Eogonek>                         : "Ę̈̌"
+<dead_diaeresis> <dead_caron> <eogonek>                         : "ę̈̌"
+<dead_diaeresis> <dead_caron> <dead_ogonek> <E>                 : "Ę̈̌"
+<dead_diaeresis> <dead_caron> <dead_ogonek> <e>                 : "ę̈̌"
+<dead_diaeresis> <Eogonek>                                      : "Ę̈"
+<dead_diaeresis> <eogonek>                                      : "ę̈"
+<dead_diaeresis> <dead_ogonek> <E>                              : "Ę̈"
+<dead_diaeresis> <dead_ogonek> <e>                              : "ę̈"
+<dead_diaeresis> <dead_ogonek> <Eacute>                         : "Ę̈́"
+<dead_diaeresis> <dead_ogonek> <eacute>                         : "ę̈́"
+<dead_diaeresis> <dead_ogonek> <dead_acute> <E>                 : "Ę̈́"
+<dead_diaeresis> <dead_ogonek> <dead_acute> <e>                 : "ę̈́"
+<dead_diaeresis> <dead_ogonek> <Egrave>                         : "Ę̈̀"
+<dead_diaeresis> <dead_ogonek> <egrave>                         : "ę̈̀"
+<dead_diaeresis> <dead_ogonek> <dead_grave> <E>                 : "Ę̈̀"
+<dead_diaeresis> <dead_ogonek> <dead_grave> <e>                 : "ę̈̀"
+<dead_diaeresis> <dead_ogonek> <Ecircumflex>                    : "Ę̈̂"
+<dead_diaeresis> <dead_ogonek> <ecircumflex>                    : "ę̈̂"
+<dead_diaeresis> <dead_ogonek> <dead_circumflex> <E>            : "Ę̈̂"
+<dead_diaeresis> <dead_ogonek> <dead_circumflex> <e>            : "ę̈̂"
+<dead_diaeresis> <dead_ogonek> <Ecaron>                         : "Ę̈̌"
+<dead_diaeresis> <dead_ogonek> <ecaron>                         : "ę̈̌"
+<dead_diaeresis> <dead_ogonek> <dead_caron> <E>                 : "Ę̈̌"
+<dead_diaeresis> <dead_ogonek> <dead_caron> <e>                 : "ę̈̌"
+<dead_diaeresis> <dead_ogonek> <Emacron>                        : "Ę̈̄"
+<dead_diaeresis> <dead_ogonek> <emacron>                        : "ę̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <E>                : "Ę̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <e>                : "ę̈̄"
+<dead_diaeresis> <Emacron>                                      : "Ē̈"
+<dead_diaeresis> <emacron>                                      : "ē̈"
+<dead_diaeresis> <dead_macron> <E>                              : "Ē̈"
+<dead_diaeresis> <dead_macron> <e>                              : "ē̈"
+<dead_diaeresis> <dead_macron> <Eogonek>                        : "Ę̈̄"
+<dead_diaeresis> <dead_macron> <eogonek>                        : "ę̈̄"
+<dead_diaeresis> <dead_macron> <dead_ogonek> <E>                : "Ę̈̄"
+<dead_diaeresis> <dead_macron> <dead_ogonek> <e>                : "ę̈̄"
+<dead_diaeresis> <U0114>                                        : "Ĕ̈"   # Ĕ + Diaeresis
+<dead_diaeresis> <U0115>                                        : "ĕ̈"   # ĕ + Diaeresis
+<dead_diaeresis> <dead_breve> <E>                               : "Ĕ̈"
+<dead_diaeresis> <dead_breve> <e>                               : "ĕ̈"
+<dead_diaeresis> <Ebelowdot>                                    : "Ẹ̈"
+<dead_diaeresis> <ebelowdot>                                    : "ẹ̈"
+<dead_diaeresis> <dead_belowdot> <E>                            : "Ẹ̈"
+<dead_diaeresis> <dead_belowdot> <e>                            : "ẹ̈"
+<dead_diaeresis> <U0246>                                        : "Ɇ̈"   # Ɇ + Diaeresis
+<dead_diaeresis> <U0247>                                        : "ɇ̈"   # ɇ + Diaeresis
+<dead_diaeresis> <dead_longsolidusoverlay> <E>                  : "Ɇ̈"
+<dead_diaeresis> <dead_longsolidusoverlay> <e>                  : "ɇ̈"
+<dead_diaeresis> <dead_aboveverticalline> <E>                   : "Ë̍"
+<dead_diaeresis> <dead_aboveverticalline> <e>                   : "ë̍"
+<dead_diaeresis> <dead_acute> <U0197>                           : "Ɨ̈́"   # Ɨ + Acute + Diaeresis
+<dead_diaeresis> <dead_acute> <U0268>                           : "ɨ̈́"   # ɨ + Acute + Diaeresis
+<dead_diaeresis> <dead_acute> <dead_stroke> <I>                 : "Ɨ̃́"   # Ɨ + Acute + Diaeresis
+<dead_diaeresis> <dead_acute> <dead_stroke> <i>                 : "ɨ̃́"   # ɨ + Acute + Diaeresis
+<dead_diaeresis> <dead_acute> <dead_stroke> <Idotabove>         : "Ɨ̃́"
+<dead_diaeresis> <dead_acute> <dead_stroke> <idotless>          : "ɨ̃́"
+<dead_diaeresis> <Igrave>                                       : "Ï̀"
+<dead_diaeresis> <igrave>                                       : "ï̀"
+<dead_diaeresis> <dead_grave> <I>                               : "Ï̀"
+<dead_diaeresis> <dead_grave> <i>                               : "ï̀"
+<dead_diaeresis> <Icircumflex>                                  : "Ï̂"
+<dead_diaeresis> <icircumflex>                                  : "ï̂"
+<dead_diaeresis> <dead_circumflex> <I>                          : "Ï̂"
+<dead_diaeresis> <dead_circumflex> <i>                          : "ï̂"
+<dead_diaeresis> <Itilde>                                       : "Ĩ̈"
+<dead_diaeresis> <itilde>                                       : "ĩ̈"
+<dead_diaeresis> <dead_tilde> <I>                               : "Ĩ̈"
+<dead_diaeresis> <dead_tilde> <i>                               : "ĩ̈"
+<dead_diaeresis> <dead_cedilla> <I>                             : "Ï̧"
+<dead_diaeresis> <dead_cedilla> <i>                             : "ï̧"
+<dead_diaeresis> <U01CF>                                        : "Ï̌"   # Ǐ + Diaeresis
+<dead_diaeresis> <U01D0>                                        : "ï̌"   # ǐ + Diaeresis
+<dead_diaeresis> <dead_caron> <I>                               : "Ï̌"
+<dead_diaeresis> <dead_caron> <i>                               : "ï̌"
+<dead_diaeresis> <dead_caron> <Iogonek>                         : "Į̈̌"
+<dead_diaeresis> <dead_caron> <iogonek>                         : "į̈̌"
+<dead_diaeresis> <dead_caron> <dead_ogonek> <I>                 : "Į̈̌"
+<dead_diaeresis> <dead_caron> <dead_ogonek> <i>                 : "į̈̌"
+<dead_diaeresis> <Iogonek>                                      : "Į̈"
+<dead_diaeresis> <iogonek>                                      : "į̈"
+<dead_diaeresis> <dead_ogonek> <I>                              : "Į̈"
+<dead_diaeresis> <dead_ogonek> <i>                              : "į̈"
+<dead_diaeresis> <dead_ogonek> <U01CF>                          : "Į̈̌"   # Ǐ + Diaeresis + Ogonek
+<dead_diaeresis> <dead_ogonek> <U01D0>                          : "į̈̌"   # ǐ + Diaeresis + Ogonek
+<dead_diaeresis> <dead_ogonek> <dead_caron> <I>                 : "Į̈̌"
+<dead_diaeresis> <dead_ogonek> <dead_caron> <i>                 : "į̈̌"
+<dead_diaeresis> <dead_ogonek> <Imacron>                        : "Į̈̄"
+<dead_diaeresis> <dead_ogonek> <imacron>                        : "į̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <I>                : "Į̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <i>                : "į̈̄"
+<dead_diaeresis> <Imacron>                                      : "Ī̈"
+<dead_diaeresis> <imacron>                                      : "ī̈"
+<dead_diaeresis> <dead_macron> <I>                              : "Ī̈"
+<dead_diaeresis> <dead_macron> <i>                              : "ī̈"
+<dead_diaeresis> <dead_macron> <Iogonek>                        : "Į̈̄"
+<dead_diaeresis> <dead_macron> <iogonek>                        : "į̈̄"
+<dead_diaeresis> <dead_macron> <dead_ogonek> <I>                : "Į̈̄"
+<dead_diaeresis> <dead_macron> <dead_ogonek> <i>                : "į̈̄"
+<dead_diaeresis> <dead_belowmacron> <U0197>                     : "Ɨ̱̈"   # Ɨ + Diaeresis + Macron Below
+<dead_diaeresis> <dead_belowmacron> <U0268>                     : "ɨ̱̈"   # ɨ + Diaeresis + Macron Below
+<dead_diaeresis> <dead_belowmacron> <dead_stroke> <I>           : "Ɨ̱̈"
+<dead_diaeresis> <dead_belowmacron> <dead_stroke> <i>           : "ɨ̱̈"
+<dead_diaeresis> <dead_belowmacron> <dead_stroke> <Idotabove>   : "Ɨ̱̈"
+<dead_diaeresis> <dead_belowmacron> <dead_stroke> <idotless>    : "ɨ̱̈"
+<dead_diaeresis> <Ibreve>                                       : "Ĭ̈"
+<dead_diaeresis> <ibreve>                                       : "ĭ̈"
+<dead_diaeresis> <dead_breve> <I>                               : "Ĭ̈"
+<dead_diaeresis> <dead_breve> <i>                               : "ĭ̈"
+<dead_diaeresis> <Ibelowdot>                                    : "Ị̈"
+<dead_diaeresis> <ibelowdot>                                    : "ị̈"
+<dead_diaeresis> <dead_belowdot> <I>                            : "Ị̈"
+<dead_diaeresis> <dead_belowdot> <i>                            : "ị̈"
+<dead_diaeresis> <U0197>                                        : "Ɨ̈"   # Ɨ + Diaeresis
+<dead_diaeresis> <U0268>                                        : "ɨ̈"   # ɨ + Diaeresis
+<dead_diaeresis> <dead_stroke> <I>                              : "Ɨ̈"
+<dead_diaeresis> <dead_stroke> <i>                              : "ɨ̈"
+<dead_diaeresis> <dead_stroke> <Idotabove>                      : "Ɨ̈"
+<dead_diaeresis> <dead_stroke> <idotless>                       : "ɨ̈"
+<dead_diaeresis> <dead_stroke> <dead_acute> <I>                 : "Ɨ̃́"   # Ɨ + Acute + Diaeresis
+<dead_diaeresis> <dead_stroke> <dead_acute> <i>                 : "ɨ̃́"   # ɨ + Acute + Diaeresis
+<dead_diaeresis> <dead_stroke> <dead_acute> <Idotabove>         : "Ɨ̃́"
+<dead_diaeresis> <dead_stroke> <dead_acute> <idotless>          : "ɨ̃́"
+<dead_diaeresis> <dead_stroke> <dead_belowmacron> <I>           : "Ɨ̱̈"
+<dead_diaeresis> <dead_stroke> <dead_belowmacron> <i>           : "ɨ̱̈"
+<dead_diaeresis> <dead_stroke> <dead_belowmacron> <Idotabove>   : "Ɨ̱̈"
+<dead_diaeresis> <dead_stroke> <dead_belowmacron> <idotless>    : "ɨ̱̈"
+<dead_diaeresis> <Ntilde>                                       : "Ñ̈"
+<dead_diaeresis> <ntilde>                                       : "ñ̈"
+<dead_diaeresis> <dead_tilde> <N>                               : "Ñ̈"
+<dead_diaeresis> <dead_tilde> <n>                               : "ñ̈"
+<dead_diaeresis> <Oacute>                                       : "Ö́"
+<dead_diaeresis> <oacute>                                       : "ö́"
+<dead_diaeresis> <dead_acute> <O>                               : "Ö́"
+<dead_diaeresis> <dead_acute> <o>                               : "ö́"
+<dead_diaeresis> <Ograve>                                       : "Ö̀"
+<dead_diaeresis> <ograve>                                       : "ö̀"
+<dead_diaeresis> <dead_grave> <O>                               : "Ö̀"
+<dead_diaeresis> <dead_grave> <o>                               : "ö̀"
+<dead_diaeresis> <Ocircumflex>                                  : "Ö̂"
+<dead_diaeresis> <ocircumflex>                                  : "ö̂"
+<dead_diaeresis> <dead_circumflex> <O>                          : "Ö̂"
+<dead_diaeresis> <dead_circumflex> <o>                          : "ö̂"
+<dead_diaeresis> <dead_tilde> <U01EA>                           : "Ǫ̈̃"   # Ǫ + Diaeresis + Tilde
+<dead_diaeresis> <dead_tilde> <U01EB>                           : "ǫ̈̃"   # ǫ + Diaeresis + Tilde
+<dead_diaeresis> <dead_tilde> <dead_ogonek> <O>                 : "Ǫ̈̃"
+<dead_diaeresis> <dead_tilde> <dead_ogonek> <o>                 : "ǫ̈̃"
+<dead_diaeresis> <dead_cedilla> <O>                             : "Ö̧"
+<dead_diaeresis> <dead_cedilla> <o>                             : "ö̧"
+<dead_diaeresis> <Ocaron>                                       : "Ö̌"
+<dead_diaeresis> <ocaron>                                       : "ö̌"
+<dead_diaeresis> <dead_caron> <O>                               : "Ö̌"
+<dead_diaeresis> <dead_caron> <o>                               : "ö̌"
+<dead_diaeresis> <dead_caron> <U01EA>                           : "Ǫ̈̌"   # Ǫ + Diaeresis + Caron
+<dead_diaeresis> <dead_caron> <U01EB>                           : "ǫ̈̌"   # ǫ + Diaeresis + Caron
+<dead_diaeresis> <dead_caron> <dead_ogonek> <O>                 : "Ǫ̈̌"
+<dead_diaeresis> <dead_caron> <dead_ogonek> <o>                 : "ǫ̈̌"
+<dead_diaeresis> <U01EA>                                        : "Ǫ̈"   # Ǫ + Diaeresis
+<dead_diaeresis> <U01EB>                                        : "ǫ̈"   # ǫ + Diaeresis
+<dead_diaeresis> <dead_ogonek> <O>                              : "Ǫ̈"
+<dead_diaeresis> <dead_ogonek> <o>                              : "ǫ̈"
+<dead_diaeresis> <dead_ogonek> <Ocaron>                         : "Ǫ̈̌"
+<dead_diaeresis> <dead_ogonek> <ocaron>                         : "ǫ̈̌"
+<dead_diaeresis> <dead_ogonek> <dead_caron> <O>                 : "Ǫ̈̌"
+<dead_diaeresis> <dead_ogonek> <dead_caron> <o>                 : "ǫ̈̌"
+<dead_diaeresis> <dead_ogonek> <Omacron>                        : "Ǫ̈̄"
+<dead_diaeresis> <dead_ogonek> <omacron>                        : "ǫ̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <O>                : "Ǫ̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <o>                : "ǫ̈̄"
+<dead_diaeresis> <dead_ogonek> <Omacron>                        : "Ǫ̈̃"
+<dead_diaeresis> <dead_ogonek> <omacron>                        : "ǫ̈̃"
+<dead_diaeresis> <dead_ogonek> <dead_tilde> <O>                 : "Ǫ̈̃"
+<dead_diaeresis> <dead_ogonek> <dead_tilde> <o>                 : "ǫ̈̃"
+<dead_diaeresis> <Omacron>                                      : "Ō̈"
+<dead_diaeresis> <omacron>                                      : "ō̈"
+<dead_diaeresis> <dead_macron> <O>                              : "Ō̈"
+<dead_diaeresis> <dead_macron> <o>                              : "ō̈"
+<dead_diaeresis> <dead_macron> <U01EA>                          : "Ǫ̈̄"   # Ǫ + Diaeresis + Macron
+<dead_diaeresis> <dead_macron> <U01EB>                          : "ǫ̈̄"   # ǫ + Diaeresis + Macron
+<dead_diaeresis> <dead_macron> <dead_ogonek> <O>                : "Ǫ̈̄"
+<dead_diaeresis> <dead_macron> <dead_ogonek> <o>                : "ǫ̈̄"
+<dead_diaeresis> <U014E>                                        : "Ŏ̈"   # Ŏ + Diaeresis
+<dead_diaeresis> <U014F>                                        : "ŏ̈"   # ŏ + Diaeresis
+<dead_diaeresis> <dead_breve> <O>                               : "Ŏ̈"
+<dead_diaeresis> <dead_breve> <o>                               : "ŏ̈"
+<dead_diaeresis> <Obelowdot>                                    : "Ọ̈"
+<dead_diaeresis> <obelowdot>                                    : "ọ̈"
+<dead_diaeresis> <dead_belowdot> <O>                            : "Ọ̈"
+<dead_diaeresis> <dead_belowdot> <o>                            : "ọ̈"
+<dead_diaeresis> <Oslash>                                       : "Ø̈"
+<dead_diaeresis> <oslash>                                       : "ø̈"
+<dead_diaeresis> <dead_longsolidusoverlay> <O>                  : "Ø̈"
+<dead_diaeresis> <dead_longsolidusoverlay> <o>                  : "ø̈"
+<dead_diaeresis> <dead_belowdot> <Q>                            : "Q̣̈"
+<dead_diaeresis> <dead_belowdot> <q>                            : "q̣̈"
+<dead_diaeresis> <dead_caron> <S>                               : "S̈̌"
+<dead_diaeresis> <dead_caron> <s>                               : "s̈̌"
+<dead_diaeresis> <U1E6C>                                        : "Ṭ̈"   # Ṭ̈ + Diaeresis
+<dead_diaeresis> <U1E6D>                                        : "ṭ̈"   # ṭ̈ + Diaeresis
+<dead_diaeresis> <dead_belowdot> <T>                            : "Ṭ̈"
+<dead_diaeresis> <dead_belowdot> <t>                            : "ṭ̈"
+<dead_diaeresis> <dead_acute> <Uogonek>                         : "Ų̈́"
+<dead_diaeresis> <dead_acute> <uogonek>                         : "ų̈́"
+<dead_diaeresis> <dead_acute> <dead_ogonek> <U>                 : "Ų̈́"
+<dead_diaeresis> <dead_acute> <dead_ogonek> <u>                 : "ų̈́"
+<dead_diaeresis> <Ucircumflex>                                  : "Ü̂"
+<dead_diaeresis> <ucircumflex>                                  : "ü̂"
+<dead_diaeresis> <dead_circumflex> <U>                          : "Ü̂"
+<dead_diaeresis> <dead_circumflex> <u>                          : "ü̂"
+<dead_diaeresis> <Utilde>                                       : "Ũ̈"
+<dead_diaeresis> <utilde>                                       : "ũ̈"
+<dead_diaeresis> <dead_tilde> <U>                               : "Ũ̈"
+<dead_diaeresis> <dead_tilde> <u>                               : "ũ̈"
+<dead_diaeresis> <dead_tilde> <dead_belowmacron> <U>            : "Ü̱̃"
+<dead_diaeresis> <dead_tilde> <dead_belowmacron> <u>            : "ü̱̃"
+<dead_diaeresis> <dead_cedilla> <U>                             : "Ü̧"
+<dead_diaeresis> <dead_cedilla> <u>                             : "ü̧"
+<dead_diaeresis> <dead_caron> <Uogonek>                         : "Ų̈̌"
+<dead_diaeresis> <dead_caron> <uogonek>                         : "ų̈̌"
+<dead_diaeresis> <dead_caron> <dead_ogonek> <U>                 : "Ų̈̌"
+<dead_diaeresis> <dead_caron> <dead_ogonek> <u>                 : "ų̈̌"
+<dead_diaeresis> <Uogonek>                                      : "Ų̈"
+<dead_diaeresis> <uogonek>                                      : "ų̈"
+<dead_diaeresis> <dead_ogonek> <U>                              : "Ų̈"
+<dead_diaeresis> <dead_ogonek> <u>                              : "ų̈"
+<dead_diaeresis> <dead_ogonek> <Uacute>                         : "Ų̈́"
+<dead_diaeresis> <dead_ogonek> <uacute>                         : "ų̈́"
+<dead_diaeresis> <dead_ogonek> <dead_acute> <U>                 : "Ų̈́"
+<dead_diaeresis> <dead_ogonek> <dead_acute> <u>                 : "ų̈́"
+<dead_diaeresis> <dead_ogonek> <U01D3>                          : "Ų̈̌"   # Ǔ + Diaeresis + Ogonek
+<dead_diaeresis> <dead_ogonek> <U01D4>                          : "ų̈̌"   # ǔ + Diaeresis + Ogonek
+<dead_diaeresis> <dead_ogonek> <dead_caron> <U>                 : "Ų̈̌"
+<dead_diaeresis> <dead_ogonek> <dead_caron> <u>                 : "ų̈̌"
+<dead_diaeresis> <dead_ogonek> <Umacron>                        : "Ų̈̄"
+<dead_diaeresis> <dead_ogonek> <umacron>                        : "ų̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <U>                : "Ų̈̄"
+<dead_diaeresis> <dead_ogonek> <dead_macron> <u>                : "ų̈̄"
+<dead_diaeresis> <Umacron>                                      : "Ṻ"
+<dead_diaeresis> <umacron>                                      : "ṻ"
+<dead_diaeresis> <dead_macron> <U>                              : "Ṻ"
+<dead_diaeresis> <dead_macron> <u>                              : "ṻ"
+<dead_diaeresis> <dead_macron> <Uogonek>                        : "Ų̈̄"
+<dead_diaeresis> <dead_macron> <uogonek>                        : "ų̈̄"
+<dead_diaeresis> <dead_macron> <dead_ogonek> <U>                : "Ų̈̄"
+<dead_diaeresis> <dead_macron> <dead_ogonek> <u>                : "ų̈̄"
+<dead_diaeresis> <dead_belowmacron> <U>                         : "Ü̱"
+<dead_diaeresis> <dead_belowmacron> <u>                         : "ü̱"
+<dead_diaeresis> <dead_belowmacron> <Utilde>                    : "Ü̱̃"
+<dead_diaeresis> <dead_belowmacron> <utilde>                    : "ü̱̃"
+<dead_diaeresis> <dead_belowmacron> <dead_tilde> <U>            : "Ü̱̃"
+<dead_diaeresis> <dead_belowmacron> <dead_tilde> <u>            : "ü̱̃"
+<dead_diaeresis> <Ubreve>                                       : "Ŭ̈"
+<dead_diaeresis> <ubreve>                                       : "ŭ̈"
+<dead_diaeresis> <dead_breve> <U>                               : "Ŭ̈"
+<dead_diaeresis> <dead_breve> <u>                               : "ŭ̈"
+<dead_diaeresis> <U032F> <U>                                    : "Ü̯"
+<dead_diaeresis> <U032F> <u>                                    : "ü̯"
+<dead_diaeresis> <Ubelowdot>                                    : "Ụ̈"
+<dead_diaeresis> <ubelowdot>                                    : "ụ̈"
+<dead_diaeresis> <dead_belowdot> <U>                            : "Ụ̈"
+<dead_diaeresis> <dead_belowdot> <u>                            : "ụ̈"
+<dead_diaeresis> <U0244>                                        : "Ʉ̈"   # Ʉ̈ + Diaeresis
+<dead_diaeresis> <U0289>                                        : "ʉ̈"   # ʉ̈ + Diaeresis
+<dead_diaeresis> <dead_stroke> <U>                              : "Ʉ̈"
+<dead_diaeresis> <dead_stroke> <u>                              : "ʉ̈"
+<dead_diaeresis> <dead_aboveverticalline> <U>                   : "Ü̍"
+<dead_diaeresis> <dead_aboveverticalline> <u>                   : "ü̍"
+<dead_diaeresis> <Yacute>                                       : "Ÿ́"
+<dead_diaeresis> <yacute>                                       : "ÿ́"
+<dead_diaeresis> <dead_acute> <Y>                               : "Ÿ́"
+<dead_diaeresis> <dead_acute> <y>                               : "ÿ́"
+<dead_diaeresis> <Ycircumflex>                                  : "Ÿ̂"
+<dead_diaeresis> <ycircumflex>                                  : "ÿ̂"
+<dead_diaeresis> <dead_circumflex> <Y>                          : "Ÿ̂"
+<dead_diaeresis> <dead_circumflex> <y>                          : "ÿ̂"
+<dead_diaeresis> <Ytilde>                                       : "Ỹ̈"
+<dead_diaeresis> <ytilde>                                       : "ỹ̈"
+<dead_diaeresis> <dead_tilde> <Y>                               : "Ỹ̈"
+<dead_diaeresis> <dead_tilde> <y>                               : "ỹ̈"
+<dead_diaeresis> <U0232>                                        : "Ȳ̈"   # Ȳ + Diaeresis
+<dead_diaeresis> <U0233>                                        : "ȳ̈"   # ȳ + Diaeresis
+<dead_diaeresis> <dead_macron> <Y>                              : "Ȳ̈"
+<dead_diaeresis> <dead_macron> <y>                              : "ȳ̈"
+<dead_diaeresis> <dead_breve> <Y>                               : "Y̆̈"
+<dead_diaeresis> <dead_breve> <y>                               : "y̆̈"
+<dead_diaeresis> <Ybelowdot>                                    : "Ỵ̈"
+<dead_diaeresis> <ybelowdot>                                    : "ỵ̈"
+<dead_diaeresis> <dead_belowdot> <Y>                            : "Ỵ̈"
+<dead_diaeresis> <dead_belowdot> <y>                            : "ỵ̈"
+
+##################
+# [END OF RULES] #
+##################
