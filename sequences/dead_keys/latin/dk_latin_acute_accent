@@ -55,6 +55,10 @@
 <dead_acute> <acircumflex>          : "ấ"
 <dead_acute> <dead_circumflex> <A>  : "Ấ"
 <dead_acute> <dead_circumflex> <a>  : "ấ"
+<dead_acute> <Aring>                : "Ǻ"
+<dead_acute> <aring>                : "ǻ"
+<dead_acute> <dead_abovering> <A>   : "Ǻ"
+<dead_acute> <dead_abovering> <a>   : "ǻ"
 <dead_acute> <Ecircumflex>          : "Ế"
 <dead_acute> <ecircumflex>          : "ế"
 <dead_acute> <dead_circumflex> <E>  : "Ế"
@@ -74,8 +78,6 @@
 
 
 # Other precomposed acute accent combinations (Unidirectional)
-<dead_acute> <dead_abovering> <A>           : "Ǻ"
-<dead_acute> <dead_abovering> <a>           : "ǻ"
 <dead_acute> <multiply> <A> <E>             : "Ǽ"
 <dead_acute> <multiply> <a> <e>             : "ǽ"
 <dead_acute> <dead_cedilla> <C>             : "Ḉ"

@@ -1,0 +1,251 @@
+# Latin Alphabet | Ring Above Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations 
+<dead_abovering> <A>    : "Å"
+<dead_abovering> <a>    : "å"
+<dead_abovering> <U>    : "Ů"
+<dead_abovering> <u>    : "ů"
+<dead_abovering> <w>    : "ẘ"
+<dead_abovering> <y>    : "ẙ"
+
+
+# Other precomposed ring above combinations (Unidirectional)
+<dead_abovering> <Aacute>           : "Ǻ"
+<dead_abovering> <aacute>           : "ǻ"
+<dead_abovering> <dead_acute> <A>   : "Ǻ"
+<dead_abovering> <dead_acute> <a>   : "ǻ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_abovering> <U2C6F>            : "Ɐ̊"      # Ɐ + Ring Above
+<dead_abovering> <U0250>            : "ɐ̊"      # ɐ + Ring Above
+<dead_abovering> <U21BA> <A>        : "Ɐ̊"      # Ɐ + Ring Above
+<dead_abovering> <U21BA> <a>        : "ɐ̊"      # ɐ + Ring Above
+<dead_abovering> <UA732>            : "Ꜳ̊"     # Ꜳ + Ring Above
+<dead_abovering> <UA733>            : "ꜳ̊"      # ꜳ + Ring Above
+<dead_abovering> <multiply> <A> <A> : "Ꜳ̊"     # Ꜳ + Ring Above
+<dead_abovering> <multiply> <a> <a> : "ꜳ̊"      # ꜳ + Ring Above
+<dead_abovering> <AE>               : "Æ̊"
+<dead_abovering> <ae>               : "æ̊"
+<dead_abovering> <multiply> <A> <E> : "Æ̊"
+<dead_abovering> <multiply> <a> <e> : "æ̊"
+<dead_abovering> <UA734>            : "Ꜵ̊"     # Ꜵ + Ring Above
+<dead_abovering> <UA735>            : "ꜵ̊"      # ꜵ + Ring Above
+<dead_abovering> <multiply> <A> <O> : "Ꜵ̊"     # Ꜵ + Ring Above
+<dead_abovering> <multiply> <a> <o> : "ꜵ̊"      # ꜵ + Ring Above
+<dead_abovering> <UA736>            : "Ꜷ̊"     # Ꜷ + Ring Above
+<dead_abovering> <UA737>            : "ꜷ̊"      # ꜷ + Ring Above
+<dead_abovering> <multiply> <A> <U> : "Ꜷ̊"     # Ꜷ + Ring Above
+<dead_abovering> <multiply> <a> <u> : "ꜷ̊"      # ꜷ + Ring Above
+<dead_abovering> <UA738>            : "Ꜹ̊"     # Ꜹ + Ring Above
+<dead_abovering> <UA739>            : "ꜹ̊"      # ꜹ + Ring Above
+<dead_abovering> <multiply> <A> <V> : "Ꜹ̊"     # Ꜹ + Ring Above
+<dead_abovering> <multiply> <a> <v> : "ꜹ̊"      # ꜹ + Ring Above
+<dead_abovering> <UA73C>            : "Ꜽ̊"     # Ꜽ + Ring Above
+<dead_abovering> <UA73D>            : "ꜽ̊"      # ꜽ + Ring Above
+<dead_abovering> <multiply> <A> <Y> : "Ꜽ̊"     # Ꜽ + Ring Above
+<dead_abovering> <multiply> <a> <y> : "ꜽ̊"      # ꜽ + Ring Above
+<dead_abovering> <U2C6D>            : "Ɑ̊"      # Ɑ (Latin Alpha) + Ring Above
+<dead_abovering> <U0251>            : "ɑ̊"      # ɑ (Latin Alpha) + Ring Above
+<dead_abovering> <B>                : "B̊"
+<dead_abovering> <b>                : "b̊"
+<dead_abovering> <C>                : "C̊"
+<dead_abovering> <c>                : "c̊"
+<dead_abovering> <D>                : "D̊"
+<dead_abovering> <d>                : "d̊"
+<dead_abovering> <UA779>            : "Ꝺ̊"      # Ꝺ (Insular D) + Ring Above
+<dead_abovering> <UA77A>            : "ꝺ̊"      # ꝺ (Insular D) + Ring Above
+<dead_abovering> <E>                : "E̊"
+<dead_abovering> <e>                : "e̊"
+<dead_abovering> <U0190>            : "Ɛ̊"      # Ɛ (Latin Epsilon) + Ring Above
+<dead_abovering> <U025B>            : "ɛ̊"      # ɛ (Latin Epsilon) + Ring Above
+<dead_abovering> <SCHWA>            : "Ə̊"      # Ə (Schwa) + Ring Above
+<dead_abovering> <schwa>            : "ə̊"      # ə (Schwa) + Ring Above
+<dead_abovering> <U018E>            : "Ǝ̊"      # Ǝ (Turned E) + Ring Above
+<dead_abovering> <U01DD>            : "ǝ̊"      # ǝ (Turned E) + Ring Above
+<dead_abovering> <U21BA> <E>        : "Ǝ̊"      # Ǝ (Turned E) + Ring Above
+<dead_abovering> <U21BA> <e>        : "ǝ̊"      # ǝ (Turned E) + Ring Above
+<dead_abovering> <F>                : "F̊"
+<dead_abovering> <f>                : "f̊"
+<dead_abovering> <UA77B>            : "Ꝼ̊"      # Ꝼ (Insular F) + Ring Above
+<dead_abovering> <UA77C>            : "ꝼ̊"      # ꝼ (Insular F) + Ring Above
+<dead_abovering> <G>                : "G̊"
+<dead_abovering> <g>                : "g̊"
+<dead_abovering> <U0194>            : "Ɣ̊"      # Ɣ (Latin Gamma) + Ring Above
+<dead_abovering> <U0263>            : "ɣ̊"      # ɣ (Latin Gamma) + Ring Above
+<dead_abovering> <UA78D>            : "Ɥ̊"      # Ɥ (Turned H) + Ring Above
+<dead_abovering> <U0265>            : "ɥ̊"      # ɥ (Turned H) + Ring Above
+<dead_abovering> <U21BA> <H>        : "Ɥ̊"      # Ɥ (Turned H) + Ring Above
+<dead_abovering> <U21BA> <h>        : "ɥ̊"      # ɥ (Turned H) + Ring Above
+<dead_abovering> <I>                : "I̊"
+<dead_abovering> <i>                : "i̊"
+<dead_abovering> <U0196>            : "Ɩ̊"      # Ɩ (Latin Iota) + Ring Above
+<dead_abovering> <U0269>            : "ɩ̊"      # ɩ (Latin Iota) + Ring Above
+<dead_abovering> <J>                : "J̊"
+<dead_abovering> <j>                : "ȷ̊"
+<dead_abovering> <K>                : "K̊"
+<dead_abovering> <k>                : "k̊"
+<dead_abovering> <L>                : "L̊"
+<dead_abovering> <l>                : "l̊"
+<dead_abovering> <M>                : "M̊"
+<dead_abovering> <m>                : "m̊"
+<dead_abovering> <N>                : "N̊"
+<dead_abovering> <n>                : "n̊"
+<dead_abovering> <ENG>              : "Ŋ̊"      # Ŋ + Ring Above
+<dead_abovering> <eng>              : "ŋ̊"      # ŋ + Ring Above
+<dead_abovering> <O>                : "O̊"
+<dead_abovering> <o>                : "o̊"
+<dead_abovering> <OE>               : "Œ̊"
+<dead_abovering> <oe>               : "œ̊"
+<dead_abovering> <multiply> <O> <E> : "Œ̊"
+<dead_abovering> <multiply> <o> <e> : "œ̊"
+<dead_abovering> <UA74E>            : "Ꝏ̊"     # Ꝏ + Ring Above
+<dead_abovering> <UA74F>            : "ꝏ̊"     # ꝏ + Ring Above
+<dead_abovering> <multiply> <O> <O> : "Ꝏ̊"     # Ꝏ + Ring Above
+<dead_abovering> <multiply> <o> <o> : "ꝏ̊"     # ꝏ + Ring Above
+<dead_abovering> <U0186>            : "Ɔ̊"      # Ɔ + Ring Above
+<dead_abovering> <U0254>            : "ɔ̊"      # ɔ + Ring Above
+<dead_abovering> <UA7CB>            : "Ɤ̊"      # Ɤ (Ram's Horn) + Ring Above
+<dead_abovering> <U0264>            : "ɤ̊"      # ɤ (Ram's Horn) + Ring Above
+<dead_abovering> <Q>                : "Q̊"
+<dead_abovering> <q>                : "q̊"
+<dead_abovering> <R>                : "R̊"
+<dead_abovering> <r>                : "r̊"
+<dead_abovering> <S>                : "S̊"
+<dead_abovering> <s>                : "s"
+<dead_abovering> <T>                : "T̊"
+<dead_abovering> <t>                : "t̊"
+<dead_abovering> <U01B1>            : "Ʊ̊"     # Ʊ (Latin Upsilon) + Ring Above
+<dead_abovering> <U028A>            : "ʊ̊"     # ʊ (Latin Upsilon) + Ring Above
+<dead_abovering> <U019C>            : "Ɯ̊"     # Ɯ (Turned M) + Ring Above
+<dead_abovering> <U026F>            : "ɯ̊"     # ɯ (Turned M) + Ring Above
+<dead_abovering> <U21BA> <M>        : "Ɯ̊"     # Ɯ (Turned M) + Ring Above
+<dead_abovering> <U21BA> <m>        : "ɯ̊"     # ɯ (Turned M) + Ring Above
+<dead_abovering> <V>                : "V̊"
+<dead_abovering> <v>                : "v̊"
+<dead_abovering> <U0245>            : "Ʌ̊"     # Ʌ + Ring Above
+<dead_abovering> <U028C>            : "ʌ̊"     # ʌ + Ring Above
+<dead_abovering> <U21BA> <V>        : "Ʌ̊"     # Ʌ + Ring Above
+<dead_abovering> <U21BA> <v>        : "ʌ̊"     # ʌ + Ring Above
+<dead_abovering> <U01B2>            : "Ʋ̊"     # Ʋ + Ring Above
+<dead_abovering> <U028B>            : "ʋ̊"     # ʋ + Ring Above
+<dead_abovering> <UA768>            : "Ꝩ̊"     # Ꝩ (Vend) + Ring Above
+<dead_abovering> <UA769>            : "ꝩ̊"     # ꝩ (Vend) + Ring Above
+<dead_abovering> <UA760>            : "Ꝡ̊"     # Ꝡ + Ring Above
+<dead_abovering> <UA761>            : "ꝡ̊"     # ꝡ + Ring Above
+<dead_abovering> <multiply> <V> <Y> : "Ꝡ̊"
+<dead_abovering> <multiply> <v> <y> : "ꝡ̊"
+<dead_abovering> <W>                : "W̊"
+<dead_abovering> <X>                : "X̊"
+<dead_abovering> <x>                : "x̊"
+<dead_abovering> <Y>                : "Y̊"
+<dead_abovering> <Z>                : "Z̊"
+<dead_abovering> <z>                : "z̊"
+<dead_abovering> <EZH>              : "Ʒ̊"
+<dead_abovering> <ezh>              : "ʒ̊"
+
+
+# Composed ring above combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+#
+# [CUSTOM DEAD KEYS]:
+# - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
+#
+<dead_abovering> <Acircumflex>                  : "Å̂"
+<dead_abovering> <acircumflex>                  : "å̂"
+<dead_abovering> <dead_circumflex> <A>          : "Å̂"
+<dead_abovering> <dead_circumflex> <a>          : "å̂"
+<dead_abovering> <Aogonek>                      : "Ą̊"
+<dead_abovering> <aogonek>                      : "ą̊"
+<dead_abovering> <dead_ogonek> <A>              : "Ą̊"
+<dead_abovering> <dead_ogonek> <a>              : "ą̊"
+<dead_abovering> <Amacron>                      : "Ā̊"
+<dead_abovering> <amacron>                      : "ā̊"
+<dead_abovering> <dead_macron> <A>              : "Ā̊"
+<dead_abovering> <dead_macron> <a>              : "ā̊"
+<dead_abovering> <dead_macron> <Abreve>         : "Å̄̆"
+<dead_abovering> <dead_macron> <abreve>         : "å̄̆"
+<dead_abovering> <dead_macron> <dead_breve> <A> : "Å̄̆"
+<dead_abovering> <dead_macron> <dead_breve> <a> : "å̄̆"
+<dead_abovering> <dead_belowmacron> <A>         : "Å̱"
+<dead_abovering> <dead_belowmacron> <a>         : "å̱"
+<dead_abovering> <Abreve>                       : "Å̆"
+<dead_abovering> <abreve>                       : "å̆"
+<dead_abovering> <dead_breve> <A>               : "Å̆"
+<dead_abovering> <dead_breve> <a>               : "å̆"
+<dead_abovering> <dead_breve> <Amacron>         : "Å̄̆"
+<dead_abovering> <dead_breve> <amacron>         : "å̄̆"
+<dead_abovering> <dead_breve> <dead_macron> <A> : "Å̄̆"
+<dead_abovering> <dead_breve> <dead_macron> <a> : "å̄̆"
+<dead_abovering> <Eogonek>                      : "Ę̊"
+<dead_abovering> <eogonek>                      : "ę̊"
+<dead_abovering> <dead_ogonek> <E>              : "Ę̊"
+<dead_abovering> <dead_ogonek> <e>              : "ę̊"
+<dead_abovering> <Emacron>                      : "Ē̊"
+<dead_abovering> <emacron>                      : "ē̊"
+<dead_abovering> <dead_macron> <E>              : "Ē̊"
+<dead_abovering> <dead_macron> <e>              : "ē̊"
+<dead_abovering> <Iogonek>                      : "Į̊"
+<dead_abovering> <iogonek>                      : "į̊"
+<dead_abovering> <dead_ogonek> <I>              : "Į̊"
+<dead_abovering> <dead_ogonek> <i>              : "į̊"
+<dead_abovering> <Imacron>                      : "Ī̊"
+<dead_abovering> <imacron>                      : "ī̊"
+<dead_abovering> <dead_macron> <I>              : "Ī̊"
+<dead_abovering> <dead_macron> <i>              : "ī̊"
+<dead_abovering> <U01EA>                        : "Ǫ̊"   # Ǫ + Ogonek
+<dead_abovering> <U01EB>                        : "ǫ̊"   # ǫ + Ogonek
+<dead_abovering> <dead_ogonek> <O>              : "Ǫ̊"
+<dead_abovering> <dead_ogonek> <o>              : "ǫ̊"
+<dead_abovering> <Omacron>                      : "Ō̊"
+<dead_abovering> <omacron>                      : "ō̊"
+<dead_abovering> <dead_macron> <O>              : "Ō̊"
+<dead_abovering> <dead_macron> <o>              : "ō̊"
+<dead_abovering> <Uacute>                       : "Ů́"
+<dead_abovering> <uacute>                       : "ů́"
+<dead_abovering> <dead_acute> <U>               : "Ů́"
+<dead_abovering> <dead_acute> <u>               : "ů́"
+<dead_abovering> <Ucircumflex>                  : "Ů̂"
+<dead_abovering> <ucircumflex>                  : "ů̂"
+<dead_abovering> <dead_circumflex> <U>          : "Ů̂"
+<dead_abovering> <dead_circumflex> <u>          : "ů̂"
+<dead_abovering> <U1E72>                        : "Ṳ̊"   # Ṳ + Ring Above
+<dead_abovering> <U1E73>                        : "ṳ̊"   # ṳ + Ring Above
+<dead_abovering> <dead_belowdiaeresis> <U>      : "Ṳ̊"
+<dead_abovering> <dead_belowdiaeresis> <u>      : "ṳ̊"
+<dead_abovering> <Utilde>                       : "Ũ̊"
+<dead_abovering> <utilde>                       : "ũ̊"
+<dead_abovering> <dead_tilde> <U>               : "Ũ̊"
+<dead_abovering> <dead_tilde> <u>               : "ũ̊"
+<dead_abovering> <Uogonek>                      : "Ų̊"
+<dead_abovering> <uogonek>                      : "ų̊"
+<dead_abovering> <dead_ogonek> <U>              : "Ų̊"
+<dead_abovering> <dead_ogonek> <u>              : "ų̊"
+<dead_abovering> <Umacron>                      : "Ū̊"
+<dead_abovering> <umacron>                      : "ū̊"
+<dead_abovering> <dead_macron> <U>              : "Ū̊"
+<dead_abovering> <dead_macron> <u>              : "ū̊"
+<dead_abovering> <dead_macron> <Ubreve>         : "Ů̄̆"
+<dead_abovering> <dead_macron> <ubreve>         : "ů̄̆"
+<dead_abovering> <dead_macron> <dead_breve> <U> : "Ů̄̆"
+<dead_abovering> <dead_macron> <dead_breve> <u> : "ů̄̆"
+<dead_abovering> <Ubreve>                       : "Ů̆"
+<dead_abovering> <ubreve>                       : "ů̆"
+<dead_abovering> <dead_breve> <U>               : "Ů̆"
+<dead_abovering> <dead_breve> <u>               : "ů̆"
+<dead_abovering> <dead_breve> <Umacron>         : "Ů̄̆"
+<dead_abovering> <dead_breve> <umacron>         : "ů̄̆"
+<dead_abovering> <dead_breve> <dead_macron> <U> : "Ů̄̆"
+<dead_abovering> <dead_breve> <dead_macron> <u> : "ů̄̆"
+<dead_abovering> <dead_caron> <X>               : "X̌̊"
+<dead_abovering> <dead_caron> <x>               : "x̌̊"
+
+##################
+# [END OF RULES] #
+##################

@@ -452,6 +452,8 @@
 <dead_caron> <U0289>                                        : "ʉ̌"   # ʉ + Caron
 <dead_caron> <dead_stroke> <U>                              : "Ʉ̌"
 <dead_caron> <dead_stroke> <u>                              : "ʉ̌"
+<dead_caron> <dead_abovering> <X>                           : "X̌̊"
+<dead_caron> <dead_abovering> <x>                           : "x̌̊"
 <dead_caron> <Zacute>                                       : "Ž́"
 <dead_caron> <zacute>                                       : "ž́"
 <dead_caron> <dead_acute> <Z>                               : "Ž́"

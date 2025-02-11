@@ -1,0 +1,21 @@
+# Common Dead Keys | Ring Above Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the diacritical ring above
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_abovering> <space>            : "̊"    # Combining ring above
+<dead_abovering> <dead_abovering>   : "˚"   # Regular spacing ring above
+<dead_abovering> <less>             : "̥"    # Combining ring below
+<dead_abovering> <greater>          : "̥"    # Combining ring below
+<dead_abovering> <comma>            : "͑"    # Combining left half ring above
+<dead_abovering> <semicolon>        : "̜"    # Combining left half ring below
+<dead_abovering> <period>           : "͗"    # Combining right half ring above
+<dead_abovering> <colon>            : "̹"    # Combining right half ring below
+
+##################
+# [END OF RULES] #
+##################
