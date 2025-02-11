@@ -40,6 +40,10 @@
 
 
 # Other precomposed caron combinations (Unidirectional)
+<dead_caron> <Sabovedot>            : "Ṧ"
+<dead_caron> <sabovedot>            : "ṧ"
+<dead_caron> <dead_abovedot> <S>    : "Ṧ"
+<dead_caron> <dead_abovedot> <s>    : "ṧ"
 <dead_caron> <Udiaeresis>           : "Ǚ"
 <dead_caron> <udiaeresis>           : "ǚ"
 <dead_caron> <dead_diaeresis> <U>   : "Ǚ"
@@ -386,10 +390,6 @@
 <dead_caron> <dead_ogonek> <s>                              : "š̨"
 <dead_caron> <dead_macron> <S>                              : "S̄̌"
 <dead_caron> <dead_macron> <s>                              : "s̄̌"
-<dead_caron> <Sabovedot>                                    : "Ṧ"
-<dead_caron> <sabovedot>                                    : "ṧ"
-<dead_caron> <dead_abovedot> <S>                            : "Ṧ"
-<dead_caron> <dead_abovedot> <s>                            : "ṧ"
 <dead_caron> <U1E62>                                        : "Ṣ̌"   # Ṣ + Caron
 <dead_caron> <U1E63>                                        : "ṣ̌"   # ṣ + Caron
 <dead_caron> <dead_belowdot> <S>                            : "Ṣ̌"

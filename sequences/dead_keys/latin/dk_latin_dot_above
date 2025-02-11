@@ -1,0 +1,263 @@
+# Latin Alphabet | Dot Above Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_abovedot> <A>         : "Ȧ"
+<dead_abovedot> <a>         : "ȧ"
+<dead_abovedot> <B>         : "Ḃ"
+<dead_abovedot> <b>         : "ḃ"
+<dead_abovedot> <C>         : "Ċ"
+<dead_abovedot> <c>         : "ċ"
+<dead_abovedot> <D>         : "Ḋ"
+<dead_abovedot> <d>         : "ḋ"
+<dead_abovedot> <E>         : "Ė"
+<dead_abovedot> <e>         : "ė"
+<dead_abovedot> <F>         : "Ḟ"
+<dead_abovedot> <f>         : "ḟ"
+<dead_abovedot> <G>         : "Ġ"
+<dead_abovedot> <g>         : "ġ"
+<dead_abovedot> <H>         : "Ḣ"
+<dead_abovedot> <h>         : "ḣ"
+<dead_abovedot> <I>         : "İ"
+<dead_abovedot> <i>         : "ı"
+<dead_abovedot> <Idotabove> : "I"
+<dead_abovedot> <idotless>  : "i"
+<dead_abovedot> <L>         : "Ŀ"   # L amb punt volat (Precomposed)
+<dead_abovedot> <l>         : "ŀ"   # l amb punt volat (Precomposed)
+<dead_abovedot> <M>         : "Ṁ"
+<dead_abovedot> <m>         : "ṁ"
+<dead_abovedot> <N>         : "Ṅ"
+<dead_abovedot> <n>         : "ṅ"
+<dead_abovedot> <O>         : "Ȯ"
+<dead_abovedot> <o>         : "ȯ"
+<dead_abovedot> <P>         : "Ṗ"
+<dead_abovedot> <p>         : "ṗ"
+<dead_abovedot> <R>         : "Ṙ"
+<dead_abovedot> <r>         : "ṙ"
+<dead_abovedot> <S>         : "Ṡ"
+<dead_abovedot> <s>         : "ṡ"
+<dead_abovedot> <T>         : "Ṫ"
+<dead_abovedot> <t>         : "ṫ"
+<dead_abovedot> <W>         : "Ẇ"
+<dead_abovedot> <w>         : "ẇ"
+<dead_abovedot> <X>         : "Ẋ"
+<dead_abovedot> <x>         : "ẋ"
+<dead_abovedot> <Y>         : "Ẏ"
+<dead_abovedot> <y>         : "ẏ"
+<dead_abovedot> <Z>         : "Ż"
+<dead_abovedot> <z>         : "ż"
+
+
+# Other precomposed dot above combinations (Unidirectional)
+<dead_abovedot> <Amacron>           : "Ǡ"
+<dead_abovedot> <amacron>           : "ǡ"
+<dead_abovedot> <dead_macron> <A>   : "Ǡ"
+<dead_abovedot> <dead_macron> <a>   : "ǡ"
+<dead_abovedot> <Omacron>           : "Ȱ"
+<dead_abovedot> <omacron>           : "ȱ"
+<dead_abovedot> <dead_macron> <O>   : "Ȱ"
+<dead_abovedot> <dead_macron> <o>   : "ȱ"
+<dead_abovedot> <Sacute>            : "Ṥ"
+<dead_abovedot> <sacute>            : "ṥ"
+<dead_abovedot> <dead_acute> <S>    : "Ṥ"
+<dead_abovedot> <dead_acute> <s>    : "ṥ"
+<dead_abovedot> <Scaron>            : "Ṧ"
+<dead_abovedot> <scaron>            : "ṧ"
+<dead_abovedot> <dead_caron> <S>    : "Ṧ"
+<dead_abovedot> <dead_caron> <s>    : "ṧ"
+<dead_abovedot> <U1E62>             : "Ṩ"   # Ṣ + Dot Above
+<dead_abovedot> <U1E63>             : "ṩ"   # ṣ + Dot Above
+<dead_abovedot> <dead_belowdot> <S> : "Ṩ"
+<dead_abovedot> <dead_belowdot> <s> : "ṩ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_abovedot> <U2C6F>            : "Ɐ̇"      # Ɐ + Dot Above
+<dead_abovedot> <U0250>            : "ɐ̇"      # ɐ + Dot Above
+<dead_abovedot> <U21BA> <A>        : "Ɐ̇"      # Ɐ + Dot Above
+<dead_abovedot> <U21BA> <a>        : "ɐ̇"      # ɐ + Dot Above
+<dead_abovedot> <UA732>            : "Ꜳ̇"     # Ꜳ + Dot Above
+<dead_abovedot> <UA733>            : "ꜳ̇"      # ꜳ + Dot Above
+<dead_abovedot> <multiply> <A> <A> : "Ꜳ̇"     # Ꜳ + Dot Above
+<dead_abovedot> <multiply> <a> <a> : "ꜳ̇"      # ꜳ + Dot Above
+<dead_abovedot> <AE>               : "Æ̇"
+<dead_abovedot> <ae>               : "æ̇"
+<dead_abovedot> <multiply> <A> <E> : "Æ̇"
+<dead_abovedot> <multiply> <a> <e> : "æ̇"
+<dead_abovedot> <UA734>            : "Ꜵ̇"     # Ꜵ + Dot Above
+<dead_abovedot> <UA735>            : "ꜵ̇"      # ꜵ + Dot Above
+<dead_abovedot> <multiply> <A> <O> : "Ꜵ̇"     # Ꜵ + Dot Above
+<dead_abovedot> <multiply> <a> <o> : "ꜵ̇"      # ꜵ + Dot Above
+<dead_abovedot> <UA736>            : "Ꜷ̇"     # Ꜷ + Dot Above
+<dead_abovedot> <UA737>            : "ꜷ̇"      # ꜷ + Dot Above
+<dead_abovedot> <multiply> <A> <U> : "Ꜷ̇"     # Ꜷ + Dot Above
+<dead_abovedot> <multiply> <a> <u> : "ꜷ̇"      # ꜷ + Dot Above
+<dead_abovedot> <UA738>            : "Ꜹ̇"     # Ꜹ + Dot Above
+<dead_abovedot> <UA739>            : "ꜹ̇"      # ꜹ + Dot Above
+<dead_abovedot> <multiply> <A> <V> : "Ꜹ̇"     # Ꜹ + Dot Above
+<dead_abovedot> <multiply> <a> <v> : "ꜹ̇"      # ꜹ + Dot Above
+<dead_abovedot> <UA73C>            : "Ꜽ̇"     # Ꜽ + Dot Above
+<dead_abovedot> <UA73D>            : "ꜽ̇"      # ꜽ + Dot Above
+<dead_abovedot> <multiply> <A> <Y> : "Ꜽ̇"     # Ꜽ + Dot Above
+<dead_abovedot> <multiply> <a> <y> : "ꜽ̇"      # ꜽ + Dot Above
+<dead_abovedot> <U2C6D>            : "Ɑ̇"      # Ɑ (Latin Alpha) + Dot Above
+<dead_abovedot> <U0251>            : "ɑ̇"      # ɑ (Latin Alpha) + Dot Above
+<dead_abovedot> <UA779>            : "Ꝺ̇"      # Ꝺ (Insular D) + Dot Above
+<dead_abovedot> <UA77A>            : "ꝺ̇"      # ꝺ (Insular D) + Dot Above
+<dead_abovedot> <U0190>            : "Ɛ̇"      # Ɛ (Latin Epsilon) + Dot Above
+<dead_abovedot> <U025B>            : "ɛ̇"      # ɛ (Latin Epsilon) + Dot Above
+<dead_abovedot> <SCHWA>            : "Ə̇"      # Ə (Schwa) + Dot Above
+<dead_abovedot> <schwa>            : "ə̇"      # ə (Schwa) + Dot Above
+<dead_abovedot> <U018E>            : "Ǝ̇"      # Ǝ (Turned E) + Dot Above
+<dead_abovedot> <U01DD>            : "ǝ̇"      # ǝ (Turned E) + Dot Above
+<dead_abovedot> <U21BA> <E>        : "Ǝ̇"      # Ǝ (Turned E) + Dot Above
+<dead_abovedot> <U21BA> <e>        : "ǝ̇"      # ǝ (Turned E) + Dot Above
+<dead_abovedot> <UA77B>            : "Ꝼ̇"      # Ꝼ (Insular F) + Dot Above
+<dead_abovedot> <UA77C>            : "ꝼ̇"      # ꝼ (Insular F) + Dot Above
+<dead_abovedot> <U0194>            : "Ɣ̇"      # Ɣ (Latin Gamma) + Dot Above
+<dead_abovedot> <U0263>            : "ɣ̇"      # ɣ (Latin Gamma) + Dot Above
+<dead_abovedot> <UA78D>            : "Ɥ̇"      # Ɥ (Turned H) + Dot Above
+<dead_abovedot> <U0265>            : "ɥ̇"      # ɥ (Turned H) + Dot Above
+<dead_abovedot> <U21BA> <H>        : "Ɥ̇"      # Ɥ (Turned H) + Dot Above
+<dead_abovedot> <U21BA> <h>        : "ɥ̇"      # ɥ (Turned H) + Dot Above
+<dead_abovedot> <U0196>            : "Ɩ̇"      # Ɩ (Latin Iota) + Dot Above
+<dead_abovedot> <U0269>            : "ɩ̇"      # ɩ (Latin Iota) + Dot Above
+<dead_abovedot> <J>                : "J̇"
+<dead_abovedot> <j>                : "ȷ"
+<dead_abovedot> <ENG>              : "Ŋ̇"      # Ŋ + Dot Above
+<dead_abovedot> <eng>              : "ŋ̇"      # ŋ + Dot Above
+<dead_abovedot> <OE>               : "Œ̇"
+<dead_abovedot> <oe>               : "œ̇"
+<dead_abovedot> <multiply> <O> <E> : "Œ̇"
+<dead_abovedot> <multiply> <o> <e> : "œ̇"
+<dead_abovedot> <UA74E>            : "Ꝏ̇"     # Ꝏ + Dot Above
+<dead_abovedot> <UA74F>            : "ꝏ̇"     # ꝏ + Dot Above
+<dead_abovedot> <multiply> <O> <O> : "Ꝏ̇"     # Ꝏ + Dot Above
+<dead_abovedot> <multiply> <o> <o> : "ꝏ̇"     # ꝏ + Dot Above
+<dead_abovedot> <U0186>            : "Ɔ̇"      # Ɔ + Dot Above
+<dead_abovedot> <U0254>            : "ɔ̇"      # ɔ + Dot Above
+<dead_abovedot> <UA7CB>            : "Ɤ̇"      # Ɤ (Ram's Horn) + Dot Above
+<dead_abovedot> <U0264>            : "ɤ̇"      # ɤ (Ram's Horn) + Dot Above
+<dead_abovedot> <Q>                : "Q̇"
+<dead_abovedot> <q>                : "q̇"
+<dead_abovedot> <U01B1>            : "Ʊ̇"     # Ʊ (Latin Upsilon) + Dot Above
+<dead_abovedot> <U028A>            : "ʊ̇"     # ʊ (Latin Upsilon) + Dot Above
+<dead_abovedot> <U019C>            : "Ɯ̇"     # Ɯ (Turned M) + Dot Above
+<dead_abovedot> <U026F>            : "ɯ̇"     # ɯ (Turned M) + Dot Above
+<dead_abovedot> <U21BA> <M>        : "Ɯ̇"     # Ɯ (Turned M) + Dot Above
+<dead_abovedot> <U21BA> <m>        : "ɯ̇"     # ɯ (Turned M) + Dot Above
+<dead_abovedot> <V>                : "V̇"
+<dead_abovedot> <v>                : "v̇"
+<dead_abovedot> <U0245>            : "Ʌ̇"     # Ʌ + Dot Above
+<dead_abovedot> <U028C>            : "ʌ̇"     # ʌ + Dot Above
+<dead_abovedot> <U21BA> <V>        : "Ʌ̇"     # Ʌ + Dot Above
+<dead_abovedot> <U21BA> <v>        : "ʌ̇"     # ʌ + Dot Above
+<dead_abovedot> <U01B2>            : "Ʋ̇"     # Ʋ + Dot Above
+<dead_abovedot> <U028B>            : "ʋ̇"     # ʋ + Dot Above
+<dead_abovedot> <UA768>            : "Ꝩ̇"     # Ꝩ (Vend) + Dot Above
+<dead_abovedot> <UA769>            : "ꝩ̇"     # ꝩ (Vend) + Dot Above
+<dead_abovedot> <UA760>            : "Ꝡ̇"     # Ꝡ + Dot Above
+<dead_abovedot> <UA761>            : "ꝡ̇"     # ꝡ + Dot Above
+<dead_abovedot> <multiply> <V> <Y> : "Ꝡ̇"
+<dead_abovedot> <multiply> <v> <y> : "ꝡ̇"
+<dead_abovedot> <EZH>              : "Ʒ̇"     # Ʒ + Dot Above
+<dead_abovedot> <ezh>              : "ʒ̇"     # ʒ + Dot Above
+
+
+# Composed dot above combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+#
+# [CUSTOM DEAD KEYS]:
+# - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
+#
+<dead_abovedot> <Aacute>                                    : "Ȧ́"
+<dead_abovedot> <aacute>                                    : "ȧ́"
+<dead_abovedot> <dead_acute> <A>                            : "Ȧ́"
+<dead_abovedot> <dead_acute> <a>                            : "ȧ́"
+<dead_abovedot> <Aogonek>                                   : "Ą̇"
+<dead_abovedot> <aogonek>                                   : "ą̇"
+<dead_abovedot> <dead_ogonek> <A>                           : "Ą̇"
+<dead_abovedot> <dead_ogonek> <a>                           : "ą̇"
+<dead_abovedot> <Ccedilla>                                  : "Ç̇"
+<dead_abovedot> <ccedilla>                                  : "ç̇"
+<dead_abovedot> <dead_cedilla> <C>                          : "Ç̇"
+<dead_abovedot> <dead_cedilla> <c>                          : "ç̇"
+<dead_abovedot> <Eacute>                                    : "Ė́"
+<dead_abovedot> <eacute>                                    : "ė́"
+<dead_abovedot> <dead_acute> <E>                            : "Ė́"
+<dead_abovedot> <dead_acute> <e>                            : "ė́"
+<dead_abovedot> <Etilde>                                    : "Ė̃"
+<dead_abovedot> <etilde>                                    : "ė̃"
+<dead_abovedot> <dead_tilde> <E>                            : "Ė̃"
+<dead_abovedot> <dead_tilde> <e>                            : "ė̃"
+<dead_abovedot> <Eogonek>                                   : "Ę̇"
+<dead_abovedot> <eogonek>                                   : "ę̇"
+<dead_abovedot> <dead_ogonek> <E>                           : "Ę̇"
+<dead_abovedot> <dead_ogonek> <e>                           : "ę̇"
+<dead_abovedot> <Emacron>                                   : "Ė̄"
+<dead_abovedot> <emacron>                                   : "ė̄"
+<dead_abovedot> <dead_macron> <E>                           : "Ė̄"
+<dead_abovedot> <dead_macron> <e>                           : "ė̄"
+<dead_abovedot> <Gabovedot>                                 : "Ġ̄"
+<dead_abovedot> <gabovedot>                                 : "ġ̄"
+<dead_abovedot> <dead_abovedot> <G>                         : "Ġ̄"
+<dead_abovedot> <dead_abovedot> <g>                         : "ġ̄"
+<dead_abovedot> <Iacute>                                    : "İ́"
+<dead_abovedot> <iacute>                                    : "i̇́"
+<dead_abovedot> <dead_acute> <I>                            : "İ́"
+<dead_abovedot> <dead_acute> <i>                            : "i̇́"
+<dead_abovedot> <Iogonek>                                   : "Į̇"
+<dead_abovedot> <iogonek>                                   : "į̇"
+<dead_abovedot> <dead_acute> <I>                            : "Į̇"
+<dead_abovedot> <dead_acute> <i>                            : "į̇"
+<dead_abovedot> <dead_belowring> <N>                        : "Ṅ̥"
+<dead_abovedot> <dead_belowring> <n>                        : "ṅ̥"
+<dead_abovedot> <Oacute>                                    : "Ȯ́"
+<dead_abovedot> <oacute>                                    : "ȯ́"
+<dead_abovedot> <dead_acute> <O>                            : "Ȯ́"
+<dead_abovedot> <dead_acute> <o>                            : "ȯ́"
+<dead_abovedot> <U01EA>                                     : "Ǫ̇"   # Ǫ + Dot Above
+<dead_abovedot> <U01EB>                                     : "ǫ̇"   # ǫ + Dot Above
+<dead_abovedot> <dead_ogonek> <O>                           : "Ǫ̇"
+<dead_abovedot> <dead_ogonek> <o>                           : "ǫ̇"
+<dead_abovedot> <dead_acute> <Oslash>                       : "Ø̇́"
+<dead_abovedot> <dead_acute> <oslash>                       : "ø̇́"
+<dead_abovedot> <dead_acute> <dead_longsolidusoverlay> <O>  : "Ø̇́"
+<dead_abovedot> <dead_acute> <dead_longsolidusoverlay> <o>  : "ø̇́"
+<dead_abovedot> <Oslash>                                    : "Ø̇"
+<dead_abovedot> <oslash>                                    : "ø̇"
+<dead_abovedot> <dead_longsolidusoverlay> <O>               : "Ø̇"
+<dead_abovedot> <dead_longsolidusoverlay> <o>               : "ø̇"
+<dead_abovedot> <dead_longsolidusoverlay> <dead_acute> <O>  : "Ø̇́"
+<dead_abovedot> <dead_longsolidusoverlay> <dead_acute> <o>  : "ø̇́"
+<dead_abovedot> <dead_belowdot> <Q>                         : "Q̣̇"
+<dead_abovedot> <dead_belowdot> <q>                         : "q̣̇"
+<dead_abovedot> <dead_tilde> <S>                            : "Ṡ̃"
+<dead_abovedot> <dead_tilde> <s>                            : "ṡ̃"
+<dead_abovedot> <UA7C9>                                     : "Ꟊ̇"  # Ꟊ + Dot Above
+<dead_abovedot> <UA7CA>                                     : "ꟊ̇"  # ꟊ + Dot Above
+<dead_abovedot> <dead_stroke> <S>                           : "Ꟊ̇"
+<dead_abovedot> <dead_stroke> <s>                           : "ꟊ̇"
+<dead_abovedot> <dead_acute> <U>                            : "U̇́"
+<dead_abovedot> <dead_acute> <u>                            : "u̇́"
+<dead_abovedot> <Uogonek>                                   : "Ų̇"
+<dead_abovedot> <uogonek>                                   : "ų̇"
+<dead_abovedot> <dead_acute> <U>                            : "Ų̇"
+<dead_abovedot> <dead_acute> <u>                            : "ų̇"
+<dead_abovedot> <Umacron>                                   : "U̇̄"
+<dead_abovedot> <umacron>                                   : "u̇̄"
+<dead_abovedot> <dead_macron> <U>                           : "U̇̄"
+<dead_abovedot> <dead_macron> <u>                           : "u̇̄"
+<dead_abovedot> <Yacute>                                    : "Ẏ́"
+<dead_abovedot> <yacute>                                    : "ẏ́"
+<dead_abovedot> <dead_acute> <Y>                            : "Ẏ́"
+<dead_abovedot> <dead_acute> <y>                            : "ẏ́"
+
+##################
+# [END OF RULES] #
+##################

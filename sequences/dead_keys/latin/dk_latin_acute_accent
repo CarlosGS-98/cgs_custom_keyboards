@@ -924,8 +924,8 @@
 <dead_acute> <dead_breve> <y>                               : "y̆́"
 <dead_acute> <U1E8E>                                        : "Ẏ́"   # Ẏ + Acute Accent
 <dead_acute> <U1E8F>                                        : "ẏ́"   # ẏ + Acute Accent
-<dead_acute> <dead_abovedot> <A>                            : "Ẏ́"   # Ẏ + Acute Accent
-<dead_acute> <dead_abovedot> <a>                            : "ẏ́"   # ẏ + Acute Accent
+<dead_acute> <dead_abovedot> <Y>                            : "Ẏ́"   # Ẏ + Acute Accent
+<dead_acute> <dead_abovedot> <y>                            : "ẏ́"   # ẏ + Acute Accent
 <dead_acute> <Zcaron>                                       : "Ž́"
 <dead_acute> <zcaron>                                       : "ž́"
 <dead_acute> <dead_caron> <Z>                               : "Ž́"

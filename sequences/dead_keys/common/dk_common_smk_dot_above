@@ -1,0 +1,17 @@
+# Common Dead Keys | Dot Above Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the diacritical dot above
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_abovedot> <space>         : "̇"    # Combining dot above
+<dead_abovedot> <dead_abovedot> : "˙"   # Regular spacing dot above
+<dead_abovedot> <less>          : "͘"    # Combining dot above right
+<dead_abovedot> <greater>       : "͘"    # Combining dot above right
+
+##################
+# [END OF RULES] #
+##################

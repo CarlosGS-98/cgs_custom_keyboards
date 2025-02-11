@@ -59,14 +59,14 @@
 <dead_macron> <otilde>              : "ȭ"
 <dead_macron> <dead_tilde> <O>      : "Ȭ"
 <dead_macron> <dead_tilde> <o>      : "ȭ"
-<dead_macron> <U022E>               : "Ȱ"   # Ȯ + Macron
-<dead_macron> <U022F>               : "ȱ"   # ȯ + Macron
-<dead_macron> <dead_belowdot> <O>   : "Ȱ"
-<dead_macron> <dead_belowdot> <o>   : "ȱ"
 <dead_macron> <U01EA>               : "Ǭ"   # Ǫ + Macron
 <dead_macron> <U01EB>               : "ǭ"   # ǫ + Macron
 <dead_macron> <dead_ogonek> <O>     : "Ǭ"
 <dead_macron> <dead_ogonek> <o>     : "ǭ"
+<dead_macron> <U022E>               : "Ȱ"   # Ȯ + Macron
+<dead_macron> <U022F>               : "ȱ"   # ȯ + Macron
+<dead_macron> <dead_abovedot> <O>   : "Ȱ"
+<dead_macron> <dead_abovedot> <o>   : "ȱ"
 <dead_macron> <U1E5A>               : "Ṝ"   # Ṛ + Macron
 <dead_macron> <U1E5B>               : "ṝ"   # ṛ + Macron
 <dead_macron> <dead_belowdot> <R>   : "Ṝ"
