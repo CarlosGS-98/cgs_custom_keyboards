@@ -1,0 +1,139 @@
+# Latin Alphabet | Triple Tail Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Precomposed implosive tail/hook letter combinations
+# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+<U0359> <B> : "Ɓ"
+<U0359> <b> : "ɓ"
+<U0359> <C> : "Ƈ"
+<U0359> <c> : "ƈ"
+<U0359> <D> : "Ɗ"
+<U0359> <d> : "ɗ"
+<U0359> <F> : "Ƒ"
+<U0359> <f> : "ƒ"
+<U0359> <G> : "Ɠ"
+<U0359> <g> : "ɠ"
+<U0359> <H> : "Ɦ"
+<U0359> <h> : "ɦ"
+<U0359> <J> : "ʄ"
+<U0359> <j> : "ʄ"
+<U0359> <K> : "Ƙ"
+<U0359> <k> : "ƙ"
+<U0359> <M> : "Ɱ"
+<U0359> <m> : "ɱ"
+<U0359> <N> : "Ŋ"
+<U0359> <n> : "ŋ"
+<U0359> <P> : "Ƥ"
+<U0359> <p> : "ƥ"
+#<U0359> <Q> : "¿?" (Not encoded yet)
+<U0359> <q> : "ʠ"
+<U0359> <T> : "Ƭ"
+<U0359> <t> : "ƭ"
+#<U0359> <U> : "¿?" (Not encoded yet)
+<U0359> <u> : "ꭒ"
+<U0359> <V> : "Ʋ"
+<U0359> <v> : "ʋ"
+<U0359> <W> : "Ⱳ"
+<U0359> <w> : "ⱳ"
+<U0359> <Y> : "Ƴ"
+<U0359> <y> : "ƴ"
+<U0359> <Z> : "Ȥ"
+<U0359> <z> : "ȥ"
+
+
+# Precomposed palatal hook letter combinations
+# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+#<U0359> <less> <B>         : "¿?" (Not encoded yet)
+<U0359> <less> <b>          : "ᶀ"
+<U0359> <less> <C>          : "Ꞔ"
+<U0359> <less> <c>          : "ꞔ"
+#<U0359> <less> <D>         : "¿?" (Not encoded yet)
+<U0359> <less> <d>          : "ᶁ"
+#<U0359> <less> <F>         : "¿?" (Not encoded yet)
+<U0359> <less> <f>          : "ᶂ"
+#<U0359> <less> <G>         : "¿?" (Not encoded yet)
+<U0359> <less> <g>          : "ᶃ"
+<U0359> <less> <H>          : "Ꜧ"
+<U0359> <less> <h>          : "ꜧ"
+#<U0359> <less> <K>         : "¿?" (Not encoded yet)
+<U0359> <less> <k>          : "ᶄ"
+#<U0359> <less> <L>         : "¿?" (Not encoded yet)
+<U0359> <less> <l>          : "ᶅ"
+#<U0359> <less> <M>         : "¿?" (Not encoded yet)
+<U0359> <less> <m>          : "ᶆ"
+<U0359> <less> <N>          : "Ɲ"
+<U0359> <less> <n>          : "ɲ"
+#<U0359> <less> <ENG>       : "¿?" (Not encoded yet)
+<U0359> <less> <eng>        : "𝼔"
+#<U0359> <less> <P>         : "¿?" (Not encoded yet)
+<U0359> <less> <p>          : "ᶈ"
+#<U0359> <less> <R>         : "¿?" (Not encoded yet)
+<U0359> <less> <r>          : "ᶉ"
+<U0359> <less> <0279>       : "𝼕"   # ɹ + Palatal Hook
+#<U0359> <less> <S>         : "¿?" (Not encoded yet)
+<U0359> <less> <s>          : "ᶊ"
+<U0359> <less> <U0283>      : "ᶋ"   # Esh + Palatal Hook
+#<U0359> <less> <T>         : "¿?" (Not encoded yet)
+<U0359> <less> <t>          : "ƫ"
+#<U0359> <less> <T> <U0283> : "¿?" (Not encoded yet)
+<U0359> <less> <t> <U0283>  : "𝼗"   # T-Esh + Palatal Hook
+#<U0359> <less> <V>         : "¿?" (Not encoded yet)
+<U0359> <less> <v>          : "ᶌ"
+#<U0359> <less> <X>         : "¿?" (Not encoded yet)
+<U0359> <less> <x>          : "ᶍ"
+<U0359> <less> <Z>          : "Ᶎ"
+<U0359> <less> <z>          : "ᶎ"
+#<U0359> <less> <EZH>       : "¿?" (Not encoded yet)
+<U0359> <less> <ezh>        : "𝼘"
+
+
+# Precomposed retroflex hook letter combinations
+# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+#<U0359> <greater> <A>                  : "¿?" (Not encoded yet)
+<U0359> <greater> <a>                   : "ᶏ"
+#<U0359> <greater> <U2C6D>              : "¿?" (Not encoded yet)
+<U0359> <greater> <U0251>               : "ᶐ"   # ɑ (Latin Alpha) + Retroflex Hook
+#<U0359> <greater> <C>                  : "¿?" (Not encoded yet)
+<U0359> <greater> <c>                   : "𝼝"
+<U0359> <greater> <D>                   : "Ɖ"
+<U0359> <greater> <d>                   : "ɖ"
+#<U0359> <greater> <E>                  : "¿?" (Not encoded yet)
+<U0359> <greater> <e>                   : "ᶒ"
+#<U0359> <greater> <U0190>              : "¿?" (Not encoded yet)
+<U0359> <greater> <U025B>               : "ᶓ"   # ɛ (Latin Epsilon) + Retroflex Hook
+#<U0359> <greater> <SCHWA>              : "¿?" (Not encoded yet)
+<U0359> <greater> <schwa>               : "ᶕ"
+#<U0359> <greater> <I>                  : "¿?" (Not encoded yet)
+<U0359> <greater> <i>                   : "ᶖ"
+#<U0359> <greater> <U0197>              : "¿?" (Not encoded yet)
+<U0359> <greater> <U0268>               : "𝼚"   # ɨ + Retroflex Hook
+#<U0359> <greater> <dead_stroke> <I>    : "¿?" (Not encoded yet)
+<U0359> <greater> <dead_stroke> <i>     : "𝼚"   # ɨ + Retroflex Hook
+#<U0359> <greater> <L>                  : "¿?" (Not encoded yet)
+<U0359> <greater> <l>                   : "ɭ"
+#<U0359> <greater> <N>                  : "¿?" (Not encoded yet)
+<U0359> <greater> <n>                   : "ɳ"
+#<U0359> <greater> <O>                  : "¿?" (Not encoded yet)
+<U0359> <greater> <o>                   : "𝼛"
+#<U0359> <greater> <U0186>              : "¿?" (Not encoded yet)
+<U0359> <greater> <U0254>               : "ᶗ"   # ɔ + Tilde
+<U0359> <greater> <R>                   : "Ɽ"
+<U0359> <greater> <r>                   : "ɽ"
+<U0359> <greater> <S>                   : "Ʂ"
+<U0359> <greater> <s>                   : "ʂ"
+<U0359> <greater> <U0283>               : "ᶘ"   # Esh + Retroflex Hook
+<U0359> <greater> <T>                   : "Ʈ"
+<U0359> <greater> <t>                   : "ʈ"
+#<U0359> <greater> <U>                  : "¿?" (Not encoded yet)
+<U0359> <greater> <u>                   : "ᶙ"
+#<U0359> <greater> <Z>                  : "¿?" (Not encoded yet)
+<U0359> <greater> <z>                   : "ʐ"
+#<U0359> <greater> <EZH>                : "¿?" (Not encoded yet)
+<U0359> <greater> <ezh>                 : "ᶚ"
+
+##################
+# [END OF RULES] #
+##################
