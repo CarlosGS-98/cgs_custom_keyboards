@@ -1,0 +1,19 @@
+# Common Dead Keys | Tilde Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the tilde/virgulilla/perispomeni
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_tilde> <space>        : "̃"    # Combining tilde
+<dead_tilde> <dead_tilde>   : "~"   # Regular spacing tilde
+<dead_tilde> <less>         : "̰"    # Combining tilde below
+<dead_tilde> <greater>      : "˜"   # Small tilde
+<dead_tilde> <comma>        : "͂"    # Combining Greek perispomeni
+<dead_tilde> <semicolon>    : "҃"    # Combining Cyrillic titlo
+
+##################
+# [END OF RULES] #
+##################

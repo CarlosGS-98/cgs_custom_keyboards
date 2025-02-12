@@ -1,0 +1,746 @@
+# Latin Alphabet | Tilde Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations 
+<dead_tilde> <A>    : "Ã"
+<dead_tilde> <a>    : "ã"
+<dead_tilde> <E>    : "Ẽ"
+<dead_tilde> <e>    : "ẽ"
+<dead_tilde> <I>    : "Ĩ"
+<dead_tilde> <i>    : "ĩ"
+<dead_tilde> <N>    : "Ñ"
+<dead_tilde> <n>    : "ñ"
+<dead_tilde> <O>    : "Õ"
+<dead_tilde> <o>    : "õ"
+<dead_tilde> <U>    : "Ũ"
+<dead_tilde> <u>    : "ũ"
+<dead_tilde> <V>    : "Ṽ"
+<dead_tilde> <v>    : "ṽ"
+<dead_tilde> <Y>    : "Ỹ"
+<dead_tilde> <v>    : "ỹ"
+
+
+# Precomposed Vietnamese letter combinations (Unidirectional)
+<dead_tilde> <Acircumflex>           : "Ẫ"
+<dead_tilde> <acircumflex>           : "ẫ"
+<dead_tilde> <dead_circumflex> <A>   : "Ẫ"
+<dead_tilde> <dead_circumflex> <a>   : "ẫ"
+<dead_tilde> <Abreve>                : "Ẵ"
+<dead_tilde> <abreve>                : "ẵ"
+<dead_tilde> <dead_breve> <A>        : "Ẵ"
+<dead_tilde> <dead_breve> <a>        : "ẵ"
+<dead_tilde> <Ecircumflex>           : "Ễ"
+<dead_tilde> <ecircumflex>           : "ễ"
+<dead_tilde> <dead_circumflex> <E>   : "Ễ"
+<dead_tilde> <dead_circumflex> <e>   : "ễ"
+<dead_tilde> <Ocircumflex>           : "Ỗ"
+<dead_tilde> <ocircumflex>           : "ỗ"
+<dead_tilde> <dead_circumflex> <O>   : "Ỗ"
+<dead_tilde> <dead_circumflex> <o>   : "ỗ"
+<dead_tilde> <Ohorn>                 : "Ỡ"
+<dead_tilde> <ohorn>                 : "ỡ"
+<dead_tilde> <dead_horn> <O>         : "Ỡ"
+<dead_tilde> <dead_horn> <o>         : "ỡ"
+<dead_tilde> <Uhorn>                 : "Ữ"
+<dead_tilde> <uhorn>                 : "ữ"
+<dead_tilde> <dead_horn> <U>         : "Ữ"
+<dead_tilde> <dead_horn> <u>         : "ữ"
+
+
+# Other precomposed tilde combinations (Unidirectional)
+<dead_tilde> <Oacute>               : "Ṍ"
+<dead_tilde> <oacute>               : "ṍ"
+<dead_tilde> <dead_acute> <O>       : "Ṍ"
+<dead_tilde> <dead_acute> <o>       : "ṍ"
+<dead_tilde> <Odiaeresis>           : "Ṏ"
+<dead_tilde> <odiaeresis>           : "ṏ"
+<dead_tilde> <dead_diaeresis> <O>   : "Ṏ"
+<dead_tilde> <dead_diaeresis> <o>   : "ṏ"
+<dead_tilde> <Omacron>              : "Ȭ"
+<dead_tilde> <omacron>              : "ȭ"
+<dead_tilde> <dead_macron> <O>      : "Ȭ"
+<dead_tilde> <dead_macron> <o>      : "ȭ"
+<dead_tilde> <Uacute>               : "Ṹ"
+<dead_tilde> <uacute>               : "ṹ"
+<dead_tilde> <dead_acute> <U>       : "Ṹ"
+<dead_tilde> <dead_acute> <u>       : "ṹ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tilde
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_tilde> <U2C6F>            : "Ɐ̊"      # Ɐ + Tilde
+<dead_tilde> <U0250>            : "ɐ̊"      # ɐ + Tilde
+<dead_tilde> <U21BA> <A>        : "Ɐ̊"      # Ɐ + Tilde
+<dead_tilde> <U21BA> <a>        : "ɐ̊"      # ɐ + Tilde
+<dead_tilde> <UA732>            : "Ꜳ̊"     # Ꜳ + Tilde
+<dead_tilde> <UA733>            : "ꜳ̊"      # ꜳ + Tilde
+<dead_tilde> <multiply> <A> <A> : "Ꜳ̊"     # Ꜳ + Tilde
+<dead_tilde> <multiply> <a> <a> : "ꜳ̊"      # ꜳ + Tilde
+<dead_tilde> <AE>               : "Æ̊"
+<dead_tilde> <ae>               : "æ̊"
+<dead_tilde> <multiply> <A> <E> : "Æ̊"
+<dead_tilde> <multiply> <a> <e> : "æ̊"
+<dead_tilde> <UA734>            : "Ꜵ̊"     # Ꜵ + Tilde
+<dead_tilde> <UA735>            : "ꜵ̊"      # ꜵ + Tilde
+<dead_tilde> <multiply> <A> <O> : "Ꜵ̊"     # Ꜵ + Tilde
+<dead_tilde> <multiply> <a> <o> : "ꜵ̊"      # ꜵ + Tilde
+<dead_tilde> <UA736>            : "Ꜷ̊"     # Ꜷ + Tilde
+<dead_tilde> <UA737>            : "ꜷ̊"      # ꜷ + Tilde
+<dead_tilde> <multiply> <A> <U> : "Ꜷ̊"     # Ꜷ + Tilde
+<dead_tilde> <multiply> <a> <u> : "ꜷ̊"      # ꜷ + Tilde
+<dead_tilde> <UA738>            : "Ꜹ̊"     # Ꜹ + Tilde
+<dead_tilde> <UA739>            : "ꜹ̊"      # ꜹ + Tilde
+<dead_tilde> <multiply> <A> <V> : "Ꜹ̊"     # Ꜹ + Tilde
+<dead_tilde> <multiply> <a> <v> : "ꜹ̊"      # ꜹ + Tilde
+<dead_tilde> <UA73C>            : "Ꜽ̊"     # Ꜽ + Tilde
+<dead_tilde> <UA73D>            : "ꜽ̊"      # ꜽ + Tilde
+<dead_tilde> <multiply> <A> <Y> : "Ꜽ̊"     # Ꜽ + Tilde
+<dead_tilde> <multiply> <a> <y> : "ꜽ̊"      # ꜽ + Tilde
+<dead_tilde> <U2C6D>            : "Ɑ̊"      # Ɑ (Latin Alpha) + Tilde
+<dead_tilde> <U0251>            : "ɑ̊"      # ɑ (Latin Alpha) + Tilde
+<dead_tilde> <B>                : "B̊"
+<dead_tilde> <b>                : "b̊"
+<dead_tilde> <C>                : "C̊"
+<dead_tilde> <c>                : "c̊"
+<dead_tilde> <D>                : "D̊"
+<dead_tilde> <d>                : "d̊"
+<dead_tilde> <UA779>            : "Ꝺ̊"      # Ꝺ (Insular D) + Tilde
+<dead_tilde> <UA77A>            : "ꝺ̊"      # ꝺ (Insular D) + Tilde
+<dead_tilde> <E>                : "E̊"
+<dead_tilde> <e>                : "e̊"
+<dead_tilde> <U0190>            : "Ɛ̊"      # Ɛ (Latin Epsilon) + Tilde
+<dead_tilde> <U025B>            : "ɛ̊"      # ɛ (Latin Epsilon) + Tilde
+<dead_tilde> <SCHWA>            : "Ə̊"      # Ə (Schwa) + Tilde
+<dead_tilde> <schwa>            : "ə̊"      # ə (Schwa) + Tilde
+<dead_tilde> <U018E>            : "Ǝ̊"      # Ǝ (Turned E) + Tilde
+<dead_tilde> <U01DD>            : "ǝ̊"      # ǝ (Turned E) + Tilde
+<dead_tilde> <U21BA> <E>        : "Ǝ̊"      # Ǝ (Turned E) + Tilde
+<dead_tilde> <U21BA> <e>        : "ǝ̊"      # ǝ (Turned E) + Tilde
+<dead_tilde> <F>                : "F̊"
+<dead_tilde> <f>                : "f̊"
+<dead_tilde> <UA77B>            : "Ꝼ̊"      # Ꝼ (Insular F) + Tilde
+<dead_tilde> <UA77C>            : "ꝼ̊"      # ꝼ (Insular F) + Tilde
+<dead_tilde> <G>                : "G̊"
+<dead_tilde> <g>                : "g̊"
+<dead_tilde> <U0194>            : "Ɣ̊"      # Ɣ (Latin Gamma) + Tilde
+<dead_tilde> <U0263>            : "ɣ̊"      # ɣ (Latin Gamma) + Tilde
+<dead_tilde> <UA78D>            : "Ɥ̊"      # Ɥ (Turned H) + Tilde
+<dead_tilde> <U0265>            : "ɥ̊"      # ɥ (Turned H) + Tilde
+<dead_tilde> <U21BA> <H>        : "Ɥ̊"      # Ɥ (Turned H) + Tilde
+<dead_tilde> <U21BA> <h>        : "ɥ̊"      # ɥ (Turned H) + Tilde
+<dead_tilde> <I>                : "I̊"
+<dead_tilde> <i>                : "i̊"
+<dead_tilde> <U0196>            : "Ɩ̊"      # Ɩ (Latin Iota) + Tilde
+<dead_tilde> <U0269>            : "ɩ̊"      # ɩ (Latin Iota) + Tilde
+<dead_tilde> <J>                : "J̊"
+<dead_tilde> <j>                : "ȷ̊"
+<dead_tilde> <K>                : "K̊"
+<dead_tilde> <k>                : "k̊"
+<dead_tilde> <L>                : "L̊"
+<dead_tilde> <l>                : "l̊"
+<dead_tilde> <M>                : "M̊"
+<dead_tilde> <m>                : "m̊"
+<dead_tilde> <N>                : "N̊"
+<dead_tilde> <n>                : "n̊"
+<dead_tilde> <ENG>              : "Ŋ̊"      # Ŋ + Tilde
+<dead_tilde> <eng>              : "ŋ̊"      # ŋ + Tilde
+<dead_tilde> <O>                : "O̊"
+<dead_tilde> <o>                : "o̊"
+<dead_tilde> <OE>               : "Œ̊"
+<dead_tilde> <oe>               : "œ̊"
+<dead_tilde> <multiply> <O> <E> : "Œ̊"
+<dead_tilde> <multiply> <o> <e> : "œ̊"
+<dead_tilde> <UA74E>            : "Ꝏ̊"     # Ꝏ + Tilde
+<dead_tilde> <UA74F>            : "ꝏ̊"     # ꝏ + Tilde
+<dead_tilde> <multiply> <O> <O> : "Ꝏ̊"     # Ꝏ + Tilde
+<dead_tilde> <multiply> <o> <o> : "ꝏ̊"     # ꝏ + Tilde
+<dead_tilde> <U0186>            : "Ɔ̊"      # Ɔ + Tilde
+<dead_tilde> <U0254>            : "ɔ̊"      # ɔ + Tilde
+<dead_tilde> <UA7CB>            : "Ɤ̊"      # Ɤ (Ram's Horn) + Tilde
+<dead_tilde> <U0264>            : "ɤ̊"      # ɤ (Ram's Horn) + Tilde
+<dead_tilde> <Q>                : "Q̊"
+<dead_tilde> <q>                : "q̊"
+<dead_tilde> <R>                : "R̊"
+<dead_tilde> <r>                : "r̊"
+<dead_tilde> <S>                : "S̊"
+<dead_tilde> <s>                : "s"
+<dead_tilde> <T>                : "T̊"
+<dead_tilde> <t>                : "t̊"
+<dead_tilde> <U01B1>            : "Ʊ̊"     # Ʊ (Latin Upsilon) + Tilde
+<dead_tilde> <U028A>            : "ʊ̊"     # ʊ (Latin Upsilon) + Tilde
+<dead_tilde> <U019C>            : "Ɯ̊"     # Ɯ (Turned M) + Tilde
+<dead_tilde> <U026F>            : "ɯ̊"     # ɯ (Turned M) + Tilde
+<dead_tilde> <U21BA> <M>        : "Ɯ̊"     # Ɯ (Turned M) + Tilde
+<dead_tilde> <U21BA> <m>        : "ɯ̊"     # ɯ (Turned M) + Tilde
+<dead_tilde> <V>                : "V̊"
+<dead_tilde> <v>                : "v̊"
+<dead_tilde> <U0245>            : "Ʌ̊"     # Ʌ + Tilde
+<dead_tilde> <U028C>            : "ʌ̊"     # ʌ + Tilde
+<dead_tilde> <U21BA> <V>        : "Ʌ̊"     # Ʌ + Tilde
+<dead_tilde> <U21BA> <v>        : "ʌ̊"     # ʌ + Tilde
+<dead_tilde> <U01B2>            : "Ʋ̊"     # Ʋ + Tilde
+<dead_tilde> <U028B>            : "ʋ̊"     # ʋ + Tilde
+<dead_tilde> <UA768>            : "Ꝩ̊"     # Ꝩ (Vend) + Tilde
+<dead_tilde> <UA769>            : "ꝩ̊"     # ꝩ (Vend) + Tilde
+<dead_tilde> <UA760>            : "Ꝡ̊"     # Ꝡ + Tilde
+<dead_tilde> <UA761>            : "ꝡ̊"     # ꝡ + Tilde
+<dead_tilde> <multiply> <V> <Y> : "Ꝡ̊"
+<dead_tilde> <multiply> <v> <y> : "ꝡ̊"
+<dead_tilde> <W>                : "W̊"
+<dead_tilde> <X>                : "X̊"
+<dead_tilde> <x>                : "x̊"
+<dead_tilde> <Y>                : "Y̊"
+<dead_tilde> <Z>                : "Z̊"
+<dead_tilde> <z>                : "z̊"
+<dead_tilde> <EZH>              : "Ʒ̊"
+<dead_tilde> <ezh>              : "ʒ̊"
+
+
+# Composed tilde combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tilde
+#
+# [CUSTOM DEAD KEYS]:
+# - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
+#
+<dead_tilde> <Aacute>                                           : "Ã́"
+<dead_tilde> <aacute>                                           : "ã́"
+<dead_tilde> <dead_acute> <A>                                   : "Ã́"
+<dead_tilde> <dead_acute> <a>                                   : "ã́"
+<dead_tilde> <dead_acute> <Amacron>                             : "Ā̃́"
+<dead_tilde> <dead_acute> <amacron>                             : "ā̃́"
+<dead_tilde> <dead_acute> <dead_macron> <A>                     : "Ā̃́"
+<dead_tilde> <dead_acute> <dead_macron> <a>                     : "ā̃́"
+<dead_tilde> <Agrave>                                           : "Ã̀"
+<dead_tilde> <agrave>                                           : "ã̀"
+<dead_tilde> <dead_grave> <A>                                   : "Ã̀"
+<dead_tilde> <dead_grave> <a>                                   : "ã̀"
+<dead_tilde> <Adiaeresis>                                       : "Ã̈"
+<dead_tilde> <adiaeresis>                                       : "ã̈"
+<dead_tilde> <dead_diaeresis> <A>                               : "Ã̈"
+<dead_tilde> <dead_diaeresis> <a>                               : "ã̈"
+<dead_tilde> <Aring>                                            : "Å̃"
+<dead_tilde> <aring>                                            : "å̃"
+<dead_tilde> <dead_abovering> <A>                               : "Å̃"
+<dead_tilde> <dead_abovering> <a>                               : "å̃"
+<dead_tilde> <dead_belowring> <A>                               : "Ḁ̃"
+<dead_tilde> <dead_belowring> <a>                               : "ḁ̃"
+<dead_tilde> <U01CD>                                            : "Ã̌"   # Ǎ + Tilde
+<dead_tilde> <U01CE>                                            : "ã̌"   # ǎ + Tilde
+<dead_tilde> <dead_caron> <A>                                   : "Ã̌"
+<dead_tilde> <dead_caron> <a>                                   : "ã̌"
+<dead_tilde> <Aogonek>                                          : "Ą̃"
+<dead_tilde> <aogonek>                                          : "ą̃"
+<dead_tilde> <dead_ogonek> <A>                                  : "Ą̃"
+<dead_tilde> <dead_ogonek> <a>                                  : "ą̃"
+<dead_tilde> <dead_ogonek> <Amacron>                            : "Ą̄̃"
+<dead_tilde> <dead_ogonek> <amacron>                            : "ą̄̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <A>                    : "Ą̄̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <a>                    : "ą̄̃"
+<dead_tilde> <Amacron>                                          : "Ã̄"
+<dead_tilde> <amacron>                                          : "ã̄"
+<dead_tilde> <dead_macron> <A>                                  : "Ã̄"
+<dead_tilde> <dead_macron> <a>                                  : "ã̄"
+<dead_tilde> <dead_macron> <Aacute>                             : "Ā̃́"
+<dead_tilde> <dead_macron> <aacute>                             : "ā̃́"
+<dead_tilde> <dead_macron> <dead_acute> <A>                     : "Ā̃́"
+<dead_tilde> <dead_macron> <dead_acute> <a>                     : "ā̃́"
+<dead_tilde> <dead_macron> <Aogonek>                            : "Ą̄̃"
+<dead_tilde> <dead_macron> <aogonek>                            : "ą̄̃"
+<dead_tilde> <dead_macron> <dead_ogonek> <A>                    : "Ą̄̃"
+<dead_tilde> <dead_macron> <dead_ogonek> <a>                    : "ą̄̃"
+<dead_tilde> <dead_macron> <Abelowdot>                          : "Ạ̄̃"
+<dead_tilde> <dead_macron> <abelowdot>                          : "ạ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <A>                  : "Ạ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <a>                  : "ạ̄̃"
+<dead_tilde> <dead_belowmacron> <A>                             : "Ã̱"
+<dead_tilde> <dead_belowmacron> <a>                             : "ã̱"
+<dead_tilde> <Abelowdot>                                        : "Ạ̃"
+<dead_tilde> <abelowdot>                                        : "ạ̃"
+<dead_tilde> <dead_belowdot> <A>                                : "Ạ̃"
+<dead_tilde> <dead_belowdot> <a>                                : "ạ̃"
+<dead_tilde> <dead_belowdot> <Amacron>                          : "Ạ̄̃"
+<dead_tilde> <dead_belowdot> <amacron>                          : "ạ̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <A>                  : "Ạ̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <a>                  : "ạ̄̃"
+<dead_tilde> <dead_belowcomma> <A>                              : "Ã̦"
+<dead_tilde> <dead_belowcomma> <a>                              : "ã̦"
+<dead_tilde> <dead_aboveverticalline> <A>                       : "Ã̍"
+<dead_tilde> <dead_aboveverticalline> <a>                       : "ã̍"
+<dead_tilde> <dead_macron> <AE>                                 : "Æ̃̄"
+<dead_tilde> <dead_macron> <ae>                                 : "æ̃̄"
+<dead_tilde> <dead_macron> <multiply> <A> <E>                   : "Æ̃̄"
+<dead_tilde> <dead_macron> <multiply> <a> <e>                   : "æ̃̄"
+<dead_tilde> <dead_caron> <AE>                                  : "Æ̃̌"
+<dead_tilde> <dead_caron> <ae>                                  : "æ̃̌"
+<dead_tilde> <dead_caron> <multiply> <A> <E>                    : "Æ̃̌"
+<dead_tilde> <dead_caron> <multiply> <a> <e>                    : "æ̃̌"
+<dead_tilde> <dead_ogonek> <AE>                                 : "Æ̨̃"
+<dead_tilde> <dead_ogonek> <ae>                                 : "æ̨̃"
+<dead_tilde> <dead_ogonek> <multiply> <A> <E>                   : "Æ̨̃"
+<dead_tilde> <dead_ogonek> <multiply> <a> <e>                   : "æ̨̃"
+<dead_tilde> <dead_caron> <U2C6D>                               : "Ɑ̃̌"   # Ɑ (Latin Alpha) + Tilde + Caron
+<dead_tilde> <dead_caron> <U0251>                               : "ɑ̃̌"   # ɑ (Latin Alpha) + Tilde + Caron
+<dead_tilde> <Eacute>                                           : "Ẽ́"
+<dead_tilde> <eacute>                                           : "ẽ́"
+<dead_tilde> <dead_acute> <E>                                   : "Ẽ́"
+<dead_tilde> <dead_acute> <e>                                   : "ẽ́"
+<dead_tilde> <dead_acute> <Eogonek>                             : "Ę̃́"
+<dead_tilde> <dead_acute> <eogonek>                             : "ę̃́"
+<dead_tilde> <dead_acute> <dead_ogonek> <E>                     : "Ę̃́"
+<dead_tilde> <dead_acute> <dead_ogonek> <e>                     : "ę̃́"
+<dead_tilde> <dead_acute> <Emacron>                             : "Ē̃́"
+<dead_tilde> <dead_acute> <emacron>                             : "ē̃́"
+<dead_tilde> <dead_acute> <dead_macron> <E>                     : "Ē̃́"
+<dead_tilde> <dead_acute> <dead_macron> <e>                     : "ē̃́"
+<dead_tilde> <Egrave>                                           : "Ẽ̀"
+<dead_tilde> <egrave>                                           : "ẽ̀"
+<dead_tilde> <dead_grave> <E>                                   : "Ẽ̀"
+<dead_tilde> <dead_grave> <e>                                   : "ẽ̀"
+<dead_tilde> <Ediaeresis>                                       : "Ẽ̈"
+<dead_tilde> <ediaeresis>                                       : "ẽ̈"
+<dead_tilde> <dead_diaeresis> <E>                               : "Ẽ̈"
+<dead_tilde> <dead_diaeresis> <e>                               : "ẽ̈"
+<dead_tilde> <Ecaron>                                           : "Ẽ̌"
+<dead_tilde> <ecaron>                                           : "ẽ̌"
+<dead_tilde> <dead_caron> <E>                                   : "Ẽ̌"
+<dead_tilde> <dead_caron> <e>                                   : "ẽ̌"
+<dead_tilde> <Eogonek>                                          : "Ę̃"
+<dead_tilde> <eogonek>                                          : "ę̃"
+<dead_tilde> <dead_ogonek> <E>                                  : "Ę̃"
+<dead_tilde> <dead_ogonek> <e>                                  : "ę̃"
+<dead_tilde> <dead_ogonek> <Eacute>                             : "Ę̃́"
+<dead_tilde> <dead_ogonek> <eacute>                             : "ę̃́"
+<dead_tilde> <dead_ogonek> <dead_acute> <E>                     : "Ę̃́"
+<dead_tilde> <dead_ogonek> <dead_acute> <e>                     : "ę̃́"
+<dead_tilde> <dead_ogonek> <Emacron>                            : "Ę̄̃"
+<dead_tilde> <dead_ogonek> <emacron>                            : "ę̄̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <E>                    : "Ę̄̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <e>                    : "ę̄̃"
+<dead_tilde> <Emacron>                                          : "Ẽ̄"
+<dead_tilde> <emacron>                                          : "ẽ̄"
+<dead_tilde> <dead_macron> <E>                                  : "Ẽ̄"
+<dead_tilde> <dead_macron> <e>                                  : "ẽ̄"
+<dead_tilde> <dead_macron> <Eacute>                             : "Ē̃́"
+<dead_tilde> <dead_macron> <eacute>                             : "ē̃́"
+<dead_tilde> <dead_macron> <dead_acute> <E>                     : "Ē̃́"
+<dead_tilde> <dead_macron> <dead_acute> <e>                     : "ē̃́"
+<dead_tilde> <dead_macron> <Eogonek>                            : "Ę̄̃"
+<dead_tilde> <dead_macron> <eogonek>                            : "ę̄̃"
+<dead_tilde> <dead_macron> <dead_ogonek> <E>                    : "Ę̄̃"
+<dead_tilde> <dead_macron> <dead_ogonek> <e>                    : "ę̄̃"
+<dead_tilde> <dead_macron> <Ebelowdot>                          : "Ẹ̄̃"
+<dead_tilde> <dead_macron> <ebelowdot>                          : "ẹ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <E>                  : "Ẹ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <e>                  : "ẹ̄̃"
+<dead_tilde> <dead_belowmacron> <E>                             : "Ẽ̱"
+<dead_tilde> <dead_belowmacron> <e>                             : "ẽ̱"
+<dead_tilde> <U0114>                                            : "Ĕ̃"   # Ĕ + Tilde
+<dead_tilde> <U0115>                                            : "ĕ̃"   # ĕ + Tilde
+<dead_tilde> <dead_breve> <E>                                   : "Ĕ̃"
+<dead_tilde> <dead_breve> <e>                                   : "ĕ̃"
+<dead_tilde> <Eabovedot>                                        : "Ė̃"
+<dead_tilde> <eabovedot>                                        : "ė̃"
+<dead_tilde> <dead_abovedot> <E>                                : "Ė̃"
+<dead_tilde> <dead_abovedot> <e>                                : "ė̃"
+<dead_tilde> <Ebelowdot>                                        : "Ẹ̃"
+<dead_tilde> <ebelowdot>                                        : "ẹ̃"
+<dead_tilde> <dead_belowdot> <E>                                : "Ẹ̃"
+<dead_tilde> <dead_belowdot> <e>                                : "ẹ̃"
+<dead_tilde> <dead_belowdot> <Emacron>                          : "Ẹ̄̃"
+<dead_tilde> <dead_belowdot> <emacron>                          : "ẹ̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <E>                  : "Ẹ̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <e>                  : "ẹ̄̃"
+<dead_tilde> <dead_belowcomma> <E>                              : "Ẽ̦"
+<dead_tilde> <dead_belowcomma> <e>                              : "ẽ̦"
+<dead_tilde> <dead_aboveverticalline> <E>                       : "Ẽ̍"
+<dead_tilde> <dead_aboveverticalline> <e>                       : "ẽ̍"
+<dead_tilde> <dead_acute> <U0190>                               : "Ɛ̃́"   # Ɛ (Latin Epsilon) + Acute + Tilde
+<dead_tilde> <dead_acute> <U025B>                               : "ɛ̃́"   # ɛ (Latin Epsilon) + Acute + Tilde
+<dead_tilde> <dead_grave> <U0190>                               : "Ɛ̃̀"   # Ɛ (Latin Epsilon) + Grave + Tilde
+<dead_tilde> <dead_grave> <U025B>                               : "ɛ̃̀"   # ɛ (Latin Epsilon) + Grave + Tilde
+<dead_tilde> <dead_circumflex> <U0190>                          : "Ɛ̃̂"   # Ɛ (Latin Epsilon) + Circumflex + Tilde
+<dead_tilde> <dead_circumflex> <U025B>                          : "ɛ̃̂"   # ɛ (Latin Epsilon) + Circumflex + Tilde
+<dead_tilde> <dead_caron> <U0190>                               : "Ɛ̃̌"   # Ɛ (Latin Epsilon) + Tilde + Caron
+<dead_tilde> <dead_caron> <U025B>                               : "ɛ̃̌"   # ɛ (Latin Epsilon) + Tilde + Caron
+<dead_tilde> <dead_aboveverticalline> <U0190>                   : "Ɛ̃̍"   # Ɛ (Latin Epsilon) + Tilde + Vertical Line Above
+<dead_tilde> <dead_aboveverticalline> <U025B>                   : "ɛ̃̍"   # ɛ (Latin Epsilon) + Tilde + Vertical Line Above
+<dead_tilde> <dead_acute> <SCHWA>                               : "Ə̃́"
+<dead_tilde> <dead_acute> <schwa>                               : "ə̃́"
+<dead_tilde> <dead_grave> <SCHWA>                               : "Ə̃̀"
+<dead_tilde> <dead_grave> <schwa>                               : "ə̃̀"
+<dead_tilde> <dead_acute> <U018E>                               : "Ǝ̃́"   # Ǝ (Turned E) + Acute + Tilde
+<dead_tilde> <dead_acute> <U01DD>                               : "ǝ̃́"   # ǝ (Turned E) + Acute + Tilde
+<dead_tilde> <dead_acute> <U21BA> <E>                           : "Ǝ̃́"
+<dead_tilde> <dead_acute> <U21BA> <e>                           : "ǝ̃́"
+<dead_tilde> <dead_grave> <U018E>                               : "Ǝ̃̀"   # Ǝ (Turned E) + Grave + Tilde
+<dead_tilde> <dead_grave> <U01DD>                               : "ǝ̃̀"   # ǝ (Turned E) + Grave + Tilde
+<dead_tilde> <dead_grave> <U21BA> <E>                           : "Ǝ̃̀"
+<dead_tilde> <dead_grave> <U21BA> <e>                           : "ǝ̃̀"
+<dead_tilde> <dead_acute> <UA78D>                               : "Ɥ̃́"  # Ɥ (Turned H) + Acute + Tilde
+<dead_tilde> <dead_acute> <U0265>                               : "ɥ̃́"  # ɥ (Turned H) + Acute + Tilde
+<dead_tilde> <dead_acute> <U21BA> <H>                           : "Ɥ̃́"
+<dead_tilde> <dead_acute> <U21BA> <h>                           : "ɥ̃́"
+<dead_tilde> <dead_grave> <UA78D>                               : "Ɥ̃̀"  # Ɥ (Turned H) + Grave + Tilde
+<dead_tilde> <dead_grave> <U0265>                               : "ɥ̃̀"  # ɥ (Turned H) + Grave + Tilde
+<dead_tilde> <dead_grave> <U21BA> <H>                           : "Ɥ̃̀"
+<dead_tilde> <dead_grave> <U21BA> <h>                           : "ɥ̃̀"
+<dead_tilde> <Iacute>                                           : "Ĩ́"
+<dead_tilde> <iacute>                                           : "ĩ́"
+<dead_tilde> <dead_acute> <I>                                   : "Ĩ́"
+<dead_tilde> <dead_acute> <i>                                   : "ĩ́"
+<dead_tilde> <dead_acute> <U0197>                               : "Ɨ̃́"   # Ɨ + Acute + Tilde
+<dead_tilde> <dead_acute> <U0268>                               : "ɨ̃́"   # ɨ + Acute + Tilde
+<dead_tilde> <dead_acute> <dead_stroke> <I>                     : "Ɨ̃́"   # Ɨ + Acute + Tilde
+<dead_tilde> <dead_acute> <dead_stroke> <i>                     : "ɨ̃́"   # ɨ + Acute + Tilde
+<dead_tilde> <dead_acute> <dead_stroke> <Idotabove>             : "Ɨ̃́"
+<dead_tilde> <dead_acute> <dead_stroke> <idotless>              : "ɨ̃́"
+<dead_tilde> <Igrave>                                           : "Ĩ̀"
+<dead_tilde> <igrave>                                           : "ĩ̀"
+<dead_tilde> <dead_grave> <I>                                   : "Ĩ̀"
+<dead_tilde> <dead_grave> <i>                                   : "ĩ̀"
+<dead_tilde> <dead_grave> <dead_stroke> <I>                     : "Ɨ̃̀"
+<dead_tilde> <dead_grave> <dead_stroke> <I>                     : "ɨ̃̀"
+<dead_tilde> <Icircumflex>                                      : "Ĩ̂"
+<dead_tilde> <icircumflex>                                      : "ĩ̂"
+<dead_tilde> <dead_circumflex> <I>                              : "Ĩ̂"
+<dead_tilde> <dead_circumflex> <i>                              : "ĩ̂"
+<dead_tilde> <Idiaeresis>                                       : "Ĩ̈"
+<dead_tilde> <idiaeresis>                                       : "ĩ̈"
+<dead_tilde> <dead_diaeresis> <I>                               : "Ĩ̈"
+<dead_tilde> <dead_diaeresis> <i>                               : "ĩ̈"
+<dead_tilde> <U01CF>                                            : "Ĩ̌"   # Ǐ + Tilde
+<dead_tilde> <U01D0>                                            : "ĩ̌"   # ǐ + Tilde
+<dead_tilde> <dead_caron> <I>                                   : "Ĩ̌"
+<dead_tilde> <dead_caron> <i>                                   : "ĩ̌"
+<dead_tilde> <Iogonek>                                          : "Į̃"
+<dead_tilde> <iogonek>                                          : "į̃"
+<dead_tilde> <dead_ogonek> <I>                                  : "Į̃"
+<dead_tilde> <dead_ogonek> <i>                                  : "į̃"
+<dead_tilde> <dead_ogonek> <Imacron>                            : "Į̄̃"
+<dead_tilde> <dead_ogonek> <imacron>                            : "į̄̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <I>                    : "Į̄̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <i>                    : "į̄̃"
+<dead_tilde> <Imacron>                                          : "Ĩ̄"
+<dead_tilde> <imacron>                                          : "ĩ̄"
+<dead_tilde> <dead_macron> <I>                                  : "Ĩ̄"
+<dead_tilde> <dead_macron> <i>                                  : "ĩ̄"
+<dead_tilde> <dead_macron> <Iogonek>                            : "Į̄̃"
+<dead_tilde> <dead_macron> <iogonek>                            : "į̄̃"
+<dead_tilde> <dead_macron> <dead_ogonek> <I>                    : "Į̄̃"
+<dead_tilde> <dead_macron> <dead_ogonek> <i>                    : "į̄̃"
+<dead_tilde> <dead_macron> <Ibelowdot>                          : "Ị̄̃"
+<dead_tilde> <dead_macron> <ibelowdot>                          : "ị̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <I>                  : "Ị̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <i>                  : "ị̄̃"
+<dead_tilde> <dead_belowmacron> <I>                             : "Ĩ̱"
+<dead_tilde> <dead_belowmacron> <i>                             : "ĩ̱"
+<dead_tilde> <Ibreve>                                           : "Ĭ̃"
+<dead_tilde> <ibreve>                                           : "ĭ̃"
+<dead_tilde> <dead_breve> <I>                                   : "Ĭ̃"
+<dead_tilde> <dead_breve> <i>                                   : "ĭ̃"
+<dead_tilde> <dead_breve> <U032F> <I>                           : "Ĩ̯"
+<dead_tilde> <dead_breve> <U032F> <i>                           : "ĩ̯"
+<dead_tilde> <U032F> <Ibreve>                                   : "Ĩ̯"
+<dead_tilde> <U032F> <ibreve>                                   : "ĩ̯"
+<dead_tilde> <U032F> <dead_breve> <I>                           : "Ĩ̯"
+<dead_tilde> <U032F> <dead_breve> <i>                           : "ĩ̯"
+<dead_tilde> <Ibelowdot>                                        : "Ị̃"
+<dead_tilde> <ibelowdot>                                        : "ị̃"
+<dead_tilde> <dead_belowdot> <I>                                : "Ị̃"
+<dead_tilde> <dead_belowdot> <i>                                : "ị̃"
+<dead_tilde> <dead_belowdot> <Imacron>                          : "Ị̄̃"
+<dead_tilde> <dead_belowdot> <imacron>                          : "ị̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <I>                  : "Ị̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <i>                  : "ị̄̃"
+<dead_tilde> <U0197>                                            : "Ɨ̃"   # Ɨ + Tilde
+<dead_tilde> <U0268>                                            : "ɨ̃"   # ɨ + Tilde
+<dead_tilde> <dead_stroke> <I>                                  : "Ɨ̃"
+<dead_tilde> <dead_stroke> <i>                                  : "ɨ̃"
+<dead_tilde> <dead_stroke> <Idotabove>                          : "Ɨ̃"
+<dead_tilde> <dead_stroke> <idotless>                           : "ɨ̃"
+<dead_tilde> <dead_stroke> <dead_acute> <I>                     : "Ɨ̃́"   # Ɨ + Acute + Tilde
+<dead_tilde> <dead_stroke> <dead_acute> <i>                     : "ɨ̃́"   # ɨ + Acute + Tilde
+<dead_tilde> <dead_stroke> <dead_acute> <Idotabove>             : "Ɨ̃́"
+<dead_tilde> <dead_stroke> <dead_acute> <idotless>              : "ɨ̃́"
+<dead_tilde> <dead_stroke> <dead_grave> <I>                     : "Ɨ̃̀"
+<dead_tilde> <dead_stroke> <dead_grave> <I>                     : "ɨ̃̀"
+<dead_tilde> <dead_belowcomma> <I>                              : "Ĩ̦"
+<dead_tilde> <dead_belowcomma> <i>                              : "ĩ̦"
+<dead_tilde> <dead_aboveverticalline> <I>                       : "Ĩ̍"
+<dead_tilde> <dead_aboveverticalline> <i>                       : "ĩ̍"
+<dead_tilde> <dead_acute> <U0196>                               : "Ɩ̃́"   # Ɩ (Latin Iota) + Acute + Tilde
+<dead_tilde> <dead_acute> <U0269>                               : "ɩ̃́"   # ɩ (Latin Iota) + Acute + Tilde
+<dead_tilde> <dead_grave> <U0196>                               : "Ɩ̃̀"   # Ɩ (Latin Iota) + Grave + Tilde
+<dead_tilde> <dead_grave> <U0269>                               : "ɩ̃̀"   # ɩ (Latin Iota) + Grave + Tilde
+<dead_tilde> <dead_circumflex> <U0196>                          : "Ɩ̃̂"   # Ɩ (Latin Iota) + Circumflex + Tilde
+<dead_tilde> <dead_circumflex> <U0269>                          : "ɩ̃̂"   # ɩ (Latin Iota) + Circumflex + Tilde
+<dead_tilde> <dead_caron> <U0196>                               : "Ɩ̃̌"   # Ɩ (Latin Iota) + Tilde + Caron
+<dead_tilde> <dead_caron> <U0269>                               : "ɩ̃̌"   # ɩ (Latin Iota) + Tilde + Caron
+<dead_tilde> <dead_macron> <U0196>                              : "Ɩ̃̄"   # Ɩ (Latin Iota) + Tilde + Macron
+<dead_tilde> <dead_macron> <U0269>                              : "ɩ̃̄"   # ɩ (Latin Iota) + Tilde + Macron
+<dead_tilde> <Lcedilla>                                         : "Ļ̃"
+<dead_tilde> <lcedilla>                                         : "ļ̃"
+<dead_tilde> <dead_cedilla> <L>                                 : "Ļ̃"
+<dead_tilde> <dead_cedilla> <l>                                 : "ļ̃"
+<dead_tilde> <Nacute>                                           : "Ñ́"
+<dead_tilde> <nacute>                                           : "ñ́"
+<dead_tilde> <dead_acute> <N>                                   : "Ñ́"
+<dead_tilde> <dead_acute> <n>                                   : "ñ́"
+<dead_tilde> <dead_acute> <dead_belowring> <N>                  : "Ñ̥́"
+<dead_tilde> <dead_acute> <dead_belowring> <n>                  : "ñ̥́"
+<dead_tilde> <U01F8>                                            : "Ñ̀"   # Ǹ + Tilde
+<dead_tilde> <U01F9>                                            : "ñ̀"   # ǹ + Tilde
+<dead_tilde> <dead_grave> <N>                                   : "Ñ̀"
+<dead_tilde> <dead_grave> <n>                                   : "ñ̀"
+<dead_tilde> <dead_circumflex> <N>                              : "Ñ̂"
+<dead_tilde> <dead_circumflex> <n>                              : "ñ̂"
+<dead_tilde> <dead_diaeresis> <N>                               : "Ñ̈"
+<dead_tilde> <dead_diaeresis> <n>                               : "ñ̈"
+<dead_tilde> <dead_belowring> <N>                               : "Ñ̥"
+<dead_tilde> <dead_belowring> <n>                               : "ñ̥"
+<dead_tilde> <dead_belowring> <Nacute>                          : "Ñ̥́"
+<dead_tilde> <dead_belowring> <nacute>                          : "ñ̥́"
+<dead_tilde> <dead_belowring> <dead_acute> <N>                  : "Ñ̥́"
+<dead_tilde> <dead_belowring> <dead_acute> <n>                  : "ñ̥́"
+<dead_tilde> <Ncedilla>                                         : "Ņ̃"
+<dead_tilde> <ncedilla>                                         : "ņ̃"
+<dead_tilde> <dead_cedilla> <N>                                 : "Ņ̃"
+<dead_tilde> <dead_cedilla> <n>                                 : "ņ̃"
+<dead_tilde> <dead_acute> <Omacron>                             : "Ō̃́"
+<dead_tilde> <dead_acute> <omacron>                             : "ō̃́"
+<dead_tilde> <dead_acute> <dead_macron> <O>                     : "Ō̃́"
+<dead_tilde> <dead_acute> <dead_macron> <o>                     : "ō̃́"
+<dead_tilde> <Ograve>                                           : "Õ̀"
+<dead_tilde> <ograve>                                           : "õ̀"
+<dead_tilde> <dead_grave> <O>                                   : "Õ̀"
+<dead_tilde> <dead_grave> <o>                                   : "õ̀"
+<dead_tilde> <dead_diaeresis> <U01EA>                           : "Ǫ̈̃"   # Ǫ + Diaeresis + Tilde
+<dead_tilde> <dead_diaeresis> <U01EB>                           : "ǫ̈̃"   # ǫ + Diaeresis + Tilde
+<dead_tilde> <dead_diaeresis> <dead_ogonek> <O>                 : "Ǫ̈̃"
+<dead_tilde> <dead_diaeresis> <dead_ogonek> <o>                 : "ǫ̈̃"
+<dead_tilde> <Ocaron>                                           : "Õ̌"
+<dead_tilde> <ocaron>                                           : "õ̌"
+<dead_tilde> <dead_caron> <O>                                   : "Õ̌"
+<dead_tilde> <dead_caron> <o>                                   : "õ̌"
+<dead_tilde> <U01EA>                                            : "Ǫ̃"   # Ǫ + Diaeresis + Tilde
+<dead_tilde> <U01EB>                                            : "ǫ̃"   # ǫ + Diaeresis + Tilde
+<dead_tilde> <dead_ogonek> <O>                                  : "Ǫ̃"
+<dead_tilde> <dead_ogonek> <o>                                  : "ǫ̃"
+<dead_tilde> <dead_ogonek> <Omacron>                            : "Ǫ̈̃"
+<dead_tilde> <dead_ogonek> <omacron>                            : "ǫ̈̃"
+<dead_tilde> <dead_ogonek> <dead_diaeresis> <O>                 : "Ǫ̈̃"
+<dead_tilde> <dead_ogonek> <dead_diaeresis> <o>                 : "ǫ̈̃"
+<dead_tilde> <dead_ogonek> <Omacron>                            : "Ǭ̃"
+<dead_tilde> <dead_ogonek> <omacron>                            : "ǭ̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <O>                    : "Ǭ̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <o>                    : "ǭ̃"
+<dead_tilde> <dead_macron> <Oacute>                             : "Ō̃́"
+<dead_tilde> <dead_macron> <oacute>                             : "ō̃́"
+<dead_tilde> <dead_macron> <dead_acute> <O>                     : "Ō̃́"
+<dead_tilde> <dead_macron> <dead_acute> <o>                     : "ō̃́"
+<dead_tilde> <dead_macron> <U01EA>                              : "Ǭ̃"   # Ǭ + Tilde
+<dead_tilde> <dead_macron> <U01EB>                              : "ǭ̃"   # ǭ + Tilde
+<dead_tilde> <dead_macron> <dead_ogonek> <O>                    : "Ǭ̃"
+<dead_tilde> <dead_macron> <dead_ogonek> <o>                    : "ǭ̃"
+<dead_tilde> <dead_macron> <Obelowdot>                          : "Ọ̄̃"
+<dead_tilde> <dead_macron> <obelowdot>                          : "ọ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <O>                  : "Ọ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <o>                  : "ọ̄̃"
+<dead_tilde> <dead_belowmacron> <O>                             : "Õ̱"
+<dead_tilde> <dead_belowmacron> <o>                             : "õ̱"
+<dead_tilde> <U014E>                                            : "Ŏ̃"   # Ŏ + Tilde
+<dead_tilde> <U014F>                                            : "ŏ̃"   # ŏ + Tilde
+<dead_tilde> <dead_breve> <O>                                   : "Ŏ̃"
+<dead_tilde> <dead_breve> <o>                                   : "ŏ̃"
+<dead_tilde> <Obelowdot>                                        : "Ọ̃"
+<dead_tilde> <obelowdot>                                        : "ọ̃"
+<dead_tilde> <dead_belowdot> <O>                                : "Ọ̃"
+<dead_tilde> <dead_belowdot> <o>                                : "ọ̃"
+<dead_tilde> <dead_belowdot> <Omacron>                          : "Ọ̄̃"
+<dead_tilde> <dead_belowdot> <omacron>                          : "ọ̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <O>                  : "Ọ̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <o>                  : "ọ̄̃"
+<dead_tilde> <dead_belowcomma> <O>                              : "Õ̦"
+<dead_tilde> <dead_belowcomma> <o>                              : "õ̦"
+<dead_tilde> <dead_aboveverticalline> <O>                       : "Õ̍"
+<dead_tilde> <dead_aboveverticalline> <o>                       : "õ̍"
+<dead_tilde> <dead_ogonek> <OE>                                 : "Œ̨̃"
+<dead_tilde> <dead_ogonek> <oe>                                 : "œ̨̃"
+<dead_tilde> <dead_ogonek> <multiply> <O> <E>                   : "Œ̨̃"
+<dead_tilde> <dead_ogonek> <multiply> <o> <e>                   : "œ̨̃"
+<dead_tilde> <dead_macron> <OE>                                 : "Œ̃̄"
+<dead_tilde> <dead_macron> <oe>                                 : "œ̃̄"
+<dead_tilde> <dead_macron> <multiply> <O> <E>                   : "Œ̃̄"
+<dead_tilde> <dead_macron> <multiply> <o> <e>                   : "œ̃̄"
+<dead_tilde> <dead_acute> <Oslash>                              : "Ø̃́"
+<dead_tilde> <dead_acute> <oslash>                              : "ø̃́"
+<dead_tilde> <dead_acute> <dead_longsolidusoverlay> <O>         : "Ø̃́"
+<dead_tilde> <dead_acute> <dead_longsolidusoverlay> <o>         : "ø̃́"
+<dead_tilde> <dead_grave> <Oslash>                              : "Ø̃̀"
+<dead_tilde> <dead_grave> <oslash>                              : "ø̃̀"
+<dead_tilde> <dead_grave> <dead_longsolidusoverlay> <O>         : "Ø̃̀"
+<dead_tilde> <dead_grave> <dead_longsolidusoverlay> <o>         : "ø̃̀"
+<dead_tilde> <dead_circumflex> <Oslash>                         : "Ø̃̂"
+<dead_tilde> <dead_circumflex> <oslash>                         : "ø̃̂"
+<dead_tilde> <dead_circumflex> <dead_longsolidusoverlay> <O>    : "Ø̃̂"
+<dead_tilde> <dead_circumflex> <dead_longsolidusoverlay> <o>    : "ø̃̂"
+<dead_tilde> <dead_macron> <Oslash>                             : "Ø̃̄"
+<dead_tilde> <dead_macron> <oslash>                             : "ø̃̄"
+<dead_tilde> <dead_macron> <dead_longsolidusoverlay> <O>        : "Ø̃̄"
+<dead_tilde> <dead_macron> <dead_longsolidusoverlay> <o>        : "ø̃̄"
+<dead_tilde> <Oslash>                                           : "Ø̃"
+<dead_tilde> <oslash>                                           : "ø̃"
+<dead_tilde> <dead_longsolidusoverlay> <O>                      : "Ø̃"
+<dead_tilde> <dead_longsolidusoverlay> <o>                      : "ø̃"
+<dead_tilde> <dead_longsolidusoverlay> <dead_acute> <O>         : "Ø̃́"
+<dead_tilde> <dead_longsolidusoverlay> <dead_acute> <o>         : "ø̃́"
+<dead_tilde> <dead_longsolidusoverlay> <dead_grave> <O>         : "Ø̃̀"
+<dead_tilde> <dead_longsolidusoverlay> <dead_grave> <o>         : "ø̃̀"
+<dead_tilde> <dead_longsolidusoverlay> <dead_circumflex> <O>    : "Ø̃̂"
+<dead_tilde> <dead_longsolidusoverlay> <dead_circumflex> <o>    : "ø̃̂"
+<dead_tilde> <dead_longsolidusoverlay> <dead_macron> <O>        : "Ø̃̄"
+<dead_tilde> <dead_longsolidusoverlay> <dead_macron> <o>        : "ø̃̄"
+<dead_tilde> <dead_acute> <U0186>                               : "Ɔ̃́"   # Ɔ + Acute + Tilde
+<dead_tilde> <dead_acute> <U0254>                               : "ɔ̃́"   # ɔ + Acute + Tilde
+<dead_tilde> <dead_grave> <U0186>                               : "Ɔ̃̀"   # Ɔ + Grave + Tilde
+<dead_tilde> <dead_grave> <U0254>                               : "ɔ̃̀"   # ɔ + Grave + Tilde
+<dead_tilde> <dead_circumflex> <U0186>                          : "Ɔ̃̂"   # Ɔ + Circumflex + Tilde
+<dead_tilde> <dead_circumflex> <U0254>                          : "ɔ̃̂"   # ɔ + Circumflex + Tilde
+<dead_tilde> <dead_caron> <U0186>                               : "Ɔ̃̌"   # Ɔ + Tilde + Caron
+<dead_tilde> <dead_caron> <U0254>                               : "ɔ̃̌"   # ɔ + Tilde + Caron
+<dead_tilde> <dead_macron> <U0186>                              : "Ɔ̃̄"   # Ɔ + Tilde + Macron
+<dead_tilde> <dead_macron> <U0254>                              : "ɔ̃̄"   # ɔ + Tilde + Macron
+<dead_tilde> <dead_aboveverticalline> <U0186>                   : "Ɔ̃̍"   # Ɔ + Tilde + Vertical Line Above
+<dead_tilde> <dead_aboveverticalline> <U0254>                   : "ɔ̃̍"   # ɔ + Tilde + Vertical Line Above
+<dead_tilde> <dead_belowring> <R>                               : "R̥̃"
+<dead_tilde> <dead_belowring> <r>                               : "r̥̃"
+<dead_tilde> <dead_macron> <U1E5A>                              : "Ṝ̃"   # Ṛ + Tilde + Macron
+<dead_tilde> <dead_macron> <U1E5B>                              : "ṝ̃"   # ṛ + Tilde + Macron
+<dead_tilde> <dead_macron> <dead_belowdot> <R>                  : "Ṝ̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <r>                  : "ṝ̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <R>                  : "Ṝ̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <r>                  : "ṝ̃"
+<dead_tilde> <Sabovedot>                                        : "Ṡ̃"
+<dead_tilde> <sabovedot>                                        : "ṡ̃"
+<dead_tilde> <dead_abovedot> <S>                                : "Ṡ̃"
+<dead_tilde> <dead_abovedot> <s>                                : "ṡ̃"
+<dead_tilde> <U1E62>                                            : "Ṣ̃"   # Ṣ̃ + Tilde
+<dead_tilde> <U1E63>                                            : "ṣ̃"   # ṣ̃ + Tilde
+<dead_tilde> <dead_belowdot> <S>                                : "Ṣ̃"
+<dead_tilde> <dead_belowdot> <s>                                : "ṣ̃"
+<dead_tilde> <dead_acute> <U0244>                               : "Ʉ̃́"   # Ʉ + Acute + Tilde
+<dead_tilde> <dead_acute> <U0289>                               : "ʉ̃́"   # ʉ + Acute + Tilde
+<dead_tilde> <dead_acute> <dead_stroke> <U>                     : "Ʉ̃́"
+<dead_tilde> <dead_acute> <dead_stroke> <u>                     : "ʉ̃́"
+<dead_tilde> <Ugrave>                                           : "Ũ̀"
+<dead_tilde> <ugrave>                                           : "ũ̀"
+<dead_tilde> <dead_grave> <U>                                   : "Ũ̀"
+<dead_tilde> <dead_grave> <u>                                   : "ũ̀"
+<dead_tilde> <Ucircumflex>                                      : "Ũ̂"
+<dead_tilde> <ucircumflex>                                      : "ũ̂"
+<dead_tilde> <dead_circumflex> <U>                              : "Ũ̂"
+<dead_tilde> <dead_circumflex> <u>                              : "ũ̂"
+<dead_tilde> <Udiaeresis>                                       : "Ũ̈"
+<dead_tilde> <udiaeresis>                                       : "ũ̈"
+<dead_tilde> <dead_diaeresis> <U>                               : "Ũ̈"
+<dead_tilde> <dead_diaeresis> <u>                               : "ũ̈"
+<dead_tilde> <dead_diaeresis> <dead_belowmacron> <U>            : "Ü̱̃"
+<dead_tilde> <dead_diaeresis> <dead_belowmacron> <u>            : "ü̱̃"
+<dead_tilde> <Uring>                                            : "Ů̃"
+<dead_tilde> <uring>                                            : "ů̃"
+<dead_tilde> <dead_abovering> <U>                               : "Ů̃"
+<dead_tilde> <dead_abovering> <u>                               : "ů̃"
+<dead_tilde> <U01D3>                                            : "Ũ̌"   # Ǔ + Tilde
+<dead_tilde> <U01D4>                                            : "ũ̌"   # ǔ + Tilde
+<dead_tilde> <dead_caron> <U>                                   : "Ũ̌"
+<dead_tilde> <dead_caron> <u>                                   : "ũ̌"
+<dead_tilde> <Uogonek>                                          : "Ų̃"
+<dead_tilde> <uogonek>                                          : "ų̃"
+<dead_tilde> <dead_ogonek> <U>                                  : "Ų̃"
+<dead_tilde> <dead_ogonek> <u>                                  : "ų̃"
+<dead_tilde> <dead_ogonek> <Umacron>                            : "Ų̄̃"
+<dead_tilde> <dead_ogonek> <umacron>                            : "ų̄̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <U>                    : "Ų̄̃"
+<dead_tilde> <dead_ogonek> <dead_macron> <u>                    : "ų̄̃"
+<dead_tilde> <Umacron>                                          : "Ũ̄"
+<dead_tilde> <umacron>                                          : "ũ̄"
+<dead_tilde> <dead_macron> <U>                                  : "Ũ̄"
+<dead_tilde> <dead_macron> <u>                                  : "ũ̄"
+<dead_tilde> <dead_macron> <Uogonek>                            : "Ų̄̃"
+<dead_tilde> <dead_macron> <uogonek>                            : "ų̄̃"
+<dead_tilde> <dead_macron> <dead_ogonek> <U>                    : "Ų̄̃"
+<dead_tilde> <dead_macron> <dead_ogonek> <u>                    : "ų̄̃"
+<dead_tilde> <dead_macron> <Ubelowdot>                          : "Ụ̄̃"
+<dead_tilde> <dead_macron> <ubelowdot>                          : "ụ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <U>                  : "Ụ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <u>                  : "ụ̄̃"
+<dead_tilde> <dead_belowmacron> <U>                             : "Ũ̱"
+<dead_tilde> <dead_belowmacron> <u>                             : "ũ̱"
+<dead_tilde> <dead_belowmacron> <Udiaeresis>                    : "Ü̱̃"
+<dead_tilde> <dead_belowmacron> <udiaeresis>                    : "ü̱̃"
+<dead_tilde> <dead_belowmacron> <dead_diaeresis> <U>            : "Ü̱̃"
+<dead_tilde> <dead_belowmacron> <dead_diaeresis> <u>            : "ü̱̃"
+<dead_tilde> <Ubreve>                                           : "Ŭ̃"
+<dead_tilde> <ubreve>                                           : "ŭ̃"
+<dead_tilde> <dead_breve> <U>                                   : "Ŭ̃"
+<dead_tilde> <dead_breve> <u>                                   : "ŭ̃"
+<dead_tilde> <dead_breve> <U032F> <U>                           : "Ũ̯"
+<dead_tilde> <dead_breve> <U032F> <u>                           : "ũ̯"
+<dead_tilde> <U032F> <Ubreve>                                   : "Ũ̯"
+<dead_tilde> <U032F> <ubreve>                                   : "ũ̯"
+<dead_tilde> <U032F> <dead_breve> <U>                           : "Ũ̯"
+<dead_tilde> <U032F> <dead_breve> <u>                           : "ũ̯"
+<dead_tilde> <Ubelowdot>                                        : "Ụ̃"
+<dead_tilde> <ubelowdot>                                        : "ụ̃"
+<dead_tilde> <dead_belowdot> <U>                                : "Ụ̃"
+<dead_tilde> <dead_belowdot> <u>                                : "ụ̃"
+<dead_tilde> <dead_belowdot> <Umacron>                          : "Ụ̄̃"
+<dead_tilde> <dead_belowdot> <umacron>                          : "ụ̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <U>                  : "Ụ̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <u>                  : "ụ̄̃"
+<dead_tilde> <U0244>                                            : "Ʉ̃"   # Ʉ + Tilde
+<dead_tilde> <U0289>                                            : "ʉ̃"   # ʉ + Tilde
+<dead_tilde> <dead_stroke> <U>                                  : "Ʉ̃"
+<dead_tilde> <dead_stroke> <u>                                  : "ʉ̃"
+<dead_tilde> <dead_stroke> <U>                                  : "Ʉ́"
+<dead_tilde> <dead_stroke> <u>                                  : "ʉ́"
+<dead_tilde> <dead_stroke> <dead_acute> <U>                     : "Ʉ̃́"
+<dead_tilde> <dead_stroke> <dead_acute> <u>                     : "ʉ̃́"
+<dead_tilde> <dead_belowcomma> <U>                              : "Ũ̦"
+<dead_tilde> <dead_belowcomma> <u>                              : "ũ̦"
+<dead_tilde> <dead_aboveverticalline> <U>                       : "Ũ̍"
+<dead_tilde> <dead_aboveverticalline> <u>                       : "ũ̍"
+<dead_tilde> <dead_acute> <U01B1>                               : "Ʊ̃́"
+<dead_tilde> <dead_acute> <U028A>                               : "ʊ̃́"
+<dead_tilde> <dead_caron> <U01B1>                               : "Ʊ̃̌"
+<dead_tilde> <dead_caron> <U028A>                               : "ʊ̃̌"
+<dead_tilde> <dead_acute> <U01B2>                               : "Ʋ̃́"   # Ʋ + Acute + Tilde
+<dead_tilde> <dead_acute> <U028B>                               : "ʋ̃́"   # ʋ + Acute + Tilde
+<dead_tilde> <dead_grave> <U01B2>                               : "Ʋ̃̀"   # Ʋ + Grave + Tilde
+<dead_tilde> <dead_grave> <U028B>                               : "ʋ̃̀"   # ʋ + Grave + Tilde
+<dead_tilde> <Ydiaeresis>                                       : "Ỹ̈"
+<dead_tilde> <ydiaeresis>                                       : "ỹ̈"
+<dead_tilde> <dead_diaeresis> <Y>                               : "Ỹ̈"
+<dead_tilde> <dead_diaeresis> <y>                               : "ỹ̈"
+<dead_tilde> <U0232>                                            : "Ỹ̄"   # Ỹ + Tilde + Bot Below
+<dead_tilde> <U0233>                                            : "ỹ̄"   # ỹ + Tilde + Bot Below
+<dead_tilde> <dead_macron> <Y>                                  : "Ỹ̄"
+<dead_tilde> <dead_macron> <y>                                  : "ỹ̄"
+<dead_tilde> <dead_macron> <Ybelowdot>                          : "Ỵ̄̃"
+<dead_tilde> <dead_macron> <ybelowdot>                          : "ỵ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <Y>                  : "Ỵ̄̃"
+<dead_tilde> <dead_macron> <dead_belowdot> <y>                  : "ỵ̄̃"
+<dead_tilde> <dead_breve> <Y>                                   : "Y̆̃"
+<dead_tilde> <dead_breve> <y>                                   : "y̆̃"
+<dead_tilde> <dead_belowdot> <U0232>                            : "Ỵ̄̃"   # Ỹ + Tilde + Bot Below
+<dead_tilde> <dead_belowdot> <U0233>                            : "ỵ̄̃"   # ỹ + Tilde + Bot Below
+<dead_tilde> <dead_belowdot> <dead_macron> <Y>                  : "Ỵ̄̃"
+<dead_tilde> <dead_belowdot> <dead_macron> <y>                  : "ỵ̄̃"
+
+##################
+# [END OF RULES] #
+##################

@@ -138,6 +138,10 @@
 <dead_caron> <dead_diaeresis> <dead_ogonek> <a>             : "ą̈̌"
 <dead_caron> <dead_belowdiaeresis> <A>                      : "Ǎ̤"
 <dead_caron> <dead_belowdiaeresis> <a>                      : "ǎ̤"
+<dead_caron> <Atilde>                                       : "Ǎ̃"
+<dead_caron> <atilde>                                       : "ǎ̃"
+<dead_caron> <dead_tilde> <A>                               : "Ǎ̃"
+<dead_caron> <dead_tilde> <a>                               : "ǎ̃"
 <dead_caron> <dead_cedilla> <A>                             : "Ǎ̧"
 <dead_caron> <dead_cedilla> <a>                             : "ǎ̧"
 <dead_caron> <Aogonek>                                      : "Ą̌"
@@ -166,6 +170,12 @@
 <dead_caron> <abelowdot>                                    : "ạ̌"
 <dead_caron> <dead_belowdot> <A>                            : "Ạ̌"
 <dead_caron> <dead_belowdot> <a>                            : "ạ̌"
+<dead_caron> <dead_tilde> <AE>                              : "Æ̌̃"
+<dead_caron> <dead_tilde> <ae>                              : "æ̌̃"
+<dead_caron> <dead_tilde> <multiply> <A> <E>                : "Æ̌̃"
+<dead_caron> <dead_tilde> <multiply> <a> <e>                : "æ̌̃"
+<dead_caron> <dead_tilde> <U2C6D>                           : "Ɑ̌̃"   # Ɑ (Latin Alpha) + Tilde + Caron
+<dead_caron> <dead_tilde> <U0251>                           : "ɑ̌̃"   # ɑ (Latin Alpha) + Tilde + Caron
 <dead_caron> <Cacute>                                       : "Č́"
 <dead_caron> <cacute>                                       : "č́"
 <dead_caron> <dead_acute> <C>                               : "Č́"
@@ -208,6 +218,10 @@
 <dead_caron> <dead_belowdiaeresis> <egrave>                 : "è̤̌"
 <dead_caron> <dead_belowdiaeresis> <dead_grave> <E>         : "È̤̌"
 <dead_caron> <dead_belowdiaeresis> <dead_grave> <e>         : "è̤̌"
+<dead_caron> <Etilde>                                       : "Ě̃"
+<dead_caron> <etilde>                                       : "ě̃"
+<dead_caron> <dead_tilde> <E>                               : "Ě̃"
+<dead_caron> <dead_tilde> <e>                               : "ě̃"
 <dead_caron> <U0228>                                        : "Ȩ̌"   # Ȩ + Caron
 <dead_caron> <U0229>                                        : "ȩ̌"   # ȩ + Caron
 <dead_caron> <dead_cedilla> <E>                             : "Ȩ̌"
@@ -242,6 +256,8 @@
 <dead_caron> <ebelowdot>                                    : "ẹ̌"
 <dead_caron> <dead_belowdot> <E>                            : "Ẹ̌"
 <dead_caron> <dead_belowdot> <e>                            : "ẹ̌"
+<dead_caron> <dead_tilde> <U0190>                           : "Ɛ̌̃"   # Ɛ (Latin Epsilon) + Tilde + Caron
+<dead_caron> <dead_tilde> <U025B>                           : "ɛ̌̃"   # ɛ (Latin Epsilon) + Tilde + Caron
 <dead_caron> <dead_cedilla> <U0190>                         : "Ɛ̧̌"   # Ɛ (Latin Epsilon) + Cedilla + Caron
 <dead_caron> <dead_cedilla> <U025B>                         : "ɛ̧̌"   # Ɛ (Latin Epsilon) + Cedilla + Caron
 <dead_caron> <U1E20>                                        : "Ḡ̌"   # Ḡ + Caron
@@ -262,6 +278,10 @@
 <dead_caron> <dead_diaeresis> <dead_ogonek> <i>             : "į̈̌"
 <dead_caron> <dead_belowdiaeresis> <I>                      : "Ǐ̤"
 <dead_caron> <dead_belowdiaeresis> <i>                      : "ǐ̤"
+<dead_tilde> <Itilde>                                       : "Ǐ̃"
+<dead_tilde> <itilde>                                       : "ǐ̃"
+<dead_tilde> <dead_caron> <I>                               : "Ǐ̃"
+<dead_tilde> <dead_caron> <i>                               : "ǐ̃"
 <dead_caron> <dead_cedilla> <I>                             : "Ǐ̧"
 <dead_caron> <dead_cedilla> <i>                             : "ǐ̧"
 <dead_caron> <dead_cedilla> <U0197>                         : "Ɨ̧̌"   # Ɨ + Cedilla + Caron
@@ -300,6 +320,8 @@
 <dead_caron> <ibelowdot>                                    : "ị̌"
 <dead_caron> <dead_belowdot> <I>                            : "Ị̌"
 <dead_caron> <dead_belowdot> <i>                            : "ị̌"
+<dead_caron> <dead_tilde> <U0196>                           : "Ɩ̌̃"   # Ɩ (Latin Iota) + Tilde + Caron
+<dead_caron> <dead_tilde> <U0269>                           : "ɩ̌̃"   # ɩ (Latin Iota) + Tilde + Caron
 <dead_caron> <dead_acute> <J>                               : "J̌́"
 <dead_caron> <dead_acute> <j>                               : "ǰ́"
 <dead_caron> <dead_belowdot> <J>                            : "J̣̌"
@@ -336,6 +358,10 @@
 <dead_caron> <dead_belowdiaeresis> <ograve>                 : "ò̤̌"
 <dead_caron> <dead_belowdiaeresis> <dead_grave> <O>         : "Ò̤̌"
 <dead_caron> <dead_belowdiaeresis> <dead_grave> <o>         : "ò̤̌"
+<dead_caron> <Otilde>                                       : "Ǒ̃"
+<dead_caron> <otilde>                                       : "ǒ̃"
+<dead_caron> <dead_tilde> <O>                               : "Ǒ̃"
+<dead_caron> <dead_tilde> <o>                               : "ǒ̃"
 <dead_caron> <dead_cedilla> <O>                             : "Ǒ̧"
 <dead_caron> <dead_cedilla> <o>                             : "ǒ̧"
 <dead_caron> <U01EA>                                        : "Ǫ̌"   # Ǫ + Caron
@@ -368,6 +394,8 @@
 <dead_caron> <oslash>                                       : "ø̌"
 <dead_caron> <dead_longsolidusoverlay> <O>                  : "Ø̌"
 <dead_caron> <dead_longsolidusoverlay> <o>                  : "ø̌"
+<dead_caron> <dead_tilde> <U0186>                           : "Ɔ̌̃"   # Ɔ + Tilde + Caron
+<dead_caron> <dead_tilde> <U0254>                           : "ɔ̌̃"   # ɔ + Tilde + Caron
 <dead_caron> <dead_cedilla> <U0186>                         : "Ɔ̧̌"   # Ɔ + Caron
 <dead_caron> <dead_cedilla> <U0254>                         : "ɔ̧̌"   # Ɔ + Caron
 <dead_caron> <dead_belowdot> <R>                            : "Ř̥"
@@ -420,6 +448,10 @@
 <dead_caron> <dead_belowdiaeresis> <ucircumflex>            : "ṳ̂̌"
 <dead_caron> <dead_belowdiaeresis> <dead_circumflex> <U>    : "Ṳ̂̌"
 <dead_caron> <dead_belowdiaeresis> <dead_circumflex> <u>    : "ṳ̂̌"
+<dead_caron> <Utilde>                                       : "Ǔ̃"
+<dead_caron> <utilde>                                       : "ǔ̃"
+<dead_caron> <dead_tilde> <U>                               : "Ǔ̃"
+<dead_caron> <dead_tilde> <u>                               : "ǔ̃"
 <dead_caron> <dead_cedilla> <U>                             : "Ǔ̧"
 <dead_caron> <dead_cedilla> <u>                             : "ǔ̧"
 <dead_caron> <Uogonek>                                      : "Ų̌"
@@ -452,6 +484,8 @@
 <dead_caron> <U0289>                                        : "ʉ̌"   # ʉ + Caron
 <dead_caron> <dead_stroke> <U>                              : "Ʉ̌"
 <dead_caron> <dead_stroke> <u>                              : "ʉ̌"
+<dead_caron> <dead_tilde> <U01B1>                           : "Ʊ̌̃"
+<dead_caron> <dead_tilde> <U028A>                           : "ʊ̌̃"
 <dead_caron> <dead_abovering> <X>                           : "X̌̊"
 <dead_caron> <dead_abovering> <x>                           : "x̌̊"
 <dead_caron> <Zacute>                                       : "Ž́"

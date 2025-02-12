@@ -285,8 +285,8 @@
 <dead_circumflex> <ebreve>                                      : "ê̆"
 <dead_circumflex> <dead_breve> <E>                              : "Ê̆"
 <dead_circumflex> <dead_breve> <e>                              : "ê̆"
-<dead_circumflex> <dead_tilde> <E>                              : "Ɛ̃̂"
-<dead_circumflex> <dead_tilde> <e>                              : "ɛ̃̂"
+<dead_circumflex> <dead_tilde> <U0190>                          : "Ɛ̃̂"   # Ɛ (Latin Epsilon) + Circumflex + Tilde
+<dead_circumflex> <dead_tilde> <U025B>                          : "ɛ̃̂"   # Ɛ (Latin Epsilon) + Circumflex + Tilde
 <dead_circumflex> <dead_cedilla> <U0190>                        : "Ɛ̧̂"   # Ɛ (Latin Epsilon) + Circumflex + Cedilla
 <dead_circumflex> <dead_cedilla> <U025B>                        : "ɛ̧̂"   # Ɛ (Latin Epsilon) + Circumflex + Cedilla
 <dead_circumflex> <Iacute>                                      : "Î́"
@@ -357,10 +357,12 @@
 <dead_circumflex> <ibelowdot>                                   : "ị̂"
 <dead_circumflex> <dead_belowdot> <I>                           : "Ị̂"
 <dead_circumflex> <dead_belowdot> <i>                           : "ị̂"
-<dead_circumflex> <dead_tilde> <E>                              : "Ɩ̃̂"
-<dead_circumflex> <dead_tilde> <e>                              : "ɩ̃̂"
+<dead_circumflex> <dead_tilde> <U0196>                          : "Ɩ̃̂"   # Ɩ (Latin Iota) + Circumflex + Tilde
+<dead_circumflex> <dead_tilde> <U0269>                          : "ɩ̃̂"   # ɩ (Latin Iota) + Circumflex + Tilde
 <dead_circumflex> <dead_cedilla> <L>                            : "Ļ̂"
 <dead_circumflex> <dead_cedilla> <l>                            : "ļ̂"
+<dead_circumflex> <dead_tilde> <N>                              : "Ñ̂"
+<dead_circumflex> <dead_tilde> <n>                              : "ñ̂"
 <dead_circumflex> <dead_cedilla> <N>                            : "Ņ̂"
 <dead_circumflex> <dead_cedilla> <n>                            : "ņ̂"
 <dead_circumflex> <dead_acute> <dead_belowdiaeresis> <O>        : "Ố̤"

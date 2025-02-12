@@ -18,7 +18,7 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+# [Main reference]: https://fr.wikipedia.org/wiki/Rond_en_chef
 #
 # [CUSTOM DEAD KEYS]:
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
@@ -152,7 +152,7 @@
 
 
 # Composed ring above combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+# [Main reference]: https://fr.wikipedia.org/wiki/Rond_en_chef
 #
 # [CUSTOM DEAD KEYS]:
 # - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
@@ -161,6 +161,10 @@
 <dead_abovering> <acircumflex>                  : "å̂"
 <dead_abovering> <dead_circumflex> <A>          : "Å̂"
 <dead_abovering> <dead_circumflex> <a>          : "å̂"
+<dead_tilde> <Aring>                            : "Ã̊"
+<dead_tilde> <aring>                            : "ã̊"
+<dead_tilde> <dead_abovering> <A>               : "Ã̊"
+<dead_tilde> <dead_abovering> <a>               : "ã̊"
 <dead_abovering> <Aogonek>                      : "Ą̊"
 <dead_abovering> <aogonek>                      : "ą̊"
 <dead_abovering> <dead_ogonek> <A>              : "Ą̊"

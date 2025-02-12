@@ -72,7 +72,7 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+# [Main reference]: https://fr.wikipedia.org/wiki/Point_en_chef
 #
 # [CUSTOM DEAD KEYS]:
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
@@ -170,7 +170,7 @@
 
 
 # Composed dot above combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+# [Main reference]: https://fr.wikipedia.org/wiki/Point_en_chef
 #
 # [CUSTOM DEAD KEYS]:
 # - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
