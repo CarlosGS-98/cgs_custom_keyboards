@@ -180,6 +180,8 @@
 <dead_caron> <cacute>                                       : "č́"
 <dead_caron> <dead_acute> <C>                               : "Č́"
 <dead_caron> <dead_acute> <c>                               : "č́"
+<dead_caron> <dead_belowcircumflex> <C>                     : "Č̭"
+<dead_caron> <dead_belowcircumflex> <c>                     : "č̭"
 <dead_caron> <Ccedilla>                                     : "Ç̌"
 <dead_caron> <ccedilla>                                     : "ç̌"
 <dead_caron> <dead_cedilla> <C>                             : "Ç̌"
@@ -260,10 +262,14 @@
 <dead_caron> <dead_tilde> <U025B>                           : "ɛ̌̃"   # ɛ (Latin Epsilon) + Tilde + Caron
 <dead_caron> <dead_cedilla> <U0190>                         : "Ɛ̧̌"   # Ɛ (Latin Epsilon) + Cedilla + Caron
 <dead_caron> <dead_cedilla> <U025B>                         : "ɛ̧̌"   # Ɛ (Latin Epsilon) + Cedilla + Caron
+<dead_caron> <dead_belowcircumflex> <G>                     : "Ǧ̭"
+<dead_caron> <dead_belowcircumflex> <g>                     : "ǧ̭"
 <dead_caron> <U1E20>                                        : "Ḡ̌"   # Ḡ + Caron
 <dead_caron> <U1E21>                                        : "ḡ̌"   # ḡ + Caron
 <dead_caron> <dead_macron> <G>                              : "Ḡ̌"
 <dead_caron> <dead_macron> <g>                              : "ḡ̌"
+<dead_caron> <dead_belowcircumflex> <H>                     : "Ȟ̭"
+<dead_caron> <dead_belowcircumflex> <h>                     : "ȟ̭"
 <dead_caron> <Icurcumflex>                                  : "Î̌"
 <dead_caron> <icurcumflex>                                  : "î̌"
 <dead_caron> <dead_circumflex> <I>                          : "Î̌"
@@ -324,6 +330,8 @@
 <dead_caron> <dead_tilde> <U0269>                           : "ɩ̌̃"   # ɩ (Latin Iota) + Tilde + Caron
 <dead_caron> <dead_acute> <J>                               : "J̌́"
 <dead_caron> <dead_acute> <j>                               : "ǰ́"
+<dead_caron> <dead_belowcircumflex> <J>                     : "J̭̌"
+<dead_caron> <dead_belowcircumflex> <j>                     : "ǰ̭"
 <dead_caron> <dead_belowdot> <J>                            : "J̣̌"
 <dead_caron> <dead_belowdot> <j>                            : "ǰ̣"
 <dead_caron> <dead_belowring> <L>                           : "Ľ̥"
@@ -410,6 +418,8 @@
 <dead_caron> <dead_acute> <s>                               : "š́"
 <dead_caron> <dead_grave> <S>                               : "Š̀"
 <dead_caron> <dead_grave> <s>                               : "š̀"
+<dead_caron> <dead_belowcircumflex> <S>                     : "Š̭"
+<dead_caron> <dead_belowcircumflex> <s>                     : "š̭"
 <dead_caron> <dead_diaeresis> <S>                           : "S̈̌"
 <dead_caron> <dead_diaeresis> <s>                           : "s̈̌"
 <dead_caron> <dead_belowdiaeresis> <S>                      : "Š̤"
@@ -440,6 +450,10 @@
 <dead_caron> <dead_circumflex> <U1E73>                      : "ṳ̂̌"   # ṳ + Circumflex
 <dead_caron> <dead_circumflex> <dead_belowdiaeresis> <U>    : "Ṳ̂̌"
 <dead_caron> <dead_circumflex> <dead_belowdiaeresis> <u>    : "ṳ̂̌"
+<dead_caron> <U1E76>                                        : "Ṷ̌"   # Ṷ + Caron
+<dead_caron> <U1E77>                                        : "ṷ̌"   # ṷ + Caron
+<dead_caron> <dead_belowcircumflex> <U>                     : "Ṷ̌"
+<dead_caron> <dead_belowcircumflex> <u>                     : "ṷ̌"
 <dead_caron> <dead_diaeresis> <Uogonek>                     : "Ų̈̌"
 <dead_caron> <dead_diaeresis> <uogonek>                     : "ų̈̌"
 <dead_caron> <dead_diaeresis> <dead_ogonek> <U>             : "Ų̈̌"

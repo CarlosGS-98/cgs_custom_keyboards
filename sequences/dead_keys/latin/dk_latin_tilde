@@ -208,6 +208,8 @@
 <dead_tilde> <agrave>                                           : "ã̀"
 <dead_tilde> <dead_grave> <A>                                   : "Ã̀"
 <dead_tilde> <dead_grave> <a>                                   : "ã̀"
+<dead_tilde> <dead_belowcircumflex> <A>                         : "Ã̭"
+<dead_tilde> <dead_belowcircumflex> <a>                         : "ã̭"
 <dead_tilde> <Adiaeresis>                                       : "Ã̈"
 <dead_tilde> <adiaeresis>                                       : "ã̈"
 <dead_tilde> <dead_diaeresis> <A>                               : "Ã̈"
@@ -290,6 +292,10 @@
 <dead_tilde> <egrave>                                           : "ẽ̀"
 <dead_tilde> <dead_grave> <E>                                   : "Ẽ̀"
 <dead_tilde> <dead_grave> <e>                                   : "ẽ̀"
+<dead_tilde> <U1E18>                                            : "Ḙ̃"   # Ḙ + Tilde
+<dead_tilde> <U1E19>                                            : "ḙ̃"   # ḙ + Tilde
+<dead_tilde> <dead_belowcircumflex> <E>                         : "Ḙ̃"
+<dead_tilde> <dead_belowcircumflex> <e>                         : "ḙ̃"
 <dead_tilde> <Ediaeresis>                                       : "Ẽ̈"
 <dead_tilde> <ediaeresis>                                       : "ẽ̈"
 <dead_tilde> <dead_diaeresis> <E>                               : "Ẽ̈"
@@ -398,6 +404,8 @@
 <dead_tilde> <icircumflex>                                      : "ĩ̂"
 <dead_tilde> <dead_circumflex> <I>                              : "Ĩ̂"
 <dead_tilde> <dead_circumflex> <i>                              : "ĩ̂"
+<dead_tilde> <dead_belowcircumflex> <I>                         : "Ĩ̭"
+<dead_tilde> <dead_belowcircumflex> <i>                         : "ĩ̭"
 <dead_tilde> <Idiaeresis>                                       : "Ĩ̈"
 <dead_tilde> <idiaeresis>                                       : "ĩ̈"
 <dead_tilde> <dead_diaeresis> <I>                               : "Ĩ̈"
@@ -510,6 +518,8 @@
 <dead_tilde> <ograve>                                           : "õ̀"
 <dead_tilde> <dead_grave> <O>                                   : "Õ̀"
 <dead_tilde> <dead_grave> <o>                                   : "õ̀"
+<dead_tilde> <dead_belowcircumflex> <O>                         : "Õ̭"
+<dead_tilde> <dead_belowcircumflex> <o>                         : "õ̭"
 <dead_tilde> <dead_diaeresis> <U01EA>                           : "Ǫ̈̃"   # Ǫ + Diaeresis + Tilde
 <dead_tilde> <dead_diaeresis> <U01EB>                           : "ǫ̈̃"   # ǫ + Diaeresis + Tilde
 <dead_tilde> <dead_diaeresis> <dead_ogonek> <O>                 : "Ǫ̈̃"
@@ -636,6 +646,10 @@
 <dead_tilde> <ucircumflex>                                      : "ũ̂"
 <dead_tilde> <dead_circumflex> <U>                              : "Ũ̂"
 <dead_tilde> <dead_circumflex> <u>                              : "ũ̂"
+<dead_tilde> <U1E76>                                            : "Ṷ̃"
+<dead_tilde> <U1E77>                                            : "ṷ̃"   # Ṷ + Tilde
+<dead_tilde> <dead_belowcircumflex> <U>                         : "Ṷ̃"   # ṷ + Tilde
+<dead_tilde> <dead_belowcircumflex> <u>                         : "ṷ̃"
 <dead_tilde> <Udiaeresis>                                       : "Ũ̈"
 <dead_tilde> <udiaeresis>                                       : "ũ̈"
 <dead_tilde> <dead_diaeresis> <U>                               : "Ũ̈"
@@ -714,6 +728,8 @@
 <dead_tilde> <dead_acute> <U028B>                               : "ʋ̃́"   # ʋ + Acute + Tilde
 <dead_tilde> <dead_grave> <U01B2>                               : "Ʋ̃̀"   # Ʋ + Grave + Tilde
 <dead_tilde> <dead_grave> <U028B>                               : "ʋ̃̀"   # ʋ + Grave + Tilde
+<dead_tilde> <dead_belowcircumflex> <Y>                         : "Ỹ̭"
+<dead_tilde> <dead_belowcircumflex> <y>                         : "ỹ̭"
 <dead_tilde> <Ydiaeresis>                                       : "Ỹ̈"
 <dead_tilde> <ydiaeresis>                                       : "ỹ̈"
 <dead_tilde> <dead_diaeresis> <Y>                               : "Ỹ̈"

@@ -441,6 +441,10 @@
 <dead_breve> <ugrave>                                       : "ŭ̀"
 <dead_breve> <dead_grave> <U>                               : "Ŭ̀"
 <dead_breve> <dead_grave> <u>                               : "ŭ̀"
+<dead_breve> <U1E76>                                        : "Ṷ̆"   # Ṷ + Breve
+<dead_breve> <U1E77>                                        : "ṷ̆"   # ṷ + Breve
+<dead_breve> <dead_belowcircumflex> <U>                     : "Ṷ̆"
+<dead_breve> <dead_belowcircumflex> <u>                     : "ṷ̆"
 <dead_breve> <Udiaeresis>                                   : "Ü̆"
 <dead_breve> <udiaeresis>                                   : "ü̆"
 <dead_breve> <dead_diaeresis> <U>                           : "Ü̆"

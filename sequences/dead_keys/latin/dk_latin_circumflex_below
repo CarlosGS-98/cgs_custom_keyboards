@@ -1,0 +1,240 @@
+# Latin Alphabet | Circumflex Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowcircumflex> <D>  : "Ḓ"
+<dead_belowcircumflex> <d>  : "ḓ"
+<dead_belowcircumflex> <E>  : "Ḙ"
+<dead_belowcircumflex> <e>  : "ḙ"
+<dead_belowcircumflex> <L>  : "Ḽ"
+<dead_belowcircumflex> <l>  : "ḽ"
+<dead_belowcircumflex> <N>  : "Ṋ"
+<dead_belowcircumflex> <n>  : "ṋ"
+<dead_belowcircumflex> <T>  : "Ṱ"
+<dead_belowcircumflex> <t>  : "ṱ"
+<dead_belowcircumflex> <U>  : "Ṷ"
+<dead_belowcircumflex> <u>  : "ṷ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe_souscrit
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_belowcircumflex> <A>                 : "A̭"
+<dead_belowcircumflex> <a>                 : "a̭"
+<dead_belowcircumflex> <U2C6F>             : "Ɐ̭"      # Ɐ + Circumflex Below
+<dead_belowcircumflex> <U0250>             : "ɐ̭"      # ɐ + Circumflex Below
+<dead_belowcircumflex> <U21BA> <A>         : "Ɐ̭"      # Ɐ + Circumflex Below
+<dead_belowcircumflex> <U21BA> <a>         : "ɐ̭"      # ɐ + Circumflex Below
+<dead_belowcircumflex> <UA732>             : "Ꜳ̭"     # Ꜳ + Circumflex Below
+<dead_belowcircumflex> <UA733>             : "ꜳ̭"      # ꜳ + Circumflex Below
+<dead_belowcircumflex> <multiply> <A> <A>  : "Ꜳ̭"     # Ꜳ + Circumflex Below
+<dead_belowcircumflex> <multiply> <a> <a>  : "ꜳ̭"      # ꜳ + Circumflex Below
+<dead_belowcircumflex> <AE>                : "Æ̭"
+<dead_belowcircumflex> <ae>                : "æ̭"
+<dead_belowcircumflex> <multiply> <A> <E>  : "Æ̭"
+<dead_belowcircumflex> <multiply> <a> <e>  : "æ̭"
+<dead_belowcircumflex> <UA734>             : "Ꜵ̭"     # Ꜵ + Circumflex Below
+<dead_belowcircumflex> <UA735>             : "ꜵ̭"      # ꜵ + Circumflex Below
+<dead_belowcircumflex> <multiply> <A> <O>  : "Ꜵ̭"     # Ꜵ + Circumflex Below
+<dead_belowcircumflex> <multiply> <a> <o>  : "ꜵ̭"      # ꜵ + Circumflex Below
+<dead_belowcircumflex> <UA736>             : "Ꜷ̭"     # Ꜷ + Circumflex Below
+<dead_belowcircumflex> <UA737>             : "ꜷ̭"      # ꜷ + Circumflex Below
+<dead_belowcircumflex> <multiply> <A> <U>  : "Ꜷ̭"     # Ꜷ + Circumflex Below
+<dead_belowcircumflex> <multiply> <a> <u>  : "ꜷ̭"      # ꜷ + Circumflex Below
+<dead_belowcircumflex> <UA738>             : "Ꜹ̭"     # Ꜹ + Circumflex Below
+<dead_belowcircumflex> <UA739>             : "ꜹ̭"      # ꜹ + Circumflex Below
+<dead_belowcircumflex> <multiply> <A> <V>  : "Ꜹ̭"     # Ꜹ + Circumflex Below
+<dead_belowcircumflex> <multiply> <a> <v>  : "ꜹ̭"      # ꜹ + Circumflex Below
+<dead_belowcircumflex> <UA73C>             : "Ꜽ̭"     # Ꜽ + Circumflex Below
+<dead_belowcircumflex> <UA73D>             : "ꜽ̭"      # ꜽ + Circumflex Below
+<dead_belowcircumflex> <multiply> <A> <Y>  : "Ꜽ̭"     # Ꜽ + Circumflex Below
+<dead_belowcircumflex> <multiply> <a> <y>  : "ꜽ̭"      # ꜽ + Circumflex Below
+<dead_belowcircumflex> <U2C6D>             : "Ɑ̭"      # Ɑ (Latin Alpha) + Circumflex Below
+<dead_belowcircumflex> <U0251>             : "ɑ̭"      # ɑ (Latin Alpha) + Circumflex Below
+<dead_belowcircumflex> <B>                 : "B̭"
+<dead_belowcircumflex> <b>                 : "b̭"
+<dead_belowcircumflex> <C>                 : "C̭"
+<dead_belowcircumflex> <c>                 : "c̭"
+<dead_belowcircumflex> <ETH>               : "Ð̭"
+<dead_belowcircumflex> <eth>               : "ð̭"
+<dead_belowcircumflex> <UA779>             : "Ꝺ̭"      # Ꝺ (Insular D) + Circumflex Below
+<dead_belowcircumflex> <UA77A>             : "ꝺ̭"      # ꝺ (Insular D) + Circumflex Below
+<dead_belowcircumflex> <U0190>             : "Ɛ̭"      # Ɛ (Latin Epsilon) + Circumflex Below
+<dead_belowcircumflex> <U025B>             : "ɛ̭"      # ɛ (Latin Epsilon) + Circumflex Below
+<dead_belowcircumflex> <SCHWA>             : "Ə̭"      # Ə (Schwa) + Circumflex Below
+<dead_belowcircumflex> <schwa>             : "ə̭"      # ə (Schwa) + Circumflex Below
+<dead_belowcircumflex> <U018E>             : "Ǝ̭"      # Ǝ (Turned E) + Circumflex Below
+<dead_belowcircumflex> <U01DD>             : "ǝ̭"      # ǝ (Turned E) + Circumflex Below
+<dead_belowcircumflex> <U21BA> <E>         : "Ǝ̭"      # Ǝ (Turned E) + Circumflex Below
+<dead_belowcircumflex> <U21BA> <e>         : "ǝ̭"      # ǝ (Turned E) + Circumflex Below
+<dead_belowcircumflex> <F>                 : "F̭"
+<dead_belowcircumflex> <f>                 : "f̭"
+<dead_belowcircumflex> <UA77B>             : "Ꝼ̭"      # Ꝼ (Insular F) + Circumflex Below
+<dead_belowcircumflex> <UA77C>             : "ꝼ̭"      # ꝼ (Insular F) + Circumflex Below
+<dead_belowcircumflex> <G>                 : "G̭"
+<dead_belowcircumflex> <g>                 : "g̭"
+<dead_belowcircumflex> <U0194>             : "Ɣ̭"      # Ɣ (Latin Gamma) + Circumflex Below
+<dead_belowcircumflex> <U0263>             : "ɣ̭"      # ɣ (Latin Gamma) + Circumflex Below
+<dead_belowcircumflex> <H>                 : "H̭"
+<dead_belowcircumflex> <h>                 : "h̭"
+<dead_belowcircumflex> <UA78D>             : "Ɥ̭"      # Ɥ (Turned H) + Circumflex Below
+<dead_belowcircumflex> <U0265>             : "ɥ̭"      # ɥ (Turned H) + Circumflex Below
+<dead_belowcircumflex> <U21BA> <H>         : "Ɥ̭"      # Ɥ (Turned H) + Circumflex Below
+<dead_belowcircumflex> <U21BA> <h>         : "ɥ̭"      # ɥ (Turned H) + Circumflex Below
+<dead_belowcircumflex> <I>                 : "I̭"
+<dead_belowcircumflex> <i>                 : "i̭"
+<dead_belowcircumflex> <U0196>             : "Ɩ̭"      # Ɩ (Latin Iota) + Circumflex Below
+<dead_belowcircumflex> <U0269>             : "ɩ̭"      # ɩ (Latin Iota) + Circumflex Below
+<dead_belowcircumflex> <J>                 : "J̭"
+<dead_belowcircumflex> <j>                 : "j̭"
+<dead_belowcircumflex> <K>                 : "K̭"
+<dead_belowcircumflex> <k>                 : "k̭"
+<dead_belowcircumflex> <M>                 : "M̭"
+<dead_belowcircumflex> <m>                 : "m̭"
+<dead_belowcircumflex> <ENG>               : "Ŋ̭"      # Ŋ + Circumflex Below
+<dead_belowcircumflex> <eng>               : "ŋ̭"      # ŋ + Circumflex Below
+<dead_belowcircumflex> <O>                 : "O̭"
+<dead_belowcircumflex> <o>                 : "o̭"
+<dead_belowcircumflex> <OE>                : "Œ̭"
+<dead_belowcircumflex> <oe>                : "œ̭"
+<dead_belowcircumflex> <multiply> <O> <E>  : "Œ̭"
+<dead_belowcircumflex> <multiply> <o> <e>  : "œ̭"
+<dead_belowcircumflex> <UA74E>             : "Ꝏ̭"     # Ꝏ + Circumflex Below
+<dead_belowcircumflex> <UA74F>             : "ꝏ̭"     # ꝏ + Circumflex Below
+<dead_belowcircumflex> <multiply> <O> <O>  : "Ꝏ̭"     # Ꝏ + Circumflex Below
+<dead_belowcircumflex> <multiply> <o> <o>  : "ꝏ̭"     # ꝏ + Circumflex Below
+<dead_belowcircumflex> <U0186>             : "Ɔ̭"      # Ɔ + Circumflex Below
+<dead_belowcircumflex> <U0254>             : "ɔ̭"      # ɔ + Circumflex Below
+<dead_belowcircumflex> <UA7CB>             : "Ɤ̭"      # Ɤ (Ram's Horn) + Circumflex Below
+<dead_belowcircumflex> <U0264>             : "ɤ̭"      # ɤ (Ram's Horn) + Circumflex Below
+<dead_belowcircumflex> <P>                 : "P̭"
+<dead_belowcircumflex> <p>                 : "p̭"
+<dead_belowcircumflex> <Q>                 : "Q̭"
+<dead_belowcircumflex> <q>                 : "q̭"
+<dead_belowcircumflex> <R>                 : "R̭"
+<dead_belowcircumflex> <r>                 : "r̭"
+<dead_belowcircumflex> <U01A6>             : "Ʀ̭"     # Ʀ (Yr) + Circumflex Below
+<dead_belowcircumflex> <U0280>             : "ʀ̭"     # ʀ (Yr) + Circumflex Below
+<dead_belowcircumflex> <A75A>              : "Ꝛ̭"     # Ꝛ (R Rotunda) + Circumflex Below
+<dead_belowcircumflex> <A75B>              : "ꝛ̭"     # ꝛ (R Rotunda) + Circumflex Below
+<dead_belowcircumflex> <S>                 : "S̭"
+<dead_belowcircumflex> <s>                 : "s̭"
+<dead_belowcircumflex> <THORN>             : "Þ̭"
+<dead_belowcircumflex> <thorn>             : "þ̭"
+<dead_belowcircumflex> <U01B1>             : "Ʊ̭"     # Ʊ (Latin Upsilon) + Circumflex Below
+<dead_belowcircumflex> <U028A>             : "ʊ̭"     # ʊ (Latin Upsilon) + Circumflex Below
+<dead_belowcircumflex> <U019C>             : "Ɯ̭"     # Ɯ (Turned M) + Circumflex Below
+<dead_belowcircumflex> <U026F>             : "ɯ̭"     # ɯ (Turned M) + Circumflex Below
+<dead_belowcircumflex> <U21BA> <M>         : "Ɯ̭"     # Ɯ (Turned M) + Circumflex Below
+<dead_belowcircumflex> <U21BA> <m>         : "ɯ̭"     # ɯ (Turned M) + Circumflex Below
+<dead_belowcircumflex> <V>                 : "V̭"
+<dead_belowcircumflex> <v>                 : "v̭"
+<dead_belowcircumflex> <U0245>             : "Ʌ̭"     # Ʌ + Circumflex Below
+<dead_belowcircumflex> <U028C>             : "ʌ̭"     # ʌ + Circumflex Below
+<dead_belowcircumflex> <U21BA> <V>         : "Ʌ̭"     # Ʌ + Circumflex Below
+<dead_belowcircumflex> <U21BA> <v>         : "ʌ̭"     # ʌ + Circumflex Below
+<dead_belowcircumflex> <U01B2>             : "Ʋ̭"     # Ʋ + Circumflex Below
+<dead_belowcircumflex> <U028B>             : "ʋ̭"     # ʋ + Circumflex Below
+<dead_belowcircumflex> <UA768>             : "Ꝩ̭"     # Ꝩ (Vend) + Circumflex Below
+<dead_belowcircumflex> <UA769>             : "ꝩ̭"     # ꝩ (Vend) + Circumflex Below
+<dead_belowcircumflex> <W>                 : "W̭"
+<dead_belowcircumflex> <w>                 : "w̭"
+<dead_belowcircumflex> <UA760>             : "Ꝡ̭"     # Ꝡ + Circumflex Below
+<dead_belowcircumflex> <UA761>             : "ꝡ̭"     # ꝡ + Circumflex Below
+<dead_belowcircumflex> <multiply> <V> <Y>  : "Ꝡ̭"
+<dead_belowcircumflex> <multiply> <v> <y>  : "ꝡ̭"
+<dead_belowcircumflex> <X>                 : "X̭"
+<dead_belowcircumflex> <x>                 : "x̭"
+<dead_belowcircumflex> <Y>                 : "Y̭"
+<dead_belowcircumflex> <y>                 : "y̭"
+<dead_belowcircumflex> <Z>                 : "Z̭"
+<dead_belowcircumflex> <z>                 : "z̭"
+<dead_belowcircumflex> <EZH>               : "Ʒ̭"     # Ʒ + Circumflex Below
+<dead_belowcircumflex> <ezh>               : "ʒ̭"     # ʒ + Circumflex Below
+
+
+# Composed tilde below combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe_souscrit
+#
+<dead_belowcircumflex> <Atilde>                 : "Ã̭"
+<dead_belowcircumflex> <atilde>                 : "ã̭"
+<dead_belowcircumflex> <dead_tilde> <A>         : "Ã̭"
+<dead_belowcircumflex> <dead_tilde> <a>         : "ã̭"
+<dead_belowcircumflex> <Ccircumflex>            : "Ĉ̭"
+<dead_belowcircumflex> <ccircumflex>            : "ĉ̭"
+<dead_belowcircumflex> <dead_circumflex> <C>    : "Ĉ̭"
+<dead_belowcircumflex> <dead_circumflex> <c>    : "ĉ̭"
+<dead_belowcircumflex> <Ccaron>                 : "Č̭"
+<dead_belowcircumflex> <ccaron>                 : "č̭"
+<dead_belowcircumflex> <dead_caron> <C>         : "Č̭"
+<dead_belowcircumflex> <dead_caron> <c>         : "č̭"
+<dead_belowcircumflex> <Etilde>                 : "Ḙ̃"
+<dead_belowcircumflex> <etilde>                 : "ḙ̃"
+<dead_belowcircumflex> <dead_tilde> <E>         : "Ḙ̃"
+<dead_belowcircumflex> <dead_tilde> <e>         : "ḙ̃"
+<dead_belowcircumflex> <Gcircumflex>            : "Ĝ̭"
+<dead_belowcircumflex> <gcircumflex>            : "ĝ̭"
+<dead_belowcircumflex> <dead_circumflex> <G>    : "Ĝ̭"
+<dead_belowcircumflex> <dead_circumflex> <g>    : "ĝ̭"
+<dead_belowcircumflex> <Gcaron>                 : "Ǧ̭"
+<dead_belowcircumflex> <gcaron>                 : "ǧ̭"
+<dead_belowcircumflex> <dead_caron> <G>         : "Ǧ̭"
+<dead_belowcircumflex> <dead_caron> <g>         : "ǧ̭"
+<dead_belowcircumflex> <Hcircumflex>            : "Ĥ̭"
+<dead_belowcircumflex> <hcircumflex>            : "ĥ̭"
+<dead_belowcircumflex> <dead_circumflex> <H>    : "Ĥ̭"
+<dead_belowcircumflex> <dead_circumflex> <h>    : "ĥ̭"
+<dead_belowcircumflex> <U021E>                  : "Ȟ̭"   # Ȟ + Circumflex Below
+<dead_belowcircumflex> <U021F>                  : "ȟ̭"   # ȟ + Circumflex Below
+<dead_belowcircumflex> <dead_caron> <H>         : "Ȟ̭"
+<dead_belowcircumflex> <dead_caron> <h>         : "ȟ̭"
+<dead_belowcircumflex> <Itilde>                 : "Ĩ̭"
+<dead_belowcircumflex> <itilde>                 : "ĩ̭"
+<dead_belowcircumflex> <dead_tilde> <I>         : "Ĩ̭"
+<dead_belowcircumflex> <dead_tilde> <i>         : "ĩ̭"
+<dead_belowcircumflex> <Imacron>                : "Ī̭"
+<dead_belowcircumflex> <imacron>                : "ī̭"
+<dead_belowcircumflex> <dead_macron> <I>        : "Ī̭"
+<dead_belowcircumflex> <dead_macron> <i>        : "ī̭"
+<dead_belowcircumflex> <Jcircumflex>            : "Ĵ̭"
+<dead_belowcircumflex> <jcircumflex>            : "ĵ̭"
+<dead_belowcircumflex> <dead_circumflex> <J>    : "Ĵ̭"
+<dead_belowcircumflex> <dead_circumflex> <j>    : "ĵ̭"
+<dead_belowcircumflex> <U01F0>                  : "ǰ̭"   # ǰ + Circumflex Below
+<dead_belowcircumflex> <dead_caron> <J>         : "J̭̌"
+<dead_belowcircumflex> <dead_caron> <j>         : "ǰ̭"
+<dead_belowcircumflex> <Scircumflex>            : "Ŝ̭"
+<dead_belowcircumflex> <scircumflex>            : "ŝ̭"
+<dead_belowcircumflex> <dead_circumflex> <S>    : "Ŝ̭"
+<dead_belowcircumflex> <dead_circumflex> <s>    : "ŝ̭"
+<dead_belowcircumflex> <Scaron>                 : "Š̭"
+<dead_belowcircumflex> <scaron>                 : "š̭"
+<dead_belowcircumflex> <dead_caron> <S>         : "Š̭"
+<dead_belowcircumflex> <dead_caron> <s>         : "š̭"
+<dead_belowcircumflex> <Otilde>                 : "Õ̭"
+<dead_belowcircumflex> <otilde>                 : "õ̭"
+<dead_belowcircumflex> <dead_tilde> <O>         : "Õ̭"
+<dead_belowcircumflex> <dead_tilde> <o>         : "õ̭"
+<dead_belowcircumflex> <Utilde>                 : "Ṷ̃"
+<dead_belowcircumflex> <utilde>                 : "ṷ̃"
+<dead_belowcircumflex> <dead_tilde> <U>         : "Ṷ̃"
+<dead_belowcircumflex> <dead_tilde> <u>         : "ṷ̃"
+<dead_belowcircumflex> <U01D3>                  : "Ṷ̌"   # Ǔ + Circumflex Below
+<dead_belowcircumflex> <U01D4>                  : "ṷ̌"   # ǔ + Circumflex Below
+<dead_belowcircumflex> <dead_caron> <U>         : "Ṷ̌"
+<dead_belowcircumflex> <dead_caron> <u>         : "ṷ̌"
+<dead_belowcircumflex> <Ubreve>                 : "Ṷ̆"
+<dead_belowcircumflex> <ubreve>                 : "ṷ̆"
+<dead_belowcircumflex> <dead_breve> <U>         : "Ṷ̆"
+<dead_belowcircumflex> <dead_breve> <u>         : "ṷ̆"
+<dead_belowcircumflex> <Ytilde>                 : "Ỹ̭"
+<dead_belowcircumflex> <ytilde>                 : "ỹ̭"
+<dead_belowcircumflex> <dead_tilde> <Y>         : "Ỹ̭"
+<dead_belowcircumflex> <dead_tilde> <y>         : "ỹ̭"
+
+##################
+# [END OF RULES] #
+##################
