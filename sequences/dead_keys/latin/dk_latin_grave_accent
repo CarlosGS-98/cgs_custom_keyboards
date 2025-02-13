@@ -574,6 +574,8 @@
 <dead_grave> <dead_belowdot> <u>                        : "ụ̀"
 <dead_grave> <dead_tilde> <U01B2>                       : "Ʋ̃̀"   # Ʋ + Grave + Tilde
 <dead_grave> <dead_tilde> <U028B>                       : "ʋ̃̀"   # ʋ + Grave + Tilde
+<dead_grave> <dead_belowtilde> <U01B2>                  : "Ʋ̰̀"   # Ʋ + Grave + Tilde Below
+<dead_grave> <dead_belowtilde> <U028B>                  : "ʋ̰̀"   # ʋ + Grave + Tilde Below
 <dead_grave> <U0232>                                    : "Ȳ̀"   # Ȳ + Grave
 <dead_grave> <U0233>                                    : "ȳ̀"   # ȳ + Grave
 <dead_grave> <dead_macron> <Y>                          : "Ȳ̀"   # Ȳ + Grave

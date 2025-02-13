@@ -832,8 +832,8 @@
 <dead_acute> <dead_tilde> <dead_stroke> <u>                 : "ʉ̃́"   # ʉ + Acute + Tilde
 <dead_acute> <U1E74>                                        : "Ṵ́"   # Ṵ + Acute
 <dead_acute> <U1E75>                                        : "ṵ́"   # ṵ + Acute
-<dead_acute> <dead_belowtilde> <A>                          : "Ṵ́"
-<dead_acute> <dead_belowtilde> <a>                          : "ṵ́"
+<dead_acute> <dead_belowtilde> <U>                          : "Ṵ́"
+<dead_acute> <dead_belowtilde> <u>                          : "ṵ́"
 <dead_acute> <dead_cedilla> <U>                             : "Ú̧"
 <dead_acute> <dead_cedilla> <u>                             : "ú̧"
 <dead_acute> <Uring>                                        : "Ů́"
@@ -910,8 +910,10 @@
 <dead_acute> <dead_lowline> <U028C>                         : "ʌ̲́"   # ʌ + Acute + Low Line
 <dead_acute> <dead_lowline> <U21BA> <V>                     : "Ʌ̲́"   # Ʌ + Acute + Low Line
 <dead_acute> <dead_lowline> <U21BA> <v>                     : "ʌ̲́"   # ʌ + Acute + Low Line
-<dead_acute> <dead_tilde> <U01B2>                           : "Ʋ̃́"
-<dead_acute> <dead_tilde> <U028B>                           : "ʋ̃́"
+<dead_acute> <dead_tilde> <U01B2>                           : "Ʋ̃́"   # Ʋ + Acute + Tilde
+<dead_acute> <dead_tilde> <U028B>                           : "ʋ̃́"   # ʋ + Acute + Tilde
+<dead_acute> <dead_belowtilde> <U01B2>                      : "Ʋ̰́"   # Ʋ + Acute + Tilde Below
+<dead_acute> <dead_belowtilde> <U028B>                      : "ʋ̰́"   # ʋ + Acute + Tilde Below
 <dead_acute> <dead_breve> <X>                               : "X̆́"
 <dead_acute> <dead_breve> <x>                               : "x̆́"
 <dead_acute> <Ydiaeresis>                                   : "Ý̈"

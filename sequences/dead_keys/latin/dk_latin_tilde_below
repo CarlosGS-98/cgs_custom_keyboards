@@ -1,0 +1,253 @@
+# Latin Alphabet | Tilde Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowtilde> <E>   : "Ḛ"
+<dead_belowtilde> <e>   : "ḛ"
+<dead_belowtilde> <I>   : "Ḭ"
+<dead_belowtilde> <i>   : "ḭ"
+<dead_belowtilde> <U>   : "Ṵ"
+<dead_belowtilde> <u>   : "ṵ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tilde_souscrit
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_belowtilde> <A>                 : "A̰"
+<dead_belowtilde> <a>                 : "a̰"
+<dead_belowtilde> <U2C6F>             : "Ɐ̰"      # Ɐ + Tilde Below
+<dead_belowtilde> <U0250>             : "ɐ̰"      # ɐ + Tilde Below
+<dead_belowtilde> <U21BA> <A>         : "Ɐ̰"      # Ɐ + Tilde Below
+<dead_belowtilde> <U21BA> <a>         : "ɐ̰"      # ɐ + Tilde Below
+<dead_belowtilde> <UA732>             : "Ꜳ̰"     # Ꜳ + Tilde Below
+<dead_belowtilde> <UA733>             : "ꜳ̰"      # ꜳ + Tilde Below
+<dead_belowtilde> <multiply> <A> <A>  : "Ꜳ̰"     # Ꜳ + Tilde Below
+<dead_belowtilde> <multiply> <a> <a>  : "ꜳ̰"      # ꜳ + Tilde Below
+<dead_belowtilde> <AE>                : "Æ̰"
+<dead_belowtilde> <ae>                : "æ̰"
+<dead_belowtilde> <multiply> <A> <E>  : "Æ̰"
+<dead_belowtilde> <multiply> <a> <e>  : "æ̰"
+<dead_belowtilde> <UA734>             : "Ꜵ̰"     # Ꜵ + Tilde Below
+<dead_belowtilde> <UA735>             : "ꜵ̰"      # ꜵ + Tilde Below
+<dead_belowtilde> <multiply> <A> <O>  : "Ꜵ̰"     # Ꜵ + Tilde Below
+<dead_belowtilde> <multiply> <a> <o>  : "ꜵ̰"      # ꜵ + Tilde Below
+<dead_belowtilde> <UA736>             : "Ꜷ̰"     # Ꜷ + Tilde Below
+<dead_belowtilde> <UA737>             : "ꜷ̰"      # ꜷ + Tilde Below
+<dead_belowtilde> <multiply> <A> <U>  : "Ꜷ̰"     # Ꜷ + Tilde Below
+<dead_belowtilde> <multiply> <a> <u>  : "ꜷ̰"      # ꜷ + Tilde Below
+<dead_belowtilde> <UA738>             : "Ꜹ̰"     # Ꜹ + Tilde Below
+<dead_belowtilde> <UA739>             : "ꜹ̰"      # ꜹ + Tilde Below
+<dead_belowtilde> <multiply> <A> <V>  : "Ꜹ̰"     # Ꜹ + Tilde Below
+<dead_belowtilde> <multiply> <a> <v>  : "ꜹ̰"      # ꜹ + Tilde Below
+<dead_belowtilde> <UA73C>             : "Ꜽ̰"     # Ꜽ + Tilde Below
+<dead_belowtilde> <UA73D>             : "ꜽ̰"      # ꜽ + Tilde Below
+<dead_belowtilde> <multiply> <A> <Y>  : "Ꜽ̰"     # Ꜽ + Tilde Below
+<dead_belowtilde> <multiply> <a> <y>  : "ꜽ̰"      # ꜽ + Tilde Below
+<dead_belowtilde> <U2C6D>             : "Ɑ̰"      # Ɑ (Latin Alpha) + Tilde Below
+<dead_belowtilde> <U0251>             : "ɑ̰"      # ɑ (Latin Alpha) + Tilde Below
+<dead_belowtilde> <B>                 : "B̰"
+<dead_belowtilde> <b>                 : "b̰"
+<dead_belowtilde> <C>                 : "C̰"
+<dead_belowtilde> <c>                 : "c̰"
+<dead_belowtilde> <D>                 : "D̰"
+<dead_belowtilde> <d>                 : "d̰"
+<dead_belowtilde> <ETH>               : "Ð̰"
+<dead_belowtilde> <eth>               : "ð̰"
+<dead_belowtilde> <UA779>             : "Ꝺ̰"      # Ꝺ (Insular D) + Tilde Below
+<dead_belowtilde> <UA77A>             : "ꝺ̰"      # ꝺ (Insular D) + Tilde Below
+<dead_belowtilde> <U0190>             : "Ɛ̰"      # Ɛ (Latin Epsilon) + Tilde Below
+<dead_belowtilde> <U025B>             : "ɛ̰"      # ɛ (Latin Epsilon) + Tilde Below
+<dead_belowtilde> <SCHWA>             : "Ə̰"      # Ə (Schwa) + Tilde Below
+<dead_belowtilde> <schwa>             : "ə̰"      # ə (Schwa) + Tilde Below
+<dead_belowtilde> <U018E>             : "Ǝ̰"      # Ǝ (Turned E) + Tilde Below
+<dead_belowtilde> <U01DD>             : "ǝ̰"      # ǝ (Turned E) + Tilde Below
+<dead_belowtilde> <U21BA> <E>         : "Ǝ̰"      # Ǝ (Turned E) + Tilde Below
+<dead_belowtilde> <U21BA> <e>         : "ǝ̰"      # ǝ (Turned E) + Tilde Below
+<dead_belowtilde> <F>                 : "F̰"
+<dead_belowtilde> <f>                 : "f̰"
+<dead_belowtilde> <UA77B>             : "Ꝼ̰"      # Ꝼ (Insular F) + Tilde Below
+<dead_belowtilde> <UA77C>             : "ꝼ̰"      # ꝼ (Insular F) + Tilde Below
+<dead_belowtilde> <G>                 : "G̰"
+<dead_belowtilde> <g>                 : "g̰"
+<dead_belowtilde> <U0194>             : "Ɣ̰"      # Ɣ (Latin Gamma) + Tilde Below
+<dead_belowtilde> <U0263>             : "ɣ̰"      # ɣ (Latin Gamma) + Tilde Below
+<dead_belowtilde> <H>                 : "H̰"
+<dead_belowtilde> <h>                 : "h̰"
+<dead_belowtilde> <UA78D>             : "Ɥ̰"      # Ɥ (Turned H) + Tilde Below
+<dead_belowtilde> <U0265>             : "ɥ̰"      # ɥ (Turned H) + Tilde Below
+<dead_belowtilde> <U21BA> <H>         : "Ɥ̰"      # Ɥ (Turned H) + Tilde Below
+<dead_belowtilde> <U21BA> <h>         : "ɥ̰"      # ɥ (Turned H) + Tilde Below
+<dead_belowtilde> <U0196>             : "Ɩ̰"      # Ɩ (Latin Iota) + Tilde Below
+<dead_belowtilde> <U0269>             : "ɩ̰"      # ɩ (Latin Iota) + Tilde Below
+<dead_belowtilde> <J>                 : "J̰"
+<dead_belowtilde> <j>                 : "j̰"
+<dead_belowtilde> <K>                 : "K̰"
+<dead_belowtilde> <k>                 : "k̰"
+<dead_belowtilde> <L>                 : "L̰"
+<dead_belowtilde> <l>                 : "l̰"
+<dead_belowtilde> <M>                 : "M̰"
+<dead_belowtilde> <m>                 : "m̰"
+<dead_belowtilde> <N>                 : "N̰"
+<dead_belowtilde> <n>                 : "n̰"
+<dead_belowtilde> <ENG>               : "Ŋ̰"      # Ŋ + Tilde Below
+<dead_belowtilde> <eng>               : "ŋ̰"      # ŋ + Tilde Below
+<dead_belowtilde> <O>                 : "O̰"
+<dead_belowtilde> <o>                 : "o̰"
+<dead_belowtilde> <OE>                : "Œ̰"
+<dead_belowtilde> <oe>                : "œ̰"
+<dead_belowtilde> <multiply> <O> <E>  : "Œ̰"
+<dead_belowtilde> <multiply> <o> <e>  : "œ̰"
+<dead_belowtilde> <UA74E>             : "Ꝏ̰"     # Ꝏ + Tilde Below
+<dead_belowtilde> <UA74F>             : "ꝏ̰"     # ꝏ + Tilde Below
+<dead_belowtilde> <multiply> <O> <O>  : "Ꝏ̰"     # Ꝏ + Tilde Below
+<dead_belowtilde> <multiply> <o> <o>  : "ꝏ̰"     # ꝏ + Tilde Below
+<dead_belowtilde> <U0186>             : "Ɔ̰"      # Ɔ + Tilde Below
+<dead_belowtilde> <U0254>             : "ɔ̰"      # ɔ + Tilde Below
+<dead_belowtilde> <UA7CB>             : "Ɤ̰"      # Ɤ (Ram's Horn) + Tilde Below
+<dead_belowtilde> <U0264>             : "ɤ̰"      # ɤ (Ram's Horn) + Tilde Below
+<dead_belowtilde> <P>                 : "P̰"
+<dead_belowtilde> <p>                 : "p̰"
+<dead_belowtilde> <Q>                 : "Q̰"
+<dead_belowtilde> <q>                 : "q̰"
+<dead_belowtilde> <R>                 : "R̰"
+<dead_belowtilde> <r>                 : "r̰"
+<dead_belowtilde> <U01A6>             : "Ʀ̰"     # Ʀ (Yr) + Tilde Below
+<dead_belowtilde> <U0280>             : "ʀ̰"     # ʀ (Yr) + Tilde Below
+<dead_belowtilde> <A75A>              : "Ꝛ̰"     # Ꝛ (R Rotunda) + Tilde Below
+<dead_belowtilde> <A75B>              : "ꝛ̰"     # ꝛ (R Rotunda) + Tilde Below
+<dead_belowtilde> <S>                 : "S̰"
+<dead_belowtilde> <s>                 : "s̰"
+<dead_belowtilde> <T>                 : "T̰"
+<dead_belowtilde> <t>                 : "t̰"
+<dead_belowtilde> <THORN>             : "Þ̰"
+<dead_belowtilde> <thorn>             : "þ̰"
+<dead_belowtilde> <U01B1>             : "Ʊ̰"     # Ʊ (Latin Upsilon) + Tilde Below
+<dead_belowtilde> <U028A>             : "ʊ̰"     # ʊ (Latin Upsilon) + Tilde Below
+<dead_belowtilde> <U019C>             : "Ɯ̰"     # Ɯ (Turned M) + Tilde Below
+<dead_belowtilde> <U026F>             : "ɯ̰"     # ɯ (Turned M) + Tilde Below
+<dead_belowtilde> <U21BA> <M>         : "Ɯ̰"     # Ɯ (Turned M) + Tilde Below
+<dead_belowtilde> <U21BA> <m>         : "ɯ̰"     # ɯ (Turned M) + Tilde Below
+<dead_belowtilde> <V>                 : "V̰"
+<dead_belowtilde> <v>                 : "v̰"
+<dead_belowtilde> <U0245>             : "Ʌ̰"     # Ʌ + Tilde Below
+<dead_belowtilde> <U028C>             : "ʌ̰"     # ʌ + Tilde Below
+<dead_belowtilde> <U21BA> <V>         : "Ʌ̰"     # Ʌ + Tilde Below
+<dead_belowtilde> <U21BA> <v>         : "ʌ̰"     # ʌ + Tilde Below
+<dead_belowtilde> <U01B2>             : "Ʋ̰"     # Ʋ + Tilde Below
+<dead_belowtilde> <U028B>             : "ʋ̰"     # ʋ + Tilde Below
+<dead_belowtilde> <UA768>             : "Ꝩ̰"     # Ꝩ (Vend) + Tilde Below
+<dead_belowtilde> <UA769>             : "ꝩ̰"     # ꝩ (Vend) + Tilde Below
+<dead_belowtilde> <W>                 : "W̰"
+<dead_belowtilde> <w>                 : "w̰"
+<dead_belowtilde> <UA760>             : "Ꝡ̰"     # Ꝡ + Tilde Below
+<dead_belowtilde> <UA761>             : "ꝡ̰"     # ꝡ + Tilde Below
+<dead_belowtilde> <multiply> <V> <Y>  : "Ꝡ̰"
+<dead_belowtilde> <multiply> <v> <y>  : "ꝡ̰"
+<dead_belowtilde> <X>                 : "X̰"
+<dead_belowtilde> <x>                 : "x̰"
+<dead_belowtilde> <Y>                 : "Y̰"
+<dead_belowtilde> <y>                 : "y̰"
+<dead_belowtilde> <Z>                 : "Z̰"
+<dead_belowtilde> <z>                 : "z̰"
+<dead_belowtilde> <EZH>               : "Ʒ̰"     # Ʒ + Tilde Below
+<dead_belowtilde> <ezh>               : "ʒ̰"     # ʒ + Tilde Below
+
+
+# Composed tilde below combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Tilde_souscrit
+#
+<dead_belowtilde> <Aacute>              : "Á̰"
+<dead_belowtilde> <aacute>              : "á̰"
+<dead_belowtilde> <dead_acute> <A>      : "Á̰"
+<dead_belowtilde> <dead_acute> <a>      : "á̰"
+<dead_belowtilde> <Agrave>              : "À̰"
+<dead_belowtilde> <agrave>              : "à̰"
+<dead_belowtilde> <dead_grave> <A>      : "À̰"
+<dead_belowtilde> <dead_grave> <a>      : "à̰"
+<dead_belowtilde> <Amacron>             : "Ā̰"
+<dead_belowtilde> <amacron>             : "ā̰"
+<dead_belowtilde> <dead_macron> <A>     : "Ā̰"
+<dead_belowtilde> <dead_macron> <a>     : "ā̰"
+<dead_belowtilde> <Eacute>              : "Ḛ́"
+<dead_belowtilde> <eacute>              : "ḛ́"
+<dead_belowtilde> <dead_acute> <E>      : "Ḛ́"
+<dead_belowtilde> <dead_acute> <e>      : "ḛ́"
+<dead_belowtilde> <Egrave>              : "Ḛ̀"
+<dead_belowtilde> <egrave>              : "ḛ̀"
+<dead_belowtilde> <dead_grave> <E>      : "Ḛ̀"
+<dead_belowtilde> <dead_grave> <e>      : "ḛ̀"
+<dead_belowtilde> <Emacron>             : "Ḛ̄"
+<dead_belowtilde> <emacron>             : "ḛ̄"
+<dead_belowtilde> <dead_macron> <E>     : "Ḛ̄"
+<dead_belowtilde> <dead_macron> <e>     : "ḛ̄"
+<dead_belowtilde> <dead_acute> <U0190>  : "Ɛ̰́"   # Ɛ (Latin Epsilon) + Acute + Tilde Below
+<dead_belowtilde> <dead_acute> <U025B>  : "ɛ̰́"   # ɛ (Latin Epsilon) + Acute + Tilde Below
+<dead_belowtilde> <dead_grave> <U0190>  : "Ɛ̰̀"   # Ɛ (Latin Epsilon) + Grave + Tilde Below
+<dead_belowtilde> <dead_grave> <U0190>  : "ɛ̰̀"   # ɛ (Latin Epsilon) + Grave + Tilde Below
+<dead_belowtilde> <dead_macron> <U0190> : "Ɛ̰̄"   # Ɛ (Latin Epsilon) + Tilde Below + Macron
+<dead_belowtilde> <dead_macron> <U025B> : "ɛ̰̄"   # ɛ (Latin Epsilon) + Tilde Below + Macron
+<dead_belowtilde> <dead_acute> <SCHWA>  : "Ə̰́"
+<dead_belowtilde> <dead_acute> <schwa>  : "ə̰́"
+<dead_belowtilde> <dead_grave> <SCHWA>  : "Ə̰̀"
+<dead_belowtilde> <dead_grave> <schwa>  : "ə̰̀"
+<dead_belowtilde> <dead_macron> <SCHWA> : "Ə̰̄"
+<dead_belowtilde> <dead_macron> <schwa> : "ə̰̄"
+<dead_belowtilde> <Iacute>              : "Ḭ́"
+<dead_belowtilde> <iacute>              : "Ḭ́"
+<dead_belowtilde> <dead_acute> <I>      : "ḭ́"
+<dead_belowtilde> <dead_acute> <i>      : "ḭ́"
+<dead_belowtilde> <Igrave>              : "Ḭ̀"
+<dead_belowtilde> <igrave>              : "ḭ̀"
+<dead_belowtilde> <dead_grave> <I>      : "Ḭ̀"
+<dead_belowtilde> <dead_grave> <i>      : "ḭ̀"
+<dead_belowtilde> <Imacron>             : "Ḭ̄"
+<dead_belowtilde> <imacron>             : "ḭ̄"
+<dead_belowtilde> <dead_macron> <I>     : "Ḭ̄"
+<dead_belowtilde> <dead_macron> <i>     : "ḭ̄"
+<dead_belowtilde> <Ntilde>              : "Ñ̰"
+<dead_belowtilde> <ntilde>              : "ñ̰"
+<dead_belowtilde> <dead_tilde> <N>      : "Ñ̰"
+<dead_belowtilde> <dead_tilde> <n>      : "ñ̰"
+<dead_belowtilde> <Oacute>              : "Ó̰"
+<dead_belowtilde> <oacute>              : "ó̰"
+<dead_belowtilde> <dead_acute> <O>      : "Ó̰"
+<dead_belowtilde> <dead_acute> <o>      : "ó̰"
+<dead_belowtilde> <Ograve>              : "Ò̰"
+<dead_belowtilde> <ograve>              : "ò̰"
+<dead_belowtilde> <dead_grave> <O>      : "Ò̰"
+<dead_belowtilde> <dead_grave> <o>      : "ò̰"
+<dead_belowtilde> <Omacron>             : "Ō̰"
+<dead_belowtilde> <omacron>             : "ō̰"
+<dead_belowtilde> <dead_macron> <O>     : "Ō̰"
+<dead_belowtilde> <dead_macron> <o>     : "ō̰"
+<dead_belowtilde> <dead_acute> <U0186>  : "Ɔ̰́"   # Ɔ + Acute + Tilde Below
+<dead_belowtilde> <dead_acute> <U0254>  : "ɔ̰́"   # Ɔ + Acute + Tilde Below
+<dead_belowtilde> <dead_grave> <U0186>  : "Ɔ̰̀"   # Ɔ + Grave + Tilde Below
+<dead_belowtilde> <dead_grave> <U0254>  : "ɔ̰̀"   # Ɔ + Grave + Tilde Below
+<dead_belowtilde> <dead_macron> <U0186> : "Ɔ̰̄"   # Ɔ + Tilde Below + Macron
+<dead_belowtilde> <dead_macron> <U0254> : "ɔ̰̄"   # ɔ + Tilde Below + Macron
+<dead_belowtilde> <Uacute>              : "Ṵ́"
+<dead_belowtilde> <uacute>              : "ṵ́"
+<dead_belowtilde> <dead_acute> <U>      : "Ṵ́"
+<dead_belowtilde> <dead_acute> <u>      : "ṵ́"
+<dead_belowtilde> <Ugrave>              : "Ṵ̀"
+<dead_belowtilde> <ugrave>              : "ṵ̀"
+<dead_belowtilde> <dead_grave> <U>      : "Ṵ̀"
+<dead_belowtilde> <dead_grave> <u>      : "ṵ̀"
+<dead_belowtilde> <Umacron>             : "Ṵ̄"
+<dead_belowtilde> <umacron>             : "ṵ̄"
+<dead_belowtilde> <dead_macron> <U>     : "Ṵ̄"
+<dead_belowtilde> <dead_macron> <u>     : "ṵ̄"
+<dead_belowtilde> <dead_acute> <U01B2>  : "Ʋ̰́"   # Ʋ + Acute + Tilde Below
+<dead_belowtilde> <dead_acute> <U028B>  : "ʋ̰́"   # ʋ + Acute + Tilde Below
+<dead_belowtilde> <dead_grave> <U01B2>  : "Ʋ̰̀"   # Ʋ + Grave + Tilde Below
+<dead_belowtilde> <dead_grave> <U028B>  : "ʋ̰̀"   # ʋ + Grave + Tilde Below
+<dead_belowtilde> <dead_macron> <U01B2> : "Ʋ̰̄"   # Ʋ + Macron + Tilde Below
+<dead_belowtilde> <dead_macron> <U028B> : "ʋ̰̄"   # ʋ + Macron + Tilde Below
+
+##################
+# [END OF RULES] #
+##################

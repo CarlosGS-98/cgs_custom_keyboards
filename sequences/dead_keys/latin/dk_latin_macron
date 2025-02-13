@@ -1197,6 +1197,8 @@
 <dead_macron> <dead_acute> <v>                              : "v̄́"
 <dead_macron> <dead_breve> <V>                              : "V̄̆"
 <dead_macron> <dead_breve> <v>                              : "v̄̆"
+<dead_macron> <dead_belowtilde> <U01B2>                     : "Ʋ̰̄"   # Ʋ + Macron + Tilde Below
+<dead_macron> <dead_belowtilde> <U028B>                     : "ʋ̰̄"   # ʋ + Macron + Tilde Below
 <dead_macron> <Yacute>                                      : "Ȳ́"
 <dead_macron> <yacute>                                      : "ȳ́"
 <dead_macron> <dead_acute> <Y>                              : "Ȳ́"
