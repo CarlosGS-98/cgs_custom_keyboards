@@ -398,8 +398,12 @@
 <dead_caron> <dead_tilde> <U0254>                           : "ɔ̌̃"   # ɔ + Tilde + Caron
 <dead_caron> <dead_cedilla> <U0186>                         : "Ɔ̧̌"   # Ɔ + Caron
 <dead_caron> <dead_cedilla> <U0254>                         : "ɔ̧̌"   # Ɔ + Caron
-<dead_caron> <dead_belowdot> <R>                            : "Ř̥"
-<dead_caron> <dead_belowdot> <r>                            : "ř̥"
+<dead_caron> <dead_belowring> <R>                           : "Ř̥"
+<dead_caron> <dead_belowring> <r>                           : "ř̥"
+<dead_caron> <U1E5A>                                        : "Ṛ̌"   # Ṛ + Caron
+<dead_caron> <U1E5B>                                        : "ṛ̌"   # ṛ + Caron
+<dead_caron> <dead_belowdot> <R>                            : "Ṛ̌"
+<dead_caron> <dead_belowdot> <r>                            : "ṛ̌"
 <dead_caron> <Sacute>                                       : "Š́"
 <dead_caron> <sacute>                                       : "š́"
 <dead_caron> <dead_acute> <S>                               : "Š́"

@@ -134,6 +134,18 @@
 #<U0359> <greater> <EZH>                : "¿?" (Not encoded yet)
 <U0359> <greater> <ezh>                 : "ᶚ"
 
+
+# Precomposed rhotic hook letter combinations
+# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_rhotique
+#
+<U0359> <comma> <SCHWA>     : "ɚ"
+<U0359> <comma> <schwa>     : "ɚ"
+<U0359> <period> <SCHWA>    : "ɚ"
+<U0359> <period> <schwa>    : "ɚ"
+<U0359> <comma> <U025C>     : "ɝ"
+<U0359> <period> <U025C>    : "ɝ"
+
+
 ##################
 # [END OF RULES] #
 ##################

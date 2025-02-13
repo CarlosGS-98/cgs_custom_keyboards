@@ -1,0 +1,625 @@
+# Latin Alphabet | Dot Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowdot> <A> : "Ạ"
+<dead_belowdot> <a> : "ạ"
+<dead_belowdot> <B> : "Ḅ"
+<dead_belowdot> <b> : "ḅ"
+<dead_belowdot> <D> : "Ḍ"
+<dead_belowdot> <d> : "ḍ"
+<dead_belowdot> <E> : "Ẹ"
+<dead_belowdot> <e> : "ẹ"
+<dead_belowdot> <H> : "Ḥ"
+<dead_belowdot> <h> : "ḥ"
+<dead_belowdot> <I> : "Ị"
+<dead_belowdot> <i> : "ị"
+<dead_belowdot> <K> : "Ḳ"
+<dead_belowdot> <k> : "ḳ"
+<dead_belowdot> <L> : "Ḷ"
+<dead_belowdot> <l> : "ḷ"
+<dead_belowdot> <M> : "Ṃ"
+<dead_belowdot> <m> : "ṃ"
+<dead_belowdot> <N> : "Ṇ"
+<dead_belowdot> <n> : "ṇ"
+<dead_belowdot> <O> : "Ọ"
+<dead_belowdot> <o> : "ọ"
+<dead_belowdot> <R> : "Ṛ"
+<dead_belowdot> <r> : "ṛ"
+<dead_belowdot> <S> : "Ṣ"
+<dead_belowdot> <s> : "ṣ"
+<dead_belowdot> <T> : "Ṭ"
+<dead_belowdot> <t> : "ṭ"
+<dead_belowdot> <U> : "Ụ"
+<dead_belowdot> <u> : "ụ"
+<dead_belowdot> <V> : "Ṿ"
+<dead_belowdot> <v> : "ṿ"
+<dead_belowdot> <W> : "Ẉ"
+<dead_belowdot> <w> : "ẉ"
+<dead_belowdot> <Y> : "Ỵ"
+<dead_belowdot> <y> : "ỵ"
+<dead_belowdot> <Z> : "Ẓ"
+<dead_belowdot> <z> : "ẓ"
+
+
+# Precomposed Vietnamese letter combinations (Unidirectional)
+<dead_belowdot> <Acircumflex>           : "Ậ"
+<dead_belowdot> <acircumflex>           : "ậ"
+<dead_belowdot> <dead_circumflex> <A>   : "Ậ"
+<dead_belowdot> <dead_circumflex> <a>   : "ậ"
+<dead_belowdot> <Abreve>                : "Ặ"
+<dead_belowdot> <abreve>                : "ặ"
+<dead_belowdot> <dead_breve> <A>        : "Ặ"
+<dead_belowdot> <dead_breve> <a>        : "ặ"
+<dead_belowdot> <Ecircumflex>           : "Ệ"
+<dead_belowdot> <ecircumflex>           : "ệ"
+<dead_belowdot> <dead_circumflex> <E>   : "Ệ"
+<dead_belowdot> <dead_circumflex> <e>   : "ệ"
+<dead_belowdot> <Ocircumflex>           : "Ộ"
+<dead_belowdot> <ocircumflex>           : "ộ"
+<dead_belowdot> <dead_circumflex> <O>   : "Ộ"
+<dead_belowdot> <dead_circumflex> <o>   : "ộ"
+<dead_belowdot> <Ohorn>                 : "Ợ"
+<dead_belowdot> <ohorn>                 : "ợ"
+<dead_belowdot> <dead_horn> <O>         : "Ợ"
+<dead_belowdot> <dead_horn> <o>         : "ợ"
+<dead_belowdot> <Sabovedot>             : "Ṩ"
+<dead_belowdot> <sabovedot>             : "ṩ"
+<dead_belowdot> <dead_abovedot> <S>     : "Ṩ"
+<dead_belowdot> <dead_abovedot> <s>     : "ṩ"
+<dead_belowdot> <Uhorn>                 : "Ự"
+<dead_belowdot> <uhorn>                 : "ự"
+<dead_belowdot> <dead_horn> <U>         : "Ự"
+<dead_belowdot> <dead_horn> <u>         : "ự"
+
+
+# Other precomposed dot below combinations (Unidirectional)
+<dead_belowdot> <Amacron>           : "Ǡ"
+<dead_belowdot> <amacron>           : "ǡ"
+<dead_belowdot> <dead_macron> <A>   : "Ǡ"
+<dead_belowdot> <dead_macron> <a>   : "ǡ"
+<dead_belowdot> <dead_macron> <L>   : "Ḹ"
+<dead_belowdot> <dead_macron> <l>   : "ḹ"
+<dead_belowdot> <Omacron>           : "Ȱ"
+<dead_belowdot> <omacron>           : "ȱ"
+<dead_belowdot> <dead_macron> <O>   : "Ȱ"
+<dead_belowdot> <dead_macron> <o>   : "ȱ"
+<dead_belowdot> <dead_macron> <R>   : "Ṝ"
+<dead_belowdot> <dead_macron> <r>   : "ṝ"
+<dead_belowdot> <Sacute>            : "Ṥ"
+<dead_belowdot> <sacute>            : "ṥ"
+<dead_belowdot> <dead_acute> <S>    : "Ṥ"
+<dead_belowdot> <dead_acute> <s>    : "ṥ"
+<dead_belowdot> <Sabovedot>         : "Ṩ"   # Ṣ + Dot Below
+<dead_belowdot> <sabovedot>         : "ṩ"   # ṣ + Dot Below
+<dead_belowdot> <dead_abovedot> <S> : "Ṩ"
+<dead_belowdot> <dead_abovedot> <s> : "ṩ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Point_souscrit
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_belowdot> <U2C6F>             : "Ɐ̣"      # Ɐ + Dot Below
+<dead_belowdot> <U0250>             : "ɐ̣"      # ɐ + Dot Below
+<dead_belowdot> <U21BA> <A>         : "Ɐ̣"      # Ɐ + Dot Below
+<dead_belowdot> <U21BA> <a>         : "ɐ̣"      # ɐ + Dot Below
+<dead_belowdot> <UA732>             : "Ꜳ̣"     # Ꜳ + Dot Below
+<dead_belowdot> <UA733>             : "ꜳ̣"      # ꜳ + Dot Below
+<dead_belowdot> <multiply> <A> <A>  : "Ꜳ̣"     # Ꜳ + Dot Below
+<dead_belowdot> <multiply> <a> <a>  : "ꜳ̣"      # ꜳ + Dot Below
+<dead_belowdot> <AE>                : "Æ̣"
+<dead_belowdot> <ae>                : "æ̣"
+<dead_belowdot> <multiply> <A> <E>  : "Æ̣"
+<dead_belowdot> <multiply> <a> <e>  : "æ̣"
+<dead_belowdot> <UA734>             : "Ꜵ̣"     # Ꜵ + Dot Below
+<dead_belowdot> <UA735>             : "ꜵ̣"      # ꜵ + Dot Below
+<dead_belowdot> <multiply> <A> <O>  : "Ꜵ̣"     # Ꜵ + Dot Below
+<dead_belowdot> <multiply> <a> <o>  : "ꜵ̣"      # ꜵ + Dot Below
+<dead_belowdot> <UA736>             : "Ꜷ̣"     # Ꜷ + Dot Below
+<dead_belowdot> <UA737>             : "ꜷ̣"      # ꜷ + Dot Below
+<dead_belowdot> <multiply> <A> <U>  : "Ꜷ̣"     # Ꜷ + Dot Below
+<dead_belowdot> <multiply> <a> <u>  : "ꜷ̣"      # ꜷ + Dot Below
+<dead_belowdot> <UA738>             : "Ꜹ̣"     # Ꜹ + Dot Below
+<dead_belowdot> <UA739>             : "ꜹ̣"      # ꜹ + Dot Below
+<dead_belowdot> <multiply> <A> <V>  : "Ꜹ̣"     # Ꜹ + Dot Below
+<dead_belowdot> <multiply> <a> <v>  : "ꜹ̣"      # ꜹ + Dot Below
+<dead_belowdot> <UA73C>             : "Ꜽ̣"     # Ꜽ + Dot Below
+<dead_belowdot> <UA73D>             : "ꜽ̣"      # ꜽ + Dot Below
+<dead_belowdot> <multiply> <A> <Y>  : "Ꜽ̣"     # Ꜽ + Dot Below
+<dead_belowdot> <multiply> <a> <y>  : "ꜽ̣"      # ꜽ + Dot Below
+<dead_belowdot> <U2C6D>             : "Ɑ̣"      # Ɑ (Latin Alpha) + Dot Below
+<dead_belowdot> <U0251>             : "ɑ̣"      # ɑ (Latin Alpha) + Dot Below
+<dead_belowdot> <C>                 : "C̣"
+<dead_belowdot> <c>                 : "c̣"
+<dead_belowdot> <ETH>               : "Ð̣"
+<dead_belowdot> <eth>               : "ð̣"
+<dead_belowdot> <UA779>             : "Ꝺ̣"      # Ꝺ (Insular D) + Dot Below
+<dead_belowdot> <UA77A>             : "ꝺ̣"      # ꝺ (Insular D) + Dot Below
+<dead_belowdot> <U0190>             : "Ɛ̣"      # Ɛ (Latin Epsilon) + Dot Below
+<dead_belowdot> <U025B>             : "ɛ̣"      # ɛ (Latin Epsilon) + Dot Below
+<dead_belowdot> <SCHWA>             : "Ə̣"      # Ə (Schwa) + Dot Below
+<dead_belowdot> <schwa>             : "ə̣"      # ə (Schwa) + Dot Below
+<dead_belowdot> <U018E>             : "Ǝ̣"      # Ǝ (Turned E) + Dot Below
+<dead_belowdot> <U01DD>             : "ǝ̣"      # ǝ (Turned E) + Dot Below
+<dead_belowdot> <U21BA> <E>         : "Ǝ̣"      # Ǝ (Turned E) + Dot Below
+<dead_belowdot> <U21BA> <e>         : "ǝ̣"      # ǝ (Turned E) + Dot Below
+<dead_belowdot> <F>                 : "F̣"
+<dead_belowdot> <f>                 : "f̣"
+<dead_belowdot> <UA77B>             : "Ꝼ̣"      # Ꝼ (Insular F) + Dot Below
+<dead_belowdot> <UA77C>             : "ꝼ̣"      # ꝼ (Insular F) + Dot Below
+<dead_belowdot> <G>                 : "G̣"
+<dead_belowdot> <g>                 : "g̣"
+<dead_belowdot> <U0194>             : "Ɣ̣"      # Ɣ (Latin Gamma) + Dot Below
+<dead_belowdot> <U0263>             : "ɣ̣"      # ɣ (Latin Gamma) + Dot Below
+<dead_belowdot> <UA78D>             : "Ɥ̣"      # Ɥ (Turned H) + Dot Below
+<dead_belowdot> <U0265>             : "ɥ̣"      # ɥ (Turned H) + Dot Below
+<dead_belowdot> <U21BA> <H>         : "Ɥ̣"      # Ɥ (Turned H) + Dot Below
+<dead_belowdot> <U21BA> <h>         : "ɥ̣"      # ɥ (Turned H) + Dot Below
+<dead_belowdot> <U0196>             : "Ɩ̣"      # Ɩ (Latin Iota) + Dot Below
+<dead_belowdot> <U0269>             : "ɩ̣"      # ɩ (Latin Iota) + Dot Below
+<dead_belowdot> <J>                 : "J̣"
+<dead_belowdot> <j>                 : "j̣"
+<dead_belowdot> <ENG>               : "Ŋ̣"      # Ŋ + Dot Below
+<dead_belowdot> <eng>               : "ŋ̣"      # ŋ + Dot Below
+<dead_belowdot> <OE>                : "Œ̣"
+<dead_belowdot> <oe>                : "œ̣"
+<dead_belowdot> <multiply> <O> <E>  : "Œ̣"
+<dead_belowdot> <multiply> <o> <e>  : "œ̣"
+<dead_belowdot> <UA74E>             : "Ꝏ̣"     # Ꝏ + Dot Below
+<dead_belowdot> <UA74F>             : "ꝏ̣"     # ꝏ + Dot Below
+<dead_belowdot> <multiply> <O> <O>  : "Ꝏ̣"     # Ꝏ + Dot Below
+<dead_belowdot> <multiply> <o> <o>  : "ꝏ̣"     # ꝏ + Dot Below
+<dead_belowdot> <U0186>             : "Ɔ̣"      # Ɔ + Dot Below
+<dead_belowdot> <U0254>             : "ɔ̣"      # ɔ + Dot Below
+<dead_belowdot> <UA7CB>             : "Ɤ̣"      # Ɤ (Ram's Horn) + Dot Below
+<dead_belowdot> <U0264>             : "ɤ̣"      # ɤ (Ram's Horn) + Dot Below
+<dead_belowdot> <P>                 : "P̣"
+<dead_belowdot> <p>                 : "p̣"
+<dead_belowdot> <Q>                 : "Q̣"
+<dead_belowdot> <q>                 : "q̣"
+<dead_belowdot> <U01A6>             : "Ʀ̣"     # Ʀ (Yr) + Dot Below
+<dead_belowdot> <U0280>             : "ʀ̣"     # ʀ (Yr) + Dot Below
+<dead_belowdot> <A75A>              : "Ꝛ̣"     # Ꝛ (R Rotunda) + Dot Below
+<dead_belowdot> <A75B>              : "ꝛ̣"     # ꝛ (R Rotunda) + Dot Below
+<dead_belowdot> <THORN>             : "Þ̣"
+<dead_belowdot> <thorn>             : "þ̣"
+<dead_belowdot> <U01B1>             : "Ʊ̣"     # Ʊ (Latin Upsilon) + Dot Below
+<dead_belowdot> <U028A>             : "ʊ̣"     # ʊ (Latin Upsilon) + Dot Below
+<dead_belowdot> <U019C>             : "Ɯ̣"     # Ɯ (Turned M) + Dot Below
+<dead_belowdot> <U026F>             : "ɯ̣"     # ɯ (Turned M) + Dot Below
+<dead_belowdot> <U21BA> <M>         : "Ɯ̣"     # Ɯ (Turned M) + Dot Below
+<dead_belowdot> <U21BA> <m>         : "ɯ̣"     # ɯ (Turned M) + Dot Below
+<dead_belowdot> <U0245>             : "Ʌ̣"     # Ʌ + Dot Below
+<dead_belowdot> <U028C>             : "ʌ̣"     # ʌ + Dot Below
+<dead_belowdot> <U21BA> <V>         : "Ʌ̣"     # Ʌ + Dot Below
+<dead_belowdot> <U21BA> <v>         : "ʌ̣"     # ʌ + Dot Below
+<dead_belowdot> <U01B2>             : "Ʋ̣"     # Ʋ + Dot Below
+<dead_belowdot> <U028B>             : "ʋ̣"     # ʋ + Dot Below
+<dead_belowdot> <UA768>             : "Ꝩ̣"     # Ꝩ (Vend) + Dot Below
+<dead_belowdot> <UA769>             : "ꝩ̣"     # ꝩ (Vend) + Dot Below
+<dead_belowdot> <UA760>             : "Ꝡ̣"     # Ꝡ + Dot Below
+<dead_belowdot> <UA761>             : "ꝡ̣"     # ꝡ + Dot Below
+<dead_belowdot> <multiply> <V> <Y>  : "Ꝡ̣"
+<dead_belowdot> <multiply> <v> <y>  : "ꝡ̣"
+<dead_belowdot> <X>                 : "X̣"
+<dead_belowdot> <x>                 : "x̣"
+<dead_belowdot> <EZH>               : "Ʒ̣"     # Ʒ + Dot Below
+<dead_belowdot> <ezh>               : "ʒ̣"     # ʒ + Dot Below
+
+
+# Composed dot below combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Point_souscrit
+#
+<dead_belowdot> <Aacute>                            : "Ạ́"
+<dead_belowdot> <aacute>                            : "ạ́"
+<dead_belowdot> <dead_acute> <A>                    : "Ạ́"
+<dead_belowdot> <dead_acute> <a>                    : "ạ́"
+<dead_belowdot> <Agrave>                            : "Ạ̀"
+<dead_belowdot> <agrave>                            : "ạ̀"
+<dead_belowdot> <dead_grave> <A>                    : "Ạ̀"
+<dead_belowdot> <dead_grave> <a>                    : "ạ̀"
+<dead_belowdot> <Adiaeresis>                        : "Ạ̈"
+<dead_belowdot> <adiaeresis>                        : "ạ̈"
+<dead_belowdot> <dead_diaeresis> <A>                : "Ạ̈"
+<dead_belowdot> <dead_diaeresis> <a>                : "ạ̈"
+<dead_belowdot> <Atilde>                            : "Ạ̄"
+<dead_belowdot> <atilde>                            : "ạ̄"
+<dead_belowdot> <dead_tilde> <A>                    : "Ạ̄"
+<dead_belowdot> <dead_tilde> <a>                    : "ạ̄"
+<dead_belowdot> <dead_tilde> <Amacron>              : "Ạ̄̃"
+<dead_belowdot> <dead_tilde> <amacron>              : "ạ̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <A>      : "Ạ̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <a>      : "ạ̄̃"
+<dead_belowdot> <U01CD>                             : "Ạ̌"   # Ǎ + Dot Below
+<dead_belowdot> <U01CE>                             : "ạ̌"   # ǎ + Dot Below
+<dead_belowdot> <dead_caron> <A>                    : "Ạ̌"
+<dead_belowdot> <dead_caron> <a>                    : "ạ̌"
+<dead_belowdot> <dead_macron> <A>                   : "Ạ̄"
+<dead_belowdot> <dead_macron> <a>                   : "ạ̄"
+<dead_belowdot> <dead_macron> <Atilde>              : "Ạ̄̃"
+<dead_belowdot> <dead_macron> <atilde>              : "ạ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <A>      : "Ạ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <a>      : "ạ̄̃"
+<dead_belowdot> <dead_acute> <C>                    : "Ć̣"
+<dead_belowdot> <dead_acute> <c>                    : "ć̣"
+<dead_belowdot> <Ccaron>                            : "Č̣"
+<dead_belowdot> <ccaron>                            : "č̣"
+<dead_belowdot> <dead_caron> <C>                    : "Č̣"
+<dead_belowdot> <dead_caron> <c>                    : "č̣"
+<dead_belowdot> <dead_acute> <D>                    : "Ḍ́"
+<dead_belowdot> <dead_acute> <d>                    : "ḍ́"
+<dead_belowdot> <dead_macron> <D>                   : "Ḍ̄"
+<dead_belowdot> <dead_macron> <d>                   : "ḍ̄"
+<dead_belowdot> <dead_belowmacron> <D>              : "Ḍ̱"
+<dead_belowdot> <dead_belowmacron> <d>              : "ḍ̱"
+<dead_belowdot> <Dstroke>                           : "Đ̣"
+<dead_belowdot> <dstroke>                           : "đ̣"
+<dead_belowdot> <dead_stroke> <D>                   : "Đ̣"
+<dead_belowdot> <dead_stroke> <d>                   : "đ̣"
+<dead_belowdot> <Eacute>                            : "Ẹ́"
+<dead_belowdot> <eacute>                            : "ẹ́"
+<dead_belowdot> <dead_acute> <E>                    : "Ẹ́"
+<dead_belowdot> <dead_acute> <e>                    : "ẹ́"
+<dead_belowdot> <dead_acute> <Emacron>              : "Ẹ̄́"
+<dead_belowdot> <dead_acute> <emacron>              : "ẹ̄́"
+<dead_belowdot> <dead_acute> <dead_macron> <E>      : "Ẹ̄́"
+<dead_belowdot> <dead_acute> <dead_macron> <e>      : "ẹ̄́"
+<dead_belowdot> <dead_acute> <U0114>                : "Ẹ̆́"   # Ĕ + Acute + Dot Below
+<dead_belowdot> <dead_acute> <U0115>                : "ẹ̆́"   # ĕ + Acute + Dot Below
+<dead_belowdot> <dead_acute> <dead_breve> <E>       : "Ẹ̆́"
+<dead_belowdot> <dead_acute> <dead_breve> <e>       : "ẹ̆́"
+<dead_belowdot> <Egrave>                            : "Ẹ̀"
+<dead_belowdot> <egrave>                            : "ẹ̀"
+<dead_belowdot> <dead_grave> <E>                    : "Ẹ̀"
+<dead_belowdot> <dead_grave> <e>                    : "ẹ̀"
+<dead_belowdot> <dead_grave> <Emacron>              : "Ẹ̄̀"
+<dead_belowdot> <dead_grave> <emacron>              : "ẹ̄̀"
+<dead_belowdot> <dead_grave> <dead_macron> <E>      : "Ẹ̄̀"
+<dead_belowdot> <dead_grave> <dead_macron> <e>      : "ẹ̄̀"
+<dead_belowdot> <dead_grave> <U0114>                : "Ẹ̆̀"   # Ĕ + Grave + Dot Below
+<dead_belowdot> <dead_grave> <U0115>                : "ẹ̆̀"   # ĕ + Grave + Dot Below
+<dead_belowdot> <dead_grave> <dead_breve> <E>       : "Ẹ̆̀"
+<dead_belowdot> <dead_grave> <dead_breve> <e>       : "ẹ̆̀"
+<dead_belowdot> <Etilde>                            : "Ẹ̃"
+<dead_belowdot> <etilde>                            : "ẹ̃"
+<dead_belowdot> <dead_tilde> <E>                    : "Ẹ̃"
+<dead_belowdot> <dead_tilde> <e>                    : "ẹ̃"
+<dead_belowdot> <dead_tilde> <Emacron>              : "Ẹ̄̃"
+<dead_belowdot> <dead_tilde> <emacron>              : "ẹ̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <E>      : "Ẹ̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <e>      : "ẹ̄̃"
+<dead_belowdot> <Ecaron>                            : "Ẹ̌"
+<dead_belowdot> <ecaron>                            : "ẹ̌"
+<dead_belowdot> <dead_caron> <E>                    : "Ẹ̌"
+<dead_belowdot> <dead_caron> <e>                    : "ẹ̌"
+<dead_belowdot> <Emacron>                           : "Ẹ̄"
+<dead_belowdot> <emacron>                           : "ẹ̄"
+<dead_belowdot> <dead_macron> <E>                   : "Ẹ̄"
+<dead_belowdot> <dead_macron> <e>                   : "ẹ̄"
+<dead_belowdot> <dead_macron> <Eacute>              : "Ẹ̄́"
+<dead_belowdot> <dead_macron> <eacute>              : "ẹ̄́"
+<dead_belowdot> <dead_macron> <dead_acute> <E>      : "Ẹ̄́"
+<dead_belowdot> <dead_macron> <dead_acute> <e>      : "ẹ̄́"
+<dead_belowdot> <dead_macron> <Egrave>              : "Ẹ̄̀"
+<dead_belowdot> <dead_macron> <egrave>              : "ẹ̄̀"
+<dead_belowdot> <dead_macron> <dead_grave> <E>      : "Ẹ̄̀"
+<dead_belowdot> <dead_macron> <dead_grave> <e>      : "ẹ̄̀"
+<dead_belowdot> <dead_macron> <Etilde>              : "Ẹ̄̃"
+<dead_belowdot> <dead_macron> <etilde>              : "ẹ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <E>      : "Ẹ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <e>      : "ẹ̄̃"
+<dead_belowdot> <U0114>                             : "Ẹ̆"   # Ĕ + Dot Below
+<dead_belowdot> <U0115>                             : "ẹ̆"   # ĕ + Dot Below
+<dead_belowdot> <dead_breve> <E>                    : "Ẹ̆"
+<dead_belowdot> <dead_breve> <e>                    : "ẹ̆"
+<dead_belowdot> <dead_breve> <Eacute>               : "Ẹ̆́"
+<dead_belowdot> <dead_breve> <eacute>               : "ẹ̆́"
+<dead_belowdot> <dead_breve> <dead_acute> <E>       : "Ẹ̆́"
+<dead_belowdot> <dead_breve> <dead_acute> <e>       : "ẹ̆́"
+<dead_belowdot> <dead_breve> <Egrave>               : "Ẹ̆̀"
+<dead_belowdot> <dead_breve> <egrave>               : "ẹ̆̀"
+<dead_belowdot> <dead_breve> <dead_grave> <E>       : "Ẹ̆̀"
+<dead_belowdot> <dead_breve> <dead_grave> <e>       : "ẹ̆̀"
+<dead_belowdot> <U0206>                             : "Ẹ̑"   # Ȇ + Dot Below
+<dead_belowdot> <U0207>                             : "ẹ̑"   # ȇ + Dot Below
+<dead_belowdot> <dead_invertedbreve> <E>            : "Ẹ̑"
+<dead_belowdot> <dead_invertedbreve> <e>            : "ẹ̑"
+<dead_belowdot> <dead_grave> <SCHWA>                : "Ə̣̀"
+<dead_belowdot> <dead_grave> <schwa>                : "ə̣̀"
+<dead_belowdot> <dead_macron> <H>                   : "Ḥ̄"
+<dead_belowdot> <dead_macron> <h>                   : "ḥ̄"
+<dead_belowdot> <Iacute>                            : "Ị́"
+<dead_belowdot> <iacute>                            : "ị́"
+<dead_belowdot> <dead_acute> <I>                    : "Ị́"
+<dead_belowdot> <dead_acute> <i>                    : "ị́"
+<dead_belowdot> <Igrave>                            : "Ị̀"
+<dead_belowdot> <igrave>                            : "ị̀"
+<dead_belowdot> <dead_grave> <I>                    : "Ị̀"
+<dead_belowdot> <dead_grave> <i>                    : "ị̀"
+<dead_belowdot> <Icircumflex>                       : "Ị̂"
+<dead_belowdot> <icircumflex>                       : "ị̂"
+<dead_belowdot> <dead_circumflex> <I>               : "Ị̂"
+<dead_belowdot> <dead_circumflex> <i>               : "ị̂"
+<dead_belowdot> <Idiaeresis>                        : "Ị̈"
+<dead_belowdot> <idiaeresis>                        : "ị̈"
+<dead_belowdot> <dead_diaeresis> <I>                : "Ị̈"
+<dead_belowdot> <dead_diaeresis> <i>                : "ị̈"
+<dead_belowdot> <Itilde>                            : "Ị̃"
+<dead_belowdot> <itilde>                            : "ị̃"
+<dead_belowdot> <dead_tilde> <I>                    : "Ị̃"
+<dead_belowdot> <dead_tilde> <i>                    : "ị̃"
+<dead_belowdot> <dead_tilde> <Imacron>              : "Ị̄̃"
+<dead_belowdot> <dead_tilde> <imacron>              : "ị̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <I>      : "Ị̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <i>      : "ị̄̃"
+<dead_belowdot> <U01CF>                             : "Ị̌"   # Ǐ + Dot Below
+<dead_belowdot> <U01D0>                             : "ị̌"   # ǐ + Dot Below
+<dead_belowdot> <dead_caron> <I>                    : "Ị̌"
+<dead_belowdot> <dead_caron> <i>                    : "ị̌"
+<dead_belowdot> <Imacron>                           : "Ị̄"
+<dead_belowdot> <imacron>                           : "ị̄"
+<dead_belowdot> <dead_macron> <I>                   : "Ị̄"
+<dead_belowdot> <dead_macron> <i>                   : "ị̄"
+<dead_belowdot> <dead_macron> <Itilde>              : "Ị̄̃"
+<dead_belowdot> <dead_macron> <itilde>              : "ị̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <I>      : "Ị̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <i>      : "ị̄̃"
+<dead_belowdot> <Ibreve>                            : "Ị̆"
+<dead_belowdot> <ibreve>                            : "ị̆"
+<dead_belowdot> <dead_breve> <I>                    : "Ị̆"
+<dead_belowdot> <dead_breve> <i>                    : "ị̆"
+<dead_belowdot> <U01F0>                             : "ǰ̣"   # ǰ + Dot Below
+<dead_belowdot> <dead_belowdot> <J>                 : "J̣̌"
+<dead_belowdot> <dead_belowdot> <j>                 : "ǰ̣"
+<dead_belowdot> <dead_macron> <K>                   : "Ḳ̄"
+<dead_belowdot> <dead_macron> <k>                   : "ḳ̄"
+<dead_belowdot> <Lacute>                            : "Ḷ́"
+<dead_belowdot> <lacute>                            : "ḷ́"
+<dead_belowdot> <dead_acute> <L>                    : "Ḷ́"
+<dead_belowdot> <dead_acute> <l>                    : "ḷ́"
+<dead_belowdot> <dead_acute> <dead_macron> <L>      : "Ḹ́"
+<dead_belowdot> <dead_acute> <dead_macron> <l>      : "ḹ́"
+<dead_belowdot> <dead_grave> <L>                    : "Ḷ̀"
+<dead_belowdot> <dead_grave> <l>                    : "ḷ̀"
+<dead_belowdot> <dead_macron> <Lacute>              : "Ḹ́"
+<dead_belowdot> <dead_macron> <lacute>              : "ḹ́"
+<dead_belowdot> <dead_macron> <dead_acute> <L>      : "Ḹ́"
+<dead_belowdot> <dead_macron> <dead_acute> <l>      : "ḹ́"
+<dead_belowdot> <dead_macron> <dead_breve> <L>      : "Ḹ̆"
+<dead_belowdot> <dead_macron> <dead_breve> <l>      : "ḹ̆"
+<dead_belowdot> <dead_breve> <dead_macron> <L>      : "Ḹ̆"
+<dead_belowdot> <dead_breve> <dead_macron> <l>      : "ḹ̆"
+<dead_belowdot> <dead_abovecomma> <L>               : "Ḷ̓"
+<dead_belowdot> <dead_abovecomma> <l>               : "ḷ̓"
+<dead_belowdot> <Lstroke>                           : "Ł̣"
+<dead_belowdot> <lstroke>                           : "ł̣"
+<dead_belowdot> <dead_longsolidusoverlay> <L>       : "Ł̣"
+<dead_belowdot> <dead_longsolidusoverlay> <l>       : "ł̣"
+<dead_belowdot> <U1E3E>                             : "Ṃ́"   # Ḿ + Dot Below
+<dead_belowdot> <U1E3F>                             : "ṃ́"   # ḿ + Dot Below
+<dead_belowdot> <dead_acute> <M>                    : "Ṃ́"
+<dead_belowdot> <dead_acute> <m>                    : "ṃ́"
+<dead_belowdot> <dead_macron> <M>                   : "Ṃ̄"
+<dead_belowdot> <dead_macron> <m>                   : "ṃ̄"
+<dead_belowdot> <dead_abovecomma> <M>               : "Ṃ̓"
+<dead_belowdot> <dead_abovecomma> <m>               : "ṃ̓"
+<dead_belowdot> <Nacute>                            : "Ṇ́"
+<dead_belowdot> <nacute>                            : "ṇ́"
+<dead_belowdot> <dead_acute> <N>                    : "Ṇ́"
+<dead_belowdot> <dead_acute> <n>                    : "ṇ́"
+<dead_belowdot> <dead_acute> <dead_macron> <N>      : "Ṇ̄́"
+<dead_belowdot> <dead_acute> <dead_macron> <n>      : "ṇ̄́"
+<dead_belowdot> <dead_macron> <N>                   : "Ṇ̄"
+<dead_belowdot> <dead_macron> <n>                   : "ṇ̄"
+<dead_belowdot> <dead_macron> <Nacute>              : "Ṇ̄́"
+<dead_belowdot> <dead_macron> <nacute>              : "ṇ̄́"
+<dead_belowdot> <dead_macron> <dead_acute> <N>      : "Ṇ̄́"
+<dead_belowdot> <dead_macron> <dead_acute> <n>      : "ṇ̄́"
+<dead_belowdot> <dead_abovecomma> <N>               : "Ṇ̓"
+<dead_belowdot> <dead_abovecomma> <n>               : "ṇ̓"
+<dead_belowdot> <Oacute>                            : "Ọ́"
+<dead_belowdot> <oacute>                            : "ọ́"
+<dead_belowdot> <dead_acute> <O>                    : "Ọ́"
+<dead_belowdot> <dead_acute> <o>                    : "ọ́"
+<dead_belowdot> <dead_acute> <Omacron>              : "Ọ̄́"
+<dead_belowdot> <dead_acute> <omacron>              : "ọ̄́"
+<dead_belowdot> <dead_acute> <dead_macron> <O>      : "Ọ̄́"
+<dead_belowdot> <dead_acute> <dead_macron> <o>      : "ọ̄́"
+<dead_belowdot> <Ograve>                            : "Ọ̀"
+<dead_belowdot> <ograve>                            : "ọ̀"
+<dead_belowdot> <dead_grave> <O>                    : "Ọ̀"
+<dead_belowdot> <dead_grave> <o>                    : "ọ̀"
+<dead_belowdot> <dead_grave> <Omacron>              : "Ọ̄̀"
+<dead_belowdot> <dead_grave> <omacron>              : "ọ̄̀"
+<dead_belowdot> <dead_grave> <dead_macron> <O>      : "Ọ̄̀"
+<dead_belowdot> <dead_grave> <dead_macron> <o>      : "ọ̄̀"
+<dead_belowdot> <Odiaeresis>                        : "Ọ̈"
+<dead_belowdot> <odiaeresis>                        : "ọ̈"
+<dead_belowdot> <dead_diaeresis> <O>                : "Ọ̈"
+<dead_belowdot> <dead_diaeresis> <o>                : "ọ̈"
+<dead_belowdot> <Otilde>                            : "Ọ̃"
+<dead_belowdot> <otilde>                            : "ọ̃"
+<dead_belowdot> <dead_tilde> <O>                    : "Ọ̃"
+<dead_belowdot> <dead_tilde> <o>                    : "ọ̃"
+<dead_belowdot> <dead_tilde> <Omacron>              : "Ọ̄̃"
+<dead_belowdot> <dead_tilde> <omacron>              : "ọ̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <O>      : "Ọ̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <o>      : "ọ̄̃"
+<dead_belowdot> <Ocaron>                            : "Ọ̌"
+<dead_belowdot> <ocaron>                            : "ọ̌"
+<dead_belowdot> <dead_caron> <O>                    : "Ọ̌"
+<dead_belowdot> <dead_caron> <o>                    : "ọ̌"
+<dead_belowdot> <Omacron>                           : "Ọ̄"
+<dead_belowdot> <omacron>                           : "ọ̄"
+<dead_belowdot> <dead_macron> <O>                   : "Ọ̄"
+<dead_belowdot> <dead_macron> <o>                   : "ọ̄"
+<dead_belowdot> <dead_macron> <Oacute>              : "Ọ̄́"
+<dead_belowdot> <dead_macron> <oacute>              : "ọ̄́"
+<dead_belowdot> <dead_macron> <dead_acute> <O>      : "Ọ̄́"
+<dead_belowdot> <dead_macron> <dead_acute> <o>      : "ọ̄́"
+<dead_belowdot> <dead_macron> <Ograve>              : "Ọ̄̀"
+<dead_belowdot> <dead_macron> <ograve>              : "ọ̄̀"
+<dead_belowdot> <dead_macron> <dead_grave> <O>      : "Ọ̄̀"
+<dead_belowdot> <dead_macron> <dead_grave> <o>      : "ọ̄̀"
+<dead_belowdot> <dead_macron> <Otilde>              : "Ọ̄̃"
+<dead_belowdot> <dead_macron> <otilde>              : "ọ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <O>      : "Ọ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <o>      : "ọ̄̃"
+<dead_belowdot> <dead_macron> <U014E>               : "Ọ̄̆"   # Ŏ + Macron + Dot Below
+<dead_belowdot> <dead_macron> <U014F>               : "ọ̄̆"   # ŏ + Macron + Dot Below
+<dead_belowdot> <dead_macron> <dead_breve> <O>      : "Ọ̄̆"
+<dead_belowdot> <dead_macron> <dead_breve> <o>      : "ọ̄̆"
+<dead_belowdot> <U014E>                             : "Ọ̆"   # Ŏ + Dot Below
+<dead_belowdot> <U014F>                             : "ọ̆"   # ŏ + Dot Below
+<dead_belowdot> <dead_breve> <O>                    : "Ọ̆"
+<dead_belowdot> <dead_breve> <o>                    : "ọ̆"
+<dead_belowdot> <dead_breve> <Omacron>              : "Ọ̄̆"
+<dead_belowdot> <dead_breve> <omacron>              : "ọ̄̆"
+<dead_belowdot> <dead_breve> <dead_macron> <O>      : "Ọ̄̆"
+<dead_belowdot> <dead_breve> <dead_macron> <o>      : "ọ̄̆"
+<dead_belowdot> <U020E>                             : "Ọ̑"   # Ȏ + Dot Below
+<dead_belowdot> <U020F>                             : "ọ̑"   # ȏ + Dot Below
+<dead_belowdot> <dead_invertedbreve> <O>            : "Ọ̑"
+<dead_belowdot> <dead_invertedbreve> <o>            : "ọ̑"
+<dead_belowdot> <Oslash>                            : "Ø̣"
+<dead_belowdot> <oslash>                            : "ø̣"
+<dead_belowdot> <dead_longsolidusoverlay> <O>       : "Ø̣"
+<dead_belowdot> <dead_longsolidusoverlay> <o>       : "ø̣"
+<dead_belowdot> <dead_diaeresis> <Q>                : "Q̣̈"
+<dead_belowdot> <dead_diaeresis> <q>                : "q̣̈"
+<dead_belowdot> <dead_abovedot> <Q>                 : "Q̣̇"
+<dead_belowdot> <dead_abovedot> <q>                 : "q̣̇"
+<dead_belowdot> <Racute>                            : "Ṛ́"
+<dead_belowdot> <racute>                            : "ṛ́"
+<dead_belowdot> <dead_acute> <R>                    : "Ṛ́"
+<dead_belowdot> <dead_acute> <r>                    : "ṛ́"
+<dead_belowdot> <dead_acute> <dead_macron> <R>      : "Ṝ́"
+<dead_belowdot> <dead_acute> <dead_macron> <r>      : "ṝ́"
+<dead_belowdot> <dead_grave> <R>                    : "Ṛ̀"
+<dead_belowdot> <dead_grave> <r>                    : "ṛ̀"
+<dead_belowdot> <dead_grave> <dead_macron> <R>      : "Ṝ̀"
+<dead_belowdot> <dead_grave> <dead_macron> <r>      : "ṝ̀"
+<dead_belowdot> <dead_tilde> <dead_macron> <R>      : "Ṝ̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <r>      : "ṝ̃"
+<dead_belowdot> <Rcaron>                            : "Ṛ̌"
+<dead_belowdot> <rcaron>                            : "ṛ̌"
+<dead_belowdot> <dead_caron> <R>                    : "Ṛ̌"
+<dead_belowdot> <dead_caron> <r>                    : "ṛ̌"
+<dead_belowdot> <dead_macron> <Racute>              : "Ṝ́"
+<dead_belowdot> <dead_macron> <racute>              : "ṝ́"
+<dead_belowdot> <dead_macron> <dead_acute> <R>      : "Ṝ́"
+<dead_belowdot> <dead_macron> <dead_acute> <r>      : "ṝ́"
+<dead_belowdot> <dead_macron> <dead_grave> <R>      : "Ṝ̀"
+<dead_belowdot> <dead_macron> <dead_grave> <r>      : "ṝ̀"
+<dead_belowdot> <dead_macron> <dead_tilde> <R>      : "Ṝ̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <r>      : "ṝ̃"
+<dead_belowdot> <dead_macron> <dead_breve> <R>      : "Ṝ̆"
+<dead_belowdot> <dead_macron> <dead_breve> <r>      : "ṝ̆"
+<dead_belowdot> <dead_breve> <dead_macron> <R>      : "Ṝ̆"
+<dead_belowdot> <dead_breve> <dead_macron> <r>      : "ṝ̆"
+<dead_belowdot> <Sacute>                            : "Ṣ́"
+<dead_belowdot> <sacute>                            : "ṣ́"
+<dead_belowdot> <dead_acute> <S>                    : "Ṣ́"
+<dead_belowdot> <dead_acute> <s>                    : "ṣ́"
+<dead_belowdot> <dead_belowdiaeresis> <S>           : "Ṣ̤"
+<dead_belowdot> <dead_belowdiaeresis> <s>           : "ṣ̤"
+<dead_belowdot> <Scaron>                            : "Ṣ̌"
+<dead_belowdot> <scaron>                            : "ṣ̌"
+<dead_belowdot> <dead_caron> <S>                    : "Ṣ̌"
+<dead_belowdot> <dead_caron> <s>                    : "ṣ̌"
+<dead_belowdot> <dead_macron> <S>                   : "Ṣ̄"
+<dead_belowdot> <dead_macron> <s>                   : "ṣ̄"
+<dead_belowdot> <dead_belowmacron> <S>              : "Ṣ̱"
+<dead_belowdot> <dead_belowmacron> <s>              : "ṣ̱"
+<dead_belowdot> <dead_acute> <T>                    : "Ṭ́"
+<dead_belowdot> <dead_acute> <t>                    : "ṭ́"
+<dead_belowdot> <U1E97>                             : "ṭ̈"   # ẗ + Diaeresis
+<dead_belowdot> <dead_diaeresis> <T>                : "Ṭ̈"
+<dead_belowdot> <dead_diaeresis> <t>                : "ṭ̈"
+<dead_belowdot> <dead_belowdiaeresis> <T>           : "Ṭ̤"
+<dead_belowdot> <dead_belowdiaeresis> <t>           : "ṭ̤"
+<dead_belowdot> <dead_macron> <T>                   : "Ṭ̄"
+<dead_belowdot> <dead_macron> <t>                   : "ṭ̄"
+<dead_belowdot> <dead_belowmacron> <T>              : "Ṭ̱"
+<dead_belowdot> <dead_belowmacron> <t>              : "ṭ̱"
+<dead_belowdot> <dead_abovecomma> <T>               : "Ṭ̓"
+<dead_belowdot> <dead_abovecomma> <t>               : "ṭ̓"
+<dead_belowdot> <Uacute>                            : "Ụ́"
+<dead_belowdot> <uacute>                            : "ụ́"
+<dead_belowdot> <dead_acute> <U>                    : "Ụ́"
+<dead_belowdot> <dead_acute> <u>                    : "ụ́"
+<dead_belowdot> <Ugrave>                            : "Ụ̀"
+<dead_belowdot> <ugrave>                            : "ụ̀"
+<dead_belowdot> <dead_grave> <U>                    : "Ụ̀"
+<dead_belowdot> <dead_grave> <u>                    : "ụ̀"
+<dead_belowdot> <Ucircumflex>                       : "Ụ̂"
+<dead_belowdot> <ucircumflex>                       : "ụ̂"
+<dead_belowdot> <dead_circumflex> <U>               : "Ụ̂"
+<dead_belowdot> <dead_circumflex> <u>               : "ụ̂"
+<dead_belowdot> <Udiaeresis>                        : "Ụ̈"
+<dead_belowdot> <udiaeresis>                        : "ụ̈"
+<dead_belowdot> <dead_diaeresis> <U>                : "Ụ̈"
+<dead_belowdot> <dead_diaeresis> <u>                : "ụ̈"
+<dead_belowdot> <Utilde>                            : "Ụ̃"
+<dead_belowdot> <utilde>                            : "ụ̃"
+<dead_belowdot> <dead_tilde> <U>                    : "Ụ̃"
+<dead_belowdot> <dead_tilde> <u>                    : "ụ̃"
+<dead_belowdot> <dead_tilde> <Umacron>              : "Ụ̄̃"
+<dead_belowdot> <dead_tilde> <umacron>              : "ụ̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <U>      : "Ụ̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <u>      : "ụ̄̃"
+<dead_belowdot> <U01D3>                             : "Ụ̌"   # Ǔ + Dot Below
+<dead_belowdot> <U01D4>                             : "ụ̌"   # ǔ + Dot Below
+<dead_belowdot> <dead_belowdot> <U>                 : "Ụ̌"
+<dead_belowdot> <dead_belowdot> <u>                 : "ụ̌"
+<dead_belowdot> <Umacron>                           : "Ụ̄"
+<dead_belowdot> <umacron>                           : "ụ̄"
+<dead_belowdot> <dead_macron> <U>                   : "Ụ̄"
+<dead_belowdot> <dead_macron> <u>                   : "ụ̄"
+<dead_belowdot> <dead_macron> <Utilde>              : "Ụ̄̃"
+<dead_belowdot> <dead_macron> <utilde>              : "ụ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <U>      : "Ụ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <u>      : "ụ̄̃"
+<dead_belowdot> <Ubreve>                            : "Ụ̆"
+<dead_belowdot> <ubreve>                            : "ụ̆"
+<dead_belowdot> <dead_breve> <U>                    : "Ụ̆"
+<dead_belowdot> <dead_breve> <u>                    : "ụ̆"
+<dead_belowdot> <Ydiaeresis>                        : "Ỵ̈"
+<dead_belowdot> <ydiaeresis>                        : "ỵ̈"
+<dead_belowdot> <dead_diaeresis> <Y>                : "Ỵ̈"
+<dead_belowdot> <dead_diaeresis> <y>                : "ỵ̈"
+<dead_belowdot> <Ytilde>                            : "Ỵ̃"
+<dead_belowdot> <ytilde>                            : "ỵ̃"
+<dead_belowdot> <dead_tilde> <Y>                    : "Ỵ̃"
+<dead_belowdot> <dead_tilde> <y>                    : "ỵ̃"
+<dead_belowdot> <dead_tilde> <U0232>                : "Ỵ̄̃"   # Ȳ + Tilde + Dot Below
+<dead_belowdot> <dead_tilde> <U0233>                : "ỵ̄̃"   # ȳ + Tilde + Dot Below
+<dead_belowdot> <dead_tilde> <dead_macron> <Y>      : "Ỵ̄̃"
+<dead_belowdot> <dead_tilde> <dead_macron> <y>      : "ỵ̄̃"
+<dead_belowdot> <U0232>                             : "Ỵ̄"   # Ȳ + Dot Below
+<dead_belowdot> <U0233>                             : "ỵ̄"   # ȳ + Dot Below
+<dead_belowdot> <dead_macron> <Y>                   : "Ỵ̄"
+<dead_belowdot> <dead_macron> <y>                   : "ỵ̄"
+<dead_belowdot> <dead_macron> <Ytilde>              : "Ỵ̄̃"
+<dead_belowdot> <dead_macron> <ytilde>              : "ỵ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <Y>      : "Ỵ̄̃"
+<dead_belowdot> <dead_macron> <dead_tilde> <y>      : "ỵ̄̃"
+<dead_belowdot> <dead_breve> <Y>                    : "Ỵ̆"
+<dead_belowdot> <dead_breve> <y>                    : "ỵ̆"
+<dead_belowdot> <Zacute>                            : "Ẓ́" 
+<dead_belowdot> <zacute>                            : "ẓ́"
+<dead_belowdot> <dead_acute> <Z>                    : "Ẓ́"
+<dead_belowdot> <dead_acute> <z>                    : "ẓ́"
+<dead_belowdot> <Zcaron>                            : "Ẓ̌"
+<dead_belowdot> <zcaron>                            : "ẓ̌"
+<dead_belowdot> <dead_caron> <Z>                    : "Ẓ̌"
+<dead_belowdot> <dead_caron> <z>                    : "ẓ̌"
+<dead_belowdot> <dead_macron> <Z>                   : "Ẓ̄"
+<dead_belowdot> <dead_macron> <z>                   : "ẓ̄"
+
+##################
+# [END OF RULES] #
+##################

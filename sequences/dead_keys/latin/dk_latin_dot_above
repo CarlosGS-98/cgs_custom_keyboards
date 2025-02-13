@@ -203,10 +203,10 @@
 <dead_abovedot> <emacron>                                   : "ė̄"
 <dead_abovedot> <dead_macron> <E>                           : "Ė̄"
 <dead_abovedot> <dead_macron> <e>                           : "ė̄"
-<dead_abovedot> <Gabovedot>                                 : "Ġ̄"
-<dead_abovedot> <gabovedot>                                 : "ġ̄"
-<dead_abovedot> <dead_abovedot> <G>                         : "Ġ̄"
-<dead_abovedot> <dead_abovedot> <g>                         : "ġ̄"
+<dead_abovedot> <U1E20>                                     : "Ġ̄"   # Ḡ + Dot Above
+<dead_abovedot> <U1E21>                                     : "ġ̄"   # ḡ + Dot Above
+<dead_abovedot> <dead_macron> <G>                           : "Ġ̄"
+<dead_abovedot> <dead_macron> <g>                           : "ġ̄"
 <dead_abovedot> <Iacute>                                    : "İ́"
 <dead_abovedot> <iacute>                                    : "i̇́"
 <dead_abovedot> <dead_acute> <I>                            : "İ́"

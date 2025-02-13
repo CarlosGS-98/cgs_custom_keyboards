@@ -15,10 +15,10 @@
 # Basic combinations
 <U0359> <space>             : "͙"    # Combining asterisk below
 <U0359> <U0359>             : "͙"    # Combining asterisk below
-<U0359> <less> <less>       : "̡"    # Combining palatal hook    | (Its letters will start with the combination <U0359> <less> (...))
-<U0359> <greater> <greater> : "̢"    # Combining retroflex hook  | (Its letters will start with the combination <U0359> <greater> (...))
-<U0359> <comma>             : "˞"   # Modifier letter rhotic hook
-<U0359> <period>            : "˞"   # Modifier letter rhotic hook
+<U0359> <less> <less>       : "̡"    # Combining palatal hook        | (Its letters will start with the combination <U0359> <less> (...))
+<U0359> <greater> <greater> : "̢"    # Combining retroflex hook      | (Its letters will start with the combination <U0359> <greater> (...))
+<U0359> <comma> <comma>     : "˞"   # Modifier letter rhotic hook   | (Its letters will start with the combination <U0359> <comma> (...))
+<U0359> <period> <period>   : "˞"   # Modifier letter rhotic hook   | (Its letters will start with the combination <U0359> <period> (...))
 
 ##################
 # [END OF RULES] #

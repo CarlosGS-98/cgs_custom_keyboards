@@ -483,8 +483,8 @@
 <dead_diaeresis> <dead_belowdot> <q>                            : "q̣̈"
 <dead_diaeresis> <dead_caron> <S>                               : "S̈̌"
 <dead_diaeresis> <dead_caron> <s>                               : "s̈̌"
-<dead_diaeresis> <U1E6C>                                        : "Ṭ̈"   # Ṭ̈ + Diaeresis
-<dead_diaeresis> <U1E6D>                                        : "ṭ̈"   # ṭ̈ + Diaeresis
+<dead_diaeresis> <U1E6C>                                        : "Ṭ̈"   # Ṭ + Diaeresis
+<dead_diaeresis> <U1E6D>                                        : "ṭ̈"   # ṭ + Diaeresis
 <dead_diaeresis> <dead_belowdot> <T>                            : "Ṭ̈"
 <dead_diaeresis> <dead_belowdot> <t>                            : "ṭ̈"
 <dead_diaeresis> <dead_acute> <Uogonek>                         : "Ų̈́"
