@@ -1,0 +1,210 @@
+# Latin Alphabet | Comma Above Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [NOTE]: (No precomposed characters yet)
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Esprit_doux
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_abovecomma> <A>                 : "A̓"
+<dead_abovecomma> <a>                 : "a̓"
+<dead_abovecomma> <U2C6F>             : "Ɐ̓"      # Ɐ + Comma Above
+<dead_abovecomma> <U0250>             : "ɐ̓"      # ɐ + Comma Above
+<dead_abovecomma> <U21BA> <A>         : "Ɐ̓"      # Ɐ + Comma Above
+<dead_abovecomma> <U21BA> <a>         : "ɐ̓"      # ɐ + Comma Above
+<dead_abovecomma> <UA732>             : "Ꜳ̓"     # Ꜳ + Comma Above
+<dead_abovecomma> <UA733>             : "ꜳ̓"      # ꜳ + Comma Above
+<dead_abovecomma> <multiply> <A> <A>  : "Ꜳ̓"     # Ꜳ + Comma Above
+<dead_abovecomma> <multiply> <a> <a>  : "ꜳ̓"      # ꜳ + Comma Above
+<dead_abovecomma> <AE>                : "Æ̓"
+<dead_abovecomma> <ae>                : "æ̓"
+<dead_abovecomma> <multiply> <A> <E>  : "Æ̓"
+<dead_abovecomma> <multiply> <a> <e>  : "æ̓"
+<dead_abovecomma> <UA734>             : "Ꜵ̓"     # Ꜵ + Comma Above
+<dead_abovecomma> <UA735>             : "ꜵ̓"      # ꜵ + Comma Above
+<dead_abovecomma> <multiply> <A> <O>  : "Ꜵ̓"     # Ꜵ + Comma Above
+<dead_abovecomma> <multiply> <a> <o>  : "ꜵ̓"      # ꜵ + Comma Above
+<dead_abovecomma> <UA736>             : "Ꜷ̓"     # Ꜷ + Comma Above
+<dead_abovecomma> <UA737>             : "ꜷ̓"      # ꜷ + Comma Above
+<dead_abovecomma> <multiply> <A> <U>  : "Ꜷ̓"     # Ꜷ + Comma Above
+<dead_abovecomma> <multiply> <a> <u>  : "ꜷ̓"      # ꜷ + Comma Above
+<dead_abovecomma> <UA738>             : "Ꜹ̓"     # Ꜹ + Comma Above
+<dead_abovecomma> <UA739>             : "ꜹ̓"      # ꜹ + Comma Above
+<dead_abovecomma> <multiply> <A> <V>  : "Ꜹ̓"     # Ꜹ + Comma Above
+<dead_abovecomma> <multiply> <a> <v>  : "ꜹ̓"      # ꜹ + Comma Above
+<dead_abovecomma> <UA73C>             : "Ꜽ̓"     # Ꜽ + Comma Above
+<dead_abovecomma> <UA73D>             : "ꜽ̓"      # ꜽ + Comma Above
+<dead_abovecomma> <multiply> <A> <Y>  : "Ꜽ̓"     # Ꜽ + Comma Above
+<dead_abovecomma> <multiply> <a> <y>  : "ꜽ̓"      # ꜽ + Comma Above
+<dead_abovecomma> <U2C6D>             : "Ɑ̓"      # Ɑ (Latin Alpha) + Comma Above
+<dead_abovecomma> <U0251>             : "ɑ̓"      # ɑ (Latin Alpha) + Comma Above
+<dead_abovecomma> <B>                 : "B̓"
+<dead_abovecomma> <b>                 : "b̓"
+<dead_abovecomma> <C>                 : "C̓"
+<dead_abovecomma> <c>                 : "c̓"
+<dead_abovecomma> <D>                 : "D̓"
+<dead_abovecomma> <d>                 : "d̓"
+<dead_abovecomma> <ETH>               : "Ð̓"
+<dead_abovecomma> <eth>               : "ð̓"
+<dead_abovecomma> <UA779>             : "Ꝺ̓"      # Ꝺ (Insular D) + Comma Above
+<dead_abovecomma> <UA77A>             : "ꝺ̓"      # ꝺ (Insular D) + Comma Above
+<dead_abovecomma> <E>                 : "E̓"
+<dead_abovecomma> <e>                 : "e̓"
+<dead_abovecomma> <U0190>             : "Ɛ̓"      # Ɛ (Latin Epsilon) + Comma Above
+<dead_abovecomma> <U025B>             : "ɛ̓"      # ɛ (Latin Epsilon) + Comma Above
+<dead_abovecomma> <SCHWA>             : "Ə̓"      # Ə (Schwa) + Comma Above
+<dead_abovecomma> <schwa>             : "ə̓"      # ə (Schwa) + Comma Above
+<dead_abovecomma> <U018E>             : "Ǝ̓"      # Ǝ (Turned E) + Comma Above
+<dead_abovecomma> <U01DD>             : "ǝ̓"      # ǝ (Turned E) + Comma Above
+<dead_abovecomma> <U21BA> <E>         : "Ǝ̓"      # Ǝ (Turned E) + Comma Above
+<dead_abovecomma> <U21BA> <e>         : "ǝ̓"      # ǝ (Turned E) + Comma Above
+<dead_abovecomma> <F>                 : "F̓"
+<dead_abovecomma> <f>                 : "f̓"
+<dead_abovecomma> <UA77B>             : "Ꝼ̓"      # Ꝼ (Insular F) + Comma Above
+<dead_abovecomma> <UA77C>             : "ꝼ̓"      # ꝼ (Insular F) + Comma Above
+<dead_abovecomma> <G>                 : "G̓"
+<dead_abovecomma> <g>                 : "g̓"
+<dead_abovecomma> <U0194>             : "Ɣ̓"      # Ɣ (Latin Gamma) + Comma Above
+<dead_abovecomma> <U0263>             : "ɣ̓"      # ɣ (Latin Gamma) + Comma Above
+<dead_abovecomma> <H>                 : "H̓"
+<dead_abovecomma> <h>                 : "h̓"
+<dead_abovecomma> <UA78D>             : "Ɥ̓"      # Ɥ (Turned H) + Comma Above
+<dead_abovecomma> <U0265>             : "ɥ̓"      # ɥ (Turned H) + Comma Above
+<dead_abovecomma> <U21BA> <H>         : "Ɥ̓"      # Ɥ (Turned H) + Comma Above
+<dead_abovecomma> <U21BA> <h>         : "ɥ̓"      # ɥ (Turned H) + Comma Above
+<dead_abovecomma> <I>                 : "I̓"
+<dead_abovecomma> <i>                 : "i̓"
+<dead_abovecomma> <U0196>             : "Ɩ̓"      # Ɩ (Latin Iota) + Comma Above
+<dead_abovecomma> <U0269>             : "ɩ̓"      # ɩ (Latin Iota) + Comma Above
+<dead_abovecomma> <J>                 : "J̓"
+<dead_abovecomma> <j>                 : "j̓"
+<dead_abovecomma> <K>                 : "K̓"
+<dead_abovecomma> <k>                 : "k̓"
+<dead_abovecomma> <L>                 : "L̓"
+<dead_abovecomma> <l>                 : "l̓"
+<dead_abovecomma> <M>                 : "M̓"
+<dead_abovecomma> <m>                 : "m̓"
+<dead_abovecomma> <N>                 : "N̓"
+<dead_abovecomma> <n>                 : "n̓"
+<dead_abovecomma> <ENG>               : "Ŋ̓"      # Ŋ + Comma Above
+<dead_abovecomma> <eng>               : "ŋ̓"      # ŋ + Comma Above
+<dead_abovecomma> <O>                 : "O̓"
+<dead_abovecomma> <o>                 : "o̓"
+<dead_abovecomma> <OE>                : "Œ̓"
+<dead_abovecomma> <oe>                : "œ̓"
+<dead_abovecomma> <multiply> <O> <E>  : "Œ̓"
+<dead_abovecomma> <multiply> <o> <e>  : "œ̓"
+<dead_abovecomma> <UA74E>             : "Ꝏ̓"     # Ꝏ + Comma Above
+<dead_abovecomma> <UA74F>             : "ꝏ̓"     # ꝏ + Comma Above
+<dead_abovecomma> <multiply> <O> <O>  : "Ꝏ̓"     # Ꝏ + Comma Above
+<dead_abovecomma> <multiply> <o> <o>  : "ꝏ̓"     # ꝏ + Comma Above
+<dead_abovecomma> <U0186>             : "Ɔ̓"      # Ɔ + Comma Above
+<dead_abovecomma> <U0254>             : "ɔ̓"      # ɔ + Comma Above
+<dead_abovecomma> <UA7CB>             : "Ɤ̓"      # Ɤ (Ram's Horn) + Comma Above
+<dead_abovecomma> <U0264>             : "ɤ̓"      # ɤ (Ram's Horn) + Comma Above
+<dead_abovecomma> <P>                 : "P̓"
+<dead_abovecomma> <p>                 : "p̓"
+<dead_abovecomma> <Q>                 : "Q̓"
+<dead_abovecomma> <q>                 : "q̓"
+<dead_abovecomma> <R>                 : "R̓"
+<dead_abovecomma> <r>                 : "r̓"
+<dead_abovecomma> <U01A6>             : "Ʀ̓"     # Ʀ (Yr) + Comma Above
+<dead_abovecomma> <U0280>             : "ʀ̓"     # ʀ (Yr) + Comma Above
+<dead_abovecomma> <A75A>              : "Ꝛ̓"     # Ꝛ (R Rotunda) + Comma Above
+<dead_abovecomma> <A75B>              : "ꝛ̓"     # ꝛ (R Rotunda) + Comma Above
+<dead_abovecomma> <S>                 : "S̓"
+<dead_abovecomma> <s>                 : "s̓"
+<dead_abovecomma> <T>                 : "T̓"
+<dead_abovecomma> <t>                 : "t̓"
+<dead_abovecomma> <THORN>             : "Þ̓"
+<dead_abovecomma> <thorn>             : "þ̓"
+<dead_abovecomma> <U>                 : "U̓"
+<dead_abovecomma> <u>                 : "u̓"
+<dead_abovecomma> <U01B1>             : "Ʊ̓"     # Ʊ (Latin Upsilon) + Comma Above
+<dead_abovecomma> <U028A>             : "ʊ̓"     # ʊ (Latin Upsilon) + Comma Above
+<dead_abovecomma> <U019C>             : "Ɯ̓"     # Ɯ (Turned M) + Comma Above
+<dead_abovecomma> <U026F>             : "ɯ̓"     # ɯ (Turned M) + Comma Above
+<dead_abovecomma> <U21BA> <M>         : "Ɯ̓"     # Ɯ (Turned M) + Comma Above
+<dead_abovecomma> <U21BA> <m>         : "ɯ̓"     # ɯ (Turned M) + Comma Above
+<dead_abovecomma> <V>                 : "V̓"
+<dead_abovecomma> <v>                 : "v̓"
+<dead_abovecomma> <U0245>             : "Ʌ̓"     # Ʌ + Comma Above
+<dead_abovecomma> <U028C>             : "ʌ̓"     # ʌ + Comma Above
+<dead_abovecomma> <U21BA> <V>         : "Ʌ̓"     # Ʌ + Comma Above
+<dead_abovecomma> <U21BA> <v>         : "ʌ̓"     # ʌ + Comma Above
+<dead_abovecomma> <U01B2>             : "Ʋ̓"     # Ʋ + Comma Above
+<dead_abovecomma> <U028B>             : "ʋ̓"     # ʋ + Comma Above
+<dead_abovecomma> <UA768>             : "Ꝩ̓"     # Ꝩ (Vend) + Comma Above
+<dead_abovecomma> <UA769>             : "ꝩ̓"     # ꝩ (Vend) + Comma Above
+<dead_abovecomma> <W>                 : "W̓"
+<dead_abovecomma> <w>                 : "w̓"
+<dead_abovecomma> <UA760>             : "Ꝡ̓"     # Ꝡ + Comma Above
+<dead_abovecomma> <UA761>             : "ꝡ̓"     # ꝡ + Comma Above
+<dead_abovecomma> <multiply> <V> <Y>  : "Ꝡ̓"
+<dead_abovecomma> <multiply> <v> <y>  : "ꝡ̓"
+<dead_abovecomma> <X>                 : "X̓"
+<dead_abovecomma> <x>                 : "x̓"
+<dead_abovecomma> <Y>                 : "Y̓"
+<dead_abovecomma> <y>                 : "y̓"
+<dead_abovecomma> <Z>                 : "Z̓"
+<dead_abovecomma> <z>                 : "z̓"
+<dead_abovecomma> <EZH>               : "Ʒ̓"     # Ʒ + Comma Above
+<dead_abovecomma> <ezh>               : "ʒ̓"     # ʒ + Comma Above
+
+
+# Composed comma above combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Esprit_doux
+#
+<dead_abovecomma> <Ccaron>                      : "Č̓"
+<dead_abovecomma> <ccaron>                      : "č̓"
+<dead_abovecomma> <dead_caron> <C>              : "Č̓"
+<dead_abovecomma> <dead_caron> <c>              : "č̓"
+<dead_abovecomma> <U023B>                       : "Ȼ̓"   # Ȼ + Comma Above
+<dead_abovecomma> <U023C>                       : "ȼ̓"   # ȼ + Comma Above
+<dead_abovecomma> <dead_longsolidusoverlay> <C> : "Ȼ̓"
+<dead_abovecomma> <dead_longsolidusoverlay> <c> : "ȼ̓"
+<dead_abovecomma> <U1E34>                       : "Ḵ̓"   # Ḵ + Comma Above
+<dead_abovecomma> <U1E35>                       : "ḵ̓"   # ḵ + Comma Above
+<dead_abovecomma> <dead_belowmacron> <K>        : "Ḵ̓"
+<dead_abovecomma> <dead_belowmacron> <k>        : "ḵ̓"
+<dead_abovecomma> <Lbelowdot> <L>               : "Ḷ̓"
+<dead_abovecomma> <lbelowdot> <l>               : "ḷ̓"
+<dead_abovecomma> <dead_belowdot> <L>           : "Ḷ̓"
+<dead_abovecomma> <dead_belowdot> <l>           : "ḷ̓"
+<dead_abovecomma> <Lstroke>                     : "Ł̓"
+<dead_abovecomma> <lstroke>                     : "ł̓"
+<dead_abovecomma> <dead_longsolidusoverlay> <L> : "Ł̓"
+<dead_abovecomma> <dead_longsolidusoverlay> <l> : "ł̓"
+<dead_abovecomma> <U1E42>                       : "Ṃ̓"   # Ṃ + Comma Above
+<dead_abovecomma> <U1E43>                       : "ṃ̓"   # ṃ + Comma Above
+<dead_abovecomma> <dead_belowdot> <M>           : "Ṃ̓"
+<dead_abovecomma> <dead_belowdot> <m>           : "ṃ̓"
+<dead_abovecomma> <U1E46>                       : "Ṇ̓"   # Ṇ + Comma Above
+<dead_abovecomma> <U1E47>                       : "ṇ̓"   # ṇ + Comma Above
+<dead_abovecomma> <dead_belowdot> <N>           : "Ṇ̓"
+<dead_abovecomma> <dead_belowdot> <n>           : "ṇ̓"
+<dead_abovecomma> <Oslash>                      : "Ø̓"
+<dead_abovecomma> <oslash>                      : "ø̓"
+<dead_abovecomma> <dead_longsolidusoverlay> <O> : "Ø̓"
+<dead_abovecomma> <dead_longsolidusoverlay> <o> : "ø̓"
+<dead_abovecomma> <Scaron>                      : "Š̓"
+<dead_abovecomma> <scaron>                      : "š̓"
+<dead_abovecomma> <dead_caron> <S>              : "Š̓"
+<dead_abovecomma> <dead_caron> <s>              : "š̓"
+<dead_abovecomma> <U1E6C> <T>                   : "Ṭ̓"
+<dead_abovecomma> <U1E6D> <t>                   : "ṭ̓"
+<dead_abovecomma> <dead_belowdot> <T>           : "Ṭ̓"
+<dead_abovecomma> <dead_belowdot> <t>           : "ṭ̓"
+<dead_abovecomma> <Zcaron>                      : "Ž̓"
+<dead_abovecomma> <zcaron>                      : "ž̓"
+<dead_abovecomma> <dead_caron> <Z>              : "Ž̓"
+<dead_abovecomma> <dead_caron> <z>              : "ž̓"
+
+##################
+# [END OF RULES] #
+##################

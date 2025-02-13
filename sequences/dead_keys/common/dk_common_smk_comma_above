@@ -1,0 +1,21 @@
+# Common Dead Keys | Comma Above Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the diacritical comma above
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_abovecomma> <space>           : "̓"    # Combining comma above (Psili)
+<dead_abovecomma> <dead_abovecomma> : "̓"    # Combining comma above (Psili)
+<dead_abovecomma> <less>            : "̦"    # Combining comma below
+<dead_abovecomma> <greater>         : "̔"    # Combining reversed comma above (Dasia)
+<dead_abovecomma> <comma>           : "̒"    # Combining turned comma above
+<dead_abovecomma> <semicolon>       : "҅"    # Dasia Pneumata
+<dead_abovecomma> <period>          : "̕"    # Combining comma above right
+<dead_abovecomma> <colon>           : "҆"    # Psili Neumata
+
+##################
+# [END OF RULES] #
+##################
