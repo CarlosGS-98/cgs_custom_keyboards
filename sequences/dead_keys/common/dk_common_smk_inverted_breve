@@ -7,8 +7,8 @@
 #
 
 # Basic combinations
-<dead_invertedbreve> <space>                : "̉"    # Combining inverted breve
-<dead_invertedbreve> <dead_invertedbreve>   : "̉"    # Combining inverted breve
+<dead_invertedbreve> <space>                : "̑"    # Combining inverted breve
+<dead_invertedbreve> <dead_invertedbreve>   : "̑"    # Combining inverted breve
 <dead_invertedbreve> <less>                 : "̯"    # Combining lower inverted breve
 <dead_invertedbreve> <greater>              : "͡"    # Combining double upper inverted breve
 <dead_invertedbreve> <comma>                : "⁀"   # Character tie

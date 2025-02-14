@@ -1,0 +1,192 @@
+# Latin Alphabet | Inverted Breve Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [NOTE]: (No precomposed characters yet)
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Brève_inversée_souscrite
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<U032F> <A>                 : "A̯"
+<U032F> <a>                 : "a̯"
+<U032F> <U2C6F>             : "Ɐ̯"      # Ɐ + Inverted Breve Below
+<U032F> <U0250>             : "ɐ̯"      # ɐ + Inverted Breve Below
+<U032F> <U21BA> <A>         : "Ɐ̯"      # Ɐ + Inverted Breve Below
+<U032F> <U21BA> <a>         : "ɐ̯"      # ɐ + Inverted Breve Below
+<U032F> <UA732>             : "Ꜳ̯"     # Ꜳ + Inverted Breve Below
+<U032F> <UA733>             : "ꜳ̯"      # ꜳ + Inverted Breve Below
+<U032F> <multiply> <A> <A>  : "Ꜳ̯"     # Ꜳ + Inverted Breve Below
+<U032F> <multiply> <a> <a>  : "ꜳ̯"      # ꜳ + Inverted Breve Below
+<U032F> <AE>                : "Æ̯"
+<U032F> <ae>                : "æ̯"
+<U032F> <multiply> <A> <E>  : "Æ̯"
+<U032F> <multiply> <a> <e>  : "æ̯"
+<U032F> <UA734>             : "Ꜵ̯"     # Ꜵ + Inverted Breve Below
+<U032F> <UA735>             : "ꜵ̯"      # ꜵ + Inverted Breve Below
+<U032F> <multiply> <A> <O>  : "Ꜵ̯"     # Ꜵ + Inverted Breve Below
+<U032F> <multiply> <a> <o>  : "ꜵ̯"      # ꜵ + Inverted Breve Below
+<U032F> <UA736>             : "Ꜷ̯"     # Ꜷ + Inverted Breve Below
+<U032F> <UA737>             : "ꜷ̯"      # ꜷ + Inverted Breve Below
+<U032F> <multiply> <A> <U>  : "Ꜷ̯"     # Ꜷ + Inverted Breve Below
+<U032F> <multiply> <a> <u>  : "ꜷ̯"      # ꜷ + Inverted Breve Below
+<U032F> <UA738>             : "Ꜹ̯"     # Ꜹ + Inverted Breve Below
+<U032F> <UA739>             : "ꜹ̯"      # ꜹ + Inverted Breve Below
+<U032F> <multiply> <A> <V>  : "Ꜹ̯"     # Ꜹ + Inverted Breve Below
+<U032F> <multiply> <a> <v>  : "ꜹ̯"      # ꜹ + Inverted Breve Below
+<U032F> <UA73C>             : "Ꜽ̯"     # Ꜽ + Inverted Breve Below
+<U032F> <UA73D>             : "ꜽ̯"      # ꜽ + Inverted Breve Below
+<U032F> <multiply> <A> <Y>  : "Ꜽ̯"     # Ꜽ + Inverted Breve Below
+<U032F> <multiply> <a> <y>  : "ꜽ̯"      # ꜽ + Inverted Breve Below
+<U032F> <U2C6D>             : "Ɑ̯"      # Ɑ (Latin Alpha) + Inverted Breve Below
+<U032F> <U0251>             : "ɑ̯"      # ɑ (Latin Alpha) + Inverted Breve Below
+<U032F> <B>                 : "B̯"
+<U032F> <b>                 : "b̯"
+<U032F> <C>                 : "C̯"
+<U032F> <c>                 : "c̯"
+<U032F> <D>                 : "D̯"
+<U032F> <d>                 : "d̯"
+<U032F> <ETH>               : "Ð̯"
+<U032F> <eth>               : "ð̯"
+<U032F> <UA779>             : "Ꝺ̯"      # Ꝺ (Insular D) + Inverted Breve Below
+<U032F> <UA77A>             : "ꝺ̯"      # ꝺ (Insular D) + Inverted Breve Below
+<U032F> <E>                 : "E̯"
+<U032F> <e>                 : "e̯"
+<U032F> <U0190>             : "Ɛ̯"      # Ɛ (Latin Epsilon) + Inverted Breve Below
+<U032F> <U025B>             : "ɛ̯"      # ɛ (Latin Epsilon) + Inverted Breve Below
+<U032F> <SCHWA>             : "Ə̯"      # Ə (Schwa) + Inverted Breve Below
+<U032F> <schwa>             : "ə̯"      # ə (Schwa) + Inverted Breve Below
+<U032F> <U018E>             : "Ǝ̯"      # Ǝ (Turned E) + Inverted Breve Below
+<U032F> <U01DD>             : "ǝ̯"      # ǝ (Turned E) + Inverted Breve Below
+<U032F> <U21BA> <E>         : "Ǝ̯"      # Ǝ (Turned E) + Inverted Breve Below
+<U032F> <U21BA> <e>         : "ǝ̯"      # ǝ (Turned E) + Inverted Breve Below
+<U032F> <F>                 : "F̯"
+<U032F> <f>                 : "f̯"
+<U032F> <UA77B>             : "Ꝼ̯"      # Ꝼ (Insular F) + Inverted Breve Below
+<U032F> <UA77C>             : "ꝼ̯"      # ꝼ (Insular F) + Inverted Breve Below
+<U032F> <G>                 : "G̯"
+<U032F> <g>                 : "g̯"
+<U032F> <U0194>             : "Ɣ̯"      # Ɣ (Latin Gamma) + Inverted Breve Below
+<U032F> <U0263>             : "ɣ̯"      # ɣ (Latin Gamma) + Inverted Breve Below
+<U032F> <H>                 : "H̯"
+<U032F> <h>                 : "h̯"
+<U032F> <UA78D>             : "Ɥ̯"      # Ɥ (Turned H) + Inverted Breve Below
+<U032F> <U0265>             : "ɥ̯"      # ɥ (Turned H) + Inverted Breve Below
+<U032F> <U21BA> <H>         : "Ɥ̯"      # Ɥ (Turned H) + Inverted Breve Below
+<U032F> <U21BA> <h>         : "ɥ̯"      # ɥ (Turned H) + Inverted Breve Below
+<U032F> <I>                 : "I̯"
+<U032F> <i>                 : "i̯"
+<U032F> <U0196>             : "Ɩ̯"      # Ɩ (Latin Iota) + Inverted Breve Below
+<U032F> <U0269>             : "ɩ̯"      # ɩ (Latin Iota) + Inverted Breve Below
+<U032F> <J>                 : "J̯"
+<U032F> <j>                 : "j̯"
+<U032F> <K>                 : "K̯"
+<U032F> <k>                 : "k̯"
+<U032F> <L>                 : "L̯"
+<U032F> <l>                 : "l̯"
+<U032F> <M>                 : "M̯"
+<U032F> <m>                 : "m̯"
+<U032F> <N>                 : "N̯"
+<U032F> <n>                 : "n̯"
+<U032F> <ENG>               : "Ŋ̯"      # Ŋ + Inverted Breve Below
+<U032F> <eng>               : "ŋ̯"      # ŋ + Inverted Breve Below
+<U032F> <O>                 : "O̯"
+<U032F> <o>                 : "o̯"
+<U032F> <OE>                : "Œ̯"
+<U032F> <oe>                : "œ̯"
+<U032F> <multiply> <O> <E>  : "Œ̯"
+<U032F> <multiply> <o> <e>  : "œ̯"
+<U032F> <UA74E>             : "Ꝏ̯"     # Ꝏ + Inverted Breve Below
+<U032F> <UA74F>             : "ꝏ̯"     # ꝏ + Inverted Breve Below
+<U032F> <multiply> <O> <O>  : "Ꝏ̯"     # Ꝏ + Inverted Breve Below
+<U032F> <multiply> <o> <o>  : "ꝏ̯"     # ꝏ + Inverted Breve Below
+<U032F> <U0186>             : "Ɔ̯"      # Ɔ + Inverted Breve Below
+<U032F> <U0254>             : "ɔ̯"      # ɔ + Inverted Breve Below
+<U032F> <UA7CB>             : "Ɤ̯"      # Ɤ (Ram's Horn) + Inverted Breve Below
+<U032F> <U0264>             : "ɤ̯"      # ɤ (Ram's Horn) + Inverted Breve Below
+<U032F> <P>                 : "P̯"
+<U032F> <p>                 : "p̯"
+<U032F> <Q>                 : "Q̯"
+<U032F> <q>                 : "q̯"
+<U032F> <R>                 : "R̯"
+<U032F> <r>                 : "r̯"
+<U032F> <U01A6>             : "Ʀ̯"     # Ʀ (Yr) + Inverted Breve Below
+<U032F> <U0280>             : "ʀ̯"     # ʀ (Yr) + Inverted Breve Below
+<U032F> <A75A>              : "Ꝛ̯"     # Ꝛ (R Rotunda) + Inverted Breve Below
+<U032F> <A75B>              : "ꝛ̯"     # ꝛ (R Rotunda) + Inverted Breve Below
+<U032F> <S>                 : "S̯"
+<U032F> <s>                 : "s̯"
+<U032F> <T>                 : "T̯"
+<U032F> <t>                 : "t̯"
+<U032F> <THORN>             : "Þ̯"
+<U032F> <thorn>             : "þ̯"
+<U032F> <U>                 : "U̯"
+<U032F> <u>                 : "u̯"
+<U032F> <U01B1>             : "Ʊ̯"     # Ʊ (Latin Upsilon) + Inverted Breve Below
+<U032F> <U028A>             : "ʊ̯"     # ʊ (Latin Upsilon) + Inverted Breve Below
+<U032F> <U019C>             : "Ɯ̯"     # Ɯ (Turned M) + Inverted Breve Below
+<U032F> <U026F>             : "ɯ̯"     # ɯ (Turned M) + Inverted Breve Below
+<U032F> <U21BA> <M>         : "Ɯ̯"     # Ɯ (Turned M) + Inverted Breve Below
+<U032F> <U21BA> <m>         : "ɯ̯"     # ɯ (Turned M) + Inverted Breve Below
+<U032F> <V>                 : "V̯"
+<U032F> <v>                 : "v̯"
+<U032F> <U0245>             : "Ʌ̯"     # Ʌ + Inverted Breve Below
+<U032F> <U028C>             : "ʌ̯"     # ʌ + Inverted Breve Below
+<U032F> <U21BA> <V>         : "Ʌ̯"     # Ʌ + Inverted Breve Below
+<U032F> <U21BA> <v>         : "ʌ̯"     # ʌ + Inverted Breve Below
+<U032F> <U01B2>             : "Ʋ̯"     # Ʋ + Inverted Breve Below
+<U032F> <U028B>             : "ʋ̯"     # ʋ + Inverted Breve Below
+<U032F> <UA768>             : "Ꝩ̯"     # Ꝩ (Vend) + Inverted Breve Below
+<U032F> <UA769>             : "ꝩ̯"     # ꝩ (Vend) + Inverted Breve Below
+<U032F> <W>                 : "W̯"
+<U032F> <w>                 : "w̯"
+<U032F> <UA760>             : "Ꝡ̯"     # Ꝡ + Inverted Breve Below
+<U032F> <UA761>             : "ꝡ̯"     # ꝡ + Inverted Breve Below
+<U032F> <multiply> <V> <Y>  : "Ꝡ̯"
+<U032F> <multiply> <v> <y>  : "ꝡ̯"
+<U032F> <X>                 : "X̯"
+<U032F> <x>                 : "x̯"
+<U032F> <Y>                 : "Y̯"
+<U032F> <y>                 : "y̯"
+<U032F> <Z>                 : "Z̯"
+<U032F> <z>                 : "z̯"
+<U032F> <EZH>               : "Ʒ̯"     # Ʒ + Inverted Breve Below
+<U032F> <ezh>               : "ʒ̯"     # ʒ + Inverted Breve Below
+
+
+# Composed inverted breve below combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Brève_inversée_souscrite
+#
+<U032F> <Iacute>                        : "Í̯"
+<U032F> <iacute>                        : "í̯"
+<U032F> <dead_acute> <I>                : "Í̯"
+<U032F> <dead_acute> <i>                : "í̯"
+<U032F> <dead_tilde> <Ibreve>           : "Ĩ̯"
+<U032F> <dead_tilde> <ibreve>           : "ĩ̯"
+<U032F> <dead_tilde> <dead_breve> <I>   : "Ĩ̯"
+<U032F> <dead_tilde> <dead_breve> <i>   : "ĩ̯"
+<U032F> <dead_breve> <Itilde>           : "Ĩ̯"
+<U032F> <dead_breve> <itilde>           : "ĩ̯"
+<U032F> <dead_breve> <dead_tilde> <I>   : "Ĩ̯"
+<U032F> <dead_breve> <dead_tilde> <i>   : "ĩ̯"
+<U032F> <dead_abovecomma> <T>           : "T̯̓"
+<U032F> <dead_abovecomma> <t>           : "t̯̓"
+<U032F> <Udiaeresis>                    : "Ü̯"
+<U032F> <udiaeresis>                    : "ü̯"
+<U032F> <dead_diaeresis> <U>            : "Ü̯"
+<U032F> <dead_diaeresis> <u>            : "ü̯"
+<U032F> <dead_tilde> <Ubreve>           : "Ũ̯"
+<U032F> <dead_tilde> <ubreve>           : "ũ̯"
+<U032F> <dead_tilde> <dead_breve> <U>   : "Ũ̯"
+<U032F> <dead_tilde> <dead_breve> <u>   : "ũ̯"
+<U032F> <dead_breve> <Utilde>           : "Ũ̯"
+<U032F> <dead_breve> <utilde>           : "ũ̯"
+<U032F> <dead_breve> <dead_tilde> <U>   : "Ũ̯"
+<U032F> <dead_breve> <dead_tilde> <u>   : "ũ̯"
+
+##################
+# [END OF RULES] #
+##################

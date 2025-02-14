@@ -160,6 +160,9 @@
 # Composed comma above combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main reference]: https://fr.wikipedia.org/wiki/Esprit_doux
 #
+# [CUSTOM DEAD KEYS]:
+# - ̯ (Combining Lower Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
+#
 <dead_abovecomma> <Ccaron>                      : "Č̓"
 <dead_abovecomma> <ccaron>                      : "č̓"
 <dead_abovecomma> <dead_caron> <C>              : "Č̓"
@@ -196,8 +199,10 @@
 <dead_abovecomma> <scaron>                      : "š̓"
 <dead_abovecomma> <dead_caron> <S>              : "Š̓"
 <dead_abovecomma> <dead_caron> <s>              : "š̓"
-<dead_abovecomma> <U1E6C> <T>                   : "Ṭ̓"
-<dead_abovecomma> <U1E6D> <t>                   : "ṭ̓"
+<dead_abovecomma> <U032F> <T>                   : "T̯̓"
+<dead_abovecomma> <U032F> <t>                   : "t̯̓"
+<dead_abovecomma> <U1E6C>                       : "Ṭ̓"   # Ṭ + Comma Above
+<dead_abovecomma> <U1E6D>                       : "ṭ̓"   # ṭ + Comma Above
 <dead_abovecomma> <dead_belowdot> <T>           : "Ṭ̓"
 <dead_abovecomma> <dead_belowdot> <t>           : "ṭ̓"
 <dead_abovecomma> <Zcaron>                      : "Ž̓"

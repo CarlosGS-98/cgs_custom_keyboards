@@ -217,6 +217,7 @@
 # [Main reference]: https://fr.wikipedia.org/wiki/Accent_aigu
 #
 # [CUSTOM DEAD KEYS]:
+# - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
 # - ᷎ (Combining Ogonek Above [U1DCE]) -> Represents the "Ogonek Above" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
@@ -518,6 +519,8 @@
 <dead_acute> <dead_breve> <imacron>                         : "ī̆́"
 <dead_acute> <dead_breve> <dead_macron> <I>                 : "Ī̆́"
 <dead_acute> <dead_breve> <dead_macron> <i>                 : "ī̆́"
+<dead_acute> <U032F> <I>                                    : "Í̯"
+<dead_acute> <U032F> <i>                                    : "í̯"
 <dead_acute> <Idotabove>                                    : "İ́"
 <dead_acute> <idotless>                                     : "i̇́"
 <dead_acute> <dead_abovedot> <I>                            : "İ́"
