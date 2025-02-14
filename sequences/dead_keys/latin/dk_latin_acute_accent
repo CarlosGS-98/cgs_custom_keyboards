@@ -622,6 +622,8 @@
 <dead_acute> <dead_macron> <dead_belowring> <n>             : "n̥̄́"
 <dead_acute> <dead_macron> <dead_belowdot> <N>              : "Ṇ̄́"
 <dead_acute> <dead_macron> <dead_belowdot> <n>              : "ṇ̄́"
+<dead_acute> <U1E48>                                        : "Ṉ́"   # Ṉ + Acute
+<dead_acute> <U1E49>                                        : "ṉ́"   # ṉ + Acute
 <dead_acute> <dead_belowmacron> <N>                         : "Ṉ́"
 <dead_acute> <dead_belowmacron> <n>                         : "ṉ́"
 <dead_acute> <dead_invertedbreve> <dead_belowring> <N>      : "N̥̑́"

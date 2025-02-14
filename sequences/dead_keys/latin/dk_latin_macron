@@ -805,7 +805,7 @@
 <dead_macron> <ocircumflex>                                 : "ō̂"
 <dead_macron> <dead_circumflex> <U01EA>                     : "Ǭ̂"   # Ǫ + Circumflex + Macron
 <dead_macron> <dead_circumflex> <U01EB>                     : "ǭ̂"   # ǫ + Circumflex + Macron
-<dead_macron> <dead_circumflex> <dead_ogonek> <A>           : "Ǭ̂"
+<dead_macron> <dead_circumflex> <dead_ogonek> <O>           : "Ǭ̂"
 <dead_macron> <dead_circumflex> <dead_ogonek> <o>           : "ǭ̂"
 <dead_macron> <dead_circumflex> <dead_belowmacron> <O>      : "Ō̱̂"
 <dead_macron> <dead_circumflex> <dead_belowmacron> <o>      : "ō̱̂"

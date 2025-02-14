@@ -1,0 +1,21 @@
+# Common Dead Keys | Macron Below Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the macron below
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_belowmacron> <space>              : "̱"    # Combining macron below
+<dead_belowmacron> <dead_belowmacron>   : "ˍ"   # Modifier letter low macron
+<dead_belowmacron> <less>               : "̄"    # Combining macron
+<dead_belowmacron> <greater>            : "͞"    # Combining double macron above
+<dead_belowmacron> <comma>              : "ˉ"   # Modifier letter macron
+<dead_belowmacron> <period>             : "͟"    # Combining double macron below
+<dead_belowmacron> <minus>              : "᷌"    # Combining macron-breve
+<dead_belowmacron> <underscore>         : "᷋"    # Combining breve-macron
+
+##################
+# [END OF RULES] #
+##################

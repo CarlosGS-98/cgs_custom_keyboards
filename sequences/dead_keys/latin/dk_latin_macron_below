@@ -1,0 +1,537 @@
+# Latin Alphabet | Macron Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowmacron> <B>  : "Ḇ"
+<dead_belowmacron> <b>  : "ḇ"
+<dead_belowmacron> <D>  : "Ḏ"
+<dead_belowmacron> <d>  : "ḏ"
+<dead_belowmacron> <h>  : "ẖ"
+<dead_belowmacron> <K>  : "Ḵ"
+<dead_belowmacron> <k>  : "ḵ"
+<dead_belowmacron> <L>  : "Ḻ"
+<dead_belowmacron> <l>  : "ḻ"
+<dead_belowmacron> <N>  : "Ṉ"
+<dead_belowmacron> <n>  : "ṉ"
+<dead_belowmacron> <R>  : "Ṟ"
+<dead_belowmacron> <r>  : "ṟ"
+<dead_belowmacron> <T>  : "Ṯ"
+<dead_belowmacron> <t>  : "ṯ"
+<dead_belowmacron> <Z>  : "Ẕ"
+<dead_belowmacron> <z>  : "ẕ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Macron_souscrit
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_belowmacron> <A>                 : "A̱"
+<dead_belowmacron> <a>                 : "a̱"
+<dead_belowmacron> <U2C6F>             : "Ɐ̱"      # Ɐ + Macron Below
+<dead_belowmacron> <U0250>             : "ɐ̱"      # ɐ + Macron Below
+<dead_belowmacron> <U21BA> <A>         : "Ɐ̱"      # Ɐ + Macron Below
+<dead_belowmacron> <U21BA> <a>         : "ɐ̱"      # ɐ + Macron Below
+<dead_belowmacron> <UA732>             : "Ꜳ̱"     # Ꜳ + Macron Below
+<dead_belowmacron> <UA733>             : "ꜳ̱"      # ꜳ + Macron Below
+<dead_belowmacron> <multiply> <A> <A>  : "Ꜳ̱"     # Ꜳ + Macron Below
+<dead_belowmacron> <multiply> <a> <a>  : "ꜳ̱"      # ꜳ + Macron Below
+<dead_belowmacron> <AE>                : "Æ̱"
+<dead_belowmacron> <ae>                : "æ̱"
+<dead_belowmacron> <multiply> <A> <E>  : "Æ̱"
+<dead_belowmacron> <multiply> <a> <e>  : "æ̱"
+<dead_belowmacron> <UA734>             : "Ꜵ̱"     # Ꜵ + Macron Below
+<dead_belowmacron> <UA735>             : "ꜵ̱"      # ꜵ + Macron Below
+<dead_belowmacron> <multiply> <A> <O>  : "Ꜵ̱"     # Ꜵ + Macron Below
+<dead_belowmacron> <multiply> <a> <o>  : "ꜵ̱"      # ꜵ + Macron Below
+<dead_belowmacron> <UA736>             : "Ꜷ̱"     # Ꜷ + Macron Below
+<dead_belowmacron> <UA737>             : "ꜷ̱"      # ꜷ + Macron Below
+<dead_belowmacron> <multiply> <A> <U>  : "Ꜷ̱"     # Ꜷ + Macron Below
+<dead_belowmacron> <multiply> <a> <u>  : "ꜷ̱"      # ꜷ + Macron Below
+<dead_belowmacron> <UA738>             : "Ꜹ̱"     # Ꜹ + Macron Below
+<dead_belowmacron> <UA739>             : "ꜹ̱"      # ꜹ + Macron Below
+<dead_belowmacron> <multiply> <A> <V>  : "Ꜹ̱"     # Ꜹ + Macron Below
+<dead_belowmacron> <multiply> <a> <v>  : "ꜹ̱"      # ꜹ + Macron Below
+<dead_belowmacron> <UA73C>             : "Ꜽ̱"     # Ꜽ + Macron Below
+<dead_belowmacron> <UA73D>             : "ꜽ̱"      # ꜽ + Macron Below
+<dead_belowmacron> <multiply> <A> <Y>  : "Ꜽ̱"     # Ꜽ + Macron Below
+<dead_belowmacron> <multiply> <a> <y>  : "ꜽ̱"      # ꜽ + Macron Below
+<dead_belowmacron> <U2C6D>             : "Ɑ̱"      # Ɑ (Latin Alpha) + Macron Below
+<dead_belowmacron> <U0251>             : "ɑ̱"      # ɑ (Latin Alpha) + Macron Below
+<dead_belowmacron> <C>                 : "C̱"
+<dead_belowmacron> <c>                 : "c̱"
+<dead_belowmacron> <ETH>               : "Ð̱"
+<dead_belowmacron> <eth>               : "ð̱"
+<dead_belowmacron> <UA779>             : "Ꝺ̱"      # Ꝺ (Insular D) + Macron Below
+<dead_belowmacron> <UA77A>             : "ꝺ̱"      # ꝺ (Insular D) + Macron Below
+<dead_belowmacron> <E>                 : "E̱"
+<dead_belowmacron> <e>                 : "e̱"
+<dead_belowmacron> <U0190>             : "Ɛ̱"      # Ɛ (Latin Epsilon) + Macron Below
+<dead_belowmacron> <U025B>             : "ɛ̱"      # ɛ (Latin Epsilon) + Macron Below
+<dead_belowmacron> <SCHWA>             : "Ə̱"      # Ə (Schwa) + Macron Below
+<dead_belowmacron> <schwa>             : "ə̱"      # ə (Schwa) + Macron Below
+<dead_belowmacron> <U018E>             : "Ǝ̱"      # Ǝ (Turned E) + Macron Below
+<dead_belowmacron> <U01DD>             : "ǝ̱"      # ǝ (Turned E) + Macron Below
+<dead_belowmacron> <U21BA> <E>         : "Ǝ̱"      # Ǝ (Turned E) + Macron Below
+<dead_belowmacron> <U21BA> <e>         : "ǝ̱"      # ǝ (Turned E) + Macron Below
+<dead_belowmacron> <F>                 : "F̱"
+<dead_belowmacron> <f>                 : "f̱"
+<dead_belowmacron> <UA77B>             : "Ꝼ̱"      # Ꝼ (Insular F) + Macron Below
+<dead_belowmacron> <UA77C>             : "ꝼ̱"      # ꝼ (Insular F) + Macron Below
+<dead_belowmacron> <G>                 : "G̱"
+<dead_belowmacron> <g>                 : "g̱"
+<dead_belowmacron> <U0194>             : "Ɣ̱"      # Ɣ (Latin Gamma) + Macron Below
+<dead_belowmacron> <U0263>             : "ɣ̱"      # ɣ (Latin Gamma) + Macron Below
+<dead_belowmacron> <H>                 : "H̱"
+<dead_belowmacron> <UA78D>             : "Ɥ̱"      # Ɥ (Turned H) + Macron Below
+<dead_belowmacron> <U0265>             : "ɥ̱"      # ɥ (Turned H) + Macron Below
+<dead_belowmacron> <U21BA> <H>         : "Ɥ̱"      # Ɥ (Turned H) + Macron Below
+<dead_belowmacron> <U21BA> <h>         : "ɥ̱"      # ɥ (Turned H) + Macron Below
+<dead_belowmacron> <I>                 : "I̱"
+<dead_belowmacron> <i>                 : "i̱"
+<dead_belowmacron> <U0196>             : "Ɩ̱"      # Ɩ (Latin Iota) + Macron Below
+<dead_belowmacron> <U0269>             : "ɩ̱"      # ɩ (Latin Iota) + Macron Below
+<dead_belowmacron> <J>                 : "J̱"
+<dead_belowmacron> <j>                 : "j̱"
+<dead_belowmacron> <M>                 : "M̱"
+<dead_belowmacron> <m>                 : "m̱"
+<dead_belowmacron> <ENG>               : "Ŋ̱"      # Ŋ + Macron Below
+<dead_belowmacron> <eng>               : "ŋ̱"      # ŋ + Macron Below
+<dead_belowmacron> <O>                 : "O̱"
+<dead_belowmacron> <o>                 : "o̱"
+<dead_belowmacron> <OE>                : "Œ̱"
+<dead_belowmacron> <oe>                : "œ̱"
+<dead_belowmacron> <multiply> <O> <E>  : "Œ̱"
+<dead_belowmacron> <multiply> <o> <e>  : "œ̱"
+<dead_belowmacron> <UA74E>             : "Ꝏ̱"     # Ꝏ + Macron Below
+<dead_belowmacron> <UA74F>             : "ꝏ̱"     # ꝏ + Macron Below
+<dead_belowmacron> <multiply> <O> <O>  : "Ꝏ̱"     # Ꝏ + Macron Below
+<dead_belowmacron> <multiply> <o> <o>  : "ꝏ̱"     # ꝏ + Macron Below
+<dead_belowmacron> <U0186>             : "Ɔ̱"      # Ɔ + Macron Below
+<dead_belowmacron> <U0254>             : "ɔ̱"      # ɔ + Macron Below
+<dead_belowmacron> <UA7CB>             : "Ɤ̱"      # Ɤ (Ram's Horn) + Macron Below
+<dead_belowmacron> <U0264>             : "ɤ̱"      # ɤ (Ram's Horn) + Macron Below
+<dead_belowmacron> <P>                 : "P̱"
+<dead_belowmacron> <p>                 : "p̱"
+<dead_belowmacron> <Q>                 : "Q̱"
+<dead_belowmacron> <q>                 : "q̱"
+<dead_belowmacron> <U01A6>             : "Ʀ̱"     # Ʀ (Yr) + Macron Below
+<dead_belowmacron> <U0280>             : "ʀ̱"     # ʀ (Yr) + Macron Below
+<dead_belowmacron> <A75A>              : "Ꝛ̱"     # Ꝛ (R Rotunda) + Macron Below
+<dead_belowmacron> <A75B>              : "ꝛ̱"     # ꝛ (R Rotunda) + Macron Below
+<dead_belowmacron> <S>                 : "S̱"
+<dead_belowmacron> <s>                 : "s̱"
+<dead_belowmacron> <THORN>             : "Þ̱"
+<dead_belowmacron> <thorn>             : "þ̱"
+<dead_belowmacron> <U>                 : "U̱"
+<dead_belowmacron> <u>                 : "u̱"
+<dead_belowmacron> <U01B1>             : "Ʊ̱"     # Ʊ (Latin Upsilon) + Macron Below
+<dead_belowmacron> <U028A>             : "ʊ̱"     # ʊ (Latin Upsilon) + Macron Below
+<dead_belowmacron> <U019C>             : "Ɯ̱"     # Ɯ (Turned M) + Macron Below
+<dead_belowmacron> <U026F>             : "ɯ̱"     # ɯ (Turned M) + Macron Below
+<dead_belowmacron> <U21BA> <M>         : "Ɯ̱"     # Ɯ (Turned M) + Macron Below
+<dead_belowmacron> <U21BA> <m>         : "ɯ̱"     # ɯ (Turned M) + Macron Below
+<dead_belowmacron> <V>                 : "V̱"
+<dead_belowmacron> <v>                 : "v̱"
+<dead_belowmacron> <U0245>             : "Ʌ̱"     # Ʌ + Macron Below
+<dead_belowmacron> <U028C>             : "ʌ̱"     # ʌ + Macron Below
+<dead_belowmacron> <U21BA> <V>         : "Ʌ̱"     # Ʌ + Macron Below
+<dead_belowmacron> <U21BA> <v>         : "ʌ̱"     # ʌ + Macron Below
+<dead_belowmacron> <U01B2>             : "Ʋ̱"     # Ʋ + Macron Below
+<dead_belowmacron> <U028B>             : "ʋ̱"     # ʋ + Macron Below
+<dead_belowmacron> <UA768>             : "Ꝩ̱"     # Ꝩ (Vend) + Macron Below
+<dead_belowmacron> <UA769>             : "ꝩ̱"     # ꝩ (Vend) + Macron Below
+<dead_belowmacron> <W>                 : "W̱"
+<dead_belowmacron> <w>                 : "w̱"
+<dead_belowmacron> <UA760>             : "Ꝡ̱"     # Ꝡ + Macron Below
+<dead_belowmacron> <UA761>             : "ꝡ̱"     # ꝡ + Macron Below
+<dead_belowmacron> <multiply> <V> <Y>  : "Ꝡ̱"
+<dead_belowmacron> <multiply> <v> <y>  : "ꝡ̱"
+<dead_belowmacron> <X>                 : "X̱"
+<dead_belowmacron> <x>                 : "x̱"
+<dead_belowmacron> <Y>                 : "Y̱"
+<dead_belowmacron> <y>                 : "y̱"
+<dead_belowmacron> <EZH>               : "Ʒ̱"     # Ʒ + Macron Below
+<dead_belowmacron> <ezh>               : "ʒ̱"     # ʒ + Macron Below
+
+
+# Composed circumflex below combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Macron_souscrit
+#
+<dead_belowmacron> <Aacute>                                     : "Á̱"
+<dead_belowmacron> <aacute>                                     : "á̱"
+<dead_belowmacron> <dead_acute> <A>                             : "Á̱"
+<dead_belowmacron> <dead_acute> <a>                             : "á̱"
+<dead_belowmacron> <dead_acute> <Amacron>                       : "Ā̱́"
+<dead_belowmacron> <dead_acute> <amacron>                       : "ā̱́"
+<dead_belowmacron> <dead_acute> <dead_macron> <A>               : "Ā̱́"
+<dead_belowmacron> <dead_acute> <dead_macron> <a>               : "ā̱́"
+<dead_belowmacron> <Agrave>                                     : "À̱"
+<dead_belowmacron> <agrave>                                     : "à̱"
+<dead_belowmacron> <dead_grave> <A>                             : "À̱"
+<dead_belowmacron> <dead_grave> <a>                             : "à̱"
+<dead_belowmacron> <dead_grave> <Amacron>                       : "Ā̱̀"
+<dead_belowmacron> <dead_grave> <amacron>                       : "ā̱̀"
+<dead_belowmacron> <dead_grave> <dead_macron> <A>               : "Ā̱̀"
+<dead_belowmacron> <dead_grave> <dead_macron> <a>               : "ā̱̀"
+<dead_belowmacron> <Acircumflex>                                : "Â̱"
+<dead_belowmacron> <acircumflex>                                : "â̱"
+<dead_belowmacron> <dead_circumflex> <A>                        : "Â̱"
+<dead_belowmacron> <dead_circumflex> <a>                        : "â̱"
+<dead_belowmacron> <dead_circumflex> <Amacron>                  : "Ā̱̂"
+<dead_belowmacron> <dead_circumflex> <amacron>                  : "ā̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <A>          : "Ā̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <a>          : "ā̱̂"
+<dead_belowmacron> <Adiaeresis>                                 : "Ä̱"
+<dead_belowmacron> <adiaeresis>                                 : "ä̱"
+<dead_belowmacron> <dead_diaeresis> <A>                         : "Ä̱"
+<dead_belowmacron> <dead_diaeresis> <a>                         : "ä̱"
+<dead_belowmacron> <Atilde>                                     : "Ã̱"
+<dead_belowmacron> <atilde>                                     : "ã̱"
+<dead_belowmacron> <dead_tilde> <A>                             : "Ã̱"
+<dead_belowmacron> <dead_tilde> <a>                             : "ã̱"
+<dead_belowmacron> <Aring>                                      : "Å̱"
+<dead_belowmacron> <aring>                                      : "å̱"
+<dead_belowmacron> <dead_abovering> <A>                         : "Å̱"
+<dead_belowmacron> <dead_abovering> <a>                         : "å̱"
+<dead_belowmacron> <U01CD>                                      : "Ǎ̱"   # Ǎ + Macron Below
+<dead_belowmacron> <U01CE>                                      : "ǎ̱"   # ǎ + Macron Below
+<dead_belowmacron> <dead_caron> <A>                             : "Ǎ̱"
+<dead_belowmacron> <dead_caron> <a>                             : "ǎ̱"
+<dead_belowmacron> <Amacron>                                    : "Ā̱"
+<dead_belowmacron> <amacron>                                    : "ā̱"
+<dead_belowmacron> <dead_macron> <A>                            : "Ā̱"
+<dead_belowmacron> <dead_macron> <a>                            : "ā̱"
+<dead_belowmacron> <dead_macron> <Aacute>                       : "Ā̱́"
+<dead_belowmacron> <dead_macron> <aacute>                       : "ā̱́"
+<dead_belowmacron> <dead_macron> <dead_acute> <A>               : "Ā̱́"
+<dead_belowmacron> <dead_macron> <dead_acute> <a>               : "ā̱́"
+<dead_belowmacron> <dead_macron> <Agrave>                       : "Ā̱̀"
+<dead_belowmacron> <dead_macron> <agrave>                       : "ā̱̀"
+<dead_belowmacron> <dead_macron> <dead_grave> <A>               : "Ā̱̀"
+<dead_belowmacron> <dead_macron> <dead_grave> <a>               : "ā̱̀"
+<dead_belowmacron> <dead_macron> <Acircumflex>                  : "Ā̱̂"
+<dead_belowmacron> <dead_macron> <acircumflex>                  : "ā̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <A>          : "Ā̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <a>          : "ā̱̂"
+<dead_belowmacron> <dead_circumflex> <B>                        : "Ḇ̂"
+<dead_belowmacron> <dead_circumflex> <b>                        : "ḇ̂"
+<dead_belowmacron> <dead_macron> <D>                            : "Ḏ̄"
+<dead_belowmacron> <dead_macron> <d>                            : "ḏ̄"
+<dead_belowmacron> <U1E0C>                                      : "Ḏ̣"   # Ḍ + Macron Below
+<dead_belowmacron> <U1E0D>                                      : "ḏ̣"   # ḍ + Macron Below
+<dead_belowmacron> <dead_belowdot> <D>                          : "Ḏ̣"
+<dead_belowmacron> <dead_belowdot> <d>                          : "ḏ̣"
+<dead_belowmacron> <Dstroke>                                    : "Đ̱"
+<dead_belowmacron> <dstroke>                                    : "đ̱"
+<dead_belowmacron> <dead_stroke> <D>                            : "Đ̱"
+<dead_belowmacron> <dead_stroke> <d>                            : "đ̱"
+<dead_belowmacron> <Eacute>                                     : "É̱"
+<dead_belowmacron> <eacute>                                     : "é̱"
+<dead_belowmacron> <dead_acute> <E>                             : "É̱"
+<dead_belowmacron> <dead_acute> <e>                             : "é̱"
+<dead_belowmacron> <dead_acute> <Emacron>                       : "Ḗ̱"
+<dead_belowmacron> <dead_acute> <emacron>                       : "ḗ̱"
+<dead_belowmacron> <dead_acute> <dead_macron> <E>               : "Ḗ̱"
+<dead_belowmacron> <dead_acute> <dead_macron> <e>               : "ḗ̱"
+<dead_belowmacron> <Egrave>                                     : "È̱"
+<dead_belowmacron> <egrave>                                     : "è̱"
+<dead_belowmacron> <dead_grave> <E>                             : "È̱"
+<dead_belowmacron> <dead_grave> <e>                             : "è̱"
+<dead_belowmacron> <dead_grave> <Emacron>                       : "Ḕ̱"
+<dead_belowmacron> <dead_grave> <emacron>                       : "ḕ̱"
+<dead_belowmacron> <dead_grave> <dead_macron> <E>               : "Ḕ̱"
+<dead_belowmacron> <dead_grave> <dead_macron> <e>               : "ḕ̱"
+<dead_belowmacron> <Ecircumflex>                                : "Ê̱"
+<dead_belowmacron> <ecircumflex>                                : "ê̱"
+<dead_belowmacron> <dead_circumflex> <E>                        : "Ê̱"
+<dead_belowmacron> <dead_circumflex> <e>                        : "ê̱"
+<dead_belowmacron> <dead_circumflex> <Emacron>                  : "Ē̱̂"
+<dead_belowmacron> <dead_circumflex> <emacron>                  : "ē̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <E>          : "Ē̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <e>          : "ē̱̂"
+<dead_belowmacron> <Ediaeresis>                                 : "Ë̱"
+<dead_belowmacron> <ediaeresis>                                 : "ë̱"
+<dead_belowmacron> <dead_diaeresis> <E>                         : "Ë̱"
+<dead_belowmacron> <dead_diaeresis> <e>                         : "ë̱"
+<dead_belowmacron> <Etilde>                                     : "Ẽ̱"
+<dead_belowmacron> <etilde>                                     : "ẽ̱"
+<dead_belowmacron> <dead_tilde> <E>                             : "Ẽ̱"
+<dead_belowmacron> <dead_tilde> <e>                             : "ẽ̱"
+<dead_belowmacron> <Ecaron>                                     : "Ě̱"
+<dead_belowmacron> <ecaron>                                     : "ě̱"
+<dead_belowmacron> <dead_caron> <E>                             : "Ě̱"
+<dead_belowmacron> <dead_caron> <e>                             : "ě̱"
+<dead_belowmacron> <Emacron>                                    : "Ē̱"
+<dead_belowmacron> <emacron>                                    : "ē̱"
+<dead_belowmacron> <dead_macron> <E>                            : "Ē̱"
+<dead_belowmacron> <dead_macron> <e>                            : "ē̱"
+<dead_belowmacron> <dead_macron> <Eacute>                       : "Ḗ̱"
+<dead_belowmacron> <dead_macron> <eacute>                       : "ḗ̱"
+<dead_belowmacron> <dead_macron> <dead_acute> <E>               : "Ḗ̱"
+<dead_belowmacron> <dead_macron> <dead_acute> <e>               : "ḗ̱"
+<dead_belowmacron> <dead_macron> <Egrave>                       : "Ḕ̱"
+<dead_belowmacron> <dead_macron> <egrave>                       : "ḕ̱"
+<dead_belowmacron> <dead_macron> <dead_grave> <E>               : "Ḕ̱"
+<dead_belowmacron> <dead_macron> <dead_grave> <e>               : "ḕ̱"
+<dead_belowmacron> <dead_macron> <Ecircumflex>                  : "Ē̱̂"
+<dead_belowmacron> <dead_macron> <ecircumflex>                  : "ē̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <E>          : "Ē̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <e>          : "ē̱̂"
+<dead_belowmacron> <U0246>                                      : "Ɇ̱"   # Ɇ + Macron Below
+<dead_belowmacron> <U0247>                                      : "ɇ̱"   # ɇ + Macron Below
+<dead_belowmacron> <dead_longsolidusoverlay> <E>                : "Ɇ̱"
+<dead_belowmacron> <dead_longsolidusoverlay> <e>                : "ɇ̱"
+<dead_belowmacron> <dead_diaeresis> <U0190>                     : "Ɛ̱̈"   # Ɛ (Latin Epsilon) + Diaeresis + Macron Below
+<dead_belowmacron> <dead_diaeresis> <U025B>                     : "ɛ̱̈"   # ɛ (Latin Epsilon) + Diaeresis + Macron Below
+<dead_belowmacron> <dead_macron> <H>                            : "H̱̄"
+<dead_belowmacron> <dead_macron> <h>                            : "ẖ̄"
+<dead_belowmacron> <Iacute>                                     : "Í̱"
+<dead_belowmacron> <iacute>                                     : "í̱"
+<dead_belowmacron> <dead_acute> <I>                             : "Í̱"
+<dead_belowmacron> <dead_acute> <i>                             : "í̱"
+<dead_belowmacron> <dead_acute> <Imacron>                       : "Ī̱́"
+<dead_belowmacron> <dead_acute> <imacron>                       : "ī̱́"
+<dead_belowmacron> <dead_acute> <dead_macron> <I>               : "Ī̱́"
+<dead_belowmacron> <dead_acute> <dead_macron> <i>               : "ī̱́"
+<dead_belowmacron> <dead_acute> <U0197>                         : "Ɨ̱́"   # Ɨ + Acute + Macron Below
+<dead_belowmacron> <dead_acute> <U0268>                         : "ɨ̱́"   # ɨ + Acute + Macron Below
+<dead_belowmacron> <dead_acute> <dead_stroke> <I>               : "Ɨ̱́"
+<dead_belowmacron> <dead_acute> <dead_stroke> <i>               : "ɨ̱́"
+<dead_belowmacron> <dead_acute> <dead_stroke> <Idotabove>       : "Ɨ̱́"
+<dead_belowmacron> <dead_acute> <dead_stroke> <idotless>        : "ɨ̱́"
+<dead_belowmacron> <Igrave>                                     : "Ì̱"
+<dead_belowmacron> <igrave>                                     : "ì̱"
+<dead_belowmacron> <dead_grave> <I>                             : "Ì̱"
+<dead_belowmacron> <dead_grave> <i>                             : "ì̱"
+<dead_belowmacron> <dead_grave> <Imacron>                       : "Ī̱̀"
+<dead_belowmacron> <dead_grave> <imacron>                       : "ī̱̀"
+<dead_belowmacron> <dead_grave> <dead_macron> <I>               : "Ī̱̀"
+<dead_belowmacron> <dead_grave> <dead_macron> <i>               : "ī̱̀"
+<dead_belowmacron> <dead_grave> <U0197>                         : "Ɨ̱̀"   # Ɨ + Grave + Macron Below
+<dead_belowmacron> <dead_grave> <U0268>                         : "ɨ̱̀"   # ɨ + Grave + Macron Below
+<dead_belowmacron> <dead_grave> <dead_stroke> <I>               : "Ɨ̱̀"
+<dead_belowmacron> <dead_grave> <dead_stroke> <I>               : "ɨ̱̀"
+<dead_belowmacron> <Icircumflex>                                : "Î̱"
+<dead_belowmacron> <icircumflex>                                : "î̱"
+<dead_belowmacron> <dead_circumflex> <I>                        : "Î̱"
+<dead_belowmacron> <dead_circumflex> <i>                        : "î̱"
+<dead_belowmacron> <dead_circumflex> <Imacron>                  : "Ī̱̂"
+<dead_belowmacron> <dead_circumflex> <imacron>                  : "ī̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <I>          : "Ī̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <i>          : "ī̱̂"
+<dead_belowmacron> <Idiaeresis>                                 : "Ï̱"
+<dead_belowmacron> <idiaeresis>                                 : "ï̱"
+<dead_belowmacron> <dead_diaeresis> <I>                         : "Ï̱"
+<dead_belowmacron> <dead_diaeresis> <i>                         : "ï̱"
+<dead_belowmacron> <dead_diaeresis> <U0197>                     : "Ɨ̱̈"   # Ɨ + Diaeresis + Macron Below
+<dead_belowmacron> <dead_diaeresis> <U0268>                     : "ɨ̱̈"   # ɨ + Diaeresis + Macron Below
+<dead_belowmacron> <dead_diaeresis> <dead_stroke> <I>           : "Ɨ̱̈"
+<dead_belowmacron> <dead_diaeresis> <dead_stroke> <i>           : "ɨ̱̈"
+<dead_belowmacron> <dead_diaeresis> <dead_stroke> <Idotabove>   : "Ɨ̱̈"
+<dead_belowmacron> <dead_diaeresis> <dead_stroke> <idotless>    : "ɨ̱̈"
+<dead_belowmacron> <Itilde>                                     : "Ĩ̱"
+<dead_belowmacron> <itilde>                                     : "ĩ̱"
+<dead_belowmacron> <dead_tilde> <I>                             : "Ĩ̱"
+<dead_belowmacron> <dead_tilde> <i>                             : "ĩ̱"
+<dead_belowmacron> <U01CF>                                      : "Ǐ̱"   # Ǐ + Macron Below
+<dead_belowmacron> <U01D0>                                      : "ǐ̱"   # ǐ + Macron Below
+<dead_belowmacron> <dead_caron> <I>                             : "Ǐ̱"
+<dead_belowmacron> <dead_caron> <i>                             : "ǐ̱"
+<dead_belowmacron> <Imacron>                                    : "Ī̱"
+<dead_belowmacron> <imacron>                                    : "ī̱"
+<dead_belowmacron> <dead_macron> <I>                            : "Ī̱"
+<dead_belowmacron> <dead_macron> <i>                            : "ī̱"
+<dead_belowmacron> <dead_macron> <Iacute>                       : "Ī̱́"
+<dead_belowmacron> <dead_macron> <iacute>                       : "ī̱́"
+<dead_belowmacron> <dead_macron> <dead_acute> <I>               : "Ī̱́"
+<dead_belowmacron> <dead_macron> <dead_acute> <i>               : "ī̱́"
+<dead_belowmacron> <dead_macron> <Igrave>                       : "Ī̱̀"
+<dead_belowmacron> <dead_macron> <igrave>                       : "ī̱̀"
+<dead_belowmacron> <dead_macron> <dead_grave> <I>               : "Ī̱̀"
+<dead_belowmacron> <dead_macron> <dead_grave> <i>               : "ī̱̀"
+<dead_belowmacron> <dead_macron> <Icircumflex>                  : "Ī̱̂"
+<dead_belowmacron> <dead_macron> <icircumflex>                  : "ī̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <I>          : "Ī̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <i>          : "ī̱̂"
+<dead_belowmacron> <U0197>                                      : "Ɨ̱"   # Ɨ + Macron Below
+<dead_belowmacron> <U0268>                                      : "ɨ̱"   # ɨ + Macron Below
+<dead_belowmacron> <dead_stroke> <I>                            : "Ɨ̱"
+<dead_belowmacron> <dead_stroke> <i>                            : "ɨ̱"
+<dead_belowmacron> <dead_stroke> <Iacute>                       : "Ɨ̱́"
+<dead_belowmacron> <dead_stroke> <iacute>                       : "ɨ̱́"
+<dead_belowmacron> <dead_stroke> <dead_acute> <I>               : "Ɨ̱́"
+<dead_belowmacron> <dead_stroke> <dead_acute> <i>               : "ɨ̱́"
+<dead_belowmacron> <dead_stroke> <dead_acute> <Idotabove>       : "Ɨ̱́"
+<dead_belowmacron> <dead_stroke> <dead_acute> <idotless>        : "ɨ̱́"
+<dead_belowmacron> <dead_stroke> <Igrave>                       : "Ɨ̱̀"
+<dead_belowmacron> <dead_stroke> <igrave>                       : "ɨ̱̀"
+<dead_belowmacron> <dead_stroke> <dead_grave> <I>               : "Ɨ̱̀"
+<dead_belowmacron> <dead_stroke> <dead_grave> <I>               : "ɨ̱̀"
+<dead_belowmacron> <dead_stroke> <Idiaeresis>                   : "Ɨ̱̈"
+<dead_belowmacron> <dead_stroke> <idiaeresis>                   : "ɨ̱̈"
+<dead_belowmacron> <dead_stroke> <dead_diaeresis> <I>           : "Ɨ̱̈"
+<dead_belowmacron> <dead_stroke> <dead_diaeresis> <i>           : "ɨ̱̈"
+<dead_belowmacron> <dead_stroke> <dead_diaeresis> <Idotabove>   : "Ɨ̱̈"
+<dead_belowmacron> <dead_stroke> <dead_diaeresis> <idotless>    : "ɨ̱̈"
+<dead_belowmacron> <dead_abovecomma> <K>                        : "Ḵ̓"
+<dead_belowmacron> <dead_abovecomma> <k>                        : "ḵ̓"
+<dead_belowmacron> <U1E3E>                                      : "Ḿ̱"   # Ḿ + Macron Below
+<dead_belowmacron> <U1E3F>                                      : "ḿ̱"   # ḿ + Macron Below
+<dead_belowmacron> <dead_acute> <M>                             : "Ḿ̱"
+<dead_belowmacron> <dead_acute> <m>                             : "ḿ̱"
+<dead_belowmacron> <Nacute>                                     : "Ṉ́"
+<dead_belowmacron> <nacute>                                     : "ṉ́"
+<dead_belowmacron> <dead_acute> <N>                             : "Ṉ́"
+<dead_belowmacron> <dead_acute> <n>                             : "ṉ́"
+<dead_belowmacron> <Oacute>                                     : "Ó̱"
+<dead_belowmacron> <oacute>                                     : "ó̱"
+<dead_belowmacron> <dead_acute> <O>                             : "Ó̱"
+<dead_belowmacron> <dead_acute> <o>                             : "ó̱"
+<dead_belowmacron> <dead_acute> <Omacron>                       : "Ṓ̱"
+<dead_belowmacron> <dead_acute> <omacron>                       : "ṓ̱"
+<dead_belowmacron> <dead_acute> <dead_macron> <O>               : "Ṓ̱"
+<dead_belowmacron> <dead_acute> <dead_macron> <o>               : "ṓ̱"
+<dead_belowmacron> <Ograve>                                     : "Ò̱"
+<dead_belowmacron> <ograve>                                     : "ò̱"
+<dead_belowmacron> <dead_grave> <O>                             : "Ò̱"
+<dead_belowmacron> <dead_grave> <o>                             : "ò̱"
+<dead_belowmacron> <dead_grave> <Omacron>                       : "Ṑ̱"
+<dead_belowmacron> <dead_grave> <omacron>                       : "ṑ̱"
+<dead_belowmacron> <dead_grave> <dead_macron> <O>               : "Ṑ̱"
+<dead_belowmacron> <dead_grave> <dead_macron> <o>               : "ṑ̱"
+<dead_belowmacron> <Ocircumflex>                                : "Ô̱"
+<dead_belowmacron> <ocircumflex>                                : "ô̱"
+<dead_belowmacron> <dead_circumflex> <O>                        : "Ô̱"
+<dead_belowmacron> <dead_circumflex> <o>                        : "ô̱"
+<dead_belowmacron> <dead_circumflex> <Omacron>                  : "Ō̱̂"
+<dead_belowmacron> <dead_circumflex> <omacron>                  : "ō̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <O>          : "Ō̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <o>          : "ō̱̂"
+<dead_belowmacron> <Odiaeresis>                                 : "Ö̱"
+<dead_belowmacron> <odiaeresis>                                 : "ö̱"
+<dead_belowmacron> <dead_diaeresis> <O>                         : "Ö̱"
+<dead_belowmacron> <dead_diaeresis> <o>                         : "ö̱"
+<dead_belowmacron> <Otilde>                                     : "Õ̱"
+<dead_belowmacron> <otilde>                                     : "õ̱"
+<dead_belowmacron> <dead_tilde> <O>                             : "Õ̱"
+<dead_belowmacron> <dead_tilde> <o>                             : "õ̱"
+<dead_belowmacron> <Ocaron>                                     : "Ǒ̱"
+<dead_belowmacron> <ocaron>                                     : "ǒ̱"
+<dead_belowmacron> <dead_caron> <O>                             : "Ǒ̱"
+<dead_belowmacron> <dead_caron> <o>                             : "ǒ̱"
+<dead_belowmacron> <Omacron>                                    : "Ō̱"
+<dead_belowmacron> <omacron>                                    : "ō̱"
+<dead_belowmacron> <dead_macron> <O>                            : "Ō̱"
+<dead_belowmacron> <dead_macron> <o>                            : "ō̱"
+<dead_belowmacron> <dead_macron> <Oacute>                       : "Ṓ̱"
+<dead_belowmacron> <dead_macron> <oacute>                       : "ṓ̱"
+<dead_belowmacron> <dead_macron> <dead_acute> <O>               : "Ṓ̱"
+<dead_belowmacron> <dead_macron> <dead_acute> <o>               : "ṓ̱"
+<dead_belowmacron> <dead_macron> <Ograve>                       : "Ṑ̱"
+<dead_belowmacron> <dead_macron> <ograve>                       : "ṑ̱"
+<dead_belowmacron> <dead_macron> <dead_grave> <O>               : "Ṑ̱"
+<dead_belowmacron> <dead_macron> <dead_grave> <o>               : "ṑ̱"
+<dead_belowmacron> <dead_macron> <Ocircumflex>                  : "Ō̱̂"
+<dead_belowmacron> <dead_macron> <ocircumflex>                  : "ō̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <O>          : "Ō̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <o>          : "ō̱̂"
+<dead_belowmacron> <Oslash>                                     : "Ø̱"
+<dead_belowmacron> <oslash>                                     : "ø̱"
+<dead_belowmacron> <dead_longsolidusoverlay> <O>                : "Ø̱"
+<dead_belowmacron> <dead_longsolidusoverlay> <o>                : "ø̱"
+<dead_belowmacron> <Sacute>                                     : "Ś̱"
+<dead_belowmacron> <sacute>                                     : "ś̱"
+<dead_belowmacron> <dead_acute> <S>                             : "Ś̱"
+<dead_belowmacron> <dead_acute> <s>                             : "ś̱"
+<dead_belowmacron> <U1E62>                                      : "S̱̣"   # Ṣ + Macron Below
+<dead_belowmacron> <U1E63>                                      : "s̱̣"   # ṣ + Macron Below
+<dead_belowmacron> <dead_belowdot> <S>                          : "S̱̣"
+<dead_belowmacron> <dead_belowdot> <s>                          : "s̱̣"
+<dead_belowmacron> <dead_macron> <T>                            : "Ṯ̄"
+<dead_belowmacron> <dead_macron> <t>                            : "ṯ̄"
+<dead_belowmacron> <U1E6C>                                      : "Ṯ̣"   # Ṭ + Macron Below
+<dead_belowmacron> <U1E6D>                                      : "ṯ̣"   # ṭ + Macron Below
+<dead_belowmacron> <dead_belowdot> <T>                          : "Ṯ̣"
+<dead_belowmacron> <dead_belowdot> <t>                          : "ṯ̣"
+<dead_belowmacron> <Uacute>                                     : "Ú̱"
+<dead_belowmacron> <uacute>                                     : "ú̱"
+<dead_belowmacron> <dead_acute> <U>                             : "Ú̱"
+<dead_belowmacron> <dead_acute> <u>                             : "ú̱"
+<dead_belowmacron> <dead_acute> <Umacron>                       : "Ū̱́"
+<dead_belowmacron> <dead_acute> <umacron>                       : "ū̱́"
+<dead_belowmacron> <dead_acute> <dead_macron> <U>               : "Ū̱́"
+<dead_belowmacron> <dead_acute> <dead_macron> <u>               : "ū̱́"
+<dead_belowmacron> <dead_acute> <U0244>                         : "Ʉ̱́"   # Ʉ + Acute + Macron Below
+<dead_belowmacron> <dead_acute> <U0289>                         : "ʉ̱́"   # ʉ + Acute + Macron Below
+<dead_belowmacron> <dead_acute> <dead_stroke> <U>               : "Ʉ̱́"
+<dead_belowmacron> <dead_acute> <dead_stroke> <u>               : "ʉ̱́"
+<dead_belowmacron> <Ugrave>                                     : "Ù̱"
+<dead_belowmacron> <ugrave>                                     : "ù̱"
+<dead_belowmacron> <dead_grave> <U>                             : "Ù̱"
+<dead_belowmacron> <dead_grave> <u>                             : "ù̱"
+<dead_belowmacron> <dead_grave> <Umacron>                       : "Ū̱̀"
+<dead_belowmacron> <dead_grave> <umacron>                       : "ū̱̀"
+<dead_belowmacron> <dead_grave> <dead_macron> <U>               : "Ū̱̀"
+<dead_belowmacron> <dead_grave> <dead_macron> <u>               : "ū̱̀"
+<dead_belowmacron> <Ucircumflex>                                : "Û̱"
+<dead_belowmacron> <ucircumflex>                                : "û̱"
+<dead_belowmacron> <dead_circumflex> <U>                        : "Û̱"
+<dead_belowmacron> <dead_circumflex> <u>                        : "û̱"
+<dead_belowmacron> <dead_circumflex> <Umacron>                  : "Ū̱̂"
+<dead_belowmacron> <dead_circumflex> <umacron>                  : "ū̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <U>          : "Ū̱̂"
+<dead_belowmacron> <dead_circumflex> <dead_macron> <u>          : "ū̱̂"
+<dead_belowmacron> <Udiaeresis>                                 : "Ü̱"
+<dead_belowmacron> <udiaeresis>                                 : "ü̱"
+<dead_belowmacron> <dead_diaeresis> <U>                         : "Ü̱"
+<dead_belowmacron> <dead_diaeresis> <u>                         : "ü̱"
+<dead_belowmacron> <dead_diaeresis> <Utilde>                    : "Ü̱̃"
+<dead_belowmacron> <dead_diaeresis> <utilde>                    : "ü̱̃"
+<dead_belowmacron> <dead_diaeresis> <dead_tilde> <U>            : "Ü̱̃"
+<dead_belowmacron> <dead_diaeresis> <dead_tilde> <u>            : "ü̱̃"
+<dead_belowmacron> <Utilde>                                     : "Ũ̱"
+<dead_belowmacron> <utilde>                                     : "ũ̱"
+<dead_belowmacron> <dead_tilde> <U>                             : "Ũ̱"
+<dead_belowmacron> <dead_tilde> <u>                             : "ũ̱"
+<dead_belowmacron> <dead_tilde> <Udiaeresis>                    : "Ü̱̃"
+<dead_belowmacron> <dead_tilde> <udiaeresis>                    : "ü̱̃"
+<dead_belowmacron> <dead_tilde> <dead_diaeresis> <U>            : "Ü̱̃"
+<dead_belowmacron> <dead_tilde> <dead_diaeresis> <u>            : "ü̱̃"
+<dead_belowmacron> <U01D3>                                      : "Ǔ̱"   # Ǔ + Macron Below
+<dead_belowmacron> <U01D4>                                      : "ǔ̱"   # ǔ + Macron Below
+<dead_belowmacron> <dead_caron> <U>                             : "Ǔ̱"
+<dead_belowmacron> <dead_caron> <u>                             : "ǔ̱"
+<dead_belowmacron> <Umacron>                                    : "Ū̱"
+<dead_belowmacron> <umacron>                                    : "ū̱"
+<dead_belowmacron> <dead_macron> <U>                            : "Ū̱"
+<dead_belowmacron> <dead_macron> <u>                            : "ū̱"
+<dead_belowmacron> <dead_macron> <Uacute>                       : "Ū̱́"
+<dead_belowmacron> <dead_macron> <uacute>                       : "ū̱́"
+<dead_belowmacron> <dead_macron> <dead_acute> <U>               : "Ū̱́"
+<dead_belowmacron> <dead_macron> <dead_acute> <u>               : "ū̱́"
+<dead_belowmacron> <dead_macron> <Ugrave>                       : "Ū̱̀"
+<dead_belowmacron> <dead_macron> <ugrave>                       : "ū̱̀"
+<dead_belowmacron> <dead_macron> <dead_grave> <U>               : "Ū̱̀"
+<dead_belowmacron> <dead_macron> <dead_grave> <u>               : "ū̱̀"
+<dead_belowmacron> <dead_macron> <Ucircumflex>                  : "Ū̱̂"
+<dead_belowmacron> <dead_macron> <ucircumflex>                  : "ū̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <U>          : "Ū̱̂"
+<dead_belowmacron> <dead_macron> <dead_circumflex> <u>          : "ū̱̂"
+<dead_belowmacron> <U0244>                                      : "Ʉ̱"   # Ʉ + Macron Below
+<dead_belowmacron> <U0289>                                      : "ʉ̱"   # ʉ + Macron Below
+<dead_belowmacron> <dead_stroke> <U>                            : "Ʉ̱"
+<dead_belowmacron> <dead_stroke> <u>                            : "ʉ̱"
+<dead_belowmacron> <dead_stroke> <Uacute>                       : "Ʉ̱́"
+<dead_belowmacron> <dead_stroke> <uacute>                       : "ʉ̱́"
+<dead_belowmacron> <dead_stroke> <dead_acute> <U>               : "Ʉ̱́"
+<dead_belowmacron> <dead_stroke> <dead_acute> <u>               : "ʉ̱́"
+<dead_belowmacron> <UA7B8>                                      : "Ꞹ̱"   # Ꞹ + Macron Below
+<dead_belowmacron> <UA7B9>                                      : "ꞹ̱"   # ꞹ + Macron Below
+<dead_belowmacron> <dead_longsolidusoverlay> <U>                : "Ꞹ̱"
+<dead_belowmacron> <dead_longsolidusoverlay> <u>                : "ꞹ̱"
+
+##################
+# [END OF RULES] #
+##################

@@ -156,7 +156,7 @@
 <dead_belowcircumflex> <ezh>               : "ʒ̭"     # ʒ + Circumflex Below
 
 
-# Composed tilde below combinations (Not directly encoded in Unicode) (Unidirectional)
+# Composed circumflex below combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe_souscrit
 #
 <dead_belowcircumflex> <Atilde>                 : "Ã̭"
