@@ -1,0 +1,17 @@
+# Common Dead Keys | Vertical Line Above Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the combining vertical line above
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_aboveverticalline> <space>                    : "̍"    # Combining vertical line above
+<dead_aboveverticalline> <dead_aboveverticalline>   : "ˈ"   # Modifier letter vertical line above
+<dead_aboveverticalline> <less>                     : "̎"    # Combining double vertical line above
+<dead_aboveverticalline> <greater>                  : "̎"    # Combining double vertical line above
+
+##################
+# [END OF RULES] #
+##################
