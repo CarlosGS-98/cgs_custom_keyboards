@@ -8,7 +8,7 @@
 
 # Basic combinations
 <dead_aboveverticalline> <space>                    : "̍"    # Combining vertical line above
-<dead_aboveverticalline> <dead_aboveverticalline>   : "ˈ"   # Modifier letter vertical line above
+<dead_aboveverticalline> <dead_aboveverticalline>   : "ˈ"   # Modifier letter vertical line
 <dead_aboveverticalline> <less>                     : "̎"    # Combining double vertical line above
 <dead_aboveverticalline> <greater>                  : "̎"    # Combining double vertical line above
 
