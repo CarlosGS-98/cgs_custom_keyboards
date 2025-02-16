@@ -195,6 +195,8 @@
 <dead_belowmacron> <aring>                                      : "å̱"
 <dead_belowmacron> <dead_abovering> <A>                         : "Å̱"
 <dead_belowmacron> <dead_abovering> <a>                         : "å̱"
+<dead_belowmacron> <dead_belowring> <A>                         : "A̱̥"
+<dead_belowmacron> <dead_belowring> <a>                         : "a̱̥"
 <dead_belowmacron> <U01CD>                                      : "Ǎ̱"   # Ǎ + Macron Below
 <dead_belowmacron> <U01CE>                                      : "ǎ̱"   # ǎ + Macron Below
 <dead_belowmacron> <dead_caron> <A>                             : "Ǎ̱"

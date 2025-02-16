@@ -351,6 +351,8 @@
 <dead_acute> <U1E1B>                                        : "ḛ́"   # ḛ + Acute
 <dead_acute> <dead_belowtilde> <E>                          : "Ḛ́"
 <dead_acute> <dead_belowtilde> <e>                          : "ḛ́"
+<dead_acute> <dead_belowring> <E>                           : "É̥"
+<dead_acute> <dead_belowring> <e>                           : "é̥"
 <dead_acute> <U0228>                                        : "Ȩ́"
 <dead_acute> <U0229>                                        : "ȩ́"
 <dead_acute> <dead_cedilla> <E>                             : "Ȩ́"
@@ -669,6 +671,8 @@
 <dead_acute> <dead_tilde> <dead_macron> <o>                 : "ō̃́"
 <dead_acute> <dead_belowtilde> <O>                          : "Ó̰"
 <dead_acute> <dead_belowtilde> <o>                          : "ó̰"
+<dead_acute> <dead_belowring> <O>                           : "Ó̥"
+<dead_acute> <dead_belowring> <o>                           : "ó̥"
 <dead_acute> <dead_cedilla> <O>                             : "Ó̧"
 <dead_acute> <dead_cedilla> <o>                             : "ó̧"
 <dead_acute> <U01EA>                                        : "Ǫ́"   # Ǫ + Acute Accent
@@ -839,6 +843,8 @@
 <dead_acute> <U1E75>                                        : "ṵ́"   # ṵ + Acute
 <dead_acute> <dead_belowtilde> <U>                          : "Ṵ́"
 <dead_acute> <dead_belowtilde> <u>                          : "ṵ́"
+<dead_acute> <dead_belowring> <U>                           : "Ú̥"
+<dead_acute> <dead_belowring> <u>                           : "ú̥"
 <dead_acute> <dead_cedilla> <U>                             : "Ú̧"
 <dead_acute> <dead_cedilla> <u>                             : "ú̧"
 <dead_acute> <Uring>                                        : "Ů́"

@@ -1,0 +1,319 @@
+# Latin Alphabet | Ring Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowring> <A>    : "Ḁ"
+<dead_belowring> <a>    : "ḁ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Rond_souscrit
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_belowring> <U2C6F>             : "Ɐ̥"      # Ɐ + Ring Below
+<dead_belowring> <U0250>             : "ɐ̥"      # ɐ + Ring Below
+<dead_belowring> <U21BA> <A>         : "Ɐ̥"      # Ɐ + Ring Below
+<dead_belowring> <U21BA> <a>         : "ɐ̥"      # ɐ + Ring Below
+<dead_belowring> <UA732>             : "Ꜳ̥"     # Ꜳ + Ring Below
+<dead_belowring> <UA733>             : "ꜳ̥"      # ꜳ + Ring Below
+<dead_belowring> <multiply> <A> <A>  : "Ꜳ̥"     # Ꜳ + Ring Below
+<dead_belowring> <multiply> <a> <a>  : "ꜳ̥"      # ꜳ + Ring Below
+<dead_belowring> <AE>                : "Æ̥"
+<dead_belowring> <ae>                : "æ̥"
+<dead_belowring> <multiply> <A> <E>  : "Æ̥"
+<dead_belowring> <multiply> <a> <e>  : "æ̥"
+<dead_belowring> <UA734>             : "Ꜵ̥"     # Ꜵ + Ring Below
+<dead_belowring> <UA735>             : "ꜵ̥"      # ꜵ + Ring Below
+<dead_belowring> <multiply> <A> <O>  : "Ꜵ̥"     # Ꜵ + Ring Below
+<dead_belowring> <multiply> <a> <o>  : "ꜵ̥"      # ꜵ + Ring Below
+<dead_belowring> <UA736>             : "Ꜷ̥"     # Ꜷ + Ring Below
+<dead_belowring> <UA737>             : "ꜷ̥"      # ꜷ + Ring Below
+<dead_belowring> <multiply> <A> <U>  : "Ꜷ̥"     # Ꜷ + Ring Below
+<dead_belowring> <multiply> <a> <u>  : "ꜷ̥"      # ꜷ + Ring Below
+<dead_belowring> <UA738>             : "Ꜹ̥"     # Ꜹ + Ring Below
+<dead_belowring> <UA739>             : "ꜹ̥"      # ꜹ + Ring Below
+<dead_belowring> <multiply> <A> <V>  : "Ꜹ̥"     # Ꜹ + Ring Below
+<dead_belowring> <multiply> <a> <v>  : "ꜹ̥"      # ꜹ + Ring Below
+<dead_belowring> <UA73C>             : "Ꜽ̥"     # Ꜽ + Ring Below
+<dead_belowring> <UA73D>             : "ꜽ̥"      # ꜽ + Ring Below
+<dead_belowring> <multiply> <A> <Y>  : "Ꜽ̥"     # Ꜽ + Ring Below
+<dead_belowring> <multiply> <a> <y>  : "ꜽ̥"      # ꜽ + Ring Below
+<dead_belowring> <U2C6D>             : "Ɑ̥"      # Ɑ (Latin Alpha) + Ring Below
+<dead_belowring> <U0251>             : "ɑ̥"      # ɑ (Latin Alpha) + Ring Below
+<dead_belowring> <B>                 : "B̥"
+<dead_belowring> <b>                 : "b̥"
+<dead_belowring> <C>                 : "C̥"
+<dead_belowring> <c>                 : "c̥"
+<dead_belowring> <D>                 : "D̥"
+<dead_belowring> <d>                 : "d̥"
+<dead_belowring> <ETH>               : "Ð̥"
+<dead_belowring> <eth>               : "ð̥"
+<dead_belowring> <UA779>             : "Ꝺ̥"      # Ꝺ (Insular D) + Ring Below
+<dead_belowring> <UA77A>             : "ꝺ̥"      # ꝺ (Insular D) + Ring Below
+<dead_belowring> <E>                 : "E̥"
+<dead_belowring> <e>                 : "e̥"
+<dead_belowring> <U0190>             : "Ɛ̥"      # Ɛ (Latin Epsilon) + Ring Below
+<dead_belowring> <U025B>             : "ɛ̥"      # ɛ (Latin Epsilon) + Ring Below
+<dead_belowring> <SCHWA>             : "Ə̥"      # Ə (Schwa) + Ring Below
+<dead_belowring> <schwa>             : "ə̥"      # ə (Schwa) + Ring Below
+<dead_belowring> <U018E>             : "Ǝ̥"      # Ǝ (Turned E) + Ring Below
+<dead_belowring> <U01DD>             : "ǝ̥"      # ǝ (Turned E) + Ring Below
+<dead_belowring> <U21BA> <E>         : "Ǝ̥"      # Ǝ (Turned E) + Ring Below
+<dead_belowring> <U21BA> <e>         : "ǝ̥"      # ǝ (Turned E) + Ring Below
+<dead_belowring> <F>                 : "F̥"
+<dead_belowring> <f>                 : "f̥"
+<dead_belowring> <UA77B>             : "Ꝼ̥"      # Ꝼ (Insular F) + Ring Below
+<dead_belowring> <UA77C>             : "ꝼ̥"      # ꝼ (Insular F) + Ring Below
+<dead_belowring> <G>                 : "G̥"
+<dead_belowring> <g>                 : "g̥"
+<dead_belowring> <U0194>             : "Ɣ̥"      # Ɣ (Latin Gamma) + Ring Below
+<dead_belowring> <U0263>             : "ɣ̥"      # ɣ (Latin Gamma) + Ring Below
+<dead_belowring> <H>                 : "H̥"
+<dead_belowring> <h>                 : "h̥"
+<dead_belowring> <UA78D>             : "Ɥ̥"      # Ɥ (Turned H) + Ring Below
+<dead_belowring> <U0265>             : "ɥ̥"      # ɥ (Turned H) + Ring Below
+<dead_belowring> <U21BA> <H>         : "Ɥ̥"      # Ɥ (Turned H) + Ring Below
+<dead_belowring> <U21BA> <h>         : "ɥ̥"      # ɥ (Turned H) + Ring Below
+<dead_belowring> <I>                 : "I̥"
+<dead_belowring> <i>                 : "i̥"
+<dead_belowring> <U0196>             : "Ɩ̥"      # Ɩ (Latin Iota) + Ring Below
+<dead_belowring> <U0269>             : "ɩ̥"      # ɩ (Latin Iota) + Ring Below
+<dead_belowring> <J>                 : "J̥"
+<dead_belowring> <j>                 : "j̥"
+<dead_belowring> <K>                 : "K̥"
+<dead_belowring> <k>                 : "k̥"
+<dead_belowring> <L>                 : "L̥"
+<dead_belowring> <l>                 : "l̥"
+<dead_belowring> <M>                 : "M̥"
+<dead_belowring> <m>                 : "m̥"
+<dead_belowring> <N>                 : "N̥"
+<dead_belowring> <n>                 : "n̥"
+<dead_belowring> <ENG>               : "Ŋ̥"      # Ŋ + Ring Below
+<dead_belowring> <eng>               : "ŋ̥"      # ŋ + Ring Below
+<dead_belowring> <O>                 : "O̥"
+<dead_belowring> <o>                 : "o̥"
+<dead_belowring> <OE>                : "Œ̥"
+<dead_belowring> <oe>                : "œ̥"
+<dead_belowring> <multiply> <O> <E>  : "Œ̥"
+<dead_belowring> <multiply> <o> <e>  : "œ̥"
+<dead_belowring> <UA74E>             : "Ꝏ̥"     # Ꝏ + Ring Below
+<dead_belowring> <UA74F>             : "ꝏ̥"     # ꝏ + Ring Below
+<dead_belowring> <multiply> <O> <O>  : "Ꝏ̥"     # Ꝏ + Ring Below
+<dead_belowring> <multiply> <o> <o>  : "ꝏ̥"     # ꝏ + Ring Below
+<dead_belowring> <U0186>             : "Ɔ̥"      # Ɔ + Ring Below
+<dead_belowring> <U0254>             : "ɔ̥"      # ɔ + Ring Below
+<dead_belowring> <UA7CB>             : "Ɤ̥"      # Ɤ (Ram's Horn) + Ring Below
+<dead_belowring> <U0264>             : "ɤ̥"      # ɤ (Ram's Horn) + Ring Below
+<dead_belowring> <P>                 : "P̥"
+<dead_belowring> <p>                 : "p̥"
+<dead_belowring> <Q>                 : "Q̥"
+<dead_belowring> <q>                 : "q̥"
+<dead_belowring> <R>                 : "R̥"
+<dead_belowring> <r>                 : "r̥"
+<dead_belowring> <U01A6>             : "Ʀ̥"     # Ʀ (Yr) + Ring Below
+<dead_belowring> <U0280>             : "ʀ̥"     # ʀ (Yr) + Ring Below
+<dead_belowring> <A75A>              : "Ꝛ̥"     # Ꝛ (R Rotunda) + Ring Below
+<dead_belowring> <A75B>              : "ꝛ̥"     # ꝛ (R Rotunda) + Ring Below
+<dead_belowring> <S>                 : "S̥"
+<dead_belowring> <s>                 : "s̥"
+<dead_belowring> <T>                 : "T̥"
+<dead_belowring> <t>                 : "t̥"
+<dead_belowring> <THORN>             : "Þ̥"
+<dead_belowring> <thorn>             : "þ̥"
+<dead_belowring> <U>                 : "U̥"
+<dead_belowring> <u>                 : "u̥"
+<dead_belowring> <U01B1>             : "Ʊ̥"     # Ʊ (Latin Upsilon) + Ring Below
+<dead_belowring> <U028A>             : "ʊ̥"     # ʊ (Latin Upsilon) + Ring Below
+<dead_belowring> <U019C>             : "Ɯ̥"     # Ɯ (Turned M) + Ring Below
+<dead_belowring> <U026F>             : "ɯ̥"     # ɯ (Turned M) + Ring Below
+<dead_belowring> <U21BA> <M>         : "Ɯ̥"     # Ɯ (Turned M) + Ring Below
+<dead_belowring> <U21BA> <m>         : "ɯ̥"     # ɯ (Turned M) + Ring Below
+<dead_belowring> <V>                 : "V̥"
+<dead_belowring> <v>                 : "v̥"
+<dead_belowring> <U0245>             : "Ʌ̥"     # Ʌ + Ring Below
+<dead_belowring> <U028C>             : "ʌ̥"     # ʌ + Ring Below
+<dead_belowring> <U21BA> <V>         : "Ʌ̥"     # Ʌ + Ring Below
+<dead_belowring> <U21BA> <v>         : "ʌ̥"     # ʌ + Ring Below
+<dead_belowring> <U01B2>             : "Ʋ̥"     # Ʋ + Ring Below
+<dead_belowring> <U028B>             : "ʋ̥"     # ʋ + Ring Below
+<dead_belowring> <UA768>             : "Ꝩ̥"     # Ꝩ (Vend) + Ring Below
+<dead_belowring> <UA769>             : "ꝩ̥"     # ꝩ (Vend) + Ring Below
+<dead_belowring> <W>                 : "W̥"
+<dead_belowring> <w>                 : "w̥"
+<dead_belowring> <UA760>             : "Ꝡ̥"     # Ꝡ + Ring Below
+<dead_belowring> <UA761>             : "ꝡ̥"     # ꝡ + Ring Below
+<dead_belowring> <multiply> <V> <Y>  : "Ꝡ̥"
+<dead_belowring> <multiply> <v> <y>  : "ꝡ̥"
+<dead_belowring> <X>                 : "X̥"
+<dead_belowring> <x>                 : "x̥"
+<dead_belowring> <Y>                 : "Y̥"
+<dead_belowring> <y>                 : "y̥"
+<dead_belowring> <Z>                 : "Z̥"
+<dead_belowring> <z>                 : "z̥"
+<dead_belowring> <EZH>               : "Ʒ̥"     # Ʒ + Ring Below
+<dead_belowring> <ezh>               : "ʒ̥"     # ʒ + Ring Below
+
+
+# Composed vertical line above combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Rond_souscrit
+#
+<dead_belowring> <Aacute>                                   : "Ḁ́"
+<dead_belowring> <aacute>                                   : "ḁ́"
+<dead_belowring> <dead_acute> <A>                           : "Ḁ́"
+<dead_belowring> <dead_acute> <a>                           : "ḁ́"
+<dead_belowring> <Acircumflex>                              : "Ḁ̂"
+<dead_belowring> <acircumflex>                              : "ḁ̂"
+<dead_belowring> <dead_circumflex> <A>                      : "Ḁ̂"
+<dead_belowring> <dead_circumflex> <a>                      : "ḁ̂"
+<dead_belowring> <dead_tilde> <A>                           : "Ḁ̃"
+<dead_belowring> <dead_tilde> <a>                           : "ḁ̃"
+<dead_belowring> <dead_belowmacron> <A>                     : "A̱̥"
+<dead_belowring> <dead_belowmacron> <a>                     : "a̱̥"
+<dead_belowring> <Eacute>                                   : "É̥"
+<dead_belowring> <eacute>                                   : "é̥"
+<dead_belowring> <dead_acute> <E>                           : "É̥"
+<dead_belowring> <dead_acute> <e>                           : "é̥"
+<dead_belowring> <Hstroke>                                  : "Ħ̥"
+<dead_belowring> <hstroke>                                  : "ħ̥"
+<dead_belowring> <dead_stroke> <H>                          : "Ħ̥"
+<dead_belowring> <dead_stroke> <h>                          : "ħ̥"
+<dead_belowring> <Iacute>                                   : "Í̥"
+<dead_belowring> <iacute>                                   : "í̥"
+<dead_belowring> <dead_acute> <I>                           : "Í̥"
+<dead_belowring> <dead_acute> <i>                           : "í̥"
+<dead_belowring> <Lacute>                                   : "Ĺ̥"
+<dead_belowring> <lacute>                                   : "ĺ̥"
+<dead_belowring> <dead_acute> <L>                           : "Ĺ̥"
+<dead_belowring> <dead_acute> <l>                           : "ĺ̥"
+<dead_belowring> <dead_acute> <dead_macron> <L>             : "L̥̄́"
+<dead_belowring> <dead_acute> <dead_macron> <l>             : "l̥̄́"
+<dead_belowring> <dead_grave> <L>                           : "L̥̀"
+<dead_belowring> <dead_grave> <l>                           : "l̥̀"
+<dead_belowring> <dead_caron> <L>                           : "Ľ̥"
+<dead_belowring> <dead_caron> <l>                           : "ľ̥"
+<dead_belowring> <dead_macron> <L>                          : "L̥̄"
+<dead_belowring> <dead_macron> <l>                          : "l̥̄"
+<dead_belowring> <dead_macron> <Lacute>                     : "L̥̄́"
+<dead_belowring> <dead_macron> <lacute>                     : "l̥̄́"
+<dead_belowring> <dead_macron> <dead_acute> <L>             : "L̥̄́"
+<dead_belowring> <dead_macron> <dead_acute> <l>             : "l̥̄́"
+<dead_belowring> <dead_breve> <dead_macron> <L>             : "L̥̄̆"
+<dead_belowring> <dead_breve> <dead_macron> <l>             : "l̥̄̆"
+<dead_belowring> <U1E3E>                                    : "Ḿ̥"   # Ḿ + Ring Below
+<dead_belowring> <U1E3F>                                    : "ḿ̥"   # ḿ + Ring Below
+<dead_belowring> <dead_acute> <M>                           : "Ḿ̥"
+<dead_belowring> <dead_acute> <m>                           : "ḿ̥"
+<dead_belowring> <dead_acute> <dead_macron> <M>             : "M̥̄́"
+<dead_belowring> <dead_acute> <dead_macron> <m>             : "m̥̄́"
+<dead_belowring> <dead_macron> <M>                          : "M̥̄"
+<dead_belowring> <dead_macron> <m>                          : "m̥̄"
+<dead_belowring> <dead_macron> <U1E3E>                      : "M̥̄́"
+<dead_belowring> <dead_macron> <U1E3F>                      : "m̥̄́"
+<dead_belowring> <dead_macron> <dead_acute> <M>             : "M̥̄́"
+<dead_belowring> <dead_macron> <dead_acute> <m>             : "m̥̄́"
+<dead_belowring> <dead_macron> <dead_breve> <M>             : "M̥̄̆"
+<dead_belowring> <dead_macron> <dead_breve> <m>             : "m̥̄̆"
+<dead_belowring> <dead_breve> <dead_macron> <M>             : "M̥̄̆"
+<dead_belowring> <dead_breve> <dead_macron> <m>             : "m̥̄̆"
+<dead_belowring> <Nacute>                                   : "Ń̥"
+<dead_belowring> <nacute>                                   : "ń̥"
+<dead_belowring> <dead_acute> <N>                           : "Ń̥"
+<dead_belowring> <dead_acute> <n>                           : "ń̥"
+<dead_belowring> <dead_acute> <Ntilde>                      : "Ñ̥́"
+<dead_belowring> <dead_acute> <ntilde>                      : "ñ̥́"
+<dead_belowring> <dead_acute> <dead_tilde> <N>              : "Ñ̥́"
+<dead_belowring> <dead_acute> <dead_tilde> <n>              : "ñ̥́"
+<dead_belowring> <dead_acute> <dead_macron> <N>             : "N̥̄́"
+<dead_belowring> <dead_acute> <dead_macron> <n>             : "n̥̄́"
+<dead_belowring> <dead_acute> <dead_invertedbreve> <N>      : "N̥̑́"
+<dead_belowring> <dead_acute> <dead_invertedbreve> <n>      : "n̥̑́"
+<dead_belowring> <U01F8>                                    : "Ǹ̥"
+<dead_belowring> <U01F9>                                    : "ǹ̥"
+<dead_belowring> <dead_grave> <N>                           : "Ǹ̥"
+<dead_belowring> <dead_grave> <n>                           : "ǹ̥"
+<dead_belowring> <Ntilde>                                   : "Ñ̥"
+<dead_belowring> <ntilde>                                   : "ñ̥"
+<dead_belowring> <dead_tilde> <N>                           : "Ñ̥"
+<dead_belowring> <dead_tilde> <n>                           : "ñ̥"
+<dead_belowring> <dead_tilde> <Nacute>                      : "Ñ̥́"
+<dead_belowring> <dead_tilde> <nacute>                      : "ñ̥́"
+<dead_belowring> <dead_tilde> <dead_acute> <N>              : "Ñ̥́"
+<dead_belowring> <dead_tilde> <dead_acute> <n>              : "ñ̥́"
+<dead_belowring> <dead_macron> <N>                          : "N̥̄"
+<dead_belowring> <dead_macron> <n>                          : "n̥̄"
+<dead_belowring> <dead_macron> <Nacute>                     : "N̥̄́"
+<dead_belowring> <dead_macron> <nacute>                     : "n̥̄́"
+<dead_belowring> <dead_macron> <dead_acute> <N>             : "N̥̄́"
+<dead_belowring> <dead_macron> <dead_acute> <n>             : "n̥̄́"
+<dead_belowring> <dead_macron> <dead_breve> <N>             : "N̥̄̆"
+<dead_belowring> <dead_macron> <dead_breve> <n>             : "n̥̄̆"
+<dead_belowring> <dead_macron> <dead_invertedbreve> <N>     : "N̥̄̑"
+<dead_belowring> <dead_macron> <dead_invertedbreve> <n>     : "n̥̄̑"
+<dead_belowring> <dead_breve> <dead_macron> <N>             : "N̥̄̆"
+<dead_belowring> <dead_breve> <dead_macron> <n>             : "n̥̄̆"
+<dead_belowring> <dead_invertedbreve> <N>                   : "N̥̑"
+<dead_belowring> <dead_invertedbreve> <n>                   : "n̥̑"
+<dead_belowring> <dead_invertedbreve> <Nacute>              : "N̥̑́"
+<dead_belowring> <dead_invertedbreve> <nacute>              : "n̥̑́"
+<dead_belowring> <dead_invertedbreve> <dead_acute> <N>      : "N̥̑́"
+<dead_belowring> <dead_invertedbreve> <dead_acute> <n>      : "n̥̑́"
+<dead_belowring> <dead_invertedbreve> <dead_macron> <N>     : "N̥̄̑"
+<dead_belowring> <dead_invertedbreve> <dead_macron> <n>     : "n̥̄̑"
+<dead_belowring> <dead_abovedot> <N>                        : "Ṅ̥"
+<dead_belowring> <dead_abovedot> <n>                        : "ṅ̥"
+<dead_belowring> <dead_acute> <ENG>                         : "Ŋ̥́"
+<dead_belowring> <dead_acute> <eng>                         : "ŋ̥́"
+<dead_belowring> <dead_acute> <dead_macron> <ENG>           : "Ŋ̥̄́"
+<dead_belowring> <dead_acute> <dead_macron> <eng>           : "ŋ̥̄́"
+<dead_belowring> <dead_macron> <ENG>                        : "Ŋ̥̄"
+<dead_belowring> <dead_macron> <eng>                        : "ŋ̥̄"
+<dead_belowring> <dead_macron> <dead_acute> <ENG>           : "Ŋ̥̄́"
+<dead_belowring> <dead_macron> <dead_acute> <eng>           : "ŋ̥̄́"
+<dead_belowring> <Oacute>                                   : "Ó̥"
+<dead_belowring> <oacute>                                   : "ó̥"
+<dead_belowring> <dead_acute> <O>                           : "Ó̥"
+<dead_belowring> <dead_acute> <o>                           : "ó̥"
+<dead_belowring> <dead_macron> <O>                          : "Ō̥"
+<dead_belowring> <dead_macron> <o>                          : "ō̥"
+<dead_belowring> <Racute>                                   : "Ŕ̥"
+<dead_belowring> <racute>                                   : "ŕ̥"
+<dead_belowring> <dead_acute> <R>                           : "Ŕ̥"
+<dead_belowring> <dead_acute> <r>                           : "ŕ̥"
+<dead_belowring> <dead_acute> <dead_macron> <R>             : "R̥̄́"
+<dead_belowring> <dead_acute> <dead_macron> <r>             : "r̥̄́"
+<dead_belowring> <dead_grave> <R>                           : "R̥̀"
+<dead_belowring> <dead_grave> <r>                           : "r̥̀"
+<dead_belowring> <dead_grave> <dead_macron> <R>             : "R̥̄̀"
+<dead_belowring> <dead_grave> <dead_macron> <r>             : "r̥̄̀"
+<dead_belowring> <dead_circumflex> <R>                      : "R̥̂"
+<dead_belowring> <dead_circumflex> <r>                      : "r̥̂"
+<dead_belowring> <dead_tilde> <R>                           : "R̥̃"
+<dead_belowring> <dead_tilde> <r>                           : "r̥̃"
+<dead_belowring> <dead_caron> <R>                           : "Ř̥"
+<dead_belowring> <dead_caron> <r>                           : "ř̥"
+<dead_belowring> <dead_macron> <R>                          : "R̥̄"
+<dead_belowring> <dead_macron> <r>                          : "r̥̄"
+<dead_belowring> <dead_macron> <Racute>                     : "R̥̄́"
+<dead_belowring> <dead_macron> <racute>                     : "r̥̄́"
+<dead_belowring> <dead_macron> <dead_acute> <R>             : "R̥̄́"
+<dead_belowring> <dead_macron> <dead_acute> <r>             : "r̥̄́"
+<dead_belowring> <dead_macron> <dead_grave> <R>             : "R̥̄̀"
+<dead_belowring> <dead_macron> <dead_grave> <r>             : "r̥̄̀"
+<dead_belowring> <dead_macron> <dead_breve> <R>             : "R̥̄̆"
+<dead_belowring> <dead_macron> <dead_breve> <r>             : "r̥̄̆"
+<dead_belowring> <dead_breve> <dead_macron> <R>             : "R̥̄̆"
+<dead_belowring> <dead_breve> <dead_macron> <r>             : "r̥̄̆"
+<dead_belowring> <Sacute>                                   : "Ś̥"
+<dead_belowring> <sacute>                                   : "ś̥"
+<dead_belowring> <dead_acute> <S>                           : "Ś̥"
+<dead_belowring> <dead_acute> <s>                           : "ś̥"
+<dead_belowring> <Uacute>                                   : "Ú̥"
+<dead_belowring> <uacute>                                   : "ú̥"
+<dead_belowring> <dead_acute> <U>                           : "Ú̥"
+<dead_belowring> <dead_acute> <u>                           : "ú̥"
+
+##################
+# [END OF RULES] #
+##################
