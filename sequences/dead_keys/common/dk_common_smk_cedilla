@@ -1,0 +1,17 @@
+# Common Dead Keys | Cedilla Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the cedilla
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_cedilla> <space>          : "̧"    # Combining ring below
+<dead_cedilla> <dead_cedilla>   : "¸"   # Regular spacing cedilla
+<dead_cedilla> <less>           : "̒"    # Combining turned comma above
+<dead_cedilla> <greater>        : "̒"    # Combining turned comma above
+
+##################
+# [END OF RULES] #
+##################

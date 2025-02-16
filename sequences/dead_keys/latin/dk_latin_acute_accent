@@ -353,8 +353,8 @@
 <dead_acute> <dead_belowtilde> <e>                          : "ḛ́"
 <dead_acute> <dead_belowring> <E>                           : "É̥"
 <dead_acute> <dead_belowring> <e>                           : "é̥"
-<dead_acute> <U0228>                                        : "Ȩ́"
-<dead_acute> <U0229>                                        : "ȩ́"
+<dead_acute> <U0228>                                        : "Ȩ́"   # Ȩ + Acute
+<dead_acute> <U0229>                                        : "ȩ́"   # ȩ + Acute
 <dead_acute> <dead_cedilla> <E>                             : "Ȩ́"
 <dead_acute> <dead_cedilla> <e>                             : "ȩ́"
 <dead_acute> <Ecaron>                                       : "Ě́"
