@@ -1,0 +1,234 @@
+# Latin Alphabet | Horn Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_horn> <O> : "Ơ"
+<dead_horn> <o> : "ơ"
+<dead_horn> <U> : "Ư"
+<dead_horn> <u> : "ư"
+
+
+# Precomposed Vietnamese letter combinations (Unidirectional)
+<dead_horn> <Oacute>            : "Ớ"
+<dead_horn> <oacute>            : "ớ"
+<dead_horn> <dead_acute> <O>    : "Ớ"
+<dead_horn> <dead_acute> <o>    : "ớ"
+<dead_horn> <Ograve>            : "Ờ"
+<dead_horn> <ograve>            : "ờ"
+<dead_horn> <dead_grave> <O>    : "Ờ"
+<dead_horn> <dead_grave> <o>    : "ờ"
+<dead_horn> <Otilde>            : "Ỡ"
+<dead_horn> <otilde>            : "ỡ"
+<dead_horn> <dead_horn> <O>    : "Ỡ"
+<dead_horn> <dead_horn> <o>    : "ỡ"
+<dead_horn> <Obelowdot>         : "Ợ"
+<dead_horn> <obelowdot>         : "ợ"
+<dead_horn> <dead_belowdot> <O> : "Ợ"
+<dead_horn> <dead_belowdot> <o> : "ợ"
+<dead_horn> <Ohook>             : "Ở"
+<dead_horn> <ohook>             : "ở"
+<dead_horn> <dead_hook> <O>     : "Ở"
+<dead_horn> <dead_hook> <o>     : "ở"
+<dead_horn> <Uacute>            : "Ứ"
+<dead_horn> <uacute>            : "ứ"
+<dead_horn> <dead_acute> <U>    : "Ứ"
+<dead_horn> <dead_acute> <u>    : "ứ"
+<dead_horn> <Ugrave>            : "Ừ"
+<dead_horn> <ugrave>            : "ừ"
+<dead_horn> <dead_grave> <U>    : "Ừ"
+<dead_horn> <dead_grave> <u>    : "ừ"
+<dead_horn> <Utilde>            : "Ữ"
+<dead_horn> <utilde>            : "ữ"
+<dead_horn> <dead_horn> <U>    : "Ữ"
+<dead_horn> <dead_horn> <u>    : "ữ"
+<dead_horn> <Ubelowdot>         : "Ự"
+<dead_horn> <ubelowdot>         : "ự"
+<dead_horn> <dead_belowdot> <U> : "Ự"
+<dead_horn> <dead_belowdot> <u> : "ự"
+<dead_horn> <Uhook>             : "Ử"
+<dead_horn> <uhook>             : "ử"
+<dead_horn> <dead_hook> <U>     : "Ử"
+<dead_horn> <dead_hook> <u>     : "ử"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Cornu_(diacritique)
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_horn> <A>                 : "A̛"
+<dead_horn> <a>                 : "a̛"
+<dead_horn> <U2C6F>             : "Ɐ̛"      # Ɐ + Horn
+<dead_horn> <U0250>             : "ɐ̛"      # ɐ + Horn
+<dead_horn> <U21BA> <A>         : "Ɐ̛"      # Ɐ + Horn
+<dead_horn> <U21BA> <a>         : "ɐ̛"      # ɐ + Horn
+<dead_horn> <UA732>             : "Ꜳ̛"     # Ꜳ + Horn
+<dead_horn> <UA733>             : "ꜳ̛"      # ꜳ + Horn
+<dead_horn> <multiply> <A> <A>  : "Ꜳ̛"     # Ꜳ + Horn
+<dead_horn> <multiply> <a> <a>  : "ꜳ̛"      # ꜳ + Horn
+<dead_horn> <AE>                : "Æ̛"
+<dead_horn> <ae>                : "æ̛"
+<dead_horn> <multiply> <A> <E>  : "Æ̛"
+<dead_horn> <multiply> <a> <e>  : "æ̛"
+<dead_horn> <UA734>             : "Ꜵ̛"     # Ꜵ + Horn
+<dead_horn> <UA735>             : "ꜵ̛"      # ꜵ + Horn
+<dead_horn> <multiply> <A> <O>  : "Ꜵ̛"     # Ꜵ + Horn
+<dead_horn> <multiply> <a> <o>  : "ꜵ̛"      # ꜵ + Horn
+<dead_horn> <UA736>             : "Ꜷ̛"     # Ꜷ + Horn
+<dead_horn> <UA737>             : "ꜷ̛"      # ꜷ + Horn
+<dead_horn> <multiply> <A> <U>  : "Ꜷ̛"     # Ꜷ + Horn
+<dead_horn> <multiply> <a> <u>  : "ꜷ̛"      # ꜷ + Horn
+<dead_horn> <UA738>             : "Ꜹ̛"     # Ꜹ + Horn
+<dead_horn> <UA739>             : "ꜹ̛"      # ꜹ + Horn
+<dead_horn> <multiply> <A> <V>  : "Ꜹ̛"     # Ꜹ + Horn
+<dead_horn> <multiply> <a> <v>  : "ꜹ̛"      # ꜹ + Horn
+<dead_horn> <UA73C>             : "Ꜽ̛"     # Ꜽ + Horn
+<dead_horn> <UA73D>             : "ꜽ̛"      # ꜽ + Horn
+<dead_horn> <multiply> <A> <Y>  : "Ꜽ̛"     # Ꜽ + Horn
+<dead_horn> <multiply> <a> <y>  : "ꜽ̛"      # ꜽ + Horn
+<dead_horn> <U2C6D>             : "Ɑ̛"      # Ɑ (Latin Alpha) + Horn
+<dead_horn> <U0251>             : "ɑ̛"      # ɑ (Latin Alpha) + Horn
+<dead_horn> <B>                 : "B̛"
+<dead_horn> <b>                 : "b̛"
+<dead_horn> <C>                 : "C̛"
+<dead_horn> <c>                 : "c̛"
+<dead_horn> <D>                 : "D̛"
+<dead_horn> <d>                 : "d̛"
+<dead_horn> <ETH>               : "Ð̛"
+<dead_horn> <eth>               : "ð̛"
+<dead_horn> <UA779>             : "Ꝺ̛"      # Ꝺ (Insular D) + Horn
+<dead_horn> <UA77A>             : "ꝺ̛"      # ꝺ (Insular D) + Horn
+<dead_horn> <E>                 : "E̛"
+<dead_horn> <e>                 : "e̛"
+<dead_horn> <U0190>             : "Ɛ̛"      # Ɛ (Latin Epsilon) + Horn
+<dead_horn> <U025B>             : "ɛ̛"      # ɛ (Latin Epsilon) + Horn
+<dead_horn> <SCHWA>             : "Ə̛"      # Ə (Schwa) + Horn
+<dead_horn> <schwa>             : "ə̛"      # ə (Schwa) + Horn
+<dead_horn> <U018E>             : "Ǝ̛"      # Ǝ (Turned E) + Horn
+<dead_horn> <U01DD>             : "ǝ̛"      # ǝ (Turned E) + Horn
+<dead_horn> <U21BA> <E>         : "Ǝ̛"      # Ǝ (Turned E) + Horn
+<dead_horn> <U21BA> <e>         : "ǝ̛"      # ǝ (Turned E) + Horn
+<dead_horn> <F>                 : "F̛"
+<dead_horn> <f>                 : "f̛"
+<dead_horn> <UA77B>             : "Ꝼ̛"      # Ꝼ (Insular F) + Horn
+<dead_horn> <UA77C>             : "ꝼ̛"      # ꝼ (Insular F) + Horn
+<dead_horn> <G>                 : "G̛"
+<dead_horn> <g>                 : "g̛"
+<dead_horn> <H>                 : "H̛"
+<dead_horn> <h>                 : "h̛"
+<dead_horn> <U0194>             : "Ɣ̛"      # Ɣ (Latin Gamma) + Horn
+<dead_horn> <U0263>             : "ɣ̛"      # ɣ (Latin Gamma) + Horn
+<dead_horn> <UA78D>             : "Ɥ̛"      # Ɥ (Turned H) + Horn
+<dead_horn> <U0265>             : "ɥ̛"      # ɥ (Turned H) + Horn
+<dead_horn> <U21BA> <H>         : "Ɥ̛"      # Ɥ (Turned H) + Horn
+<dead_horn> <U21BA> <h>         : "ɥ̛"      # ɥ (Turned H) + Horn
+<dead_horn> <I>                 : "I̛"
+<dead_horn> <i>                 : "i̛"
+<dead_horn> <U0196>             : "Ɩ̛"      # Ɩ (Latin Iota) + Horn
+<dead_horn> <U0269>             : "ɩ̛"      # ɩ (Latin Iota) + Horn
+<dead_horn> <J>                 : "J̛"
+<dead_horn> <j>                 : "j̛"
+<dead_horn> <K>                 : "K̛"
+<dead_horn> <k>                 : "k̛"
+<dead_horn> <L>                 : "L̛"
+<dead_horn> <l>                 : "l̛"
+<dead_horn> <M>                 : "M̛"
+<dead_horn> <m>                 : "m̛"
+<dead_horn> <N>                 : "N̛"
+<dead_horn> <n>                 : "n̛"
+<dead_horn> <ENG>               : "Ŋ̛"      # Ŋ + Horn
+<dead_horn> <eng>               : "ŋ̛"      # ŋ + Horn
+<dead_horn> <OE>                : "Œ̛"
+<dead_horn> <oe>                : "œ̛"
+<dead_horn> <multiply> <O> <E>  : "Œ̛"
+<dead_horn> <multiply> <o> <e>  : "œ̛"
+<dead_horn> <UA74E>             : "Ꝏ̛"     # Ꝏ + Horn
+<dead_horn> <UA74F>             : "ꝏ̛"     # ꝏ + Horn
+<dead_horn> <multiply> <O> <O>  : "Ꝏ̛"     # Ꝏ + Horn
+<dead_horn> <multiply> <o> <o>  : "ꝏ̛"     # ꝏ + Horn
+<dead_horn> <U0186>             : "Ɔ̛"      # Ɔ + Horn
+<dead_horn> <U0254>             : "ɔ̛"      # ɔ + Horn
+<dead_horn> <UA7CB>             : "Ɤ̛"      # Ɤ (Ram's Horn) + Horn
+<dead_horn> <U0264>             : "ɤ̛"      # ɤ (Ram's Horn) + Horn
+<dead_horn> <P>                 : "P̛"
+<dead_horn> <p>                 : "p̛"
+<dead_horn> <Q>                 : "Q̛"
+<dead_horn> <q>                 : "q̛"
+<dead_horn> <R>                 : "R̛"
+<dead_horn> <r>                 : "r̛"
+<dead_horn> <U01A6>             : "Ʀ̛"     # Ʀ (Yr) + Horn
+<dead_horn> <U0280>             : "ʀ̛"     # ʀ (Yr) + Horn
+<dead_horn> <A75A>              : "Ꝛ̛"     # Ꝛ (R Rotunda) + Horn
+<dead_horn> <A75B>              : "ꝛ̛"     # ꝛ (R Rotunda) + Horn
+<dead_horn> <S>                 : "S̛"
+<dead_horn> <s>                 : "s̛"
+<dead_horn> <U1E9E>             : "ẞ̛"     # ẞ (Eszett) + Horn
+<dead_horn> <ssharp>            : "ß̛"
+<dead_horn> <THORN>             : "Þ̛"
+<dead_horn> <thorn>             : "þ̛"
+<dead_horn> <T>                 : "T̛"
+<dead_horn> <t>                 : "t̛"
+<dead_horn> <U01B1>             : "Ʊ̛"     # Ʊ (Latin Upsilon) + Horn
+<dead_horn> <U028A>             : "ʊ̛"     # ʊ (Latin Upsilon) + Horn
+<dead_horn> <U019C>             : "Ɯ̛"     # Ɯ (Turned M) + Horn
+<dead_horn> <U026F>             : "ɯ̛"     # ɯ (Turned M) + Horn
+<dead_horn> <U21BA> <M>         : "Ɯ̛"     # Ɯ (Turned M) + Horn
+<dead_horn> <U21BA> <m>         : "ɯ̛"     # ɯ (Turned M) + Horn
+<dead_horn> <V>                 : "V̛"
+<dead_horn> <v>                 : "v̛"
+<dead_horn> <U0245>             : "Ʌ̛"     # Ʌ + Horn
+<dead_horn> <U028C>             : "ʌ̛"     # ʌ + Horn
+<dead_horn> <U21BA> <V>         : "Ʌ̛"     # Ʌ + Horn
+<dead_horn> <U21BA> <v>         : "ʌ̛"     # ʌ + Horn
+<dead_horn> <U01B2>             : "Ʋ̛"     # Ʋ + Horn
+<dead_horn> <U028B>             : "ʋ̛"     # ʋ + Horn
+<dead_horn> <UA768>             : "Ꝩ̛"     # Ꝩ (Vend) + Horn
+<dead_horn> <UA769>             : "ꝩ̛"     # ꝩ (Vend) + Horn
+<dead_horn> <W>                 : "W̛"
+<dead_horn> <w>                 : "w̛"
+<dead_horn> <UA760>             : "Ꝡ̛"     # Ꝡ + Horn
+<dead_horn> <UA761>             : "ꝡ̛"     # ꝡ + Horn
+<dead_horn> <multiply> <V> <Y>  : "Ꝡ̛"
+<dead_horn> <multiply> <v> <y>  : "ꝡ̛"
+<dead_horn> <X>                 : "X̛"
+<dead_horn> <x>                 : "x̛"
+<dead_horn> <Y>                 : "Y̛"
+<dead_horn> <y>                 : "y̛"
+<dead_horn> <Z>                 : "Z̛"
+<dead_horn> <z>                 : "z̛"
+<dead_horn> <EZH>               : "Ʒ̛"     # Ʒ + Horn
+<dead_horn> <ezh>               : "ʒ̛"     # ʒ + Horn
+
+
+# Composed horn combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main reference]: https://fr.wikipedia.org/wiki/Cornu_(diacritique)
+#
+<dead_horn> <Omacron>                       : "Ơ̄"
+<dead_horn> <omacron>                       : "ơ̄"
+<dead_horn> <dead_macron> <O>               : "Ơ̄"
+<dead_horn> <dead_macron> <o>               : "ơ̄"
+<dead_horn> <U014E>                         : "Ơ̆"   # Ŏ + Horn
+<dead_horn> <U014F>                         : "ơ̆"   # ŏ + Horn
+<dead_horn> <dead_breve> <O>                : "Ơ̆"
+<dead_horn> <dead_breve> <o>                : "ơ̆"
+<dead_horn> <Oslash>                        : "Ø̛"
+<dead_horn> <oslash>                        : "ø̛"
+<dead_horn> <dead_longsolidusoverlay> <O>   : "Ø̛"
+<dead_horn> <dead_longsolidusoverlay> <o>   : "ø̛"
+<dead_horn> <dead_macron> <S>               : "S̛̄"
+<dead_horn> <dead_macron> <s>               : "s̛̄"
+<dead_horn> <Umacron>                       : "Ư̄"
+<dead_horn> <umacron>                       : "ư̄"
+<dead_horn> <dead_macron> <U>               : "Ư̄"
+<dead_horn> <dead_macron> <u>               : "ư̄"
+<dead_horn> <Ubreve>                        : "Ư̆"
+<dead_horn> <ubreve>                        : "ư̆"
+<dead_horn> <dead_breve> <U>                : "Ư̆"
+<dead_horn> <dead_breve> <u>                : "ư̆"
+
+# ZONA DE BÚFER #
+
+##################
+# [END OF RULES] #
+##################

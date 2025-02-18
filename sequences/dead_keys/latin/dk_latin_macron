@@ -1027,6 +1027,8 @@
 <dead_macron> <U1E63>                                       : "ṣ̄"   # ṣ + Macron
 <dead_macron> <dead_belowdot> <S>                           : "Ṣ̄"
 <dead_macron> <dead_belowdot> <s>                           : "ṣ̄"
+<dead_macron> <dead_horn> <S>                               : "S̛̄"
+<dead_macron> <dead_horn> <s>                               : "s̛̄"
 <dead_macron> <Tcedilla>                                    : "Ţ̄"
 <dead_macron> <tcedilla>                                    : "ţ̄"
 <dead_macron> <dead_cedilla> <T>                            : "Ţ̄"

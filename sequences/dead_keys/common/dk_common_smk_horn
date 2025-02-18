@@ -1,0 +1,15 @@
+# Common Dead Keys | Horn Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the diacritical horn
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_horn> <space>     : "̛"    # Combining horn
+<dead_horn> <dead_horn> : "̛"    # Combining horn
+
+##################
+# [END OF RULES] #
+##################
