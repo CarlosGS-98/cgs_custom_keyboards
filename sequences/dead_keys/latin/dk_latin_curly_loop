@@ -1,0 +1,49 @@
+# Latin Alphabet | Hooktail Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Precomposed belt+curl+loop letter combinations
+# [Main reference]: https://fr.wikipedia.org/wiki/Boucle_(diacritique)
+#
+
+<U035B> <C>                             : "𝼏" 
+<U035B> <c>                             : "ɕ"
+#<U035B> <D>                            : "¿?" (Not encoded yet)
+<U035B> <d>                             : "ȡ"
+#<U035B> <G>                            : "¿?" (Not encoded yet)
+<U035B> <g>                             : "ꬶ"
+<U035B> <J>                             : "Ʝ"
+<U035B> <j>                             : "ʝ"
+<U035B> <L>                             : "Ɬ"
+<U035B> <l>                             : "ɬ"
+<U035B> <Lstroke>                       : "ȴ"
+<U035B> <lstroke>                       : "ȴ"
+<U035B> <dead_longsolidusoverlay> <L>   : "ȴ"
+<U035B> <dead_longsolidusoverlay> <l>   : "ȴ"
+#<U035B> <M>                            : "¿?" (Not encoded yet)
+<U035B> <m>                             : "ꬺ"
+<U035B> <N>                             : "ꬻ"
+<U035B> <n>                             : "ȵ"
+#<U035B> <ENG>                          : "¿?" (Not encoded yet)
+<U035B> <eng>                           : "ꬼ"
+<U035B> <R>                             : "ꭊ"
+<U035B> <r>                             : "ꭉ"
+#<U035B> <S>                            : "¿?" (Not encoded yet)
+<U035B> <s>                             : "𝼞"
+<U035B> <U1E9E>                         : "ƪ"
+<U035B> <ssharp>                        : "ʆ"
+<U035B> <T>                             : "𝼍"
+<U035B> <t>                             : "ȶ"
+#<U035B> <V>                            : "¿?" (Not encoded yet)
+<U035B> <v>                             : "ⱴ"
+<U035B> <X>                             : "ꭘ"
+<U035B> <x>                             : "ꭖ"
+<U035B> <Y>                             : "Ỿ"
+<U035B> <y>                             : "ỿ"
+#<U035B> <Z>                            : "¿?" (Not encoded yet)
+<U035B> <z>                             : "ʑ"
+#<U035B> <EZH>                          : "¿?" (Not encoded yet)
+<U035B> <ezh>                           : "ʓ"
+
+##################
+# [END OF RULES] #
+##################

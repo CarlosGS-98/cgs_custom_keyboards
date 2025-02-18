@@ -1,0 +1,20 @@
+# Common Dead Keys | Curly Loop Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the diacritical curl and loop
+# > across multiple writing systems.
+#
+# [NOTE]: This diacritic will be represented as [U035B]
+# ("͛", Combining Zigzag ABove) due to the diacritical curl
+# as well as the diacritical loop lacking proper representation in Unicode
+# as separate combining diacritics.
+#
+
+# Basic combinations
+<U035B> <space> : "͛"    # Combining zigzag above
+<U035B> <U035B> : "͛"    # Combining zigzag above
+
+##################
+# [END OF RULES] #
+##################
