@@ -237,6 +237,10 @@
 <dead_belowdot> <U01CE>                             : "ạ̌"   # ǎ + Dot Below
 <dead_belowdot> <dead_caron> <A>                    : "Ạ̌"
 <dead_belowdot> <dead_caron> <a>                    : "ạ̌"
+<dead_belowdot> <Aogonek>                           : "Ą̣"
+<dead_belowdot> <aogonek>                           : "ą̣"
+<dead_belowdot> <dead_ogonek> <A>                   : "Ą̣"
+<dead_belowdot> <dead_ogonek> <a>                   : "ą̣"
 <dead_belowdot> <dead_macron> <A>                   : "Ạ̄"
 <dead_belowdot> <dead_macron> <a>                   : "ạ̄"
 <dead_belowdot> <dead_macron> <Atilde>              : "Ạ̄̃"
@@ -295,6 +299,10 @@
 <dead_belowdot> <ecaron>                            : "ẹ̌"
 <dead_belowdot> <dead_caron> <E>                    : "Ẹ̌"
 <dead_belowdot> <dead_caron> <e>                    : "ẹ̌"
+<dead_belowdot> <Eogonek>                           : "Ę̣"
+<dead_belowdot> <eogonek>                           : "ę̣"
+<dead_belowdot> <dead_ogonek> <E>                   : "Ę̣"
+<dead_belowdot> <dead_ogonek> <e>                   : "ę̣"
 <dead_belowdot> <Emacron>                           : "Ẹ̄"
 <dead_belowdot> <emacron>                           : "ẹ̄"
 <dead_belowdot> <dead_macron> <E>                   : "Ẹ̄"
@@ -359,6 +367,10 @@
 <dead_belowdot> <U01D0>                             : "ị̌"   # ǐ + Dot Below
 <dead_belowdot> <dead_caron> <I>                    : "Ị̌"
 <dead_belowdot> <dead_caron> <i>                    : "ị̌"
+<dead_belowdot> <Iogonek>                           : "Į̣"
+<dead_belowdot> <iogonek>                           : "į̣"
+<dead_belowdot> <dead_ogonek> <I>                   : "Į̣"
+<dead_belowdot> <dead_ogonek> <i>                   : "į̣"
 <dead_belowdot> <Imacron>                           : "Ị̄"
 <dead_belowdot> <imacron>                           : "ị̄"
 <dead_belowdot> <dead_macron> <I>                   : "Ị̄"
@@ -452,6 +464,10 @@
 <dead_belowdot> <ocaron>                            : "ọ̌"
 <dead_belowdot> <dead_caron> <O>                    : "Ọ̌"
 <dead_belowdot> <dead_caron> <o>                    : "ọ̌"
+<dead_belowdot> <U01EA>                             : "Ǫ̣"   # Ǫ + Dot Below
+<dead_belowdot> <U01EB>                             : "ǫ̣"   # ǫ + Dot Below
+<dead_belowdot> <dead_ogonek> <O>                   : "Ǫ̣"
+<dead_belowdot> <dead_ogonek> <o>                   : "ǫ̣"
 <dead_belowdot> <Omacron>                           : "Ọ̄"
 <dead_belowdot> <omacron>                           : "ọ̄"
 <dead_belowdot> <dead_macron> <O>                   : "Ọ̄"
@@ -573,8 +589,12 @@
 <dead_belowdot> <dead_tilde> <dead_macron> <u>      : "ụ̄̃"
 <dead_belowdot> <U01D3>                             : "Ụ̌"   # Ǔ + Dot Below
 <dead_belowdot> <U01D4>                             : "ụ̌"   # ǔ + Dot Below
-<dead_belowdot> <dead_belowdot> <U>                 : "Ụ̌"
-<dead_belowdot> <dead_belowdot> <u>                 : "ụ̌"
+<dead_belowdot> <dead_caron> <U>                    : "Ụ̌"
+<dead_belowdot> <dead_caron> <u>                    : "ụ̌"
+<dead_belowdot> <Uogonek>                           : "Ų̣"
+<dead_belowdot> <uogonek>                           : "ų̣"
+<dead_belowdot> <dead_ogonek> <U>                   : "Ų̣"
+<dead_belowdot> <dead_ogonek> <u>                   : "ų̣"
 <dead_belowdot> <Umacron>                           : "Ụ̄"
 <dead_belowdot> <umacron>                           : "ụ̄"
 <dead_belowdot> <dead_macron> <U>                   : "Ụ̄"

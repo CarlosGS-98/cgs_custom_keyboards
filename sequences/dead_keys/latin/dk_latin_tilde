@@ -532,8 +532,8 @@
 <dead_tilde> <U01EB>                                            : "ǫ̃"   # ǫ + Diaeresis + Tilde
 <dead_tilde> <dead_ogonek> <O>                                  : "Ǫ̃"
 <dead_tilde> <dead_ogonek> <o>                                  : "ǫ̃"
-<dead_tilde> <dead_ogonek> <Omacron>                            : "Ǫ̈̃"
-<dead_tilde> <dead_ogonek> <omacron>                            : "ǫ̈̃"
+<dead_tilde> <dead_ogonek> <Odiaeresis>                         : "Ǫ̈̃"
+<dead_tilde> <dead_ogonek> <odiaeresis>                         : "ǫ̈̃"
 <dead_tilde> <dead_ogonek> <dead_diaeresis> <O>                 : "Ǫ̈̃"
 <dead_tilde> <dead_ogonek> <dead_diaeresis> <o>                 : "ǫ̈̃"
 <dead_tilde> <dead_ogonek> <Omacron>                            : "Ǭ̃"

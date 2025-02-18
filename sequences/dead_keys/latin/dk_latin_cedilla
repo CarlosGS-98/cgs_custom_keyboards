@@ -169,7 +169,7 @@
 <dead_cedilla> <ezh>               : "ʒ̧"     # ʒ + Cedilla
 
 
-# Composed vertical line above combinations (Not directly encoded in Unicode) (Unidirectional)
+# Composed cedilla combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main reference]: https://fr.wikipedia.org/wiki/Cédille
 #
 <dead_cedilla> <Aacute>                                     : "Á̧"

@@ -1,0 +1,17 @@
+# Common Dead Keys | Ogonek Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the ogonek
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_ogonek> <space>       : "̨"    # Combining ogonek
+<dead_ogonek> <dead_ogonek> : "˛"    # Regular spacing ogonek
+<dead_ogonek> <less>        : "᷎"    # Combining ogonek above
+<dead_ogonek> <greater>     : "᷎"    # Combining ogonek above
+
+##################
+# [END OF RULES] #
+##################

@@ -413,7 +413,7 @@
 <dead_circumflex> <U01ED>                                       : "ǭ̂"   # ǫ + Circumflex + Macron
 <dead_circumflex> <dead_macron> <U01EA>                         : "Ǭ̂"   # Ǫ + Circumflex + Macron
 <dead_circumflex> <dead_macron> <U01EB>                         : "ǭ̂"   # ǫ + Circumflex + Macron
-<dead_circumflex> <dead_macron> <dead_ogonek> <A>               : "Ǭ̂"
+<dead_circumflex> <dead_macron> <dead_ogonek> <O>               : "Ǭ̂"
 <dead_circumflex> <dead_macron> <dead_ogonek> <o>               : "ǭ̂"
 <dead_circumflex> <dead_macron> <dead_belowmacron> <O>          : "Ō̱̂"
 <dead_circumflex> <dead_macron> <dead_belowmacron> <o>          : "ō̱̂"

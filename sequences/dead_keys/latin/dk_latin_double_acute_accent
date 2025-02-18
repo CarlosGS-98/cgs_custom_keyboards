@@ -105,6 +105,10 @@
 # - ᷎ (Combining Ogonek Above [U1DCE]) -> Represents the "Ogonek Above" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
+<dead_doubleacute> <Aogonek>                        : "Ą̋"
+<dead_doubleacute> <aogonek>                        : "ą̋"
+<dead_doubleacute> <dead_ogonek> <A>                : "Ą̋"
+<dead_doubleacute> <dead_ogonek> <a>                : "ą̋"
 <dead_doubleacute> <Ecaron>                         : "Ě̋"
 <dead_doubleacute> <ecaron>                         : "ě̋"
 <dead_doubleacute> <dead_caron> <E>                 : "Ě̋"
@@ -113,6 +117,10 @@
 <dead_doubleacute> <eogonek>                        : "ę̋"
 <dead_doubleacute> <dead_ogonek> <E>                : "Ę̋"
 <dead_doubleacute> <dead_ogonek> <e>                : "ę̋"
+<dead_doubleacute> <Iogonek>                        : "Į̋"
+<dead_doubleacute> <iogonek>                        : "į̋"
+<dead_doubleacute> <dead_ogonek> <I>                : "Į̋"
+<dead_doubleacute> <dead_ogonek> <i>                : "į̋"
 <dead_doubleacute> <U0197>                          : "Ɨ̋"   # Ɨ + Double Acute
 <dead_doubleacute> <U0268>                          : "ɨ̋"   # ɨ + Double Acute
 <dead_doubleacute> <dead_stroke> <I>                : "Ɨ̋"
@@ -121,8 +129,8 @@
 <dead_doubleacute> <dead_stroke> <idotless>         : "ɨ̋"
 <dead_doubleacute> <U01EA>                          : "Ǫ̋"   # Ǫ + Double Acute Accent
 <dead_doubleacute> <U01EB>                          : "ǫ̋"   # ǫ + Double Acute Accent
-<dead_doubleacute> <dead_ogonek> <O>                : "Ǫ̋"   # Ǫ + Double Acute Accent
-<dead_doubleacute> <dead_ogonek> <o>                : "ǫ̋"   # ǫ + Double Acute Accent
+<dead_doubleacute> <dead_ogonek> <O>                : "Ǫ̋"
+<dead_doubleacute> <dead_ogonek> <o>                : "ǫ̋"
 <dead_doubleacute> <Omacron>                        : "Ō̋"
 <dead_doubleacute> <omacron>                        : "ō̋"
 <dead_doubleacute> <dead_macron> <O>                : "Ō̋"
@@ -141,8 +149,8 @@
 <dead_doubleacute> <dead_macron> <u>                : "ū̋"
 <dead_doubleacute> <U0244>                          : "Ʉ̋"   # Ʉ + Double Acute
 <dead_doubleacute> <U0289>                          : "ʉ̋"   # ʉ + Double Acute
-<dead_doubleacute> <dead_stroke> <U>                : "Ʉ̋"   # Ʉ + Double Acute
-<dead_doubleacute> <dead_stroke> <u>                : "ʉ̋"   # ʉ + Double Acute
+<dead_doubleacute> <dead_stroke> <U>                : "Ʉ̋"
+<dead_doubleacute> <dead_stroke> <u>                : "ʉ̋"
 
 ##################
 # [END OF RULES] #
