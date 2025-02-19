@@ -965,12 +965,20 @@
 <dead_macron> <oslash>                                      : "ø̄"
 <dead_macron> <dead_longsolidusoverlay> <O>                 : "Ø̄"
 <dead_macron> <dead_longsolidusoverlay> <o>                 : "ø̄"
+<dead_macron> <dead_longsolidusoverlay> <Oacute>            : "Ø̄́"
+<dead_macron> <dead_longsolidusoverlay> <oacute>            : "ø̄́"
 <dead_macron> <dead_longsolidusoverlay> <dead_acute> <O>    : "Ø̄́"
 <dead_macron> <dead_longsolidusoverlay> <dead_acute> <o>    : "ø̄́"
+<dead_macron> <dead_longsolidusoverlay> <Otilde>            : "Ø̃̄"
+<dead_macron> <dead_longsolidusoverlay> <otilde>            : "ø̃̄"
 <dead_macron> <dead_longsolidusoverlay> <dead_tilde> <O>    : "Ø̃̄"
 <dead_macron> <dead_longsolidusoverlay> <dead_tilde> <o>    : "ø̃̄"
+<dead_macron> <dead_longsolidusoverlay> <U01EA>             : "Ø̨̄"   # Ǫ + Macron + Diagonal Stroke
+<dead_macron> <dead_longsolidusoverlay> <U01EB>             : "ø̨̄"   # ǫ + Macron + Diagonal Stroke
 <dead_macron> <dead_longsolidusoverlay> <dead_ogonek> <O>   : "Ø̨̄"
 <dead_macron> <dead_longsolidusoverlay> <dead_ogonek> <o>   : "ø̨̄"
+<dead_macron> <dead_longsolidusoverlay> <U014E>             : "Ø̄̆"   # Ŏ + Diagonal Stroke
+<dead_macron> <dead_longsolidusoverlay> <U014F>             : "ø̄̆"   # ŏ + Diagonal Stroke
 <dead_macron> <dead_longsolidusoverlay> <dead_breve> <O>    : "Ø̄̆"
 <dead_macron> <dead_longsolidusoverlay> <dead_breve> <o>    : "ø̄̆"
 <dead_macron> <dead_acute> <U1E5A>                          : "Ṝ́"   # Ṛ + Acute + Macron

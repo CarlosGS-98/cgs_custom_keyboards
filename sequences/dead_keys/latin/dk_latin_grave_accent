@@ -480,8 +480,12 @@
 <dead_grave> <dead_tilde> <oslash>                      : "ø̃̀"
 <dead_grave> <dead_tilde> <dead_longsolidusoverlay> <O> : "Ø̃̀"
 <dead_grave> <dead_tilde> <dead_longsolidusoverlay> <o> : "ø̃̀"
+<dead_grave> <dead_tilde> <dead_longsolidusoverlay> <O> : "Ø̃̀"
+<dead_grave> <dead_tilde> <dead_longsolidusoverlay> <o> : "ø̃̀"
 <dead_grave> <dead_longsolidusoverlay> <O>              : "Ø̀"
 <dead_grave> <dead_longsolidusoverlay> <o>              : "ø̀"
+<dead_grave> <dead_longsolidusoverlay> <Otilde>         : "Ø̃̀"
+<dead_grave> <dead_longsolidusoverlay> <otilde>         : "ø̃̀"
 <dead_grave> <dead_longsolidusoverlay> <dead_tilde> <O> : "Ø̃̀"
 <dead_grave> <dead_longsolidusoverlay> <dead_tilde> <o> : "ø̃̀"
 <dead_grave> <dead_tilde> <U0186>                       : "Ɔ̃̀"   # Ɔ + Grave + Tilde
