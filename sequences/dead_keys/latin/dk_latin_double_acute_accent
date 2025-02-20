@@ -135,10 +135,10 @@
 <dead_doubleacute> <omacron>                        : "ō̋"
 <dead_doubleacute> <dead_macron> <O>                : "Ō̋"
 <dead_doubleacute> <dead_macron> <o>                : "ō̋"
-<dead_doubleacute> <Oslash>                         : "Ǿ̨"
-<dead_doubleacute> <oslash>                         : "ǿ̨"
-<dead_doubleacute> <dead_longsolidusoverlay> <O>    : "Ǿ̨"
-<dead_doubleacute> <dead_longsolidusoverlay> <o>    : "ǿ̨"
+<dead_doubleacute> <Oslash>                         : "Ø̋"
+<dead_doubleacute> <oslash>                         : "ø̋"
+<dead_doubleacute> <dead_longsolidusoverlay> <O>    : "Ø̋"
+<dead_doubleacute> <dead_longsolidusoverlay> <o>    : "ø̋"
 <dead_doubleacute> <Uogonek>                        : "Ų̋"
 <dead_doubleacute> <uogonek>                        : "ų̋"
 <dead_doubleacute> <dead_ogonek> <U>                : "Ų̋"
@@ -151,6 +151,10 @@
 <dead_doubleacute> <U0289>                          : "ʉ̋"   # ʉ + Double Acute
 <dead_doubleacute> <dead_stroke> <U>                : "Ʉ̋"
 <dead_doubleacute> <dead_stroke> <u>                : "ʉ̋"
+<dead_doubleacute> <UA7B8>                          : "Ꞹ̋"   # Ꞹ + Double Acute
+<dead_doubleacute> <UA7B9>                          : "ꞹ̋"   # ꞹ + Double Acute
+<dead_doubleacute> <dead_longsolidusoverlay> <U>    : "Ꞹ̋"
+<dead_doubleacute> <dead_longsolidusoverlay> <u>    : "ꞹ̋"
 
 ##################
 # [END OF RULES] #

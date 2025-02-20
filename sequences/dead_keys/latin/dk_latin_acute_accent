@@ -94,6 +94,8 @@
 <dead_acute> <omacron>                      : "ṓ"
 <dead_acute> <dead_macron> <O>              : "Ṓ"
 <dead_acute> <dead_macron> <o>              : "ṓ"
+<dead_acute> <Oslash>                       : "Ǿ"
+<dead_acute> <oslash>                       : "ǿ"
 <dead_acute> <dead_longsolidusoverlay> <O>  : "Ǿ"
 <dead_acute> <dead_longsolidusoverlay> <o>  : "ǿ"
 <dead_acute> <Sabovedot>                    : "Ṥ"
@@ -325,6 +327,8 @@
 <dead_acute> <dead_grave> <dead_belowdiaeresis> <e>         : "è̤́"
 <dead_acute> <dead_belowdiaeresis> <Egrave>                 : "È̤́"
 <dead_acute> <dead_belowdiaeresis> <egrave>                 : "è̤́"
+<dead_acute> <dead_belowdiaeresis> <dead_grave> <E>         : "È̤́"
+<dead_acute> <dead_belowdiaeresis> <dead_grave> <e>         : "è̤́"
 <dead_acute> <Ediaeresis>                                   : "É̈"
 <dead_acute> <ediaeresis>                                   : "é̈"
 <dead_acute> <dead_diaeresis> <E>                           : "É̈"
@@ -659,16 +663,20 @@
 <dead_acute> <U1ED1>                                        : "ố̤"
 <dead_acute> <dead_circumflex> <dead_belowdiaeresis> <O>    : "Ố̤"
 <dead_acute> <dead_circumflex> <dead_belowdiaeresis> <o>    : "ố̤"
-<dead_acute> <dead_belowdiaeresis> <dead_circumflex> <O>    : "Ố̤"
-<dead_acute> <dead_belowdiaeresis> <dead_circumflex> <o>    : "ố̤"
 <dead_acute> <Odiaeresis>                                   : "Ó̈"
 <dead_acute> <odiaeresis>                                   : "ó̈"
 <dead_acute> <dead_diaeresis> <O>                           : "Ó̈"
 <dead_acute> <dead_diaeresis> <o>                           : "ó̈"
 <dead_acute> <dead_belowdiaeresis> <O>                      : "Ó̤"
 <dead_acute> <dead_belowdiaeresis> <o>                      : "ó̤"
+<dead_acute> <dead_belowdiaeresis> <Ograve>                 : "Ò̤́"
+<dead_acute> <dead_belowdiaeresis> <ograve>                 : "ò̤́"
 <dead_acute> <dead_belowdiaeresis> <dead_grave> <O>         : "Ò̤́"
 <dead_acute> <dead_belowdiaeresis> <dead_grave> <o>         : "ò̤́"
+<dead_acute> <dead_belowdiaeresis> <Ocircumflex>            : "Ố̤"
+<dead_acute> <dead_belowdiaeresis> <ocircumflex>            : "ố̤"
+<dead_acute> <dead_belowdiaeresis> <dead_circumflex> <O>    : "Ố̤"
+<dead_acute> <dead_belowdiaeresis> <dead_circumflex> <o>    : "ố̤"
 <dead_acute> <dead_tilde> <Omacron>                         : "Ō̃́"
 <dead_acute> <dead_tilde> <omacron>                         : "ō̃́"
 <dead_acute> <dead_tilde> <dead_macron> <O>                 : "Ō̃́"
@@ -761,16 +769,24 @@
 <dead_acute> <dead_macron> <oslash>                         : "ø̄́"
 <dead_acute> <dead_macron> <dead_longsolidusoverlay> <O>    : "Ø̄́"
 <dead_acute> <dead_macron> <dead_longsolidusoverlay> <o>    : "ø̄́"
-<dead_acute> <dead_longsolidusoverlay> <dead_macron> <O>    : "Ø̄́"
-<dead_acute> <dead_longsolidusoverlay> <dead_macron> <o>    : "ø̄́"
 <dead_acute> <dead_abovedot> <Oslash>                       : "Ø̇́"
 <dead_acute> <dead_abovedot> <oslash>                       : "ø̇́"
 <dead_acute> <dead_abovedot> <dead_longsolidusoverlay> <O>  : "Ø̇́"
 <dead_acute> <dead_abovedot> <dead_longsolidusoverlay> <o>  : "ø̇́"
+<dead_acute> <dead_longsolidusoverlay> <Otilde>             : "Ø̃́"
+<dead_acute> <dead_longsolidusoverlay> <otilde>             : "ø̃́"
 <dead_acute> <dead_longsolidusoverlay> <dead_tilde> <O>     : "Ø̃́"
 <dead_acute> <dead_longsolidusoverlay> <dead_tilde> <o>     : "ø̃́"
+<dead_acute> <dead_longsolidusoverlay> <U01EA>              : "Ǿ̨"   # Ǫ + Acute + Diagonal Stroke
+<dead_acute> <dead_longsolidusoverlay> <U01EB>              : "ǿ̨"   # ǫ + Acute + Diagonal Stroke
 <dead_acute> <dead_longsolidusoverlay> <dead_ogonek> <O>    : "Ǿ̨"
 <dead_acute> <dead_longsolidusoverlay> <dead_ogonek> <o>    : "ǿ̨"
+<dead_acute> <dead_longsolidusoverlay> <Omacron>            : "Ø̄́"
+<dead_acute> <dead_longsolidusoverlay> <omacron>            : "ø̄́"
+<dead_acute> <dead_longsolidusoverlay> <dead_macron> <O>    : "Ø̄́"
+<dead_acute> <dead_longsolidusoverlay> <dead_macron> <o>    : "ø̄́"
+<dead_acute> <dead_longsolidusoverlay> <U022E>              : "Ø̇́"   # Ȯ + Acute + Diagonal Stroke
+<dead_acute> <dead_longsolidusoverlay> <U022F>              : "ø̇́"   # ȯ + Acute + Diagonal Stroke
 <dead_acute> <dead_longsolidusoverlay> <dead_abovedot> <O>  : "Ø̇́"
 <dead_acute> <dead_longsolidusoverlay> <dead_abovedot> <o>  : "ø̇́"
 <dead_acute> <dead_tilde> <U0186>                           : "Ɔ̃́"
@@ -823,10 +839,10 @@
 <dead_acute> <dead_circumflex> <u>                          : "û́"
 <dead_acute> <U1E72>                                        : "Ṳ̂́"
 <dead_acute> <U1E73>                                        : "ṳ̂́"
+<dead_acute> <dead_circumflex> <U1E72>                      : "Ṳ̂́"   # Ṳ + Acute + Circumflex
+<dead_acute> <dead_circumflex> <U1E73>                      : "ṳ̂́"   # ṳ + Acute + Circumflex
 <dead_acute> <dead_circumflex> <dead_belowdiaeresis> <U>    : "Ṳ̂́"
 <dead_acute> <dead_circumflex> <dead_belowdiaeresis> <u>    : "ṳ̂́"
-<dead_acute> <dead_belowdiaeresis> <dead_circumflex> <U>    : "Ṳ̂́"
-<dead_acute> <dead_belowdiaeresis> <dead_circumflex> <u>    : "ṳ̂́"
 <dead_acute> <Udiaeresis>                                   : "Ú̈"
 <dead_acute> <udiaeresis>                                   : "ú̈"
 <dead_acute> <dead_diaeresis> <U>                           : "Ú̈"
@@ -839,6 +855,10 @@
 <dead_acute> <U1E73>                                        : "ṳ́"   # ṳ + Acute
 <dead_acute> <dead_belowdiaeresis> <U>                      : "Ṳ́"   # Ṳ + Acute
 <dead_acute> <dead_belowdiaeresis> <u>                      : "ṳ́"   # ṳ + Acute
+<dead_acute> <dead_belowdiaeresis> <Ucircumflex>            : "Ṳ̂́"
+<dead_acute> <dead_belowdiaeresis> <ucircumflex>            : "ṳ̂́"
+<dead_acute> <dead_belowdiaeresis> <dead_circumflex> <U>    : "Ṳ̂́"
+<dead_acute> <dead_belowdiaeresis> <dead_circumflex> <u>    : "ṳ̂́"
 <dead_acute> <dead_tilde> <U0244>                           : "Ʉ̃́"   # Ʉ + Acute + Tilde
 <dead_acute> <dead_tilde> <U0289>                           : "ʉ̃́"   # ʉ + Acute + Tilde
 <dead_acute> <dead_tilde> <dead_stroke> <U>                 : "Ʉ̃́"   # Ʉ + Acute + Tilde

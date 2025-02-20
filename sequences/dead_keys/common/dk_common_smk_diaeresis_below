@@ -1,0 +1,17 @@
+# Common Dead Keys | Diaeresis Below Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the diaeresis below
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_belowdiaeresis> <space>               : "̤"    # Combining diaeresis below
+<dead_belowdiaeresis> <dead_belowdiaeresis> : "¨"   # Regular spacing diaeresis
+<dead_belowdiaeresis> <less>                : "̈"    # Combining diaeresis
+<dead_belowdiaeresis> <greater>             : "̈"    # Combining diaeresis
+
+##################
+# [END OF RULES] #
+##################

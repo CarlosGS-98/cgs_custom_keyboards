@@ -447,7 +447,7 @@
 <dead_caron> <dead_circumflex> <U>                          : "Û̌"
 <dead_caron> <dead_circumflex> <u>                          : "û̌"
 <dead_caron> <dead_circumflex> <U1E72>                      : "Ṳ̂̌"   # Ṳ + Circumflex + Caron
-<dead_caron> <dead_circumflex> <U1E73>                      : "ṳ̂̌"   # ṳ + Circumflex
+<dead_caron> <dead_circumflex> <U1E73>                      : "ṳ̂̌"   # ṳ + Circumflex + Caron
 <dead_caron> <dead_circumflex> <dead_belowdiaeresis> <U>    : "Ṳ̂̌"
 <dead_caron> <dead_circumflex> <dead_belowdiaeresis> <u>    : "ṳ̂̌"
 <dead_caron> <U1E76>                                        : "Ṷ̌"   # Ṷ + Caron
