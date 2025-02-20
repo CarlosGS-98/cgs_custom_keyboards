@@ -413,6 +413,8 @@
 <dead_diaeresis> <dead_stroke> <i>                              : "ɨ̈"
 <dead_diaeresis> <dead_stroke> <Idotabove>                      : "Ɨ̈"
 <dead_diaeresis> <dead_stroke> <idotless>                       : "ɨ̈"
+<dead_diaeresis> <dead_stroke> <Iacute>                         : "Ɨ̈́"
+<dead_diaeresis> <dead_stroke> <iacute>                         : "ɨ̈́"
 <dead_diaeresis> <dead_stroke> <dead_acute> <I>                 : "Ɨ̃́"   # Ɨ + Acute + Diaeresis
 <dead_diaeresis> <dead_stroke> <dead_acute> <i>                 : "ɨ̃́"   # ɨ + Acute + Diaeresis
 <dead_diaeresis> <dead_stroke> <dead_acute> <Idotabove>         : "Ɨ̃́"

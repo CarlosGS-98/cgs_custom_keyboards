@@ -43,6 +43,7 @@
 <dead_stroke> <r>                   : "ɍ"
 <dead_stroke> <S>                   : "Ꟊ"
 <dead_stroke> <s>                   : "ꟊ"
+<dead_stroke> <U017F>               : "ẝ"   # ſ (Long S) + Stroke
 <dead_stroke> <T>                   : "Ŧ"
 <dead_stroke> <t>                   : "ŧ"
 <dead_stroke> <THORN>               : "Ꝥ"
@@ -57,7 +58,10 @@
 
 
 # Other precomposed stroke combinations (Unidirectional)
-# (...)
+<dead_stroke> <UA7A2>                       : "Ꝅ"  # Ꞣ + Stroke
+<dead_stroke> <UA7A3>                       : "ꝅ"  # ꞣ + Stroke
+<dead_stroke> <dead_longsolidusoverlay> <K> : "Ꝅ"
+<dead_stroke> <dead_longsolidusoverlay> <k> : "ꝅ"
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
@@ -79,15 +83,15 @@
 <dead_stroke> <AE>                : "Æ̵"
 <dead_stroke> <ae>                : "æ̵"
 <dead_stroke> <multiply> <A> <E>  : "Æ̵"
-<dead_horn> <multiply> <a> <e>    : "æ̵"
-<dead_horn> <UA734>               : "Ꜵ̵"     # Ꜵ + Horn
-<dead_horn> <UA735>               : "ꜵ̵"      # ꜵ + Horn
-<dead_horn> <multiply> <A> <O>    : "Ꜵ̵"     # Ꜵ + Horn
-<dead_horn> <multiply> <a> <o>    : "ꜵ̵"      # ꜵ + Horn
-<dead_horn> <UA736>               : "Ꜷ̵"     # Ꜷ + Horn
-<dead_horn> <UA737>               : "ꜷ̵"      # ꜷ + Horn
-<dead_horn> <multiply> <A> <U>    : "Ꜷ̵"     # Ꜷ + Horn
-<dead_horn> <multiply> <a> <u>    : "ꜷ̵"      # ꜷ + Horn
+<dead_stroke> <multiply> <a> <e>  : "æ̵"
+<dead_stroke> <UA734>             : "Ꜵ̵"     # Ꜵ + Stroke
+<dead_stroke> <UA735>             : "ꜵ̵"      # ꜵ + Stroke
+<dead_stroke> <multiply> <A> <O>  : "Ꜵ̵"     # Ꜵ + Stroke
+<dead_stroke> <multiply> <a> <o>  : "ꜵ̵"      # ꜵ + Stroke
+<dead_stroke> <UA736>             : "Ꜷ̵"     # Ꜷ + Stroke
+<dead_stroke> <UA737>             : "ꜷ̵"      # ꜷ + Stroke
+<dead_stroke> <multiply> <A> <U>  : "Ꜷ̵"     # Ꜷ + Stroke
+<dead_stroke> <multiply> <a> <u>  : "ꜷ̵"      # ꜷ + Stroke
 <dead_stroke> <UA73C>             : "Ꜽ̵"     # Ꜽ + Stroke
 <dead_stroke> <UA73D>             : "ꜽ̵"      # ꜽ + Stroke
 <dead_stroke> <multiply> <A> <Y>  : "Ꜽ̵"     # Ꜽ + Stroke
@@ -97,6 +101,7 @@
 <dead_stroke> <UA779>             : "Ꝺ̵"      # Ꝺ (Insular D) + Stroke
 <dead_stroke> <UA77A>             : "ꝺ̵"      # ꝺ (Insular D) + Stroke
 <dead_stroke> <E>                 : "E̵"
+<dead_stroke> <e>                 : "e̵"
 <dead_stroke> <U0190>             : "Ɛ̵"      # Ɛ (Latin Epsilon) + Stroke
 <dead_stroke> <U025B>             : "ɛ̵"      # ɛ (Latin Epsilon) + Stroke
 <dead_stroke> <SCHWA>             : "Ə̵"      # Ə (Schwa) + Stroke
@@ -113,11 +118,14 @@
 <dead_stroke> <U0265>             : "ɥ̵"      # ɥ (Turned H) + Stroke
 <dead_stroke> <U21BA> <H>         : "Ɥ̵"      # Ɥ (Turned H) + Stroke
 <dead_stroke> <U21BA> <h>         : "ɥ̵"      # ɥ (Turned H) + Stroke
+<dead_stroke> <U2C75>             : "Ⱶ̵"      # Ⱶ (Sonus Medius) + Stroke
+<dead_stroke> <U2C76>             : "ⱶ̵"      # ⱶ (Sonus Medius) + Stroke
 <dead_stroke> <U0196>             : "Ɩ̵"      # Ɩ (Latin Iota) + Stroke
 <dead_stroke> <M>                 : "M̵"
 <dead_stroke> <m>                 : "m̵"
-<dead_stroke> <N>  <dead_stroke> <T>                 : "T̵"
-<dead_stroke> <t>                 : "t̵"               : "Œ̵"
+<dead_stroke> <N>                 : "N̵"
+<dead_stroke> <n>                 : "n̵"             
+<dead_stroke> <OE>                : "Œ̵"
 <dead_stroke> <oe>                : "œ̵"
 <dead_stroke> <multiply> <O> <E>  : "Œ̵"
 <dead_stroke> <multiply> <o> <e>  : "œ̵"
@@ -129,6 +137,8 @@
 <dead_stroke> <U0254>             : "ɔ̵"      # ɔ + Stroke
 <dead_stroke> <UA7CB>             : "Ɤ̵"      # Ɤ (Ram's Stroke) + Stroke
 <dead_stroke> <U0264>             : "ɤ̵"      # ɤ (Ram's Stroke) + Stroke
+<dead_stroke> <U2183>             : "Ↄ̵"     # Ↄ (Antisigma) + Stroke
+<dead_stroke> <U2184>             : "ↄ̵"     # ↄ (Antisigma) + Stroke
 <dead_stroke> <U01A6>             : "Ʀ̵"     # Ʀ (Yr) + Stroke
 <dead_stroke> <U0280>             : "ʀ̵"     # ʀ (Yr) + Stroke
 <dead_stroke> <A75A>              : "Ꝛ̵"     # Ꝛ (R Rotunda) + Stroke
@@ -165,101 +175,200 @@
 # Composed stroke combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main reference]: https://fr.wikipedia.org/wiki/Barre_inscrite
 #
-<dead_stroke> <Iacute>                                      : "Ɨ́"
-<dead_stroke> <iacute>                                      : "ɨ́"
-<dead_stroke> <dead_acute> <I>                              : "Ɨ́"
-<dead_stroke> <dead_acute> <i>                              : "ɨ́"
-<dead_stroke> <dead_acute> <Idiaeresis>                     : "Ɨ̈́"
-<dead_stroke> <dead_acute> <idiaeresis>                     : "ɨ̈́"
-<dead_stroke> <dead_acute> <dead_diaeresis> <I>             : "Ɨ̈́"
-<dead_stroke> <dead_acute> <dead_diaeresis> <i>             : "ɨ̈́"
-<dead_stroke> <dead_acute> <dead_diaeresis> <Idotabove>     : "Ɨ̈́"
-<dead_stroke> <dead_acute> <dead_diaeresis> <idotless>      : "ɨ̈́"
-<dead_stroke> <dead_acute> <Itilde>                         : "Ɨ̃́"
-<dead_stroke> <dead_acute> <itilde>                         : "ɨ̃́"
-<dead_stroke> <dead_acute> <dead_tilde> <I>                 : "Ɨ̃́"
-<dead_stroke> <dead_acute> <dead_tilde> <i>                 : "ɨ̃́"
-<dead_stroke> <dead_acute> <dead_tilde> <Idotabove>         : "Ɨ̃́"
-<dead_stroke> <dead_acute> <dead_tilde> <idotless>          : "ɨ̃́"
-<dead_stroke> <dead_acute> <Idotabove>                      : "Ɨ́"
-<dead_stroke> <dead_acute> <idotless>                       : "ɨ́"
-<dead_stroke> <dead_acute> <dead_cedilla> <Idotabove>       : "Ɨ̧́"
-<dead_stroke> <dead_acute> <dead_cedilla> <idotless>        : "ɨ̧́"
-<dead_stroke> <dead_acute> <dead_belowmacron> <I>           : "Ɨ̱́"
-<dead_stroke> <dead_acute> <dead_belowmacron> <i>           : "ɨ̱́"
-<dead_stroke> <dead_acute> <dead_belowmacron> <Idotabove>   : "Ɨ̱́"
-<dead_stroke> <dead_acute> <dead_belowmacron> <idotless>    : "ɨ̱́"
-<dead_stroke> <Igrave>                                      : "Ɨ̀"
-<dead_stroke> <igrave>                                      : "ɨ̀"
-<dead_stroke> <dead_grave> <I>                              : "Ɨ̀"
-<dead_stroke> <dead_grave> <I>                              : "ɨ̀"
-<dead_stroke> <dead_grave> <Itilde>                         : "Ɨ̃̀"
-<dead_stroke> <dead_grave> <itilde>                         : "ɨ̃̀"
-<dead_stroke> <dead_grave> <dead_tilde> <I>                 : "Ɨ̃̀"
-<dead_stroke> <dead_grave> <dead_tilde> <I>                 : "ɨ̃̀"
-<dead_stroke> <dead_grave> <dead_cedilla> <I>               : "Ɨ̧̀"
-<dead_stroke> <dead_grave> <dead_cedilla> <I>               : "ɨ̧̀"
-<dead_stroke> <dead_grave> <dead_belowmacron> <I>           : "Ɨ̱̀"
-<dead_stroke> <dead_grave> <dead_belowmacron> <I>           : "ɨ̱̀"
-<dead_stroke> <dead_diaeresis> <Iacute>                     : "Ɨ̈́"
-<dead_stroke> <dead_diaeresis> <iacute>                     : "ɨ̈́"
-<dead_stroke> <dead_diaeresis> <dead_acute> <I>             : "Ɨ̈́"
-<dead_stroke> <dead_diaeresis> <dead_acute> <i>             : "ɨ̈́"
-<dead_stroke> <dead_diaeresis> <dead_acute> <Idotabove>     : "Ɨ̈́"
-<dead_stroke> <dead_diaeresis> <dead_acute> <idotless>      : "ɨ̈́"
-<dead_stroke> <dead_tilde> <Iacute>                         : "Ɨ̃́"
-<dead_stroke> <dead_tilde> <iacute>                         : "ɨ̃́"
-<dead_stroke> <dead_tilde> <dead_acute> <I>                 : "Ɨ̃́"
-<dead_stroke> <dead_tilde> <dead_acute> <i>                 : "ɨ̃́"
-<dead_stroke> <dead_tilde> <dead_acute> <Idotabove>         : "Ɨ̃́"
-<dead_stroke> <dead_tilde> <dead_acute> <idotless>          : "ɨ̃́"
-<dead_stroke> <dead_tilde> <Igrave>                         : "Ɨ̃̀"
-<dead_stroke> <dead_tilde> <igrave>                         : "ɨ̃̀"
-<dead_stroke> <dead_tilde> <dead_grave> <I>                 : "Ɨ̃̀"
-<dead_stroke> <dead_tilde> <dead_grave> <I>                 : "ɨ̃̀"
-<dead_stroke> <dead_cedilla> <Iacute>                       : "Ɨ̧́"
-<dead_stroke> <dead_cedilla> <iacute>                       : "ɨ̧́"
-<dead_stroke> <dead_cedilla> <dead_acute> <I>               : "Ɨ̧́"
-<dead_stroke> <dead_cedilla> <dead_acute> <i>               : "ɨ̧́"
-<dead_stroke> <dead_cedilla> <Igrave>                       : "Ɨ̧̀"
-<dead_stroke> <dead_cedilla> <igrave>                       : "ɨ̧̀"
-<dead_stroke> <dead_cedilla> <dead_grave> <I>               : "Ɨ̧̀"
-<dead_stroke> <dead_cedilla> <dead_grave> <I>               : "ɨ̧̀"
-<dead_stroke> <dead_belowmacron> <Iacute>                   : "Ɨ̱́"
-<dead_stroke> <dead_belowmacron> <iacute>                   : "ɨ̱́"
-<dead_stroke> <dead_belowmacron> <dead_acute> <I>           : "Ɨ̱́"
-<dead_stroke> <dead_belowmacron> <dead_acute> <i>           : "ɨ̱́"
-<dead_stroke> <dead_belowmacron> <dead_acute> <Idotabove>   : "Ɨ̱́"
-<dead_stroke> <dead_belowmacron> <dead_acute> <idotless>    : "ɨ̱́"
-<dead_stroke> <dead_belowmacron> <Igrave>                   : "Ɨ̱̀"
-<dead_stroke> <dead_belowmacron> <igrave>                   : "ɨ̱̀"
-<dead_stroke> <dead_belowmacron> <dead_grave> <I>           : "Ɨ̱̀"
-<dead_stroke> <dead_belowmacron> <dead_grave> <I>           : "ɨ̱̀"
-
-<dead_stroke> <Uacute>                                      : "Ʉ́"
-<dead_stroke> <uacute>                                      : "ʉ́"
-<dead_stroke> <dead_acute> <U>                              : "Ʉ́"
-<dead_stroke> <dead_acute> <u>                              : "ʉ́"
-<dead_stroke> <dead_acute> <Utilde>                         : "Ʉ̃́"
-<dead_stroke> <dead_acute> <utilde>                         : "ʉ̃́"
-<dead_stroke> <dead_acute> <dead_tilde> <U>                 : "Ʉ̃́"
-<dead_stroke> <dead_acute> <dead_tilde> <u>                 : "ʉ̃́"
-<dead_stroke> <dead_acute> <dead_belowmacron> <U>           : "Ʉ̱́"
-<dead_stroke> <dead_acute> <dead_belowmacron> <u>           : "ʉ̱́"
-<dead_stroke> <Ugrave>                                      : "Ʉ̀"
-<dead_stroke> <ugrave>                                      : "ʉ̀"
-<dead_stroke> <dead_grave> <U>                              : "Ʉ̀"
-<dead_stroke> <dead_grave> <u>                              : "ʉ̀"
-<dead_stroke> <dead_tilde> <Uacute>                         : "Ʉ̃́"
-<dead_stroke> <dead_tilde> <uacute>                         : "ʉ̃́"
-<dead_stroke> <dead_tilde> <dead_acute> <U>                 : "Ʉ̃́"
-<dead_stroke> <dead_tilde> <dead_acute> <u>                 : "ʉ̃́"
-<dead_stroke> <dead_belowmacron> <Uacute>                   : "Ʉ̱́"
-<dead_stroke> <dead_belowmacron> <uacute>                   : "ʉ̱́"
-<dead_stroke> <dead_belowmacron> <dead_acute> <U>           : "Ʉ̱́"
-<dead_stroke> <dead_belowmacron> <dead_acute> <u>           : "ʉ̱́"
-
-# ZONA DE BÚFER #
+# [CUSTOM DEAD KEYS]:
+# - ͙ (Combining Asterisk Below [U0359]) -> Represents the "Hooktail" dead key
+#
+<dead_stroke> <dead_belowmacron> <D>                            : "Đ̱"
+<dead_stroke> <dead_belowmacron> <d>                            : "đ̱"
+<dead_stroke> <U1E0C>                                           : "Đ̣"   # Ḍ + Stroke
+<dead_stroke> <U1E0D>                                           : "đ̣"   # ḍ + Stroke
+<dead_stroke> <dead_belowdot> <D>                               : "Đ̣"
+<dead_stroke> <dead_belowdot> <d>                               : "đ̣"
+<dead_stroke> <dead_belowring> <H>                              : "Ħ̥"
+<dead_stroke> <dead_belowring> <h>                              : "ħ̥"
+<dead_stroke> <Iacute>                                          : "Ɨ́"
+<dead_stroke> <iacute>                                          : "ɨ́"
+<dead_stroke> <dead_acute> <I>                                  : "Ɨ́"
+<dead_stroke> <dead_acute> <i>                                  : "ɨ́"
+<dead_stroke> <dead_acute> <Idiaeresis>                         : "Ɨ̈́"
+<dead_stroke> <dead_acute> <idiaeresis>                         : "ɨ̈́"
+<dead_stroke> <dead_acute> <dead_diaeresis> <I>                 : "Ɨ̈́"
+<dead_stroke> <dead_acute> <dead_diaeresis> <i>                 : "ɨ̈́"
+<dead_stroke> <dead_acute> <dead_diaeresis> <Idotabove>         : "Ɨ̈́"
+<dead_stroke> <dead_acute> <dead_diaeresis> <idotless>          : "ɨ̈́"
+<dead_stroke> <dead_acute> <Itilde>                             : "Ɨ̃́"
+<dead_stroke> <dead_acute> <itilde>                             : "ɨ̃́"
+<dead_stroke> <dead_acute> <dead_tilde> <I>                     : "Ɨ̃́"
+<dead_stroke> <dead_acute> <dead_tilde> <i>                     : "ɨ̃́"
+<dead_stroke> <dead_acute> <dead_tilde> <Idotabove>             : "Ɨ̃́"
+<dead_stroke> <dead_acute> <dead_tilde> <idotless>              : "ɨ̃́"
+<dead_stroke> <dead_acute> <Idotabove>                          : "Ɨ́"
+<dead_stroke> <dead_acute> <idotless>                           : "ɨ́"
+<dead_stroke> <dead_acute> <dead_cedilla> <I>                   : "Ɨ̧́"
+<dead_stroke> <dead_acute> <dead_cedilla> <i>                   : "ɨ̧́"
+<dead_stroke> <dead_acute> <dead_cedilla> <Idotabove>           : "Ɨ̧́"
+<dead_stroke> <dead_acute> <dead_cedilla> <idotless>            : "ɨ̧́"
+<dead_stroke> <dead_acute> <dead_belowmacron> <I>               : "Ɨ̱́"
+<dead_stroke> <dead_acute> <dead_belowmacron> <i>               : "ɨ̱́"
+<dead_stroke> <dead_acute> <dead_belowmacron> <Idotabove>       : "Ɨ̱́"
+<dead_stroke> <dead_acute> <dead_belowmacron> <idotless>        : "ɨ̱́"
+<dead_stroke> <dead_doubleacute> <I>                            : "Ɨ̋"
+<dead_stroke> <dead_doubleacute> <i>                            : "ɨ̋"
+<dead_stroke> <dead_doubleacute> <Idotabove>                    : "Ɨ̋"
+<dead_stroke> <dead_doubleacute> <idotless>                     : "ɨ̋"
+<dead_stroke> <Igrave>                                          : "Ɨ̀"
+<dead_stroke> <igrave>                                          : "ɨ̀"
+<dead_stroke> <dead_grave> <I>                                  : "Ɨ̀"
+<dead_stroke> <dead_grave> <I>                                  : "ɨ̀"
+<dead_stroke> <dead_grave> <Itilde>                             : "Ɨ̃̀"
+<dead_stroke> <dead_grave> <itilde>                             : "ɨ̃̀"
+<dead_stroke> <dead_grave> <dead_tilde> <I>                     : "Ɨ̃̀"
+<dead_stroke> <dead_grave> <dead_tilde> <I>                     : "ɨ̃̀"
+<dead_stroke> <dead_grave> <dead_cedilla> <I>                   : "Ɨ̧̀"
+<dead_stroke> <dead_grave> <dead_cedilla> <I>                   : "ɨ̧̀"
+<dead_stroke> <dead_circumflex> <dead_cedilla> <I>              : "Ɨ̧̂"
+<dead_stroke> <dead_circumflex> <dead_cedilla> <i>              : "ɨ̧̂"
+<dead_stroke> <dead_circumflex> <dead_cedilla> <Idotabove>      : "Ɨ̧̂"
+<dead_stroke> <dead_circumflex> <dead_cedilla> <idotless>       : "ɨ̧̂"
+<dead_stroke> <Idiaeresis>                                      : "Ɨ̈"
+<dead_stroke> <idiaeresis>                                      : "ɨ̈"
+<dead_stroke> <dead_diaeresis> <I>                              : "Ɨ̈"
+<dead_stroke> <dead_diaeresis> <i>                              : "ɨ̈"
+<dead_stroke> <dead_diaeresis> <Idotabove>                      : "Ɨ̈"
+<dead_stroke> <dead_diaeresis> <idotless>                       : "ɨ̈"
+<dead_stroke> <dead_diaeresis> <Iacute>                         : "Ɨ̈́"
+<dead_stroke> <dead_diaeresis> <iacute>                         : "ɨ̈́"
+<dead_stroke> <dead_diaeresis> <dead_acute> <I>                 : "Ɨ̈́"
+<dead_stroke> <dead_diaeresis> <dead_acute> <i>                 : "ɨ̈́"
+<dead_stroke> <dead_diaeresis> <dead_acute> <Idotabove>         : "Ɨ̈́"
+<dead_stroke> <dead_diaeresis> <dead_acute> <idotless>          : "ɨ̈́"
+<dead_stroke> <dead_diaeresis> <dead_belowmacron> <I>           : "Ɨ̱̈"
+<dead_stroke> <dead_diaeresis> <dead_belowmacron> <i>           : "ɨ̱̈"
+<dead_stroke> <dead_diaeresis> <dead_belowmacron> <Idotabove>   : "Ɨ̱̈"
+<dead_stroke> <dead_diaeresis> <dead_belowmacron> <idotless>    : "ɨ̱̈"
+<dead_stroke> <Itilde>                                          : "Ɨ̃"
+<dead_stroke> <itilde>                                          : "ɨ̃"
+<dead_stroke> <dead_tilde> <I>                                  : "Ɨ̃"
+<dead_stroke> <dead_tilde> <i>                                  : "ɨ̃"
+<dead_stroke> <dead_tilde> <Idotabove>                          : "Ɨ̃"
+<dead_stroke> <dead_tilde> <idotless>                           : "ɨ̃"
+<dead_stroke> <dead_tilde> <Iacute>                             : "Ɨ̃́"
+<dead_stroke> <dead_tilde> <iacute>                             : "ɨ̃́"
+<dead_stroke> <dead_tilde> <dead_acute> <I>                     : "Ɨ̃́"
+<dead_stroke> <dead_tilde> <dead_acute> <i>                     : "ɨ̃́"
+<dead_stroke> <dead_tilde> <dead_acute> <Idotabove>             : "Ɨ̃́"
+<dead_stroke> <dead_tilde> <dead_acute> <idotless>              : "ɨ̃́"
+<dead_stroke> <dead_tilde> <Igrave>                             : "Ɨ̃̀"
+<dead_stroke> <dead_tilde> <igrave>                             : "ɨ̃̀"
+<dead_stroke> <dead_tilde> <dead_grave> <I>                     : "Ɨ̃̀"
+<dead_stroke> <dead_tilde> <dead_grave> <I>                     : "ɨ̃̀"
+<dead_stroke> <dead_cedilla> <I>                                : "Ɨ̧" 
+<dead_stroke> <dead_cedilla> <i>                                : "ɨ̧"
+<dead_stroke> <dead_cedilla> <Iacute>                           : "Ɨ̧́"
+<dead_stroke> <dead_cedilla> <iacute>                           : "ɨ̧́"
+<dead_stroke> <dead_cedilla> <dead_acute> <I>                   : "Ɨ̧́"
+<dead_stroke> <dead_cedilla> <dead_acute> <i>                   : "ɨ̧́"
+<dead_stroke> <dead_cedilla> <dead_acute> <Idotabove>           : "Ɨ̧́"
+<dead_stroke> <dead_cedilla> <dead_acute> <idotless>            : "ɨ̧́"
+<dead_stroke> <dead_cedilla> <Igrave>                           : "Ɨ̧̀"
+<dead_stroke> <dead_cedilla> <igrave>                           : "ɨ̧̀"
+<dead_stroke> <dead_cedilla> <dead_grave> <I>                   : "Ɨ̧̀"
+<dead_stroke> <dead_cedilla> <dead_grave> <I>                   : "ɨ̧̀"
+<dead_stroke> <dead_cedilla> <Icircumflex>                      : "Ɨ̧̂"
+<dead_stroke> <dead_cedilla> <icircumflex>                      : "ɨ̧̂"
+<dead_stroke> <dead_cedilla> <dead_circumflex> <I>              : "Ɨ̧̂"
+<dead_stroke> <dead_cedilla> <dead_circumflex> <i>              : "ɨ̧̂"
+<dead_stroke> <dead_cedilla> <dead_circumflex> <Idotabove>      : "Ɨ̧̂"
+<dead_stroke> <dead_cedilla> <dead_circumflex> <idotless>       : "ɨ̧̂"
+<dead_stroke> <dead_cedilla> <U01CF>                            : "Ɨ̧̌"   # Ǐ + Cedilla + Caron
+<dead_stroke> <dead_cedilla> <U01D0>                            : "ɨ̧̌"   # ǐ + Cedilla + Caron
+<dead_stroke> <dead_cedilla> <dead_caron> <I>                   : "Ɨ̧̌"
+<dead_stroke> <dead_cedilla> <dead_caron> <i>                   : "ɨ̧̌"
+<dead_stroke> <U01CF>                                           : "Ɨ̌"   # Ǐ + Caron
+<dead_stroke> <U01D0>                                           : "ɨ̌"   # ǐ + Caron
+<dead_stroke> <dead_caron> <I>                                  : "Ɨ̌"
+<dead_stroke> <dead_caron> <i>                                  : "ɨ̌"
+<dead_stroke> <dead_caron> <dead_cedilla> <I>                   : "Ɨ̧̌"
+<dead_stroke> <dead_caron> <dead_cedilla> <i>                   : "ɨ̧̌"
+<dead_stroke> <Imacron>                                         : "Ɨ̄"
+<dead_stroke> <imacron>                                         : "ɨ̄"
+<dead_stroke> <dead_macron> <I>                                 : "Ɨ̄"
+<dead_stroke> <dead_macron> <i>                                 : "ɨ̄"
+<dead_stroke> <dead_belowmacron> <I>                            : "Ɨ̱"
+<dead_stroke> <dead_belowmacron> <i>                            : "ɨ̱"
+<dead_stroke> <dead_belowmacron> <Iacute>                       : "Ɨ̱́"
+<dead_stroke> <dead_belowmacron> <iacute>                       : "ɨ̱́"
+<dead_stroke> <dead_belowmacron> <dead_acute> <I>               : "Ɨ̱́"
+<dead_stroke> <dead_belowmacron> <dead_acute> <i>               : "ɨ̱́"
+<dead_stroke> <dead_belowmacron> <dead_acute> <Idotabove>       : "Ɨ̱́"
+<dead_stroke> <dead_belowmacron> <dead_acute> <idotless>        : "ɨ̱́"
+<dead_stroke> <dead_belowmacron> <Igrave>                       : "Ɨ̱̀"
+<dead_stroke> <dead_belowmacron> <igrave>                       : "ɨ̱̀"
+<dead_stroke> <dead_belowmacron> <dead_grave> <I>               : "Ɨ̱̀"
+<dead_stroke> <dead_belowmacron> <dead_grave> <I>               : "ɨ̱̀"
+<dead_stroke> <dead_belowmacron> <Idiaeresis>                   : "Ɨ̱̈"
+<dead_stroke> <dead_belowmacron> <idiaeresis>                   : "ɨ̱̈"
+<dead_stroke> <dead_belowmacron> <dead_diaeresis> <I>           : "Ɨ̱̈"
+<dead_stroke> <dead_belowmacron> <dead_diaeresis> <i>           : "ɨ̱̈"
+<dead_stroke> <dead_belowmacron> <dead_diaeresis> <Idotabove>   : "Ɨ̱̈"
+<dead_stroke> <dead_belowmacron> <dead_diaeresis> <idotless>    : "ɨ̱̈"
+<dead_stroke> <U0359> <greater> <i>                             : "𝼚"   # ɨ + Retroflex Hook
+<dead_stroke> <Odoubleacute>                                    : "Ɵ̋"
+<dead_stroke> <odoubleacute>                                    : "ɵ̋"
+<dead_stroke> <dead_doubleacute> <O>                            : "Ɵ̋"
+<dead_stroke> <dead_doubleacute> <o>                            : "ɵ̋"
+<dead_stroke> <Ocircumflex>                                     : "Ɵ̂"
+<dead_stroke> <ocircumflex>                                     : "ɵ̂"
+<dead_stroke> <dead_circumflex> <O>                             : "Ɵ̂"
+<dead_stroke> <dead_circumflex> <o>                             : "ɵ̂"
+<dead_stroke> <Uacute>                                          : "Ʉ́"
+<dead_stroke> <uacute>                                          : "ʉ́"
+<dead_stroke> <dead_acute> <U>                                  : "Ʉ́"
+<dead_stroke> <dead_acute> <u>                                  : "ʉ́"
+<dead_stroke> <dead_acute> <Utilde>                             : "Ʉ̃́"
+<dead_stroke> <dead_acute> <utilde>                             : "ʉ̃́"
+<dead_stroke> <dead_acute> <dead_tilde> <U>                     : "Ʉ̃́"
+<dead_stroke> <dead_acute> <dead_tilde> <u>                     : "ʉ̃́"
+<dead_stroke> <dead_acute> <dead_belowmacron> <U>               : "Ʉ̱́"
+<dead_stroke> <dead_acute> <dead_belowmacron> <u>               : "ʉ̱́"
+<dead_stroke> <Udoubleacute>                                    : "Ʉ̋"
+<dead_stroke> <udoubleacute>                                    : "ʉ̋"
+<dead_stroke> <dead_doubleacute> <U>                            : "Ʉ̋"
+<dead_stroke> <dead_doubleacute> <u>                            : "ʉ̋"
+<dead_stroke> <Ugrave>                                          : "Ʉ̀"
+<dead_stroke> <ugrave>                                          : "ʉ̀"
+<dead_stroke> <dead_grave> <U>                                  : "Ʉ̀"
+<dead_stroke> <dead_grave> <u>                                  : "ʉ̀"
+<dead_stroke> <Ucircumflex>                                     : "Ʉ̂"
+<dead_stroke> <ucircumflex>                                     : "ʉ̂"
+<dead_stroke> <dead_circumflex> <U>                             : "Ʉ̂"
+<dead_stroke> <dead_circumflex> <u>                             : "ʉ̂"
+<dead_stroke> <Udiaeresis>                                      : "Ʉ̈"
+<dead_stroke> <udiaeresis>                                      : "ʉ̈"
+<dead_stroke> <dead_diaeresis> <U>                              : "Ʉ̈"
+<dead_stroke> <dead_diaeresis> <u>                              : "ʉ̈"
+<dead_stroke> <Utilde>                                          : "Ʉ̃"
+<dead_stroke> <utilde>                                          : "ʉ̃"
+<dead_stroke> <dead_tilde> <U>                                  : "Ʉ̃"
+<dead_stroke> <dead_tilde> <u>                                  : "ʉ̃"
+<dead_stroke> <dead_tilde> <Uacute>                             : "Ʉ̃́"
+<dead_stroke> <dead_tilde> <uacute>                             : "ʉ̃́"
+<dead_stroke> <dead_tilde> <dead_acute> <U>                     : "Ʉ̃́"
+<dead_stroke> <dead_tilde> <dead_acute> <u>                     : "ʉ̃́"
+<dead_stroke> <U01D3>                                           : "Ʉ̌"   # Ǔ + Caron
+<dead_stroke> <U01D4>                                           : "ʉ̌"   # ǔ + Caron
+<dead_stroke> <dead_caron> <U>                                  : "Ʉ̌"
+<dead_stroke> <dead_caron> <u>                                  : "ʉ̌"
+<dead_stroke> <Umacron>                                         : "Ʉ̄"
+<dead_stroke> <umacron>                                         : "ʉ̄"
+<dead_stroke> <dead_macron> <U>                                 : "Ʉ̄"
+<dead_stroke> <dead_macron> <u>                                 : "ʉ̄"
+<dead_stroke> <dead_belowmacron> <U>                            : "Ʉ̱"
+<dead_stroke> <dead_belowmacron> <u>                            : "ʉ̱"
+<dead_stroke> <dead_belowmacron> <Uacute>                       : "Ʉ̱́"
+<dead_stroke> <dead_belowmacron> <uacute>                       : "ʉ̱́"
+<dead_stroke> <dead_belowmacron> <dead_acute> <U>               : "Ʉ̱́"
+<dead_stroke> <dead_belowmacron> <dead_acute> <u>               : "ʉ̱́"
 
 ##################
 # [END OF RULES] #

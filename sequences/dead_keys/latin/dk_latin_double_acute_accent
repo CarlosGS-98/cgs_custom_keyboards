@@ -135,6 +135,10 @@
 <dead_doubleacute> <omacron>                        : "ō̋"
 <dead_doubleacute> <dead_macron> <O>                : "Ō̋"
 <dead_doubleacute> <dead_macron> <o>                : "ō̋"
+<dead_doubleacute> <U019F>                          : "Ɵ̋"   # Ɵ + Double Acute
+<dead_doubleacute> <U0275>                          : "ɵ̋"   # ɵ + Double Acute
+<dead_doubleacute> <dead_stroke> <O>                : "Ɵ̋"
+<dead_doubleacute> <dead_stroke> <o>                : "ɵ̋"
 <dead_doubleacute> <Oslash>                         : "Ø̋"
 <dead_doubleacute> <oslash>                         : "ø̋"
 <dead_doubleacute> <dead_longsolidusoverlay> <O>    : "Ø̋"

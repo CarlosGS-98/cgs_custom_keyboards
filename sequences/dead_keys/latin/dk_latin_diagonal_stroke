@@ -32,6 +32,10 @@
 
 
 # Other precomposed diagonal stroke combinations (Unidirectional)
+<dead_longsolidusoverlay> <UA740>           : "Ꝅ"  # Ꝁ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA741>           : "ꝅ"  # ꝁ + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_stroke> <K> : "Ꝅ"
+<dead_longsolidusoverlay> <dead_stroke> <k> : "ꝅ"
 <dead_longsolidusoverlay> <Oacute>          : "Ǿ"
 <dead_longsolidusoverlay> <oacute>          : "ǿ"
 <dead_longsolidusoverlay> <dead_acute> <O>  : "Ǿ"
@@ -179,10 +183,6 @@
 <dead_longsolidusoverlay> <dead_abovecomma> <c>                 : "ȼ̓"
 <dead_longsolidusoverlay> <dead_belowmacron> <E>                : "Ɇ̱"
 <dead_longsolidusoverlay> <dead_belowmacron> <e>                : "ɇ̱"
-<dead_longsolidusoverlay> <UA740>                               : "Ꝅ"  # Ꝁ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA741>                               : "ꝅ"  # ꝁ + Diagonal Stroke
-<dead_longsolidusoverlay> <dead_stroke> <K>                     : "Ꝅ"
-<dead_longsolidusoverlay> <dead_stroke> <k>                     : "ꝅ"
 <dead_longsolidusoverlay> <Lbelowdot>                           : "Ł̣"
 <dead_longsolidusoverlay> <lbelowdot>                           : "ł̣"
 <dead_longsolidusoverlay> <dead_belowdot> <L>                   : "Ł̣"

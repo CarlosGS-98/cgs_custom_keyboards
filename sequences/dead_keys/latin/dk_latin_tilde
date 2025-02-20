@@ -398,6 +398,8 @@
 <dead_tilde> <igrave>                                           : "ĩ̀"
 <dead_tilde> <dead_grave> <I>                                   : "Ĩ̀"
 <dead_tilde> <dead_grave> <i>                                   : "ĩ̀"
+<dead_tilde> <dead_grave> <U0197>                               : "Ɨ̃̀"   # Ɨ + Grave + Tilde
+<dead_tilde> <dead_grave> <U0268>                               : "ɨ̃̀"   # ɨ + Grave + Tilde
 <dead_tilde> <dead_grave> <dead_stroke> <I>                     : "Ɨ̃̀"
 <dead_tilde> <dead_grave> <dead_stroke> <I>                     : "ɨ̃̀"
 <dead_tilde> <Icircumflex>                                      : "Ĩ̂"
@@ -460,10 +462,14 @@
 <dead_tilde> <dead_stroke> <i>                                  : "ɨ̃"
 <dead_tilde> <dead_stroke> <Idotabove>                          : "Ɨ̃"
 <dead_tilde> <dead_stroke> <idotless>                           : "ɨ̃"
+<dead_tilde> <dead_stroke> <Iacute>                             : "Ɨ̃́"
+<dead_tilde> <dead_stroke> <iacute>                             : "ɨ̃́"
 <dead_tilde> <dead_stroke> <dead_acute> <I>                     : "Ɨ̃́"   # Ɨ + Acute + Tilde
 <dead_tilde> <dead_stroke> <dead_acute> <i>                     : "ɨ̃́"   # ɨ + Acute + Tilde
 <dead_tilde> <dead_stroke> <dead_acute> <Idotabove>             : "Ɨ̃́"
 <dead_tilde> <dead_stroke> <dead_acute> <idotless>              : "ɨ̃́"
+<dead_tilde> <dead_stroke> <Igrave>                             : "Ɨ̃̀"
+<dead_tilde> <dead_stroke> <igrave>                             : "ɨ̃̀"
 <dead_tilde> <dead_stroke> <dead_grave> <I>                     : "Ɨ̃̀"
 <dead_tilde> <dead_stroke> <dead_grave> <I>                     : "ɨ̃̀"
 <dead_tilde> <dead_belowcomma> <I>                              : "Ĩ̦"
@@ -720,8 +726,8 @@
 <dead_tilde> <U0289>                                            : "ʉ̃"   # ʉ + Tilde
 <dead_tilde> <dead_stroke> <U>                                  : "Ʉ̃"
 <dead_tilde> <dead_stroke> <u>                                  : "ʉ̃"
-<dead_tilde> <dead_stroke> <U>                                  : "Ʉ́"
-<dead_tilde> <dead_stroke> <u>                                  : "ʉ́"
+<dead_tilde> <dead_stroke> <Uacute>                             : "Ʉ́"
+<dead_tilde> <dead_stroke> <uacute>                             : "ʉ́"
 <dead_tilde> <dead_stroke> <dead_acute> <U>                     : "Ʉ̃́"
 <dead_tilde> <dead_stroke> <dead_acute> <u>                     : "ʉ̃́"
 <dead_tilde> <dead_belowcomma> <U>                              : "Ũ̦"
