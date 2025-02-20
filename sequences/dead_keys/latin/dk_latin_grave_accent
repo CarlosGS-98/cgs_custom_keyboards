@@ -376,6 +376,8 @@
 <dead_grave> <dead_breve> <i>                           : "ĭ̀"
 <dead_grave> <U0197>                                    : "Ɨ̀"
 <dead_grave> <U0268>                                    : "ɨ̀"
+<dead_grave> <dead_tilde> <U0197>                       : "Ɨ̃̀"   # Ɨ + Grave + Tilde
+<dead_grave> <dead_tilde> <U0268>                       : "ɨ̃̀"   # ɨ + Grave + Tilde
 <dead_grave> <dead_tilde> <dead_stroke> <I>             : "Ɨ̃̀"
 <dead_grave> <dead_tilde> <dead_stroke> <I>             : "ɨ̃̀"
 <dead_grave> <dead_stroke> <dead_tilde> <I>             : "Ɨ̃̀"

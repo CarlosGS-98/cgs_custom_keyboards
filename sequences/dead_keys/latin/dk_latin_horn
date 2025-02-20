@@ -19,8 +19,8 @@
 <dead_horn> <dead_grave> <o>    : "ờ"
 <dead_horn> <Otilde>            : "Ỡ"
 <dead_horn> <otilde>            : "ỡ"
-<dead_horn> <dead_horn> <O>    : "Ỡ"
-<dead_horn> <dead_horn> <o>    : "ỡ"
+<dead_horn> <dead_tilde> <O>    : "Ỡ"
+<dead_horn> <dead_tilde> <o>    : "ỡ"
 <dead_horn> <Obelowdot>         : "Ợ"
 <dead_horn> <obelowdot>         : "ợ"
 <dead_horn> <dead_belowdot> <O> : "Ợ"
@@ -39,8 +39,8 @@
 <dead_horn> <dead_grave> <u>    : "ừ"
 <dead_horn> <Utilde>            : "Ữ"
 <dead_horn> <utilde>            : "ữ"
-<dead_horn> <dead_horn> <U>    : "Ữ"
-<dead_horn> <dead_horn> <u>    : "ữ"
+<dead_horn> <dead_tilde> <U>    : "Ữ"
+<dead_horn> <dead_tilde> <u>    : "ữ"
 <dead_horn> <Ubelowdot>         : "Ự"
 <dead_horn> <ubelowdot>         : "ự"
 <dead_horn> <dead_belowdot> <U> : "Ự"
@@ -226,8 +226,6 @@
 <dead_horn> <ubreve>                        : "ư̆"
 <dead_horn> <dead_breve> <U>                : "Ư̆"
 <dead_horn> <dead_breve> <u>                : "ư̆"
-
-# ZONA DE BÚFER #
 
 ##################
 # [END OF RULES] #

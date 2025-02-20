@@ -550,22 +550,26 @@
 <dead_acute> <dead_belowmacron> <dead_stroke> <idotless>    : "ɨ̱́"
 <dead_acute> <dead_belowbreve> <I>                          : "Í̯"
 <dead_acute> <dead_belowbreve> <i>                          : "í̯"
-<dead_acute> <dead_stroke> <I>                              : "Ɨ́"   # Ɨ + Acute
-<dead_acute> <dead_stroke> <i>                              : "ɨ́"   # ɨ + Acute
-<dead_acute> <dead_stroke> <dead_diaeresis> <I>             : "Ɨ̈́"   # Ɨ + Acute + Diaeresis
-<dead_acute> <dead_stroke> <dead_diaeresis> <i>             : "ɨ̈́"   # ɨ + Acute + Diaeresis
+<dead_acute> <dead_stroke> <I>                              : "Ɨ́"
+<dead_acute> <dead_stroke> <i>                              : "ɨ́"
+<dead_acute> <dead_stroke> <Idiaeresis>                     : "Ɨ̈́"
+<dead_acute> <dead_stroke> <idiaeresis>                     : "ɨ̈́"
+<dead_acute> <dead_stroke> <dead_diaeresis> <I>             : "Ɨ̈́"
+<dead_acute> <dead_stroke> <dead_diaeresis> <i>             : "ɨ̈́"
 <dead_acute> <dead_stroke> <dead_diaeresis> <Idotabove>     : "Ɨ̈́"
 <dead_acute> <dead_stroke> <dead_diaeresis> <idotless>      : "ɨ̈́"
-<dead_acute> <dead_stroke> <dead_tilde> <I>                 : "Ɨ̃́"   # Ɨ + Acute + Tilde
-<dead_acute> <dead_stroke> <dead_tilde> <i>                 : "ɨ̃́"   # ɨ + Acute + Tilde
+<dead_acute> <dead_stroke> <Itilde>                         : "Ɨ̃́"
+<dead_acute> <dead_stroke> <itilde>                         : "ɨ̃́"
+<dead_acute> <dead_stroke> <dead_tilde> <I>                 : "Ɨ̃́"
+<dead_acute> <dead_stroke> <dead_tilde> <i>                 : "ɨ̃́"
 <dead_acute> <dead_stroke> <dead_tilde> <Idotabove>         : "Ɨ̃́"
 <dead_acute> <dead_stroke> <dead_tilde> <idotless>          : "ɨ̃́"
 <dead_acute> <dead_stroke> <Idotabove>                      : "Ɨ́"
 <dead_acute> <dead_stroke> <idotless>                       : "ɨ́"
 <dead_acute> <dead_stroke> <dead_cedilla> <Idotabove>       : "Ɨ̧́"
 <dead_acute> <dead_stroke> <dead_cedilla> <idotless>        : "ɨ̧́"
-<dead_acute> <dead_stroke> <dead_belowmacron> <I>           : "Ɨ̱́"   # Ɨ + Acute + Macron Below
-<dead_acute> <dead_stroke> <dead_belowmacron> <i>           : "ɨ̱́"   # ɨ + Acute + Macron Below
+<dead_acute> <dead_stroke> <dead_belowmacron> <I>           : "Ɨ̱́"
+<dead_acute> <dead_stroke> <dead_belowmacron> <i>           : "ɨ̱́"
 <dead_acute> <dead_stroke> <dead_belowmacron> <Idotabove>   : "Ɨ̱́"
 <dead_acute> <dead_stroke> <dead_belowmacron> <idotless>    : "ɨ̱́"
 <dead_acute> <Ibelowdot>                                    : "Ị́"
@@ -903,6 +907,8 @@
 <dead_acute> <dead_belowmacron> <U0289>                     : "ʉ̱́"   # ʉ + Acute + Macron Below
 <dead_acute> <dead_stroke> <U>                              : "Ʉ́"   # Ʉ + Acute
 <dead_acute> <dead_stroke> <u>                              : "ʉ́"   # ʉ + Acute
+<dead_acute> <dead_stroke> <Utilde>                         : "Ʉ̃́"   # Ʉ + Acute + Tilde
+<dead_acute> <dead_stroke> <utilde>                         : "ʉ̃́"   # ʉ + Acute + Tilde
 <dead_acute> <dead_stroke> <dead_tilde> <U>                 : "Ʉ̃́"   # Ʉ + Acute + Tilde
 <dead_acute> <dead_stroke> <dead_tilde> <u>                 : "ʉ̃́"   # ʉ + Acute + Tilde
 <dead_acute> <dead_belowmacron> <dead_stroke> <U>           : "Ʉ̱́"   # Ʉ + Acute + Macron Below
