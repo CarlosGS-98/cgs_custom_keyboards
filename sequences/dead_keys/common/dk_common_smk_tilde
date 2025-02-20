@@ -14,6 +14,10 @@
 <dead_tilde> <comma>        : "͂"    # Combining Greek perispomeni
 <dead_tilde> <semicolon>    : "҃"    # Combining Cyrillic titlo
 
+# Chained dead keys
+<dead_tilde> <minus>        : U0334 # Middle Tilde (as a dead key)
+<dead_tilde> <underscore>   : dead_belowtilde
+
 ##################
 # [END OF RULES] #
 ##################

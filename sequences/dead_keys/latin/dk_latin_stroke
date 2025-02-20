@@ -2,6 +2,10 @@
 # [AUTHOR]: Carlos González Sanz
 
 # Basic precomposed letter combinations
+#
+# [CUSTOM DEAD KEYS]:
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
 <dead_stroke> <2>                   : "ƻ"
 <dead_stroke> <UA738>               : "Ꜻ"  # Ꜹ + Stroke
 <dead_stroke> <UA739>               : "ꜻ"   # ꜹ + Stroke
@@ -101,7 +105,6 @@
 <dead_stroke> <UA779>             : "Ꝺ̵"      # Ꝺ (Insular D) + Stroke
 <dead_stroke> <UA77A>             : "ꝺ̵"      # ꝺ (Insular D) + Stroke
 <dead_stroke> <E>                 : "E̵"
-<dead_stroke> <e>                 : "e̵"
 <dead_stroke> <U0190>             : "Ɛ̵"      # Ɛ (Latin Epsilon) + Stroke
 <dead_stroke> <U025B>             : "ɛ̵"      # ɛ (Latin Epsilon) + Stroke
 <dead_stroke> <SCHWA>             : "Ə̵"      # Ə (Schwa) + Stroke
