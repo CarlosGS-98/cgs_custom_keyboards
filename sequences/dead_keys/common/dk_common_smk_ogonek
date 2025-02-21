@@ -8,9 +8,13 @@
 
 # Basic combinations
 <dead_ogonek> <space>       : "̨"    # Combining ogonek
-<dead_ogonek> <dead_ogonek> : "˛"    # Regular spacing ogonek
+<dead_ogonek> <dead_ogonek> : "˛"   # Regular spacing ogonek
 <dead_ogonek> <less>        : "᷎"    # Combining ogonek above
 <dead_ogonek> <greater>     : "᷎"    # Combining ogonek above
+
+
+# Chained dead keys
+<dead_ogonek> <minus>   : U1DCE     # Ogonek above (as a dead key)
 
 ##################
 # [END OF RULES] #

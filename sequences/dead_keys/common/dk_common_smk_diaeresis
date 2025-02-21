@@ -12,6 +12,10 @@
 <dead_diaeresis> <less>             : "̤"    # Combining diaeresis below
 <dead_diaeresis> <greater>          : "̤"    # Combining diaeresis below
 
+
+# Chained dead keys
+<dead_diaeresis> <minus>    : dead_belowdiaeresis
+
 ##################
 # [END OF RULES] #
 ##################

@@ -15,6 +15,10 @@
 <dead_invertedbreve> <semicolon>            : "⁔"   # Undertie below
 <dead_invertedbreve> <period>               : "᷼"    # Combining double lower inverted breve
 
+
+# Chained dead keys
+<dead_invertedbreve> <minus>    : U032F             # Inverted Breve Below (as a dead key) 
+
 ##################
 # [END OF RULES] #
 ##################

@@ -12,6 +12,10 @@
 <dead_circumflex> <less>            : "̭"    # Combining circumflex accent below
 <dead_circumflex> <greater>         : "ˆ"   # Modifier circumflex accent 
 
+
+# Chained dead keys
+<dead_circumflex> <minus>   : dead_belowcircumflex
+
 ##################
 # [END OF RULES] #
 ##################

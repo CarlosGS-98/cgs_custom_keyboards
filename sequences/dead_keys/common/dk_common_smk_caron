@@ -9,7 +9,11 @@
 <dead_caron> <space>        : "̌"    # Combining caron
 <dead_caron> <dead_caron>   : "ˇ"   # Regular spacing caron
 <dead_caron> <less>         : "̬"    # Combining caron below
-<dead_caron> <greater>      : "̬"    # Combining caron below
+<dead_caron> <greater>      : "ˬ"   # Modifier letter voicing
+
+
+# Chained dead keys
+<dead_caron> <minus>    : U032C # Caron Below (as a dead key) 
 
 ##################
 # [END OF RULES] #

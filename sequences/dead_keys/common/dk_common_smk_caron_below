@@ -1,0 +1,22 @@
+# Common Dead Keys | Caron Below Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the caron/háček below
+# > across multiple writing systems.
+#
+# [NOTE]: This diacritic will be represented as [U032C]
+# ("̬", Combining Caron Below) due to the fact that
+# there currently is no alias for the aforementioned
+# character in "xkbcommon-keysyms.h".
+#
+
+# Basic combinations
+<U032C> <space>     : "̬"    # Combining caron below
+<U032C> <U032C>     : "ˬ"   # Modifier letter voicing
+<U032C> <less>      : "̌"    # Combining caron
+<U032C> <greater>   : "ˇ"   # Regular spacing caron
+
+##################
+# [END OF RULES] #
+##################

@@ -164,7 +164,7 @@
 <U0334> <ezh>               : "ʒ̴"     # ʒ + Middle Tilde
 
 
-# Composed stroke combinations (Not directly encoded in Unicode) (Unidirectional)
+# Composed middle combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main reference]: https://fr.wikipedia.org/wiki/Tilde_inscrit
 #
 # [NOTE]: No relevant combinations exist yet for this diacritic.

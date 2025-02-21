@@ -37,6 +37,20 @@
 <dead_cedilla> <dead_breve> <e> : "ĕ"
 
 
+# Special letters with descender (Preceded by <dead_cedilla> <minus>)
+#
+# [NOTE]: This diacritic has been placed here for convenience.
+#
+<dead_cedilla> <minus> <H>  : "Ⱨ"
+<dead_cedilla> <minus> <h>  : "ⱨ"
+<dead_cedilla> <minus> <K>  : "Ⱪ"
+<dead_cedilla> <minus> <k>  : "ⱪ"
+<dead_cedilla> <minus> <N>  : "Ꞑ"
+<dead_cedilla> <minus> <n>  : "ꞑ"
+<dead_cedilla> <minus> <Z>  : "Ⱬ"
+<dead_cedilla> <minus> <z>  : "ⱬ"
+
+
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main reference]: https://fr.wikipedia.org/wiki/Cédille
 #
