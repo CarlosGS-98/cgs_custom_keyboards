@@ -44,15 +44,16 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_en_chef
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_en_chef
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_hook> <AE>                 : "Æ̉"
 <dead_hook> <ae>                 : "æ̉"
-<dead_hook> <multiply> <A> <E>   : "Æ̉"
-<dead_hook> <multiply> <a> <e>   : "æ̉"
+<dead_hook> <U1DCF> <A> <E>      : "Æ̉"
+<dead_hook> <U1DCF> <a> <e>      : "æ̉"
 <dead_hook> <C>                  : "C̉"
 <dead_hook> <c>                  : "c̉"
 <dead_hook> <D>                  : "D̉"
@@ -77,8 +78,8 @@
 <dead_hook> <eng>                : "ŋ̉"      # ŋ + Hook
 <dead_hook> <OE>                 : "Œ̉"
 <dead_hook> <oe>                 : "œ̉"
-<dead_hook> <multiply> <O> <E>   : "Œ̉"
-<dead_hook> <multiply> <o> <e>   : "œ̉"
+<dead_hook> <U1DCF> <O> <E>      : "Œ̉"
+<dead_hook> <U1DCF> <o> <e>      : "œ̉"
 <dead_hook> <U0186>              : "Ɔ̉"      # Ɔ + Hook
 <dead_hook> <U0254>              : "ɔ̉"      # ɔ + Hook
 <dead_hook> <UA7CB>              : "Ɤ̉"      # Ɤ (Ram's Horn) + Hook
@@ -107,8 +108,8 @@
 <dead_hook> <U21BA> <v>          : "ʌ̉"     # ʌ + Hook
 <dead_hook> <UA760>              : "Ꝡ̉"     # Ꝡ + Hook
 <dead_hook> <UA761>              : "ꝡ̉"     # ꝡ + Hook
-<dead_hook> <multiply> <V> <Y>   : "Ꝡ̉"     # Ꝡ + Hook
-<dead_hook> <multiply> <v> <y>   : "ꝡ̉"     # ꝡ + Hook
+<dead_hook> <U1DCF> <V> <Y>      : "Ꝡ̉"     # Ꝡ + Hook
+<dead_hook> <U1DCF> <v> <y>      : "ꝡ̉"     # ꝡ + Hook
 <dead_hook> <W>                  : "W̉"
 <dead_hook> <w>                  : "w̉"
 <dead_hook> <Z>                  : "Z̉"

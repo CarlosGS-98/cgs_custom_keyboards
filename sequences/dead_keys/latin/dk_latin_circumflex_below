@@ -17,9 +17,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_circonflexe_souscrit
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_belowcircumflex> <A>                 : "A̭"
@@ -30,28 +31,28 @@
 <dead_belowcircumflex> <U21BA> <a>         : "ɐ̭"      # ɐ + Circumflex Below
 <dead_belowcircumflex> <UA732>             : "Ꜳ̭"     # Ꜳ + Circumflex Below
 <dead_belowcircumflex> <UA733>             : "ꜳ̭"      # ꜳ + Circumflex Below
-<dead_belowcircumflex> <multiply> <A> <A>  : "Ꜳ̭"     # Ꜳ + Circumflex Below
-<dead_belowcircumflex> <multiply> <a> <a>  : "ꜳ̭"      # ꜳ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <A> <A>     : "Ꜳ̭"     # Ꜳ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <a> <a>     : "ꜳ̭"      # ꜳ + Circumflex Below
 <dead_belowcircumflex> <AE>                : "Æ̭"
 <dead_belowcircumflex> <ae>                : "æ̭"
-<dead_belowcircumflex> <multiply> <A> <E>  : "Æ̭"
-<dead_belowcircumflex> <multiply> <a> <e>  : "æ̭"
+<dead_belowcircumflex> <U1DCF> <A> <E>     : "Æ̭"
+<dead_belowcircumflex> <U1DCF> <a> <e>     : "æ̭"
 <dead_belowcircumflex> <UA734>             : "Ꜵ̭"     # Ꜵ + Circumflex Below
 <dead_belowcircumflex> <UA735>             : "ꜵ̭"      # ꜵ + Circumflex Below
-<dead_belowcircumflex> <multiply> <A> <O>  : "Ꜵ̭"     # Ꜵ + Circumflex Below
-<dead_belowcircumflex> <multiply> <a> <o>  : "ꜵ̭"      # ꜵ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <A> <O>     : "Ꜵ̭"     # Ꜵ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <a> <o>     : "ꜵ̭"      # ꜵ + Circumflex Below
 <dead_belowcircumflex> <UA736>             : "Ꜷ̭"     # Ꜷ + Circumflex Below
 <dead_belowcircumflex> <UA737>             : "ꜷ̭"      # ꜷ + Circumflex Below
-<dead_belowcircumflex> <multiply> <A> <U>  : "Ꜷ̭"     # Ꜷ + Circumflex Below
-<dead_belowcircumflex> <multiply> <a> <u>  : "ꜷ̭"      # ꜷ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <A> <U>     : "Ꜷ̭"     # Ꜷ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <a> <u>     : "ꜷ̭"      # ꜷ + Circumflex Below
 <dead_belowcircumflex> <UA738>             : "Ꜹ̭"     # Ꜹ + Circumflex Below
 <dead_belowcircumflex> <UA739>             : "ꜹ̭"      # ꜹ + Circumflex Below
-<dead_belowcircumflex> <multiply> <A> <V>  : "Ꜹ̭"     # Ꜹ + Circumflex Below
-<dead_belowcircumflex> <multiply> <a> <v>  : "ꜹ̭"      # ꜹ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <A> <V>     : "Ꜹ̭"     # Ꜹ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <a> <v>     : "ꜹ̭"      # ꜹ + Circumflex Below
 <dead_belowcircumflex> <UA73C>             : "Ꜽ̭"     # Ꜽ + Circumflex Below
 <dead_belowcircumflex> <UA73D>             : "ꜽ̭"      # ꜽ + Circumflex Below
-<dead_belowcircumflex> <multiply> <A> <Y>  : "Ꜽ̭"     # Ꜽ + Circumflex Below
-<dead_belowcircumflex> <multiply> <a> <y>  : "ꜽ̭"      # ꜽ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <A> <Y>     : "Ꜽ̭"     # Ꜽ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <a> <y>     : "ꜽ̭"      # ꜽ + Circumflex Below
 <dead_belowcircumflex> <U2C6D>             : "Ɑ̭"      # Ɑ (Latin Alpha) + Circumflex Below
 <dead_belowcircumflex> <U0251>             : "ɑ̭"      # ɑ (Latin Alpha) + Circumflex Below
 <dead_belowcircumflex> <B>                 : "B̭"
@@ -100,12 +101,12 @@
 <dead_belowcircumflex> <o>                 : "o̭"
 <dead_belowcircumflex> <OE>                : "Œ̭"
 <dead_belowcircumflex> <oe>                : "œ̭"
-<dead_belowcircumflex> <multiply> <O> <E>  : "Œ̭"
-<dead_belowcircumflex> <multiply> <o> <e>  : "œ̭"
+<dead_belowcircumflex> <U1DCF> <O> <E>     : "Œ̭"
+<dead_belowcircumflex> <U1DCF> <o> <e>     : "œ̭"
 <dead_belowcircumflex> <UA74E>             : "Ꝏ̭"     # Ꝏ + Circumflex Below
 <dead_belowcircumflex> <UA74F>             : "ꝏ̭"     # ꝏ + Circumflex Below
-<dead_belowcircumflex> <multiply> <O> <O>  : "Ꝏ̭"     # Ꝏ + Circumflex Below
-<dead_belowcircumflex> <multiply> <o> <o>  : "ꝏ̭"     # ꝏ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <O> <O>     : "Ꝏ̭"     # Ꝏ + Circumflex Below
+<dead_belowcircumflex> <U1DCF> <o> <o>     : "ꝏ̭"     # ꝏ + Circumflex Below
 <dead_belowcircumflex> <U0186>             : "Ɔ̭"      # Ɔ + Circumflex Below
 <dead_belowcircumflex> <U0254>             : "ɔ̭"      # ɔ + Circumflex Below
 <dead_belowcircumflex> <UA7CB>             : "Ɤ̭"      # Ɤ (Ram's Horn) + Circumflex Below
@@ -144,8 +145,8 @@
 <dead_belowcircumflex> <w>                 : "w̭"
 <dead_belowcircumflex> <UA760>             : "Ꝡ̭"     # Ꝡ + Circumflex Below
 <dead_belowcircumflex> <UA761>             : "ꝡ̭"     # ꝡ + Circumflex Below
-<dead_belowcircumflex> <multiply> <V> <Y>  : "Ꝡ̭"
-<dead_belowcircumflex> <multiply> <v> <y>  : "ꝡ̭"
+<dead_belowcircumflex> <U1DCF> <V> <Y>     : "Ꝡ̭"
+<dead_belowcircumflex> <U1DCF> <v> <y>     : "ꝡ̭"
 <dead_belowcircumflex> <X>                 : "X̭"
 <dead_belowcircumflex> <x>                 : "x̭"
 <dead_belowcircumflex> <Y>                 : "Y̭"
@@ -157,7 +158,7 @@
 
 
 # Composed circumflex below combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_circonflexe_souscrit
 #
 <dead_belowcircumflex> <Atilde>                 : "Ã̭"
 <dead_belowcircumflex> <atilde>                 : "ã̭"

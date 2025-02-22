@@ -67,9 +67,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tilde
+# [Main source]: https://fr.wikipedia.org/wiki/Tilde
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_tilde> <U2C6F>            : "Ɐ̃"      # Ɐ + Tilde
@@ -78,28 +79,28 @@
 <dead_tilde> <U21BA> <a>        : "ɐ̃"      # ɐ + Tilde
 <dead_tilde> <UA732>            : "Ꜳ̃"     # Ꜳ + Tilde
 <dead_tilde> <UA733>            : "ꜳ̃"      # ꜳ + Tilde
-<dead_tilde> <multiply> <A> <A> : "Ꜳ̃"     # Ꜳ + Tilde
-<dead_tilde> <multiply> <a> <a> : "ꜳ̃"      # ꜳ + Tilde
+<dead_tilde> <U1DCF> <A> <A>    : "Ꜳ̃"     # Ꜳ + Tilde
+<dead_tilde> <U1DCF> <a> <a>    : "ꜳ̃"      # ꜳ + Tilde
 <dead_tilde> <AE>               : "Æ̃"
 <dead_tilde> <ae>               : "æ̃"
-<dead_tilde> <multiply> <A> <E> : "Æ̃"
-<dead_tilde> <multiply> <a> <e> : "æ̃"
+<dead_tilde> <U1DCF> <A> <E>    : "Æ̃"
+<dead_tilde> <U1DCF> <a> <e>    : "æ̃"
 <dead_tilde> <UA734>            : "Ꜵ̃"     # Ꜵ + Tilde
 <dead_tilde> <UA735>            : "ꜵ̃"      # ꜵ + Tilde
-<dead_tilde> <multiply> <A> <O> : "Ꜵ̃"     # Ꜵ + Tilde
-<dead_tilde> <multiply> <a> <o> : "ꜵ̃"      # ꜵ + Tilde
+<dead_tilde> <U1DCF> <A> <O>    : "Ꜵ̃"     # Ꜵ + Tilde
+<dead_tilde> <U1DCF> <a> <o>    : "ꜵ̃"      # ꜵ + Tilde
 <dead_tilde> <UA736>            : "Ꜷ̃"     # Ꜷ + Tilde
 <dead_tilde> <UA737>            : "ꜷ̃"      # ꜷ + Tilde
-<dead_tilde> <multiply> <A> <U> : "Ꜷ̃"     # Ꜷ + Tilde
-<dead_tilde> <multiply> <a> <u> : "ꜷ̃"      # ꜷ + Tilde
+<dead_tilde> <U1DCF> <A> <U>    : "Ꜷ̃"     # Ꜷ + Tilde
+<dead_tilde> <U1DCF> <a> <u>    : "ꜷ̃"      # ꜷ + Tilde
 <dead_tilde> <UA738>            : "Ꜹ̃"     # Ꜹ + Tilde
 <dead_tilde> <UA739>            : "ꜹ̃"      # ꜹ + Tilde
-<dead_tilde> <multiply> <A> <V> : "Ꜹ̃"     # Ꜹ + Tilde
-<dead_tilde> <multiply> <a> <v> : "ꜹ̃"      # ꜹ + Tilde
+<dead_tilde> <U1DCF> <A> <V>    : "Ꜹ̃"     # Ꜹ + Tilde
+<dead_tilde> <U1DCF> <a> <v>    : "ꜹ̃"      # ꜹ + Tilde
 <dead_tilde> <UA73C>            : "Ꜽ̃"     # Ꜽ + Tilde
 <dead_tilde> <UA73D>            : "ꜽ̃"      # ꜽ + Tilde
-<dead_tilde> <multiply> <A> <Y> : "Ꜽ̃"     # Ꜽ + Tilde
-<dead_tilde> <multiply> <a> <y> : "ꜽ̃"      # ꜽ + Tilde
+<dead_tilde> <U1DCF> <A> <Y>    : "Ꜽ̃"     # Ꜽ + Tilde
+<dead_tilde> <U1DCF> <a> <y>    : "ꜽ̃"      # ꜽ + Tilde
 <dead_tilde> <U2C6D>            : "Ɑ̃"      # Ɑ (Latin Alpha) + Tilde
 <dead_tilde> <U0251>            : "ɑ̃"      # ɑ (Latin Alpha) + Tilde
 <dead_tilde> <B>                : "B̃"
@@ -144,12 +145,12 @@
 <dead_tilde> <eng>              : "ŋ̃"      # ŋ + Tilde
 <dead_tilde> <OE>               : "Œ̃"
 <dead_tilde> <oe>               : "œ̃"
-<dead_tilde> <multiply> <O> <E> : "Œ̃"
-<dead_tilde> <multiply> <o> <e> : "œ̃"
+<dead_tilde> <U1DCF> <O> <E>    : "Œ̃"
+<dead_tilde> <U1DCF> <o> <e>    : "œ̃"
 <dead_tilde> <UA74E>            : "Ꝏ̃"     # Ꝏ + Tilde
 <dead_tilde> <UA74F>            : "ꝏ̃"     # ꝏ + Tilde
-<dead_tilde> <multiply> <O> <O> : "Ꝏ̃"     # Ꝏ + Tilde
-<dead_tilde> <multiply> <o> <o> : "ꝏ̃"     # ꝏ + Tilde
+<dead_tilde> <U1DCF> <O> <O>    : "Ꝏ̃"     # Ꝏ + Tilde
+<dead_tilde> <U1DCF> <o> <o>    : "ꝏ̃"     # ꝏ + Tilde
 <dead_tilde> <U0186>            : "Ɔ̃"      # Ɔ + Tilde
 <dead_tilde> <U0254>            : "ɔ̃"      # ɔ + Tilde
 <dead_tilde> <UA7CB>            : "Ɤ̃"      # Ɤ (Ram's Horn) + Tilde
@@ -178,8 +179,8 @@
 <dead_tilde> <UA769>            : "ꝩ̃"     # ꝩ (Vend) + Tilde
 <dead_tilde> <UA760>            : "Ꝡ̃"     # Ꝡ + Tilde
 <dead_tilde> <UA761>            : "ꝡ̃"     # ꝡ + Tilde
-<dead_tilde> <multiply> <V> <Y> : "Ꝡ̃"
-<dead_tilde> <multiply> <v> <y> : "ꝡ̃"
+<dead_tilde> <U1DCF> <V> <Y>    : "Ꝡ̃"
+<dead_tilde> <U1DCF> <v> <y>    : "ꝡ̃"
 <dead_tilde> <W>                : "W̃"
 <dead_tilde> <w>                : "w̃"
 <dead_tilde> <X>                : "X̃"
@@ -191,7 +192,7 @@
 
 
 # Composed tilde combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tilde
+# [Main source]: https://fr.wikipedia.org/wiki/Tilde
 #
 # [CUSTOM DEAD KEYS]:
 # - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
@@ -264,16 +265,16 @@
 <dead_tilde> <dead_aboveverticalline> <a>                       : "ã̍"
 <dead_tilde> <dead_macron> <AE>                                 : "Æ̃̄"
 <dead_tilde> <dead_macron> <ae>                                 : "æ̃̄"
-<dead_tilde> <dead_macron> <multiply> <A> <E>                   : "Æ̃̄"
-<dead_tilde> <dead_macron> <multiply> <a> <e>                   : "æ̃̄"
+<dead_tilde> <dead_macron> <U1DCF> <A> <E>                      : "Æ̃̄"
+<dead_tilde> <dead_macron> <U1DCF> <a> <e>                      : "æ̃̄"
 <dead_tilde> <dead_caron> <AE>                                  : "Æ̃̌"
 <dead_tilde> <dead_caron> <ae>                                  : "æ̃̌"
-<dead_tilde> <dead_caron> <multiply> <A> <E>                    : "Æ̃̌"
-<dead_tilde> <dead_caron> <multiply> <a> <e>                    : "æ̃̌"
+<dead_tilde> <dead_caron> <U1DCF> <A> <E>                       : "Æ̃̌"
+<dead_tilde> <dead_caron> <U1DCF> <a> <e>                       : "æ̃̌"
 <dead_tilde> <dead_ogonek> <AE>                                 : "Æ̨̃"
 <dead_tilde> <dead_ogonek> <ae>                                 : "æ̨̃"
-<dead_tilde> <dead_ogonek> <multiply> <A> <E>                   : "Æ̨̃"
-<dead_tilde> <dead_ogonek> <multiply> <a> <e>                   : "æ̨̃"
+<dead_tilde> <dead_ogonek> <U1DCF> <A> <E>                      : "Æ̨̃"
+<dead_tilde> <dead_ogonek> <U1DCF> <a> <e>                      : "æ̨̃"
 <dead_tilde> <dead_caron> <U2C6D>                               : "Ɑ̃̌"   # Ɑ (Latin Alpha) + Tilde + Caron
 <dead_tilde> <dead_caron> <U0251>                               : "ɑ̃̌"   # ɑ (Latin Alpha) + Tilde + Caron
 <dead_tilde> <Eacute>                                           : "Ẽ́"
@@ -578,12 +579,12 @@
 <dead_tilde> <dead_aboveverticalline> <o>                       : "õ̍"
 <dead_tilde> <dead_ogonek> <OE>                                 : "Œ̨̃"
 <dead_tilde> <dead_ogonek> <oe>                                 : "œ̨̃"
-<dead_tilde> <dead_ogonek> <multiply> <O> <E>                   : "Œ̨̃"
-<dead_tilde> <dead_ogonek> <multiply> <o> <e>                   : "œ̨̃"
+<dead_tilde> <dead_ogonek> <U1DCF> <O> <E>                      : "Œ̨̃"
+<dead_tilde> <dead_ogonek> <U1DCF> <o> <e>                      : "œ̨̃"
 <dead_tilde> <dead_macron> <OE>                                 : "Œ̃̄"
 <dead_tilde> <dead_macron> <oe>                                 : "œ̃̄"
-<dead_tilde> <dead_macron> <multiply> <O> <E>                   : "Œ̃̄"
-<dead_tilde> <dead_macron> <multiply> <o> <e>                   : "œ̃̄"
+<dead_tilde> <dead_macron> <U1DCF> <O> <E>                      : "Œ̃̄"
+<dead_tilde> <dead_macron> <U1DCF> <o> <e>                      : "œ̃̄"
 <dead_tilde> <dead_acute> <Oslash>                              : "Ø̃́"
 <dead_tilde> <dead_acute> <oslash>                              : "ø̃́"
 <dead_tilde> <dead_acute> <dead_longsolidusoverlay> <O>         : "Ø̃́"

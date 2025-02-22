@@ -52,9 +52,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Cornu_(diacritique)
+# [Main source]: https://fr.wikipedia.org/wiki/Cornu_(diacritique)
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_horn> <A>                 : "A̛"
@@ -65,28 +66,28 @@
 <dead_horn> <U21BA> <a>         : "ɐ̛"      # ɐ + Horn
 <dead_horn> <UA732>             : "Ꜳ̛"     # Ꜳ + Horn
 <dead_horn> <UA733>             : "ꜳ̛"      # ꜳ + Horn
-<dead_horn> <multiply> <A> <A>  : "Ꜳ̛"     # Ꜳ + Horn
-<dead_horn> <multiply> <a> <a>  : "ꜳ̛"      # ꜳ + Horn
+<dead_horn> <U1DCF> <A> <A>     : "Ꜳ̛"     # Ꜳ + Horn
+<dead_horn> <U1DCF> <a> <a>     : "ꜳ̛"      # ꜳ + Horn
 <dead_horn> <AE>                : "Æ̛"
 <dead_horn> <ae>                : "æ̛"
-<dead_horn> <multiply> <A> <E>  : "Æ̛"
-<dead_horn> <multiply> <a> <e>  : "æ̛"
+<dead_horn> <U1DCF> <A> <E>     : "Æ̛"
+<dead_horn> <U1DCF> <a> <e>     : "æ̛"
 <dead_horn> <UA734>             : "Ꜵ̛"     # Ꜵ + Horn
 <dead_horn> <UA735>             : "ꜵ̛"      # ꜵ + Horn
-<dead_horn> <multiply> <A> <O>  : "Ꜵ̛"     # Ꜵ + Horn
-<dead_horn> <multiply> <a> <o>  : "ꜵ̛"      # ꜵ + Horn
+<dead_horn> <U1DCF> <A> <O>     : "Ꜵ̛"     # Ꜵ + Horn
+<dead_horn> <U1DCF> <a> <o>     : "ꜵ̛"      # ꜵ + Horn
 <dead_horn> <UA736>             : "Ꜷ̛"     # Ꜷ + Horn
 <dead_horn> <UA737>             : "ꜷ̛"      # ꜷ + Horn
-<dead_horn> <multiply> <A> <U>  : "Ꜷ̛"     # Ꜷ + Horn
-<dead_horn> <multiply> <a> <u>  : "ꜷ̛"      # ꜷ + Horn
+<dead_horn> <U1DCF> <A> <U>     : "Ꜷ̛"     # Ꜷ + Horn
+<dead_horn> <U1DCF> <a> <u>     : "ꜷ̛"      # ꜷ + Horn
 <dead_horn> <UA738>             : "Ꜹ̛"     # Ꜹ + Horn
 <dead_horn> <UA739>             : "ꜹ̛"      # ꜹ + Horn
-<dead_horn> <multiply> <A> <V>  : "Ꜹ̛"     # Ꜹ + Horn
-<dead_horn> <multiply> <a> <v>  : "ꜹ̛"      # ꜹ + Horn
+<dead_horn> <U1DCF> <A> <V>     : "Ꜹ̛"     # Ꜹ + Horn
+<dead_horn> <U1DCF> <a> <v>     : "ꜹ̛"      # ꜹ + Horn
 <dead_horn> <UA73C>             : "Ꜽ̛"     # Ꜽ + Horn
 <dead_horn> <UA73D>             : "ꜽ̛"      # ꜽ + Horn
-<dead_horn> <multiply> <A> <Y>  : "Ꜽ̛"     # Ꜽ + Horn
-<dead_horn> <multiply> <a> <y>  : "ꜽ̛"      # ꜽ + Horn
+<dead_horn> <U1DCF> <A> <Y>     : "Ꜽ̛"     # Ꜽ + Horn
+<dead_horn> <U1DCF> <a> <y>     : "ꜽ̛"      # ꜽ + Horn
 <dead_horn> <U2C6D>             : "Ɑ̛"      # Ɑ (Latin Alpha) + Horn
 <dead_horn> <U0251>             : "ɑ̛"      # ɑ (Latin Alpha) + Horn
 <dead_horn> <B>                 : "B̛"
@@ -141,12 +142,12 @@
 <dead_horn> <eng>               : "ŋ̛"      # ŋ + Horn
 <dead_horn> <OE>                : "Œ̛"
 <dead_horn> <oe>                : "œ̛"
-<dead_horn> <multiply> <O> <E>  : "Œ̛"
-<dead_horn> <multiply> <o> <e>  : "œ̛"
+<dead_horn> <U1DCF> <O> <E>     : "Œ̛"
+<dead_horn> <U1DCF> <o> <e>     : "œ̛"
 <dead_horn> <UA74E>             : "Ꝏ̛"     # Ꝏ + Horn
 <dead_horn> <UA74F>             : "ꝏ̛"     # ꝏ + Horn
-<dead_horn> <multiply> <O> <O>  : "Ꝏ̛"     # Ꝏ + Horn
-<dead_horn> <multiply> <o> <o>  : "ꝏ̛"     # ꝏ + Horn
+<dead_horn> <U1DCF> <O> <O>     : "Ꝏ̛"     # Ꝏ + Horn
+<dead_horn> <U1DCF> <o> <o>     : "ꝏ̛"     # ꝏ + Horn
 <dead_horn> <U0186>             : "Ɔ̛"      # Ɔ + Horn
 <dead_horn> <U0254>             : "ɔ̛"      # ɔ + Horn
 <dead_horn> <UA7CB>             : "Ɤ̛"      # Ɤ (Ram's Horn) + Horn
@@ -189,8 +190,8 @@
 <dead_horn> <w>                 : "w̛"
 <dead_horn> <UA760>             : "Ꝡ̛"     # Ꝡ + Horn
 <dead_horn> <UA761>             : "ꝡ̛"     # ꝡ + Horn
-<dead_horn> <multiply> <V> <Y>  : "Ꝡ̛"
-<dead_horn> <multiply> <v> <y>  : "ꝡ̛"
+<dead_horn> <U1DCF> <V> <Y>     : "Ꝡ̛"
+<dead_horn> <U1DCF> <v> <y>     : "ꝡ̛"
 <dead_horn> <X>                 : "X̛"
 <dead_horn> <x>                 : "x̛"
 <dead_horn> <Y>                 : "Y̛"
@@ -202,7 +203,7 @@
 
 
 # Composed horn combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Cornu_(diacritique)
+# [Main source]: https://fr.wikipedia.org/wiki/Cornu_(diacritique)
 #
 <dead_horn> <Omacron>                       : "Ơ̄"
 <dead_horn> <omacron>                       : "ơ̄"

@@ -6,9 +6,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Ligne_verticale_en_chef
+# [Main source]: https://fr.wikipedia.org/wiki/Ligne_verticale_en_chef
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_aboveverticalline> <A>                 : "A̍"
@@ -19,28 +20,28 @@
 <dead_aboveverticalline> <U21BA> <a>         : "ɐ̍"      # ɐ + Vertical Line Above
 <dead_aboveverticalline> <UA732>             : "Ꜳ̍"     # Ꜳ + Vertical Line Above
 <dead_aboveverticalline> <UA733>             : "ꜳ̍"      # ꜳ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <A> <A>  : "Ꜳ̍"     # Ꜳ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <a> <a>  : "ꜳ̍"      # ꜳ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <A>     : "Ꜳ̍"     # Ꜳ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <a>     : "ꜳ̍"      # ꜳ + Vertical Line Above
 <dead_aboveverticalline> <AE>                : "Æ̍"
 <dead_aboveverticalline> <ae>                : "æ̍"
-<dead_aboveverticalline> <multiply> <A> <E>  : "Æ̍"
-<dead_aboveverticalline> <multiply> <a> <e>  : "æ̍"
+<dead_aboveverticalline> <U1DCF> <A> <E>     : "Æ̍"
+<dead_aboveverticalline> <U1DCF> <a> <e>     : "æ̍"
 <dead_aboveverticalline> <UA734>             : "Ꜵ̍"     # Ꜵ + Vertical Line Above
 <dead_aboveverticalline> <UA735>             : "ꜵ̍"      # ꜵ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <A> <O>  : "Ꜵ̍"     # Ꜵ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <a> <o>  : "ꜵ̍"      # ꜵ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <O>     : "Ꜵ̍"     # Ꜵ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <o>     : "ꜵ̍"      # ꜵ + Vertical Line Above
 <dead_aboveverticalline> <UA736>             : "Ꜷ̍"     # Ꜷ + Vertical Line Above
 <dead_aboveverticalline> <UA737>             : "ꜷ̍"      # ꜷ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <A> <U>  : "Ꜷ̍"     # Ꜷ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <a> <u>  : "ꜷ̍"      # ꜷ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <U>     : "Ꜷ̍"     # Ꜷ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <u>     : "ꜷ̍"      # ꜷ + Vertical Line Above
 <dead_aboveverticalline> <UA738>             : "Ꜹ̍"     # Ꜹ + Vertical Line Above
 <dead_aboveverticalline> <UA739>             : "ꜹ̍"      # ꜹ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <A> <V>  : "Ꜹ̍"     # Ꜹ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <a> <v>  : "ꜹ̍"      # ꜹ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <V>     : "Ꜹ̍"     # Ꜹ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <v>     : "ꜹ̍"      # ꜹ + Vertical Line Above
 <dead_aboveverticalline> <UA73C>             : "Ꜽ̍"     # Ꜽ + Vertical Line Above
 <dead_aboveverticalline> <UA73D>             : "ꜽ̍"      # ꜽ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <A> <Y>  : "Ꜽ̍"     # Ꜽ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <a> <y>  : "ꜽ̍"      # ꜽ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <Y>     : "Ꜽ̍"     # Ꜽ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <y>     : "ꜽ̍"      # ꜽ + Vertical Line Above
 <dead_aboveverticalline> <U2C6D>             : "Ɑ̍"      # Ɑ (Latin Alpha) + Vertical Line Above
 <dead_aboveverticalline> <U0251>             : "ɑ̍"      # ɑ (Latin Alpha) + Vertical Line Above
 <dead_aboveverticalline> <B>                 : "B̍"
@@ -97,12 +98,12 @@
 <dead_aboveverticalline> <o>                 : "o̍"
 <dead_aboveverticalline> <OE>                : "Œ̍"
 <dead_aboveverticalline> <oe>                : "œ̍"
-<dead_aboveverticalline> <multiply> <O> <E>  : "Œ̍"
-<dead_aboveverticalline> <multiply> <o> <e>  : "œ̍"
+<dead_aboveverticalline> <U1DCF> <O> <E>     : "Œ̍"
+<dead_aboveverticalline> <U1DCF> <o> <e>     : "œ̍"
 <dead_aboveverticalline> <UA74E>             : "Ꝏ̍"     # Ꝏ + Vertical Line Above
 <dead_aboveverticalline> <UA74F>             : "ꝏ̍"     # ꝏ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <O> <O>  : "Ꝏ̍"     # Ꝏ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <o> <o>  : "ꝏ̍"     # ꝏ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <O> <O>     : "Ꝏ̍"     # Ꝏ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <o> <o>     : "ꝏ̍"     # ꝏ + Vertical Line Above
 <dead_aboveverticalline> <U0186>             : "Ɔ̍"      # Ɔ + Vertical Line Above
 <dead_aboveverticalline> <U0254>             : "ɔ̍"      # ɔ + Vertical Line Above
 <dead_aboveverticalline> <UA7CB>             : "Ɤ̍"      # Ɤ (Ram's Horn) + Vertical Line Above
@@ -145,8 +146,8 @@
 <dead_aboveverticalline> <w>                 : "w̍"
 <dead_aboveverticalline> <UA760>             : "Ꝡ̍"     # Ꝡ + Vertical Line Above
 <dead_aboveverticalline> <UA761>             : "ꝡ̍"     # ꝡ + Vertical Line Above
-<dead_aboveverticalline> <multiply> <V> <Y>  : "Ꝡ̍"
-<dead_aboveverticalline> <multiply> <v> <y>  : "ꝡ̍"
+<dead_aboveverticalline> <U1DCF> <V> <Y>     : "Ꝡ̍"
+<dead_aboveverticalline> <U1DCF> <v> <y>     : "ꝡ̍"
 <dead_aboveverticalline> <X>                 : "X̍"
 <dead_aboveverticalline> <x>                 : "x̍"
 <dead_aboveverticalline> <Y>                 : "Y̍"
@@ -158,7 +159,7 @@
 
 
 # Composed vertical line above combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Ligne_verticale_en_chef
+# [Main source]: https://fr.wikipedia.org/wiki/Ligne_verticale_en_chef
 #
 <dead_aboveverticalline> <dead_belowdiaeresis> <A>  : "A̤̍"
 <dead_aboveverticalline> <dead_belowdiaeresis> <a>  : "a̤̍"

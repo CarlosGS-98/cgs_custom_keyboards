@@ -9,29 +9,30 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Double_accent_aigu
+# [Main source]: https://fr.wikipedia.org/wiki/Double_accent_aigu
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_doubleacute> <A>                  : "A̋"
 <dead_doubleacute> <a>                  : "a̋"
 <dead_doubleacute> <UA732>              : "Ꜳ̋"     # Ꜳ + Double Acute
 <dead_doubleacute> <UA733>              : "ꜳ̋"      # ꜳ + Double Acute
-<dead_doubleacute> <multiply> <A> <A>   : "Ꜳ̋"     # Ꜳ + Double Acute
-<dead_doubleacute> <multiply> <a> <a>   : "ꜳ̋"      # ꜳ + Double Acute
+<dead_doubleacute> <U1DCF> <A> <A>      : "Ꜳ̋"     # Ꜳ + Double Acute
+<dead_doubleacute> <U1DCF> <a> <a>      : "ꜳ̋"      # ꜳ + Double Acute
 <dead_doubleacute> <AE>                 : "Æ̋"
 <dead_doubleacute> <ae>                 : "æ̋"
-<dead_doubleacute> <multiply> <A> <E>   : "Æ̋"
-<dead_doubleacute> <multiply> <a> <e>   : "æ̋"
+<dead_doubleacute> <U1DCF> <A> <E>      : "Æ̋"
+<dead_doubleacute> <U1DCF> <a> <e>      : "æ̋"
 <dead_doubleacute> <UA734>              : "Ꜵ̋"     # Ꜵ + Double Acute
 <dead_doubleacute> <UA735>              : "ꜵ̋"      # ꜵ + Double Acute
-<dead_doubleacute> <multiply> <A> <O>   : "Ꜵ̋"     # Ꜵ + Double Acute
-<dead_doubleacute> <multiply> <a> <o>   : "ꜵ̋"      # ꜵ + Double Acute
+<dead_doubleacute> <U1DCF> <A> <O>      : "Ꜵ̋"     # Ꜵ + Double Acute
+<dead_doubleacute> <U1DCF> <a> <o>      : "ꜵ̋"      # ꜵ + Double Acute
 <dead_doubleacute> <UA738>              : "Ꜹ̋"     # Ꜹ + Double Acute
 <dead_doubleacute> <UA739>              : "ꜹ̋"      # ꜹ + Double Acute
-<dead_doubleacute> <multiply> <A> <V>   : "Ꜹ̋"     # Ꜹ + Double Acute
-<dead_doubleacute> <multiply> <a> <v>   : "ꜹ̋"      # ꜹ + Double Acute
+<dead_doubleacute> <U1DCF> <A> <V>      : "Ꜹ̋"     # Ꜹ + Double Acute
+<dead_doubleacute> <U1DCF> <a> <v>      : "ꜹ̋"      # ꜹ + Double Acute
 <dead_doubleacute> <C>                  : "C̋"
 <dead_doubleacute> <c>                  : "c̋"
 <dead_doubleacute> <E>                  : "E̋"
@@ -56,12 +57,12 @@
 <dead_doubleacute> <eng>                : "ŋ̋"      # ŋ + Double Acute
 <dead_doubleacute> <OE>                 : "Œ̋"
 <dead_doubleacute> <oe>                 : "œ̋"
-<dead_doubleacute> <multiply> <O> <E>   : "Œ̋"
-<dead_doubleacute> <multiply> <o> <e>   : "œ̋"
+<dead_doubleacute> <U1DCF> <O> <E>      : "Œ̋"
+<dead_doubleacute> <U1DCF> <o> <e>      : "œ̋"
 <dead_doubleacute> <UA74E>              : "Ꝏ̋"     # Ꝏ + Double Acute
 <dead_doubleacute> <UA74F>              : "ꝏ̋"     # ꝏ + Double Acute
-<dead_doubleacute> <multiply> <O> <O>   : "Ꝏ̋"     # Ꝏ + Double Acute
-<dead_doubleacute> <multiply> <o> <o>   : "ꝏ̋"     # ꝏ + Double Acute
+<dead_doubleacute> <U1DCF> <O> <O>      : "Ꝏ̋"     # Ꝏ + Double Acute
+<dead_doubleacute> <U1DCF> <o> <o>      : "ꝏ̋"     # ꝏ + Double Acute
 <dead_doubleacute> <U0186>              : "Ɔ̋"      # Ɔ + Double Acute
 <dead_doubleacute> <U0254>              : "ɔ̋"      # ɔ + Double Acute
 <dead_doubleacute> <UA7CB>              : "Ɤ̋"      # Ɤ (Ram's Horn) + Double Acute
@@ -88,8 +89,8 @@
 <dead_doubleacute> <U21BA> <v>          : "ʌ̋"     # ʌ + Double Acute
 <dead_doubleacute> <UA760>              : "Ꝡ̋"     # Ꝡ + Double Acute
 <dead_doubleacute> <UA761>              : "ꝡ̋"     # ꝡ + Double Acute
-<dead_doubleacute> <multiply> <V> <Y>   : "Ꝡ̋"     # Ꝡ + Double Acute
-<dead_doubleacute> <multiply> <v> <y>   : "ꝡ̋"     # ꝡ + Double Acute
+<dead_doubleacute> <U1DCF> <V> <Y>      : "Ꝡ̋"     # Ꝡ + Double Acute
+<dead_doubleacute> <U1DCF> <v> <y>      : "ꝡ̋"     # ꝡ + Double Acute
 <dead_doubleacute> <W>                  : "W̋"
 <dead_doubleacute> <w>                  : "w̋"
 <dead_doubleacute> <Y>                  : "Y̋"
@@ -99,7 +100,7 @@
 
 
 # Composed double acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Double_accent_aigu
+# [Main source]: https://fr.wikipedia.org/wiki/Double_accent_aigu
 #
 # [CUSTOM DEAD KEYS]:
 # - ᷎ (Combining Ogonek Above [U1DCE]) -> Represents the "Ogonek Above" dead key

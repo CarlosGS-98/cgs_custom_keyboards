@@ -17,15 +17,16 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Double_accent_grave
+# [Main source]: https://fr.wikipedia.org/wiki/Double_accent_grave
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_doublegrave> <AE>                 : "Æ̏"
 <dead_doublegrave> <ae>                 : "æ̏"
-<dead_doublegrave> <multiply> <A> <E>   : "Æ̏"
-<dead_doublegrave> <multiply> <a> <e>   : "æ̏"
+<dead_doublegrave> <U1DCF> <A> <E>      : "Æ̏"
+<dead_doublegrave> <U1DCF> <a> <e>      : "æ̏"
 <dead_doublegrave> <U0190>              : "Ɛ̏"      # Ɛ (Latin Epsilon) + Double Grave
 <dead_doublegrave> <U025B>              : "ɛ̏"      # ɛ (Latin Epsilon) + Double Grave
 <dead_doublegrave> <SCHWA>              : "Ə̏"      # Ə (Schwa) + Double Grave
@@ -36,8 +37,8 @@
 <dead_doublegrave> <eng>                : "ŋ̏"      # ŋ + Double Grave
 <dead_doublegrave> <OE>                 : "Œ̏"
 <dead_doublegrave> <oe>                 : "œ̏"
-<dead_doublegrave> <multiply> <O> <E>   : "Œ̏"
-<dead_doublegrave> <multiply> <o> <e>   : "œ̏"
+<dead_doublegrave> <U1DCF> <O> <E>      : "Œ̏"
+<dead_doublegrave> <U1DCF> <o> <e>      : "œ̏"
 <dead_doublegrave> <U0186>              : "Ɔ̏"      # Ɔ + Double Grave
 <dead_doublegrave> <U0254>              : "ɔ̏"      # ɔ + Double Grave
 <dead_doublegrave> <UA7CB>              : "Ɤ̏"      # Ɤ (Ram's Horn) + Double Grave
@@ -59,7 +60,7 @@
 
 
 # Composed double acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Double_accent_grave
+# [Main source]: https://fr.wikipedia.org/wiki/Double_accent_grave
 #
 # [CUSTOM DEAD KEYS]:
 # - ᷎ (Combining Ogonek Above [U1DCE]) -> Represents the "Ogonek Above" dead key

@@ -6,9 +6,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Caron_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Caron_souscrit
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <U0334> <A>                 : "A̬"
@@ -19,28 +20,28 @@
 <U0334> <U21BA> <a>         : "ɐ̬"      # ɐ + Caron Below
 <U0334> <UA732>             : "Ꜳ̬"     # Ꜳ + Caron Below
 <U0334> <UA733>             : "ꜳ̬"      # ꜳ + Caron Below
-<U0334> <multiply> <A> <A>  : "Ꜳ̬"     # Ꜳ + Caron Below
-<U0334> <multiply> <a> <a>  : "ꜳ̬"      # ꜳ + Caron Below
+<U0334> <U1DCF> <A> <A>     : "Ꜳ̬"     # Ꜳ + Caron Below
+<U0334> <U1DCF> <a> <a>     : "ꜳ̬"      # ꜳ + Caron Below
 <U0334> <AE>                : "Æ̬"
 <U0334> <ae>                : "æ̬"
-<U0334> <multiply> <A> <E>  : "Æ̬"
-<U0334> <multiply> <a> <e>  : "æ̬"
+<U0334> <U1DCF> <A> <E>     : "Æ̬"
+<U0334> <U1DCF> <a> <e>     : "æ̬"
 <U0334> <UA734>             : "Ꜵ̬"     # Ꜵ + Caron Below
 <U0334> <UA735>             : "ꜵ̬"      # ꜵ + Caron Below
-<U0334> <multiply> <A> <O>  : "Ꜵ̬"     # Ꜵ + Caron Below
-<U0334> <multiply> <a> <o>  : "ꜵ̬"      # ꜵ + Caron Below
+<U0334> <U1DCF> <A> <O>     : "Ꜵ̬"     # Ꜵ + Caron Below
+<U0334> <U1DCF> <a> <o>     : "ꜵ̬"      # ꜵ + Caron Below
 <U0334> <UA736>             : "Ꜷ̬"     # Ꜷ + Caron Below
 <U0334> <UA737>             : "ꜷ̬"      # ꜷ + Caron Below
-<U0334> <multiply> <A> <U>  : "Ꜷ̬"     # Ꜷ + Caron Below
-<U0334> <multiply> <a> <u>  : "ꜷ̬"      # ꜷ + Caron Below
+<U0334> <U1DCF> <A> <U>     : "Ꜷ̬"     # Ꜷ + Caron Below
+<U0334> <U1DCF> <a> <u>     : "ꜷ̬"      # ꜷ + Caron Below
 <U0334> <UA738>             : "Ꜹ̬"     # Ꜹ + Caron Below
 <U0334> <UA739>             : "ꜹ̬"      # ꜹ + Caron Below
-<U0334> <multiply> <A> <V>  : "Ꜹ̬"     # Ꜹ + Caron Below
-<U0334> <multiply> <a> <v>  : "ꜹ̬"      # ꜹ + Caron Below
+<U0334> <U1DCF> <A> <V>     : "Ꜹ̬"     # Ꜹ + Caron Below
+<U0334> <U1DCF> <a> <v>     : "ꜹ̬"      # ꜹ + Caron Below
 <U0334> <UA73C>             : "Ꜽ̬"     # Ꜽ + Caron Below
 <U0334> <UA73D>             : "ꜽ̬"      # ꜽ + Caron Below
-<U0334> <multiply> <A> <Y>  : "Ꜽ̬"     # Ꜽ + Caron Below
-<U0334> <multiply> <a> <y>  : "ꜽ̬"      # ꜽ + Caron Below
+<U0334> <U1DCF> <A> <Y>     : "Ꜽ̬"     # Ꜽ + Caron Below
+<U0334> <U1DCF> <a> <y>     : "ꜽ̬"      # ꜽ + Caron Below
 <U0334> <U2C6D>             : "Ɑ̬"      # Ɑ (Latin Alpha) + Caron Below
 <U0334> <U0251>             : "ɑ̬"      # ɑ (Latin Alpha) + Caron Below
 <U0334> <B>                 : "B̬"
@@ -99,12 +100,12 @@
 <U0334> <o>                 : "o̬"
 <U0334> <OE>                : "Œ̬"
 <U0334> <oe>                : "œ̬"
-<U0334> <multiply> <O> <E>  : "Œ̬"
-<U0334> <multiply> <o> <e>  : "œ̬"
+<U0334> <U1DCF> <O> <E>     : "Œ̬"
+<U0334> <U1DCF> <o> <e>     : "œ̬"
 <U0334> <UA74E>             : "Ꝏ̬"     # Ꝏ + Caron Below
 <U0334> <UA74F>             : "ꝏ̬"     # ꝏ + Caron Below
-<U0334> <multiply> <O> <O>  : "Ꝏ̬"     # Ꝏ + Caron Below
-<U0334> <multiply> <o> <o>  : "ꝏ̬"     # ꝏ + Caron Below
+<U0334> <U1DCF> <O> <O>     : "Ꝏ̬"     # Ꝏ + Caron Below
+<U0334> <U1DCF> <o> <o>     : "ꝏ̬"     # ꝏ + Caron Below
 <U0334> <U0186>             : "Ɔ̬"      # Ɔ + Caron Below
 <U0334> <U0254>             : "ɔ̬"      # ɔ + Caron Below
 <U0334> <UA7CB>             : "Ɤ̬"      # Ɤ (Ram's Caron Below) + Caron Below
@@ -153,8 +154,8 @@
 <U0334> <w>                 : "w̬"
 <U0334> <UA760>             : "Ꝡ̬"     # Ꝡ + Caron Below
 <U0334> <UA761>             : "ꝡ̬"     # ꝡ + Caron Below
-<U0334> <multiply> <V> <Y>  : "Ꝡ̬"
-<U0334> <multiply> <v> <y>  : "ꝡ̬"
+<U0334> <U1DCF> <V> <Y>     : "Ꝡ̬"
+<U0334> <U1DCF> <v> <y>     : "ꝡ̬"
 <U0334> <X>                 : "X̬"
 <U0334> <x>                 : "x̬"
 <U0334> <Y>                 : "Y̬"
@@ -166,7 +167,7 @@
 
 
 # Composed caron below combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Caron_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Caron_souscrit
 #
 # [NOTE]: No relevant combinations exist yet for this diacritic.
 

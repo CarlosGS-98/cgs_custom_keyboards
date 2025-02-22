@@ -9,9 +9,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Virgule_souscrite
+# [Main source]: https://fr.wikipedia.org/wiki/Virgule_souscrite
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_belowcomma> <A>                 : "A̦"
@@ -22,28 +23,28 @@
 <dead_belowcomma> <U21BA> <a>         : "ɐ̦"      # ɐ + Comma Below
 <dead_belowcomma> <UA732>             : "Ꜳ̦"     # Ꜳ + Comma Below
 <dead_belowcomma> <UA733>             : "ꜳ̦"      # ꜳ + Comma Below
-<dead_belowcomma> <multiply> <A> <A>  : "Ꜳ̦"     # Ꜳ + Comma Below
-<dead_belowcomma> <multiply> <a> <a>  : "ꜳ̦"      # ꜳ + Comma Below
+<dead_belowcomma> <U1DCF> <A> <A>     : "Ꜳ̦"     # Ꜳ + Comma Below
+<dead_belowcomma> <U1DCF> <a> <a>     : "ꜳ̦"      # ꜳ + Comma Below
 <dead_belowcomma> <AE>                : "Æ̦"
 <dead_belowcomma> <ae>                : "æ̦"
-<dead_belowcomma> <multiply> <A> <E>  : "Æ̦"
-<dead_belowcomma> <multiply> <a> <e>  : "æ̦"
+<dead_belowcomma> <U1DCF> <A> <E>     : "Æ̦"
+<dead_belowcomma> <U1DCF> <a> <e>     : "æ̦"
 <dead_belowcomma> <UA734>             : "Ꜵ̦"     # Ꜵ + Comma Below
 <dead_belowcomma> <UA735>             : "ꜵ̦"      # ꜵ + Comma Below
-<dead_belowcomma> <multiply> <A> <O>  : "Ꜵ̦"     # Ꜵ + Comma Below
-<dead_belowcomma> <multiply> <a> <o>  : "ꜵ̦"      # ꜵ + Comma Below
+<dead_belowcomma> <U1DCF> <A> <O>     : "Ꜵ̦"     # Ꜵ + Comma Below
+<dead_belowcomma> <U1DCF> <a> <o>     : "ꜵ̦"      # ꜵ + Comma Below
 <dead_belowcomma> <UA736>             : "Ꜷ̦"     # Ꜷ + Comma Below
 <dead_belowcomma> <UA737>             : "ꜷ̦"      # ꜷ + Comma Below
-<dead_belowcomma> <multiply> <A> <U>  : "Ꜷ̦"     # Ꜷ + Comma Below
-<dead_belowcomma> <multiply> <a> <u>  : "ꜷ̦"      # ꜷ + Comma Below
+<dead_belowcomma> <U1DCF> <A> <U>     : "Ꜷ̦"     # Ꜷ + Comma Below
+<dead_belowcomma> <U1DCF> <a> <u>     : "ꜷ̦"      # ꜷ + Comma Below
 <dead_belowcomma> <UA738>             : "Ꜹ̦"     # Ꜹ + Comma Below
 <dead_belowcomma> <UA739>             : "ꜹ̦"      # ꜹ + Comma Below
-<dead_belowcomma> <multiply> <A> <V>  : "Ꜹ̦"     # Ꜹ + Comma Below
-<dead_belowcomma> <multiply> <a> <v>  : "ꜹ̦"      # ꜹ + Comma Below
+<dead_belowcomma> <U1DCF> <A> <V>     : "Ꜹ̦"     # Ꜹ + Comma Below
+<dead_belowcomma> <U1DCF> <a> <v>     : "ꜹ̦"      # ꜹ + Comma Below
 <dead_belowcomma> <UA73C>             : "Ꜽ̦"     # Ꜽ + Comma Below
 <dead_belowcomma> <UA73D>             : "ꜽ̦"      # ꜽ + Comma Below
-<dead_belowcomma> <multiply> <A> <Y>  : "Ꜽ̦"     # Ꜽ + Comma Below
-<dead_belowcomma> <multiply> <a> <y>  : "ꜽ̦"      # ꜽ + Comma Below
+<dead_belowcomma> <U1DCF> <A> <Y>     : "Ꜽ̦"     # Ꜽ + Comma Below
+<dead_belowcomma> <U1DCF> <a> <y>     : "ꜽ̦"      # ꜽ + Comma Below
 <dead_belowcomma> <U2C6D>             : "Ɑ̦"      # Ɑ (Latin Alpha) + Comma Below
 <dead_belowcomma> <U0251>             : "ɑ̦"      # ɑ (Latin Alpha) + Comma Below
 <dead_belowcomma> <B>                 : "B̦"
@@ -100,12 +101,12 @@
 <dead_belowcomma> <o>                 : "o̦"
 <dead_belowcomma> <OE>                : "Œ̦"
 <dead_belowcomma> <oe>                : "œ̦"
-<dead_belowcomma> <multiply> <O> <E>  : "Œ̦"
-<dead_belowcomma> <multiply> <o> <e>  : "œ̦"
+<dead_belowcomma> <U1DCF> <O> <E>     : "Œ̦"
+<dead_belowcomma> <U1DCF> <o> <e>     : "œ̦"
 <dead_belowcomma> <UA74E>             : "Ꝏ̦"     # Ꝏ + Comma Below
 <dead_belowcomma> <UA74F>             : "ꝏ̦"     # ꝏ + Comma Below
-<dead_belowcomma> <multiply> <O> <O>  : "Ꝏ̦"     # Ꝏ + Comma Below
-<dead_belowcomma> <multiply> <o> <o>  : "ꝏ̦"     # ꝏ + Comma Below
+<dead_belowcomma> <U1DCF> <O> <O>     : "Ꝏ̦"     # Ꝏ + Comma Below
+<dead_belowcomma> <U1DCF> <o> <o>     : "ꝏ̦"     # ꝏ + Comma Below
 <dead_belowcomma> <U0186>             : "Ɔ̦"      # Ɔ + Comma Below
 <dead_belowcomma> <U0254>             : "ɔ̦"      # ɔ + Comma Below
 <dead_belowcomma> <UA7CB>             : "Ɤ̦"      # Ɤ (Ram's Horn) + Comma Below
@@ -144,8 +145,8 @@
 <dead_belowcomma> <w>                 : "w̦"
 <dead_belowcomma> <UA760>             : "Ꝡ̦"     # Ꝡ + Comma Below
 <dead_belowcomma> <UA761>             : "ꝡ̦"     # ꝡ + Comma Below
-<dead_belowcomma> <multiply> <V> <Y>  : "Ꝡ̦"
-<dead_belowcomma> <multiply> <v> <y>  : "ꝡ̦"
+<dead_belowcomma> <U1DCF> <V> <Y>     : "Ꝡ̦"
+<dead_belowcomma> <U1DCF> <v> <y>     : "ꝡ̦"
 <dead_belowcomma> <X>                 : "X̦"
 <dead_belowcomma> <x>                 : "x̦"
 <dead_belowcomma> <Y>                 : "Y̦"
@@ -157,7 +158,7 @@
 
 
 # Composed comma below combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Virgule_souscrite
+# [Main source]: https://fr.wikipedia.org/wiki/Virgule_souscrite
 #
 <dead_belowcomma> <Aacute>                      : "Á̦"
 <dead_belowcomma> <aacute>                      : "á̦"

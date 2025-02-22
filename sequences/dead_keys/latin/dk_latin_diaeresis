@@ -51,9 +51,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+# [Main source]: https://fr.wikipedia.org/wiki/Tréma
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_diaeresis> <U2C6F>            : "Ɐ̈"      # Ɐ + Diaeresis
@@ -62,24 +63,24 @@
 <dead_diaeresis> <U21BA> <a>        : "ɐ̈"      # ɐ + Diaeresis
 <dead_diaeresis> <UA732>            : "Ꜳ̈"     # Ꜳ + Diaeresis
 <dead_diaeresis> <UA733>            : "ꜳ̈"      # ꜳ + Diaeresis
-<dead_diaeresis> <multiply> <A> <A> : "Ꜳ̈"     # Ꜳ + Diaeresis
-<dead_diaeresis> <multiply> <a> <a> : "ꜳ̈"      # ꜳ + Diaeresis
+<dead_diaeresis> <U1DCF> <A> <A>    : "Ꜳ̈"     # Ꜳ + Diaeresis
+<dead_diaeresis> <U1DCF> <a> <a>    : "ꜳ̈"      # ꜳ + Diaeresis
 <dead_diaeresis> <AE>               : "Æ̈"
 <dead_diaeresis> <ae>               : "æ̈"
-<dead_diaeresis> <multiply> <A> <E> : "Æ̈"
-<dead_diaeresis> <multiply> <a> <e> : "æ̈"
+<dead_diaeresis> <U1DCF> <A> <E>    : "Æ̈"
+<dead_diaeresis> <U1DCF> <a> <e>    : "æ̈"
 <dead_diaeresis> <UA734>            : "Ꜵ̈"     # Ꜵ + Diaeresis
 <dead_diaeresis> <UA735>            : "ꜵ̈"      # ꜵ + Diaeresis
-<dead_diaeresis> <multiply> <A> <O> : "Ꜵ̈"     # Ꜵ + Diaeresis
-<dead_diaeresis> <multiply> <a> <o> : "ꜵ̈"      # ꜵ + Diaeresis
+<dead_diaeresis> <U1DCF> <A> <O>    : "Ꜵ̈"     # Ꜵ + Diaeresis
+<dead_diaeresis> <U1DCF> <a> <o>    : "ꜵ̈"      # ꜵ + Diaeresis
 <dead_diaeresis> <UA736>            : "Ꜷ̈"     # Ꜷ + Diaeresis
 <dead_diaeresis> <UA737>            : "ꜷ̈"      # ꜷ + Diaeresis
-<dead_diaeresis> <multiply> <A> <U> : "Ꜷ̈"     # Ꜷ + Diaeresis
-<dead_diaeresis> <multiply> <a> <u> : "ꜷ̈"      # ꜷ + Diaeresis
+<dead_diaeresis> <U1DCF> <A> <U>    : "Ꜷ̈"     # Ꜷ + Diaeresis
+<dead_diaeresis> <U1DCF> <a> <u>    : "ꜷ̈"      # ꜷ + Diaeresis
 <dead_diaeresis> <UA738>            : "Ꜹ̈"     # Ꜹ + Diaeresis
 <dead_diaeresis> <UA739>            : "ꜹ̈"      # ꜹ + Diaeresis
-<dead_diaeresis> <multiply> <A> <V> : "Ꜹ̈"     # Ꜹ + Diaeresis
-<dead_diaeresis> <multiply> <a> <v> : "ꜹ̈"      # ꜹ + Diaeresis
+<dead_diaeresis> <U1DCF> <A> <V>    : "Ꜹ̈"     # Ꜹ + Diaeresis
+<dead_diaeresis> <U1DCF> <a> <v>    : "ꜹ̈"      # ꜹ + Diaeresis
 <dead_diaeresis> <U2C6D>            : "Ɑ̈"      # Ɑ (Latin Alpha) + Diaeresis
 <dead_diaeresis> <U0251>            : "ɑ̈"      # ɑ (Latin Alpha) + Diaeresis
 <dead_diaeresis> <B>                : "B̈"
@@ -120,12 +121,12 @@
 <dead_diaeresis> <eng>              : "ŋ̈"      # ŋ + Diaeresis
 <dead_diaeresis> <OE>               : "Œ̈"
 <dead_diaeresis> <oe>               : "œ̈"
-<dead_diaeresis> <multiply> <O> <E> : "Œ̈"
-<dead_diaeresis> <multiply> <o> <e> : "œ̈"
+<dead_diaeresis> <U1DCF> <O> <E>    : "Œ̈"
+<dead_diaeresis> <U1DCF> <o> <e>    : "œ̈"
 <dead_diaeresis> <UA74E>            : "Ꝏ̈"     # Ꝏ + Diaeresis
 <dead_diaeresis> <UA74F>            : "ꝏ̈"     # ꝏ + Diaeresis
-<dead_diaeresis> <multiply> <O> <O> : "Ꝏ̈"     # Ꝏ + Diaeresis
-<dead_diaeresis> <multiply> <o> <o> : "ꝏ̈"     # ꝏ + Diaeresis
+<dead_diaeresis> <U1DCF> <O> <O>    : "Ꝏ̈"     # Ꝏ + Diaeresis
+<dead_diaeresis> <U1DCF> <o> <o>    : "ꝏ̈"     # ꝏ + Diaeresis
 <dead_diaeresis> <U0186>            : "Ɔ̈"      # Ɔ + Diaeresis
 <dead_diaeresis> <U0254>            : "ɔ̈"      # ɔ + Diaeresis
 <dead_diaeresis> <UA7CB>            : "Ɤ̈"      # Ɤ (Ram's Horn) + Diaeresis
@@ -155,8 +156,8 @@
 <dead_diaeresis> <U028B>            : "ʋ̈"     # ʋ + Diaeresis
 <dead_diaeresis> <UA760>            : "Ꝡ̈"     # Ꝡ + Diaeresis
 <dead_diaeresis> <UA761>            : "ꝡ̈"     # ꝡ + Diaeresis
-<dead_diaeresis> <multiply> <V> <Y> : "Ꝡ̈"
-<dead_diaeresis> <multiply> <v> <y> : "ꝡ̈"
+<dead_diaeresis> <U1DCF> <V> <Y>    : "Ꝡ̈"
+<dead_diaeresis> <U1DCF> <v> <y>    : "ꝡ̈"
 <dead_diaeresis> <Z>                : "Z̈"
 <dead_diaeresis> <z>                : "z̈"
 <dead_diaeresis> <EZH>              : "Ʒ̈"     # Ʒ + Diaeresis
@@ -164,7 +165,7 @@
 
 
 # Composed diaeresis combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tréma
+# [Main source]: https://fr.wikipedia.org/wiki/Tréma
 #
 # [CUSTOM DEAD KEYS]:
 # - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key

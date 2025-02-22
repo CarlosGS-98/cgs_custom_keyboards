@@ -63,9 +63,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_grave
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_grave
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_grave> <U2C6F>            : "Ɐ̀"      # Ɐ + Grave
@@ -74,8 +75,8 @@
 <dead_grave> <U21BA> <a>        : "ɐ̀"      # ɐ + Grave
 <dead_grave> <AE>               : "Æ̀"
 <dead_grave> <ae>               : "æ̀"
-<dead_grave> <multiply> <A> <E> : "Æ̀"
-<dead_grave> <multiply> <a> <e> : "æ̀"
+<dead_grave> <U1DCF> <A> <E>    : "Æ̀"
+<dead_grave> <U1DCF> <a> <e>    : "æ̀"
 <dead_grave> <U2C6D>            : "Ɑ̀"      # Ɑ (Latin Alpha) + Grave
 <dead_grave> <U0251>            : "ɑ̀"      # ɑ (Latin Alpha) + Grave
 <dead_grave> <B>                : "B̀"
@@ -116,8 +117,8 @@
 <dead_grave> <U0272>            : "ɲ̀"      # ɲ + Grave
 <dead_grave> <OE>               : "Œ̀"
 <dead_grave> <oe>               : "œ̀"
-<dead_grave> <multiply> <O> <E> : "Œ̀"
-<dead_grave> <multiply> <o> <e> : "œ̀"
+<dead_grave> <U1DCF> <O> <E>    : "Œ̀"
+<dead_grave> <U1DCF> <o> <e>    : "œ̀"
 <dead_grave> <U0186>            : "Ɔ̀"      # Ɔ + Grave
 <dead_grave> <U0254>            : "ɔ̀"      # ɔ + Grave
 <dead_grave> <UA7CB>            : "Ɤ̀"      # Ɤ (Ram's Horn) + Grave
@@ -155,7 +156,7 @@
 
 
 # Composed grave accent combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_grave
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_grave
 #
 # [CUSTOM DEAD KEYS]:
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key

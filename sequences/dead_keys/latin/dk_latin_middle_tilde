@@ -18,9 +18,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tilde_inscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Tilde_inscrit
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <U0334> <A>                 : "A̴"
@@ -31,28 +32,28 @@
 <U0334> <U21BA> <a>         : "ɐ̴"      # ɐ + Middle Tilde
 <U0334> <UA732>             : "Ꜳ̴"     # Ꜳ + Middle Tilde
 <U0334> <UA733>             : "ꜳ̴"      # ꜳ + Middle Tilde
-<U0334> <multiply> <A> <A>  : "Ꜳ̴"     # Ꜳ + Middle Tilde
-<U0334> <multiply> <a> <a>  : "ꜳ̴"      # ꜳ + Middle Tilde
+<U0334> <U1DCF> <A> <A>     : "Ꜳ̴"     # Ꜳ + Middle Tilde
+<U0334> <U1DCF> <a> <a>     : "ꜳ̴"      # ꜳ + Middle Tilde
 <U0334> <AE>                : "Æ̴"
 <U0334> <ae>                : "æ̴"
-<U0334> <multiply> <A> <E>  : "Æ̴"
-<U0334> <multiply> <a> <e>  : "æ̴"
+<U0334> <U1DCF> <A> <E>     : "Æ̴"
+<U0334> <U1DCF> <a> <e>     : "æ̴"
 <U0334> <UA734>             : "Ꜵ̴"     # Ꜵ + Middle Tilde
 <U0334> <UA735>             : "ꜵ̴"      # ꜵ + Middle Tilde
-<U0334> <multiply> <A> <O>  : "Ꜵ̴"     # Ꜵ + Middle Tilde
-<U0334> <multiply> <a> <o>  : "ꜵ̴"      # ꜵ + Middle Tilde
+<U0334> <U1DCF> <A> <O>     : "Ꜵ̴"     # Ꜵ + Middle Tilde
+<U0334> <U1DCF> <a> <o>     : "ꜵ̴"      # ꜵ + Middle Tilde
 <U0334> <UA736>             : "Ꜷ̴"     # Ꜷ + Middle Tilde
 <U0334> <UA737>             : "ꜷ̴"      # ꜷ + Middle Tilde
-<U0334> <multiply> <A> <U>  : "Ꜷ̴"     # Ꜷ + Middle Tilde
-<U0334> <multiply> <a> <u>  : "ꜷ̴"      # ꜷ + Middle Tilde
+<U0334> <U1DCF> <A> <U>     : "Ꜷ̴"     # Ꜷ + Middle Tilde
+<U0334> <U1DCF> <a> <u>     : "ꜷ̴"      # ꜷ + Middle Tilde
 <U0334> <UA738>             : "Ꜹ̴"     # Ꜹ + Middle Tilde
 <U0334> <UA739>             : "ꜹ̴"      # ꜹ + Middle Tilde
-<U0334> <multiply> <A> <V>  : "Ꜹ̴"     # Ꜹ + Middle Tilde
-<U0334> <multiply> <a> <v>  : "ꜹ̴"      # ꜹ + Middle Tilde
+<U0334> <U1DCF> <A> <V>     : "Ꜹ̴"     # Ꜹ + Middle Tilde
+<U0334> <U1DCF> <a> <v>     : "ꜹ̴"      # ꜹ + Middle Tilde
 <U0334> <UA73C>             : "Ꜽ̴"     # Ꜽ + Middle Tilde
 <U0334> <UA73D>             : "ꜽ̴"      # ꜽ + Middle Tilde
-<U0334> <multiply> <A> <Y>  : "Ꜽ̴"     # Ꜽ + Middle Tilde
-<U0334> <multiply> <a> <y>  : "ꜽ̴"      # ꜽ + Middle Tilde
+<U0334> <U1DCF> <A> <Y>     : "Ꜽ̴"     # Ꜽ + Middle Tilde
+<U0334> <U1DCF> <a> <y>     : "ꜽ̴"      # ꜽ + Middle Tilde
 <U0334> <U2C6D>             : "Ɑ̴"      # Ɑ (Latin Alpha) + Middle Tilde
 <U0334> <U0251>             : "ɑ̴"      # ɑ (Latin Alpha) + Middle Tilde
 <U0334> <B>                 : "B̴"
@@ -104,12 +105,12 @@
 <U0334> <o>                 : "o̴"
 <U0334> <OE>                : "Œ̴"
 <U0334> <oe>                : "œ̴"
-<U0334> <multiply> <O> <E>  : "Œ̴"
-<U0334> <multiply> <o> <e>  : "œ̴"
+<U0334> <U1DCF> <O> <E>     : "Œ̴"
+<U0334> <U1DCF> <o> <e>     : "œ̴"
 <U0334> <UA74E>             : "Ꝏ̴"     # Ꝏ + Middle Tilde
 <U0334> <UA74F>             : "ꝏ̴"     # ꝏ + Middle Tilde
-<U0334> <multiply> <O> <O>  : "Ꝏ̴"     # Ꝏ + Middle Tilde
-<U0334> <multiply> <o> <o>  : "ꝏ̴"     # ꝏ + Middle Tilde
+<U0334> <U1DCF> <O> <O>     : "Ꝏ̴"     # Ꝏ + Middle Tilde
+<U0334> <U1DCF> <o> <o>     : "ꝏ̴"     # ꝏ + Middle Tilde
 <U0334> <U0186>             : "Ɔ̴"      # Ɔ + Middle Tilde
 <U0334> <U0254>             : "ɔ̴"      # ɔ + Middle Tilde
 <U0334> <UA7CB>             : "Ɤ̴"      # Ɤ (Ram's Middle Tilde) + Middle Tilde
@@ -153,8 +154,8 @@
 <U0334> <w>                 : "w̴"
 <U0334> <UA760>             : "Ꝡ̴"     # Ꝡ + Middle Tilde
 <U0334> <UA761>             : "ꝡ̴"     # ꝡ + Middle Tilde
-<U0334> <multiply> <V> <Y>  : "Ꝡ̴"
-<U0334> <multiply> <v> <y>  : "ꝡ̴"
+<U0334> <U1DCF> <V> <Y>     : "Ꝡ̴"
+<U0334> <U1DCF> <v> <y>     : "ꝡ̴"
 <U0334> <X>                 : "X̴"
 <U0334> <x>                 : "x̴"
 <U0334> <Y>                 : "Y̴"
@@ -165,7 +166,7 @@
 
 
 # Composed middle combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tilde_inscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Tilde_inscrit
 #
 # [NOTE]: No relevant combinations exist yet for this diacritic.
 

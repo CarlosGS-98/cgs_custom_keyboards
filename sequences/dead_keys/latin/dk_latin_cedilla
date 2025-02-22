@@ -52,9 +52,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Cédille
+# [Main source]: https://fr.wikipedia.org/wiki/Cédille
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_cedilla> <A>                 : "A̧"
@@ -65,28 +66,28 @@
 <dead_cedilla> <U21BA> <a>         : "ɐ̧"      # ɐ + Cedilla
 <dead_cedilla> <UA732>             : "Ꜳ̧"     # Ꜳ + Cedilla
 <dead_cedilla> <UA733>             : "ꜳ̧"      # ꜳ + Cedilla
-<dead_cedilla> <multiply> <A> <A>  : "Ꜳ̧"     # Ꜳ + Cedilla
-<dead_cedilla> <multiply> <a> <a>  : "ꜳ̧"      # ꜳ + Cedilla
+<dead_cedilla> <U1DCF> <A> <A>     : "Ꜳ̧"     # Ꜳ + Cedilla
+<dead_cedilla> <U1DCF> <a> <a>     : "ꜳ̧"      # ꜳ + Cedilla
 <dead_cedilla> <AE>                : "Æ̧"
 <dead_cedilla> <ae>                : "æ̧"
-<dead_cedilla> <multiply> <A> <E>  : "Æ̧"
-<dead_cedilla> <multiply> <a> <e>  : "æ̧"
+<dead_cedilla> <U1DCF> <A> <E>     : "Æ̧"
+<dead_cedilla> <U1DCF> <a> <e>     : "æ̧"
 <dead_cedilla> <UA734>             : "Ꜵ̧"     # Ꜵ + Cedilla
 <dead_cedilla> <UA735>             : "ꜵ̧"      # ꜵ + Cedilla
-<dead_cedilla> <multiply> <A> <O>  : "Ꜵ̧"     # Ꜵ + Cedilla
-<dead_cedilla> <multiply> <a> <o>  : "ꜵ̧"      # ꜵ + Cedilla
+<dead_cedilla> <U1DCF> <A> <O>     : "Ꜵ̧"     # Ꜵ + Cedilla
+<dead_cedilla> <U1DCF> <a> <o>     : "ꜵ̧"      # ꜵ + Cedilla
 <dead_cedilla> <UA736>             : "Ꜷ̧"     # Ꜷ + Cedilla
 <dead_cedilla> <UA737>             : "ꜷ̧"      # ꜷ + Cedilla
-<dead_cedilla> <multiply> <A> <U>  : "Ꜷ̧"     # Ꜷ + Cedilla
-<dead_cedilla> <multiply> <a> <u>  : "ꜷ̧"      # ꜷ + Cedilla
+<dead_cedilla> <U1DCF> <A> <U>     : "Ꜷ̧"     # Ꜷ + Cedilla
+<dead_cedilla> <U1DCF> <a> <u>     : "ꜷ̧"      # ꜷ + Cedilla
 <dead_cedilla> <UA738>             : "Ꜹ̧"     # Ꜹ + Cedilla
 <dead_cedilla> <UA739>             : "ꜹ̧"      # ꜹ + Cedilla
-<dead_cedilla> <multiply> <A> <V>  : "Ꜹ̧"     # Ꜹ + Cedilla
-<dead_cedilla> <multiply> <a> <v>  : "ꜹ̧"      # ꜹ + Cedilla
+<dead_cedilla> <U1DCF> <A> <V>     : "Ꜹ̧"     # Ꜹ + Cedilla
+<dead_cedilla> <U1DCF> <a> <v>     : "ꜹ̧"      # ꜹ + Cedilla
 <dead_cedilla> <UA73C>             : "Ꜽ̧"     # Ꜽ + Cedilla
 <dead_cedilla> <UA73D>             : "ꜽ̧"      # ꜽ + Cedilla
-<dead_cedilla> <multiply> <A> <Y>  : "Ꜽ̧"     # Ꜽ + Cedilla
-<dead_cedilla> <multiply> <a> <y>  : "ꜽ̧"      # ꜽ + Cedilla
+<dead_cedilla> <U1DCF> <A> <Y>     : "Ꜽ̧"     # Ꜽ + Cedilla
+<dead_cedilla> <U1DCF> <a> <y>     : "ꜽ̧"      # ꜽ + Cedilla
 <dead_cedilla> <U2C6D>             : "Ɑ̧"      # Ɑ (Latin Alpha) + Cedilla
 <dead_cedilla> <U0251>             : "ɑ̧"      # ɑ (Latin Alpha) + Cedilla
 <dead_cedilla> <B>                 : "B̧"
@@ -127,12 +128,12 @@
 <dead_cedilla> <o>                 : "o̧"
 <dead_cedilla> <OE>                : "Œ̧"
 <dead_cedilla> <oe>                : "œ̧"
-<dead_cedilla> <multiply> <O> <E>  : "Œ̧"
-<dead_cedilla> <multiply> <o> <e>  : "œ̧"
+<dead_cedilla> <U1DCF> <O> <E>     : "Œ̧"
+<dead_cedilla> <U1DCF> <o> <e>     : "œ̧"
 <dead_cedilla> <UA74E>             : "Ꝏ̧"     # Ꝏ + Cedilla
 <dead_cedilla> <UA74F>             : "ꝏ̧"     # ꝏ + Cedilla
-<dead_cedilla> <multiply> <O> <O>  : "Ꝏ̧"     # Ꝏ + Cedilla
-<dead_cedilla> <multiply> <o> <o>  : "ꝏ̧"     # ꝏ + Cedilla
+<dead_cedilla> <U1DCF> <O> <O>     : "Ꝏ̧"     # Ꝏ + Cedilla
+<dead_cedilla> <U1DCF> <o> <o>     : "ꝏ̧"     # ꝏ + Cedilla
 <dead_cedilla> <U0186>             : "Ɔ̧"      # Ɔ + Cedilla
 <dead_cedilla> <U0254>             : "ɔ̧"      # ɔ + Cedilla
 <dead_cedilla> <UA7CB>             : "Ɤ̧"      # Ɤ (Ram's Horn) + Cedilla
@@ -171,8 +172,8 @@
 <dead_cedilla> <w>                 : "w̧"
 <dead_cedilla> <UA760>             : "Ꝡ̧"     # Ꝡ + Cedilla
 <dead_cedilla> <UA761>             : "ꝡ̧"     # ꝡ + Cedilla
-<dead_cedilla> <multiply> <V> <Y>  : "Ꝡ̧"
-<dead_cedilla> <multiply> <v> <y>  : "ꝡ̧"
+<dead_cedilla> <U1DCF> <V> <Y>     : "Ꝡ̧"
+<dead_cedilla> <U1DCF> <v> <y>     : "ꝡ̧"
 <dead_cedilla> <X>                 : "X̧"
 <dead_cedilla> <x>                 : "x̧"
 <dead_cedilla> <Y>                 : "Y̧"
@@ -184,7 +185,7 @@
 
 
 # Composed cedilla combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Cédille
+# [Main source]: https://fr.wikipedia.org/wiki/Cédille
 #
 <dead_cedilla> <Aacute>                                     : "Á̧"
 <dead_cedilla> <aacute>                                     : "á̧"

@@ -11,9 +11,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tilde_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Tilde_souscrit
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_belowtilde> <A>                 : "A̰"
@@ -24,28 +25,28 @@
 <dead_belowtilde> <U21BA> <a>         : "ɐ̰"      # ɐ + Tilde Below
 <dead_belowtilde> <UA732>             : "Ꜳ̰"     # Ꜳ + Tilde Below
 <dead_belowtilde> <UA733>             : "ꜳ̰"      # ꜳ + Tilde Below
-<dead_belowtilde> <multiply> <A> <A>  : "Ꜳ̰"     # Ꜳ + Tilde Below
-<dead_belowtilde> <multiply> <a> <a>  : "ꜳ̰"      # ꜳ + Tilde Below
+<dead_belowtilde> <U1DCF> <A> <A>     : "Ꜳ̰"     # Ꜳ + Tilde Below
+<dead_belowtilde> <U1DCF> <a> <a>     : "ꜳ̰"      # ꜳ + Tilde Below
 <dead_belowtilde> <AE>                : "Æ̰"
 <dead_belowtilde> <ae>                : "æ̰"
-<dead_belowtilde> <multiply> <A> <E>  : "Æ̰"
-<dead_belowtilde> <multiply> <a> <e>  : "æ̰"
+<dead_belowtilde> <U1DCF> <A> <E>     : "Æ̰"
+<dead_belowtilde> <U1DCF> <a> <e>     : "æ̰"
 <dead_belowtilde> <UA734>             : "Ꜵ̰"     # Ꜵ + Tilde Below
 <dead_belowtilde> <UA735>             : "ꜵ̰"      # ꜵ + Tilde Below
-<dead_belowtilde> <multiply> <A> <O>  : "Ꜵ̰"     # Ꜵ + Tilde Below
-<dead_belowtilde> <multiply> <a> <o>  : "ꜵ̰"      # ꜵ + Tilde Below
+<dead_belowtilde> <U1DCF> <A> <O>     : "Ꜵ̰"     # Ꜵ + Tilde Below
+<dead_belowtilde> <U1DCF> <a> <o>     : "ꜵ̰"      # ꜵ + Tilde Below
 <dead_belowtilde> <UA736>             : "Ꜷ̰"     # Ꜷ + Tilde Below
 <dead_belowtilde> <UA737>             : "ꜷ̰"      # ꜷ + Tilde Below
-<dead_belowtilde> <multiply> <A> <U>  : "Ꜷ̰"     # Ꜷ + Tilde Below
-<dead_belowtilde> <multiply> <a> <u>  : "ꜷ̰"      # ꜷ + Tilde Below
+<dead_belowtilde> <U1DCF> <A> <U>     : "Ꜷ̰"     # Ꜷ + Tilde Below
+<dead_belowtilde> <U1DCF> <a> <u>     : "ꜷ̰"      # ꜷ + Tilde Below
 <dead_belowtilde> <UA738>             : "Ꜹ̰"     # Ꜹ + Tilde Below
 <dead_belowtilde> <UA739>             : "ꜹ̰"      # ꜹ + Tilde Below
-<dead_belowtilde> <multiply> <A> <V>  : "Ꜹ̰"     # Ꜹ + Tilde Below
-<dead_belowtilde> <multiply> <a> <v>  : "ꜹ̰"      # ꜹ + Tilde Below
+<dead_belowtilde> <U1DCF> <A> <V>     : "Ꜹ̰"     # Ꜹ + Tilde Below
+<dead_belowtilde> <U1DCF> <a> <v>     : "ꜹ̰"      # ꜹ + Tilde Below
 <dead_belowtilde> <UA73C>             : "Ꜽ̰"     # Ꜽ + Tilde Below
 <dead_belowtilde> <UA73D>             : "ꜽ̰"      # ꜽ + Tilde Below
-<dead_belowtilde> <multiply> <A> <Y>  : "Ꜽ̰"     # Ꜽ + Tilde Below
-<dead_belowtilde> <multiply> <a> <y>  : "ꜽ̰"      # ꜽ + Tilde Below
+<dead_belowtilde> <U1DCF> <A> <Y>     : "Ꜽ̰"     # Ꜽ + Tilde Below
+<dead_belowtilde> <U1DCF> <a> <y>     : "ꜽ̰"      # ꜽ + Tilde Below
 <dead_belowtilde> <U2C6D>             : "Ɑ̰"      # Ɑ (Latin Alpha) + Tilde Below
 <dead_belowtilde> <U0251>             : "ɑ̰"      # ɑ (Latin Alpha) + Tilde Below
 <dead_belowtilde> <B>                 : "B̰"
@@ -98,12 +99,12 @@
 <dead_belowtilde> <o>                 : "o̰"
 <dead_belowtilde> <OE>                : "Œ̰"
 <dead_belowtilde> <oe>                : "œ̰"
-<dead_belowtilde> <multiply> <O> <E>  : "Œ̰"
-<dead_belowtilde> <multiply> <o> <e>  : "œ̰"
+<dead_belowtilde> <U1DCF> <O> <E>     : "Œ̰"
+<dead_belowtilde> <U1DCF> <o> <e>     : "œ̰"
 <dead_belowtilde> <UA74E>             : "Ꝏ̰"     # Ꝏ + Tilde Below
 <dead_belowtilde> <UA74F>             : "ꝏ̰"     # ꝏ + Tilde Below
-<dead_belowtilde> <multiply> <O> <O>  : "Ꝏ̰"     # Ꝏ + Tilde Below
-<dead_belowtilde> <multiply> <o> <o>  : "ꝏ̰"     # ꝏ + Tilde Below
+<dead_belowtilde> <U1DCF> <O> <O>     : "Ꝏ̰"     # Ꝏ + Tilde Below
+<dead_belowtilde> <U1DCF> <o> <o>     : "ꝏ̰"     # ꝏ + Tilde Below
 <dead_belowtilde> <U0186>             : "Ɔ̰"      # Ɔ + Tilde Below
 <dead_belowtilde> <U0254>             : "ɔ̰"      # ɔ + Tilde Below
 <dead_belowtilde> <UA7CB>             : "Ɤ̰"      # Ɤ (Ram's Horn) + Tilde Below
@@ -144,8 +145,8 @@
 <dead_belowtilde> <w>                 : "w̰"
 <dead_belowtilde> <UA760>             : "Ꝡ̰"     # Ꝡ + Tilde Below
 <dead_belowtilde> <UA761>             : "ꝡ̰"     # ꝡ + Tilde Below
-<dead_belowtilde> <multiply> <V> <Y>  : "Ꝡ̰"
-<dead_belowtilde> <multiply> <v> <y>  : "ꝡ̰"
+<dead_belowtilde> <U1DCF> <V> <Y>     : "Ꝡ̰"
+<dead_belowtilde> <U1DCF> <v> <y>     : "ꝡ̰"
 <dead_belowtilde> <X>                 : "X̰"
 <dead_belowtilde> <x>                 : "x̰"
 <dead_belowtilde> <Y>                 : "Y̰"
@@ -157,7 +158,7 @@
 
 
 # Composed tilde below combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Tilde_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Tilde_souscrit
 #
 <dead_belowtilde> <Aacute>              : "Á̰"
 <dead_belowtilde> <aacute>              : "á̰"

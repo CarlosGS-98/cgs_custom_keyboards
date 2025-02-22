@@ -2,7 +2,7 @@
 # [AUTHOR]: Carlos González Sanz
 
 # Precomposed implosive tail/hook letter combinations
-# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
 #
 <U0359> <B> : "Ɓ"
 <U0359> <b> : "ɓ"
@@ -43,7 +43,7 @@
 
 
 # Precomposed palatal hook letter combinations
-# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
 #
 #<U0359> <less> <B>         : "¿?" (Not encoded yet)
 <U0359> <less> <b>          : "ᶀ"
@@ -90,7 +90,7 @@
 
 
 # Precomposed retroflex hook letter combinations
-# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
 #
 #<U0359> <greater> <A>                  : "¿?" (Not encoded yet)
 <U0359> <greater> <a>                   : "ᶏ"
@@ -136,7 +136,7 @@
 
 
 # Precomposed rhotic hook letter combinations
-# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_rhotique
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_rhotique
 #
 <U0359> <comma> <SCHWA>     : "ɚ"
 <U0359> <comma> <schwa>     : "ɚ"

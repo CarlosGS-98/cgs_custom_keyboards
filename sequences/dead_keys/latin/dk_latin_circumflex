@@ -94,9 +94,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_circonflexe
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_circumflex> <U2C6F>            : "Ɐ̂"      # Ɐ + Circumflex
@@ -105,8 +106,8 @@
 <dead_circumflex> <U21BA> <a>        : "ɐ̂"      # ɐ + Circumflex
 <dead_circumflex> <AE>               : "Æ̂"
 <dead_circumflex> <ae>               : "æ̂"
-<dead_circumflex> <multiply> <A> <E> : "Æ̂"
-<dead_circumflex> <multiply> <a> <e> : "æ̂"
+<dead_circumflex> <U1DCF> <A> <E>    : "Æ̂"
+<dead_circumflex> <U1DCF> <a> <e>    : "æ̂"
 <dead_circumflex> <U2C6D>            : "Ɑ̂"      # Ɑ (Latin Alpha) + Circumflex
 <dead_circumflex> <U0251>            : "ɑ̂"      # ɑ (Latin Alpha) + Circumflex
 <dead_circumflex> <B>                : "B̂"
@@ -141,8 +142,8 @@
 <dead_circumflex> <eng>              : "ŋ̂"      # ŋ + Circumflex
 <dead_circumflex> <OE>               : "Œ̂"
 <dead_circumflex> <oe>               : "œ̂"
-<dead_circumflex> <multiply> <O> <E> : "Œ̂"
-<dead_circumflex> <multiply> <o> <e> : "œ̂"
+<dead_circumflex> <U1DCF> <O> <E>    : "Œ̂"
+<dead_circumflex> <U1DCF> <o> <e>    : "œ̂"
 <dead_circumflex> <U0186>            : "Ɔ̂"      # Ɔ + Circumflex
 <dead_circumflex> <U0254>            : "ɔ̂"      # ɔ + Circumflex
 <dead_circumflex> <UA7CB>            : "Ɤ̂"      # Ɤ (Ram's Horn) + Circumflex
@@ -176,7 +177,7 @@
 
 
 # Composed circumflex accent combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_circonflexe
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_circonflexe
 #
 # [CUSTOM DEAD KEYS]:
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key

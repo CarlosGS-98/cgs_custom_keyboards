@@ -72,9 +72,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Point_en_chef
+# [Main source]: https://fr.wikipedia.org/wiki/Point_en_chef
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_abovedot> <U2C6F>            : "Ɐ̇"      # Ɐ + Dot Above
@@ -83,28 +84,28 @@
 <dead_abovedot> <U21BA> <a>        : "ɐ̇"      # ɐ + Dot Above
 <dead_abovedot> <UA732>            : "Ꜳ̇"     # Ꜳ + Dot Above
 <dead_abovedot> <UA733>            : "ꜳ̇"      # ꜳ + Dot Above
-<dead_abovedot> <multiply> <A> <A> : "Ꜳ̇"     # Ꜳ + Dot Above
-<dead_abovedot> <multiply> <a> <a> : "ꜳ̇"      # ꜳ + Dot Above
+<dead_abovedot> <U1DCF> <A> <A>    : "Ꜳ̇"     # Ꜳ + Dot Above
+<dead_abovedot> <U1DCF> <a> <a>    : "ꜳ̇"      # ꜳ + Dot Above
 <dead_abovedot> <AE>               : "Æ̇"
 <dead_abovedot> <ae>               : "æ̇"
-<dead_abovedot> <multiply> <A> <E> : "Æ̇"
-<dead_abovedot> <multiply> <a> <e> : "æ̇"
+<dead_abovedot> <U1DCF> <A> <E>    : "Æ̇"
+<dead_abovedot> <U1DCF> <a> <e>    : "æ̇"
 <dead_abovedot> <UA734>            : "Ꜵ̇"     # Ꜵ + Dot Above
 <dead_abovedot> <UA735>            : "ꜵ̇"      # ꜵ + Dot Above
-<dead_abovedot> <multiply> <A> <O> : "Ꜵ̇"     # Ꜵ + Dot Above
-<dead_abovedot> <multiply> <a> <o> : "ꜵ̇"      # ꜵ + Dot Above
+<dead_abovedot> <U1DCF> <A> <O>    : "Ꜵ̇"     # Ꜵ + Dot Above
+<dead_abovedot> <U1DCF> <a> <o>    : "ꜵ̇"      # ꜵ + Dot Above
 <dead_abovedot> <UA736>            : "Ꜷ̇"     # Ꜷ + Dot Above
 <dead_abovedot> <UA737>            : "ꜷ̇"      # ꜷ + Dot Above
-<dead_abovedot> <multiply> <A> <U> : "Ꜷ̇"     # Ꜷ + Dot Above
-<dead_abovedot> <multiply> <a> <u> : "ꜷ̇"      # ꜷ + Dot Above
+<dead_abovedot> <U1DCF> <A> <U>    : "Ꜷ̇"     # Ꜷ + Dot Above
+<dead_abovedot> <U1DCF> <a> <u>    : "ꜷ̇"      # ꜷ + Dot Above
 <dead_abovedot> <UA738>            : "Ꜹ̇"     # Ꜹ + Dot Above
 <dead_abovedot> <UA739>            : "ꜹ̇"      # ꜹ + Dot Above
-<dead_abovedot> <multiply> <A> <V> : "Ꜹ̇"     # Ꜹ + Dot Above
-<dead_abovedot> <multiply> <a> <v> : "ꜹ̇"      # ꜹ + Dot Above
+<dead_abovedot> <U1DCF> <A> <V>    : "Ꜹ̇"     # Ꜹ + Dot Above
+<dead_abovedot> <U1DCF> <a> <v>    : "ꜹ̇"      # ꜹ + Dot Above
 <dead_abovedot> <UA73C>            : "Ꜽ̇"     # Ꜽ + Dot Above
 <dead_abovedot> <UA73D>            : "ꜽ̇"      # ꜽ + Dot Above
-<dead_abovedot> <multiply> <A> <Y> : "Ꜽ̇"     # Ꜽ + Dot Above
-<dead_abovedot> <multiply> <a> <y> : "ꜽ̇"      # ꜽ + Dot Above
+<dead_abovedot> <U1DCF> <A> <Y>    : "Ꜽ̇"     # Ꜽ + Dot Above
+<dead_abovedot> <U1DCF> <a> <y>    : "ꜽ̇"      # ꜽ + Dot Above
 <dead_abovedot> <U2C6D>            : "Ɑ̇"      # Ɑ (Latin Alpha) + Dot Above
 <dead_abovedot> <U0251>            : "ɑ̇"      # ɑ (Latin Alpha) + Dot Above
 <dead_abovedot> <UA779>            : "Ꝺ̇"      # Ꝺ (Insular D) + Dot Above
@@ -133,12 +134,12 @@
 <dead_abovedot> <eng>              : "ŋ̇"      # ŋ + Dot Above
 <dead_abovedot> <OE>               : "Œ̇"
 <dead_abovedot> <oe>               : "œ̇"
-<dead_abovedot> <multiply> <O> <E> : "Œ̇"
-<dead_abovedot> <multiply> <o> <e> : "œ̇"
+<dead_abovedot> <U1DCF> <O> <E>    : "Œ̇"
+<dead_abovedot> <U1DCF> <o> <e>    : "œ̇"
 <dead_abovedot> <UA74E>            : "Ꝏ̇"     # Ꝏ + Dot Above
 <dead_abovedot> <UA74F>            : "ꝏ̇"     # ꝏ + Dot Above
-<dead_abovedot> <multiply> <O> <O> : "Ꝏ̇"     # Ꝏ + Dot Above
-<dead_abovedot> <multiply> <o> <o> : "ꝏ̇"     # ꝏ + Dot Above
+<dead_abovedot> <U1DCF> <O> <O>    : "Ꝏ̇"     # Ꝏ + Dot Above
+<dead_abovedot> <U1DCF> <o> <o>    : "ꝏ̇"     # ꝏ + Dot Above
 <dead_abovedot> <U0186>            : "Ɔ̇"      # Ɔ + Dot Above
 <dead_abovedot> <U0254>            : "ɔ̇"      # ɔ + Dot Above
 <dead_abovedot> <UA7CB>            : "Ɤ̇"      # Ɤ (Ram's Horn) + Dot Above
@@ -163,14 +164,14 @@
 <dead_abovedot> <UA769>            : "ꝩ̇"     # ꝩ (Vend) + Dot Above
 <dead_abovedot> <UA760>            : "Ꝡ̇"     # Ꝡ + Dot Above
 <dead_abovedot> <UA761>            : "ꝡ̇"     # ꝡ + Dot Above
-<dead_abovedot> <multiply> <V> <Y> : "Ꝡ̇"
-<dead_abovedot> <multiply> <v> <y> : "ꝡ̇"
+<dead_abovedot> <U1DCF> <V> <Y>    : "Ꝡ̇"
+<dead_abovedot> <U1DCF> <v> <y>    : "ꝡ̇"
 <dead_abovedot> <EZH>              : "Ʒ̇"     # Ʒ + Dot Above
 <dead_abovedot> <ezh>              : "ʒ̇"     # ʒ + Dot Above
 
 
 # Composed dot above combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Point_en_chef
+# [Main source]: https://fr.wikipedia.org/wiki/Point_en_chef
 #
 # [CUSTOM DEAD KEYS]:
 # - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key

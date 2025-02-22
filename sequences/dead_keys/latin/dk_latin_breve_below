@@ -7,9 +7,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Brève_souscrite
+# [Main source]: https://fr.wikipedia.org/wiki/Brève_souscrite
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_belowbreve> <A>                 : "A̮"
@@ -20,28 +21,28 @@
 <dead_belowbreve> <U21BA> <a>         : "ɐ̮"      # ɐ + Breve Below
 <dead_belowbreve> <UA732>             : "Ꜳ̮"     # Ꜳ + Breve Below
 <dead_belowbreve> <UA733>             : "ꜳ̮"      # ꜳ + Breve Below
-<dead_belowbreve> <multiply> <A> <A>  : "Ꜳ̮"     # Ꜳ + Breve Below
-<dead_belowbreve> <multiply> <a> <a>  : "ꜳ̮"      # ꜳ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <A>     : "Ꜳ̮"     # Ꜳ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <a>     : "ꜳ̮"      # ꜳ + Breve Below
 <dead_belowbreve> <AE>                : "Æ̮"
 <dead_belowbreve> <ae>                : "æ̮"
-<dead_belowbreve> <multiply> <A> <E>  : "Æ̮"
-<dead_belowbreve> <multiply> <a> <e>  : "æ̮"
+<dead_belowbreve> <U1DCF> <A> <E>     : "Æ̮"
+<dead_belowbreve> <U1DCF> <a> <e>     : "æ̮"
 <dead_belowbreve> <UA734>             : "Ꜵ̮"     # Ꜵ + Breve Below
 <dead_belowbreve> <UA735>             : "ꜵ̮"      # ꜵ + Breve Below
-<dead_belowbreve> <multiply> <A> <O>  : "Ꜵ̮"     # Ꜵ + Breve Below
-<dead_belowbreve> <multiply> <a> <o>  : "ꜵ̮"      # ꜵ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <O>     : "Ꜵ̮"     # Ꜵ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <o>     : "ꜵ̮"      # ꜵ + Breve Below
 <dead_belowbreve> <UA736>             : "Ꜷ̮"     # Ꜷ + Breve Below
 <dead_belowbreve> <UA737>             : "ꜷ̮"      # ꜷ + Breve Below
-<dead_belowbreve> <multiply> <A> <U>  : "Ꜷ̮"     # Ꜷ + Breve Below
-<dead_belowbreve> <multiply> <a> <u>  : "ꜷ̮"      # ꜷ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <U>     : "Ꜷ̮"     # Ꜷ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <u>     : "ꜷ̮"      # ꜷ + Breve Below
 <dead_belowbreve> <UA738>             : "Ꜹ̮"     # Ꜹ + Breve Below
 <dead_belowbreve> <UA739>             : "ꜹ̮"      # ꜹ + Breve Below
-<dead_belowbreve> <multiply> <A> <V>  : "Ꜹ̮"     # Ꜹ + Breve Below
-<dead_belowbreve> <multiply> <a> <v>  : "ꜹ̮"      # ꜹ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <V>     : "Ꜹ̮"     # Ꜹ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <v>     : "ꜹ̮"      # ꜹ + Breve Below
 <dead_belowbreve> <UA73C>             : "Ꜽ̮"     # Ꜽ + Breve Below
 <dead_belowbreve> <UA73D>             : "ꜽ̮"      # ꜽ + Breve Below
-<dead_belowbreve> <multiply> <A> <Y>  : "Ꜽ̮"     # Ꜽ + Breve Below
-<dead_belowbreve> <multiply> <a> <y>  : "ꜽ̮"      # ꜽ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <Y>     : "Ꜽ̮"     # Ꜽ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <y>     : "ꜽ̮"      # ꜽ + Breve Below
 <dead_belowbreve> <U2C6D>             : "Ɑ̮"      # Ɑ (Latin Alpha) + Breve Below
 <dead_belowbreve> <U0251>             : "ɑ̮"      # ɑ (Latin Alpha) + Breve Below
 <dead_belowbreve> <B>                 : "B̮"
@@ -96,12 +97,12 @@
 <dead_belowbreve> <o>                 : "o̮"
 <dead_belowbreve> <OE>                : "Œ̮"
 <dead_belowbreve> <oe>                : "œ̮"
-<dead_belowbreve> <multiply> <O> <E>  : "Œ̮"
-<dead_belowbreve> <multiply> <o> <e>  : "œ̮"
+<dead_belowbreve> <U1DCF> <O> <E>     : "Œ̮"
+<dead_belowbreve> <U1DCF> <o> <e>     : "œ̮"
 <dead_belowbreve> <UA74E>             : "Ꝏ̮"     # Ꝏ + Breve Below
 <dead_belowbreve> <UA74F>             : "ꝏ̮"     # ꝏ + Breve Below
-<dead_belowbreve> <multiply> <O> <O>  : "Ꝏ̮"     # Ꝏ + Breve Below
-<dead_belowbreve> <multiply> <o> <o>  : "ꝏ̮"     # ꝏ + Breve Below
+<dead_belowbreve> <U1DCF> <O> <O>     : "Ꝏ̮"     # Ꝏ + Breve Below
+<dead_belowbreve> <U1DCF> <o> <o>     : "ꝏ̮"     # ꝏ + Breve Below
 <dead_belowbreve> <U0186>             : "Ɔ̮"      # Ɔ + Breve Below
 <dead_belowbreve> <U0254>             : "ɔ̮"      # ɔ + Breve Below
 <dead_belowbreve> <UA7CB>             : "Ɤ̮"      # Ɤ (Ram's Horn) + Breve Below
@@ -144,8 +145,8 @@
 <dead_belowbreve> <w>                 : "w̮"
 <dead_belowbreve> <UA760>             : "Ꝡ̮"     # Ꝡ + Breve Below
 <dead_belowbreve> <UA761>             : "ꝡ̮"     # ꝡ + Breve Below
-<dead_belowbreve> <multiply> <V> <Y>  : "Ꝡ̮"
-<dead_belowbreve> <multiply> <v> <y>  : "ꝡ̮"
+<dead_belowbreve> <U1DCF> <V> <Y>     : "Ꝡ̮"
+<dead_belowbreve> <U1DCF> <v> <y>     : "ꝡ̮"
 <dead_belowbreve> <X>                 : "X̮"
 <dead_belowbreve> <x>                 : "x̮"
 <dead_belowbreve> <Y>                 : "Y̮"
@@ -157,7 +158,7 @@
 
 
 # Composed breve below combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Brève_souscrite
+# [Main source]: https://fr.wikipedia.org/wiki/Brève_souscrite
 #
 <dead_belowbreve> <Emacron>         : "Ē̮"
 <dead_belowbreve> <emacron>         : "ē̮"

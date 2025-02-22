@@ -6,9 +6,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Ligne_verticale_souscrite
+# [Main source]: https://fr.wikipedia.org/wiki/Ligne_verticale_souscrite
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_belowverticalline> <A>                 : "A̩"
@@ -19,28 +20,28 @@
 <dead_belowverticalline> <U21BA> <a>         : "ɐ̩"      # ɐ + Vertical Line Below
 <dead_belowverticalline> <UA732>             : "Ꜳ̩"     # Ꜳ + Vertical Line Below
 <dead_belowverticalline> <UA733>             : "ꜳ̩"      # ꜳ + Vertical Line Below
-<dead_belowverticalline> <multiply> <A> <A>  : "Ꜳ̩"     # Ꜳ + Vertical Line Below
-<dead_belowverticalline> <multiply> <a> <a>  : "ꜳ̩"      # ꜳ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <A> <A>     : "Ꜳ̩"     # Ꜳ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <a> <a>     : "ꜳ̩"      # ꜳ + Vertical Line Below
 <dead_belowverticalline> <AE>                : "Æ̩"
 <dead_belowverticalline> <ae>                : "æ̩"
-<dead_belowverticalline> <multiply> <A> <E>  : "Æ̩"
-<dead_belowverticalline> <multiply> <a> <e>  : "æ̩"
+<dead_belowverticalline> <U1DCF> <A> <E>     : "Æ̩"
+<dead_belowverticalline> <U1DCF> <a> <e>     : "æ̩"
 <dead_belowverticalline> <UA734>             : "Ꜵ̩"     # Ꜵ + Vertical Line Below
 <dead_belowverticalline> <UA735>             : "ꜵ̩"      # ꜵ + Vertical Line Below
-<dead_belowverticalline> <multiply> <A> <O>  : "Ꜵ̩"     # Ꜵ + Vertical Line Below
-<dead_belowverticalline> <multiply> <a> <o>  : "ꜵ̩"      # ꜵ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <A> <O>     : "Ꜵ̩"     # Ꜵ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <a> <o>     : "ꜵ̩"      # ꜵ + Vertical Line Below
 <dead_belowverticalline> <UA736>             : "Ꜷ̩"     # Ꜷ + Vertical Line Below
 <dead_belowverticalline> <UA737>             : "ꜷ̩"      # ꜷ + Vertical Line Below
-<dead_belowverticalline> <multiply> <A> <U>  : "Ꜷ̩"     # Ꜷ + Vertical Line Below
-<dead_belowverticalline> <multiply> <a> <u>  : "ꜷ̩"      # ꜷ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <A> <U>     : "Ꜷ̩"     # Ꜷ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <a> <u>     : "ꜷ̩"      # ꜷ + Vertical Line Below
 <dead_belowverticalline> <UA738>             : "Ꜹ̩"     # Ꜹ + Vertical Line Below
 <dead_belowverticalline> <UA739>             : "ꜹ̩"      # ꜹ + Vertical Line Below
-<dead_belowverticalline> <multiply> <A> <V>  : "Ꜹ̩"     # Ꜹ + Vertical Line Below
-<dead_belowverticalline> <multiply> <a> <v>  : "ꜹ̩"      # ꜹ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <A> <V>     : "Ꜹ̩"     # Ꜹ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <a> <v>     : "ꜹ̩"      # ꜹ + Vertical Line Below
 <dead_belowverticalline> <UA73C>             : "Ꜽ̩"     # Ꜽ + Vertical Line Below
 <dead_belowverticalline> <UA73D>             : "ꜽ̩"      # ꜽ + Vertical Line Below
-<dead_belowverticalline> <multiply> <A> <Y>  : "Ꜽ̩"     # Ꜽ + Vertical Line Below
-<dead_belowverticalline> <multiply> <a> <y>  : "ꜽ̩"      # ꜽ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <A> <Y>     : "Ꜽ̩"     # Ꜽ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <a> <y>     : "ꜽ̩"      # ꜽ + Vertical Line Below
 <dead_belowverticalline> <U2C6D>             : "Ɑ̩"      # Ɑ (Latin Alpha) + Vertical Line Below
 <dead_belowverticalline> <U0251>             : "ɑ̩"      # ɑ (Latin Alpha) + Vertical Line Below
 <dead_belowverticalline> <B>                 : "B̩"
@@ -97,12 +98,12 @@
 <dead_belowverticalline> <o>                 : "o̩"
 <dead_belowverticalline> <OE>                : "Œ̩"
 <dead_belowverticalline> <oe>                : "œ̩"
-<dead_belowverticalline> <multiply> <O> <E>  : "Œ̩"
-<dead_belowverticalline> <multiply> <o> <e>  : "œ̩"
+<dead_belowverticalline> <U1DCF> <O> <E>     : "Œ̩"
+<dead_belowverticalline> <U1DCF> <o> <e>     : "œ̩"
 <dead_belowverticalline> <UA74E>             : "Ꝏ̩"     # Ꝏ + Vertical Line Below
 <dead_belowverticalline> <UA74F>             : "ꝏ̩"     # ꝏ + Vertical Line Below
-<dead_belowverticalline> <multiply> <O> <O>  : "Ꝏ̩"     # Ꝏ + Vertical Line Below
-<dead_belowverticalline> <multiply> <o> <o>  : "ꝏ̩"     # ꝏ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <O> <O>     : "Ꝏ̩"     # Ꝏ + Vertical Line Below
+<dead_belowverticalline> <U1DCF> <o> <o>     : "ꝏ̩"     # ꝏ + Vertical Line Below
 <dead_belowverticalline> <U0186>             : "Ɔ̩"      # Ɔ + Vertical Line Below
 <dead_belowverticalline> <U0254>             : "ɔ̩"      # ɔ + Vertical Line Below
 <dead_belowverticalline> <UA7CB>             : "Ɤ̩"      # Ɤ (Ram's Horn) + Vertical Line Below
@@ -145,8 +146,8 @@
 <dead_belowverticalline> <w>                 : "w̩"
 <dead_belowverticalline> <UA760>             : "Ꝡ̩"     # Ꝡ + Vertical Line Below
 <dead_belowverticalline> <UA761>             : "ꝡ̩"     # ꝡ + Vertical Line Below
-<dead_belowverticalline> <multiply> <V> <Y>  : "Ꝡ̩"
-<dead_belowverticalline> <multiply> <v> <y>  : "ꝡ̩"
+<dead_belowverticalline> <U1DCF> <V> <Y>     : "Ꝡ̩"
+<dead_belowverticalline> <U1DCF> <v> <y>     : "ꝡ̩"
 <dead_belowverticalline> <X>                 : "X̩"
 <dead_belowverticalline> <x>                 : "x̩"
 <dead_belowverticalline> <Y>                 : "Y̩"
@@ -158,7 +159,7 @@
 
 
 # Composed vertical line above combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Ligne_verticale_souscrite
+# [Main source]: https://fr.wikipedia.org/wiki/Ligne_verticale_souscrite
 #
 # [NOTE]: (No composed combinations with this diacritic yet)
 

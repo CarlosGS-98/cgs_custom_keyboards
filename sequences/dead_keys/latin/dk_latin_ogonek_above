@@ -6,9 +6,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Ogonek_suscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Ogonek_suscrit
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <U1DCE> <A>                 : "A᷎"
@@ -19,28 +20,28 @@
 <U1DCE> <U21BA> <a>         : "ɐ᷎"      # ɐ + Ogonek Above
 <U1DCE> <UA732>             : "Ꜳ᷎"     # Ꜳ + Ogonek Above
 <U1DCE> <UA733>             : "ꜳ᷎"      # ꜳ + Ogonek Above
-<U1DCE> <multiply> <A> <A>  : "Ꜳ᷎"     # Ꜳ + Ogonek Above
-<U1DCE> <multiply> <a> <a>  : "ꜳ᷎"      # ꜳ + Ogonek Above
+<U1DCE> <U1DCF> <A> <A>     : "Ꜳ᷎"     # Ꜳ + Ogonek Above
+<U1DCE> <U1DCF> <a> <a>     : "ꜳ᷎"      # ꜳ + Ogonek Above
 <U1DCE> <AE>                : "Æ᷎"
 <U1DCE> <ae>                : "æ᷎"
-<U1DCE> <multiply> <A> <E>  : "Æ᷎"
-<U1DCE> <multiply> <a> <e>  : "æ᷎"
+<U1DCE> <U1DCF> <A> <E>     : "Æ᷎"
+<U1DCE> <U1DCF> <a> <e>     : "æ᷎"
 <U1DCE> <UA734>             : "Ꜵ᷎"     # Ꜵ + Ogonek Above
 <U1DCE> <UA735>             : "ꜵ᷎"      # ꜵ + Ogonek Above
-<U1DCE> <multiply> <A> <O>  : "Ꜵ᷎"     # Ꜵ + Ogonek Above
-<U1DCE> <multiply> <a> <o>  : "ꜵ᷎"      # ꜵ + Ogonek Above
+<U1DCE> <U1DCF> <A> <O>     : "Ꜵ᷎"     # Ꜵ + Ogonek Above
+<U1DCE> <U1DCF> <a> <o>     : "ꜵ᷎"      # ꜵ + Ogonek Above
 <U1DCE> <UA736>             : "Ꜷ᷎"     # Ꜷ + Ogonek Above
 <U1DCE> <UA737>             : "ꜷ᷎"      # ꜷ + Ogonek Above
-<U1DCE> <multiply> <A> <U>  : "Ꜷ᷎"     # Ꜷ + Ogonek Above
-<U1DCE> <multiply> <a> <u>  : "ꜷ᷎"      # ꜷ + Ogonek Above
+<U1DCE> <U1DCF> <A> <U>     : "Ꜷ᷎"     # Ꜷ + Ogonek Above
+<U1DCE> <U1DCF> <a> <u>     : "ꜷ᷎"      # ꜷ + Ogonek Above
 <U1DCE> <UA738>             : "Ꜹ᷎"     # Ꜹ + Ogonek Above
 <U1DCE> <UA739>             : "ꜹ᷎"      # ꜹ + Ogonek Above
-<U1DCE> <multiply> <A> <V>  : "Ꜹ᷎"     # Ꜹ + Ogonek Above
-<U1DCE> <multiply> <a> <v>  : "ꜹ᷎"      # ꜹ + Ogonek Above
+<U1DCE> <U1DCF> <A> <V>     : "Ꜹ᷎"     # Ꜹ + Ogonek Above
+<U1DCE> <U1DCF> <a> <v>     : "ꜹ᷎"      # ꜹ + Ogonek Above
 <U1DCE> <UA73C>             : "Ꜽ᷎"     # Ꜽ + Ogonek Above
 <U1DCE> <UA73D>             : "ꜽ᷎"      # ꜽ + Ogonek Above
-<U1DCE> <multiply> <A> <Y>  : "Ꜽ᷎"     # Ꜽ + Ogonek Above
-<U1DCE> <multiply> <a> <y>  : "ꜽ᷎"      # ꜽ + Ogonek Above
+<U1DCE> <U1DCF> <A> <Y>     : "Ꜽ᷎"     # Ꜽ + Ogonek Above
+<U1DCE> <U1DCF> <a> <y>     : "ꜽ᷎"      # ꜽ + Ogonek Above
 <U1DCE> <U2C6D>             : "Ɑ᷎"      # Ɑ (Latin Alpha) + Ogonek Above
 <U1DCE> <U0251>             : "ɑ᷎"      # ɑ (Latin Alpha) + Ogonek Above
 <U1DCE> <B>                 : "B᷎"
@@ -97,12 +98,12 @@
 <U1DCE> <o>                 : "o᷎"
 <U1DCE> <OE>                : "Œ᷎"
 <U1DCE> <oe>                : "œ᷎"
-<U1DCE> <multiply> <O> <E>  : "Œ᷎"
-<U1DCE> <multiply> <o> <e>  : "œ᷎"
+<U1DCE> <U1DCF> <O> <E>     : "Œ᷎"
+<U1DCE> <U1DCF> <o> <e>     : "œ᷎"
 <U1DCE> <UA74E>             : "Ꝏ᷎"     # Ꝏ + Ogonek Above
 <U1DCE> <UA74F>             : "ꝏ᷎"     # ꝏ + Ogonek Above
-<U1DCE> <multiply> <O> <O>  : "Ꝏ᷎"     # Ꝏ + Ogonek Above
-<U1DCE> <multiply> <o> <o>  : "ꝏ᷎"     # ꝏ + Ogonek Above
+<U1DCE> <U1DCF> <O> <O>     : "Ꝏ᷎"     # Ꝏ + Ogonek Above
+<U1DCE> <U1DCF> <o> <o>     : "ꝏ᷎"     # ꝏ + Ogonek Above
 <U1DCE> <U0186>             : "Ɔ᷎"      # Ɔ + Ogonek Above
 <U1DCE> <U0254>             : "ɔ᷎"      # ɔ + Ogonek Above
 <U1DCE> <UA7CB>             : "Ɤ᷎"      # Ɤ (Ram's Horn) + Ogonek Above
@@ -147,8 +148,8 @@
 <U1DCE> <w>                 : "w᷎"
 <U1DCE> <UA760>             : "Ꝡ᷎"     # Ꝡ + Ogonek Above
 <U1DCE> <UA761>             : "ꝡ᷎"     # ꝡ + Ogonek Above
-<U1DCE> <multiply> <V> <Y>  : "Ꝡ᷎"
-<U1DCE> <multiply> <v> <y>  : "ꝡ᷎"
+<U1DCE> <U1DCF> <V> <Y>     : "Ꝡ᷎"
+<U1DCE> <U1DCF> <v> <y>     : "ꝡ᷎"
 <U1DCE> <X>                 : "X᷎"
 <U1DCE> <x>                 : "x᷎"
 <U1DCE> <Y>                 : "Y᷎"
@@ -160,7 +161,7 @@
 
 
 # Composed ogonek combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Ogonek_suscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Ogonek_suscrit
 #
 <U1DCE> <Aogonek>                       : "Ą᷎"
 <U1DCE> <aogonek>                       : "ą᷎"

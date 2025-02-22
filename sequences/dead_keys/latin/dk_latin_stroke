@@ -4,13 +4,14 @@
 # Basic precomposed letter combinations
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_stroke> <2>                   : "ƻ"
 <dead_stroke> <UA738>               : "Ꜻ"  # Ꜹ + Stroke
 <dead_stroke> <UA739>               : "ꜻ"   # ꜹ + Stroke
-<dead_stroke> <multiply> <A> <V>    : "Ꜻ"  # Ꜹ + Stroke
-<dead_stroke> <multiply> <a> <v>    : "ꜻ"   # ꜹ + Stroke
+<dead_stroke> <U1DCF> <A> <V>       : "Ꜻ"  # Ꜹ + Stroke
+<dead_stroke> <U1DCF> <a> <v>       : "ꜻ"   # ꜹ + Stroke
 <dead_stroke> <B>                   : "Ƀ"
 <dead_stroke> <b>                   : "ƀ"
 <dead_stroke> <C>                   : "Ꞓ"
@@ -69,7 +70,7 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Barre_inscrite
+# [Main source]: https://fr.wikipedia.org/wiki/Barre_inscrite
 #
 # [CUSTOM DEAD KEYS]:
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
@@ -82,24 +83,24 @@
 <dead_stroke> <U21BA> <a>         : "ɐ̵"      # ɐ + Stroke
 <dead_stroke> <UA732>             : "Ꜳ̵"     # Ꜳ + Stroke
 <dead_stroke> <UA733>             : "ꜳ̵"      # ꜳ + Stroke
-<dead_stroke> <multiply> <A> <A>  : "Ꜳ̵"     # Ꜳ + Stroke
-<dead_stroke> <multiply> <a> <a>  : "ꜳ̵"      # ꜳ + Stroke
+<dead_stroke> <U1DCF> <A> <A>     : "Ꜳ̵"     # Ꜳ + Stroke
+<dead_stroke> <U1DCF> <a> <a>     : "ꜳ̵"      # ꜳ + Stroke
 <dead_stroke> <AE>                : "Æ̵"
 <dead_stroke> <ae>                : "æ̵"
-<dead_stroke> <multiply> <A> <E>  : "Æ̵"
-<dead_stroke> <multiply> <a> <e>  : "æ̵"
+<dead_stroke> <U1DCF> <A> <E>     : "Æ̵"
+<dead_stroke> <U1DCF> <a> <e>     : "æ̵"
 <dead_stroke> <UA734>             : "Ꜵ̵"     # Ꜵ + Stroke
 <dead_stroke> <UA735>             : "ꜵ̵"      # ꜵ + Stroke
-<dead_stroke> <multiply> <A> <O>  : "Ꜵ̵"     # Ꜵ + Stroke
-<dead_stroke> <multiply> <a> <o>  : "ꜵ̵"      # ꜵ + Stroke
+<dead_stroke> <U1DCF> <A> <O>     : "Ꜵ̵"     # Ꜵ + Stroke
+<dead_stroke> <U1DCF> <a> <o>     : "ꜵ̵"      # ꜵ + Stroke
 <dead_stroke> <UA736>             : "Ꜷ̵"     # Ꜷ + Stroke
 <dead_stroke> <UA737>             : "ꜷ̵"      # ꜷ + Stroke
-<dead_stroke> <multiply> <A> <U>  : "Ꜷ̵"     # Ꜷ + Stroke
-<dead_stroke> <multiply> <a> <u>  : "ꜷ̵"      # ꜷ + Stroke
+<dead_stroke> <U1DCF> <A> <U>     : "Ꜷ̵"     # Ꜷ + Stroke
+<dead_stroke> <U1DCF> <a> <u>     : "ꜷ̵"      # ꜷ + Stroke
 <dead_stroke> <UA73C>             : "Ꜽ̵"     # Ꜽ + Stroke
 <dead_stroke> <UA73D>             : "ꜽ̵"      # ꜽ + Stroke
-<dead_stroke> <multiply> <A> <Y>  : "Ꜽ̵"     # Ꜽ + Stroke
-<dead_stroke> <multiply> <a> <y>  : "ꜽ̵"      # ꜽ + Stroke
+<dead_stroke> <U1DCF> <A> <Y>     : "Ꜽ̵"     # Ꜽ + Stroke
+<dead_stroke> <U1DCF> <a> <y>     : "ꜽ̵"      # ꜽ + Stroke
 <dead_stroke> <U2C6D>             : "Ɑ̵"      # Ɑ (Latin Alpha) + Stroke
 <dead_stroke> <U0251>             : "ɑ̵"      # ɑ (Latin Alpha) + Stroke
 <dead_stroke> <UA779>             : "Ꝺ̵"      # Ꝺ (Insular D) + Stroke
@@ -130,12 +131,12 @@
 <dead_stroke> <n>                 : "n̵"             
 <dead_stroke> <OE>                : "Œ̵"
 <dead_stroke> <oe>                : "œ̵"
-<dead_stroke> <multiply> <O> <E>  : "Œ̵"
-<dead_stroke> <multiply> <o> <e>  : "œ̵"
+<dead_stroke> <U1DCF> <O> <E>     : "Œ̵"
+<dead_stroke> <U1DCF> <o> <e>     : "œ̵"
 <dead_stroke> <UA74E>             : "Ꝏ̵"     # Ꝏ + Stroke
 <dead_stroke> <UA74F>             : "ꝏ̵"     # ꝏ + Stroke
-<dead_stroke> <multiply> <O> <O>  : "Ꝏ̵"     # Ꝏ + Stroke
-<dead_stroke> <multiply> <o> <o>  : "ꝏ̵"     # ꝏ + Stroke
+<dead_stroke> <U1DCF> <O> <O>     : "Ꝏ̵"     # Ꝏ + Stroke
+<dead_stroke> <U1DCF> <o> <o>     : "ꝏ̵"     # ꝏ + Stroke
 <dead_stroke> <U0186>             : "Ɔ̵"      # Ɔ + Stroke
 <dead_stroke> <U0254>             : "ɔ̵"      # ɔ + Stroke
 <dead_stroke> <UA7CB>             : "Ɤ̵"      # Ɤ (Ram's Stroke) + Stroke
@@ -167,8 +168,8 @@
 <dead_stroke> <w>                 : "w̵"
 <dead_stroke> <UA760>             : "Ꝡ̵"     # Ꝡ + Stroke
 <dead_stroke> <UA761>             : "ꝡ̵"     # ꝡ + Stroke
-<dead_stroke> <multiply> <V> <Y>  : "Ꝡ̵"
-<dead_stroke> <multiply> <v> <y>  : "ꝡ̵"
+<dead_stroke> <U1DCF> <V> <Y>     : "Ꝡ̵"
+<dead_stroke> <U1DCF> <v> <y>     : "ꝡ̵"
 <dead_stroke> <X>                 : "X̵"
 <dead_stroke> <x>                 : "x̵"
 <dead_stroke> <EZH>               : "Ʒ̵"     # Ʒ + Stroke
@@ -176,7 +177,7 @@
 
 
 # Composed stroke combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Barre_inscrite
+# [Main source]: https://fr.wikipedia.org/wiki/Barre_inscrite
 #
 # [CUSTOM DEAD KEYS]:
 # - ͙ (Combining Asterisk Below [U0359]) -> Represents the "Hooktail" dead key
@@ -324,6 +325,8 @@
 <dead_stroke> <ocircumflex>                                     : "ɵ̂"
 <dead_stroke> <dead_circumflex> <O>                             : "Ɵ̂"
 <dead_stroke> <dead_circumflex> <o>                             : "ɵ̂"
+<dead_stroke> <U1DCF> <OE> <OE>                                 : "ꭂ"
+<dead_stroke> <U1DCF> <oe> <oe>                                 : "ꭂ"
 <dead_stroke> <Uacute>                                          : "Ʉ́"
 <dead_stroke> <uacute>                                          : "ʉ́"
 <dead_stroke> <dead_acute> <U>                                  : "Ʉ́"

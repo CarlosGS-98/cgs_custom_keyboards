@@ -47,9 +47,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Brève
+# [Main source]: https://fr.wikipedia.org/wiki/Brève
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_breve> <U2C6F>            : "Ɐ̆"      # Ɐ + Breve
@@ -58,8 +59,8 @@
 <dead_breve> <U21BA> <a>        : "ɐ̆"      # ɐ + Breve
 <dead_breve> <AE>               : "Æ̆"
 <dead_breve> <ae>               : "æ̆"
-<dead_breve> <multiply> <A> <E> : "Æ̆"
-<dead_breve> <multiply> <a> <e> : "æ̆"
+<dead_breve> <U1DCF> <A> <E>    : "Æ̆"
+<dead_breve> <U1DCF> <a> <e>    : "æ̆"
 <dead_breve> <U2C6D>            : "Ɑ̆"      # Ɑ (Latin Alpha) + Breve
 <dead_breve> <U0251>            : "ɑ̆"      # ɑ (Latin Alpha) + Breve
 <dead_breve> <B>                : "B̆"
@@ -96,8 +97,8 @@
 <dead_breve> <eng>              : "ŋ̆"      # ŋ + Breve
 <dead_breve> <OE>               : "Œ̆"
 <dead_breve> <oe>               : "œ̆"
-<dead_breve> <multiply> <O> <E> : "Œ̆"
-<dead_breve> <multiply> <o> <e> : "œ̆"
+<dead_breve> <U1DCF> <O> <E>    : "Œ̆"
+<dead_breve> <U1DCF> <o> <e>    : "œ̆"
 <dead_breve> <U0186>            : "Ɔ̆"      # Ɔ + Breve
 <dead_breve> <U0254>            : "ɔ̆"      # ɔ + Breve
 <dead_breve> <UA7CB>            : "Ɤ̆"      # Ɤ (Ram's Horn) + Breve
@@ -139,7 +140,7 @@
 
 
 # Composed breve combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Brève
+# [Main source]: https://fr.wikipedia.org/wiki/Brève
 #
 <dead_breve> <dead_acute> <Amacron>                         : "Ā̆́"
 <dead_breve> <dead_acute> <amacron>                         : "ā̆́"
@@ -187,8 +188,8 @@
 <dead_breve> <U01E3>                                        : "ǣ̆"   # ǣ + Breve
 <dead_breve> <dead_macron> <AE>                             : "Ǣ̆"
 <dead_breve> <dead_macron> <ae>                             : "ǣ̆"
-<dead_breve> <dead_macron> <multiply> <A> <E>               : "Æ̆"
-<dead_breve> <dead_macron> <multiply> <a> <e>               : "æ̆"
+<dead_breve> <dead_macron> <U1DCF> <A> <E>                  : "Æ̆"
+<dead_breve> <dead_macron> <U1DCF> <a> <e>                  : "æ̆"
 <dead_breve> <Ccedilla>                                     : "Ç̆"
 <dead_breve> <ccedilla>                                     : "ç̆"
 <dead_breve> <dead_cedilla> <C>                             : "Ç̆"
@@ -405,8 +406,8 @@
 <dead_breve> <dead_longsolidusoverlay> <dead_macron> <o>    : "ø̄̆"
 <dead_breve> <dead_macron> <OE>                             : "Œ̄̆"
 <dead_breve> <dead_macron> <oe>                             : "œ̄̆"
-<dead_breve> <dead_macron> <multiply> <O> <E>               : "Œ̄̆"
-<dead_breve> <dead_macron> <multiply> <o> <e>               : "œ̄̆"
+<dead_breve> <dead_macron> <U1DCF> <O> <E>                  : "Œ̄̆"
+<dead_breve> <dead_macron> <U1DCF> <o> <e>                  : "œ̄̆"
 <dead_breve> <dead_belowring> <dead_macron> <R>             : "R̥̄̆"
 <dead_breve> <dead_belowring> <dead_macron> <r>             : "r̥̄̆"
 <dead_breve> <dead_macron> <dead_belowring> <R>             : "R̥̄̆"

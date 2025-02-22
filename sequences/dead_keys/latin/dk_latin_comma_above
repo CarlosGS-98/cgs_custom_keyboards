@@ -6,9 +6,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Esprit_doux
+# [Main source]: https://fr.wikipedia.org/wiki/Esprit_doux
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_abovecomma> <A>                 : "A̓"
@@ -19,28 +20,28 @@
 <dead_abovecomma> <U21BA> <a>         : "ɐ̓"      # ɐ + Comma Above
 <dead_abovecomma> <UA732>             : "Ꜳ̓"     # Ꜳ + Comma Above
 <dead_abovecomma> <UA733>             : "ꜳ̓"      # ꜳ + Comma Above
-<dead_abovecomma> <multiply> <A> <A>  : "Ꜳ̓"     # Ꜳ + Comma Above
-<dead_abovecomma> <multiply> <a> <a>  : "ꜳ̓"      # ꜳ + Comma Above
+<dead_abovecomma> <U1DCF> <A> <A>     : "Ꜳ̓"     # Ꜳ + Comma Above
+<dead_abovecomma> <U1DCF> <a> <a>     : "ꜳ̓"      # ꜳ + Comma Above
 <dead_abovecomma> <AE>                : "Æ̓"
 <dead_abovecomma> <ae>                : "æ̓"
-<dead_abovecomma> <multiply> <A> <E>  : "Æ̓"
-<dead_abovecomma> <multiply> <a> <e>  : "æ̓"
+<dead_abovecomma> <U1DCF> <A> <E>     : "Æ̓"
+<dead_abovecomma> <U1DCF> <a> <e>     : "æ̓"
 <dead_abovecomma> <UA734>             : "Ꜵ̓"     # Ꜵ + Comma Above
 <dead_abovecomma> <UA735>             : "ꜵ̓"      # ꜵ + Comma Above
-<dead_abovecomma> <multiply> <A> <O>  : "Ꜵ̓"     # Ꜵ + Comma Above
-<dead_abovecomma> <multiply> <a> <o>  : "ꜵ̓"      # ꜵ + Comma Above
+<dead_abovecomma> <U1DCF> <A> <O>     : "Ꜵ̓"     # Ꜵ + Comma Above
+<dead_abovecomma> <U1DCF> <a> <o>     : "ꜵ̓"      # ꜵ + Comma Above
 <dead_abovecomma> <UA736>             : "Ꜷ̓"     # Ꜷ + Comma Above
 <dead_abovecomma> <UA737>             : "ꜷ̓"      # ꜷ + Comma Above
-<dead_abovecomma> <multiply> <A> <U>  : "Ꜷ̓"     # Ꜷ + Comma Above
-<dead_abovecomma> <multiply> <a> <u>  : "ꜷ̓"      # ꜷ + Comma Above
+<dead_abovecomma> <U1DCF> <A> <U>     : "Ꜷ̓"     # Ꜷ + Comma Above
+<dead_abovecomma> <U1DCF> <a> <u>     : "ꜷ̓"      # ꜷ + Comma Above
 <dead_abovecomma> <UA738>             : "Ꜹ̓"     # Ꜹ + Comma Above
 <dead_abovecomma> <UA739>             : "ꜹ̓"      # ꜹ + Comma Above
-<dead_abovecomma> <multiply> <A> <V>  : "Ꜹ̓"     # Ꜹ + Comma Above
-<dead_abovecomma> <multiply> <a> <v>  : "ꜹ̓"      # ꜹ + Comma Above
+<dead_abovecomma> <U1DCF> <A> <V>     : "Ꜹ̓"     # Ꜹ + Comma Above
+<dead_abovecomma> <U1DCF> <a> <v>     : "ꜹ̓"      # ꜹ + Comma Above
 <dead_abovecomma> <UA73C>             : "Ꜽ̓"     # Ꜽ + Comma Above
 <dead_abovecomma> <UA73D>             : "ꜽ̓"      # ꜽ + Comma Above
-<dead_abovecomma> <multiply> <A> <Y>  : "Ꜽ̓"     # Ꜽ + Comma Above
-<dead_abovecomma> <multiply> <a> <y>  : "ꜽ̓"      # ꜽ + Comma Above
+<dead_abovecomma> <U1DCF> <A> <Y>     : "Ꜽ̓"     # Ꜽ + Comma Above
+<dead_abovecomma> <U1DCF> <a> <y>     : "ꜽ̓"      # ꜽ + Comma Above
 <dead_abovecomma> <U2C6D>             : "Ɑ̓"      # Ɑ (Latin Alpha) + Comma Above
 <dead_abovecomma> <U0251>             : "ɑ̓"      # ɑ (Latin Alpha) + Comma Above
 <dead_abovecomma> <B>                 : "B̓"
@@ -97,12 +98,12 @@
 <dead_abovecomma> <o>                 : "o̓"
 <dead_abovecomma> <OE>                : "Œ̓"
 <dead_abovecomma> <oe>                : "œ̓"
-<dead_abovecomma> <multiply> <O> <E>  : "Œ̓"
-<dead_abovecomma> <multiply> <o> <e>  : "œ̓"
+<dead_abovecomma> <U1DCF> <O> <E>     : "Œ̓"
+<dead_abovecomma> <U1DCF> <o> <e>     : "œ̓"
 <dead_abovecomma> <UA74E>             : "Ꝏ̓"     # Ꝏ + Comma Above
 <dead_abovecomma> <UA74F>             : "ꝏ̓"     # ꝏ + Comma Above
-<dead_abovecomma> <multiply> <O> <O>  : "Ꝏ̓"     # Ꝏ + Comma Above
-<dead_abovecomma> <multiply> <o> <o>  : "ꝏ̓"     # ꝏ + Comma Above
+<dead_abovecomma> <U1DCF> <O> <O>     : "Ꝏ̓"     # Ꝏ + Comma Above
+<dead_abovecomma> <U1DCF> <o> <o>     : "ꝏ̓"     # ꝏ + Comma Above
 <dead_abovecomma> <U0186>             : "Ɔ̓"      # Ɔ + Comma Above
 <dead_abovecomma> <U0254>             : "ɔ̓"      # ɔ + Comma Above
 <dead_abovecomma> <UA7CB>             : "Ɤ̓"      # Ɤ (Ram's Horn) + Comma Above
@@ -145,8 +146,8 @@
 <dead_abovecomma> <w>                 : "w̓"
 <dead_abovecomma> <UA760>             : "Ꝡ̓"     # Ꝡ + Comma Above
 <dead_abovecomma> <UA761>             : "ꝡ̓"     # ꝡ + Comma Above
-<dead_abovecomma> <multiply> <V> <Y>  : "Ꝡ̓"
-<dead_abovecomma> <multiply> <v> <y>  : "ꝡ̓"
+<dead_abovecomma> <U1DCF> <V> <Y>     : "Ꝡ̓"
+<dead_abovecomma> <U1DCF> <v> <y>     : "ꝡ̓"
 <dead_abovecomma> <X>                 : "X̓"
 <dead_abovecomma> <x>                 : "x̓"
 <dead_abovecomma> <Y>                 : "Y̓"
@@ -158,7 +159,7 @@
 
 
 # Composed comma above combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Esprit_doux
+# [Main source]: https://fr.wikipedia.org/wiki/Esprit_doux
 #
 # [CUSTOM DEAD KEYS]:
 # - ̯ (Combining Lower Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key

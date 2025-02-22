@@ -18,9 +18,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Rond_en_chef
+# [Main source]: https://fr.wikipedia.org/wiki/Rond_en_chef
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_abovering> <U2C6F>            : "Ɐ̊"      # Ɐ + Ring Above
@@ -29,28 +30,28 @@
 <dead_abovering> <U21BA> <a>        : "ɐ̊"      # ɐ + Ring Above
 <dead_abovering> <UA732>            : "Ꜳ̊"     # Ꜳ + Ring Above
 <dead_abovering> <UA733>            : "ꜳ̊"      # ꜳ + Ring Above
-<dead_abovering> <multiply> <A> <A> : "Ꜳ̊"     # Ꜳ + Ring Above
-<dead_abovering> <multiply> <a> <a> : "ꜳ̊"      # ꜳ + Ring Above
+<dead_abovering> <U1DCF> <A> <A>    : "Ꜳ̊"     # Ꜳ + Ring Above
+<dead_abovering> <U1DCF> <a> <a>    : "ꜳ̊"      # ꜳ + Ring Above
 <dead_abovering> <AE>               : "Æ̊"
 <dead_abovering> <ae>               : "æ̊"
-<dead_abovering> <multiply> <A> <E> : "Æ̊"
-<dead_abovering> <multiply> <a> <e> : "æ̊"
+<dead_abovering> <U1DCF> <A> <E>    : "Æ̊"
+<dead_abovering> <U1DCF> <a> <e>    : "æ̊"
 <dead_abovering> <UA734>            : "Ꜵ̊"     # Ꜵ + Ring Above
 <dead_abovering> <UA735>            : "ꜵ̊"      # ꜵ + Ring Above
-<dead_abovering> <multiply> <A> <O> : "Ꜵ̊"     # Ꜵ + Ring Above
-<dead_abovering> <multiply> <a> <o> : "ꜵ̊"      # ꜵ + Ring Above
+<dead_abovering> <U1DCF> <A> <O>    : "Ꜵ̊"     # Ꜵ + Ring Above
+<dead_abovering> <U1DCF> <a> <o>    : "ꜵ̊"      # ꜵ + Ring Above
 <dead_abovering> <UA736>            : "Ꜷ̊"     # Ꜷ + Ring Above
 <dead_abovering> <UA737>            : "ꜷ̊"      # ꜷ + Ring Above
-<dead_abovering> <multiply> <A> <U> : "Ꜷ̊"     # Ꜷ + Ring Above
-<dead_abovering> <multiply> <a> <u> : "ꜷ̊"      # ꜷ + Ring Above
+<dead_abovering> <U1DCF> <A> <U>    : "Ꜷ̊"     # Ꜷ + Ring Above
+<dead_abovering> <U1DCF> <a> <u>    : "ꜷ̊"      # ꜷ + Ring Above
 <dead_abovering> <UA738>            : "Ꜹ̊"     # Ꜹ + Ring Above
 <dead_abovering> <UA739>            : "ꜹ̊"      # ꜹ + Ring Above
-<dead_abovering> <multiply> <A> <V> : "Ꜹ̊"     # Ꜹ + Ring Above
-<dead_abovering> <multiply> <a> <v> : "ꜹ̊"      # ꜹ + Ring Above
+<dead_abovering> <U1DCF> <A> <V>    : "Ꜹ̊"     # Ꜹ + Ring Above
+<dead_abovering> <U1DCF> <a> <v>    : "ꜹ̊"      # ꜹ + Ring Above
 <dead_abovering> <UA73C>            : "Ꜽ̊"     # Ꜽ + Ring Above
 <dead_abovering> <UA73D>            : "ꜽ̊"      # ꜽ + Ring Above
-<dead_abovering> <multiply> <A> <Y> : "Ꜽ̊"     # Ꜽ + Ring Above
-<dead_abovering> <multiply> <a> <y> : "ꜽ̊"      # ꜽ + Ring Above
+<dead_abovering> <U1DCF> <A> <Y>    : "Ꜽ̊"     # Ꜽ + Ring Above
+<dead_abovering> <U1DCF> <a> <y>    : "ꜽ̊"      # ꜽ + Ring Above
 <dead_abovering> <U2C6D>            : "Ɑ̊"      # Ɑ (Latin Alpha) + Ring Above
 <dead_abovering> <U0251>            : "ɑ̊"      # ɑ (Latin Alpha) + Ring Above
 <dead_abovering> <B>                : "B̊"
@@ -103,12 +104,12 @@
 <dead_abovering> <o>                : "o̊"
 <dead_abovering> <OE>               : "Œ̊"
 <dead_abovering> <oe>               : "œ̊"
-<dead_abovering> <multiply> <O> <E> : "Œ̊"
-<dead_abovering> <multiply> <o> <e> : "œ̊"
+<dead_abovering> <U1DCF> <O> <E>    : "Œ̊"
+<dead_abovering> <U1DCF> <o> <e>    : "œ̊"
 <dead_abovering> <UA74E>            : "Ꝏ̊"     # Ꝏ + Ring Above
 <dead_abovering> <UA74F>            : "ꝏ̊"     # ꝏ + Ring Above
-<dead_abovering> <multiply> <O> <O> : "Ꝏ̊"     # Ꝏ + Ring Above
-<dead_abovering> <multiply> <o> <o> : "ꝏ̊"     # ꝏ + Ring Above
+<dead_abovering> <U1DCF> <O> <O>    : "Ꝏ̊"     # Ꝏ + Ring Above
+<dead_abovering> <U1DCF> <o> <o>    : "ꝏ̊"     # ꝏ + Ring Above
 <dead_abovering> <U0186>            : "Ɔ̊"      # Ɔ + Ring Above
 <dead_abovering> <U0254>            : "ɔ̊"      # ɔ + Ring Above
 <dead_abovering> <UA7CB>            : "Ɤ̊"      # Ɤ (Ram's Horn) + Ring Above
@@ -139,8 +140,8 @@
 <dead_abovering> <UA769>            : "ꝩ̊"     # ꝩ (Vend) + Ring Above
 <dead_abovering> <UA760>            : "Ꝡ̊"     # Ꝡ + Ring Above
 <dead_abovering> <UA761>            : "ꝡ̊"     # ꝡ + Ring Above
-<dead_abovering> <multiply> <V> <Y> : "Ꝡ̊"
-<dead_abovering> <multiply> <v> <y> : "ꝡ̊"
+<dead_abovering> <U1DCF> <V> <Y>    : "Ꝡ̊"
+<dead_abovering> <U1DCF> <v> <y>    : "ꝡ̊"
 <dead_abovering> <W>                : "W̊"
 <dead_abovering> <X>                : "X̊"
 <dead_abovering> <x>                : "x̊"
@@ -152,7 +153,7 @@
 
 
 # Composed ring above combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Rond_en_chef
+# [Main source]: https://fr.wikipedia.org/wiki/Rond_en_chef
 #
 # [CUSTOM DEAD KEYS]:
 # - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key

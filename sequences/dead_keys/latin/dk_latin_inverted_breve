@@ -17,15 +17,16 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Crochet_en_chef
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_en_chef
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_invertedbreve> <AE>                 : "Æ̑"
 <dead_invertedbreve> <ae>                 : "æ̑"
-<dead_invertedbreve> <multiply> <A> <E>   : "Æ̑"
-<dead_invertedbreve> <multiply> <a> <e>   : "æ̑"
+<dead_invertedbreve> <U1DCF> <A> <E>      : "Æ̑"
+<dead_invertedbreve> <U1DCF> <a> <e>      : "æ̑"
 <dead_invertedbreve> <B>                  : "B̑"
 <dead_invertedbreve> <b>                  : "b̑"
 <dead_invertedbreve> <C>                  : "C̑"
@@ -54,8 +55,8 @@
 <dead_invertedbreve> <eng>                : "ŋ̑"      # ŋ + Inverted Breve
 <dead_invertedbreve> <OE>                 : "Œ̑"
 <dead_invertedbreve> <oe>                 : "œ̑"
-<dead_invertedbreve> <multiply> <O> <E>   : "Œ̑"
-<dead_invertedbreve> <multiply> <o> <e>   : "œ̑"
+<dead_invertedbreve> <U1DCF> <O> <E>      : "Œ̑"
+<dead_invertedbreve> <U1DCF> <o> <e>      : "œ̑"
 <dead_invertedbreve> <U0186>              : "Ɔ̑"      # Ɔ + Inverted Breve
 <dead_invertedbreve> <U0254>              : "ɔ̑"      # ɔ + Inverted Breve
 <dead_invertedbreve> <UA7CB>              : "Ɤ̑"      # Ɤ (Ram's Horn) + Inverted Breve

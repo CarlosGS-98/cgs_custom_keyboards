@@ -2,12 +2,16 @@
 # [AUTHOR]: Carlos González Sanz
 
 # Basic precomposed letter combinations
+#
+# [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
+#
 <dead_macron> <A>                   : "Ā"
 <dead_macron> <a>                   : "ā"
 <dead_macron> <AE>                  : "Ǣ"
 <dead_macron> <ae>                  : "ǣ"
-<dead_macron> <multiply> <A> <E>    : "Ǣ"
-<dead_macron> <multiply> <a> <e>    : "ǣ"
+<dead_macron> <U1DCF> <A> <E>       : "Ǣ"
+<dead_macron> <U1DCF> <a> <e>       : "ǣ"
 <dead_macron> <E>                   : "Ē"
 <dead_macron> <e>                   : "ē"
 <dead_macron> <G>                   : "Ḡ"
@@ -78,9 +82,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Macron_(diacritique)
+# [Main source]: https://fr.wikipedia.org/wiki/Macron_(diacritique)
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_macron> <U2C6F>            : "Ɐ̄"      # Ɐ + Macron
@@ -127,8 +132,8 @@
 <dead_macron> <eng>              : "ŋ̄"      # ŋ + Macron
 <dead_macron> <OE>               : "Œ̄"
 <dead_macron> <oe>               : "œ̄"
-<dead_macron> <multiply> <O> <E> : "Œ̄"
-<dead_macron> <multiply> <o> <e> : "œ̄"
+<dead_macron> <U1DCF> <O> <E>    : "Œ̄"
+<dead_macron> <U1DCF> <o> <e>    : "œ̄"
 <dead_macron> <U0186>            : "Ɔ̄"      # Ɔ + Macron
 <dead_macron> <U0254>            : "ɔ̄"      # ɔ + Macron
 <dead_macron> <UA7CB>            : "Ɤ̄"      # Ɤ (Ram's Horn) + Macron
@@ -168,7 +173,7 @@
 
 
 # Composed macron combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Macron_(diacritique)
+# [Main source]: https://fr.wikipedia.org/wiki/Macron_(diacritique)
 #
 <dead_macron> <Aacute>                                      : "Ā́"
 <dead_macron> <aacute>                                      : "ā́"
@@ -320,28 +325,28 @@
 <dead_macron> <dead_belowdot> <dead_tilde> <a>              : "ạ̄̃"
 <dead_macron> <dead_acute> <AE>                             : "Ǣ́"
 <dead_macron> <dead_acute> <ae>                             : "ǣ́"
-<dead_macron> <dead_acute> <multiply> <A> <E>               : "Ǣ́"
-<dead_macron> <dead_acute> <multiply> <a> <e>               : "ǣ́"
+<dead_macron> <dead_acute> <U1DCF> <A> <E>                  : "Ǣ́"
+<dead_macron> <dead_acute> <U1DCF> <a> <e>                  : "ǣ́"
 <dead_macron> <dead_circumflex> <AE>                        : "Ǣ̂"
 <dead_macron> <dead_circumflex> <AE>                        : "ǣ̂"
-<dead_macron> <dead_circumflex> <multiply> <A> <E>          : "Ǣ̂"
-<dead_macron> <dead_circumflex> <multiply> <a> <e>          : "ǣ̂"
+<dead_macron> <dead_circumflex> <U1DCF> <A> <E>             : "Ǣ̂"
+<dead_macron> <dead_circumflex> <U1DCF> <a> <e>             : "ǣ̂"
 <dead_macron> <dead_belowdiaeresis> <AE>                    : "Ǣ̤"
 <dead_macron> <dead_belowdiaeresis> <ae>                    : "ǣ̤"
-<dead_macron> <dead_belowdiaeresis> <multiply> <A> <E>      : "Ǣ̤"
-<dead_macron> <dead_belowdiaeresis> <multiply> <a> <e>      : "ǣ̤"
+<dead_macron> <dead_belowdiaeresis> <U1DCF> <A> <E>         : "Ǣ̤"
+<dead_macron> <dead_belowdiaeresis> <U1DCF> <a> <e>         : "ǣ̤"
 <dead_macron> <dead_tilde> <AE>                             : "Æ̃̄"
 <dead_macron> <dead_tilde> <ae>                             : "æ̃̄"
-<dead_macron> <dead_tilde> <multiply> <A> <E>               : "Æ̃̄"
-<dead_macron> <dead_tilde> <multiply> <a> <e>               : "æ̃̄"
+<dead_macron> <dead_tilde> <U1DCF> <A> <E>                  : "Æ̃̄"
+<dead_macron> <dead_tilde> <U1DCF> <a> <e>                  : "æ̃̄"
 <dead_macron> <dead_ogonek> <AE>                            : "Ǣ̨"
 <dead_macron> <dead_ogonek> <ae>                            : "ǣ̨"
-<dead_macron> <dead_ogonek> <multiply> <A> <E>              : "Ǣ̨"
-<dead_macron> <dead_ogonek> <multiply> <a> <e>              : "ǣ̨"
+<dead_macron> <dead_ogonek> <U1DCF> <A> <E>                 : "Ǣ̨"
+<dead_macron> <dead_ogonek> <U1DCF> <a> <e>                 : "ǣ̨"
 <dead_macron> <dead_breve> <AE>                             : "Ǣ̆"
 <dead_macron> <dead_breve> <ae>                             : "ǣ̆"
-<dead_macron> <dead_breve> <multiply> <A> <E>               : "Æ̆"
-<dead_macron> <dead_breve> <multiply> <a> <e>               : "æ̆"
+<dead_macron> <dead_breve> <U1DCF> <A> <E>                  : "Æ̆"
+<dead_macron> <dead_breve> <U1DCF> <a> <e>                  : "æ̆"
 <dead_macron> <dead_acute> <C>                              : "C̄́"
 <dead_macron> <dead_acute> <c>                              : "c̄́"
 <dead_macron> <Ccedilla>                                    : "Ç̄"
@@ -935,16 +940,16 @@
 <dead_macron> <dead_cedilla> <U0254>                        : "ɔ̧̄"   # ɔ + Cedilla + Macron
 <dead_macron> <dead_acute> <OE>                             : "Œ̄́"
 <dead_macron> <dead_acute> <oe>                             : "œ̄́"
-<dead_macron> <dead_acute> <multiply> <O> <E>               : "Œ̄́"
-<dead_macron> <dead_acute> <multiply> <o> <e>               : "œ̄́"
+<dead_macron> <dead_acute> <U1DCF> <O> <E>                  : "Œ̄́"
+<dead_macron> <dead_acute> <U1DCF> <o> <e>                  : "œ̄́"
 <dead_macron> <dead_tilde> <OE>                             : "Œ̃̄"
 <dead_macron> <dead_tilde> <oe>                             : "œ̃̄"
-<dead_macron> <dead_tilde> <multiply> <O> <E>               : "Œ̃̄"
-<dead_macron> <dead_tilde> <multiply> <o> <e>               : "œ̃̄"
+<dead_macron> <dead_tilde> <U1DCF> <O> <E>                  : "Œ̃̄"
+<dead_macron> <dead_tilde> <U1DCF> <o> <e>                  : "œ̃̄"
 <dead_macron> <dead_breve> <OE>                             : "Œ̄̆"
 <dead_macron> <dead_breve> <oe>                             : "œ̄̆"
-<dead_macron> <dead_breve> <multiply> <O> <E>               : "Œ̄̆"
-<dead_macron> <dead_breve> <multiply> <o> <e>               : "œ̄̆"
+<dead_macron> <dead_breve> <U1DCF> <O> <E>                  : "Œ̄̆"
+<dead_macron> <dead_breve> <U1DCF> <o> <e>                  : "œ̄̆"
 <dead_macron> <dead_acute> <Oslash>                         : "Ø̄́"
 <dead_macron> <dead_acute> <oslash>                         : "ø̄́"
 <dead_macron> <dead_acute> <dead_longsolidusoverlay> <O>    : "Ø̄́"

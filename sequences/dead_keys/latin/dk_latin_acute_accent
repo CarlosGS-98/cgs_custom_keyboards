@@ -78,8 +78,8 @@
 
 
 # Other precomposed acute accent combinations (Unidirectional)
-<dead_acute> <multiply> <A> <E>             : "Ǽ"
-<dead_acute> <multiply> <a> <e>             : "ǽ"
+<dead_acute> <U1DCF> <A> <E>                : "Ǽ"
+<dead_acute> <U1DCF> <a> <e>                : "ǽ"
 <dead_acute> <dead_cedilla> <C>             : "Ḉ"
 <dead_acute> <dead_cedilla> <c>             : "ḉ"
 <dead_acute> <Emacron>                      : "Ḗ"
@@ -109,9 +109,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_aigu
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_aigu
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_acute> <U2C6F>            : "Ɐ́"      # Ɐ + Acute
@@ -120,20 +121,20 @@
 <dead_acute> <U21BA> <a>        : "ɐ́"      # ɐ + Acute
 <dead_acute> <UA732>            : "Ꜳ́"     # Ꜳ + Acute
 <dead_acute> <UA733>            : "ꜳ́"      # ꜳ + Acute
-<dead_acute> <multiply> <A> <A> : "Ꜳ́"     # Ꜳ + Acute
-<dead_acute> <multiply> <a> <a> : "ꜳ́"      # ꜳ + Acute
+<dead_acute> <U1DCF> <A> <A>    : "Ꜳ́"     # Ꜳ + Acute
+<dead_acute> <U1DCF> <a> <a>    : "ꜳ́"      # ꜳ + Acute
 <dead_acute> <UA734>            : "Ꜵ́"     # Ꜵ + Acute
 <dead_acute> <UA735>            : "ꜵ́"      # ꜵ + Acute
-<dead_acute> <multiply> <A> <O> : "Ꜵ́"     # Ꜵ + Acute
-<dead_acute> <multiply> <a> <o> : "ꜵ́"      # ꜵ + Acute
+<dead_acute> <U1DCF> <A> <O>    : "Ꜵ́"     # Ꜵ + Acute
+<dead_acute> <U1DCF> <a> <o>    : "ꜵ́"      # ꜵ + Acute
 <dead_acute> <UA736>            : "Ꜷ́"     # Ꜷ + Acute
 <dead_acute> <UA737>            : "ꜷ́"      # ꜷ + Acute
-<dead_acute> <multiply> <A> <U> : "Ꜷ́"     # Ꜷ + Acute
-<dead_acute> <multiply> <a> <u> : "ꜷ́"      # ꜷ + Acute
+<dead_acute> <U1DCF> <A> <U>    : "Ꜷ́"     # Ꜷ + Acute
+<dead_acute> <U1DCF> <a> <u>    : "ꜷ́"      # ꜷ + Acute
 <dead_acute> <UA738>            : "Ꜹ́"     # Ꜹ + Acute
 <dead_acute> <UA739>            : "ꜹ́"      # ꜹ + Acute
-<dead_acute> <multiply> <A> <V> : "Ꜹ́"     # Ꜹ + Acute
-<dead_acute> <multiply> <a> <v> : "ꜹ́"      # ꜹ + Acute
+<dead_acute> <U1DCF> <A> <V>    : "Ꜹ́"     # Ꜹ + Acute
+<dead_acute> <U1DCF> <a> <v>    : "ꜹ́"      # ꜹ + Acute
 <dead_acute> <U2C6D>            : "Ɑ́"      # Ɑ (Latin Alpha) + Acute
 <dead_acute> <U0251>            : "ɑ́"      # ɑ (Latin Alpha) + Acute
 <dead_acute> <B>                : "B́"
@@ -176,12 +177,12 @@
 <dead_acute> <U0272>            : "ɲ́"      # ɲ + Acute
 <dead_acute> <OE>               : "Œ́"
 <dead_acute> <oe>               : "œ́"
-<dead_acute> <multiply> <O> <E> : "Œ́"
-<dead_acute> <multiply> <o> <e> : "œ́"
+<dead_acute> <U1DCF> <O> <E>    : "Œ́"
+<dead_acute> <U1DCF> <o> <e>    : "œ́"
 <dead_acute> <UA74E>            : "Ꝏ́"     # Ꝏ + Acute
 <dead_acute> <UA74F>            : "ꝏ́"     # ꝏ + Acute
-<dead_acute> <multiply> <O> <O> : "Ꝏ́"     # Ꝏ + Acute
-<dead_acute> <multiply> <o> <o> : "ꝏ́"     # ꝏ + Acute
+<dead_acute> <U1DCF> <O> <O>    : "Ꝏ́"     # Ꝏ + Acute
+<dead_acute> <U1DCF> <o> <o>    : "ꝏ́"     # ꝏ + Acute
 <dead_acute> <U0186>            : "Ɔ́"      # Ɔ + Acute
 <dead_acute> <U0254>            : "ɔ́"      # ɔ + Acute
 <dead_acute> <UA7CB>            : "Ɤ́"      # Ɤ (Ram's Horn) + Acute
@@ -216,7 +217,7 @@
 
 
 # Composed acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Accent_aigu
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_aigu
 #
 # [CUSTOM DEAD KEYS]:
 # - ̯ (Combining Inverted Breve Below [U032F]) -> Represents the "Inverted Breve Below" dead key
@@ -301,12 +302,12 @@
 <dead_acute> <dead_belowcomma> <a>                          : "á̦"
 <dead_acute> <dead_ogonek> <AE>                             : "Ǽ̨"
 <dead_acute> <dead_ogonek> <ae>                             : "ǽ̨"
-<dead_acute> <dead_ogonek> <multiply> <A> <E>               : "Ǽ̨"
-<dead_acute> <dead_ogonek> <multiply> <a> <e>               : "ǽ̨"
+<dead_acute> <dead_ogonek> <U1DCF> <A> <E>                  : "Ǽ̨"
+<dead_acute> <dead_ogonek> <U1DCF> <a> <e>                  : "ǽ̨"
 <dead_acute> <dead_macron> <AE>                             : "Ǣ́"
 <dead_acute> <dead_macron> <ae>                             : "ǣ́"
-<dead_acute> <dead_macron> <multiply> <A> <E>               : "Ǣ́"
-<dead_acute> <dead_macron> <multiply> <a> <e>               : "ǣ́"
+<dead_acute> <dead_macron> <U1DCF> <A> <E>                  : "Ǣ́"
+<dead_acute> <dead_macron> <U1DCF> <a> <e>                  : "ǣ́"
 <dead_acute> <Ccaron>                                       : "Č́"
 <dead_acute> <ccaron>                                       : "č́"
 <dead_acute> <dead_caron> <C>                               : "Č́"
@@ -755,8 +756,8 @@
 <dead_acute> <dead_lowline> <o>                             : "ó̲"
 <dead_acute> <dead_macron> <OE>                             : "Œ̄́"
 <dead_acute> <dead_macron> <oe>                             : "œ̄́"
-<dead_acute> <dead_macron> <multiply> <O> <E>               : "Œ̄́"
-<dead_acute> <dead_macron> <multiply> <o> <e>               : "œ̄́"
+<dead_acute> <dead_macron> <U1DCF> <O> <E>                  : "Œ̄́"
+<dead_acute> <dead_macron> <U1DCF> <o> <e>                  : "œ̄́"
 <dead_acute> <dead_tilde> <Oslash>                          : "Ø̃́"
 <dead_acute> <dead_tilde> <oslash>                          : "ø̃́"
 <dead_acute> <dead_tilde> <dead_longsolidusoverlay> <O>     : "Ø̃́"

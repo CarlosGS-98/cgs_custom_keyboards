@@ -97,9 +97,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Point_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Point_souscrit
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_belowdot> <U2C6F>             : "Ɐ̣"      # Ɐ + Dot Below
@@ -108,28 +109,28 @@
 <dead_belowdot> <U21BA> <a>         : "ɐ̣"      # ɐ + Dot Below
 <dead_belowdot> <UA732>             : "Ꜳ̣"     # Ꜳ + Dot Below
 <dead_belowdot> <UA733>             : "ꜳ̣"      # ꜳ + Dot Below
-<dead_belowdot> <multiply> <A> <A>  : "Ꜳ̣"     # Ꜳ + Dot Below
-<dead_belowdot> <multiply> <a> <a>  : "ꜳ̣"      # ꜳ + Dot Below
+<dead_belowdot> <U1DCF> <A> <A>     : "Ꜳ̣"     # Ꜳ + Dot Below
+<dead_belowdot> <U1DCF> <a> <a>     : "ꜳ̣"      # ꜳ + Dot Below
 <dead_belowdot> <AE>                : "Æ̣"
 <dead_belowdot> <ae>                : "æ̣"
-<dead_belowdot> <multiply> <A> <E>  : "Æ̣"
-<dead_belowdot> <multiply> <a> <e>  : "æ̣"
+<dead_belowdot> <U1DCF> <A> <E>     : "Æ̣"
+<dead_belowdot> <U1DCF> <a> <e>     : "æ̣"
 <dead_belowdot> <UA734>             : "Ꜵ̣"     # Ꜵ + Dot Below
 <dead_belowdot> <UA735>             : "ꜵ̣"      # ꜵ + Dot Below
-<dead_belowdot> <multiply> <A> <O>  : "Ꜵ̣"     # Ꜵ + Dot Below
-<dead_belowdot> <multiply> <a> <o>  : "ꜵ̣"      # ꜵ + Dot Below
+<dead_belowdot> <U1DCF> <A> <O>     : "Ꜵ̣"     # Ꜵ + Dot Below
+<dead_belowdot> <U1DCF> <a> <o>     : "ꜵ̣"      # ꜵ + Dot Below
 <dead_belowdot> <UA736>             : "Ꜷ̣"     # Ꜷ + Dot Below
 <dead_belowdot> <UA737>             : "ꜷ̣"      # ꜷ + Dot Below
-<dead_belowdot> <multiply> <A> <U>  : "Ꜷ̣"     # Ꜷ + Dot Below
-<dead_belowdot> <multiply> <a> <u>  : "ꜷ̣"      # ꜷ + Dot Below
+<dead_belowdot> <U1DCF> <A> <U>     : "Ꜷ̣"     # Ꜷ + Dot Below
+<dead_belowdot> <U1DCF> <a> <u>     : "ꜷ̣"      # ꜷ + Dot Below
 <dead_belowdot> <UA738>             : "Ꜹ̣"     # Ꜹ + Dot Below
 <dead_belowdot> <UA739>             : "ꜹ̣"      # ꜹ + Dot Below
-<dead_belowdot> <multiply> <A> <V>  : "Ꜹ̣"     # Ꜹ + Dot Below
-<dead_belowdot> <multiply> <a> <v>  : "ꜹ̣"      # ꜹ + Dot Below
+<dead_belowdot> <U1DCF> <A> <V>     : "Ꜹ̣"     # Ꜹ + Dot Below
+<dead_belowdot> <U1DCF> <a> <v>     : "ꜹ̣"      # ꜹ + Dot Below
 <dead_belowdot> <UA73C>             : "Ꜽ̣"     # Ꜽ + Dot Below
 <dead_belowdot> <UA73D>             : "ꜽ̣"      # ꜽ + Dot Below
-<dead_belowdot> <multiply> <A> <Y>  : "Ꜽ̣"     # Ꜽ + Dot Below
-<dead_belowdot> <multiply> <a> <y>  : "ꜽ̣"      # ꜽ + Dot Below
+<dead_belowdot> <U1DCF> <A> <Y>     : "Ꜽ̣"     # Ꜽ + Dot Below
+<dead_belowdot> <U1DCF> <a> <y>     : "ꜽ̣"      # ꜽ + Dot Below
 <dead_belowdot> <U2C6D>             : "Ɑ̣"      # Ɑ (Latin Alpha) + Dot Below
 <dead_belowdot> <U0251>             : "ɑ̣"      # ɑ (Latin Alpha) + Dot Below
 <dead_belowdot> <C>                 : "C̣"
@@ -166,12 +167,12 @@
 <dead_belowdot> <eng>               : "ŋ̣"      # ŋ + Dot Below
 <dead_belowdot> <OE>                : "Œ̣"
 <dead_belowdot> <oe>                : "œ̣"
-<dead_belowdot> <multiply> <O> <E>  : "Œ̣"
-<dead_belowdot> <multiply> <o> <e>  : "œ̣"
+<dead_belowdot> <U1DCF> <O> <E>     : "Œ̣"
+<dead_belowdot> <U1DCF> <o> <e>     : "œ̣"
 <dead_belowdot> <UA74E>             : "Ꝏ̣"     # Ꝏ + Dot Below
 <dead_belowdot> <UA74F>             : "ꝏ̣"     # ꝏ + Dot Below
-<dead_belowdot> <multiply> <O> <O>  : "Ꝏ̣"     # Ꝏ + Dot Below
-<dead_belowdot> <multiply> <o> <o>  : "ꝏ̣"     # ꝏ + Dot Below
+<dead_belowdot> <U1DCF> <O> <O>     : "Ꝏ̣"     # Ꝏ + Dot Below
+<dead_belowdot> <U1DCF> <o> <o>     : "ꝏ̣"     # ꝏ + Dot Below
 <dead_belowdot> <U0186>             : "Ɔ̣"      # Ɔ + Dot Below
 <dead_belowdot> <U0254>             : "ɔ̣"      # ɔ + Dot Below
 <dead_belowdot> <UA7CB>             : "Ɤ̣"      # Ɤ (Ram's Horn) + Dot Below
@@ -202,8 +203,8 @@
 <dead_belowdot> <UA769>             : "ꝩ̣"     # ꝩ (Vend) + Dot Below
 <dead_belowdot> <UA760>             : "Ꝡ̣"     # Ꝡ + Dot Below
 <dead_belowdot> <UA761>             : "ꝡ̣"     # ꝡ + Dot Below
-<dead_belowdot> <multiply> <V> <Y>  : "Ꝡ̣"
-<dead_belowdot> <multiply> <v> <y>  : "ꝡ̣"
+<dead_belowdot> <U1DCF> <V> <Y>     : "Ꝡ̣"
+<dead_belowdot> <U1DCF> <v> <y>     : "ꝡ̣"
 <dead_belowdot> <X>                 : "X̣"
 <dead_belowdot> <x>                 : "x̣"
 <dead_belowdot> <EZH>               : "Ʒ̣"     # Ʒ + Dot Below
@@ -211,7 +212,7 @@
 
 
 # Composed dot below combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Point_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Point_souscrit
 #
 <dead_belowdot> <Aacute>                            : "Ạ́"
 <dead_belowdot> <aacute>                            : "ạ́"

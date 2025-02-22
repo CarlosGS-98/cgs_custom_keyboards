@@ -22,9 +22,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Macron_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Macron_souscrit
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_belowmacron> <A>                 : "A̱"
@@ -35,28 +36,28 @@
 <dead_belowmacron> <U21BA> <a>         : "ɐ̱"      # ɐ + Macron Below
 <dead_belowmacron> <UA732>             : "Ꜳ̱"     # Ꜳ + Macron Below
 <dead_belowmacron> <UA733>             : "ꜳ̱"      # ꜳ + Macron Below
-<dead_belowmacron> <multiply> <A> <A>  : "Ꜳ̱"     # Ꜳ + Macron Below
-<dead_belowmacron> <multiply> <a> <a>  : "ꜳ̱"      # ꜳ + Macron Below
+<dead_belowmacron> <U1DCF> <A> <A>     : "Ꜳ̱"     # Ꜳ + Macron Below
+<dead_belowmacron> <U1DCF> <a> <a>     : "ꜳ̱"      # ꜳ + Macron Below
 <dead_belowmacron> <AE>                : "Æ̱"
 <dead_belowmacron> <ae>                : "æ̱"
-<dead_belowmacron> <multiply> <A> <E>  : "Æ̱"
-<dead_belowmacron> <multiply> <a> <e>  : "æ̱"
+<dead_belowmacron> <U1DCF> <A> <E>     : "Æ̱"
+<dead_belowmacron> <U1DCF> <a> <e>     : "æ̱"
 <dead_belowmacron> <UA734>             : "Ꜵ̱"     # Ꜵ + Macron Below
 <dead_belowmacron> <UA735>             : "ꜵ̱"      # ꜵ + Macron Below
-<dead_belowmacron> <multiply> <A> <O>  : "Ꜵ̱"     # Ꜵ + Macron Below
-<dead_belowmacron> <multiply> <a> <o>  : "ꜵ̱"      # ꜵ + Macron Below
+<dead_belowmacron> <U1DCF> <A> <O>     : "Ꜵ̱"     # Ꜵ + Macron Below
+<dead_belowmacron> <U1DCF> <a> <o>     : "ꜵ̱"      # ꜵ + Macron Below
 <dead_belowmacron> <UA736>             : "Ꜷ̱"     # Ꜷ + Macron Below
 <dead_belowmacron> <UA737>             : "ꜷ̱"      # ꜷ + Macron Below
-<dead_belowmacron> <multiply> <A> <U>  : "Ꜷ̱"     # Ꜷ + Macron Below
-<dead_belowmacron> <multiply> <a> <u>  : "ꜷ̱"      # ꜷ + Macron Below
+<dead_belowmacron> <U1DCF> <A> <U>     : "Ꜷ̱"     # Ꜷ + Macron Below
+<dead_belowmacron> <U1DCF> <a> <u>     : "ꜷ̱"      # ꜷ + Macron Below
 <dead_belowmacron> <UA738>             : "Ꜹ̱"     # Ꜹ + Macron Below
 <dead_belowmacron> <UA739>             : "ꜹ̱"      # ꜹ + Macron Below
-<dead_belowmacron> <multiply> <A> <V>  : "Ꜹ̱"     # Ꜹ + Macron Below
-<dead_belowmacron> <multiply> <a> <v>  : "ꜹ̱"      # ꜹ + Macron Below
+<dead_belowmacron> <U1DCF> <A> <V>     : "Ꜹ̱"     # Ꜹ + Macron Below
+<dead_belowmacron> <U1DCF> <a> <v>     : "ꜹ̱"      # ꜹ + Macron Below
 <dead_belowmacron> <UA73C>             : "Ꜽ̱"     # Ꜽ + Macron Below
 <dead_belowmacron> <UA73D>             : "ꜽ̱"      # ꜽ + Macron Below
-<dead_belowmacron> <multiply> <A> <Y>  : "Ꜽ̱"     # Ꜽ + Macron Below
-<dead_belowmacron> <multiply> <a> <y>  : "ꜽ̱"      # ꜽ + Macron Below
+<dead_belowmacron> <U1DCF> <A> <Y>     : "Ꜽ̱"     # Ꜽ + Macron Below
+<dead_belowmacron> <U1DCF> <a> <y>     : "ꜽ̱"      # ꜽ + Macron Below
 <dead_belowmacron> <U2C6D>             : "Ɑ̱"      # Ɑ (Latin Alpha) + Macron Below
 <dead_belowmacron> <U0251>             : "ɑ̱"      # ɑ (Latin Alpha) + Macron Below
 <dead_belowmacron> <C>                 : "C̱"
@@ -102,12 +103,12 @@
 <dead_belowmacron> <o>                 : "o̱"
 <dead_belowmacron> <OE>                : "Œ̱"
 <dead_belowmacron> <oe>                : "œ̱"
-<dead_belowmacron> <multiply> <O> <E>  : "Œ̱"
-<dead_belowmacron> <multiply> <o> <e>  : "œ̱"
+<dead_belowmacron> <U1DCF> <O> <E>     : "Œ̱"
+<dead_belowmacron> <U1DCF> <o> <e>     : "œ̱"
 <dead_belowmacron> <UA74E>             : "Ꝏ̱"     # Ꝏ + Macron Below
 <dead_belowmacron> <UA74F>             : "ꝏ̱"     # ꝏ + Macron Below
-<dead_belowmacron> <multiply> <O> <O>  : "Ꝏ̱"     # Ꝏ + Macron Below
-<dead_belowmacron> <multiply> <o> <o>  : "ꝏ̱"     # ꝏ + Macron Below
+<dead_belowmacron> <U1DCF> <O> <O>     : "Ꝏ̱"     # Ꝏ + Macron Below
+<dead_belowmacron> <U1DCF> <o> <o>     : "ꝏ̱"     # ꝏ + Macron Below
 <dead_belowmacron> <U0186>             : "Ɔ̱"      # Ɔ + Macron Below
 <dead_belowmacron> <U0254>             : "ɔ̱"      # ɔ + Macron Below
 <dead_belowmacron> <UA7CB>             : "Ɤ̱"      # Ɤ (Ram's Horn) + Macron Below
@@ -146,8 +147,8 @@
 <dead_belowmacron> <w>                 : "w̱"
 <dead_belowmacron> <UA760>             : "Ꝡ̱"     # Ꝡ + Macron Below
 <dead_belowmacron> <UA761>             : "ꝡ̱"     # ꝡ + Macron Below
-<dead_belowmacron> <multiply> <V> <Y>  : "Ꝡ̱"
-<dead_belowmacron> <multiply> <v> <y>  : "ꝡ̱"
+<dead_belowmacron> <U1DCF> <V> <Y>     : "Ꝡ̱"
+<dead_belowmacron> <U1DCF> <v> <y>     : "ꝡ̱"
 <dead_belowmacron> <X>                 : "X̱"
 <dead_belowmacron> <x>                 : "x̱"
 <dead_belowmacron> <Y>                 : "Y̱"
@@ -157,7 +158,7 @@
 
 
 # Composed macron below combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Macron_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Macron_souscrit
 #
 <dead_belowmacron> <Aacute>                                     : "Á̱"
 <dead_belowmacron> <aacute>                                     : "á̱"

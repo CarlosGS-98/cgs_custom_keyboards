@@ -22,9 +22,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Ogonek
+# [Main source]: https://fr.wikipedia.org/wiki/Ogonek
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_ogonek> <U2C6F>             : "Ɐ̨"      # Ɐ + Ogonek
@@ -33,28 +34,28 @@
 <dead_ogonek> <U21BA> <a>         : "ɐ̨"      # ɐ + Ogonek
 <dead_ogonek> <UA732>             : "Ꜳ̨"     # Ꜳ + Ogonek
 <dead_ogonek> <UA733>             : "ꜳ̨"      # ꜳ + Ogonek
-<dead_ogonek> <multiply> <A> <A>  : "Ꜳ̨"     # Ꜳ + Ogonek
-<dead_ogonek> <multiply> <a> <a>  : "ꜳ̨"      # ꜳ + Ogonek
+<dead_ogonek> <U1DCF> <A> <A>     : "Ꜳ̨"     # Ꜳ + Ogonek
+<dead_ogonek> <U1DCF> <a> <a>     : "ꜳ̨"      # ꜳ + Ogonek
 <dead_ogonek> <AE>                : "Æ̨"
 <dead_ogonek> <ae>                : "æ̨"
-<dead_ogonek> <multiply> <A> <E>  : "Æ̨"
-<dead_ogonek> <multiply> <a> <e>  : "æ̨"
+<dead_ogonek> <U1DCF> <A> <E>     : "Æ̨"
+<dead_ogonek> <U1DCF> <a> <e>     : "æ̨"
 <dead_ogonek> <UA734>             : "Ꜵ̨"     # Ꜵ + Ogonek
 <dead_ogonek> <UA735>             : "ꜵ̨"      # ꜵ + Ogonek
-<dead_ogonek> <multiply> <A> <O>  : "Ꜵ̨"     # Ꜵ + Ogonek
-<dead_ogonek> <multiply> <a> <o>  : "ꜵ̨"      # ꜵ + Ogonek
+<dead_ogonek> <U1DCF> <A> <O>     : "Ꜵ̨"     # Ꜵ + Ogonek
+<dead_ogonek> <U1DCF> <a> <o>     : "ꜵ̨"      # ꜵ + Ogonek
 <dead_ogonek> <UA736>             : "Ꜷ̨"     # Ꜷ + Ogonek
 <dead_ogonek> <UA737>             : "ꜷ̨"      # ꜷ + Ogonek
-<dead_ogonek> <multiply> <A> <U>  : "Ꜷ̨"     # Ꜷ + Ogonek
-<dead_ogonek> <multiply> <a> <u>  : "ꜷ̨"      # ꜷ + Ogonek
+<dead_ogonek> <U1DCF> <A> <U>     : "Ꜷ̨"     # Ꜷ + Ogonek
+<dead_ogonek> <U1DCF> <a> <u>     : "ꜷ̨"      # ꜷ + Ogonek
 <dead_ogonek> <UA738>             : "Ꜹ̨"     # Ꜹ + Ogonek
 <dead_ogonek> <UA739>             : "ꜹ̨"      # ꜹ + Ogonek
-<dead_ogonek> <multiply> <A> <V>  : "Ꜹ̨"     # Ꜹ + Ogonek
-<dead_ogonek> <multiply> <a> <v>  : "ꜹ̨"      # ꜹ + Ogonek
+<dead_ogonek> <U1DCF> <A> <V>     : "Ꜹ̨"     # Ꜹ + Ogonek
+<dead_ogonek> <U1DCF> <a> <v>     : "ꜹ̨"      # ꜹ + Ogonek
 <dead_ogonek> <UA73C>             : "Ꜽ̨"     # Ꜽ + Ogonek
 <dead_ogonek> <UA73D>             : "ꜽ̨"      # ꜽ + Ogonek
-<dead_ogonek> <multiply> <A> <Y>  : "Ꜽ̨"     # Ꜽ + Ogonek
-<dead_ogonek> <multiply> <a> <y>  : "ꜽ̨"      # ꜽ + Ogonek
+<dead_ogonek> <U1DCF> <A> <Y>     : "Ꜽ̨"     # Ꜽ + Ogonek
+<dead_ogonek> <U1DCF> <a> <y>     : "ꜽ̨"      # ꜽ + Ogonek
 <dead_ogonek> <U2C6D>             : "Ɑ̨"      # Ɑ (Latin Alpha) + Ogonek
 <dead_ogonek> <U0251>             : "ɑ̨"      # ɑ (Latin Alpha) + Ogonek
 <dead_ogonek> <B>                 : "B̨"
@@ -105,12 +106,12 @@
 <dead_ogonek> <eng>               : "ŋ̨"      # ŋ + Ogonek
 <dead_ogonek> <OE>                : "Œ̨"
 <dead_ogonek> <oe>                : "œ̨"
-<dead_ogonek> <multiply> <O> <E>  : "Œ̨"
-<dead_ogonek> <multiply> <o> <e>  : "œ̨"
+<dead_ogonek> <U1DCF> <O> <E>     : "Œ̨"
+<dead_ogonek> <U1DCF> <o> <e>     : "œ̨"
 <dead_ogonek> <UA74E>             : "Ꝏ̨"     # Ꝏ + Ogonek
 <dead_ogonek> <UA74F>             : "ꝏ̨"     # ꝏ + Ogonek
-<dead_ogonek> <multiply> <O> <O>  : "Ꝏ̨"     # Ꝏ + Ogonek
-<dead_ogonek> <multiply> <o> <o>  : "ꝏ̨"     # ꝏ + Ogonek
+<dead_ogonek> <U1DCF> <O> <O>     : "Ꝏ̨"     # Ꝏ + Ogonek
+<dead_ogonek> <U1DCF> <o> <o>     : "ꝏ̨"     # ꝏ + Ogonek
 <dead_ogonek> <U0186>             : "Ɔ̨"      # Ɔ + Ogonek
 <dead_ogonek> <U0254>             : "ɔ̨"      # ɔ + Ogonek
 <dead_ogonek> <UA7CB>             : "Ɤ̨"      # Ɤ (Ram's Horn) + Ogonek
@@ -153,8 +154,8 @@
 <dead_ogonek> <w>                 : "w̨"
 <dead_ogonek> <UA760>             : "Ꝡ̨"     # Ꝡ + Ogonek
 <dead_ogonek> <UA761>             : "ꝡ̨"     # ꝡ + Ogonek
-<dead_ogonek> <multiply> <V> <Y>  : "Ꝡ̨"
-<dead_ogonek> <multiply> <v> <y>  : "ꝡ̨"
+<dead_ogonek> <U1DCF> <V> <Y>     : "Ꝡ̨"
+<dead_ogonek> <U1DCF> <v> <y>     : "ꝡ̨"
 <dead_ogonek> <X>                 : "X̨"
 <dead_ogonek> <x>                 : "x̨"
 <dead_ogonek> <Y>                 : "Y̨"
@@ -166,9 +167,10 @@
 
 
 # Composed ogonek combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Ogonek
+# [Main source]: https://fr.wikipedia.org/wiki/Ogonek
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ᷎ (Combining Ogonek Above [U1DCE]) -> Represents the "Ogonek Above" dead key
 #
 <dead_ogonek> <Aacute>                                      : "Ą́"
@@ -305,18 +307,18 @@
 <dead_ogonek> <dead_belowdot> <a>                           : "ą̣"
 <dead_ogonek> <dead_acute> <AE>                             : "Ǽ̨"
 <dead_ogonek> <dead_acute> <ae>                             : "ǽ̨"
-<dead_ogonek> <dead_acute> <multiply> <A> <E>               : "Ǽ̨"
-<dead_ogonek> <dead_acute> <multiply> <a> <e>               : "ǽ̨"
+<dead_ogonek> <dead_acute> <U1DCF> <A> <E>                  : "Ǽ̨"
+<dead_ogonek> <dead_acute> <U1DCF> <a> <e>                  : "ǽ̨"
 <dead_ogonek> <dead_tilde> <AE>                             : "Æ̨̃"
 <dead_ogonek> <dead_tilde> <ae>                             : "æ̨̃"
-<dead_ogonek> <dead_tilde> <multiply> <A> <E>               : "Æ̨̃"
-<dead_ogonek> <dead_tilde> <multiply> <a> <e>               : "æ̨̃"
+<dead_ogonek> <dead_tilde> <U1DCF> <A> <E>                  : "Æ̨̃"
+<dead_ogonek> <dead_tilde> <U1DCF> <a> <e>                  : "æ̨̃"
 <dead_ogonek> <U01E2>                                       : "Ǣ̨"   # Ǣ + Ogonek
 <dead_ogonek> <U01E3>                                       : "ǣ̨"   # ǣ + Ogonek
 <dead_ogonek> <dead_macron> <AE>                            : "Ǣ̨"
 <dead_ogonek> <dead_macron> <ae>                            : "ǣ̨"
-<dead_ogonek> <dead_macron> <multiply> <A> <E>              : "Ǣ̨"
-<dead_ogonek> <dead_macron> <multiply> <a> <e>              : "ǣ̨"
+<dead_ogonek> <dead_macron> <U1DCF> <A> <E>                 : "Ǣ̨"
+<dead_ogonek> <dead_macron> <U1DCF> <a> <e>                 : "ǣ̨"
 <dead_ogonek> <dead_breve> <C>                              : "C̨̆"
 <dead_ogonek> <dead_breve> <c>                              : "c̨̆"
 <dead_ogonek> <Eacute>                                      : "Ę́"
@@ -703,8 +705,8 @@
 <dead_ogonek> <dead_belowdot> <o>                           : "ǫ̣"
 <dead_ogonek> <dead_tilde> <OE>                             : "Œ̨̃"
 <dead_ogonek> <dead_tilde> <oe>                             : "œ̨̃"
-<dead_ogonek> <dead_tilde> <multiply> <O> <E>               : "Œ̨̃"
-<dead_ogonek> <dead_tilde> <multiply> <o> <e>               : "œ̨̃"
+<dead_ogonek> <dead_tilde> <U1DCF> <O> <E>                  : "Œ̨̃"
+<dead_ogonek> <dead_tilde> <U1DCF> <o> <e>                  : "œ̨̃"
 <dead_ogonek> <dead_acute> <Oslash>                         : "Ǿ̨"
 <dead_ogonek> <dead_acute> <oslash>                         : "ǿ̨"
 <dead_ogonek> <dead_acute> <dead_longsolidusoverlay> <O>    : "Ǿ̨"

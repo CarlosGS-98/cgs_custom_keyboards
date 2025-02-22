@@ -7,9 +7,10 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Rond_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Rond_souscrit
 #
 # [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
 <dead_belowring> <U2C6F>             : "Ɐ̥"      # Ɐ + Ring Below
@@ -18,28 +19,28 @@
 <dead_belowring> <U21BA> <a>         : "ɐ̥"      # ɐ + Ring Below
 <dead_belowring> <UA732>             : "Ꜳ̥"     # Ꜳ + Ring Below
 <dead_belowring> <UA733>             : "ꜳ̥"      # ꜳ + Ring Below
-<dead_belowring> <multiply> <A> <A>  : "Ꜳ̥"     # Ꜳ + Ring Below
-<dead_belowring> <multiply> <a> <a>  : "ꜳ̥"      # ꜳ + Ring Below
+<dead_belowring> <U1DCF> <A> <A>     : "Ꜳ̥"     # Ꜳ + Ring Below
+<dead_belowring> <U1DCF> <a> <a>     : "ꜳ̥"      # ꜳ + Ring Below
 <dead_belowring> <AE>                : "Æ̥"
 <dead_belowring> <ae>                : "æ̥"
-<dead_belowring> <multiply> <A> <E>  : "Æ̥"
-<dead_belowring> <multiply> <a> <e>  : "æ̥"
+<dead_belowring> <U1DCF> <A> <E>     : "Æ̥"
+<dead_belowring> <U1DCF> <a> <e>     : "æ̥"
 <dead_belowring> <UA734>             : "Ꜵ̥"     # Ꜵ + Ring Below
 <dead_belowring> <UA735>             : "ꜵ̥"      # ꜵ + Ring Below
-<dead_belowring> <multiply> <A> <O>  : "Ꜵ̥"     # Ꜵ + Ring Below
-<dead_belowring> <multiply> <a> <o>  : "ꜵ̥"      # ꜵ + Ring Below
+<dead_belowring> <U1DCF> <A> <O>     : "Ꜵ̥"     # Ꜵ + Ring Below
+<dead_belowring> <U1DCF> <a> <o>     : "ꜵ̥"      # ꜵ + Ring Below
 <dead_belowring> <UA736>             : "Ꜷ̥"     # Ꜷ + Ring Below
 <dead_belowring> <UA737>             : "ꜷ̥"      # ꜷ + Ring Below
-<dead_belowring> <multiply> <A> <U>  : "Ꜷ̥"     # Ꜷ + Ring Below
-<dead_belowring> <multiply> <a> <u>  : "ꜷ̥"      # ꜷ + Ring Below
+<dead_belowring> <U1DCF> <A> <U>     : "Ꜷ̥"     # Ꜷ + Ring Below
+<dead_belowring> <U1DCF> <a> <u>     : "ꜷ̥"      # ꜷ + Ring Below
 <dead_belowring> <UA738>             : "Ꜹ̥"     # Ꜹ + Ring Below
 <dead_belowring> <UA739>             : "ꜹ̥"      # ꜹ + Ring Below
-<dead_belowring> <multiply> <A> <V>  : "Ꜹ̥"     # Ꜹ + Ring Below
-<dead_belowring> <multiply> <a> <v>  : "ꜹ̥"      # ꜹ + Ring Below
+<dead_belowring> <U1DCF> <A> <V>     : "Ꜹ̥"     # Ꜹ + Ring Below
+<dead_belowring> <U1DCF> <a> <v>     : "ꜹ̥"      # ꜹ + Ring Below
 <dead_belowring> <UA73C>             : "Ꜽ̥"     # Ꜽ + Ring Below
 <dead_belowring> <UA73D>             : "ꜽ̥"      # ꜽ + Ring Below
-<dead_belowring> <multiply> <A> <Y>  : "Ꜽ̥"     # Ꜽ + Ring Below
-<dead_belowring> <multiply> <a> <y>  : "ꜽ̥"      # ꜽ + Ring Below
+<dead_belowring> <U1DCF> <A> <Y>     : "Ꜽ̥"     # Ꜽ + Ring Below
+<dead_belowring> <U1DCF> <a> <y>     : "ꜽ̥"      # ꜽ + Ring Below
 <dead_belowring> <U2C6D>             : "Ɑ̥"      # Ɑ (Latin Alpha) + Ring Below
 <dead_belowring> <U0251>             : "ɑ̥"      # ɑ (Latin Alpha) + Ring Below
 <dead_belowring> <B>                 : "B̥"
@@ -96,12 +97,12 @@
 <dead_belowring> <o>                 : "o̥"
 <dead_belowring> <OE>                : "Œ̥"
 <dead_belowring> <oe>                : "œ̥"
-<dead_belowring> <multiply> <O> <E>  : "Œ̥"
-<dead_belowring> <multiply> <o> <e>  : "œ̥"
+<dead_belowring> <U1DCF> <O> <E>     : "Œ̥"
+<dead_belowring> <U1DCF> <o> <e>     : "œ̥"
 <dead_belowring> <UA74E>             : "Ꝏ̥"     # Ꝏ + Ring Below
 <dead_belowring> <UA74F>             : "ꝏ̥"     # ꝏ + Ring Below
-<dead_belowring> <multiply> <O> <O>  : "Ꝏ̥"     # Ꝏ + Ring Below
-<dead_belowring> <multiply> <o> <o>  : "ꝏ̥"     # ꝏ + Ring Below
+<dead_belowring> <U1DCF> <O> <O>     : "Ꝏ̥"     # Ꝏ + Ring Below
+<dead_belowring> <U1DCF> <o> <o>     : "ꝏ̥"     # ꝏ + Ring Below
 <dead_belowring> <U0186>             : "Ɔ̥"      # Ɔ + Ring Below
 <dead_belowring> <U0254>             : "ɔ̥"      # ɔ + Ring Below
 <dead_belowring> <UA7CB>             : "Ɤ̥"      # Ɤ (Ram's Horn) + Ring Below
@@ -144,8 +145,8 @@
 <dead_belowring> <w>                 : "w̥"
 <dead_belowring> <UA760>             : "Ꝡ̥"     # Ꝡ + Ring Below
 <dead_belowring> <UA761>             : "ꝡ̥"     # ꝡ + Ring Below
-<dead_belowring> <multiply> <V> <Y>  : "Ꝡ̥"
-<dead_belowring> <multiply> <v> <y>  : "ꝡ̥"
+<dead_belowring> <U1DCF> <V> <Y>     : "Ꝡ̥"
+<dead_belowring> <U1DCF> <v> <y>     : "ꝡ̥"
 <dead_belowring> <X>                 : "X̥"
 <dead_belowring> <x>                 : "x̥"
 <dead_belowring> <Y>                 : "Y̥"
@@ -157,7 +158,7 @@
 
 
 # Composed vertical line above combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main reference]: https://fr.wikipedia.org/wiki/Rond_souscrit
+# [Main source]: https://fr.wikipedia.org/wiki/Rond_souscrit
 #
 <dead_belowring> <Aacute>                                   : "Ḁ́"
 <dead_belowring> <aacute>                                   : "ḁ́"
