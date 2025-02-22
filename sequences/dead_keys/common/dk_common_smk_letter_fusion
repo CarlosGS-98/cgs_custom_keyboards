@@ -3,8 +3,8 @@
 #
 # > The purpose of this file is to store default
 # > Compose rules for the "Letter Fusion" dead key
-# > (which represents a special dead key for character
-# > ligatures that are precomposed in Unicode
+# > (which represents a special dead key for precomposed
+# > character ligatures present in Unicode
 # > as a single character) across multiple writing systems.
 #
 # [NOTE]: This diacritic will be represented as [1DCF]

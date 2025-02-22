@@ -2,7 +2,7 @@
 # [AUTHOR]: Carlos González Sanz
 
 # Basic precomposed letter combinations
-# [Main source]: https://en.wikipedia.org/wiki/List_of_Latin-script_letters#Ligatures
+# [Main source]: https://en.wikipedia.org/wiki/List_of_Latin-script_letters
 #
 <U1DCF> <A> <A>             : "Ꜳ"
 <U1DCF> <a> <a>             : "ꜳ"
@@ -27,8 +27,14 @@
 <U1DCF> <d> <z>             : "ǳ"
 <U1DCF> <D> <EZH>           : "ʤ"
 <U1DCF> <d> <ezh>           : "ʤ"
+<U1DCF> <E> <A>             : "Ꞛ"  # Volapük Ä
+<U1DCF> <e> <a>             : "ꞛ"  # Volapük Ä
+<U1DCF> <E> <O>             : "Ꞝ"  # Volapük Ö
+<U1DCF> <e> <o>             : "ꞝ"  # Volapük Ö
 <U1DCF> <E> <T>             : "&"
 <U1DCF> <e> <t>             : "&"
+<U1DCF> <E> <U>             : "Ꞟ"  # Volapük Ü
+<U1DCF> <e> <u>             : "ꞟ"  # Volapük Ü
 <U1DCF> <F> <F> <space>     : "ﬀ"
 <U1DCF> <f> <f> <space>     : "ﬀ"
 <U1DCF> <F> <F> <I>         : "ﬃ"
@@ -43,6 +49,12 @@
 <U1DCF> <f> <eng> <space>   : "ʩ"
 <U1DCF> <F> <ENG> <R>       : "𝼀"
 <U1DCF> <f> <eng> <r>       : "𝼀"
+<U1DCF> <G> <H>             : "Ƣ"  # Gha
+<U1DCF> <g> <h>             : "ƣ"   # Gha
+<U1DCF> <H> <V>             : "Ƕ"   # Hwair
+<U1DCF> <h> <v>             : "ƕ"   # Hwair
+<U1DCF> <H> <W>             : "Ƕ"   # Hwair
+<U1DCF> <h> <w>             : "ƕ"   # Hwair
 <U1DCF> <I> <E>             : "ꭡ"
 <U1DCF> <i> <e>             : "ꭡ"
 <U1DCF> <I> <J>             : "Ĳ"
@@ -59,8 +71,12 @@
 <U1DCF> <o> <e>             : "œ"
 <U1DCF> <OE> <OE>           : "ꭀ"
 <U1DCF> <oe> <oe>           : "ᴔ"
+<U1DCF> <O> <I>             : "Ƣ"   # Gha (Making reference to its Unicode codepoint)
+<U1DCF> <o> <i>             : "ƣ"    # Gha (Making reference to its Unicode codepoint)
 <U1DCF> <O> <O>             : "Ꝏ"
 <U1DCF> <o> <o>             : "ꝏ"
+<U1DCF> <O> <U>             : "Ȣ"
+<U1DCF> <o> <u>             : "ȣ"
 <U1DCF> <U0186> <E>         : "ꭢ"   # Ɔ + E
 <U1DCF> <U0254> <e>         : "ꭢ"   # ɔ + e
 <U1DCF> <U0186> <O>         : "ꭃ"   # Ɔ + O
