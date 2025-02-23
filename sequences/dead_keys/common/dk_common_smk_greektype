@@ -1,0 +1,27 @@
+# Common Dead Keys | Greek Converter Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the "Greek Converter" dead key
+# > to transform alphabetical characters into their
+# > equivalent Greek ones (whenever possible, and
+# > mainly for phonetic transcription)
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_greek> <space>        : "ꭥ"   # Greek small letter Capital Omega
+<dead_greek> <dead_greek>   : "ꭥ"   # Greek small letter Capital Omega
+<dead_greek> <less>         : "ϵ"   # Greek Lunate Epsilon Symbol
+<dead_greek> <greater>      : "϶"   # Greek Reversed Lunate Epsilon Symbol
+
+
+# Greek punctuation & symbols
+<dead_greek> <ampersand>    : "ϗ"   # Greek Kai Symbol
+<dead_greek> <apostrophe>   : "ʹ"   # Greek numeral sign
+<dead_greek> <question>     : ";"   # Greek question mark
+<dead_greek> <questiondown> : ";"   # Greek question mark
+
+##################
+# [END OF RULES] #
+##################
