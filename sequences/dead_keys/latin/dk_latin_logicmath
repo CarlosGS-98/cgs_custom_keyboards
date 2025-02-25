@@ -1,0 +1,359 @@
+# Latin Alphabet | Logic + Math Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing mathematical and logical symbols
+# > that can be input with alphabetical Latin characters.
+#
+# [Main reference]: https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
+#
+
+# Algebraic operators (Alphabetical)
+<U221D> <bar> <X> <bar>     : "⋈"   # Bowtie
+<U221D> <bar> <x> <bar>     : "⋈"   # Bowtie
+<U221D> <bar> <X> <minus>   : "⋋"   # Left semidirect product
+<U221D> <bar> <x> <minus>   : "⋉"   # Left normal factor semidirect product
+<U221D> <H> <plus>          : "⊹"   # Hermitian Conjugate Matrix
+<U221D> <h> <plus>          : "⊹"   # Hermitian Conjugate Matrix
+<U221D> <minus> <X> <bar>   : "⋌"   # Right semidirect product
+<U221D> <minus> <x> <bar>   : "⋊"   # Right normal factor semidirect product
+<U221D> <plus> <H>          : "⊹"   # Hermitian Conjugate Matrix
+<U221D> <plus> <h>          : "⊹"   # Hermitian Conjugate Matrix
+
+
+# APL Symbols (Alphabetical)
+<U221D> <asterisk> <O>                  : "⍟"  # APL Functional Symbol Circle Star
+<U221D> <asterisk> <o>                  : "⍟"  # APL Functional Symbol Circle Star
+<U221D> <backslash> <O>                 : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <backslash> <o>                 : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <bar> <V>                       : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <bar> <v>                       : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <bar> <O>                       : "⌽"  # APL Functional Symbol Circle Stile
+<U221D> <bar> <o>                       : "⌽"  # APL Functional Symbol Circle Stile
+<U221D> <C> <O>                         : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <c> <o>                         : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <dead_tilde> <V>                : "⍲"  # APL Functional Symbol Up Caret Tilde
+<U221D> <dead_tilde> <v>                : "⍱"  # APL Functional Symbol Down Caret Tilde
+<U221D> <E> <minus> <underscore>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <e> <minus> <underscore>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <E> <underscore> <minus>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <e> <underscore> <minus>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <I> <space>                     : "⍳"   # APL Functional Symbol Iota
+<U221D> <i> <space>                     : "⍳"   # APL Functional Symbol Iota
+<U221D> <minus> <underscore> <E>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <minus> <underscore> <e>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <O> <backslash>                 : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <o> <backslash>                 : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <parenleft> <O> <parenright>    : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <parenleft> <o> <parenright>    : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <R> <space>                     : "⍴"   # APL Functional Symbol Rho
+<U221D> <r> <space>                     : "⍴"   # APL Functional Symbol Rho
+<U221D> <V> <bar>                       : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <v> <bar>                       : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <V> <dead_tilde>                : "⍲"  # APL Functional Symbol Up Caret Tilde
+<U221D> <v> <dead_tilde>                : "⍱"  # APL Functional Symbol Down Caret Tilde
+<U221D> <underscore> <minus> <E>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <underscore> <minus> <e>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+
+
+# Arrows (Alphabetical)
+<U221D> <minus> <v> <space> : "↓"   # Downwards arrow
+<U221D> <v> <minus> <space> : "↓"   # Downwards arrow
+
+
+# Calculus symbols (Alphabetical)
+<U221D> <1> <minus> <s>         : "∱"   # Clockwise integral
+<U221D> <1> <minus> <S>         : "∱"   # Clockwise integral
+<U221D> <1> <s>                 : "∫"   # Integral
+<U221D> <1> <S>                 : "∮"   # Contour integral
+<U221D> <2> <s>                 : "∬"   # Double integral
+<U221D> <2> <S>                 : "∯"   # Surface integral
+<U221D> <equal> <D>             : "≝"   # Equal to by definition
+<U221D> <equal> <d>             : "≜"   # Delta equal to
+<U221D> <3> <s>                 : "∭"   # Triple integral
+<U221D> <3> <S>                 : "∰"   # Volume integral
+<U221D> <4> <s>                 : "⨌"   # Quadruple integral
+<U221D> <4> <S>                 : "⨌"   # Quadruple integral
+<U221D> <D> <asciicircum>       : "∆"   # Increment operator
+<U221D> <d> <asciicircum>       : "∆"   # Increment operator
+<U221D> <D> <dead_circumflex>   : "∆"   # Increment operator
+<U221D> <d> <dead_circumflex>   : "∆"   # Increment operator
+<U221D> <D> <space>             : "∂"   # Partial differential
+<U221D> <d> <space>             : "∂"   # Partial differential
+<U221D> <D> <underscore>        : "∇"   # Nabla operator
+<U221D> <d> <underscore>        : "∇"   # Nabla operator
+<U221D> <equal> <D>             : "≝"   # Equal to by definition
+<U221D> <equal> <d>             : "≜"   # Delta equal to
+<U221D> <less> <s>              : "∳"   # Anticlockwise contour integral
+<U221D> <less> <S>              : "∳"   # Anticlockwise contour integral
+<U221D> <minus> <1> <s>         : "∱"   # Clockwise integral
+<U221D> <minus> <1> <S>         : "∱"   # Clockwise integral
+<U221D> <s> <1>                 : "∫"   # Integral
+<U221D> <S> <1>                 : "∮"   # Contour integral
+<U221D> <s> <2>                 : "∬"   # Double integral
+<U221D> <S> <2>                 : "∯"   # Surface integral
+<U221D> <s> <3>                 : "∭"   # Triple integral
+<U221D> <S> <3>                 : "∰"   # Volume integral
+<U221D> <s> <4>                 : "⨌"   # Quadruple integral
+<U221D> <S> <4>                 : "⨌"   # Quadruple integral
+<U221D> <s> <greater>           : "∲"   # Clockwise contour integral
+<U221D> <S> <greater>           : "∲"   # Clockwise contour integral
+<U221D> <s> <less>              : "∳"   # Anticlockwise contour integral
+<U221D> <S> <less>              : "∳"   # Anticlockwise contour integral
+<U221D> <s> <minus> <1>         : "∱"   # Clockwise integral
+<U221D> <S> <minus> <1>         : "∱"   # Clockwise integral
+
+
+# Enclosed operators (Alphabetical)
+<U221D> <asterisk> <O>                      : "⊛"  # Circled asterisk operator
+<U221D> <asterisk> <o>                      : "⊛"  # Circled asterisk operator
+<U221D> <bracketleft> <X> <bracketright>    : "⊠"   # Squared times
+<U221D> <bracketleft> <x> <bracketright>    : "⊠"   # Squared times
+<U221D> <degree> <O>                        : "⊚"  # Circled ring operator
+<U221D> <degree> <o>                        : "⊚"  # Circled ring operator
+<U221D> <equal> <O>                         : "⊜"  # Circled equals
+<U221D> <equal> <o>                         : "⊜"  # Circled equals            
+<U221D> <minus> <O>                         : "⊖"  # Circled minus
+<U221D> <minus> <o>                         : "⊖"  # Circled minus
+<U221D> <minus> <minus> <O>                 : "⊝"   # Circled dash
+<U221D> <minus> <minus> <o>                 : "⊝"   # Circled dash
+<U221D> <O> <asterisk>                      : "⊛"  # Circled asterisk operator
+<U221D> <o> <asterisk>                      : "⊛"  # Circled asterisk operator
+<U221D> <O> <degree>                        : "⊚"  # Circled ring operator
+<U221D> <o> <degree>                        : "⊚"  # Circled ring operator
+<U221D> <O> <equal>                         : "⊜"  # Circled equals
+<U221D> <o> <equal>                         : "⊜"  # Circled equals  
+<U221D> <O> <minus>                         : "⊖"  # Circled minus
+<U221D> <o> <minus>                         : "⊖"  # Circled minus
+<U221D> <O> <period>                        : "⊙"  # Circled dot operator
+<U221D> <o> <period>                        : "⊙"  # Circled dot operator
+<U221D> <O> <plus>                          : "⊕"  # Circled plus
+<U221D> <o> <plus>                          : "⊕"  # Circled plus
+<U221D> <O> <slash>                         : "⊘"  # Circled division slash
+<U221D> <o> <slash>                         : "⊘"  # Circled division slash
+<U221D> <O> <X>                             : "⊗"  # Circled times
+<U221D> <o> <x>                             : "⊗"  # Circled times
+<U221D> <parenleft> <X> <parenright>        : "⊗"  # Circled times
+<U221D> <parenleft> <x> <parenright>        : "⊗"  # Circled times
+<U221D> <period> <O>                        : "⊙"  # Circled dot operator
+<U221D> <period> <o>                        : "⊙"  # Circled dot operator
+<U221D> <plus> <O>                          : "⊕"  # Circled plus
+<U221D> <plus> <o>                          : "⊕"  # Circled plus
+<U221D> <slash> <O>                         : "⊘"  # Circled division slash
+<U221D> <slash> <o>                         : "⊘"  # Circled division slash
+<U221D> <X> <O>                             : "⊗"  # Circled times
+<U221D> <x> <o>                             : "⊗"  # Circled times
+
+
+# Geometrical operators (Alphabetical)
+<U221D> <bar> <C>           : "⋔"   # Pitchfork
+<U221D> <bar> <c>           : "⋔"   # Pitchfork
+<U221D> <C> <bar>           : "⋔"   # Pitchfork
+<U221D> <c> <bar>           : "⋔"   # Pitchfork
+<U221D> <equal> <G>         : "≎"   # Geomatrically equivalent to
+<U221D> <equal> <g>         : "≎"   # Geomatrically equivalent to
+<U221D> <equal> <minus> <G> : "≏"   # Difference between
+<U221D> <equal> <minus> <g> : "≏"   # Difference between
+<U221D> <equal> <V>         : "≚"   # Equiangular to
+<U221D> <equal> <v>         : "≚"   # Equiangular to
+<U221D> <G> <equal>         : "≎"   # Geomatrically equivalent to
+<U221D> <g> <equal>         : "≎"   # Geomatrically equivalent to
+<U221D> <minus> <equal> <G> : "≏"   # Difference between
+<U221D> <minus> <equal> <g> : "≏"   # Difference between
+<U221D> <V> <equal>         : "≚"   # Equiangular to
+<U221D> <v> <equal>         : "≚"   # Equiangular to
+
+
+# LaTeX Sequences
+# (...)
+
+
+# Letterlike mathematical operators
+<U221D> <A> <space> : "∀"   # For all
+<U221D> <a> <space> : "∀"   # For all
+<U221D> <E> <slash> : "∄"   # There does not exist
+<U221D> <e> <slash> : "∄"   # There does not exist
+<U221D> <E> <space> : "∃"   # There exists
+<U221D> <e> <space> : "∃"   # There exists
+<U221D> <slash> <E> : "∄"   # There does not exist
+<U221D> <slash> <e> : "∄"   # There does not exist
+
+
+# Logical operators (Alphabetical)
+<U221D> <asciicircum> <V>               : "⋀"   # N-Ary logical AND
+<U221D> <asciicircum> <v>               : "∧"   # Logical AND
+<U221D> <dead_circumflex> <V>           : "⋀"   # N-Ary logical AND
+<U221D> <dead_circumflex> <v>           : "∧"   # Logical AND
+<U221D> <minus> <asciicircum> <v>       : "⊼"   # Logical NAND
+<U221D> <minus> <dead_circumflex> <v>   : "⊼"   # Logical NAND
+<U221D> <minus> <v> <underscore>        : "⊽"   # Logical NOR
+<U221D> <V> <asciicircum>               : "⋀"   # N-Ary logical AND
+<U221D> <v> <asciicircum>               : "∧"   # Logical AND
+<U221D> <V> <C> <asciicircum>           : "⋏"   # Curly logical AND
+<U221D> <v> <c> <asciicircum>           : "⋏"   # Curly logical AND
+<U221D> <V> <C> <underscore>            : "⋎"   # Curly logical OR
+<U221D> <v> <c> <underscore>            : "⋎"   # Curly logical OR
+<U221D> <V> <dead_circumflex>           : "⋀"   # N-Ary logical AND
+<U221D> <v> <dead_circumflex>           : "∧"   # Logical AND
+<U221D> <V> <C> <dead_circumflex>       : "⋏"   # Curly logical AND
+<U221D> <v> <c> <dead_circumflex>       : "⋏"   # Curly logical AND
+<U221D> <v> <minus> <underscore>        : "⊻"   # Logical XOR
+<U221D> <V> <underscore>                : "⋁"   # N-Ary logical OR
+<U221D> <v> <underscore>                : "∨"   # Logical OR
+<U221D> <underscore> <V>                : "⋁"   # N-Ary logical OR
+<U221D> <underscore> <v>                : "∨"   # Logical OR
+
+
+# Miscellaneous mathematical operators & symbols
+<U221D> <2> <V>                 : "√"   # Square root
+<U221D> <2> <v>                 : "√"   # Square root
+<U221D> <3> <V>                 : "∛"   # Cubic root
+<U221D> <3> <v>                 : "∛"   # Cubic root
+<U221D> <4> <V>                 : "∜"   # Fourth root
+<U221D> <4> <v>                 : "∜"   # Fourth root
+<U221D> <backslash> <S>         : "∿"   # Sine wave
+<U221D> <backslash> <s>         : "∾"   # Inverted lazy S
+<U221D> <backslash> <W> <R>     : "≀"   # Wreath product (Derived from LaTeX)
+<U221D> <backslash> <w> <r>     : "≀"   # Wreath product (Derived from LaTeX)
+<U221D> <C> <underscore> <O>    : "⊶"   # Original of
+<U221D> <c> <underscore> <o>    : "⊶"   # Original of
+<U221D> <D> <equal>             : "≝"   # Equal to by definition
+<U221D> <d> <equal>             : "≜"   # Delta equal to
+<U221D> <equal> <D>             : "≝"   # Equal to by definition
+<U221D> <equal> <d>             : "≜"   # Delta equal to
+<U221D> <I> <T>                 : "⊺"   # Intercalate
+<U221D> <i> <t>                 : "⊺"   # Intercalate
+<U221D> <minus> <minus> <C>     : "⊸"   # Multimap
+<U221D> <minus> <minus> <c>     : "⊸"   # Multimap
+<U221D> <O> <space>             : "○"   # White circle (APL var * pi)
+<U221D> <o> <space>             : "○"   # White circle (APL var * pi)
+<U221D> <O> <underscore> <C>    : "⊷"   # Image of
+<U221D> <o> <underscore> <c>    : "⊷"   # Image of
+<U221D> <P> <space>             : "∐"   # N-Ary coproduct
+<U221D> <p> <space>             : "∏"   # N-Ary product
+<U221D> <S> <space>             : "∑"   # N-Ary summation
+<U221D> <s> <space>             : "∑"   # N-Ary summation
+<U221D> <V> <2>                 : "√"   # Square root
+<U221D> <v> <2>                 : "√"   # Square root
+<U221D> <V> <3>                 : "∛"   # Cubic root
+<U221D> <v> <3>                 : "∛"   # Cubic root
+<U221D> <V> <4>                 : "∜"   # Fourth root
+<U221D> <v> <4>                 : "∜"   # Fourth root
+
+
+# Proof notation
+# (...)
+
+
+# Relational operators
+<U221D> <C> <equal>                 : "≘"   # Corresponds to
+<U221D> <c> <equal>                 : "≘"   # Corresponds to
+<U221D> <C> <greater>               : "≽"   # Succeeds or equal to
+<U221D> <c> <greater>               : "≻"   # Succeeds
+<U221D> <C> <less>                  : "≼"   # Precedes or equal to
+<U221D> <c> <less>                  : "≺"   # Precedes
+<U221D> <equal> <M>                 : "≞"   # Measured by
+<U221D> <equal> <m>                 : "≞"   # Measured by
+<U221D> <equal> <notsign> <X>       : "≭"   # Not equivalent to
+<U221D> <equal> <notsign> <x>       : "≭"   # Not equivalent to
+<U221D> <equal> <X>                 : "≍"   # Equivalent to
+<U221D> <equal> <x>                 : "≍"   # Equivalent to
+<U221D> <exclam> <dead_tilde> <C>   : "⋩"   # Succeeds but not equivalent to
+<U221D> <exclam> <dead_tilde> <c>   : "⋨"   # Precedes but not equivalent to
+<U221D> <exclam> <greater> <c>      : "⊁"   # Does not succeed
+<U221D> <exclam> <less> <c>         : "⊀"   # Does not precede
+<U221D> <exclam> <X> <equal>        : "≭"   # Not equivalent to
+<U221D> <exclam> <x> <equal>        : "≭"   # Not equivalent to
+<U221D> <greater> <C>               : "≽"   # Succeeds or equal to
+<U221D> <greater> <c>               : "≻"   # Succeeds
+<U221D> <greater> <dead_tilde> <C>  : "≿"   # Succeeds or equivalent to
+<U221D> <greater> <dead_tilde> <c>  : "≿"   # Succeeds or equivalent to
+<U221D> <greater> <minus> <C>       : "⊱"   # Succeeds under relation
+<U221D> <greater> <minus> <c>       : "⊱"   # Succeeds under relation
+<U221D> <greater> <slash> <C>       : "⋡"   # Does not succeed nor equal
+<U221D> <greater> <slash> <c>       : "⋡"   # Does not succeed nor equal
+<U221D> <less> <C>                  : "≼"   # Precedes or equal to
+<U221D> <less> <c>                  : "≺"   # Precedes
+<U221D> <less> <dead_tilde> <C>     : "≾"   # Precedes or equivalent to
+<U221D> <less> <dead_tilde> <c>     : "≾"   # Precedes or equivalent to
+<U221D> <less> <minus> <C>          : "⊰"   # Precedes under relation
+<U221D> <less> <minus> <c>          : "⊰"   # Precedes under relation
+<U221D> <less> <slash> <C>          : "⋠"   # Does not precede nor equal
+<U221D> <less> <slash> <c>          : "⋠"   # Does not precede nor equal
+<U221D> <M> <equal>                 : "≞"   # Measured by
+<U221D> <m> <equal>                 : "≞"   # Measured by
+<U221D> <minus> <C> <greater>       : "⋟"   # Equal to or succeeds
+<U221D> <minus> <C> <less>          : "⋞"   # Equal to or precedes
+<U221D> <minus> <greater> <C>       : "⋟"   # Equal to or succeeds
+<U221D> <minus> <less> <C>          : "⋞"   # Equal to or precedes
+<U221D> <notsign> <equal> <X>       : "≭"   # Not quivalent to
+<U221D> <notsign> <equal> <x>       : "≭"   # Not equivalent to
+<U221D> <X> <equal>                 : "≍"   # Equivalent to
+<U221D> <x> <equal>                 : "≍"   # Equivalent to
+
+
+# Set operators
+<U221D> <asciicircum> <2> <U>                   : "⋒"   # Double intersection
+<U221D> <asciicircum> <2> <u>                   : "⋒"   # Double intersection
+<U221D> <asciicircum> <U>                       : "⋂"   # N-Ary intersection
+<U221D> <asciicircum> <u>                       : "∩"   # Intersection
+<U221D> <bracketleft> <asciicircum> <u>         : "⊓"   # Square cap
+<U221D> <bracketleft> <dead_circumflex> <u>     : "⊓"   # Square cap
+<U221D> <bracketleft> <underscore> <u>          : "⊔"   # Square cup
+<U221D> <bracketright> <asciicircum> <u>        : "⊓"   # Square cap
+<U221D> <bracketright> <dead_circumflex> <u>    : "⊓"   # Square cap
+<U221D> <bracketright> <underscore> <u>         : "⊔"   # Square cup
+<U221D> <C> <2>                                 : "⋑"   # Double superset
+<U221D> <c> <2>                                 : "⋐"   # Double subset
+<U221D> <C> <C>                                 : "∁"   # Set complement
+<U221D> <c> <c>                                 : "∁"   # Set complement
+<U221D> <C> <space>                             : "⊃"   # Superset of
+<U221D> <c> <space>                             : "⊂"   # Subset of
+<U221D> <dead_circumflex> <2> <U>               : "⋒"   # Double intersection
+<U221D> <dead_circumflex> <2> <u>               : "⋒"   # Double intersection
+<U221D> <dead_circumflex> <U>                   : "⋂"   # N-Ary intersection
+<U221D> <dead_circumflex> <u>                   : "∩"   # Intersection
+<U221D> <E> <minus> <notsign>                   : "∉"   # Not an element of
+<U221D> <E> <minus> <space>                     : "∈"   # Element of
+<U221D> <e> <minus> <space>                     : "∊"   # Small element of
+<U221D> <E> <notsign> <minus>                   : "∉"   # Not an element of
+<U221D> <E> <notsign> <plus>                    : "∌"   # Does not contain as member
+<U221D> <E> <plus> <space>                      : "∋"   # Contains as member
+<U221D> <e> <plus> <space>                      : "∍"   # Small contains as member
+<U221D> <E> <plus> <notsign>                    : "∌"   # Does not contain as member
+<U221D> <equal> <C>                             : "⊇"   # Superset of or equal to
+<U221D> <equal> <c>                             : "⊆"   # Subset of or equal to
+<U221D> <equal> <slash> <C>                     : "⊉"   # Neither a superset of nor equal to
+<U221D> <equal> <slash> <c>                     : "⊈"   # Neither a subset of nor equal to
+<U221D> <exclam> <C>                            : "⊅"   # Not a superset of
+<U221D> <exclam> <c>                            : "⊄"   # Not a subset of
+<U221D> <exclam> <minus> <E>                    : "∉"   # Not an element of
+<U221D> <exclam> <plus> <E>                     : "∌"   # Does not contain as member
+<U221D> <minus> <E>                             : "∈"   # Element of
+<U221D> <minus> <e>                             : "∊"   # Small element of
+<U221D> <minus> <notsign> <E>                   : "∉"   # Not an element of
+<U221D> <notsign> <minus> <E>                   : "∉"   # Not an element of
+<U221D> <notsign> <plus> <E>                    : "∌"   # Does not contain as member
+<U221D> <period> <underscore> <u>               : "⊌"   # Multiset
+<U221D> <plus> <E>                              : "∋"   # Contains as member
+<U221D> <plus> <notsign> <E>                    : "∌"   # Does not contain as member
+<U221D> <plus> <underscore> <u>                 : "⊎"   # Multiset union
+<U221D> <slash> <equal> <C>                     : "⊋"   # Superset of with not equal to
+<U221D> <slash> <equal> <c>                     : "⊊"   # Subset of with not equal to
+<U221D> <U> <asciicircum>                       : "⋂"   # N-Ary intersection
+<U221D> <u> <asciicircum>                       : "∩"   # Intersection
+<U221D> <U> <dead_circumflex>                   : "⋂"   # N-Ary intersection
+<U221D> <u> <dead_circumflex>                   : "∩"   # Intersection
+<U221D> <U> <2> <underscore>                    : "⋓"   # Double union
+<U221D> <u> <2> <underscore>                    : "⋓"   # Double union
+<U221D> <U> <underscore>                        : "⋃"   # N-Ary union
+<U221D> <u> <underscore>                        : "∪"   # Union
+<U221D> <underscore> <asterisk> <u>             : "⊍"   # Multiset multiplication
+<U221D> <underscore> <period> <u>               : "⊌"   # Multiset
+<U221D> <underscore> <plus> <u>                 : "⊎"   # Multiset unions
+<U221D> <underscore> <U>                        : "⋃"   # N-Ary union
+<U221D> <underscore> <u>                        : "∪"   # Union
+
+##################
+# [END OF RULES] #
+##################

@@ -6,7 +6,7 @@
 # > across multiple writing systems.
 #
 # [NOTE]: This diacritic will be represented as [U035B]
-# ("͛", Combining Zigzag ABove) due to the diacritical curl
+# ("͛", Combining Zigzag Above) due to the diacritical curl
 # as well as the diacritical loop lacking proper representation in Unicode
 # as separate combining diacritics.
 #

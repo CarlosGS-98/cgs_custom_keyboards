@@ -79,14 +79,47 @@
 <dead_greek> <h>        : "ͱ"   # Heta
 <dead_greek> <Q>        : "Ϙ"   # Archaic Koppa
 <dead_greek> <q>        : "ϙ"   # Archaic Koppa
-<dead_greek> <U1E9E>    : "Ϸ"   # ẞ (Eszett) + Greek Converter = Sho
-<dead_greek> <ssharp>   : "ϸ"   # ß (Eszett) + Greek Converter = Sho
+<dead_greek> <U1E9E>    : "Ϸ"   # ẞ (Eszett) + Greek Converter = Sho | Legacy mapping from SMK 15.x
+<dead_greek> <ssharp>   : "ϸ"   # ß (Eszett) + Greek Converter = Sho | Legacy mapping from SMK 15.x
 <dead_greek> <01A7>     : "Ϻ"   # Ƨ (Tone Two) + Greek Converter = San | Legacy mapping from SMK 15.x
 <dead_greek> <01A8>     : "ϻ"   # ƨ (Tone Two) + Greek Converter = San | Legacy mapping from SMK 15.x
 <dead_greek> <W>        : "Ϝ"   # Digamma
 <dead_greek> <w>        : "ϝ"   # Digamma
 <dead_greek> <EZH>      : "Ϡ"   # Ʒ + Greek Converter = Sampi | Legacy mapping from SMK 15.x
 <dead_greek> <ezh>      : "ϡ"   # ʒ + Greek Converter = Sampi | Legacy mapping from SMK 15.x
+
+
+# Alternative Fallback ASCII --> Greek Letter Sequences (SMK 16.0+)
+# [Main source]: https://en.wikipedia.org/wiki/Archaic_Greek_alphabets
+#
+<dead_greek> <minus> <E>            : "Η"   # Eta
+<dead_greek> <minus> <e>            : "η"   # Eta
+<dead_greek> <minus> <K> <space>    : "Ϗ"   # Kai
+<dead_greek> <minus> <k> <space>    : "ϗ"   # Kai
+<dead_greek> <minus> <K> <S>        : "Ξ"   # Xi
+<dead_greek> <minus> <k> <s>        : "ξ"   # Xi
+<dead_greek> <minus> <O> <O>        : "Ω"   # Omega
+<dead_greek> <minus> <o> <o>        : "ω"   # Omega
+<dead_greek> <minus> <O> <U>        : "Ȣ"   # Ligature OU
+<dead_greek> <minus> <o> <u>        : "Ȣ"   # Ligature OU
+<dead_greek> <minus> <Q>            : "Ϟ"   # Koppa
+<dead_greek> <minus> <q>            : "ϟ"   # Koppa
+<dead_greek> <minus> <S> <space>    : "ς"   # Final Sigma
+<dead_greek> <minus> <s> <space>    : "ς"   # Final Sigma
+<dead_greek> <minus> <S> <H>        : "Ϸ"   # Sho
+<dead_greek> <minus> <s> <h>        : "ϸ"   # Sho
+<dead_greek> <minus> <S> <S>        : "Ϡ"   # Sampi
+<dead_greek> <minus> <s> <s>        : "ϡ"   # Sampi
+<dead_greek> <plus> <S> <S>         : "Ͳ"   # Archaic Sampi
+<dead_greek> <plus> <s> <s>         : "ͳ"   # Archaic Sampi
+<dead_greek> <minus> <S> <T>        : "Ϛ"   # Stigma
+<dead_greek> <minus> <s> <t>        : "ϛ"   # Stigma
+<dead_greek> <minus> <T> <H>        : "Θ"   # Theta
+<dead_greek> <minus> <t> <h>        : "θ"   # Theta
+<dead_greek> <minus> <T> <S>        : "Ϻ"   # San
+<dead_greek> <minus> <t> <s>        : "ϻ"   # San
+<dead_greek> <minus> <W>            : "Ͷ"   # Pamphylian Digamma / Tsan
+<dead_greek> <minus> <w>            : "ͷ"   # Pamphylian Digamma / Tsan
 
 ##################
 # [END OF RULES] #
