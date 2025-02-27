@@ -24,8 +24,7 @@
 # APL Symbols (Alphabetical)
 <U221D> <asterisk> <O>                  : "⍟"  # APL Functional Symbol Circle Star
 <U221D> <asterisk> <o>                  : "⍟"  # APL Functional Symbol Circle Star
-<U221D> <backslash> <O>                 : "⍉"  # APL Functional Symbol Circle Backslash
-<U221D> <backslash> <o>                 : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <backslash> <o> <space>         : "⍉"  # APL Functional Symbol Circle Backslash
 <U221D> <bar> <V>                       : "⍒"   # APL Functional Symbol Del Stile
 <U221D> <bar> <v>                       : "⍒"   # APL Functional Symbol Del Stile
 <U221D> <bar> <O>                       : "⌽"  # APL Functional Symbol Circle Stile
@@ -164,19 +163,17 @@
 <U221D> <v> <equal>         : "≚"   # Equiangular to
 
 
-# LaTeX Sequences
-# (...)
-
-
 # Letterlike mathematical operators
-<U221D> <A> <space> : "∀"   # For all
-<U221D> <a> <space> : "∀"   # For all
-<U221D> <E> <slash> : "∄"   # There does not exist
-<U221D> <e> <slash> : "∄"   # There does not exist
-<U221D> <E> <space> : "∃"   # There exists
-<U221D> <e> <space> : "∃"   # There exists
-<U221D> <slash> <E> : "∄"   # There does not exist
-<U221D> <slash> <e> : "∄"   # There does not exist
+<U221D> <A> <space>     : "∀"   # For all
+<U221D> <a> <space>     : "∀"   # For all
+<U221D> <E> <slash>     : "∄"   # There does not exist
+<U221D> <e> <slash>     : "∄"   # There does not exist
+<U221D> <E> <exclam>    : "∃!"  # There exists one, and only one
+<U221D> <e> <exclam>    : "∃!"  # There exists one, and only one
+<U221D> <E> <space>     : "∃"   # There exists
+<U221D> <e> <space>     : "∃"   # There exists
+<U221D> <slash> <E>     : "∄"   # There does not exist
+<U221D> <slash> <e>     : "∄"   # There does not exist
 
 
 # Logical operators (Alphabetical)
@@ -205,40 +202,39 @@
 
 
 # Miscellaneous mathematical operators & symbols
-<U221D> <2> <V>                 : "√"   # Square root
-<U221D> <2> <v>                 : "√"   # Square root
-<U221D> <3> <V>                 : "∛"   # Cubic root
-<U221D> <3> <v>                 : "∛"   # Cubic root
-<U221D> <4> <V>                 : "∜"   # Fourth root
-<U221D> <4> <v>                 : "∜"   # Fourth root
-<U221D> <backslash> <S>         : "∿"   # Sine wave
-<U221D> <backslash> <s>         : "∾"   # Inverted lazy S
-<U221D> <backslash> <W> <R>     : "≀"   # Wreath product (Derived from LaTeX)
-<U221D> <backslash> <w> <r>     : "≀"   # Wreath product (Derived from LaTeX)
-<U221D> <C> <underscore> <O>    : "⊶"   # Original of
-<U221D> <c> <underscore> <o>    : "⊶"   # Original of
-<U221D> <D> <equal>             : "≝"   # Equal to by definition
-<U221D> <d> <equal>             : "≜"   # Delta equal to
-<U221D> <equal> <D>             : "≝"   # Equal to by definition
-<U221D> <equal> <d>             : "≜"   # Delta equal to
-<U221D> <I> <T>                 : "⊺"   # Intercalate
-<U221D> <i> <t>                 : "⊺"   # Intercalate
-<U221D> <minus> <minus> <C>     : "⊸"   # Multimap
-<U221D> <minus> <minus> <c>     : "⊸"   # Multimap
-<U221D> <O> <space>             : "○"   # White circle (APL var * pi)
-<U221D> <o> <space>             : "○"   # White circle (APL var * pi)
-<U221D> <O> <underscore> <C>    : "⊷"   # Image of
-<U221D> <o> <underscore> <c>    : "⊷"   # Image of
-<U221D> <P> <space>             : "∐"   # N-Ary coproduct
-<U221D> <p> <space>             : "∏"   # N-Ary product
-<U221D> <S> <space>             : "∑"   # N-Ary summation
-<U221D> <s> <space>             : "∑"   # N-Ary summation
-<U221D> <V> <2>                 : "√"   # Square root
-<U221D> <v> <2>                 : "√"   # Square root
-<U221D> <V> <3>                 : "∛"   # Cubic root
-<U221D> <v> <3>                 : "∛"   # Cubic root
-<U221D> <V> <4>                 : "∜"   # Fourth root
-<U221D> <v> <4>                 : "∜"   # Fourth root
+<U221D> <2> <V>                     : "√"   # Square root
+<U221D> <2> <v>                     : "√"   # Square root
+<U221D> <3> <V>                     : "∛"   # Cubic root
+<U221D> <3> <v>                     : "∛"   # Cubic root
+<U221D> <4> <V>                     : "∜"   # Fourth root
+<U221D> <4> <v>                     : "∜"   # Fourth root
+<U221D> <backslash> <S> <space>     : "∿"   # Sine wave
+<U221D> <backslash> <s> <space>     : "∾"   # Inverted lazy S
+<U221D> <backslash> <W> <R> <space> : "≀"   # Wreath product (Derived from LaTeX)
+<U221D> <C> <underscore> <O>        : "⊶"   # Original of
+<U221D> <c> <underscore> <o>        : "⊶"   # Original of
+<U221D> <D> <equal>                 : "≝"   # Equal to by definition
+<U221D> <d> <equal>                 : "≜"   # Delta equal to
+<U221D> <equal> <D>                 : "≝"   # Equal to by definition
+<U221D> <equal> <d>                 : "≜"   # Delta equal to
+<U221D> <I> <T>                     : "⊺"   # Intercalate
+<U221D> <i> <t>                     : "⊺"   # Intercalate
+<U221D> <minus> <minus> <C>         : "⊸"   # Multimap
+<U221D> <minus> <minus> <c>         : "⊸"   # Multimap
+<U221D> <O> <space>                 : "○"   # White circle (APL var * pi)
+<U221D> <o> <space>                 : "○"   # White circle (APL var * pi)
+<U221D> <O> <underscore> <C>        : "⊷"   # Image of
+<U221D> <o> <underscore> <c>        : "⊷"   # Image of
+<U221D> <P> <space>                 : "∐"   # N-Ary coproduct
+<U221D> <p> <space>                 : "∏"   # N-Ary product
+<U221D> <S> <space>                 : "∑"   # N-Ary summation
+<U221D> <s> <space>                 : "∑"   # N-Ary summation
+<U221D> <V> <2>                     : "√"   # Square root
+<U221D> <v> <2>                     : "√"   # Square root
+<U221D> <V> <3>                     : "∛"   # Cubic root
+<U221D> <v> <3>                     : "∛"   # Cubic root
+<U221D> <V> <4>                     : "∜"   # Fourth root
+<U221D> <v> <4>                     : "∜"   # Fourth root
 
 
 # Proof notation
