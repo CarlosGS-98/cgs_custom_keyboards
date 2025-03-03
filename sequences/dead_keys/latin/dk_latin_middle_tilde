@@ -24,151 +24,227 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<U0334> <A>                 : "A̴"
-<U0334> <a>                 : "a̴"
-<U0334> <U2C6F>             : "Ɐ̴"      # Ɐ + Middle Tilde
-<U0334> <U0250>             : "ɐ̴"      # ɐ + Middle Tilde
-<U0334> <U21BA> <A>         : "Ɐ̴"      # Ɐ + Middle Tilde
-<U0334> <U21BA> <a>         : "ɐ̴"      # ɐ + Middle Tilde
-<U0334> <UA732>             : "Ꜳ̴"     # Ꜳ + Middle Tilde
-<U0334> <UA733>             : "ꜳ̴"      # ꜳ + Middle Tilde
-<U0334> <U1DCF> <A> <A>     : "Ꜳ̴"     # Ꜳ + Middle Tilde
-<U0334> <U1DCF> <a> <a>     : "ꜳ̴"      # ꜳ + Middle Tilde
-<U0334> <AE>                : "Æ̴"
-<U0334> <ae>                : "æ̴"
-<U0334> <U1DCF> <A> <E>     : "Æ̴"
-<U0334> <U1DCF> <a> <e>     : "æ̴"
-<U0334> <UA734>             : "Ꜵ̴"     # Ꜵ + Middle Tilde
-<U0334> <UA735>             : "ꜵ̴"      # ꜵ + Middle Tilde
-<U0334> <U1DCF> <A> <O>     : "Ꜵ̴"     # Ꜵ + Middle Tilde
-<U0334> <U1DCF> <a> <o>     : "ꜵ̴"      # ꜵ + Middle Tilde
-<U0334> <UA736>             : "Ꜷ̴"     # Ꜷ + Middle Tilde
-<U0334> <UA737>             : "ꜷ̴"      # ꜷ + Middle Tilde
-<U0334> <U1DCF> <A> <U>     : "Ꜷ̴"     # Ꜷ + Middle Tilde
-<U0334> <U1DCF> <a> <u>     : "ꜷ̴"      # ꜷ + Middle Tilde
-<U0334> <UA738>             : "Ꜹ̴"     # Ꜹ + Middle Tilde
-<U0334> <UA739>             : "ꜹ̴"      # ꜹ + Middle Tilde
-<U0334> <U1DCF> <A> <V>     : "Ꜹ̴"     # Ꜹ + Middle Tilde
-<U0334> <U1DCF> <a> <v>     : "ꜹ̴"      # ꜹ + Middle Tilde
-<U0334> <UA73C>             : "Ꜽ̴"     # Ꜽ + Middle Tilde
-<U0334> <UA73D>             : "ꜽ̴"      # ꜽ + Middle Tilde
-<U0334> <U1DCF> <A> <Y>     : "Ꜽ̴"     # Ꜽ + Middle Tilde
-<U0334> <U1DCF> <a> <y>     : "ꜽ̴"      # ꜽ + Middle Tilde
-<U0334> <U2C6D>             : "Ɑ̴"      # Ɑ (Latin Alpha) + Middle Tilde
-<U0334> <U0251>             : "ɑ̴"      # ɑ (Latin Alpha) + Middle Tilde
-<U0334> <B>                 : "B̴"
-<U0334> <C>                 : "C̴"
-<U0334> <c>                 : "c̴"
-<U0334> <D>                 : "D̴"
-<U0334> <ETH>               : "Ð̴"
-<U0334> <eth>               : "ð̴"
-<U0334> <UA779>             : "Ꝺ̴"      # Ꝺ (Insular D) + Middle Tilde
-<U0334> <UA77A>             : "ꝺ̴"      # ꝺ (Insular D) + Middle Tilde
-<U0334> <E>                 : "E̴"
-<U0334> <e>                 : "e̴"
-<U0334> <U0190>             : "Ɛ̴"      # Ɛ (Latin Epsilon) + Middle Tilde
-<U0334> <U025B>             : "ɛ̴"      # ɛ (Latin Epsilon) + Middle Tilde
-<U0334> <SCHWA>             : "Ə̴"      # Ə (Schwa) + Middle Tilde
-<U0334> <schwa>             : "ə̴"      # ə (Schwa) + Middle Tilde
-<U0334> <U018E>             : "Ǝ̴"      # Ǝ (Turned E) + Middle Tilde
-<U0334> <U01DD>             : "ǝ̴"      # ǝ (Turned E) + Middle Tilde
-<U0334> <U21BA> <E>         : "Ǝ̴"      # Ǝ (Turned E) + Middle Tilde
-<U0334> <U21BA> <e>         : "ǝ̴"      # ǝ (Turned E) + Middle Tilde
-<U0334> <F>                 : "F̴"
-<U0334> <UA77B>             : "Ꝼ̴"      # Ꝼ (Insular F) + Middle Tilde
-<U0334> <UA77C>             : "ꝼ̴"      # ꝼ (Insular F) + Middle Tilde
-<U0334> <G>                 : "G̴"
-<U0334> <g>                 : "g̴"
-<U0334> <U0194>             : "Ɣ̴"      # Ɣ (Latin Gamma) + Middle Tilde
-<U0334> <U0263>             : "ɣ̴"      # ɣ (Latin Gamma) + Middle Tilde
-<U0334> <H>                 : "H̴"
-<U0334> <h>                 : "h̴"
-<U0334> <UA78D>             : "Ɥ̴"      # Ɥ (Turned H) + Middle Tilde
-<U0334> <U0265>             : "ɥ̴"      # ɥ (Turned H) + Middle Tilde
-<U0334> <U21BA> <H>         : "Ɥ̴"      # Ɥ (Turned H) + Middle Tilde
-<U0334> <U21BA> <h>         : "ɥ̴"      # ɥ (Turned H) + Middle Tilde
-<U0334> <U2C75>             : "Ⱶ̴"      # Ⱶ (Sonus Medius) + Middle Tilde
-<U0334> <U2C76>             : "ⱶ̴"      # ⱶ (Sonus Medius) + Middle Tilde
-<U0334> <I>                 : "I̴"
-<U0334> <i>                 : "i̴"
-<U0334> <U0196>             : "Ɩ̴"      # Ɩ (Latin Iota) + Middle Tilde
-<U0334> <U0269>             : "ɩ̴"      # ɩ (Latin Iota) + Middle Tilde
-<U0334> <J>                 : "J̴"
-<U0334> <j>                 : "j̴"
-<U0334> <K>                 : "K̴"
-<U0334> <k>                 : "k̴"
-<U0334> <UA7DA>             : "Ꟛ̴"     # Ꟛ (Latin Lambda) + Middle Tilde
-<U0334> <UA7DB>             : "ꟛ̴"     # ꟛ (Latin Lambda) + Middle Tilde
-<U0334> <M>                 : "M̴"
-<U0334> <N>                 : "N̴"
-<U0334> <O>                 : "O̴"
-<U0334> <o>                 : "o̴"
-<U0334> <OE>                : "Œ̴"
-<U0334> <oe>                : "œ̴"
-<U0334> <U1DCF> <O> <E>     : "Œ̴"
-<U0334> <U1DCF> <o> <e>     : "œ̴"
-<U0334> <UA74E>             : "Ꝏ̴"     # Ꝏ + Middle Tilde
-<U0334> <UA74F>             : "ꝏ̴"     # ꝏ + Middle Tilde
-<U0334> <U1DCF> <O> <O>     : "Ꝏ̴"     # Ꝏ + Middle Tilde
-<U0334> <U1DCF> <o> <o>     : "ꝏ̴"     # ꝏ + Middle Tilde
-<U0334> <U0186>             : "Ɔ̴"      # Ɔ + Middle Tilde
-<U0334> <U0254>             : "ɔ̴"      # ɔ + Middle Tilde
-<U0334> <UA7CB>             : "Ɤ̴"      # Ɤ (Ram's Middle Tilde) + Middle Tilde
-<U0334> <U0264>             : "ɤ̴"      # ɤ (Ram's Middle Tilde) + Middle Tilde
-<U0334> <P>                 : "P̴"
-<U0334> <U2183>             : "Ↄ̴"     # Ↄ (Antisigma) + Middle Tilde
-<U0334> <U2184>             : "ↄ̴"     # ↄ (Antisigma) + Middle Tilde
-<U0334> <Q>                 : "Q̴"
-<U0334> <q>                 : "q̴"
-<U0334> <R>                 : "R̴"
-<U0334> <U01A6>             : "Ʀ̴"     # Ʀ (Yr) + Middle Tilde
-<U0334> <U0280>             : "ʀ̴"     # ʀ (Yr) + Middle Tilde
-<U0334> <A75A>              : "Ꝛ̴"     # Ꝛ (R Rotunda) + Middle Tilde
-<U0334> <A75B>              : "ꝛ̴"     # ꝛ (R Rotunda) + Middle Tilde
-<U0334> <S>                 : "S̴"
-<U0334> <U017F>             : "ſ̴"     # ſ (Long S) + Middle Tilde
-<U0334> <U1E9E>             : "ẞ̴"     # ẞ (Eszett) + Middle Tilde
-<U0334> <ssharp>            : "ß̴"
-<U0334> <T>                 : "T̴"
-<U0334> <THORN>             : "Þ̴"
-<U0334> <thorn>             : "þ̴"
-<U0334> <U>                 : "U̴"
-<U0334> <u>                 : "u̴"
-<U0334> <U01B1>             : "Ʊ̴"     # Ʊ (Latin Upsilon) + Middle Tilde
-<U0334> <U028A>             : "ʊ̴"     # ʊ (Latin Upsilon) + Middle Tilde
-<U0334> <U019C>             : "Ɯ̴"     # Ɯ (Turned M) + Middle Tilde
-<U0334> <U026F>             : "ɯ̴"     # ɯ (Turned M) + Middle Tilde
-<U0334> <U21BA> <M>         : "Ɯ̴"     # Ɯ (Turned M) + Middle Tilde
-<U0334> <U21BA> <m>         : "ɯ̴"     # ɯ (Turned M) + Middle Tilde
-<U0334> <V>                 : "V̴"
-<U0334> <v>                 : "v̴"
-<U0334> <U0245>             : "Ʌ̴"     # Ʌ + Middle Tilde
-<U0334> <U028C>             : "ʌ̴"     # ʌ + Middle Tilde
-<U0334> <U21BA> <V>         : "Ʌ̴"     # Ʌ + Middle Tilde
-<U0334> <U21BA> <v>         : "ʌ̴"     # ʌ + Middle Tilde
-<U0334> <U01B2>             : "Ʋ̴"     # Ʋ + Middle Tilde
-<U0334> <U028B>             : "ʋ̴"     # ʋ + Middle Tilde
-<U0334> <UA768>             : "Ꝩ̴"     # Ꝩ (Vend) + Middle Tilde
-<U0334> <UA769>             : "ꝩ̴"     # ꝩ (Vend) + Middle Tilde
-<U0334> <W>                 : "W̴"
-<U0334> <w>                 : "w̴"
-<U0334> <UA760>             : "Ꝡ̴"     # Ꝡ + Middle Tilde
-<U0334> <UA761>             : "ꝡ̴"     # ꝡ + Middle Tilde
-<U0334> <U1DCF> <V> <Y>     : "Ꝡ̴"
-<U0334> <U1DCF> <v> <y>     : "ꝡ̴"
-<U0334> <X>                 : "X̴"
-<U0334> <x>                 : "x̴"
-<U0334> <Y>                 : "Y̴"
-<U0334> <y>                 : "y̴"
-<U0334> <Z>                 : "Z̴"
-<U0334> <EZH>               : "Ʒ̴"     # Ʒ + Middle Tilde
-<U0334> <ezh>               : "ʒ̴"     # ʒ + Middle Tilde
+<U0334> <A>                                     : "A̴"
+<U0334> <a>                                     : "a̴"
+<U0334> <U2C6F>                                 : "Ɐ̴"   # Ɐ + Middle Tilde
+<U0334> <U0250>                                 : "ɐ̴"   # ɐ + Middle Tilde
+<U0334> <U21BA> <A>                             : "Ɐ̴"   # Ɐ + Middle Tilde
+<U0334> <U21BA> <a>                             : "ɐ̴"   # ɐ + Middle Tilde
+<U0334> <UA732>                                 : "Ꜳ̴"  # Ꜳ + Middle Tilde
+<U0334> <UA733>                                 : "ꜳ̴"   # ꜳ + Middle Tilde
+<U0334> <U1DCF> <A> <A>                         : "Ꜳ̴"  # Ꜳ + Middle Tilde
+<U0334> <U1DCF> <a> <a>                         : "ꜳ̴"   # ꜳ + Middle Tilde
+<U0334> <AE>                                    : "Æ̴"
+<U0334> <ae>                                    : "æ̴"
+<U0334> <U1DCF> <A> <E>                         : "Æ̴"
+<U0334> <U1DCF> <a> <e>                         : "æ̴"
+<U0334> <UA734>                                 : "Ꜵ̴"  # Ꜵ + Middle Tilde
+<U0334> <UA735>                                 : "ꜵ̴"   # ꜵ + Middle Tilde
+<U0334> <U1DCF> <A> <O>                         : "Ꜵ̴"  # Ꜵ + Middle Tilde
+<U0334> <U1DCF> <a> <o>                         : "ꜵ̴"   # ꜵ + Middle Tilde
+<U0334> <UA736>                                 : "Ꜷ̴"  # Ꜷ + Middle Tilde
+<U0334> <UA737>                                 : "ꜷ̴"   # ꜷ + Middle Tilde
+<U0334> <U1DCF> <A> <U>                         : "Ꜷ̴"  # Ꜷ + Middle Tilde
+<U0334> <U1DCF> <a> <u>                         : "ꜷ̴"   # ꜷ + Middle Tilde
+<U0334> <UA738>                                 : "Ꜹ̴"  # Ꜹ + Middle Tilde
+<U0334> <UA739>                                 : "ꜹ̴"   # ꜹ + Middle Tilde
+<U0334> <U1DCF> <A> <V>                         : "Ꜹ̴"  # Ꜹ + Middle Tilde
+<U0334> <U1DCF> <a> <v>                         : "ꜹ̴"   # ꜹ + Middle Tilde
+<U0334> <UA73C>                                 : "Ꜽ̴"  # Ꜽ + Middle Tilde
+<U0334> <UA73D>                                 : "ꜽ̴"   # ꜽ + Middle Tilde
+<U0334> <U1DCF> <A> <Y>                         : "Ꜽ̴"  # Ꜽ + Middle Tilde
+<U0334> <U1DCF> <a> <y>                         : "ꜽ̴"   # ꜽ + Middle Tilde
+<U0334> <U2C6D>                                 : "Ɑ̴"   # Ɑ (Latin Alpha) + Middle Tilde
+<U0334> <U0251>                                 : "ɑ̴"   # ɑ (Latin Alpha) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <A>      : "Ɑ̴"   # Ɑ (Latin Alpha) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <a>      : "ɑ̴"   # ɑ (Latin Alpha) + Middle Tilde
+<U0334> <U2C70>                                 : "Ɒ̴"   # Ɒ (Turned Latin Alpha) + Middle Tilde
+<U0334> <U0252>                                 : "ɒ̴"   # ɒ (Turned Latin Alpha) + Middle Tilde
+<U0334> <U21BA> <dead_greek> <A>                : "Ɒ̴"   # Ɒ (Turned Latin Alpha) + Middle Tilde
+<U0334> <U21BA> <dead_greek> <a>                : "ɒ̴"   # ɒ (Turned Latin Alpha) + Middle Tilde
+<U0334> <B>                                     : "B̴"
+<U0334> <UA7B4>                                 : "Ꞵ̴"   # Ꞵ (Latin Beta) + Middle Tilde
+<U0334> <UA7B5>                                 : "ꞵ̴"   # ꞵ (Latin Beta) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <B>      : "Ꞵ̴"   # Ꞵ (Latin Beta) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <b>      : "ꞵ̴"   # ꞵ (Latin Beta) + Middle Tilde
+<U0334> <C>                                     : "C̴"
+<U0334> <c>                                     : "c̴"
+<U0334> <D>                                     : "D̴"
+<U0334> <ETH>                                   : "Ð̴"
+<U0334> <eth>                                   : "ð̴"
+<U0334> <UA779>                                 : "Ꝺ̴"   # Ꝺ (Insular D) + Middle Tilde
+<U0334> <UA77A>                                 : "ꝺ̴"   # ꝺ (Insular D) + Middle Tilde
+<U0334> <E>                                     : "E̴"
+<U0334> <e>                                     : "e̴"
+<U0334> <U0190>                                 : "Ɛ̴"   # Ɛ (Latin Epsilon) + Middle Tilde
+<U0334> <U025B>                                 : "ɛ̴"   # ɛ (Latin Epsilon) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <E>      : "Ɛ̴"   # Ɛ (Latin Epsilon) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <e>      : "ɛ̴"   # Ɛ (Latin Epsilon) + Middle Tilde
+<U0334> <UA7AB>                                 : "Ɜ̴"   # Ɜ (Turned Latin Epsilon) + Middle Tilde
+<U0334> <U025C>                                 : "ɜ̴"   # ɜ (Turned Latin Epsilon) + Middle Tilde
+<U0334> <U21BA> <dead_greek> <E>                : "Ɜ̴"   # Ɜ (Turned Latin Epsilon) + Middle Tilde
+<U0334> <U21BA> <dead_greek> <e>                : "ɜ̴"   # ɜ (Turned Latin Epsilon) + Middle Tilde
+<U0334> <SCHWA>                                 : "Ə̴"   # Ə (Schwa) + Middle Tilde
+<U0334> <schwa>                                 : "ə̴"   # ə (Schwa) + Middle Tilde
+<U0334> <U035A> <E>                             : "Ə̴"   # Ə (Schwa) + Middle Tilde
+<U0334> <U035A> <e>                             : "ə̴"   # ə (Schwa) + Middle Tilde
+<U0334> <U0258>                                 : "ɘ̴"   # ɘ (Close-mid central unrounded vowel) + Middle Tilde
+<U0334> <U035A> <minus> <E>                     : "ɘ̴"   # ɘ (Close-mid central unrounded vowel) + Middle Tilde
+<U0334> <U035A> <minus> <e>                     : "ɘ̴"   # ɘ (Close-mid central unrounded vowel) + Middle Tilde
+<U0334> <U21BA> <SCHWA>                         : "ɘ̴"   # ɘ (Close-mid central unrounded vowel) + Middle Tilde
+<U0334> <U21BA> <schwa>                         : "ɘ̴"   # ɘ (Close-mid central unrounded vowel) + Middle Tilde
+<U0334> <U029A>                                 : "ʚ̴"   # ʚ + Middle Tilde
+<U0334> <U025E>                                 : "ɞ̴"   # ɞ + Middle Tilde
+<U0334> <U21BA> <underscore> <E>                : "ʚ̴"   # ʚ + Middle Tilde
+<U0334> <U21BA> <underscore> <e>                : "ɞ̴"   # ɞ + Middle Tilde
+<U0334> <U018E>                                 : "Ǝ̴"   # Ǝ (Turned E) + Middle Tilde
+<U0334> <U01DD>                                 : "ǝ̴"   # ǝ (Turned E) + Middle Tilde
+<U0334> <U21BA> <E>                             : "Ǝ̴"   # Ǝ (Turned E) + Middle Tilde
+<U0334> <U21BA> <e>                             : "ǝ̴"   # ǝ (Turned E) + Middle Tilde
+<U0334> <U0278>                                 : "ɸ̴"   # ɸ (Latin Phi) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <F>      : "ɸ̴"   # ɸ (Latin Phi) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <f>      : "ɸ̴"   # ɸ (Latin Phi) + Middle Tilde
+<U0334> <F>                                     : "F̴"
+<U0334> <UA77B>                                 : "Ꝼ̴"   # Ꝼ (Insular F) + Middle Tilde
+<U0334> <UA77C>                                 : "ꝼ̴"   # ꝼ (Insular F) + Middle Tilde
+<U0334> <G>                                     : "G̴"
+<U0334> <g>                                     : "g̴"
+<U0334> <U0194>                                 : "Ɣ̴"   # Ɣ (Latin Gamma) + Middle Tilde
+<U0334> <U0263>                                 : "ɣ̴"   # ɣ (Latin Gamma) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <G>      : "Ɣ̴"   # Ɣ (Latin Gamma) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <g>      : "ɣ̴"   # ɣ (Latin Gamma) + Middle Tilde
+<U0334> <H>                                     : "H̴"
+<U0334> <h>                                     : "h̴"
+<U0334> <UA78D>                                 : "Ɥ̴"   # Ɥ (Turned H) + Middle Tilde
+<U0334> <U0265>                                 : "ɥ̴"   # ɥ (Turned H) + Middle Tilde
+<U0334> <U21BA> <H>                             : "Ɥ̴"   # Ɥ (Turned H) + Middle Tilde
+<U0334> <U21BA> <h>                             : "ɥ̴"   # ɥ (Turned H) + Middle Tilde
+<U0334> <U2C75>                                 : "Ⱶ̴"   # Ⱶ (Sonus Medius) + Middle Tilde
+<U0334> <U2C76>                                 : "ⱶ̴"   # ⱶ (Sonus Medius) + Middle Tilde
+<U0334> <I>                                     : "I̴"
+<U0334> <i>                                     : "i̴"
+<U0334> <U0196>                                 : "Ɩ̴"   # Ɩ (Latin Iota) + Middle Tilde
+<U0334> <U0269>                                 : "ɩ̴"   # ɩ (Latin Iota) + Middle Tilde
+<U0334> <UA7AE>                                 : "Ɪ̴"   # Ɪ (Near-close near-front unrounded vowel) + Middle Tilde
+<U0334> <U026A>                                 : "ɪ̴"   # ɪ (Near-close near-front unrounded vowel) + Middle Tilde
+<U0334> <U035A> <I>                             : "Ɪ̴"   # Ɪ (Near-close near-front unrounded vowel) + Middle Tilde
+<U0334> <U035A> <i>                             : "ɪ̴"   # ɪ (Near-close near-front unrounded vowel) + Middle Tilde
+<U0334> <J>                                     : "J̴"
+<U0334> <j>                                     : "j̴"
+<U0334> <U035A> <J>                             : "ɟ̴"   # ɟ (Barred Dotless J) + Middle Tilde
+<U0334> <U035A> <j>                             : "ɟ̴"   # ɟ (Barred Dotless J) + Middle Tilde
+<U0334> <K>                                     : "K̴"
+<U0334> <k>                                     : "k̴"
+<U0334> <UA7DA>                                 : "Ꟛ̴"   # Ꟛ (Latin Lambda) + Middle Tilde
+<U0334> <UA7DB>                                 : "ꟛ̴"   # ꟛ (Latin Lambda) + Middle Tilde
+<U0334> <U1DF08>                                : "𝼈̴"   # 𝼈 (Retroflex lateral flap) + Middle Tilde
+<U0334> <U027A>                                 : "ɺ̴"   # ɺ (Lateral flap) + Middle Tilde
+<U0334> <U035A> <L>                             : "𝼈̴"   # 𝼈 (Retroflex lateral flap) + Middle Tilde
+<U0334> <U035A> <l>                             : "ɺ̴"   # ɺ (Lateral flap) + Middle Tilde
+<U0334> <M>                                     : "M̴"
+<U0334> <U0270>                                 : "ɰ̴"   # ɰ (Voiced velar approximant) + Middle Tilde
+<U0334> <U035A> <M>                             : "ɰ̴"   # ɰ (Voiced velar approximant) + Middle Tilde
+<U0334> <U035A> <m>                             : "ɰ̴"   # ɰ (Voiced velar approximant) + Middle Tilde
+<U0334> <N>                                     : "N̴"
+<U0334> <O>                                     : "O̴"
+<U0334> <o>                                     : "o̴"
+<U0334> <OE>                                    : "Œ̴"
+<U0334> <oe>                                    : "œ̴"
+<U0334> <U1DCF> <O> <E>                         : "Œ̴"
+<U0334> <U1DCF> <o> <e>                         : "œ̴"
+<U0334> <UA74E>                                 : "Ꝏ̴"  # Ꝏ + Middle Tilde
+<U0334> <UA74F>                                 : "ꝏ̴"  # ꝏ + Middle Tilde
+<U0334> <U1DCF> <O> <O>                         : "Ꝏ̴"  # Ꝏ + Middle Tilde
+<U0334> <U1DCF> <o> <o>                         : "ꝏ̴"  # ꝏ + Middle Tilde
+<U0334> <U0186>                                 : "Ɔ̴"   # Ɔ + Middle Tilde
+<U0334> <U0254>                                 : "ɔ̴"   # ɔ + Middle Tilde
+<U0334> <UA7CB>                                 : "Ɤ̴"   # Ɤ (Ram's Middle Tilde) + Middle Tilde
+<U0334> <U0264>                                 : "ɤ̴"   # ɤ (Ram's Middle Tilde) + Middle Tilde
+<U0334> <P>                                     : "P̴"
+<U0334> <U2183>                                 : "Ↄ̴"   # Ↄ (Antisigma) + Middle Tilde
+<U0334> <U2184>                                 : "ↄ̴"   # ↄ (Antisigma) + Middle Tilde
+<U0334> <Q>                                     : "Q̴"
+<U0334> <q>                                     : "q̴"
+<U0334> <R>                                     : "R̴"
+<U0334> <U027B>                                 : "ɻ̴"   # ɻ + Middle Tilde
+<U0334> <U0279>                                 : "ɹ̴"   # ɹ + Middle Tilde
+<U0334> <U035A> <R>                             : "ɻ̴"   # ɻ + Middle Tilde
+<U0334> <U035A> <r>                             : "ɹ̴"   # ɹ + Middle Tilde
+<U0334> <U21BA> <R>                             : "ɻ̴"   # ɻ + Middle Tilde
+<U0334> <U21BA> <r>                             : "ɹ̴"   # ɹ + Middle Tilde
+<U0334> <U01A6>                                 : "Ʀ̴"   # Ʀ (Yr) + Middle Tilde
+<U0334> <U0280>                                 : "ʀ̴"   # ʀ (Yr) + Middle Tilde
+<U0334> <A75A>                                  : "Ꝛ̴"   # Ꝛ (R Rotunda) + Middle Tilde
+<U0334> <A75B>                                  : "ꝛ̴"   # ꝛ (R Rotunda) + Middle Tilde
+<U0334> <S>                                     : "S̴"
+<U0334> <U017F>                                 : "ſ̴"   # ſ (Long S) + Middle Tilde
+<U0334> <U1E9E>                                 : "ẞ̴"   # ẞ (Eszett) + Middle Tilde
+<U0334> <ssharp>                                : "ß̴"
+<U0334> <U01A9>                                 : "Ʃ̴"   # Ʃ (Esh) + Middle Tilde
+<U0334> <U0283>                                 : "ʃ̴"   # ʃ (Esh) + Middle Tilde
+<U0334> <U035A> <S>                             : "Ʃ̴"   # Ʃ (Esh) + Middle Tilde
+<U0334> <U035A> <s>                             : "ʃ̴"   # ʃ (Esh) + Middle Tilde
+<U0334> <T>                                     : "T̴"
+<U0334> <THORN>                                 : "Þ̴"
+<U0334> <thorn>                                 : "þ̴"
+<U0334> <U>                                     : "U̴"
+<U0334> <u>                                     : "u̴"
+<U0334> <U01B1>                                 : "Ʊ̴"   # Ʊ (Latin Upsilon) + Middle Tilde
+<U0334> <U028A>                                 : "ʊ̴"   # ʊ (Latin Upsilon) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <U>      : "Ʊ̴"   # Ʊ (Latin Upsilon) + Middle Tilde
+<U0334> <dead_greek> <dead_circumflex> <u>      : "ʊ̴"   # ʊ (Latin Upsilon) + Middle Tilde
+<U0334> <U019C>                                 : "Ɯ̴"   # Ɯ (Turned M) + Middle Tilde
+<U0334> <U026F>                                 : "ɯ̴"   # ɯ (Turned M) + Middle Tilde
+<U0334> <U21BA> <M>                             : "Ɯ̴"   # Ɯ (Turned M) + Middle Tilde
+<U0334> <U21BA> <m>                             : "ɯ̴"   # ɯ (Turned M) + Middle Tilde
+<U0334> <V>                                     : "V̴"
+<U0334> <v>                                     : "v̴"
+<U0334> <U0245>                                 : "Ʌ̴"   # Ʌ + Middle Tilde
+<U0334> <U028C>                                 : "ʌ̴"   # ʌ + Middle Tilde
+<U0334> <U21BA> <V>                             : "Ʌ̴"   # Ʌ + Middle Tilde
+<U0334> <U21BA> <v>                             : "ʌ̴"   # ʌ + Middle Tilde
+<U0334> <U01B2>                                 : "Ʋ̴"   # Ʋ + Middle Tilde
+<U0334> <U028B>                                 : "ʋ̴"   # ʋ + Middle Tilde
+<U0334> <UA768>                                 : "Ꝩ̴"   # Ꝩ (Vend) + Middle Tilde
+<U0334> <UA769>                                 : "ꝩ̴"   # ꝩ (Vend) + Middle Tilde
+<U0334> <W>                                     : "W̴"
+<U0334> <w>                                     : "w̴"
+<U0334> <UA760>                                 : "Ꝡ̴"   # Ꝡ + Middle Tilde
+<U0334> <UA761>                                 : "ꝡ̴"   # ꝡ + Middle Tilde
+<U0334> <U1DCF> <V> <Y>                         : "Ꝡ̴"
+<U0334> <U1DCF> <v> <y>                         : "ꝡ̴"
+<U0334> <X>                                     : "X̴"
+<U0334> <x>                                     : "x̴"
+<U0334> <Y>                                     : "Y̴"
+<U0334> <y>                                     : "y̴"
+<U0334> <U21BA> <Y>                             : "⅄̴"   # ⅄ + Middle Tilde
+<U0334> <U21BA> <y>                             : "ʎ̴"   # ʎ + Middle Tilde
+<U0334> <U21BA> <Y>                             : "⅄̴"   # ⅄ + Middle Tilde
+<U0334> <U21BA> <y>                             : "ʎ̴"   # ʎ + Middle Tilde
+<U0334> <Z>                                     : "Z̴"
+<U0334> <EZH>                                   : "Ʒ̴"   # Ʒ + Middle Tilde
+<U0334> <ezh>                                   : "ʒ̴"   # ʒ + Middle Tilde
+<U0334> <U0294>                                 : "ʔ̴"   # ʔ (Glottal Stop) + Middle Tilde
+<U0334> <U035A> <question>                      : "ʔ̴"   # ʔ (Glottal Stop) + Middle Tilde
+<U0334> <U035A> <U0241> <space>                 : "ʔ̴"   # Ɂ (Capital Glottal Stop) + Middle Tilde
+<U0334> <U035A> <U0242> <space>                 : "ʔ̴"   # ɂ (Small Glottal Stop) + Middle Tilde
+<U0334> <U0241>                                 : "Ɂ̴"   # Ɂ (Capital Glottal Stop) + Middle Tilde
+<U0334> <U0242>                                 : "ɂ̴"   # ɂ (Small Glottal Stop) + Middle Tilde
+<U0334> <U0295>                                 : "ʕ̴"   # ʕ (Turned Glottal Glottal Stop) + Middle Tilde
+<U0334> <U035A> <questiondown>                  : "ʕ̴"   # ʕ (Turned Glottal Glottal Stop) + Middle Tilde
+<U0334> <U035A> <U0241> <underscore> <space>    : "ʕ̴"   # Ɂ (Capital Glottal Stop) + "_" + Middle Tilde
+<U0334> <U035A> <U0242> <underscore> <space>    : "ʕ̴"   # ɂ (Small Glottal Stop) + "_" + Middle Tilde
 
 
 # Composed middle combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main source]: https://fr.wikipedia.org/wiki/Tilde_inscrit
 #
-# [NOTE]: No relevant combinations exist yet for this diacritic.
+<U0334> <U02A1>                                 : "ʡ̴"   # Ɂ (Capital Glottal Stop) + "-" + Middle Tilde
+<U0334> <U035A> <U0241> <minus>                 : "ʡ̴"   # Ɂ (Capital Glottal Stop) + "-" + Middle Tilde
+<U0334> <U035A> <U0242> <minus>                 : "ʡ̴"   # ɂ (Small Glottal Stop) + "-" + Middle Tilde
+<U0334> <U02A2>                                 : "ʢ̴"   # ʢ (Barred Turned Glottal Stop) + Middle Tilde
+<U0334> <U035A> <U0241> <underscore> <minus>    : "ʢ̴"   # Ɂ (Capital Glottal Stop) + "_-" + Middle Tilde
+<U0334> <U035A> <U0242> <underscore> <minus>    : "ʢ̴"   # ɂ (Small Glottal Stop) + "_-" + Middle Tilde
 
 ##################
 # [END OF RULES] #

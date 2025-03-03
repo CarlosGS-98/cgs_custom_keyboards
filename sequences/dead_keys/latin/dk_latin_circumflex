@@ -100,80 +100,153 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_circumflex> <U2C6F>            : "Ɐ̂"      # Ɐ + Circumflex
-<dead_circumflex> <U0250>            : "ɐ̂"      # ɐ + Circumflex
-<dead_circumflex> <U21BA> <A>        : "Ɐ̂"      # Ɐ + Circumflex
-<dead_circumflex> <U21BA> <a>        : "ɐ̂"      # ɐ + Circumflex
-<dead_circumflex> <AE>               : "Æ̂"
-<dead_circumflex> <ae>               : "æ̂"
-<dead_circumflex> <U1DCF> <A> <E>    : "Æ̂"
-<dead_circumflex> <U1DCF> <a> <e>    : "æ̂"
-<dead_circumflex> <U2C6D>            : "Ɑ̂"      # Ɑ (Latin Alpha) + Circumflex
-<dead_circumflex> <U0251>            : "ɑ̂"      # ɑ (Latin Alpha) + Circumflex
-<dead_circumflex> <B>                : "B̂"
-<dead_circumflex> <b>                : "b̂"
-<dead_circumflex> <D>                : "D̂"
-<dead_circumflex> <d>                : "d̂"
-<dead_circumflex> <U0190>            : "Ɛ̂"      # Ɛ (Latin Epsilon) + Circumflex
-<dead_circumflex> <U025B>            : "ɛ̂"      # ɛ (Latin Epsilon) + Circumflex
-<dead_circumflex> <SCHWA>            : "Ə̂"      # Ə (Schwa) + Circumflex
-<dead_circumflex> <schwa>            : "ə̂"      # ə (Schwa) + Circumflex
-<dead_circumflex> <U018E>            : "Ǝ̂"      # Ǝ (Turned E) + Circumflex
-<dead_circumflex> <U01DD>            : "ǝ̂"      # ǝ (Turned E) + Circumflex
-<dead_circumflex> <U21BA> <E>        : "Ǝ̂"      # Ǝ (Turned E) + Circumflex
-<dead_circumflex> <U21BA> <e>        : "ǝ̂"      # ǝ (Turned E) + Circumflex
-<dead_circumflex> <F>                : "F̂"
-<dead_circumflex> <f>                : "f̂"
-<dead_circumflex> <UA78D>            : "Ɥ̂"      # Ɥ (Turned H) + Circumflex
-<dead_circumflex> <U0265>            : "ɥ̂"      # ɥ (Turned H) + Circumflex
-<dead_circumflex> <U21BA> <H>        : "Ɥ̂"      # Ɥ (Turned H) + Circumflex
-<dead_circumflex> <U21BA> <h>        : "ɥ̂"      # ɥ (Turned H) + Circumflex
-<dead_circumflex> <U0196>            : "Ɩ̂"      # Ɩ (Latin Iota) + Circumflex
-<dead_circumflex> <U0269>            : "ɩ̂"      # ɩ (Latin Iota) + Circumflex
-<dead_circumflex> <K>                : "K̂"
-<dead_circumflex> <k>                : "k̂"
-<dead_circumflex> <L>                : "L̂"
-<dead_circumflex> <l>                : "l̂"
-<dead_circumflex> <M>                : "M̂"
-<dead_circumflex> <m>                : "m̂"
-<dead_circumflex> <N>                : "N̂"
-<dead_circumflex> <n>                : "n̂"
-<dead_circumflex> <ENG>              : "Ŋ̂"      # Ŋ + Circumflex
-<dead_circumflex> <eng>              : "ŋ̂"      # ŋ + Circumflex
-<dead_circumflex> <OE>               : "Œ̂"
-<dead_circumflex> <oe>               : "œ̂"
-<dead_circumflex> <U1DCF> <O> <E>    : "Œ̂"
-<dead_circumflex> <U1DCF> <o> <e>    : "œ̂"
-<dead_circumflex> <U0186>            : "Ɔ̂"      # Ɔ + Circumflex
-<dead_circumflex> <U0254>            : "ɔ̂"      # ɔ + Circumflex
-<dead_circumflex> <UA7CB>            : "Ɤ̂"      # Ɤ (Ram's Horn) + Circumflex
-<dead_circumflex> <U0264>            : "ɤ̂"      # ɤ (Ram's Horn) + Circumflex
-<dead_circumflex> <P>                : "P̂"
-<dead_circumflex> <p>                : "p̂"
-<dead_circumflex> <Q>                : "Q̂"
-<dead_circumflex> <q>                : "q̂"
-<dead_circumflex> <R>                : "R̂"
-<dead_circumflex> <r>                : "r̂"
-<dead_circumflex> <T>                : "T̂"
-<dead_circumflex> <t>                : "t̂"
-<dead_circumflex> <U01B1>            : "Ʊ̂"     # Ʊ (Latin Upsilon) + Circumflex
-<dead_circumflex> <U028A>            : "ʊ̂"     # ʊ (Latin Upsilon) + Circumflex
-<dead_circumflex> <U019C>            : "Ɯ̂"     # Ɯ (Turned M) + Circumflex
-<dead_circumflex> <U026F>            : "ɯ̂"     # ɯ (Turned M) + Circumflex
-<dead_circumflex> <U21BA> <M>        : "Ɯ̂"     # Ɯ (Turned M) + Circumflex
-<dead_circumflex> <U21BA> <m>        : "ɯ̂"     # ɯ (Turned M) + Circumflex
-<dead_circumflex> <V>                : "V̂"
-<dead_circumflex> <v>                : "v̂"
-<dead_circumflex> <U0245>            : "Ʌ̂"     # Ʌ + Circumflex
-<dead_circumflex> <U028C>            : "ʌ̂"     # ʌ + Circumflex
-<dead_circumflex> <U21BA> <V>        : "Ʌ̂"     # Ʌ + Circumflex
-<dead_circumflex> <U21BA> <v>        : "ʌ̂"     # ʌ + Circumflex
-<dead_circumflex> <U01B2>            : "Ʋ̂"     # Ʋ + Circumflex
-<dead_circumflex> <U028B>            : "ʋ̂"     # ʋ + Circumflex
-<dead_circumflex> <X>                : "X̂"
-<dead_circumflex> <x>                : "x̂"
-<dead_circumflex> <EZH>              : "Ʒ̂"     # Ʒ + Circumflex
-<dead_circumflex> <ezh>              : "ʒ̂"     # ʒ + Circumflex
+<dead_circumflex> <U2C6F>                               : "Ɐ̂"   # Ɐ + Circumflex
+<dead_circumflex> <U0250>                               : "ɐ̂"   # ɐ + Circumflex
+<dead_circumflex> <U21BA> <A>                           : "Ɐ̂"   # Ɐ + Circumflex
+<dead_circumflex> <U21BA> <a>                           : "ɐ̂"   # ɐ + Circumflex
+<dead_circumflex> <AE>                                  : "Æ̂"
+<dead_circumflex> <ae>                                  : "æ̂"
+<dead_circumflex> <U1DCF> <A> <E>                       : "Æ̂"
+<dead_circumflex> <U1DCF> <a> <e>                       : "æ̂"
+<dead_circumflex> <U2C6D>                               : "Ɑ̂"   # Ɑ (Latin Alpha) + Circumflex
+<dead_circumflex> <U0251>                               : "ɑ̂"   # ɑ (Latin Alpha) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <A>    : "Ɑ̂"   # Ɑ (Latin Alpha) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <a>    : "ɑ̂"   # ɑ (Latin Alpha) + Circumflex
+<dead_circumflex> <U2C70>                               : "Ɒ̂"   # Ɒ (Turned Latin Alpha) + Circumflex
+<dead_circumflex> <U0252>                               : "ɒ̂"   # ɒ (Turned Latin Alpha) + Circumflex
+<dead_circumflex> <U21BA> <dead_greek> <A>              : "Ɒ̂"   # Ɒ (Turned Latin Alpha) + Circumflex
+<dead_circumflex> <U21BA> <dead_greek> <a>              : "ɒ̂"   # ɒ (Turned Latin Alpha) + Circumflex
+<dead_circumflex> <B>                                   : "B̂"
+<dead_circumflex> <b>                                   : "b̂"
+<dead_circumflex> <UA7B4>                               : "Ꞵ̂"   # Ꞵ (Latin Beta) + Circumflex
+<dead_circumflex> <UA7B5>                               : "ꞵ̂"   # ꞵ (Latin Beta) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <B>    : "Ꞵ̂"   # Ꞵ (Latin Beta) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <b>    : "ꞵ̂"   # ꞵ (Latin Beta) + Circumflex
+<dead_circumflex> <D>                                   : "D̂"
+<dead_circumflex> <d>                                   : "d̂"
+<dead_circumflex> <U0190>                               : "Ɛ̂"   # Ɛ (Latin Epsilon) + Circumflex
+<dead_circumflex> <U025B>                               : "ɛ̂"   # ɛ (Latin Epsilon) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <E>    : "Ɛ̂"   # Ɛ (Latin Epsilon) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <e>    : "ɛ̂"   # Ɛ (Latin Epsilon) + Circumflex
+<dead_circumflex> <UA7AB>                               : "Ɜ̂"   # Ɜ (Turned Latin Epsilon) + Circumflex
+<dead_circumflex> <U025C>                               : "ɜ̂"   # ɜ (Turned Latin Epsilon) + Circumflex
+<dead_circumflex> <U21BA> <dead_greek> <E>              : "Ɜ̂"   # Ɜ (Turned Latin Epsilon) + Circumflex
+<dead_circumflex> <U21BA> <dead_greek> <e>              : "ɜ̂"   # ɜ (Turned Latin Epsilon) + Circumflex
+<dead_circumflex> <SCHWA>                               : "Ə̂"   # Ə (Schwa) + Circumflex
+<dead_circumflex> <schwa>                               : "ə̂"   # ə (Schwa) + Circumflex
+<dead_circumflex> <U035A> <E>                           : "Ə̂"   # Ə (Schwa) + Circumflex
+<dead_circumflex> <U035A> <e>                           : "ə̂"   # ə (Schwa) + Circumflex
+<dead_circumflex> <U0258>                               : "ɘ̂"   # ɘ (Close-mid central unrounded vowel) + Circumflex
+<dead_circumflex> <U035A> <minus> <E>                   : "ɘ̂"   # ɘ (Close-mid central unrounded vowel) + Circumflex
+<dead_circumflex> <U035A> <minus> <e>                   : "ɘ̂"   # ɘ (Close-mid central unrounded vowel) + Circumflex
+<dead_circumflex> <U21BA> <SCHWA>                       : "ɘ̂"   # ɘ (Close-mid central unrounded vowel) + Circumflex
+<dead_circumflex> <U21BA> <schwa>                       : "ɘ̂"   # ɘ (Close-mid central unrounded vowel) + Circumflex
+<dead_circumflex> <U029A>                               : "ʚ̂"   # ʚ + Circumflex
+<dead_circumflex> <U025E>                               : "ɞ̂"   # ɞ + Circumflex
+<dead_circumflex> <U21BA> <underscore> <E>              : "ʚ̂"   # ʚ + Circumflex
+<dead_circumflex> <U21BA> <underscore> <e>              : "ɞ̂"   # ɞ + Circumflex
+<dead_circumflex> <U018E>                               : "Ǝ̂"   # Ǝ (Turned E) + Circumflex
+<dead_circumflex> <U01DD>                               : "ǝ̂"   # ǝ (Turned E) + Circumflex
+<dead_circumflex> <U21BA> <E>                           : "Ǝ̂"   # Ǝ (Turned E) + Circumflex
+<dead_circumflex> <U21BA> <e>                           : "ǝ̂"   # ǝ (Turned E) + Circumflex
+<dead_circumflex> <F>                                   : "F̂"
+<dead_circumflex> <f>                                   : "f̂"
+<dead_circumflex> <U0278>                               : "ɸ̂"   # ɸ (Latin Phi) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <F>    : "ɸ̂"   # ɸ (Latin Phi) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <f>    : "ɸ̂"   # ɸ (Latin Phi) + Circumflex
+<dead_circumflex> <U0194>                               : "Ɣ̂"   # Ɣ (Latin Gamma) + Circumflex
+<dead_circumflex> <U0263>                               : "ɣ̂"   # ɣ (Latin Gamma) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <G>    : "Ɣ̂"   # Ɣ (Latin Gamma) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <g>    : "ɣ̂"   # ɣ (Latin Gamma) + Circumflex
+<dead_circumflex> <UA78D>                               : "Ɥ̂"   # Ɥ (Turned H) + Circumflex
+<dead_circumflex> <U0265>                               : "ɥ̂"   # ɥ (Turned H) + Circumflex
+<dead_circumflex> <U21BA> <H>                           : "Ɥ̂"   # Ɥ (Turned H) + Circumflex
+<dead_circumflex> <U21BA> <h>                           : "ɥ̂"   # ɥ (Turned H) + Circumflex
+<dead_circumflex> <U0196>                               : "Ɩ̂"   # Ɩ (Latin Iota) + Circumflex
+<dead_circumflex> <U0269>                               : "ɩ̂"   # ɩ (Latin Iota) + Circumflex
+<dead_circumflex> <UA7AE>                               : "Ɪ̂"   # Ɪ (Near-close near-front unrounded vowel) + Circumflex
+<dead_circumflex> <U026A>                               : "ɪ̂"   # ɪ (Near-close near-front unrounded vowel) + Circumflex
+<dead_circumflex> <U035A> <I>                           : "Ɪ̂"   # Ɪ (Near-close near-front unrounded vowel) + Circumflex
+<dead_circumflex> <U035A> <i>                           : "ɪ̂"   # ɪ (Near-close near-front unrounded vowel) + Circumflex
+<dead_circumflex> <U035A> <J>                           : "ɟ̂"   # ɟ (Barred Dotless J) + Circumflex
+<dead_circumflex> <U035A> <j>                           : "ɟ̂"   # ɟ (Barred Dotless J) + Circumflex
+<dead_circumflex> <K>                                   : "K̂"
+<dead_circumflex> <k>                                   : "k̂"
+<dead_circumflex> <L>                                   : "L̂"
+<dead_circumflex> <l>                                   : "l̂"
+<dead_circumflex> <U1DF08>                              : "𝼈̂"   # 𝼈 (Retroflex lateral flap) + Circumflex
+<dead_circumflex> <U027A>                               : "ɺ̂"   # ɺ (Lateral flap) + Circumflex
+<dead_circumflex> <U035A> <L>                           : "𝼈̂"   # 𝼈 (Retroflex lateral flap) + Circumflex
+<dead_circumflex> <U035A> <l>                           : "ɺ̂"   # ɺ (Lateral flap) + Circumflex
+<dead_circumflex> <M>                                   : "M̂"
+<dead_circumflex> <m>                                   : "m̂"
+<dead_circumflex> <U0270>                               : "ɰ̂"   # ɰ (Voiced velar approximant) + Circumflex
+<dead_circumflex> <U035A> <M>                           : "ɰ̂"   # ɰ (Voiced velar approximant) + Circumflex
+<dead_circumflex> <U035A> <m>                           : "ɰ̂"   # ɰ (Voiced velar approximant) + Circumflex
+<dead_circumflex> <N>                                   : "N̂"
+<dead_circumflex> <n>                                   : "n̂"
+<dead_circumflex> <ENG>                                 : "Ŋ̂"   # Ŋ + Circumflex
+<dead_circumflex> <eng>                                 : "ŋ̂"   # ŋ + Circumflex
+<dead_circumflex> <OE>                                  : "Œ̂"
+<dead_circumflex> <oe>                                  : "œ̂"
+<dead_circumflex> <U1DCF> <O> <E>                       : "Œ̂"
+<dead_circumflex> <U1DCF> <o> <e>                       : "œ̂"
+<dead_circumflex> <U0186>                               : "Ɔ̂"   # Ɔ + Circumflex
+<dead_circumflex> <U0254>                               : "ɔ̂"   # ɔ + Circumflex
+<dead_circumflex> <UA7CB>                               : "Ɤ̂"   # Ɤ (Ram's Horn) + Circumflex
+<dead_circumflex> <U0264>                               : "ɤ̂"   # ɤ (Ram's Horn) + Circumflex
+<dead_circumflex> <P>                                   : "P̂"
+<dead_circumflex> <p>                                   : "p̂"
+<dead_circumflex> <Q>                                   : "Q̂"
+<dead_circumflex> <q>                                   : "q̂"
+<dead_circumflex> <R>                                   : "R̂"
+<dead_circumflex> <r>                                   : "r̂"
+<dead_circumflex> <U027B>                               : "ɻ̂"   # ɻ + Circumflex
+<dead_circumflex> <U0279>                               : "ɹ̂"   # ɹ + Circumflex
+<dead_circumflex> <U035A> <R>                           : "ɻ̂"   # ɻ + Circumflex
+<dead_circumflex> <U035A> <r>                           : "ɹ̂"   # ɹ + Circumflex
+<dead_circumflex> <U21BA> <R>                           : "ɻ̂"   # ɻ + Circumflex
+<dead_circumflex> <U21BA> <r>                           : "ɹ̂"   # ɹ + Circumflex
+<dead_circumflex> <U01A9>                               : "Ʃ̂"   # Ʃ (Esh) + Circumflex
+<dead_circumflex> <U0283>                               : "ʃ̂"   # ʃ (Esh) + Circumflex
+<dead_circumflex> <U035A> <S>                           : "Ʃ̂"   # Ʃ (Esh) + Circumflex
+<dead_circumflex> <U035A> <s>                           : "ʃ̂"   # ʃ (Esh) + Circumflex
+<dead_circumflex> <T>                                   : "T̂"
+<dead_circumflex> <t>                                   : "t̂"
+<dead_circumflex> <U01B1>                               : "Ʊ̂"   # Ʊ (Latin Upsilon) + Circumflex
+<dead_circumflex> <U028A>                               : "ʊ̂"   # ʊ (Latin Upsilon) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <U>    : "Ʊ̂"   # Ʊ (Latin Upsilon) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <u>    : "ʊ̂"   # ʊ (Latin Upsilon) + Circumflex
+<dead_circumflex> <U019C>                               : "Ɯ̂"   # Ɯ (Turned M) + Circumflex
+<dead_circumflex> <U026F>                               : "ɯ̂"   # ɯ (Turned M) + Circumflex
+<dead_circumflex> <U21BA> <M>                           : "Ɯ̂"   # Ɯ (Turned M) + Circumflex
+<dead_circumflex> <U21BA> <m>                           : "ɯ̂"   # ɯ (Turned M) + Circumflex
+<dead_circumflex> <V>                                   : "V̂"
+<dead_circumflex> <v>                                   : "v̂"
+<dead_circumflex> <U0245>                               : "Ʌ̂"   # Ʌ + Circumflex
+<dead_circumflex> <U028C>                               : "ʌ̂"   # ʌ + Circumflex
+<dead_circumflex> <U21BA> <V>                           : "Ʌ̂"   # Ʌ + Circumflex
+<dead_circumflex> <U21BA> <v>                           : "ʌ̂"   # ʌ + Circumflex
+<dead_circumflex> <U01B2>                               : "Ʋ̂"   # Ʋ + Circumflex
+<dead_circumflex> <U028B>                               : "ʋ̂"   # ʋ + Circumflex
+<dead_circumflex> <X>                                   : "X̂"
+<dead_circumflex> <x>                                   : "x̂"
+<dead_circumflex> <U21BA> <Y>                           : "⅄̂"   # ⅄ + Circumflex
+<dead_circumflex> <U21BA> <y>                           : "ʎ̂"   # ʎ + Circumflex
+<dead_circumflex> <U21BA> <Y>                           : "⅄̂"   # ⅄ + Circumflex
+<dead_circumflex> <U21BA> <y>                           : "ʎ̂"   # ʎ + Circumflex
+<dead_circumflex> <EZH>                                 : "Ʒ̂"   # Ʒ + Circumflex
+<dead_circumflex> <ezh>                                 : "ʒ̂"   # ʒ + Circumflex
+<dead_circumflex> <U0294>                               : "ʔ̂"   # ʔ (Glottal Stop) + Circumflex
+<dead_circumflex> <U035A> <question>                    : "ʔ̂"   # ʔ (Glottal Stop) + Circumflex
+<dead_circumflex> <U035A> <U0241> <space>               : "ʔ̂"   # Ɂ (Capital Glottal Stop) + Circumflex
+<dead_circumflex> <U035A> <U0242> <space>               : "ʔ̂"   # ɂ (Small Glottal Stop) + Circumflex
+<dead_circumflex> <U0241>                               : "Ɂ̂"   # Ɂ (Capital Glottal Stop) + Circumflex
+<dead_circumflex> <U0242>                               : "ɂ̂"   # ɂ (Small Glottal Stop) + Circumflex
+<dead_circumflex> <U0295>                               : "ʕ̂"   # ʕ (Turned Glottal Glottal Stop) + Circumflex
+<dead_circumflex> <U035A> <questiondown>                : "ʕ̂"   # ʕ (Turned Glottal Glottal Stop) + Circumflex
+<dead_circumflex> <U035A> <U0241> <underscore> <space>  : "ʕ̂"   # Ɂ (Capital Glottal Stop) + "_" + Circumflex
+<dead_circumflex> <U035A> <U0242> <underscore> <space>  : "ʕ̂"   # ɂ (Small Glottal Stop) + "_" + Circumflex
 
 
 # Composed circumflex accent combinations (Not directly encoded in Unicode) (Unidirectional)
@@ -536,6 +609,12 @@
 <dead_circumflex> <ydiaeresis>                                  : "ÿ̂"
 <dead_circumflex> <dead_diaeresis> <Y>                          : "Ÿ̂"
 <dead_circumflex> <dead_diaeresis> <y>                          : "ÿ̂"
+<dead_circumflex> <U02A1>                                       : "ʡ̂"   # Ɂ (Capital Glottal Stop) + "-" + Circumflex
+<dead_circumflex> <U035A> <U0241> <minus>                       : "ʡ̂"   # Ɂ (Capital Glottal Stop) + "-" + Circumflex
+<dead_circumflex> <U035A> <U0242> <minus>                       : "ʡ̂"   # ɂ (Small Glottal Stop) + "-" + Circumflex
+<dead_circumflex> <U02A2>                                       : "ʢ̂"   # ʢ (Barred Turned Glottal Stop) + Circumflex
+<dead_circumflex> <U035A> <U0241> <underscore> <minus>          : "ʢ̂"   # Ɂ (Capital Glottal Stop) + "_-" + Circumflex
+<dead_circumflex> <U035A> <U0242> <underscore> <minus>          : "ʢ̂"   # ɂ (Small Glottal Stop) + "_-" + Circumflex
 
 ##################
 # [END OF RULES] #

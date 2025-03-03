@@ -102,6 +102,8 @@
 <dead_greek> <minus> <o> <o>        : "ω"   # Omega
 <dead_greek> <minus> <O> <U>        : "Ȣ"   # Ligature OU
 <dead_greek> <minus> <o> <u>        : "Ȣ"   # Ligature OU
+<dead_greek> <minus> <P> <S>        : "Ψ"   # Psi
+<dead_greek> <minus> <p> <s>        : "ψ"   # Psi
 <dead_greek> <minus> <Q>            : "Ϟ"   # Koppa
 <dead_greek> <minus> <q>            : "ϟ"   # Koppa
 <dead_greek> <minus> <S> <space>    : "ς"   # Final Sigma
@@ -120,6 +122,38 @@
 <dead_greek> <minus> <t> <s>        : "ϻ"   # San
 <dead_greek> <minus> <W>            : "Ͷ"   # Pamphylian Digamma / Tsan
 <dead_greek> <minus> <w>            : "ͷ"   # Pamphylian Digamma / Tsan
+
+
+# Greek-Like Latin Letters (SMK 16.0+)
+# [Main source]: https://en.wikipedia.org/wiki/List_of_Latin-script_letters
+#
+<dead_greek> <dead_circumflex> <A>      : "Ɑ"   # Latin Alpha
+<dead_greek> <dead_circumflex> <a>      : "ɑ"   # Latin Alpha
+<dead_greek> <underscore> <A>           : "Ɒ"   # Latin Turned Alpha
+<dead_greek> <underscore> <a>           : "ɒ"   # Latin Turned Alpha
+<dead_greek> <dead_circumflex> <B>      : "Ꞵ"   # Latin Beta
+<dead_greek> <dead_circumflex> <b>      : "ꞵ"   # Latin Beta
+<dead_greek> <dead_circumflex> <E>      : "Ɛ"   # Latin Epsilon
+<dead_greek> <dead_circumflex> <e>      : "ɛ"   # Latin Epsilon
+<dead_greek> <dead_circumflex> <F>      : "ɸ"   # Latin Phi
+<dead_greek> <dead_circumflex> <f>      : "ɸ"   # Latin Phi
+<dead_greek> <dead_circumflex> <G>      : "Ɣ"   # Latin Gamma
+<dead_greek> <dead_circumflex> <g>      : "ɣ"   # Latin Gamma
+<dead_greek> <dead_circumflex> <I>      : "Ɩ"   # Latin Iota
+<dead_greek> <dead_circumflex> <i>      : "ɩ"   # Latin Iota
+<dead_greek> <dead_circumflex> <L>      : "Ꟛ"   # Latin Lambda
+<dead_greek> <dead_circumflex> <l>      : "ꟛ"   # Latin Lambda
+<dead_greek> <dead_circumflex> <O>      : "Ꞷ"   # Latin Omega
+<dead_greek> <dead_circumflex> <o>      : "ꞷ"   # Latin Omega
+<dead_greek> <dead_circumflex> <Oslash> : "Ꞷ"   # Latin Omega
+<dead_greek> <dead_circumflex> <oslash> : "ꞷ"   # Latin Omega
+<dead_greek> <underscore> <O>           : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <o>           : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <Oslash>      : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <oslash>      : "ɷ"   # Latin Closed Omega
+<dead_greek> <dead_circumflex> <U>      : "Ʊ"   # Latin Upsilon
+<dead_greek> <dead_circumflex> <u>      : "ʊ"   # Latin Upsilon
+
 
 ##################
 # [END OF RULES] #

@@ -15,88 +15,163 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_doubleacute> <A>                  : "A̋"
-<dead_doubleacute> <a>                  : "a̋"
-<dead_doubleacute> <UA732>              : "Ꜳ̋"     # Ꜳ + Double Acute
-<dead_doubleacute> <UA733>              : "ꜳ̋"      # ꜳ + Double Acute
-<dead_doubleacute> <U1DCF> <A> <A>      : "Ꜳ̋"     # Ꜳ + Double Acute
-<dead_doubleacute> <U1DCF> <a> <a>      : "ꜳ̋"      # ꜳ + Double Acute
-<dead_doubleacute> <AE>                 : "Æ̋"
-<dead_doubleacute> <ae>                 : "æ̋"
-<dead_doubleacute> <U1DCF> <A> <E>      : "Æ̋"
-<dead_doubleacute> <U1DCF> <a> <e>      : "æ̋"
-<dead_doubleacute> <UA734>              : "Ꜵ̋"     # Ꜵ + Double Acute
-<dead_doubleacute> <UA735>              : "ꜵ̋"      # ꜵ + Double Acute
-<dead_doubleacute> <U1DCF> <A> <O>      : "Ꜵ̋"     # Ꜵ + Double Acute
-<dead_doubleacute> <U1DCF> <a> <o>      : "ꜵ̋"      # ꜵ + Double Acute
-<dead_doubleacute> <UA738>              : "Ꜹ̋"     # Ꜹ + Double Acute
-<dead_doubleacute> <UA739>              : "ꜹ̋"      # ꜹ + Double Acute
-<dead_doubleacute> <U1DCF> <A> <V>      : "Ꜹ̋"     # Ꜹ + Double Acute
-<dead_doubleacute> <U1DCF> <a> <v>      : "ꜹ̋"      # ꜹ + Double Acute
-<dead_doubleacute> <C>                  : "C̋"
-<dead_doubleacute> <c>                  : "c̋"
-<dead_doubleacute> <E>                  : "E̋"
-<dead_doubleacute> <e>                  : "e̋"
-<dead_doubleacute> <U0190>              : "Ɛ̋"      # Ɛ (Latin Epsilon) + Double Acute
-<dead_doubleacute> <U025B>              : "ɛ̋"      # ɛ (Latin Epsilon) + Double Acute
-<dead_doubleacute> <SCHWA>              : "Ə̋"      # Ə (Schwa) + Double Acute
-<dead_doubleacute> <schwa>              : "ə̋"      # ə (Schwa) + Double Acute
-<dead_doubleacute> <G>                  : "G̋"
-<dead_doubleacute> <g>                  : "g̋"
-<dead_doubleacute> <I>                  : "I̋"
-<dead_doubleacute> <i>                  : "i̋"
-<dead_doubleacute> <J>                  : "J̋"
-<dead_doubleacute> <j>                  : "j̋"
-<dead_doubleacute> <L>                  : "L̋"
-<dead_doubleacute> <l>                  : "l̋"
-<dead_doubleacute> <M>                  : "M̋"
-<dead_doubleacute> <m>                  : "m̋"
-<dead_doubleacute> <N>                  : "N̋"
-<dead_doubleacute> <n>                  : "n̋"
-<dead_doubleacute> <ENG>                : "Ŋ̋"      # Ŋ + Double Acute
-<dead_doubleacute> <eng>                : "ŋ̋"      # ŋ + Double Acute
-<dead_doubleacute> <OE>                 : "Œ̋"
-<dead_doubleacute> <oe>                 : "œ̋"
-<dead_doubleacute> <U1DCF> <O> <E>      : "Œ̋"
-<dead_doubleacute> <U1DCF> <o> <e>      : "œ̋"
-<dead_doubleacute> <UA74E>              : "Ꝏ̋"     # Ꝏ + Double Acute
-<dead_doubleacute> <UA74F>              : "ꝏ̋"     # ꝏ + Double Acute
-<dead_doubleacute> <U1DCF> <O> <O>      : "Ꝏ̋"     # Ꝏ + Double Acute
-<dead_doubleacute> <U1DCF> <o> <o>      : "ꝏ̋"     # ꝏ + Double Acute
-<dead_doubleacute> <U0186>              : "Ɔ̋"      # Ɔ + Double Acute
-<dead_doubleacute> <U0254>              : "ɔ̋"      # ɔ + Double Acute
-<dead_doubleacute> <UA7CB>              : "Ɤ̋"      # Ɤ (Ram's Horn) + Double Acute
-<dead_doubleacute> <U0264>              : "ɤ̋"      # ɤ (Ram's Horn) + Double Acute
-<dead_doubleacute> <P>                  : "P̋"
-<dead_doubleacute> <p>                  : "p̋"
-<dead_doubleacute> <Q>                  : "Q̋"
-<dead_doubleacute> <q>                  : "q̋"
-<dead_doubleacute> <R>                  : "R̋"
-<dead_doubleacute> <r>                  : "r̋"
-<dead_doubleacute> <S>                  : "S̋"
-<dead_doubleacute> <s>                  : "s̋"
-<dead_doubleacute> <U01B1>              : "Ʊ̋"     # Ʊ (Latin Upsilon) + Double Acute
-<dead_doubleacute> <U028A>              : "ʊ̋"     # ʊ (Latin Upsilon) + Double Acute
-<dead_doubleacute> <U019C>              : "Ɯ̋"     # Ɯ (Turned M) + Double Acute
-<dead_doubleacute> <U026F>              : "ɯ̋"     # ɯ (Turned M) + Double Acute
-<dead_doubleacute> <U21BA> <M>          : "Ɯ̋"     # Ɯ (Turned M) + Double Acute
-<dead_doubleacute> <U21BA> <m>          : "ɯ̋"     # ɯ (Turned M) + Double Acute
-<dead_doubleacute> <V>                  : "V̋"
-<dead_doubleacute> <v>                  : "v̋"
-<dead_doubleacute> <U0245>              : "Ʌ̋"     # Ʌ + Double Acute
-<dead_doubleacute> <U028C>              : "ʌ̋"     # ʌ + Double Acute
-<dead_doubleacute> <U21BA> <V>          : "Ʌ̋"     # Ʌ + Double Acute
-<dead_doubleacute> <U21BA> <v>          : "ʌ̋"     # ʌ + Double Acute
-<dead_doubleacute> <UA760>              : "Ꝡ̋"     # Ꝡ + Double Acute
-<dead_doubleacute> <UA761>              : "ꝡ̋"     # ꝡ + Double Acute
-<dead_doubleacute> <U1DCF> <V> <Y>      : "Ꝡ̋"     # Ꝡ + Double Acute
-<dead_doubleacute> <U1DCF> <v> <y>      : "ꝡ̋"     # ꝡ + Double Acute
-<dead_doubleacute> <W>                  : "W̋"
-<dead_doubleacute> <w>                  : "w̋"
-<dead_doubleacute> <Y>                  : "Y̋"
-<dead_doubleacute> <y>                  : "y̋"
-<dead_doubleacute> <Z>                  : "Z̋"
-<dead_doubleacute> <z>                  : "z̋"
+<dead_doubleacute> <A>                                  : "A̋"
+<dead_doubleacute> <a>                                  : "a̋"
+<dead_doubleacute> <UA732>                              : "Ꜳ̋"  # Ꜳ + Double Acute
+<dead_doubleacute> <UA733>                              : "ꜳ̋"   # ꜳ + Double Acute
+<dead_doubleacute> <U1DCF> <A> <A>                      : "Ꜳ̋"  # Ꜳ + Double Acute
+<dead_doubleacute> <U1DCF> <a> <a>                      : "ꜳ̋"   # ꜳ + Double Acute
+<dead_doubleacute> <AE>                                 : "Æ̋"
+<dead_doubleacute> <ae>                                 : "æ̋"
+<dead_doubleacute> <U1DCF> <A> <E>                      : "Æ̋"
+<dead_doubleacute> <U1DCF> <a> <e>                      : "æ̋"
+<dead_doubleacute> <UA734>                              : "Ꜵ̋"  # Ꜵ + Double Acute
+<dead_doubleacute> <UA735>                              : "ꜵ̋"   # ꜵ + Double Acute
+<dead_doubleacute> <U1DCF> <A> <O>                      : "Ꜵ̋"  # Ꜵ + Double Acute
+<dead_doubleacute> <U1DCF> <a> <o>                      : "ꜵ̋"   # ꜵ + Double Acute
+<dead_doubleacute> <UA738>                              : "Ꜹ̋"  # Ꜹ + Double Acute
+<dead_doubleacute> <UA739>                              : "ꜹ̋"   # ꜹ + Double Acute
+<dead_doubleacute> <U1DCF> <A> <V>                      : "Ꜹ̋"  # Ꜹ + Double Acute
+<dead_doubleacute> <U1DCF> <a> <v>                      : "ꜹ̋"   # ꜹ + Double Acute
+<dead_doubleacute> <U2C6D>                              : "Ɑ̋"   # Ɑ (Latin Alpha) + Double Acute
+<dead_doubleacute> <U0251>                              : "ɑ̋"   # ɑ (Latin Alpha) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <A>   : "Ɑ̋"   # Ɑ (Latin Alpha) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <a>   : "ɑ̋"   # ɑ (Latin Alpha) + Double Acute
+<dead_doubleacute> <U2C70>                              : "Ɒ̋"   # Ɒ (Turned Latin Alpha) + Double Acute
+<dead_doubleacute> <U0252>                              : "ɒ̋"   # ɒ (Turned Latin Alpha) + Double Acute
+<dead_doubleacute> <U21BA> <dead_greek> <A>             : "Ɒ̋"   # Ɒ (Turned Latin Alpha) + Double Acute
+<dead_doubleacute> <U21BA> <dead_greek> <a>             : "ɒ̋"   # ɒ (Turned Latin Alpha) + Double Acute
+<dead_doubleacute> <UA7B4>                              : "Ꞵ̋"   # Ꞵ (Latin Beta) + Double Acute
+<dead_doubleacute> <UA7B5>                              : "ꞵ̋"   # ꞵ (Latin Beta) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <B>   : "Ꞵ̋"   # Ꞵ (Latin Beta) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <b>   : "ꞵ̋"   # ꞵ (Latin Beta) + Double Acute
+<dead_doubleacute> <C>                                  : "C̋"
+<dead_doubleacute> <c>                                  : "c̋"
+<dead_doubleacute> <E>                                  : "E̋"
+<dead_doubleacute> <e>                                  : "e̋"
+<dead_doubleacute> <U0190>                              : "Ɛ̋"   # Ɛ (Latin Epsilon) + Double Acute
+<dead_doubleacute> <U025B>                              : "ɛ̋"   # ɛ (Latin Epsilon) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <E>   : "Ɛ̋"   # Ɛ (Latin Epsilon) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <e>   : "ɛ̋"   # Ɛ (Latin Epsilon) + Double Acute
+<dead_doubleacute> <UA7AB>                              : "Ɜ̋"   # Ɜ (Turned Latin Epsilon) + Double Acute
+<dead_doubleacute> <U025C>                              : "ɜ̋"   # ɜ (Turned Latin Epsilon) + Double Acute
+<dead_doubleacute> <U21BA> <dead_greek> <E>             : "Ɜ̋"   # Ɜ (Turned Latin Epsilon) + Double Acute
+<dead_doubleacute> <U21BA> <dead_greek> <e>             : "ɜ̋"   # ɜ (Turned Latin Epsilon) + Double Acute
+<dead_doubleacute> <SCHWA>                              : "Ə̋"   # Ə (Schwa) + Double Acute
+<dead_doubleacute> <schwa>                              : "ə̋"   # ə (Schwa) + Double Acute
+<dead_doubleacute> <U035A> <E>                          : "Ə̋"   # Ə (Schwa) + Double Acute
+<dead_doubleacute> <U035A> <e>                          : "ə̋"   # ə (Schwa) + Double Acute
+<dead_doubleacute> <U0258>                              : "ɘ̋"   # ɘ (Close-mid central unrounded vowel) + Double Acute
+<dead_doubleacute> <U035A> <minus> <E>                  : "ɘ̋"   # ɘ (Close-mid central unrounded vowel) + Double Acute
+<dead_doubleacute> <U035A> <minus> <e>                  : "ɘ̋"   # ɘ (Close-mid central unrounded vowel) + Double Acute
+<dead_doubleacute> <U21BA> <SCHWA>                      : "ɘ̋"   # ɘ (Close-mid central unrounded vowel) + Double Acute
+<dead_doubleacute> <U21BA> <schwa>                      : "ɘ̋"   # ɘ (Close-mid central unrounded vowel) + Double Acute
+<dead_doubleacute> <U029A>                              : "ʚ̋"   # ʚ + Double Acute
+<dead_doubleacute> <U025E>                              : "ɞ̋"   # ɞ + Double Acute
+<dead_doubleacute> <U21BA> <underscore> <E>             : "ʚ̋"   # ʚ + Double Acute
+<dead_doubleacute> <U21BA> <underscore> <e>             : "ɞ̋"   # ɞ + Double Acute
+<dead_doubleacute> <U0278>                              : "ɸ̋"   # ɸ (Latin Phi) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <F>   : "ɸ̋"   # ɸ (Latin Phi) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <f>   : "ɸ̋"   # ɸ (Latin Phi) + Double Acute
+<dead_doubleacute> <G>                                  : "G̋"
+<dead_doubleacute> <g>                                  : "g̋"
+<dead_doubleacute> <U0194>                              : "Ɣ̋"   # Ɣ (Latin Gamma) + Double Acute
+<dead_doubleacute> <U0263>                              : "ɣ̋"   # ɣ (Latin Gamma) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <G>   : "Ɣ̋"   # Ɣ (Latin Gamma) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <g>   : "ɣ̋"   # ɣ (Latin Gamma) + Double Acute
+<dead_doubleacute> <I>                                  : "I̋"
+<dead_doubleacute> <i>                                  : "i̋"
+<dead_doubleacute> <UA7AE>                              : "Ɪ̋"   # Ɪ (Near-close near-front unrounded vowel) + Double Acute
+<dead_doubleacute> <U026A>                              : "ɪ̋"   # ɪ (Near-close near-front unrounded vowel) + Double Acute
+<dead_doubleacute> <U035A> <I>                          : "Ɪ̋"   # Ɪ (Near-close near-front unrounded vowel) + Double Acute
+<dead_doubleacute> <U035A> <i>                          : "ɪ̋"   # ɪ (Near-close near-front unrounded vowel) + Double Acute
+<dead_doubleacute> <J>                                  : "J̋"
+<dead_doubleacute> <j>                                  : "j̋"
+<dead_doubleacute> <U035A> <J>                          : "ɟ̋"   # ɟ (Barred Dotless J) + Double Acute
+<dead_doubleacute> <U035A> <j>                          : "ɟ̋"   # ɟ (Barred Dotless J) + Double Acute
+<dead_doubleacute> <L>                                  : "L̋"
+<dead_doubleacute> <l>                                  : "l̋"
+<dead_doubleacute> <U1DF08>                             : "𝼈̋"   # 𝼈 (Retroflex lateral flap) + Double Acute
+<dead_doubleacute> <U027A>                              : "ɺ̋"   # ɺ (Lateral flap) + Double Acute
+<dead_doubleacute> <U035A> <L>                          : "𝼈̋"   # 𝼈 (Retroflex lateral flap) + Double Acute
+<dead_doubleacute> <U035A> <l>                          : "ɺ̋"   # ɺ (Lateral flap) + Double Acute
+<dead_doubleacute> <M>                                  : "M̋"
+<dead_doubleacute> <m>                                  : "m̋"
+<dead_doubleacute> <U0270>                              : "ɰ̋"   # ɰ (Voiced velar approximant) + Double Acute
+<dead_doubleacute> <U035A> <M>                          : "ɰ̋"   # ɰ (Voiced velar approximant) + Double Acute
+<dead_doubleacute> <U035A> <m>                          : "ɰ̋"   # ɰ (Voiced velar approximant) + Double Acute
+<dead_doubleacute> <N>                                  : "N̋"
+<dead_doubleacute> <n>                                  : "n̋"
+<dead_doubleacute> <ENG>                                : "Ŋ̋"   # Ŋ + Double Acute
+<dead_doubleacute> <eng>                                : "ŋ̋"   # ŋ + Double Acute
+<dead_doubleacute> <OE>                                 : "Œ̋"
+<dead_doubleacute> <oe>                                 : "œ̋"
+<dead_doubleacute> <U1DCF> <O> <E>                      : "Œ̋"
+<dead_doubleacute> <U1DCF> <o> <e>                      : "œ̋"
+<dead_doubleacute> <UA74E>                              : "Ꝏ̋"  # Ꝏ + Double Acute
+<dead_doubleacute> <UA74F>                              : "ꝏ̋"  # ꝏ + Double Acute
+<dead_doubleacute> <U1DCF> <O> <O>                      : "Ꝏ̋"  # Ꝏ + Double Acute
+<dead_doubleacute> <U1DCF> <o> <o>                      : "ꝏ̋"  # ꝏ + Double Acute
+<dead_doubleacute> <U0186>                              : "Ɔ̋"   # Ɔ + Double Acute
+<dead_doubleacute> <U0254>                              : "ɔ̋"   # ɔ + Double Acute
+<dead_doubleacute> <UA7CB>                              : "Ɤ̋"   # Ɤ (Ram's Horn) + Double Acute
+<dead_doubleacute> <U0264>                              : "ɤ̋"   # ɤ (Ram's Horn) + Double Acute
+<dead_doubleacute> <P>                                  : "P̋"
+<dead_doubleacute> <p>                                  : "p̋"
+<dead_doubleacute> <Q>                                  : "Q̋"
+<dead_doubleacute> <q>                                  : "q̋"
+<dead_doubleacute> <R>                                  : "R̋"
+<dead_doubleacute> <r>                                  : "r̋"
+<dead_doubleacute> <U027B>                              : "ɻ̋"   # ɻ + Double Acute
+<dead_doubleacute> <U0279>                              : "ɹ̋"   # ɹ + Double Acute
+<dead_doubleacute> <U035A> <R>                          : "ɻ̋"   # ɻ + Double Acute
+<dead_doubleacute> <U035A> <r>                          : "ɹ̋"   # ɹ + Double Acute
+<dead_doubleacute> <U21BA> <R>                          : "ɻ̋"   # ɻ + Double Acute
+<dead_doubleacute> <U21BA> <r>                          : "ɹ̋"   # ɹ + Double Acute
+<dead_doubleacute> <S>                                  : "S̋"
+<dead_doubleacute> <s>                                  : "s̋"
+<dead_doubleacute> <U01A9>                              : "Ʃ̋"   # Ʃ (Esh) + Double Acute
+<dead_doubleacute> <U0283>                              : "ʃ̋"   # ʃ (Esh) + Double Acute
+<dead_doubleacute> <U035A> <S>                          : "Ʃ̋"   # Ʃ (Esh) + Double Acute
+<dead_doubleacute> <U035A> <s>                          : "ʃ̋"   # ʃ (Esh) + Double Acute
+<dead_doubleacute> <U01B1>                              : "Ʊ̋"   # Ʊ (Latin Upsilon) + Double Acute
+<dead_doubleacute> <U028A>                              : "ʊ̋"   # ʊ (Latin Upsilon) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <U>   : "Ʊ̋"   # Ʊ (Latin Upsilon) + Double Acute
+<dead_doubleacute> <dead_greek> <dead_circumflex> <u>   : "ʊ̋"   # ʊ (Latin Upsilon) + Double Acute
+<dead_doubleacute> <U019C>                              : "Ɯ̋"   # Ɯ (Turned M) + Double Acute
+<dead_doubleacute> <U026F>                              : "ɯ̋"   # ɯ (Turned M) + Double Acute
+<dead_doubleacute> <U21BA> <M>                          : "Ɯ̋"   # Ɯ (Turned M) + Double Acute
+<dead_doubleacute> <U21BA> <m>                          : "ɯ̋"   # ɯ (Turned M) + Double Acute
+<dead_doubleacute> <V>                                  : "V̋"
+<dead_doubleacute> <v>                                  : "v̋"
+<dead_doubleacute> <U0245>                              : "Ʌ̋"   # Ʌ + Double Acute
+<dead_doubleacute> <U028C>                              : "ʌ̋"   # ʌ + Double Acute
+<dead_doubleacute> <U21BA> <V>                          : "Ʌ̋"   # Ʌ + Double Acute
+<dead_doubleacute> <U21BA> <v>                          : "ʌ̋"   # ʌ + Double Acute
+<dead_doubleacute> <UA760>                              : "Ꝡ̋"   # Ꝡ + Double Acute
+<dead_doubleacute> <UA761>                              : "ꝡ̋"   # ꝡ + Double Acute
+<dead_doubleacute> <U1DCF> <V> <Y>                      : "Ꝡ̋"   # Ꝡ + Double Acute
+<dead_doubleacute> <U1DCF> <v> <y>                      : "ꝡ̋"   # ꝡ + Double Acute
+<dead_doubleacute> <W>                                  : "W̋"
+<dead_doubleacute> <w>                                  : "w̋"
+<dead_doubleacute> <Y>                                  : "Y̋"
+<dead_doubleacute> <y>                                  : "y̋"
+<dead_doubleacute> <U21BA> <Y>                          : "⅄̋"   # ⅄ + Double Acute
+<dead_doubleacute> <U21BA> <y>                          : "ʎ̋"   # ʎ + Double Acute
+<dead_doubleacute> <U21BA> <Y>                          : "⅄̋"   # ⅄ + Double Acute
+<dead_doubleacute> <U21BA> <y>                          : "ʎ̋"   # ʎ + Double Acute
+<dead_doubleacute> <Z>                                  : "Z̋"
+<dead_doubleacute> <z>                                  : "z̋"
+<dead_doubleacute> <U0294>                              : "ʔ̋"   # ʔ (Glottal Stop) + Double Acute
+<dead_doubleacute> <U035A> <question>                   : "ʔ̋"   # ʔ (Glottal Stop) + Double Acute
+<dead_doubleacute> <U035A> <U0241> <space>              : "ʔ̋"   # Ɂ (Capital Glottal Stop) + Double Acute
+<dead_doubleacute> <U035A> <U0242> <space>              : "ʔ̋"   # ɂ (Small Glottal Stop) + Double Acute
+<dead_doubleacute> <U0241>                              : "Ɂ̋"   # Ɂ (Capital Glottal Stop) + Double Acute
+<dead_doubleacute> <U0242>                              : "ɂ̋"   # ɂ (Small Glottal Stop) + Double Acute
+<dead_doubleacute> <U0295>                              : "ʕ̋"   # ʕ (Turned Glottal Glottal Stop) + Double Acute
+<dead_doubleacute> <U035A> <questiondown>               : "ʕ̋"   # ʕ (Turned Glottal Glottal Stop) + Double Acute
+<dead_doubleacute> <U035A> <U0241> <underscore> <space> : "ʕ̋"   # Ɂ (Capital Glottal Stop) + "_" + Double Acute
+<dead_doubleacute> <U035A> <U0242> <underscore> <space> : "ʕ̋"   # ɂ (Small Glottal Stop) + "_" + Double Acute
 
 
 # Composed double acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
@@ -106,60 +181,66 @@
 # - ᷎ (Combining Ogonek Above [U1DCE]) -> Represents the "Ogonek Above" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_doubleacute> <Aogonek>                        : "Ą̋"
-<dead_doubleacute> <aogonek>                        : "ą̋"
-<dead_doubleacute> <dead_ogonek> <A>                : "Ą̋"
-<dead_doubleacute> <dead_ogonek> <a>                : "ą̋"
-<dead_doubleacute> <Ecaron>                         : "Ě̋"
-<dead_doubleacute> <ecaron>                         : "ě̋"
-<dead_doubleacute> <dead_caron> <E>                 : "Ě̋"
-<dead_doubleacute> <dead_caron> <e>                 : "ě̋"
-<dead_doubleacute> <Eogonek>                        : "Ę̋"
-<dead_doubleacute> <eogonek>                        : "ę̋"
-<dead_doubleacute> <dead_ogonek> <E>                : "Ę̋"
-<dead_doubleacute> <dead_ogonek> <e>                : "ę̋"
-<dead_doubleacute> <Iogonek>                        : "Į̋"
-<dead_doubleacute> <iogonek>                        : "į̋"
-<dead_doubleacute> <dead_ogonek> <I>                : "Į̋"
-<dead_doubleacute> <dead_ogonek> <i>                : "į̋"
-<dead_doubleacute> <U0197>                          : "Ɨ̋"   # Ɨ + Double Acute
-<dead_doubleacute> <U0268>                          : "ɨ̋"   # ɨ + Double Acute
-<dead_doubleacute> <dead_stroke> <I>                : "Ɨ̋"
-<dead_doubleacute> <dead_stroke> <i>                : "ɨ̋"
-<dead_doubleacute> <dead_stroke> <Idotabove>        : "Ɨ̋"
-<dead_doubleacute> <dead_stroke> <idotless>         : "ɨ̋"
-<dead_doubleacute> <U01EA>                          : "Ǫ̋"   # Ǫ + Double Acute Accent
-<dead_doubleacute> <U01EB>                          : "ǫ̋"   # ǫ + Double Acute Accent
-<dead_doubleacute> <dead_ogonek> <O>                : "Ǫ̋"
-<dead_doubleacute> <dead_ogonek> <o>                : "ǫ̋"
-<dead_doubleacute> <Omacron>                        : "Ō̋"
-<dead_doubleacute> <omacron>                        : "ō̋"
-<dead_doubleacute> <dead_macron> <O>                : "Ō̋"
-<dead_doubleacute> <dead_macron> <o>                : "ō̋"
-<dead_doubleacute> <U019F>                          : "Ɵ̋"   # Ɵ + Double Acute
-<dead_doubleacute> <U0275>                          : "ɵ̋"   # ɵ + Double Acute
-<dead_doubleacute> <dead_stroke> <O>                : "Ɵ̋"
-<dead_doubleacute> <dead_stroke> <o>                : "ɵ̋"
-<dead_doubleacute> <Oslash>                         : "Ø̋"
-<dead_doubleacute> <oslash>                         : "ø̋"
-<dead_doubleacute> <dead_longsolidusoverlay> <O>    : "Ø̋"
-<dead_doubleacute> <dead_longsolidusoverlay> <o>    : "ø̋"
-<dead_doubleacute> <Uogonek>                        : "Ų̋"
-<dead_doubleacute> <uogonek>                        : "ų̋"
-<dead_doubleacute> <dead_ogonek> <U>                : "Ų̋"
-<dead_doubleacute> <dead_ogonek> <u>                : "ų̋"
-<dead_doubleacute> <Umacron>                        : "Ū̋"
-<dead_doubleacute> <umacron>                        : "ū̋"
-<dead_doubleacute> <dead_macron> <U>                : "Ū̋"
-<dead_doubleacute> <dead_macron> <u>                : "ū̋"
-<dead_doubleacute> <U0244>                          : "Ʉ̋"   # Ʉ + Double Acute
-<dead_doubleacute> <U0289>                          : "ʉ̋"   # ʉ + Double Acute
-<dead_doubleacute> <dead_stroke> <U>                : "Ʉ̋"
-<dead_doubleacute> <dead_stroke> <u>                : "ʉ̋"
-<dead_doubleacute> <UA7B8>                          : "Ꞹ̋"   # Ꞹ + Double Acute
-<dead_doubleacute> <UA7B9>                          : "ꞹ̋"   # ꞹ + Double Acute
-<dead_doubleacute> <dead_longsolidusoverlay> <U>    : "Ꞹ̋"
-<dead_doubleacute> <dead_longsolidusoverlay> <u>    : "ꞹ̋"
+<dead_doubleacute> <Aogonek>                            : "Ą̋"
+<dead_doubleacute> <aogonek>                            : "ą̋"
+<dead_doubleacute> <dead_ogonek> <A>                    : "Ą̋"
+<dead_doubleacute> <dead_ogonek> <a>                    : "ą̋"
+<dead_doubleacute> <Ecaron>                             : "Ě̋"
+<dead_doubleacute> <ecaron>                             : "ě̋"
+<dead_doubleacute> <dead_caron> <E>                     : "Ě̋"
+<dead_doubleacute> <dead_caron> <e>                     : "ě̋"
+<dead_doubleacute> <Eogonek>                            : "Ę̋"
+<dead_doubleacute> <eogonek>                            : "ę̋"
+<dead_doubleacute> <dead_ogonek> <E>                    : "Ę̋"
+<dead_doubleacute> <dead_ogonek> <e>                    : "ę̋"
+<dead_doubleacute> <Iogonek>                            : "Į̋"
+<dead_doubleacute> <iogonek>                            : "į̋"
+<dead_doubleacute> <dead_ogonek> <I>                    : "Į̋"
+<dead_doubleacute> <dead_ogonek> <i>                    : "į̋"
+<dead_doubleacute> <U0197>                              : "Ɨ̋"   # Ɨ + Double Acute
+<dead_doubleacute> <U0268>                              : "ɨ̋"   # ɨ + Double Acute
+<dead_doubleacute> <dead_stroke> <I>                    : "Ɨ̋"
+<dead_doubleacute> <dead_stroke> <i>                    : "ɨ̋"
+<dead_doubleacute> <dead_stroke> <Idotabove>            : "Ɨ̋"
+<dead_doubleacute> <dead_stroke> <idotless>             : "ɨ̋"
+<dead_doubleacute> <U01EA>                              : "Ǫ̋"   # Ǫ + Double Acute Accent
+<dead_doubleacute> <U01EB>                              : "ǫ̋"   # ǫ + Double Acute Accent
+<dead_doubleacute> <dead_ogonek> <O>                    : "Ǫ̋"
+<dead_doubleacute> <dead_ogonek> <o>                    : "ǫ̋"
+<dead_doubleacute> <Omacron>                            : "Ō̋"
+<dead_doubleacute> <omacron>                            : "ō̋"
+<dead_doubleacute> <dead_macron> <O>                    : "Ō̋"
+<dead_doubleacute> <dead_macron> <o>                    : "ō̋"
+<dead_doubleacute> <U019F>                              : "Ɵ̋"   # Ɵ + Double Acute
+<dead_doubleacute> <U0275>                              : "ɵ̋"   # ɵ + Double Acute
+<dead_doubleacute> <dead_stroke> <O>                    : "Ɵ̋"
+<dead_doubleacute> <dead_stroke> <o>                    : "ɵ̋"
+<dead_doubleacute> <Oslash>                             : "Ø̋"
+<dead_doubleacute> <oslash>                             : "ø̋"
+<dead_doubleacute> <dead_longsolidusoverlay> <O>        : "Ø̋"
+<dead_doubleacute> <dead_longsolidusoverlay> <o>        : "ø̋"
+<dead_doubleacute> <Uogonek>                            : "Ų̋"
+<dead_doubleacute> <uogonek>                            : "ų̋"
+<dead_doubleacute> <dead_ogonek> <U>                    : "Ų̋"
+<dead_doubleacute> <dead_ogonek> <u>                    : "ų̋"
+<dead_doubleacute> <Umacron>                            : "Ū̋"
+<dead_doubleacute> <umacron>                            : "ū̋"
+<dead_doubleacute> <dead_macron> <U>                    : "Ū̋"
+<dead_doubleacute> <dead_macron> <u>                    : "ū̋"
+<dead_doubleacute> <U0244>                              : "Ʉ̋"   # Ʉ + Double Acute
+<dead_doubleacute> <U0289>                              : "ʉ̋"   # ʉ + Double Acute
+<dead_doubleacute> <dead_stroke> <U>                    : "Ʉ̋"
+<dead_doubleacute> <dead_stroke> <u>                    : "ʉ̋"
+<dead_doubleacute> <UA7B8>                              : "Ꞹ̋"   # Ꞹ + Double Acute
+<dead_doubleacute> <UA7B9>                              : "ꞹ̋"   # ꞹ + Double Acute
+<dead_doubleacute> <dead_longsolidusoverlay> <U>        : "Ꞹ̋"
+<dead_doubleacute> <dead_longsolidusoverlay> <u>        : "ꞹ̋"
+<dead_doubleacute> <U02A1>                              : "ʡ̋"   # Ɂ (Capital Glottal Stop) + "-" + Double Acute
+<dead_doubleacute> <U035A> <U0241> <minus>              : "ʡ̋"   # Ɂ (Capital Glottal Stop) + "-" + Double Acute
+<dead_doubleacute> <U035A> <U0242> <minus>              : "ʡ̋"   # ɂ (Small Glottal Stop) + "-" + Double Acute
+<dead_doubleacute> <U02A2>                              : "ʢ̋"   # ʢ (Barred Turned Glottal Stop) + Double Acute
+<dead_doubleacute> <U035A> <U0241> <underscore> <minus> : "ʢ̋"   # Ɂ (Capital Glottal Stop) + "_-" + Double Acute
+<dead_doubleacute> <U035A> <U0242> <underscore> <minus> : "ʢ̋"   # ɂ (Small Glottal Stop) + "_-" + Double Acute
 
 ##################
 # [END OF RULES] #

@@ -2,33 +2,35 @@
 # [AUTHOR]: Carlos González Sanz
 
 # Basic precomposed letter combinations
-<dead_longsolidusoverlay> <A>       : "Ⱥ"
-<dead_longsolidusoverlay> <a>       : "ⱥ"
-<dead_longsolidusoverlay> <C>       : "Ȼ"
-<dead_longsolidusoverlay> <c>       : "ȼ"
-<dead_longsolidusoverlay> <E>       : "Ɇ"
-<dead_longsolidusoverlay> <e>       : "ɇ"
-<dead_longsolidusoverlay> <G>       : "Ꞡ"
-<dead_longsolidusoverlay> <g>       : "ꞡ"
-<dead_longsolidusoverlay> <K>       : "Ꞣ"
-<dead_longsolidusoverlay> <k>       : "ꞣ"
-<dead_longsolidusoverlay> <L>       : "Ł"
-<dead_longsolidusoverlay> <l>       : "ł"
-<dead_longsolidusoverlay> <O>       : "Ø"
-<dead_longsolidusoverlay> <o>       : "ø"
-<dead_longsolidusoverlay> <Q>       : "Ꝙ"
-<dead_longsolidusoverlay> <q>       : "ꝙ"
-<dead_longsolidusoverlay> <R>       : "Ꞧ"
-<dead_longsolidusoverlay> <r>       : "ꞧ"
-<dead_longsolidusoverlay> <S>       : "Ꞩ"
-<dead_longsolidusoverlay> <s>       : "ꞩ"
-<dead_longsolidusoverlay> <U017F>   : "ẜ"   # ſ (Long S) + Diagonal Stroke
-<dead_longsolidusoverlay> <T>       : "Ⱦ"
-<dead_longsolidusoverlay> <t>       : "ⱦ"
-<dead_longsolidusoverlay> <U>       : "Ꞹ"
-<dead_longsolidusoverlay> <u>       : "ꞹ"
-<dead_longsolidusoverlay> <V>       : "Ꝟ"
-<dead_longsolidusoverlay> <v>       : "ꝟ"
+<dead_longsolidusoverlay> <A>           : "Ⱥ"
+<dead_longsolidusoverlay> <a>           : "ⱥ"
+<dead_longsolidusoverlay> <C>           : "Ȼ"
+<dead_longsolidusoverlay> <c>           : "ȼ"
+<dead_longsolidusoverlay> <E>           : "Ɇ"
+<dead_longsolidusoverlay> <e>           : "ɇ"
+<dead_longsolidusoverlay> <G>           : "Ꞡ"
+<dead_longsolidusoverlay> <g>           : "ꞡ"
+<dead_longsolidusoverlay> <K>           : "Ꞣ"
+<dead_longsolidusoverlay> <k>           : "ꞣ"
+<dead_longsolidusoverlay> <L>           : "Ł"
+<dead_longsolidusoverlay> <l>           : "ł"
+<dead_longsolidusoverlay> <035A> <L>    : "ᴌ"
+<dead_longsolidusoverlay> <035A> <l>    : "ᴌ"
+<dead_longsolidusoverlay> <O>           : "Ø"
+<dead_longsolidusoverlay> <o>           : "ø"
+<dead_longsolidusoverlay> <Q>           : "Ꝙ"
+<dead_longsolidusoverlay> <q>           : "ꝙ"
+<dead_longsolidusoverlay> <R>           : "Ꞧ"
+<dead_longsolidusoverlay> <r>           : "ꞧ"
+<dead_longsolidusoverlay> <S>           : "Ꞩ"
+<dead_longsolidusoverlay> <s>           : "ꞩ"
+<dead_longsolidusoverlay> <U017F>       : "ẜ"   # ſ (Long S) + Diagonal Stroke
+<dead_longsolidusoverlay> <T>           : "Ⱦ"
+<dead_longsolidusoverlay> <t>           : "ⱦ"
+<dead_longsolidusoverlay> <U>           : "Ꞹ"
+<dead_longsolidusoverlay> <u>           : "ꞹ"
+<dead_longsolidusoverlay> <V>           : "Ꝟ"
+<dead_longsolidusoverlay> <v>           : "ꝟ"
 
 
 # Other precomposed diagonal stroke combinations (Unidirectional)
@@ -49,132 +51,203 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_longsolidusoverlay> <U2C6F>             : "Ɐ̸"      # Ɐ + Diagonal Stroke
-<dead_longsolidusoverlay> <U0250>             : "ɐ̸"      # ɐ + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <A>         : "Ɐ̸"      # Ɐ + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <a>         : "ɐ̸"      # ɐ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA732>             : "Ꜳ̸"     # Ꜳ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA733>             : "ꜳ̸"      # ꜳ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <A> <A>     : "Ꜳ̸"     # Ꜳ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <a> <a>     : "ꜳ̸"      # ꜳ + Diagonal Stroke
-<dead_longsolidusoverlay> <AE>                : "Æ̸"
-<dead_longsolidusoverlay> <ae>                : "æ̸"
-<dead_longsolidusoverlay> <U1DCF> <A> <E>     : "Æ̸"
-<dead_longsolidusoverlay> <U1DCF> <a> <e>     : "æ̸"
-<dead_longsolidusoverlay> <UA734>             : "Ꜵ̸"     # Ꜵ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA735>             : "ꜵ̸"      # ꜵ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <A> <O>     : "Ꜵ̸"     # Ꜵ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <a> <o>     : "ꜵ̸"      # ꜵ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA736>             : "Ꜷ̸"     # Ꜷ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA737>             : "ꜷ̸"      # ꜷ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <A> <U>     : "Ꜷ̸"     # Ꜷ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <a> <u>     : "ꜷ̸"      # ꜷ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA738>             : "Ꜹ̸"     # Ꜹ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA739>             : "ꜹ̸"      # ꜹ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <A> <V>     : "Ꜹ̸"     # Ꜹ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <a> <v>     : "ꜹ̸"      # ꜹ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA73C>             : "Ꜽ̸"     # Ꜽ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA73D>             : "ꜽ̸"      # ꜽ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <A> <Y>     : "Ꜽ̸"     # Ꜽ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <a> <y>     : "ꜽ̸"      # ꜽ + Diagonal Stroke
-<dead_longsolidusoverlay> <U2C6D>             : "Ɑ̸"      # Ɑ (Latin Alpha) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0251>             : "ɑ̸"      # ɑ (Latin Alpha) + Diagonal Stroke
-<dead_longsolidusoverlay> <B>                 : "B̸"
-<dead_longsolidusoverlay> <b>                 : "b̸"
-<dead_longsolidusoverlay> <D>                 : "D̸"
-<dead_longsolidusoverlay> <d>                 : "d̸"
-<dead_longsolidusoverlay> <ETH>               : "Ð̸"
-<dead_longsolidusoverlay> <eth>               : "ð̸"
-<dead_longsolidusoverlay> <UA779>             : "Ꝺ̸"      # Ꝺ (Insular D) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA77A>             : "ꝺ̸"      # ꝺ (Insular D) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0190>             : "Ɛ̸"      # Ɛ (Latin Epsilon) + Diagonal Stroke
-<dead_longsolidusoverlay> <U025B>             : "ɛ̸"      # ɛ (Latin Epsilon) + Diagonal Stroke
-<dead_longsolidusoverlay> <SCHWA>             : "Ə̸"      # Ə (Schwa) + Diagonal Stroke
-<dead_longsolidusoverlay> <schwa>             : "ə̸"      # ə (Schwa) + Diagonal Stroke
-<dead_longsolidusoverlay> <U018E>             : "Ǝ̸"      # Ǝ (Turned E) + Diagonal Stroke
-<dead_longsolidusoverlay> <U01DD>             : "ǝ̸"      # ǝ (Turned E) + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <E>         : "Ǝ̸"      # Ǝ (Turned E) + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <e>         : "ǝ̸"      # ǝ (Turned E) + Diagonal Stroke
-<dead_longsolidusoverlay> <F>                 : "F̸"
-<dead_longsolidusoverlay> <f>                 : "f̸"
-<dead_longsolidusoverlay> <UA77B>             : "Ꝼ̸"      # Ꝼ (Insular F) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA77C>             : "ꝼ̸"      # ꝼ (Insular F) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0194>             : "Ɣ̸"      # Ɣ (Latin Gamma) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0263>             : "ɣ̸"      # ɣ (Latin Gamma) + Diagonal Stroke
-<dead_longsolidusoverlay> <H>                 : "H̸"
-<dead_longsolidusoverlay> <h>                 : "h̸"
-<dead_longsolidusoverlay> <UA78D>             : "Ɥ̸"      # Ɥ (Turned H) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0265>             : "ɥ̸"      # ɥ (Turned H) + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <H>         : "Ɥ̸"      # Ɥ (Turned H) + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <h>         : "ɥ̸"      # ɥ (Turned H) + Diagonal Stroke
-<dead_longsolidusoverlay> <U2C75>             : "Ⱶ̸"      # Ⱶ (Sonus Medius) + Diagonal Stroke
-<dead_longsolidusoverlay> <U2C76>             : "ⱶ̸"      # ⱶ (Sonus Medius) + Diagonal Stroke
-<dead_longsolidusoverlay> <I>                 : "I̸"
-<dead_longsolidusoverlay> <i>                 : "i̸"
-<dead_longsolidusoverlay> <U0196>             : "Ɩ̸"      # Ɩ (Latin Iota) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0269>             : "ɩ̸"      # ɩ (Latin Iota) + Diagonal Stroke
-<dead_longsolidusoverlay> <J>                 : "J̸"
-<dead_longsolidusoverlay> <j>                 : "j̸"
-<dead_longsolidusoverlay> <M>                 : "M̸"
-<dead_longsolidusoverlay> <m>                 : "m̸"
-<dead_longsolidusoverlay> <N>                 : "N̸"
-<dead_longsolidusoverlay> <n>                 : "n̸"
-<dead_longsolidusoverlay> <ENG>               : "Ŋ̸"      # Ŋ + Diagonal Stroke
-<dead_longsolidusoverlay> <eng>               : "ŋ̸"      # ŋ + Diagonal Stroke
-<dead_longsolidusoverlay> <OE>                : "Œ̸"
-<dead_longsolidusoverlay> <oe>                : "œ̸"
-<dead_longsolidusoverlay> <U1DCF> <O> <E>     : "Œ̸"
-<dead_longsolidusoverlay> <U1DCF> <o> <e>     : "œ̸"
-<dead_longsolidusoverlay> <UA74E>             : "Ꝏ̸"     # Ꝏ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA74F>             : "ꝏ̸"     # ꝏ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <O> <O>     : "Ꝏ̸"     # Ꝏ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <o> <o>     : "ꝏ̸"     # ꝏ + Diagonal Stroke
-<dead_longsolidusoverlay> <U0186>             : "Ɔ̸"      # Ɔ + Diagonal Stroke
-<dead_longsolidusoverlay> <U0254>             : "ɔ̸"      # ɔ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA7CB>             : "Ɤ̸"      # Ɤ (Ram's Diagonal Stroke) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0264>             : "ɤ̸"      # ɤ (Ram's Diagonal Stroke) + Diagonal Stroke
-<dead_longsolidusoverlay> <P>                 : "P̸"
-<dead_longsolidusoverlay> <p>                 : "p̸"
-<dead_longsolidusoverlay> <U2183>             : "Ↄ̸"     # Ↄ (Antisigma) + Diagonal Stroke
-<dead_longsolidusoverlay> <U2184>             : "ↄ̸"     # ↄ (Antisigma) + Diagonal Stroke
-<dead_longsolidusoverlay> <U01A6>             : "Ʀ̸"     # Ʀ (Yr) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0280>             : "ʀ̸"     # ʀ (Yr) + Diagonal Stroke
-<dead_longsolidusoverlay> <A75A>              : "Ꝛ̸"     # Ꝛ (R Rotunda) + Diagonal Stroke
-<dead_longsolidusoverlay> <A75B>              : "ꝛ̸"     # ꝛ (R Rotunda) + Diagonal Stroke
-<dead_longsolidusoverlay> <U1E9E>             : "ẞ̸"     # ẞ (Eszett) + Diagonal Stroke
-<dead_longsolidusoverlay> <ssharp>            : "ß̸"
-<dead_longsolidusoverlay> <THORN>             : "Þ̸"
-<dead_longsolidusoverlay> <thorn>             : "þ̸"
-<dead_longsolidusoverlay> <U01B1>             : "Ʊ̸"     # Ʊ (Latin Upsilon) + Diagonal Stroke
-<dead_longsolidusoverlay> <U028A>             : "ʊ̸"     # ʊ (Latin Upsilon) + Diagonal Stroke
-<dead_longsolidusoverlay> <U019C>             : "Ɯ̸"     # Ɯ (Turned M) + Diagonal Stroke
-<dead_longsolidusoverlay> <U026F>             : "ɯ̸"     # ɯ (Turned M) + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <M>         : "Ɯ̸"     # Ɯ (Turned M) + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <m>         : "ɯ̸"     # ɯ (Turned M) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0245>             : "Ʌ̸"     # Ʌ + Diagonal Stroke
-<dead_longsolidusoverlay> <U028C>             : "ʌ̸"     # ʌ + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <V>         : "Ʌ̸"     # Ʌ + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <v>         : "ʌ̸"     # ʌ + Diagonal Stroke
-<dead_longsolidusoverlay> <U01B2>             : "Ʋ̸"     # Ʋ + Diagonal Stroke
-<dead_longsolidusoverlay> <U028B>             : "ʋ̸"     # ʋ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA768>             : "Ꝩ̸"     # Ꝩ (Vend) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA769>             : "ꝩ̸"     # ꝩ (Vend) + Diagonal Stroke
-<dead_longsolidusoverlay> <W>                 : "W̸"
-<dead_longsolidusoverlay> <w>                 : "w̸"
-<dead_longsolidusoverlay> <U2132>             : "Ⅎ̸"     # Ⅎ (Digamma Inversum) + Diagonal Stroke
-<dead_longsolidusoverlay> <U214E>             : "ⅎ̸"     # ⅎ (Digamma Inversum) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA760>             : "Ꝡ̸"     # Ꝡ + Diagonal Stroke
-<dead_longsolidusoverlay> <UA761>             : "ꝡ̸"     # ꝡ + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DCF> <V> <Y>     : "Ꝡ̸"
-<dead_longsolidusoverlay> <U1DCF> <v> <y>     : "ꝡ̸"
-<dead_longsolidusoverlay> <X>                 : "X̸"
-<dead_longsolidusoverlay> <x>                 : "x̸"
-<dead_longsolidusoverlay> <Y>                 : "Y̸"
-<dead_longsolidusoverlay> <y>                 : "y̸"
-<dead_longsolidusoverlay> <Z>                 : "Z̸"
-<dead_longsolidusoverlay> <z>                 : "z̸"
-<dead_longsolidusoverlay> <EZH>               : "Ʒ̸"     # Ʒ + Diagonal Stroke
-<dead_longsolidusoverlay> <ezh>               : "ʒ̸"     # ʒ + Diagonal Stroke
+<dead_longsolidusoverlay> <U2C6F>                               : "Ɐ̸"   # Ɐ + Diagonal Stroke
+<dead_longsolidusoverlay> <U0250>                               : "ɐ̸"   # ɐ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <A>                           : "Ɐ̸"   # Ɐ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <a>                           : "ɐ̸"   # ɐ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA732>                               : "Ꜳ̸"  # Ꜳ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA733>                               : "ꜳ̸"   # ꜳ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <A> <A>                       : "Ꜳ̸"  # Ꜳ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <a> <a>                       : "ꜳ̸"   # ꜳ + Diagonal Stroke
+<dead_longsolidusoverlay> <AE>                                  : "Æ̸"
+<dead_longsolidusoverlay> <ae>                                  : "æ̸"
+<dead_longsolidusoverlay> <U1DCF> <A> <E>                       : "Æ̸"
+<dead_longsolidusoverlay> <U1DCF> <a> <e>                       : "æ̸"
+<dead_longsolidusoverlay> <UA734>                               : "Ꜵ̸"  # Ꜵ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA735>                               : "ꜵ̸"   # ꜵ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <A> <O>                       : "Ꜵ̸"  # Ꜵ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <a> <o>                       : "ꜵ̸"   # ꜵ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA736>                               : "Ꜷ̸"  # Ꜷ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA737>                               : "ꜷ̸"   # ꜷ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <A> <U>                       : "Ꜷ̸"  # Ꜷ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <a> <u>                       : "ꜷ̸"   # ꜷ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA738>                               : "Ꜹ̸"  # Ꜹ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA739>                               : "ꜹ̸"   # ꜹ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <A> <V>                       : "Ꜹ̸"  # Ꜹ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <a> <v>                       : "ꜹ̸"   # ꜹ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA73C>                               : "Ꜽ̸"  # Ꜽ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA73D>                               : "ꜽ̸"   # ꜽ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <A> <Y>                       : "Ꜽ̸"  # Ꜽ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <a> <y>                       : "ꜽ̸"   # ꜽ + Diagonal Stroke
+<dead_longsolidusoverlay> <U2C6D>                               : "Ɑ̸"   # Ɑ (Latin Alpha) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0251>                               : "ɑ̸"   # ɑ (Latin Alpha) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <A>    : "Ɑ̸"   # Ɑ (Latin Alpha) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <a>    : "ɑ̸"   # ɑ (Latin Alpha) + Diagonal Stroke
+<dead_longsolidusoverlay> <U2C70>                               : "Ɒ̸"   # Ɒ (Turned Latin Alpha) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0252>                               : "ɒ̸"   # ɒ (Turned Latin Alpha) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <dead_greek> <A>              : "Ɒ̸"   # Ɒ (Turned Latin Alpha) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <dead_greek> <a>              : "ɒ̸"   # ɒ (Turned Latin Alpha) + Diagonal Stroke
+<dead_longsolidusoverlay> <B>                                   : "B̸"
+<dead_longsolidusoverlay> <b>                                   : "b̸"
+<dead_longsolidusoverlay> <UA7B4>                               : "Ꞵ̸"   # Ꞵ (Latin Beta) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA7B5>                               : "ꞵ̸"   # ꞵ (Latin Beta) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <B>    : "Ꞵ̸"   # Ꞵ (Latin Beta) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <b>    : "ꞵ̸"   # ꞵ (Latin Beta) + Diagonal Stroke
+<dead_longsolidusoverlay> <D>                                   : "D̸"
+<dead_longsolidusoverlay> <d>                                   : "d̸"
+<dead_longsolidusoverlay> <ETH>                                 : "Ð̸"
+<dead_longsolidusoverlay> <eth>                                 : "ð̸"
+<dead_longsolidusoverlay> <UA779>                               : "Ꝺ̸"   # Ꝺ (Insular D) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA77A>                               : "ꝺ̸"   # ꝺ (Insular D) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0190>                               : "Ɛ̸"   # Ɛ (Latin Epsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <U025B>                               : "ɛ̸"   # ɛ (Latin Epsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <E>    : "Ɛ̸"   # Ɛ (Latin Epsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <e>    : "ɛ̸"   # Ɛ (Latin Epsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA7AB>                               : "Ɜ̸"   # Ɜ (Turned Latin Epsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <U025C>                               : "ɜ̸"   # ɜ (Turned Latin Epsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <dead_greek> <E>              : "Ɜ̸"   # Ɜ (Turned Latin Epsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <dead_greek> <e>              : "ɜ̸"   # ɜ (Turned Latin Epsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <SCHWA>                               : "Ə̸"   # Ə (Schwa) + Diagonal Stroke
+<dead_longsolidusoverlay> <schwa>                               : "ə̸"   # ə (Schwa) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <E>                           : "Ə̸"   # Ə (Schwa) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <e>                           : "ə̸"   # ə (Schwa) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0258>                               : "ɘ̸"   # ɘ (Close-mid central unrounded vowel) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <minus> <E>                   : "ɘ̸"   # ɘ (Close-mid central unrounded vowel) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <minus> <e>                   : "ɘ̸"   # ɘ (Close-mid central unrounded vowel) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <SCHWA>                       : "ɘ̸"   # ɘ (Close-mid central unrounded vowel) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <schwa>                       : "ɘ̸"   # ɘ (Close-mid central unrounded vowel) + Diagonal Stroke
+<dead_longsolidusoverlay> <U029A>                               : "ʚ̸"   # ʚ + Diagonal Stroke
+<dead_longsolidusoverlay> <U025E>                               : "ɞ̸"   # ɞ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <underscore> <E>              : "ʚ̸"   # ʚ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <underscore> <e>              : "ɞ̸"   # ɞ + Diagonal Stroke
+<dead_longsolidusoverlay> <U018E>                               : "Ǝ̸"   # Ǝ (Turned E) + Diagonal Stroke
+<dead_longsolidusoverlay> <U01DD>                               : "ǝ̸"   # ǝ (Turned E) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <E>                           : "Ǝ̸"   # Ǝ (Turned E) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <e>                           : "ǝ̸"   # ǝ (Turned E) + Diagonal Stroke
+<dead_longsolidusoverlay> <F>                                   : "F̸"
+<dead_longsolidusoverlay> <f>                                   : "f̸"
+<dead_longsolidusoverlay> <U0278>                               : "ɸ̸"   # ɸ (Latin Phi) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <F>    : "ɸ̸"   # ɸ (Latin Phi) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <f>    : "ɸ̸"   # ɸ (Latin Phi) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA77B>                               : "Ꝼ̸"   # Ꝼ (Insular F) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA77C>                               : "ꝼ̸"   # ꝼ (Insular F) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0194>                               : "Ɣ̸"   # Ɣ (Latin Gamma) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0263>                               : "ɣ̸"   # ɣ (Latin Gamma) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <G>    : "Ɣ̸"   # Ɣ (Latin Gamma) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <g>    : "ɣ̸"   # ɣ (Latin Gamma) + Diagonal Stroke
+<dead_longsolidusoverlay> <H>                                   : "H̸"
+<dead_longsolidusoverlay> <h>                                   : "h̸"
+<dead_longsolidusoverlay> <UA78D>                               : "Ɥ̸"   # Ɥ (Turned H) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0265>                               : "ɥ̸"   # ɥ (Turned H) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <H>                           : "Ɥ̸"   # Ɥ (Turned H) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <h>                           : "ɥ̸"   # ɥ (Turned H) + Diagonal Stroke
+<dead_longsolidusoverlay> <U2C75>                               : "Ⱶ̸"   # Ⱶ (Sonus Medius) + Diagonal Stroke
+<dead_longsolidusoverlay> <U2C76>                               : "ⱶ̸"   # ⱶ (Sonus Medius) + Diagonal Stroke
+<dead_longsolidusoverlay> <I>                                   : "I̸"
+<dead_longsolidusoverlay> <i>                                   : "i̸"
+<dead_longsolidusoverlay> <U0196>                               : "Ɩ̸"   # Ɩ (Latin Iota) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0269>                               : "ɩ̸"   # ɩ (Latin Iota) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA7AE>                               : "Ɪ̸"   # Ɪ (Near-close near-front unrounded vowel) + Diagonal Stroke
+<dead_longsolidusoverlay> <U026A>                               : "ɪ̸"   # ɪ (Near-close near-front unrounded vowel) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <I>                           : "Ɪ̸"   # Ɪ (Near-close near-front unrounded vowel) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <i>                           : "ɪ̸"   # ɪ (Near-close near-front unrounded vowel) + Diagonal Stroke
+<dead_longsolidusoverlay> <J>                                   : "J̸"
+<dead_longsolidusoverlay> <j>                                   : "j̸"
+<dead_longsolidusoverlay> <U035A> <J>                           : "ɟ̸"   # ɟ (Barred Dotless J) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <j>                           : "ɟ̸"   # ɟ (Barred Dotless J) + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DF08>                              : "𝼈̸"   # 𝼈 (Retroflex lateral flap) + Diagonal Stroke
+<dead_longsolidusoverlay> <U027A>                               : "ɺ̸"   # ɺ (Lateral flap) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <L>                           : "𝼈̸"   # 𝼈 (Retroflex lateral flap) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <l>                           : "ɺ̸"   # ɺ (Lateral flap) + Diagonal Stroke
+<dead_longsolidusoverlay> <M>                                   : "M̸"
+<dead_longsolidusoverlay> <m>                                   : "m̸"
+<dead_longsolidusoverlay> <U0270>                               : "ɰ̸"   # ɰ (Voiced velar approximant) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <M>                           : "ɰ̸"   # ɰ (Voiced velar approximant) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <m>                           : "ɰ̸"   # ɰ (Voiced velar approximant) + Diagonal Stroke
+<dead_longsolidusoverlay> <N>                                   : "N̸"
+<dead_longsolidusoverlay> <n>                                   : "n̸"
+<dead_longsolidusoverlay> <ENG>                                 : "Ŋ̸"   # Ŋ + Diagonal Stroke
+<dead_longsolidusoverlay> <eng>                                 : "ŋ̸"   # ŋ + Diagonal Stroke
+<dead_longsolidusoverlay> <OE>                                  : "Œ̸"
+<dead_longsolidusoverlay> <oe>                                  : "œ̸"
+<dead_longsolidusoverlay> <U1DCF> <O> <E>                       : "Œ̸"
+<dead_longsolidusoverlay> <U1DCF> <o> <e>                       : "œ̸"
+<dead_longsolidusoverlay> <UA74E>                               : "Ꝏ̸"  # Ꝏ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA74F>                               : "ꝏ̸"  # ꝏ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <O> <O>                       : "Ꝏ̸"  # Ꝏ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <o> <o>                       : "ꝏ̸"  # ꝏ + Diagonal Stroke
+<dead_longsolidusoverlay> <U0186>                               : "Ɔ̸"   # Ɔ + Diagonal Stroke
+<dead_longsolidusoverlay> <U0254>                               : "ɔ̸"   # ɔ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA7CB>                               : "Ɤ̸"   # Ɤ (Ram's Diagonal Stroke) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0264>                               : "ɤ̸"   # ɤ (Ram's Diagonal Stroke) + Diagonal Stroke
+<dead_longsolidusoverlay> <P>                                   : "P̸"
+<dead_longsolidusoverlay> <p>                                   : "p̸"
+<dead_longsolidusoverlay> <U2183>                               : "Ↄ̸"   # Ↄ (Antisigma) + Diagonal Stroke
+<dead_longsolidusoverlay> <U2184>                               : "ↄ̸"   # ↄ (Antisigma) + Diagonal Stroke
+<dead_longsolidusoverlay> <U027B>                               : "ɻ̸"   # ɻ + Diagonal Stroke
+<dead_longsolidusoverlay> <U0279>                               : "ɹ̸"   # ɹ + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <R>                           : "ɻ̸"   # ɻ + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <r>                           : "ɹ̸"   # ɹ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <R>                           : "ɻ̸"   # ɻ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <r>                           : "ɹ̸"   # ɹ + Diagonal Stroke
+<dead_longsolidusoverlay> <U01A6>                               : "Ʀ̸"   # Ʀ (Yr) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0280>                               : "ʀ̸"   # ʀ (Yr) + Diagonal Stroke
+<dead_longsolidusoverlay> <A75A>                                : "Ꝛ̸"   # Ꝛ (R Rotunda) + Diagonal Stroke
+<dead_longsolidusoverlay> <A75B>                                : "ꝛ̸"   # ꝛ (R Rotunda) + Diagonal Stroke
+<dead_longsolidusoverlay> <U1E9E>                               : "ẞ̸"   # ẞ (Eszett) + Diagonal Stroke
+<dead_longsolidusoverlay> <ssharp>                              : "ß̸"
+<dead_longsolidusoverlay> <U01A9>                               : "Ʃ̸"   # Ʃ (Esh) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0283>                               : "ʃ̸"   # ʃ (Esh) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <S>                           : "Ʃ̸"   # Ʃ (Esh) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <s>                           : "ʃ̸"   # ʃ (Esh) + Diagonal Stroke
+<dead_longsolidusoverlay> <THORN>                               : "Þ̸"
+<dead_longsolidusoverlay> <thorn>                               : "þ̸"
+<dead_longsolidusoverlay> <U01B1>                               : "Ʊ̸"   # Ʊ (Latin Upsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <U028A>                               : "ʊ̸"   # ʊ (Latin Upsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <U>    : "Ʊ̸"   # Ʊ (Latin Upsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_greek> <dead_circumflex> <u>    : "ʊ̸"   # ʊ (Latin Upsilon) + Diagonal Stroke
+<dead_longsolidusoverlay> <U019C>                               : "Ɯ̸"   # Ɯ (Turned M) + Diagonal Stroke
+<dead_longsolidusoverlay> <U026F>                               : "ɯ̸"   # ɯ (Turned M) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <M>                           : "Ɯ̸"   # Ɯ (Turned M) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <m>                           : "ɯ̸"   # ɯ (Turned M) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0245>                               : "Ʌ̸"   # Ʌ + Diagonal Stroke
+<dead_longsolidusoverlay> <U028C>                               : "ʌ̸"   # ʌ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <V>                           : "Ʌ̸"   # Ʌ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <v>                           : "ʌ̸"   # ʌ + Diagonal Stroke
+<dead_longsolidusoverlay> <U01B2>                               : "Ʋ̸"   # Ʋ + Diagonal Stroke
+<dead_longsolidusoverlay> <U028B>                               : "ʋ̸"   # ʋ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA768>                               : "Ꝩ̸"   # Ꝩ (Vend) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA769>                               : "ꝩ̸"   # ꝩ (Vend) + Diagonal Stroke
+<dead_longsolidusoverlay> <W>                                   : "W̸"
+<dead_longsolidusoverlay> <w>                                   : "w̸"
+<dead_longsolidusoverlay> <U2132>                               : "Ⅎ̸"   # Ⅎ (Digamma Inversum) + Diagonal Stroke
+<dead_longsolidusoverlay> <U214E>                               : "ⅎ̸"   # ⅎ (Digamma Inversum) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA760>                               : "Ꝡ̸"   # Ꝡ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA761>                               : "ꝡ̸"   # ꝡ + Diagonal Stroke
+<dead_longsolidusoverlay> <U1DCF> <V> <Y>                       : "Ꝡ̸"
+<dead_longsolidusoverlay> <U1DCF> <v> <y>                       : "ꝡ̸"
+<dead_longsolidusoverlay> <X>                                   : "X̸"
+<dead_longsolidusoverlay> <x>                                   : "x̸"
+<dead_longsolidusoverlay> <Y>                                   : "Y̸"
+<dead_longsolidusoverlay> <y>                                   : "y̸"
+<dead_longsolidusoverlay> <U21BA> <Y>                           : "⅄̸"   # ⅄ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <y>                           : "ʎ̸"   # ʎ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <Y>                           : "⅄̸"   # ⅄ + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <y>                           : "ʎ̸"   # ʎ + Diagonal Stroke
+<dead_longsolidusoverlay> <Z>                                   : "Z̸"
+<dead_longsolidusoverlay> <z>                                   : "z̸"
+<dead_longsolidusoverlay> <EZH>                                 : "Ʒ̸"   # Ʒ + Diagonal Stroke
+<dead_longsolidusoverlay> <ezh>                                 : "ʒ̸"   # ʒ + Diagonal Stroke
+<dead_longsolidusoverlay> <U0294>                               : "ʔ̸"   # ʔ (Glottal Stop) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <question>                    : "ʔ̸"   # ʔ (Glottal Stop) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <U0241> <space>               : "ʔ̸"   # Ɂ (Capital Glottal Stop) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <U0242> <space>               : "ʔ̸"   # ɂ (Small Glottal Stop) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0241>                               : "Ɂ̸"   # Ɂ (Capital Glottal Stop) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0242>                               : "ɂ̸"   # ɂ (Small Glottal Stop) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0295>                               : "ʕ̸"   # ʕ (Turned Glottal Glottal Stop) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <questiondown>                : "ʕ̸"   # ʕ (Turned Glottal Glottal Stop) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <U0241> <underscore> <space>  : "ʕ̸"   # Ɂ (Capital Glottal Stop) + "_" + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <U0242> <underscore> <space>  : "ʕ̸"   # ɂ (Small Glottal Stop) + "_" + Diagonal Stroke
 
 
 # Composed diagonal stroke combinations (Not directly encoded in Unicode) (Unidirectional)
@@ -306,6 +379,12 @@
 <dead_longsolidusoverlay> <dead_doubleacute> <u>                : "ꞹ̋"
 <dead_longsolidusoverlay> <dead_belowmacron> <U>                : "Ꞹ̱"
 <dead_longsolidusoverlay> <dead_belowmacron> <u>                : "ꞹ̱"
+<dead_longsolidusoverlay> <U02A1>                               : "ʡ̸"   # Ɂ (Capital Glottal Stop) + "-" + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <U0241> <minus>               : "ʡ̸"   # Ɂ (Capital Glottal Stop) + "-" + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <U0242> <minus>               : "ʡ̸"   # ɂ (Small Glottal Stop) + "-" + Diagonal Stroke
+<dead_longsolidusoverlay> <U02A2>                               : "ʢ̸"   # ʢ (Barred Turned Glottal Stop) + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <U0241> <underscore> <minus>  : "ʢ̸"   # Ɂ (Capital Glottal Stop) + "_-" + Diagonal Stroke
+<dead_longsolidusoverlay> <U035A> <U0242> <underscore> <minus>  : "ʢ̸"   # ɂ (Small Glottal Stop) + "_-" + Diagonal Stroke
 
 ##################
 # [END OF RULES] #

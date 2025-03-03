@@ -13,148 +13,219 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_belowring> <U2C6F>             : "Ɐ̥"      # Ɐ + Ring Below
-<dead_belowring> <U0250>             : "ɐ̥"      # ɐ + Ring Below
-<dead_belowring> <U21BA> <A>         : "Ɐ̥"      # Ɐ + Ring Below
-<dead_belowring> <U21BA> <a>         : "ɐ̥"      # ɐ + Ring Below
-<dead_belowring> <UA732>             : "Ꜳ̥"     # Ꜳ + Ring Below
-<dead_belowring> <UA733>             : "ꜳ̥"      # ꜳ + Ring Below
-<dead_belowring> <U1DCF> <A> <A>     : "Ꜳ̥"     # Ꜳ + Ring Below
-<dead_belowring> <U1DCF> <a> <a>     : "ꜳ̥"      # ꜳ + Ring Below
-<dead_belowring> <AE>                : "Æ̥"
-<dead_belowring> <ae>                : "æ̥"
-<dead_belowring> <U1DCF> <A> <E>     : "Æ̥"
-<dead_belowring> <U1DCF> <a> <e>     : "æ̥"
-<dead_belowring> <UA734>             : "Ꜵ̥"     # Ꜵ + Ring Below
-<dead_belowring> <UA735>             : "ꜵ̥"      # ꜵ + Ring Below
-<dead_belowring> <U1DCF> <A> <O>     : "Ꜵ̥"     # Ꜵ + Ring Below
-<dead_belowring> <U1DCF> <a> <o>     : "ꜵ̥"      # ꜵ + Ring Below
-<dead_belowring> <UA736>             : "Ꜷ̥"     # Ꜷ + Ring Below
-<dead_belowring> <UA737>             : "ꜷ̥"      # ꜷ + Ring Below
-<dead_belowring> <U1DCF> <A> <U>     : "Ꜷ̥"     # Ꜷ + Ring Below
-<dead_belowring> <U1DCF> <a> <u>     : "ꜷ̥"      # ꜷ + Ring Below
-<dead_belowring> <UA738>             : "Ꜹ̥"     # Ꜹ + Ring Below
-<dead_belowring> <UA739>             : "ꜹ̥"      # ꜹ + Ring Below
-<dead_belowring> <U1DCF> <A> <V>     : "Ꜹ̥"     # Ꜹ + Ring Below
-<dead_belowring> <U1DCF> <a> <v>     : "ꜹ̥"      # ꜹ + Ring Below
-<dead_belowring> <UA73C>             : "Ꜽ̥"     # Ꜽ + Ring Below
-<dead_belowring> <UA73D>             : "ꜽ̥"      # ꜽ + Ring Below
-<dead_belowring> <U1DCF> <A> <Y>     : "Ꜽ̥"     # Ꜽ + Ring Below
-<dead_belowring> <U1DCF> <a> <y>     : "ꜽ̥"      # ꜽ + Ring Below
-<dead_belowring> <U2C6D>             : "Ɑ̥"      # Ɑ (Latin Alpha) + Ring Below
-<dead_belowring> <U0251>             : "ɑ̥"      # ɑ (Latin Alpha) + Ring Below
-<dead_belowring> <B>                 : "B̥"
-<dead_belowring> <b>                 : "b̥"
-<dead_belowring> <C>                 : "C̥"
-<dead_belowring> <c>                 : "c̥"
-<dead_belowring> <D>                 : "D̥"
-<dead_belowring> <d>                 : "d̥"
-<dead_belowring> <ETH>               : "Ð̥"
-<dead_belowring> <eth>               : "ð̥"
-<dead_belowring> <UA779>             : "Ꝺ̥"      # Ꝺ (Insular D) + Ring Below
-<dead_belowring> <UA77A>             : "ꝺ̥"      # ꝺ (Insular D) + Ring Below
-<dead_belowring> <E>                 : "E̥"
-<dead_belowring> <e>                 : "e̥"
-<dead_belowring> <U0190>             : "Ɛ̥"      # Ɛ (Latin Epsilon) + Ring Below
-<dead_belowring> <U025B>             : "ɛ̥"      # ɛ (Latin Epsilon) + Ring Below
-<dead_belowring> <SCHWA>             : "Ə̥"      # Ə (Schwa) + Ring Below
-<dead_belowring> <schwa>             : "ə̥"      # ə (Schwa) + Ring Below
-<dead_belowring> <U018E>             : "Ǝ̥"      # Ǝ (Turned E) + Ring Below
-<dead_belowring> <U01DD>             : "ǝ̥"      # ǝ (Turned E) + Ring Below
-<dead_belowring> <U21BA> <E>         : "Ǝ̥"      # Ǝ (Turned E) + Ring Below
-<dead_belowring> <U21BA> <e>         : "ǝ̥"      # ǝ (Turned E) + Ring Below
-<dead_belowring> <F>                 : "F̥"
-<dead_belowring> <f>                 : "f̥"
-<dead_belowring> <UA77B>             : "Ꝼ̥"      # Ꝼ (Insular F) + Ring Below
-<dead_belowring> <UA77C>             : "ꝼ̥"      # ꝼ (Insular F) + Ring Below
-<dead_belowring> <G>                 : "G̥"
-<dead_belowring> <g>                 : "g̥"
-<dead_belowring> <U0194>             : "Ɣ̥"      # Ɣ (Latin Gamma) + Ring Below
-<dead_belowring> <U0263>             : "ɣ̥"      # ɣ (Latin Gamma) + Ring Below
-<dead_belowring> <H>                 : "H̥"
-<dead_belowring> <h>                 : "h̥"
-<dead_belowring> <UA78D>             : "Ɥ̥"      # Ɥ (Turned H) + Ring Below
-<dead_belowring> <U0265>             : "ɥ̥"      # ɥ (Turned H) + Ring Below
-<dead_belowring> <U21BA> <H>         : "Ɥ̥"      # Ɥ (Turned H) + Ring Below
-<dead_belowring> <U21BA> <h>         : "ɥ̥"      # ɥ (Turned H) + Ring Below
-<dead_belowring> <I>                 : "I̥"
-<dead_belowring> <i>                 : "i̥"
-<dead_belowring> <U0196>             : "Ɩ̥"      # Ɩ (Latin Iota) + Ring Below
-<dead_belowring> <U0269>             : "ɩ̥"      # ɩ (Latin Iota) + Ring Below
-<dead_belowring> <J>                 : "J̥"
-<dead_belowring> <j>                 : "j̥"
-<dead_belowring> <K>                 : "K̥"
-<dead_belowring> <k>                 : "k̥"
-<dead_belowring> <L>                 : "L̥"
-<dead_belowring> <l>                 : "l̥"
-<dead_belowring> <M>                 : "M̥"
-<dead_belowring> <m>                 : "m̥"
-<dead_belowring> <N>                 : "N̥"
-<dead_belowring> <n>                 : "n̥"
-<dead_belowring> <ENG>               : "Ŋ̥"      # Ŋ + Ring Below
-<dead_belowring> <eng>               : "ŋ̥"      # ŋ + Ring Below
-<dead_belowring> <O>                 : "O̥"
-<dead_belowring> <o>                 : "o̥"
-<dead_belowring> <OE>                : "Œ̥"
-<dead_belowring> <oe>                : "œ̥"
-<dead_belowring> <U1DCF> <O> <E>     : "Œ̥"
-<dead_belowring> <U1DCF> <o> <e>     : "œ̥"
-<dead_belowring> <UA74E>             : "Ꝏ̥"     # Ꝏ + Ring Below
-<dead_belowring> <UA74F>             : "ꝏ̥"     # ꝏ + Ring Below
-<dead_belowring> <U1DCF> <O> <O>     : "Ꝏ̥"     # Ꝏ + Ring Below
-<dead_belowring> <U1DCF> <o> <o>     : "ꝏ̥"     # ꝏ + Ring Below
-<dead_belowring> <U0186>             : "Ɔ̥"      # Ɔ + Ring Below
-<dead_belowring> <U0254>             : "ɔ̥"      # ɔ + Ring Below
-<dead_belowring> <UA7CB>             : "Ɤ̥"      # Ɤ (Ram's Horn) + Ring Below
-<dead_belowring> <U0264>             : "ɤ̥"      # ɤ (Ram's Horn) + Ring Below
-<dead_belowring> <P>                 : "P̥"
-<dead_belowring> <p>                 : "p̥"
-<dead_belowring> <Q>                 : "Q̥"
-<dead_belowring> <q>                 : "q̥"
-<dead_belowring> <R>                 : "R̥"
-<dead_belowring> <r>                 : "r̥"
-<dead_belowring> <U01A6>             : "Ʀ̥"     # Ʀ (Yr) + Ring Below
-<dead_belowring> <U0280>             : "ʀ̥"     # ʀ (Yr) + Ring Below
-<dead_belowring> <A75A>              : "Ꝛ̥"     # Ꝛ (R Rotunda) + Ring Below
-<dead_belowring> <A75B>              : "ꝛ̥"     # ꝛ (R Rotunda) + Ring Below
-<dead_belowring> <S>                 : "S̥"
-<dead_belowring> <s>                 : "s̥"
-<dead_belowring> <T>                 : "T̥"
-<dead_belowring> <t>                 : "t̥"
-<dead_belowring> <THORN>             : "Þ̥"
-<dead_belowring> <thorn>             : "þ̥"
-<dead_belowring> <U>                 : "U̥"
-<dead_belowring> <u>                 : "u̥"
-<dead_belowring> <U01B1>             : "Ʊ̥"     # Ʊ (Latin Upsilon) + Ring Below
-<dead_belowring> <U028A>             : "ʊ̥"     # ʊ (Latin Upsilon) + Ring Below
-<dead_belowring> <U019C>             : "Ɯ̥"     # Ɯ (Turned M) + Ring Below
-<dead_belowring> <U026F>             : "ɯ̥"     # ɯ (Turned M) + Ring Below
-<dead_belowring> <U21BA> <M>         : "Ɯ̥"     # Ɯ (Turned M) + Ring Below
-<dead_belowring> <U21BA> <m>         : "ɯ̥"     # ɯ (Turned M) + Ring Below
-<dead_belowring> <V>                 : "V̥"
-<dead_belowring> <v>                 : "v̥"
-<dead_belowring> <U0245>             : "Ʌ̥"     # Ʌ + Ring Below
-<dead_belowring> <U028C>             : "ʌ̥"     # ʌ + Ring Below
-<dead_belowring> <U21BA> <V>         : "Ʌ̥"     # Ʌ + Ring Below
-<dead_belowring> <U21BA> <v>         : "ʌ̥"     # ʌ + Ring Below
-<dead_belowring> <U01B2>             : "Ʋ̥"     # Ʋ + Ring Below
-<dead_belowring> <U028B>             : "ʋ̥"     # ʋ + Ring Below
-<dead_belowring> <UA768>             : "Ꝩ̥"     # Ꝩ (Vend) + Ring Below
-<dead_belowring> <UA769>             : "ꝩ̥"     # ꝩ (Vend) + Ring Below
-<dead_belowring> <W>                 : "W̥"
-<dead_belowring> <w>                 : "w̥"
-<dead_belowring> <UA760>             : "Ꝡ̥"     # Ꝡ + Ring Below
-<dead_belowring> <UA761>             : "ꝡ̥"     # ꝡ + Ring Below
-<dead_belowring> <U1DCF> <V> <Y>     : "Ꝡ̥"
-<dead_belowring> <U1DCF> <v> <y>     : "ꝡ̥"
-<dead_belowring> <X>                 : "X̥"
-<dead_belowring> <x>                 : "x̥"
-<dead_belowring> <Y>                 : "Y̥"
-<dead_belowring> <y>                 : "y̥"
-<dead_belowring> <Z>                 : "Z̥"
-<dead_belowring> <z>                 : "z̥"
-<dead_belowring> <EZH>               : "Ʒ̥"     # Ʒ + Ring Below
-<dead_belowring> <ezh>               : "ʒ̥"     # ʒ + Ring Below
+<dead_belowring> <U2C6F>                                : "Ɐ̥"   # Ɐ + Ring Below
+<dead_belowring> <U0250>                                : "ɐ̥"   # ɐ + Ring Below
+<dead_belowring> <U21BA> <A>                            : "Ɐ̥"   # Ɐ + Ring Below
+<dead_belowring> <U21BA> <a>                            : "ɐ̥"   # ɐ + Ring Below
+<dead_belowring> <UA732>                                : "Ꜳ̥"  # Ꜳ + Ring Below
+<dead_belowring> <UA733>                                : "ꜳ̥"   # ꜳ + Ring Below
+<dead_belowring> <U1DCF> <A> <A>                        : "Ꜳ̥"  # Ꜳ + Ring Below
+<dead_belowring> <U1DCF> <a> <a>                        : "ꜳ̥"   # ꜳ + Ring Below
+<dead_belowring> <AE>                                   : "Æ̥"
+<dead_belowring> <ae>                                   : "æ̥"
+<dead_belowring> <U1DCF> <A> <E>                        : "Æ̥"
+<dead_belowring> <U1DCF> <a> <e>                        : "æ̥"
+<dead_belowring> <UA734>                                : "Ꜵ̥"  # Ꜵ + Ring Below
+<dead_belowring> <UA735>                                : "ꜵ̥"   # ꜵ + Ring Below
+<dead_belowring> <U1DCF> <A> <O>                        : "Ꜵ̥"  # Ꜵ + Ring Below
+<dead_belowring> <U1DCF> <a> <o>                        : "ꜵ̥"   # ꜵ + Ring Below
+<dead_belowring> <UA736>                                : "Ꜷ̥"  # Ꜷ + Ring Below
+<dead_belowring> <UA737>                                : "ꜷ̥"   # ꜷ + Ring Below
+<dead_belowring> <U1DCF> <A> <U>                        : "Ꜷ̥"  # Ꜷ + Ring Below
+<dead_belowring> <U1DCF> <a> <u>                        : "ꜷ̥"   # ꜷ + Ring Below
+<dead_belowring> <UA738>                                : "Ꜹ̥"  # Ꜹ + Ring Below
+<dead_belowring> <UA739>                                : "ꜹ̥"   # ꜹ + Ring Below
+<dead_belowring> <U1DCF> <A> <V>                        : "Ꜹ̥"  # Ꜹ + Ring Below
+<dead_belowring> <U1DCF> <a> <v>                        : "ꜹ̥"   # ꜹ + Ring Below
+<dead_belowring> <UA73C>                                : "Ꜽ̥"  # Ꜽ + Ring Below
+<dead_belowring> <UA73D>                                : "ꜽ̥"   # ꜽ + Ring Below
+<dead_belowring> <U1DCF> <A> <Y>                        : "Ꜽ̥"  # Ꜽ + Ring Below
+<dead_belowring> <U1DCF> <a> <y>                        : "ꜽ̥"   # ꜽ + Ring Below
+<dead_belowring> <U2C6D>                                : "Ɑ̥"   # Ɑ (Latin Alpha) + Ring Below
+<dead_belowring> <U0251>                                : "ɑ̥"   # ɑ (Latin Alpha) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <A>     : "Ɑ̥"   # Ɑ (Latin Alpha) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <a>     : "ɑ̥"   # ɑ (Latin Alpha) + Ring Below
+<dead_belowring> <U2C70>                                : "Ɒ̥"   # Ɒ (Turned Latin Alpha) + Ring Below
+<dead_belowring> <U0252>                                : "ɒ̥"   # ɒ (Turned Latin Alpha) + Ring Below
+<dead_belowring> <U21BA> <dead_greek> <A>               : "Ɒ̥"   # Ɒ (Turned Latin Alpha) + Ring Below
+<dead_belowring> <U21BA> <dead_greek> <a>               : "ɒ̥"   # ɒ (Turned Latin Alpha) + Ring Below
+<dead_belowring> <B>                                    : "B̥"
+<dead_belowring> <b>                                    : "b̥"
+<dead_belowring> <UA7B4>                                : "Ꞵ̥"   # Ꞵ (Latin Beta) + Ring Below
+<dead_belowring> <UA7B5>                                : "ꞵ̥"   # ꞵ (Latin Beta) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <B>     : "Ꞵ̥"   # Ꞵ (Latin Beta) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <b>     : "ꞵ̥"   # ꞵ (Latin Beta) + Ring Below
+<dead_belowring> <C>                                    : "C̥"
+<dead_belowring> <c>                                    : "c̥"
+<dead_belowring> <D>                                    : "D̥"
+<dead_belowring> <d>                                    : "d̥"
+<dead_belowring> <ETH>                                  : "Ð̥"
+<dead_belowring> <eth>                                  : "ð̥"
+<dead_belowring> <UA779>                                : "Ꝺ̥"   # Ꝺ (Insular D) + Ring Below
+<dead_belowring> <UA77A>                                : "ꝺ̥"   # ꝺ (Insular D) + Ring Below
+<dead_belowring> <E>                                    : "E̥"
+<dead_belowring> <e>                                    : "e̥"
+<dead_belowring> <U0190>                                : "Ɛ̥"   # Ɛ (Latin Epsilon) + Ring Below
+<dead_belowring> <U025B>                                : "ɛ̥"   # ɛ (Latin Epsilon) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <E>     : "Ɛ̥"   # Ɛ (Latin Epsilon) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <e>     : "ɛ̥"   # Ɛ (Latin Epsilon) + Ring Below
+<dead_belowring> <UA7AB>                                : "Ɜ̥"   # Ɜ (Turned Latin Epsilon) + Ring Below
+<dead_belowring> <U025C>                                : "ɜ̥"   # ɜ (Turned Latin Epsilon) + Ring Below
+<dead_belowring> <U21BA> <dead_greek> <E>               : "Ɜ̥"   # Ɜ (Turned Latin Epsilon) + Ring Below
+<dead_belowring> <U21BA> <dead_greek> <e>               : "ɜ̥"   # ɜ (Turned Latin Epsilon) + Ring Below
+<dead_belowring> <SCHWA>                                : "Ə̥"   # Ə (Schwa) + Ring Below
+<dead_belowring> <schwa>                                : "ə̥"   # ə (Schwa) + Ring Below
+<dead_belowring> <U035A> <E>                            : "Ə̥"   # Ə (Schwa) + Ring Below
+<dead_belowring> <U035A> <e>                            : "ə̥"   # ə (Schwa) + Ring Below
+<dead_belowring> <U0258>                                : "ɘ̥"   # ɘ (Close-mid central unrounded vowel) + Ring Below
+<dead_belowring> <U035A> <minus> <E>                    : "ɘ̥"   # ɘ (Close-mid central unrounded vowel) + Ring Below
+<dead_belowring> <U035A> <minus> <e>                    : "ɘ̥"   # ɘ (Close-mid central unrounded vowel) + Ring Below
+<dead_belowring> <U21BA> <SCHWA>                        : "ɘ̥"   # ɘ (Close-mid central unrounded vowel) + Ring Below
+<dead_belowring> <U21BA> <schwa>                        : "ɘ̥"   # ɘ (Close-mid central unrounded vowel) + Ring Below
+<dead_belowring> <U029A>                                : "ʚ̥"   # ʚ + Ring Below
+<dead_belowring> <U025E>                                : "ɞ̥"   # ɞ + Ring Below
+<dead_belowring> <U21BA> <underscore> <E>               : "ʚ̥"   # ʚ + Ring Below
+<dead_belowring> <U21BA> <underscore> <e>               : "ɞ̥"   # ɞ + Ring Below
+<dead_belowring> <U018E>                                : "Ǝ̥"   # Ǝ (Turned E) + Ring Below
+<dead_belowring> <U01DD>                                : "ǝ̥"   # ǝ (Turned E) + Ring Below
+<dead_belowring> <U21BA> <E>                            : "Ǝ̥"   # Ǝ (Turned E) + Ring Below
+<dead_belowring> <U21BA> <e>                            : "ǝ̥"   # ǝ (Turned E) + Ring Below
+<dead_belowring> <F>                                    : "F̥"
+<dead_belowring> <f>                                    : "f̥"
+<dead_belowring> <U0278>                                : "ɸ̥"   # ɸ (Latin Phi) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <F>     : "ɸ̥"   # ɸ (Latin Phi) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <f>     : "ɸ̥"   # ɸ (Latin Phi) + Ring Below
+<dead_belowring> <UA77B>                                : "Ꝼ̥"   # Ꝼ (Insular F) + Ring Below
+<dead_belowring> <UA77C>                                : "ꝼ̥"   # ꝼ (Insular F) + Ring Below
+<dead_belowring> <G>                                    : "G̥"
+<dead_belowring> <g>                                    : "g̥"
+<dead_belowring> <U0194>                                : "Ɣ̥"   # Ɣ (Latin Gamma) + Ring Below
+<dead_belowring> <U0263>                                : "ɣ̥"   # ɣ (Latin Gamma) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <G>     : "Ɣ̥"   # Ɣ (Latin Gamma) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <g>     : "ɣ̥"   # ɣ (Latin Gamma) + Ring Below
+<dead_belowring> <H>                                    : "H̥"
+<dead_belowring> <h>                                    : "h̥"
+<dead_belowring> <UA78D>                                : "Ɥ̥"   # Ɥ (Turned H) + Ring Below
+<dead_belowring> <U0265>                                : "ɥ̥"   # ɥ (Turned H) + Ring Below
+<dead_belowring> <U21BA> <H>                            : "Ɥ̥"   # Ɥ (Turned H) + Ring Below
+<dead_belowring> <U21BA> <h>                            : "ɥ̥"   # ɥ (Turned H) + Ring Below
+<dead_belowring> <I>                                    : "I̥"
+<dead_belowring> <i>                                    : "i̥"
+<dead_belowring> <U0196>                                : "Ɩ̥"   # Ɩ (Latin Iota) + Ring Below
+<dead_belowring> <U0269>                                : "ɩ̥"   # ɩ (Latin Iota) + Ring Below
+<dead_belowring> <UA7AE>                                : "Ɪ̥"   # Ɪ (Near-close near-front unrounded vowel) + Ring Below
+<dead_belowring> <U026A>                                : "ɪ̥"   # ɪ (Near-close near-front unrounded vowel) + Ring Below
+<dead_belowring> <U035A> <I>                            : "Ɪ̥"   # Ɪ (Near-close near-front unrounded vowel) + Ring Below
+<dead_belowring> <U035A> <i>                            : "ɪ̥"   # ɪ (Near-close near-front unrounded vowel) + Ring Below
+<dead_belowring> <J>                                    : "J̥"
+<dead_belowring> <j>                                    : "j̥"
+<dead_belowring> <U035A> <J>                            : "ɟ̥"   # ɟ (Barred Dotless J) + Ring Below
+<dead_belowring> <U035A> <j>                            : "ɟ̥"   # ɟ (Barred Dotless J) + Ring Below
+<dead_belowring> <K>                                    : "K̥"
+<dead_belowring> <k>                                    : "k̥"
+<dead_belowring> <L>                                    : "L̥"
+<dead_belowring> <l>                                    : "l̥"
+<dead_belowring> <U1DF08>                               : "𝼈̥"   # 𝼈 (Retroflex lateral flap) + Ring Below
+<dead_belowring> <U027A>                                : "ɺ̥"   # ɺ (Lateral flap) + Ring Below
+<dead_belowring> <U035A> <L>                            : "𝼈̥"   # 𝼈 (Retroflex lateral flap) + Ring Below
+<dead_belowring> <U035A> <l>                            : "ɺ̥̑"   # ɺ (Lateral flap) + Ring Below
+<dead_belowring> <M>                                    : "M̥"
+<dead_belowring> <m>                                    : "m̥"
+<dead_belowring> <U0270>                                : "ɰ̥"   # ɰ (Voiced velar approximant) + Ring Below
+<dead_belowring> <U035A> <M>                            : "ɰ̥"   # ɰ (Voiced velar approximant) + Ring Below
+<dead_belowring> <U035A> <m>                            : "ɰ̥"   # ɰ (Voiced velar approximant) + Ring Below
+<dead_belowring> <N>                                    : "N̥"
+<dead_belowring> <n>                                    : "n̥"
+<dead_belowring> <ENG>                                  : "Ŋ̥"   # Ŋ + Ring Below
+<dead_belowring> <eng>                                  : "ŋ̥"   # ŋ + Ring Below
+<dead_belowring> <O>                                    : "O̥"
+<dead_belowring> <o>                                    : "o̥"
+<dead_belowring> <OE>                                   : "Œ̥"
+<dead_belowring> <oe>                                   : "œ̥"
+<dead_belowring> <U1DCF> <O> <E>                        : "Œ̥"
+<dead_belowring> <U1DCF> <o> <e>                        : "œ̥"
+<dead_belowring> <UA74E>                                : "Ꝏ̥"  # Ꝏ + Ring Below
+<dead_belowring> <UA74F>                                : "ꝏ̥"  # ꝏ + Ring Below
+<dead_belowring> <U1DCF> <O> <O>                        : "Ꝏ̥"  # Ꝏ + Ring Below
+<dead_belowring> <U1DCF> <o> <o>                        : "ꝏ̥"  # ꝏ + Ring Below
+<dead_belowring> <U0186>                                : "Ɔ̥"   # Ɔ + Ring Below
+<dead_belowring> <U0254>                                : "ɔ̥"   # ɔ + Ring Below
+<dead_belowring> <UA7CB>                                : "Ɤ̥"   # Ɤ (Ram's Horn) + Ring Below
+<dead_belowring> <U0264>                                : "ɤ̥"   # ɤ (Ram's Horn) + Ring Below
+<dead_belowring> <P>                                    : "P̥"
+<dead_belowring> <p>                                    : "p̥"
+<dead_belowring> <Q>                                    : "Q̥"
+<dead_belowring> <q>                                    : "q̥"
+<dead_belowring> <R>                                    : "R̥"
+<dead_belowring> <r>                                    : "r̥"
+<dead_belowring> <U027B>                                : "ɻ̥"   # ɻ + Ring Below
+<dead_belowring> <U0279>                                : "ɹ̥"   # ɹ + Ring Below
+<dead_belowring> <U035A> <R>                            : "ɻ̥"   # ɻ + Ring Below
+<dead_belowring> <U035A> <r>                            : "ɹ̥"   # ɹ + Ring Below
+<dead_belowring> <U21BA> <R>                            : "ɻ̥"   # ɻ + Ring Below
+<dead_belowring> <U21BA> <r>                            : "ɹ̥"   # ɹ + Ring Below
+<dead_belowring> <U01A6>                                : "Ʀ̥"   # Ʀ (Yr) + Ring Below
+<dead_belowring> <U0280>                                : "ʀ̥"   # ʀ (Yr) + Ring Below
+<dead_belowring> <A75A>                                 : "Ꝛ̥"   # Ꝛ (R Rotunda) + Ring Below
+<dead_belowring> <A75B>                                 : "ꝛ̥"   # ꝛ (R Rotunda) + Ring Below
+<dead_belowring> <S>                                    : "S̥"
+<dead_belowring> <s>                                    : "s̥"
+<dead_belowring> <U01A9>                                : "Ʃ̥"   # Ʃ (Esh) + Ring Below
+<dead_belowring> <U0283>                                : "ʃ̥"   # ʃ (Esh) + Ring Below
+<dead_belowring> <U035A> <S>                            : "Ʃ̥"   # Ʃ (Esh) + Ring Below
+<dead_belowring> <U035A> <s>                            : "ʃ̥"   # ʃ (Esh) + Ring Below
+<dead_belowring> <T>                                    : "T̥"
+<dead_belowring> <t>                                    : "t̥"
+<dead_belowring> <THORN>                                : "Þ̥"
+<dead_belowring> <thorn>                                : "þ̥"
+<dead_belowring> <U>                                    : "U̥"
+<dead_belowring> <u>                                    : "u̥"
+<dead_belowring> <U01B1>                                : "Ʊ̥"   # Ʊ (Latin Upsilon) + Ring Below
+<dead_belowring> <U028A>                                : "ʊ̥"   # ʊ (Latin Upsilon) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <U>     : "Ʊ̥"   # Ʊ (Latin Upsilon) + Ring Below
+<dead_belowring> <dead_greek> <dead_circumflex> <u>     : "ʊ̥"   # ʊ (Latin Upsilon) + Ring Below
+<dead_belowring> <U019C>                                : "Ɯ̥"   # Ɯ (Turned M) + Ring Below
+<dead_belowring> <U026F>                                : "ɯ̥"   # ɯ (Turned M) + Ring Below
+<dead_belowring> <U21BA> <M>                            : "Ɯ̥"   # Ɯ (Turned M) + Ring Below
+<dead_belowring> <U21BA> <m>                            : "ɯ̥"   # ɯ (Turned M) + Ring Below
+<dead_belowring> <V>                                    : "V̥"
+<dead_belowring> <v>                                    : "v̥"
+<dead_belowring> <U0245>                                : "Ʌ̥"   # Ʌ + Ring Below
+<dead_belowring> <U028C>                                : "ʌ̥"   # ʌ + Ring Below
+<dead_belowring> <U21BA> <V>                            : "Ʌ̥"   # Ʌ + Ring Below
+<dead_belowring> <U21BA> <v>                            : "ʌ̥"   # ʌ + Ring Below
+<dead_belowring> <U01B2>                                : "Ʋ̥"   # Ʋ + Ring Below
+<dead_belowring> <U028B>                                : "ʋ̥"   # ʋ + Ring Below
+<dead_belowring> <UA768>                                : "Ꝩ̥"   # Ꝩ (Vend) + Ring Below
+<dead_belowring> <UA769>                                : "ꝩ̥"   # ꝩ (Vend) + Ring Below
+<dead_belowring> <W>                                    : "W̥"
+<dead_belowring> <w>                                    : "w̥"
+<dead_belowring> <UA760>                                : "Ꝡ̥"   # Ꝡ + Ring Below
+<dead_belowring> <UA761>                                : "ꝡ̥"   # ꝡ + Ring Below
+<dead_belowring> <U1DCF> <V> <Y>                        : "Ꝡ̥"
+<dead_belowring> <U1DCF> <v> <y>                        : "ꝡ̥"
+<dead_belowring> <X>                                    : "X̥"
+<dead_belowring> <x>                                    : "x̥"
+<dead_belowring> <Y>                                    : "Y̥"
+<dead_belowring> <y>                                    : "y̥"
+<dead_belowring> <U21BA> <Y>                            : "⅄̥"   # ⅄ + Ring Below
+<dead_belowring> <U21BA> <y>                            : "ʎ̥"   # ʎ + Ring Below
+<dead_belowring> <U21BA> <Y>                            : "⅄̥"   # ⅄ + Ring Below
+<dead_belowring> <U21BA> <y>                            : "ʎ̥"   # ʎ + Ring Below
+<dead_belowring> <Z>                                    : "Z̥"
+<dead_belowring> <z>                                    : "z̥"
+<dead_belowring> <EZH>                                  : "Ʒ̥"   # Ʒ + Ring Below
+<dead_belowring> <ezh>                                  : "ʒ̥"   # ʒ + Ring Below
+<dead_belowring> <U0294>                                : "ʔ̥"   # ʔ (Glottal Stop) + Ring Below
+<dead_belowring> <U035A> <question>                     : "ʔ̥"   # ʔ (Glottal Stop) + Ring Below
+<dead_belowring> <U035A> <U0241> <space>                : "ʔ̥"   # Ɂ (Capital Glottal Stop) + Ring Below
+<dead_belowring> <U035A> <U0242> <space>                : "ʔ̥"   # ɂ (Small Glottal Stop) + Ring Below
+<dead_belowring> <U0241>                                : "Ɂ̥"   # Ɂ (Capital Glottal Stop) + Ring Below
+<dead_belowring> <U0242>                                : "ɂ̥"   # ɂ (Small Glottal Stop) + Ring Below
+<dead_belowring> <U0295>                                : "ʕ̥"   # ʕ (Turned Glottal Glottal Stop) + Ring Below
+<dead_belowring> <U035A> <questiondown>                 : "ʕ̥"   # ʕ (Turned Glottal Glottal Stop) + Ring Below
+<dead_belowring> <U035A> <U0241> <underscore> <space>   : "ʕ̥"   # Ɂ (Capital Glottal Stop) + "_" + Ring Below
+<dead_belowring> <U035A> <U0242> <underscore> <space>   : "ʕ̥"   # ɂ (Small Glottal Stop) + "_" + Ring Below
 
 
 # Composed vertical line above combinations (Not directly encoded in Unicode) (Unidirectional)
@@ -314,6 +385,12 @@
 <dead_belowring> <uacute>                                   : "ú̥"
 <dead_belowring> <dead_acute> <U>                           : "Ú̥"
 <dead_belowring> <dead_acute> <u>                           : "ú̥"
+<dead_belowring> <U02A1>                                    : "ʡ̥"   # Ɂ (Capital Glottal Stop) + "-" + Ring Below
+<dead_belowring> <U035A> <U0241> <minus>                    : "ʡ̥"   # Ɂ (Capital Glottal Stop) + "-" + Ring Below
+<dead_belowring> <U035A> <U0242> <minus>                    : "ʡ̥"   # ɂ (Small Glottal Stop) + "-" + Ring Below
+<dead_belowring> <U02A2>                                    : "ʢ̥"   # ʢ (Barred Turned Glottal Stop) + Ring Below
+<dead_belowring> <U035A> <U0241> <underscore> <minus>       : "ʢ̥"   # Ɂ (Capital Glottal Stop) + "_-" + Ring Below
+<dead_belowring> <U035A> <U0242> <underscore> <minus>       : "ʢ̥"   # ɂ (Small Glottal Stop) + "_-" + Ring Below
 
 ##################
 # [END OF RULES] #

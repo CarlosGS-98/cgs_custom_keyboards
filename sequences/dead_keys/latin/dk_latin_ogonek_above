@@ -12,185 +12,262 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<U1DCE> <A>                 : "A᷎"
-<U1DCE> <a>                 : "a᷎"
-<U1DCE> <U2C6F>             : "Ɐ᷎"      # Ɐ + Ogonek Above
-<U1DCE> <U0250>             : "ɐ᷎"      # ɐ + Ogonek Above
-<U1DCE> <U21BA> <A>         : "Ɐ᷎"      # Ɐ + Ogonek Above
-<U1DCE> <U21BA> <a>         : "ɐ᷎"      # ɐ + Ogonek Above
-<U1DCE> <UA732>             : "Ꜳ᷎"     # Ꜳ + Ogonek Above
-<U1DCE> <UA733>             : "ꜳ᷎"      # ꜳ + Ogonek Above
-<U1DCE> <U1DCF> <A> <A>     : "Ꜳ᷎"     # Ꜳ + Ogonek Above
-<U1DCE> <U1DCF> <a> <a>     : "ꜳ᷎"      # ꜳ + Ogonek Above
-<U1DCE> <AE>                : "Æ᷎"
-<U1DCE> <ae>                : "æ᷎"
-<U1DCE> <U1DCF> <A> <E>     : "Æ᷎"
-<U1DCE> <U1DCF> <a> <e>     : "æ᷎"
-<U1DCE> <UA734>             : "Ꜵ᷎"     # Ꜵ + Ogonek Above
-<U1DCE> <UA735>             : "ꜵ᷎"      # ꜵ + Ogonek Above
-<U1DCE> <U1DCF> <A> <O>     : "Ꜵ᷎"     # Ꜵ + Ogonek Above
-<U1DCE> <U1DCF> <a> <o>     : "ꜵ᷎"      # ꜵ + Ogonek Above
-<U1DCE> <UA736>             : "Ꜷ᷎"     # Ꜷ + Ogonek Above
-<U1DCE> <UA737>             : "ꜷ᷎"      # ꜷ + Ogonek Above
-<U1DCE> <U1DCF> <A> <U>     : "Ꜷ᷎"     # Ꜷ + Ogonek Above
-<U1DCE> <U1DCF> <a> <u>     : "ꜷ᷎"      # ꜷ + Ogonek Above
-<U1DCE> <UA738>             : "Ꜹ᷎"     # Ꜹ + Ogonek Above
-<U1DCE> <UA739>             : "ꜹ᷎"      # ꜹ + Ogonek Above
-<U1DCE> <U1DCF> <A> <V>     : "Ꜹ᷎"     # Ꜹ + Ogonek Above
-<U1DCE> <U1DCF> <a> <v>     : "ꜹ᷎"      # ꜹ + Ogonek Above
-<U1DCE> <UA73C>             : "Ꜽ᷎"     # Ꜽ + Ogonek Above
-<U1DCE> <UA73D>             : "ꜽ᷎"      # ꜽ + Ogonek Above
-<U1DCE> <U1DCF> <A> <Y>     : "Ꜽ᷎"     # Ꜽ + Ogonek Above
-<U1DCE> <U1DCF> <a> <y>     : "ꜽ᷎"      # ꜽ + Ogonek Above
-<U1DCE> <U2C6D>             : "Ɑ᷎"      # Ɑ (Latin Alpha) + Ogonek Above
-<U1DCE> <U0251>             : "ɑ᷎"      # ɑ (Latin Alpha) + Ogonek Above
-<U1DCE> <B>                 : "B᷎"
-<U1DCE> <b>                 : "b᷎"
-<U1DCE> <C>                 : "C᷎"
-<U1DCE> <c>                 : "c᷎"
-<U1DCE> <D>                 : "D᷎"
-<U1DCE> <d>                 : "d᷎"
-<U1DCE> <ETH>               : "Ð᷎"
-<U1DCE> <eth>               : "ð᷎"
-<U1DCE> <UA779>             : "Ꝺ᷎"      # Ꝺ (Insular D) + Ogonek Above
-<U1DCE> <UA77A>             : "ꝺ᷎"      # ꝺ (Insular D) + Ogonek Above
-<U1DCE> <E>                 : "E᷎"
-<U1DCE> <e>                 : "e᷎"
-<U1DCE> <U0190>             : "Ɛ᷎"      # Ɛ (Latin Epsilon) + Ogonek Above
-<U1DCE> <U025B>             : "ɛ᷎"      # ɛ (Latin Epsilon) + Ogonek Above
-<U1DCE> <SCHWA>             : "Ə᷎"      # Ə (Schwa) + Ogonek Above
-<U1DCE> <schwa>             : "ə᷎"      # ə (Schwa) + Ogonek Above
-<U1DCE> <U018E>             : "Ǝ᷎"      # Ǝ (Turned E) + Ogonek Above
-<U1DCE> <U01DD>             : "ǝ᷎"      # ǝ (Turned E) + Ogonek Above
-<U1DCE> <U21BA> <E>         : "Ǝ᷎"      # Ǝ (Turned E) + Ogonek Above
-<U1DCE> <U21BA> <e>         : "ǝ᷎"      # ǝ (Turned E) + Ogonek Above
-<U1DCE> <F>                 : "F᷎"
-<U1DCE> <f>                 : "f᷎"
-<U1DCE> <UA77B>             : "Ꝼ᷎"      # Ꝼ (Insular F) + Ogonek Above
-<U1DCE> <UA77C>             : "ꝼ᷎"      # ꝼ (Insular F) + Ogonek Above
-<U1DCE> <G>                 : "G᷎"
-<U1DCE> <g>                 : "g᷎"
-<U1DCE> <H>                 : "H᷎"
-<U1DCE> <h>                 : "h᷎"
-<U1DCE> <U0194>             : "Ɣ᷎"      # Ɣ (Latin Gamma) + Ogonek Above
-<U1DCE> <U0263>             : "ɣ᷎"      # ɣ (Latin Gamma) + Ogonek Above
-<U1DCE> <UA78D>             : "Ɥ᷎"      # Ɥ (Turned H) + Ogonek Above
-<U1DCE> <U0265>             : "ɥ᷎"      # ɥ (Turned H) + Ogonek Above
-<U1DCE> <U21BA> <H>         : "Ɥ᷎"      # Ɥ (Turned H) + Ogonek Above
-<U1DCE> <U21BA> <h>         : "ɥ᷎"      # ɥ (Turned H) + Ogonek Above
-<U1DCE> <I>                 : "I᷎"
-<U1DCE> <i>                 : "i᷎"
-<U1DCE> <U0196>             : "Ɩ᷎"      # Ɩ (Latin Iota) + Ogonek Above
-<U1DCE> <U0269>             : "ɩ᷎"      # ɩ (Latin Iota) + Ogonek Above
-<U1DCE> <J>                 : "J᷎"
-<U1DCE> <j>                 : "j᷎"
-<U1DCE> <K>                 : "K᷎"
-<U1DCE> <k>                 : "k᷎"
-<U1DCE> <L>                 : "L᷎"
-<U1DCE> <l>                 : "l᷎"
-<U1DCE> <M>                 : "M᷎"
-<U1DCE> <m>                 : "m᷎"
-<U1DCE> <N>                 : "N᷎"
-<U1DCE> <n>                 : "n᷎"
-<U1DCE> <ENG>               : "Ŋ᷎"      # Ŋ + Ogonek Above
-<U1DCE> <eng>               : "ŋ᷎"      # ŋ + Ogonek Above
-<U1DCE> <O>                 : "O᷎"
-<U1DCE> <o>                 : "o᷎"
-<U1DCE> <OE>                : "Œ᷎"
-<U1DCE> <oe>                : "œ᷎"
-<U1DCE> <U1DCF> <O> <E>     : "Œ᷎"
-<U1DCE> <U1DCF> <o> <e>     : "œ᷎"
-<U1DCE> <UA74E>             : "Ꝏ᷎"     # Ꝏ + Ogonek Above
-<U1DCE> <UA74F>             : "ꝏ᷎"     # ꝏ + Ogonek Above
-<U1DCE> <U1DCF> <O> <O>     : "Ꝏ᷎"     # Ꝏ + Ogonek Above
-<U1DCE> <U1DCF> <o> <o>     : "ꝏ᷎"     # ꝏ + Ogonek Above
-<U1DCE> <U0186>             : "Ɔ᷎"      # Ɔ + Ogonek Above
-<U1DCE> <U0254>             : "ɔ᷎"      # ɔ + Ogonek Above
-<U1DCE> <UA7CB>             : "Ɤ᷎"      # Ɤ (Ram's Horn) + Ogonek Above
-<U1DCE> <U0264>             : "ɤ᷎"      # ɤ (Ram's Horn) + Ogonek Above
-<U1DCE> <P>                 : "P᷎"
-<U1DCE> <p>                 : "p᷎"
-<U1DCE> <Q>                 : "Q᷎"
-<U1DCE> <q>                 : "q᷎"
-<U1DCE> <R>                 : "R᷎"
-<U1DCE> <r>                 : "r᷎"
-<U1DCE> <U01A6>             : "Ʀ᷎"     # Ʀ (Yr) + Ogonek Above
-<U1DCE> <U0280>             : "ʀ᷎"     # ʀ (Yr) + Ogonek Above
-<U1DCE> <A75A>              : "Ꝛ᷎"     # Ꝛ (R Rotunda) + Ogonek Above
-<U1DCE> <A75B>              : "ꝛ᷎"     # ꝛ (R Rotunda) + Ogonek Above
-<U1DCE> <S>                 : "S᷎"
-<U1DCE> <s>                 : "s᷎"
-<U1DCE> <U1E9E>             : "ẞ᷎"     # ẞ (Eszett) + Ogonek Above
-<U1DCE> <ssharp>            : "ß᷎"
-<U1DCE> <THORN>             : "Þ᷎"
-<U1DCE> <thorn>             : "þ᷎"
-<U1DCE> <T>                 : "T᷎"
-<U1DCE> <t>                 : "t᷎"
-<U1DCE> <U>                 : "U᷎"
-<U1DCE> <u>                 : "u᷎"
-<U1DCE> <U01B1>             : "Ʊ᷎"     # Ʊ (Latin Upsilon) + Ogonek Above
-<U1DCE> <U028A>             : "ʊ᷎"     # ʊ (Latin Upsilon) + Ogonek Above
-<U1DCE> <U019C>             : "Ɯ᷎"     # Ɯ (Turned M) + Ogonek Above
-<U1DCE> <U026F>             : "ɯ᷎"     # ɯ (Turned M) + Ogonek Above
-<U1DCE> <U21BA> <M>         : "Ɯ᷎"     # Ɯ (Turned M) + Ogonek Above
-<U1DCE> <U21BA> <m>         : "ɯ᷎"     # ɯ (Turned M) + Ogonek Above
-<U1DCE> <V>                 : "V᷎"
-<U1DCE> <v>                 : "v᷎"
-<U1DCE> <U0245>             : "Ʌ᷎"     # Ʌ + Ogonek Above
-<U1DCE> <U028C>             : "ʌ᷎"     # ʌ + Ogonek Above
-<U1DCE> <U21BA> <V>         : "Ʌ᷎"     # Ʌ + Ogonek Above
-<U1DCE> <U21BA> <v>         : "ʌ᷎"     # ʌ + Ogonek Above
-<U1DCE> <U01B2>             : "Ʋ᷎"     # Ʋ + Ogonek Above
-<U1DCE> <U028B>             : "ʋ᷎"     # ʋ + Ogonek Above
-<U1DCE> <UA768>             : "Ꝩ᷎"     # Ꝩ (Vend) + Ogonek Above
-<U1DCE> <UA769>             : "ꝩ᷎"     # ꝩ (Vend) + Ogonek Above
-<U1DCE> <W>                 : "W᷎"
-<U1DCE> <w>                 : "w᷎"
-<U1DCE> <UA760>             : "Ꝡ᷎"     # Ꝡ + Ogonek Above
-<U1DCE> <UA761>             : "ꝡ᷎"     # ꝡ + Ogonek Above
-<U1DCE> <U1DCF> <V> <Y>     : "Ꝡ᷎"
-<U1DCE> <U1DCF> <v> <y>     : "ꝡ᷎"
-<U1DCE> <X>                 : "X᷎"
-<U1DCE> <x>                 : "x᷎"
-<U1DCE> <Y>                 : "Y᷎"
-<U1DCE> <y>                 : "y᷎"
-<U1DCE> <Z>                 : "Z᷎"
-<U1DCE> <z>                 : "z᷎"
-<U1DCE> <EZH>               : "Ʒ᷎"     # Ʒ + Ogonek Above
-<U1DCE> <ezh>               : "ʒ᷎"     # ʒ + Ogonek Above
+<U1DCE> <A>                                     : "A᷎"
+<U1DCE> <a>                                     : "a᷎"
+<U1DCE> <U2C6F>                                 : "Ɐ᷎"   # Ɐ + Ogonek Above
+<U1DCE> <U0250>                                 : "ɐ᷎"   # ɐ + Ogonek Above
+<U1DCE> <U21BA> <A>                             : "Ɐ᷎"   # Ɐ + Ogonek Above
+<U1DCE> <U21BA> <a>                             : "ɐ᷎"   # ɐ + Ogonek Above
+<U1DCE> <UA732>                                 : "Ꜳ᷎"  # Ꜳ + Ogonek Above
+<U1DCE> <UA733>                                 : "ꜳ᷎"   # ꜳ + Ogonek Above
+<U1DCE> <U1DCF> <A> <A>                         : "Ꜳ᷎"  # Ꜳ + Ogonek Above
+<U1DCE> <U1DCF> <a> <a>                         : "ꜳ᷎"   # ꜳ + Ogonek Above
+<U1DCE> <AE>                                    : "Æ᷎"
+<U1DCE> <ae>                                    : "æ᷎"
+<U1DCE> <U1DCF> <A> <E>                         : "Æ᷎"
+<U1DCE> <U1DCF> <a> <e>                         : "æ᷎"
+<U1DCE> <UA734>                                 : "Ꜵ᷎"  # Ꜵ + Ogonek Above
+<U1DCE> <UA735>                                 : "ꜵ᷎"   # ꜵ + Ogonek Above
+<U1DCE> <U1DCF> <A> <O>                         : "Ꜵ᷎"  # Ꜵ + Ogonek Above
+<U1DCE> <U1DCF> <a> <o>                         : "ꜵ᷎"   # ꜵ + Ogonek Above
+<U1DCE> <UA736>                                 : "Ꜷ᷎"  # Ꜷ + Ogonek Above
+<U1DCE> <UA737>                                 : "ꜷ᷎"   # ꜷ + Ogonek Above
+<U1DCE> <U1DCF> <A> <U>                         : "Ꜷ᷎"  # Ꜷ + Ogonek Above
+<U1DCE> <U1DCF> <a> <u>                         : "ꜷ᷎"   # ꜷ + Ogonek Above
+<U1DCE> <UA738>                                 : "Ꜹ᷎"  # Ꜹ + Ogonek Above
+<U1DCE> <UA739>                                 : "ꜹ᷎"   # ꜹ + Ogonek Above
+<U1DCE> <U1DCF> <A> <V>                         : "Ꜹ᷎"  # Ꜹ + Ogonek Above
+<U1DCE> <U1DCF> <a> <v>                         : "ꜹ᷎"   # ꜹ + Ogonek Above
+<U1DCE> <UA73C>                                 : "Ꜽ᷎"  # Ꜽ + Ogonek Above
+<U1DCE> <UA73D>                                 : "ꜽ᷎"   # ꜽ + Ogonek Above
+<U1DCE> <U1DCF> <A> <Y>                         : "Ꜽ᷎"  # Ꜽ + Ogonek Above
+<U1DCE> <U1DCF> <a> <y>                         : "ꜽ᷎"   # ꜽ + Ogonek Above
+<U1DCE> <U2C6D>                                 : "Ɑ᷎"   # Ɑ (Latin Alpha) + Ogonek Above
+<U1DCE> <U0251>                                 : "ɑ᷎"   # ɑ (Latin Alpha) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <A>      : "Ɑ᷎"   # Ɑ (Latin Alpha) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <a>      : "ɑ᷎"   # ɑ (Latin Alpha) + Ogonek Above
+<U1DCE> <U2C70>                                 : "Ɒ᷎"   # Ɒ (Turned Latin Alpha) + Ogonek Above
+<U1DCE> <U0252>                                 : "ɒ᷎"   # ɒ (Turned Latin Alpha) + Ogonek Above
+<U1DCE> <U21BA> <dead_greek> <A>                : "Ɒ᷎"   # Ɒ (Turned Latin Alpha) + Ogonek Above
+<U1DCE> <U21BA> <dead_greek> <a>                : "ɒ᷎"   # ɒ (Turned Latin Alpha) + Ogonek Above
+<U1DCE> <B>                                     : "B᷎"
+<U1DCE> <b>                                     : "b᷎"
+<U1DCE> <UA7B4>                                 : "Ꞵ᷎"   # Ꞵ (Latin Beta) + Ogonek Above
+<U1DCE> <UA7B5>                                 : "ꞵ᷎"   # ꞵ (Latin Beta) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <B>      : "Ꞵ᷎"   # Ꞵ (Latin Beta) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <b>      : "ꞵ᷎"   # ꞵ (Latin Beta) + Ogonek Above
+<U1DCE> <C>                                     : "C᷎"
+<U1DCE> <c>                                     : "c᷎"
+<U1DCE> <D>                                     : "D᷎"
+<U1DCE> <d>                                     : "d᷎"
+<U1DCE> <ETH>                                   : "Ð᷎"
+<U1DCE> <eth>                                   : "ð᷎"
+<U1DCE> <UA779>                                 : "Ꝺ᷎"   # Ꝺ (Insular D) + Ogonek Above
+<U1DCE> <UA77A>                                 : "ꝺ᷎"   # ꝺ (Insular D) + Ogonek Above
+<U1DCE> <E>                                     : "E᷎"
+<U1DCE> <e>                                     : "e᷎"
+<U1DCE> <U0190>                                 : "Ɛ᷎"   # Ɛ (Latin Epsilon) + Ogonek Above
+<U1DCE> <U025B>                                 : "ɛ᷎"   # ɛ (Latin Epsilon) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <E>      : "Ɛ᷎"   # Ɛ (Latin Epsilon) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <e>      : "ɛ᷎"   # Ɛ (Latin Epsilon) + Ogonek Above
+<U1DCE> <UA7AB>                                 : "Ɜ᷎"   # Ɜ (Turned Latin Epsilon) + Ogonek Above
+<U1DCE> <U025C>                                 : "ɜ᷎"   # ɜ (Turned Latin Epsilon) + Ogonek Above
+<U1DCE> <U21BA> <dead_greek> <E>                : "Ɜ᷎"   # Ɜ (Turned Latin Epsilon) + Ogonek Above
+<U1DCE> <U21BA> <dead_greek> <e>                : "ɜ᷎"   # ɜ (Turned Latin Epsilon) + Ogonek Above
+<U1DCE> <SCHWA>                                 : "Ə᷎"   # Ə (Schwa) + Ogonek Above
+<U1DCE> <schwa>                                 : "ə᷎"   # ə (Schwa) + Ogonek Above
+<U1DCE> <U035A> <E>                             : "Ə᷎"   # Ə (Schwa) + Ogonek Above
+<U1DCE> <U035A> <e>                             : "ə᷎"   # ə (Schwa) + Ogonek Above
+<U1DCE> <U0258>                                 : "ɘ᷎"   # ɘ (Close-mid central unrounded vowel) + Ogonek Above
+<U1DCE> <U035A> <minus> <E>                     : "ɘ᷎"   # ɘ (Close-mid central unrounded vowel) + Ogonek Above
+<U1DCE> <U035A> <minus> <e>                     : "ɘ᷎"   # ɘ (Close-mid central unrounded vowel) + Ogonek Above
+<U1DCE> <U21BA> <SCHWA>                         : "ɘ᷎"   # ɘ (Close-mid central unrounded vowel) + Ogonek Above
+<U1DCE> <U21BA> <schwa>                         : "ɘ᷎"   # ɘ (Close-mid central unrounded vowel) + Ogonek Above
+<U1DCE> <U029A>                                 : "ʚ᷎"   # ʚ + Ogonek Above
+<U1DCE> <U025E>                                 : "ɞ᷎"   # ɞ + Ogonek Above
+<U1DCE> <U21BA> <underscore> <E>                : "ʚ᷎"   # ʚ + Ogonek Above
+<U1DCE> <U21BA> <underscore> <e>                : "ɞ᷎"   # ɞ + Ogonek Above
+<U1DCE> <U018E>                                 : "Ǝ᷎"   # Ǝ (Turned E) + Ogonek Above
+<U1DCE> <U01DD>                                 : "ǝ᷎"   # ǝ (Turned E) + Ogonek Above
+<U1DCE> <U21BA> <E>                             : "Ǝ᷎"   # Ǝ (Turned E) + Ogonek Above
+<U1DCE> <U21BA> <e>                             : "ǝ᷎"   # ǝ (Turned E) + Ogonek Above
+<U1DCE> <F>                                     : "F᷎"
+<U1DCE> <f>                                     : "f᷎"
+<U1DCE> <U0278>                                 : "ɸ᷎"   # ɸ (Latin Phi) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <F>      : "ɸ᷎"   # ɸ (Latin Phi) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <f>      : "ɸ᷎"   # ɸ (Latin Phi) + Ogonek Above
+<U1DCE> <UA77B>                                 : "Ꝼ᷎"   # Ꝼ (Insular F) + Ogonek Above
+<U1DCE> <UA77C>                                 : "ꝼ᷎"   # ꝼ (Insular F) + Ogonek Above
+<U1DCE> <G>                                     : "G᷎"
+<U1DCE> <g>                                     : "g᷎"
+<U1DCE> <U0194>                                 : "Ɣ᷎"   # Ɣ (Latin Gamma) + Ogonek Above
+<U1DCE> <U0263>                                 : "ɣ᷎"   # ɣ (Latin Gamma) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <G>      : "Ɣ᷎"   # Ɣ (Latin Gamma) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <g>      : "ɣ᷎"   # ɣ (Latin Gamma) + Ogonek Above
+<U1DCE> <H>                                     : "H᷎"
+<U1DCE> <h>                                     : "h᷎"
+<U1DCE> <UA78D>                                 : "Ɥ᷎"   # Ɥ (Turned H) + Ogonek Above
+<U1DCE> <U0265>                                 : "ɥ᷎"   # ɥ (Turned H) + Ogonek Above
+<U1DCE> <U21BA> <H>                             : "Ɥ᷎"   # Ɥ (Turned H) + Ogonek Above
+<U1DCE> <U21BA> <h>                             : "ɥ᷎"   # ɥ (Turned H) + Ogonek Above
+<U1DCE> <I>                                     : "I᷎"
+<U1DCE> <i>                                     : "i᷎"
+<U1DCE> <U0196>                                 : "Ɩ᷎"   # Ɩ (Latin Iota) + Ogonek Above
+<U1DCE> <U0269>                                 : "ɩ᷎"   # ɩ (Latin Iota) + Ogonek Above
+<U1DCE> <UA7AE>                                 : "Ɪ᷎"   # Ɪ (Near-close near-front unrounded vowel) + Ogonek Above
+<U1DCE> <U026A>                                 : "ɪ᷎"   # ɪ (Near-close near-front unrounded vowel) + Ogonek Above
+<U1DCE> <U035A> <I>                             : "Ɪ᷎"   # Ɪ (Near-close near-front unrounded vowel) + Ogonek Above
+<U1DCE> <U035A> <i>                             : "ɪ᷎"   # ɪ (Near-close near-front unrounded vowel) + Ogonek Above
+<U1DCE> <J>                                     : "J᷎"
+<U1DCE> <j>                                     : "j᷎"
+<U1DCE> <U035A> <J>                             : "ɟ᷎"   # ɟ (Barred Dotless J) + Ogonek Above
+<U1DCE> <U035A> <j>                             : "ɟ᷎"   # ɟ (Barred Dotless J) + Ogonek Above
+<U1DCE> <K>                                     : "K᷎"
+<U1DCE> <k>                                     : "k᷎"
+<U1DCE> <L>                                     : "L᷎"
+<U1DCE> <l>                                     : "l᷎"
+<U1DCE> <U1DF08>                                : "𝼈᷎"   # 𝼈 (Retroflex lateral flap) + Ogonek Above
+<U1DCE> <U027A>                                 : "ɺ᷎"   # ɺ (Lateral flap) + Ogonek Above
+<U1DCE> <U035A> <L>                             : "𝼈᷎"   # 𝼈 (Retroflex lateral flap) + Ogonek Above
+<U1DCE> <U035A> <l>                             : "ɺ᷎"   # ɺ (Lateral flap) + Ogonek Above
+<U1DCE> <M>                                     : "M᷎"
+<U1DCE> <m>                                     : "m᷎"
+<U1DCE> <U0270>                                 : "ɰ᷎"   # ɰ (Voiced velar approximant) + Ogonek Above
+<U1DCE> <U035A> <M>                             : "ɰ᷎"   # ɰ (Voiced velar approximant) + Ogonek Above
+<U1DCE> <U035A> <m>                             : "ɰ᷎"   # ɰ (Voiced velar approximant) + Ogonek Above
+<U1DCE> <N>                                     : "N᷎"
+<U1DCE> <n>                                     : "n᷎"
+<U1DCE> <ENG>                                   : "Ŋ᷎"   # Ŋ + Ogonek Above
+<U1DCE> <eng>                                   : "ŋ᷎"   # ŋ + Ogonek Above
+<U1DCE> <O>                                     : "O᷎"
+<U1DCE> <o>                                     : "o᷎"
+<U1DCE> <OE>                                    : "Œ᷎"
+<U1DCE> <oe>                                    : "œ᷎"
+<U1DCE> <U1DCF> <O> <E>                         : "Œ᷎"
+<U1DCE> <U1DCF> <o> <e>                         : "œ᷎"
+<U1DCE> <UA74E>                                 : "Ꝏ᷎"  # Ꝏ + Ogonek Above
+<U1DCE> <UA74F>                                 : "ꝏ᷎"  # ꝏ + Ogonek Above
+<U1DCE> <U1DCF> <O> <O>                         : "Ꝏ᷎"  # Ꝏ + Ogonek Above
+<U1DCE> <U1DCF> <o> <o>                         : "ꝏ᷎"  # ꝏ + Ogonek Above
+<U1DCE> <U0186>                                 : "Ɔ᷎"   # Ɔ + Ogonek Above
+<U1DCE> <U0254>                                 : "ɔ᷎"   # ɔ + Ogonek Above
+<U1DCE> <UA7CB>                                 : "Ɤ᷎"   # Ɤ (Ram's Horn) + Ogonek Above
+<U1DCE> <U0264>                                 : "ɤ᷎"   # ɤ (Ram's Horn) + Ogonek Above
+<U1DCE> <P>                                     : "P᷎"
+<U1DCE> <p>                                     : "p᷎"
+<U1DCE> <Q>                                     : "Q᷎"
+<U1DCE> <q>                                     : "q᷎"
+<U1DCE> <R>                                     : "R᷎"
+<U1DCE> <r>                                     : "r᷎"
+<U1DCE> <U027B>                                 : "ɻ᷎"   # ɻ + Ogonek Above
+<U1DCE> <U0279>                                 : "ɹ᷎"   # ɹ + Ogonek Above
+<U1DCE> <U035A> <R>                             : "ɻ᷎"   # ɻ + Ogonek Above
+<U1DCE> <U035A> <r>                             : "ɹ᷎"   # ɹ + Ogonek Above
+<U1DCE> <U21BA> <R>                             : "ɻ᷎"   # ɻ + Ogonek Above
+<U1DCE> <U21BA> <r>                             : "ɹ᷎"   # ɹ + Ogonek Above
+<U1DCE> <U01A6>                                 : "Ʀ᷎"   # Ʀ (Yr) + Ogonek Above
+<U1DCE> <U0280>                                 : "ʀ᷎"   # ʀ (Yr) + Ogonek Above
+<U1DCE> <A75A>                                  : "Ꝛ᷎"   # Ꝛ (R Rotunda) + Ogonek Above
+<U1DCE> <A75B>                                  : "ꝛ᷎"   # ꝛ (R Rotunda) + Ogonek Above
+<U1DCE> <S>                                     : "S᷎"
+<U1DCE> <s>                                     : "s᷎"
+<U1DCE> <U1E9E>                                 : "ẞ᷎"   # ẞ (Eszett) + Ogonek Above
+<U1DCE> <ssharp>                                : "ß᷎"
+<U1DCE> <U01A9>                                 : "Ʃ᷎"   # Ʃ (Esh) + Ogonek Above
+<U1DCE> <U0283>                                 : "ʃ᷎"   # ʃ (Esh) + Ogonek Above
+<U1DCE> <U035A> <S>                             : "Ʃ᷎"   # Ʃ (Esh) + Ogonek Above
+<U1DCE> <U035A> <s>                             : "ʃ᷎"   # ʃ (Esh) + Ogonek Above
+<U1DCE> <THORN>                                 : "Þ᷎"
+<U1DCE> <thorn>                                 : "þ᷎"
+<U1DCE> <T>                                     : "T᷎"
+<U1DCE> <t>                                     : "t᷎"
+<U1DCE> <U>                                     : "U᷎"
+<U1DCE> <u>                                     : "u᷎"
+<U1DCE> <U01B1>                                 : "Ʊ᷎"   # Ʊ (Latin Upsilon) + Ogonek Above
+<U1DCE> <U028A>                                 : "ʊ᷎"   # ʊ (Latin Upsilon) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <U>      : "Ʊ᷎"   # Ʊ (Latin Upsilon) + Ogonek Above
+<U1DCE> <dead_greek> <dead_circumflex> <u>      : "ʊ᷎"   # ʊ (Latin Upsilon) + Ogonek Above
+<U1DCE> <U019C>                                 : "Ɯ᷎"   # Ɯ (Turned M) + Ogonek Above
+<U1DCE> <U026F>                                 : "ɯ᷎"   # ɯ (Turned M) + Ogonek Above
+<U1DCE> <U21BA> <M>                             : "Ɯ᷎"   # Ɯ (Turned M) + Ogonek Above
+<U1DCE> <U21BA> <m>                             : "ɯ᷎"   # ɯ (Turned M) + Ogonek Above
+<U1DCE> <V>                                     : "V᷎"
+<U1DCE> <v>                                     : "v᷎"
+<U1DCE> <U0245>                                 : "Ʌ᷎"   # Ʌ + Ogonek Above
+<U1DCE> <U028C>                                 : "ʌ᷎"   # ʌ + Ogonek Above
+<U1DCE> <U21BA> <V>                             : "Ʌ᷎"   # Ʌ + Ogonek Above
+<U1DCE> <U21BA> <v>                             : "ʌ᷎"   # ʌ + Ogonek Above
+<U1DCE> <U01B2>                                 : "Ʋ᷎"   # Ʋ + Ogonek Above
+<U1DCE> <U028B>                                 : "ʋ᷎"   # ʋ + Ogonek Above
+<U1DCE> <UA768>                                 : "Ꝩ᷎"   # Ꝩ (Vend) + Ogonek Above
+<U1DCE> <UA769>                                 : "ꝩ᷎"   # ꝩ (Vend) + Ogonek Above
+<U1DCE> <W>                                     : "W᷎"
+<U1DCE> <w>                                     : "w᷎"
+<U1DCE> <UA760>                                 : "Ꝡ᷎"   # Ꝡ + Ogonek Above
+<U1DCE> <UA761>                                 : "ꝡ᷎"   # ꝡ + Ogonek Above
+<U1DCE> <U1DCF> <V> <Y>                         : "Ꝡ᷎"
+<U1DCE> <U1DCF> <v> <y>                         : "ꝡ᷎"
+<U1DCE> <X>                                     : "X᷎"
+<U1DCE> <x>                                     : "x᷎"
+<U1DCE> <Y>                                     : "Y᷎"
+<U1DCE> <y>                                     : "y᷎"
+<U1DCE> <U21BA> <Y>                             : "⅄᷎"   # ⅄ + Ogonek Above
+<U1DCE> <U21BA> <y>                             : "ʎ᷎"   # ʎ + Ogonek Above
+<U1DCE> <U21BA> <Y>                             : "⅄᷎"   # ⅄ + Ogonek Above
+<U1DCE> <U21BA> <y>                             : "ʎ᷎"   # ʎ + Ogonek Above
+<U1DCE> <Z>                                     : "Z᷎"
+<U1DCE> <z>                                     : "z᷎"
+<U1DCE> <EZH>                                   : "Ʒ᷎"   # Ʒ + Ogonek Above
+<U1DCE> <ezh>                                   : "ʒ᷎"   # ʒ + Ogonek Above
+<U1DCE> <U0294>                                 : "ʔ᷎"   # ʔ (Glottal Stop) + Ogonek Above
+<U1DCE> <U035A> <question>                      : "ʔ᷎"   # ʔ (Glottal Stop) + Ogonek Above
+<U1DCE> <U035A> <U0241> <space>                 : "ʔ᷎"   # Ɂ (Capital Glottal Stop) + Ogonek Above
+<U1DCE> <U035A> <U0242> <space>                 : "ʔ᷎"   # ɂ (Small Glottal Stop) + Ogonek Above
+<U1DCE> <U0241>                                 : "Ɂ᷎"   # Ɂ (Capital Glottal Stop) + Ogonek Above
+<U1DCE> <U0242>                                 : "ɂ᷎"   # ɂ (Small Glottal Stop) + Ogonek Above
+<U1DCE> <U0295>                                 : "ʕ᷎"   # ʕ (Turned Glottal Glottal Stop) + Ogonek Above
+<U1DCE> <U035A> <questiondown>                  : "ʕ᷎"   # ʕ (Turned Glottal Glottal Stop) + Ogonek Above
+<U1DCE> <U035A> <U0241> <underscore> <space>    : "ʕ᷎"   # Ɂ (Capital Glottal Stop) + "_" + Ogonek Above
+<U1DCE> <U035A> <U0242> <underscore> <space>    : "ʕ᷎"   # ɂ (Small Glottal Stop) + "_" + Ogonek Above
 
 
 # Composed ogonek combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main source]: https://fr.wikipedia.org/wiki/Ogonek_suscrit
 #
-<U1DCE> <Aogonek>                       : "Ą᷎"
-<U1DCE> <aogonek>                       : "ą᷎"
-<U1DCE> <dead_ogonek> <A>               : "Ą᷎"
-<U1DCE> <dead_ogonek> <a>               : "ą᷎"
-<U1DCE> <Eogonek>                       : "Ę᷎"
-<U1DCE> <eogonek>                       : "ę᷎"
-<U1DCE> <dead_ogonek> <E>               : "Ę᷎"
-<U1DCE> <dead_ogonek> <e>               : "ę᷎"
-<U1DCE> <Iogonek>                       : "Į᷎"
-<U1DCE> <iogonek>                       : "į᷎"
-<U1DCE> <dead_ogonek> <I>               : "Į᷎"
-<U1DCE> <dead_ogonek> <i>               : "į᷎"
-<U1DCE> <Oacute>                        : "Ó᷎"
-<U1DCE> <oacute>                        : "ó᷎"
-<U1DCE> <dead_acute> <O>                : "Ó᷎"
-<U1DCE> <dead_acute> <o>                : "ó᷎"
-<U1DCE> <U01EA>                         : "Ǫ᷎"   # Ǫ + Ogonek Above
-<U1DCE> <U01EB>                         : "ǫ᷎"   # ǫ + Ogonek Above
-<U1DCE> <dead_ogonek> <O>               : "Ǫ᷎"
-<U1DCE> <dead_ogonek> <o>               : "ǫ᷎"
-<U1DCE> <Oslash>                        : "Ø᷎"
-<U1DCE> <Oslash>                        : "ø᷎"
-<U1DCE> <dead_longsolidusoverlay> <O>   : "Ø᷎"
-<U1DCE> <dead_longsolidusoverlay> <o>   : "ø᷎"
-<U1DCE> <Uogonek>                       : "Ų᷎"
-<U1DCE> <uogonek>                       : "ų᷎"
-<U1DCE> <dead_ogonek> <U>               : "Ų᷎"
-<U1DCE> <dead_ogonek> <u>               : "ų᷎"
+<U1DCE> <Aogonek>                               : "Ą᷎"
+<U1DCE> <aogonek>                               : "ą᷎"
+<U1DCE> <dead_ogonek> <A>                       : "Ą᷎"
+<U1DCE> <dead_ogonek> <a>                       : "ą᷎"
+<U1DCE> <Eogonek>                               : "Ę᷎"
+<U1DCE> <eogonek>                               : "ę᷎"
+<U1DCE> <dead_ogonek> <E>                       : "Ę᷎"
+<U1DCE> <dead_ogonek> <e>                       : "ę᷎"
+<U1DCE> <Iogonek>                               : "Į᷎"
+<U1DCE> <iogonek>                               : "į᷎"
+<U1DCE> <dead_ogonek> <I>                       : "Į᷎"
+<U1DCE> <dead_ogonek> <i>                       : "į᷎"
+<U1DCE> <Oacute>                                : "Ó᷎"
+<U1DCE> <oacute>                                : "ó᷎"
+<U1DCE> <dead_acute> <O>                        : "Ó᷎"
+<U1DCE> <dead_acute> <o>                        : "ó᷎"
+<U1DCE> <U01EA>                                 : "Ǫ᷎"   # Ǫ + Ogonek Above
+<U1DCE> <U01EB>                                 : "ǫ᷎"   # ǫ + Ogonek Above
+<U1DCE> <dead_ogonek> <O>                       : "Ǫ᷎"
+<U1DCE> <dead_ogonek> <o>                       : "ǫ᷎"
+<U1DCE> <Oslash>                                : "Ø᷎"
+<U1DCE> <Oslash>                                : "ø᷎"
+<U1DCE> <dead_longsolidusoverlay> <O>           : "Ø᷎"
+<U1DCE> <dead_longsolidusoverlay> <o>           : "ø᷎"
+<U1DCE> <Uogonek>                               : "Ų᷎"
+<U1DCE> <uogonek>                               : "ų᷎"
+<U1DCE> <dead_ogonek> <U>                       : "Ų᷎"
+<U1DCE> <dead_ogonek> <u>                       : "ų᷎"
+<U1DCE> <U02A1>                                 : "ʡ᷎"   # Ɂ (Capital Glottal Stop) + "-" + Ogonek Above
+<U1DCE> <U035A> <U0241> <minus>                 : "ʡ᷎"   # Ɂ (Capital Glottal Stop) + "-" + Ogonek Above
+<U1DCE> <U035A> <U0242> <minus>                 : "ʡ᷎"   # ɂ (Small Glottal Stop) + "-" + Ogonek Above
+<U1DCE> <U02A2>                                 : "ʢ᷎"   # ʢ (Barred Turned Glottal Stop) + Ogonek Above
+<U1DCE> <U035A> <U0241> <underscore> <minus>    : "ʢ᷎"   # Ɂ (Capital Glottal Stop) + "_-" + Ogonek Above
+<U1DCE> <U035A> <U0242> <underscore> <minus>    : "ʢ᷎"   # ɂ (Small Glottal Stop) + "_-" + Ogonek Above
 
 ##################
 # [END OF RULES] #

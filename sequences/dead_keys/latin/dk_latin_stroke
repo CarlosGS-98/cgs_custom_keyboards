@@ -7,59 +7,80 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_stroke> <2>                   : "ƻ"
-<dead_stroke> <UA738>               : "Ꜻ"  # Ꜹ + Stroke
-<dead_stroke> <UA739>               : "ꜻ"   # ꜹ + Stroke
-<dead_stroke> <U1DCF> <A> <V>       : "Ꜻ"  # Ꜹ + Stroke
-<dead_stroke> <U1DCF> <a> <v>       : "ꜻ"   # ꜹ + Stroke
-<dead_stroke> <B>                   : "Ƀ"
-<dead_stroke> <b>                   : "ƀ"
-<dead_stroke> <C>                   : "Ꞓ"
-<dead_stroke> <c>                   : "ꞓ"
-<dead_stroke> <D>                   : "Đ"
-<dead_stroke> <d>                   : "đ"
-<dead_stroke> <ETH>                 : "Ꟈ"
-<dead_stroke> <eth>                 : "ꟈ"
-<dead_stroke> <e>                   : "ꬳ"
-<dead_stroke> <F>                   : "Ꞙ"
-<dead_stroke> <f>                   : "ꞙ"
-<dead_stroke> <G>                   : "Ǥ"
-<dead_stroke> <g>                   : "ǥ"
-<dead_stroke> <H>                   : "Ħ"
-<dead_stroke> <h>                   : "ħ"
-<dead_stroke> <I>                   : "Ɨ"
-<dead_stroke> <i>                   : "ɨ"
-<dead_stroke> <U0269>               : "ᵼ"   # ɩ (Latin Iota) + Stroke
-<dead_stroke> <J>                   : "Ɉ"
-<dead_stroke> <j>                   : "ɉ"
-<dead_stroke> <K>                   : "Ꝁ"
-<dead_stroke> <k>                   : "ꝁ"
-<dead_stroke> <L>                   : "Ƚ"
-<dead_stroke> <l>                   : "ƚ"
-<dead_stroke> <UA7DA>               : "Ƛ"  # Ꟛ (Latin Lambda) + Stroke
-<dead_stroke> <UA7DB>               : "ƛ"   # ꟛ (Latin Lambda) + Stroke
-<dead_stroke> <O>                   : "Ɵ"
-<dead_stroke> <o>                   : "ɵ"
-<dead_stroke> <P>                   : "Ᵽ"
-<dead_stroke> <p>                   : "ᵽ"
-<dead_stroke> <Q>                   : "Ꝗ"
-<dead_stroke> <q>                   : "ꝗ"
-<dead_stroke> <R>                   : "Ɍ"
-<dead_stroke> <r>                   : "ɍ"
-<dead_stroke> <S>                   : "Ꟊ"
-<dead_stroke> <s>                   : "ꟊ"
-<dead_stroke> <U017F>               : "ẝ"   # ſ (Long S) + Stroke
-<dead_stroke> <T>                   : "Ŧ"
-<dead_stroke> <t>                   : "ŧ"
-<dead_stroke> <THORN>               : "Ꝥ"
-<dead_stroke> <thorn>               : "ꝥ"
-<dead_stroke> <U>                   : "Ʉ"
-<dead_stroke> <u>                   : "ʉ"
-<dead_stroke> <U028A>               : "ᵿ"   # ʊ (Latin Upsilon) + Stroke
-<dead_stroke> <Y>                   : "Ɏ"
-<dead_stroke> <y>                   : "ɏ"
-<dead_stroke> <Z>                   : "Ƶ"
-<dead_stroke> <z>                   : "ƶ"
+<dead_stroke> <2>                                   : "ƻ"
+<dead_stroke> <UA738>                               : "Ꜻ"  # Ꜹ + Stroke
+<dead_stroke> <UA739>                               : "ꜻ"   # ꜹ + Stroke
+<dead_stroke> <U1DCF> <A> <V>                       : "Ꜻ"  # Ꜹ + Stroke
+<dead_stroke> <U1DCF> <a> <v>                       : "ꜻ"   # ꜹ + Stroke
+<dead_stroke> <B>                                   : "Ƀ"
+<dead_stroke> <b>                                   : "ƀ"
+<dead_stroke> <U035A> <B>                           : "ᴃ"
+<dead_stroke> <U035A> <b>                           : "ᴃ"
+<dead_stroke> <C>                                   : "Ꞓ"
+<dead_stroke> <c>                                   : "ꞓ"
+<dead_stroke> <D>                                   : "Đ"
+<dead_stroke> <d>                                   : "đ"
+<dead_stroke> <ETH>                                 : "Ꟈ"
+<dead_stroke> <eth>                                 : "ꟈ"
+<dead_stroke> <e>                                   : "ꬳ"
+<dead_stroke> <F>                                   : "Ꞙ"
+<dead_stroke> <f>                                   : "ꞙ"
+<dead_stroke> <G>                                   : "Ǥ"
+<dead_stroke> <g>                                   : "ǥ"
+<dead_stroke> <H>                                   : "Ħ"
+<dead_stroke> <h>                                   : "ħ"
+<dead_stroke> <I>                                   : "Ɨ"
+<dead_stroke> <i>                                   : "ɨ"
+<dead_stroke> <U035A> <I>                           : "ᵻ"
+<dead_stroke> <U035A> <i>                           : "ᵻ"
+<dead_stroke> <U0269>                               : "ᵼ"   # ɩ (Latin Iota) + Stroke
+<dead_stroke> <J>                                   : "Ɉ"
+<dead_stroke> <j>                                   : "ɉ"
+<dead_stroke> <U035A> <J>                           : "ɟ"   # ɟ (Barred Dotless J) + Stroke
+<dead_stroke> <U035A> <j>                           : "ɟ"   # ɟ (Barred Dotless J) + Stroke
+<dead_stroke> <K>                                   : "Ꝁ"
+<dead_stroke> <k>                                   : "ꝁ"
+<dead_stroke> <L>                                   : "Ƚ"
+<dead_stroke> <l>                                   : "ƚ"
+<dead_stroke> <UA7DA>                               : "Ƛ"   # Ꟛ (Latin Lambda) + Stroke
+<dead_stroke> <UA7DB>                               : "ƛ"   # ꟛ (Latin Lambda) + Stroke
+<dead_stroke> <O>                                   : "Ɵ"
+<dead_stroke> <o>                                   : "ɵ"
+<dead_stroke> <P>                                   : "Ᵽ"
+<dead_stroke> <p>                                   : "ᵽ"
+<dead_stroke> <Q>                                   : "Ꝗ"
+<dead_stroke> <q>                                   : "ꝗ"
+<dead_stroke> <R>                                   : "Ɍ"
+<dead_stroke> <r>                                   : "ɍ"
+<dead_stroke> <S>                                   : "Ꟊ"
+<dead_stroke> <s>                                   : "ꟊ"
+<dead_stroke> <U035A> <S>                           : "ʄ"   # Esh + Stroke
+<dead_stroke> <U035A> <s>                           : "ʄ"   # Esh + Stroke
+<dead_stroke> <U017F>                               : "ẝ"   # ſ (Long S) + Stroke
+<dead_stroke> <T>                                   : "Ŧ"
+<dead_stroke> <t>                                   : "ŧ"
+<dead_stroke> <THORN>                               : "Ꝥ"
+<dead_stroke> <thorn>                               : "ꝥ"
+<dead_stroke> <U>                                   : "Ʉ"
+<dead_stroke> <u>                                   : "ʉ"
+<dead_stroke> <U035A> <U>                           : "ᵾ"
+<dead_stroke> <U035A> <u>                           : "ᵾ"
+<dead_stroke> <U028A>                               : "ᵿ"   # ʊ (Latin Upsilon) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <u>    : "ᵿ"  # ʊ (Latin Upsilon) + Stroke
+<dead_stroke> <Y>                                   : "Ɏ"
+<dead_stroke> <y>                                   : "ɏ"
+<dead_stroke> <Z>                                   : "Ƶ"
+<dead_stroke> <z>                                   : "ƶ"
+<dead_stroke> <U0294>                               : "ʡ"   # ʔ (Glottal Stop) + Stroke
+<dead_stroke> <U035A> <question>                    : "ʡ"   # ʔ (Glottal Stop) + Stroke
+<dead_stroke> <U035A> <U0241> <space>               : "ʡ"   # Ɂ (Capital Glottal Stop) + Stroke
+<dead_stroke> <U035A> <U0242> <space>               : "ʡ"   # ɂ (Small Glottal Stop) + Stroke
+<dead_stroke> <U0241>                               : "ʡ"   # Ɂ (Capital Glottal Stop) + Stroke
+<dead_stroke> <U0242>                               : "ʡ"   # ɂ (Small Glottal Stop)) + Stroke
+<dead_stroke> <U0295>                               : "ʢ"   # ʕ (Turned Glottal Glottal Stop) + Stroke
+<dead_stroke> <U035A> <questiondown>                : "ʢ"   # ʕ (Turned Glottal Glottal Stop) + Stroke
+<dead_stroke> <U035A> <U0241> <underscore> <space>  : "ʢ"   # Ɂ (Capital Glottal Stop) + "_" + Stroke
+<dead_stroke> <U035A> <U0242> <underscore> <space>  : "ʢ"   # ɂ (Small Glottal Stop) + "_" + Stroke
 
 
 # Other precomposed stroke combinations (Unidirectional)
@@ -75,105 +96,163 @@
 # [CUSTOM DEAD KEYS]:
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_stroke> <A>                 : "A̵"
-<dead_stroke> <a>                 : "a̵"
-<dead_stroke> <U2C6F>             : "Ɐ̵"      # Ɐ + Stroke
-<dead_stroke> <U0250>             : "ɐ̵"      # ɐ + Stroke
-<dead_stroke> <U21BA> <A>         : "Ɐ̵"      # Ɐ + Stroke
-<dead_stroke> <U21BA> <a>         : "ɐ̵"      # ɐ + Stroke
-<dead_stroke> <UA732>             : "Ꜳ̵"     # Ꜳ + Stroke
-<dead_stroke> <UA733>             : "ꜳ̵"      # ꜳ + Stroke
-<dead_stroke> <U1DCF> <A> <A>     : "Ꜳ̵"     # Ꜳ + Stroke
-<dead_stroke> <U1DCF> <a> <a>     : "ꜳ̵"      # ꜳ + Stroke
-<dead_stroke> <AE>                : "Æ̵"
-<dead_stroke> <ae>                : "æ̵"
-<dead_stroke> <U1DCF> <A> <E>     : "Æ̵"
-<dead_stroke> <U1DCF> <a> <e>     : "æ̵"
-<dead_stroke> <UA734>             : "Ꜵ̵"     # Ꜵ + Stroke
-<dead_stroke> <UA735>             : "ꜵ̵"      # ꜵ + Stroke
-<dead_stroke> <U1DCF> <A> <O>     : "Ꜵ̵"     # Ꜵ + Stroke
-<dead_stroke> <U1DCF> <a> <o>     : "ꜵ̵"      # ꜵ + Stroke
-<dead_stroke> <UA736>             : "Ꜷ̵"     # Ꜷ + Stroke
-<dead_stroke> <UA737>             : "ꜷ̵"      # ꜷ + Stroke
-<dead_stroke> <U1DCF> <A> <U>     : "Ꜷ̵"     # Ꜷ + Stroke
-<dead_stroke> <U1DCF> <a> <u>     : "ꜷ̵"      # ꜷ + Stroke
-<dead_stroke> <UA73C>             : "Ꜽ̵"     # Ꜽ + Stroke
-<dead_stroke> <UA73D>             : "ꜽ̵"      # ꜽ + Stroke
-<dead_stroke> <U1DCF> <A> <Y>     : "Ꜽ̵"     # Ꜽ + Stroke
-<dead_stroke> <U1DCF> <a> <y>     : "ꜽ̵"      # ꜽ + Stroke
-<dead_stroke> <U2C6D>             : "Ɑ̵"      # Ɑ (Latin Alpha) + Stroke
-<dead_stroke> <U0251>             : "ɑ̵"      # ɑ (Latin Alpha) + Stroke
-<dead_stroke> <UA779>             : "Ꝺ̵"      # Ꝺ (Insular D) + Stroke
-<dead_stroke> <UA77A>             : "ꝺ̵"      # ꝺ (Insular D) + Stroke
-<dead_stroke> <E>                 : "E̵"
-<dead_stroke> <U0190>             : "Ɛ̵"      # Ɛ (Latin Epsilon) + Stroke
-<dead_stroke> <U025B>             : "ɛ̵"      # ɛ (Latin Epsilon) + Stroke
-<dead_stroke> <SCHWA>             : "Ə̵"      # Ə (Schwa) + Stroke
-<dead_stroke> <schwa>             : "ə̵"      # ə (Schwa) + Stroke
-<dead_stroke> <U018E>             : "Ǝ̵"      # Ǝ (Turned E) + Stroke
-<dead_stroke> <U01DD>             : "ǝ̵"      # ǝ (Turned E) + Stroke
-<dead_stroke> <U21BA> <E>         : "Ǝ̵"      # Ǝ (Turned E) + Stroke
-<dead_stroke> <U21BA> <e>         : "ǝ̵"      # ǝ (Turned E) + Stroke
-<dead_stroke> <UA77B>             : "Ꝼ̵"      # Ꝼ (Insular F) + Stroke
-<dead_stroke> <UA77C>             : "ꝼ̵"      # ꝼ (Insular F) + Stroke
-<dead_stroke> <U0194>             : "Ɣ̵"      # Ɣ (Latin Gamma) + Stroke
-<dead_stroke> <U0263>             : "ɣ̵"      # ɣ (Latin Gamma) + Stroke
-<dead_stroke> <UA78D>             : "Ɥ̵"      # Ɥ (Turned H) + Stroke
-<dead_stroke> <U0265>             : "ɥ̵"      # ɥ (Turned H) + Stroke
-<dead_stroke> <U21BA> <H>         : "Ɥ̵"      # Ɥ (Turned H) + Stroke
-<dead_stroke> <U21BA> <h>         : "ɥ̵"      # ɥ (Turned H) + Stroke
-<dead_stroke> <U2C75>             : "Ⱶ̵"      # Ⱶ (Sonus Medius) + Stroke
-<dead_stroke> <U2C76>             : "ⱶ̵"      # ⱶ (Sonus Medius) + Stroke
-<dead_stroke> <U0196>             : "Ɩ̵"      # Ɩ (Latin Iota) + Stroke
-<dead_stroke> <M>                 : "M̵"
-<dead_stroke> <m>                 : "m̵"
-<dead_stroke> <N>                 : "N̵"
-<dead_stroke> <n>                 : "n̵"             
-<dead_stroke> <OE>                : "Œ̵"
-<dead_stroke> <oe>                : "œ̵"
-<dead_stroke> <U1DCF> <O> <E>     : "Œ̵"
-<dead_stroke> <U1DCF> <o> <e>     : "œ̵"
-<dead_stroke> <UA74E>             : "Ꝏ̵"     # Ꝏ + Stroke
-<dead_stroke> <UA74F>             : "ꝏ̵"     # ꝏ + Stroke
-<dead_stroke> <U1DCF> <O> <O>     : "Ꝏ̵"     # Ꝏ + Stroke
-<dead_stroke> <U1DCF> <o> <o>     : "ꝏ̵"     # ꝏ + Stroke
-<dead_stroke> <U0186>             : "Ɔ̵"      # Ɔ + Stroke
-<dead_stroke> <U0254>             : "ɔ̵"      # ɔ + Stroke
-<dead_stroke> <UA7CB>             : "Ɤ̵"      # Ɤ (Ram's Stroke) + Stroke
-<dead_stroke> <U0264>             : "ɤ̵"      # ɤ (Ram's Stroke) + Stroke
-<dead_stroke> <U2183>             : "Ↄ̵"     # Ↄ (Antisigma) + Stroke
-<dead_stroke> <U2184>             : "ↄ̵"     # ↄ (Antisigma) + Stroke
-<dead_stroke> <U01A6>             : "Ʀ̵"     # Ʀ (Yr) + Stroke
-<dead_stroke> <U0280>             : "ʀ̵"     # ʀ (Yr) + Stroke
-<dead_stroke> <A75A>              : "Ꝛ̵"     # Ꝛ (R Rotunda) + Stroke
-<dead_stroke> <A75B>              : "ꝛ̵"     # ꝛ (R Rotunda) + Stroke
-<dead_stroke> <U1E9E>             : "ẞ̵"     # ẞ (Eszett) + Stroke
-<dead_stroke> <ssharp>            : "ß̵"
-<dead_stroke> <U01B1>             : "Ʊ̵"     # Ʊ (Latin Upsilon) + Stroke
-<dead_stroke> <U019C>             : "Ɯ̵"     # Ɯ (Turned M) + Stroke
-<dead_stroke> <U026F>             : "ɯ̵"     # ɯ (Turned M) + Stroke
-<dead_stroke> <U21BA> <M>         : "Ɯ̵"     # Ɯ (Turned M) + Stroke
-<dead_stroke> <U21BA> <m>         : "ɯ̵"     # ɯ (Turned M) + Stroke
-<dead_stroke> <V>                 : "V̵"
-<dead_stroke> <v>                 : "v̵"
-<dead_stroke> <U0245>             : "Ʌ̵"     # Ʌ + Stroke
-<dead_stroke> <U028C>             : "ʌ̵"     # ʌ + Stroke
-<dead_stroke> <U21BA> <V>         : "Ʌ̵"     # Ʌ + Stroke
-<dead_stroke> <U21BA> <v>         : "ʌ̵"     # ʌ + Stroke
-<dead_stroke> <U01B2>             : "Ʋ̵"     # Ʋ + Stroke
-<dead_stroke> <U028B>             : "ʋ̵"     # ʋ + Stroke
-<dead_stroke> <UA768>             : "Ꝩ̵"     # Ꝩ (Vend) + Stroke
-<dead_stroke> <UA769>             : "ꝩ̵"     # ꝩ (Vend) + Stroke
-<dead_stroke> <W>                 : "W̵"
-<dead_stroke> <w>                 : "w̵"
-<dead_stroke> <UA760>             : "Ꝡ̵"     # Ꝡ + Stroke
-<dead_stroke> <UA761>             : "ꝡ̵"     # ꝡ + Stroke
-<dead_stroke> <U1DCF> <V> <Y>     : "Ꝡ̵"
-<dead_stroke> <U1DCF> <v> <y>     : "ꝡ̵"
-<dead_stroke> <X>                 : "X̵"
-<dead_stroke> <x>                 : "x̵"
-<dead_stroke> <EZH>               : "Ʒ̵"     # Ʒ + Stroke
-<dead_stroke> <ezh>               : "ʒ̵"     # ʒ + Stroke
+<dead_stroke> <A>                                   : "A̵"
+<dead_stroke> <a>                                   : "a̵"
+<dead_stroke> <U2C6F>                               : "Ɐ̵"   # Ɐ + Stroke
+<dead_stroke> <U0250>                               : "ɐ̵"   # ɐ + Stroke
+<dead_stroke> <U21BA> <A>                           : "Ɐ̵"   # Ɐ + Stroke
+<dead_stroke> <U21BA> <a>                           : "ɐ̵"   # ɐ + Stroke
+<dead_stroke> <UA732>                               : "Ꜳ̵"  # Ꜳ + Stroke
+<dead_stroke> <UA733>                               : "ꜳ̵"   # ꜳ + Stroke
+<dead_stroke> <U1DCF> <A> <A>                       : "Ꜳ̵"  # Ꜳ + Stroke
+<dead_stroke> <U1DCF> <a> <a>                       : "ꜳ̵"   # ꜳ + Stroke
+<dead_stroke> <AE>                                  : "Æ̵"
+<dead_stroke> <ae>                                  : "æ̵"
+<dead_stroke> <U1DCF> <A> <E>                       : "Æ̵"
+<dead_stroke> <U1DCF> <a> <e>                       : "æ̵"
+<dead_stroke> <UA734>                               : "Ꜵ̵"  # Ꜵ + Stroke
+<dead_stroke> <UA735>                               : "ꜵ̵"   # ꜵ + Stroke
+<dead_stroke> <U1DCF> <A> <O>                       : "Ꜵ̵"  # Ꜵ + Stroke
+<dead_stroke> <U1DCF> <a> <o>                       : "ꜵ̵"   # ꜵ + Stroke
+<dead_stroke> <UA736>                               : "Ꜷ̵"  # Ꜷ + Stroke
+<dead_stroke> <UA737>                               : "ꜷ̵"   # ꜷ + Stroke
+<dead_stroke> <U1DCF> <A> <U>                       : "Ꜷ̵"  # Ꜷ + Stroke
+<dead_stroke> <U1DCF> <a> <u>                       : "ꜷ̵"   # ꜷ + Stroke
+<dead_stroke> <UA73C>                               : "Ꜽ̵"  # Ꜽ + Stroke
+<dead_stroke> <UA73D>                               : "ꜽ̵"   # ꜽ + Stroke
+<dead_stroke> <U1DCF> <A> <Y>                       : "Ꜽ̵"  # Ꜽ + Stroke
+<dead_stroke> <U1DCF> <a> <y>                       : "ꜽ̵"   # ꜽ + Stroke
+<dead_stroke> <U2C6D>                               : "Ɑ̵"   # Ɑ (Latin Alpha) + Stroke
+<dead_stroke> <U0251>                               : "ɑ̵"   # ɑ (Latin Alpha) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <A>    : "Ɑ̵"   # Ɑ (Latin Alpha) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <a>    : "ɑ̵"   # ɑ (Latin Alpha) + Stroke
+<dead_stroke> <U2C70>                               : "Ɒ̵"   # Ɒ (Turned Latin Alpha) + Stroke
+<dead_stroke> <U0252>                               : "ɒ̵"   # ɒ (Turned Latin Alpha) + Stroke
+<dead_stroke> <U21BA> <dead_greek> <A>              : "Ɒ̵"   # Ɒ (Turned Latin Alpha) + Stroke
+<dead_stroke> <U21BA> <dead_greek> <a>              : "ɒ̵"   # ɒ (Turned Latin Alpha) + Stroke
+<dead_stroke> <UA7B4>                               : "Ꞵ̵"   # Ꞵ (Latin Beta) + Stroke
+<dead_stroke> <UA7B5>                               : "ꞵ̵"   # ꞵ (Latin Beta) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <B>    : "Ꞵ̵"   # Ꞵ (Latin Beta) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <b>    : "ꞵ̵"   # ꞵ (Latin Beta) + Stroke
+<dead_stroke> <UA779>                               : "Ꝺ̵"   # Ꝺ (Insular D) + Stroke
+<dead_stroke> <UA77A>                               : "ꝺ̵"   # ꝺ (Insular D) + Stroke
+<dead_stroke> <E>                                   : "E̵"
+<dead_stroke> <U0190>                               : "Ɛ̵"   # Ɛ (Latin Epsilon) + Stroke
+<dead_stroke> <U025B>                               : "ɛ̵"   # ɛ (Latin Epsilon) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <E>    : "Ɛ̵"   # Ɛ (Latin Epsilon) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <e>    : "ɛ̵"   # Ɛ (Latin Epsilon) + Stroke
+<dead_stroke> <UA7AB>                               : "Ɜ̵"   # Ɜ (Turned Latin Epsilon) + Stroke
+<dead_stroke> <U025C>                               : "ɜ̵"   # ɜ (Turned Latin Epsilon) + Stroke
+<dead_stroke> <U21BA> <dead_greek> <E>              : "Ɜ̵"   # Ɜ (Turned Latin Epsilon) + Stroke
+<dead_stroke> <U21BA> <dead_greek> <e>              : "ɜ̵"   # ɜ (Turned Latin Epsilon) + Stroke
+<dead_stroke> <SCHWA>                               : "Ə̵"   # Ə (Schwa) + Stroke
+<dead_stroke> <schwa>                               : "ə̵"   # ə (Schwa) + Stroke
+<dead_stroke> <U035A> <E>                           : "Ə̵"   # Ə (Schwa) + Stroke
+<dead_stroke> <U035A> <e>                           : "ə̵"   # ə (Schwa) + Stroke
+<dead_stroke> <U0258>                               : "ɘ̵"   # ɘ (Close-mid central unrounded vowel) + Stroke
+<dead_stroke> <U035A> <minus> <E>                   : "ɘ̵"   # ɘ (Close-mid central unrounded vowel) + Stroke
+<dead_stroke> <U035A> <minus> <e>                   : "ɘ̵"   # ɘ (Close-mid central unrounded vowel) + Stroke
+<dead_stroke> <U21BA> <SCHWA>                       : "ɘ̵"   # ɘ (Close-mid central unrounded vowel) + Stroke
+<dead_stroke> <U21BA> <schwa>                       : "ɘ̵"   # ɘ (Close-mid central unrounded vowel) + Stroke
+<dead_stroke> <U029A>                               : "ʚ̵"   # ʚ + Stroke
+<dead_stroke> <U025E>                               : "ɞ̵"   # ɞ + Stroke
+<dead_stroke> <U21BA> <underscore> <E>              : "ʚ̵"   # ʚ + Stroke
+<dead_stroke> <U21BA> <underscore> <e>              : "ɞ̵"   # ɞ + Stroke
+<dead_stroke> <U018E>                               : "Ǝ̵"   # Ǝ (Turned E) + Stroke
+<dead_stroke> <U01DD>                               : "ǝ̵"   # ǝ (Turned E) + Stroke
+<dead_stroke> <U21BA> <E>                           : "Ǝ̵"   # Ǝ (Turned E) + Stroke
+<dead_stroke> <U21BA> <e>                           : "ǝ̵"   # ǝ (Turned E) + Stroke
+<dead_stroke> <U0278>                               : "ɸ̵"   # ɸ (Latin Phi) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <F>    : "ɸ̵"   # ɸ (Latin Phi) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <f>    : "ɸ̵"   # ɸ (Latin Phi) + Stroke
+<dead_stroke> <UA77B>                               : "Ꝼ̵"   # Ꝼ (Insular F) + Stroke
+<dead_stroke> <UA77C>                               : "ꝼ̵"   # ꝼ (Insular F) + Stroke
+<dead_stroke> <U0194>                               : "Ɣ̵"   # Ɣ (Latin Gamma) + Stroke
+<dead_stroke> <U0263>                               : "ɣ̵"   # ɣ (Latin Gamma) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <G>    : "Ɣ̵"   # Ɣ (Latin Gamma) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <g>    : "ɣ̵"   # ɣ (Latin Gamma) + Stroke
+<dead_stroke> <UA78D>                               : "Ɥ̵"   # Ɥ (Turned H) + Stroke
+<dead_stroke> <U0265>                               : "ɥ̵"   # ɥ (Turned H) + Stroke
+<dead_stroke> <U21BA> <H>                           : "Ɥ̵"   # Ɥ (Turned H) + Stroke
+<dead_stroke> <U21BA> <h>                           : "ɥ̵"   # ɥ (Turned H) + Stroke
+<dead_stroke> <U2C75>                               : "Ⱶ̵"   # Ⱶ (Sonus Medius) + Stroke
+<dead_stroke> <U2C76>                               : "ⱶ̵"   # ⱶ (Sonus Medius) + Stroke
+<dead_stroke> <UA7AE>                               : "Ɪ̵"   # Ɪ (Near-close near-front unrounded vowel) + Stroke
+<dead_stroke> <U026A>                               : "ɪ̵"   # ɪ (Near-close near-front unrounded vowel) + Stroke
+<dead_stroke> <U035A> <I>                           : "Ɪ̵"   # Ɪ (Near-close near-front unrounded vowel) + Stroke
+<dead_stroke> <U035A> <i>                           : "ɪ̵"   # ɪ (Near-close near-front unrounded vowel) + Stroke
+<dead_stroke> <U0196>                               : "Ɩ̵"   # Ɩ (Latin Iota) + Stroke
+<dead_stroke> <U1DF08>                              : "𝼈̵"   # 𝼈 (Retroflex lateral flap) + Stroke
+<dead_stroke> <U027A>                               : "ɺ̵"   # ɺ (Lateral flap) + Stroke
+<dead_stroke> <U035A> <L>                           : "𝼈̵"   # 𝼈 (Retroflex lateral flap) + Stroke
+<dead_stroke> <U035A> <l>                           : "ɺ̵"   # ɺ (Lateral flap) + Stroke
+<dead_stroke> <M>                                   : "M̵"
+<dead_stroke> <m>                                   : "m̵"
+<dead_stroke> <U0270>                               : "ɰ̑"   # ɰ (Voiced velar approximant) + Stroke
+<dead_stroke> <U035A> <M>                           : "ɰ̑"   # ɰ (Voiced velar approximant) + Stroke
+<dead_stroke> <U035A> <m>                           : "ɰ̑"   # ɰ (Voiced velar approximant) + Stroke
+<dead_stroke> <N>                                   : "N̵"
+<dead_stroke> <n>                                   : "n̵"             
+<dead_stroke> <OE>                                  : "Œ̵"
+<dead_stroke> <oe>                                  : "œ̵"
+<dead_stroke> <U1DCF> <O> <E>                       : "Œ̵"
+<dead_stroke> <U1DCF> <o> <e>                       : "œ̵"
+<dead_stroke> <UA74E>                               : "Ꝏ̵"  # Ꝏ + Stroke
+<dead_stroke> <UA74F>                               : "ꝏ̵"  # ꝏ + Stroke
+<dead_stroke> <U1DCF> <O> <O>                       : "Ꝏ̵"  # Ꝏ + Stroke
+<dead_stroke> <U1DCF> <o> <o>                       : "ꝏ̵"  # ꝏ + Stroke
+<dead_stroke> <U0186>                               : "Ɔ̵"   # Ɔ + Stroke
+<dead_stroke> <U0254>                               : "ɔ̵"   # ɔ + Stroke
+<dead_stroke> <UA7CB>                               : "Ɤ̵"   # Ɤ (Ram's Stroke) + Stroke
+<dead_stroke> <U0264>                               : "ɤ̵"   # ɤ (Ram's Stroke) + Stroke
+<dead_stroke> <U2183>                               : "Ↄ̵"   # Ↄ (Antisigma) + Stroke
+<dead_stroke> <U2184>                               : "ↄ̵"   # ↄ (Antisigma) + Stroke
+<dead_stroke> <U027B>                               : "ɻ̑"   # ɻ + Stroke
+<dead_stroke> <U0279>                               : "ɹ̑"   # ɹ + Stroke
+<dead_stroke> <U035A> <R>                           : "ɻ̑"   # ɻ + Stroke
+<dead_stroke> <U035A> <r>                           : "ɹ̑"   # ɹ + Stroke
+<dead_stroke> <U21BA> <R>                           : "ɻ̑"   # ɻ + Stroke
+<dead_stroke> <U21BA> <r>                           : "ɹ̑"   # ɹ + Stroke
+<dead_stroke> <U01A6>                               : "Ʀ̵"   # Ʀ (Yr) + Stroke
+<dead_stroke> <U0280>                               : "ʀ̵"   # ʀ (Yr) + Stroke
+<dead_stroke> <A75A>                                : "Ꝛ̵"   # Ꝛ (R Rotunda) + Stroke
+<dead_stroke> <A75B>                                : "ꝛ̵"   # ꝛ (R Rotunda) + Stroke
+<dead_stroke> <U1E9E>                               : "ẞ̵"   # ẞ (Eszett) + Stroke
+<dead_stroke> <ssharp>                              : "ß̵"
+<dead_stroke> <U01A9>                               : "Ʃ̑"   # Ʃ (Esh) + Stroke
+<dead_stroke> <U0283>                               : "ʃ̑"   # ʃ (Esh) + Stroke
+<dead_stroke> <U035A> <S>                           : "Ʃ̑"   # Ʃ (Esh) + Stroke
+<dead_stroke> <U035A> <s>                           : "ʃ̑"   # ʃ (Esh) + Stroke
+<dead_stroke> <U01B1>                               : "Ʊ̵"   # Ʊ (Latin Upsilon) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <U>    : "Ʊ"   # Ʊ (Latin Upsilon) + Stroke
+<dead_stroke> <U019C>                               : "Ɯ̵"   # Ɯ (Turned M) + Stroke
+<dead_stroke> <U026F>                               : "ɯ̵"   # ɯ (Turned M) + Stroke
+<dead_stroke> <U21BA> <M>                           : "Ɯ̵"   # Ɯ (Turned M) + Stroke
+<dead_stroke> <U21BA> <m>                           : "ɯ̵"   # ɯ (Turned M) + Stroke
+<dead_stroke> <V>                                   : "V̵"
+<dead_stroke> <v>                                   : "v̵"
+<dead_stroke> <U0245>                               : "Ʌ̵"   # Ʌ + Stroke
+<dead_stroke> <U028C>                               : "ʌ̵"   # ʌ + Stroke
+<dead_stroke> <U21BA> <V>                           : "Ʌ̵"   # Ʌ + Stroke
+<dead_stroke> <U21BA> <v>                           : "ʌ̵"   # ʌ + Stroke
+<dead_stroke> <U01B2>                               : "Ʋ̵"   # Ʋ + Stroke
+<dead_stroke> <U028B>                               : "ʋ̵"   # ʋ + Stroke
+<dead_stroke> <UA768>                               : "Ꝩ̵"   # Ꝩ (Vend) + Stroke
+<dead_stroke> <UA769>                               : "ꝩ̵"   # ꝩ (Vend) + Stroke
+<dead_stroke> <W>                                   : "W̵"
+<dead_stroke> <w>                                   : "w̵"
+<dead_stroke> <UA760>                               : "Ꝡ̵"   # Ꝡ + Stroke
+<dead_stroke> <UA761>                               : "ꝡ̵"   # ꝡ + Stroke
+<dead_stroke> <U1DCF> <V> <Y>                       : "Ꝡ̵"
+<dead_stroke> <U1DCF> <v> <y>                       : "ꝡ̵"
+<dead_stroke> <X>                                   : "X̵"
+<dead_stroke> <x>                                   : "x̵"
+<dead_stroke> <U21BA> <Y>                           : "⅄̑"   # ⅄ + Stroke
+<dead_stroke> <U21BA> <y>                           : "ʎ̑"   # ʎ + Stroke
+<dead_stroke> <U21BA> <Y>                           : "⅄̑"   # ⅄ + Stroke
+<dead_stroke> <U21BA> <y>                           : "ʎ̑"   # ʎ + Stroke
+<dead_stroke> <EZH>                                 : "Ʒ̵"   # Ʒ + Stroke
+<dead_stroke> <ezh>                                 : "ʒ̵"   # ʒ + Stroke
 
 
 # Composed stroke combinations (Not directly encoded in Unicode) (Unidirectional)

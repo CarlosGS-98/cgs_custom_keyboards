@@ -53,90 +53,163 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_breve> <U2C6F>            : "Ɐ̆"      # Ɐ + Breve
-<dead_breve> <U0250>            : "ɐ̆"      # ɐ + Breve
-<dead_breve> <U21BA> <A>        : "Ɐ̆"      # Ɐ + Breve
-<dead_breve> <U21BA> <a>        : "ɐ̆"      # ɐ + Breve
-<dead_breve> <AE>               : "Æ̆"
-<dead_breve> <ae>               : "æ̆"
-<dead_breve> <U1DCF> <A> <E>    : "Æ̆"
-<dead_breve> <U1DCF> <a> <e>    : "æ̆"
-<dead_breve> <U2C6D>            : "Ɑ̆"      # Ɑ (Latin Alpha) + Breve
-<dead_breve> <U0251>            : "ɑ̆"      # ɑ (Latin Alpha) + Breve
-<dead_breve> <B>                : "B̆"
-<dead_breve> <b>                : "b̆"
-<dead_breve> <C>                : "C̆"
-<dead_breve> <c>                : "c̆"
-<dead_breve> <D>                : "D̆"
-<dead_breve> <d>                : "d̆"
-<dead_breve> <U0190>            : "Ɛ̆"      # Ɛ (Latin Epsilon) + Breve
-<dead_breve> <U025B>            : "ɛ̆"      # ɛ (Latin Epsilon) + Breve
-<dead_breve> <SCHWA>            : "Ə̆"      # Ə (Schwa) + Breve
-<dead_breve> <schwa>            : "ə̆"      # ə (Schwa) + Breve
-<dead_breve> <U018E>            : "Ǝ̆"      # Ǝ (Turned E) + Breve
-<dead_breve> <U01DD>            : "ǝ̆"      # ǝ (Turned E) + Breve
-<dead_breve> <U21BA> <E>        : "Ǝ̆"      # Ǝ (Turned E) + Breve
-<dead_breve> <U21BA> <e>        : "ǝ̆"      # ǝ (Turned E) + Breve
-<dead_breve> <F>                : "F̆"
-<dead_breve> <f>                : "f̆"
-<dead_breve> <UA78D>            : "Ɥ̆"      # Ɥ (Turned H) + Breve
-<dead_breve> <U0265>            : "ɥ̆"      # ɥ (Turned H) + Breve
-<dead_breve> <U21BA> <H>        : "Ɥ̆"      # Ɥ (Turned H) + Breve
-<dead_breve> <U21BA> <h>        : "ɥ̆"      # ɥ (Turned H) + Breve
-<dead_breve> <U0196>            : "Ɩ̆"      # Ɩ (Latin Iota) + Breve
-<dead_breve> <U0269>            : "ɩ̆"      # ɩ (Latin Iota) + Breve
-<dead_breve> <K>                : "K̆"
-<dead_breve> <k>                : "k̆"
-<dead_breve> <L>                : "L̆"
-<dead_breve> <l>                : "l̆"
-<dead_breve> <M>                : "M̆"
-<dead_breve> <m>                : "m̆"
-<dead_breve> <N>                : "N̆"
-<dead_breve> <n>                : "n̆"
-<dead_breve> <ENG>              : "Ŋ̆"      # Ŋ + Breve
-<dead_breve> <eng>              : "ŋ̆"      # ŋ + Breve
-<dead_breve> <OE>               : "Œ̆"
-<dead_breve> <oe>               : "œ̆"
-<dead_breve> <U1DCF> <O> <E>    : "Œ̆"
-<dead_breve> <U1DCF> <o> <e>    : "œ̆"
-<dead_breve> <U0186>            : "Ɔ̆"      # Ɔ + Breve
-<dead_breve> <U0254>            : "ɔ̆"      # ɔ + Breve
-<dead_breve> <UA7CB>            : "Ɤ̆"      # Ɤ (Ram's Horn) + Breve
-<dead_breve> <U0264>            : "ɤ̆"      # ɤ (Ram's Horn) + Breve
-<dead_breve> <P>                : "P̆"
-<dead_breve> <p>                : "p̆"
-<dead_breve> <Q>                : "Q̆"
-<dead_breve> <q>                : "q̆"
-<dead_breve> <R>                : "R̆"
-<dead_breve> <r>                : "r̆"
-<dead_breve> <S>                : "S̆"
-<dead_breve> <s>                : "s̆"
-<dead_breve> <T>                : "T̆"
-<dead_breve> <t>                : "t̆"
-<dead_breve> <U01B1>            : "Ʊ̆"     # Ʊ (Latin Upsilon) + Breve
-<dead_breve> <U028A>            : "ʊ̆"     # ʊ (Latin Upsilon) + Breve
-<dead_breve> <U019C>            : "Ɯ̆"     # Ɯ (Turned M) + Breve
-<dead_breve> <U026F>            : "ɯ̆"     # ɯ (Turned M) + Breve
-<dead_breve> <U21BA> <M>        : "Ɯ̆"     # Ɯ (Turned M) + Breve
-<dead_breve> <U21BA> <m>        : "ɯ̆"     # ɯ (Turned M) + Breve
-<dead_breve> <V>                : "V̆"
-<dead_breve> <v>                : "v̆"
-<dead_breve> <U0245>            : "Ʌ̆"     # Ʌ + Breve
-<dead_breve> <U028C>            : "ʌ̆"     # ʌ + Breve
-<dead_breve> <U21BA> <V>        : "Ʌ̆"     # Ʌ + Breve
-<dead_breve> <U21BA> <v>        : "ʌ̆"     # ʌ + Breve
-<dead_breve> <U01B2>            : "Ʋ̆"     # Ʋ + Breve
-<dead_breve> <U028B>            : "ʋ̆"     # ʋ + Breve
-<dead_breve> <W>                : "W̆"
-<dead_breve> <w>                : "w̆"
-<dead_breve> <X>                : "X̆"
-<dead_breve> <x>                : "x̆"
-<dead_breve> <Y>                : "Y̆"
-<dead_breve> <y>                : "y̆"
-<dead_breve> <Z>                : "Z̆"
-<dead_breve> <z>                : "z̆"
-<dead_breve> <EZH>              : "Ʒ̆"     # Ʒ + Breve
-<dead_breve> <ezh>              : "ʒ̆"     # ʒ + Breve
+<dead_breve> <U2C6F>                                : "Ɐ̆"   # Ɐ + Breve
+<dead_breve> <U0250>                                : "ɐ̆"   # ɐ + Breve
+<dead_breve> <U21BA> <A>                            : "Ɐ̆"   # Ɐ + Breve
+<dead_breve> <U21BA> <a>                            : "ɐ̆"   # ɐ + Breve
+<dead_breve> <AE>                                   : "Æ̆"
+<dead_breve> <ae>                                   : "æ̆"
+<dead_breve> <U1DCF> <A> <E>                        : "Æ̆"
+<dead_breve> <U1DCF> <a> <e>                        : "æ̆"
+<dead_breve> <U2C6D>                                : "Ɑ̆"   # Ɑ (Latin Alpha) + Breve
+<dead_breve> <U0251>                                : "ɑ̆"   # ɑ (Latin Alpha) + Breve
+<dead_breve> <dead_greek> <dead_circumflex> <A>     : "Ɑ̆"   # Ɑ (Latin Alpha) + Inverted Breve Below
+<dead_breve> <dead_greek> <dead_circumflex> <a>     : "ɑ̆"   # ɑ (Latin Alpha) + Inverted Breve Below
+<dead_breve> <U2C70>                                : "Ɒ̆"   # Ɒ (Turned Latin Alpha) + Inverted Breve Below
+<dead_breve> <U0252>                                : "ɒ̆"   # ɒ (Turned Latin Alpha) + Inverted Breve Below
+<dead_breve> <U21BA> <dead_greek> <A>               : "Ɒ̆"   # Ɒ (Turned Latin Alpha) + Inverted Breve Below
+<dead_breve> <U21BA> <dead_greek> <a>               : "ɒ̆"   # ɒ (Turned Latin Alpha) + Inverted Breve Below
+<dead_breve> <B>                                    : "B̆"
+<dead_breve> <b>                                    : "b̆"
+<dead_breve> <UA7B4>                                : "Ꞵ̆"   # Ꞵ (Latin Beta) + Inverted Breve Below
+<dead_breve> <UA7B5>                                : "ꞵ̆"   # ꞵ (Latin Beta) + Inverted Breve Below
+<dead_breve> <dead_greek> <dead_circumflex> <B>     : "Ꞵ̆"   # Ꞵ (Latin Beta) + Inverted Breve Below
+<dead_breve> <dead_greek> <dead_circumflex> <b>     : "ꞵ̆"   # ꞵ (Latin Beta) + Inverted Breve Below
+<dead_breve> <C>                                    : "C̆"
+<dead_breve> <c>                                    : "c̆"
+<dead_breve> <D>                                    : "D̆"
+<dead_breve> <d>                                    : "d̆"
+<dead_breve> <U0190>                                : "Ɛ̆"   # Ɛ (Latin Epsilon) + Breve
+<dead_breve> <U025B>                                : "ɛ̆"   # ɛ (Latin Epsilon) + Breve
+<dead_breve> <dead_greek> <dead_circumflex> <E>     : "Ɛ̆"   # Ɛ (Latin Epsilon) + Inverted Breve Below
+<dead_breve> <dead_greek> <dead_circumflex> <e>     : "ɛ̆"   # Ɛ (Latin Epsilon) + Inverted Breve Below
+<dead_breve> <UA7AB>                                : "Ɜ̆"   # Ɜ (Turned Latin Epsilon) + Inverted Breve Below
+<dead_breve> <U025C>                                : "ɜ̆"   # ɜ (Turned Latin Epsilon) + Inverted Breve Below
+<dead_breve> <U21BA> <dead_greek> <E>               : "Ɜ̆"   # Ɜ (Turned Latin Epsilon) + Inverted Breve Below
+<dead_breve> <U21BA> <dead_greek> <e>               : "ɜ̆"   # ɜ (Turned Latin Epsilon) + Inverted Breve Below
+<dead_breve> <SCHWA>                                : "Ə̆"   # Ə (Schwa) + Breve
+<dead_breve> <schwa>                                : "ə̆"   # ə (Schwa) + Breve
+<dead_breve> <U035A> <E>                            : "Ə̆"   # Ə (Schwa) + Inverted Breve Below
+<dead_breve> <U035A> <e>                            : "ə̆"   # ə (Schwa) + Inverted Breve Below
+<dead_breve> <U0258>                                : "ɘ̆"   # ɘ (Close-mid central unrounded vowel) + Inverted Breve Below
+<dead_breve> <U035A> <minus> <E>                    : "ɘ̆"   # ɘ (Close-mid central unrounded vowel) + Inverted Breve Below
+<dead_breve> <U035A> <minus> <e>                    : "ɘ̆"   # ɘ (Close-mid central unrounded vowel) + Inverted Breve Below
+<dead_breve> <U21BA> <SCHWA>                        : "ɘ̆"   # ɘ (Close-mid central unrounded vowel) + Inverted Breve Below
+<dead_breve> <U21BA> <schwa>                        : "ɘ̆"   # ɘ (Close-mid central unrounded vowel) + Inverted Breve Below
+<dead_breve> <U029A>                                : "ʚ̆"   # ʚ + Inverted Breve Below
+<dead_breve> <U025E>                                : "ɞ̆"   # ɞ + Inverted Breve Below
+<dead_breve> <U21BA> <underscore> <E>               : "ʚ̆"   # ʚ + Inverted Breve Below
+<dead_breve> <U21BA> <underscore> <e>               : "ɞ̆"   # ɞ + Inverted Breve Below
+<dead_breve> <U018E>                                : "Ǝ̆"   # Ǝ (Turned E) + Breve
+<dead_breve> <U01DD>                                : "ǝ̆"   # ǝ (Turned E) + Breve
+<dead_breve> <U21BA> <E>                            : "Ǝ̆"   # Ǝ (Turned E) + Breve
+<dead_breve> <U21BA> <e>                            : "ǝ̆"   # ǝ (Turned E) + Breve
+<dead_breve> <F>                                    : "F̆"
+<dead_breve> <f>                                    : "f̆"
+<dead_breve> <U0278>                                : "ɸ̆"   # ɸ (Latin Phi) + Inverted Breve Below
+<dead_breve> <dead_greek> <dead_circumflex> <F>     : "ɸ̆"   # ɸ (Latin Phi) + Inverted Breve Below
+<dead_breve> <dead_greek> <dead_circumflex> <f>     : "ɸ̆"   # ɸ (Latin Phi) + Inverted Breve Below
+<dead_breve> <U0194>                                : "Ɣ̆"   # Ɣ (Latin Gamma) + Inverted Breve Below
+<dead_breve> <U0263>                                : "ɣ̆"   # ɣ (Latin Gamma) + Inverted Breve Below
+<dead_breve> <dead_greek> <dead_circumflex> <G>     : "Ɣ̆"   # Ɣ (Latin Gamma) + Inverted Breve Below
+<dead_breve> <dead_greek> <dead_circumflex> <g>     : "ɣ̆"   # ɣ (Latin Gamma) + Inverted Breve Below
+<dead_breve> <UA78D>                                : "Ɥ̆"   # Ɥ (Turned H) + Breve
+<dead_breve> <U0265>                                : "ɥ̆"   # ɥ (Turned H) + Breve
+<dead_breve> <U21BA> <H>                            : "Ɥ̆"   # Ɥ (Turned H) + Breve
+<dead_breve> <U21BA> <h>                            : "ɥ̆"   # ɥ (Turned H) + Breve
+<dead_breve> <UA7AE>                                : "Ɪ̆"   # Ɪ (Near-close near-front unrounded vowel) + Inverted Breve Below
+<dead_breve> <U026A>                                : "ɪ̆"   # ɪ (Near-close near-front unrounded vowel) + Inverted Breve Below
+<dead_breve> <U035A> <I>                            : "Ɪ̆"   # Ɪ (Near-close near-front unrounded vowel) + Inverted Breve Below
+<dead_breve> <U035A> <i>                            : "ɪ̆"   # ɪ (Near-close near-front unrounded vowel) + Inverted Breve Below
+<dead_breve> <U0196>                                : "Ɩ̆"   # Ɩ (Latin Iota) + Breve
+<dead_breve> <U0269>                                : "ɩ̆"   # ɩ (Latin Iota) + Breve
+<dead_breve> <U035A> <J>                            : "ɟ̆"   # ɟ (Barred Dotless J) + Inverted Breve Below
+<dead_breve> <U035A> <j>                            : "ɟ̆"   # ɟ (Barred Dotless J) + Inverted Breve Below
+<dead_breve> <K>                                    : "K̆"
+<dead_breve> <k>                                    : "k̆"
+<dead_breve> <L>                                    : "L̆"
+<dead_breve> <l>                                    : "l̆"
+<dead_breve> <U1DF08>                               : "𝼈̆"   # 𝼈 (Retroflex lateral flap) + Inverted Breve Below
+<dead_breve> <U027A>                                : "ɺ̆"   # ɺ (Lateral flap) + Inverted Breve Below
+<dead_breve> <U035A> <L>                            : "𝼈̆"   # 𝼈 (Retroflex lateral flap) + Inverted Breve Below
+<dead_breve> <U035A> <l>                            : "ɺ̆"   # ɺ (Lateral flap) + Inverted Breve Below
+<dead_breve> <M>                                    : "M̆"
+<dead_breve> <m>                                    : "m̆"
+<dead_breve> <U0270>                                : "ɰ̆"   # ɰ (Voiced velar approximant) + Inverted Breve Below
+<dead_breve> <U035A> <M>                            : "ɰ̆"   # ɰ (Voiced velar approximant) + Inverted Breve Below
+<dead_breve> <U035A> <m>                            : "ɰ̆"   # ɰ (Voiced velar approximant) + Inverted Breve Below
+<dead_breve> <N>                                    : "N̆"
+<dead_breve> <n>                                    : "n̆"
+<dead_breve> <ENG>                                  : "Ŋ̆"   # Ŋ + Breve
+<dead_breve> <eng>                                  : "ŋ̆"   # ŋ + Breve
+<dead_breve> <OE>                                   : "Œ̆"
+<dead_breve> <oe>                                   : "œ̆"
+<dead_breve> <U1DCF> <O> <E>                        : "Œ̆"
+<dead_breve> <U1DCF> <o> <e>                        : "œ̆"
+<dead_breve> <U0186>                                : "Ɔ̆"   # Ɔ + Breve
+<dead_breve> <U0254>                                : "ɔ̆"   # ɔ + Breve
+<dead_breve> <UA7CB>                                : "Ɤ̆"   # Ɤ (Ram's Horn) + Breve
+<dead_breve> <U0264>                                : "ɤ̆"   # ɤ (Ram's Horn) + Breve
+<dead_breve> <P>                                    : "P̆"
+<dead_breve> <p>                                    : "p̆"
+<dead_breve> <Q>                                    : "Q̆"
+<dead_breve> <q>                                    : "q̆"
+<dead_breve> <R>                                    : "R̆"
+<dead_breve> <r>                                    : "r̆"
+<dead_breve> <U027B>                                : "ɻ̆"   # ɻ + Inverted Breve Below
+<dead_breve> <U0279>                                : "ɹ̆"   # ɹ + Inverted Breve Below
+<dead_breve> <U035A> <R>                            : "ɻ̆"   # ɻ + Inverted Breve Below
+<dead_breve> <U035A> <r>                            : "ɹ̆"   # ɹ + Inverted Breve Below
+<dead_breve> <U21BA> <R>                            : "ɻ̆"   # ɻ + Inverted Breve Below
+<dead_breve> <U21BA> <r>                            : "ɹ̆"   # ɹ + Inverted Breve Below
+<dead_breve> <S>                                    : "S̆"
+<dead_breve> <s>                                    : "s̆"
+<dead_breve> <U01A9>                                : "Ʃ̆"   # Ʃ (Esh) + Inverted Breve Below
+<dead_breve> <U0283>                                : "ʃ̆"   # ʃ (Esh) + Inverted Breve Below
+<dead_breve> <U035A> <S>                            : "Ʃ̆"   # Ʃ (Esh) + Inverted Breve Below
+<dead_breve> <U035A> <s>                            : "ʃ̆"   # ʃ (Esh) + Inverted Breve Below
+<dead_breve> <T>                                    : "T̆"
+<dead_breve> <t>                                    : "t̆"
+<dead_breve> <U01B1>                                : "Ʊ̆"   # Ʊ (Latin Upsilon) + Breve
+<dead_breve> <U028A>                                : "ʊ̆"   # ʊ (Latin Upsilon) + Breve
+<dead_breve> <dead_greek> <dead_circumflex> <U>     : "Ʊ̆"   # Ʊ (Latin Upsilon) + Inverted Breve Below
+<dead_breve> <dead_greek> <dead_circumflex> <u>     : "ʊ̆"   # ʊ (Latin Upsilon) + Inverted Breve Below
+<dead_breve> <U019C>                                : "Ɯ̆"   # Ɯ (Turned M) + Breve
+<dead_breve> <U026F>                                : "ɯ̆"   # ɯ (Turned M) + Breve
+<dead_breve> <U21BA> <M>                            : "Ɯ̆"   # Ɯ (Turned M) + Breve
+<dead_breve> <U21BA> <m>                            : "ɯ̆"   # ɯ (Turned M) + Breve
+<dead_breve> <V>                                    : "V̆"
+<dead_breve> <v>                                    : "v̆"
+<dead_breve> <U0245>                                : "Ʌ̆"   # Ʌ + Breve
+<dead_breve> <U028C>                                : "ʌ̆"   # ʌ + Breve
+<dead_breve> <U21BA> <V>                            : "Ʌ̆"   # Ʌ + Breve
+<dead_breve> <U21BA> <v>                            : "ʌ̆"   # ʌ + Breve
+<dead_breve> <U01B2>                                : "Ʋ̆"   # Ʋ + Breve
+<dead_breve> <U028B>                                : "ʋ̆"   # ʋ + Breve
+<dead_breve> <W>                                    : "W̆"
+<dead_breve> <w>                                    : "w̆"
+<dead_breve> <X>                                    : "X̆"
+<dead_breve> <x>                                    : "x̆"
+<dead_breve> <Y>                                    : "Y̆"
+<dead_breve> <y>                                    : "y̆"
+<dead_breve> <U21BA> <Y>                            : "⅄̆"   # ⅄ + Inverted Breve Below
+<dead_breve> <U21BA> <y>                            : "ʎ̆"   # ʎ + Inverted Breve Below
+<dead_breve> <U21BA> <Y>                            : "⅄̆"   # ⅄ + Inverted Breve Below
+<dead_breve> <U21BA> <y>                            : "ʎ̆"   # ʎ + Inverted Breve Below
+<dead_breve> <Z>                                    : "Z̆"
+<dead_breve> <z>                                    : "z̆"
+<dead_breve> <EZH>                                  : "Ʒ̆"   # Ʒ + Breve
+<dead_breve> <ezh>                                  : "ʒ̆"   # ʒ + Breve
+<dead_breve> <U0294>                                : "ʔ̆"   # ʔ (Glottal Stop) + Inverted Breve Below
+<dead_breve> <U035A> <question>                     : "ʔ̆"   # ʔ (Glottal Stop) + Inverted Breve Below
+<dead_breve> <U035A> <U0241> <space>                : "ʔ̆"   # Ɂ (Capital Glottal Stop) + Inverted Breve Below
+<dead_breve> <U035A> <U0242> <space>                : "ʔ̆"   # ɂ (Small Glottal Stop) + Inverted Breve Below
+<dead_breve> <U0241>                                : "Ɂ̆"   # Ɂ (Capital Glottal Stop) + Inverted Breve Below
+<dead_breve> <U0242>                                : "ɂ̆"   # ɂ (Small Glottal Stop) + Inverted Breve Below
+<dead_breve> <U0295>                                : "ʕ̆"   # ʕ (Turned Glottal Glottal Stop) + Inverted Breve Below
+<dead_breve> <U035A> <questiondown>                 : "ʕ̆"   # ʕ (Turned Glottal Glottal Stop) + Inverted Breve Below
+<dead_breve> <U035A> <U0241> <underscore> <space>   : "ʕ̆"   # Ɂ (Capital Glottal Stop) + "_" + Inverted Breve Below
+<dead_breve> <U035A> <U0242> <underscore> <space>   : "ʕ̆"   # ɂ (Small Glottal Stop) + "_" + Inverted Breve Below
 
 
 # Composed breve combinations (Not directly encoded in Unicode) (Unidirectional)

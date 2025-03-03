@@ -13,161 +13,238 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_belowbreve> <A>                 : "A̮"
-<dead_belowbreve> <a>                 : "a̮"
-<dead_belowbreve> <U2C6F>             : "Ɐ̮"      # Ɐ + Breve Below
-<dead_belowbreve> <U0250>             : "ɐ̮"      # ɐ + Breve Below
-<dead_belowbreve> <U21BA> <A>         : "Ɐ̮"      # Ɐ + Breve Below
-<dead_belowbreve> <U21BA> <a>         : "ɐ̮"      # ɐ + Breve Below
-<dead_belowbreve> <UA732>             : "Ꜳ̮"     # Ꜳ + Breve Below
-<dead_belowbreve> <UA733>             : "ꜳ̮"      # ꜳ + Breve Below
-<dead_belowbreve> <U1DCF> <A> <A>     : "Ꜳ̮"     # Ꜳ + Breve Below
-<dead_belowbreve> <U1DCF> <a> <a>     : "ꜳ̮"      # ꜳ + Breve Below
-<dead_belowbreve> <AE>                : "Æ̮"
-<dead_belowbreve> <ae>                : "æ̮"
-<dead_belowbreve> <U1DCF> <A> <E>     : "Æ̮"
-<dead_belowbreve> <U1DCF> <a> <e>     : "æ̮"
-<dead_belowbreve> <UA734>             : "Ꜵ̮"     # Ꜵ + Breve Below
-<dead_belowbreve> <UA735>             : "ꜵ̮"      # ꜵ + Breve Below
-<dead_belowbreve> <U1DCF> <A> <O>     : "Ꜵ̮"     # Ꜵ + Breve Below
-<dead_belowbreve> <U1DCF> <a> <o>     : "ꜵ̮"      # ꜵ + Breve Below
-<dead_belowbreve> <UA736>             : "Ꜷ̮"     # Ꜷ + Breve Below
-<dead_belowbreve> <UA737>             : "ꜷ̮"      # ꜷ + Breve Below
-<dead_belowbreve> <U1DCF> <A> <U>     : "Ꜷ̮"     # Ꜷ + Breve Below
-<dead_belowbreve> <U1DCF> <a> <u>     : "ꜷ̮"      # ꜷ + Breve Below
-<dead_belowbreve> <UA738>             : "Ꜹ̮"     # Ꜹ + Breve Below
-<dead_belowbreve> <UA739>             : "ꜹ̮"      # ꜹ + Breve Below
-<dead_belowbreve> <U1DCF> <A> <V>     : "Ꜹ̮"     # Ꜹ + Breve Below
-<dead_belowbreve> <U1DCF> <a> <v>     : "ꜹ̮"      # ꜹ + Breve Below
-<dead_belowbreve> <UA73C>             : "Ꜽ̮"     # Ꜽ + Breve Below
-<dead_belowbreve> <UA73D>             : "ꜽ̮"      # ꜽ + Breve Below
-<dead_belowbreve> <U1DCF> <A> <Y>     : "Ꜽ̮"     # Ꜽ + Breve Below
-<dead_belowbreve> <U1DCF> <a> <y>     : "ꜽ̮"      # ꜽ + Breve Below
-<dead_belowbreve> <U2C6D>             : "Ɑ̮"      # Ɑ (Latin Alpha) + Breve Below
-<dead_belowbreve> <U0251>             : "ɑ̮"      # ɑ (Latin Alpha) + Breve Below
-<dead_belowbreve> <B>                 : "B̮"
-<dead_belowbreve> <b>                 : "b̮"
-<dead_belowbreve> <C>                 : "C̮"
-<dead_belowbreve> <c>                 : "c̮"
-<dead_belowbreve> <D>                 : "D̮"
-<dead_belowbreve> <d>                 : "d̮"
-<dead_belowbreve> <ETH>               : "Ð̮"
-<dead_belowbreve> <eth>               : "ð̮"
-<dead_belowbreve> <UA779>             : "Ꝺ̮"      # Ꝺ (Insular D) + Breve Below
-<dead_belowbreve> <UA77A>             : "ꝺ̮"      # ꝺ (Insular D) + Breve Below
-<dead_belowbreve> <E>                 : "E̮"
-<dead_belowbreve> <e>                 : "e̮"
-<dead_belowbreve> <U0190>             : "Ɛ̮"      # Ɛ (Latin Epsilon) + Breve Below
-<dead_belowbreve> <U025B>             : "ɛ̮"      # ɛ (Latin Epsilon) + Breve Below
-<dead_belowbreve> <SCHWA>             : "Ə̮"      # Ə (Schwa) + Breve Below
-<dead_belowbreve> <schwa>             : "ə̮"      # ə (Schwa) + Breve Below
-<dead_belowbreve> <U018E>             : "Ǝ̮"      # Ǝ (Turned E) + Breve Below
-<dead_belowbreve> <U01DD>             : "ǝ̮"      # ǝ (Turned E) + Breve Below
-<dead_belowbreve> <U21BA> <E>         : "Ǝ̮"      # Ǝ (Turned E) + Breve Below
-<dead_belowbreve> <U21BA> <e>         : "ǝ̮"      # ǝ (Turned E) + Breve Below
-<dead_belowbreve> <F>                 : "F̮"
-<dead_belowbreve> <f>                 : "f̮"
-<dead_belowbreve> <UA77B>             : "Ꝼ̮"      # Ꝼ (Insular F) + Breve Below
-<dead_belowbreve> <UA77C>             : "ꝼ̮"      # ꝼ (Insular F) + Breve Below
-<dead_belowbreve> <G>                 : "G̮"
-<dead_belowbreve> <g>                 : "g̮"
-<dead_belowbreve> <U0194>             : "Ɣ̮"      # Ɣ (Latin Gamma) + Breve Below
-<dead_belowbreve> <U0263>             : "ɣ̮"      # ɣ (Latin Gamma) + Breve Below
-<dead_belowbreve> <UA78D>             : "Ɥ̮"      # Ɥ (Turned H) + Breve Below
-<dead_belowbreve> <U0265>             : "ɥ̮"      # ɥ (Turned H) + Breve Below
-<dead_belowbreve> <U21BA> <H>         : "Ɥ̮"      # Ɥ (Turned H) + Breve Below
-<dead_belowbreve> <U21BA> <h>         : "ɥ̮"      # ɥ (Turned H) + Breve Below
-<dead_belowbreve> <I>                 : "I̮"
-<dead_belowbreve> <i>                 : "i̮"
-<dead_belowbreve> <U0196>             : "Ɩ̮"      # Ɩ (Latin Iota) + Breve Below
-<dead_belowbreve> <U0269>             : "ɩ̮"      # ɩ (Latin Iota) + Breve Below
-<dead_belowbreve> <J>                 : "J̮"
-<dead_belowbreve> <j>                 : "j̮"
-<dead_belowbreve> <K>                 : "K̮"
-<dead_belowbreve> <k>                 : "k̮"
-<dead_belowbreve> <L>                 : "L̮"
-<dead_belowbreve> <l>                 : "l̮"
-<dead_belowbreve> <M>                 : "M̮"
-<dead_belowbreve> <m>                 : "m̮"
-<dead_belowbreve> <N>                 : "N̮"
-<dead_belowbreve> <n>                 : "n̮"
-<dead_belowbreve> <ENG>               : "Ŋ̮"      # Ŋ + Breve Below
-<dead_belowbreve> <eng>               : "ŋ̮"      # ŋ + Breve Below
-<dead_belowbreve> <O>                 : "O̮"
-<dead_belowbreve> <o>                 : "o̮"
-<dead_belowbreve> <OE>                : "Œ̮"
-<dead_belowbreve> <oe>                : "œ̮"
-<dead_belowbreve> <U1DCF> <O> <E>     : "Œ̮"
-<dead_belowbreve> <U1DCF> <o> <e>     : "œ̮"
-<dead_belowbreve> <UA74E>             : "Ꝏ̮"     # Ꝏ + Breve Below
-<dead_belowbreve> <UA74F>             : "ꝏ̮"     # ꝏ + Breve Below
-<dead_belowbreve> <U1DCF> <O> <O>     : "Ꝏ̮"     # Ꝏ + Breve Below
-<dead_belowbreve> <U1DCF> <o> <o>     : "ꝏ̮"     # ꝏ + Breve Below
-<dead_belowbreve> <U0186>             : "Ɔ̮"      # Ɔ + Breve Below
-<dead_belowbreve> <U0254>             : "ɔ̮"      # ɔ + Breve Below
-<dead_belowbreve> <UA7CB>             : "Ɤ̮"      # Ɤ (Ram's Horn) + Breve Below
-<dead_belowbreve> <U0264>             : "ɤ̮"      # ɤ (Ram's Horn) + Breve Below
-<dead_belowbreve> <P>                 : "P̮"
-<dead_belowbreve> <p>                 : "p̮"
-<dead_belowbreve> <Q>                 : "Q̮"
-<dead_belowbreve> <q>                 : "q̮"
-<dead_belowbreve> <R>                 : "R̮"
-<dead_belowbreve> <r>                 : "r̮"
-<dead_belowbreve> <U01A6>             : "Ʀ̮"     # Ʀ (Yr) + Breve Below
-<dead_belowbreve> <U0280>             : "ʀ̮"     # ʀ (Yr) + Breve Below
-<dead_belowbreve> <A75A>              : "Ꝛ̮"     # Ꝛ (R Rotunda) + Breve Below
-<dead_belowbreve> <A75B>              : "ꝛ̮"     # ꝛ (R Rotunda) + Breve Below
-<dead_belowbreve> <S>                 : "S̮"
-<dead_belowbreve> <s>                 : "s̮"
-<dead_belowbreve> <T>                 : "T̮"
-<dead_belowbreve> <t>                 : "t̮"
-<dead_belowbreve> <THORN>             : "Þ̮"
-<dead_belowbreve> <thorn>             : "þ̮"
-<dead_belowbreve> <U>                 : "U̮"
-<dead_belowbreve> <u>                 : "u̮"
-<dead_belowbreve> <U01B1>             : "Ʊ̮"     # Ʊ (Latin Upsilon) + Breve Below
-<dead_belowbreve> <U028A>             : "ʊ̮"     # ʊ (Latin Upsilon) + Breve Below
-<dead_belowbreve> <U019C>             : "Ɯ̮"     # Ɯ (Turned M) + Breve Below
-<dead_belowbreve> <U026F>             : "ɯ̮"     # ɯ (Turned M) + Breve Below
-<dead_belowbreve> <U21BA> <M>         : "Ɯ̮"     # Ɯ (Turned M) + Breve Below
-<dead_belowbreve> <U21BA> <m>         : "ɯ̮"     # ɯ (Turned M) + Breve Below
-<dead_belowbreve> <V>                 : "V̮"
-<dead_belowbreve> <v>                 : "v̮"
-<dead_belowbreve> <U0245>             : "Ʌ̮"     # Ʌ + Breve Below
-<dead_belowbreve> <U028C>             : "ʌ̮"     # ʌ + Breve Below
-<dead_belowbreve> <U21BA> <V>         : "Ʌ̮"     # Ʌ + Breve Below
-<dead_belowbreve> <U21BA> <v>         : "ʌ̮"     # ʌ + Breve Below
-<dead_belowbreve> <U01B2>             : "Ʋ̮"     # Ʋ + Breve Below
-<dead_belowbreve> <U028B>             : "ʋ̮"     # ʋ + Breve Below
-<dead_belowbreve> <UA768>             : "Ꝩ̮"     # Ꝩ (Vend) + Breve Below
-<dead_belowbreve> <UA769>             : "ꝩ̮"     # ꝩ (Vend) + Breve Below
-<dead_belowbreve> <W>                 : "W̮"
-<dead_belowbreve> <w>                 : "w̮"
-<dead_belowbreve> <UA760>             : "Ꝡ̮"     # Ꝡ + Breve Below
-<dead_belowbreve> <UA761>             : "ꝡ̮"     # ꝡ + Breve Below
-<dead_belowbreve> <U1DCF> <V> <Y>     : "Ꝡ̮"
-<dead_belowbreve> <U1DCF> <v> <y>     : "ꝡ̮"
-<dead_belowbreve> <X>                 : "X̮"
-<dead_belowbreve> <x>                 : "x̮"
-<dead_belowbreve> <Y>                 : "Y̮"
-<dead_belowbreve> <y>                 : "y̮"
-<dead_belowbreve> <Z>                 : "Z̮"
-<dead_belowbreve> <z>                 : "z̮"
-<dead_belowbreve> <EZH>               : "Ʒ̮"     # Ʒ + Breve Below
-<dead_belowbreve> <ezh>               : "ʒ̮"     # ʒ + Breve Below
+<dead_belowbreve> <A>                                   : "A̮"
+<dead_belowbreve> <a>                                   : "a̮"
+<dead_belowbreve> <U2C6F>                               : "Ɐ̮"   # Ɐ + Breve Below
+<dead_belowbreve> <U0250>                               : "ɐ̮"   # ɐ + Breve Below
+<dead_belowbreve> <U21BA> <A>                           : "Ɐ̮"   # Ɐ + Breve Below
+<dead_belowbreve> <U21BA> <a>                           : "ɐ̮"   # ɐ + Breve Below
+<dead_belowbreve> <UA732>                               : "Ꜳ̮"  # Ꜳ + Breve Below
+<dead_belowbreve> <UA733>                               : "ꜳ̮"   # ꜳ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <A>                       : "Ꜳ̮"  # Ꜳ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <a>                       : "ꜳ̮"   # ꜳ + Breve Below
+<dead_belowbreve> <AE>                                  : "Æ̮"
+<dead_belowbreve> <ae>                                  : "æ̮"
+<dead_belowbreve> <U1DCF> <A> <E>                       : "Æ̮"
+<dead_belowbreve> <U1DCF> <a> <e>                       : "æ̮"
+<dead_belowbreve> <UA734>                               : "Ꜵ̮"  # Ꜵ + Breve Below
+<dead_belowbreve> <UA735>                               : "ꜵ̮"   # ꜵ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <O>                       : "Ꜵ̮"  # Ꜵ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <o>                       : "ꜵ̮"   # ꜵ + Breve Below
+<dead_belowbreve> <UA736>                               : "Ꜷ̮"  # Ꜷ + Breve Below
+<dead_belowbreve> <UA737>                               : "ꜷ̮"   # ꜷ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <U>                       : "Ꜷ̮"  # Ꜷ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <u>                       : "ꜷ̮"   # ꜷ + Breve Below
+<dead_belowbreve> <UA738>                               : "Ꜹ̮"  # Ꜹ + Breve Below
+<dead_belowbreve> <UA739>                               : "ꜹ̮"   # ꜹ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <V>                       : "Ꜹ̮"  # Ꜹ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <v>                       : "ꜹ̮"   # ꜹ + Breve Below
+<dead_belowbreve> <UA73C>                               : "Ꜽ̮"  # Ꜽ + Breve Below
+<dead_belowbreve> <UA73D>                               : "ꜽ̮"   # ꜽ + Breve Below
+<dead_belowbreve> <U1DCF> <A> <Y>                       : "Ꜽ̮"  # Ꜽ + Breve Below
+<dead_belowbreve> <U1DCF> <a> <y>                       : "ꜽ̮"   # ꜽ + Breve Below
+<dead_belowbreve> <U2C6D>                               : "Ɑ̮"   # Ɑ (Latin Alpha) + Breve Below
+<dead_belowbreve> <U0251>                               : "ɑ̮"   # ɑ (Latin Alpha) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <A>    : "Ɑ̮"   # Ɑ (Latin Alpha) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <a>    : "ɑ̮"   # ɑ (Latin Alpha) + Breve Below
+<dead_belowbreve> <U2C70>                               : "Ɒ̮"   # Ɒ (Turned Latin Alpha) + Breve Below
+<dead_belowbreve> <U0252>                               : "ɒ̮"   # ɒ (Turned Latin Alpha) + Breve Below
+<dead_belowbreve> <U21BA> <dead_greek> <A>              : "Ɒ̮"   # Ɒ (Turned Latin Alpha) + Breve Below
+<dead_belowbreve> <U21BA> <dead_greek> <a>              : "ɒ̮"   # ɒ (Turned Latin Alpha) + Breve Below
+<dead_belowbreve> <B>                                   : "B̮"
+<dead_belowbreve> <b>                                   : "b̮"
+<dead_belowbreve> <UA7B4>                               : "Ꞵ̮"   # Ꞵ (Latin Beta) + Breve Below
+<dead_belowbreve> <UA7B5>                               : "ꞵ̮"   # ꞵ (Latin Beta) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <B>    : "Ꞵ̮"   # Ꞵ (Latin Beta) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <b>    : "ꞵ̮"   # ꞵ (Latin Beta) + Breve Below
+<dead_belowbreve> <C>                                   : "C̮"
+<dead_belowbreve> <c>                                   : "c̮"
+<dead_belowbreve> <D>                                   : "D̮"
+<dead_belowbreve> <d>                                   : "d̮"
+<dead_belowbreve> <ETH>                                 : "Ð̮"
+<dead_belowbreve> <eth>                                 : "ð̮"
+<dead_belowbreve> <UA779>                               : "Ꝺ̮"  # Ꝺ (Insular D) + Breve Below
+<dead_belowbreve> <UA77A>                               : "ꝺ̮"  # ꝺ (Insular D) + Breve Below
+<dead_belowbreve> <E>                                   : "E̮"
+<dead_belowbreve> <e>                                   : "e̮"
+<dead_belowbreve> <U0190>                               : "Ɛ̮"   # Ɛ (Latin Epsilon) + Breve Below
+<dead_belowbreve> <U025B>                               : "ɛ̮"   # ɛ (Latin Epsilon) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <E>    : "Ɛ̮"   # Ɛ (Latin Epsilon) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <e>    : "ɛ̮"   # Ɛ (Latin Epsilon) + Breve Below
+<dead_belowbreve> <UA7AB>                               : "Ɜ̮"   # Ɜ (Turned Latin Epsilon) + Breve Below
+<dead_belowbreve> <U025C>                               : "ɜ̮"   # ɜ (Turned Latin Epsilon) + Breve Below
+<dead_belowbreve> <U21BA> <dead_greek> <E>              : "Ɜ̮"   # Ɜ (Turned Latin Epsilon) + Breve Below
+<dead_belowbreve> <U21BA> <dead_greek> <e>              : "ɜ̮"   # ɜ (Turned Latin Epsilon) + Breve Below
+<dead_belowbreve> <SCHWA>                               : "Ə̮"   # Ə (Schwa) + Breve Below
+<dead_belowbreve> <schwa>                               : "ə̮"   # ə (Schwa) + Breve Below
+<dead_belowbreve> <U035A> <E>                           : "Ə̮"   # Ə (Schwa) + Breve Below
+<dead_belowbreve> <U035A> <e>                           : "ə̮"   # ə (Schwa) + Breve Below
+<dead_belowbreve> <U0258>                               : "ɘ̮"   # ɘ (Close-mid central unrounded vowel) + Breve Below
+<dead_belowbreve> <U035A> <minus> <E>                   : "ɘ̮"   # ɘ (Close-mid central unrounded vowel) + Breve Below
+<dead_belowbreve> <U035A> <minus> <e>                   : "ɘ̮"   # ɘ (Close-mid central unrounded vowel) + Breve Below
+<dead_belowbreve> <U21BA> <SCHWA>                       : "ɘ̮"   # ɘ (Close-mid central unrounded vowel) + Breve Below
+<dead_belowbreve> <U21BA> <schwa>                       : "ɘ̮"   # ɘ (Close-mid central unrounded vowel) + Breve Below
+<dead_belowbreve> <U029A>                               : "ʚ̮"   # ʚ + Breve Below
+<dead_belowbreve> <U025E>                               : "ɞ̮"   # ɞ + Breve Below
+<dead_belowbreve> <U21BA> <underscore> <E>              : "ʚ̮"   # ʚ + Breve Below
+<dead_belowbreve> <U21BA> <underscore> <e>              : "ɞ̮"   # ɞ + Breve Below
+<dead_belowbreve> <U018E>                               : "Ǝ̮"   # Ǝ (Turned E) + Breve Below
+<dead_belowbreve> <U01DD>                               : "ǝ̮"   # ǝ (Turned E) + Breve Below
+<dead_belowbreve> <U21BA> <E>                           : "Ǝ̮"   # Ǝ (Turned E) + Breve Below
+<dead_belowbreve> <U21BA> <e>                           : "ǝ̮"   # ǝ (Turned E) + Breve Below
+<dead_belowbreve> <F>                                   : "F̮"
+<dead_belowbreve> <f>                                   : "f̮"
+<dead_belowbreve> <U0278>                               : "ɸ̮"   # ɸ (Latin Phi) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <F>    : "ɸ̮"   # ɸ (Latin Phi) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <f>    : "ɸ̮"   # ɸ (Latin Phi) + Breve Below
+<dead_belowbreve> <UA77B>                               : "Ꝼ̮"   # Ꝼ (Insular F) + Breve Below
+<dead_belowbreve> <UA77C>                               : "ꝼ̮"   # ꝼ (Insular F) + Breve Below
+<dead_belowbreve> <G>                                   : "G̮"
+<dead_belowbreve> <g>                                   : "g̮"
+<dead_belowbreve> <U0194>                               : "Ɣ̮"   # Ɣ (Latin Gamma) + Breve Below
+<dead_belowbreve> <U0263>                               : "ɣ̮"   # ɣ (Latin Gamma) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <G>    : "Ɣ̮"   # Ɣ (Latin Gamma) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <g>    : "ɣ̮"   # ɣ (Latin Gamma) + Breve Below
+<dead_belowbreve> <UA78D>                               : "Ɥ̮"   # Ɥ (Turned H) + Breve Below
+<dead_belowbreve> <U0265>                               : "ɥ̮"   # ɥ (Turned H) + Breve Below
+<dead_belowbreve> <U21BA> <H>                           : "Ɥ̮"   # Ɥ (Turned H) + Breve Below
+<dead_belowbreve> <U21BA> <h>                           : "ɥ̮"   # ɥ (Turned H) + Breve Below
+<dead_belowbreve> <I>                                   : "I̮"
+<dead_belowbreve> <i>                                   : "i̮"
+<dead_belowbreve> <U0196>                               : "Ɩ̮"   # Ɩ (Latin Iota) + Breve Below
+<dead_belowbreve> <U0269>                               : "ɩ̮"   # ɩ (Latin Iota) + Breve Below
+<dead_belowbreve> <UA7AE>                               : "Ɪ̮"   # Ɪ (Near-close near-front unrounded vowel) + Breve Below
+<dead_belowbreve> <U026A>                               : "ɪ̮"   # ɪ (Near-close near-front unrounded vowel) + Breve Below
+<dead_belowbreve> <U035A> <I>                           : "Ɪ̮"   # Ɪ (Near-close near-front unrounded vowel) + Breve Below
+<dead_belowbreve> <U035A> <i>                           : "ɪ̮"   # ɪ (Near-close near-front unrounded vowel) + Breve Below
+<dead_belowbreve> <J>                                   : "J̮"
+<dead_belowbreve> <j>                                   : "j̮"
+<dead_belowbreve> <U035A> <J>                           : "ɟ̮"   # ɟ (Barred Dotless J) + Breve Below
+<dead_belowbreve> <U035A> <j>                           : "ɟ̮"   # ɟ (Barred Dotless J) + Breve Below
+<dead_belowbreve> <K>                                   : "K̮"
+<dead_belowbreve> <k>                                   : "k̮"
+<dead_belowbreve> <L>                                   : "L̮"
+<dead_belowbreve> <l>                                   : "l̮"
+<dead_belowbreve> <U1DF08>                              : "𝼈̮"   # 𝼈 (Retroflex lateral flap) + Breve Below
+<dead_belowbreve> <U027A>                               : "ɺ̮"   # ɺ (Lateral flap) + Breve Below
+<dead_belowbreve> <U035A> <L>                           : "𝼈̮"   # 𝼈 (Retroflex lateral flap) + Breve Below
+<dead_belowbreve> <U035A> <l>                           : "ɺ̮"   # ɺ (Lateral flap) + Breve Below
+<dead_belowbreve> <M>                                   : "M̮"
+<dead_belowbreve> <m>                                   : "m̮"
+<dead_belowbreve> <U0270>                               : "ɰ̮"   # ɰ (Voiced velar approximant) + Breve Below
+<dead_belowbreve> <U035A> <M>                           : "ɰ̮"   # ɰ (Voiced velar approximant) + Breve Below
+<dead_belowbreve> <U035A> <m>                           : "ɰ̮"   # ɰ (Voiced velar approximant) + Breve Below
+<dead_belowbreve> <N>                                   : "N̮"
+<dead_belowbreve> <n>                                   : "n̮"
+<dead_belowbreve> <ENG>                                 : "Ŋ̮"   # Ŋ + Breve Below
+<dead_belowbreve> <eng>                                 : "ŋ̮"   # ŋ + Breve Below
+<dead_belowbreve> <O>                                   : "O̮"
+<dead_belowbreve> <o>                                   : "o̮"
+<dead_belowbreve> <OE>                                  : "Œ̮"
+<dead_belowbreve> <oe>                                  : "œ̮"
+<dead_belowbreve> <U1DCF> <O> <E>                       : "Œ̮"
+<dead_belowbreve> <U1DCF> <o> <e>                       : "œ̮"
+<dead_belowbreve> <UA74E>                               : "Ꝏ̮"  # Ꝏ + Breve Below
+<dead_belowbreve> <UA74F>                               : "ꝏ̮"  # ꝏ + Breve Below
+<dead_belowbreve> <U1DCF> <O> <O>                       : "Ꝏ̮"  # Ꝏ + Breve Below
+<dead_belowbreve> <U1DCF> <o> <o>                       : "ꝏ̮"  # ꝏ + Breve Below
+<dead_belowbreve> <U0186>                               : "Ɔ̮"   # Ɔ + Breve Below
+<dead_belowbreve> <U0254>                               : "ɔ̮"   # ɔ + Breve Below
+<dead_belowbreve> <UA7CB>                               : "Ɤ̮"   # Ɤ (Ram's Horn) + Breve Below
+<dead_belowbreve> <U0264>                               : "ɤ̮"   # ɤ (Ram's Horn) + Breve Below
+<dead_belowbreve> <P>                                   : "P̮"
+<dead_belowbreve> <p>                                   : "p̮"
+<dead_belowbreve> <Q>                                   : "Q̮"
+<dead_belowbreve> <q>                                   : "q̮"
+<dead_belowbreve> <R>                                   : "R̮"
+<dead_belowbreve> <r>                                   : "r̮"
+<dead_belowbreve> <U027B>                               : "ɻ̮"   # ɻ + Breve Below
+<dead_belowbreve> <U0279>                               : "ɹ̮"   # ɹ + Breve Below
+<dead_belowbreve> <U035A> <R>                           : "ɻ̮"   # ɻ + Breve Below
+<dead_belowbreve> <U035A> <r>                           : "ɹ̮"   # ɹ + Breve Below
+<dead_belowbreve> <U21BA> <R>                           : "ɻ̮"   # ɻ + Breve Below
+<dead_belowbreve> <U21BA> <r>                           : "ɹ̮"   # ɹ + Breve Below
+<dead_belowbreve> <U01A6>                               : "Ʀ̮"   # Ʀ (Yr) + Breve Below
+<dead_belowbreve> <U0280>                               : "ʀ̮"   # ʀ (Yr) + Breve Below
+<dead_belowbreve> <A75A>                                : "Ꝛ̮"   # Ꝛ (R Rotunda) + Breve Below
+<dead_belowbreve> <A75B>                                : "ꝛ̮"   # ꝛ (R Rotunda) + Breve Below
+<dead_belowbreve> <S>                                   : "S̮"
+<dead_belowbreve> <s>                                   : "s̮"
+<dead_belowbreve> <U01A9>                               : "Ʃ̮"   # Ʃ (Esh) + Breve Below
+<dead_belowbreve> <U0283>                               : "ʃ̮"   # ʃ (Esh) + Breve Below
+<dead_belowbreve> <U035A> <S>                           : "Ʃ̮"   # Ʃ (Esh) + Breve Below
+<dead_belowbreve> <U035A> <s>                           : "ʃ̮"   # ʃ (Esh) + Breve Below
+<dead_belowbreve> <T>                                   : "T̮"
+<dead_belowbreve> <t>                                   : "t̮"
+<dead_belowbreve> <THORN>                               : "Þ̮"
+<dead_belowbreve> <thorn>                               : "þ̮"
+<dead_belowbreve> <U>                                   : "U̮"
+<dead_belowbreve> <u>                                   : "u̮"
+<dead_belowbreve> <U01B1>                               : "Ʊ̮"   # Ʊ (Latin Upsilon) + Breve Below
+<dead_belowbreve> <U028A>                               : "ʊ̮"   # ʊ (Latin Upsilon) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <U>    : "Ʊ̮"   # Ʊ (Latin Upsilon) + Breve Below
+<dead_belowbreve> <dead_greek> <dead_circumflex> <u>    : "ʊ̮"   # ʊ (Latin Upsilon) + Breve Below
+<dead_belowbreve> <U019C>                               : "Ɯ̮"   # Ɯ (Turned M) + Breve Below
+<dead_belowbreve> <U026F>                               : "ɯ̮"   # ɯ (Turned M) + Breve Below
+<dead_belowbreve> <U21BA> <M>                           : "Ɯ̮"   # Ɯ (Turned M) + Breve Below
+<dead_belowbreve> <U21BA> <m>                           : "ɯ̮"   # ɯ (Turned M) + Breve Below
+<dead_belowbreve> <V>                                   : "V̮"
+<dead_belowbreve> <v>                                   : "v̮"
+<dead_belowbreve> <U0245>                               : "Ʌ̮"   # Ʌ + Breve Below
+<dead_belowbreve> <U028C>                               : "ʌ̮"   # ʌ + Breve Below
+<dead_belowbreve> <U21BA> <V>                           : "Ʌ̮"   # Ʌ + Breve Below
+<dead_belowbreve> <U21BA> <v>                           : "ʌ̮"   # ʌ + Breve Below
+<dead_belowbreve> <U01B2>                               : "Ʋ̮"   # Ʋ + Breve Below
+<dead_belowbreve> <U028B>                               : "ʋ̮"   # ʋ + Breve Below
+<dead_belowbreve> <UA768>                               : "Ꝩ̮"   # Ꝩ (Vend) + Breve Below
+<dead_belowbreve> <UA769>                               : "ꝩ̮"   # ꝩ (Vend) + Breve Below
+<dead_belowbreve> <W>                                   : "W̮"
+<dead_belowbreve> <w>                                   : "w̮"
+<dead_belowbreve> <UA760>                               : "Ꝡ̮"   # Ꝡ + Breve Below
+<dead_belowbreve> <UA761>                               : "ꝡ̮"   # ꝡ + Breve Below
+<dead_belowbreve> <U1DCF> <V> <Y>                       : "Ꝡ̮"
+<dead_belowbreve> <U1DCF> <v> <y>                       : "ꝡ̮"
+<dead_belowbreve> <X>                                   : "X̮"
+<dead_belowbreve> <x>                                   : "x̮"
+<dead_belowbreve> <Y>                                   : "Y̮"
+<dead_belowbreve> <y>                                   : "y̮"
+<dead_belowbreve> <U21BA> <Y>                           : "⅄̮"   # ⅄ + Breve Below
+<dead_belowbreve> <U21BA> <y>                           : "ʎ̮"   # ʎ + Breve Below
+<dead_belowbreve> <U21BA> <Y>                           : "⅄̮"   # ⅄ + Breve Below
+<dead_belowbreve> <U21BA> <y>                           : "ʎ̮"   # ʎ + Breve Below
+<dead_belowbreve> <Z>                                   : "Z̮"
+<dead_belowbreve> <z>                                   : "z̮"
+<dead_belowbreve> <EZH>                                 : "Ʒ̮"   # Ʒ + Breve Below
+<dead_belowbreve> <ezh>                                 : "ʒ̮"   # ʒ + Breve Below
+<dead_belowbreve> <U0294>                               : "ʔ̮"   # ʔ (Glottal Stop) + Breve Below
+<dead_belowbreve> <U035A> <question>                    : "ʔ̮"   # ʔ (Glottal Stop) + Breve Below
+<dead_belowbreve> <U035A> <U0241> <space>               : "ʔ̮"   # Ɂ (Capital Glottal Stop) + Breve Below
+<dead_belowbreve> <U035A> <U0242> <space>               : "ʔ̮"   # ɂ (Small Glottal Stop) + Breve Below
+<dead_belowbreve> <U0241>                               : "Ɂ̮"   # Ɂ (Capital Glottal Stop) + Breve Below
+<dead_belowbreve> <U0242>                               : "ɂ̮"   # ɂ (Small Glottal Stop) + Breve Below
+<dead_belowbreve> <U0295>                               : "ʕ̮"   # ʕ (Turned Glottal Glottal Stop) + Breve Below
+<dead_belowbreve> <U035A> <questiondown>                : "ʕ̮"   # ʕ (Turned Glottal Glottal Stop) + Breve Below
+<dead_belowbreve> <U035A> <U0241> <underscore> <space>  : "ʕ̮"   # Ɂ (Capital Glottal Stop) + "_" + Breve Below
+<dead_belowbreve> <U035A> <U0242> <underscore> <space>  : "ʕ̮"   # ɂ (Small Glottal Stop) + "_" + Breve Below
 
 
 # Composed breve below combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main source]: https://fr.wikipedia.org/wiki/Brève_souscrite
 #
-<dead_belowbreve> <Emacron>         : "Ē̮"
-<dead_belowbreve> <emacron>         : "ē̮"
-<dead_belowbreve> <dead_macron> <E> : "Ē̮"
-<dead_belowbreve> <dead_macron> <e> : "ē̮"
-<dead_belowbreve> <dead_macron> <L> : "L̮̄"
-<dead_belowbreve> <dead_macron> <l> : "l̮̄"
-<dead_belowbreve> <dead_macron> <R> : "R̮̄"
-<dead_belowbreve> <dead_macron> <r> : "r̮̄"
+<dead_belowbreve> <Emacron>                             : "Ē̮"
+<dead_belowbreve> <emacron>                             : "ē̮"
+<dead_belowbreve> <dead_macron> <E>                     : "Ē̮"
+<dead_belowbreve> <dead_macron> <e>                     : "ē̮"
+<dead_belowbreve> <dead_macron> <L>                     : "L̮̄"
+<dead_belowbreve> <dead_macron> <l>                     : "l̮̄"
+<dead_belowbreve> <dead_macron> <R>                     : "R̮̄"
+<dead_belowbreve> <dead_macron> <r>                     : "r̮̄"
+<dead_belowbreve> <U02A1>                               : "ʡ̮"   # Ɂ (Capital Glottal Stop) + "-" + Breve Below
+<dead_belowbreve> <U035A> <U0241> <minus>               : "ʡ̮"   # Ɂ (Capital Glottal Stop) + "-" + Breve Below
+<dead_belowbreve> <U035A> <U0242> <minus>               : "ʡ̮"   # ɂ (Small Glottal Stop) + "-" + Breve Below
+<dead_belowbreve> <U02A2>                               : "ʢ̮"   # ʢ (Barred Turned Glottal Stop) + Breve Below
+<dead_belowbreve> <U035A> <U0241> <underscore> <minus>  : "ʢ̮"   # Ɂ (Capital Glottal Stop) + "_-" + Breve Below
+<dead_belowbreve> <U035A> <U0242> <underscore> <minus>  : "ʢ̮"   # ɂ (Small Glottal Stop) + "_-" + Breve Below
 
 ##################
 # [END OF RULES] #

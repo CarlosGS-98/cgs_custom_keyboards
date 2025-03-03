@@ -15,6 +15,8 @@
 <U035B> <j>                             : "ʝ"
 <U035B> <L>                             : "Ɬ"
 <U035B> <l>                             : "ɬ"
+<U035B> <U035A> <L>                     : "𝼄"
+<U035B> <U035A> <l>                     : "ꞎ"
 <U035B> <Lstroke>                       : "ȴ"
 <U035B> <lstroke>                       : "ȴ"
 <U035B> <dead_longsolidusoverlay> <L>   : "ȴ"

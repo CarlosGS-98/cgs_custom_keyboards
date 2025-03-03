@@ -4,44 +4,60 @@
 # Basic precomposed letter combinations
 # [Main source]: https://en.wikipedia.org/wiki/List_of_Latin-script_letters
 #
-<U21BA> <A>     : "Ɐ"
-<U21BA> <a>     : "ɐ"
-<U21BA> <U2C6D> : "Ɒ"   # Ɑ (Latin Alpha, Turned)
-<U21BA> <U0251> : "ɒ"   # ɑ (Latin Alpha, Turned)
-<U21BA> <C>     : "Ↄ"   # Ↄ (Antisigma)
-<U21BA> <c>     : "ↄ"   # ↄ (Antisigma)
-<U21BA> <E>     : "Ǝ"
-<U21BA> <e>     : "ǝ"
-<U21BA> <U0190> : "Ɜ"   # Ɛ (Latin Epsilon, Turned)
-<U21BA> <U025B> : "ɜ"   # ɛ (Latin Epsilon, Turned)
-<U21BA> <SCHWA> : "ɘ"
-<U21BA> <schwa> : "ɘ"
-<U21BA> <F>     : "Ⅎ"   # Ⅎ (Digamma Inversum)
-<U21BA> <f>     : "ⅎ"   # ⅎ (Digamma Inversum)
-<U21BA> <G>     : "⅁"
-<U21BA> <g>     : "ᵷ"
-<U21BA> <H>     : "Ɥ"
-<U21BA> <h>     : "ɥ"
-<U21BA> <U2C75> : "Ꟶ"  # Ⱶ (Sonus Medius, Turned)
-<U21BA> <U2C76> : "ꟶ"  # ⱶ (Sonus Medius, Turned)
-<U21BA> <I>     : "ᴉ"
-<U21BA> <i>     : "ᴉ"
-<U21BA> <K>     : "Ʞ"
-<U21BA> <k>     : "ʞ"
-<U21BA> <L>     : "Ꞁ"
-<U21BA> <l>     : "ꞁ"
-<U21BA> <M>     : "Ɯ"
-<U21BA> <m>     : "ɯ"
-<U21BA> <T>     : "Ʇ"
-<U21BA> <t>     : "ʇ"
-<U21BA> <V>     : "Ʌ"
-<U21BA> <v>     : "ʌ"
-<U21BA> <W>     : "ʍ"
-<U21BA> <w>     : "ʍ"
-<U21BA> <Y>     : "⅄"
-<U21BA> <y>     : "ʎ"
-<U21BA> <EZH>   : "Ƹ"
-<U21BA> <ezh>   : "ƹ"
+<U21BA> <A>                 : "Ɐ"
+<U21BA> <a>                 : "ɐ"
+<U21BA> <U2C6D>             : "Ɒ"   # Ɑ (Latin Alpha, Turned)
+<U21BA> <U0251>             : "ɒ"   # ɑ (Latin Alpha, Turned)
+<U21BA> <dead_greek> <A>    : "Ɒ"   # Ɑ (Latin Alpha, Turned)
+<U21BA> <dead_greek> <a>    : "ɒ"   # ɑ (Latin Alpha, Turned)
+<U21BA> <C>                 : "Ↄ"   # Ↄ (Antisigma)
+<U21BA> <c>                 : "ↄ"   # ↄ (Antisigma)
+<U21BA> <dead_greek> <E>    : "Ɜ"   # ɜ (Latin Epsilon, Turned)
+<U21BA> <dead_greek> <e>    : "ɜ"   # ɜ (Latin Epsilon, Turned)
+<U21BA> <E>                 : "Ǝ"
+<U21BA> <e>                 : "ǝ"
+<U21BA> <underscore> <E>    : "ʚ"
+<U21BA> <underscore> <e>    : "ɞ"
+<U21BA> <U035A> <E>         : "ⱻ"
+<U21BA> <U035A> <e>         : "ⱻ"
+<U21BA> <U0190>             : "Ɜ"   # Ɛ (Latin Epsilon, Turned)
+<U21BA> <U025B>             : "ɜ"   # ɛ (Latin Epsilon, Turned)
+<U21BA> <SCHWA>             : "ɘ"   # Close-mid central unrounded vowel
+<U21BA> <schwa>             : "ɘ"   # Close-mid central unrounded vowel
+<U21BA> <F>                 : "Ⅎ"   # Ⅎ (Digamma Inversum)
+<U21BA> <f>                 : "ⅎ"   # ⅎ (Digamma Inversum)
+<U21BA> <G>                 : "⅁"
+<U21BA> <g>                 : "ᵷ"
+<U21BA> <U035A> <G>         : "𝼂"
+<U21BA> <U035A> <g>         : "𝼂"
+<U21BA> <H>                 : "Ɥ"
+<U21BA> <h>                 : "ɥ"
+<U21BA> <U2C75>             : "Ꟶ"   # Ⱶ (Sonus Medius, Turned)
+<U21BA> <U2C76>             : "ꟶ"   # ⱶ (Sonus Medius, Turned)
+<U21BA> <I>                 : "ᴉ"
+<U21BA> <i>                 : "ᴉ"
+<U21BA> <K>                 : "Ʞ"
+<U21BA> <k>                 : "ʞ"
+<U21BA> <U035A> <K>         : "𝼐"
+<U21BA> <U035A> <k>         : "𝼐"
+<U21BA> <L>                 : "Ꞁ"
+<U21BA> <l>                 : "ꞁ"
+<U21BA> <M>                 : "Ɯ"
+<U21BA> <m>                 : "ɯ"
+<U21BA> <U035A> <M>         : "ꟺ"
+<U21BA> <U035A> <m>         : "ꟺ"
+<U21BA> <R>                 : "ɻ"
+<U21BA> <r>                 : "ɹ"
+<U21BA> <T>                 : "Ʇ"
+<U21BA> <t>                 : "ʇ"
+<U21BA> <V>                 : "Ʌ"
+<U21BA> <v>                 : "ʌ"
+<U21BA> <W>                 : "ʍ"
+<U21BA> <w>                 : "ʍ"
+<U21BA> <Y>                 : "⅄"
+<U21BA> <y>                 : "ʎ"
+<U21BA> <EZH>               : "Ƹ"
+<U21BA> <ezh>               : "ƹ"
 
 ##################
 # [END OF RULES] #

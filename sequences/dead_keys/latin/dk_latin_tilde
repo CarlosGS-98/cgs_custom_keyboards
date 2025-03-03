@@ -73,122 +73,193 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_tilde> <U2C6F>            : "Ɐ̃"      # Ɐ + Tilde
-<dead_tilde> <U0250>            : "ɐ̃"      # ɐ + Tilde
-<dead_tilde> <U21BA> <A>        : "Ɐ̃"      # Ɐ + Tilde
-<dead_tilde> <U21BA> <a>        : "ɐ̃"      # ɐ + Tilde
-<dead_tilde> <UA732>            : "Ꜳ̃"     # Ꜳ + Tilde
-<dead_tilde> <UA733>            : "ꜳ̃"      # ꜳ + Tilde
-<dead_tilde> <U1DCF> <A> <A>    : "Ꜳ̃"     # Ꜳ + Tilde
-<dead_tilde> <U1DCF> <a> <a>    : "ꜳ̃"      # ꜳ + Tilde
-<dead_tilde> <AE>               : "Æ̃"
-<dead_tilde> <ae>               : "æ̃"
-<dead_tilde> <U1DCF> <A> <E>    : "Æ̃"
-<dead_tilde> <U1DCF> <a> <e>    : "æ̃"
-<dead_tilde> <UA734>            : "Ꜵ̃"     # Ꜵ + Tilde
-<dead_tilde> <UA735>            : "ꜵ̃"      # ꜵ + Tilde
-<dead_tilde> <U1DCF> <A> <O>    : "Ꜵ̃"     # Ꜵ + Tilde
-<dead_tilde> <U1DCF> <a> <o>    : "ꜵ̃"      # ꜵ + Tilde
-<dead_tilde> <UA736>            : "Ꜷ̃"     # Ꜷ + Tilde
-<dead_tilde> <UA737>            : "ꜷ̃"      # ꜷ + Tilde
-<dead_tilde> <U1DCF> <A> <U>    : "Ꜷ̃"     # Ꜷ + Tilde
-<dead_tilde> <U1DCF> <a> <u>    : "ꜷ̃"      # ꜷ + Tilde
-<dead_tilde> <UA738>            : "Ꜹ̃"     # Ꜹ + Tilde
-<dead_tilde> <UA739>            : "ꜹ̃"      # ꜹ + Tilde
-<dead_tilde> <U1DCF> <A> <V>    : "Ꜹ̃"     # Ꜹ + Tilde
-<dead_tilde> <U1DCF> <a> <v>    : "ꜹ̃"      # ꜹ + Tilde
-<dead_tilde> <UA73C>            : "Ꜽ̃"     # Ꜽ + Tilde
-<dead_tilde> <UA73D>            : "ꜽ̃"      # ꜽ + Tilde
-<dead_tilde> <U1DCF> <A> <Y>    : "Ꜽ̃"     # Ꜽ + Tilde
-<dead_tilde> <U1DCF> <a> <y>    : "ꜽ̃"      # ꜽ + Tilde
-<dead_tilde> <U2C6D>            : "Ɑ̃"      # Ɑ (Latin Alpha) + Tilde
-<dead_tilde> <U0251>            : "ɑ̃"      # ɑ (Latin Alpha) + Tilde
-<dead_tilde> <B>                : "B̃"
-<dead_tilde> <b>                : "b̃"
-<dead_tilde> <C>                : "C̃"
-<dead_tilde> <c>                : "c̃"
-<dead_tilde> <D>                : "D̃"
-<dead_tilde> <d>                : "d̃"
-<dead_tilde> <UA779>            : "Ꝺ̃"      # Ꝺ (Insular D) + Tilde
-<dead_tilde> <UA77A>            : "ꝺ̃"      # ꝺ (Insular D) + Tilde
-<dead_tilde> <U0190>            : "Ɛ̃"      # Ɛ (Latin Epsilon) + Tilde
-<dead_tilde> <U025B>            : "ɛ̃"      # ɛ (Latin Epsilon) + Tilde
-<dead_tilde> <SCHWA>            : "Ə̃"      # Ə (Schwa) + Tilde
-<dead_tilde> <schwa>            : "ə̃"      # ə (Schwa) + Tilde
-<dead_tilde> <U018E>            : "Ǝ̃̃"      # Ǝ (Turned E) + Tilde
-<dead_tilde> <U01DD>            : "ǝ̃"      # ǝ (Turned E) + Tilde
-<dead_tilde> <U21BA> <E>        : "Ǝ̃"      # Ǝ (Turned E) + Tilde
-<dead_tilde> <U21BA> <e>        : "ǝ̃"      # ǝ (Turned E) + Tilde
-<dead_tilde> <F>                : "F̃"
-<dead_tilde> <f>                : "f̃"
-<dead_tilde> <UA77B>            : "Ꝼ̃"      # Ꝼ (Insular F) + Tilde
-<dead_tilde> <UA77C>            : "ꝼ̃"      # ꝼ (Insular F) + Tilde
-<dead_tilde> <G>                : "G̃"
-<dead_tilde> <g>                : "g̃"
-<dead_tilde> <U0194>            : "Ɣ̃"      # Ɣ (Latin Gamma) + Tilde
-<dead_tilde> <U0263>            : "ɣ̃"      # ɣ (Latin Gamma) + Tilde
-<dead_tilde> <UA78D>            : "Ɥ̃"      # Ɥ (Turned H) + Tilde
-<dead_tilde> <U0265>            : "ɥ̃"      # ɥ (Turned H) + Tilde
-<dead_tilde> <U21BA> <H>        : "Ɥ̃"      # Ɥ (Turned H) + Tilde
-<dead_tilde> <U21BA> <h>        : "ɥ̃"      # ɥ (Turned H) + Tilde
-<dead_tilde> <U0196>            : "Ɩ̃"      # Ɩ (Latin Iota) + Tilde
-<dead_tilde> <U0269>            : "ɩ̃"      # ɩ (Latin Iota) + Tilde
-<dead_tilde> <J>                : "J̃"
-<dead_tilde> <j>                : "ȷ̃"
-<dead_tilde> <K>                : "K̃"
-<dead_tilde> <k>                : "k̃"
-<dead_tilde> <L>                : "L̃"
-<dead_tilde> <l>                : "l̃"
-<dead_tilde> <M>                : "M̃"
-<dead_tilde> <m>                : "m̃"
-<dead_tilde> <ENG>              : "Ŋ̃"      # Ŋ + Tilde
-<dead_tilde> <eng>              : "ŋ̃"      # ŋ + Tilde
-<dead_tilde> <OE>               : "Œ̃"
-<dead_tilde> <oe>               : "œ̃"
-<dead_tilde> <U1DCF> <O> <E>    : "Œ̃"
-<dead_tilde> <U1DCF> <o> <e>    : "œ̃"
-<dead_tilde> <UA74E>            : "Ꝏ̃"     # Ꝏ + Tilde
-<dead_tilde> <UA74F>            : "ꝏ̃"     # ꝏ + Tilde
-<dead_tilde> <U1DCF> <O> <O>    : "Ꝏ̃"     # Ꝏ + Tilde
-<dead_tilde> <U1DCF> <o> <o>    : "ꝏ̃"     # ꝏ + Tilde
-<dead_tilde> <U0186>            : "Ɔ̃"      # Ɔ + Tilde
-<dead_tilde> <U0254>            : "ɔ̃"      # ɔ + Tilde
-<dead_tilde> <UA7CB>            : "Ɤ̃"      # Ɤ (Ram's Horn) + Tilde
-<dead_tilde> <U0264>            : "ɤ̃"      # ɤ (Ram's Horn) + Tilde
-<dead_tilde> <Q>                : "Q̃"
-<dead_tilde> <q>                : "q̃"
-<dead_tilde> <R>                : "R̃"
-<dead_tilde> <r>                : "r̃"
-<dead_tilde> <S>                : "S̃"
-<dead_tilde> <s>                : "s̃"
-<dead_tilde> <T>                : "T̃"
-<dead_tilde> <t>                : "t̃"
-<dead_tilde> <U01B1>            : "Ʊ̃"     # Ʊ (Latin Upsilon) + Tilde
-<dead_tilde> <U028A>            : "ʊ̃"     # ʊ (Latin Upsilon) + Tilde
-<dead_tilde> <U019C>            : "Ɯ̃"     # Ɯ (Turned M) + Tilde
-<dead_tilde> <U026F>            : "ɯ̃"     # ɯ (Turned M) + Tilde
-<dead_tilde> <U21BA> <M>        : "Ɯ̃"     # Ɯ (Turned M) + Tilde
-<dead_tilde> <U21BA> <m>        : "ɯ̃"     # ɯ (Turned M) + Tilde
-<dead_tilde> <U0245>            : "Ʌ̃"     # Ʌ + Tilde
-<dead_tilde> <U028C>            : "ʌ̃"     # ʌ + Tilde
-<dead_tilde> <U21BA> <V>        : "Ʌ̃"     # Ʌ + Tilde
-<dead_tilde> <U21BA> <v>        : "ʌ̃"     # ʌ + Tilde
-<dead_tilde> <U01B2>            : "Ʋ̃"     # Ʋ + Tilde
-<dead_tilde> <U028B>            : "ʋ̃"     # ʋ + Tilde
-<dead_tilde> <UA768>            : "Ꝩ̃"     # Ꝩ (Vend) + Tilde
-<dead_tilde> <UA769>            : "ꝩ̃"     # ꝩ (Vend) + Tilde
-<dead_tilde> <UA760>            : "Ꝡ̃"     # Ꝡ + Tilde
-<dead_tilde> <UA761>            : "ꝡ̃"     # ꝡ + Tilde
-<dead_tilde> <U1DCF> <V> <Y>    : "Ꝡ̃"
-<dead_tilde> <U1DCF> <v> <y>    : "ꝡ̃"
-<dead_tilde> <W>                : "W̃"
-<dead_tilde> <w>                : "w̃"
-<dead_tilde> <X>                : "X̃"
-<dead_tilde> <x>                : "x̃"
-<dead_tilde> <Z>                : "Z̃"
-<dead_tilde> <z>                : "z̃"
-<dead_tilde> <EZH>              : "Ʒ̃"
-<dead_tilde> <ezh>              : "ʒ̃"
+<dead_tilde> <U2C6F>                                : "Ɐ̃"   # Ɐ + Tilde
+<dead_tilde> <U0250>                                : "ɐ̃"   # ɐ + Tilde
+<dead_tilde> <U21BA> <A>                            : "Ɐ̃"   # Ɐ + Tilde
+<dead_tilde> <U21BA> <a>                            : "ɐ̃"   # ɐ + Tilde
+<dead_tilde> <UA732>                                : "Ꜳ̃"  # Ꜳ + Tilde
+<dead_tilde> <UA733>                                : "ꜳ̃"   # ꜳ + Tilde
+<dead_tilde> <U1DCF> <A> <A>                        : "Ꜳ̃"  # Ꜳ + Tilde
+<dead_tilde> <U1DCF> <a> <a>                        : "ꜳ̃"   # ꜳ + Tilde
+<dead_tilde> <AE>                                   : "Æ̃"
+<dead_tilde> <ae>                                   : "æ̃"
+<dead_tilde> <U1DCF> <A> <E>                        : "Æ̃"
+<dead_tilde> <U1DCF> <a> <e>                        : "æ̃"
+<dead_tilde> <UA734>                                : "Ꜵ̃"  # Ꜵ + Tilde
+<dead_tilde> <UA735>                                : "ꜵ̃"   # ꜵ + Tilde
+<dead_tilde> <U1DCF> <A> <O>                        : "Ꜵ̃"  # Ꜵ + Tilde
+<dead_tilde> <U1DCF> <a> <o>                        : "ꜵ̃"   # ꜵ + Tilde
+<dead_tilde> <UA736>                                : "Ꜷ̃"  # Ꜷ + Tilde
+<dead_tilde> <UA737>                                : "ꜷ̃"   # ꜷ + Tilde
+<dead_tilde> <U1DCF> <A> <U>                        : "Ꜷ̃"  # Ꜷ + Tilde
+<dead_tilde> <U1DCF> <a> <u>                        : "ꜷ̃"   # ꜷ + Tilde
+<dead_tilde> <UA738>                                : "Ꜹ̃"  # Ꜹ + Tilde
+<dead_tilde> <UA739>                                : "ꜹ̃"   # ꜹ + Tilde
+<dead_tilde> <U1DCF> <A> <V>                        : "Ꜹ̃"  # Ꜹ + Tilde
+<dead_tilde> <U1DCF> <a> <v>                        : "ꜹ̃"   # ꜹ + Tilde
+<dead_tilde> <UA73C>                                : "Ꜽ̃"  # Ꜽ + Tilde
+<dead_tilde> <UA73D>                                : "ꜽ̃"   # ꜽ + Tilde
+<dead_tilde> <U1DCF> <A> <Y>                        : "Ꜽ̃"  # Ꜽ + Tilde
+<dead_tilde> <U1DCF> <a> <y>                        : "ꜽ̃"   # ꜽ + Tilde
+<dead_tilde> <U2C6D>                                : "Ɑ̃"   # Ɑ (Latin Alpha) + Tilde
+<dead_tilde> <U0251>                                : "ɑ̃"   # ɑ (Latin Alpha) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <A>     : "Ɑ̃"   # Ɑ (Latin Alpha) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <a>     : "ɑ̃"   # ɑ (Latin Alpha) + Tilde
+<dead_tilde> <U2C70>                                : "Ɒ̃"   # Ɒ (Turned Latin Alpha) + Tilde
+<dead_tilde> <U0252>                                : "ɒ̃"   # ɒ (Turned Latin Alpha) + Tilde
+<dead_tilde> <U21BA> <dead_greek> <A>               : "Ɒ̃"   # Ɒ (Turned Latin Alpha) + Tilde
+<dead_tilde> <U21BA> <dead_greek> <a>               : "ɒ̃"   # ɒ (Turned Latin Alpha) + Tilde
+<dead_tilde> <B>                                    : "B̃"
+<dead_tilde> <b>                                    : "b̃"
+<dead_tilde> <UA7B4>                                : "Ꞵ̃"   # Ꞵ (Latin Beta) + Tilde
+<dead_tilde> <UA7B5>                                : "ꞵ̃"   # ꞵ (Latin Beta) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <B>     : "Ꞵ̃"   # Ꞵ (Latin Beta) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <b>     : "ꞵ̃"   # ꞵ (Latin Beta) + Tilde
+<dead_tilde> <C>                                    : "C̃"
+<dead_tilde> <c>                                    : "c̃"
+<dead_tilde> <D>                                    : "D̃"
+<dead_tilde> <d>                                    : "d̃"
+<dead_tilde> <UA779>                                : "Ꝺ̃"   # Ꝺ (Insular D) + Tilde
+<dead_tilde> <UA77A>                                : "ꝺ̃"   # ꝺ (Insular D) + Tilde
+<dead_tilde> <U0190>                                : "Ɛ̃"   # Ɛ (Latin Epsilon) + Tilde
+<dead_tilde> <U025B>                                : "ɛ̃"   # ɛ (Latin Epsilon) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <E>     : "Ɛ̃"   # Ɛ (Latin Epsilon) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <e>     : "ɛ̃"   # Ɛ (Latin Epsilon) + Tilde
+<dead_tilde> <UA7AB>                                : "Ɜ̃"   # Ɜ (Turned Latin Epsilon) + Tilde
+<dead_tilde> <U025C>                                : "ɜ̃"   # ɜ (Turned Latin Epsilon) + Tilde
+<dead_tilde> <U21BA> <dead_greek> <E>               : "Ɜ̃"   # Ɜ (Turned Latin Epsilon) + Tilde
+<dead_tilde> <U21BA> <dead_greek> <e>               : "ɜ̃"   # ɜ (Turned Latin Epsilon) + Tilde
+<dead_tilde> <SCHWA>                                : "Ə̃"   # Ə (Schwa) + Tilde
+<dead_tilde> <schwa>                                : "ə̃"   # ə (Schwa) + Tilde
+<dead_tilde> <U035A> <E>                            : "Ə̃"   # Ə (Schwa) + Tilde
+<dead_tilde> <U035A> <e>                            : "ə̃"   # ə (Schwa) + Tilde
+<dead_tilde> <U0258>                                : "ɘ̃"   # ɘ (Close-mid central unrounded vowel) + Tilde
+<dead_tilde> <U035A> <minus> <E>                    : "ɘ̃"   # ɘ (Close-mid central unrounded vowel) + Tilde
+<dead_tilde> <U035A> <minus> <e>                    : "ɘ̃"   # ɘ (Close-mid central unrounded vowel) + Tilde
+<dead_tilde> <U21BA> <SCHWA>                        : "ɘ̃"   # ɘ (Close-mid central unrounded vowel) + Tilde
+<dead_tilde> <U21BA> <schwa>                        : "ɘ̃"   # ɘ (Close-mid central unrounded vowel) + Tilde
+<dead_tilde> <U029A>                                : "ʚ̃"   # ʚ + Tilde
+<dead_tilde> <U025E>                                : "ɞ̃"   # ɞ + Tilde
+<dead_tilde> <U21BA> <underscore> <E>               : "ʚ̃"   # ʚ + Tilde
+<dead_tilde> <U21BA> <underscore> <e>               : "ɞ̃"   # ɞ + Tilde
+<dead_tilde> <U018E>                                : "Ǝ̃̃"   # Ǝ (Turned E) + Tilde
+<dead_tilde> <U01DD>                                : "ǝ̃"   # ǝ (Turned E) + Tilde
+<dead_tilde> <U21BA> <E>                            : "Ǝ̃"   # Ǝ (Turned E) + Tilde
+<dead_tilde> <U21BA> <e>                            : "ǝ̃"    # ǝ (Turned E) + Tilde
+<dead_tilde> <F>                                    : "F̃"
+<dead_tilde> <f>                                    : "f̃"
+<dead_tilde> <U0278>                                : "ɸ̃"   # ɸ (Latin Phi) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <F>     : "ɸ̃"   # ɸ (Latin Phi) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <f>     : "ɸ̃"   # ɸ (Latin Phi) + Tilde
+<dead_tilde> <UA77B>                                : "Ꝼ̃"   # Ꝼ (Insular F) + Tilde
+<dead_tilde> <UA77C>                                : "ꝼ̃"   # ꝼ (Insular F) + Tilde
+<dead_tilde> <G>                                    : "G̃"
+<dead_tilde> <g>                                    : "g̃"
+<dead_tilde> <U0194>                                : "Ɣ̃"   # Ɣ (Latin Gamma) + Tilde
+<dead_tilde> <U0263>                                : "ɣ̃"   # ɣ (Latin Gamma) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <G>     : "Ɣ̃"   # Ɣ (Latin Gamma) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <g>     : "ɣ̃"   # ɣ (Latin Gamma) + Tilde
+<dead_tilde> <UA78D>                                : "Ɥ̃"   # Ɥ (Turned H) + Tilde
+<dead_tilde> <U0265>                                : "ɥ̃"   # ɥ (Turned H) + Tilde
+<dead_tilde> <U21BA> <H>                            : "Ɥ̃"   # Ɥ (Turned H) + Tilde
+<dead_tilde> <U21BA> <h>                            : "ɥ̃"   # ɥ (Turned H) + Tilde
+<dead_tilde> <U0196>                                : "Ɩ̃"   # Ɩ (Latin Iota) + Tilde
+<dead_tilde> <U0269>                                : "ɩ̃"   # ɩ (Latin Iota) + Tilde
+<dead_tilde> <UA7AE>                                : "Ɪ̃"   # Ɪ (Near-close near-front unrounded vowel) + Tilde
+<dead_tilde> <U026A>                                : "ɪ̃"   # ɪ (Near-close near-front unrounded vowel) + Tilde
+<dead_tilde> <U035A> <I>                            : "Ɪ̃"   # Ɪ (Near-close near-front unrounded vowel) + Tilde
+<dead_tilde> <U035A> <i>                            : "ɪ̃"   # ɪ (Near-close near-front unrounded vowel) + Tilde
+<dead_tilde> <J>                                    : "J̃"
+<dead_tilde> <j>                                    : "ȷ̃"
+<dead_tilde> <U035A> <J>                            : "ɟ̃"   # ɟ (Barred Dotless J) + Tilde
+<dead_tilde> <U035A> <j>                            : "ɟ̃"   # ɟ (Barred Dotless J) + Tilde
+<dead_tilde> <K>                                    : "K̃"
+<dead_tilde> <k>                                    : "k̃"
+<dead_tilde> <L>                                    : "L̃"
+<dead_tilde> <l>                                    : "l̃"
+<dead_tilde> <U1DF08>                               : "𝼈̃"   # 𝼈 (Retroflex lateral flap) + Tilde
+<dead_tilde> <U027A>                                : "ɺ̃"   # ɺ (Lateral flap) + Tilde
+<dead_tilde> <U035A> <L>                            : "𝼈̃"   # 𝼈 (Retroflex lateral flap) + Tilde
+<dead_tilde> <U035A> <l>                            : "ɺ̃"   # ɺ (Lateral flap) + Tilde
+<dead_tilde> <M>                                    : "M̃"
+<dead_tilde> <m>                                    : "m̃"
+<dead_tilde> <U0270>                                : "ɰ̃"   # ɰ (Voiced velar approximant) + Tilde
+<dead_tilde> <U035A> <M>                            : "ɰ̃"   # ɰ (Voiced velar approximant) + Tilde
+<dead_tilde> <U035A> <m>                            : "ɰ̃"   # ɰ (Voiced velar approximant) + Tilde
+<dead_tilde> <ENG>                                  : "Ŋ̃"   # Ŋ + Tilde
+<dead_tilde> <eng>                                  : "ŋ̃"   # ŋ + Tilde
+<dead_tilde> <OE>                                   : "Œ̃"
+<dead_tilde> <oe>                                   : "œ̃"
+<dead_tilde> <U1DCF> <O> <E>                        : "Œ̃"
+<dead_tilde> <U1DCF> <o> <e>                        : "œ̃"
+<dead_tilde> <UA74E>                                : "Ꝏ̃"  # Ꝏ + Tilde
+<dead_tilde> <UA74F>                                : "ꝏ̃"  # ꝏ + Tilde
+<dead_tilde> <U1DCF> <O> <O>                        : "Ꝏ̃"  # Ꝏ + Tilde
+<dead_tilde> <U1DCF> <o> <o>                        : "ꝏ̃"  # ꝏ + Tilde
+<dead_tilde> <U0186>                                : "Ɔ̃"   # Ɔ + Tilde
+<dead_tilde> <U0254>                                : "ɔ̃"   # ɔ + Tilde
+<dead_tilde> <UA7CB>                                : "Ɤ̃"   # Ɤ (Ram's Horn) + Tilde
+<dead_tilde> <U0264>                                : "ɤ̃"   # ɤ (Ram's Horn) + Tilde
+<dead_tilde> <Q>                                    : "Q̃"
+<dead_tilde> <q>                                    : "q̃"
+<dead_tilde> <R>                                    : "R̃"
+<dead_tilde> <r>                                    : "r̃"
+<dead_tilde> <U027B>                                : "ɻ̃"   # ɻ + Tilde
+<dead_tilde> <U0279>                                : "ɹ̃"   # ɹ + Tilde
+<dead_tilde> <U035A> <R>                            : "ɻ̃"   # ɻ + Tilde
+<dead_tilde> <U035A> <r>                            : "ɹ̃"   # ɹ + Tilde
+<dead_tilde> <U21BA> <R>                            : "ɻ̃"   # ɻ + Tilde
+<dead_tilde> <U21BA> <r>                            : "ɹ̃"   # ɹ + Tilde
+<dead_tilde> <S>                                    : "S̃"
+<dead_tilde> <s>                                    : "s̃"
+<dead_tilde> <U01A9>                                : "Ʃ̃"   # Ʃ (Esh) + Tilde
+<dead_tilde> <U0283>                                : "ʃ̃"   # ʃ (Esh) + Tilde
+<dead_tilde> <U035A> <S>                            : "Ʃ̃"   # Ʃ (Esh) + Tilde
+<dead_tilde> <U035A> <s>                            : "ʃ̃"   # ʃ (Esh) + Tilde
+<dead_tilde> <T>                                    : "T̃"
+<dead_tilde> <t>                                    : "t̃"
+<dead_tilde> <U01B1>                                : "Ʊ̃"   # Ʊ (Latin Upsilon) + Tilde
+<dead_tilde> <U028A>                                : "ʊ̃"   # ʊ (Latin Upsilon) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <U>     : "Ʊ̃"   # Ʊ (Latin Upsilon) + Tilde
+<dead_tilde> <dead_greek> <dead_circumflex> <u>     : "ʊ̃"   # ʊ (Latin Upsilon) + Tilde
+<dead_tilde> <U019C>                                : "Ɯ̃"   # Ɯ (Turned M) + Tilde
+<dead_tilde> <U026F>                                : "ɯ̃"   # ɯ (Turned M) + Tilde
+<dead_tilde> <U21BA> <M>                            : "Ɯ̃"   # Ɯ (Turned M) + Tilde
+<dead_tilde> <U21BA> <m>                            : "ɯ̃"   # ɯ (Turned M) + Tilde
+<dead_tilde> <U0245>                                : "Ʌ̃"   # Ʌ + Tilde
+<dead_tilde> <U028C>                                : "ʌ̃"   # ʌ + Tilde
+<dead_tilde> <U21BA> <V>                            : "Ʌ̃"   # Ʌ + Tilde
+<dead_tilde> <U21BA> <v>                            : "ʌ̃"   # ʌ + Tilde
+<dead_tilde> <U01B2>                                : "Ʋ̃"   # Ʋ + Tilde
+<dead_tilde> <U028B>                                : "ʋ̃"   # ʋ + Tilde
+<dead_tilde> <UA768>                                : "Ꝩ̃"   # Ꝩ (Vend) + Tilde
+<dead_tilde> <UA769>                                : "ꝩ̃"   # ꝩ (Vend) + Tilde
+<dead_tilde> <UA760>                                : "Ꝡ̃"   # Ꝡ + Tilde
+<dead_tilde> <UA761>                                : "ꝡ̃"   # ꝡ + Tilde
+<dead_tilde> <U1DCF> <V> <Y>                        : "Ꝡ̃"
+<dead_tilde> <U1DCF> <v> <y>                        : "ꝡ̃"
+<dead_tilde> <W>                                    : "W̃"
+<dead_tilde> <w>                                    : "w̃"
+<dead_tilde> <X>                                    : "X̃"
+<dead_tilde> <x>                                    : "x̃"
+<dead_tilde> <U21BA> <Y>                            : "⅄̃"   # ⅄ + Tilde
+<dead_tilde> <U21BA> <y>                            : "ʎ̃"   # ʎ + Tilde
+<dead_tilde> <U21BA> <Y>                            : "⅄̃"   # ⅄ + Tilde
+<dead_tilde> <U21BA> <y>                            : "ʎ̃"   # ʎ + Tilde
+<dead_tilde> <Z>                                    : "Z̃"
+<dead_tilde> <z>                                    : "z̃"
+<dead_tilde> <EZH>                                  : "Ʒ̃"
+<dead_tilde> <ezh>                                  : "ʒ̃"
+<dead_tilde> <U0294>                                : "ʔ̃"   # ʔ (Glottal Stop) + Tilde
+<dead_tilde> <U035A> <question>                     : "ʔ̃"   # ʔ (Glottal Stop) + Tilde
+<dead_tilde> <U035A> <U0241> <space>                : "ʔ̃"   # Ɂ (Capital Glottal Stop) + Tilde
+<dead_tilde> <U035A> <U0242> <space>                : "ʔ̃"   # ɂ (Small Glottal Stop) + Tilde
+<dead_tilde> <U0241>                                : "Ɂ̃"   # Ɂ (Capital Glottal Stop) + Tilde
+<dead_tilde> <U0242>                                : "ɂ̃"   # ɂ (Small Glottal Stop) + Tilde
+<dead_tilde> <U0295>                                : "ʕ̃"   # ʕ (Turned Glottal Glottal Stop) + Tilde
+<dead_tilde> <U035A> <questiondown>                 : "ʕ̃"   # ʕ (Turned Glottal Glottal Stop) + Tilde
+<dead_tilde> <U035A> <U0241> <underscore> <space>   : "ʕ̃"   # Ɂ (Capital Glottal Stop) + "_" + Tilde
+<dead_tilde> <U035A> <U0242> <underscore> <space>   : "ʕ̃"   # ɂ (Small Glottal Stop) + "_" + Tilde
 
 
 # Composed tilde combinations (Not directly encoded in Unicode) (Unidirectional)
@@ -749,8 +820,8 @@
 <dead_tilde> <ydiaeresis>                                       : "ỹ̈"
 <dead_tilde> <dead_diaeresis> <Y>                               : "Ỹ̈"
 <dead_tilde> <dead_diaeresis> <y>                               : "ỹ̈"
-<dead_tilde> <U0232>                                            : "Ỹ̄"   # Ỹ + Tilde + Bot Below
-<dead_tilde> <U0233>                                            : "ỹ̄"   # ỹ + Tilde + Bot Below
+<dead_tilde> <U0232>                                            : "Ỹ̄"   # Ỹ + Tilde + Macron
+<dead_tilde> <U0233>                                            : "ỹ̄"   # ỹ + Tilde + Macron
 <dead_tilde> <dead_macron> <Y>                                  : "Ỹ̄"
 <dead_tilde> <dead_macron> <y>                                  : "ỹ̄"
 <dead_tilde> <dead_macron> <Ybelowdot>                          : "Ỵ̄̃"
@@ -759,10 +830,16 @@
 <dead_tilde> <dead_macron> <dead_belowdot> <y>                  : "ỵ̄̃"
 <dead_tilde> <dead_breve> <Y>                                   : "Y̆̃"
 <dead_tilde> <dead_breve> <y>                                   : "y̆̃"
-<dead_tilde> <dead_belowdot> <U0232>                            : "Ỵ̄̃"   # Ỹ + Tilde + Bot Below
-<dead_tilde> <dead_belowdot> <U0233>                            : "ỵ̄̃"   # ỹ + Tilde + Bot Below
+<dead_tilde> <dead_belowdot> <U0232>                            : "Ỵ̄̃"   # Ỹ + Tilde + Dot Below
+<dead_tilde> <dead_belowdot> <U0233>                            : "ỵ̄̃"   # ỹ + Tilde + Dot Below
 <dead_tilde> <dead_belowdot> <dead_macron> <Y>                  : "Ỵ̄̃"
 <dead_tilde> <dead_belowdot> <dead_macron> <y>                  : "ỵ̄̃"
+<dead_tilde> <U02A1>                                            : "ʡ̃"   # Ɂ (Capital Glottal Stop) + "-" + Tilde
+<dead_tilde> <U035A> <U0241> <minus>                            : "ʡ̃"   # Ɂ (Capital Glottal Stop) + "-" + Tilde
+<dead_tilde> <U035A> <U0242> <minus>                            : "ʡ̃"   # ɂ (Small Glottal Stop) + "-" + Tilde
+<dead_tilde> <U02A2>                                            : "ʢ̃"   # ʢ (Barred Turned Glottal Stop) + Tilde
+<dead_tilde> <U035A> <U0241> <underscore> <minus>               : "ʢ̃"   # Ɂ (Capital Glottal Stop) + "_-" + Tilde
+<dead_tilde> <U035A> <U0242> <underscore> <minus>               : "ʢ̃"   # ɂ (Small Glottal Stop) + "_-" + Tilde
 
 ##################
 # [END OF RULES] #

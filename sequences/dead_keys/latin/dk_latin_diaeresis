@@ -57,111 +57,184 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_diaeresis> <U2C6F>            : "Ɐ̈"      # Ɐ + Diaeresis
-<dead_diaeresis> <U0250>            : "ɐ̈"      # ɐ + Diaeresis
-<dead_diaeresis> <U21BA> <A>        : "Ɐ̈"      # Ɐ + Diaeresis
-<dead_diaeresis> <U21BA> <a>        : "ɐ̈"      # ɐ + Diaeresis
-<dead_diaeresis> <UA732>            : "Ꜳ̈"     # Ꜳ + Diaeresis
-<dead_diaeresis> <UA733>            : "ꜳ̈"      # ꜳ + Diaeresis
-<dead_diaeresis> <U1DCF> <A> <A>    : "Ꜳ̈"     # Ꜳ + Diaeresis
-<dead_diaeresis> <U1DCF> <a> <a>    : "ꜳ̈"      # ꜳ + Diaeresis
-<dead_diaeresis> <AE>               : "Æ̈"
-<dead_diaeresis> <ae>               : "æ̈"
-<dead_diaeresis> <U1DCF> <A> <E>    : "Æ̈"
-<dead_diaeresis> <U1DCF> <a> <e>    : "æ̈"
-<dead_diaeresis> <UA734>            : "Ꜵ̈"     # Ꜵ + Diaeresis
-<dead_diaeresis> <UA735>            : "ꜵ̈"      # ꜵ + Diaeresis
-<dead_diaeresis> <U1DCF> <A> <O>    : "Ꜵ̈"     # Ꜵ + Diaeresis
-<dead_diaeresis> <U1DCF> <a> <o>    : "ꜵ̈"      # ꜵ + Diaeresis
-<dead_diaeresis> <UA736>            : "Ꜷ̈"     # Ꜷ + Diaeresis
-<dead_diaeresis> <UA737>            : "ꜷ̈"      # ꜷ + Diaeresis
-<dead_diaeresis> <U1DCF> <A> <U>    : "Ꜷ̈"     # Ꜷ + Diaeresis
-<dead_diaeresis> <U1DCF> <a> <u>    : "ꜷ̈"      # ꜷ + Diaeresis
-<dead_diaeresis> <UA738>            : "Ꜹ̈"     # Ꜹ + Diaeresis
-<dead_diaeresis> <UA739>            : "ꜹ̈"      # ꜹ + Diaeresis
-<dead_diaeresis> <U1DCF> <A> <V>    : "Ꜹ̈"     # Ꜹ + Diaeresis
-<dead_diaeresis> <U1DCF> <a> <v>    : "ꜹ̈"      # ꜹ + Diaeresis
-<dead_diaeresis> <U2C6D>            : "Ɑ̈"      # Ɑ (Latin Alpha) + Diaeresis
-<dead_diaeresis> <U0251>            : "ɑ̈"      # ɑ (Latin Alpha) + Diaeresis
-<dead_diaeresis> <B>                : "B̈"
-<dead_diaeresis> <b>                : "b̈"
-<dead_diaeresis> <C>                : "C̈"
-<dead_diaeresis> <c>                : "c̈"
-<dead_diaeresis> <D>                : "D̈"
-<dead_diaeresis> <d>                : "d̈"
-<dead_diaeresis> <U0190>            : "Ɛ̈"      # Ɛ (Latin Epsilon) + Diaeresis
-<dead_diaeresis> <U025B>            : "ɛ̈"      # ɛ (Latin Epsilon) + Diaeresis
-<dead_diaeresis> <SCHWA>            : "Ə̈"      # Ə (Schwa) + Diaeresis
-<dead_diaeresis> <schwa>            : "ə̈"      # ə (Schwa) + Diaeresis
-<dead_diaeresis> <U018E>            : "Ǝ̈"      # Ǝ (Turned E) + Diaeresis
-<dead_diaeresis> <U01DD>            : "ǝ̈"      # ǝ (Turned E) + Diaeresis
-<dead_diaeresis> <U21BA> <E>        : "Ǝ̈"      # Ǝ (Turned E) + Diaeresis
-<dead_diaeresis> <U21BA> <e>        : "ǝ̈"      # ǝ (Turned E) + Diaeresis
-<dead_diaeresis> <F>                : "F̈"
-<dead_diaeresis> <f>                : "f̈"
-<dead_diaeresis> <H>                : "Ḧ"
-<dead_diaeresis> <h>                : "ḧ"
-<dead_diaeresis> <UA78D>            : "Ɥ̈"      # Ɥ (Turned H) + Diaeresis
-<dead_diaeresis> <U0265>            : "ɥ̈"      # ɥ (Turned H) + Diaeresis
-<dead_diaeresis> <U21BA> <H>        : "Ɥ̈"      # Ɥ (Turned H) + Diaeresis
-<dead_diaeresis> <U21BA> <h>        : "ɥ̈"      # ɥ (Turned H) + Diaeresis
-<dead_diaeresis> <U0196>            : "Ɩ̈"      # Ɩ (Latin Iota) + Diaeresis
-<dead_diaeresis> <U0269>            : "ɩ̈"      # ɩ (Latin Iota) + Diaeresis
-<dead_diaeresis> <J>                : "J̈"
-<dead_diaeresis> <j>                : "j̈"
-<dead_diaeresis> <K>                : "K̈"
-<dead_diaeresis> <k>                : "k̈"
-<dead_diaeresis> <L>                : "L̈"
-<dead_diaeresis> <l>                : "l̈"
-<dead_diaeresis> <M>                : "M̈"
-<dead_diaeresis> <m>                : "m̈"
-<dead_diaeresis> <N>                : "N̈"
-<dead_diaeresis> <n>                : "n̈"
-<dead_diaeresis> <ENG>              : "Ŋ̈"      # Ŋ + Diaeresis
-<dead_diaeresis> <eng>              : "ŋ̈"      # ŋ + Diaeresis
-<dead_diaeresis> <OE>               : "Œ̈"
-<dead_diaeresis> <oe>               : "œ̈"
-<dead_diaeresis> <U1DCF> <O> <E>    : "Œ̈"
-<dead_diaeresis> <U1DCF> <o> <e>    : "œ̈"
-<dead_diaeresis> <UA74E>            : "Ꝏ̈"     # Ꝏ + Diaeresis
-<dead_diaeresis> <UA74F>            : "ꝏ̈"     # ꝏ + Diaeresis
-<dead_diaeresis> <U1DCF> <O> <O>    : "Ꝏ̈"     # Ꝏ + Diaeresis
-<dead_diaeresis> <U1DCF> <o> <o>    : "ꝏ̈"     # ꝏ + Diaeresis
-<dead_diaeresis> <U0186>            : "Ɔ̈"      # Ɔ + Diaeresis
-<dead_diaeresis> <U0254>            : "ɔ̈"      # ɔ + Diaeresis
-<dead_diaeresis> <UA7CB>            : "Ɤ̈"      # Ɤ (Ram's Horn) + Diaeresis
-<dead_diaeresis> <U0264>            : "ɤ̈"      # ɤ (Ram's Horn) + Diaeresis
-<dead_diaeresis> <P>                : "P̈"
-<dead_diaeresis> <p>                : "p̈"
-<dead_diaeresis> <Q>                : "Q̈"
-<dead_diaeresis> <q>                : "q̈"
-<dead_diaeresis> <R>                : "R̈"
-<dead_diaeresis> <r>                : "r̈"
-<dead_diaeresis> <S>                : "S̈"
-<dead_diaeresis> <s>                : "s̈"
-<dead_diaeresis> <T>                : "T̈"
-<dead_diaeresis> <U01B1>            : "Ʊ̈"     # Ʊ (Latin Upsilon) + Diaeresis
-<dead_diaeresis> <U028A>            : "ʊ̈"     # ʊ (Latin Upsilon) + Diaeresis
-<dead_diaeresis> <U019C>            : "Ɯ̈"     # Ɯ (Turned M) + Diaeresis
-<dead_diaeresis> <U026F>            : "ɯ̈"     # ɯ (Turned M) + Diaeresis
-<dead_diaeresis> <U21BA> <M>        : "Ɯ̈"     # Ɯ (Turned M) + Diaeresis
-<dead_diaeresis> <U21BA> <m>        : "ɯ̈"     # ɯ (Turned M) + Diaeresis
-<dead_diaeresis> <V>                : "V̈"
-<dead_diaeresis> <v>                : "v̈"
-<dead_diaeresis> <U0245>            : "Ʌ̈"     # Ʌ + Diaeresis
-<dead_diaeresis> <U028C>            : "ʌ̈"     # ʌ + Diaeresis
-<dead_diaeresis> <U21BA> <V>        : "Ʌ̈"     # Ʌ + Diaeresis
-<dead_diaeresis> <U21BA> <v>        : "ʌ̈"     # ʌ + Diaeresis
-<dead_diaeresis> <U01B2>            : "Ʋ̈"     # Ʋ + Diaeresis
-<dead_diaeresis> <U028B>            : "ʋ̈"     # ʋ + Diaeresis
-<dead_diaeresis> <UA760>            : "Ꝡ̈"     # Ꝡ + Diaeresis
-<dead_diaeresis> <UA761>            : "ꝡ̈"     # ꝡ + Diaeresis
-<dead_diaeresis> <U1DCF> <V> <Y>    : "Ꝡ̈"
-<dead_diaeresis> <U1DCF> <v> <y>    : "ꝡ̈"
-<dead_diaeresis> <Z>                : "Z̈"
-<dead_diaeresis> <z>                : "z̈"
-<dead_diaeresis> <EZH>              : "Ʒ̈"     # Ʒ + Diaeresis
-<dead_diaeresis> <ezh>              : "ʒ̈"     # ʒ + Diaeresis
+<dead_diaeresis> <U2C6F>                                : "Ɐ̈"   # Ɐ + Diaeresis
+<dead_diaeresis> <U0250>                                : "ɐ̈"   # ɐ + Diaeresis
+<dead_diaeresis> <U21BA> <A>                            : "Ɐ̈"   # Ɐ + Diaeresis
+<dead_diaeresis> <U21BA> <a>                            : "ɐ̈"   # ɐ + Diaeresis
+<dead_diaeresis> <UA732>                                : "Ꜳ̈"  # Ꜳ + Diaeresis
+<dead_diaeresis> <UA733>                                : "ꜳ̈"   # ꜳ + Diaeresis
+<dead_diaeresis> <U1DCF> <A> <A>                        : "Ꜳ̈"  # Ꜳ + Diaeresis
+<dead_diaeresis> <U1DCF> <a> <a>                        : "ꜳ̈"   # ꜳ + Diaeresis
+<dead_diaeresis> <AE>                                   : "Æ̈"
+<dead_diaeresis> <ae>                                   : "æ̈"
+<dead_diaeresis> <U1DCF> <A> <E>                        : "Æ̈"
+<dead_diaeresis> <U1DCF> <a> <e>                        : "æ̈"
+<dead_diaeresis> <UA734>                                : "Ꜵ̈"  # Ꜵ + Diaeresis
+<dead_diaeresis> <UA735>                                : "ꜵ̈"   # ꜵ + Diaeresis
+<dead_diaeresis> <U1DCF> <A> <O>                        : "Ꜵ̈"  # Ꜵ + Diaeresis
+<dead_diaeresis> <U1DCF> <a> <o>                        : "ꜵ̈"   # ꜵ + Diaeresis
+<dead_diaeresis> <UA736>                                : "Ꜷ̈"  # Ꜷ + Diaeresis
+<dead_diaeresis> <UA737>                                : "ꜷ̈"   # ꜷ + Diaeresis
+<dead_diaeresis> <U1DCF> <A> <U>                        : "Ꜷ̈"  # Ꜷ + Diaeresis
+<dead_diaeresis> <U1DCF> <a> <u>                        : "ꜷ̈"   # ꜷ + Diaeresis
+<dead_diaeresis> <UA738>                                : "Ꜹ̈"  # Ꜹ + Diaeresis
+<dead_diaeresis> <UA739>                                : "ꜹ̈"   # ꜹ + Diaeresis
+<dead_diaeresis> <U1DCF> <A> <V>                        : "Ꜹ̈"  # Ꜹ + Diaeresis
+<dead_diaeresis> <U1DCF> <a> <v>                        : "ꜹ̈"   # ꜹ + Diaeresis
+<dead_diaeresis> <U2C6D>                                : "Ɑ̈"   # Ɑ (Latin Alpha) + Diaeresis
+<dead_diaeresis> <U0251>                                : "ɑ̈"   # ɑ (Latin Alpha) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <A>     : "Ɑ̈"   # Ɑ (Latin Alpha) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <a>     : "ɑ̈"   # ɑ (Latin Alpha) + Diaeresis
+<dead_diaeresis> <U2C70>                                : "Ɒ̈"   # Ɒ (Turned Latin Alpha) + Diaeresis
+<dead_diaeresis> <U0252>                                : "ɒ̈"   # ɒ (Turned Latin Alpha) + Diaeresis
+<dead_diaeresis> <U21BA> <dead_greek> <A>               : "Ɒ̈"   # Ɒ (Turned Latin Alpha) + Diaeresis
+<dead_diaeresis> <U21BA> <dead_greek> <a>               : "ɒ̈"   # ɒ (Turned Latin Alpha) + Diaeresis
+<dead_diaeresis> <B>                                    : "B̈"
+<dead_diaeresis> <b>                                    : "b̈"
+<dead_diaeresis> <UA7B4>                                : "Ꞵ̈"   # Ꞵ (Latin Beta) + Diaeresis
+<dead_diaeresis> <UA7B5>                                : "ꞵ̈"   # ꞵ (Latin Beta) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <B>     : "Ꞵ̈"   # Ꞵ (Latin Beta) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <b>     : "ꞵ̈"   # ꞵ (Latin Beta) + Diaeresis
+<dead_diaeresis> <C>                                    : "C̈"
+<dead_diaeresis> <c>                                    : "c̈"
+<dead_diaeresis> <D>                                    : "D̈"
+<dead_diaeresis> <d>                                    : "d̈"
+<dead_diaeresis> <U0190>                                : "Ɛ̈"   # Ɛ (Latin Epsilon) + Diaeresis
+<dead_diaeresis> <U025B>                                : "ɛ̈"   # ɛ (Latin Epsilon) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <E>     : "Ɛ̈"   # Ɛ (Latin Epsilon) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <e>     : "ɛ̈"   # Ɛ (Latin Epsilon) + Diaeresis
+<dead_diaeresis> <UA7AB>                                : "Ɜ̈"   # Ɜ (Turned Latin Epsilon) + Diaeresis
+<dead_diaeresis> <U025C>                                : "ɜ̈"   # ɜ (Turned Latin Epsilon) + Diaeresis
+<dead_diaeresis> <U21BA> <dead_greek> <E>               : "Ɜ̈"   # Ɜ (Turned Latin Epsilon) + Diaeresis
+<dead_diaeresis> <U21BA> <dead_greek> <e>               : "ɜ̈"   # ɜ (Turned Latin Epsilon) + Diaeresis
+<dead_diaeresis> <SCHWA>                                : "Ə̈"   # Ə (Schwa) + Diaeresis
+<dead_diaeresis> <schwa>                                : "ə̈"   # ə (Schwa) + Diaeresis
+<dead_diaeresis> <U035A> <E>                            : "Ə̈"   # Ə (Schwa) + Diaeresis
+<dead_diaeresis> <U035A> <e>                            : "ə̈"   # ə (Schwa) + Diaeresis
+<dead_diaeresis> <U0258>                                : "ɘ̈"   # ɘ (Close-mid central unrounded vowel) + Diaeresis
+<dead_diaeresis> <U035A> <minus> <E>                    : "ɘ̈"   # ɘ (Close-mid central unrounded vowel) + Diaeresis
+<dead_diaeresis> <U035A> <minus> <e>                    : "ɘ̈"   # ɘ (Close-mid central unrounded vowel) + Diaeresis
+<dead_diaeresis> <U21BA> <SCHWA>                        : "ɘ̈"   # ɘ (Close-mid central unrounded vowel) + Diaeresis
+<dead_diaeresis> <U21BA> <schwa>                        : "ɘ̈"   # ɘ (Close-mid central unrounded vowel) + Diaeresis
+<dead_diaeresis> <U029A>                                : "ʚ̈"   # ʚ + Diaeresis
+<dead_diaeresis> <U025E>                                : "ɞ̈"   # ɞ + Diaeresis
+<dead_diaeresis> <U21BA> <underscore> <E>               : "ʚ̈"   # ʚ + Diaeresis
+<dead_diaeresis> <U21BA> <underscore> <e>               : "ɞ̈"   # ɞ + Diaeresis
+<dead_diaeresis> <U018E>                                : "Ǝ̈"   # Ǝ (Turned E) + Diaeresis
+<dead_diaeresis> <U01DD>                                : "ǝ̈"   # ǝ (Turned E) + Diaeresis
+<dead_diaeresis> <U21BA> <E>                            : "Ǝ̈"   # Ǝ (Turned E) + Diaeresis
+<dead_diaeresis> <U21BA> <e>                            : "ǝ̈"   # ǝ (Turned E) + Diaeresis
+<dead_diaeresis> <F>                                    : "F̈"
+<dead_diaeresis> <f>                                    : "f̈"
+<dead_diaeresis> <U0278>                                : "ɸ̈"   # ɸ (Latin Phi) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <F>     : "ɸ̈"   # ɸ (Latin Phi) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <f>     : "ɸ̈"   # ɸ (Latin Phi) + Diaeresis
+<dead_diaeresis> <U0194>                                : "Ɣ̈"   # Ɣ (Latin Gamma) + Diaeresis
+<dead_diaeresis> <U0263>                                : "ɣ̈"   # ɣ (Latin Gamma) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <G>     : "Ɣ̈"   # Ɣ (Latin Gamma) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <g>     : "ɣ̈"   # ɣ (Latin Gamma) + Diaeresis
+<dead_diaeresis> <H>                                    : "Ḧ"
+<dead_diaeresis> <h>                                    : "ḧ"
+<dead_diaeresis> <UA78D>                                : "Ɥ̈"   # Ɥ (Turned H) + Diaeresis
+<dead_diaeresis> <U0265>                                : "ɥ̈"   # ɥ (Turned H) + Diaeresis
+<dead_diaeresis> <U21BA> <H>                            : "Ɥ̈"   # Ɥ (Turned H) + Diaeresis
+<dead_diaeresis> <U21BA> <h>                            : "ɥ̈"   # ɥ (Turned H) + Diaeresis
+<dead_diaeresis> <U0196>                                : "Ɩ̈"   # Ɩ (Latin Iota) + Diaeresis
+<dead_diaeresis> <U0269>                                : "ɩ̈"   # ɩ (Latin Iota) + Diaeresis
+<dead_diaeresis> <UA7AE>                                : "Ɪ̈"   # Ɪ (Near-close near-front unrounded vowel) + Diaeresis
+<dead_diaeresis> <U026A>                                : "ɪ̈"   # ɪ (Near-close near-front unrounded vowel) + Diaeresis
+<dead_diaeresis> <U035A> <I>                            : "Ɪ̈"   # Ɪ (Near-close near-front unrounded vowel) + Diaeresis
+<dead_diaeresis> <U035A> <i>                            : "ɪ̈"   # ɪ (Near-close near-front unrounded vowel) + Diaeresis
+<dead_diaeresis> <J>                                    : "J̈"
+<dead_diaeresis> <j>                                    : "j̈"
+<dead_diaeresis> <U035A> <J>                            : "ɟ̈"   # ɟ (Barred Dotless J) + Diaeresis
+<dead_diaeresis> <U035A> <j>                            : "ɟ̈"   # ɟ (Barred Dotless J) + Diaeresis
+<dead_diaeresis> <K>                                    : "K̈"
+<dead_diaeresis> <k>                                    : "k̈"
+<dead_diaeresis> <L>                                    : "L̈"
+<dead_diaeresis> <l>                                    : "l̈"
+<dead_diaeresis> <U1DF08>                               : "𝼈̈"   # 𝼈 (Retroflex lateral flap) + Diaeresis
+<dead_diaeresis> <U027A>                                : "ɺ̈"   # ɺ (Lateral flap) + Diaeresis
+<dead_diaeresis> <U035A> <L>                            : "𝼈̈"   # 𝼈 (Retroflex lateral flap) + Diaeresis
+<dead_diaeresis> <U035A> <l>                            : "ɺ̈"   # ɺ (Lateral flap) + Diaeresis
+<dead_diaeresis> <M>                                    : "M̈"
+<dead_diaeresis> <m>                                    : "m̈"
+<dead_diaeresis> <U0270>                                : "ɰ̈"   # ɰ (Voiced velar approximant) + Diaeresis
+<dead_diaeresis> <U035A> <M>                            : "ɰ̈"   # ɰ (Voiced velar approximant) + Diaeresis
+<dead_diaeresis> <U035A> <m>                            : "ɰ̈"   # ɰ (Voiced velar approximant) + Diaeresis
+<dead_diaeresis> <N>                                    : "N̈"
+<dead_diaeresis> <n>                                    : "n̈"
+<dead_diaeresis> <ENG>                                  : "Ŋ̈"   # Ŋ + Diaeresis
+<dead_diaeresis> <eng>                                  : "ŋ̈"   # ŋ + Diaeresis
+<dead_diaeresis> <OE>                                   : "Œ̈"
+<dead_diaeresis> <oe>                                   : "œ̈"
+<dead_diaeresis> <U1DCF> <O> <E>                        : "Œ̈"
+<dead_diaeresis> <U1DCF> <o> <e>                        : "œ̈"
+<dead_diaeresis> <UA74E>                                : "Ꝏ̈"  # Ꝏ + Diaeresis
+<dead_diaeresis> <UA74F>                                : "ꝏ̈"  # ꝏ + Diaeresis
+<dead_diaeresis> <U1DCF> <O> <O>                        : "Ꝏ̈"  # Ꝏ + Diaeresis
+<dead_diaeresis> <U1DCF> <o> <o>                        : "ꝏ̈"  # ꝏ + Diaeresis
+<dead_diaeresis> <U0186>                                : "Ɔ̈"   # Ɔ + Diaeresis
+<dead_diaeresis> <U0254>                                : "ɔ̈"   # ɔ + Diaeresis
+<dead_diaeresis> <UA7CB>                                : "Ɤ̈"   # Ɤ (Ram's Horn) + Diaeresis
+<dead_diaeresis> <U0264>                                : "ɤ̈"   # ɤ (Ram's Horn) + Diaeresis
+<dead_diaeresis> <P>                                    : "P̈"
+<dead_diaeresis> <p>                                    : "p̈"
+<dead_diaeresis> <Q>                                    : "Q̈"
+<dead_diaeresis> <q>                                    : "q̈"
+<dead_diaeresis> <R>                                    : "R̈"
+<dead_diaeresis> <r>                                    : "r̈"
+<dead_diaeresis> <U027B>                                : "ɻ̈"   # ɻ + Diaeresis
+<dead_diaeresis> <U0279>                                : "ɹ̈"   # ɹ + Diaeresis
+<dead_diaeresis> <U035A> <R>                            : "ɻ̈"   # ɻ + Diaeresis
+<dead_diaeresis> <U035A> <r>                            : "ɹ̈"   # ɹ + Diaeresis
+<dead_diaeresis> <U21BA> <R>                            : "ɻ̈"   # ɻ + Diaeresis
+<dead_diaeresis> <U21BA> <r>                            : "ɹ̈"   # ɹ + Diaeresis
+<dead_diaeresis> <S>                                    : "S̈"
+<dead_diaeresis> <s>                                    : "s̈"
+<dead_diaeresis> <U01A9>                                : "Ʃ̈"   # Ʃ (Esh) + Diaeresis
+<dead_diaeresis> <U0283>                                : "ʃ̈"   # ʃ (Esh) + Diaeresis
+<dead_diaeresis> <U035A> <S>                            : "Ʃ̈"   # Ʃ (Esh) + Diaeresis
+<dead_diaeresis> <U035A> <s>                            : "ʃ̈"   # ʃ (Esh) + Diaeresis
+<dead_diaeresis> <T>                                    : "T̈"
+<dead_diaeresis> <U01B1>                                : "Ʊ̈"   # Ʊ (Latin Upsilon) + Diaeresis
+<dead_diaeresis> <U028A>                                : "ʊ̈"   # ʊ (Latin Upsilon) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <U>     : "Ʊ̈"   # Ʊ (Latin Upsilon) + Diaeresis
+<dead_diaeresis> <dead_greek> <dead_circumflex> <u>     : "ʊ̈"   # ʊ (Latin Upsilon) + Diaeresis
+<dead_diaeresis> <U019C>                                : "Ɯ̈"   # Ɯ (Turned M) + Diaeresis
+<dead_diaeresis> <U026F>                                : "ɯ̈"   # ɯ (Turned M) + Diaeresis
+<dead_diaeresis> <U21BA> <M>                            : "Ɯ̈"   # Ɯ (Turned M) + Diaeresis
+<dead_diaeresis> <U21BA> <m>                            : "ɯ̈"   # ɯ (Turned M) + Diaeresis
+<dead_diaeresis> <V>                                    : "V̈"
+<dead_diaeresis> <v>                                    : "v̈"
+<dead_diaeresis> <U0245>                                : "Ʌ̈"   # Ʌ + Diaeresis
+<dead_diaeresis> <U028C>                                : "ʌ̈"   # ʌ + Diaeresis
+<dead_diaeresis> <U21BA> <V>                            : "Ʌ̈"   # Ʌ + Diaeresis
+<dead_diaeresis> <U21BA> <v>                            : "ʌ̈"   # ʌ + Diaeresis
+<dead_diaeresis> <U01B2>                                : "Ʋ̈"   # Ʋ + Diaeresis
+<dead_diaeresis> <U028B>                                : "ʋ̈"   # ʋ + Diaeresis
+<dead_diaeresis> <UA760>                                : "Ꝡ̈"   # Ꝡ + Diaeresis
+<dead_diaeresis> <UA761>                                : "ꝡ̈"   # ꝡ + Diaeresis
+<dead_diaeresis> <U1DCF> <V> <Y>                        : "Ꝡ̈"
+<dead_diaeresis> <U1DCF> <v> <y>                        : "ꝡ̈"
+<dead_diaeresis> <U21BA> <Y>                            : "⅄̈"   # ⅄ + Diaeresis
+<dead_diaeresis> <U21BA> <y>                            : "ʎ̈"   # ʎ + Diaeresis
+<dead_diaeresis> <U21BA> <Y>                            : "⅄̈"   # ⅄ + Diaeresis
+<dead_diaeresis> <U21BA> <y>                            : "ʎ̈"   # ʎ + Diaeresis
+<dead_diaeresis> <Z>                                    : "Z̈"
+<dead_diaeresis> <z>                                    : "z̈"
+<dead_diaeresis> <EZH>                                  : "Ʒ̈"   # Ʒ + Diaeresis
+<dead_diaeresis> <ezh>                                  : "ʒ̈"   # ʒ + Diaeresis
+<dead_diaeresis> <U0294>                                : "ʔ̈"   # ʔ (Glottal Stop) + Diaeresis
+<dead_diaeresis> <U035A> <question>                     : "ʔ̈"   # ʔ (Glottal Stop) + Diaeresis
+<dead_diaeresis> <U035A> <U0241> <space>                : "ʔ̈"   # Ɂ (Capital Glottal Stop) + Diaeresis
+<dead_diaeresis> <U035A> <U0242> <space>                : "ʔ̈"   # ɂ (Small Glottal Stop) + Diaeresis
+<dead_diaeresis> <U0241>                                : "Ɂ̈"   # Ɂ (Capital Glottal Stop) + Diaeresis
+<dead_diaeresis> <U0242>                                : "ɂ̈"   # ɂ (Small Glottal Stop) + Diaeresis
+<dead_diaeresis> <U0295>                                : "ʕ̈"   # ʕ (Turned Glottal Glottal Stop) + Diaeresis
+<dead_diaeresis> <U035A> <questiondown>                 : "ʕ̈"   # ʕ (Turned Glottal Glottal Stop) + Diaeresis
+<dead_diaeresis> <U035A> <U0241> <underscore> <space>   : "ʕ̈"   # Ɂ (Capital Glottal Stop) + "_" + Diaeresis
+<dead_diaeresis> <U035A> <U0242> <underscore> <space>   : "ʕ̈"   # ɂ (Small Glottal Stop) + "_" + Diaeresis
 
 
 # Composed diaeresis combinations (Not directly encoded in Unicode) (Unidirectional)
@@ -590,6 +663,12 @@
 <dead_diaeresis> <ybelowdot>                                    : "ỵ̈"
 <dead_diaeresis> <dead_belowdot> <Y>                            : "Ỵ̈"
 <dead_diaeresis> <dead_belowdot> <y>                            : "ỵ̈"
+<dead_diaeresis> <U02A1>                                        : "ʡ̈"   # Ɂ (Capital Glottal Stop) + "-" + Diaeresis
+<dead_diaeresis> <U035A> <U0241> <minus>                        : "ʡ̈"   # Ɂ (Capital Glottal Stop) + "-" + Diaeresis
+<dead_diaeresis> <U035A> <U0242> <minus>                        : "ʡ̈"   # ɂ (Small Glottal Stop) + "-" + Diaeresis
+<dead_diaeresis> <U02A2>                                        : "ʢ̈"   # ʢ (Barred Turned Glottal Stop) + Diaeresis
+<dead_diaeresis> <U035A> <U0241> <underscore> <minus>           : "ʢ̈"   # Ɂ (Capital Glottal Stop) + "_-" + Diaeresis
+<dead_diaeresis> <U035A> <U0242> <underscore> <minus>           : "ʢ̈"   # ɂ (Small Glottal Stop) + "_-" + Diaeresis
 
 ##################
 # [END OF RULES] #

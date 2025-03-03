@@ -12,189 +12,266 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
-<dead_aboveverticalline> <A>                 : "A̍"
-<dead_aboveverticalline> <a>                 : "a̍"
-<dead_aboveverticalline> <U2C6F>             : "Ɐ̍"      # Ɐ + Vertical Line Above
-<dead_aboveverticalline> <U0250>             : "ɐ̍"      # ɐ + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <A>         : "Ɐ̍"      # Ɐ + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <a>         : "ɐ̍"      # ɐ + Vertical Line Above
-<dead_aboveverticalline> <UA732>             : "Ꜳ̍"     # Ꜳ + Vertical Line Above
-<dead_aboveverticalline> <UA733>             : "ꜳ̍"      # ꜳ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <A> <A>     : "Ꜳ̍"     # Ꜳ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <a> <a>     : "ꜳ̍"      # ꜳ + Vertical Line Above
-<dead_aboveverticalline> <AE>                : "Æ̍"
-<dead_aboveverticalline> <ae>                : "æ̍"
-<dead_aboveverticalline> <U1DCF> <A> <E>     : "Æ̍"
-<dead_aboveverticalline> <U1DCF> <a> <e>     : "æ̍"
-<dead_aboveverticalline> <UA734>             : "Ꜵ̍"     # Ꜵ + Vertical Line Above
-<dead_aboveverticalline> <UA735>             : "ꜵ̍"      # ꜵ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <A> <O>     : "Ꜵ̍"     # Ꜵ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <a> <o>     : "ꜵ̍"      # ꜵ + Vertical Line Above
-<dead_aboveverticalline> <UA736>             : "Ꜷ̍"     # Ꜷ + Vertical Line Above
-<dead_aboveverticalline> <UA737>             : "ꜷ̍"      # ꜷ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <A> <U>     : "Ꜷ̍"     # Ꜷ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <a> <u>     : "ꜷ̍"      # ꜷ + Vertical Line Above
-<dead_aboveverticalline> <UA738>             : "Ꜹ̍"     # Ꜹ + Vertical Line Above
-<dead_aboveverticalline> <UA739>             : "ꜹ̍"      # ꜹ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <A> <V>     : "Ꜹ̍"     # Ꜹ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <a> <v>     : "ꜹ̍"      # ꜹ + Vertical Line Above
-<dead_aboveverticalline> <UA73C>             : "Ꜽ̍"     # Ꜽ + Vertical Line Above
-<dead_aboveverticalline> <UA73D>             : "ꜽ̍"      # ꜽ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <A> <Y>     : "Ꜽ̍"     # Ꜽ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <a> <y>     : "ꜽ̍"      # ꜽ + Vertical Line Above
-<dead_aboveverticalline> <U2C6D>             : "Ɑ̍"      # Ɑ (Latin Alpha) + Vertical Line Above
-<dead_aboveverticalline> <U0251>             : "ɑ̍"      # ɑ (Latin Alpha) + Vertical Line Above
-<dead_aboveverticalline> <B>                 : "B̍"
-<dead_aboveverticalline> <b>                 : "b̍"
-<dead_aboveverticalline> <C>                 : "C̍"
-<dead_aboveverticalline> <c>                 : "c̍"
-<dead_aboveverticalline> <D>                 : "D̍"
-<dead_aboveverticalline> <d>                 : "d̍"
-<dead_aboveverticalline> <ETH>               : "Ð̍"
-<dead_aboveverticalline> <eth>               : "ð̍"
-<dead_aboveverticalline> <UA779>             : "Ꝺ̍"      # Ꝺ (Insular D) + Vertical Line Above
-<dead_aboveverticalline> <UA77A>             : "ꝺ̍"      # ꝺ (Insular D) + Vertical Line Above
-<dead_aboveverticalline> <E>                 : "E̍"
-<dead_aboveverticalline> <e>                 : "e̍"
-<dead_aboveverticalline> <U0190>             : "Ɛ̍"      # Ɛ (Latin Epsilon) + Vertical Line Above
-<dead_aboveverticalline> <U025B>             : "ɛ̍"      # ɛ (Latin Epsilon) + Vertical Line Above
-<dead_aboveverticalline> <SCHWA>             : "Ə̍"      # Ə (Schwa) + Vertical Line Above
-<dead_aboveverticalline> <schwa>             : "ə̍"      # ə (Schwa) + Vertical Line Above
-<dead_aboveverticalline> <U018E>             : "Ǝ̍"      # Ǝ (Turned E) + Vertical Line Above
-<dead_aboveverticalline> <U01DD>             : "ǝ̍"      # ǝ (Turned E) + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <E>         : "Ǝ̍"      # Ǝ (Turned E) + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <e>         : "ǝ̍"      # ǝ (Turned E) + Vertical Line Above
-<dead_aboveverticalline> <F>                 : "F̍"
-<dead_aboveverticalline> <f>                 : "f̍"
-<dead_aboveverticalline> <UA77B>             : "Ꝼ̍"      # Ꝼ (Insular F) + Vertical Line Above
-<dead_aboveverticalline> <UA77C>             : "ꝼ̍"      # ꝼ (Insular F) + Vertical Line Above
-<dead_aboveverticalline> <G>                 : "G̍"
-<dead_aboveverticalline> <g>                 : "g̍"
-<dead_aboveverticalline> <U0194>             : "Ɣ̍"      # Ɣ (Latin Gamma) + Vertical Line Above
-<dead_aboveverticalline> <U0263>             : "ɣ̍"      # ɣ (Latin Gamma) + Vertical Line Above
-<dead_aboveverticalline> <H>                 : "H̍"
-<dead_aboveverticalline> <h>                 : "h̍"
-<dead_aboveverticalline> <UA78D>             : "Ɥ̍"      # Ɥ (Turned H) + Vertical Line Above
-<dead_aboveverticalline> <U0265>             : "ɥ̍"      # ɥ (Turned H) + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <H>         : "Ɥ̍"      # Ɥ (Turned H) + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <h>         : "ɥ̍"      # ɥ (Turned H) + Vertical Line Above
-<dead_aboveverticalline> <I>                 : "I̍"
-<dead_aboveverticalline> <i>                 : "i̍"
-<dead_aboveverticalline> <U0196>             : "Ɩ̍"      # Ɩ (Latin Iota) + Vertical Line Above
-<dead_aboveverticalline> <U0269>             : "ɩ̍"      # ɩ (Latin Iota) + Vertical Line Above
-<dead_aboveverticalline> <J>                 : "J̍"
-<dead_aboveverticalline> <j>                 : "j̍"
-<dead_aboveverticalline> <K>                 : "K̍"
-<dead_aboveverticalline> <k>                 : "k̍"
-<dead_aboveverticalline> <L>                 : "L̍"
-<dead_aboveverticalline> <l>                 : "l̍"
-<dead_aboveverticalline> <M>                 : "M̍"
-<dead_aboveverticalline> <m>                 : "m̍"
-<dead_aboveverticalline> <N>                 : "N̍"
-<dead_aboveverticalline> <n>                 : "n̍"
-<dead_aboveverticalline> <ENG>               : "Ŋ̍"      # Ŋ + Vertical Line Above
-<dead_aboveverticalline> <eng>               : "ŋ̍"      # ŋ + Vertical Line Above
-<dead_aboveverticalline> <O>                 : "O̍"
-<dead_aboveverticalline> <o>                 : "o̍"
-<dead_aboveverticalline> <OE>                : "Œ̍"
-<dead_aboveverticalline> <oe>                : "œ̍"
-<dead_aboveverticalline> <U1DCF> <O> <E>     : "Œ̍"
-<dead_aboveverticalline> <U1DCF> <o> <e>     : "œ̍"
-<dead_aboveverticalline> <UA74E>             : "Ꝏ̍"     # Ꝏ + Vertical Line Above
-<dead_aboveverticalline> <UA74F>             : "ꝏ̍"     # ꝏ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <O> <O>     : "Ꝏ̍"     # Ꝏ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <o> <o>     : "ꝏ̍"     # ꝏ + Vertical Line Above
-<dead_aboveverticalline> <U0186>             : "Ɔ̍"      # Ɔ + Vertical Line Above
-<dead_aboveverticalline> <U0254>             : "ɔ̍"      # ɔ + Vertical Line Above
-<dead_aboveverticalline> <UA7CB>             : "Ɤ̍"      # Ɤ (Ram's Horn) + Vertical Line Above
-<dead_aboveverticalline> <U0264>             : "ɤ̍"      # ɤ (Ram's Horn) + Vertical Line Above
-<dead_aboveverticalline> <P>                 : "P̍"
-<dead_aboveverticalline> <p>                 : "p̍"
-<dead_aboveverticalline> <Q>                 : "Q̍"
-<dead_aboveverticalline> <q>                 : "q̍"
-<dead_aboveverticalline> <R>                 : "R̍"
-<dead_aboveverticalline> <r>                 : "r̍"
-<dead_aboveverticalline> <U01A6>             : "Ʀ̍"     # Ʀ (Yr) + Vertical Line Above
-<dead_aboveverticalline> <U0280>             : "ʀ̍"     # ʀ (Yr) + Vertical Line Above
-<dead_aboveverticalline> <A75A>              : "Ꝛ̍"     # Ꝛ (R Rotunda) + Vertical Line Above
-<dead_aboveverticalline> <A75B>              : "ꝛ̍"     # ꝛ (R Rotunda) + Vertical Line Above
-<dead_aboveverticalline> <S>                 : "S̍"
-<dead_aboveverticalline> <s>                 : "s̍"
-<dead_aboveverticalline> <T>                 : "T̍"
-<dead_aboveverticalline> <t>                 : "t̍"
-<dead_aboveverticalline> <THORN>             : "Þ̍"
-<dead_aboveverticalline> <thorn>             : "þ̍"
-<dead_aboveverticalline> <U>                 : "U̍"
-<dead_aboveverticalline> <u>                 : "u̍"
-<dead_aboveverticalline> <U01B1>             : "Ʊ̍"     # Ʊ (Latin Upsilon) + Vertical Line Above
-<dead_aboveverticalline> <U028A>             : "ʊ̍"     # ʊ (Latin Upsilon) + Vertical Line Above
-<dead_aboveverticalline> <U019C>             : "Ɯ̍"     # Ɯ (Turned M) + Vertical Line Above
-<dead_aboveverticalline> <U026F>             : "ɯ̍"     # ɯ (Turned M) + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <M>         : "Ɯ̍"     # Ɯ (Turned M) + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <m>         : "ɯ̍"     # ɯ (Turned M) + Vertical Line Above
-<dead_aboveverticalline> <V>                 : "V̍"
-<dead_aboveverticalline> <v>                 : "v̍"
-<dead_aboveverticalline> <U0245>             : "Ʌ̍"     # Ʌ + Vertical Line Above
-<dead_aboveverticalline> <U028C>             : "ʌ̍"     # ʌ + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <V>         : "Ʌ̍"     # Ʌ + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <v>         : "ʌ̍"     # ʌ + Vertical Line Above
-<dead_aboveverticalline> <U01B2>             : "Ʋ̍"     # Ʋ + Vertical Line Above
-<dead_aboveverticalline> <U028B>             : "ʋ̍"     # ʋ + Vertical Line Above
-<dead_aboveverticalline> <UA768>             : "Ꝩ̍"     # Ꝩ (Vend) + Vertical Line Above
-<dead_aboveverticalline> <UA769>             : "ꝩ̍"     # ꝩ (Vend) + Vertical Line Above
-<dead_aboveverticalline> <W>                 : "W̍"
-<dead_aboveverticalline> <w>                 : "w̍"
-<dead_aboveverticalline> <UA760>             : "Ꝡ̍"     # Ꝡ + Vertical Line Above
-<dead_aboveverticalline> <UA761>             : "ꝡ̍"     # ꝡ + Vertical Line Above
-<dead_aboveverticalline> <U1DCF> <V> <Y>     : "Ꝡ̍"
-<dead_aboveverticalline> <U1DCF> <v> <y>     : "ꝡ̍"
-<dead_aboveverticalline> <X>                 : "X̍"
-<dead_aboveverticalline> <x>                 : "x̍"
-<dead_aboveverticalline> <Y>                 : "Y̍"
-<dead_aboveverticalline> <y>                 : "y̍"
-<dead_aboveverticalline> <Z>                 : "Z̍"
-<dead_aboveverticalline> <z>                 : "z̍"
-<dead_aboveverticalline> <EZH>               : "Ʒ̍"     # Ʒ + Vertical Line Above
-<dead_aboveverticalline> <ezh>               : "ʒ̍"     # ʒ + Vertical Line Above
+<dead_aboveverticalline> <A>                                    : "A̍"
+<dead_aboveverticalline> <a>                                    : "a̍"
+<dead_aboveverticalline> <U2C6F>                                : "Ɐ̍"   # Ɐ + Vertical Line Above
+<dead_aboveverticalline> <U0250>                                : "ɐ̍"   # ɐ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <A>                            : "Ɐ̍"   # Ɐ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <a>                            : "ɐ̍"   # ɐ + Vertical Line Above
+<dead_aboveverticalline> <UA732>                                : "Ꜳ̍"  # Ꜳ + Vertical Line Above
+<dead_aboveverticalline> <UA733>                                : "ꜳ̍"   # ꜳ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <A>                        : "Ꜳ̍"  # Ꜳ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <a>                        : "ꜳ̍"   # ꜳ + Vertical Line Above
+<dead_aboveverticalline> <AE>                                   : "Æ̍"
+<dead_aboveverticalline> <ae>                                   : "æ̍"
+<dead_aboveverticalline> <U1DCF> <A> <E>                        : "Æ̍"
+<dead_aboveverticalline> <U1DCF> <a> <e>                        : "æ̍"
+<dead_aboveverticalline> <UA734>                                : "Ꜵ̍"  # Ꜵ + Vertical Line Above
+<dead_aboveverticalline> <UA735>                                : "ꜵ̍"   # ꜵ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <O>                        : "Ꜵ̍"  # Ꜵ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <o>                        : "ꜵ̍"   # ꜵ + Vertical Line Above
+<dead_aboveverticalline> <UA736>                                : "Ꜷ̍"  # Ꜷ + Vertical Line Above
+<dead_aboveverticalline> <UA737>                                : "ꜷ̍"   # ꜷ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <U>                        : "Ꜷ̍"  # Ꜷ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <u>                        : "ꜷ̍"   # ꜷ + Vertical Line Above
+<dead_aboveverticalline> <UA738>                                : "Ꜹ̍"  # Ꜹ + Vertical Line Above
+<dead_aboveverticalline> <UA739>                                : "ꜹ̍"   # ꜹ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <V>                        : "Ꜹ̍"  # Ꜹ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <v>                        : "ꜹ̍"   # ꜹ + Vertical Line Above
+<dead_aboveverticalline> <UA73C>                                : "Ꜽ̍"  # Ꜽ + Vertical Line Above
+<dead_aboveverticalline> <UA73D>                                : "ꜽ̍"   # ꜽ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <A> <Y>                        : "Ꜽ̍"  # Ꜽ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <a> <y>                        : "ꜽ̍"   # ꜽ + Vertical Line Above
+<dead_aboveverticalline> <U2C6D>                                : "Ɑ̍"   # Ɑ (Latin Alpha) + Vertical Line Above
+<dead_aboveverticalline> <U0251>                                : "ɑ̍"   # ɑ (Latin Alpha) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <A>     : "Ɑ̍"   # Ɑ (Latin Alpha) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <a>     : "ɑ̍"   # ɑ (Latin Alpha) + Vertical Line Above
+<dead_aboveverticalline> <U2C70>                                : "Ɒ̍"   # Ɒ (Turned Latin Alpha) + Vertical Line Above
+<dead_aboveverticalline> <U0252>                                : "ɒ̍"   # ɒ (Turned Latin Alpha) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <dead_greek> <A>               : "Ɒ̍"   # Ɒ (Turned Latin Alpha) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <dead_greek> <a>               : "ɒ̍"   # ɒ (Turned Latin Alpha) + Vertical Line Above
+<dead_aboveverticalline> <B>                                    : "B̍"
+<dead_aboveverticalline> <b>                                    : "b̍"
+<dead_aboveverticalline> <UA7B4>                                : "Ꞵ̍"   # Ꞵ (Latin Beta) + Vertical Line Above
+<dead_aboveverticalline> <UA7B5>                                : "ꞵ̍"   # ꞵ (Latin Beta) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <B>     : "Ꞵ̍"   # Ꞵ (Latin Beta) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <b>     : "ꞵ̍"   # ꞵ (Latin Beta) + Vertical Line Above
+<dead_aboveverticalline> <C>                                    : "C̍"
+<dead_aboveverticalline> <c>                                    : "c̍"
+<dead_aboveverticalline> <D>                                    : "D̍"
+<dead_aboveverticalline> <d>                                    : "d̍"
+<dead_aboveverticalline> <ETH>                                  : "Ð̍"
+<dead_aboveverticalline> <eth>                                  : "ð̍"
+<dead_aboveverticalline> <UA779>                                : "Ꝺ̍"   # Ꝺ (Insular D) + Vertical Line Above
+<dead_aboveverticalline> <UA77A>                                : "ꝺ̍"   # ꝺ (Insular D) + Vertical Line Above
+<dead_aboveverticalline> <E>                                    : "E̍"
+<dead_aboveverticalline> <e>                                    : "e̍"
+<dead_aboveverticalline> <U0190>                                : "Ɛ̍"   # Ɛ (Latin Epsilon) + Vertical Line Above
+<dead_aboveverticalline> <U025B>                                : "ɛ̍"   # ɛ (Latin Epsilon) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <E>     : "Ɛ̍"   # Ɛ (Latin Epsilon) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <e>     : "ɛ̍"   # Ɛ (Latin Epsilon) + Vertical Line Above
+<dead_aboveverticalline> <UA7AB>                                : "Ɜ̍"   # Ɜ (Turned Latin Epsilon) + Vertical Line Above
+<dead_aboveverticalline> <U025C>                                : "ɜ̍"   # ɜ (Turned Latin Epsilon) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <dead_greek> <E>               : "Ɜ̍"   # Ɜ (Turned Latin Epsilon) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <dead_greek> <e>               : "ɜ̍"   # ɜ (Turned Latin Epsilon) + Vertical Line Above
+<dead_aboveverticalline> <SCHWA>                                : "Ə̍"   # Ə (Schwa) + Vertical Line Above
+<dead_aboveverticalline> <schwa>                                : "ə̍"   # ə (Schwa) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <E>                            : "Ə̍"   # Ə (Schwa) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <e>                            : "ə̍"   # ə (Schwa) + Vertical Line Above
+<dead_aboveverticalline> <U0258>                                : "ɘ̍"   # ɘ (Close-mid central unrounded vowel) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <minus> <E>                    : "ɘ̍"   # ɘ (Close-mid central unrounded vowel) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <minus> <e>                    : "ɘ̍"   # ɘ (Close-mid central unrounded vowel) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <SCHWA>                        : "ɘ̍"   # ɘ (Close-mid central unrounded vowel) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <schwa>                        : "ɘ̍"   # ɘ (Close-mid central unrounded vowel) + Vertical Line Above
+<dead_aboveverticalline> <U029A>                                : "ʚ̍"   # ʚ + Vertical Line Above
+<dead_aboveverticalline> <U025E>                                : "ɞ̍"   # ɞ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <underscore> <E>               : "ʚ̍"   # ʚ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <underscore> <e>               : "ɞ̍"   # ɞ + Vertical Line Above
+<dead_aboveverticalline> <U018E>                                : "Ǝ̍"   # Ǝ (Turned E) + Vertical Line Above
+<dead_aboveverticalline> <U01DD>                                : "ǝ̍"   # ǝ (Turned E) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <E>                            : "Ǝ̍"   # Ǝ (Turned E) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <e>                            : "ǝ̍"   # ǝ (Turned E) + Vertical Line Above
+<dead_aboveverticalline> <F>                                    : "F̍"
+<dead_aboveverticalline> <f>                                    : "f̍"
+<dead_aboveverticalline> <U0278>                                : "ɸ̍"   # ɸ (Latin Phi) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <F>     : "ɸ̍"   # ɸ (Latin Phi) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <f>     : "ɸ̍"   # ɸ (Latin Phi) + Vertical Line Above
+<dead_aboveverticalline> <UA77B>                                : "Ꝼ̍"   # Ꝼ (Insular F) + Vertical Line Above
+<dead_aboveverticalline> <UA77C>                                : "ꝼ̍"   # ꝼ (Insular F) + Vertical Line Above
+<dead_aboveverticalline> <G>                                    : "G̍"
+<dead_aboveverticalline> <g>                                    : "g̍"
+<dead_aboveverticalline> <U0194>                                : "Ɣ̍"   # Ɣ (Latin Gamma) + Vertical Line Above
+<dead_aboveverticalline> <U0263>                                : "ɣ̍"   # ɣ (Latin Gamma) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <G>     : "Ɣ̍"   # Ɣ (Latin Gamma) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <g>     : "ɣ̍"   # ɣ (Latin Gamma) + Vertical Line Above
+<dead_aboveverticalline> <H>                                    : "H̍"
+<dead_aboveverticalline> <h>                                    : "h̍"
+<dead_aboveverticalline> <UA78D>                                : "Ɥ̍"   # Ɥ (Turned H) + Vertical Line Above
+<dead_aboveverticalline> <U0265>                                : "ɥ̍"   # ɥ (Turned H) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <H>                            : "Ɥ̍"   # Ɥ (Turned H) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <h>                            : "ɥ̍"   # ɥ (Turned H) + Vertical Line Above
+<dead_aboveverticalline> <I>                                    : "I̍"
+<dead_aboveverticalline> <i>                                    : "i̍"
+<dead_aboveverticalline> <U0196>                                : "Ɩ̍"   # Ɩ (Latin Iota) + Vertical Line Above
+<dead_aboveverticalline> <U0269>                                : "ɩ̍"   # ɩ (Latin Iota) + Vertical Line Above
+<dead_aboveverticalline> <UA7AE>                                : "Ɪ̍"   # Ɪ (Near-close near-front unrounded vowel) + Vertical Line Above
+<dead_aboveverticalline> <U026A>                                : "ɪ̍"   # ɪ (Near-close near-front unrounded vowel) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <I>                            : "Ɪ̍"   # Ɪ (Near-close near-front unrounded vowel) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <i>                            : "ɪ̍"   # ɪ (Near-close near-front unrounded vowel) + Vertical Line Above
+<dead_aboveverticalline> <J>                                    : "J̍"
+<dead_aboveverticalline> <j>                                    : "j̍"
+<dead_aboveverticalline> <U035A> <J>                            : "ɟ̍"   # ɟ (Barred Dotless J) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <j>                            : "ɟ̍"   # ɟ (Barred Dotless J) + Vertical Line Above
+<dead_aboveverticalline> <K>                                    : "K̍"
+<dead_aboveverticalline> <k>                                    : "k̍"
+<dead_aboveverticalline> <L>                                    : "L̍"
+<dead_aboveverticalline> <l>                                    : "l̍"
+<dead_aboveverticalline> <U1DF08>                               : "𝼈̍"   # 𝼈 (Retroflex lateral flap) + Vertical Line Above
+<dead_aboveverticalline> <U027A>                                : "ɺ̍"   # ɺ (Lateral flap) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <L>                            : "𝼈̍"   # 𝼈 (Retroflex lateral flap) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <l>                            : "ɺ̍"   # ɺ (Lateral flap) + Vertical Line Above
+<dead_aboveverticalline> <M>                                    : "M̍"
+<dead_aboveverticalline> <m>                                    : "m̍"
+<dead_aboveverticalline> <U0270>                                : "ɰ̍"   # ɰ (Voiced velar approximant) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <M>                            : "ɰ̍"   # ɰ (Voiced velar approximant) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <m>                            : "ɰ̍"   # ɰ (Voiced velar approximant) + Vertical Line Above
+<dead_aboveverticalline> <N>                                    : "N̍"
+<dead_aboveverticalline> <n>                                    : "n̍"
+<dead_aboveverticalline> <ENG>                                  : "Ŋ̍"   # Ŋ + Vertical Line Above
+<dead_aboveverticalline> <eng>                                  : "ŋ̍"   # ŋ + Vertical Line Above
+<dead_aboveverticalline> <O>                                    : "O̍"
+<dead_aboveverticalline> <o>                                    : "o̍"
+<dead_aboveverticalline> <OE>                                   : "Œ̍"
+<dead_aboveverticalline> <oe>                                   : "œ̍"
+<dead_aboveverticalline> <U1DCF> <O> <E>                        : "Œ̍"
+<dead_aboveverticalline> <U1DCF> <o> <e>                        : "œ̍"
+<dead_aboveverticalline> <UA74E>                                : "Ꝏ̍"  # Ꝏ + Vertical Line Above
+<dead_aboveverticalline> <UA74F>                                : "ꝏ̍"  # ꝏ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <O> <O>                        : "Ꝏ̍"  # Ꝏ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <o> <o>                        : "ꝏ̍"  # ꝏ + Vertical Line Above
+<dead_aboveverticalline> <U0186>                                : "Ɔ̍"   # Ɔ + Vertical Line Above
+<dead_aboveverticalline> <U0254>                                : "ɔ̍"   # ɔ + Vertical Line Above
+<dead_aboveverticalline> <UA7CB>                                : "Ɤ̍"   # Ɤ (Ram's Horn) + Vertical Line Above
+<dead_aboveverticalline> <U0264>                                : "ɤ̍"   # ɤ (Ram's Horn) + Vertical Line Above
+<dead_aboveverticalline> <P>                                    : "P̍"
+<dead_aboveverticalline> <p>                                    : "p̍"
+<dead_aboveverticalline> <Q>                                    : "Q̍"
+<dead_aboveverticalline> <q>                                    : "q̍"
+<dead_aboveverticalline> <R>                                    : "R̍"
+<dead_aboveverticalline> <r>                                    : "r̍"
+<dead_aboveverticalline> <U027B>                                : "ɻ̍"   # ɻ + Vertical Line Above
+<dead_aboveverticalline> <U0279>                                : "ɹ̍"   # ɹ + Vertical Line Above
+<dead_aboveverticalline> <U035A> <R>                            : "ɻ̍"   # ɻ + Vertical Line Above
+<dead_aboveverticalline> <U035A> <r>                            : "ɹ̍"   # ɹ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <R>                            : "ɻ̍"   # ɻ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <r>                            : "ɹ̍"   # ɹ + Vertical Line Above
+<dead_aboveverticalline> <U01A6>                                : "Ʀ̍"   # Ʀ (Yr) + Vertical Line Above
+<dead_aboveverticalline> <U0280>                                : "ʀ̍"   # ʀ (Yr) + Vertical Line Above
+<dead_aboveverticalline> <A75A>                                 : "Ꝛ̍"   # Ꝛ (R Rotunda) + Vertical Line Above
+<dead_aboveverticalline> <A75B>                                 : "ꝛ̍"   # ꝛ (R Rotunda) + Vertical Line Above
+<dead_aboveverticalline> <S>                                    : "S̍"
+<dead_aboveverticalline> <s>                                    : "s̍"
+<dead_aboveverticalline> <U01A9>                                : "Ʃ̍"   # Ʃ (Esh) + Vertical Line Above
+<dead_aboveverticalline> <U0283>                                : "ʃ̍"   # ʃ (Esh) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <S>                            : "Ʃ̍"   # Ʃ (Esh) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <s>                            : "ʃ̍"   # ʃ (Esh) + Vertical Line Above
+<dead_aboveverticalline> <T>                                    : "T̍"
+<dead_aboveverticalline> <t>                                    : "t̍"
+<dead_aboveverticalline> <THORN>                                : "Þ̍"
+<dead_aboveverticalline> <thorn>                                : "þ̍"
+<dead_aboveverticalline> <U>                                    : "U̍"
+<dead_aboveverticalline> <u>                                    : "u̍"
+<dead_aboveverticalline> <U01B1>                                : "Ʊ̍"   # Ʊ (Latin Upsilon) + Vertical Line Above
+<dead_aboveverticalline> <U028A>                                : "ʊ̍"   # ʊ (Latin Upsilon) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <U>     : "Ʊ̍"   # Ʊ (Latin Upsilon) + Vertical Line Above
+<dead_aboveverticalline> <dead_greek> <dead_circumflex> <u>     : "ʊ̍"   # ʊ (Latin Upsilon) + Vertical Line Above
+<dead_aboveverticalline> <U019C>                                : "Ɯ̍"   # Ɯ (Turned M) + Vertical Line Above
+<dead_aboveverticalline> <U026F>                                : "ɯ̍"   # ɯ (Turned M) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <M>                            : "Ɯ̍"   # Ɯ (Turned M) + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <m>                            : "ɯ̍"   # ɯ (Turned M) + Vertical Line Above
+<dead_aboveverticalline> <V>                                    : "V̍"
+<dead_aboveverticalline> <v>                                    : "v̍"
+<dead_aboveverticalline> <U0245>                                : "Ʌ̍"   # Ʌ + Vertical Line Above
+<dead_aboveverticalline> <U028C>                                : "ʌ̍"   # ʌ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <V>                            : "Ʌ̍"   # Ʌ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <v>                            : "ʌ̍"   # ʌ + Vertical Line Above
+<dead_aboveverticalline> <U01B2>                                : "Ʋ̍"   # Ʋ + Vertical Line Above
+<dead_aboveverticalline> <U028B>                                : "ʋ̍"   # ʋ + Vertical Line Above
+<dead_aboveverticalline> <UA768>                                : "Ꝩ̍"   # Ꝩ (Vend) + Vertical Line Above
+<dead_aboveverticalline> <UA769>                                : "ꝩ̍"   # ꝩ (Vend) + Vertical Line Above
+<dead_aboveverticalline> <W>                                    : "W̍"
+<dead_aboveverticalline> <w>                                    : "w̍"
+<dead_aboveverticalline> <UA760>                                : "Ꝡ̍"   # Ꝡ + Vertical Line Above
+<dead_aboveverticalline> <UA761>                                : "ꝡ̍"   # ꝡ + Vertical Line Above
+<dead_aboveverticalline> <U1DCF> <V> <Y>                        : "Ꝡ̍"
+<dead_aboveverticalline> <U1DCF> <v> <y>                        : "ꝡ̍"
+<dead_aboveverticalline> <X>                                    : "X̍"
+<dead_aboveverticalline> <x>                                    : "x̍"
+<dead_aboveverticalline> <Y>                                    : "Y̍"
+<dead_aboveverticalline> <y>                                    : "y̍"
+<dead_aboveverticalline> <U21BA> <Y>                            : "⅄̍"   # ⅄ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <y>                            : "ʎ̍"   # ʎ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <Y>                            : "⅄̍"   # ⅄ + Vertical Line Above
+<dead_aboveverticalline> <U21BA> <y>                            : "ʎ̍"   # ʎ + Vertical Line Above
+<dead_aboveverticalline> <Z>                                    : "Z̍"
+<dead_aboveverticalline> <z>                                    : "z̍"
+<dead_aboveverticalline> <EZH>                                  : "Ʒ̍"   # Ʒ + Vertical Line Above
+<dead_aboveverticalline> <ezh>                                  : "ʒ̍"   # ʒ + Vertical Line Above
+<dead_aboveverticalline> <U0294>                                : "ʔ̍"   # ʔ (Glottal Stop) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <question>                     : "ʔ̍"   # ʔ (Glottal Stop) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <U0241> <space>                : "ʔ̍"   # Ɂ (Capital Glottal Stop) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <U0242> <space>                : "ʔ̍"   # ɂ (Small Glottal Stop) + Vertical Line Above
+<dead_aboveverticalline> <U0241>                                : "Ɂ̍"   # Ɂ (Capital Glottal Stop) + Vertical Line Above
+<dead_aboveverticalline> <U0242>                                : "ɂ̍"   # ɂ (Small Glottal Stop) + Vertical Line Above
+<dead_aboveverticalline> <U0295>                                : "ʕ̍"   # ʕ (Turned Glottal Glottal Stop) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <questiondown>                 : "ʕ̍"   # ʕ (Turned Glottal Glottal Stop) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <U0241> <underscore> <space>   : "ʕ̍"   # Ɂ (Capital Glottal Stop) + "_" + Vertical Line Above
+<dead_aboveverticalline> <U035A> <U0242> <underscore> <space>   : "ʕ̍"   # ɂ (Small Glottal Stop) + "_" + Vertical Line Above
 
 
 # Composed vertical line above combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main source]: https://fr.wikipedia.org/wiki/Ligne_verticale_en_chef
 #
-<dead_aboveverticalline> <dead_belowdiaeresis> <A>  : "A̤̍"
-<dead_aboveverticalline> <dead_belowdiaeresis> <a>  : "a̤̍"
-<dead_aboveverticalline> <dead_tilde> <A>           : "Ã̍"
-<dead_aboveverticalline> <dead_tilde> <a>           : "ã̍"
-<dead_aboveverticalline> <dead_cedilla> <A>         : "A̧̍"
-<dead_aboveverticalline> <dead_cedilla> <a>         : "a̧̍"
-<dead_aboveverticalline> <dead_diaeresis> <E>       : "Ë̍"
-<dead_aboveverticalline> <dead_diaeresis> <e>       : "ë̍"
-<dead_aboveverticalline> <dead_belowdiaeresis> <E>  : "E̤̍"
-<dead_aboveverticalline> <dead_belowdiaeresis> <e>  : "e̤̍"
-<dead_aboveverticalline> <dead_tilde> <E>           : "Ẽ̍"
-<dead_aboveverticalline> <dead_tilde> <e>           : "ẽ̍"
-<dead_aboveverticalline> <dead_macron> <E>          : "Ē̍"
-<dead_aboveverticalline> <dead_macron> <e>          : "ē̍"
-<dead_aboveverticalline> <dead_tilde> <U0190>       : "Ɛ̃̍"   # Ɛ (Latin Epsilon) + Tilde + Vertical Line Above
-<dead_aboveverticalline> <dead_tilde> <U025B>       : "ɛ̃̍"   # ɛ (Latin Epsilon) + Tilde + Vertical Line Above
-<dead_aboveverticalline> <dead_belowdiaeresis> <I>  : "I̤̍"
-<dead_aboveverticalline> <dead_belowdiaeresis> <i>  : "i̤̍"
-<dead_aboveverticalline> <dead_tilde> <I>           : "Ĩ̍"
-<dead_aboveverticalline> <dead_tilde> <i>           : "ĩ̍"
-<dead_aboveverticalline> <dead_belowdiaeresis> <O>  : "O̤̍"
-<dead_aboveverticalline> <dead_belowdiaeresis> <o>  : "o̤̍"
-<dead_aboveverticalline> <dead_tilde> <O>           : "Õ̍"
-<dead_aboveverticalline> <dead_tilde> <o>           : "õ̍"
-<dead_aboveverticalline> <dead_macron> <O>          : "Ō̍"
-<dead_aboveverticalline> <dead_macron> <o>          : "ō̍"
-<dead_aboveverticalline> <dead_tilde> <U0186>       : "Ɔ̃̍"   # Ɔ + Tilde + Vertical Line Above
-<dead_aboveverticalline> <dead_tilde> <U0254>       : "ɔ̃̍"   # ɔ + Tilde + Vertical Line Above
-<dead_aboveverticalline> <dead_diaeresis> <U>       : "Ü̍"
-<dead_aboveverticalline> <dead_diaeresis> <u>       : "ü̍"
-<dead_aboveverticalline> <dead_belowdiaeresis> <U>  : "Ṳ̍"
-<dead_aboveverticalline> <dead_belowdiaeresis> <u>  : "ṳ̍"
-<dead_aboveverticalline> <dead_tilde> <U>           : "Ũ̍"
-<dead_aboveverticalline> <dead_tilde> <u>           : "ũ̍"
+<dead_aboveverticalline> <dead_belowdiaeresis> <A>              : "A̤̍"
+<dead_aboveverticalline> <dead_belowdiaeresis> <a>              : "a̤̍"
+<dead_aboveverticalline> <dead_tilde> <A>                       : "Ã̍"
+<dead_aboveverticalline> <dead_tilde> <a>                       : "ã̍"
+<dead_aboveverticalline> <dead_cedilla> <A>                     : "A̧̍"
+<dead_aboveverticalline> <dead_cedilla> <a>                     : "a̧̍"
+<dead_aboveverticalline> <dead_diaeresis> <E>                   : "Ë̍"
+<dead_aboveverticalline> <dead_diaeresis> <e>                   : "ë̍"
+<dead_aboveverticalline> <dead_belowdiaeresis> <E>              : "E̤̍"
+<dead_aboveverticalline> <dead_belowdiaeresis> <e>              : "e̤̍"
+<dead_aboveverticalline> <dead_tilde> <E>                       : "Ẽ̍"
+<dead_aboveverticalline> <dead_tilde> <e>                       : "ẽ̍"
+<dead_aboveverticalline> <dead_macron> <E>                      : "Ē̍"
+<dead_aboveverticalline> <dead_macron> <e>                      : "ē̍"
+<dead_aboveverticalline> <dead_tilde> <U0190>                   : "Ɛ̃̍"   # Ɛ (Latin Epsilon) + Tilde + Vertical Line Above
+<dead_aboveverticalline> <dead_tilde> <U025B>                   : "ɛ̃̍"   # ɛ (Latin Epsilon) + Tilde + Vertical Line Above
+<dead_aboveverticalline> <dead_belowdiaeresis> <I>              : "I̤̍"
+<dead_aboveverticalline> <dead_belowdiaeresis> <i>              : "i̤̍"
+<dead_aboveverticalline> <dead_tilde> <I>                       : "Ĩ̍"
+<dead_aboveverticalline> <dead_tilde> <i>                       : "ĩ̍"
+<dead_aboveverticalline> <dead_belowdiaeresis> <O>              : "O̤̍"
+<dead_aboveverticalline> <dead_belowdiaeresis> <o>              : "o̤̍"
+<dead_aboveverticalline> <dead_tilde> <O>                       : "Õ̍"
+<dead_aboveverticalline> <dead_tilde> <o>                       : "õ̍"
+<dead_aboveverticalline> <dead_macron> <O>                      : "Ō̍"
+<dead_aboveverticalline> <dead_macron> <o>                      : "ō̍"
+<dead_aboveverticalline> <dead_tilde> <U0186>                   : "Ɔ̃̍"   # Ɔ + Tilde + Vertical Line Above
+<dead_aboveverticalline> <dead_tilde> <U0254>                   : "ɔ̃̍"   # ɔ + Tilde + Vertical Line Above
+<dead_aboveverticalline> <dead_diaeresis> <U>                   : "Ü̍"
+<dead_aboveverticalline> <dead_diaeresis> <u>                   : "ü̍"
+<dead_aboveverticalline> <dead_belowdiaeresis> <U>              : "Ṳ̍"
+<dead_aboveverticalline> <dead_belowdiaeresis> <u>              : "ṳ̍"
+<dead_aboveverticalline> <dead_tilde> <U>                       : "Ũ̍"
+<dead_aboveverticalline> <dead_tilde> <u>                       : "ũ̍"
+<dead_aboveverticalline> <U02A1>                                : "ʡ̍"   # Ɂ (Capital Glottal Stop) + "-" + Vertical Line Above
+<dead_aboveverticalline> <U035A> <U0241> <minus>                : "ʡ̍"   # Ɂ (Capital Glottal Stop) + "-" + Vertical Line Above
+<dead_aboveverticalline> <U035A> <U0242> <minus>                : "ʡ̍"   # ɂ (Small Glottal Stop) + "-" + Vertical Line Above
+<dead_aboveverticalline> <U02A2>                                : "ʢ̍"   # ʢ (Barred Turned Glottal Stop) + Vertical Line Above
+<dead_aboveverticalline> <U035A> <U0241> <underscore> <minus>   : "ʢ̍"   # Ɂ (Capital Glottal Stop) + "_-" + Vertical Line Above
+<dead_aboveverticalline> <U035A> <U0242> <underscore> <minus>   : "ʢ̍"   # ɂ (Small Glottal Stop) + "_-" + Vertical Line Above
 
 ##################
 # [END OF RULES] #
