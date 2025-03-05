@@ -1,0 +1,15 @@
+# Common Dead Keys | Currency Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing currency symbols
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_currency> <space>         : "¤"    # ISO generic currency symbol
+<dead_currency> <dead_currency> : "¤"    # ISO generic currency symbol
+
+##################
+# [END OF RULES] #
+##################
