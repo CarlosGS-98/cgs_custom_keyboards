@@ -47,26 +47,26 @@
 # Fractions (Infix Notation)
 # [Main source]: https://www.blueseal.eu/uc/unicodelistfractions.html
 #
-<U1DCF> <0> <slash> <0>     : "%"
-<U1DCF> <0> <slash> <3>     : "↉"
-<U1DCF> <1> <slash> <2>     : "½"
-<U1DCF> <1> <slash> <3>     : "⅓"
-<U1DCF> <1> <slash> <4>     : "¼"
-<U1DCF> <1> <slash> <5>     : "⅕"
-<U1DCF> <1> <slash> <6>     : "⅙"
-<U1DCF> <1> <slash> <7>     : "⅐"
-<U1DCF> <1> <slash> <8>     : "⅛"
-<U1DCF> <1> <slash> <9>     : "⅑"
-<U1DCF> <1> <slash> <1> <0> : "⅒"
-<U1DCF> <2> <slash> <3>     : "⅔"
-<U1DCF> <2> <slash> <5>     : "⅖"
-<U1DCF> <3> <slash> <4>     : "¾"
-<U1DCF> <3> <slash> <5>     : "⅗"
-<U1DCF> <3> <slash> <8>     : "⅜"
-<U1DCF> <4> <slash> <5>     : "⅘"
-<U1DCF> <5> <slash> <6>     : "⅚"
-<U1DCF> <5> <slash> <8>     : "⅝"
-<U1DCF> <7> <slash> <8>     : "⅞"
+<U1DCF> <0> <slash> <0> <space> : "%"
+<U1DCF> <0> <slash> <3>         : "↉"
+<U1DCF> <1> <slash> <2>         : "½"
+<U1DCF> <1> <slash> <3>         : "⅓"
+<U1DCF> <1> <slash> <4>         : "¼"
+<U1DCF> <1> <slash> <5>         : "⅕"
+<U1DCF> <1> <slash> <6>         : "⅙"
+<U1DCF> <1> <slash> <7>         : "⅐"
+<U1DCF> <1> <slash> <8>         : "⅛"
+<U1DCF> <1> <slash> <9>         : "⅑"
+<U1DCF> <1> <slash> <1> <0>     : "⅒"
+<U1DCF> <2> <slash> <3>         : "⅔"
+<U1DCF> <2> <slash> <5>         : "⅖"
+<U1DCF> <3> <slash> <4>         : "¾"
+<U1DCF> <3> <slash> <5>         : "⅗"
+<U1DCF> <3> <slash> <8>         : "⅜"
+<U1DCF> <4> <slash> <5>         : "⅘"
+<U1DCF> <5> <slash> <6>         : "⅚"
+<U1DCF> <5> <slash> <8>         : "⅝"
+<U1DCF> <7> <slash> <8>         : "⅞"
 
 
 # Fractions (Reverse Polish Notation)
@@ -93,6 +93,13 @@
 <U1DCF> <5> <6> <slash>     : "⅚"
 <U1DCF> <5> <8> <slash>     : "⅝"
 <U1DCF> <7> <8> <slash>     : "⅞"
+
+
+# Percentage Signs
+<U1DCF> <0> <0> <0> <slash>         : "‰"
+<U1DCF> <0> <0> <0> <0> <slash>     : "‱"
+<U1DCF> <0> <slash> <0> <0> <space> : "‰"
+<U1DCF> <0> <slash> <0> <0> <0>     : "‱"
 
 ##################
 # [END OF RULES] #
