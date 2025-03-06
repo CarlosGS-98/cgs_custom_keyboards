@@ -1,0 +1,277 @@
+# Common Dead Keys | Punctuation Marks Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing punctuation
+# > and typographical marks
+# > across multiple writing systems.
+#
+# [NOTE]: This diacritic will be represented as [U203B]
+# ("※", Reference Mark) to better transmit
+# the intention this specific dead key has.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Punctuation
+#
+
+# Basic combinations
+<U203B> <space> : "※"   # Reference mark
+<U203B> <U203B> : "※"   # Reference mark
+
+
+# Dashes
+<U203B> <2> <minus>                 : "⸺"  # 2-Em dash
+<U203B> <3> <minus>                 : "⸻" # 3-Em dash
+<U203B> <asciitilde> <asciitilde>   : "〰"   # Wavy dash
+<U203B> <asciitilde> <minus>        : "〜"   # Wave dash
+<U203B> <apostrophe> <minus>        : "𐺭"   # Yezidi hyphenation mark
+<U203B> <dead_breve> <minus>        : "֊"   # Armenian hyphen
+<U203B> <dead_diaeresis> <minus>    : "⸚"   # Hyphen + Diaeresis
+<U203B> <dead_macron> <minus>       : "־"   # Maqaf
+<U203B> <dead_macron> <underscore>  : "᠆"   # Todo (Mongolian soft hyphen)
+<U203B> <dead_tilde> <dead_tilde>   : "〰"   # Wavy dash
+<U203B> <dead_tilde> <minus>        : "〜"   # Wave dash
+<U203B> <diaeresis> <minus>         : "⸚"   # Hyphen + Diaeresis
+<U203B> <equal> <equal>             : "゠"   # Katakana-Hiragana double hyphen
+<U203B> <equal> <underscore>        : "᐀"    # Canadian syllabics hyphen
+<U203B> <minus> <2>                 : "⸺"  # 2-Em dash
+<U203B> <minus> <3>                 : "⸻" # 3-Em dash
+<U203B> <minus> <asciitilde>        : "〜"   # Wave dash
+<U203B> <minus> <apostrophe>        : "‒"   # Figure dash
+<U203B> <minus> <bar> <minus>       : "―"   # Horizontal bar
+<U203B> <minus> <dead_breve>        : "֊"   # Armenian hyphen
+<U203B> <minus> <dead_diaeresis>    : "⸚"   # Hyphen + Diaeresis
+<U203B> <minus> <dead_tilde>        : "〜"   # Wave dash
+<U203B> <minus> <diaeresis>         : "⸚"   # Hyphen + Diaeresis
+<U203B> <minus> <equal>             : "⹀"   # Double hyphen
+<U203B> <minus> <exclam>            : "‑"   # Non-breaking hyphen
+<U203B> <minus> <dead_macron>       : "־"   # Maqaf
+<U203B> <minus> <minus> <minus>     : "—"   # Em dash
+<U203B> <minus> <minus> <space>     : "–"   # En dash
+<U203B> <minus> <space>             : "‐"   # Hyphen (distinct from the Hyphen-Minus)
+<U203B> <minus> <slash>             : "⸗"   # Double oblique hyphen
+<U203B> <slash> <minus>             : "⸗"   # Double oblique hyphen
+<U203B> <underscore> <dead_macron>  : "᠆"   # Todo (Mongolian soft hyphen)
+<U203B> <underscore> <equal>        : "᐀"    # Canadian Syllabics hyphen
+
+
+# Miscellaneous Punctuation
+<U203B> <1> <apostrophe>                    : "‵"   # Reversed prime
+<U203B> <1> <period>                        : "․"   # One-dot leader
+<U203B> <2> <apostrophe>                    : "‶"   # Reversed double prime
+<U203B> <2> <period>                        : "‥"   # Two-dot leader
+<U203B> <3> <apostrophe>                    : "‷"   # Reversed triple prime
+<U203B> <3> <asterisk>                      : "⁂"  # Asterism
+<U203B> <3> <colon>                         : "⁝"   # Tricolon
+<U203B> <3> <period>                        : "…"   # Horizontal ellipsis
+<U203B> <3> <plus>                          : "⹋"   # Triple dagger
+<U203B> <4> <apostrophe>                    : "⁗"  # Quadruple prime
+<U203B> <4> <colon>                         : "⁞"   # Quatricolon
+<U203B> <4> <period>                        : "⁘"   # Four-dot punctuation
+<U203B> <5> <period>                        : "⁙"   # Five-dot punctuation
+<U203B> <6> <colon>                         : "⸽"   # Sexticolon
+<U203B> <7> <ampersand>                     : "⁊"   # Tironian sign Et
+<U203B> <asciicircum> <comma>               : "⸴"   # Raised comma
+<U203B> <asciicircum> <period>              : "⸳"   # Raised dot
+<U203B> <asciicircum> <slash>               : "⁁"   # Caret insertion point
+<U203B> <asciicircum> <underscore>          : "‸"   # Low caret
+<U203B> <asciitilde> <bar>                  : "⸾"   # Vertical wiggly line
+<U203B> <asciitilde> <dead_abovedot>        : "⸞"   # Tilde + Dot Above
+<U203B> <asciitilde> <dead_belowdot>        : "⸟"   # Tilde + Dot Below
+<U203B> <asciitilde> <dead_abovering>       : "⸛"   # Tilde + Ring Above
+<U203B> <asciitilde> <degree>               : "⸛"   # Tilde + Ring Above
+<U203B> <asciitilde> <plus> <asciitilde>    : "⁓"  # Swung dash
+<U203B> <ampersand> <7>                     : "⁊"   # Tironian sign Et
+<U203B> <ampersand> <ampersand>             : "⁊"   # Tironian sign Et
+<U203B> <apostrophe> <1>                    : "′"   # Prime
+<U203B> <apostrophe> <2>                    : "″"   # Double prime
+<U203B> <apostrophe> <3>                    : "‴"   # Triple prime
+<U203B> <apostrophe> <4>                    : "⁗"  # Quadruple prime
+<U203B> <asterisk> <3>                      : "⁂"  # Asterism
+<U203B> <asterisk> <asterisk> <asterisk>    : "⁂"  # Asterism
+<U203B> <asterisk> <bar>                    : "¶"   # Pilcrow sign
+<U203B> <asterisk> <greater>                : "‣"   # Triangular bullet
+<U203B> <asterisk> <minus>                  : "⁃"   # Hyphen bullet
+<U203B> <asterisk> <parenright>             : "⁍"   # Black rightwards bullet
+<U203B> <asterisk> <period>                 : "•"   # Bullet point
+<U203B> <asterisk> <plus> <asterisk>        : "⁕"  # Flower punctuation mark
+<U203B> <asterisk> <colon>                  : "⁑"   # Asterisk-Colon
+<U203B> <asterisk> <underscore>             : "⁎"   # Low asterisk
+<U203B> <bar> <asciitilde>                  : "⸾"   # Vertical wiggly line
+<U203B> <bar> <asterisk>                    : "⁋"   # Reversed pilcrow sign
+<U203B> <bar> <bar>                         : "‖"   # Double vertical line
+<U203B> <bar> <dead_tilde>                  : "⸾"   # Vertical wiggly line
+<U203B> <bar> <plus>                        : "⸸"   # Turned dagger
+<U203B> <bracketleft> <bracketright>        : "⸋"   # Raised square
+<U203B> <colon> <3>                         : "⁝"   # Tricolon
+<U203B> <colon> <4>                         : "⁞"   # Quatricolon
+<U203B> <colon> <6>                         : "⸽"   # Sexticolon
+<U203B> <colon> <asterisk>                  : "⁑"   # Asterisk-Colon
+<U203B> <colon> <colon>                     : "⁛"   # Four-dot mark
+<U203B> <colon> <comma>                     : "⹉"   # Double stacked comma
+<U203B> <colon> <greater>                   : "⸖"   # Dotted right-pointing angle
+<U203B> <colon> <period>                    : "⁖"   # Three-dot punctuation
+<U203B> <colon> <plus> <colon>              : "⁜"   # Dotted cross
+<U203B> <comma> <asciicircum>               : "⸴"   # Raised comma
+<U203B> <comma> <colon>                     : "⹉"   # Double stacked comma
+<U203B> <comma> <dead_circumflex>           : "⸴"   # Raised comma
+<U203B> <comma> <space>                     : "⹁"   # Reversed comma
+<U203B> <comma> <underscore>                : "⸲"   # Turned comma
+<U203B> <dead_abovedot> <asciitilde>        : "⸞"   # Tilde + Dot Above
+<U203B> <dead_abovedot> <dead_tilde>        : "⸞"   # Tilde + Dot Above
+<U203B> <dead_abovering> <asciitilde>       : "⸛"   # Tilde + Ring Above
+<U203B> <dead_abovering> <dead_tilde>       : "⸛"   # Tilde + Ring Above
+<U203B> <dead_belowdot> <asciitilde>        : "⸟"   # Tilde + Dot Below
+<U203B> <dead_belowdot> <dead_tilde>        : "⸟"   # Tilde + Dot Below
+<U203B> <dead_circumflex> <comma>           : "⸴"   # Raised comma
+<U203B> <dead_circumflex> <period>          : "⸳"   # Raised dot
+<U203B> <dead_circumflex> <slash>           : "⁁"   # Caret insertion point
+<U203B> <dead_circumflex> <underscore>      : "‸"   # Low caret
+<U203B> <degree> <asciitilde>               : "⸛"   # Tilde + Ring Above
+<U203B> <degree> <dead_tilde>               : "⸛"   # Tilde + Ring Above
+<U203B> <degree> <space>                    : "⸰"   # Ring point
+<U203B> <dead_tilde> <bar>                  : "⸾"   # Vertical wiggly line
+<U203B> <dead_tilde> <dead_abovedot>        : "⸞"   # Tilde + Dot Above
+<U203B> <dead_tilde> <dead_belowdot>        : "⸟"   # Tilde + Dot Below
+<U203B> <dead_tilde> <dead_abovering>       : "⸛"   # Tilde + Ring Above
+<U203B> <dead_tilde> <degree>               : "⸛"   # Tilde + Ring Above
+<U203B> <dead_tilde> <plus> <dead_tilde>    : "⁓"  # Swung dash
+<U203B> <dollar> <dollar>                   : "§"   # Section sign
+<U203B> <dollar> <minus>                    : "⸹"   # Top-half section sign
+<U203B> <exclam> <exclam>                   : "‼"   # Double exclamation mark
+<U203B> <exclam> <question>                 : "‽"   # Interrobang
+<U203B> <exclam> <underscore> <question>    : "⁉"   # Exclamation question mark
+<U203B> <exclamdown> <questiondown>         : "⸘"   # Inverted interrobang
+<U203B> <greater> <colon>                   : "⸖"   # Dotted right-pointing angle
+<U203B> <minus> <asterisk>                  : "⁃"   # Hyphen bullet
+<U203B> <minus> <dollar>                    : "⸹"   # Top-half section sign
+<U203B> <minus> <plus>                      : "⸶"   # Dagger with left guard
+<U203B> <parenleft> <asterisk>              : "⁌"   # Black leftwards bullet
+<U203B> <parenleft> <bar> <parenright>      : "⁐"   # Close up
+<U203B> <period> <1>                        : "․"   # One-dot leader
+<U203B> <period> <2>                        : "‥"   # Two-dot leader
+<U203B> <period> <3>                        : "…"   # Horizontal ellipsis
+<U203B> <period> <4>                        : "⁘"   # Four-dot punctuation
+<U203B> <period> <5>                        : "⁙"   # Five-dot punctuation
+<U203B> <period> <asciicircum>              : "⸳"   # Raised dot
+<U203B> <period> <asterisk>                 : "•"   # Bullet point
+<U203B> <period> <dead_circumflex>          : "⸳"   # Raised dot
+<U203B> <period> <period> <period>          : "…"   # Horizontal ellipsis
+<U203B> <period> <colon>                    : "⁖"   # Three-dot punctuation
+<U203B> <period> <slash>                    : "⹊"   # Dotted solidus
+<U203B> <period> <space>                    : "⁚"   # Two-dot punctuation
+<U203B> <periodcentered>                    : "‧"   # Hyphenation point
+<U203B> <plus> <3>                          : "⹋"   # Triple dagger
+<U203B> <plus> <bar>                        : "†"   # Dagger
+<U203B> <plus> <minus>                      : "⸷"   # Dagger with right guard
+<U203B> <plus> <plus>                       : "‡"   # Double dagger
+<U203B> <question> <exclam>                 : "‽"   # Interrobang
+<U203B> <question> <question>               : "⁇"  # Double question mark
+<U203B> <question> <underscore> <exclam>    : "⁈"   # Question exclamation mark
+<U203B> <question> <space>                  : "⸮"   # Reversed question mark
+<U203B> <questiondown> <exclamdown>         : "⸘"   # Inverted interrobang
+<U203B> <semicolon> <space>                 : "⁏"   # Reversed semicolon
+<U203B> <semicolon> <underscore>            : "⸵"   # Turned semicolon
+<U203B> <slash> <asciicircum>               : "⁁"   # Caret insertion point
+<U203B> <slash> <dead_circumflex>           : "⁁"   # Caret insertion point
+<U203B> <slash> <period>                    : "⹊"   # Dotted solidus
+<U203B> <underscore> <asterisk>             : "⁎"   # Low asterisk
+<U203B> <underscore> <asciicircum>          : "‸"   # Low caret
+<U203B> <underscore> <comma>                : "⸲"   # Turned comma
+<U203B> <underscore> <dead_circumflex>      : "‸"   # Low caret
+<U203B> <underscore> <semicolon>            : "⸵"   # Turned semicolon
+<U203B> <underscore> <underscore>           : "‗"   # Double low line
+
+
+# Parentheses & Brackets
+<U203B> <asciitilde> <asciitilde> <bar>     : "⧛"   # Double right wiggly fence
+<U203B> <bar> <asciitilde> <asciitilde>     : "⧚"   # Double left wiggly fence
+<U203B> <bar> <dead_tilde> <dead_tilde>     : "⧚"   # Double left wiggly fence
+<U203B> <bar> <greater> <asciitilde>        : "⧙"   # Right wiggly fence
+<U203B> <bar> <greater> <dead_tilde>        : "⧙"   # Right wiggly fence
+<U203B> <bar> <less> <asciitilde>           : "⧘"   # Left wiggly fence
+<U203B> <bar> <less> <dead_tilde>           : "⧘"   # Left wiggly fence
+<U203B> <braceleft> <asciitilde>            : "༼"   # Tibetan mark Ang Khang Gyon
+<U203B> <braceleft> <dead_tilde>            : "༼"   # Tibetan mark Ang Khang Gyon
+<U203B> <braceright> <asciitilde>           : "༽"   # Tibetan mark Ang Khang Gyas
+<U203B> <braceright> <dead_tilde>           : "༽"   # Tibetan mark Ang Khang Gyas
+<U203B> <bracketleft> <asciicircum>         : "⸢"   # Top left half bracket
+<U203B> <bracketleft> <asciitilde>          : "⟅"   # Left S-Shaped bag delimiter
+<U203B> <bracketleft> <acute>               : "⦍"   # Left square bracket with tick in the top corner
+<U203B> <bracketleft> <apostrophe>          : "⦍"   # Left square bracket with tick in the top corner
+<U203B> <bracketleft> <asterisk> <less>     : "⦗"   # Left black tortoise shell bracket ornament
+<U203B> <bracketleft> <dead_acute>          : "⦍"   # Left square bracket with tick in the top corner
+<U203B> <bracketleft> <dead_grave>          : "⦏"   # Left square bracket with tick in the bottom corner
+<U203B> <bracketleft> <dead_circumflex>     : "⸢"   # Top left half bracket
+<U203B> <bracketleft> <dead_tilde>          : "⟅"   # Left S-Shaped bag delimiter
+<U203B> <bracketleft> <grave>               : "⦏"   # Left square bracket with tick in the bottom corner
+<U203B> <bracketleft> <less>                : "❲"   # Light left tortoise shell bracket ornament
+<U203B> <bracketleft> <minus>               : "⁅"   # Left square bracket with quill
+<U203B> <bracketleft> <underscore>          : "⦋"   # Left square bracket with underbar
+<U203B> <bracketright> <asciicircum>        : "⸣"   # Top right half bracket
+<U203B> <bracketright> <asciitilde>         : "⟆"   # Right S-Shaped bag delimiter
+<U203B> <bracketright> <acute>              : "⦎"   # Right square bracket with tick in the bottom corner
+<U203B> <bracketright> <apostrophe>         : "⦎"   # Right square bracket with tick in the bottom corner
+<U203B> <bracketright> <asterisk> <greater> : "⦘"   # Right black tortoise shell bracket ornament
+<U203B> <bracketright> <dead_acute>         : "⦎"   # Right square bracket with tick in the bottom corner
+<U203B> <bracketright> <dead_grave>         : "⦐"   # Right square bracket with tick in the top corner
+<U203B> <bracketright> <dead_circumflex>    : "⸣"   # Top right half bracket
+<U203B> <bracketright> <dead_tilde>         : "⟆"   # Right S-Shaped bag delimiter
+<U203B> <bracketright> <grave>              : "⦐"   # Right square bracket with tick in the top corner
+<U203B> <bracketright> <less>               : "❳"   # Light right tortoise shell bracket ornament
+<U203B> <bracketright> <minus>              : "⁆"   # Right square bracket with quill
+<U203B> <bracketright> <underscore>         : "⦌"   # Right square bracket with underbar
+<U203B> <colon> <period> <greater>          : "༻" # Tibetan mark Gug Rtags Gyas
+<U203B> <dead_tilde> <dead_tilde> <bar>     : "⧛"   # Double right wiggly fence
+<U203B> <greater> <asciitilde>              : "⧽"   # Right-pointing curved angle bracket
+<U203B> <greater> <dead_tilde>              : "⧽"   # Right-pointing curved angle bracket
+<U203B> <greater> <minus>                   : "⟩"   # Mathematical right-pointing angle bracket
+<U203B> <greater> <parenright>              : "⦔"   # Right arc less-than bracket
+<U203B> <greater> <period> <space>          : "⦒"   # Right-pointing angle bracket with dot
+<U203B> <less> <asciitilde>                 : "⧼"   # Left-pointing curved angle bracket
+<U203B> <less> <dead_tilde>                 : "⧼"   # Left-pointing curved angle bracket
+<U203B> <less> <minus>                      : "⟨"   # Mathematical left-pointing angle bracket
+<U203B> <less> <parenleft>                  : "⦓"   # Left arc less-than bracket
+<U203B> <less> <period> <colon>             : "༺" # Tibetan mark Gug Rtags Gyon
+<U203B> <less> <period> <space>             : "⦑"   # Left-pointing angle bracket with dot
+<U203B> <minus> <greater>                   : "᚛"  # Ogham feather mark
+<U203B> <minus> <less>                      : "᚜"  # Reversed Ogham feather mark
+<U203B> <parenleft> <greater>               : "⦕"   # Double left arc less-than bracket
+<U203B> <parenleft> <parenleft>             : "⸨"   # Left double parenthesis
+<U203B> <parenright> <less>                 : "⦖"   # Double right arc less-than bracket
+<U203B> <parenright> <parenright>           : "⸩"   # Right double parenthesis
+<U203B> <underscore> <bracketleft>          : "⸤"   # Bottom left half bracket
+<U203B> <underscore> <bracketright>         : "⸥"   # Bottom right half bracket
+
+
+# Quotation Marks
+<U203B> <apostrophe> <apostrophe>   : "‛"  # Single High-Reversed-9 quotation mark
+<U203B> <apostrophe> <underscore>   : "‚"  # Single Low-9 quotation mark
+<U203B> <bar> <minus>               : "⸠"  # Left vertical bar with quill
+<U203B> <greater> <asciicircum>     : "⸍"  # Right raised omission bracket
+<U203B> <greater> <apostrophe>      : "’"  # Right single quotation mark
+<U203B> <greater> <dead_circumflex> : "⸍"  # Right raised omission bracket
+<U203B> <greater> <dollar>          : "⸊"  # Right transposition bracket
+<U203B> <greater> <greater>         : "»"  # Right guillemet
+<U203B> <greater> <period> <slash>  : "⸅"  # Right dotted substitution bracket
+<U203B> <greater> <quotedbl>        : "”"  # Right double quotation mark
+<U203B> <greater> <slash>           : "⸃"  # Right substitution bracket
+<U203B> <greater> <space>           : "›"  # Right half-guillemet
+<U203B> <greater> <underscore>      : "⸝"  # Right low paraphrase bracket
+<U203B> <less> <asciicircum>        : "⸌"  # Left raised omission bracket
+<U203B> <less> <apostrophe>         : "‘"  # Left single quotation mark
+<U203B> <less> <dead_circumflex>    : "⸌"  # Left raised omission bracket
+<U203B> <less> <dollar>             : "⸉"  # Left transposition bracket
+<U203B> <less> <less>               : "«"  # Left guillemet
+<U203B> <less> <period> <slash>     : "⸄"  # Left dotted substitution bracket
+<U203B> <less> <quotedbl>           : "“"  # Left double quotation mark
+<U203B> <less> <slash>              : "⸂"  # Left substitution bracket
+<U203B> <less> <space>              : "‹"  # Left half-guillemet
+<U203B> <less> <underscore>         : "⸜"  # Left low paraphrase bracket
+<U203B> <minus> <bar>               : "⸡"  # Right vertical bar with quill
+<U203B> <quotedbl> <quotedbl>       : "‟"  # Double High-Reversed-9 quotation mark
+<U203B> <quotedbl> <underscore>     : "„"  # Double Low-9 quotation mark
+<U203B> <underscore> <quotedbl>     : "⹂"  # Double Low-Reversed-9 quotation mark
+
+##################
+# [END OF RULES] #
+##################
