@@ -1,0 +1,35 @@
+# Latin Alphabet | Punctuation Marks Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Punctuation
+#
+
+# Dashes
+<U203B> <F> <minus> : "‒"   # Figure dash
+<U203B> <f> <minus> : "‒"   # Figure dash
+<U203B> <minus> <F> : "‒"   # Figure dash
+<U203B> <minus> <f> : "‒"   # Figure dash
+
+
+# Miscellaneous Punctuation
+<U203B> <C> <equal> : "⸿"    # Capitulum
+<U203B> <c> <equal> : "⸿"    # Capitulum
+<U203B> <colon> <X> : "※"   # Reference mark
+<U203B> <colon> <x> : "※"   # Reference mark
+<U203B> <equal> <C> : "⸿"    # Capitulum
+<U203B> <equal> <c> : "⸿"    # Capitulum
+<U203B> <P> <space> : "⹍"    # Paragraphus mark
+<U203B> <p> <space> : "⹍"    # Paragraphus mark
+<U203B> <X> <colon> : "※"   # Reference mark
+<U203B> <x> <colon> : "※"   # Reference mark
+
+
+# Parentheses & Brackets
+<U203B> <greater> <C>   : "⸧"   # Right sideways U-Fence
+<U203B> <greater> <c>   : "⸧"   # Right sideways U-Fence
+<U203B> <less> <C>      : "⸦"   # Left sideways U-Fence
+<U203B> <less> <c>      : "⸦"   # Left sideways U-Fence
+
+##################
+# [END OF RULES] #
+##################
