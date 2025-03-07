@@ -1,0 +1,283 @@
+# Cyrillic Alphabet | Double Acute Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_doubleacute> <Cyrillic_U> : "Ӳ"
+<dead_doubleacute> <Cyrillic_u> : "ӳ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main source]: https://fr.wikipedia.org/wiki/Double_accent_aigu
+#
+<dead_doubleacute> <Cyrillic_A>                 : "А̋"
+<dead_doubleacute> <Cyrillic_a>                 : "а̋"
+<dead_doubleacute> <U04D4>                      : "Ӕ̋"   # Ӕ (Cyrillic Ash/A + IE) + Double Acute
+<dead_doubleacute> <U04D5>                      : "ӕ̋"   # ӕ (Cyrillic Ash/A + IE) + Double Acute
+<dead_doubleacute> <Cyrillic_SCHWA>             : "Ә̋"
+<dead_doubleacute> <Cyrillic_schwa>             : "ә̋"
+<dead_doubleacute> <Cyrillic_BE>                : "Б̋"
+<dead_doubleacute> <Cyrillic_be>                : "б̋"
+<dead_doubleacute> <Cyrillic_VE>                : "В̋"
+<dead_doubleacute> <Cyrillic_ve>                : "в̋"
+<dead_doubleacute> <U051C>                      : "Ԝ̋"   # Ԝ (We) + Double Acute
+<dead_doubleacute> <U051D>                      : "ԝ̋"   # ԝ (We) + Double Acute
+<dead_doubleacute> <Cyrillic_GHE>               : "Г̋"
+<dead_doubleacute> <Cyrillic_ghe>               : "г̋"
+<dead_doubleacute> <Ukrainian_GHE_WITH_UPTURN>  : "Ґ̋"
+<dead_doubleacute> <Ukrainian_ghe_with_upturn>  : "ґ̋"
+<dead_doubleacute> <U0494>                      : "Ҕ̋"   # Г + Double Acute + Middle Hook
+<dead_doubleacute> <U0495>                      : "ҕ̋"   # г + Double Acute + Middle Hook
+<dead_doubleacute> <Cyrillic_DE>                : "Д̋"
+<dead_doubleacute> <Cyrillic_de>                : "д̋"
+<dead_doubleacute> <U0500>                      : "Ԁ̋"   # Ԁ (Komi De) + Double Acute
+<dead_doubleacute> <U0501>                      : "ԁ̋"   # ԁ (Komi De) + Double Acute
+<dead_doubleacute> <U0502>                      : "Ԃ̋"   # Ԃ (Komi Dje) + Double Acute
+<dead_doubleacute> <U0503>                      : "ԃ̋"   # ԃ (Komi Dje) + Double Acute
+<dead_doubleacute> <UA680>                      : "Ꚁ̋"   # Ꚁ (Dwe) + Double Acute
+<dead_doubleacute> <UA681>                      : "ꚁ̋"   # ꚁ (Dwe) + Double Acute
+<dead_doubleacute> <UA662>                      : "Ꙣ̋"   # Ꙣ (Soft De) + Double Acute
+<dead_doubleacute> <UA663>                      : "ꙣ̋"   # ꙣ (Soft De) + Double Acute
+<dead_doubleacute> <U052A>                      : "Ԫ̋"  # Ԫ (Dzzhe) + Double Acute
+<dead_doubleacute> <U052B>                      : "ԫ̋"  # ԫ (Dzzhe) + Double Acute
+<dead_doubleacute> <UA688>                      : "Ꚉ̋"   # Ꚉ (Dzze) + Double Acute
+<dead_doubleacute> <UA689>                      : "ꚉ̋"   # ꚉ (Dzze) + Double Acute
+<dead_doubleacute> <Serbian_DJE>                : "Ђ̋"
+<dead_doubleacute> <Serbian_dje>                : "ђ̋"
+<dead_doubleacute> <Cyrillic_IE>                : "Е̋"
+<dead_doubleacute> <Cyrillic_ie>                : "е̋"
+<dead_doubleacute> <Ukrainian_IE>               : "Є̋"
+<dead_doubleacute> <Ukrainian_ie>               : "є̋"
+<dead_doubleacute> <Cyrillic_ZHE>               : "Ж̋"
+<dead_doubleacute> <Cyrillic_zhe>               : "ж̋"
+<dead_doubleacute> <UA684>                      : "Ꚅ̋"  # Ꚅ (Zhwe) + Double Acute
+<dead_doubleacute> <UA685>                      : "ꚅ̋"   # ꚅ (Zhwe) + Double Acute
+<dead_doubleacute> <Cyrillic_ZE>                : "З̋"
+<dead_doubleacute> <Cyrillic_ze>                : "з̋"
+<dead_doubleacute> <U0510>                      : "Ԑ̋"   # Ԑ (Reversed Ze) + Double Acute
+<dead_doubleacute> <U0511>                      : "ԑ̋"   # ԑ (Reversed Ze) + Double Acute
+<dead_doubleacute> <U04E0>                      : "Ӡ̋"   # Ӡ (Abkhazian Dze) + Double Acute
+<dead_doubleacute> <U04E1>                      : "ӡ̋"   # ӡ (Abkhazian Dze) + Double Acute
+<dead_doubleacute> <UA640>                      : "Ꙁ̋"   # Ꙁ (Zemlya) + Double Acute
+<dead_doubleacute> <UA641>                      : "ꙁ̋"   # ꙁ (Zemlya) + Double Acute
+<dead_doubleacute> <U0504>                      : "Ԅ̋"   # Ԅ (Komi Zje) + Double Acute
+<dead_doubleacute> <U0505>                      : "ԅ̋"   # ԅ (Komi Zje) + Double Acute
+<dead_doubleacute> <Macedonia_DSE>              : "Ѕ̋"
+<dead_doubleacute> <Macedonia_dse>              : "ѕ̋"
+<dead_doubleacute> <UA642>                      : "Ꙃ̋"   # Ꙃ (Dzelo) + Double Acute
+<dead_doubleacute> <UA643>                      : "ꙃ̋"   # ꙃ (Dzelo) + Double Acute
+<dead_doubleacute> <UA644>                      : "Ꙅ̋"   # Ꙅ (Reversed Dze) + Double Acute
+<dead_doubleacute> <UA645>                      : "ꙅ̋"   # ꙅ (Reversed Dze) + Double Acute
+<dead_doubleacute> <U0506>                      : "Ԇ̋"   # Ԇ (Komi Dzje) + Double Acute
+<dead_doubleacute> <U0507>                      : "ԇ̋"   # ԇ (Komi Dzje) + Double Acute
+<dead_doubleacute> <UA682>                      : "Ꚃ̋"   # Ꚃ (Dzwe) + Double Acute
+<dead_doubleacute> <UA683>                      : "ꚃ̋"   # ꚃ (Dzwe) + Double Acute
+<dead_doubleacute> <Cyrillic_SHHA>              : "Һ̋"
+<dead_doubleacute> <Cyrillic_shha>              : "һ̋"
+<dead_doubleacute> <UA694>                      : "Ꚕ̋"   # Ꚕ (Hwe) + Double Acute
+<dead_doubleacute> <UA695>                      : "ꚕ̋"   # ꚕ (Hwe) + Double Acute
+<dead_doubleacute> <Cyrillic_I>                 : "И̋"
+<dead_doubleacute> <Cyrillic_i>                 : "и̋"
+<dead_doubleacute> <Ukrainian_I>                : "І̋"
+<dead_doubleacute> <Ukrainian_i>                : "і̋"
+<dead_doubleacute> <UA646>                      : "Ꙇ̋"   # Ꙇ (Cyrillic Iota) + Double Acute
+<dead_doubleacute> <UA647>                      : "ꙇ̋"   # ꙇ (Cyrillic Iota) + Double Acute
+<dead_doubleacute> <Cyrillic_JE>                : "Ј̋"
+<dead_doubleacute> <Cyrillic_je>                : "ј̋"
+<dead_doubleacute> <UA648>                      : "Ꙉ̋"   # Ꙉ (Djerv) + Double Acute
+<dead_doubleacute> <UA649>                      : "ꙉ̋"   # ꙉ (Djerv) + Double Acute
+<dead_doubleacute> <Cyrillic_KA>                : "К̋"
+<dead_doubleacute> <Cyrillic_ka>                : "к̋"
+<dead_doubleacute> <U04C3>                      : "Ӄ̋"   # К + Double Acute + Hook
+<dead_doubleacute> <U04C4>                      : "ӄ̋"   # к + Double Acute + Hook
+<dead_doubleacute> <U04A0>                      : "Ҡ̋"   # Ҡ (Bashkir Qa) + Double Acute
+<dead_doubleacute> <U04A1>                      : "ҡ̋"   # ҡ (Bashkir Qa) + Double Acute
+<dead_doubleacute> <Cyrillic_EL>                : "Л̋"
+<dead_doubleacute> <Cyrillic_el>                : "л̋"
+<dead_doubleacute> <U0520>                      : "Ԡ̋"  # Л + Double Acute + Middle Hook
+<dead_doubleacute> <U0521>                      : "ԡ̋"  # л + Double Acute + Middle Hook
+<dead_doubleacute> <UA664>                      : "Ꙥ̋"   # Ꙥ (Soft El) + Double Acute
+<dead_doubleacute> <UA665>                      : "ꙥ̋"   # ꙥ (Soft El) + Double Acute
+<dead_doubleacute> <U0508>                      : "Ԉ̋"   # Ԉ (Komi Lje) + Double Acute
+<dead_doubleacute> <U0509>                      : "ԉ̋"   # ԉ (Komi Lje) + Double Acute
+<dead_doubleacute> <U0514>                      : "Ԕ̋"   # Ԕ (Lha) + Double Acute
+<dead_doubleacute> <U0515>                      : "ԕ̋"   # ԕ (Lha) + Double Acute
+<dead_doubleacute> <Cyrillic_LJE>               : "Љ̋"
+<dead_doubleacute> <Cyrillic_lje>               : "љ̋"
+<dead_doubleacute> <Cyrillic_EM>                : "М̋"
+<dead_doubleacute> <Cyrillic_em>                : "м̋"
+<dead_doubleacute> <UA666>                      : "Ꙧ̋"  # Ꙧ (Soft Em) + Double Acute
+<dead_doubleacute> <UA667>                      : "ꙧ̋"  # ꙧ (Soft Em) + Double Acute
+<dead_doubleacute> <Cyrillic_EN>                : "Н̋"
+<dead_doubleacute> <Cyrillic_en>                : "н̋"
+<dead_doubleacute> <U0528>                      : "Ԩ̋"   # Ԩ + Double Acute
+<dead_doubleacute> <U0529>                      : "ԩ̋"   # ԩ + Double Acute
+<dead_doubleacute> <U04C7>                      : "Ӈ̋"   # Н + Double Acute + Hook
+<dead_doubleacute> <U04C8>                      : "ӈ̋"   # н + Double Acute + Hook
+<dead_doubleacute> <U04A4>                      : "Ҥ̋"   # Ҥ (En-Ghe) + Double Acute
+<dead_doubleacute> <U04A5>                      : "ҥ̋"   # ҥ (En-Ghe) + Double Acute
+<dead_doubleacute> <U050A>                      : "Ԋ̋"   # Ԋ (Komi Nje) + Double Acute
+<dead_doubleacute> <U050B>                      : "ԋ̋"   # ԋ (Komi Nje) + Double Acute
+<dead_doubleacute> <U0522>                      : "Ԣ̋"  # Н + Double Acute + Middle Hook
+<dead_doubleacute> <U0523>                      : "ԣ̋"  # н + Double Acute + Middle Hook
+<dead_doubleacute> <Cyrillic_NJE>               : "Њ̋"
+<dead_doubleacute> <Cyrillic_nje>               : "њ̋"
+<dead_doubleacute> <Cyrillic_O>                 : "О̋"
+<dead_doubleacute> <Cyrillic_o>                 : "о̋"
+<dead_doubleacute> <U047A>                      : "Ѻ̋"   # Ѻ (Broad On/Round Cyrillic Omega) + Double Acute
+<dead_doubleacute> <U047B>                      : "ѻ̋"   # ѻ (Broad On/Round Cyrillic Omega) + Double Acute
+<dead_doubleacute> <UA668>                      : "Ꙩ̋"   # Ꙩ (Monocular O) + Double Acute
+<dead_doubleacute> <UA669>                      : "ꙩ̋"   # ꙩ (Monocular O) + Double Acute
+<dead_doubleacute> <UA66A>                      : "Ꙫ̋"   # Ꙫ (Binocular O) + Double Acute
+<dead_doubleacute> <UA66B>                      : "ꙫ̋"   # ꙫ (Binocular O) + Double Acute
+<dead_doubleacute> <UA698>                      : "Ꚙ̋"  # Ꚙ (Double Cyrillic O) + Double Acute
+<dead_doubleacute> <UA699>                      : "ꚙ̋"  # ꚙ (Double Cyrillic O) + Double Acute
+<dead_doubleacute> <UA66C>                      : "Ꙭ̋"  # Ꙭ (Double Monocular O) + Double Acute
+<dead_doubleacute> <UA66D>                      : "ꙭ̋"  # ꙭ (Double Monocular O) + Double Acute
+<dead_doubleacute> <UA66E>                      : "ꙮ̋"   # ꙮ (Multiocular O) + Double Acute
+<dead_doubleacute> <UA69A>                      : "Ꚛ̋"   # Ꚛ (Crossed O) + Double Acute
+<dead_doubleacute> <UA69B>                      : "ꚛ̋"   # ꚛ (Crossed O) + Double Acute
+<dead_doubleacute> <Cyrillic_PE>                : "П̋"
+<dead_doubleacute> <Cyrillic_pe>                : "п̋"
+<dead_doubleacute> <U04A6>                      : "Ҧ̋"   # П + Double Acute + Middle Hook
+<dead_doubleacute> <U04A7>                      : "ҧ̋"   # п + Double Acute + Middle Hook
+<dead_doubleacute> <U0480>                      : "Ҁ̋"   # Ҁ (Cyrillic Koppa) + Double Acute
+<dead_doubleacute> <U0481>                      : "ҁ̋"   # ҁ (Cyrillic Koppa) + Double Acute
+<dead_doubleacute> <U051A>                      : "Ԛ̋"   # Ԛ (Qa) + Double Acute
+<dead_doubleacute> <U051B>                      : "ԛ̋"   # ԛ (Qa) + Double Acute
+<dead_doubleacute> <Cyrillic_ER>                : "Р̋"
+<dead_doubleacute> <Cyrillic_er>                : "р̋"
+<dead_doubleacute> <U0516>                      : "Ԗ̋"   # Ԗ (Rha) + Double Acute
+<dead_doubleacute> <U0517>                      : "ԗ̋"   # ԗ (Rha) + Double Acute
+<dead_doubleacute> <Cyrillic_ES>                : "С̋"
+<dead_doubleacute> <Cyrillic_es>                : "с̋"
+<dead_doubleacute> <U050C>                      : "Ԍ̋"   # Ԍ (Komi Sje) + Double Acute
+<dead_doubleacute> <U050D>                      : "ԍ̋"   # ԍ (Komi Sje) + Double Acute
+<dead_doubleacute> <Cyrillic_TE>                : "Т̋"
+<dead_doubleacute> <Cyrillic_te>                : "т̋"
+<dead_doubleacute> <U1C89>                      : "Ᲊ̋"   # Ᲊ (Tje) + Double Acute
+<dead_doubleacute> <U1C8A>                      : "ᲊ̋"   # ᲊ (Tje) + Double Acute
+<dead_doubleacute> <U050E>                      : "Ԏ̋"   # Ԏ (Komi Tje) + Double Acute
+<dead_doubleacute> <U050F>                      : "ԏ̋"   # ԏ (Komi Tje) + Double Acute
+<dead_doubleacute> <UA68A>                      : "Ꚋ̋"   # Т + Double Acute + Middle Hook
+<dead_doubleacute> <UA68B>                      : "ꚋ̋"   # т + Double Acute + Middle Hook
+<dead_doubleacute> <UA68C>                      : "Ꚍ̋"   # Ꚍ (Twe) + Double Acute
+<dead_doubleacute> <UA68D>                      : "ꚍ̋"   # ꚍ (Twe) + Double Acute
+<dead_doubleacute> <Serbian_TSHE>               : "Ћ̋"
+<dead_doubleacute> <Serbian_tshe>               : "ћ̋"
+<dead_doubleacute> <Cyrillic_U_straight>        : "Ү̋"
+<dead_doubleacute> <Cyrillic_u_straight>        : "ү̋"
+<dead_doubleacute> <U0478>                      : "Ѹ̋"   # Ѹ (Uk) + Double Acute
+<dead_doubleacute> <U0479>                      : "ѹ̋"   # ѹ (Uk) + Double Acute
+<dead_doubleacute> <UA64A>                      : "Ꙋ̋"    # Ꙋ (Monographic Uk) + Double Acute
+<dead_doubleacute> <UA64B>                      : "ꙋ̋"    # ꙋ (Monographic Uk) + Double Acute
+<dead_doubleacute> <U1C88>                      : "ᲈ̋"    # ᲈ (Unblended Uk) + Double Acute
+<dead_doubleacute> <Cyrillic_EF>                : "Ф̋"
+<dead_doubleacute> <Cyrillic_ef>                : "ф̋"
+<dead_doubleacute> <Cyrillic_HA>                : "Х̋"
+<dead_doubleacute> <Cyrillic_ha>                : "х̋"
+<dead_doubleacute> <U0460>                      : "Ѡ̋"   # Ѡ (Cyrillic Omega) + Double Acute
+<dead_doubleacute> <U0461>                      : "ѡ̋"   # ѡ (Cyrillic Omega) + Double Acute
+<dead_doubleacute> <U047C>                      : "Ѽ̋"   # Ѡ (Cyrillic Omega) + Double Acute + Titlo
+<dead_doubleacute> <U047D>                      : "ѽ̋"   # ѡ (Cyrillic Omega) + Double Acute + Titlo
+<dead_doubleacute> <UA64C>                      : "Ꙍ̋"   # Ꙍ (Cyrillic Broad Omega) + Double Acute
+<dead_doubleacute> <UA64D>                      : "ꙍ̋"   # ꙍ (Cyrillic Broad Omega) + Double Acute
+<dead_doubleacute> <U047E>                      : "Ѿ̋"   # Ѿ (Ot) + Double Acute
+<dead_doubleacute> <U047F>                      : "ѿ̋"   # ѿ (Ot) + Double Acute
+<dead_doubleacute> <Cyrillic_TSE>               : "Ц̋"
+<dead_doubleacute> <Cyrillic_tse>               : "ц̋"
+<dead_doubleacute> <U04B4>                      : "Ҵ̋"   # Ҵ (Te-Tse) + Double Acute
+<dead_doubleacute> <U04B5>                      : "ҵ̋"   # ҵ (Te-Tse) + Double Acute
+<dead_doubleacute> <UA660>                      : "Ꙡ̋"   # Ꙡ (Reversed Tse) + Double Acute
+<dead_doubleacute> <UA661>                      : "ꙡ̋"   # ꙡ (Reversed Tse) + Double Acute
+<dead_doubleacute> <UA68E>                      : "Ꚏ̋"   # Ꚏ (Tswe) + Double Acute
+<dead_doubleacute> <UA68F>                      : "ꚏ̋"   # ꚏ (Tswe) + Double Acute
+<dead_doubleacute> <UA690>                      : "Ꚑ̋"   # Ꚑ (Tsse) + Double Acute
+<dead_doubleacute> <UA691>                      : "ꚑ̋"   # ꚑ (Tsse) + Double Acute
+<dead_doubleacute> <Cyrillic_CHE>               : "Ч̋"
+<dead_doubleacute> <Cyrillic_che>               : "ч̋"
+<dead_doubleacute> <U04BC>                      : "Ҽ̋"   # Ҽ (Abkhazian Che) + Double Acute
+<dead_doubleacute> <U04BD>                      : "ҽ̋"   # ҽ (Abkhazian Che) + Double Acute
+<dead_doubleacute> <UA686>                      : "Ꚇ̋"   # Ꚇ (Cche) + Double Acute
+<dead_doubleacute> <UA687>                      : "ꚇ̋"   # ꚇ (Cche) + Double Acute
+<dead_doubleacute> <U052C>                      : "Ԭ̋"   # Ԭ (Dche) + Double Acute
+<dead_doubleacute> <U052D>                      : "ԭ̋"   # ԭ (Dche) + Double Acute
+<dead_doubleacute> <UA692>                      : "Ꚓ̋"   # Ꚓ (Tche) + Double Acute
+<dead_doubleacute> <UA693>                      : "ꚓ̋"   # ꚓ (Tche) + Double Acute
+<dead_doubleacute> <Cyrillic_DZHE>              : "Џ̋"
+<dead_doubleacute> <Cyrillic_DZHE>              : "џ̋"
+<dead_doubleacute> <Cyrillic_SHA>               : "Ш̋"
+<dead_doubleacute> <Cyrillic_sha>               : "ш̋"
+<dead_doubleacute> <UA696>                      : "Ꚗ̋"   # Ꚗ (Shwe) + Double Acute
+<dead_doubleacute> <UA697>                      : "ꚗ̋"   # ꚗ (Shwe) + Double Acute
+<dead_doubleacute> <Cyrillic_SHCHA>             : "Щ̋"
+<dead_doubleacute> <Cyrillic_shcha>             : "щ̋"
+<dead_doubleacute> <UA64E>                      : "Ꙏ̋"   # Ꙏ (Neutral Yer) + Double Acute
+<dead_doubleacute> <UA64F>                      : "ꙏ̋"   # ꙏ (Neutral Yer) + Double Acute
+<dead_doubleacute> <Cyrillic_HARDSIGN>          : "Ъ̋"
+<dead_doubleacute> <Cyrillic_hardsign>          : "ъ̋"
+<dead_doubleacute> <Cyrillic_YERU>              : "Ы̋"
+<dead_doubleacute> <Cyrillic_yeru>              : "ы̋"
+<dead_doubleacute> <UA650>                      : "Ꙑ̋"   # Ꙑ (Yeru + Back Yer) + Double Acute
+<dead_doubleacute> <UA651>                      : "ꙑ̋"   # ꙑ (Yeru + Back Yer) + Double Acute
+<dead_doubleacute> <Cyrillic_SOFTSIGN>          : "Ь̋"
+<dead_doubleacute> <Cyrillic_softsign>          : "ь̋"
+<dead_doubleacute> <U048C>                      : "Ҍ̋"   # Ҍ (Semisoft Sign) + Double Acute
+<dead_doubleacute> <U048D>                      : "ҍ̋"   # ҍ (Semisoft Sign) + Double Acute
+<dead_doubleacute> <U0462>                      : "Ѣ̋"   # Ѣ (Yat) + Double Acute
+<dead_doubleacute> <U0463>                      : "ѣ̋"   # ѣ (Yat) + Double Acute
+<dead_doubleacute> <U1C87>                      : "ᲇ̋"   # ᲇ (Tall Yat) + Double Acute
+<dead_doubleacute> <UA652>                      : "Ꙓ̋"   # Ꙓ (Iotified Yat) + Double Acute
+<dead_doubleacute> <UA653>                      : "ꙓ̋"   # ꙓ (Iotified Yat) + Double Acute
+<dead_doubleacute> <U04A8>                      : "Ҩ̋"   # Ҩ (Abkhazian Ha) + Double Acute
+<dead_doubleacute> <U04A9>                      : "ҩ̋"   # ҩ (Abkhazian Ha) + Double Acute
+<dead_doubleacute> <Cyrillic_E>                 : "Э̋"
+<dead_doubleacute> <Cyrillic_e>                 : "э̋"
+<dead_doubleacute> <Cyrillic_YU>                : "Ю̋"
+<dead_doubleacute> <Cyrillic_yu>                : "ю̋"
+<dead_doubleacute> <UA654>                      : "Ꙕ̋"   # Ꙕ (Reversed Yu) + Double Acute
+<dead_doubleacute> <UA655>                      : "ꙕ̋"   # ꙕ (Reversed Yu) + Double Acute
+<dead_doubleacute> <UA656>                      : "Ꙗ̋"  # Ꙗ (Iotified A/Iya) + Double Acute
+<dead_doubleacute> <UA657>                      : "ꙗ̋"  # ꙗ (Iotified A/Iya) + Double Acute
+<dead_doubleacute> <Cyrillic_YA>                : "Я̋"
+<dead_doubleacute> <Cyrillic_ya>                : "я̋"
+<dead_doubleacute> <U0518>                      : "Ԙ̋"  # Ԙ (Yae) + Double Acute
+<dead_doubleacute> <U0519>                      : "ԙ̋"   # ԙ (Yae) + Double Acute
+<dead_doubleacute> <U0464>                      : "Ѥ̋"   # Ѥ (Iotated Ukrainian E) + Double Acute
+<dead_doubleacute> <U0465>                      : "ѥ̋"   # ѥ (Iotated Ukrainian E) + Double Acute
+<dead_doubleacute> <U04C0>                      : "Ӏ̋"   # Ӏ (Palochka) + Double Acute
+<dead_doubleacute> <U04CF>                      : "ӏ̋"   # ӏ (Palochka) + Double Acute
+<dead_doubleacute> <U0466>                      : "Ѧ̋"   # Ѧ (Little Yus) + Double Acute
+<dead_doubleacute> <U0467>                      : "ѧ̋"   # ѧ (Little Yus) + Double Acute
+<dead_doubleacute> <U0468>                      : "Ѩ̋"  # Ѩ (Iotified Little Yus) + Double Acute
+<dead_doubleacute> <U0469>                      : "ѩ̋"   # ѩ (Iotified Little Yus) + Double Acute
+<dead_doubleacute> <UA658>                      : "Ꙙ̋"   # Ꙙ (Closed Little Yus) + Double Acute
+<dead_doubleacute> <UA659>                      : "ꙙ̋"   # ꙙ (Closed Little Yus) + Double Acute
+<dead_doubleacute> <UA65C>                      : "Ꙝ̋"  # Ꙝ (Iotified Closed Little Yus) + Double Acute
+<dead_doubleacute> <UA65D>                      : "ꙝ̋"  # ꙝ (Iotified Closed Little Yus) + Double Acute
+<dead_doubleacute> <U046A>                      : "Ѫ̋"   # Ѫ (Big Yus) + Double Acute
+<dead_doubleacute> <U046B>                      : "ѫ̋"   # ѫ (Big Yus) + Double Acute
+<dead_doubleacute> <U046C>                      : "Ѭ̋"  # Ѭ (Iotified Big Yus) + Double Acute
+<dead_doubleacute> <U046D>                      : "ѭ̋"  # ѭ (Iotified Big Yus) + Double Acute
+<dead_doubleacute> <UA65A>                      : "Ꙛ̋"   # Ꙛ (Blended Yus) + Double Acute
+<dead_doubleacute> <UA65B>                      : "ꙛ̋"   # ꙛ (Blended Yus) + Double Acute
+<dead_doubleacute> <U046E>                      : "Ѯ̋"   # Ѯ (Ksi) + Double Acute
+<dead_doubleacute> <U046F>                      : "ѯ̋"   # ѯ (Ksi) + Double Acute
+<dead_doubleacute> <U0470>                      : "Ѱ̋"   # Ѱ (Cyrillic Psi) + Double Acute
+<dead_doubleacute> <U0471>                      : "ѱ̋"   # ѱ (Cyrillic Psi) + Double Acute
+<dead_doubleacute> <U0472>                      : "Ѳ̋"   # Ѳ (Fita) + Double Acute
+<dead_doubleacute> <U0473>                      : "ѳ̋"   # ѳ (Fita) + Double Acute
+<dead_doubleacute> <U0474>                      : "Ѵ̋"   # Ѵ (Izhitsa) + Double Acute
+<dead_doubleacute> <U0475>                      : "ѵ̋"   # ѵ (Izhitsa) + Double Acute
+<dead_doubleacute> <UA65E>                      : "Ꙟ̋"   # Ꙟ (Yn) + Double Acute
+<dead_doubleacute> <UA65F>                      : "ꙟ̋"   # ꙟ (Yn) + Double Acute
+
+
+# Composed acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main source]: https://fr.wikipedia.org/wiki/Double_accent_aigu
+#
+
+# [NOTE]: No relevant combinations have been registered yet
+
+##################
+# [END OF RULES] #
+##################
