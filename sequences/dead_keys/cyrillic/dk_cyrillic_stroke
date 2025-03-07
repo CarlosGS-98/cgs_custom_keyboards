@@ -279,8 +279,12 @@
 # Composed stroke combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main source]: https://fr.wikipedia.org/wiki/Barre_inscrite
 #
-<U0359> <less> <dead_stroke> <Cyrillic_GHE> : "Ӻ"   # Г + Stroke + Palatal Hook
-<U0359> <less> <dead_stroke> <Cyrillic_ghe> : "ӻ"   # г + Stroke + Palatal Hook
+<dead_stroke> <U0359> <less> <Cyrillic_GHE> : "Ӻ"   # Г + Stroke + Palatal Hook
+<dead_stroke> <U0359> <less> <Cyrillic_ghe> : "ӻ"   # г + Stroke + Palatal Hook
+<dead_stroke> <Cyrillic_SHORTI>             : "Й̵"
+<dead_stroke> <Cyrillic_shorti>             : "й̵"
+<dead_stroke> <dead_breve> <Cyrillic_I>     : "Й̵"
+<dead_stroke> <dead_breve> <Cyrillic_i>     : "й̵"
 
 ##################
 # [END OF RULES] #

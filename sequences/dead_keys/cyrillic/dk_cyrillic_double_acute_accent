@@ -275,8 +275,10 @@
 # Composed double acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main source]: https://fr.wikipedia.org/wiki/Double_accent_aigu
 #
-
-# [NOTE]: No relevant combinations have been registered yet
+<dead_doubleacute> <Byelorussian_SHORTU>        : "Ӳ̆"
+<dead_doubleacute> <Byelorussian_shortu>        : "ӳ̆"
+<dead_doubleacute> <dead_breve> <Cyrillic_U>    : "Ӳ̆"
+<dead_doubleacute> <dead_breve> <Cyrillic_u>    : "ӳ̆"
 
 ##################
 # [END OF RULES] #

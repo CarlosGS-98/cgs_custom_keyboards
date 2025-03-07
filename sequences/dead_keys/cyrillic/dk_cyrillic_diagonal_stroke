@@ -270,10 +270,10 @@
 <dead_longsolidusoverlay> <U0471>                       : "ѱ̸"   # ѱ (Cyrillic Psi) + Diagonal Stroke
 <dead_longsolidusoverlay> <U0472>                       : "Ѳ̸"   # Ѳ (Fita) + Diagonal Stroke
 <dead_longsolidusoverlay> <U0473>                       : "ѳ̸"   # ѳ (Fita) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA65E>                       : "Ꙟ̸"   # Ꙟ (Yn) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA65F>                       : "ꙟ̸"   # ꙟ (Yn) + Diagonal Stroke
 <dead_longsolidusoverlay> <U0474>                       : "Ѵ̸"   # Ѵ (Izhitsa) + Diagonal Stroke
 <dead_longsolidusoverlay> <U0475>                       : "ѵ̸"   # ѵ (Izhitsa) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA65E>                       : "Ꙟ̸"   # Ꙟ (Yn) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA65F>                       : "ꙟ̸"   # ꙟ (Yn) + Diagonal Stroke
 
 
 # Composed double grave accent combinations (Not directly encoded in Unicode) (Unidirectional)
