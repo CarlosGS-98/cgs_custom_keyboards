@@ -21,6 +21,11 @@
 <U232C> <0> <slash>                                             : "⌀"   # Diameter sign
 <U232C> <asciicircum> <space>                                   : "⌃"   # Up arrowhead
 <U232C> <backslash> <equal>                                     : "⌥"   # Option Key Symbol
+<U232C> <bar> <0> <bar>                                         : "⌭"   # Cilindricity
+<U232C> <bar> <4> <bar>                                         : "⏘"   # Metrical tetraseme
+<U232C> <bar> <5> <bar>                                         : "⏙"   # Metrical pentaseme
+<U232C> <bar> <asciicircum> <bar>                               : "⌂"   # House
+<U232C> <bar> <dead_circumflex> <bar>                           : "⌂"   # House
 <U232C> <bar> <less> <less>                                     : "⏮"  # Beginning button
 <U232C> <braceleft> <0> <braceright>                            : "⏣"  # Benzene ring with circle
 <U232C> <braceleft> <bracketleft> <bracketright> <braceright>   : "⌬"  # Benzene ring
