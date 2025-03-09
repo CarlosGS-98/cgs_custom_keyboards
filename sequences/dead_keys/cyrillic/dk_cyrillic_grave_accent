@@ -29,6 +29,8 @@
 <dead_grave> <Ukrainian_ghe_with_upturn>    : "ґ̀"
 <dead_grave> <U0494>                        : "Ҕ̀"   # Г + Grave + Middle Hook
 <dead_grave> <U0495>                        : "ҕ̀"   # г + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_GHE>         : "Ҕ̀"   # Г + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_ghe>         : "ҕ̀"   # г + Grave + Middle Hook
 <dead_grave> <Cyrillic_DE>                  : "Д̀"
 <dead_grave> <Cyrillic_de>                  : "д̀"
 <dead_grave> <U0500>                        : "Ԁ̀"   # Ԁ (Komi De) + Grave
@@ -75,6 +77,8 @@
 <dead_grave> <Cyrillic_shha>                : "һ̀"
 <dead_grave> <UA694>                        : "Ꚕ̀"   # Ꚕ (Hwe) + Grave
 <dead_grave> <UA695>                        : "ꚕ̀"   # ꚕ (Hwe) + Grave
+<dead_grave> <U0359> <less> <Cyrillic_SHHA> : "Ꚕ̀"   # Ꚕ (Hwe) + Grave
+<dead_grave> <U0359> <less> <Cyrillic_shha> : "ꚕ̀"   # ꚕ (Hwe) + Grave
 <dead_grave> <Ukrainian_I>                  : "І̀"
 <dead_grave> <Ukrainian_i>                  : "і̀"
 <dead_grave> <UA646>                        : "Ꙇ̀"   # Ꙇ (Cyrillic Iota) + Grave
@@ -87,12 +91,16 @@
 <dead_grave> <Cyrillic_ka>                  : "к̀"
 <dead_grave> <U04C3>                        : "Ӄ̀"   # К + Grave + Hook
 <dead_grave> <U04C4>                        : "ӄ̀"   # к + Grave + Hook
+<dead_grave> <U0359> <Cyrillic_KA>          : "Ӄ̀"   # К + Grave + Hook
+<dead_grave> <U0359> <Cyrillic_ka>          : "ӄ̀"   # к + Grave + Hook
 <dead_grave> <U04A0>                        : "Ҡ̀"   # Ҡ (Bashkir Qa) + Grave
 <dead_grave> <U04A1>                        : "ҡ̀"   # ҡ (Bashkir Qa) + Grave
 <dead_grave> <Cyrillic_EL>                  : "Л̀"
 <dead_grave> <Cyrillic_el>                  : "л̀"
 <dead_grave> <U0520>                        : "Ԡ̀"  # Л + Grave + Middle Hook
 <dead_grave> <U0521>                        : "ԡ̀"  # л + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_EL>          : "Ԡ̀"  # Л + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_el>          : "ԡ̀"  # л + Grave + Middle Hook
 <dead_grave> <UA664>                        : "Ꙥ̀"   # Ꙥ (Soft El) + Grave
 <dead_grave> <UA665>                        : "ꙥ̀"   # ꙥ (Soft El) + Grave
 <dead_grave> <U0508>                        : "Ԉ̀"   # Ԉ (Komi Lje) + Grave
@@ -109,14 +117,20 @@
 <dead_grave> <Cyrillic_en>                  : "н̀"
 <dead_grave> <U0528>                        : "Ԩ̀"   # Ԩ + Grave
 <dead_grave> <U0529>                        : "ԩ̀"   # ԩ + Grave
+<dead_grave> <U0359> <plus> <Cyrillic_EN>   : "Ԩ̀"   # Ԩ + Grave
+<dead_grave> <U0359> <plus> <Cyrillic_en>   : "ԩ̀"   # ԩ + Grave
 <dead_grave> <U04C7>                        : "Ӈ̀"   # Н + Grave + Hook
 <dead_grave> <U04C8>                        : "ӈ̀"   # н + Grave + Hook
+<dead_grave> <U0359> <less> <Cyrillic_EN>   : "Ӈ̀"   # Н + Grave + Hook
+<dead_grave> <U0359> <less> <Cyrillic_en>   : "ӈ̀"   # н + Grave + Hook
 <dead_grave> <U04A4>                        : "Ҥ̀"   # Ҥ (En-Ghe) + Grave
 <dead_grave> <U04A5>                        : "ҥ̀"   # ҥ (En-Ghe) + Grave
 <dead_grave> <U050A>                        : "Ԋ̀"   # Ԋ (Komi Nje) + Grave
 <dead_grave> <U050B>                        : "ԋ̀"   # ԋ (Komi Nje) + Grave
 <dead_grave> <U0522>                        : "Ԣ̀"  # Н + Grave + Middle Hook
 <dead_grave> <U0523>                        : "ԣ̀"  # н + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_EN>          : "Ԣ̀"  # Н + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_en>          : "ԣ̀"  # н + Grave + Middle Hook
 <dead_grave> <Cyrillic_NJE>                 : "Њ̀"
 <dead_grave> <Cyrillic_nje>                 : "њ̀"
 <dead_grave> <Cyrillic_O>                   : "О̀"
@@ -138,6 +152,8 @@
 <dead_grave> <Cyrillic_pe>                  : "п̀"
 <dead_grave> <U04A6>                        : "Ҧ̀"   # П + Grave + Middle Hook
 <dead_grave> <U04A7>                        : "ҧ̀"   # п + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_PE>          : "Ҧ̀"   # П + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_pe>          : "ҧ̀"   # п + Grave + Middle Hook
 <dead_grave> <U0480>                        : "Ҁ̀"   # Ҁ (Cyrillic Koppa) + Grave
 <dead_grave> <U0481>                        : "ҁ̀"   # ҁ (Cyrillic Koppa) + Grave
 <dead_grave> <U051A>                        : "Ԛ̀"   # Ԛ (Qa) + Grave
@@ -158,6 +174,8 @@
 <dead_grave> <U050F>                        : "ԏ̀"   # ԏ (Komi Tje) + Grave
 <dead_grave> <UA68A>                        : "Ꚋ̀"   # Т + Grave + Middle Hook
 <dead_grave> <UA68B>                        : "ꚋ̀"   # т + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_TE>          : "Ꚋ̀"   # Т + Grave + Middle Hook
+<dead_grave> <U0359> <Cyrillic_te>          : "ꚋ̀"   # т + Grave + Middle Hook
 <dead_grave> <UA68C>                        : "Ꚍ̀"   # Ꚍ (Twe) + Grave
 <dead_grave> <UA68D>                        : "ꚍ̀"   # ꚍ (Twe) + Grave
 <dead_grave> <Serbian_TSHE>                 : "Ћ̀"

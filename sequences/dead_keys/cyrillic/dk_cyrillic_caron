@@ -26,6 +26,8 @@
 <dead_caron> <Ukrainian_ghe_with_upturn>    : "ґ̌"
 <dead_caron> <U0494>                        : "Ҕ̌"   # Г + Caron + Middle Hook
 <dead_caron> <U0495>                        : "ҕ̌"   # г + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_GHE>         : "Ҕ̌"   # Г + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_ghe>         : "ҕ̌"   # г + Caron + Middle Hook
 <dead_caron> <Cyrillic_DE>                  : "Д̌"
 <dead_caron> <Cyrillic_de>                  : "д̌"
 <dead_caron> <U0500>                        : "Ԁ̌"   # Ԁ (Komi De) + Caron
@@ -74,6 +76,8 @@
 <dead_caron> <Cyrillic_shha>                : "һ̌"
 <dead_caron> <UA694>                        : "Ꚕ̌"   # Ꚕ (Hwe) + Caron
 <dead_caron> <UA695>                        : "ꚕ̌"   # ꚕ (Hwe) + Caron
+<dead_caron> <U0359> <less> <Cyrillic_SHHA> : "Ꚕ̌"   # Ꚕ (Hwe) + Caron
+<dead_caron> <U0359> <less> <Cyrillic_shha> : "ꚕ̌"   # ꚕ (Hwe) + Caron
 <dead_caron> <Cyrillic_I>                   : "И̌"
 <dead_caron> <Cyrillic_i>                   : "и̌"
 <dead_caron> <Ukrainian_I>                  : "І̌"
@@ -88,12 +92,16 @@
 <dead_caron> <Cyrillic_ka>                  : "к̌"
 <dead_caron> <U04C3>                        : "Ӄ̌"   # К + Caron + Hook
 <dead_caron> <U04C4>                        : "ӄ̌"   # к + Caron + Hook
+<dead_caron> <U0359> <Cyrillic_KA>          : "Ӄ̌"   # К + Caron + Hook
+<dead_caron> <U0359> <Cyrillic_ka>          : "ӄ̌"   # к + Caron + Hook
 <dead_caron> <U04A0>                        : "Ҡ̌"   # Ҡ (Bashkir Qa) + Caron
 <dead_caron> <U04A1>                        : "ҡ̌"   # ҡ (Bashkir Qa) + Caron
 <dead_caron> <Cyrillic_EL>                  : "Л̌"
 <dead_caron> <Cyrillic_el>                  : "л̌"
 <dead_caron> <U0520>                        : "Ԡ̌"  # Л + Caron + Middle Hook
 <dead_caron> <U0521>                        : "ԡ̌"  # л + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_EL>          : "Ԡ̌"  # Л + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_el>          : "ԡ̌"  # л + Caron + Middle Hook
 <dead_caron> <UA664>                        : "Ꙥ̌"   # Ꙥ (Soft El) + Caron
 <dead_caron> <UA665>                        : "ꙥ̌"   # ꙥ (Soft El) + Caron
 <dead_caron> <U0508>                        : "Ԉ̌"   # Ԉ (Komi Lje) + Caron
@@ -110,14 +118,20 @@
 <dead_caron> <Cyrillic_en>                  : "н̌"
 <dead_caron> <U0528>                        : "Ԩ̌"   # Ԩ + Caron
 <dead_caron> <U0529>                        : "ԩ̌"   # ԩ + Caron
+<dead_caron> <U0359> <plus> <Cyrillic_EN>   : "Ԩ̌"   # Ԩ + Caron
+<dead_caron> <U0359> <plus> <Cyrillic_en>   : "ԩ̌"   # ԩ + Caron
 <dead_caron> <U04C7>                        : "Ӈ̌"   # Н + Caron + Hook
 <dead_caron> <U04C8>                        : "ӈ̌"   # н + Caron + Hook
+<dead_caron> <U0359> <less> <Cyrillic_EN>   : "Ӈ̌"   # Н + Caron + Hook
+<dead_caron> <U0359> <less> <Cyrillic_en>   : "ӈ̌"   # н + Caron + Hook
 <dead_caron> <U04A4>                        : "Ҥ̌"   # Ҥ (En-Ghe) + Caron
 <dead_caron> <U04A5>                        : "ҥ̌"   # ҥ (En-Ghe) + Caron
 <dead_caron> <U050A>                        : "Ԋ̌"   # Ԋ (Komi Nje) + Caron
 <dead_caron> <U050B>                        : "ԋ̌"   # ԋ (Komi Nje) + Caron
 <dead_caron> <U0522>                        : "Ԣ̌"  # Н + Caron + Middle Hook
 <dead_caron> <U0523>                        : "ԣ̌"  # н + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_EN>          : "Ԣ̌"  # Н + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_en>          : "ԣ̌"  # н + Caron + Middle Hook
 <dead_caron> <Cyrillic_NJE>                 : "Њ̌"
 <dead_caron> <Cyrillic_nje>                 : "њ̌"
 <dead_caron> <Cyrillic_O>                   : "О̌"
@@ -139,6 +153,8 @@
 <dead_caron> <Cyrillic_pe>                  : "п̌"
 <dead_caron> <U04A6>                        : "Ҧ̌"   # П + Caron + Middle Hook
 <dead_caron> <U04A7>                        : "ҧ̌"   # п + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_PE>          : "Ҧ̌"   # П + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_pe>          : "ҧ̌"   # п + Caron + Middle Hook
 <dead_caron> <U0480>                        : "Ҁ̌"   # Ҁ (Cyrillic Koppa) + Caron
 <dead_caron> <U0481>                        : "ҁ̌"   # ҁ (Cyrillic Koppa) + Caron
 <dead_caron> <U051A>                        : "Ԛ̌"   # Ԛ (Qa) + Caron
@@ -159,6 +175,8 @@
 <dead_caron> <U050F>                        : "ԏ̌"   # ԏ (Komi Tje) + Caron
 <dead_caron> <UA68A>                        : "Ꚋ̌"   # Т + Caron + Middle Hook
 <dead_caron> <UA68B>                        : "ꚋ̌"   # т + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_TE>          : "Ꚋ̌"   # Т + Caron + Middle Hook
+<dead_caron> <U0359> <Cyrillic_te>          : "ꚋ̌"   # т + Caron + Middle Hook
 <dead_caron> <UA68C>                        : "Ꚍ̌"   # Ꚍ (Twe) + Caron
 <dead_caron> <UA68D>                        : "ꚍ̌"   # ꚍ (Twe) + Caron
 <dead_caron> <Serbian_TSHE>                 : "Ћ̌"
@@ -276,8 +294,10 @@
 # Composed inverted breve accent combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main source]: https://fr.wikipedia.org/wiki/Caron_(diacritique)
 #
-<dead_caron> <U0359> <less> <Cyrillic_GHE>  : "Ғ̌"   # Г + Stroke + Palatal Hook
-<dead_caron> <U0359> <less> <Cyrillic_ghe>  : "ғ̌"   # г + Stroke + Palatal Hook
+<dead_caron> <U0492>                        : "Ғ̌"   # Г + Caron + Stroke
+<dead_caron> <U0493>                        : "ғ̌"   # г + Caron + Stroke
+<dead_caron> <dead_stroke> <Cyrillic_GHE>   : "Ғ̌"
+<dead_caron> <dead_stroke> <Cyrillic_ghe>   : "ғ̌"
 
 ##################
 # [END OF RULES] #

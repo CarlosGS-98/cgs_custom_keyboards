@@ -1,0 +1,56 @@
+# Cyrillic Alphabet | Hooktail Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Precomposed middle hook letter combinations
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+<U0359> <Cyrillic_GHE>  : "Ҕ"
+<U0359> <Cyrillic_ghe>  : "ҕ"
+<U0359> <Cyrillic_KA>   : "Ӄ"
+<U0359> <Cyrillic_ka>   : "ӄ"
+<U0359> <Cyrillic_EL>   : "Ԡ"
+<U0359> <Cyrillic_el>   : "ԡ"
+<U0359> <Cyrillic_EN>   : "Ԣ"
+<U0359> <Cyrillic_en>   : "ԣ"
+<U0359> <Cyrillic_PE>   : "Ҧ"
+<U0359> <Cyrillic_pe>   : "ҧ"
+<U0359> <Cyrillic_TE>   : "Ꚋ"
+<U0359> <Cyrillic_te>   : "ꚋ"
+
+
+# Precomposed palatal hook letter combinations
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+<U0359> <less> <Cyrillic_SHHA>  : "Ꚕ"  # Hwe
+<U0359> <less> <Cyrillic_shha>  : "ꚕ"  # Hwe
+<U0359> <less> <Cyrillic_EL>    : "Ԓ"
+<U0359> <less> <Cyrillic_el>    : "ԓ"
+<U0359> <less> <Cyrillic_EN>    : "Ӈ"
+<U0359> <less> <Cyrillic_en>    : "ӈ"
+<U0359> <plus> <Cyrillic_EN>    : "Ԩ"   # Prefix exception
+<U0359> <plus> <Cyrillic_en>    : "ԩ"   # Prefix exception
+<U0359> <less> <Cyrillic_HA>    : "Ӽ"
+<U0359> <less> <Cyrillic_ha>    : "ӽ"
+
+
+# Other precomposed palatal hook combinations (Unidirectional)
+<U0359> <less> <dead_stroke> <Cyrillic_GHE> : "Ӻ"   # Г + Stroke + Palatal Hook
+<U0359> <less> <dead_stroke> <Cyrillic_ghe> : "ӻ"   # г + Stroke + Palatal Hook
+
+
+# Precomposed retroflex hook letter combinations
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+
+# [NOTE]: No precomposed Cyrillic characters have been encoded yet for this diacritic
+
+
+# Precomposed rhotic hook letter combinations
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_rhotique
+#
+
+# [NOTE]: No precomposed Cyrillic characters have been encoded yet for this diacritic
+
+##################
+# [END OF RULES] #
+##################

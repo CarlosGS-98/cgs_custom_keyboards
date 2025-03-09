@@ -27,6 +27,8 @@
 <dead_acute> <Ukrainian_ghe_with_upturn>    : "ґ́"
 <dead_acute> <U0494>                        : "Ҕ́"   # Г + Acute + Middle Hook
 <dead_acute> <U0495>                        : "ҕ́"   # г + Acute + Middle Hook
+<dead_acute> <U0359> <Cyrillic_GHE>         : "Ҕ́"   # Г + Acute + Middle Hook
+<dead_acute> <U0359> <Cyrillic_ghe>         : "ҕ́"   # г + Acute + Middle Hook
 <dead_acute> <Cyrillic_DE>                  : "Д́"
 <dead_acute> <Cyrillic_de>                  : "д́"
 <dead_acute> <U0500>                        : "Ԁ́"   # Ԁ (Komi De) + Acute
@@ -75,6 +77,8 @@
 <dead_acute> <Cyrillic_shha>                : "һ́"
 <dead_acute> <UA694>                        : "Ꚕ́"   # Ꚕ (Hwe) + Acute
 <dead_acute> <UA695>                        : "ꚕ́"   # ꚕ (Hwe) + Acute
+<dead_acute> <U0359> <less> <Cyrillic_SHHA> : "Ꚕ́"   # Ꚕ (Hwe) + Acute
+<dead_acute> <U0359> <less> <Cyrillic_shha> : "ꚕ́"   # ꚕ (Hwe) + Acute
 <dead_acute> <Cyrillic_I>                   : "И́"
 <dead_acute> <Cyrillic_i>                   : "и́"
 <dead_acute> <Ukrainian_I>                  : "І́"
@@ -87,12 +91,16 @@
 <dead_acute> <UA649>                        : "ꙉ́"   # ꙉ (Djerv) + Acute
 <dead_acute> <U04C3>                        : "Ӄ́"   # К + Acute + Hook
 <dead_acute> <U04C4>                        : "ӄ́"   # к + Acute + Hook
+<dead_acute> <U0359> <Cyrillic_KA>          : "Ӄ́"   # К + Acute + Hook
+<dead_acute> <U0359> <Cyrillic_ka>          : "ӄ́"   # к + Acute + Hook
 <dead_acute> <U04A0>                        : "Ҡ́"   # Ҡ (Bashkir Qa) + Acute
 <dead_acute> <U04A1>                        : "ҡ́"   # ҡ (Bashkir Qa) + Acute
 <dead_acute> <Cyrillic_EL>                  : "Л́"
 <dead_acute> <Cyrillic_el>                  : "л́"
 <dead_acute> <U0520>                        : "Ԡ́"  # Л + Acute + Middle Hook
 <dead_acute> <U0521>                        : "ԡ́"  # л + Acute + Middle Hook
+<dead_acute> <U0359> <Cyrillic_EL>          : "Ԡ́"  # Л + Acute + Middle Hook
+<dead_acute> <U0359> <Cyrillic_el>          : "ԡ́"  # л + Acute + Middle Hook
 <dead_acute> <UA664>                        : "Ꙥ́"   # Ꙥ (Soft El) + Acute
 <dead_acute> <UA665>                        : "ꙥ́"   # ꙥ (Soft El) + Acute
 <dead_acute> <U0508>                        : "Ԉ́"   # Ԉ (Komi Lje) + Acute
@@ -109,14 +117,20 @@
 <dead_acute> <Cyrillic_en>                  : "н́"
 <dead_acute> <U0528>                        : "Ԩ́"   # Ԩ + Acute
 <dead_acute> <U0529>                        : "ԩ́"   # ԩ + Acute
+<dead_acute> <U0359> <plus> <Cyrillic_EN>   : "Ԩ́"   # Ԩ + Acute
+<dead_acute> <U0359> <plus> <Cyrillic_en>   : "ԩ́"   # ԩ + Acute
 <dead_acute> <U04C7>                        : "Ӈ́"   # Н + Acute + Hook
 <dead_acute> <U04C8>                        : "ӈ́"   # н + Acute + Hook
+<dead_acute> <U0359> <less> <Cyrillic_EN>   : "Ӈ́"   # Н + Acute + Hook
+<dead_acute> <U0359> <less> <Cyrillic_en>   : "ӈ́"   # н + Acute + Hook
 <dead_acute> <U04A4>                        : "Ҥ́"   # Ҥ (En-Ghe) + Acute
 <dead_acute> <U04A5>                        : "ҥ́"   # ҥ (En-Ghe) + Acute
 <dead_acute> <U050A>                        : "Ԋ́"   # Ԋ (Komi Nje) + Acute
 <dead_acute> <U050B>                        : "ԋ́"   # ԋ (Komi Nje) + Acute
 <dead_acute> <U0522>                        : "Ԣ́"  # Н + Acute + Middle Hook
 <dead_acute> <U0523>                        : "ԣ́"  # н + Acute + Middle Hook
+<dead_acute> <U0359> <Cyrillic_EN>          : "Ԣ́"  # Н + Acute + Middle Hook
+<dead_acute> <U0359> <Cyrillic_en>          : "ԣ́"  # н + Acute + Middle Hook
 <dead_acute> <Cyrillic_NJE>                 : "Њ́"
 <dead_acute> <Cyrillic_nje>                 : "њ́"
 <dead_acute> <Cyrillic_O>                   : "О́"
@@ -138,6 +152,8 @@
 <dead_acute> <Cyrillic_pe>                  : "п́"
 <dead_acute> <U04A6>                        : "Ҧ́"   # П + Acute + Middle Hook
 <dead_acute> <U04A7>                        : "ҧ́"   # п + Acute + Middle Hook
+<dead_acute> <U0359> <Cyrillic_PE>          : "Ҧ́"   # П + Acute + Middle Hook
+<dead_acute> <U0359> <Cyrillic_pe>          : "ҧ́"   # п + Acute + Middle Hook
 <dead_acute> <U0480>                        : "Ҁ́"   # Ҁ (Cyrillic Koppa) + Acute
 <dead_acute> <U0481>                        : "ҁ́"   # ҁ (Cyrillic Koppa) + Acute
 <dead_acute> <U051A>                        : "Ԛ́"   # Ԛ (Qa) + Acute

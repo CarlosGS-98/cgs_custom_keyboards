@@ -11,269 +11,287 @@
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
 # [Main source]: https://fr.wikipedia.org/wiki/Barre_inscrite
 #
-<dead_longsolidusoverlay> <Cyrillic_A>                  : "А̸"
-<dead_longsolidusoverlay> <Cyrillic_a>                  : "а̸"
-<dead_longsolidusoverlay> <U04D4>                       : "Ӕ̸"   # Ӕ (Cyrillic Ash/A + IE) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04D5>                       : "ӕ̸"   # ӕ (Cyrillic Ash/A + IE) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_SCHWA>              : "Ә̸"
-<dead_longsolidusoverlay> <Cyrillic_schwa>              : "ә̸"
-<dead_longsolidusoverlay> <Cyrillic_BE>                 : "Б̸"
-<dead_longsolidusoverlay> <Cyrillic_be>                 : "б̸"
-<dead_longsolidusoverlay> <Cyrillic_VE>                 : "В̸"
-<dead_longsolidusoverlay> <Cyrillic_ve>                 : "в̸"
-<dead_longsolidusoverlay> <U051C>                       : "Ԝ̸"   # Ԝ (We) + Diagonal Stroke
-<dead_longsolidusoverlay> <U051D>                       : "ԝ̸"   # ԝ (We) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_GHE>                : "Г̸"
-<dead_longsolidusoverlay> <Cyrillic_ghe>                : "г̸"
-<dead_longsolidusoverlay> <Ukrainian_GHE_WITH_UPTURN>   : "Ґ̸"
-<dead_longsolidusoverlay> <Ukrainian_ghe_with_upturn>   : "ґ̸"
-<dead_longsolidusoverlay> <U0494>                       : "Ҕ̸"   # Г + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <U0495>                       : "ҕ̸"   # г + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <Cyrillic_DE>                 : "Д̸"
-<dead_longsolidusoverlay> <Cyrillic_de>                 : "д̸"
-<dead_longsolidusoverlay> <U0500>                       : "Ԁ̸"   # Ԁ (Komi De) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0501>                       : "ԁ̸"   # ԁ (Komi De) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0502>                       : "Ԃ̸"   # Ԃ (Komi Dje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0503>                       : "ԃ̸"   # ԃ (Komi Dje) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA680>                       : "Ꚁ̸"   # Ꚁ (Dwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA681>                       : "ꚁ̸"   # ꚁ (Dwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA662>                       : "Ꙣ̸"   # Ꙣ (Soft De) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA663>                       : "ꙣ̸"   # ꙣ (Soft De) + Diagonal Stroke
-<dead_longsolidusoverlay> <U052A>                       : "Ԫ̸"  # Ԫ (Dzzhe) + Diagonal Stroke
-<dead_longsolidusoverlay> <U052B>                       : "ԫ̸"  # ԫ (Dzzhe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA688>                       : "Ꚉ̸"   # Ꚉ (Dzze) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA689>                       : "ꚉ̸"   # ꚉ (Dzze) + Diagonal Stroke
-<dead_longsolidusoverlay> <Serbian_DJE>                 : "Ђ̸"
-<dead_longsolidusoverlay> <Serbian_dje>                 : "ђ̸"
-<dead_longsolidusoverlay> <Cyrillic_IE>                 : "Е̸"
-<dead_longsolidusoverlay> <Cyrillic_ie>                 : "е̸"
-<dead_longsolidusoverlay> <Ukrainian_IE>                : "Є̸"
-<dead_longsolidusoverlay> <Ukrainian_ie>                : "є̸"
-<dead_longsolidusoverlay> <Cyrillic_ZHE>                : "Ж̸"
-<dead_longsolidusoverlay> <Cyrillic_zhe>                : "ж̸"
-<dead_longsolidusoverlay> <UA684>                       : "Ꚅ̸"  # Ꚅ (Zhwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA685>                       : "ꚅ̸"   # ꚅ (Zhwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_ZE>                 : "З̸"
-<dead_longsolidusoverlay> <Cyrillic_ze>                 : "з̸"
-<dead_longsolidusoverlay> <U0510>                       : "Ԑ̸"   # Ԑ (Reversed Ze) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0511>                       : "ԑ̸"   # ԑ (Reversed Ze) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04E0>                       : "Ӡ̸"   # Ӡ (Abkhazian Dze) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04E1>                       : "ӡ̸"   # ӡ (Abkhazian Dze) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA640>                       : "Ꙁ̸"   # Ꙁ (Zemlya) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA641>                       : "ꙁ̸"   # ꙁ (Zemlya) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0504>                       : "Ԅ̸"   # Ԅ (Komi Zje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0505>                       : "ԅ̸"   # ԅ (Komi Zje) + Diagonal Stroke
-<dead_longsolidusoverlay> <Macedonia_DSE>               : "Ѕ̸"
-<dead_longsolidusoverlay> <Macedonia_dse>               : "ѕ̸"
-<dead_longsolidusoverlay> <UA642>                       : "Ꙃ̸"   # Ꙃ (Dzelo) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA643>                       : "ꙃ̸"   # ꙃ (Dzelo) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA644>                       : "Ꙅ̸"   # Ꙅ (Reversed Dze) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA645>                       : "ꙅ̸"   # ꙅ (Reversed Dze) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0506>                       : "Ԇ̸"   # Ԇ (Komi Dzje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0507>                       : "ԇ̸"   # ԇ (Komi Dzje) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA682>                       : "Ꚃ̸"   # Ꚃ (Dzwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA683>                       : "ꚃ̸"   # ꚃ (Dzwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_SHHA>               : "Һ̸"
-<dead_longsolidusoverlay> <Cyrillic_shha>               : "һ̸"
-<dead_longsolidusoverlay> <UA694>                       : "Ꚕ̸"   # Ꚕ (Hwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA695>                       : "ꚕ̸"   # ꚕ (Hwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_I>                  : "И̸"
-<dead_longsolidusoverlay> <Cyrillic_i>                  : "и̸"
-<dead_longsolidusoverlay> <Ukrainian_I>                 : "І̸"
-<dead_longsolidusoverlay> <Ukrainian_i>                 : "і̸"
-<dead_longsolidusoverlay> <UA646>                       : "Ꙇ̸"   # Ꙇ (Cyrillic Iota) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA647>                       : "ꙇ̸"   # ꙇ (Cyrillic Iota) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_JE>                 : "Ј̸"
-<dead_longsolidusoverlay> <Cyrillic_je>                 : "ј̸"
-<dead_longsolidusoverlay> <UA648>                       : "Ꙉ̸"   # Ꙉ (Djerv) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA649>                       : "ꙉ̸"   # ꙉ (Djerv) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_KA>                 : "К̸"
-<dead_longsolidusoverlay> <Cyrillic_ka>                 : "к̸"
-<dead_longsolidusoverlay> <U04C3>                       : "Ӄ̸"   # К + Diagonal Stroke + Hook
-<dead_longsolidusoverlay> <U04C4>                       : "ӄ̸"   # к + Diagonal Stroke + Hook
-<dead_longsolidusoverlay> <U04A0>                       : "Ҡ̸"   # Ҡ (Bashkir Qa) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04A1>                       : "ҡ̸"   # ҡ (Bashkir Qa) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_EL>                 : "Л̸"
-<dead_longsolidusoverlay> <Cyrillic_el>                 : "л̸"
-<dead_longsolidusoverlay> <U0520>                       : "Ԡ̸"  # Л + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <U0521>                       : "ԡ̸"  # л + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <UA664>                       : "Ꙥ̸"   # Ꙥ (Soft El) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA665>                       : "ꙥ̸"   # ꙥ (Soft El) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0508>                       : "Ԉ̸"   # Ԉ (Komi Lje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0509>                       : "ԉ̸"   # ԉ (Komi Lje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0514>                       : "Ԕ̸"   # Ԕ (Lha) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0515>                       : "ԕ̸"   # ԕ (Lha) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_LJE>                : "Љ̸"
-<dead_longsolidusoverlay> <Cyrillic_lje>                : "љ̸"
-<dead_longsolidusoverlay> <Cyrillic_EM>                 : "М̸"
-<dead_longsolidusoverlay> <Cyrillic_em>                 : "м̸"
-<dead_longsolidusoverlay> <UA666>                       : "Ꙧ̸"  # Ꙧ (Soft Em) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA667>                       : "ꙧ̸"  # ꙧ (Soft Em) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_EN>                 : "Н̸"
-<dead_longsolidusoverlay> <Cyrillic_en>                 : "н̸"
-<dead_longsolidusoverlay> <U0528>                       : "Ԩ̸"   # Ԩ + Diagonal Stroke
-<dead_longsolidusoverlay> <U0529>                       : "ԩ̸"   # ԩ + Diagonal Stroke
-<dead_longsolidusoverlay> <U04C7>                       : "Ӈ̸"   # Н + Diagonal Stroke + Hook
-<dead_longsolidusoverlay> <U04C8>                       : "ӈ̸"   # н + Diagonal Stroke + Hook
-<dead_longsolidusoverlay> <U04A4>                       : "Ҥ̸"   # Ҥ (En-Ghe) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04A5>                       : "ҥ̸"   # ҥ (En-Ghe) + Diagonal Stroke
-<dead_longsolidusoverlay> <U050A>                       : "Ԋ̸"   # Ԋ (Komi Nje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U050B>                       : "ԋ̸"   # ԋ (Komi Nje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0522>                       : "Ԣ̸"  # Н + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <U0523>                       : "ԣ̸"  # н + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <Cyrillic_NJE>                : "Њ̸"
-<dead_longsolidusoverlay> <Cyrillic_nje>                : "њ̸"
-<dead_longsolidusoverlay> <Cyrillic_O>                  : "О̸"
-<dead_longsolidusoverlay> <Cyrillic_o>                  : "о̸"
-<dead_longsolidusoverlay> <U047A>                       : "Ѻ̸"   # Ѻ (Broad On/Round Cyrillic Omega) + Diagonal Stroke
-<dead_longsolidusoverlay> <U047B>                       : "ѻ̸"   # ѻ (Broad On/Round Cyrillic Omega) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA668>                       : "Ꙩ̸"   # Ꙩ (Monocular O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA669>                       : "ꙩ̸"   # ꙩ (Monocular O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA66A>                       : "Ꙫ̸"   # Ꙫ (Binocular O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA66B>                       : "ꙫ̸"   # ꙫ (Binocular O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA698>                       : "Ꚙ̸"  # Ꚙ (Double Cyrillic O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA699>                       : "ꚙ̸"  # ꚙ (Double Cyrillic O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA66C>                       : "Ꙭ̸"  # Ꙭ (Double Monocular O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA66D>                       : "ꙭ̸"  # ꙭ (Double Monocular O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA66E>                       : "ꙮ̸"   # ꙮ (Multiocular O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA69A>                       : "Ꚛ̸"   # Ꚛ (Crossed O) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA69B>                       : "ꚛ̸"   # ꚛ (Crossed O) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_PE>                 : "П̸"
-<dead_longsolidusoverlay> <Cyrillic_pe>                 : "п̸"
-<dead_longsolidusoverlay> <U04A6>                       : "Ҧ̸"   # П + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <U04A7>                       : "ҧ̸"   # п + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <U0480>                       : "Ҁ̸"   # Ҁ (Cyrillic Koppa) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0481>                       : "ҁ̸"   # ҁ (Cyrillic Koppa) + Diagonal Stroke
-<dead_longsolidusoverlay> <U051A>                       : "Ԛ̸"   # Ԛ (Qa) + Diagonal Stroke
-<dead_longsolidusoverlay> <U051B>                       : "ԛ̸"   # ԛ (Qa) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_ER>                 : "Р̸"
-<dead_longsolidusoverlay> <Cyrillic_er>                 : "р̸"
-<dead_longsolidusoverlay> <U0516>                       : "Ԗ̸"   # Ԗ (Rha) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0517>                       : "ԗ̸"   # ԗ (Rha) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_ES>                 : "С̸"
-<dead_longsolidusoverlay> <Cyrillic_es>                 : "с̸"
-<dead_longsolidusoverlay> <U050C>                       : "Ԍ̸"   # Ԍ (Komi Sje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U050D>                       : "ԍ̸"   # ԍ (Komi Sje) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_TE>                 : "Т̸"
-<dead_longsolidusoverlay> <Cyrillic_te>                 : "т̸"
-<dead_longsolidusoverlay> <U1C89>                       : "Ᲊ̸"   # Ᲊ (Tje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U1C8A>                       : "ᲊ̸"   # ᲊ (Tje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U050E>                       : "Ԏ̸"   # Ԏ (Komi Tje) + Diagonal Stroke
-<dead_longsolidusoverlay> <U050F>                       : "ԏ̸"   # ԏ (Komi Tje) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA68A>                       : "Ꚋ̸"   # Т + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <UA68B>                       : "ꚋ̸"   # т + Diagonal Stroke + Middle Hook
-<dead_longsolidusoverlay> <UA68C>                       : "Ꚍ̸"   # Ꚍ (Twe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA68D>                       : "ꚍ̸"   # ꚍ (Twe) + Diagonal Stroke
-<dead_longsolidusoverlay> <Serbian_TSHE>                : "Ћ̸"
-<dead_longsolidusoverlay> <Serbian_tshe>                : "ћ̸"
-<dead_longsolidusoverlay> <Cyrillic_U>                  : "У̸"
-<dead_longsolidusoverlay> <Cyrillic_u>                  : "у̸"
-<dead_longsolidusoverlay> <Cyrillic_U_straight>         : "Ү̸"
-<dead_longsolidusoverlay> <Cyrillic_u_straight>         : "ү̸"
-<dead_longsolidusoverlay> <U0478>                       : "Ѹ̸"   # Ѹ (Uk) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0479>                       : "ѹ̸"   # ѹ (Uk) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA64A>                       : "Ꙋ̸"    # Ꙋ (Monographic Uk) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA64B>                       : "ꙋ̸"    # ꙋ (Monographic Uk) + Diagonal Stroke
-<dead_longsolidusoverlay> <U1C88>                       : "ᲈ̸"    # ᲈ (Unblended Uk) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_EF>                 : "Ф̸"
-<dead_longsolidusoverlay> <Cyrillic_ef>                 : "ф̸"
-<dead_longsolidusoverlay> <Cyrillic_HA>                 : "Х̸"
-<dead_longsolidusoverlay> <Cyrillic_ha>                 : "х̸"
-<dead_longsolidusoverlay> <U0460>                       : "Ѡ̸"   # Ѡ (Cyrillic Omega) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0461>                       : "ѡ̸"   # ѡ (Cyrillic Omega) + Diagonal Stroke
-<dead_longsolidusoverlay> <U047C>                       : "Ѽ̸"   # Ѡ (Cyrillic Omega) + Diagonal Stroke + Titlo
-<dead_longsolidusoverlay> <U047D>                       : "ѽ̸"   # ѡ (Cyrillic Omega) + Diagonal Stroke + Titlo
-<dead_longsolidusoverlay> <UA64C>                       : "Ꙍ̸"   # Ꙍ (Cyrillic Broad Omega) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA64D>                       : "ꙍ̸"   # ꙍ (Cyrillic Broad Omega) + Diagonal Stroke
-<dead_longsolidusoverlay> <U047E>                       : "Ѿ̸"   # Ѿ (Ot) + Diagonal Stroke
-<dead_longsolidusoverlay> <U047F>                       : "ѿ̸"   # ѿ (Ot) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_TSE>                : "Ц̸"
-<dead_longsolidusoverlay> <Cyrillic_tse>                : "ц̸"
-<dead_longsolidusoverlay> <U04B4>                       : "Ҵ̸"   # Ҵ (Te-Tse) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04B5>                       : "ҵ̸"   # ҵ (Te-Tse) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA660>                       : "Ꙡ̸"   # Ꙡ (Reversed Tse) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA661>                       : "ꙡ̸"   # ꙡ (Reversed Tse) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA68E>                       : "Ꚏ̸"   # Ꚏ (Tswe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA68F>                       : "ꚏ̸"   # ꚏ (Tswe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA690>                       : "Ꚑ̸"   # Ꚑ (Tsse) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA691>                       : "ꚑ̸"   # ꚑ (Tsse) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_CHE>                : "Ч̸"
-<dead_longsolidusoverlay> <Cyrillic_che>                : "ч̸"
-<dead_longsolidusoverlay> <U04BC>                       : "Ҽ̸"   # Ҽ (Abkhazian Che) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04BD>                       : "ҽ̸"   # ҽ (Abkhazian Che) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA686>                       : "Ꚇ̸"   # Ꚇ (Cche) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA687>                       : "ꚇ̸"   # ꚇ (Cche) + Diagonal Stroke
-<dead_longsolidusoverlay> <U052C>                       : "Ԭ̸"   # Ԭ (Dche) + Diagonal Stroke
-<dead_longsolidusoverlay> <U052D>                       : "ԭ̸"   # ԭ (Dche) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA692>                       : "Ꚓ̸"   # Ꚓ (Tche) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA693>                       : "ꚓ̸"   # ꚓ (Tche) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_DZHE>               : "Џ̸"
-<dead_longsolidusoverlay> <Cyrillic_DZHE>               : "џ̸"
-<dead_longsolidusoverlay> <Cyrillic_SHA>                : "Ш̸"
-<dead_longsolidusoverlay> <Cyrillic_sha>                : "ш̸"
-<dead_longsolidusoverlay> <UA696>                       : "Ꚗ̸"   # Ꚗ (Shwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA697>                       : "ꚗ̸"   # ꚗ (Shwe) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_SHCHA>              : "Щ̸"
-<dead_longsolidusoverlay> <Cyrillic_shcha>              : "щ̸"
-<dead_longsolidusoverlay> <UA64E>                       : "Ꙏ̸"   # Ꙏ (Neutral Yer) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA64F>                       : "ꙏ̸"   # ꙏ (Neutral Yer) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_HARDSIGN>           : "Ъ̸"
-<dead_longsolidusoverlay> <Cyrillic_hardsign>           : "ъ̸"
-<dead_longsolidusoverlay> <Cyrillic_YERU>               : "Ы̸"
-<dead_longsolidusoverlay> <Cyrillic_yeru>               : "ы̸"
-<dead_longsolidusoverlay> <UA650>                       : "Ꙑ̸"   # Ꙑ (Yeru + Back Yer) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA651>                       : "ꙑ̸"   # ꙑ (Yeru + Back Yer) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_SOFTSIGN>           : "Ь̸"
-<dead_longsolidusoverlay> <Cyrillic_softsign>           : "ь̸"
-<dead_longsolidusoverlay> <U048C>                       : "Ҍ̸"   # Ҍ (Semisoft Sign) + Diagonal Stroke
-<dead_longsolidusoverlay> <U048D>                       : "ҍ̸"   # ҍ (Semisoft Sign) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0462>                       : "Ѣ̸"   # Ѣ (Yat) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0463>                       : "ѣ̸"   # ѣ (Yat) + Diagonal Stroke
-<dead_longsolidusoverlay> <U1C87>                       : "ᲇ̸"   # ᲇ (Tall Yat) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA652>                       : "Ꙓ̸"   # Ꙓ (Iotified Yat) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA653>                       : "ꙓ̸"   # ꙓ (Iotified Yat) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04A8>                       : "Ҩ̸"   # Ҩ (Abkhazian Ha) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04A9>                       : "ҩ̸"   # ҩ (Abkhazian Ha) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_E>                  : "Э̸"
-<dead_longsolidusoverlay> <Cyrillic_e>                  : "э̸"
-<dead_longsolidusoverlay> <Cyrillic_YU>                 : "Ю̸"
-<dead_longsolidusoverlay> <Cyrillic_yu>                 : "ю̸"
-<dead_longsolidusoverlay> <UA654>                       : "Ꙕ̸"   # Ꙕ (Reversed Yu) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA655>                       : "ꙕ̸"   # ꙕ (Reversed Yu) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA656>                       : "Ꙗ̸"  # Ꙗ (Iotified A/Iya) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA657>                       : "ꙗ̸"  # ꙗ (Iotified A/Iya) + Diagonal Stroke
-<dead_longsolidusoverlay> <Cyrillic_YA>                 : "Я̸"
-<dead_longsolidusoverlay> <Cyrillic_ya>                 : "я̸"
-<dead_longsolidusoverlay> <U0518>                       : "Ԙ̸"  # Ԙ (Yae) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0519>                       : "ԙ̸"   # ԙ (Yae) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0464>                       : "Ѥ̸"   # Ѥ (Iotated Ukrainian E) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0465>                       : "ѥ̸"   # ѥ (Iotated Ukrainian E) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04C0>                       : "Ӏ̸"   # Ӏ (Palochka) + Diagonal Stroke
-<dead_longsolidusoverlay> <U04CF>                       : "ӏ̸"   # ӏ (Palochka) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0466>                       : "Ѧ̸"   # Ѧ (Little Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0467>                       : "ѧ̸"   # ѧ (Little Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0468>                       : "Ѩ̸"  # Ѩ (Iotified Little Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0469>                       : "ѩ̸"   # ѩ (Iotified Little Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA658>                       : "Ꙙ̸"   # Ꙙ (Closed Little Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA659>                       : "ꙙ̸"   # ꙙ (Closed Little Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA65C>                       : "Ꙝ̸"  # Ꙝ (Iotified Closed Little Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA65D>                       : "ꙝ̸"  # ꙝ (Iotified Closed Little Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <U046A>                       : "Ѫ̸"   # Ѫ (Big Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <U046B>                       : "ѫ̸"   # ѫ (Big Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <U046C>                       : "Ѭ̸"  # Ѭ (Iotified Big Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <U046D>                       : "ѭ̸"  # ѭ (Iotified Big Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA65A>                       : "Ꙛ̸"   # Ꙛ (Blended Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA65B>                       : "ꙛ̸"   # ꙛ (Blended Yus) + Diagonal Stroke
-<dead_longsolidusoverlay> <U046E>                       : "Ѯ̸"   # Ѯ (Ksi) + Diagonal Stroke
-<dead_longsolidusoverlay> <U046F>                       : "ѯ̸"   # ѯ (Ksi) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0470>                       : "Ѱ̸"   # Ѱ (Cyrillic Psi) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0471>                       : "ѱ̸"   # ѱ (Cyrillic Psi) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0472>                       : "Ѳ̸"   # Ѳ (Fita) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0473>                       : "ѳ̸"   # ѳ (Fita) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0474>                       : "Ѵ̸"   # Ѵ (Izhitsa) + Diagonal Stroke
-<dead_longsolidusoverlay> <U0475>                       : "ѵ̸"   # ѵ (Izhitsa) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA65E>                       : "Ꙟ̸"   # Ꙟ (Yn) + Diagonal Stroke
-<dead_longsolidusoverlay> <UA65F>                       : "ꙟ̸"   # ꙟ (Yn) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_A>                      : "А̸"
+<dead_longsolidusoverlay> <Cyrillic_a>                      : "а̸"
+<dead_longsolidusoverlay> <U04D4>                           : "Ӕ̸"   # Ӕ (Cyrillic Ash/A + IE) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04D5>                           : "ӕ̸"   # ӕ (Cyrillic Ash/A + IE) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_SCHWA>                  : "Ә̸"
+<dead_longsolidusoverlay> <Cyrillic_schwa>                  : "ә̸"
+<dead_longsolidusoverlay> <Cyrillic_BE>                     : "Б̸"
+<dead_longsolidusoverlay> <Cyrillic_be>                     : "б̸"
+<dead_longsolidusoverlay> <Cyrillic_VE>                     : "В̸"
+<dead_longsolidusoverlay> <Cyrillic_ve>                     : "в̸"
+<dead_longsolidusoverlay> <U051C>                           : "Ԝ̸"   # Ԝ (We) + Diagonal Stroke
+<dead_longsolidusoverlay> <U051D>                           : "ԝ̸"   # ԝ (We) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_GHE>                    : "Г̸"
+<dead_longsolidusoverlay> <Cyrillic_ghe>                    : "г̸"
+<dead_longsolidusoverlay> <Ukrainian_GHE_WITH_UPTURN>       : "Ґ̸"
+<dead_longsolidusoverlay> <Ukrainian_ghe_with_upturn>       : "ґ̸"
+<dead_longsolidusoverlay> <U0494>                           : "Ҕ̸"   # Г + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0495>                           : "ҕ̸"   # г + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_GHE>            : "Ҕ̸"   # Г + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_ghe>            : "ҕ̸"   # г + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <Cyrillic_DE>                     : "Д̸"
+<dead_longsolidusoverlay> <Cyrillic_de>                     : "д̸"
+<dead_longsolidusoverlay> <U0500>                           : "Ԁ̸"   # Ԁ (Komi De) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0501>                           : "ԁ̸"   # ԁ (Komi De) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0502>                           : "Ԃ̸"   # Ԃ (Komi Dje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0503>                           : "ԃ̸"   # ԃ (Komi Dje) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA680>                           : "Ꚁ̸"   # Ꚁ (Dwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA681>                           : "ꚁ̸"   # ꚁ (Dwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA662>                           : "Ꙣ̸"   # Ꙣ (Soft De) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA663>                           : "ꙣ̸"   # ꙣ (Soft De) + Diagonal Stroke
+<dead_longsolidusoverlay> <U052A>                           : "Ԫ̸"  # Ԫ (Dzzhe) + Diagonal Stroke
+<dead_longsolidusoverlay> <U052B>                           : "ԫ̸"  # ԫ (Dzzhe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA688>                           : "Ꚉ̸"   # Ꚉ (Dzze) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA689>                           : "ꚉ̸"   # ꚉ (Dzze) + Diagonal Stroke
+<dead_longsolidusoverlay> <Serbian_DJE>                     : "Ђ̸"
+<dead_longsolidusoverlay> <Serbian_dje>                     : "ђ̸"
+<dead_longsolidusoverlay> <Cyrillic_IE>                     : "Е̸"
+<dead_longsolidusoverlay> <Cyrillic_ie>                     : "е̸"
+<dead_longsolidusoverlay> <Ukrainian_IE>                    : "Є̸"
+<dead_longsolidusoverlay> <Ukrainian_ie>                    : "є̸"
+<dead_longsolidusoverlay> <Cyrillic_ZHE>                    : "Ж̸"
+<dead_longsolidusoverlay> <Cyrillic_zhe>                    : "ж̸"
+<dead_longsolidusoverlay> <UA684>                           : "Ꚅ̸"  # Ꚅ (Zhwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA685>                           : "ꚅ̸"   # ꚅ (Zhwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_ZE>                     : "З̸"
+<dead_longsolidusoverlay> <Cyrillic_ze>                     : "з̸"
+<dead_longsolidusoverlay> <U0510>                           : "Ԑ̸"   # Ԑ (Reversed Ze) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0511>                           : "ԑ̸"   # ԑ (Reversed Ze) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04E0>                           : "Ӡ̸"   # Ӡ (Abkhazian Dze) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04E1>                           : "ӡ̸"   # ӡ (Abkhazian Dze) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA640>                           : "Ꙁ̸"   # Ꙁ (Zemlya) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA641>                           : "ꙁ̸"   # ꙁ (Zemlya) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0504>                           : "Ԅ̸"   # Ԅ (Komi Zje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0505>                           : "ԅ̸"   # ԅ (Komi Zje) + Diagonal Stroke
+<dead_longsolidusoverlay> <Macedonia_DSE>                   : "Ѕ̸"
+<dead_longsolidusoverlay> <Macedonia_dse>                   : "ѕ̸"
+<dead_longsolidusoverlay> <UA642>                           : "Ꙃ̸"   # Ꙃ (Dzelo) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA643>                           : "ꙃ̸"   # ꙃ (Dzelo) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA644>                           : "Ꙅ̸"   # Ꙅ (Reversed Dze) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA645>                           : "ꙅ̸"   # ꙅ (Reversed Dze) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0506>                           : "Ԇ̸"   # Ԇ (Komi Dzje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0507>                           : "ԇ̸"   # ԇ (Komi Dzje) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA682>                           : "Ꚃ̸"   # Ꚃ (Dzwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA683>                           : "ꚃ̸"   # ꚃ (Dzwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_SHHA>                   : "Һ̸"
+<dead_longsolidusoverlay> <Cyrillic_shha>                   : "һ̸"
+<dead_longsolidusoverlay> <UA694>                           : "Ꚕ̸"   # Ꚕ (Hwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA695>                           : "ꚕ̸"   # ꚕ (Hwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0359> <less> <Cyrillic_SHHA>    : "Ꚕ̸"   # Ꚕ (Hwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0359> <less> <Cyrillic_shha>    : "ꚕ̸"   # ꚕ (Hwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_I>                      : "И̸"
+<dead_longsolidusoverlay> <Cyrillic_i>                      : "и̸"
+<dead_longsolidusoverlay> <Ukrainian_I>                     : "І̸"
+<dead_longsolidusoverlay> <Ukrainian_i>                     : "і̸"
+<dead_longsolidusoverlay> <UA646>                           : "Ꙇ̸"   # Ꙇ (Cyrillic Iota) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA647>                           : "ꙇ̸"   # ꙇ (Cyrillic Iota) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_JE>                     : "Ј̸"
+<dead_longsolidusoverlay> <Cyrillic_je>                     : "ј̸"
+<dead_longsolidusoverlay> <UA648>                           : "Ꙉ̸"   # Ꙉ (Djerv) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA649>                           : "ꙉ̸"   # ꙉ (Djerv) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_KA>                     : "К̸"
+<dead_longsolidusoverlay> <Cyrillic_ka>                     : "к̸"
+<dead_longsolidusoverlay> <U04C3>                           : "Ӄ̸"   # К + Diagonal Stroke + Hook
+<dead_longsolidusoverlay> <U04C4>                           : "ӄ̸"   # к + Diagonal Stroke + Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_KA>             : "Ӄ̸"   # К + Diagonal Stroke + Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_ka>             : "ӄ̸"   # к + Diagonal Stroke + Hook
+<dead_longsolidusoverlay> <U04A0>                           : "Ҡ̸"   # Ҡ (Bashkir Qa) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04A1>                           : "ҡ̸"   # ҡ (Bashkir Qa) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_EL>                     : "Л̸"
+<dead_longsolidusoverlay> <Cyrillic_el>                     : "л̸"
+<dead_longsolidusoverlay> <U0520>                           : "Ԡ̸"  # Л + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0521>                           : "ԡ̸"  # л + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_EL>             : "Ԡ̸"  # Л + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_el>             : "ԡ̸"  # л + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <UA664>                           : "Ꙥ̸"   # Ꙥ (Soft El) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA665>                           : "ꙥ̸"   # ꙥ (Soft El) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0508>                           : "Ԉ̸"   # Ԉ (Komi Lje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0509>                           : "ԉ̸"   # ԉ (Komi Lje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0514>                           : "Ԕ̸"   # Ԕ (Lha) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0515>                           : "ԕ̸"   # ԕ (Lha) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_LJE>                    : "Љ̸"
+<dead_longsolidusoverlay> <Cyrillic_lje>                    : "љ̸"
+<dead_longsolidusoverlay> <Cyrillic_EM>                     : "М̸"
+<dead_longsolidusoverlay> <Cyrillic_em>                     : "м̸"
+<dead_longsolidusoverlay> <UA666>                           : "Ꙧ̸"  # Ꙧ (Soft Em) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA667>                           : "ꙧ̸"  # ꙧ (Soft Em) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_EN>                     : "Н̸"
+<dead_longsolidusoverlay> <Cyrillic_en>                     : "н̸"
+<dead_longsolidusoverlay> <U0528>                           : "Ԩ̸"   # Ԩ + Diagonal Stroke
+<dead_longsolidusoverlay> <U0529>                           : "ԩ̸"   # ԩ + Diagonal Stroke
+<dead_longsolidusoverlay> <U0359> <plus> <Cyrillic_EN>      : "Ԩ̸"   # Ԩ + Diagonal Stroke
+<dead_longsolidusoverlay> <U0359> <plus> <Cyrillic_en>      : "ԩ̸"   # ԩ + Diagonal Stroke
+<dead_longsolidusoverlay> <U04C7>                           : "Ӈ̸"   # Н + Diagonal Stroke + Hook
+<dead_longsolidusoverlay> <U04C8>                           : "ӈ̸"   # н + Diagonal Stroke + Hook
+<dead_longsolidusoverlay> <U0359> <less> <Cyrillic_EN>      : "Ӈ̸"   # Н + Diagonal Stroke + Hook
+<dead_longsolidusoverlay> <U0359> <less> <Cyrillic_en>      : "ӈ̸"   # н + Diagonal Stroke + Hook
+<dead_longsolidusoverlay> <U04A4>                           : "Ҥ̸"   # Ҥ (En-Ghe) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04A5>                           : "ҥ̸"   # ҥ (En-Ghe) + Diagonal Stroke
+<dead_longsolidusoverlay> <U050A>                           : "Ԋ̸"   # Ԋ (Komi Nje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U050B>                           : "ԋ̸"   # ԋ (Komi Nje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0522>                           : "Ԣ̸"  # Н + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0523>                           : "ԣ̸"  # н + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_EN>             : "Ԣ̸"  # Н + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_en>             : "ԣ̸"  # н + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <Cyrillic_NJE>                    : "Њ̸"
+<dead_longsolidusoverlay> <Cyrillic_nje>                    : "њ̸"
+<dead_longsolidusoverlay> <Cyrillic_O>                      : "О̸"
+<dead_longsolidusoverlay> <Cyrillic_o>                      : "о̸"
+<dead_longsolidusoverlay> <U047A>                           : "Ѻ̸"   # Ѻ (Broad On/Round Cyrillic Omega) + Diagonal Stroke
+<dead_longsolidusoverlay> <U047B>                           : "ѻ̸"   # ѻ (Broad On/Round Cyrillic Omega) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA668>                           : "Ꙩ̸"   # Ꙩ (Monocular O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA669>                           : "ꙩ̸"   # ꙩ (Monocular O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA66A>                           : "Ꙫ̸"   # Ꙫ (Binocular O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA66B>                           : "ꙫ̸"   # ꙫ (Binocular O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA698>                           : "Ꚙ̸"  # Ꚙ (Double Cyrillic O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA699>                           : "ꚙ̸"  # ꚙ (Double Cyrillic O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA66C>                           : "Ꙭ̸"  # Ꙭ (Double Monocular O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA66D>                           : "ꙭ̸"  # ꙭ (Double Monocular O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA66E>                           : "ꙮ̸"   # ꙮ (Multiocular O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA69A>                           : "Ꚛ̸"   # Ꚛ (Crossed O) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA69B>                           : "ꚛ̸"   # ꚛ (Crossed O) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_PE>                     : "П̸"
+<dead_longsolidusoverlay> <Cyrillic_pe>                     : "п̸"
+<dead_longsolidusoverlay> <U04A6>                           : "Ҧ̸"   # П + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U04A7>                           : "ҧ̸"   # п + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_PE>             : "Ҧ̸"   # П + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_pe>             : "ҧ̸"   # п + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0480>                           : "Ҁ̸"   # Ҁ (Cyrillic Koppa) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0481>                           : "ҁ̸"   # ҁ (Cyrillic Koppa) + Diagonal Stroke
+<dead_longsolidusoverlay> <U051A>                           : "Ԛ̸"   # Ԛ (Qa) + Diagonal Stroke
+<dead_longsolidusoverlay> <U051B>                           : "ԛ̸"   # ԛ (Qa) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_ER>                     : "Р̸"
+<dead_longsolidusoverlay> <Cyrillic_er>                     : "р̸"
+<dead_longsolidusoverlay> <U0516>                           : "Ԗ̸"   # Ԗ (Rha) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0517>                           : "ԗ̸"   # ԗ (Rha) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_ES>                     : "С̸"
+<dead_longsolidusoverlay> <Cyrillic_es>                     : "с̸"
+<dead_longsolidusoverlay> <U050C>                           : "Ԍ̸"   # Ԍ (Komi Sje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U050D>                           : "ԍ̸"   # ԍ (Komi Sje) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_TE>                     : "Т̸"
+<dead_longsolidusoverlay> <Cyrillic_te>                     : "т̸"
+<dead_longsolidusoverlay> <U1C89>                           : "Ᲊ̸"   # Ᲊ (Tje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U1C8A>                           : "ᲊ̸"   # ᲊ (Tje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U050E>                           : "Ԏ̸"   # Ԏ (Komi Tje) + Diagonal Stroke
+<dead_longsolidusoverlay> <U050F>                           : "ԏ̸"   # ԏ (Komi Tje) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA68A>                           : "Ꚋ̸"   # Т + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <UA68B>                           : "ꚋ̸"   # т + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_TE>             : "Ꚋ̸"   # Т + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <U0359> <Cyrillic_te>             : "ꚋ̸"   # т + Diagonal Stroke + Middle Hook
+<dead_longsolidusoverlay> <UA68C>                           : "Ꚍ̸"   # Ꚍ (Twe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA68D>                           : "ꚍ̸"   # ꚍ (Twe) + Diagonal Stroke
+<dead_longsolidusoverlay> <Serbian_TSHE>                    : "Ћ̸"
+<dead_longsolidusoverlay> <Serbian_tshe>                    : "ћ̸"
+<dead_longsolidusoverlay> <Cyrillic_U>                      : "У̸"
+<dead_longsolidusoverlay> <Cyrillic_u>                      : "у̸"
+<dead_longsolidusoverlay> <Cyrillic_U_straight>             : "Ү̸"
+<dead_longsolidusoverlay> <Cyrillic_u_straight>             : "ү̸"
+<dead_longsolidusoverlay> <U0478>                           : "Ѹ̸"   # Ѹ (Uk) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0479>                           : "ѹ̸"   # ѹ (Uk) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA64A>                           : "Ꙋ̸"    # Ꙋ (Monographic Uk) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA64B>                           : "ꙋ̸"    # ꙋ (Monographic Uk) + Diagonal Stroke
+<dead_longsolidusoverlay> <U1C88>                           : "ᲈ̸"    # ᲈ (Unblended Uk) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_EF>                     : "Ф̸"
+<dead_longsolidusoverlay> <Cyrillic_ef>                     : "ф̸"
+<dead_longsolidusoverlay> <Cyrillic_HA>                     : "Х̸"
+<dead_longsolidusoverlay> <Cyrillic_ha>                     : "х̸"
+<dead_longsolidusoverlay> <U0460>                           : "Ѡ̸"   # Ѡ (Cyrillic Omega) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0461>                           : "ѡ̸"   # ѡ (Cyrillic Omega) + Diagonal Stroke
+<dead_longsolidusoverlay> <U047C>                           : "Ѽ̸"   # Ѡ (Cyrillic Omega) + Diagonal Stroke + Titlo
+<dead_longsolidusoverlay> <U047D>                           : "ѽ̸"   # ѡ (Cyrillic Omega) + Diagonal Stroke + Titlo
+<dead_longsolidusoverlay> <UA64C>                           : "Ꙍ̸"   # Ꙍ (Cyrillic Broad Omega) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA64D>                           : "ꙍ̸"   # ꙍ (Cyrillic Broad Omega) + Diagonal Stroke
+<dead_longsolidusoverlay> <U047E>                           : "Ѿ̸"   # Ѿ (Ot) + Diagonal Stroke
+<dead_longsolidusoverlay> <U047F>                           : "ѿ̸"   # ѿ (Ot) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_TSE>                    : "Ц̸"
+<dead_longsolidusoverlay> <Cyrillic_tse>                    : "ц̸"
+<dead_longsolidusoverlay> <U04B4>                           : "Ҵ̸"   # Ҵ (Te-Tse) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04B5>                           : "ҵ̸"   # ҵ (Te-Tse) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA660>                           : "Ꙡ̸"   # Ꙡ (Reversed Tse) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA661>                           : "ꙡ̸"   # ꙡ (Reversed Tse) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA68E>                           : "Ꚏ̸"   # Ꚏ (Tswe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA68F>                           : "ꚏ̸"   # ꚏ (Tswe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA690>                           : "Ꚑ̸"   # Ꚑ (Tsse) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA691>                           : "ꚑ̸"   # ꚑ (Tsse) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_CHE>                    : "Ч̸"
+<dead_longsolidusoverlay> <Cyrillic_che>                    : "ч̸"
+<dead_longsolidusoverlay> <U04BC>                           : "Ҽ̸"   # Ҽ (Abkhazian Che) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04BD>                           : "ҽ̸"   # ҽ (Abkhazian Che) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA686>                           : "Ꚇ̸"   # Ꚇ (Cche) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA687>                           : "ꚇ̸"   # ꚇ (Cche) + Diagonal Stroke
+<dead_longsolidusoverlay> <U052C>                           : "Ԭ̸"   # Ԭ (Dche) + Diagonal Stroke
+<dead_longsolidusoverlay> <U052D>                           : "ԭ̸"   # ԭ (Dche) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA692>                           : "Ꚓ̸"   # Ꚓ (Tche) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA693>                           : "ꚓ̸"   # ꚓ (Tche) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_DZHE>                   : "Џ̸"
+<dead_longsolidusoverlay> <Cyrillic_DZHE>                   : "џ̸"
+<dead_longsolidusoverlay> <Cyrillic_SHA>                    : "Ш̸"
+<dead_longsolidusoverlay> <Cyrillic_sha>                    : "ш̸"
+<dead_longsolidusoverlay> <UA696>                           : "Ꚗ̸"   # Ꚗ (Shwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA697>                           : "ꚗ̸"   # ꚗ (Shwe) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_SHCHA>                  : "Щ̸"
+<dead_longsolidusoverlay> <Cyrillic_shcha>                  : "щ̸"
+<dead_longsolidusoverlay> <UA64E>                           : "Ꙏ̸"   # Ꙏ (Neutral Yer) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA64F>                           : "ꙏ̸"   # ꙏ (Neutral Yer) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_HARDSIGN>               : "Ъ̸"
+<dead_longsolidusoverlay> <Cyrillic_hardsign>               : "ъ̸"
+<dead_longsolidusoverlay> <Cyrillic_YERU>                   : "Ы̸"
+<dead_longsolidusoverlay> <Cyrillic_yeru>                   : "ы̸"
+<dead_longsolidusoverlay> <UA650>                           : "Ꙑ̸"   # Ꙑ (Yeru + Back Yer) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA651>                           : "ꙑ̸"   # ꙑ (Yeru + Back Yer) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_SOFTSIGN>               : "Ь̸"
+<dead_longsolidusoverlay> <Cyrillic_softsign>               : "ь̸"
+<dead_longsolidusoverlay> <U048C>                           : "Ҍ̸"   # Ҍ (Semisoft Sign) + Diagonal Stroke
+<dead_longsolidusoverlay> <U048D>                           : "ҍ̸"   # ҍ (Semisoft Sign) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0462>                           : "Ѣ̸"   # Ѣ (Yat) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0463>                           : "ѣ̸"   # ѣ (Yat) + Diagonal Stroke
+<dead_longsolidusoverlay> <U1C87>                           : "ᲇ̸"   # ᲇ (Tall Yat) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA652>                           : "Ꙓ̸"   # Ꙓ (Iotified Yat) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA653>                           : "ꙓ̸"   # ꙓ (Iotified Yat) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04A8>                           : "Ҩ̸"   # Ҩ (Abkhazian Ha) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04A9>                           : "ҩ̸"   # ҩ (Abkhazian Ha) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_E>                      : "Э̸"
+<dead_longsolidusoverlay> <Cyrillic_e>                      : "э̸"
+<dead_longsolidusoverlay> <Cyrillic_YU>                     : "Ю̸"
+<dead_longsolidusoverlay> <Cyrillic_yu>                     : "ю̸"
+<dead_longsolidusoverlay> <UA654>                           : "Ꙕ̸"   # Ꙕ (Reversed Yu) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA655>                           : "ꙕ̸"   # ꙕ (Reversed Yu) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA656>                           : "Ꙗ̸"  # Ꙗ (Iotified A/Iya) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA657>                           : "ꙗ̸"  # ꙗ (Iotified A/Iya) + Diagonal Stroke
+<dead_longsolidusoverlay> <Cyrillic_YA>                     : "Я̸"
+<dead_longsolidusoverlay> <Cyrillic_ya>                     : "я̸"
+<dead_longsolidusoverlay> <U0518>                           : "Ԙ̸"  # Ԙ (Yae) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0519>                           : "ԙ̸"   # ԙ (Yae) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0464>                           : "Ѥ̸"   # Ѥ (Iotated Ukrainian E) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0465>                           : "ѥ̸"   # ѥ (Iotated Ukrainian E) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04C0>                           : "Ӏ̸"   # Ӏ (Palochka) + Diagonal Stroke
+<dead_longsolidusoverlay> <U04CF>                           : "ӏ̸"   # ӏ (Palochka) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0466>                           : "Ѧ̸"   # Ѧ (Little Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0467>                           : "ѧ̸"   # ѧ (Little Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0468>                           : "Ѩ̸"  # Ѩ (Iotified Little Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0469>                           : "ѩ̸"   # ѩ (Iotified Little Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA658>                           : "Ꙙ̸"   # Ꙙ (Closed Little Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA659>                           : "ꙙ̸"   # ꙙ (Closed Little Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA65C>                           : "Ꙝ̸"  # Ꙝ (Iotified Closed Little Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA65D>                           : "ꙝ̸"  # ꙝ (Iotified Closed Little Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <U046A>                           : "Ѫ̸"   # Ѫ (Big Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <U046B>                           : "ѫ̸"   # ѫ (Big Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <U046C>                           : "Ѭ̸"  # Ѭ (Iotified Big Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <U046D>                           : "ѭ̸"  # ѭ (Iotified Big Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA65A>                           : "Ꙛ̸"   # Ꙛ (Blended Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA65B>                           : "ꙛ̸"   # ꙛ (Blended Yus) + Diagonal Stroke
+<dead_longsolidusoverlay> <U046E>                           : "Ѯ̸"   # Ѯ (Ksi) + Diagonal Stroke
+<dead_longsolidusoverlay> <U046F>                           : "ѯ̸"   # ѯ (Ksi) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0470>                           : "Ѱ̸"   # Ѱ (Cyrillic Psi) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0471>                           : "ѱ̸"   # ѱ (Cyrillic Psi) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0472>                           : "Ѳ̸"   # Ѳ (Fita) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0473>                           : "ѳ̸"   # ѳ (Fita) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0474>                           : "Ѵ̸"   # Ѵ (Izhitsa) + Diagonal Stroke
+<dead_longsolidusoverlay> <U0475>                           : "ѵ̸"   # ѵ (Izhitsa) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA65E>                           : "Ꙟ̸"   # Ꙟ (Yn) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA65F>                           : "ꙟ̸"   # ꙟ (Yn) + Diagonal Stroke
 
 
 # Composed double grave accent combinations (Not directly encoded in Unicode) (Unidirectional)

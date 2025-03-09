@@ -38,6 +38,8 @@
 <dead_breve> <Ukrainian_ghe_with_upturn>    : "ґ̆"
 <dead_breve> <U0494>                        : "Ҕ̆"   # Г + Breve + Middle Hook
 <dead_breve> <U0495>                        : "ҕ̆"   # г + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_GHE>         : "Ҕ̆"   # Г + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_ghe>         : "ҕ̆"   # г + Breve + Middle Hook
 <dead_breve> <Cyrillic_DE>                  : "Д̆"
 <dead_breve> <Cyrillic_de>                  : "д̆"
 <dead_breve> <U0500>                        : "Ԁ̆"   # Ԁ (Komi De) + Breve
@@ -82,6 +84,8 @@
 <dead_breve> <Cyrillic_shha>                : "һ̆"
 <dead_breve> <UA694>                        : "Ꚕ̆"   # Ꚕ (Hwe) + Breve
 <dead_breve> <UA695>                        : "ꚕ̆"   # ꚕ (Hwe) + Breve
+<dead_breve> <U0359> <less> <Cyrillic_SHHA> : "Ꚕ̆"   # Ꚕ (Hwe) + Breve
+<dead_breve> <U0359> <less> <Cyrillic_shha> : "ꚕ̆"   # ꚕ (Hwe) + Breve
 <dead_breve> <Ukrainian_I>                  : "І̆"
 <dead_breve> <Ukrainian_i>                  : "і̆"
 <dead_breve> <UA646>                        : "Ꙇ̆"   # Ꙇ (Cyrillic Iota) + Breve
@@ -94,12 +98,16 @@
 <dead_breve> <Cyrillic_ka>                  : "к̆"
 <dead_breve> <U04C3>                        : "Ӄ̆"   # К + Breve + Hook
 <dead_breve> <U04C4>                        : "ӄ̆"   # к + Breve + Hook
+<dead_breve> <U0359> <Cyrillic_KA>          : "Ӄ̆"   # К + Breve + Hook
+<dead_breve> <U0359> <Cyrillic_ka>          : "ӄ̆"   # к + Breve + Hook
 <dead_breve> <U04A0>                        : "Ҡ̆"   # Ҡ (Bashkir Qa) + Breve
 <dead_breve> <U04A1>                        : "ҡ̆"   # ҡ (Bashkir Qa) + Breve
 <dead_breve> <Cyrillic_EL>                  : "Л̆"
 <dead_breve> <Cyrillic_el>                  : "л̆"
 <dead_breve> <U0520>                        : "Ԡ̆"  # Л + Breve + Middle Hook
 <dead_breve> <U0521>                        : "ԡ̆"  # л + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_EL>          : "Ԡ̆"  # Л + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_el>          : "ԡ̆"  # л + Breve + Middle Hook
 <dead_breve> <UA664>                        : "Ꙥ̆"   # Ꙥ (Soft El) + Breve
 <dead_breve> <UA665>                        : "ꙥ̆"   # ꙥ (Soft El) + Breve
 <dead_breve> <U0508>                        : "Ԉ̆"   # Ԉ (Komi Lje) + Breve
@@ -116,14 +124,20 @@
 <dead_breve> <Cyrillic_en>                  : "н̆"
 <dead_breve> <U0528>                        : "Ԩ̆"   # Ԩ + Breve
 <dead_breve> <U0529>                        : "ԩ̆"   # ԩ + Breve
+<dead_breve> <U0359> <plus> <Cyrillic_EN>   : "Ԩ̆"   # Ԩ + Breve
+<dead_breve> <U0359> <plus> <Cyrillic_en>   : "ԩ̆"   # ԩ + Breve
 <dead_breve> <U04C7>                        : "Ӈ̆"   # Н + Breve + Hook
 <dead_breve> <U04C8>                        : "ӈ̆"   # н + Breve + Hook
+<dead_breve> <U0359> <less> <Cyrillic_EN>   : "Ӈ̆"   # Н + Breve + Hook
+<dead_breve> <U0359> <less> <Cyrillic_en>   : "ӈ̆"   # н + Breve + Hook
 <dead_breve> <U04A4>                        : "Ҥ̆"   # Ҥ (En-Ghe) + Breve
 <dead_breve> <U04A5>                        : "ҥ̆"   # ҥ (En-Ghe) + Breve
 <dead_breve> <U050A>                        : "Ԋ̆"   # Ԋ (Komi Nje) + Breve
 <dead_breve> <U050B>                        : "ԋ̆"   # ԋ (Komi Nje) + Breve
 <dead_breve> <U0522>                        : "Ԣ̆"  # Н + Breve + Middle Hook
 <dead_breve> <U0523>                        : "ԣ̆"  # н + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_EN>          : "Ԣ̆"  # Н + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_en>          : "ԣ̆"  # н + Breve + Middle Hook
 <dead_breve> <Cyrillic_NJE>                 : "Њ̆"
 <dead_breve> <Cyrillic_nje>                 : "њ̆"
 <dead_breve> <Cyrillic_O>                   : "О̆"
@@ -145,6 +159,8 @@
 <dead_breve> <Cyrillic_pe>                  : "п̆"
 <dead_breve> <U04A6>                        : "Ҧ̆"   # П + Breve + Middle Hook
 <dead_breve> <U04A7>                        : "ҧ̆"   # п + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_PE>          : "Ҧ̆"   # П + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_pe>          : "ҧ̆"   # п + Breve + Middle Hook
 <dead_breve> <U0480>                        : "Ҁ̆"   # Ҁ (Cyrillic Koppa) + Breve
 <dead_breve> <U0481>                        : "ҁ̆"   # ҁ (Cyrillic Koppa) + Breve
 <dead_breve> <U051A>                        : "Ԛ̆"   # Ԛ (Qa) + Breve
@@ -165,6 +181,8 @@
 <dead_breve> <U050F>                        : "ԏ̆"   # ԏ (Komi Tje) + Breve
 <dead_breve> <UA68A>                        : "Ꚋ̆"   # Т + Breve + Middle Hook
 <dead_breve> <UA68B>                        : "ꚋ̆"   # т + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_TE>          : "Ꚋ̆"   # Т + Breve + Middle Hook
+<dead_breve> <U0359> <Cyrillic_te>          : "ꚋ̆"   # т + Breve + Middle Hook
 <dead_breve> <UA68C>                        : "Ꚍ̆"   # Ꚍ (Twe) + Breve
 <dead_breve> <UA68D>                        : "ꚍ̆"   # ꚍ (Twe) + Breve
 <dead_breve> <Serbian_TSHE>                 : "Ћ̆"

@@ -26,6 +26,8 @@
 <dead_invertedbreve> <Ukrainian_ghe_with_upturn>    : "ґ̑"
 <dead_invertedbreve> <U0494>                        : "Ҕ̑"   # Г + Inverted Breve + Middle Hook
 <dead_invertedbreve> <U0495>                        : "ҕ̑"   # г + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_GHE>         : "Ҕ̑"   # Г + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_ghe>         : "ҕ̑"   # г + Inverted Breve + Middle Hook
 <dead_invertedbreve> <Cyrillic_DE>                  : "Д̑"
 <dead_invertedbreve> <Cyrillic_de>                  : "д̑"
 <dead_invertedbreve> <U0500>                        : "Ԁ̑"   # Ԁ (Komi De) + Inverted Breve
@@ -74,6 +76,8 @@
 <dead_invertedbreve> <Cyrillic_shha>                : "һ̑"
 <dead_invertedbreve> <UA694>                        : "Ꚕ̑"   # Ꚕ (Hwe) + Inverted Breve
 <dead_invertedbreve> <UA695>                        : "ꚕ̑"   # ꚕ (Hwe) + Inverted Breve
+<dead_invertedbreve> <U0359> <less> <Cyrillic_SHHA> : "Ꚕ̑"   # Ꚕ (Hwe) + Inverted Breve
+<dead_invertedbreve> <U0359> <less> <Cyrillic_shha> : "ꚕ̑"   # ꚕ (Hwe) + Inverted Breve
 <dead_invertedbreve> <Cyrillic_I>                   : "И̑"
 <dead_invertedbreve> <Cyrillic_i>                   : "и̑"
 <dead_invertedbreve> <Ukrainian_I>                  : "І̑"
@@ -88,12 +92,16 @@
 <dead_invertedbreve> <Cyrillic_ka>                  : "к̑"
 <dead_invertedbreve> <U04C3>                        : "Ӄ̑"   # К + Inverted Breve + Hook
 <dead_invertedbreve> <U04C4>                        : "ӄ̑"   # к + Inverted Breve + Hook
+<dead_invertedbreve> <U0359> <Cyrillic_KA>          : "Ӄ̑"   # К + Inverted Breve + Hook
+<dead_invertedbreve> <U0359> <Cyrillic_ka>          : "ӄ̑"   # к + Inverted Breve + Hook
 <dead_invertedbreve> <U04A0>                        : "Ҡ̑"   # Ҡ (Bashkir Qa) + Inverted Breve
 <dead_invertedbreve> <U04A1>                        : "ҡ̑"   # ҡ (Bashkir Qa) + Inverted Breve
 <dead_invertedbreve> <Cyrillic_EL>                  : "Л̑"
 <dead_invertedbreve> <Cyrillic_el>                  : "л̑"
 <dead_invertedbreve> <U0520>                        : "Ԡ̑"  # Л + Inverted Breve + Middle Hook
 <dead_invertedbreve> <U0521>                        : "ԡ̑"  # л + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_EL>          : "Ԡ̑"  # Л + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_el>          : "ԡ̑"  # л + Inverted Breve + Middle Hook
 <dead_invertedbreve> <UA664>                        : "Ꙥ̑"   # Ꙥ (Soft El) + Inverted Breve
 <dead_invertedbreve> <UA665>                        : "ꙥ̑"   # ꙥ (Soft El) + Inverted Breve
 <dead_invertedbreve> <U0508>                        : "Ԉ̑"   # Ԉ (Komi Lje) + Inverted Breve
@@ -110,14 +118,20 @@
 <dead_invertedbreve> <Cyrillic_en>                  : "н̑"
 <dead_invertedbreve> <U0528>                        : "Ԩ̑"   # Ԩ + Inverted Breve
 <dead_invertedbreve> <U0529>                        : "ԩ̑"   # ԩ + Inverted Breve
+<dead_invertedbreve> <U0359> <plus> <Cyrillic_EN>   : "Ԩ̑"   # Ԩ + Inverted Breve
+<dead_invertedbreve> <U0359> <plus> <Cyrillic_en>   : "ԩ̑"   # ԩ + Inverted Breve
 <dead_invertedbreve> <U04C7>                        : "Ӈ̑"   # Н + Inverted Breve + Hook
 <dead_invertedbreve> <U04C8>                        : "ӈ̑"   # н + Inverted Breve + Hook
+<dead_invertedbreve> <U0359> <less> <Cyrillic_EN>   : "Ӈ̑"   # Н + Inverted Breve + Hook
+<dead_invertedbreve> <U0359> <less> <Cyrillic_en>   : "ӈ̑"   # н + Inverted Breve + Hook
 <dead_invertedbreve> <U04A4>                        : "Ҥ̑"   # Ҥ (En-Ghe) + Inverted Breve
 <dead_invertedbreve> <U04A5>                        : "ҥ̑"   # ҥ (En-Ghe) + Inverted Breve
 <dead_invertedbreve> <U050A>                        : "Ԋ̑"   # Ԋ (Komi Nje) + Inverted Breve
 <dead_invertedbreve> <U050B>                        : "ԋ̑"   # ԋ (Komi Nje) + Inverted Breve
 <dead_invertedbreve> <U0522>                        : "Ԣ̑"  # Н + Inverted Breve + Middle Hook
 <dead_invertedbreve> <U0523>                        : "ԣ̑"  # н + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_EN>          : "Ԣ̑"  # Н + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_en>          : "ԣ̑"  # н + Inverted Breve + Middle Hook
 <dead_invertedbreve> <Cyrillic_NJE>                 : "Њ̑"
 <dead_invertedbreve> <Cyrillic_nje>                 : "њ̑"
 <dead_invertedbreve> <Cyrillic_O>                   : "О̑"
@@ -139,6 +153,8 @@
 <dead_invertedbreve> <Cyrillic_pe>                  : "п̑"
 <dead_invertedbreve> <U04A6>                        : "Ҧ̑"   # П + Inverted Breve + Middle Hook
 <dead_invertedbreve> <U04A7>                        : "ҧ̑"   # п + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_PE>          : "Ҧ̑"   # П + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_pe>          : "ҧ̑"   # п + Inverted Breve + Middle Hook
 <dead_invertedbreve> <U0480>                        : "Ҁ̑"   # Ҁ (Cyrillic Koppa) + Inverted Breve
 <dead_invertedbreve> <U0481>                        : "ҁ̑"   # ҁ (Cyrillic Koppa) + Inverted Breve
 <dead_invertedbreve> <U051A>                        : "Ԛ̑"   # Ԛ (Qa) + Inverted Breve
@@ -159,6 +175,8 @@
 <dead_invertedbreve> <U050F>                        : "ԏ̑"   # ԏ (Komi Tje) + Inverted Breve
 <dead_invertedbreve> <UA68A>                        : "Ꚋ̑"   # Т + Inverted Breve + Middle Hook
 <dead_invertedbreve> <UA68B>                        : "ꚋ̑"   # т + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_TE>          : "Ꚋ̑"   # Т + Inverted Breve + Middle Hook
+<dead_invertedbreve> <U0359> <Cyrillic_te>          : "ꚋ̑"   # т + Inverted Breve + Middle Hook
 <dead_invertedbreve> <UA68C>                        : "Ꚍ̑"   # Ꚍ (Twe) + Inverted Breve
 <dead_invertedbreve> <UA68D>                        : "ꚍ̑"   # ꚍ (Twe) + Inverted Breve
 <dead_invertedbreve> <Serbian_TSHE>                 : "Ћ̑"
