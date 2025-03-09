@@ -1,0 +1,217 @@
+# Greek Alphabet | Acute Accent (Tonos, Oxia) Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Greek_diacritics
+#
+
+# Basic precomposed letter combinations
+<dead_acute> <Greek_ALPHA>      : "Ά"
+<dead_acute> <Greek_alpha>      : "ά"
+<dead_acute> <Greek_EPSILON>    : "Έ"
+<dead_acute> <Greek_epsilon>    : "έ"
+<dead_acute> <Greek_ETA>        : "Ή"
+<dead_acute> <Greek_eta>        : "ή"
+<dead_acute> <Greek_IOTA>       : "Ί"
+<dead_acute> <Greek_iota>       : "ί"
+<dead_acute> <Greek_OMICRON>    : "Ό"
+<dead_acute> <Greek_omicron>    : "ό"
+<dead_acute> <Greek_UPSILON>    : "Ύ"
+<dead_acute> <Greek_upsilon>    : "ύ"
+<dead_acute> <Greek_OMEGA>      : "Ώ"
+<dead_acute> <Greek_omega>      : "ώ"
+
+
+# Other precomposed acute accent/tonos/oxia combinations (Unidirectional)
+<dead_acute> <U1F08>                                                : "Ἄ"   # Ἀ + Tonos/Oxia
+<dead_acute> <U1F00>                                                : "ἄ"    # ἀ + Tonos/Oxia
+<dead_acute> <dead_abovecomma> <Greek_ALPHA>                        : "Ἄ"
+<dead_acute> <dead_abovecomma> <Greek_alpha>                        : "ἄ"
+<dead_acute> <dead_abovecomma> <U1FBC>                              : "ᾌ"   # ᾼ + Tonos/Oxia + Psili
+<dead_acute> <dead_abovecomma> <U1FB3>                              : "ᾄ"    # ᾳ + Tonos/Oxia + Psili
+<dead_acute> <dead_abovecomma> <dead_iota> <Greek_ALPHA>            : "ᾌ"
+<dead_acute> <dead_abovecomma> <dead_iota> <Greek_alpha>            : "ᾄ"
+<dead_acute> <U1F09>                                                : "Ἅ"   # Ἁ + Tonos/Oxia
+<dead_acute> <U1F01>                                                : "ἅ"    # ἁ + Tonos/Oxia
+<dead_acute> <dead_abovereversedcomma> <Greek_ALPHA>                : "Ἅ"
+<dead_acute> <dead_abovereversedcomma> <Greek_alpha>                : "ἅ"
+<dead_acute> <dead_abovereversedcomma> <U1FBC>                      : "ᾍ"   # ᾼ + Tonos/Oxia + Dasia
+<dead_acute> <dead_abovereversedcomma> <U1FB3>                      : "ᾅ"    # ᾳ + Tonos/Oxia + Dasia
+<dead_acute> <dead_abovereversedcomma> <dead_iota> <Greek_ALPHA>    : "ᾍ"
+<dead_acute> <dead_abovereversedcomma> <dead_iota> <Greek_alpha>    : "ᾅ"
+<dead_acute> <U1F88>                                                : "ᾌ"   # ᾈ + Tonos/Oxia
+<dead_acute> <U1F80>                                                : "ᾄ"    # ᾀ + Tonos/Oxia
+<dead_acute> <dead_iota> <U1F08>                                    : "ᾌ"   # Ἀ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <U1F00>                                    : "ᾄ"    # ἀ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <dead_abovecomma> <Greek_ALPHA>            : "ᾌ"
+<dead_acute> <dead_iota> <dead_abovecomma> <Greek_alpha>            : "ᾄ"
+<dead_acute> <U1F89>                                                : "ᾍ"   # ᾉ + Tonos/Oxia
+<dead_acute> <U1F81>                                                : "ᾅ"    # ᾁ + Tonos/Oxia
+<dead_acute> <dead_iota> <U1F09>                                    : "ᾍ"   # Ἁ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <U1F01>                                    : "ᾅ"    # ἁ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <dead_abovereversedcomma> <Greek_ALPHA>    : "ᾍ"
+<dead_acute> <dead_iota> <dead_abovereversedcomma> <Greek_alpha>    : "ᾅ"
+<dead_acute> <U1F18>                                                : "Ἔ"   # Ἐ + Tonos/Oxia
+<dead_acute> <U1F10>                                                : "ἔ"    # ἐ + Tonos/Oxia
+<dead_acute> <dead_abovecomma> <Greek_EPSILON>                      : "Ἔ"
+<dead_acute> <dead_abovecomma> <Greek_epsilon>                      : "ἔ"
+<dead_acute> <U1F19>                                                : "Ἕ"   # Ἑ + Tonos/Oxia
+<dead_acute> <U1F11>                                                : "ἕ"    # ἑ + Tonos/Oxia
+<dead_acute> <dead_abovereversedcomma> <Greek_EPSILON>              : "Ἕ"
+<dead_acute> <dead_abovereversedcomma> <Greek_epsilon>              : "ἕ"
+<dead_acute> <U1F28>                                                : "Ἤ"   # Ἠ + Tonos/Oxia
+<dead_acute> <U1F20>                                                : "ἤ"    # ἠ + Tonos/Oxia
+<dead_acute> <dead_abovecomma> <Greek_ETA>                          : "Ἤ"
+<dead_acute> <dead_abovecomma> <Greek_eta>                          : "ἤ"
+<dead_acute> <dead_abovecomma> <U1F9C>                              : "ᾜ"   # ῌ + Tonos/Oxia + Psili
+<dead_acute> <dead_abovecomma> <U1F94>                              : "ᾔ"    # ῃ + Tonos/Oxia + Psili
+<dead_acute> <dead_abovecomma> <dead_iota> <Greek_ETA>              : "ᾜ"
+<dead_acute> <dead_abovecomma> <dead_iota> <Greek_eta>              : "ᾔ"
+<dead_acute> <U1F29>                                                : "Ἥ"   # Ἡ + Tonos/Oxia
+<dead_acute> <U1F21>                                                : "ἥ"    # ἡ + Tonos/Oxia
+<dead_acute> <dead_abovereversedcomma> <Greek_ETA>                  : "Ἥ"
+<dead_acute> <dead_abovereversedcomma> <Greek_eta>                  : "ἥ"
+<dead_acute> <dead_abovereversedcomma> <U1F9D>                      : "ᾝ"   # ῌ + Tonos/Oxia + Dasia
+<dead_acute> <dead_abovereversedcomma> <U1F95>                      : "ᾕ"    # ῃ + Tonos/Oxia + Dasia
+<dead_acute> <dead_abovereversedcomma> <dead_iota> <Greek_ETA>      : "ᾝ"
+<dead_acute> <dead_abovereversedcomma> <dead_iota> <Greek_eta>      : "ᾕ"
+<dead_acute> <U1F98>                                                : "ᾜ"   # ᾘ + Tonos/Oxia
+<dead_acute> <U1F90>                                                : "ᾔ"    # ᾐ + Tonos/Oxia
+<dead_acute> <dead_iota> <U1F28>                                    : "ᾜ"   # Ἠ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <U1F20>                                    : "ᾔ"    # ἠ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <dead_abovecomma> <Greek_ETA>              : "ᾜ"
+<dead_acute> <dead_iota> <dead_abovecomma> <Greek_eta>              : "ᾔ"
+<dead_acute> <U1F99>                                                : "ᾝ"   # ᾙ + Tonos/Oxia
+<dead_acute> <U1F91>                                                : "ᾕ"    # ᾑ + Tonos/Oxia
+<dead_acute> <dead_iota> <U1F29>                                    : "ᾝ"   # Ἡ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <U1F21>                                    : "ᾕ"    # ἡ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <dead_abovereversedcomma> <Greek_ETA>      : "ᾝ"
+<dead_acute> <dead_iota> <dead_abovereversedcomma> <Greek_eta>      : "ᾕ"
+<dead_acute> <U03CA>                                                : "ΐ"    # ϊ + Tonos/Oxia + Dialytika
+<dead_acute> <dead_diaeresis> <Greek_iota>                          : "ΐ"
+<dead_acute> <U1F38>                                                : "Ἴ"    # Ἰ + Tonos/Oxia
+<dead_acute> <U1F30>                                                : "ἴ"    # ἰ + Tonos/Oxia
+<dead_acute> <dead_abovecomma> <Greek_IOTA>                         : "Ἴ"
+<dead_acute> <dead_abovecomma> <Greek_iota>                         : "ἴ"
+<dead_acute> <U1F39>                                                : "Ἵ"    # Ἱ + Tonos/Oxia
+<dead_acute> <U1F31>                                                : "ἵ"    # ἱ + Tonos/Oxia
+<dead_acute> <dead_abovereversedcomma> <Greek_IOTA>                 : "Ἵ"
+<dead_acute> <dead_abovereversedcomma> <Greek_iota>                 : "ἵ"
+<dead_acute> <U1F48>                                                : "Ὄ"   # Ὀ + Tonos/Oxia
+<dead_acute> <U1F40>                                                : "ὄ"    # ὀ + Tonos/Oxia
+<dead_acute> <dead_abovecomma> <Greek_OMICRON>                      : "Ὄ"
+<dead_acute> <dead_abovecomma> <Greek_omicron>                      : "ὄ"
+<dead_acute> <U1F49>                                                : "Ὅ"   # Ὁ + Tonos/Oxia
+<dead_acute> <U1F41>                                                : "ὅ"    # ὁ + Tonos/Oxia
+<dead_acute> <dead_abovereversedcomma> <Greek_OMICRON>              : "Ὅ"
+<dead_acute> <dead_abovereversedcomma> <Greek_omicron>              : "ὅ"
+<dead_acute> <U03CB>                                                : "ΰ"    # ϋ + Tonos/Oxia + Dialytika
+<dead_acute> <dead_diaeresis> <Greek_upsilon>                       : "ΰ"
+<dead_acute> <U1F50>                                                : "ὔ"    # ὐ + Tonos/Oxia
+<dead_acute> <dead_abovecomma> <Greek_upsilon>                      : "ὔ"
+<dead_acute> <U1F59>                                                : "Ὕ"   # Ὑ + Tonos/Oxia
+<dead_acute> <U1F51>                                                : "ὕ"    # ὑ + Tonos/Oxia
+<dead_acute> <dead_abovereversedcomma> <Greek_UPSILON>              : "Ὕ"
+<dead_acute> <dead_abovereversedcomma> <Greek_upsilon>              : "ὕ"
+<dead_acute> <U1F68>                                                : "Ὤ"   # Ὠ + Tonos/Oxia
+<dead_acute> <U1F60>                                                : "ὤ"    # ὠ + Tonos/Oxia
+<dead_acute> <dead_abovecomma> <Greek_OMEGA>                        : "Ὤ"
+<dead_acute> <dead_abovecomma> <Greek_omega>                        : "ὤ"
+<dead_acute> <dead_abovecomma> <U1FA8>                              : "ᾬ"   # ᾨ + Tonos/Oxia + Psili
+<dead_acute> <dead_abovecomma> <U1FA0>                              : "ᾤ"    # ᾠ + Tonos/Oxia + Psili
+<dead_acute> <dead_abovecomma> <dead_iota> <Greek_OMEGA>            : "ᾬ"
+<dead_acute> <dead_abovecomma> <dead_iota> <Greek_omega>            : "ᾤ"
+<dead_acute> <U1F69>                                                : "Ὥ"   # Ὡ + Tonos/Oxia
+<dead_acute> <U1F61>                                                : "ὥ"    # ὡ + Tonos/Oxia
+<dead_acute> <dead_abovereversedcomma> <Greek_OMEGA>                : "Ὥ"
+<dead_acute> <dead_abovereversedcomma> <Greek_omega>                : "ὥ"
+<dead_acute> <dead_abovereversedcomma> <U1FAD>                      : "ᾭ"   # ᾩ + Tonos/Oxia + Dasia
+<dead_acute> <dead_abovereversedcomma> <U1FA5>                      : "ᾥ"    # ᾡ + Tonos/Oxia + Dasia
+<dead_acute> <dead_abovereversedcomma> <dead_iota> <Greek_OMEGA>    : "ᾭ"
+<dead_acute> <dead_abovereversedcomma> <dead_iota> <Greek_omega>    : "ᾥ"
+<dead_acute> <U1FA8>                                                : "ᾬ"   # ᾨ + Tonos/Oxia
+<dead_acute> <U1FA0>                                                : "ᾤ"    # ᾠ + Tonos/Oxia
+<dead_acute> <dead_iota> <U1F68>                                    : "ᾬ"   # Ὠ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <U1F60>                                    : "ᾤ"    # ὠ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <dead_abovecomma> <Greek_OMEGA>            : "ᾬ"
+<dead_acute> <dead_iota> <dead_abovecomma> <Greek_omega>            : "ᾤ"
+<dead_acute> <U1FA9>                                                : "ᾭ"   # ᾩ + Tonos/Oxia
+<dead_acute> <U1FA1>                                                : "ᾥ"    # ᾡ + Tonos/Oxia
+<dead_acute> <dead_iota> <U1F69>                                    : "ᾭ"   # Ὡ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <U1F61>                                    : "ᾥ"    # ὡ + Tonos/Oxia + Iota
+<dead_acute> <dead_iota> <dead_abovereversedcomma> <Greek_OMEGA>    : "ᾭ"
+<dead_acute> <dead_iota> <dead_abovereversedcomma> <Greek_omega>    : "ᾥ"
+
+
+# Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_aigu
+#
+<dead_acute> <Greek_BETA>               : "Β́"
+<dead_acute> <Greek_beta>               : "β́"
+<dead_acute> <Greek_GAMMA>              : "Γ́"
+<dead_acute> <Greek_gamma>              : "γ́"
+<dead_acute> <Greek_DELTA>              : "Δ́"
+<dead_acute> <Greek_delta>              : "δ́"
+<dead_acute> <Greek_ZETA>               : "Ζ́"
+<dead_acute> <Greek_zeta>               : "ζ́"
+<dead_acute> <U0370>                    : "Ͱ́"   # Ͱ (Heta) + Acute
+<dead_acute> <U0371>                    : "ͱ́"   # ͱ (Heta) + Acute
+<dead_acute> <Greek_THETA>              : "Θ́"
+<dead_acute> <Greek_theta>              : "θ́"
+<dead_acute> <Greek_KAPPA>              : "Κ́"
+<dead_acute> <Greek_kappa>              : "κ́"
+<dead_acute> <U03CF>                    : "Ϗ́"   # Ϗ (Kai) + Acute
+<dead_acute> <U03D7>                    : "ϗ́"   # ϗ (Kai) + Acute
+<dead_acute> <U03D8>                    : "Ϙ́"   # Ϙ (Archaic Koppa) + Acute
+<dead_acute> <U03D9>                    : "ϙ́"   # ϙ (Archaic Koppa) + Acute
+<dead_acute> <U03DE>                    : "Ϟ́"   # Ϟ (Koppa) + Acute
+<dead_acute> <U03DF>                    : "ϟ́"   # ϟ (Koppa) + Acute
+<dead_acute> <Greek_LAMBDA>             : "Λ́"
+<dead_acute> <Greek_lambda>             : "λ́"
+<dead_acute> <Greek_MU>                 : "Μ́"
+<dead_acute> <Greek_mu>                 : "μ́"
+<dead_acute> <Greek_NU>                 : "Ν́"
+<dead_acute> <Greek_nu>                 : "ν́"
+<dead_acute> <Greek_XI>                 : "Ξ́"
+<dead_acute> <Greek_xi>                 : "ξ́"
+<dead_acute> <Greek_PI>                 : "Π́"
+<dead_acute> <Greek_pi>                 : "π́"
+<dead_acute> <Greek_RHO>                : "Ρ́"
+<dead_acute> <Greek_rho>                : "ρ́"
+<dead_acute> <Greek_SIGMA>              : "Σ́"
+<dead_acute> <Greek_sigma>              : "σ́"
+<dead_acute> <Greek_finalsmallsigma>    : "ς́"
+<dead_acute> <U03FA>                    : "Ϻ́"   # Ϻ (San) + Acute
+<dead_acute> <U03FB>                    : "ϻ́"   # ϻ (San) + Acute
+<dead_acute> <U0376>                    : "Ͷ́"   # Ͷ (Pamphylian Digamma / Tsan) + Acute
+<dead_acute> <U0377>                    : "ͷ́"   # ͷ (Pamphylian Digamma / Tsan) + Acute
+<dead_acute> <U03DA>                    : "Ϛ́"   # Ϛ (Stigma) + Acute
+<dead_acute> <U03DB>                    : "ϛ́"   # ϛ (Stigma) + Acute
+<dead_acute> <U03F7>                    : "Ϸ́"   # Ϸ (Sho) + Acute
+<dead_acute> <U03F8>                    : "ϸ́"   # ϸ (Sho) + Acute
+<dead_acute> <Greek_TAU>                : "Τ́"
+<dead_acute> <Greek_tau>                : "τ́"
+<dead_acute> <U0222>                    : "Ȣ́"   # Ȣ (Greek-Latin OU) + Acute
+<dead_acute> <U0223>                    : "ȣ́"   # ȣ (Greek-Latin OU) + Acute
+<dead_acute> <Greek_PHI>                : "Φ́"
+<dead_acute> <Greek_phi>                : "φ́"
+<dead_acute> <Greek_CHI>                : "Χ́"
+<dead_acute> <Greek_chi>                : "χ́"
+<dead_acute> <Greek_PSI>                : "Ψ́"
+<dead_acute> <Greek_psi>                : "ψ́"
+<dead_acute> <U03DC>                    : "Ϝ́"   # Ϝ (Digamma) + Acute
+<dead_acute> <U03DD>                    : "ϝ́"   # ϝ (Digamma) + Acute
+<dead_acute> <U03E0>                    : "Ϡ́"   # Ϡ (Sampi) + Acute
+<dead_acute> <U03E1>                    : "ϡ́"   # ϡ (Sampi) + Acute
+<dead_acute> <plus> <S> <S>             : "Ͳ́"   # Ͳ (Archaic Sampi) + Acute
+<dead_acute> <plus> <s> <s>             : "ͳ́"   # ͳ (Archaic Sampi) + Acute
+
+
+# Composed acute accent combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main source]: https://fr.wikipedia.org/wiki/Accent_aigu
+#
+
+# [NOTE]: No relevant combinations registered yet
+
+##################
+# [END OF RULES] #
+##################

@@ -16,6 +16,10 @@
 <dead_abovecomma> <period>          : "̕"    # Combining comma above right
 <dead_abovecomma> <colon>           : "҆"    # Psili Neumata
 
+
+# Chained dead keys
+<dead_abovecomma> <minus>   : dead_abovereversedcomma
+
 ##################
 # [END OF RULES] #
 ##################
