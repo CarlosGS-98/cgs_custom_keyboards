@@ -17,7 +17,7 @@
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
-# [Main source]: https://fr.wikipedia.org/wiki/Crochet_en_chef
+# [Main source]: https://fr.wikipedia.org/wiki/Brève_inversée
 #
 # [CUSTOM DEAD KEYS]:
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
@@ -179,6 +179,8 @@
 
 
 # Composed inverted breve combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main source]: https://fr.wikipedia.org/wiki/Brève_inversée
+#
 <dead_invertedbreve> <Ecaron>                               : "Ě̑"
 <dead_invertedbreve> <ecaron>                               : "ě̑"
 <dead_invertedbreve> <dead_caron> <E>                       : "Ě̑"
