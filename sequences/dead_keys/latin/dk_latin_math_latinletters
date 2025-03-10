@@ -899,49 +899,6 @@
 <U221D> <backslash> <S> <braceleft> <Z> <braceright> <space>    : "𝒵"
 <U221D> <backslash> <S> <braceleft> <z> <braceright> <space>    : "𝓏"
 
-
-# Mathematical Number Symbols
-<U221D> <backslash> <M> <0> <space>             : "𝟶"   # Monospace 0
-<U221D> <backslash> <m> <0> <space>             : "𝟶"   # Monospace 0
-<U221D> <backslash> <M> <1> <space>             : "𝟷"   # Monospace 1
-<U221D> <backslash> <m> <1> <space>             : "𝟷"   # Monospace 1
-<U221D> <backslash> <M> <2> <space>             : "𝟸"   # Monospace 2
-<U221D> <backslash> <m> <2> <space>             : "𝟸"   # Monospace 2
-<U221D> <backslash> <M> <3> <space>             : "𝟹"   # Monospace 3
-<U221D> <backslash> <m> <3> <space>             : "𝟹"   # Monospace 3
-<U221D> <backslash> <M> <4> <space>             : "𝟺"   # Monospace 4
-<U221D> <backslash> <m> <4> <space>             : "𝟺"   # Monospace 4
-<U221D> <backslash> <M> <5> <space>             : "𝟻"   # Monospace 5
-<U221D> <backslash> <m> <5> <space>             : "𝟻"   # Monospace 5
-<U221D> <backslash> <M> <6> <space>             : "𝟼"   # Monospace 6
-<U221D> <backslash> <m> <6> <space>             : "𝟼"   # Monospace 6
-<U221D> <backslash> <M> <7> <space>             : "𝟽"   # Monospace 7
-<U221D> <backslash> <m> <7> <space>             : "𝟽"   # Monospace 7
-<U221D> <backslash> <M> <8> <space>             : "𝟾"   # Monospace 8
-<U221D> <backslash> <m> <8> <space>             : "𝟾"   # Monospace 8
-<U221D> <backslash> <M> <9> <space>             : "𝟿"   # Monospace 9
-<U221D> <backslash> <m> <9> <space>             : "𝟿"   # Monospace 9
-<U221D> <backslash> <s> <0> <space>             : "𝟢"   # Sans-serif 0
-<U221D> <backslash> <s> <0> <asterisk> <space>  : "𝟬"   # Bold sans-serif 0
-<U221D> <backslash> <s> <1> <space>             : "𝟣"   # Sans-serif 1
-<U221D> <backslash> <s> <1> <asterisk> <space>  : "𝟭"   # Bold sans-serif 1
-<U221D> <backslash> <s> <2> <space>             : "𝟤"   # Sans-serif 2
-<U221D> <backslash> <s> <2> <asterisk> <space>  : "𝟮"   # Bold sans-serif 2
-<U221D> <backslash> <s> <3> <space>             : "𝟥"   # Sans-serif 3
-<U221D> <backslash> <s> <3> <asterisk> <space>  : "𝟯"   # Bold sans-serif 3
-<U221D> <backslash> <s> <4> <space>             : "𝟦"   # Sans-serif 4
-<U221D> <backslash> <s> <4> <asterisk> <space>  : "𝟰"   # Bold sans-serif 4
-<U221D> <backslash> <s> <5> <space>             : "𝟧"   # Sans-serif 5
-<U221D> <backslash> <s> <5> <asterisk> <space>  : "𝟱"   # Bold sans-serif 5
-<U221D> <backslash> <s> <6> <space>             : "𝟨"   # Sans-serif 6
-<U221D> <backslash> <s> <6> <asterisk> <space>  : "𝟲"   # Bold sans-serif 6
-<U221D> <backslash> <s> <7> <space>             : "𝟩"   # Sans-serif 7
-<U221D> <backslash> <s> <7> <asterisk> <space>  : "𝟳"   # Bold sans-serif 7
-<U221D> <backslash> <s> <8> <space>             : "𝟪"   # Sans-serif 8
-<U221D> <backslash> <s> <8> <asterisk> <space>  : "𝟴"   # Bold sans-serif 8
-<U221D> <backslash> <s> <9> <space>             : "𝟫"   # Sans-serif 9
-<U221D> <backslash> <s> <9> <asterisk> <space>  : "𝟵"   # Bold sans-serif 9
-
 ##################
 # [END OF RULES] #
 ##################
