@@ -1,0 +1,70 @@
+# Common Dead Keys | Math Letter Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing mathematical letter symbols
+# > across multiple writing systems (meaning that, in this
+# > particular case, this file will only contain the aforementioned
+# > symbols if they can be input with non-alphabetical characters).
+#
+# [NOTE]: This diacritic will be represented as [U221D]
+# ("∝", Proportional To) to give a better idea of
+# the general intention this specific dead key has.
+#
+# [NOTE]: This file is part of the "Logic + Math Symbols" Dead Key,
+# which has been separated to  better maintain
+# different aspects pertaining to this expansive dead key.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
+#
+
+# Mathematical Number Symbols (including Z-Notation)
+#
+# [NOTE]: The specific formatting of each character
+# is determined by the following Perl-like regular expression
+# applied to a LaTeX keyword (\{}):
+#
+# > regexp(Latin) = \\[FfMmSs]?[0-9]?{[a-zA-Z]}?[\*_|]?\s
+#
+# Where:
+#   -> "F" = "f"        = Fraktur
+#   -> "M" = "m"        = Monospace
+#   -> "S"              = Script/Calligraphy
+#   -> "s"              = Sans-serif
+#   -> {[a-zA-Z]}       = Any alphabetical character enclosed in curly braces
+#   -> "*"              = Final Bold (inspired by Markdown)
+#   -> "_"              = Final Italic (inspired by Markdown)
+#   -> "|"              = Double-Struck (aka Blackboard Bold)
+#
+# Any of these rules can be preceded by any dead key keysym if needed
+# (and gets listed on any specific writing system file related to this diacritic).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols
+#
+<U221D> <backslash> <0> <asterisk> <space>      : "𝟎"   # Bold 0
+<U221D> <backslash> <0> <bar> <space>           : "𝟘"   # Double-Struck 0
+<U221D> <backslash> <1> <asterisk> <space>      : "𝟏"   # Bold 1
+<U221D> <backslash> <1> <bar> <space>           : "𝟙"   # Double-Struck 1
+<U221D> <backslash> <2> <asterisk> <space>      : "𝟐"   # Bold 2
+<U221D> <backslash> <2> <bar> <space>           : "𝟚"   # Double-Struck 2
+<U221D> <backslash> <3> <asterisk> <space>      : "𝟑"   # Bold 3
+<U221D> <backslash> <3> <bar> <space>           : "𝟛"   # Double-Struck 3
+<U221D> <backslash> <4> <asterisk> <space>      : "𝟒"   # Bold 4
+<U221D> <backslash> <4> <bar> <space>           : "𝟜"   # Double-Struck 4
+<U221D> <backslash> <5> <asterisk> <space>      : "𝟓"   # Bold 5
+<U221D> <backslash> <5> <bar> <space>           : "𝟝"   # Double-Struck 5
+<U221D> <backslash> <6> <asterisk> <space>      : "𝟔"   # Bold 6
+<U221D> <backslash> <6> <bar> <space>           : "𝟞"   # Double-Struck 6
+<U221D> <backslash> <7> <asterisk> <space>      : "𝟕"   # Bold 7
+<U221D> <backslash> <7> <bar> <space>           : "𝟟"   # Double-Struck 7
+<U221D> <backslash> <8> <asterisk> <space>      : "𝟖"   # Bold 8
+<U221D> <backslash> <8> <bar> <space>           : "𝟠"   # Double-Struck 8
+<U221D> <backslash> <9> <asterisk> <space>      : "𝟗"   # Bold 9
+<U221D> <backslash> <9> <bar> <space>           : "𝟡"   # Double-Struck 9
+<U221D> <backslash> <colon> <bar> <space>       : "⦂"   # Z-Notation Type Colon
+<U221D> <backslash> <semicolon> <space>         : "⨾"   # Z-Notation Relational Composition
+<U221D> <backslash> <semicolon> <bar> <space>   : "⨟"   # Z-Notation Schema Composition
+
+##################
+# [END OF RULES] #
+##################
