@@ -291,6 +291,21 @@
 <U221D> <backslash> <space>                 : "∖"   # Set minus
 <U221D> <slash> <0>                         : "∅"   # Empty set
 
+
+# Z-Notation
+#
+# [Main source]: https://web.archive.org/web/20220925080749/https://unicode-search.net/unicode-namesearch.pl?term=Z NOTATION
+#
+<U221D> <asterisk> <underscore>             : "⦁"   # Z-Notation spot
+<U221D> <greater> <underscore> <greater>    : "⨠"   # Z-Notation schema piping
+<U221D> <bar> <1>                           : "⨡"   # Z-Notation schema projection
+<U221D> <bar> <parenright> <space>          : "⦈"   # Z-Notation right image bracket
+<U221D> <bar> <plus> <greater>              : "⩥"   # Z-Notation range antirestriction
+<U221D> <less> <plus> <bar>                 : "⩤"   # Z-Notation domain antirestriction
+<U221D> <less> <underscore> <bar>           : "⦉"   # Z-Notation left binding bracket
+<U221D> <minus> <bracketleft>               : "⋿"   # Z-Notation bag membership
+<U221D> <parenleft> <bar> <space>           : "⦇"   # Z-Notation left image bracket
+
 ##################
 # [END OF RULES] #
 ##################
