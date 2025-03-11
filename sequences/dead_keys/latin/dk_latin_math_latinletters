@@ -16,7 +16,7 @@
 #   -> "M" = "m"        = Monospace
 #   -> "S"              = Script/Calligraphy
 #   -> "s"              = Sans-serif
-#   -> {[a-zA-Z]}       = Any alphabetical character enclosed in curly braces
+#   -> {[a-zA-Z]}       = Any alphabetical Latin character enclosed in curly braces
 #   -> "*"              = Final Bold (inspired by Markdown)
 #   -> "_"              = Final Italic (inspired by Markdown)
 #   -> "|"              = Double-Struck (aka Blackboard Bold)
