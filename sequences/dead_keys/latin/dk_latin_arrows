@@ -1,0 +1,134 @@
+# Latin Alphabet | Arrows Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Functional Arrows
+<U21BB> <C> <A> <P> <S> <space>                     : "⇬"   # Caps Lock Arrow Key
+<U21BB> <C> <a> <p> <s> <space>                     : "⇬"   # Caps Lock Arrow Key
+<U21BB> <c> <a> <p> <s> <space>                     : "⇬"   # Caps Lock Arrow Key
+<U21BB> <D> <U> <P> <space>                         : "⇮"
+<U21BB> <D> <u> <p> <space>                         : "⇯"
+<U21BB> <d> <u> <p> <space>                         : "⇰"
+<U21BB> <M> <A> <Y> <Uacute> <S> <space>            : "⇬"   # Caps Lock Arrow Key
+<U21BB> <M> <A> <Y> <dead_acute> <U> <S> <space>    : "⇬"   # Caps Lock Arrow Key
+<U21BB> <M> <a> <y> <uacute> <s> <space>            : "⇬"   # Caps Lock Arrow Key
+<U21BB> <M> <a> <y> <dead_acute> <u> <s> <space>    : "⇬"   # Caps Lock Arrow Key
+<U21BB> <m> <a> <y> <uacute> <s> <space>            : "⇬"   # Caps Lock Arrow Key
+<U21BB> <m> <a> <y> <dead_acute> <u> <s> <space>    : "⇬"   # Caps Lock Arrow Key
+<U21BB> <N> <U> <M> <space>                         : "⇭"   # Num Lock Arrow Key
+<U21BB> <N> <u> <m> <space>                         : "⇭"   # Num Lock Arrow Key
+<U21BB> <n> <u> <m> <space>                         : "⇭"   # Num Lock Arrow Key
+<U21BB> <S> <H> <I> <F> <T> <space>                 : "⇫"   # Shift Arrow Key + Pedestal
+<U21BB> <S> <h> <i> <f> <t> <space>                 : "⇪"   # Shift Arrow Key
+<U21BB> <s> <h> <i> <f> <t> <space>                 : "⇪"   # Shift Arrow Key
+
+
+# Harpoons
+<U21BB> <minus> <asterisk> <V> <space>         : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <minus> <asterisk> <v> <space>         : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <plus> <asterisk> <V> <space>          : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <plus> <asterisk> <v> <space>          : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <V> <asterisk> <plus> <space>          : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <v> <asterisk> <plus> <space>          : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <V> <asterisk> <minus> <space>         : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <v> <asterisk> <minus> <space>         : "⇃"   # Downwards harpoon with leftwards barb
+
+
+# Multiple Arrows
+<U21BB> <asciicircum> <bar> <bar> <V> <space>       : "⇅"   # Upwards-downwards arrow
+<U21BB> <asciicircum> <bar> <bar> <v> <space>       : "⇅"   # Upwards-downwards arrow
+<U21BB> <dead_circumflex> <bar> <bar> <V> <space>   : "⇅"   # Upwards-downwards arrow
+<U21BB> <dead_circumflex> <bar> <bar> <v> <space>   : "⇅"   # Upwards-downwards arrow
+<U21BB> <V> <bar> <2> <space>                       : "⇊"   # Downwards paired arrows
+<U21BB> <v> <bar> <2> <space>                       : "⇊"   # Downwards paired arrows
+<U21BB> <V> <bar> <V> <bar> <space>                 : "⇊"   # Downwards paired arrows
+<U21BB> <v> <bar> <v> <bar> <space>                 : "⇊"   # Downwards paired arrows
+
+
+# Thick Arrows
+<U21BB> <asciicircum> <equal> <V> <space>                           : "⇕"   # Upwards-downwards double arrow
+<U21BB> <asciicircum> <equal> <v> <space>                           : "⇕"   # Upwards-downwards double arrow
+<U21BB> <bar> <bar> <V> <space>                                     : "⇓"    # Downwards double arrow
+<U21BB> <bar> <bar> <v> <space>                                     : "⇓"    # Downwards double arrow
+<U21BB> <bracketleft> <asciicircum> <V> <bracketright> <space>      : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <asciicircum> <v> <bracketright> <space>      : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <dead_circumflex> <V> <bracketright> <space>  : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <dead_circumflex> <v> <bracketright> <space>  : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <V> <bracketright> <space>                    : "⇩"   # Downwards white arrow
+<U21BB> <bracketleft> <v> <bracketright> <space>                    : "⇩"   # Downwards white arrow
+<U21BB> <dead_circumflex> <equal> <V> <space>                       : "⇕"   # Upwards-downwards double arrow
+<U21BB> <dead_circumflex> <equal> <v> <space>                       : "⇕"   # Upwards-downwards double arrow
+<U21BB> <equal> <V> <space>                                         : "⇘"   # Southeast double arrow
+<U21BB> <equal> <v> <space>                                         : "⇘"   # Southeast double arrow
+<U21BB> <V> <bar> <bar> <space>                                     : "⇓"    # Downwards double arrow
+<U21BB> <v> <bar> <bar> <space>                                     : "⇓"    # Downwards double arrow
+<U21BB> <V> <equal> <space>                                         : "⇙"   # Southwest double arrow
+<U21BB> <v> <equal> <space>                                         : "⇙"   # Southwest double arrow
+<U21BB> <V> <equal> <asciicircum> <space>                           : "⇕"   # Upwards-downwards double arrow
+<U21BB> <v> <equal> <asciicircum> <space>                           : "⇕"   # Upwards-downwards double arrow
+<U21BB> <V> <equal> <V> <space>                                     : "⇕"   # Upwards-downwards double arrow
+<U21BB> <v> <equal> <v> <space>                                     : "⇕"   # Upwards-downwards double arrow
+
+
+# Thin Arrows
+<U21BB> <asciicircum> <bar> <V> <space>         : "↕"   # Up-down arrow
+<U21BB> <asciicircum> <bar> <v> <space>         : "↕"   # Up-down arrow
+<U21BB> <asciicircum> <bar> <V> <V> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <asciicircum> <bar> <v> <v> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <asterisk> <V> <space>                  : "↯"   # Electrical arrow
+<U21BB> <asterisk> <v> <space>                  : "↯"   # Electrical arrow
+<U21BB> <bar> <equal> <V> <space>               : "⇟"   # Page Down
+<U21BB> <bar> <equal> <v> <space>               : "⇟"   # Page Down
+<U21BB> <bar> <V> <space>                       : "↓"   # Downwards arrow
+<U21BB> <bar> <v> <space>                       : "↓"   # Downwards arrow
+<U21BB> <bar> <V> <greater> <space>             : "↳"   # Downwards-rightwards arrow
+<U21BB> <bar> <v> <greater> <space>             : "↳"   # Downwards-rightwards arrow
+<U21BB> <bar> <V> <V> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <bar> <v> <v> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <dead_circumflex> <bar> <V> <space>     : "↕"   # Up-down arrow
+<U21BB> <dead_circumflex> <bar> <v> <space>     : "↕"   # Up-down arrow
+<U21BB> <dead_circumflex> <bar> <V> <V> <space> : "↨"   # Up-down arrow with base
+<U21BB> <dead_circumflex> <bar> <v> <v> <space> : "↨"   # Up-down arrow with base
+<U21BB> <dead_circumflex> <V> <space>           : "↥"   # Upwards arrow from bar
+<U21BB> <dead_circumflex> <v> <space>           : "↥"   # Upwards arrow from bar
+<U21BB> <less> <V> <bar> <space>                : "↲"   # Downwards-leftwards arrow
+<U21BB> <less> <v> <bar> <space>                : "↲"   # Downwards-leftwards arrow
+<U21BB> <less> <V> <minus> <space>              : "↜"  # Leftwards wave arrow
+<U21BB> <less> <v> <minus> <space>              : "↜"  # Leftwards wave arrow
+<U21BB> <minus> <bar> <V> <space>               : "↴"   # Rightwards-downwards arrow with corner
+<U21BB> <minus> <bar> <v> <space>               : "↴"   # Rightwards-downwards arrow with corner
+<U21BB> <minus> <V> <space>                     : "↘"   # Southeast arrow
+<U21BB> <minus> <v> <space>                     : "↘"   # Southeast arrow
+<U21BB> <minus> <V> <greater> <space>           : "↝"  # Rightwards wave arrow
+<U21BB> <minus> <v> <greater> <space>           : "↝"  # Rightwards wave arrow
+<U21BB> <period> <V> <space>                    : "⇣"   # Downwards dashed arrow
+<U21BB> <period> <v> <space>                    : "⇣"   # Downwards dashed arrow
+<U21BB> <V> <asciicircum> <space>               : "↧"   # Downwards arrow from bar
+<U21BB> <v> <asciicircum> <space>               : "↧"   # Downwards arrow from bar
+<U21BB> <V> <asterisk> <space>                  : "↯"   # Electrical arrow
+<U21BB> <v> <asterisk> <space>                  : "↯"   # Electrical arrow
+<U21BB> <V> <bar> <space>                       : "↓"   # Downwards arrow
+<U21BB> <v> <bar> <space>                       : "↓"   # Downwards arrow
+<U21BB> <V> <bar> <asciicircum> <space>         : "↕"   # Up-down arrow
+<U21BB> <v> <bar> <asciicircum> <space>         : "↕"   # Up-down arrow
+<U21BB> <V> <bar> <dead_circumflex> <space>     : "↕"   # Up-down arrow
+<U21BB> <v> <bar> <dead_circumflex> <space>     : "↕"   # Up-down arrow
+<U21BB> <V> <bar> <minus> <space>               : "↵"   # Downwards-leftwards arrow with corner
+<U21BB> <v> <bar> <minus> <space>               : "↵"   # Downwards-leftwards arrow with corner
+<U21BB> <V> <dead_circumflex> <space>           : "↧"   # Downwards arrow from bar
+<U21BB> <v> <dead_circumflex> <space>           : "↧"   # Downwards arrow from bar
+<U21BB> <V> <equal> <bar> <space>               : "⇟"   # Page Down
+<U21BB> <v> <equal> <bar> <space>               : "⇟"   # Page Down
+<U21BB> <V> <minus> <space>                     : "↙"   # Southwest arrow
+<U21BB> <v> <minus> <space>                     : "↙"   # Southwest arrow
+<U21BB> <V> <period> <space>                    : "⇣"   # Downwards dashed arrow
+<U21BB> <v> <period> <space>                    : "⇣"   # Downwards dashed arrow
+<U21BB> <V> <V> <bar> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <v> <v> <bar> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <v> <v> <bar> <asciicircum> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <v> <v> <bar> <asciicircum> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <V> <V> <bar> <dead_circumflex> <space> : "↨"   # Up-down arrow with base
+<U21BB> <v> <v> <bar> <dead_circumflex> <space> : "↨"   # Up-down arrow with base
+
+##################
+# [END OF RULES] #
+##################

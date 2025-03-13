@@ -69,7 +69,7 @@
 <U21BB> <3> <greater> <space>                                               : "⇛"   # Rightwards triple arrow
 <U21BB> <asciicircum> <bar> <bar> <space>                                   : "⇑"    # Upwards double arrow
 <U21BB> <asciicircum> <equal> <space>                                       : "⇖"   # Northwest double arrow
-<U21BB> <asciicircum> <equal> <underscore> <space>                          : "⇑"    # Upwards-downwards double arrow
+<U21BB> <asciicircum> <equal> <underscore> <space>                          : "⇕"   # Upwards-downwards double arrow
 <U21BB> <bar> <bar> <asciicircum> <space>                                   : "⇑"    # Upwards double arrow
 <U21BB> <bar> <bar> <dead_circumflex> <space>                               : "⇑"    # Upwards double arrow
 <U21BB> <bar> <bar> <underscore> <space>                                    : "⇓"    # Downwards double arrow
@@ -97,8 +97,8 @@
 <U21BB> <less> <slash> <equal> <space>                                      : "⇍"   # Leftwards double arrow with stroke
 <U21BB> <underscore> <bar> <bar> <space>                                    : "⇓"    # Downwards double arrow
 <U21BB> <underscore> <equal> <space>                                        : "⇙"   # Southwest double arrow
-<U21BB> <underscore> <equal> <asciicircum> <space>                          : "⇑"    # Upwards-downwards double arrow
-<U21BB> <underscore> <equal> <underscore> <space>                           : "⇑"    # Upwards-downwards double arrow
+<U21BB> <underscore> <equal> <asciicircum> <space>                          : "⇕"   # Upwards-downwards double arrow
+<U21BB> <underscore> <equal> <underscore> <space>                           : "⇕"   # Upwards-downwards double arrow
 
 
 # Thin Arrows
