@@ -15,6 +15,7 @@
 # Basic combinations
 <U10900> <space>    : "𐤀"   # Phoenician ʾĀlep
 <U10900> <U10900>   : "𐤀"   # Phoenician ʾĀlep
+<U10900> <period>   : "𐤟"    # Phoenician word separator
 
 ##################
 # [END OF RULES] #
