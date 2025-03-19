@@ -20,6 +20,8 @@
 <U1DCF> <a> <v>             : "ꜹ"
 <U1DCF> <A> <Y>             : "Ꜽ"
 <U1DCF> <a> <y>             : "ꜽ"
+<U1DCF> <C> <Z>             : "Ꝣ"
+<U1DCF> <c> <z>             : "ꝣ"
 <U1DCF> <D> <B>             : "ȸ"
 <U1DCF> <d> <b>             : "ȸ"
 <U1DCF> <D> <Z>             : "Ǳ"
@@ -67,6 +69,8 @@
 <U1DCF> <l> <z>             : "ʫ"
 <U1DCF> <L> <EZH>           : "ɮ"
 <U1DCF> <l> <ezh>           : "ɮ"
+<U1DCF> <M> <W>             : "ꟿ"   # Manius
+<U1DCF> <m> <w>             : "ꟿ"   # Manius
 <U1DCF> <O> <E>             : "Œ"
 <U1DCF> <o> <e>             : "œ"
 <U1DCF> <OE> <OE>           : "ꭀ"
@@ -109,6 +113,8 @@
 <U1DCF> <u> <o>             : "ꭣ"
 <U1DCF> <V> <Y>             : "Ꝡ"
 <U1DCF> <v> <y>             : "ꝡ"
+<U1DCF> <V> <Z>             : "Ꟃ"   # W Anglicana
+<U1DCF> <v> <Z>             : "ꟃ"   # W Anglicana
 <U1DCF> <U01F7> <U01F7>     : "ꟕ"   # Ƿ (Wynn) * 2
 <U1DCF> <U01BF> <U01BF>     : "ꟕ"   # ƿ (Wynn) * 2
 

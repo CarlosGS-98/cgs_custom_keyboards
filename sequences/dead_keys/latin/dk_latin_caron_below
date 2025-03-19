@@ -56,14 +56,35 @@
 <U0334> <UA7B5>                                 : "ꞵ̬"   # ꞵ (Latin Beta) + Caron Below
 <U0334> <dead_greek> <dead_circumflex> <B>      : "Ꞵ̬"   # Ꞵ (Latin Beta) + Caron Below
 <U0334> <dead_greek> <dead_circumflex> <b>      : "ꞵ̬"   # ꞵ (Latin Beta) + Caron Below
+<U0334> <UA796>                                 : "Ꞗ̬"   # Ꞗ (Middle Vietnamese B) + Caron Below
+<U0334> <UA797>                                 : "ꞗ̬"   # ꞗ (Middle Vietnamese B) + Caron Below
+<U0334> <U1DFB> <B>                             : "Ꞗ̬"
+<U0334> <U1DFB> <b>                             : "ꞗ̬"
 <U0334> <C>                                     : "C̬"
 <U0334> <c>                                     : "c̬"
+<U0334> <UA76E>                                 : "Ꝯ̬"   # Ꝯ (Con/Us) + Caron Below
+<U0334> <UA76F>                                 : "ꝯ̬"   # ꝯ (Con/Us) + Caron Below
+<U0334> <U1DFB> <C> <O> <N>                     : "Ꝯ̬"
+<U0334> <U1DFB> <c> <o> <n>                     : "ꝯ̬"
+<U0334> <U1DFB> <U> <S>                         : "Ꝯ̬"
+<U0334> <U1DFB> <u> <s>                         : "ꝯ̬"
 <U0334> <D>                                     : "D̬"
 <U0334> <d>                                     : "d̬"
 <U0334> <ETH>                                   : "Ð̬"
 <U0334> <eth>                                   : "ð̬"
+<U0334> <U1E9F>                                 : "ẟ̬"   # ẟ (Latin Delta) + Caron Below
+<U0334> <dead_greek> <dead_circumflex> <D>      : "ẟ̬"
+<U0334> <dead_greek> <dead_circumflex> <d>      : "ẟ̬"
+<U0334> <U018D>                                 : "ƍ̬"   # ƍ (Turned Latin Delta) + Caron Below
+<U0334> <dead_greek> <dead_circumflex> <ETH>    : "ƍ̬"
+<U0334> <dead_greek> <dead_circumflex> <eth>    : "ƍ̬"
 <U0334> <UA779>                                 : "Ꝺ̬"   # Ꝺ (Insular D) + Caron Below
 <U0334> <UA77A>                                 : "ꝺ̬"   # ꝺ (Insular D) + Caron Below
+<U0334> <U1DFB> <D>                             : "Ꝺ̬"
+<U0334> <U1DFB> <d>                             : "ꝺ̬"
+<U0334> <UA771>                                 : "ꝱ̬"   # ꝱ (Dum) + Caron Below
+<U0334> <U1DFB> <slash> <D>                     : "ꝱ̬"
+<U0334> <U1DFB> <slash> <d>                     : "ꝱ̬"
 <U0334> <E>                                     : "E̬"
 <U0334> <e>                                     : "e̬"
 <U0334> <U0190>                                 : "Ɛ̬"   # Ɛ (Latin Epsilon) + Caron Below
@@ -91,6 +112,14 @@
 <U0334> <U01DD>                                 : "ǝ̬"   # ǝ (Turned E) + Caron Below
 <U0334> <U21BA> <E>                             : "Ǝ̬"   # Ǝ (Turned E) + Caron Below
 <U0334> <U21BA> <e>                             : "ǝ̬"   # ǝ (Turned E) + Caron Below
+<U0334> <UA76A>                                 : "Ꝫ̬"   # Ꝫ (Et) + Caron Below
+<U0334> <UA76B>                                 : "ꝫ̬"   # ꝫ (Et) + Caron Below
+<U0334> <U1DFB> <ampersand> <E> <T>             : "Ꝫ̬"
+<U0334> <U1DFB> <ampersand> <e> <t>             : "ꝫ̬"
+<U0334> <U2E52>                                 : "⹒̬"   # ⹒ (Tironian Et) + Caron Below
+<U0334> <U204A>                                 : "⁊̬"   # ⁊ (Tironian Et) + Caron Below
+<U0334> <U1DFB> <E> <T>                         : "⹒̬"
+<U0334> <U1DFB> <e> <t>                         : "⁊̬"
 <U0334> <F>                                     : "F̬"
 <U0334> <f>                                     : "f̬"
 <U0334> <U0278>                                 : "ɸ̬"   # ɸ (Latin Phi) + Caron Below
@@ -98,12 +127,43 @@
 <U0334> <dead_greek> <dead_circumflex> <f>      : "ɸ̬"   # ɸ (Latin Phi) + Caron Below
 <U0334> <UA77B>                                 : "Ꝼ̬"   # Ꝼ (Insular F) + Caron Below
 <U0334> <UA77C>                                 : "ꝼ̬"   # ꝼ (Insular F) + Caron Below
+<U0334> <U1DFB> <F>                             : "Ꝼ̬"   # Ꝼ (Insular F) + Caron Below
+<U0334> <U1DFB> <f>                             : "ꝼ̬"   # ꝼ (Insular F) + Caron Below
+<U0334> <UA7FB>                                 : "ꟻ̬"   # ꟻ (Roman Epigraphic F) + Caron Below
+<U0334> <U1DFB> <U21BA> <F>                     : "ꟻ̬"
+<U0334> <U1DFB> <U21BA> <f>                     : "ꟻ̬"
+<U0334> <UAB35>                                 : "ꬵ̬"   # ꬵ (Lenis F) + Caron Below
+<U0334> <U1DFB> <minus> <f>                     : "ꬵ̬"
+<U0334> <U1DFB> <minus> <f>                     : "ꬵ̬"
 <U0334> <G>                                     : "G̬"
 <U0334> <g>                                     : "g̬"
+<U0334> <UA7AC>                                 : "Ɡ̬"   # Ɡ (Single-storey G) + Caron Below
+<U0334> <U0261>                                 : "ɡ̬"   # ɡ (Single-storey G) + Caron Below
+<U0334> <U035A> <G>                             : "Ɡ̬"
+<U0334> <U035A> <g>                             : "ɡ̬"
 <U0334> <U0194>                                 : "Ɣ̬"   # Ɣ (Latin Gamma) + Caron Below
 <U0334> <U0263>                                 : "ɣ̬"   # ɣ (Latin Gamma) + Caron Below
 <U0334> <dead_greek> <dead_circumflex> <G>      : "Ɣ̬"   # Ɣ (Latin Gamma) + Caron Below
 <U0334> <dead_greek> <dead_circumflex> <g>      : "ɣ̬"   # ɣ (Latin Gamma) + Caron Below
+<U0334> <UA77D>                                 : "Ᵹ̬"   # Ᵹ (Insular G) + Caron Below
+<U0334> <U1D79>                                 : "ᵹ̬"   # ᵹ (Insular G) + Caron Below
+<U0334> <U1DFB> <G>                             : "Ᵹ̬"
+<U0334> <U1DFB> <g>                             : "ᵹ̬"
+<U0334> <UA77E>                                 : "Ꝿ̬"   # Ꝿ (Turned Insular G) + Caron Below
+<U0334> <UA77F>                                 : "ꝿ̬"   # ꝿ (Turned Insular G) + Caron Below
+<U0334> <U1DFB> <01A2>                          : "Ꝿ̬"
+<U0334> <U1DFB> <01A3>                          : "ꝿ̬"
+<U0334> <U1DFB> <U1DCF> <G> <H>                 : "Ꝿ̬"
+<U0334> <U1DFB> <U1DCF> <g> <h>                 : "ꝿ̬"
+<U0334> <U1DFB> <U1DCF> <O> <I>                 : "Ꝿ̬"
+<U0334> <U1DFB> <U1DCF> <o> <i>                 : "ꝿ̬"
+<U0334> <UA7D0>                                 : "Ꟑ̬"   # Ꟑ (Closed Insular G) + Caron Below
+<U0334> <UA7D1>                                 : "ꟑ̬"   # ꟑ (Closed Insular G) + Caron Below
+<U0334> <U1DFB> <minus> <G>                     : "Ꟑ̬"
+<U0334> <U1DFB> <minus> <g>                     : "ꟑ̬"
+<U0334> <U1DF01>                                : "𝼁̬"   # 𝼁 (Reversed G) + Caron Below
+<U0334> <U1DFB> <U21BA> <g>                     : "𝼁̬"
+<U0334> <U1DFB> <U21BA> <g>                     : "𝼁̬"
 <U0334> <H>                                     : "H̬"
 <U0334> <h>                                     : "h̬"
 <U0334> <UA78D>                                 : "Ɥ̬"   # Ɥ (Turned H) + Caron Below
@@ -120,27 +180,69 @@
 <U0334> <U026A>                                 : "ɪ̬"   # ɪ (Near-close near-front unrounded vowel) + Caron Below
 <U0334> <U035A> <I>                             : "Ɪ̬"   # Ɪ (Near-close near-front unrounded vowel) + Caron Below
 <U0334> <U035A> <i>                             : "ɪ̬"   # ɪ (Near-close near-front unrounded vowel) + Caron Below
+<U0334> <UA7FE>                                 : "ꟾ̬"   # ꟾ (I Longa) + Caron Below
+<U0334> <UA7F7>                                 : "ꟷ̬"   # ꟷ (Sideways I) + Caron Below
+<U0334> <U1DFB> <U21BA> <I>                     : "ꟾ̬"
+<U0334> <U1DFB> <U21BA> <i>                     : "ꟷ̬"
+<U0334> <UA76C>                                 : "Ꝭ̬"   # Ꝭ (Is) + Caron Below
+<U0334> <UA76D>                                 : "ꝭ̬"   # ꝭ (Is) + Caron Below
+<U0334> <U1DFB> <I> <S>                         : "Ꝭ̬"
+<U0334> <U1DFB> <i> <s>                         : "ꝭ̬"
 <U0334> <J>                                     : "J̬"
 <U0334> <j>                                     : "j̬"
-<U0334> <U035A> <J>                             : "ɟ̬"   # ɟ (Barred Dotless J) + Caron Below
-<U0334> <U035A> <j>                             : "ɟ̬"   # ɟ (Barred Dotless J) + Caron Below
+<U0334> <U025F>                                 : "ɟ̬"   # ɟ (Barred Dotless J) + Caron Below
+<U0334> <U035A> <J>                             : "ɟ̬"
+<U0334> <U035A> <j>                             : "ɟ̬"
 <U0334> <K>                                     : "K̬"
 <U0334> <k>                                     : "k̬"
+<U0334> <U0138>                                 : "ĸ̬"   # ĸ (Kra) + Caron Below
+<U0334> <U1DFB> <K>                             : "ĸ̬"
+<U0334> <U1DFB> <k>                             : "ĸ̬"
+<U0334> <U1DF03>                                : "𝼃̬"   # 𝼃 (Reversed K) + Caron Below
+<U0334> <U1DFB> <U21BA> <K>                     : "𝼃̬"
+<U0334> <U1DFB> <U21BA> <k>                     : "𝼃̬"
 <U0334> <L>                                     : "L̬"
 <U0334> <l>                                     : "l̬"
 <U0334> <U1DF08>                                : "𝼈̬"   # 𝼈 (Retroflex lateral flap) + Caron Below
 <U0334> <U027A>                                 : "ɺ̬"   # ɺ (Lateral flap) + Caron Below
 <U0334> <U035A> <L>                             : "𝼈̬"   # 𝼈 (Retroflex lateral flap) + Caron Below
 <U0334> <U035A> <l>                             : "ɺ̬"   # ɺ (Lateral flap) + Caron Below
-<U0334> <UA7DA>                                 : "Ꟛ̴̬"   # Ꟛ (Latin Lambda) + Caron Below
-<U0334> <UA7DB>                                 : "ꟛ̴̬"   # ꟛ (Latin Lambda) + Caron Below
+<U0334> <UA7DA>                                 : "Ꟛ̬"   # Ꟛ (Latin Lambda) + Caron Below
+<U0334> <UA7DB>                                 : "ꟛ̬"   # ꟛ (Latin Lambda) + Caron Below
+<U0334> <UA746>                                 : "Ꝇ̬"   # Ꝇ (Broken L) + Caron Below
+<U0334> <UA747>                                 : "ꝇ̬"   # ꝇ (Broken L) + Caron Below
+<U0334> <U1DFB> <L>                             : "Ꝇ̬"
+<U0334> <U1DFB> <l>                             : "ꝇ̬"
+<U0334> <UA772>                                 : "ꝲ̬"   # ꝲ (Lum) + Caron Below
+<U0334> <U1DFB> <slash> <L>                     : "ꝲ̬"
+<U0334> <U1DFB> <slash> <l>                     : "ꝲ̬"
+<U0334> <U2143>                                 : "⅃̬"   # ⅃ (Roman Epigraphic L) + Caron Below
+<U0334> <U1DFB> <U21BA> <l>                     : "⅃̬"
+<U0334> <U1DFB> <U21BA> <l>                     : "⅃̬"
 <U0334> <M>                                     : "M̬"
 <U0334> <m>                                     : "m̬"
 <U0334> <U0270>                                 : "ɰ̬"   # ɰ (Voiced velar approximant) + Caron Below
 <U0334> <U035A> <M>                             : "ɰ̬"   # ɰ (Voiced velar approximant) + Caron Below
 <U0334> <U035A> <m>                             : "ɰ̬"   # ɰ (Voiced velar approximant) + Caron Below
+<U0334> <UA7FD>                                 : "ꟽ̬"   # ꟽ (Roman Epigraphic M) + Caron Below
+<U0334> <U21BA> <M>                             : "ꟽ̬"
+<U0334> <U21BA> <m>                             : "ꟽ̬"
+<U0334> <UA7FF>                                 : "ꟿ̬"  # ꟿ (Manius) + Caron Below
+<U0334> <U1DCF> <M> <W>                         : "ꟿ̬"
+<U0334> <U1DCF> <m> <w>                         : "ꟿ̬"
+<U0334> <UA773>                                 : "ꝳ̬"  # ꝳ (Mum) + Caron Below
+<U0334> <U1DFB> <slash> <M>                     : "ꝳ̬"
+<U0334> <U1DFB> <slash> <m>                     : "ꝳ̬"
 <U0334> <N>                                     : "N̬"
 <U0334> <n>                                     : "n̬"
+<U0334> <UA774>                                 : "ꝴ̬"   # ꝴ (Num) + Caron Below
+<U0334> <U1DFB> <slash> <N>                     : "ꝴ̬"
+<U0334> <U1DFB> <slash> <n>                     : "ꝴ̬"
+<U0334> <ENG>                                   : "Ŋ̬"   # Ŋ + Caron Below
+<U0334> <eng>                                   : "ŋ̬"   # ŋ + Caron Below
+<U0334> <U1DF07>                                : "𝼇̬"   # 𝼇 (Reversed Eng) + Caron Below
+<U0334> <U1DFB> <U21BA> <ENG>                   : "𝼇̬"
+<U0334> <U1DFB> <U21BA> <eng>                   : "𝼇̬"
 <U0334> <O>                                     : "O̬"
 <U0334> <o>                                     : "o̬"
 <U0334> <OE>                                    : "Œ̬"
@@ -153,12 +255,41 @@
 <U0334> <U1DCF> <o> <o>                         : "ꝏ̬"  # ꝏ + Caron Below
 <U0334> <U0186>                                 : "Ɔ̬"   # Ɔ + Caron Below
 <U0334> <U0254>                                 : "ɔ̬"   # ɔ + Caron Below
+<U0334> <U035A> <O>                             : "Ɔ̬"   # Ɔ + Caron Below
+<U0334> <U035A> <o>                             : "ɔ̬"   # ɔ + Caron Below
 <U0334> <UA7CB>                                 : "Ɤ̬"   # Ɤ (Ram's Horn) + Caron Below
 <U0334> <U0264>                                 : "ɤ̬"   # ɤ (Ram's Horn) + Caron Below
+<U0334> <U035A> <Oslash>                        : "Ɤ̬"   # Ɤ (Ram's Horn) + Caron Below
+<U0334> <U035A> <oslash>                        : "ɤ̬"   # ɤ (Ram's Horn) + Caron Below
+<U0334> <UA7C0>                                 : "Ꟁ̬"   # Ꟁ (Old Polish O) + Caron Below
+<U0334> <UA7C0>                                 : "ꟁ̬"   # ꟁ (Old Polish O) + Caron Below
+<U0334> <U1DFB> <Oslash>                        : "Ꟁ̬"
+<U0334> <U1DFB> <oslash>                        : "ꟁ̬"
+<U0334> <UA74A>                                 : "Ꝋ̬"   # Ꝋ + Caron Below
+<U0334> <UA74B>                                 : "ꝋ̬"   # ꝋ + Caron Below
+<U0334> <U1DFB> <O>                             : "Ꝋ̬"
+<U0334> <U1DFB> <o>                             : "ꝋ̬"
 <U0334> <P>                                     : "P̬"
 <U0334> <p>                                     : "p̬"
 <U0334> <U2183>                                 : "Ↄ̬"   # Ↄ (Antisigma) + Caron Below
 <U0334> <U2184>                                 : "ↄ̬"   # ↄ (Antisigma) + Caron Below
+<U0334> <UA73E>                                 : "Ꜿ̬"   # Ꜿ (Lunate Antisigma) + Caron Below
+<U0334> <UA73F>                                 : "ꜿ̬"   # ꜿ (Lunate Antisigma) + Caron Below
+<U0334> <U1DFB> <U2183>                         : "Ꜿ̬"
+<U0334> <U1DFB> <U2184>                         : "ꜿ̬"
+<U0334> <U1DFB> <periodcentered> <P> <S>        : "Ꜿ̬"
+<U0334> <U1DFB> <periodcentered> <p> <s>        : "ꜿ̬"
+<U0334> <UA7FC>                                 : "ꟼ̬"   # ꟼ (Roman Epigraphic P) + Caron Below
+<U0334> <U1DFB> <U21BA> <p>                     : "ꟼ̬"
+<U0334> <U1DFB> <U21BA> <p>                     : "ꟼ̬"
+<U0334> <UA752>                                 : "Ꝓ̬"   # Ꝓ + Caron Below
+<U0334> <UA753>                                 : "ꝓ̬"   # ꝓ + Caron Below
+<U0334> <U1DFB> <minus> <P>                     : "Ꝓ̬"
+<U0334> <U1DFB> <minus> <p>                     : "ꝓ̬"
+<U0334> <UA754>                                 : "Ꝕ̬"   # Ꝕ + Caron Below
+<U0334> <UA755>                                 : "ꝕ̬"   # ꝕ + Caron Below
+<U0334> <U1DFB> <plus> <P>                      : "Ꝕ̬"
+<U0334> <U1DFB> <plus> <p>                      : "ꝕ̬"
 <U0334> <Q>                                     : "Q̬"
 <U0334> <q>                                     : "q̬"
 <U0334> <R>                                     : "R̬"
@@ -170,23 +301,86 @@
 <U0334> <U21BA> <R>                             : "ɻ̬"   # ɻ + Caron Below
 <U0334> <U21BA> <r>                             : "ɹ̬"   # ɹ + Caron Below
 <U0334> <U027E>                                 : "ɾ̬"   # ɾ + Caron Below
+<U0334> <UAB45>                                 : "ꭅ̬"   # ꭅ (Teuthonista [ɾ]) + Caron Below
+<U0334> <U035A> <minus> <R>                     : "ꭅ̬"
+<U0334> <U035A> <minus> <r>                     : "ꭅ̬"
+<U0334> <UA782>                                 : "Ꞃ̬"   # Ꞃ (Insular R) + Caron Below
+<U0334> <UA783>                                 : "ꞃ̬"   # ꞃ (Insular R)  + Caron Below
+<U0334> <U1DFB> <R> <space>                     : "Ꞃ̬"
+<U0334> <U1DFB> <r> <space>                     : "ꞃ̬"
 <U0334> <U01A6>                                 : "Ʀ̬"   # Ʀ (Yr) + Caron Below
 <U0334> <U0280>                                 : "ʀ̬"   # ʀ (Yr) + Caron Below
+<U0334> <U1DFB> <Y> <R>                         : "Ʀ̬"
+<U0334> <U1DFB> <y> <r>                         : "ʀ̬"
 <U0334> <A75A>                                  : "Ꝛ̬"   # Ꝛ (R Rotunda) + Caron Below
 <U0334> <A75B>                                  : "ꝛ̬"   # ꝛ (R Rotunda) + Caron Below
+<U0334> <U1DFB> <minus> <R>                     : "Ꝛ̬"
+<U0334> <U1DFB> <minus> <r>                     : "ꝛ̬"
+<U0334> <UA75C>                                 : "Ꝝ̬"   # Ꝝ (Rum Rotunda) + Caron Below
+<U0334> <UA75D>                                 : "ꝝ̬"   # ꝝ (Rum Rotunda) + Caron Below
+<U0334> <U1DFB> <R> <U> <M>                     : "Ꝝ̬"
+<U0334> <U1DFB> <r> <u> <m>                     : "ꝝ̬"
+<U0334> <U1D19>                                 : "ᴙ̬"   # ᴙ (Reversed Smallcaps R) + Caron Below
+<U0334> <U1DFB> <U21BA> <R>                     : "ᴙ̬"
+<U0334> <U1DFB> <U21BA> <r>                     : "ᴙ̬"
+<U0334> <UA776>                                 : "ꝶ̬"   # ꝶ (Smallcaps Rum)
+<U0334> <UA775>                                 : "ꝵ̬"   # ꝵ (Rum)
+<U0334> <U1DFB> <slash> <R>                     : "ꝶ̬"
+<U0334> <U1DFB> <slash> <r>                     : "ꝵ̬"
 <U0334> <S>                                     : "S̬"
 <U0334> <s>                                     : "s̬"
 <U0334> <U017F>                                 : "ſ̬"   # ſ (Long S) + Caron Below
+<U0334> <U1DFB> <minus> <S>                     : "ſ̬"
+<U0334> <U1DFB> <minus> <s>                     : "ſ̬"
 <U0334> <U1E9E>                                 : "ẞ̬"   # ẞ (Eszett) + Caron Below
 <U0334> <ssharp>                                : "ß̬"
 <U0334> <U01A9>                                 : "Ʃ̬"   # Ʃ (Esh) + Caron Below
 <U0334> <U0283>                                 : "ʃ̬"   # ʃ (Esh) + Caron Below
 <U0334> <U035A> <S>                             : "Ʃ̬"   # Ʃ (Esh) + Caron Below
 <U0334> <U035A> <s>                             : "ʃ̬"   # ʃ (Esh) + Caron Below
+<U0334> <UA784>                                 : "Ꞅ̬"   # Ꞅ (Insular S) + Caron Below
+<U0334> <UA785>                                 : "ꞅ̬"   # ꞅ (Insular S) + Caron Below
+<U0334> <U1DFB> <S> <space>                     : "Ꞅ̬"
+<U0334> <U1DFB> <s> <space>                     : "ꞅ̬"
+<U0334> <UA7D8>                                 : "Ꟙ̬"   # Ꟙ (Sigmoid S) + Caron Below
+<U0334> <UA7D9>                                 : "ꟙ̬"   # ꟙ (Sigmoid S) + Caron Below
+<U0334> <U1DFB> <S> <S>                         : "Ꟙ̬"
+<U0334> <U1DFB> <s> <s>                         : "ꟙ̬"
+<U0334> <UA7D6>                                 : "Ꟗ̬"   # Ꟗ (Middle Scots S) + Caron Below
+<U0334> <UA7D7>                                 : "ꟗ̬"   # ꟗ (Middle Scots S) + Caron Below
+<U0334> <U1DFB> <U1E9E>                         : "Ꟗ̬"
+<U0334> <U1DFB> <ssharp>                        : "ꟗ̬"
+<U0334> <U01A7>                                 : "Ƨ̬"   # Ƨ (Tone Two) + Caron Below
+<U0334> <U01A8>                                 : "ƨ̬"   # ƨ (Tone Two) + Caron Below
+<U0334> <U1DFB> <S> <2>                         : "Ƨ̬"
+<U0334> <U1DFB> <s> <2>                         : "ƨ̬"
+<U0334> <UA72A>                                 : "Ꜫ̬"   # Ꜫ (Tresillo) + Caron Below
+<U0334> <UA72B>                                 : "ꜫ̬"   # ꜫ (Tresillo) + Caron Below
+<U0334> <U1DFB> <S> <3>                         : "Ꜫ̬"
+<U0334> <U1DFB> <s> <3>                         : "ꜫ̬"
+<U0334> <UA72C>                                 : "Ꜭ̬"   # Ꜭ (Cuatrillo) + Caron Below
+<U0334> <UA72D>                                 : "ꜭ̬"   # ꜭ (Cuatrillo) + Caron Below
+<U0334> <U1DFB> <S> <4>                         : "Ꜭ̬"
+<U0334> <U1DFB> <s> <4>                         : "ꜭ̬"
+<U0334> <U01BC>                                 : "Ƽ̬"   # Ƽ (Tone Five) + Caron Below
+<U0334> <U01BD>                                 : "ƽ̬"   # ƽ (Tone Five) + Caron Below
+<U0334> <U1DFB> <S> <5>                         : "Ƽ̬"
+<U0334> <U1DFB> <s> <5>                         : "ƽ̬"
+<U0334> <U0184>                                 : "Ƅ̬"   # Ƅ (Tone Six) + Caron Below
+<U0334> <U0185>                                 : "ƅ̬"   # ƅ (Tone Six) + Caron Below
+<U0334> <U1DFB> <S> <6>                         : "Ƅ̬"
+<U0334> <U1DFB> <s> <6>                         : "ƅ̬"
 <U0334> <T>                                     : "T̬"
 <U0334> <t>                                     : "t̬"
 <U0334> <THORN>                                 : "Þ̬"
 <U0334> <thorn>                                 : "þ̬"
+<U0334> <UA786>                                 : "Ꞇ̬"   # Ꞇ (Insular T) + Caron Below
+<U0334> <UA787>                                 : "ꞇ̬"   # ꞇ (Insular T) + Caron Below
+<U0334> <U1DFB> <T> <space>                     : "Ꞇ̬"
+<U0334> <U1DFB> <t> <space>                     : "ꞇ̬"
+<U0334> <UA777>                                 : "ꝷ̬"   # ꝷ (Tum) + Caron Below
+<U0334> <U1DFB> <T> <U> <M>                     : "ꝷ̬"
+<U0334> <U1DFB> <t> <u> <m>                     : "ꝷ̬"
 <U0334> <U>                                     : "U̬"
 <U0334> <u>                                     : "u̬"
 <U0334> <U01B1>                                 : "Ʊ̬"   # Ʊ (Latin Upsilon) + Caron Below
@@ -197,6 +391,9 @@
 <U0334> <U026F>                                 : "ɯ̬"   # ɯ (Turned M) + Caron Below
 <U0334> <U21BA> <M>                             : "Ɯ̬"   # Ɯ (Turned M) + Caron Below
 <U0334> <U21BA> <m>                             : "ɯ̬"   # ɯ (Turned M) + Caron Below
+<U0334> <UA778>                                 : "ꝸ̬"   # ꝸ (Um) + Caron Below
+<U0334> <U1DFB> <U> <M>                         : "ꝸ̬"
+<U0334> <U1DFB> <u> <m>                         : "ꝸ̬"
 <U0334> <V>                                     : "V̬"
 <U0334> <v>                                     : "v̬"
 <U0334> <U0245>                                 : "Ʌ̬"   # Ʌ + Caron Below
@@ -207,12 +404,28 @@
 <U0334> <U028B>                                 : "ʋ̬"   # ʋ + Caron Below
 <U0334> <UA768>                                 : "Ꝩ̬"   # Ꝩ (Vend) + Caron Below
 <U0334> <UA769>                                 : "ꝩ̬"   # ꝩ (Vend) + Caron Below
+<U0334> <U1DFB> <minus> <V>                     : "Ꝩ̬"
+<U0334> <U1DFB> <minus> <v>                     : "ꝩ̬"
+<U0334> <U1EFC>                                 : "Ỽ̬"   # Ỽ (Middle Welsh V) + Caron Below
+<U0334> <U1EFD>                                 : "ỽ̬"   # ỽ (Middle Welsh V) + Caron Below
+<U0334> <U1DFB> <V>                             : "Ỽ̬"
+<U0334> <U1DFB> <v>                             : "ỽ̬"
 <U0334> <W>                                     : "W̬"
 <U0334> <w>                                     : "w̬"
+<U0334> <U01F7>                                 : "Ƿ̬"   # Ƿ (Wynn) + Caron Below
+<U0334> <U01BF>                                 : "ƿ̬"   # ƿ (Wynn) + Caron Below
+<U0334> <U1DFB> <W>                             : "Ƿ̬"
+<U0334> <U1DFB> <w>                             : "ƿ̬"
+<U0334> <U2132>                                 : "Ⅎ̬"   # Ⅎ (Digamma Inversum) + Caron Below
+<U0334> <U214E>                                 : "ⅎ̬"   # ⅎ (Digamma Inversum) + Caron Below
 <U0334> <UA760>                                 : "Ꝡ̬"   # Ꝡ + Caron Below
 <U0334> <UA761>                                 : "ꝡ̬"   # ꝡ + Caron Below
 <U0334> <U1DCF> <V> <Y>                         : "Ꝡ̬"
 <U0334> <U1DCF> <v> <y>                         : "ꝡ̬"
+<U0334> <UA7C2>                                 : "Ꟃ̬"   # Ꟃ (W Anglicana) + Caron Below
+<U0334> <UA7C3>                                 : "ꟃ̬"   # ꟃ (W Anglicana) + Caron Below
+<U0334> <U1DCF> <V> <Z>                         : "Ꟃ̬"
+<U0334> <U1DCF> <v> <Z>                         : "ꟃ̬"
 <U0334> <X>                                     : "X̬"
 <U0334> <x>                                     : "x̬"
 <U0334> <Y>                                     : "Y̬"
@@ -221,10 +434,18 @@
 <U0334> <U21BA> <y>                             : "ʎ̬"   # ʎ + Caron Below
 <U0334> <U21BA> <Y>                             : "⅄̬"   # ⅄ + Caron Below
 <U0334> <U21BA> <y>                             : "ʎ̬"   # ʎ + Caron Below
+<U0334> <U021C>                                 : "Ȝ̬"   # Ȝ (Yogh) + Caron Below
+<U0334> <U021D>                                 : "ȝ̬"   # ȝ (Yogh) + Caron Below
+<U0334> <U1DFB> <Y> <O>                         : "Ȝ̬"
+<U0334> <U1DFB> <y> <o>                         : "ȝ̬"
 <U0334> <Z>                                     : "Z̬"
 <U0334> <z>                                     : "z̬"
 <U0334> <EZH>                                   : "Ʒ̬"   # Ʒ + Caron Below
 <U0334> <ezh>                                   : "ʒ̬"   # ʒ + Caron Below
+<U0334> <UA762>                                 : "Ꝣ̬"   # Ꝣ (Visigothic Z) + Caron Below
+<U0334> <UA763>                                 : "ꝣ̬"   # ꝣ (Visigothic Z) + Caron Below
+<U0334> <U1DCF> <C> <Z>                         : "Ꝣ̬"
+<U0334> <U1DCF> <c> <z>                         : "ꝣ̬"
 <U0334> <U0294>                                 : "ʔ̬"   # ʔ (Glottal Stop) + Caron Below
 <U0334> <U035A> <question>                      : "ʔ̬"   # ʔ (Glottal Stop) + Caron Below
 <U0334> <U035A> <U0241> <space>                 : "ʔ̬"   # Ɂ (Capital Glottal Stop) + Caron Below
@@ -235,6 +456,17 @@
 <U0334> <U035A> <questiondown>                  : "ʕ̬"   # ʕ (Turned Glottal Glottal Stop) + Caron Below
 <U0334> <U035A> <U0241> <underscore> <space>    : "ʕ̬"   # Ɂ (Capital Glottal Stop) + "_" + Caron Below
 <U0334> <U035A> <U0242> <underscore> <space>    : "ʕ̬"   # ɂ (Small Glottal Stop) + "_" + Caron Below
+<U0334> <UA722>                                 : "Ꜣ̬"   # Ꜣ (Egyptological Alef) + Caron Below
+<U0334> <UA723>                                 : "ꜣ̬"   # ꜣ (Egyptological Alef) + Caron Below
+<U0334> <U1DFB> <U0241>                         : "Ꜣ̬"
+<U0334> <U1DFB> <U0242>                         : "ꜣ̬"
+<U0334> <UA724>                                 : "Ꜥ̬"   # Ꜥ (Egyptological Ayin) + Caron Below
+<U0334> <UA725>                                 : "ꜥ̬"   # ꜥ (Egyptological Ayin) + Caron Below
+<U0334> <U1DFB> <UA78B>                         : "Ꜥ̬"
+<U0334> <U1DFB> <UA78C>                         : "ꜥ̬"
+<U0334> <U1D25>                                 : "ᴥ̬"   # ᴥ (UPA Ain) + Caron Below
+<U0334> <U1DFB> <minus> <U0241>                 : "ᴥ̬"
+<U0334> <U1DFB> <minus> <U0242>                 : "ᴥ̬"
 
 
 # Composed caron below combinations (Not directly encoded in Unicode) (Unidirectional)

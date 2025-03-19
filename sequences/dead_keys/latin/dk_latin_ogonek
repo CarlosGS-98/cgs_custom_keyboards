@@ -70,14 +70,35 @@
 <dead_ogonek> <UA7B5>                               : "ꞵ̨"   # ꞵ (Latin Beta) + Ogonek
 <dead_ogonek> <dead_greek> <dead_circumflex> <B>    : "Ꞵ̨"   # Ꞵ (Latin Beta) + Ogonek
 <dead_ogonek> <dead_greek> <dead_circumflex> <b>    : "ꞵ̨"   # ꞵ (Latin Beta) + Ogonek
+<dead_ogonek> <UA796>                               : "Ꞗ̨"   # Ꞗ (Middle Vietnamese B) + Ogonek
+<dead_ogonek> <UA797>                               : "ꞗ̨"   # ꞗ (Middle Vietnamese B) + Ogonek
+<dead_ogonek> <U1DFB> <B>                           : "Ꞗ̨"
+<dead_ogonek> <U1DFB> <b>                           : "ꞗ̨"
 <dead_ogonek> <C>                                   : "C̨"
 <dead_ogonek> <c>                                   : "c̨"
+<dead_ogonek> <UA76E>                               : "Ꝯ̨"   # Ꝯ (Con/Us) + Ogonek
+<dead_ogonek> <UA76F>                               : "ꝯ̨"   # ꝯ (Con/Us) + Ogonek
+<dead_ogonek> <U1DFB> <C> <O> <N>                   : "Ꝯ̨"
+<dead_ogonek> <U1DFB> <c> <o> <n>                   : "ꝯ̨"
+<dead_ogonek> <U1DFB> <U> <S>                       : "Ꝯ̨"
+<dead_ogonek> <U1DFB> <u> <s>                       : "ꝯ̨"
 <dead_ogonek> <D>                                   : "D̨"
 <dead_ogonek> <d>                                   : "d̨"
+<dead_ogonek> <U1E9F>                               : "ẟ̨"   # ẟ (Latin Delta) + Ogonek
+<dead_ogonek> <dead_greek> <dead_circumflex> <D>    : "ẟ̨"
+<dead_ogonek> <dead_greek> <dead_circumflex> <d>    : "ẟ̨"
+<dead_ogonek> <U018D>                               : "ƍ̨"   # ƍ (Turned Latin Delta) + Ogonek
+<dead_ogonek> <dead_greek> <dead_circumflex> <ETH>  : "ƍ̨"
+<dead_ogonek> <dead_greek> <dead_circumflex> <eth>  : "ƍ̨"
 <dead_ogonek> <ETH>                                 : "Ð̨"
 <dead_ogonek> <eth>                                 : "ð̨"
 <dead_ogonek> <UA779>                               : "Ꝺ̨"   # Ꝺ (Insular D) + Ogonek
 <dead_ogonek> <UA77A>                               : "ꝺ̨"   # ꝺ (Insular D) + Ogonek
+<dead_ogonek> <U1DFB> <D>                           : "Ꝺ̨"
+<dead_ogonek> <U1DFB> <d>                           : "ꝺ̨"
+<dead_ogonek> <UA771>                               : "ꝱ̨"   # ꝱ (Dum) + Ogonek
+<dead_ogonek> <U1DFB> <slash> <D>                   : "ꝱ̨"
+<dead_ogonek> <U1DFB> <slash> <d>                   : "ꝱ̨"
 <dead_ogonek> <U0190>                               : "Ɛ̨"   # Ɛ (Latin Epsilon) + Ogonek
 <dead_ogonek> <U025B>                               : "ɛ̨"   # ɛ (Latin Epsilon) + Ogonek
 <dead_ogonek> <dead_greek> <dead_circumflex> <E>    : "Ɛ̨"   # Ɛ (Latin Epsilon) + Ogonek
@@ -103,6 +124,14 @@
 <dead_ogonek> <U01DD>                               : "ǝ̨"   # ǝ (Turned E) + Ogonek
 <dead_ogonek> <U21BA> <E>                           : "Ǝ̨"   # Ǝ (Turned E) + Ogonek
 <dead_ogonek> <U21BA> <e>                           : "ǝ̨"   # ǝ (Turned E) + Ogonek
+<dead_ogonek> <UA76A>                               : "Ꝫ̨"   # Ꝫ (Et) + Ogonek
+<dead_ogonek> <UA76B>                               : "ꝫ̨"   # ꝫ (Et) + Ogonek
+<dead_ogonek> <U1DFB> <ampersand> <E> <T>           : "Ꝫ̨"
+<dead_ogonek> <U1DFB> <ampersand> <e> <t>           : "ꝫ̨"
+<dead_ogonek> <U2E52>                               : "⹒̨"   # ⹒ (Tironian Et) + Ogonek
+<dead_ogonek> <U204A>                               : "⁊̨"   # ⁊ (Tironian Et) + Ogonek
+<dead_ogonek> <U1DFB> <E> <T>                       : "⹒̨"
+<dead_ogonek> <U1DFB> <e> <t>                       : "⁊̨"
 <dead_ogonek> <F>                                   : "F̨"
 <dead_ogonek> <f>                                   : "f̨"
 <dead_ogonek> <U0278>                               : "ɸ̨"   # ɸ (Latin Phi) + Ogonek
@@ -110,14 +139,45 @@
 <dead_ogonek> <dead_greek> <dead_circumflex> <f>    : "ɸ̨"   # ɸ (Latin Phi) + Ogonek
 <dead_ogonek> <UA77B>                               : "Ꝼ̨"   # Ꝼ (Insular F) + Ogonek
 <dead_ogonek> <UA77C>                               : "ꝼ̨"   # ꝼ (Insular F) + Ogonek
+<dead_ogonek> <U1DFB> <F>                           : "Ꝼ̨"   # Ꝼ (Insular F) + Ogonek
+<dead_ogonek> <U1DFB> <f>                           : "ꝼ̨"   # ꝼ (Insular F) + Ogonek
+<dead_ogonek> <UA7FB>                               : "ꟻ̨"   # ꟻ (Roman Epigraphic F) + Ogonek
+<dead_ogonek> <U1DFB> <U21BA> <F>                   : "ꟻ̨"
+<dead_ogonek> <U1DFB> <U21BA> <f>                   : "ꟻ̨"
+<dead_ogonek> <UAB35>                               : "ꬵ̨"   # ꬵ (Lenis F) + Ogonek
+<dead_ogonek> <U1DFB> <minus> <f>                   : "ꬵ̨"
+<dead_ogonek> <U1DFB> <minus> <f>                   : "ꬵ̨"
 <dead_ogonek> <G>                                   : "G̨"
 <dead_ogonek> <g>                                   : "g̨"
+<dead_ogonek> <UA7AC>                               : "Ɡ̨"   # Ɡ (Single-storey G) + Ogonek
+<dead_ogonek> <U0261>                               : "ɡ̨"   # ɡ (Single-storey G) + Ogonek
+<dead_ogonek> <U035A> <G>                           : "Ɡ̨"
+<dead_ogonek> <U035A> <g>                           : "ɡ̨"
 <dead_ogonek> <H>                                   : "H̨"
 <dead_ogonek> <h>                                   : "h̨"
 <dead_ogonek> <U0194>                               : "Ɣ̨"   # Ɣ (Latin Gamma) + Ogonek
 <dead_ogonek> <U0263>                               : "ɣ̨"   # ɣ (Latin Gamma) + Ogonek
 <dead_ogonek> <dead_greek> <dead_circumflex> <G>    : "Ɣ̨"   # Ɣ (Latin Gamma) + Ogonek
 <dead_ogonek> <dead_greek> <dead_circumflex> <g>    : "ɣ̨"   # ɣ (Latin Gamma) + Ogonek
+<dead_ogonek> <UA77D>                               : "Ᵹ̨"   # Ᵹ (Insular G) + Ogonek
+<dead_ogonek> <U1D79>                               : "ᵹ̨"   # ᵹ (Insular G) + Ogonek
+<dead_ogonek> <U1DFB> <G>                           : "Ᵹ̨"
+<dead_ogonek> <U1DFB> <g>                           : "ᵹ̨"
+<dead_ogonek> <UA77E>                               : "Ꝿ̨"   # Ꝿ (Turned Insular G) + Ogonek
+<dead_ogonek> <UA77F>                               : "ꝿ̨"   # ꝿ (Turned Insular G) + Ogonek
+<dead_ogonek> <U1DFB> <01A2>                        : "Ꝿ̨"
+<dead_ogonek> <U1DFB> <01A3>                        : "ꝿ̨"
+<dead_ogonek> <U1DFB> <U1DCF> <G> <H>               : "Ꝿ̨"
+<dead_ogonek> <U1DFB> <U1DCF> <g> <h>               : "ꝿ̨"
+<dead_ogonek> <U1DFB> <U1DCF> <O> <I>               : "Ꝿ̨"
+<dead_ogonek> <U1DFB> <U1DCF> <o> <i>               : "ꝿ̨"
+<dead_ogonek> <UA7D0>                               : "Ꟑ̨"   # Ꟑ (Closed Insular G) + Ogonek
+<dead_ogonek> <UA7D1>                               : "ꟑ̨"   # ꟑ (Closed Insular G) + Ogonek
+<dead_ogonek> <U1DFB> <minus> <G>                   : "Ꟑ̨"
+<dead_ogonek> <U1DFB> <minus> <g>                   : "ꟑ̨"
+<dead_ogonek> <U1DF01>                              : "𝼁̨"   # 𝼁 (Reversed G) + Ogonek
+<dead_ogonek> <U1DFB> <U21BA> <g>                   : "𝼁̨"
+<dead_ogonek> <U1DFB> <U21BA> <g>                   : "𝼁̨"
 <dead_ogonek> <UA78D>                               : "Ɥ̨"   # Ɥ (Turned H) + Ogonek
 <dead_ogonek> <U0265>                               : "ɥ̨"   # ɥ (Turned H) + Ogonek
 <dead_ogonek> <U21BA> <H>                           : "Ɥ̨"   # Ɥ (Turned H) + Ogonek
@@ -128,27 +188,71 @@
 <dead_ogonek> <U026A>                               : "ɪ̨"   # ɪ (Near-close near-front unrounded vowel) + Ogonek
 <dead_ogonek> <U035A> <I>                           : "Ɪ̨"   # Ɪ (Near-close near-front unrounded vowel) + Ogonek
 <dead_ogonek> <U035A> <i>                           : "ɪ̨"   # ɪ (Near-close near-front unrounded vowel) + Ogonek
+<dead_ogonek> <UA7FE>                               : "ꟾ̨"   # ꟾ (I Longa) + Ogonek
+<dead_ogonek> <UA7F7>                               : "ꟷ̨"   # ꟷ (Sideways I) + Ogonek
+<dead_ogonek> <U1DFB> <U21BA> <I>                   : "ꟾ̨"
+<dead_ogonek> <U1DFB> <U21BA> <i>                   : "ꟷ̨"
+<dead_ogonek> <UA76C>                               : "Ꝭ̨"   # Ꝭ (Is) + Ogonek
+<dead_ogonek> <UA76D>                               : "ꝭ̨"   # ꝭ (Is) + Ogonek
+<dead_ogonek> <U1DFB> <I> <S>                       : "Ꝭ̨"
+<dead_ogonek> <U1DFB> <i> <s>                       : "ꝭ̨"
 <dead_ogonek> <J>                                   : "J̨"
 <dead_ogonek> <j>                                   : "j̨"
+<dead_ogonek> <U025F>                               : "ɟ̨"   # ɟ (Barred Dotless J) + Ogonek
 <dead_ogonek> <U035A> <J>                           : "ɟ̨"   # ɟ (Barred Dotless J) + Ogonek
 <dead_ogonek> <U035A> <j>                           : "ɟ̨"   # ɟ (Barred Dotless J) + Ogonek
 <dead_ogonek> <K>                                   : "K̨"
 <dead_ogonek> <k>                                   : "k̨"
+<dead_ogonek> <U0138>                               : "ĸ̨"   # ĸ (Kra) + Ogonek
+<dead_ogonek> <U1DFB> <K>                           : "ĸ̨"
+<dead_ogonek> <U1DFB> <k>                           : "ĸ̨"
+<dead_ogonek> <U1DF03>                              : "𝼃̨"   # 𝼃 (Reversed K) + Ogonek
+<dead_ogonek> <U1DFB> <U21BA> <K>                   : "𝼃̨"
+<dead_ogonek> <U1DFB> <U21BA> <k>                   : "𝼃̨"
 <dead_ogonek> <L>                                   : "L̨"
 <dead_ogonek> <l>                                   : "l̨"
 <dead_ogonek> <U1DF08>                              : "𝼈̨"   # 𝼈 (Retroflex lateral flap) + Ogonek
 <dead_ogonek> <U027A>                               : "ɺ̨"   # ɺ (Lateral flap) + Ogonek
 <dead_ogonek> <U035A> <L>                           : "𝼈̨"   # 𝼈 (Retroflex lateral flap) + Ogonek
 <dead_ogonek> <U035A> <l>                           : "ɺ̨"   # ɺ (Lateral flap) + Ogonek
+<dead_ogonek> <UA7DA>                               : "Ꟛ̴̨"   # Ꟛ (Latin Lambda) + Ogonek
+<dead_ogonek> <UA7DB>                               : "ꟛ̴̨"   # ꟛ (Latin Lambda) + Ogonek
+<dead_ogonek> <UA746>                               : "Ꝇ̨"   # Ꝇ (Broken L) + Ogonek
+<dead_ogonek> <UA747>                               : "ꝇ̨"   # ꝇ (Broken L) + Ogonek
+<dead_ogonek> <U1DFB> <L>                           : "Ꝇ̨"
+<dead_ogonek> <U1DFB> <l>                           : "ꝇ̨"
+<dead_ogonek> <UA772>                               : "ꝲ̨"   # ꝲ (Lum) + Ogonek
+<dead_ogonek> <U1DFB> <slash> <L>                   : "ꝲ̨"
+<dead_ogonek> <U1DFB> <slash> <l>                   : "ꝲ̨"
+<dead_ogonek> <U2143>                               : "⅃̨"   # ⅃ (Roman Epigraphic L) + Ogonek
+<dead_ogonek> <U1DFB> <U21BA> <l>                   : "⅃̨"
+<dead_ogonek> <U1DFB> <U21BA> <l>                   : "⅃̨"
 <dead_ogonek> <M>                                   : "M̨"
 <dead_ogonek> <m>                                   : "m̨"
 <dead_ogonek> <U0270>                               : "ɰ̨"   # ɰ (Voiced velar approximant) + Ogonek
 <dead_ogonek> <U035A> <M>                           : "ɰ̨"   # ɰ (Voiced velar approximant) + Ogonek
 <dead_ogonek> <U035A> <m>                           : "ɰ̨"   # ɰ (Voiced velar approximant) + Ogonek
+<dead_ogonek> <UA7FD>                               : "ꟽ̨"   # ꟽ (Roman Epigraphic M) + Ogonek
+<dead_ogonek> <U21BA> <M>                           : "ꟽ̨"
+<dead_ogonek> <U21BA> <m>                           : "ꟽ̨"
+<dead_ogonek> <UA7FF>                               : "ꟿ̨"  # ꟿ (Manius) + Ogonek
+<dead_ogonek> <U1DCF> <M> <W>                       : "ꟿ̨"
+<dead_ogonek> <U1DCF> <m> <w>                       : "ꟿ̨"
+<dead_ogonek> <UA773>                               : "ꝳ̨"  # ꝳ (Mum) + Ogonek
+<dead_ogonek> <U1DFB> <slash> <M>                   : "ꝳ̨"
+<dead_ogonek> <U1DFB> <slash> <m>                   : "ꝳ̨"
 <dead_ogonek> <N>                                   : "N̨"
 <dead_ogonek> <n>                                   : "n̨"
+<dead_ogonek> <UA774>                               : "ꝴ̨"   # ꝴ (Num) + Ogonek
+<dead_ogonek> <U1DFB> <slash> <N>                   : "ꝴ̨"
+<dead_ogonek> <U1DFB> <slash> <n>                   : "ꝴ̨"
 <dead_ogonek> <ENG>                                 : "Ŋ̨"   # Ŋ + Ogonek
 <dead_ogonek> <eng>                                 : "ŋ̨"   # ŋ + Ogonek
+<dead_ogonek> <ENG>                                 : "Ŋ̨"   # Ŋ + Ogonek
+<dead_ogonek> <eng>                                 : "ŋ̨"   # ŋ + Ogonek
+<dead_ogonek> <U1DF07>                              : "𝼇̨"   # 𝼇 (Reversed Eng) + Ogonek
+<dead_ogonek> <U1DFB> <U21BA> <ENG>                 : "𝼇̨"
+<dead_ogonek> <U1DFB> <U21BA> <eng>                 : "𝼇̨"
 <dead_ogonek> <OE>                                  : "Œ̨"
 <dead_ogonek> <oe>                                  : "œ̨"
 <dead_ogonek> <U1DCF> <O> <E>                       : "Œ̨"
@@ -159,10 +263,41 @@
 <dead_ogonek> <U1DCF> <o> <o>                       : "ꝏ̨"  # ꝏ + Ogonek
 <dead_ogonek> <U0186>                               : "Ɔ̨"   # Ɔ + Ogonek
 <dead_ogonek> <U0254>                               : "ɔ̨"   # ɔ + Ogonek
+<dead_ogonek> <U035A> <O>                           : "Ɔ̨"   # Ɔ + Ogonek
+<dead_ogonek> <U035A> <o>                           : "ɔ̨"   # ɔ + Ogonek
 <dead_ogonek> <UA7CB>                               : "Ɤ̨"   # Ɤ (Ram's Horn) + Ogonek
 <dead_ogonek> <U0264>                               : "ɤ̨"   # ɤ (Ram's Horn) + Ogonek
+<dead_ogonek> <U035A> <Oslash>                      : "Ɤ̨"   # Ɤ (Ram's Horn) + Ogonek
+<dead_ogonek> <U035A> <oslash>                      : "ɤ̨"   # ɤ (Ram's Horn) + Ogonek
+<dead_ogonek> <UA7C0>                               : "Ꟁ̨"   # Ꟁ (Old Polish O) + Ogonek
+<dead_ogonek> <UA7C0>                               : "ꟁ̨"   # ꟁ (Old Polish O) + Ogonek
+<dead_ogonek> <U1DFB> <Oslash>                      : "Ꟁ̨"
+<dead_ogonek> <U1DFB> <oslash>                      : "ꟁ̨"
+<dead_ogonek> <UA74A>                               : "Ꝋ̨"   # Ꝋ + Ogonek
+<dead_ogonek> <UA74B>                               : "ꝋ̨"   # ꝋ + Ogonek
+<dead_ogonek> <U1DFB> <O>                           : "Ꝋ̨"
+<dead_ogonek> <U1DFB> <o>                           : "ꝋ̨"
 <dead_ogonek> <P>                                   : "P̨"
 <dead_ogonek> <p>                                   : "p̨"
+<dead_ogonek> <U2183>                               : "Ↄ̨"   # Ↄ (Antisigma) + Ogonek
+<dead_ogonek> <U2184>                               : "ↄ̨"   # ↄ (Antisigma) + Ogonek
+<dead_ogonek> <UA73E>                               : "Ꜿ̨"   # Ꜿ (Lunate Antisigma) + Ogonek
+<dead_ogonek> <UA73F>                               : "ꜿ̨"   # ꜿ (Lunate Antisigma) + Ogonek
+<dead_ogonek> <U1DFB> <U2183>                       : "Ꜿ̨"
+<dead_ogonek> <U1DFB> <U2184>                       : "ꜿ̨"
+<dead_ogonek> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̨"
+<dead_ogonek> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̨"
+<dead_ogonek> <UA7FC>                               : "ꟼ̨"   # ꟼ (Roman Epigraphic P) + Ogonek
+<dead_ogonek> <U1DFB> <U21BA> <p>                   : "ꟼ̨"
+<dead_ogonek> <U1DFB> <U21BA> <p>                   : "ꟼ̨"
+<dead_ogonek> <UA752>                               : "Ꝓ̨"   # Ꝓ + Ogonek
+<dead_ogonek> <UA753>                               : "ꝓ̨"   # ꝓ + Ogonek
+<dead_ogonek> <U1DFB> <minus> <P>                   : "Ꝓ̨"
+<dead_ogonek> <U1DFB> <minus> <p>                   : "ꝓ̨"
+<dead_ogonek> <UA754>                               : "Ꝕ̨"   # Ꝕ + Ogonek
+<dead_ogonek> <UA755>                               : "ꝕ̨"   # ꝕ + Ogonek
+<dead_ogonek> <U1DFB> <plus> <P>                    : "Ꝕ̨"
+<dead_ogonek> <U1DFB> <plus> <p>                    : "ꝕ̨"
 <dead_ogonek> <Q>                                   : "Q̨"
 <dead_ogonek> <q>                                   : "q̨"
 <dead_ogonek> <R>                                   : "R̨"
@@ -173,22 +308,87 @@
 <dead_ogonek> <U035A> <r>                           : "ɹ̨"   # ɹ + Ogonek
 <dead_ogonek> <U21BA> <R>                           : "ɻ̨"   # ɻ + Ogonek
 <dead_ogonek> <U21BA> <r>                           : "ɹ̨"   # ɹ + Ogonek
+<dead_ogonek> <U027E>                               : "ɾ̨"   # ɾ + Ogonek
+<dead_ogonek> <UAB45>                               : "ꭅ̨"   # ꭅ (Teuthonista [ɾ]) + Ogonek
+<dead_ogonek> <U035A> <minus> <R>                   : "ꭅ̨"
+<dead_ogonek> <U035A> <minus> <r>                   : "ꭅ̨"
+<dead_ogonek> <UA782>                               : "Ꞃ̨"   # Ꞃ (Insular R) + Ogonek
+<dead_ogonek> <UA783>                               : "ꞃ̨"   # ꞃ (Insular R)  + Ogonek
+<dead_ogonek> <U1DFB> <R> <space>                   : "Ꞃ̨"
+<dead_ogonek> <U1DFB> <r> <space>                   : "ꞃ̨"
 <dead_ogonek> <U01A6>                               : "Ʀ̨"   # Ʀ (Yr) + Ogonek
 <dead_ogonek> <U0280>                               : "ʀ̨"   # ʀ (Yr) + Ogonek
+<dead_ogonek> <U1DFB> <Y> <R>                       : "Ʀ̨"
+<dead_ogonek> <U1DFB> <y> <r>                       : "ʀ̨"
 <dead_ogonek> <A75A>                                : "Ꝛ̨"   # Ꝛ (R Rotunda) + Ogonek
 <dead_ogonek> <A75B>                                : "ꝛ̨"   # ꝛ (R Rotunda) + Ogonek
+<dead_ogonek> <U1DFB> <minus> <R>                   : "Ꝛ̨"
+<dead_ogonek> <U1DFB> <minus> <r>                   : "ꝛ̨"
+<dead_ogonek> <UA75C>                               : "Ꝝ̨"   # Ꝝ (Rum Rotunda) + Ogonek
+<dead_ogonek> <UA75D>                               : "ꝝ̨"   # ꝝ (Rum Rotunda) + Ogonek
+<dead_ogonek> <U1DFB> <R> <U> <M>                   : "Ꝝ̨"
+<dead_ogonek> <U1DFB> <r> <u> <m>                   : "ꝝ̨"
+<dead_ogonek> <U1D19>                               : "ᴙ̨"   # ᴙ (Reversed Smallcaps R) + Ogonek
+<dead_ogonek> <U1DFB> <U21BA> <R>                   : "ᴙ̨"
+<dead_ogonek> <U1DFB> <U21BA> <r>                   : "ᴙ̨"
+<dead_ogonek> <UA776>                               : "ꝶ̨"   # ꝶ (Smallcaps Rum)
+<dead_ogonek> <UA775>                               : "ꝵ̨"   # ꝵ (Rum)
+<dead_ogonek> <U1DFB> <slash> <R>                   : "ꝶ̨"
+<dead_ogonek> <U1DFB> <slash> <r>                   : "ꝵ̨"
 <dead_ogonek> <S>                                   : "S̨"
 <dead_ogonek> <s>                                   : "s̨"
+<dead_ogonek> <U017F>                               : "ſ̨"   # ſ (Long S) + Ogonek
+<dead_ogonek> <U1DFB> <minus> <S>                   : "ſ̨"
+<dead_ogonek> <U1DFB> <minus> <s>                   : "ſ̨"
 <dead_ogonek> <U1E9E>                               : "ẞ̨"   # ẞ (Eszett) + Ogonek
 <dead_ogonek> <ssharp>                              : "ß̨"
 <dead_ogonek> <U01A9>                               : "Ʃ̨"   # Ʃ (Esh) + Ogonek
 <dead_ogonek> <U0283>                               : "ʃ̨"   # ʃ (Esh) + Ogonek
 <dead_ogonek> <U035A> <S>                           : "Ʃ̨"   # Ʃ (Esh) + Ogonek
 <dead_ogonek> <U035A> <s>                           : "ʃ̨"   # ʃ (Esh) + Ogonek
-<dead_ogonek> <THORN>                               : "Þ̨"
-<dead_ogonek> <thorn>                               : "þ̨"
+<dead_ogonek> <UA784>                               : "Ꞅ̨"   # Ꞅ (Insular S) + Ogonek
+<dead_ogonek> <UA785>                               : "ꞅ̨"   # ꞅ (Insular S) + Ogonek
+<dead_ogonek> <U1DFB> <S> <space>                   : "Ꞅ̨"
+<dead_ogonek> <U1DFB> <s> <space>                   : "ꞅ̨"
+<dead_ogonek> <UA7D8>                               : "Ꟙ̨"   # Ꟙ (Sigmoid S) + Ogonek
+<dead_ogonek> <UA7D9>                               : "ꟙ̨"   # ꟙ (Sigmoid S) + Ogonek
+<dead_ogonek> <U1DFB> <S> <S>                       : "Ꟙ̨"
+<dead_ogonek> <U1DFB> <s> <s>                       : "ꟙ̨"
+<dead_ogonek> <UA7D6>                               : "Ꟗ̨"   # Ꟗ (Middle Scots S) + Ogonek
+<dead_ogonek> <UA7D7>                               : "ꟗ̨"   # ꟗ (Middle Scots S) + Ogonek
+<dead_ogonek> <U1DFB> <U1E9E>                       : "Ꟗ̨"
+<dead_ogonek> <U1DFB> <ssharp>                      : "ꟗ̨"
+<dead_ogonek> <U01A7>                               : "Ƨ̨"   # Ƨ (Tone Two) + Ogonek
+<dead_ogonek> <U01A8>                               : "ƨ̨"   # ƨ (Tone Two) + Ogonek
+<dead_ogonek> <U1DFB> <S> <2>                       : "Ƨ̨"
+<dead_ogonek> <U1DFB> <s> <2>                       : "ƨ̨"
+<dead_ogonek> <UA72A>                               : "Ꜫ̨"   # Ꜫ (Tresillo) + Ogonek
+<dead_ogonek> <UA72B>                               : "ꜫ̨"   # ꜫ (Tresillo) + Ogonek
+<dead_ogonek> <U1DFB> <S> <3>                       : "Ꜫ̨"
+<dead_ogonek> <U1DFB> <s> <3>                       : "ꜫ̨"
+<dead_ogonek> <UA72C>                               : "Ꜭ̨"   # Ꜭ (Cuatrillo) + Ogonek
+<dead_ogonek> <UA72D>                               : "ꜭ̨"   # ꜭ (Cuatrillo) + Ogonek
+<dead_ogonek> <U1DFB> <S> <4>                       : "Ꜭ̨"
+<dead_ogonek> <U1DFB> <s> <4>                       : "ꜭ̨"
+<dead_ogonek> <U01BC>                               : "Ƽ̨"   # Ƽ (Tone Five) + Ogonek
+<dead_ogonek> <U01BD>                               : "ƽ̨"   # ƽ (Tone Five) + Ogonek
+<dead_ogonek> <U1DFB> <S> <5>                       : "Ƽ̨"
+<dead_ogonek> <U1DFB> <s> <5>                       : "ƽ̨"
+<dead_ogonek> <U0184>                               : "Ƅ̨"   # Ƅ (Tone Six) + Ogonek
+<dead_ogonek> <U0185>                               : "ƅ̨"   # ƅ (Tone Six) + Ogonek
+<dead_ogonek> <U1DFB> <S> <6>                       : "Ƅ̨"
+<dead_ogonek> <U1DFB> <s> <6>                       : "ƅ̨"
 <dead_ogonek> <T>                                   : "T̨"
 <dead_ogonek> <t>                                   : "t̨"
+<dead_ogonek> <THORN>                               : "Þ̨"
+<dead_ogonek> <thorn>                               : "þ̨"
+<dead_ogonek> <UA786>                               : "Ꞇ̨"   # Ꞇ (Insular T) + Ogonek
+<dead_ogonek> <UA787>                               : "ꞇ̨"   # ꞇ (Insular T) + Ogonek
+<dead_ogonek> <U1DFB> <T> <space>                   : "Ꞇ̨"
+<dead_ogonek> <U1DFB> <t> <space>                   : "ꞇ̨"
+<dead_ogonek> <UA777>                               : "ꝷ̨"   # ꝷ (Tum) + Ogonek
+<dead_ogonek> <U1DFB> <T> <U> <M>                   : "ꝷ̨"
+<dead_ogonek> <U1DFB> <t> <u> <m>                   : "ꝷ̨"
 <dead_ogonek> <U01B1>                               : "Ʊ̨"   # Ʊ (Latin Upsilon) + Ogonek
 <dead_ogonek> <U028A>                               : "ʊ̨"   # ʊ (Latin Upsilon) + Ogonek
 <dead_ogonek> <dead_greek> <dead_circumflex> <U>    : "Ʊ̨"   # Ʊ (Latin Upsilon) + Ogonek
@@ -197,6 +397,9 @@
 <dead_ogonek> <U026F>                               : "ɯ̨"   # ɯ (Turned M) + Ogonek
 <dead_ogonek> <U21BA> <M>                           : "Ɯ̨"   # Ɯ (Turned M) + Ogonek
 <dead_ogonek> <U21BA> <m>                           : "ɯ̨"   # ɯ (Turned M) + Ogonek
+<dead_ogonek> <UA778>                               : "ꝸ̨"   # ꝸ (Um) + Ogonek
+<dead_ogonek> <U1DFB> <U> <M>                       : "ꝸ̨"
+<dead_ogonek> <U1DFB> <u> <m>                       : "ꝸ̨"
 <dead_ogonek> <V>                                   : "V̨"
 <dead_ogonek> <v>                                   : "v̨"
 <dead_ogonek> <U0245>                               : "Ʌ̨"   # Ʌ + Ogonek
@@ -207,12 +410,28 @@
 <dead_ogonek> <U028B>                               : "ʋ̨"   # ʋ + Ogonek
 <dead_ogonek> <UA768>                               : "Ꝩ̨"   # Ꝩ (Vend) + Ogonek
 <dead_ogonek> <UA769>                               : "ꝩ̨"   # ꝩ (Vend) + Ogonek
+<dead_ogonek> <U1DFB> <minus> <V>                   : "Ꝩ̨"
+<dead_ogonek> <U1DFB> <minus> <v>                   : "ꝩ̨"
+<dead_ogonek> <U1EFC>                               : "Ỽ̨"   # Ỽ (Middle Welsh V) + Ogonek
+<dead_ogonek> <U1EFD>                               : "ỽ̨"   # ỽ (Middle Welsh V) + Ogonek
+<dead_ogonek> <U1DFB> <V>                           : "Ỽ̨"
+<dead_ogonek> <U1DFB> <v>                           : "ỽ̨"
 <dead_ogonek> <W>                                   : "W̨"
 <dead_ogonek> <w>                                   : "w̨"
+<dead_ogonek> <U01F7>                               : "Ƿ̨"   # Ƿ (Wynn) + Ogonek
+<dead_ogonek> <U01BF>                               : "ƿ̨"   # ƿ (Wynn) + Ogonek
+<dead_ogonek> <U1DFB> <W>                           : "Ƿ̨"
+<dead_ogonek> <U1DFB> <w>                           : "ƿ̨"
+<dead_ogonek> <U2132>                               : "Ⅎ̨"   # Ⅎ (Digamma Inversum) + Ogonek
+<dead_ogonek> <U214E>                               : "ⅎ̨"   # ⅎ (Digamma Inversum) + Ogonek
 <dead_ogonek> <UA760>                               : "Ꝡ̨"   # Ꝡ + Ogonek
 <dead_ogonek> <UA761>                               : "ꝡ̨"   # ꝡ + Ogonek
 <dead_ogonek> <U1DCF> <V> <Y>                       : "Ꝡ̨"
 <dead_ogonek> <U1DCF> <v> <y>                       : "ꝡ̨"
+<dead_ogonek> <UA7C2>                               : "Ꟃ̨"   # Ꟃ (W Anglicana) + Ogonek
+<dead_ogonek> <UA7C3>                               : "ꟃ̨"   # ꟃ (W Anglicana) + Ogonek
+<dead_ogonek> <U1DCF> <V> <Z>                       : "Ꟃ̨"
+<dead_ogonek> <U1DCF> <v> <Z>                       : "ꟃ̨"
 <dead_ogonek> <X>                                   : "X̨"
 <dead_ogonek> <x>                                   : "x̨"
 <dead_ogonek> <Y>                                   : "Y̨"
@@ -221,10 +440,18 @@
 <dead_ogonek> <U21BA> <y>                           : "ʎ̨"   # ʎ + Ogonek
 <dead_ogonek> <U21BA> <Y>                           : "⅄̨"   # ⅄ + Ogonek
 <dead_ogonek> <U21BA> <y>                           : "ʎ̨"   # ʎ + Ogonek
+<dead_ogonek> <U021C>                               : "Ȝ̨"   # Ȝ (Yogh) + Ogonek
+<dead_ogonek> <U021D>                               : "ȝ̨"   # ȝ (Yogh) + Ogonek
+<dead_ogonek> <U1DFB> <Y> <O>                       : "Ȝ̨"
+<dead_ogonek> <U1DFB> <y> <o>                       : "ȝ̨"
 <dead_ogonek> <Z>                                   : "Z̨"
 <dead_ogonek> <z>                                   : "z̨"
 <dead_ogonek> <EZH>                                 : "Ʒ̨"   # Ʒ + Ogonek
 <dead_ogonek> <ezh>                                 : "ʒ̨"   # ʒ + Ogonek
+<dead_ogonek> <UA762>                               : "Ꝣ̨"   # Ꝣ (Visigothic Z) + Ogonek
+<dead_ogonek> <UA763>                               : "ꝣ̨"   # ꝣ (Visigothic Z) + Ogonek
+<dead_ogonek> <U1DCF> <C> <Z>                       : "Ꝣ̨"
+<dead_ogonek> <U1DCF> <c> <z>                       : "ꝣ̨"
 <dead_ogonek> <U0294>                               : "ʔ̨"   # ʔ (Glottal Stop) + Ogonek
 <dead_ogonek> <U035A> <question>                    : "ʔ̨"   # ʔ (Glottal Stop) + Ogonek
 <dead_ogonek> <U035A> <U0241> <space>               : "ʔ̨"   # Ɂ (Capital Glottal Stop) + Ogonek
@@ -235,6 +462,17 @@
 <dead_ogonek> <U035A> <questiondown>                : "ʕ̨"   # ʕ (Turned Glottal Glottal Stop) + Ogonek
 <dead_ogonek> <U035A> <U0241> <underscore> <space>  : "ʕ̨"   # Ɂ (Capital Glottal Stop) + "_" + Ogonek
 <dead_ogonek> <U035A> <U0242> <underscore> <space>  : "ʕ̨"   # ɂ (Small Glottal Stop) + "_" + Ogonek
+<dead_ogonek> <UA722>                               : "Ꜣ̨"   # Ꜣ (Egyptological Alef) + Ogonek
+<dead_ogonek> <UA723>                               : "ꜣ̨"   # ꜣ (Egyptological Alef) + Ogonek
+<dead_ogonek> <U1DFB> <U0241>                       : "Ꜣ̨"
+<dead_ogonek> <U1DFB> <U0242>                       : "ꜣ̨"
+<dead_ogonek> <UA724>                               : "Ꜥ̨"   # Ꜥ (Egyptological Ayin) + Ogonek
+<dead_ogonek> <UA725>                               : "ꜥ̨"   # ꜥ (Egyptological Ayin) + Ogonek
+<dead_ogonek> <U1DFB> <UA78B>                       : "Ꜥ̨"
+<dead_ogonek> <U1DFB> <UA78C>                       : "ꜥ̨"
+<dead_ogonek> <U1D25>                               : "ᴥ̨"   # ᴥ (UPA Ain) + Ogonek
+<dead_ogonek> <U1DFB> <minus> <U0241>               : "ᴥ̨"
+<dead_ogonek> <U1DFB> <minus> <U0242>               : "ᴥ̨"
 
 
 # Composed ogonek combinations (Not directly encoded in Unicode) (Unidirectional)

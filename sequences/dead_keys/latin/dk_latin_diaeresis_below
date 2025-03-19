@@ -57,14 +57,35 @@
 <dead_belowdiaeresis> <UA7B5>                               : "ꞵ̤"   # ꞵ (Latin Beta) + Diaeresis Below
 <dead_belowdiaeresis> <dead_greek> <dead_circumflex> <B>    : "Ꞵ̤"   # Ꞵ (Latin Beta) + Diaeresis Below
 <dead_belowdiaeresis> <dead_greek> <dead_circumflex> <b>    : "ꞵ̤"   # ꞵ (Latin Beta) + Diaeresis Below
+<dead_belowdiaeresis> <UA796>                               : "Ꞗ̤"   # Ꞗ (Middle Vietnamese B) + Diaeresis Below
+<dead_belowdiaeresis> <UA797>                               : "ꞗ̤"   # ꞗ (Middle Vietnamese B) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <B>                           : "Ꞗ̤"
+<dead_belowdiaeresis> <U1DFB> <b>                           : "ꞗ̤"
 <dead_belowdiaeresis> <C>                                   : "C̤"
 <dead_belowdiaeresis> <c>                                   : "c̤"
+<dead_belowdiaeresis> <UA76E>                               : "Ꝯ̤"   # Ꝯ (Con/Us) + Diaeresis Below
+<dead_belowdiaeresis> <UA76F>                               : "ꝯ̤"   # ꝯ (Con/Us) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <C> <O> <N>                   : "Ꝯ̤"
+<dead_belowdiaeresis> <U1DFB> <c> <o> <n>                   : "ꝯ̤"
+<dead_belowdiaeresis> <U1DFB> <U> <S>                       : "Ꝯ̤"
+<dead_belowdiaeresis> <U1DFB> <u> <s>                       : "ꝯ̤"
 <dead_belowdiaeresis> <D>                                   : "D̤"
 <dead_belowdiaeresis> <d>                                   : "d̤"
 <dead_belowdiaeresis> <ETH>                                 : "Ð̤"
 <dead_belowdiaeresis> <eth>                                 : "ð̤"
+<dead_belowdiaeresis> <U1E9F>                               : "ẟ̤"   # ẟ (Latin Delta) + Diaeresis Below
+<dead_belowdiaeresis> <dead_greek> <dead_circumflex> <D>    : "ẟ̤"
+<dead_belowdiaeresis> <dead_greek> <dead_circumflex> <d>    : "ẟ̤"
+<dead_belowdiaeresis> <U018D>                               : "ƍ̤"   # ƍ (Turned Latin Delta) + Diaeresis Below
+<dead_belowdiaeresis> <dead_greek> <dead_circumflex> <ETH>  : "ƍ̤"
+<dead_belowdiaeresis> <dead_greek> <dead_circumflex> <eth>  : "ƍ̤"
 <dead_belowdiaeresis> <UA779>                               : "Ꝺ̤"   # Ꝺ (Insular D) + Diaeresis Below
 <dead_belowdiaeresis> <UA77A>                               : "ꝺ̤"   # ꝺ (Insular D) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <D>                           : "Ꝺ̤"
+<dead_belowdiaeresis> <U1DFB> <d>                           : "ꝺ̤"
+<dead_belowdiaeresis> <UA771>                               : "ꝱ̤"   # ꝱ (Dum) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <slash> <D>                   : "ꝱ̤"
+<dead_belowdiaeresis> <U1DFB> <slash> <d>                   : "ꝱ̤"
 <dead_belowdiaeresis> <E>                                   : "E̤"
 <dead_belowdiaeresis> <e>                                   : "e̤"
 <dead_belowdiaeresis> <U0190>                               : "Ɛ̤"   # Ɛ (Latin Epsilon) + Diaeresis Below
@@ -91,6 +112,14 @@
 <dead_belowdiaeresis> <U01DD>                               : "ǝ̤"   # ǝ (Turned E) + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <E>                           : "Ǝ̤"   # Ǝ (Turned E) + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <e>                           : "ǝ̤"   # ǝ (Turned E) + Diaeresis Below
+<dead_belowdiaeresis> <UA76A>                               : "Ꝫ̤"   # Ꝫ (Et) + Diaeresis Below
+<dead_belowdiaeresis> <UA76B>                               : "ꝫ̤"   # ꝫ (Et) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <ampersand> <E> <T>           : "Ꝫ̤"
+<dead_belowdiaeresis> <U1DFB> <ampersand> <e> <t>           : "ꝫ̤"
+<dead_belowdiaeresis> <U2E52>                               : "⹒̤"   # ⹒ (Tironian Et) + Diaeresis Below
+<dead_belowdiaeresis> <U204A>                               : "⁊̤"   # ⁊ (Tironian Et) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <E> <T>                       : "⹒̤"
+<dead_belowdiaeresis> <U1DFB> <e> <t>                       : "⁊̤"
 <dead_belowdiaeresis> <F>                                   : "F̤"
 <dead_belowdiaeresis> <f>                                   : "f̤"
 <dead_belowdiaeresis> <U0278>                               : "ɸ̤"   # ɸ (Latin Phi) + Diaeresis Below
@@ -98,12 +127,43 @@
 <dead_belowdiaeresis> <dead_greek> <dead_circumflex> <f>    : "ɸ̤"   # ɸ (Latin Phi) + Diaeresis Below
 <dead_belowdiaeresis> <UA77B>                               : "Ꝼ̤"   # Ꝼ (Insular F) + Diaeresis Below
 <dead_belowdiaeresis> <UA77C>                               : "ꝼ̤"   # ꝼ (Insular F) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <F>                           : "Ꝼ̤"   # Ꝼ (Insular F) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <f>                           : "ꝼ̤"   # ꝼ (Insular F) + Diaeresis Below
+<dead_belowdiaeresis> <UA7FB>                               : "ꟻ̤"   # ꟻ (Roman Epigraphic F) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U21BA> <F>                   : "ꟻ̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <f>                   : "ꟻ̤"
+<dead_belowdiaeresis> <UAB35>                               : "ꬵ̤"   # ꬵ (Lenis F) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <minus> <f>                   : "ꬵ̤"
+<dead_belowdiaeresis> <U1DFB> <minus> <f>                   : "ꬵ̤"
 <dead_belowdiaeresis> <G>                                   : "G̤"
 <dead_belowdiaeresis> <g>                                   : "g̤"
+<dead_belowdiaeresis> <UA7AC>                               : "Ɡ̤"   # Ɡ (Single-storey G) + Diaeresis Below
+<dead_belowdiaeresis> <U0261>                               : "ɡ̤"   # ɡ (Single-storey G) + Diaeresis Below
+<dead_belowdiaeresis> <U035A> <G>                           : "Ɡ̤"
+<dead_belowdiaeresis> <U035A> <g>                           : "ɡ̤"
 <dead_belowdiaeresis> <U0194>                               : "Ɣ̤"   # Ɣ (Latin Gamma) + Diaeresis Below
 <dead_belowdiaeresis> <U0263>                               : "ɣ̤"   # ɣ (Latin Gamma) + Diaeresis Below
 <dead_belowdiaeresis> <dead_greek> <dead_circumflex> <G>    : "Ɣ̤"   # Ɣ (Latin Gamma) + Diaeresis Below
 <dead_belowdiaeresis> <dead_greek> <dead_circumflex> <g>    : "ɣ̤"   # ɣ (Latin Gamma) + Diaeresis Below
+<dead_belowdiaeresis> <UA77D>                               : "Ᵹ̤"   # Ᵹ (Insular G) + Diaeresis Below
+<dead_belowdiaeresis> <U1D79>                               : "ᵹ̤"   # ᵹ (Insular G) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <G>                           : "Ᵹ̤"
+<dead_belowdiaeresis> <U1DFB> <g>                           : "ᵹ̤"
+<dead_belowdiaeresis> <UA77E>                               : "Ꝿ̤"   # Ꝿ (Turned Insular G) + Diaeresis Below
+<dead_belowdiaeresis> <UA77F>                               : "ꝿ̤"   # ꝿ (Turned Insular G) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <01A2>                        : "Ꝿ̤"
+<dead_belowdiaeresis> <U1DFB> <01A3>                        : "ꝿ̤"
+<dead_belowdiaeresis> <U1DFB> <U1DCF> <G> <H>               : "Ꝿ̤"
+<dead_belowdiaeresis> <U1DFB> <U1DCF> <g> <h>               : "ꝿ̤"
+<dead_belowdiaeresis> <U1DFB> <U1DCF> <O> <I>               : "Ꝿ̤"
+<dead_belowdiaeresis> <U1DFB> <U1DCF> <o> <i>               : "ꝿ̤"
+<dead_belowdiaeresis> <UA7D0>                               : "Ꟑ̤"   # Ꟑ (Closed Insular G) + Diaeresis Below
+<dead_belowdiaeresis> <UA7D1>                               : "ꟑ̤"   # ꟑ (Closed Insular G) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <minus> <G>                   : "Ꟑ̤"
+<dead_belowdiaeresis> <U1DFB> <minus> <g>                   : "ꟑ̤"
+<dead_belowdiaeresis> <U1DF01>                              : "𝼁̤"   # 𝼁 (Reversed G) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U21BA> <g>                   : "𝼁̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <g>                   : "𝼁̤"
 <dead_belowdiaeresis> <H>                                   : "H̤"
 <dead_belowdiaeresis> <h>                                   : "h̤"
 <dead_belowdiaeresis> <UA78D>                               : "Ɥ̤"   # Ɥ (Turned H) + Diaeresis Below
@@ -120,27 +180,69 @@
 <dead_belowdiaeresis> <U026A>                               : "ɪ̤"   # ɪ (Near-close near-front unrounded vowel) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <I>                           : "Ɪ̤"   # Ɪ (Near-close near-front unrounded vowel) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <i>                           : "ɪ̤"   # ɪ (Near-close near-front unrounded vowel) + Diaeresis Below
+<dead_belowdiaeresis> <UA7FE>                               : "ꟾ̤"   # ꟾ (I Longa) + Diaeresis Below
+<dead_belowdiaeresis> <UA7F7>                               : "ꟷ̤"   # ꟷ (Sideways I) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U21BA> <I>                   : "ꟾ̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <i>                   : "ꟷ̤"
+<dead_belowdiaeresis> <UA76C>                               : "Ꝭ̤"   # Ꝭ (Is) + Diaeresis Below
+<dead_belowdiaeresis> <UA76D>                               : "ꝭ̤"   # ꝭ (Is) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <I> <S>                       : "Ꝭ̤"
+<dead_belowdiaeresis> <U1DFB> <i> <s>                       : "ꝭ̤"
 <dead_belowdiaeresis> <J>                                   : "J̤"
 <dead_belowdiaeresis> <j>                                   : "j̤"
+<dead_belowdiaeresis> <U025F>                               : "ɟ̤"   # ɟ (Barred Dotless J) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <J>                           : "ɟ̤"   # ɟ (Barred Dotless J) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <j>                           : "ɟ̤"   # ɟ (Barred Dotless J) + Diaeresis Below
 <dead_belowdiaeresis> <K>                                   : "K̤"
 <dead_belowdiaeresis> <k>                                   : "k̤"
+<dead_belowdiaeresis> <U0138>                               : "ĸ̤"   # ĸ (Kra) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <K>                           : "ĸ̤"
+<dead_belowdiaeresis> <U1DFB> <k>                           : "ĸ̤"
+<dead_belowdiaeresis> <U1DF03>                              : "𝼃̤"   # 𝼃 (Reversed K) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U21BA> <K>                   : "𝼃̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <k>                   : "𝼃̤"
 <dead_belowdiaeresis> <L>                                   : "L̤"
 <dead_belowdiaeresis> <l>                                   : "l̤"
 <dead_belowdiaeresis> <U1DF08>                              : "𝼈̤"   # 𝼈 (Retroflex lateral flap) + Diaeresis Below
 <dead_belowdiaeresis> <U027A>                               : "ɺ̤"   # ɺ (Lateral flap) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <L>                           : "𝼈̤"   # 𝼈 (Retroflex lateral flap) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <l>                           : "ɺ̤"   # ɺ (Lateral flap) + Diaeresis Below
+<dead_belowdiaeresis> <UA7DA>                               : "Ꟛ̴̤"   # Ꟛ (Latin Lambda) + Diaeresis Below
+<dead_belowdiaeresis> <UA7DB>                               : "ꟛ̴̤"   # ꟛ (Latin Lambda) + Diaeresis Below
+<dead_belowdiaeresis> <UA746>                               : "Ꝇ̤"   # Ꝇ (Broken L) + Diaeresis Below
+<dead_belowdiaeresis> <UA747>                               : "ꝇ̤"   # ꝇ (Broken L) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <L>                           : "Ꝇ̤"
+<dead_belowdiaeresis> <U1DFB> <l>                           : "ꝇ̤"
+<dead_belowdiaeresis> <UA772>                               : "ꝲ̤"   # ꝲ (Lum) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <slash> <L>                   : "ꝲ̤"
+<dead_belowdiaeresis> <U1DFB> <slash> <l>                   : "ꝲ̤"
+<dead_belowdiaeresis> <U2143>                               : "⅃̤"   # ⅃ (Roman Epigraphic L) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U21BA> <l>                   : "⅃̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <l>                   : "⅃̤"
 <dead_belowdiaeresis> <M>                                   : "M̤"
 <dead_belowdiaeresis> <m>                                   : "m̤"
 <dead_belowdiaeresis> <U0270>                               : "ɰ̤"   # ɰ (Voiced velar approximant) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <M>                           : "ɰ̤"   # ɰ (Voiced velar approximant) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <m>                           : "ɰ̤"   # ɰ (Voiced velar approximant) + Diaeresis Below
+<dead_belowdiaeresis> <UA7FD>                               : "ꟽ̤"   # ꟽ (Roman Epigraphic M) + Diaeresis Below
+<dead_belowdiaeresis> <U21BA> <M>                           : "ꟽ̤"
+<dead_belowdiaeresis> <U21BA> <m>                           : "ꟽ̤"
+<dead_belowdiaeresis> <UA7FF>                               : "ꟿ̤"  # ꟿ (Manius) + Diaeresis Below
+<dead_belowdiaeresis> <U1DCF> <M> <W>                       : "ꟿ̤"
+<dead_belowdiaeresis> <U1DCF> <m> <w>                       : "ꟿ̤"
+<dead_belowdiaeresis> <UA773>                               : "ꝳ̤"  # ꝳ (Mum) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <slash> <M>                   : "ꝳ̤"
+<dead_belowdiaeresis> <U1DFB> <slash> <m>                   : "ꝳ̤"
 <dead_belowdiaeresis> <N>                                   : "N̤"
 <dead_belowdiaeresis> <n>                                   : "n̤"
+<dead_belowdiaeresis> <UA774>                               : "ꝴ̤"   # ꝴ (Num) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <slash> <N>                   : "ꝴ̤"
+<dead_belowdiaeresis> <U1DFB> <slash> <n>                   : "ꝴ̤"
 <dead_belowdiaeresis> <ENG>                                 : "Ŋ̤"   # Ŋ + Diaeresis Below
 <dead_belowdiaeresis> <eng>                                 : "ŋ̤"   # ŋ + Diaeresis Below
+<dead_belowdiaeresis> <U1DF07>                              : "𝼇̤"   # 𝼇 (Reversed Eng) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U21BA> <ENG>                 : "𝼇̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <eng>                 : "𝼇̤"
 <dead_belowdiaeresis> <O>                                   : "O̤"
 <dead_belowdiaeresis> <o>                                   : "o̤"
 <dead_belowdiaeresis> <OE>                                  : "Œ̤"
@@ -153,12 +255,41 @@
 <dead_belowdiaeresis> <U1DCF> <o> <o>                       : "ꝏ̤"  # ꝏ + Diaeresis Below
 <dead_belowdiaeresis> <U0186>                               : "Ɔ̤"   # Ɔ + Diaeresis Below
 <dead_belowdiaeresis> <U0254>                               : "ɔ̤"   # ɔ + Diaeresis Below
+<dead_belowdiaeresis> <U035A> <O>                           : "Ɔ̤"   # Ɔ + Diaeresis Below
+<dead_belowdiaeresis> <U035A> <o>                           : "ɔ̤"   # ɔ + Diaeresis Below
 <dead_belowdiaeresis> <UA7CB>                               : "Ɤ̤"   # Ɤ (Ram's Diaeresis Below) + Diaeresis Below
 <dead_belowdiaeresis> <U0264>                               : "ɤ̤"   # ɤ (Ram's Diaeresis Below) + Diaeresis Below
+<dead_belowdiaeresis> <U035A> <Oslash>                      : "Ɤ̤"   # Ɤ (Ram's Horn) + Diaeresis Below
+<dead_belowdiaeresis> <U035A> <oslash>                      : "ɤ̤"   # ɤ (Ram's Horn) + Diaeresis Below
+<dead_belowdiaeresis> <UA7C0>                               : "Ꟁ̤"   # Ꟁ (Old Polish O) + Diaeresis Below
+<dead_belowdiaeresis> <UA7C0>                               : "ꟁ̤"   # ꟁ (Old Polish O) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <Oslash>                      : "Ꟁ̤"
+<dead_belowdiaeresis> <U1DFB> <oslash>                      : "ꟁ̤"
+<dead_belowdiaeresis> <UA74A>                               : "Ꝋ̤"   # Ꝋ + Diaeresis Below
+<dead_belowdiaeresis> <UA74B>                               : "ꝋ̤"   # ꝋ + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <O>                           : "Ꝋ̤"
+<dead_belowdiaeresis> <U1DFB> <o>                           : "ꝋ̤"
 <dead_belowdiaeresis> <P>                                   : "P̤"
 <dead_belowdiaeresis> <p>                                   : "p̤"
 <dead_belowdiaeresis> <U2183>                               : "Ↄ̤"   # Ↄ (Antisigma) + Diaeresis Below
 <dead_belowdiaeresis> <U2184>                               : "ↄ̤"   # ↄ (Antisigma) + Diaeresis Below
+<dead_belowdiaeresis> <UA73E>                               : "Ꜿ̤"   # Ꜿ (Lunate Antisigma) + Diaeresis Below
+<dead_belowdiaeresis> <UA73F>                               : "ꜿ̤"   # ꜿ (Lunate Antisigma) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U2183>                       : "Ꜿ̤"
+<dead_belowdiaeresis> <U1DFB> <U2184>                       : "ꜿ̤"
+<dead_belowdiaeresis> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̤"
+<dead_belowdiaeresis> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̤"
+<dead_belowdiaeresis> <UA7FC>                               : "ꟼ̤"   # ꟼ (Roman Epigraphic P) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U21BA> <p>                   : "ꟼ̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <p>                   : "ꟼ̤"
+<dead_belowdiaeresis> <UA752>                               : "Ꝓ̤"   # Ꝓ + Diaeresis Below
+<dead_belowdiaeresis> <UA753>                               : "ꝓ̤"   # ꝓ + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <minus> <P>                   : "Ꝓ̤"
+<dead_belowdiaeresis> <U1DFB> <minus> <p>                   : "ꝓ̤"
+<dead_belowdiaeresis> <UA754>                               : "Ꝕ̤"   # Ꝕ + Diaeresis Below
+<dead_belowdiaeresis> <UA755>                               : "ꝕ̤"   # ꝕ + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <plus> <P>                    : "Ꝕ̤"
+<dead_belowdiaeresis> <U1DFB> <plus> <p>                    : "ꝕ̤"
 <dead_belowdiaeresis> <Q>                                   : "Q̤"
 <dead_belowdiaeresis> <q>                                   : "q̤"
 <dead_belowdiaeresis> <R>                                   : "R̤"
@@ -169,23 +300,87 @@
 <dead_belowdiaeresis> <U035A> <r>                           : "ɹ̤"   # ɹ + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <R>                           : "ɻ̤"   # ɻ + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <r>                           : "ɹ̤"   # ɹ + Diaeresis Below
+<dead_belowdiaeresis> <U027E>                               : "ɾ̤"   # ɾ + Diaeresis Below
+<dead_belowdiaeresis> <UAB45>                               : "ꭅ̤"   # ꭅ (Teuthonista [ɾ]) + Diaeresis Below
+<dead_belowdiaeresis> <U035A> <minus> <R>                   : "ꭅ̤"
+<dead_belowdiaeresis> <U035A> <minus> <r>                   : "ꭅ̤"
+<dead_belowdiaeresis> <UA782>                               : "Ꞃ̤"   # Ꞃ (Insular R) + Diaeresis Below
+<dead_belowdiaeresis> <UA783>                               : "ꞃ̤"   # ꞃ (Insular R)  + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <R> <space>                   : "Ꞃ̤"
+<dead_belowdiaeresis> <U1DFB> <r> <space>                   : "ꞃ̤"
 <dead_belowdiaeresis> <U01A6>                               : "Ʀ̤"   # Ʀ (Yr) + Diaeresis Below
 <dead_belowdiaeresis> <U0280>                               : "ʀ̤"   # ʀ (Yr) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <Y> <R>                       : "Ʀ̤"
+<dead_belowdiaeresis> <U1DFB> <y> <r>                       : "ʀ̤"
 <dead_belowdiaeresis> <A75A>                                : "Ꝛ̤"   # Ꝛ (R Rotunda) + Diaeresis Below
 <dead_belowdiaeresis> <A75B>                                : "ꝛ̤"   # ꝛ (R Rotunda) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <minus> <R>                   : "Ꝛ̤"
+<dead_belowdiaeresis> <U1DFB> <minus> <r>                   : "ꝛ̤"
+<dead_belowdiaeresis> <UA75C>                               : "Ꝝ̤"   # Ꝝ (Rum Rotunda) + Diaeresis Below
+<dead_belowdiaeresis> <UA75D>                               : "ꝝ̤"   # ꝝ (Rum Rotunda) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <R> <U> <M>                   : "Ꝝ̤"
+<dead_belowdiaeresis> <U1DFB> <r> <u> <m>                   : "ꝝ̤"
+<dead_belowdiaeresis> <U1D19>                               : "ᴙ̤"   # ᴙ (Reversed Smallcaps R) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U21BA> <R>                   : "ᴙ̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <r>                   : "ᴙ̤"
+<dead_belowdiaeresis> <UA776>                               : "ꝶ̤"   # ꝶ (Smallcaps Rum)
+<dead_belowdiaeresis> <UA775>                               : "ꝵ̤"   # ꝵ (Rum)
+<dead_belowdiaeresis> <U1DFB> <slash> <R>                   : "ꝶ̤"
+<dead_belowdiaeresis> <U1DFB> <slash> <r>                   : "ꝵ̤"
 <dead_belowdiaeresis> <S>                                   : "S̤"
 <dead_belowdiaeresis> <s>                                   : "s̤"
 <dead_belowdiaeresis> <U017F>                               : "ſ̤"   # ſ (Long S) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <minus> <S>                   : "ſ̤"
+<dead_belowdiaeresis> <U1DFB> <minus> <s>                   : "ſ̤"
 <dead_belowdiaeresis> <U1E9E>                               : "ẞ̤"   # ẞ (Eszett) + Diaeresis Below
 <dead_belowdiaeresis> <ssharp>                              : "ß̤"
 <dead_belowdiaeresis> <U01A9>                               : "Ʃ̤"   # Ʃ (Esh) + Diaeresis Below
 <dead_belowdiaeresis> <U0283>                               : "ʃ̤"   # ʃ (Esh) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <S>                           : "Ʃ̤"   # Ʃ (Esh) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <s>                           : "ʃ̤"   # ʃ (Esh) + Diaeresis Below
+<dead_belowdiaeresis> <UA784>                               : "Ꞅ̤"   # Ꞅ (Insular S) + Diaeresis Below
+<dead_belowdiaeresis> <UA785>                               : "ꞅ̤"   # ꞅ (Insular S) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <S> <space>                   : "Ꞅ̤"
+<dead_belowdiaeresis> <U1DFB> <s> <space>                   : "ꞅ̤"
+<dead_belowdiaeresis> <UA7D8>                               : "Ꟙ̤"   # Ꟙ (Sigmoid S) + Diaeresis Below
+<dead_belowdiaeresis> <UA7D9>                               : "ꟙ̤"   # ꟙ (Sigmoid S) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <S> <S>                       : "Ꟙ̤"
+<dead_belowdiaeresis> <U1DFB> <s> <s>                       : "ꟙ̤"
+<dead_belowdiaeresis> <UA7D6>                               : "Ꟗ̤"   # Ꟗ (Middle Scots S) + Diaeresis Below
+<dead_belowdiaeresis> <UA7D7>                               : "ꟗ̤"   # ꟗ (Middle Scots S) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U1E9E>                       : "Ꟗ̤"
+<dead_belowdiaeresis> <U1DFB> <ssharp>                      : "ꟗ̤"
+<dead_belowdiaeresis> <U01A7>                               : "Ƨ̤"   # Ƨ (Tone Two) + Diaeresis Below
+<dead_belowdiaeresis> <U01A8>                               : "ƨ̤"   # ƨ (Tone Two) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <S> <2>                       : "Ƨ̤"
+<dead_belowdiaeresis> <U1DFB> <s> <2>                       : "ƨ̤"
+<dead_belowdiaeresis> <UA72A>                               : "Ꜫ̤"   # Ꜫ (Tresillo) + Diaeresis Below
+<dead_belowdiaeresis> <UA72B>                               : "ꜫ̤"   # ꜫ (Tresillo) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <S> <3>                       : "Ꜫ̤"
+<dead_belowdiaeresis> <U1DFB> <s> <3>                       : "ꜫ̤"
+<dead_belowdiaeresis> <UA72C>                               : "Ꜭ̤"   # Ꜭ (Cuatrillo) + Diaeresis Below
+<dead_belowdiaeresis> <UA72D>                               : "ꜭ̤"   # ꜭ (Cuatrillo) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <S> <4>                       : "Ꜭ̤"
+<dead_belowdiaeresis> <U1DFB> <s> <4>                       : "ꜭ̤"
+<dead_belowdiaeresis> <U01BC>                               : "Ƽ̤"   # Ƽ (Tone Five) + Diaeresis Below
+<dead_belowdiaeresis> <U01BD>                               : "ƽ̤"   # ƽ (Tone Five) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <S> <5>                       : "Ƽ̤"
+<dead_belowdiaeresis> <U1DFB> <s> <5>                       : "ƽ̤"
+<dead_belowdiaeresis> <U0184>                               : "Ƅ̤"   # Ƅ (Tone Six) + Diaeresis Below
+<dead_belowdiaeresis> <U0185>                               : "ƅ̤"   # ƅ (Tone Six) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <S> <6>                       : "Ƅ̤"
+<dead_belowdiaeresis> <U1DFB> <s> <6>                       : "ƅ̤"
 <dead_belowdiaeresis> <T>                                   : "T̤"
 <dead_belowdiaeresis> <t>                                   : "t̤"
 <dead_belowdiaeresis> <THORN>                               : "Þ̤"
 <dead_belowdiaeresis> <thorn>                               : "þ̤"
+<dead_belowdiaeresis> <UA786>                               : "Ꞇ̤"   # Ꞇ (Insular T) + Diaeresis Below
+<dead_belowdiaeresis> <UA787>                               : "ꞇ̤"   # ꞇ (Insular T) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <T> <space>                   : "Ꞇ̤"
+<dead_belowdiaeresis> <U1DFB> <t> <space>                   : "ꞇ̤"
+<dead_belowdiaeresis> <UA777>                               : "ꝷ̤"   # ꝷ (Tum) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <T> <U> <M>                   : "ꝷ̤"
+<dead_belowdiaeresis> <U1DFB> <t> <u> <m>                   : "ꝷ̤"
 <dead_belowdiaeresis> <U01B1>                               : "Ʊ̤"   # Ʊ (Latin Upsilon) + Diaeresis Below
 <dead_belowdiaeresis> <U028A>                               : "ʊ̤"   # ʊ (Latin Upsilon) + Diaeresis Below
 <dead_belowdiaeresis> <dead_greek> <dead_circumflex> <U>    : "Ʊ̤"   # Ʊ (Latin Upsilon) + Diaeresis Below
@@ -194,6 +389,9 @@
 <dead_belowdiaeresis> <U026F>                               : "ɯ̤"   # ɯ (Turned M) + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <M>                           : "Ɯ̤"   # Ɯ (Turned M) + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <m>                           : "ɯ̤"   # ɯ (Turned M) + Diaeresis Below
+<dead_belowdiaeresis> <UA778>                               : "ꝸ̤"   # ꝸ (Um) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U> <M>                       : "ꝸ̤"
+<dead_belowdiaeresis> <U1DFB> <u> <m>                       : "ꝸ̤"
 <dead_belowdiaeresis> <V>                                   : "V̤"
 <dead_belowdiaeresis> <v>                                   : "v̤"
 <dead_belowdiaeresis> <U0245>                               : "Ʌ̤"   # Ʌ + Diaeresis Below
@@ -204,14 +402,28 @@
 <dead_belowdiaeresis> <U028B>                               : "ʋ̤"   # ʋ + Diaeresis Below
 <dead_belowdiaeresis> <UA768>                               : "Ꝩ̤"   # Ꝩ (Vend) + Diaeresis Below
 <dead_belowdiaeresis> <UA769>                               : "ꝩ̤"   # ꝩ (Vend) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <minus> <V>                   : "Ꝩ̤"
+<dead_belowdiaeresis> <U1DFB> <minus> <v>                   : "ꝩ̤"
+<dead_belowdiaeresis> <U1EFC>                               : "Ỽ̤"   # Ỽ (Middle Welsh V) + Diaeresis Below
+<dead_belowdiaeresis> <U1EFD>                               : "ỽ̤"   # ỽ (Middle Welsh V) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <V>                           : "Ỽ̤"
+<dead_belowdiaeresis> <U1DFB> <v>                           : "ỽ̤"
 <dead_belowdiaeresis> <W>                                   : "W̤"
 <dead_belowdiaeresis> <w>                                   : "w̤"
+<dead_belowdiaeresis> <U01F7>                               : "Ƿ̤"   # Ƿ (Wynn) + Diaeresis Below
+<dead_belowdiaeresis> <U01BF>                               : "ƿ̤"   # ƿ (Wynn) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <W>                           : "Ƿ̤"
+<dead_belowdiaeresis> <U1DFB> <w>                           : "ƿ̤"
 <dead_belowdiaeresis> <U2132>                               : "Ⅎ̤"   # Ⅎ (Digamma Inversum) + Diaeresis Below
 <dead_belowdiaeresis> <U214E>                               : "ⅎ̤"   # ⅎ (Digamma Inversum) + Diaeresis Below
 <dead_belowdiaeresis> <UA760>                               : "Ꝡ̤"   # Ꝡ + Diaeresis Below
 <dead_belowdiaeresis> <UA761>                               : "ꝡ̤"   # ꝡ + Diaeresis Below
 <dead_belowdiaeresis> <U1DCF> <V> <Y>                       : "Ꝡ̤"
 <dead_belowdiaeresis> <U1DCF> <v> <y>                       : "ꝡ̤"
+<dead_belowdiaeresis> <UA7C2>                               : "Ꟃ̤"   # Ꟃ (W Anglicana) + Diaeresis Below
+<dead_belowdiaeresis> <UA7C3>                               : "ꟃ̤"   # ꟃ (W Anglicana) + Diaeresis Below
+<dead_belowdiaeresis> <U1DCF> <V> <Z>                       : "Ꟃ̤"
+<dead_belowdiaeresis> <U1DCF> <v> <Z>                       : "ꟃ̤"
 <dead_belowdiaeresis> <X>                                   : "X̤"
 <dead_belowdiaeresis> <x>                                   : "x̤"
 <dead_belowdiaeresis> <Y>                                   : "Y̤"
@@ -220,10 +432,18 @@
 <dead_belowdiaeresis> <U21BA> <y>                           : "ʎ̤"   # ʎ + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <Y>                           : "⅄̤"   # ⅄ + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <y>                           : "ʎ̤"   # ʎ + Diaeresis Below
+<dead_belowdiaeresis> <U021C>                               : "Ȝ̤"   # Ȝ (Yogh) + Diaeresis Below
+<dead_belowdiaeresis> <U021D>                               : "ȝ̤"   # ȝ (Yogh) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <Y> <O>                       : "Ȝ̤"
+<dead_belowdiaeresis> <U1DFB> <y> <o>                       : "ȝ̤"
 <dead_belowdiaeresis> <Z>                                   : "Z̤"
 <dead_belowdiaeresis> <z>                                   : "z̤"
 <dead_belowdiaeresis> <EZH>                                 : "Ʒ̤"   # Ʒ + Diaeresis Below
 <dead_belowdiaeresis> <ezh>                                 : "ʒ̤"   # ʒ + Diaeresis Below
+<dead_belowdiaeresis> <UA762>                               : "Ꝣ̤"   # Ꝣ (Visigothic Z) + Diaeresis Below
+<dead_belowdiaeresis> <UA763>                               : "ꝣ̤"   # ꝣ (Visigothic Z) + Diaeresis Below
+<dead_belowdiaeresis> <U1DCF> <C> <Z>                       : "Ꝣ̤"
+<dead_belowdiaeresis> <U1DCF> <c> <z>                       : "ꝣ̤"
 <dead_belowdiaeresis> <U0294>                               : "ʔ̤"   # ʔ (Glottal Stop) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <question>                    : "ʔ̤"   # ʔ (Glottal Stop) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <U0241> <space>               : "ʔ̤"   # Ɂ (Capital Glottal Stop) + Diaeresis Below
@@ -234,6 +454,17 @@
 <dead_belowdiaeresis> <U035A> <questiondown>                : "ʕ̤"   # ʕ (Turned Glottal Glottal Stop) + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <U0241> <underscore> <space>  : "ʕ̤"   # Ɂ (Capital Glottal Stop) + "_" + Diaeresis Below
 <dead_belowdiaeresis> <U035A> <U0242> <underscore> <space>  : "ʕ̤"   # ɂ (Small Glottal Stop) + "_" + Diaeresis Below
+<dead_belowdiaeresis> <UA722>                               : "Ꜣ̤"   # Ꜣ (Egyptological Alef) + Diaeresis Below
+<dead_belowdiaeresis> <UA723>                               : "ꜣ̤"   # ꜣ (Egyptological Alef) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <U0241>                       : "Ꜣ̤"
+<dead_belowdiaeresis> <U1DFB> <U0242>                       : "ꜣ̤"
+<dead_belowdiaeresis> <UA724>                               : "Ꜥ̤"   # Ꜥ (Egyptological Ayin) + Diaeresis Below
+<dead_belowdiaeresis> <UA725>                               : "ꜥ̤"   # ꜥ (Egyptological Ayin) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <UA78B>                       : "Ꜥ̤"
+<dead_belowdiaeresis> <U1DFB> <UA78C>                       : "ꜥ̤"
+<dead_belowdiaeresis> <U1D25>                               : "ᴥ̤"   # ᴥ (UPA Ain) + Diaeresis Below
+<dead_belowdiaeresis> <U1DFB> <minus> <U0241>               : "ᴥ̤"
+<dead_belowdiaeresis> <U1DFB> <minus> <U0242>               : "ᴥ̤"
 
 
 # Composed diagonal stroke combinations (Not directly encoded in Unicode) (Unidirectional)

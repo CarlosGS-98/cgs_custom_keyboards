@@ -133,6 +133,10 @@
 <dead_greek> <underscore> <a>           : "ɒ"   # Latin Turned Alpha
 <dead_greek> <dead_circumflex> <B>      : "Ꞵ"   # Latin Beta
 <dead_greek> <dead_circumflex> <b>      : "ꞵ"   # Latin Beta
+<dead_greek> <dead_circumflex> <D>      : "ẟ"   # Latin Delta
+<dead_greek> <dead_circumflex> <d>      : "ẟ"   # Latin Delta
+<dead_greek> <dead_circumflex> <ETH>    : "ƍ"   # Turned Latin Delta
+<dead_greek> <dead_circumflex> <eth>    : "ƍ"   # Turned Latin Delta
 <dead_greek> <dead_circumflex> <E>      : "Ɛ"   # Latin Epsilon
 <dead_greek> <dead_circumflex> <e>      : "ɛ"   # Latin Epsilon
 <dead_greek> <dead_circumflex> <F>      : "ɸ"   # Latin Phi

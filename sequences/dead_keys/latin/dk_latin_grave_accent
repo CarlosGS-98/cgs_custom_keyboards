@@ -73,10 +73,30 @@
 <dead_grave> <U0250>                                : "ɐ̀"   # ɐ + Grave
 <dead_grave> <U21BA> <A>                            : "Ɐ̀"   # Ɐ + Grave
 <dead_grave> <U21BA> <a>                            : "ɐ̀"   # ɐ + Grave
+<dead_grave> <UA732>                                : "Ꜳ̀"  # Ꜳ + Grave
+<dead_grave> <UA733>                                : "ꜳ̀"   # ꜳ + Grave
+<dead_grave> <U1DCF> <A> <A>                        : "Ꜳ̀"  # Ꜳ + Grave
+<dead_grave> <U1DCF> <a> <a>                        : "ꜳ̀"   # ꜳ + Grave
 <dead_grave> <AE>                                   : "Æ̀"
 <dead_grave> <ae>                                   : "æ̀"
 <dead_grave> <U1DCF> <A> <E>                        : "Æ̀"
 <dead_grave> <U1DCF> <a> <e>                        : "æ̀"
+<dead_grave> <UA734>                                : "Ꜵ̀"  # Ꜵ + Grave
+<dead_grave> <UA735>                                : "ꜵ̀"   # ꜵ + Grave
+<dead_grave> <U1DCF> <A> <O>                        : "Ꜵ̀"  # Ꜵ + Grave
+<dead_grave> <U1DCF> <a> <o>                        : "ꜵ̀"   # ꜵ + Grave
+<dead_grave> <UA736>                                : "Ꜷ̀"  # Ꜷ + Grave
+<dead_grave> <UA737>                                : "ꜷ̀"   # ꜷ + Grave
+<dead_grave> <U1DCF> <A> <U>                        : "Ꜷ̀"  # Ꜷ + Grave
+<dead_grave> <U1DCF> <a> <u>                        : "ꜷ̀"   # ꜷ + Grave
+<dead_grave> <UA738>                                : "Ꜹ̀"  # Ꜹ + Grave
+<dead_grave> <UA739>                                : "ꜹ̀"   # ꜹ + Grave
+<dead_grave> <U1DCF> <A> <V>                        : "Ꜹ̀"  # Ꜹ + Grave
+<dead_grave> <U1DCF> <a> <v>                        : "ꜹ̀"   # ꜹ + Grave
+<dead_grave> <UA73C>                                : "Ꜽ̀"  # Ꜽ + Grave
+<dead_grave> <UA73D>                                : "ꜽ̀"   # ꜽ + Grave
+<dead_grave> <U1DCF> <A> <Y>                        : "Ꜽ̀"  # Ꜽ + Grave
+<dead_grave> <U1DCF> <a> <y>                        : "ꜽ̀"   # ꜽ + Grave
 <dead_grave> <U2C6D>                                : "Ɑ̀"   # Ɑ (Latin Alpha) + Grave
 <dead_grave> <U0251>                                : "ɑ̀"   # ɑ (Latin Alpha) + Grave
 <dead_grave> <dead_greek> <dead_circumflex> <A>     : "Ɑ̀"   # Ɑ (Latin Alpha) + Grave
@@ -91,8 +111,35 @@
 <dead_grave> <UA7B5>                                : "ꞵ̀"   # ꞵ (Latin Beta) + Grave
 <dead_grave> <dead_greek> <dead_circumflex> <B>     : "Ꞵ̀"   # Ꞵ (Latin Beta) + Grave
 <dead_grave> <dead_greek> <dead_circumflex> <b>     : "ꞵ̀"   # ꞵ (Latin Beta) + Grave
+<dead_grave> <UA796>                                : "Ꞗ̀"   # Ꞗ (Middle Vietnamese B) + Grave
+<dead_grave> <UA797>                                : "ꞗ̀"   # ꞗ (Middle Vietnamese B) + Grave
+<dead_grave> <U1DFB> <B>                            : "Ꞗ̀"
+<dead_grave> <U1DFB> <b>                            : "ꞗ̀"
 <dead_grave> <C>                                    : "C̀"
 <dead_grave> <c>                                    : "c̀"
+<dead_grave> <UA76E>                                : "Ꝯ̀"   # Ꝯ (Con/Us) + Grave
+<dead_grave> <UA76F>                                : "ꝯ̀"   # ꝯ (Con/Us) + Grave
+<dead_grave> <U1DFB> <C> <O> <N>                    : "Ꝯ̀"
+<dead_grave> <U1DFB> <c> <o> <n>                    : "ꝯ̀"
+<dead_grave> <U1DFB> <U> <S>                        : "Ꝯ̀"
+<dead_grave> <U1DFB> <u> <s>                        : "ꝯ̀"
+<dead_grave> <D>                                    : "D̀"
+<dead_grave> <d>                                    : "d̀"
+<dead_grave> <ETH>                                  : "Ð̀"
+<dead_grave> <eth>                                  : "ð̀"
+<dead_grave> <U1E9F>                                : "ẟ̀"   # ẟ (Latin Delta) + Grave
+<dead_grave> <dead_greek> <dead_circumflex> <D>     : "ẟ̀"
+<dead_grave> <dead_greek> <dead_circumflex> <d>     : "ẟ̀"
+<dead_grave> <U018D>                                : "ƍ̀"   # ƍ (Turned Latin Delta) + Grave
+<dead_grave> <dead_greek> <dead_circumflex> <ETH>   : "ƍ̀"
+<dead_grave> <dead_greek> <dead_circumflex> <eth>   : "ƍ̀"
+<dead_grave> <UA779>                                : "Ꝺ̀"   # Ꝺ (Insular D) + Grave
+<dead_grave> <UA77A>                                : "ꝺ̀"   # ꝺ (Insular D) + Grave
+<dead_grave> <U1DFB> <D>                            : "Ꝺ̀"
+<dead_grave> <U1DFB> <d>                            : "ꝺ̀"
+<dead_grave> <UA771>                                : "ꝱ̀"   # ꝱ (Dum) + Grave
+<dead_grave> <U1DFB> <slash> <D>                    : "ꝱ̀"
+<dead_grave> <U1DFB> <slash> <d>                    : "ꝱ̀"
 <dead_grave> <U0190>                                : "Ɛ̀"   # Ɛ (Latin Epsilon) + Grave
 <dead_grave> <U025B>                                : "ɛ̀"   # ɛ (Latin Epsilon) + Grave
 <dead_grave> <dead_greek> <dead_circumflex> <E>     : "Ɛ̀"   # Ɛ (Latin Epsilon) + Grave
@@ -118,78 +165,271 @@
 <dead_grave> <U01DD>                                : "ǝ̀"   # ǝ (Turned E) + Grave
 <dead_grave> <U21BA> <E>                            : "Ǝ̀"   # Ǝ (Turned E) + Grave
 <dead_grave> <U21BA> <e>                            : "ǝ̀"   # ǝ (Turned E) + Grave
+<dead_grave> <UA76A>                                : "Ꝫ̀"   # Ꝫ (Et) + Grave
+<dead_grave> <UA76B>                                : "ꝫ̀"   # ꝫ (Et) + Grave
+<dead_grave> <U1DFB> <ampersand> <E> <T>            : "Ꝫ̀"
+<dead_grave> <U1DFB> <ampersand> <e> <t>            : "ꝫ̀"
+<dead_grave> <U2E52>                                : "⹒̀"   # ⹒ (Tironian Et) + Grave
+<dead_grave> <U204A>                                : "⁊̀"   # ⁊ (Tironian Et) + Grave
+<dead_grave> <U1DFB> <E> <T>                        : "⹒̀"
+<dead_grave> <U1DFB> <e> <t>                        : "⁊̀"
 <dead_grave> <F>                                    : "F̀"
 <dead_grave> <f>                                    : "f̀"
 <dead_grave> <U0278>                                : "ɸ̀"   # ɸ (Latin Phi) + Grave
 <dead_grave> <dead_greek> <dead_circumflex> <F>     : "ɸ̀"   # ɸ (Latin Phi) + Grave
 <dead_grave> <dead_greek> <dead_circumflex> <f>     : "ɸ̀"   # ɸ (Latin Phi) + Grave
+<dead_grave> <UA77B>                                : "Ꝼ̀"   # Ꝼ (Insular F) + Grave
+<dead_grave> <UA77C>                                : "ꝼ̀"   # ꝼ (Insular F) + Grave
+<dead_grave> <U1DFB> <F>                            : "Ꝼ̀"   # Ꝼ (Insular F) + Grave
+<dead_grave> <U1DFB> <f>                            : "ꝼ̀"   # ꝼ (Insular F) + Grave
+<dead_grave> <UA7FB>                                : "ꟻ̀"   # ꟻ (Roman Epigraphic F) + Grave
+<dead_grave> <U1DFB> <U21BA> <F>                    : "ꟻ̀"
+<dead_grave> <U1DFB> <U21BA> <f>                    : "ꟻ̀"
+<dead_grave> <UAB35>                                : "ꬵ̀"   # ꬵ (Lenis F) + Grave
+<dead_grave> <U1DFB> <minus> <f>                    : "ꬵ̀"
+<dead_grave> <U1DFB> <minus> <f>                    : "ꬵ̀"
 <dead_grave> <G>                                    : "G̀"
 <dead_grave> <g>                                    : "g̀"
+<dead_grave> <UA7AC>                                : "Ɡ̀"   # Ɡ (Single-storey G) + Grave
+<dead_grave> <U0261>                                : "ɡ̀"   # ɡ (Single-storey G) + Grave
+<dead_grave> <U035A> <G>                            : "Ɡ̀"
+<dead_grave> <U035A> <g>                            : "ɡ̀"
 <dead_grave> <U0194>                                : "Ɣ̀"   # Ɣ (Latin Gamma) + Grave
 <dead_grave> <U0263>                                : "ɣ̀"   # ɣ (Latin Gamma) + Grave
 <dead_grave> <dead_greek> <dead_circumflex> <G>     : "Ɣ̀"   # Ɣ (Latin Gamma) + Grave
 <dead_grave> <dead_greek> <dead_circumflex> <g>     : "ɣ̀"   # ɣ (Latin Gamma) + Grave
+<dead_grave> <UA77D>                                : "Ᵹ̀"   # Ᵹ (Insular G) + Grave
+<dead_grave> <U1D79>                                : "ᵹ̀"   # ᵹ (Insular G) + Grave
+<dead_grave> <U1DFB> <G>                            : "Ᵹ̀"
+<dead_grave> <U1DFB> <g>                            : "ᵹ̀"
+<dead_grave> <UA77E>                                : "Ꝿ̀"   # Ꝿ (Turned Insular G) + Grave
+<dead_grave> <UA77F>                                : "ꝿ̀"   # ꝿ (Turned Insular G) + Grave
+<dead_grave> <U1DFB> <01A2>                         : "Ꝿ̀"
+<dead_grave> <U1DFB> <01A3>                         : "ꝿ̀"
+<dead_grave> <U1DFB> <U1DCF> <G> <H>                : "Ꝿ̀"
+<dead_grave> <U1DFB> <U1DCF> <g> <h>                : "ꝿ̀"
+<dead_grave> <U1DFB> <U1DCF> <O> <I>                : "Ꝿ̀"
+<dead_grave> <U1DFB> <U1DCF> <o> <i>                : "ꝿ̀"
+<dead_grave> <UA7D0>                                : "Ꟑ̀"   # Ꟑ (Closed Insular G) + Grave
+<dead_grave> <UA7D1>                                : "ꟑ̀"   # ꟑ (Closed Insular G) + Grave
+<dead_grave> <U1DFB> <minus> <G>                    : "Ꟑ̀"
+<dead_grave> <U1DFB> <minus> <g>                    : "ꟑ̀"
+<dead_grave> <U1DF01>                               : "𝼁̀"   # 𝼁 (Reversed G) + Grave
+<dead_grave> <U1DFB> <U21BA> <g>                    : "𝼁̀"
+<dead_grave> <U1DFB> <U21BA> <g>                    : "𝼁̀"
 <dead_grave> <H>                                    : "h̀"
 <dead_grave> <h>                                    : "h̀"
 <dead_grave> <UA78D>                                : "Ɥ̀"   # Ɥ (Turned H) + Grave
 <dead_grave> <U0265>                                : "ɥ̀"   # ɥ (Turned H) + Grave
 <dead_grave> <U21BA> <H>                            : "Ɥ̀"   # Ɥ (Turned H) + Grave
 <dead_grave> <U21BA> <h>                            : "ɥ̀"   # ɥ (Turned H) + Grave
+<dead_grave> <U2C75>                                : "Ⱶ̀"   # Ⱶ (Sonus Medius) + Grave
+<dead_grave> <U2C76>                                : "ⱶ̀"   # ⱶ (Sonus Medius) + Grave
 <dead_grave> <U0196>                                : "Ɩ̀"   # Ɩ (Latin Iota) + Grave
 <dead_grave> <U0269>                                : "ɩ̀"   # ɩ (Latin Iota) + Grave
 <dead_grave> <UA7AE>                                : "Ɪ̀"   # Ɪ (Near-close near-front unrounded vowel) + Grave
 <dead_grave> <U026A>                                : "ɪ̀"   # ɪ (Near-close near-front unrounded vowel) + Grave
 <dead_grave> <U035A> <I>                            : "Ɪ̀"   # Ɪ (Near-close near-front unrounded vowel) + Grave
 <dead_grave> <U035A> <i>                            : "ɪ̀"   # ɪ (Near-close near-front unrounded vowel) + Grave
+<dead_grave> <UA7FE>                                : "ꟾ̀"   # ꟾ (I Longa) + Grave
+<dead_grave> <UA7F7>                                : "ꟷ̀"   # ꟷ (Sideways I) + Grave
+<dead_grave> <U1DFB> <U21BA> <I>                    : "ꟾ̀"
+<dead_grave> <U1DFB> <U21BA> <i>                    : "ꟷ̀"
+<dead_grave> <UA76C>                                : "Ꝭ̀"   # Ꝭ (Is) + Grave
+<dead_grave> <UA76D>                                : "ꝭ̀"   # ꝭ (Is) + Grave
+<dead_grave> <U1DFB> <I> <S>                        : "Ꝭ̀"
+<dead_grave> <U1DFB> <i> <s>                        : "ꝭ̀"
 <dead_grave> <J>                                    : "J̀"
 <dead_grave> <j>                                    : "j̀"
+<dead_grave> <U025F>                                : "ɟ̀"   # ɟ (Barred Dotless J) + Grave
 <dead_grave> <U035A> <J>                            : "ɟ̀"   # ɟ (Barred Dotless J) + Grave
 <dead_grave> <U035A> <j>                            : "ɟ̀"   # ɟ (Barred Dotless J) + Grave
 <dead_grave> <K>                                    : "K̀"
 <dead_grave> <k>                                    : "k̀"
+<dead_grave> <U0138>                                : "ĸ̀"   # ĸ (Kra) + Grave
+<dead_grave> <U1DFB> <K>                            : "ĸ̀"
+<dead_grave> <U1DFB> <k>                            : "ĸ̀"
+<dead_grave> <U1DF03>                               : "𝼃̀"   # 𝼃 (Reversed K) + Grave
+<dead_grave> <U1DFB> <U21BA> <K>                    : "𝼃̀"
+<dead_grave> <U1DFB> <U21BA> <k>                    : "𝼃̀"
 <dead_grave> <L>                                    : "L̀"
 <dead_grave> <l>                                    : "l̀"
 <dead_grave> <U1DF08>                               : "𝼈̀"   # 𝼈 (Retroflex lateral flap) + Grave
 <dead_grave> <U027A>                                : "ɺ̀"   # ɺ (Lateral flap) + Grave
 <dead_grave> <U035A> <L>                            : "𝼈̀"   # 𝼈 (Retroflex lateral flap) + Grave
 <dead_grave> <U035A> <l>                            : "ɺ̀"   # ɺ (Lateral flap) + Grave
+<dead_grave> <UA7DA>                                : "Ꟛ̴̀"   # Ꟛ (Latin Lambda) + Grave
+<dead_grave> <UA7DB>                                : "ꟛ̴̀"   # ꟛ (Latin Lambda) + Grave
+<dead_grave> <UA746>                                : "Ꝇ̀"   # Ꝇ (Broken L) + Grave
+<dead_grave> <UA747>                                : "ꝇ̀"   # ꝇ (Broken L) + Grave
+<dead_grave> <U1DFB> <L>                            : "Ꝇ̀"
+<dead_grave> <U1DFB> <l>                            : "ꝇ̀"
+<dead_grave> <UA772>                                : "ꝲ̀"   # ꝲ (Lum) + Grave
+<dead_grave> <U1DFB> <slash> <L>                    : "ꝲ̀"
+<dead_grave> <U1DFB> <slash> <l>                    : "ꝲ̀"
+<dead_grave> <U2143>                                : "⅃̀"   # ⅃ (Roman Epigraphic L) + Grave
+<dead_grave> <U1DFB> <U21BA> <l>                    : "⅃̀"
+<dead_grave> <U1DFB> <U21BA> <l>                    : "⅃̀"
 <dead_grave> <M>                                    : "M̀"
 <dead_grave> <m>                                    : "m̀"
 <dead_grave> <U0270>                                : "ɰ̀"   # ɰ (Voiced velar approximant) + Grave
 <dead_grave> <U035A> <M>                            : "ɰ̀"   # ɰ (Voiced velar approximant) + Grave
 <dead_grave> <U035A> <m>                            : "ɰ̑̀"   # ɰ (Voiced velar approximant) + Grave
-<dead_grave> <U027B>                                : "ɻ̀"   # ɻ + Grave
-<dead_grave> <U0279>                                : "ɹ̀"   # ɹ + Grave
-<dead_grave> <U035A> <R>                            : "ɻ̀"   # ɻ + Grave
-<dead_grave> <U035A> <r>                            : "ɹ̀"   # ɹ + Grave
-<dead_grave> <U21BA> <R>                            : "ɻ̀"   # ɻ + Grave
-<dead_grave> <U21BA> <r>                            : "ɹ̀"   # ɹ + Grave
+<dead_grave> <UA7FD>                                : "ꟽ̀"   # ꟽ (Roman Epigraphic M) + Grave
+<dead_grave> <U21BA> <M>                            : "ꟽ̀"
+<dead_grave> <U21BA> <m>                            : "ꟽ̀"
+<dead_grave> <UA7FF>                                : "ꟿ̀"  # ꟿ (Manius) + Grave
+<dead_grave> <U1DCF> <M> <W>                        : "ꟿ̀"
+<dead_grave> <U1DCF> <m> <w>                        : "ꟿ̀"
+<dead_grave> <UA773>                                : "ꝳ̀"  # ꝳ (Mum) + Grave
+<dead_grave> <U1DFB> <slash> <M>                    : "ꝳ̀"
+<dead_grave> <U1DFB> <slash> <m>                    : "ꝳ̀"
+<dead_grave> <UA774>                                : "ꝴ̀"   # ꝴ (Num) + Grave
+<dead_grave> <U1DFB> <slash> <N>                    : "ꝴ̀"
+<dead_grave> <U1DFB> <slash> <n>                    : "ꝴ̀"
 <dead_grave> <ENG>                                  : "Ŋ̀"   # Ŋ + Grave
 <dead_grave> <eng>                                  : "ŋ̀"   # ŋ + Grave
+<dead_grave> <U1DF07>                               : "𝼇̀"   # 𝼇 (Reversed Eng) + Grave
+<dead_grave> <U1DFB> <U21BA> <ENG>                  : "𝼇̀"
+<dead_grave> <U1DFB> <U21BA> <eng>                  : "𝼇̀"
 <dead_grave> <U019D>                                : "Ɲ̀"   # Ɲ + Grave
 <dead_grave> <U0272>                                : "ɲ̀"   # ɲ + Grave
 <dead_grave> <OE>                                   : "Œ̀"
 <dead_grave> <oe>                                   : "œ̀"
 <dead_grave> <U1DCF> <O> <E>                        : "Œ̀"
 <dead_grave> <U1DCF> <o> <e>                        : "œ̀"
+<dead_grave> <UA74E>                                : "Ꝏ̀"  # Ꝏ + Grave
+<dead_grave> <UA74F>                                : "ꝏ̀"  # ꝏ + Grave
+<dead_grave> <U1DCF> <O> <O>                        : "Ꝏ̀"  # Ꝏ + Grave
+<dead_grave> <U1DCF> <o> <o>                        : "ꝏ̀"  # ꝏ + Grave
 <dead_grave> <U0186>                                : "Ɔ̀"   # Ɔ + Grave
 <dead_grave> <U0254>                                : "ɔ̀"   # ɔ + Grave
+<dead_grave> <U035A> <O>                            : "Ɔ̀"   # Ɔ + Grave
+<dead_grave> <U035A> <o>                            : "ɔ̀"   # ɔ + Grave
 <dead_grave> <UA7CB>                                : "Ɤ̀"   # Ɤ (Ram's Horn) + Grave
 <dead_grave> <U0264>                                : "ɤ̀"   # ɤ (Ram's Horn) + Grave
+<dead_grave> <U035A> <Oslash>                       : "Ɤ̀"   # Ɤ (Ram's Horn) + Grave
+<dead_grave> <U035A> <oslash>                       : "ɤ̀"   # ɤ (Ram's Horn) + Grave
+<dead_grave> <UA7C0>                                : "Ꟁ̀"   # Ꟁ (Old Polish O) + Grave
+<dead_grave> <UA7C0>                                : "ꟁ̀"   # ꟁ (Old Polish O) + Grave
+<dead_grave> <U1DFB> <Oslash>                       : "Ꟁ̀"
+<dead_grave> <U1DFB> <oslash>                       : "ꟁ̀"
+<dead_grave> <UA74A>                                : "Ꝋ̀"   # Ꝋ + Grave
+<dead_grave> <UA74B>                                : "ꝋ̀"   # ꝋ + Grave
+<dead_grave> <U1DFB> <O>                            : "Ꝋ̀"
+<dead_grave> <U1DFB> <o>                            : "ꝋ̀"
 <dead_grave> <P>                                    : "P̀"
 <dead_grave> <p>                                    : "p̀"
+<dead_grave> <U2183>                                : "Ↄ̀"   # Ↄ (Antisigma) + Grave
+<dead_grave> <U2184>                                : "ↄ̀"   # ↄ (Antisigma) + Grave
+<dead_grave> <UA73E>                                : "Ꜿ̀"   # Ꜿ (Lunate Antisigma) + Grave
+<dead_grave> <UA73F>                                : "ꜿ̀"   # ꜿ (Lunate Antisigma) + Grave
+<dead_grave> <U1DFB> <U2183>                        : "Ꜿ̀"
+<dead_grave> <U1DFB> <U2184>                        : "ꜿ̀"
+<dead_grave> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̀"
+<dead_grave> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̀"
+<dead_grave> <UA7FC>                                : "ꟼ̀"   # ꟼ (Roman Epigraphic P) + Grave
+<dead_grave> <U1DFB> <U21BA> <p>                    : "ꟼ̀"
+<dead_grave> <U1DFB> <U21BA> <p>                    : "ꟼ̀"
+<dead_grave> <UA752>                                : "Ꝓ̀"   # Ꝓ + Grave
+<dead_grave> <UA753>                                : "ꝓ̀"   # ꝓ + Grave
+<dead_grave> <U1DFB> <minus> <P>                    : "Ꝓ̀"
+<dead_grave> <U1DFB> <minus> <p>                    : "ꝓ̀"
+<dead_grave> <UA754>                                : "Ꝕ̀"   # Ꝕ + Grave
+<dead_grave> <UA755>                                : "ꝕ̀"   # ꝕ + Grave
+<dead_grave> <U1DFB> <plus> <P>                     : "Ꝕ̀"
+<dead_grave> <U1DFB> <plus> <p>                     : "ꝕ̀"
 <dead_grave> <Q>                                    : "Q̀"
 <dead_grave> <q>                                    : "q̀"
 <dead_grave> <R>                                    : "R̀"
 <dead_grave> <r>                                    : "r̀"
+<dead_grave> <U027B>                                : "ɻ̀"   # ɻ + Grave
+<dead_grave> <U0279>                                : "ɹ̀"   # ɹ + Grave
+<dead_grave> <U035A> <R>                            : "ɻ̀"   # ɻ + Grave
+<dead_grave> <U035A> <r>                            : "ɹ̀"   # ɹ + Grave
+<dead_grave> <U21BA> <R>                            : "ɻ̀"   # ɻ + Grave
+<dead_grave> <U21BA> <r>                            : "ɹ̀"   # ɹ + Grave
+<dead_grave> <U027E>                                : "ɾ̀"   # ɾ + Grave
+<dead_grave> <UAB45>                                : "ꭅ̀"   # ꭅ (Teuthonista [ɾ]) + Grave
+<dead_grave> <U035A> <minus> <R>                    : "ꭅ̀"
+<dead_grave> <U035A> <minus> <r>                    : "ꭅ̀"
+<dead_grave> <UA782>                                : "Ꞃ̀"   # Ꞃ (Insular R) + Grave
+<dead_grave> <UA783>                                : "ꞃ̀"   # ꞃ (Insular R)  + Grave
+<dead_grave> <U1DFB> <R> <space>                    : "Ꞃ̀"
+<dead_grave> <U1DFB> <r> <space>                    : "ꞃ̀"
+<dead_grave> <U01A6>                                : "Ʀ̀"   # Ʀ (Yr) + Grave
+<dead_grave> <U0280>                                : "ʀ̀"   # ʀ (Yr) + Grave
+<dead_grave> <U1DFB> <Y> <R>                        : "Ʀ̀"
+<dead_grave> <U1DFB> <y> <r>                        : "ʀ̀"
+<dead_grave> <A75A>                                 : "Ꝛ̀"   # Ꝛ (R Rotunda) + Grave
+<dead_grave> <A75B>                                 : "ꝛ̀"   # ꝛ (R Rotunda) + Grave
+<dead_grave> <U1DFB> <minus> <R>                    : "Ꝛ̀"
+<dead_grave> <U1DFB> <minus> <r>                    : "ꝛ̀"
+<dead_grave> <UA75C>                                : "Ꝝ̀"   # Ꝝ (Rum Rotunda) + Grave
+<dead_grave> <UA75D>                                : "ꝝ̀"   # ꝝ (Rum Rotunda) + Grave
+<dead_grave> <U1DFB> <R> <U> <M>                    : "Ꝝ̀"
+<dead_grave> <U1DFB> <r> <u> <m>                    : "ꝝ̀"
+<dead_grave> <U1D19>                                : "ᴙ̀"   # ᴙ (Reversed Smallcaps R) + Grave
+<dead_grave> <U1DFB> <U21BA> <R>                    : "ᴙ̀"
+<dead_grave> <U1DFB> <U21BA> <r>                    : "ᴙ̀"
+<dead_grave> <UA776>                                : "ꝶ̀"   # ꝶ (Smallcaps Rum)
+<dead_grave> <UA775>                                : "ꝵ̀"   # ꝵ (Rum)
+<dead_grave> <U1DFB> <slash> <R>                    : "ꝶ̀"
+<dead_grave> <U1DFB> <slash> <r>                    : "ꝵ̀"
 <dead_grave> <S>                                    : "S̀"
 <dead_grave> <s>                                    : "s̀"
+<dead_grave> <U017F>                                : "ſ̀"   # ſ (Long S) + Grave
+<dead_grave> <U1DFB> <minus> <S>                    : "ſ̀"
+<dead_grave> <U1DFB> <minus> <s>                    : "ſ̀"
+<dead_grave> <U1E9E>                                : "ẞ̀"   # ẞ (Eszett) + Grave
+<dead_grave> <ssharp>                               : "ß̀"
 <dead_grave> <U01A9>                                : "Ʃ̀"   # Ʃ (Esh) + Grave
 <dead_grave> <U0283>                                : "ʃ̀"   # ʃ (Esh) + Grave
 <dead_grave> <U035A> <S>                            : "Ʃ̀"   # Ʃ (Esh) + Grave
 <dead_grave> <U035A> <s>                            : "ʃ̀"   # ʃ (Esh) + Grave
+<dead_grave> <UA784>                                : "Ꞅ̀"   # Ꞅ (Insular S) + Grave
+<dead_grave> <UA785>                                : "ꞅ̀"   # ꞅ (Insular S) + Grave
+<dead_grave> <U1DFB> <S> <space>                    : "Ꞅ̀"
+<dead_grave> <U1DFB> <s> <space>                    : "ꞅ̀"
+<dead_grave> <UA7D8>                                : "Ꟙ̀"   # Ꟙ (Sigmoid S) + Grave
+<dead_grave> <UA7D9>                                : "ꟙ̀"   # ꟙ (Sigmoid S) + Grave
+<dead_grave> <U1DFB> <S> <S>                        : "Ꟙ̀"
+<dead_grave> <U1DFB> <s> <s>                        : "ꟙ̀"
+<dead_grave> <UA7D6>                                : "Ꟗ̀"   # Ꟗ (Middle Scots S) + Grave
+<dead_grave> <UA7D7>                                : "ꟗ̀"   # ꟗ (Middle Scots S) + Grave
+<dead_grave> <U1DFB> <U1E9E>                        : "Ꟗ̀"
+<dead_grave> <U1DFB> <ssharp>                       : "ꟗ̀"
+<dead_grave> <U01A7>                                : "Ƨ̀"   # Ƨ (Tone Two) + Grave
+<dead_grave> <U01A8>                                : "ƨ̀"   # ƨ (Tone Two) + Grave
+<dead_grave> <U1DFB> <S> <2>                        : "Ƨ̀"
+<dead_grave> <U1DFB> <s> <2>                        : "ƨ̀"
+<dead_grave> <UA72A>                                : "Ꜫ̀"   # Ꜫ (Tresillo) + Grave
+<dead_grave> <UA72B>                                : "ꜫ̀"   # ꜫ (Tresillo) + Grave
+<dead_grave> <U1DFB> <S> <3>                        : "Ꜫ̀"
+<dead_grave> <U1DFB> <s> <3>                        : "ꜫ̀"
+<dead_grave> <UA72C>                                : "Ꜭ̀"   # Ꜭ (Cuatrillo) + Grave
+<dead_grave> <UA72D>                                : "ꜭ̀"   # ꜭ (Cuatrillo) + Grave
+<dead_grave> <U1DFB> <S> <4>                        : "Ꜭ̀"
+<dead_grave> <U1DFB> <s> <4>                        : "ꜭ̀"
+<dead_grave> <U01BC>                                : "Ƽ̀"   # Ƽ (Tone Five) + Grave
+<dead_grave> <U01BD>                                : "ƽ̀"   # ƽ (Tone Five) + Grave
+<dead_grave> <U1DFB> <S> <5>                        : "Ƽ̀"
+<dead_grave> <U1DFB> <s> <5>                        : "ƽ̀"
+<dead_grave> <U0184>                                : "Ƅ̀"   # Ƅ (Tone Six) + Grave
+<dead_grave> <U0185>                                : "ƅ̀"   # ƅ (Tone Six) + Grave
+<dead_grave> <U1DFB> <S> <6>                        : "Ƅ̀"
+<dead_grave> <U1DFB> <s> <6>                        : "ƅ̀"
 <dead_grave> <T>                                    : "T̀"
 <dead_grave> <t>                                    : "t̀"
+<dead_grave> <THORN>                                : "Þ̀"
+<dead_grave> <thorn>                                : "þ̀"
+<dead_grave> <UA786>                                : "Ꞇ̀"   # Ꞇ (Insular T) + Grave
+<dead_grave> <UA787>                                : "ꞇ̀"   # ꞇ (Insular T) + Grave
+<dead_grave> <U1DFB> <T> <space>                    : "Ꞇ̀"
+<dead_grave> <U1DFB> <t> <space>                    : "ꞇ̀"
+<dead_grave> <UA777>                                : "ꝷ̀"   # ꝷ (Tum) + Grave
+<dead_grave> <U1DFB> <T> <U> <M>                    : "ꝷ̀"
+<dead_grave> <U1DFB> <t> <u> <m>                    : "ꝷ̀"
 <dead_grave> <U01B1>                                : "Ʊ̀"   # Ʊ (Latin Upsilon) + Grave
 <dead_grave> <U028A>                                : "ʊ̀"   # ʊ (Latin Upsilon) + Grave
 <dead_grave> <dead_greek> <dead_circumflex> <U>     : "Ʊ̀"   # Ʊ (Latin Upsilon) + Grave
@@ -198,6 +438,9 @@
 <dead_grave> <U026F>                                : "ɯ̀"   # ɯ (Turned M) + Grave
 <dead_grave> <U21BA> <M>                            : "Ɯ̀"   # Ɯ (Turned M) + Grave
 <dead_grave> <U21BA> <m>                            : "ɯ̀"   # ɯ (Turned M) + Grave
+<dead_grave> <UA778>                                : "ꝸ̀"   # ꝸ (Um) + Grave
+<dead_grave> <U1DFB> <U> <M>                        : "ꝸ̀"
+<dead_grave> <U1DFB> <u> <m>                        : "ꝸ̀"
 <dead_grave> <V>                                    : "V̀"
 <dead_grave> <v>                                    : "v̀"
 <dead_grave> <U0245>                                : "Ʌ̀"   # Ʌ + Grave
@@ -206,16 +449,46 @@
 <dead_grave> <U21BA> <v>                            : "ʌ̀"   # ʌ + Grave
 <dead_grave> <U01B2>                                : "Ʋ̀"   # Ʋ + Grave
 <dead_grave> <U028B>                                : "ʋ̀"   # ʋ + Grave
+<dead_grave> <UA768>                                : "Ꝩ̀"   # Ꝩ (Vend) + Grave
+<dead_grave> <UA769>                                : "ꝩ̀"   # ꝩ (Vend) + Grave
+<dead_grave> <U1DFB> <minus> <V>                    : "Ꝩ̀"
+<dead_grave> <U1DFB> <minus> <v>                    : "ꝩ̀"
+<dead_grave> <U1EFC>                                : "Ỽ̀"   # Ỽ (Middle Welsh V) + Grave
+<dead_grave> <U1EFD>                                : "ỽ̀"   # ỽ (Middle Welsh V) + Grave
+<dead_grave> <U1DFB> <V>                            : "Ỽ̀"
+<dead_grave> <U1DFB> <v>                            : "ỽ̀"
+<dead_grave> <U01F7>                                : "Ƿ̀"   # Ƿ (Wynn) + Grave
+<dead_grave> <U01BF>                                : "ƿ̀"   # ƿ (Wynn) + Grave
+<dead_grave> <U1DFB> <W>                            : "Ƿ̀"
+<dead_grave> <U1DFB> <w>                            : "ƿ̀"
+<dead_grave> <U2132>                                : "Ⅎ̀"   # Ⅎ (Digamma Inversum) + Grave
+<dead_grave> <U214E>                                : "ⅎ̀"   # ⅎ (Digamma Inversum) + Grave
+<dead_grave> <UA760>                                : "Ꝡ̀"   # Ꝡ + Grave
+<dead_grave> <UA761>                                : "ꝡ̀"   # ꝡ + Grave
+<dead_grave> <U1DCF> <V> <Y>                        : "Ꝡ̀"
+<dead_grave> <U1DCF> <v> <y>                        : "ꝡ̀"
+<dead_grave> <UA7C2>                                : "Ꟃ̀"   # Ꟃ (W Anglicana) + Grave
+<dead_grave> <UA7C3>                                : "ꟃ̀"   # ꟃ (W Anglicana) + Grave
+<dead_grave> <U1DCF> <V> <Z>                        : "Ꟃ̀"
+<dead_grave> <U1DCF> <v> <Z>                        : "ꟃ̀"
 <dead_grave> <X>                                    : "X̀"
 <dead_grave> <x>                                    : "x̀"
 <dead_grave> <U21BA> <Y>                            : "⅄̀"   # ⅄ + Grave
 <dead_grave> <U21BA> <y>                            : "ʎ̀"   # ʎ + Grave
 <dead_grave> <U21BA> <Y>                            : "⅄̀"   # ⅄ + Grave
 <dead_grave> <U21BA> <y>                            : "ʎ̀"   # ʎ + Grave
+<dead_grave> <U021C>                                : "Ȝ̀"   # Ȝ (Yogh) + Grave
+<dead_grave> <U021D>                                : "ȝ̀"   # ȝ (Yogh) + Grave
+<dead_grave> <U1DFB> <Y> <O>                        : "Ȝ̀"
+<dead_grave> <U1DFB> <y> <o>                        : "ȝ̀"
 <dead_grave> <Z>                                    : "Z̀"
 <dead_grave> <z>                                    : "z̀"
 <dead_grave> <EZH>                                  : "Ʒ̀"   # Ʒ + Grave
 <dead_grave> <ezh>                                  : "ʒ̀"   # ʒ + Grave
+<dead_grave> <UA762>                                : "Ꝣ̀"   # Ꝣ (Visigothic Z) + Grave
+<dead_grave> <UA763>                                : "ꝣ̀"   # ꝣ (Visigothic Z) + Grave
+<dead_grave> <U1DCF> <C> <Z>                        : "Ꝣ̀"
+<dead_grave> <U1DCF> <c> <z>                        : "ꝣ̀"
 <dead_grave> <U0294>                                : "ʔ̀"   # ʔ (Glottal Stop) + Grave
 <dead_grave> <U035A> <question>                     : "ʔ̀"   # ʔ (Glottal Stop) + Grave
 <dead_grave> <U035A> <U0241> <space>                : "ʔ̀"   # Ɂ (Capital Glottal Stop) + Grave
@@ -226,6 +499,17 @@
 <dead_grave> <U035A> <questiondown>                 : "ʕ̀"   # ʕ (Turned Glottal Glottal Stop) + Grave
 <dead_grave> <U035A> <U0241> <underscore> <space>   : "ʕ̀"   # Ɂ (Capital Glottal Stop) + "_" + Grave
 <dead_grave> <U035A> <U0242> <underscore> <space>   : "ʕ̀"   # ɂ (Small Glottal Stop) + "_" + Grave
+<dead_grave> <UA722>                                : "Ꜣ̀"   # Ꜣ (Egyptological Alef) + Grave
+<dead_grave> <UA723>                                : "ꜣ̀"   # ꜣ (Egyptological Alef) + Grave
+<dead_grave> <U1DFB> <U0241>                        : "Ꜣ̀"
+<dead_grave> <U1DFB> <U0242>                        : "ꜣ̀"
+<dead_grave> <UA724>                                : "Ꜥ̀"   # Ꜥ (Egyptological Ayin) + Grave
+<dead_grave> <UA725>                                : "ꜥ̀"   # ꜥ (Egyptological Ayin) + Grave
+<dead_grave> <U1DFB> <UA78B>                        : "Ꜥ̀"
+<dead_grave> <U1DFB> <UA78C>                        : "ꜥ̀"
+<dead_grave> <U1D25>                                : "ᴥ̀"   # ᴥ (UPA Ain) + Grave
+<dead_grave> <U1DFB> <minus> <U0241>                : "ᴥ̀"
+<dead_grave> <U1DFB> <minus> <U0242>                : "ᴥ̀"
 
 
 # Composed grave accent combinations (Not directly encoded in Unicode) (Unidirectional)

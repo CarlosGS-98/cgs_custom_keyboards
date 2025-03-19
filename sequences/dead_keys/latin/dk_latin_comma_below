@@ -2,10 +2,14 @@
 # [AUTHOR]: Carlos González Sanz
 
 # Basic precomposed letter combinations
-<dead_belowcomma> <S> : "Ș"
-<dead_belowcomma> <s> : "ș"
-<dead_belowcomma> <T> : "Ț"
-<dead_belowcomma> <t> : "ț"
+<dead_belowcomma> <UA72C>           : "Ꜯ"  # Ꜭ (Cuatrillo) + Comma Below
+<dead_belowcomma> <UA72D>           : "ꜯ"  # ꜭ (Cuatrillo) + Comma Below
+<dead_belowcomma> <U1DFB> <S> <4>   : "Ꜯ"
+<dead_belowcomma> <U1DFB> <s> <4>   : "ꜯ"
+<dead_belowcomma> <S>               : "Ș"
+<dead_belowcomma> <s>               : "ș"
+<dead_belowcomma> <T>               : "Ț"
+<dead_belowcomma> <t>               : "ț"
 
 
 # Composed base letter combinations (Not directly encoded in Unicode) (Unidirectional)
@@ -59,14 +63,35 @@
 <dead_belowcomma> <UA7B5>                               : "ꞵ̦"   # ꞵ (Latin Beta) + Comma Below
 <dead_belowcomma> <dead_greek> <dead_circumflex> <B>    : "Ꞵ̦"   # Ꞵ (Latin Beta) + Comma Below
 <dead_belowcomma> <dead_greek> <dead_circumflex> <b>    : "ꞵ̦"   # ꞵ (Latin Beta) + Comma Below
+<dead_belowcomma> <UA796>                               : "Ꞗ̦"   # Ꞗ (Middle Vietnamese B) + Comma Below
+<dead_belowcomma> <UA797>                               : "ꞗ̦"   # ꞗ (Middle Vietnamese B) + Comma Below
+<dead_belowcomma> <U1DFB> <B>                           : "Ꞗ̦"
+<dead_belowcomma> <U1DFB> <b>                           : "ꞗ̦"
 <dead_belowcomma> <C>                                   : "C̦"
 <dead_belowcomma> <c>                                   : "c̦"
+<dead_belowcomma> <UA76E>                               : "Ꝯ̦"   # Ꝯ (Con/Us) + Comma Below
+<dead_belowcomma> <UA76F>                               : "ꝯ̦"   # ꝯ (Con/Us) + Comma Below
+<dead_belowcomma> <U1DFB> <C> <O> <N>                   : "Ꝯ̦"
+<dead_belowcomma> <U1DFB> <c> <o> <n>                   : "ꝯ̦"
+<dead_belowcomma> <U1DFB> <U> <S>                       : "Ꝯ̦"
+<dead_belowcomma> <U1DFB> <u> <s>                       : "ꝯ̦"
 <dead_belowcomma> <D>                                   : "D̦"
 <dead_belowcomma> <d>                                   : "d̦"
 <dead_belowcomma> <ETH>                                 : "Ð̦"
 <dead_belowcomma> <eth>                                 : "ð̦"
+<dead_belowcomma> <U1E9F>                               : "ẟ̦"   # ẟ (Latin Delta) + Comma Below
+<dead_belowcomma> <dead_greek> <dead_circumflex> <D>    : "ẟ̦"
+<dead_belowcomma> <dead_greek> <dead_circumflex> <d>    : "ẟ̦"
+<dead_belowcomma> <U018D>                               : "ƍ̦"   # ƍ (Turned Latin Delta) + Comma Below
+<dead_belowcomma> <dead_greek> <dead_circumflex> <ETH>  : "ƍ̦"
+<dead_belowcomma> <dead_greek> <dead_circumflex> <eth>  : "ƍ̦"
 <dead_belowcomma> <UA779>                               : "Ꝺ̦"   # Ꝺ (Insular D) + Comma Below
 <dead_belowcomma> <UA77A>                               : "ꝺ̦"   # ꝺ (Insular D) + Comma Below
+<dead_belowcomma> <U1DFB> <D>                           : "Ꝺ̦"
+<dead_belowcomma> <U1DFB> <d>                           : "ꝺ̦"
+<dead_belowcomma> <UA771>                               : "ꝱ̦"   # ꝱ (Dum) + Comma Below
+<dead_belowcomma> <U1DFB> <slash> <D>                   : "ꝱ̦"
+<dead_belowcomma> <U1DFB> <slash> <d>                   : "ꝱ̦"
 <dead_belowcomma> <E>                                   : "E̦"
 <dead_belowcomma> <e>                                   : "e̦"
 <dead_belowcomma> <U0190>                               : "Ɛ̦"   # Ɛ (Latin Epsilon) + Comma Below
@@ -94,6 +119,14 @@
 <dead_belowcomma> <U01DD>                               : "ǝ̦"   # ǝ (Turned E) + Comma Below
 <dead_belowcomma> <U21BA> <E>                           : "Ǝ̦"   # Ǝ (Turned E) + Comma Below
 <dead_belowcomma> <U21BA> <e>                           : "ǝ̦"   # ǝ (Turned E) + Comma Below
+<dead_belowcomma> <UA76A>                               : "Ꝫ̦"   # Ꝫ (Et) + Comma Below
+<dead_belowcomma> <UA76B>                               : "ꝫ̦"   # ꝫ (Et) + Comma Below
+<dead_belowcomma> <U1DFB> <ampersand> <E> <T>           : "Ꝫ̦"
+<dead_belowcomma> <U1DFB> <ampersand> <e> <t>           : "ꝫ̦"
+<dead_belowcomma> <U2E52>                               : "⹒̦"   # ⹒ (Tironian Et) + Comma Below
+<dead_belowcomma> <U204A>                               : "⁊̦"   # ⁊ (Tironian Et) + Comma Below
+<dead_belowcomma> <U1DFB> <E> <T>                       : "⹒̦"
+<dead_belowcomma> <U1DFB> <e> <t>                       : "⁊̦"
 <dead_belowcomma> <F>                                   : "F̦"
 <dead_belowcomma> <f>                                   : "f̦"
 <dead_belowcomma> <U0278>                               : "ɸ̦"   # ɸ (Latin Phi) + Comma Below
@@ -101,12 +134,43 @@
 <dead_belowcomma> <dead_greek> <dead_circumflex> <f>    : "ɸ̦"   # ɸ (Latin Phi) + Comma Below
 <dead_belowcomma> <UA77B>                               : "Ꝼ̦"   # Ꝼ (Insular F) + Comma Below
 <dead_belowcomma> <UA77C>                               : "ꝼ̦"   # ꝼ (Insular F) + Comma Below
+<dead_belowcomma> <U1DFB> <F>                           : "Ꝼ̦"   # Ꝼ (Insular F) + Comma Below
+<dead_belowcomma> <U1DFB> <f>                           : "ꝼ̦"   # ꝼ (Insular F) + Comma Below
+<dead_belowcomma> <UA7FB>                               : "ꟻ̦"   # ꟻ (Roman Epigraphic F) + Comma Below
+<dead_belowcomma> <U1DFB> <U21BA> <F>                   : "ꟻ̦"
+<dead_belowcomma> <U1DFB> <U21BA> <f>                   : "ꟻ̦"
+<dead_belowcomma> <UAB35>                               : "ꬵ̦"   # ꬵ (Lenis F) + Comma Below
+<dead_belowcomma> <U1DFB> <minus> <f>                   : "ꬵ̦"
+<dead_belowcomma> <U1DFB> <minus> <f>                   : "ꬵ̦"
 <dead_belowcomma> <G>                                   : "G̦"
 <dead_belowcomma> <g>                                   : "g̦"
+<dead_belowcomma> <UA7AC>                               : "Ɡ̦"   # Ɡ (Single-storey G) + Comma Below
+<dead_belowcomma> <U0261>                               : "ɡ̦"   # ɡ (Single-storey G) + Comma Below
+<dead_belowcomma> <U035A> <G>                           : "Ɡ̦"
+<dead_belowcomma> <U035A> <g>                           : "ɡ̦"
 <dead_belowcomma> <U0194>                               : "Ɣ̦"   # Ɣ (Latin Gamma) + Comma Below
 <dead_belowcomma> <U0263>                               : "ɣ̦"   # ɣ (Latin Gamma) + Comma Below
 <dead_belowcomma> <dead_greek> <dead_circumflex> <G>    : "Ɣ̦"   # Ɣ (Latin Gamma) + Comma Below
 <dead_belowcomma> <dead_greek> <dead_circumflex> <g>    : "ɣ̦"   # ɣ (Latin Gamma) + Comma Below
+<dead_belowcomma> <UA77D>                               : "Ᵹ̦"   # Ᵹ (Insular G) + Comma Below
+<dead_belowcomma> <U1D79>                               : "ᵹ̦"   # ᵹ (Insular G) + Comma Below
+<dead_belowcomma> <U1DFB> <G>                           : "Ᵹ̦"
+<dead_belowcomma> <U1DFB> <g>                           : "ᵹ̦"
+<dead_belowcomma> <UA77E>                               : "Ꝿ̦"   # Ꝿ (Turned Insular G) + Comma Below
+<dead_belowcomma> <UA77F>                               : "ꝿ̦"   # ꝿ (Turned Insular G) + Comma Below
+<dead_belowcomma> <U1DFB> <01A2>                        : "Ꝿ̦"
+<dead_belowcomma> <U1DFB> <01A3>                        : "ꝿ̦"
+<dead_belowcomma> <U1DFB> <U1DCF> <G> <H>               : "Ꝿ̦"
+<dead_belowcomma> <U1DFB> <U1DCF> <g> <h>               : "ꝿ̦"
+<dead_belowcomma> <U1DFB> <U1DCF> <O> <I>               : "Ꝿ̦"
+<dead_belowcomma> <U1DFB> <U1DCF> <o> <i>               : "ꝿ̦"
+<dead_belowcomma> <UA7D0>                               : "Ꟑ̦"   # Ꟑ (Closed Insular G) + Comma Below
+<dead_belowcomma> <UA7D1>                               : "ꟑ̦"   # ꟑ (Closed Insular G) + Comma Below
+<dead_belowcomma> <U1DFB> <minus> <G>                   : "Ꟑ̦"
+<dead_belowcomma> <U1DFB> <minus> <g>                   : "ꟑ̦"
+<dead_belowcomma> <U1DF01>                              : "𝼁̦"   # 𝼁 (Reversed G) + Comma Below
+<dead_belowcomma> <U1DFB> <U21BA> <g>                   : "𝼁̦"
+<dead_belowcomma> <U1DFB> <U21BA> <g>                   : "𝼁̦"
 <dead_belowcomma> <H>                                   : "H̦"
 <dead_belowcomma> <h>                                   : "h̦"
 <dead_belowcomma> <UA78D>                               : "Ɥ̦"   # Ɥ (Turned H) + Comma Below
@@ -121,27 +185,69 @@
 <dead_belowcomma> <U026A>                               : "ɪ̦"   # ɪ (Near-close near-front unrounded vowel) + Comma Below
 <dead_belowcomma> <U035A> <I>                           : "Ɪ̦"   # Ɪ (Near-close near-front unrounded vowel) + Comma Below
 <dead_belowcomma> <U035A> <i>                           : "ɪ̦"   # ɪ (Near-close near-front unrounded vowel) + Comma Below
+<dead_belowcomma> <UA7FE>                               : "ꟾ̦"   # ꟾ (I Longa) + Comma Below
+<dead_belowcomma> <UA7F7>                               : "ꟷ̦"   # ꟷ (Sideways I) + Comma Below
+<dead_belowcomma> <U1DFB> <U21BA> <I>                   : "ꟾ̦"
+<dead_belowcomma> <U1DFB> <U21BA> <i>                   : "ꟷ̦"
+<dead_belowcomma> <UA76C>                               : "Ꝭ̦"   # Ꝭ (Is) + Comma Below
+<dead_belowcomma> <UA76D>                               : "ꝭ̦"   # ꝭ (Is) + Comma Below
+<dead_belowcomma> <U1DFB> <I> <S>                       : "Ꝭ̦"
+<dead_belowcomma> <U1DFB> <i> <s>                       : "ꝭ̦"
 <dead_belowcomma> <J>                                   : "J̦"
 <dead_belowcomma> <j>                                   : "j̦"
+<dead_belowcomma> <U025F>                               : "ɟ̦"   # ɟ (Barred Dotless J) + Comma Below
 <dead_belowcomma> <U035A> <J>                           : "ɟ̦"   # ɟ (Barred Dotless J) + Comma Below
 <dead_belowcomma> <U035A> <j>                           : "ɟ̦"   # ɟ (Barred Dotless J) + Comma Below
 <dead_belowcomma> <K>                                   : "K̦"
 <dead_belowcomma> <k>                                   : "k̦"
+<dead_belowcomma> <U0138>                               : "ĸ̦"   # ĸ (Kra) + Comma Below
+<dead_belowcomma> <U1DFB> <K>                           : "ĸ̦"
+<dead_belowcomma> <U1DFB> <k>                           : "ĸ̦"
+<dead_belowcomma> <U1DF03>                              : "𝼃̦"   # 𝼃 (Reversed K) + Comma Below
+<dead_belowcomma> <U1DFB> <U21BA> <K>                   : "𝼃̦"
+<dead_belowcomma> <U1DFB> <U21BA> <k>                   : "𝼃̦"
 <dead_belowcomma> <L>                                   : "L̦"
 <dead_belowcomma> <l>                                   : "l̦"
 <dead_belowcomma> <U1DF08>                              : "𝼈̦"   # 𝼈 (Retroflex lateral flap) + Comma Below
 <dead_belowcomma> <U027A>                               : "ɺ̦"   # ɺ (Lateral flap) + Comma Below
 <dead_belowcomma> <U035A> <L>                           : "𝼈̦"   # 𝼈 (Retroflex lateral flap) + Comma Below
 <dead_belowcomma> <U035A> <l>                           : "ɺ̦"   # ɺ (Lateral flap) + Comma Below
+<dead_belowcomma> <UA7DA>                               : "Ꟛ̴̦"   # Ꟛ (Latin Lambda) + Comma Below
+<dead_belowcomma> <UA7DB>                               : "ꟛ̴̦"   # ꟛ (Latin Lambda) + Comma Below
+<dead_belowcomma> <UA746>                               : "Ꝇ̦"   # Ꝇ (Broken L) + Comma Below
+<dead_belowcomma> <UA747>                               : "ꝇ̦"   # ꝇ (Broken L) + Comma Below
+<dead_belowcomma> <U1DFB> <L>                           : "Ꝇ̦"
+<dead_belowcomma> <U1DFB> <l>                           : "ꝇ̦"
+<dead_belowcomma> <UA772>                               : "ꝲ̦"   # ꝲ (Lum) + Comma Below
+<dead_belowcomma> <U1DFB> <slash> <L>                   : "ꝲ̦"
+<dead_belowcomma> <U1DFB> <slash> <l>                   : "ꝲ̦"
+<dead_belowcomma> <U2143>                               : "⅃̦"   # ⅃ (Roman Epigraphic L) + Comma Below
+<dead_belowcomma> <U1DFB> <U21BA> <l>                   : "⅃̦"
+<dead_belowcomma> <U1DFB> <U21BA> <l>                   : "⅃̦"
 <dead_belowcomma> <M>                                   : "M̦"
 <dead_belowcomma> <m>                                   : "m̦"
 <dead_belowcomma> <U0270>                               : "ɰ̦"   # ɰ (Voiced velar approximant) + Comma Below
 <dead_belowcomma> <U035A> <M>                           : "ɰ̦"   # ɰ (Voiced velar approximant) + Comma Below
 <dead_belowcomma> <U035A> <m>                           : "ɰ̦"   # ɰ (Voiced velar approximant) + Comma Below
+<dead_belowcomma> <UA7FD>                               : "ꟽ̦"   # ꟽ (Roman Epigraphic M) + Comma Below
+<dead_belowcomma> <U21BA> <M>                           : "ꟽ̦"
+<dead_belowcomma> <U21BA> <m>                           : "ꟽ̦"
+<dead_belowcomma> <UA7FF>                               : "ꟿ̦"  # ꟿ (Manius) + Comma Below
+<dead_belowcomma> <U1DCF> <M> <W>                       : "ꟿ̦"
+<dead_belowcomma> <U1DCF> <m> <w>                       : "ꟿ̦"
+<dead_belowcomma> <UA773>                               : "ꝳ̦"  # ꝳ (Mum) + Comma Below
+<dead_belowcomma> <U1DFB> <slash> <M>                   : "ꝳ̦"
+<dead_belowcomma> <U1DFB> <slash> <m>                   : "ꝳ̦"
 <dead_belowcomma> <N>                                   : "N̦"
 <dead_belowcomma> <n>                                   : "n̦"
+<dead_belowcomma> <UA774>                               : "ꝴ̦"   # ꝴ (Num) + Comma Below
+<dead_belowcomma> <U1DFB> <slash> <N>                   : "ꝴ̦"
+<dead_belowcomma> <U1DFB> <slash> <n>                   : "ꝴ̦"
 <dead_belowcomma> <ENG>                                 : "Ŋ̦"   # Ŋ + Comma Below
 <dead_belowcomma> <eng>                                 : "ŋ̦"   # ŋ + Comma Below
+<dead_belowcomma> <U1DF07>                              : "𝼇̦"   # 𝼇 (Reversed Eng) + Comma Below
+<dead_belowcomma> <U1DFB> <U21BA> <ENG>                 : "𝼇̦"
+<dead_belowcomma> <U1DFB> <U21BA> <eng>                 : "𝼇̦"
 <dead_belowcomma> <O>                                   : "O̦"
 <dead_belowcomma> <o>                                   : "o̦"
 <dead_belowcomma> <OE>                                  : "Œ̦"
@@ -154,10 +260,41 @@
 <dead_belowcomma> <U1DCF> <o> <o>                       : "ꝏ̦"   # ꝏ + Comma Below
 <dead_belowcomma> <U0186>                               : "Ɔ̦"    # Ɔ + Comma Below
 <dead_belowcomma> <U0254>                               : "ɔ̦"    # ɔ + Comma Below
+<dead_belowcomma> <U035A> <O>                           : "Ɔ̦"   # Ɔ + Comma Below
+<dead_belowcomma> <U035A> <o>                           : "ɔ̦"   # ɔ + Comma Below
 <dead_belowcomma> <UA7CB>                               : "Ɤ̦"    # Ɤ (Ram's Horn) + Comma Below
 <dead_belowcomma> <U0264>                               : "ɤ̦"    # ɤ (Ram's Horn) + Comma Below
+<dead_belowcomma> <U035A> <Oslash>                      : "Ɤ̦"   # Ɤ (Ram's Horn) + Comma Below
+<dead_belowcomma> <U035A> <oslash>                      : "ɤ̦"   # ɤ (Ram's Horn) + Comma Below
+<dead_belowcomma> <UA7C0>                               : "Ꟁ̦"   # Ꟁ (Old Polish O) + Comma Below
+<dead_belowcomma> <UA7C0>                               : "ꟁ̦"   # ꟁ (Old Polish O) + Comma Below
+<dead_belowcomma> <U1DFB> <Oslash>                      : "Ꟁ̦"
+<dead_belowcomma> <U1DFB> <oslash>                      : "ꟁ̦"
+<dead_belowcomma> <UA74A>                               : "Ꝋ̦"   # Ꝋ + Comma Below
+<dead_belowcomma> <UA74B>                               : "ꝋ̦"   # ꝋ + Comma Below
+<dead_belowcomma> <U1DFB> <O>                           : "Ꝋ̦"
+<dead_belowcomma> <U1DFB> <o>                           : "ꝋ̦"
 <dead_belowcomma> <P>                                   : "P̦"
 <dead_belowcomma> <p>                                   : "p̦"
+<dead_belowcomma> <U2183>                               : "Ↄ̦"   # Ↄ (Antisigma) + Comma Below
+<dead_belowcomma> <U2184>                               : "ↄ̦"   # ↄ (Antisigma) + Comma Below
+<dead_belowcomma> <UA73E>                               : "Ꜿ̦"   # Ꜿ (Lunate Antisigma) + Comma Below
+<dead_belowcomma> <UA73F>                               : "ꜿ̦"   # ꜿ (Lunate Antisigma) + Comma Below
+<dead_belowcomma> <U1DFB> <U2183>                       : "Ꜿ̦"
+<dead_belowcomma> <U1DFB> <U2184>                       : "ꜿ̦"
+<dead_belowcomma> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̦"
+<dead_belowcomma> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̦"
+<dead_belowcomma> <UA7FC>                               : "ꟼ̦"   # ꟼ (Roman Epigraphic P) + Comma Below
+<dead_belowcomma> <U1DFB> <U21BA> <p>                   : "ꟼ̦"
+<dead_belowcomma> <U1DFB> <U21BA> <p>                   : "ꟼ̦"
+<dead_belowcomma> <UA752>                               : "Ꝓ̦"   # Ꝓ + Comma Below
+<dead_belowcomma> <UA753>                               : "ꝓ̦"   # ꝓ + Comma Below
+<dead_belowcomma> <U1DFB> <minus> <P>                   : "Ꝓ̦"
+<dead_belowcomma> <U1DFB> <minus> <p>                   : "ꝓ̦"
+<dead_belowcomma> <UA754>                               : "Ꝕ̦"   # Ꝕ + Comma Below
+<dead_belowcomma> <UA755>                               : "ꝕ̦"   # ꝕ + Comma Below
+<dead_belowcomma> <U1DFB> <plus> <P>                    : "Ꝕ̦"
+<dead_belowcomma> <U1DFB> <plus> <p>                    : "ꝕ̦"
 <dead_belowcomma> <Q>                                   : "Q̦"
 <dead_belowcomma> <q>                                   : "q̦"
 <dead_belowcomma> <R>                                   : "R̦"
@@ -168,16 +305,79 @@
 <dead_belowcomma> <U035A> <r>                           : "ɹ̦"   # ɹ + Comma Below
 <dead_belowcomma> <U21BA> <R>                           : "ɻ̦"   # ɻ + Comma Below
 <dead_belowcomma> <U21BA> <r>                           : "ɹ̦"   # ɹ + Comma Below
+<dead_belowcomma> <U027E>                               : "ɾ̦"   # ɾ + Comma Below
+<dead_belowcomma> <UAB45>                               : "ꭅ̦"   # ꭅ (Teuthonista [ɾ]) + Comma Below
+<dead_belowcomma> <U035A> <minus> <R>                   : "ꭅ̦"
+<dead_belowcomma> <U035A> <minus> <r>                   : "ꭅ̦"
+<dead_belowcomma> <UA782>                               : "Ꞃ̦"   # Ꞃ (Insular R) + Comma Below
+<dead_belowcomma> <UA783>                               : "ꞃ̦"   # ꞃ (Insular R)  + Comma Below
+<dead_belowcomma> <U1DFB> <R> <space>                   : "Ꞃ̦"
+<dead_belowcomma> <U1DFB> <r> <space>                   : "ꞃ̦"
 <dead_belowcomma> <U01A6>                               : "Ʀ̦"   # Ʀ (Yr) + Comma Below
 <dead_belowcomma> <U0280>                               : "ʀ̦"   # ʀ (Yr) + Comma Below
+<dead_belowcomma> <U1DFB> <Y> <R>                       : "Ʀ̦"
+<dead_belowcomma> <U1DFB> <y> <r>                       : "ʀ̦"
 <dead_belowcomma> <A75A>                                : "Ꝛ̦"   # Ꝛ (R Rotunda) + Comma Below
 <dead_belowcomma> <A75B>                                : "ꝛ̦"   # ꝛ (R Rotunda) + Comma Below
+<dead_belowcomma> <U1DFB> <minus> <R>                   : "Ꝛ̦"
+<dead_belowcomma> <U1DFB> <minus> <r>                   : "ꝛ̦"
+<dead_belowcomma> <UA75C>                               : "Ꝝ̦"   # Ꝝ (Rum Rotunda) + Comma Below
+<dead_belowcomma> <UA75D>                               : "ꝝ̦"   # ꝝ (Rum Rotunda) + Comma Below
+<dead_belowcomma> <U1DFB> <R> <U> <M>                   : "Ꝝ̦"
+<dead_belowcomma> <U1DFB> <r> <u> <m>                   : "ꝝ̦"
+<dead_belowcomma> <U1D19>                               : "ᴙ̦"   # ᴙ (Reversed Smallcaps R) + Comma Below
+<dead_belowcomma> <U1DFB> <U21BA> <R>                   : "ᴙ̦"
+<dead_belowcomma> <U1DFB> <U21BA> <r>                   : "ᴙ̦"
+<dead_belowcomma> <UA776>                               : "ꝶ̦"   # ꝶ (Smallcaps Rum)
+<dead_belowcomma> <UA775>                               : "ꝵ̦"   # ꝵ (Rum)
+<dead_belowcomma> <U1DFB> <slash> <R>                   : "ꝶ̦"
+<dead_belowcomma> <U1DFB> <slash> <r>                   : "ꝵ̦"
+<dead_belowcomma> <U017F>                               : "ſ̦"   # ſ (Long S) + Comma Below
+<dead_belowcomma> <U1DFB> <minus> <S>                   : "ſ̦"
+<dead_belowcomma> <U1DFB> <minus> <s>                   : "ſ̦"
+<dead_belowcomma> <U1E9E>                               : "ẞ̦"   # ẞ (Eszett) + Comma Below
+<dead_belowcomma> <ssharp>                              : "ß̦"
 <dead_belowcomma> <U01A9>                               : "Ʃ̦"   # Ʃ (Esh) + Comma Below
 <dead_belowcomma> <U0283>                               : "ʃ̦"   # ʃ (Esh) + Comma Below
 <dead_belowcomma> <U035A> <S>                           : "Ʃ̦"   # Ʃ (Esh) + Comma Below
 <dead_belowcomma> <U035A> <s>                           : "ʃ̦"   # ʃ (Esh) + Comma Below
+<dead_belowcomma> <UA784>                               : "Ꞅ̦"   # Ꞅ (Insular S) + Comma Below
+<dead_belowcomma> <UA785>                               : "ꞅ̦"   # ꞅ (Insular S) + Comma Below
+<dead_belowcomma> <U1DFB> <S> <space>                   : "Ꞅ̦"
+<dead_belowcomma> <U1DFB> <s> <space>                   : "ꞅ̦"
+<dead_belowcomma> <UA7D8>                               : "Ꟙ̦"   # Ꟙ (Sigmoid S) + Comma Below
+<dead_belowcomma> <UA7D9>                               : "ꟙ̦"   # ꟙ (Sigmoid S) + Comma Below
+<dead_belowcomma> <U1DFB> <S> <S>                       : "Ꟙ̦"
+<dead_belowcomma> <U1DFB> <s> <s>                       : "ꟙ̦"
+<dead_belowcomma> <UA7D6>                               : "Ꟗ̦"   # Ꟗ (Middle Scots S) + Comma Below
+<dead_belowcomma> <UA7D7>                               : "ꟗ̦"   # ꟗ (Middle Scots S) + Comma Below
+<dead_belowcomma> <U1DFB> <U1E9E>                       : "Ꟗ̦"
+<dead_belowcomma> <U1DFB> <ssharp>                      : "ꟗ̦"
+<dead_belowcomma> <U01A7>                               : "Ƨ̦"   # Ƨ (Tone Two) + Comma Below
+<dead_belowcomma> <U01A8>                               : "ƨ̦"   # ƨ (Tone Two) + Comma Below
+<dead_belowcomma> <U1DFB> <S> <2>                       : "Ƨ̦"
+<dead_belowcomma> <U1DFB> <s> <2>                       : "ƨ̦"
+<dead_belowcomma> <UA72A>                               : "Ꜫ̦"   # Ꜫ (Tresillo) + Comma Below
+<dead_belowcomma> <UA72B>                               : "ꜫ̦"   # ꜫ (Tresillo) + Comma Below
+<dead_belowcomma> <U1DFB> <S> <3>                       : "Ꜫ̦"
+<dead_belowcomma> <U1DFB> <s> <3>                       : "ꜫ̦"
+<dead_belowcomma> <U01BC>                               : "Ƽ̦"   # Ƽ (Tone Five) + Comma Below
+<dead_belowcomma> <U01BD>                               : "ƽ̦"   # ƽ (Tone Five) + Comma Below
+<dead_belowcomma> <U1DFB> <S> <5>                       : "Ƽ̦"
+<dead_belowcomma> <U1DFB> <s> <5>                       : "ƽ̦"
+<dead_belowcomma> <U0184>                               : "Ƅ̦"   # Ƅ (Tone Six) + Comma Below
+<dead_belowcomma> <U0185>                               : "ƅ̦"   # ƅ (Tone Six) + Comma Below
+<dead_belowcomma> <U1DFB> <S> <6>                       : "Ƅ̦"
+<dead_belowcomma> <U1DFB> <s> <6>                       : "ƅ̦"
 <dead_belowcomma> <THORN>                               : "Þ̦"
 <dead_belowcomma> <thorn>                               : "þ̦"
+<dead_belowcomma> <UA786>                               : "Ꞇ̦"   # Ꞇ (Insular T) + Comma Below
+<dead_belowcomma> <UA787>                               : "ꞇ̦"   # ꞇ (Insular T) + Comma Below
+<dead_belowcomma> <U1DFB> <T> <space>                   : "Ꞇ̦"
+<dead_belowcomma> <U1DFB> <t> <space>                   : "ꞇ̦"
+<dead_belowcomma> <UA777>                               : "ꝷ̦"   # ꝷ (Tum) + Comma Below
+<dead_belowcomma> <U1DFB> <T> <U> <M>                   : "ꝷ̦"
+<dead_belowcomma> <U1DFB> <t> <u> <m>                   : "ꝷ̦"
 <dead_belowcomma> <U>                                   : "U̦"
 <dead_belowcomma> <u>                                   : "u̦"
 <dead_belowcomma> <U01B1>                               : "Ʊ̦"   # Ʊ (Latin Upsilon) + Comma Below
@@ -188,6 +388,9 @@
 <dead_belowcomma> <U026F>                               : "ɯ̦"   # ɯ (Turned M) + Comma Below
 <dead_belowcomma> <U21BA> <M>                           : "Ɯ̦"   # Ɯ (Turned M) + Comma Below
 <dead_belowcomma> <U21BA> <m>                           : "ɯ̦"   # ɯ (Turned M) + Comma Below
+<dead_belowcomma> <UA778>                               : "ꝸ̦"   # ꝸ (Um) + Comma Below
+<dead_belowcomma> <U1DFB> <U> <M>                       : "ꝸ̦"
+<dead_belowcomma> <U1DFB> <u> <m>                       : "ꝸ̦"
 <dead_belowcomma> <V>                                   : "V̦"
 <dead_belowcomma> <v>                                   : "v̦"
 <dead_belowcomma> <U0245>                               : "Ʌ̦"   # Ʌ + Comma Below
@@ -198,12 +401,26 @@
 <dead_belowcomma> <U028B>                               : "ʋ̦"   # ʋ + Comma Below
 <dead_belowcomma> <UA768>                               : "Ꝩ̦"   # Ꝩ (Vend) + Comma Below
 <dead_belowcomma> <UA769>                               : "ꝩ̦"   # ꝩ (Vend) + Comma Below
+<dead_belowcomma> <U1DFB> <minus> <V>                   : "Ꝩ̦"
+<dead_belowcomma> <U1DFB> <minus> <v>                   : "ꝩ̦"
+<dead_belowcomma> <U1EFC>                               : "Ỽ̦"   # Ỽ (Middle Welsh V) + Comma Below
+<dead_belowcomma> <U1EFD>                               : "ỽ̦"   # ỽ (Middle Welsh V) + Comma Below
+<dead_belowcomma> <U1DFB> <V>                           : "Ỽ̦"
+<dead_belowcomma> <U1DFB> <v>                           : "ỽ̦"
 <dead_belowcomma> <W>                                   : "W̦"
 <dead_belowcomma> <w>                                   : "w̦"
+<dead_belowcomma> <U01F7>                               : "Ƿ̦"   # Ƿ (Wynn) + Comma Below
+<dead_belowcomma> <U01BF>                               : "ƿ̦"   # ƿ (Wynn) + Comma Below
+<dead_belowcomma> <U1DFB> <W>                           : "Ƿ̦"
+<dead_belowcomma> <U1DFB> <w>                           : "ƿ̦"
 <dead_belowcomma> <UA760>                               : "Ꝡ̦"   # Ꝡ + Comma Below
 <dead_belowcomma> <UA761>                               : "ꝡ̦"   # ꝡ + Comma Below
 <dead_belowcomma> <U1DCF> <V> <Y>                       : "Ꝡ̦"
 <dead_belowcomma> <U1DCF> <v> <y>                       : "ꝡ̦"
+<dead_belowcomma> <UA7C2>                               : "Ꟃ̦"   # Ꟃ (W Anglicana) + Comma Below
+<dead_belowcomma> <UA7C3>                               : "ꟃ̦"   # ꟃ (W Anglicana) + Comma Below
+<dead_belowcomma> <U1DCF> <V> <Z>                       : "Ꟃ̦"
+<dead_belowcomma> <U1DCF> <v> <Z>                       : "ꟃ̦"
 <dead_belowcomma> <X>                                   : "X̦"
 <dead_belowcomma> <x>                                   : "x̦"
 <dead_belowcomma> <Y>                                   : "Y̦"
@@ -212,10 +429,18 @@
 <dead_belowcomma> <U21BA> <y>                           : "ʎ̦"   # ʎ + Comma Below
 <dead_belowcomma> <U21BA> <Y>                           : "⅄̦"   # ⅄ + Comma Below
 <dead_belowcomma> <U21BA> <y>                           : "ʎ̦"   # ʎ + Comma Below
+<dead_belowcomma> <U021C>                               : "Ȝ̦"   # Ȝ (Yogh) + Comma Below
+<dead_belowcomma> <U021D>                               : "ȝ̦"   # ȝ (Yogh) + Comma Below
+<dead_belowcomma> <U1DFB> <Y> <O>                       : "Ȝ̦"
+<dead_belowcomma> <U1DFB> <y> <o>                       : "ȝ̦"
 <dead_belowcomma> <Z>                                   : "Z̦"
 <dead_belowcomma> <z>                                   : "z̦"
 <dead_belowcomma> <EZH>                                 : "Ʒ̦"   # Ʒ + Comma Below
 <dead_belowcomma> <ezh>                                 : "ʒ̦"   # ʒ + Comma Below
+<dead_belowcomma> <UA762>                               : "Ꝣ̦"   # Ꝣ (Visigothic Z) + Comma Below
+<dead_belowcomma> <UA763>                               : "ꝣ̦"   # ꝣ (Visigothic Z) + Comma Below
+<dead_belowcomma> <U1DCF> <C> <Z>                       : "Ꝣ̦"
+<dead_belowcomma> <U1DCF> <c> <z>                       : "ꝣ̦"
 <dead_belowcomma> <U0294>                               : "ʔ̦"   # ʔ (Glottal Stop) + Comma Below
 <dead_belowcomma> <U035A> <question>                    : "ʔ̦"   # ʔ (Glottal Stop) + Comma Below
 <dead_belowcomma> <U035A> <U0241> <space>               : "ʔ̦"   # Ɂ (Capital Glottal Stop) + Comma Below
@@ -249,6 +474,17 @@
 <dead_belowcomma> <U02A2>                               : "ʢ̦"   # ʢ (Barred Turned Glottal Stop) + Comma Below
 <dead_belowcomma> <U035A> <U0241> <underscore> <minus>  : "ʢ̦"   # Ɂ (Capital Glottal Stop) + "_-" + Comma Below
 <dead_belowcomma> <U035A> <U0242> <underscore> <minus>  : "ʢ̦"   # ɂ (Small Glottal Stop) + "_-" + Comma Below
+<dead_belowcomma> <UA722>                                 : "Ꜣ̬"   # Ꜣ (Egyptological Alef) + Comma Below
+<dead_belowcomma> <UA723>                                 : "ꜣ̬"   # ꜣ (Egyptological Alef) + Comma Below
+<dead_belowcomma> <U1DFB> <U0241>                         : "Ꜣ̬"
+<dead_belowcomma> <U1DFB> <U0242>                         : "ꜣ̬"
+<dead_belowcomma> <UA724>                                 : "Ꜥ̬"   # Ꜥ (Egyptological Ayin) + Comma Below
+<dead_belowcomma> <UA725>                                 : "ꜥ̬"   # ꜥ (Egyptological Ayin) + Comma Below
+<dead_belowcomma> <U1DFB> <UA78B>                         : "Ꜥ̬"
+<dead_belowcomma> <U1DFB> <UA78C>                         : "ꜥ̬"
+<dead_belowcomma> <U1D25>                                 : "ᴥ̬"   # ᴥ (UPA Ain) + Comma Below
+<dead_belowcomma> <U1DFB> <minus> <U0241>                 : "ᴥ̬"
+<dead_belowcomma> <U1DFB> <minus> <U0242>                 : "ᴥ̬"
 
 ##################
 # [END OF RULES] #
