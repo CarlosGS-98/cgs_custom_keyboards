@@ -136,7 +136,7 @@
 <dead_belowtilde> <U1DFB> <U21BA> <F>                   : "ꟻ̰"
 <dead_belowtilde> <U1DFB> <U21BA> <f>                   : "ꟻ̰"
 <dead_belowtilde> <UAB35>                               : "ꬵ̰"   # ꬵ (Lenis F) + Tilde Below
-<dead_belowtilde> <U1DFB> <minus> <f>                   : "ꬵ̰"
+<dead_belowtilde> <U1DFB> <minus> <F>                   : "ꬵ̰"
 <dead_belowtilde> <U1DFB> <minus> <f>                   : "ꬵ̰"
 <dead_belowtilde> <G>                                   : "G̰"
 <dead_belowtilde> <g>                                   : "g̰"
@@ -165,7 +165,7 @@
 <dead_belowtilde> <U1DFB> <minus> <G>                   : "Ꟑ̰"
 <dead_belowtilde> <U1DFB> <minus> <g>                   : "ꟑ̰"
 <dead_belowtilde> <U1DF01>                              : "𝼁̰"   # 𝼁 (Reversed G) + Tilde Below
-<dead_belowtilde> <U1DFB> <U21BA> <g>                   : "𝼁̰"
+<dead_belowtilde> <U1DFB> <U21BA> <G>                   : "𝼁̰"
 <dead_belowtilde> <U1DFB> <U21BA> <g>                   : "𝼁̰"
 <dead_belowtilde> <H>                                   : "H̰"
 <dead_belowtilde> <h>                                   : "h̰"
@@ -216,7 +216,7 @@
 <dead_belowtilde> <U1DFB> <slash> <L>                   : "ꝲ̰"
 <dead_belowtilde> <U1DFB> <slash> <l>                   : "ꝲ̰"
 <dead_belowtilde> <U2143>                               : "⅃̰"   # ⅃ (Roman Epigraphic L) + Tilde Below
-<dead_belowtilde> <U1DFB> <U21BA> <l>                   : "⅃̰"
+<dead_belowtilde> <U1DFB> <U21BA> <L>                   : "⅃̰"
 <dead_belowtilde> <U1DFB> <U21BA> <l>                   : "⅃̰"
 <dead_belowtilde> <M>                                   : "M̰"
 <dead_belowtilde> <m>                                   : "m̰"
@@ -279,7 +279,7 @@
 <dead_belowtilde> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̰"
 <dead_belowtilde> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̰"
 <dead_belowtilde> <UA7FC>                               : "ꟼ̰"   # ꟼ (Roman Epigraphic P) + Tilde Below
-<dead_belowtilde> <U1DFB> <U21BA> <p>                   : "ꟼ̰"
+<dead_belowtilde> <U1DFB> <U21BA> <P>                   : "ꟼ̰"
 <dead_belowtilde> <U1DFB> <U21BA> <p>                   : "ꟼ̰"
 <dead_belowtilde> <UA752>                               : "Ꝓ̰"   # Ꝓ + Tilde Below
 <dead_belowtilde> <UA753>                               : "ꝓ̰"   # ꝓ + Tilde Below
@@ -427,8 +427,8 @@
 <dead_belowtilde> <x>                                   : "x̰"
 <dead_belowtilde> <Y>                                   : "Y̰"
 <dead_belowtilde> <y>                                   : "y̰"
-<dead_belowtilde> <U21BA> <Y>                           : "⅄̰"   # ⅄ + Tilde Below
-<dead_belowtilde> <U21BA> <y>                           : "ʎ̰"   # ʎ + Tilde Below
+<dead_belowtilde> <U2144>                               : "⅄̰"   # ⅄ + Tilde Below
+<dead_belowtilde> <U028E>                               : "ʎ̰"   # ʎ + Tilde Below
 <dead_belowtilde> <U21BA> <Y>                           : "⅄̰"   # ⅄ + Tilde Below
 <dead_belowtilde> <U21BA> <y>                           : "ʎ̰"   # ʎ + Tilde Below
 <dead_belowtilde> <U021C>                               : "Ȝ̰"   # Ȝ (Yogh) + Tilde Below

@@ -124,7 +124,7 @@
 <U21BB> <v> <period> <space>                    : "⇣"   # Downwards dashed arrow
 <U21BB> <V> <V> <bar> <space>                   : "↡"   # Downwards two-headed arrow
 <U21BB> <v> <v> <bar> <space>                   : "↡"   # Downwards two-headed arrow
-<U21BB> <v> <v> <bar> <asciicircum> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <V> <V> <bar> <asciicircum> <space>     : "↨"   # Up-down arrow with base
 <U21BB> <v> <v> <bar> <asciicircum> <space>     : "↨"   # Up-down arrow with base
 <U21BB> <V> <V> <bar> <dead_circumflex> <space> : "↨"   # Up-down arrow with base
 <U21BB> <v> <v> <bar> <dead_circumflex> <space> : "↨"   # Up-down arrow with base

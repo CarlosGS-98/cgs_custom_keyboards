@@ -170,7 +170,7 @@
 <dead_diaeresis> <U1DFB> <U21BA> <F>                    : "ꟻ̈"
 <dead_diaeresis> <U1DFB> <U21BA> <f>                    : "ꟻ̈"
 <dead_diaeresis> <UAB35>                                : "ꬵ̈"   # ꬵ (Lenis F) + Diaeresis
-<dead_diaeresis> <U1DFB> <minus> <f>                    : "ꬵ̈"
+<dead_diaeresis> <U1DFB> <minus> <F>                    : "ꬵ̈"
 <dead_diaeresis> <U1DFB> <minus> <f>                    : "ꬵ̈"
 <dead_diaeresis> <UA7AC>                                : "Ɡ̈"   # Ɡ (Single-storey G) + Diaeresis
 <dead_diaeresis> <U0261>                                : "ɡ̈"   # ɡ (Single-storey G) + Diaeresis
@@ -197,7 +197,7 @@
 <dead_diaeresis> <U1DFB> <minus> <G>                    : "Ꟑ̈"
 <dead_diaeresis> <U1DFB> <minus> <g>                    : "ꟑ̈"
 <dead_diaeresis> <U1DF01>                               : "𝼁̈"   # 𝼁 (Reversed G) + Diaeresis
-<dead_diaeresis> <U1DFB> <U21BA> <g>                    : "𝼁̈"
+<dead_diaeresis> <U1DFB> <U21BA> <G>                    : "𝼁̈"
 <dead_diaeresis> <U1DFB> <U21BA> <g>                    : "𝼁̈"
 <dead_diaeresis> <H>                                    : "Ḧ"
 <dead_diaeresis> <h>                                    : "ḧ"
@@ -248,7 +248,7 @@
 <dead_diaeresis> <U1DFB> <slash> <L>                    : "ꝲ̈"
 <dead_diaeresis> <U1DFB> <slash> <l>                    : "ꝲ̈"
 <dead_diaeresis> <U2143>                                : "⅃̈"   # ⅃ (Roman Epigraphic L) + Diaeresis
-<dead_diaeresis> <U1DFB> <U21BA> <l>                    : "⅃̈"
+<dead_diaeresis> <U1DFB> <U21BA> <L>                    : "⅃̈"
 <dead_diaeresis> <U1DFB> <U21BA> <l>                    : "⅃̈"
 <dead_diaeresis> <M>                                    : "M̈"
 <dead_diaeresis> <m>                                    : "m̈"
@@ -309,7 +309,7 @@
 <dead_diaeresis> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̈"
 <dead_diaeresis> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̈"
 <dead_diaeresis> <UA7FC>                                : "ꟼ̈"   # ꟼ (Roman Epigraphic P) + Diaeresis
-<dead_diaeresis> <U1DFB> <U21BA> <p>                    : "ꟼ̈"
+<dead_diaeresis> <U1DFB> <U21BA> <P>                    : "ꟼ̈"
 <dead_diaeresis> <U1DFB> <U21BA> <p>                    : "ꟼ̈"
 <dead_diaeresis> <UA752>                                : "Ꝓ̈"   # Ꝓ + Diaeresis
 <dead_diaeresis> <UA753>                                : "ꝓ̈"   # ꝓ + Diaeresis
@@ -448,8 +448,8 @@
 <dead_diaeresis> <UA7C3>                                : "ꟃ̈"   # ꟃ (W Anglicana) + Diaeresis
 <dead_diaeresis> <U1DCF> <V> <Z>                        : "Ꟃ̈"
 <dead_diaeresis> <U1DCF> <v> <Z>                        : "ꟃ̈"
-<dead_diaeresis> <U21BA> <Y>                            : "⅄̈"   # ⅄ + Diaeresis
-<dead_diaeresis> <U21BA> <y>                            : "ʎ̈"   # ʎ + Diaeresis
+<dead_diaeresis> <U2144>                                : "⅄̈"   # ⅄ + Diaeresis
+<dead_diaeresis> <U028E>                                : "ʎ̈"   # ʎ + Diaeresis
 <dead_diaeresis> <U21BA> <Y>                            : "⅄̈"   # ⅄ + Diaeresis
 <dead_diaeresis> <U21BA> <y>                            : "ʎ̈"   # ʎ + Diaeresis
 <dead_diaeresis> <U021C>                                : "Ȝ̈"   # Ȝ (Yogh) + Diaeresis
@@ -831,8 +831,6 @@
 <dead_diaeresis> <ucircumflex>                                  : "ü̂"
 <dead_diaeresis> <dead_circumflex> <U>                          : "Ü̂"
 <dead_diaeresis> <dead_circumflex> <u>                          : "ü̂"
-<dead_diaeresis> <dead_belowmacron> <U>                         : "Ü̱"
-<dead_diaeresis> <dead_belowmacron> <u>                         : "ü̱"
 <dead_diaeresis> <Utilde>                                       : "Ũ̈"
 <dead_diaeresis> <utilde>                                       : "ũ̈"
 <dead_diaeresis> <dead_tilde> <U>                               : "Ũ̈"

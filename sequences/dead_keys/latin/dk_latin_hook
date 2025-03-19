@@ -165,7 +165,7 @@
 <dead_hook> <U1DFB> <U21BA> <F>                     : "ꟻ̉"
 <dead_hook> <U1DFB> <U21BA> <f>                     : "ꟻ̉"
 <dead_hook> <UAB35>                                 : "ꬵ̉"   # ꬵ (Lenis F) + Hook
-<dead_hook> <U1DFB> <minus> <f>                     : "ꬵ̉"
+<dead_hook> <U1DFB> <minus> <F>                     : "ꬵ̉"
 <dead_hook> <U1DFB> <minus> <f>                     : "ꬵ̉"
 <dead_hook> <G>                                     : "G̉"
 <dead_hook> <g>                                     : "g̉"
@@ -194,7 +194,7 @@
 <dead_hook> <U1DFB> <minus> <G>                     : "Ꟑ̉"
 <dead_hook> <U1DFB> <minus> <g>                     : "ꟑ̉"
 <dead_hook> <U1DF01>                                : "𝼁̉"   # 𝼁 (Reversed G) + Hook
-<dead_hook> <U1DFB> <U21BA> <g>                     : "𝼁̉"
+<dead_hook> <U1DFB> <U21BA> <G>                     : "𝼁̉"
 <dead_hook> <U1DFB> <U21BA> <g>                     : "𝼁̉"
 <dead_hook> <H>                                     : "H̉"
 <dead_hook> <h>                                     : "h̉"
@@ -247,7 +247,7 @@
 <dead_hook> <U1DFB> <slash> <L>                     : "ꝲ̉"
 <dead_hook> <U1DFB> <slash> <l>                     : "ꝲ̉"
 <dead_hook> <U2143>                                 : "⅃̉"   # ⅃ (Roman Epigraphic L) + Hook
-<dead_hook> <U1DFB> <U21BA> <l>                     : "⅃̉"
+<dead_hook> <U1DFB> <U21BA> <L>                     : "⅃̉"
 <dead_hook> <U1DFB> <U21BA> <l>                     : "⅃̉"
 <dead_hook> <M>                                     : "M̉"
 <dead_hook> <m>                                     : "m̉"
@@ -308,7 +308,7 @@
 <dead_hook> <U1DFB> <periodcentered> <P> <S>        : "Ꜿ̉"
 <dead_hook> <U1DFB> <periodcentered> <p> <s>        : "ꜿ̉"
 <dead_hook> <UA7FC>                                 : "ꟼ̉"   # ꟼ (Roman Epigraphic P) + Hook
-<dead_hook> <U1DFB> <U21BA> <p>                     : "ꟼ̉"
+<dead_hook> <U1DFB> <U21BA> <P>                     : "ꟼ̉"
 <dead_hook> <U1DFB> <U21BA> <p>                     : "ꟼ̉"
 <dead_hook> <UA752>                                 : "Ꝓ̉"   # Ꝓ + Hook
 <dead_hook> <UA753>                                 : "ꝓ̉"   # ꝓ + Hook
@@ -454,8 +454,8 @@
 <dead_hook> <U1DCF> <v> <Z>                         : "ꟃ̉"
 <dead_hook> <X>                                     : "X̉"
 <dead_hook> <x>                                     : "x̉"
-<dead_hook> <U21BA> <Y>                             : "⅄̉"   # ⅄ + Hook
-<dead_hook> <U21BA> <y>                             : "ʎ̉"   # ʎ + Hook
+<dead_hook> <U2144>                                 : "⅄̉"   # ⅄ + Hook
+<dead_hook> <U028E>                                 : "ʎ̉"   # ʎ + Hook
 <dead_hook> <U21BA> <Y>                             : "⅄̉"   # ⅄ + Hook
 <dead_hook> <U21BA> <y>                             : "ʎ̉"   # ʎ + Hook
 <dead_hook> <U021C>                                 : "Ȝ̉"   # Ȝ (Yogh) + Hook

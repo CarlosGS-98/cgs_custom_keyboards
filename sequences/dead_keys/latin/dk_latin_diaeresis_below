@@ -133,7 +133,7 @@
 <dead_belowdiaeresis> <U1DFB> <U21BA> <F>                   : "ꟻ̤"
 <dead_belowdiaeresis> <U1DFB> <U21BA> <f>                   : "ꟻ̤"
 <dead_belowdiaeresis> <UAB35>                               : "ꬵ̤"   # ꬵ (Lenis F) + Diaeresis Below
-<dead_belowdiaeresis> <U1DFB> <minus> <f>                   : "ꬵ̤"
+<dead_belowdiaeresis> <U1DFB> <minus> <F>                   : "ꬵ̤"
 <dead_belowdiaeresis> <U1DFB> <minus> <f>                   : "ꬵ̤"
 <dead_belowdiaeresis> <G>                                   : "G̤"
 <dead_belowdiaeresis> <g>                                   : "g̤"
@@ -162,7 +162,7 @@
 <dead_belowdiaeresis> <U1DFB> <minus> <G>                   : "Ꟑ̤"
 <dead_belowdiaeresis> <U1DFB> <minus> <g>                   : "ꟑ̤"
 <dead_belowdiaeresis> <U1DF01>                              : "𝼁̤"   # 𝼁 (Reversed G) + Diaeresis Below
-<dead_belowdiaeresis> <U1DFB> <U21BA> <g>                   : "𝼁̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <G>                   : "𝼁̤"
 <dead_belowdiaeresis> <U1DFB> <U21BA> <g>                   : "𝼁̤"
 <dead_belowdiaeresis> <H>                                   : "H̤"
 <dead_belowdiaeresis> <h>                                   : "h̤"
@@ -217,7 +217,7 @@
 <dead_belowdiaeresis> <U1DFB> <slash> <L>                   : "ꝲ̤"
 <dead_belowdiaeresis> <U1DFB> <slash> <l>                   : "ꝲ̤"
 <dead_belowdiaeresis> <U2143>                               : "⅃̤"   # ⅃ (Roman Epigraphic L) + Diaeresis Below
-<dead_belowdiaeresis> <U1DFB> <U21BA> <l>                   : "⅃̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <L>                   : "⅃̤"
 <dead_belowdiaeresis> <U1DFB> <U21BA> <l>                   : "⅃̤"
 <dead_belowdiaeresis> <M>                                   : "M̤"
 <dead_belowdiaeresis> <m>                                   : "m̤"
@@ -280,7 +280,7 @@
 <dead_belowdiaeresis> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̤"
 <dead_belowdiaeresis> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̤"
 <dead_belowdiaeresis> <UA7FC>                               : "ꟼ̤"   # ꟼ (Roman Epigraphic P) + Diaeresis Below
-<dead_belowdiaeresis> <U1DFB> <U21BA> <p>                   : "ꟼ̤"
+<dead_belowdiaeresis> <U1DFB> <U21BA> <P>                   : "ꟼ̤"
 <dead_belowdiaeresis> <U1DFB> <U21BA> <p>                   : "ꟼ̤"
 <dead_belowdiaeresis> <UA752>                               : "Ꝓ̤"   # Ꝓ + Diaeresis Below
 <dead_belowdiaeresis> <UA753>                               : "ꝓ̤"   # ꝓ + Diaeresis Below
@@ -428,8 +428,8 @@
 <dead_belowdiaeresis> <x>                                   : "x̤"
 <dead_belowdiaeresis> <Y>                                   : "Y̤"
 <dead_belowdiaeresis> <y>                                   : "y̤"
-<dead_belowdiaeresis> <U21BA> <Y>                           : "⅄̤"   # ⅄ + Diaeresis Below
-<dead_belowdiaeresis> <U21BA> <y>                           : "ʎ̤"   # ʎ + Diaeresis Below
+<dead_belowdiaeresis> <U2144>                               : "⅄̤"   # ⅄ + Diaeresis Below
+<dead_belowdiaeresis> <U028E>                               : "ʎ̤"   # ʎ + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <Y>                           : "⅄̤"   # ⅄ + Diaeresis Below
 <dead_belowdiaeresis> <U21BA> <y>                           : "ʎ̤"   # ʎ + Diaeresis Below
 <dead_belowdiaeresis> <U021C>                               : "Ȝ̤"   # Ȝ (Yogh) + Diaeresis Below

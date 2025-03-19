@@ -141,7 +141,7 @@
 <dead_abovering> <U1DFB> <U21BA> <F>                    : "ꟻ̊"
 <dead_abovering> <U1DFB> <U21BA> <f>                    : "ꟻ̊"
 <dead_abovering> <UAB35>                                : "ꬵ̊"   # ꬵ (Lenis F) + Ring Above
-<dead_abovering> <U1DFB> <minus> <f>                    : "ꬵ̊"
+<dead_abovering> <U1DFB> <minus> <F>                    : "ꬵ̊"
 <dead_abovering> <U1DFB> <minus> <f>                    : "ꬵ̊"
 <dead_abovering> <G>                                    : "G̊"
 <dead_abovering> <g>                                    : "g̊"
@@ -170,7 +170,7 @@
 <dead_abovering> <U1DFB> <minus> <G>                    : "Ꟑ̊"
 <dead_abovering> <U1DFB> <minus> <g>                    : "ꟑ̊"
 <dead_abovering> <U1DF01>                               : "𝼁̊"   # 𝼁 (Reversed G) + Ring Above
-<dead_abovering> <U1DFB> <U21BA> <g>                    : "𝼁̊"
+<dead_abovering> <U1DFB> <U21BA> <G>                    : "𝼁̊"
 <dead_abovering> <U1DFB> <U21BA> <g>                    : "𝼁̊"
 <dead_abovering> <UA78D>                                : "Ɥ̊"   # Ɥ (Turned H) + Ring Above
 <dead_abovering> <U0265>                                : "ɥ̊"   # ɥ (Turned H) + Ring Above
@@ -221,7 +221,7 @@
 <dead_abovering> <U1DFB> <slash> <L>                    : "ꝲ̊"
 <dead_abovering> <U1DFB> <slash> <l>                    : "ꝲ̊"
 <dead_abovering> <U2143>                                : "⅃̊"   # ⅃ (Roman Epigraphic L) + Ring Above
-<dead_abovering> <U1DFB> <U21BA> <l>                    : "⅃̊"
+<dead_abovering> <U1DFB> <U21BA> <L>                    : "⅃̊"
 <dead_abovering> <U1DFB> <U21BA> <l>                    : "⅃̊"
 <dead_abovering> <M>                                    : "M̊"
 <dead_abovering> <m>                                    : "m̊"
@@ -284,7 +284,7 @@
 <dead_abovering> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̊"
 <dead_abovering> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̊"
 <dead_abovering> <UA7FC>                                : "ꟼ̊"   # ꟼ (Roman Epigraphic P) + Ring Above
-<dead_abovering> <U1DFB> <U21BA> <p>                    : "ꟼ̊"
+<dead_abovering> <U1DFB> <U21BA> <P>                    : "ꟼ̊"
 <dead_abovering> <U1DFB> <U21BA> <p>                    : "ꟼ̊"
 <dead_abovering> <UA752>                                : "Ꝓ̊"   # Ꝓ + Ring Above
 <dead_abovering> <UA753>                                : "ꝓ̊"   # ꝓ + Ring Above
@@ -434,8 +434,8 @@
 <dead_abovering> <U021D>                                : "ȝ̊"   # ȝ (Yogh) + Ring Above
 <dead_abovering> <U1DFB> <Y> <O>                        : "Ȝ̊"
 <dead_abovering> <U1DFB> <y> <o>                        : "ȝ̊"
-<dead_abovering> <U21BA> <Y>                            : "⅄̊"   # ⅄ + Ring Above
-<dead_abovering> <U21BA> <y>                            : "ʎ̊"   # ʎ + Ring Above
+<dead_abovering> <U2144>                                : "⅄̊"   # ⅄ + Ring Above
+<dead_abovering> <U028E>                                : "ʎ̊"   # ʎ + Ring Above
 <dead_abovering> <U21BA> <Y>                            : "⅄̊"   # ⅄ + Ring Above
 <dead_abovering> <U21BA> <y>                            : "ʎ̊"   # ʎ + Ring Above
 <dead_abovering> <Z>                                    : "Z̊"

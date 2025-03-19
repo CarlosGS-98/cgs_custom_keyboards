@@ -173,7 +173,7 @@
 <dead_cedilla> <U1DFB> <U21BA> <F>                  : "ꟻ̧"
 <dead_cedilla> <U1DFB> <U21BA> <f>                  : "ꟻ̧"
 <dead_cedilla> <UAB35>                              : "ꬵ̧"   # ꬵ (Lenis F) + Cedilla
-<dead_cedilla> <U1DFB> <minus> <f>                  : "ꬵ̧"
+<dead_cedilla> <U1DFB> <minus> <F>                  : "ꬵ̧"
 <dead_cedilla> <U1DFB> <minus> <f>                  : "ꬵ̧"
 <dead_cedilla> <UA7AC>                              : "Ɡ̧"   # Ɡ (Single-storey G) + Cedilla
 <dead_cedilla> <U0261>                              : "ɡ̧"   # ɡ (Single-storey G) + Cedilla
@@ -200,7 +200,7 @@
 <dead_cedilla> <U1DFB> <minus> <G>                  : "Ꟑ̧"
 <dead_cedilla> <U1DFB> <minus> <g>                  : "ꟑ̧"
 <dead_cedilla> <U1DF01>                             : "𝼁̧"   # 𝼁 (Reversed G) + Cedilla
-<dead_cedilla> <U1DFB> <U21BA> <g>                  : "𝼁̧"
+<dead_cedilla> <U1DFB> <U21BA> <G>                  : "𝼁̧"
 <dead_cedilla> <U1DFB> <U21BA> <g>                  : "𝼁̧"
 <dead_cedilla> <UA78D>                              : "Ɥ̧"   # Ɥ (Turned H) + Cedilla
 <dead_cedilla> <U0265>                              : "ɥ̧"   # ɥ (Turned H) + Cedilla
@@ -247,7 +247,7 @@
 <dead_cedilla> <U1DFB> <slash> <L>                  : "ꝲ̧"
 <dead_cedilla> <U1DFB> <slash> <l>                  : "ꝲ̧"
 <dead_cedilla> <U2143>                              : "⅃̧"   # ⅃ (Roman Epigraphic L) + Cedilla
-<dead_cedilla> <U1DFB> <U21BA> <l>                  : "⅃̧"
+<dead_cedilla> <U1DFB> <U21BA> <L>                  : "⅃̧"
 <dead_cedilla> <U1DFB> <U21BA> <l>                  : "⅃̧"
 <dead_cedilla> <M>                                  : "M̧"
 <dead_cedilla> <m>                                  : "m̧"
@@ -308,7 +308,7 @@
 <dead_cedilla> <U1DFB> <periodcentered> <P> <S>     : "Ꜿ̧"
 <dead_cedilla> <U1DFB> <periodcentered> <p> <s>     : "ꜿ̧"
 <dead_cedilla> <UA7FC>                              : "ꟼ̧"   # ꟼ (Roman Epigraphic P) + Cedilla
-<dead_cedilla> <U1DFB> <U21BA> <p>                  : "ꟼ̧"
+<dead_cedilla> <U1DFB> <U21BA> <P>                  : "ꟼ̧"
 <dead_cedilla> <U1DFB> <U21BA> <p>                  : "ꟼ̧"
 <dead_cedilla> <UA752>                              : "Ꝓ̧"   # Ꝓ + Cedilla
 <dead_cedilla> <UA753>                              : "ꝓ̧"   # ꝓ + Cedilla
@@ -450,8 +450,8 @@
 <dead_cedilla> <x>                                  : "x̧"
 <dead_cedilla> <Y>                                  : "Y̧"
 <dead_cedilla> <y>                                  : "y̧"
-<dead_cedilla> <U21BA> <Y>                          : "⅄̧"   # ⅄ + Cedilla
-<dead_cedilla> <U21BA> <y>                          : "ʎ̧"   # ʎ + Cedilla
+<dead_cedilla> <U2144>                              : "⅄̧"   # ⅄ + Cedilla
+<dead_cedilla> <U028E>                              : "ʎ̧"   # ʎ + Cedilla
 <dead_cedilla> <U21BA> <Y>                          : "⅄̧"   # ⅄ + Cedilla
 <dead_cedilla> <U21BA> <y>                          : "ʎ̧"   # ʎ + Cedilla
 <dead_cedilla> <U021C>                              : "Ȝ̧"   # Ȝ (Yogh) + Cedilla

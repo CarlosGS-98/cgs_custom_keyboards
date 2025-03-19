@@ -145,9 +145,8 @@
 <dead_belowmacron> <U1DFB> <U21BA> <F>                  : "ꟻ̱"
 <dead_belowmacron> <U1DFB> <U21BA> <f>                  : "ꟻ̱"
 <dead_belowmacron> <UAB35>                              : "ꬵ̱"   # ꬵ (Lenis F) + Macron Below
+<dead_belowmacron> <U1DFB> <minus> <F>                  : "ꬵ̱"
 <dead_belowmacron> <U1DFB> <minus> <f>                  : "ꬵ̱"
-<dead_belowmacron> <U1DFB> <minus> <f>                  : "ꬵ̱"
-<dead_belowmacron> <G>                                  : "G̱"
 <dead_belowmacron> <G>                                  : "G̱"
 <dead_belowmacron> <g>                                  : "g̱"
 <dead_belowmacron> <UA7AC>                              : "Ɡ̱"   # Ɡ (Single-storey G) + Macron Below
@@ -175,7 +174,7 @@
 <dead_belowmacron> <U1DFB> <minus> <G>                  : "Ꟑ̱"
 <dead_belowmacron> <U1DFB> <minus> <g>                  : "ꟑ̱"
 <dead_belowmacron> <U1DF01>                             : "𝼁̱"   # 𝼁 (Reversed G) + Macron Below
-<dead_belowmacron> <U1DFB> <U21BA> <g>                  : "𝼁̱"
+<dead_belowmacron> <U1DFB> <U21BA> <G>                  : "𝼁̱"
 <dead_belowmacron> <U1DFB> <U21BA> <g>                  : "𝼁̱"
 <dead_belowmacron> <H>                                  : "H̱"
 <dead_belowmacron> <UA78D>                              : "Ɥ̱"   # Ɥ (Turned H) + Macron Below
@@ -223,7 +222,7 @@
 <dead_belowmacron> <U1DFB> <slash> <L>                  : "ꝲ̱"
 <dead_belowmacron> <U1DFB> <slash> <l>                  : "ꝲ̱"
 <dead_belowmacron> <U2143>                              : "⅃̱"   # ⅃ (Roman Epigraphic L) + Macron Below
-<dead_belowmacron> <U1DFB> <U21BA> <l>                  : "⅃̱"
+<dead_belowmacron> <U1DFB> <U21BA> <L>                  : "⅃̱"
 <dead_belowmacron> <U1DFB> <U21BA> <l>                  : "⅃̱"
 <dead_belowmacron> <M>                                  : "M̱"
 <dead_belowmacron> <m>                                  : "m̱"
@@ -284,7 +283,7 @@
 <dead_belowmacron> <U1DFB> <periodcentered> <P> <S>     : "Ꜿ̱"
 <dead_belowmacron> <U1DFB> <periodcentered> <p> <s>     : "ꜿ̱"
 <dead_belowmacron> <UA7FC>                              : "ꟼ̱"   # ꟼ (Roman Epigraphic P) + Macron Below
-<dead_belowmacron> <U1DFB> <U21BA> <p>                  : "ꟼ̱"
+<dead_belowmacron> <U1DFB> <U21BA> <P>                  : "ꟼ̱"
 <dead_belowmacron> <U1DFB> <U21BA> <p>                  : "ꟼ̱"
 <dead_belowmacron> <UA752>                              : "Ꝓ̱"   # Ꝓ + Macron Below
 <dead_belowmacron> <UA753>                              : "ꝓ̱"   # ꝓ + Macron Below
@@ -430,8 +429,8 @@
 <dead_belowmacron> <x>                                  : "x̱"
 <dead_belowmacron> <Y>                                  : "Y̱"
 <dead_belowmacron> <y>                                  : "y̱"
-<dead_belowmacron> <U21BA> <Y>                          : "⅄̱"   # ⅄ + Macron Below
-<dead_belowmacron> <U21BA> <y>                          : "ʎ̱"   # ʎ + Macron Below
+<dead_belowmacron> <U2144>                              : "⅄̱"   # ⅄ + Macron Below
+<dead_belowmacron> <U028E>                              : "ʎ̱"   # ʎ + Macron Below
 <dead_belowmacron> <U21BA> <Y>                          : "⅄̱"   # ⅄ + Macron Below
 <dead_belowmacron> <U21BA> <y>                          : "ʎ̱"   # ʎ + Macron Below
 <dead_belowmacron> <U021C>                              : "Ȝ̱"   # Ȝ (Yogh) + Macron Below

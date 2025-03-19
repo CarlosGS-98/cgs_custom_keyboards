@@ -133,7 +133,7 @@
 <dead_aboveverticalline> <U1DFB> <U21BA> <F>                    : "ꟻ̍"
 <dead_aboveverticalline> <U1DFB> <U21BA> <f>                    : "ꟻ̍"
 <dead_aboveverticalline> <UAB35>                                : "ꬵ̍"   # ꬵ (Lenis F) + Vertical Line Above
-<dead_aboveverticalline> <U1DFB> <minus> <f>                    : "ꬵ̍"
+<dead_aboveverticalline> <U1DFB> <minus> <F>                    : "ꬵ̍"
 <dead_aboveverticalline> <U1DFB> <minus> <f>                    : "ꬵ̍"
 <dead_aboveverticalline> <G>                                    : "G̍"
 <dead_aboveverticalline> <g>                                    : "g̍"
@@ -162,7 +162,7 @@
 <dead_aboveverticalline> <U1DFB> <minus> <G>                    : "Ꟑ̍"
 <dead_aboveverticalline> <U1DFB> <minus> <g>                    : "ꟑ̍"
 <dead_aboveverticalline> <U1DF01>                               : "𝼁̍"   # 𝼁 (Reversed G) + Vertical Line Above
-<dead_aboveverticalline> <U1DFB> <U21BA> <g>                    : "𝼁̍"
+<dead_aboveverticalline> <U1DFB> <U21BA> <G>                    : "𝼁̍"
 <dead_aboveverticalline> <U1DFB> <U21BA> <g>                    : "𝼁̍"
 <dead_aboveverticalline> <H>                                    : "H̍"
 <dead_aboveverticalline> <h>                                    : "h̍"
@@ -217,7 +217,7 @@
 <dead_aboveverticalline> <U1DFB> <slash> <L>                    : "ꝲ̍"
 <dead_aboveverticalline> <U1DFB> <slash> <l>                    : "ꝲ̍"
 <dead_aboveverticalline> <U2143>                                : "⅃̍"   # ⅃ (Roman Epigraphic L) + Vertical Line Above
-<dead_aboveverticalline> <U1DFB> <U21BA> <l>                    : "⅃̍"
+<dead_aboveverticalline> <U1DFB> <U21BA> <L>                    : "⅃̍"
 <dead_aboveverticalline> <U1DFB> <U21BA> <l>                    : "⅃̍"
 <dead_aboveverticalline> <M>                                    : "M̍"
 <dead_aboveverticalline> <m>                                    : "m̍"
@@ -280,7 +280,7 @@
 <dead_aboveverticalline> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̍"
 <dead_aboveverticalline> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̍"
 <dead_aboveverticalline> <UA7FC>                                : "ꟼ̍"   # ꟼ (Roman Epigraphic P) + Vertical Line Above
-<dead_aboveverticalline> <U1DFB> <U21BA> <p>                    : "ꟼ̍"
+<dead_aboveverticalline> <U1DFB> <U21BA> <P>                    : "ꟼ̍"
 <dead_aboveverticalline> <U1DFB> <U21BA> <p>                    : "ꟼ̍"
 <dead_aboveverticalline> <UA752>                                : "Ꝓ̍"   # Ꝓ + Vertical Line Above
 <dead_aboveverticalline> <UA753>                                : "ꝓ̍"   # ꝓ + Vertical Line Above
@@ -430,8 +430,8 @@
 <dead_aboveverticalline> <x>                                    : "x̍"
 <dead_aboveverticalline> <Y>                                    : "Y̍"
 <dead_aboveverticalline> <y>                                    : "y̍"
-<dead_aboveverticalline> <U21BA> <Y>                            : "⅄̍"   # ⅄ + Vertical Line Above
-<dead_aboveverticalline> <U21BA> <y>                            : "ʎ̍"   # ʎ + Vertical Line Above
+<dead_aboveverticalline> <U2144>                                : "⅄̍"   # ⅄ + Vertical Line Above
+<dead_aboveverticalline> <U028E>                                : "ʎ̍"   # ʎ + Vertical Line Above
 <dead_aboveverticalline> <U21BA> <Y>                            : "⅄̍"   # ⅄ + Vertical Line Above
 <dead_aboveverticalline> <U21BA> <y>                            : "ʎ̍"   # ʎ + Vertical Line Above
 <dead_aboveverticalline> <U021C>                                : "Ȝ̍"   # Ȝ (Yogh) + Vertical Line Above

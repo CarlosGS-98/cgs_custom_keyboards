@@ -195,7 +195,7 @@
 <dead_circumflex> <U1DFB> <U21BA> <F>                   : "ꟻ̂"
 <dead_circumflex> <U1DFB> <U21BA> <f>                   : "ꟻ̂"
 <dead_circumflex> <UAB35>                               : "ꬵ̂"   # ꬵ (Lenis F) + Circumflex
-<dead_circumflex> <U1DFB> <minus> <f>                   : "ꬵ̂"
+<dead_circumflex> <U1DFB> <minus> <F>                   : "ꬵ̂"
 <dead_circumflex> <U1DFB> <minus> <f>                   : "ꬵ̂"
 <dead_circumflex> <UA7AC>                               : "Ɡ̂"   # Ɡ (Single-storey G) + Circumflex
 <dead_circumflex> <U0261>                               : "ɡ̂"   # ɡ (Single-storey G) + Circumflex
@@ -222,7 +222,7 @@
 <dead_circumflex> <U1DFB> <minus> <G>                   : "Ꟑ̂"
 <dead_circumflex> <U1DFB> <minus> <g>                   : "ꟑ̂"
 <dead_circumflex> <U1DF01>                              : "𝼁̂"   # 𝼁 (Reversed G) + Circumflex
-<dead_circumflex> <U1DFB> <U21BA> <g>                   : "𝼁̂"
+<dead_circumflex> <U1DFB> <U21BA> <G>                   : "𝼁̂"
 <dead_circumflex> <U1DFB> <U21BA> <g>                   : "𝼁̂"
 <dead_circumflex> <UA78D>                               : "Ɥ̂"   # Ɥ (Turned H) + Circumflex
 <dead_circumflex> <U0265>                               : "ɥ̂"   # ɥ (Turned H) + Circumflex
@@ -269,7 +269,7 @@
 <dead_circumflex> <U1DFB> <slash> <L>                   : "ꝲ̂"
 <dead_circumflex> <U1DFB> <slash> <l>                   : "ꝲ̂"
 <dead_circumflex> <U2143>                               : "⅃̂"   # ⅃ (Roman Epigraphic L) + Circumflex
-<dead_circumflex> <U1DFB> <U21BA> <l>                   : "⅃̂"
+<dead_circumflex> <U1DFB> <U21BA> <L>                   : "⅃̂"
 <dead_circumflex> <U1DFB> <U21BA> <l>                   : "⅃̂"
 <dead_circumflex> <M>                                   : "M̂"
 <dead_circumflex> <m>                                   : "m̂"
@@ -326,7 +326,7 @@
 <dead_circumflex> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̂"
 <dead_circumflex> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̂"
 <dead_circumflex> <UA7FC>                               : "ꟼ̂"   # ꟼ (Roman Epigraphic P) + Circumflex
-<dead_circumflex> <U1DFB> <U21BA> <p>                   : "ꟼ̂"
+<dead_circumflex> <U1DFB> <U21BA> <P>                   : "ꟼ̂"
 <dead_circumflex> <U1DFB> <U21BA> <p>                   : "ꟼ̂"
 <dead_circumflex> <UA752>                               : "Ꝓ̂"   # Ꝓ + Circumflex
 <dead_circumflex> <UA753>                               : "ꝓ̂"   # ꝓ + Circumflex
@@ -466,8 +466,8 @@
 <dead_circumflex> <U1DCF> <v> <Z>                       : "ꟃ̂"
 <dead_circumflex> <X>                                   : "X̂"
 <dead_circumflex> <x>                                   : "x̂"
-<dead_circumflex> <U21BA> <Y>                           : "⅄̂"   # ⅄ + Circumflex
-<dead_circumflex> <U21BA> <y>                           : "ʎ̂"   # ʎ + Circumflex
+<dead_circumflex> <U2144>                               : "⅄̂"   # ⅄ + Circumflex
+<dead_circumflex> <U028E>                               : "ʎ̂"   # ʎ + Circumflex
 <dead_circumflex> <U21BA> <Y>                           : "⅄̂"   # ⅄ + Circumflex
 <dead_circumflex> <U21BA> <y>                           : "ʎ̂"   # ʎ + Circumflex
 <dead_circumflex> <U021C>                               : "Ȝ̂"   # Ȝ (Yogh) + Circumflex

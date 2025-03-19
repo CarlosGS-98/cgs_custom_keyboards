@@ -150,7 +150,7 @@
 <dead_breve> <U1DFB> <U21BA> <F>                    : "ꟻ̆"
 <dead_breve> <U1DFB> <U21BA> <f>                    : "ꟻ̆"
 <dead_breve> <UAB35>                                : "ꬵ̆"   # ꬵ (Lenis F) + Breve
-<dead_breve> <U1DFB> <minus> <f>                    : "ꬵ̆"
+<dead_breve> <U1DFB> <minus> <F>                    : "ꬵ̆"
 <dead_breve> <U1DFB> <minus> <f>                    : "ꬵ̆"
 <dead_breve> <UA7AC>                                : "Ɡ̆"   # Ɡ (Single-storey G) + Breve
 <dead_breve> <U0261>                                : "ɡ̆"   # ɡ (Single-storey G) + Breve
@@ -177,7 +177,7 @@
 <dead_breve> <U1DFB> <minus> <G>                    : "Ꟑ̆"
 <dead_breve> <U1DFB> <minus> <g>                    : "ꟑ̆"
 <dead_breve> <U1DF01>                               : "𝼁̆"   # 𝼁 (Reversed G) + Breve
-<dead_breve> <U1DFB> <U21BA> <g>                    : "𝼁̆"
+<dead_breve> <U1DFB> <U21BA> <G>                    : "𝼁̆"
 <dead_breve> <U1DFB> <U21BA> <g>                    : "𝼁̆"
 <dead_breve> <UA78D>                                : "Ɥ̆"   # Ɥ (Turned H) + Breve
 <dead_breve> <U0265>                                : "ɥ̆"   # ɥ (Turned H) + Breve
@@ -222,7 +222,7 @@
 <dead_breve> <U1DFB> <slash> <L>                    : "ꝲ̆"
 <dead_breve> <U1DFB> <slash> <l>                    : "ꝲ̆"
 <dead_breve> <U2143>                                : "⅃̆"   # ⅃ (Roman Epigraphic L) + Breve
-<dead_breve> <U1DFB> <U21BA> <l>                    : "⅃̆"
+<dead_breve> <U1DFB> <U21BA> <L>                    : "⅃̆"
 <dead_breve> <U1DFB> <U21BA> <l>                    : "⅃̆"
 <dead_breve> <M>                                    : "M̆"
 <dead_breve> <m>                                    : "m̆"
@@ -279,7 +279,7 @@
 <dead_breve> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̆"
 <dead_breve> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̆"
 <dead_breve> <UA7FC>                                : "ꟼ̆"   # ꟼ (Roman Epigraphic P) + Breve
-<dead_breve> <U1DFB> <U21BA> <p>                    : "ꟼ̆"
+<dead_breve> <U1DFB> <U21BA> <P>                    : "ꟼ̆"
 <dead_breve> <U1DFB> <U21BA> <p>                    : "ꟼ̆"
 <dead_breve> <UA752>                                : "Ꝓ̆"   # Ꝓ + Breve
 <dead_breve> <UA753>                                : "ꝓ̆"   # ꝓ + Breve
@@ -421,8 +421,8 @@
 <dead_breve> <x>                                    : "x̆"
 <dead_breve> <Y>                                    : "Y̆"
 <dead_breve> <y>                                    : "y̆"
-<dead_breve> <U21BA> <Y>                            : "⅄̆"   # ⅄ + Breve
-<dead_breve> <U21BA> <y>                            : "ʎ̆"   # ʎ + Breve
+<dead_breve> <U2144>                                : "⅄̆"   # ⅄ + Breve
+<dead_breve> <U028E>                                : "ʎ̆"   # ʎ + Breve
 <dead_breve> <U21BA> <Y>                            : "⅄̆"   # ⅄ + Breve
 <dead_breve> <U21BA> <y>                            : "ʎ̆"   # ʎ + Breve
 <dead_breve> <U021C>                                : "Ȝ̆"   # Ȝ (Yogh) + Breve

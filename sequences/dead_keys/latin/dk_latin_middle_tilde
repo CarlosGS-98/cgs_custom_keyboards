@@ -142,7 +142,7 @@
 <U0334> <U1DFB> <U21BA> <F>                     : "ꟻ̴"
 <U0334> <U1DFB> <U21BA> <f>                     : "ꟻ̴"
 <U0334> <UAB35>                                 : "ꬵ̴"   # ꬵ (Lenis F) + Middle Tilde
-<U0334> <U1DFB> <minus> <f>                     : "ꬵ̴"
+<U0334> <U1DFB> <minus> <F>                     : "ꬵ̴"
 <U0334> <U1DFB> <minus> <f>                     : "ꬵ̴"
 <U0334> <G>                                     : "G̴"
 <U0334> <g>                                     : "g̴"
@@ -171,7 +171,7 @@
 <U0334> <U1DFB> <minus> <G>                     : "Ꟑ̴"
 <U0334> <U1DFB> <minus> <g>                     : "ꟑ̴"
 <U0334> <U1DF01>                                : "𝼁̴"   # 𝼁 (Reversed G) + Middle Tilde
-<U0334> <U1DFB> <U21BA> <g>                     : "𝼁̴"
+<U0334> <U1DFB> <U21BA> <G>                     : "𝼁̴"
 <U0334> <U1DFB> <U21BA> <g>                     : "𝼁̴"
 <U0334> <H>                                     : "H̴"
 <U0334> <h>                                     : "h̴"
@@ -220,7 +220,7 @@
 <U0334> <U1DFB> <slash> <L>                     : "ꝲ̴"
 <U0334> <U1DFB> <slash> <l>                     : "ꝲ̴"
 <U0334> <U2143>                                 : "⅃̴"   # ⅃ (Roman Epigraphic L) + Middle Tilde
-<U0334> <U1DFB> <U21BA> <l>                     : "⅃̴"
+<U0334> <U1DFB> <U21BA> <L>                     : "⅃̴"
 <U0334> <U1DFB> <U21BA> <l>                     : "⅃̴"
 <U0334> <U1DF08>                                : "𝼈̴"   # 𝼈 (Retroflex lateral flap) + Middle Tilde
 <U0334> <U027A>                                 : "ɺ̴"   # ɺ (Lateral flap) + Middle Tilde
@@ -284,7 +284,7 @@
 <U0334> <U1DFB> <periodcentered> <P> <S>        : "Ꜿ̴"
 <U0334> <U1DFB> <periodcentered> <p> <s>        : "ꜿ̴"
 <U0334> <UA7FC>                                 : "ꟼ̴"   # ꟼ (Roman Epigraphic P) + Middle Tilde
-<U0334> <U1DFB> <U21BA> <p>                     : "ꟼ̴"
+<U0334> <U1DFB> <U21BA> <P>                     : "ꟼ̴"
 <U0334> <U1DFB> <U21BA> <p>                     : "ꟼ̴"
 <U0334> <UA752>                                 : "Ꝓ̴"   # Ꝓ + Middle Tilde
 <U0334> <UA753>                                 : "ꝓ̴"   # ꝓ + Middle Tilde
@@ -430,8 +430,8 @@
 <U0334> <x>                                     : "x̴"
 <U0334> <Y>                                     : "Y̴"
 <U0334> <y>                                     : "y̴"
-<U0334> <U21BA> <Y>                             : "⅄̴"   # ⅄ + Middle Tilde
-<U0334> <U21BA> <y>                             : "ʎ̴"   # ʎ + Middle Tilde
+<U0334> <U2144>                                 : "⅄̴"   # ⅄ + Middle Tilde
+<U0334> <U028E>                                 : "ʎ̴"   # ʎ + Middle Tilde
 <U0334> <U21BA> <Y>                             : "⅄̴"   # ⅄ + Middle Tilde
 <U0334> <U21BA> <y>                             : "ʎ̴"   # ʎ + Middle Tilde
 <U0334> <U021C>                                 : "Ȝ̴"   # Ȝ (Yogh) + Middle Tilde

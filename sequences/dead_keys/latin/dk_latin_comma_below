@@ -140,7 +140,7 @@
 <dead_belowcomma> <U1DFB> <U21BA> <F>                   : "ꟻ̦"
 <dead_belowcomma> <U1DFB> <U21BA> <f>                   : "ꟻ̦"
 <dead_belowcomma> <UAB35>                               : "ꬵ̦"   # ꬵ (Lenis F) + Comma Below
-<dead_belowcomma> <U1DFB> <minus> <f>                   : "ꬵ̦"
+<dead_belowcomma> <U1DFB> <minus> <F>                   : "ꬵ̦"
 <dead_belowcomma> <U1DFB> <minus> <f>                   : "ꬵ̦"
 <dead_belowcomma> <G>                                   : "G̦"
 <dead_belowcomma> <g>                                   : "g̦"
@@ -169,7 +169,7 @@
 <dead_belowcomma> <U1DFB> <minus> <G>                   : "Ꟑ̦"
 <dead_belowcomma> <U1DFB> <minus> <g>                   : "ꟑ̦"
 <dead_belowcomma> <U1DF01>                              : "𝼁̦"   # 𝼁 (Reversed G) + Comma Below
-<dead_belowcomma> <U1DFB> <U21BA> <g>                   : "𝼁̦"
+<dead_belowcomma> <U1DFB> <U21BA> <G>                   : "𝼁̦"
 <dead_belowcomma> <U1DFB> <U21BA> <g>                   : "𝼁̦"
 <dead_belowcomma> <H>                                   : "H̦"
 <dead_belowcomma> <h>                                   : "h̦"
@@ -222,7 +222,7 @@
 <dead_belowcomma> <U1DFB> <slash> <L>                   : "ꝲ̦"
 <dead_belowcomma> <U1DFB> <slash> <l>                   : "ꝲ̦"
 <dead_belowcomma> <U2143>                               : "⅃̦"   # ⅃ (Roman Epigraphic L) + Comma Below
-<dead_belowcomma> <U1DFB> <U21BA> <l>                   : "⅃̦"
+<dead_belowcomma> <U1DFB> <U21BA> <L>                   : "⅃̦"
 <dead_belowcomma> <U1DFB> <U21BA> <l>                   : "⅃̦"
 <dead_belowcomma> <M>                                   : "M̦"
 <dead_belowcomma> <m>                                   : "m̦"
@@ -285,7 +285,7 @@
 <dead_belowcomma> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̦"
 <dead_belowcomma> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̦"
 <dead_belowcomma> <UA7FC>                               : "ꟼ̦"   # ꟼ (Roman Epigraphic P) + Comma Below
-<dead_belowcomma> <U1DFB> <U21BA> <p>                   : "ꟼ̦"
+<dead_belowcomma> <U1DFB> <U21BA> <P>                   : "ꟼ̦"
 <dead_belowcomma> <U1DFB> <U21BA> <p>                   : "ꟼ̦"
 <dead_belowcomma> <UA752>                               : "Ꝓ̦"   # Ꝓ + Comma Below
 <dead_belowcomma> <UA753>                               : "ꝓ̦"   # ꝓ + Comma Below
@@ -425,8 +425,8 @@
 <dead_belowcomma> <x>                                   : "x̦"
 <dead_belowcomma> <Y>                                   : "Y̦"
 <dead_belowcomma> <y>                                   : "y̦"
-<dead_belowcomma> <U21BA> <Y>                           : "⅄̦"   # ⅄ + Comma Below
-<dead_belowcomma> <U21BA> <y>                           : "ʎ̦"   # ʎ + Comma Below
+<dead_belowcomma> <U2144>                               : "⅄̦"   # ⅄ + Comma Below
+<dead_belowcomma> <U028E>                               : "ʎ̦"   # ʎ + Comma Below
 <dead_belowcomma> <U21BA> <Y>                           : "⅄̦"   # ⅄ + Comma Below
 <dead_belowcomma> <U21BA> <y>                           : "ʎ̦"   # ʎ + Comma Below
 <dead_belowcomma> <U021C>                               : "Ȝ̦"   # Ȝ (Yogh) + Comma Below

@@ -201,7 +201,7 @@
 <dead_macron> <U1DFB> <U21BA> <F>                   : "ꟻ̄"
 <dead_macron> <U1DFB> <U21BA> <f>                   : "ꟻ̄"
 <dead_macron> <UAB35>                               : "ꬵ̄"   # ꬵ (Lenis F) + Macron
-<dead_macron> <U1DFB> <minus> <f>                   : "ꬵ̄"
+<dead_macron> <U1DFB> <minus> <F>                   : "ꬵ̄"
 <dead_macron> <U1DFB> <minus> <f>                   : "ꬵ̄"
 <dead_macron> <UA7AC>                               : "Ɡ̄"   # Ɡ (Single-storey G) + Macron
 <dead_macron> <U0261>                               : "ɡ̄"   # ɡ (Single-storey G) + Macron
@@ -228,7 +228,7 @@
 <dead_macron> <U1DFB> <minus> <G>                   : "Ꟑ̄"
 <dead_macron> <U1DFB> <minus> <g>                   : "ꟑ̄"
 <dead_macron> <U1DF01>                              : "𝼁̄"   # 𝼁 (Reversed G) + Macron
-<dead_macron> <U1DFB> <U21BA> <g>                   : "𝼁̄"
+<dead_macron> <U1DFB> <U21BA> <G>                   : "𝼁̄"
 <dead_macron> <U1DFB> <U21BA> <g>                   : "𝼁̄"
 <dead_macron> <H>                                   : "H̄"
 <dead_macron> <h>                                   : "h̄"
@@ -281,7 +281,7 @@
 <dead_macron> <U1DFB> <slash> <L>                   : "ꝲ̄"
 <dead_macron> <U1DFB> <slash> <l>                   : "ꝲ̄"
 <dead_macron> <U2143>                               : "⅃̄"   # ⅃ (Roman Epigraphic L) + Macron
-<dead_macron> <U1DFB> <U21BA> <l>                   : "⅃̄"
+<dead_macron> <U1DFB> <U21BA> <L>                   : "⅃̄"
 <dead_macron> <U1DFB> <U21BA> <l>                   : "⅃̄"
 <dead_macron> <M>                                   : "M̄"
 <dead_macron> <m>                                   : "m̄"
@@ -342,7 +342,7 @@
 <dead_macron> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̄"
 <dead_macron> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̄"
 <dead_macron> <UA7FC>                               : "ꟼ̄"   # ꟼ (Roman Epigraphic P) + Macron
-<dead_macron> <U1DFB> <U21BA> <p>                   : "ꟼ̄"
+<dead_macron> <U1DFB> <U21BA> <P>                   : "ꟼ̄"
 <dead_macron> <U1DFB> <U21BA> <p>                   : "ꟼ̄"
 <dead_macron> <UA752>                               : "Ꝓ̄"   # Ꝓ + Macron
 <dead_macron> <UA753>                               : "ꝓ̄"   # ꝓ + Macron
@@ -488,8 +488,8 @@
 <dead_macron> <U1DCF> <v> <Z>                       : "ꟃ̄"
 <dead_macron> <X>                                   : "X̄"
 <dead_macron> <x>                                   : "x̄"
-<dead_macron> <U21BA> <Y>                           : "⅄̄"   # ⅄ + Macron
-<dead_macron> <U21BA> <y>                           : "ʎ̄"   # ʎ + Macron
+<dead_macron> <U2144>                               : "⅄̄"   # ⅄ + Macron
+<dead_macron> <U028E>                               : "ʎ̄"   # ʎ + Macron
 <dead_macron> <U21BA> <Y>                           : "⅄̄"   # ⅄ + Macron
 <dead_macron> <U21BA> <y>                           : "ʎ̄"   # ʎ + Macron
 <dead_macron> <U021C>                               : "Ȝ̄"   # Ȝ (Yogh) + Macron

@@ -189,7 +189,7 @@
 <dead_abovedot> <U1DFB> <U21BA> <F>                     : "ꟻ̇"
 <dead_abovedot> <U1DFB> <U21BA> <f>                     : "ꟻ̇"
 <dead_abovedot> <UAB35>                                 : "ꬵ̇"   # ꬵ (Lenis F) + Dot Above
-<dead_abovedot> <U1DFB> <minus> <f>                     : "ꬵ̇"
+<dead_abovedot> <U1DFB> <minus> <F>                     : "ꬵ̇"
 <dead_abovedot> <U1DFB> <minus> <f>                     : "ꬵ̇"
 <dead_abovedot> <UA7AC>                                 : "Ɡ̇"   # Ɡ (Single-storey G) + Dot Above
 <dead_abovedot> <U0261>                                 : "ɡ̇"   # ɡ (Single-storey G) + Dot Above
@@ -216,7 +216,7 @@
 <dead_abovedot> <U1DFB> <minus> <G>                     : "Ꟑ̇"
 <dead_abovedot> <U1DFB> <minus> <g>                     : "ꟑ̇"
 <dead_abovedot> <U1DF01>                                : "𝼁̇"   # 𝼁 (Reversed G) + Dot Above
-<dead_abovedot> <U1DFB> <U21BA> <g>                     : "𝼁̇"
+<dead_abovedot> <U1DFB> <U21BA> <G>                     : "𝼁̇"
 <dead_abovedot> <U1DFB> <U21BA> <g>                     : "𝼁̇"
 <dead_abovedot> <UA78D>                                 : "Ɥ̇"   # Ɥ (Turned H) + Dot Above
 <dead_abovedot> <U0265>                                 : "ɥ̇"   # ɥ (Turned H) + Dot Above
@@ -261,7 +261,7 @@
 <dead_abovedot> <U1DFB> <slash> <L>                     : "ꝲ̇"
 <dead_abovedot> <U1DFB> <slash> <l>                     : "ꝲ̇"
 <dead_abovedot> <U2143>                                 : "⅃̇"   # ⅃ (Roman Epigraphic L) + Dot Above
-<dead_abovedot> <U1DFB> <U21BA> <l>                     : "⅃̇"
+<dead_abovedot> <U1DFB> <U21BA> <L>                     : "⅃̇"
 <dead_abovedot> <U1DFB> <U21BA> <l>                     : "⅃̇"
 <dead_abovedot> <U0270>                                 : "ɰ̇"   # ɰ (Voiced velar approximant) + Dot Above
 <dead_abovedot> <U035A> <M>                             : "ɰ̇"   # ɰ (Voiced velar approximant) + Dot Above
@@ -316,7 +316,7 @@
 <dead_abovedot> <U1DFB> <periodcentered> <P> <S>        : "Ꜿ̇"
 <dead_abovedot> <U1DFB> <periodcentered> <p> <s>        : "ꜿ̇"
 <dead_abovedot> <UA7FC>                                 : "ꟼ̇"   # ꟼ (Roman Epigraphic P) + Dot Above
-<dead_abovedot> <U1DFB> <U21BA> <p>                     : "ꟼ̇"
+<dead_abovedot> <U1DFB> <U21BA> <P>                     : "ꟼ̇"
 <dead_abovedot> <U1DFB> <U21BA> <p>                     : "ꟼ̇"
 <dead_abovedot> <UA752>                                 : "Ꝓ̇"   # Ꝓ + Dot Above
 <dead_abovedot> <UA753>                                 : "ꝓ̇"   # ꝓ + Dot Above
@@ -452,8 +452,8 @@
 <dead_abovedot> <UA7C3>                                 : "ꟃ̇"   # ꟃ (W Anglicana) + Dot Above
 <dead_abovedot> <U1DCF> <V> <Z>                         : "Ꟃ̇"
 <dead_abovedot> <U1DCF> <v> <Z>                         : "ꟃ̇"
-<dead_abovedot> <U21BA> <Y>                             : "⅄̇"   # ⅄ + Dot Above
-<dead_abovedot> <U21BA> <y>                             : "ʎ̇"   # ʎ + Dot Above
+<dead_abovedot> <U2144>                                 : "⅄̇"   # ⅄ + Dot Above
+<dead_abovedot> <U028E>                                 : "ʎ̇"   # ʎ + Dot Above
 <dead_abovedot> <U21BA> <Y>                             : "⅄̇"   # ⅄ + Dot Above
 <dead_abovedot> <U21BA> <y>                             : "ʎ̇"   # ʎ + Dot Above
 <dead_abovedot> <U021C>                                 : "Ȝ̇"   # Ȝ (Yogh) + Dot Above

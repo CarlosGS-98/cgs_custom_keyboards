@@ -122,7 +122,7 @@
 <dead_doubleacute> <U1DFB> <U21BA> <F>                  : "ꟻ̋"
 <dead_doubleacute> <U1DFB> <U21BA> <f>                  : "ꟻ̋"
 <dead_doubleacute> <UAB35>                              : "ꬵ̋"   # ꬵ (Lenis F) + Double Acute
-<dead_doubleacute> <U1DFB> <minus> <f>                  : "ꬵ̋"
+<dead_doubleacute> <U1DFB> <minus> <F>                  : "ꬵ̋"
 <dead_doubleacute> <U1DFB> <minus> <f>                  : "ꬵ̋"
 <dead_doubleacute> <G>                                  : "G̋"
 <dead_doubleacute> <g>                                  : "g̋"
@@ -151,7 +151,7 @@
 <dead_doubleacute> <U1DFB> <minus> <G>                  : "Ꟑ̋"
 <dead_doubleacute> <U1DFB> <minus> <g>                  : "ꟑ̋"
 <dead_doubleacute> <U1DF01>                             : "𝼁̋"   # 𝼁 (Reversed G) + Double Acute
-<dead_doubleacute> <U1DFB> <U21BA> <g>                  : "𝼁̋"
+<dead_doubleacute> <U1DFB> <U21BA> <G>                  : "𝼁̋"
 <dead_doubleacute> <U1DFB> <U21BA> <g>                  : "𝼁̋"
 <dead_doubleacute> <H>                                  : "H̋"
 <dead_doubleacute> <h>                                  : "h̋"
@@ -206,7 +206,7 @@
 <dead_doubleacute> <U1DFB> <slash> <L>                  : "ꝲ̋"
 <dead_doubleacute> <U1DFB> <slash> <l>                  : "ꝲ̋"
 <dead_doubleacute> <U2143>                              : "⅃̋"   # ⅃ (Roman Epigraphic L) + Double Acute
-<dead_doubleacute> <U1DFB> <U21BA> <l>                  : "⅃̋"
+<dead_doubleacute> <U1DFB> <U21BA> <L>                  : "⅃̋"
 <dead_doubleacute> <U1DFB> <U21BA> <l>                  : "⅃̋"
 <dead_doubleacute> <M>                                  : "M̋"
 <dead_doubleacute> <m>                                  : "m̋"
@@ -267,7 +267,7 @@
 <dead_doubleacute> <U1DFB> <periodcentered> <P> <S>     : "Ꜿ̋"
 <dead_doubleacute> <U1DFB> <periodcentered> <p> <s>     : "ꜿ̋"
 <dead_doubleacute> <UA7FC>                              : "ꟼ̋"   # ꟼ (Roman Epigraphic P) + Double Acute
-<dead_doubleacute> <U1DFB> <U21BA> <p>                  : "ꟼ̋"
+<dead_doubleacute> <U1DFB> <U21BA> <P>                  : "ꟼ̋"
 <dead_doubleacute> <U1DFB> <U21BA> <p>                  : "ꟼ̋"
 <dead_doubleacute> <UA752>                              : "Ꝓ̋"   # Ꝓ + Double Acute
 <dead_doubleacute> <UA753>                              : "ꝓ̋"   # ꝓ + Double Acute
@@ -415,8 +415,8 @@
 <dead_doubleacute> <x>                                  : "x̋"
 <dead_doubleacute> <Y>                                  : "Y̋"
 <dead_doubleacute> <y>                                  : "y̋"
-<dead_doubleacute> <U21BA> <Y>                          : "⅄̋"   # ⅄ + Double Acute
-<dead_doubleacute> <U21BA> <y>                          : "ʎ̋"   # ʎ + Double Acute
+<dead_doubleacute> <U2144>                              : "⅄̋"   # ⅄ + Double Acute
+<dead_doubleacute> <U028E>                              : "ʎ̋"   # ʎ + Double Acute
 <dead_doubleacute> <U21BA> <Y>                          : "⅄̋"   # ⅄ + Double Acute
 <dead_doubleacute> <U21BA> <y>                          : "ʎ̋"   # ʎ + Double Acute
 <dead_doubleacute> <U021C>                              : "Ȝ̋"   # Ȝ (Yogh) + Double Acute

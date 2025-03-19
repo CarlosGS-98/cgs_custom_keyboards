@@ -168,7 +168,7 @@
 <dead_longsolidusoverlay> <U1DFB> <U21BA> <F>                   : "ꟻ̸"
 <dead_longsolidusoverlay> <U1DFB> <U21BA> <f>                   : "ꟻ̸"
 <dead_longsolidusoverlay> <UAB35>                               : "ꬵ̸"   # ꬵ (Lenis F) + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DFB> <minus> <f>                   : "ꬵ̸"
+<dead_longsolidusoverlay> <U1DFB> <minus> <F>                   : "ꬵ̸"
 <dead_longsolidusoverlay> <U1DFB> <minus> <f>                   : "ꬵ̸"
 <dead_longsolidusoverlay> <UA7AC>                               : "Ɡ̸"   # Ɡ (Single-storey G) + Diagonal Stroke
 <dead_longsolidusoverlay> <U0261>                               : "ɡ̸"   # ɡ (Single-storey G) + Diagonal Stroke
@@ -195,7 +195,7 @@
 <dead_longsolidusoverlay> <U1DFB> <minus> <G>                   : "Ꟑ̸"
 <dead_longsolidusoverlay> <U1DFB> <minus> <g>                   : "ꟑ̸"
 <dead_longsolidusoverlay> <U1DF01>                              : "𝼁̸"   # 𝼁 (Reversed G) + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DFB> <U21BA> <g>                   : "𝼁̸"
+<dead_longsolidusoverlay> <U1DFB> <U21BA> <G>                   : "𝼁̸"
 <dead_longsolidusoverlay> <U1DFB> <U21BA> <g>                   : "𝼁̸"
 <dead_longsolidusoverlay> <H>                                   : "H̸"
 <dead_longsolidusoverlay> <h>                                   : "h̸"
@@ -246,7 +246,7 @@
 <dead_longsolidusoverlay> <U1DFB> <slash> <L>                   : "ꝲ̸"
 <dead_longsolidusoverlay> <U1DFB> <slash> <l>                   : "ꝲ̸"
 <dead_longsolidusoverlay> <U2143>                               : "⅃̸"   # ⅃ (Roman Epigraphic L) + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DFB> <U21BA> <l>                   : "⅃̸"
+<dead_longsolidusoverlay> <U1DFB> <U21BA> <L>                   : "⅃̸"
 <dead_longsolidusoverlay> <U1DFB> <U21BA> <l>                   : "⅃̸"
 <dead_longsolidusoverlay> <M>                                   : "M̸"
 <dead_longsolidusoverlay> <m>                                   : "m̸"
@@ -307,7 +307,7 @@
 <dead_longsolidusoverlay> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̸"
 <dead_longsolidusoverlay> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̸"
 <dead_longsolidusoverlay> <UA7FC>                               : "ꟼ̸"   # ꟼ (Roman Epigraphic P) + Diagonal Stroke
-<dead_longsolidusoverlay> <U1DFB> <U21BA> <p>                   : "ꟼ̸"
+<dead_longsolidusoverlay> <U1DFB> <U21BA> <P>                   : "ꟼ̸"
 <dead_longsolidusoverlay> <U1DFB> <U21BA> <p>                   : "ꟼ̸"
 <dead_longsolidusoverlay> <UA752>                               : "Ꝓ̸"   # Ꝓ + Diagonal Stroke
 <dead_longsolidusoverlay> <UA753>                               : "ꝓ̸"   # ꝓ + Diagonal Stroke
@@ -444,8 +444,8 @@
 <dead_longsolidusoverlay> <x>                                   : "x̸"
 <dead_longsolidusoverlay> <Y>                                   : "Y̸"
 <dead_longsolidusoverlay> <y>                                   : "y̸"
-<dead_longsolidusoverlay> <U21BA> <Y>                           : "⅄̸"   # ⅄ + Diagonal Stroke
-<dead_longsolidusoverlay> <U21BA> <y>                           : "ʎ̸"   # ʎ + Diagonal Stroke
+<dead_longsolidusoverlay> <U2144>                               : "⅄̸"   # ⅄ + Diagonal Stroke
+<dead_longsolidusoverlay> <U028E>                               : "ʎ̸"   # ʎ + Diagonal Stroke
 <dead_longsolidusoverlay> <U21BA> <Y>                           : "⅄̸"   # ⅄ + Diagonal Stroke
 <dead_longsolidusoverlay> <U21BA> <y>                           : "ʎ̸"   # ʎ + Diagonal Stroke
 <dead_longsolidusoverlay> <U021C>                               : "Ȝ̸"   # Ȝ (Yogh) + Diagonal Stroke

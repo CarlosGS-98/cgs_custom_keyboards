@@ -132,7 +132,7 @@
 <dead_belowring> <U1DFB> <U21BA> <F>                    : "ꟻ̥"
 <dead_belowring> <U1DFB> <U21BA> <f>                    : "ꟻ̥"
 <dead_belowring> <UAB35>                                : "ꬵ̥"   # ꬵ (Lenis F) + Ring Below
-<dead_belowring> <U1DFB> <minus> <f>                    : "ꬵ̥"
+<dead_belowring> <U1DFB> <minus> <F>                    : "ꬵ̥"
 <dead_belowring> <U1DFB> <minus> <f>                    : "ꬵ̥"
 <dead_belowring> <G>                                    : "G̥"
 <dead_belowring> <g>                                    : "g̥"
@@ -161,7 +161,7 @@
 <dead_belowring> <U1DFB> <minus> <G>                    : "Ꟑ̥"
 <dead_belowring> <U1DFB> <minus> <g>                    : "ꟑ̥"
 <dead_belowring> <U1DF01>                               : "𝼁̥"   # 𝼁 (Reversed G) + Ring Below
-<dead_belowring> <U1DFB> <U21BA> <g>                    : "𝼁̥"
+<dead_belowring> <U1DFB> <U21BA> <G>                    : "𝼁̥"
 <dead_belowring> <U1DFB> <U21BA> <g>                    : "𝼁̥"
 <dead_belowring> <H>                                    : "H̥"
 <dead_belowring> <h>                                    : "h̥"
@@ -216,7 +216,7 @@
 <dead_belowring> <U1DFB> <slash> <L>                    : "ꝲ̥"
 <dead_belowring> <U1DFB> <slash> <l>                    : "ꝲ̥"
 <dead_belowring> <U2143>                                : "⅃̥"   # ⅃ (Roman Epigraphic L) + Ring Below
-<dead_belowring> <U1DFB> <U21BA> <l>                    : "⅃̥"
+<dead_belowring> <U1DFB> <U21BA> <L>                    : "⅃̥"
 <dead_belowring> <U1DFB> <U21BA> <l>                    : "⅃̥"
 <dead_belowring> <M>                                    : "M̥"
 <dead_belowring> <m>                                    : "m̥"
@@ -279,7 +279,7 @@
 <dead_belowring> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̥"
 <dead_belowring> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̥"
 <dead_belowring> <UA7FC>                                : "ꟼ̥"   # ꟼ (Roman Epigraphic P) + Ring Below
-<dead_belowring> <U1DFB> <U21BA> <p>                    : "ꟼ̥"
+<dead_belowring> <U1DFB> <U21BA> <P>                    : "ꟼ̥"
 <dead_belowring> <U1DFB> <U21BA> <p>                    : "ꟼ̥"
 <dead_belowring> <UA752>                                : "Ꝓ̥"   # Ꝓ + Ring Below
 <dead_belowring> <UA753>                                : "ꝓ̥"   # ꝓ + Ring Below
@@ -429,10 +429,9 @@
 <dead_belowring> <x>                                    : "x̥"
 <dead_belowring> <Y>                                    : "Y̥"
 <dead_belowring> <y>                                    : "y̥"
+<dead_belowring> <U2144>                                : "⅄̥"   # ⅄ + Ring Below
+<dead_belowring> <U028E>                                : "ʎ̥"   # ʎ + Ring Below
 <dead_belowring> <U21BA> <Y>                            : "⅄̥"   # ⅄ + Ring Below
-<dead_belowring> <U21BA> <y>                            : "ʎ̥"   # ʎ + Ring Below
-<dead_belowring> <U21BA> <Y>                            : "⅄̥"   # ⅄ + Ring Below
-<dead_belowring> <U21BA> <y>                            : "ʎ̥"   # ʎ + Ring Below
 <dead_belowring> <U21BA> <y>                            : "ʎ̥"   # ʎ + Ring Below
 <dead_belowring> <U021C>                                : "Ȝ̥"   # Ȝ (Yogh) + Ring Below
 <dead_belowring> <U021D>                                : "ȝ̥"   # ȝ (Yogh) + Ring Below

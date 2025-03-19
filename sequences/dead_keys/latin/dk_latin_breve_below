@@ -134,7 +134,7 @@
 <dead_belowbreve> <U1DFB> <U21BA> <F>                   : "ꟻ̮"
 <dead_belowbreve> <U1DFB> <U21BA> <f>                   : "ꟻ̮"
 <dead_belowbreve> <UAB35>                               : "ꬵ̮"   # ꬵ (Lenis F) + Breve Below
-<dead_belowbreve> <U1DFB> <minus> <f>                   : "ꬵ̮"
+<dead_belowbreve> <U1DFB> <minus> <F>                   : "ꬵ̮"
 <dead_belowbreve> <U1DFB> <minus> <f>                   : "ꬵ̮"
 <dead_belowbreve> <G>                                   : "G̮"
 <dead_belowbreve> <g>                                   : "g̮"
@@ -163,7 +163,7 @@
 <dead_belowbreve> <U1DFB> <minus> <G>                   : "Ꟑ̮"
 <dead_belowbreve> <U1DFB> <minus> <g>                   : "ꟑ̮"
 <dead_belowbreve> <U1DF01>                              : "𝼁̮"   # 𝼁 (Reversed G) + Breve Below
-<dead_belowbreve> <U1DFB> <U21BA> <g>                   : "𝼁̮"
+<dead_belowbreve> <U1DFB> <U21BA> <G>                   : "𝼁̮"
 <dead_belowbreve> <U1DFB> <U21BA> <g>                   : "𝼁̮"
 <dead_belowbreve> <UA78D>                               : "Ɥ̮"   # Ɥ (Turned H) + Breve Below
 <dead_belowbreve> <U0265>                               : "ɥ̮"   # ɥ (Turned H) + Breve Below
@@ -212,7 +212,7 @@
 <dead_belowbreve> <U1DFB> <slash> <L>                   : "ꝲ̮"
 <dead_belowbreve> <U1DFB> <slash> <l>                   : "ꝲ̮"
 <dead_belowbreve> <U2143>                               : "⅃̮"   # ⅃ (Roman Epigraphic L) + Breve Below
-<dead_belowbreve> <U1DFB> <U21BA> <l>                   : "⅃̮"
+<dead_belowbreve> <U1DFB> <U21BA> <L>                   : "⅃̮"
 <dead_belowbreve> <U1DFB> <U21BA> <l>                   : "⅃̮"
 <dead_belowbreve> <M>                                   : "M̮"
 <dead_belowbreve> <m>                                   : "m̮"
@@ -275,7 +275,7 @@
 <dead_belowbreve> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̮"
 <dead_belowbreve> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̮"
 <dead_belowbreve> <UA7FC>                               : "ꟼ̮"   # ꟼ (Roman Epigraphic P) + Breve Below
-<dead_belowbreve> <U1DFB> <U21BA> <p>                   : "ꟼ̮"
+<dead_belowbreve> <U1DFB> <U21BA> <P>                   : "ꟼ̮"
 <dead_belowbreve> <U1DFB> <U21BA> <p>                   : "ꟼ̮"
 <dead_belowbreve> <UA752>                               : "Ꝓ̮"   # Ꝓ + Breve Below
 <dead_belowbreve> <UA753>                               : "ꝓ̮"   # ꝓ + Breve Below
@@ -423,8 +423,8 @@
 <dead_belowbreve> <x>                                   : "x̮"
 <dead_belowbreve> <Y>                                   : "Y̮"
 <dead_belowbreve> <y>                                   : "y̮"
-<dead_belowbreve> <U21BA> <Y>                           : "⅄̮"   # ⅄ + Breve Below
-<dead_belowbreve> <U21BA> <y>                           : "ʎ̮"   # ʎ + Breve Below
+<dead_belowbreve> <U2144>                               : "⅄̮"   # ⅄ + Breve Below
+<dead_belowbreve> <U028E>                               : "ʎ̮"   # ʎ + Breve Below
 <dead_belowbreve> <U21BA> <Y>                           : "⅄̮"   # ⅄ + Breve Below
 <dead_belowbreve> <U21BA> <y>                           : "ʎ̮"   # ʎ + Breve Below
 <dead_belowbreve> <U021C>                               : "Ȝ̮"   # Ȝ (Yogh) + Breve Below

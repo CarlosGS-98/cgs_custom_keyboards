@@ -190,7 +190,7 @@
 <dead_tilde> <U1DFB> <U21BA> <F>                    : "ꟻ̃"
 <dead_tilde> <U1DFB> <U21BA> <f>                    : "ꟻ̃"
 <dead_tilde> <UAB35>                                : "ꬵ̃"   # ꬵ (Lenis F) + Tilde
-<dead_tilde> <U1DFB> <minus> <f>                    : "ꬵ̃"
+<dead_tilde> <U1DFB> <minus> <F>                    : "ꬵ̃"
 <dead_tilde> <U1DFB> <minus> <f>                    : "ꬵ̃"
 <dead_tilde> <G>                                    : "G̃"
 <dead_tilde> <g>                                    : "g̃"
@@ -219,7 +219,7 @@
 <dead_tilde> <U1DFB> <minus> <G>                    : "Ꟑ̃"
 <dead_tilde> <U1DFB> <minus> <g>                    : "ꟑ̃"
 <dead_tilde> <U1DF01>                               : "𝼁̃"   # 𝼁 (Reversed G) + Tilde
-<dead_tilde> <U1DFB> <U21BA> <g>                    : "𝼁̃"
+<dead_tilde> <U1DFB> <U21BA> <G>                    : "𝼁̃"
 <dead_tilde> <U1DFB> <U21BA> <g>                    : "𝼁̃"
 <dead_tilde> <UA78D>                                : "Ɥ̃"   # Ɥ (Turned H) + Tilde
 <dead_tilde> <U0265>                                : "ɥ̃"   # ɥ (Turned H) + Tilde
@@ -268,7 +268,7 @@
 <dead_tilde> <U1DFB> <slash> <L>                    : "ꝲ̃"
 <dead_tilde> <U1DFB> <slash> <l>                    : "ꝲ̃"
 <dead_tilde> <U2143>                                : "⅃̃"   # ⅃ (Roman Epigraphic L) + Tilde
-<dead_tilde> <U1DFB> <U21BA> <l>                    : "⅃̃"
+<dead_tilde> <U1DFB> <U21BA> <L>                    : "⅃̃"
 <dead_tilde> <U1DFB> <U21BA> <l>                    : "⅃̃"
 <dead_tilde> <M>                                    : "M̃"
 <dead_tilde> <m>                                    : "m̃"
@@ -327,7 +327,7 @@
 <dead_tilde> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̃"
 <dead_tilde> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̃"
 <dead_tilde> <UA7FC>                                : "ꟼ̃"   # ꟼ (Roman Epigraphic P) + Tilde
-<dead_tilde> <U1DFB> <U21BA> <p>                    : "ꟼ̃"
+<dead_tilde> <U1DFB> <U21BA> <P>                    : "ꟼ̃"
 <dead_tilde> <U1DFB> <U21BA> <p>                    : "ꟼ̃"
 <dead_tilde> <UA752>                                : "Ꝓ̃"   # Ꝓ + Tilde
 <dead_tilde> <UA753>                                : "ꝓ̃"   # ꝓ + Tilde
@@ -471,8 +471,8 @@
 <dead_tilde> <U1DCF> <v> <Z>                        : "ꟃ̃"
 <dead_tilde> <X>                                    : "X̃"
 <dead_tilde> <x>                                    : "x̃"
-<dead_tilde> <U21BA> <Y>                            : "⅄̃"   # ⅄ + Tilde
-<dead_tilde> <U21BA> <y>                            : "ʎ̃"   # ʎ + Tilde
+<dead_tilde> <U2144>                                : "⅄̃"   # ⅄ + Tilde
+<dead_tilde> <U028E>                                : "ʎ̃"   # ʎ + Tilde
 <dead_tilde> <U21BA> <Y>                            : "⅄̃"   # ⅄ + Tilde
 <dead_tilde> <U21BA> <y>                            : "ʎ̃"   # ʎ + Tilde
 <dead_tilde> <U021C>                                : "Ȝ̃"   # Ȝ (Yogh) + Tilde

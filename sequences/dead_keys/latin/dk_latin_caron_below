@@ -133,7 +133,7 @@
 <U032C> <U1DFB> <U21BA> <F>                     : "ꟻ̬"
 <U032C> <U1DFB> <U21BA> <f>                     : "ꟻ̬"
 <U032C> <UAB35>                                 : "ꬵ̬"   # ꬵ (Lenis F) + Caron Below
-<U032C> <U1DFB> <minus> <f>                     : "ꬵ̬"
+<U032C> <U1DFB> <minus> <F>                     : "ꬵ̬"
 <U032C> <U1DFB> <minus> <f>                     : "ꬵ̬"
 <U032C> <G>                                     : "G̬"
 <U032C> <g>                                     : "g̬"
@@ -162,7 +162,7 @@
 <U032C> <U1DFB> <minus> <G>                     : "Ꟑ̬"
 <U032C> <U1DFB> <minus> <g>                     : "ꟑ̬"
 <U032C> <U1DF01>                                : "𝼁̬"   # 𝼁 (Reversed G) + Caron Below
-<U032C> <U1DFB> <U21BA> <g>                     : "𝼁̬"
+<U032C> <U1DFB> <U21BA> <G>                     : "𝼁̬"
 <U032C> <U1DFB> <U21BA> <g>                     : "𝼁̬"
 <U032C> <H>                                     : "H̬"
 <U032C> <h>                                     : "h̬"
@@ -217,7 +217,7 @@
 <U032C> <U1DFB> <slash> <L>                     : "ꝲ̬"
 <U032C> <U1DFB> <slash> <l>                     : "ꝲ̬"
 <U032C> <U2143>                                 : "⅃̬"   # ⅃ (Roman Epigraphic L) + Caron Below
-<U032C> <U1DFB> <U21BA> <l>                     : "⅃̬"
+<U032C> <U1DFB> <U21BA> <L>                     : "⅃̬"
 <U032C> <U1DFB> <U21BA> <l>                     : "⅃̬"
 <U032C> <M>                                     : "M̬"
 <U032C> <m>                                     : "m̬"
@@ -280,7 +280,7 @@
 <U032C> <U1DFB> <periodcentered> <P> <S>        : "Ꜿ̬"
 <U032C> <U1DFB> <periodcentered> <p> <s>        : "ꜿ̬"
 <U032C> <UA7FC>                                 : "ꟼ̬"   # ꟼ (Roman Epigraphic P) + Caron Below
-<U032C> <U1DFB> <U21BA> <p>                     : "ꟼ̬"
+<U032C> <U1DFB> <U21BA> <P>                     : "ꟼ̬"
 <U032C> <U1DFB> <U21BA> <p>                     : "ꟼ̬"
 <U032C> <UA752>                                 : "Ꝓ̬"   # Ꝓ + Caron Below
 <U032C> <UA753>                                 : "ꝓ̬"   # ꝓ + Caron Below
@@ -430,8 +430,8 @@
 <U032C> <x>                                     : "x̬"
 <U032C> <Y>                                     : "Y̬"
 <U032C> <y>                                     : "y̬"
-<U032C> <U21BA> <Y>                             : "⅄̬"   # ⅄ + Caron Below
-<U032C> <U21BA> <y>                             : "ʎ̬"   # ʎ + Caron Below
+<U032C> <U2144>                             : "⅄̬"   # ⅄ + Caron Below
+<U032C> <U028E>                             : "ʎ̬"   # ʎ + Caron Below
 <U032C> <U21BA> <Y>                             : "⅄̬"   # ⅄ + Caron Below
 <U032C> <U21BA> <y>                             : "ʎ̬"   # ʎ + Caron Below
 <U032C> <U021C>                                 : "Ȝ̬"   # Ȝ (Yogh) + Caron Below

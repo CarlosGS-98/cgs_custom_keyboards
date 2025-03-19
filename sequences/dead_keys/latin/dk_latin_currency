@@ -116,7 +116,7 @@
 <dead_currency> <minus> <H>             : "𐆙"   # Roman Dupondius
 <dead_currency> <minus> <h>             : "𐆙"   # Roman Dupondius
 <dead_currency> <minus> <I>             : "𐆚"   # Roman As
-<dead_currency> <minus> <I>             : "𐆚"   # Roman As
+<dead_currency> <minus> <i>             : "𐆚"   # Roman As
 <dead_currency> <minus> <K>             : "₭"   # Kip
 <dead_currency> <minus> <k>             : "₭"   # Kip
 <dead_currency> <minus> <L>             : "£"   # Pound sign

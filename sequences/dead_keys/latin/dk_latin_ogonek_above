@@ -133,7 +133,7 @@
 <U1DCE> <U1DFB> <U21BA> <F>                     : "ꟻ᷎"
 <U1DCE> <U1DFB> <U21BA> <f>                     : "ꟻ᷎"
 <U1DCE> <UAB35>                                 : "ꬵ᷎"   # ꬵ (Lenis F) + Ogonek Above
-<U1DCE> <U1DFB> <minus> <f>                     : "ꬵ᷎"
+<U1DCE> <U1DFB> <minus> <F>                     : "ꬵ᷎"
 <U1DCE> <U1DFB> <minus> <f>                     : "ꬵ᷎"
 <U1DCE> <G>                                     : "G᷎"
 <U1DCE> <g>                                     : "g᷎"
@@ -162,7 +162,7 @@
 <U1DCE> <U1DFB> <minus> <G>                     : "Ꟑ᷎"
 <U1DCE> <U1DFB> <minus> <g>                     : "ꟑ᷎"
 <U1DCE> <U1DF01>                                : "𝼁᷎"   # 𝼁 (Reversed G) + Ogonek Above
-<U1DCE> <U1DFB> <U21BA> <g>                     : "𝼁᷎"
+<U1DCE> <U1DFB> <U21BA> <G>                     : "𝼁᷎"
 <U1DCE> <U1DFB> <U21BA> <g>                     : "𝼁᷎"
 <U1DCE> <H>                                     : "H᷎"
 <U1DCE> <h>                                     : "h᷎"
@@ -215,7 +215,7 @@
 <U1DCE> <U1DFB> <slash> <L>                     : "ꝲ᷎"
 <U1DCE> <U1DFB> <slash> <l>                     : "ꝲ᷎"
 <U1DCE> <U2143>                                 : "⅃᷎"   # ⅃ (Roman Epigraphic L) + Ogonek Above
-<U1DCE> <U1DFB> <U21BA> <l>                     : "⅃᷎"
+<U1DCE> <U1DFB> <U21BA> <L>                     : "⅃᷎"
 <U1DCE> <U1DFB> <U21BA> <l>                     : "⅃᷎"
 <U1DCE> <M>                                     : "M᷎"
 <U1DCE> <m>                                     : "m᷎"
@@ -278,7 +278,7 @@
 <U1DCE> <U1DFB> <periodcentered> <P> <S>        : "Ꜿ᷎"
 <U1DCE> <U1DFB> <periodcentered> <p> <s>        : "ꜿ᷎"
 <U1DCE> <UA7FC>                                 : "ꟼ᷎"   # ꟼ (Roman Epigraphic P) + Ogonek Above
-<U1DCE> <U1DFB> <U21BA> <p>                     : "ꟼ᷎"
+<U1DCE> <U1DFB> <U21BA> <P>                     : "ꟼ᷎"
 <U1DCE> <U1DFB> <U21BA> <p>                     : "ꟼ᷎"
 <U1DCE> <UA752>                                 : "Ꝓ᷎"   # Ꝓ + Ogonek Above
 <U1DCE> <UA753>                                 : "ꝓ᷎"   # ꝓ + Ogonek Above
@@ -428,8 +428,8 @@
 <U1DCE> <x>                                     : "x᷎"
 <U1DCE> <Y>                                     : "Y᷎"
 <U1DCE> <y>                                     : "y᷎"
-<U1DCE> <U21BA> <Y>                             : "⅄᷎"   # ⅄ + Ogonek Above
-<U1DCE> <U21BA> <y>                             : "ʎ᷎"   # ʎ + Ogonek Above
+<U1DCE> <U2144>                                 : "⅄᷎"   # ⅄ + Ogonek Above
+<U1DCE> <U028E>                                 : "ʎ᷎"   # ʎ + Ogonek Above
 <U1DCE> <U21BA> <Y>                             : "⅄᷎"   # ⅄ + Ogonek Above
 <U1DCE> <U21BA> <y>                             : "ʎ᷎"   # ʎ + Ogonek Above
 <U1DCE> <U021C>                                 : "Ȝ᷎"   # Ȝ (Yogh) + Ogonek Above

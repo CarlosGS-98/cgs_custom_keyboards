@@ -63,10 +63,6 @@
 <dead_belowdot> <ohorn>                 : "ợ"
 <dead_belowdot> <dead_horn> <O>         : "Ợ"
 <dead_belowdot> <dead_horn> <o>         : "ợ"
-<dead_belowdot> <Sabovedot>             : "Ṩ"
-<dead_belowdot> <sabovedot>             : "ṩ"
-<dead_belowdot> <dead_abovedot> <S>     : "Ṩ"
-<dead_belowdot> <dead_abovedot> <s>     : "ṩ"
 <dead_belowdot> <Uhorn>                 : "Ự"
 <dead_belowdot> <uhorn>                 : "ự"
 <dead_belowdot> <dead_horn> <U>         : "Ự"
@@ -216,7 +212,7 @@
 <dead_belowdot> <U1DFB> <U21BA> <F>                     : "ꟻ̣"
 <dead_belowdot> <U1DFB> <U21BA> <f>                     : "ꟻ̣"
 <dead_belowdot> <UAB35>                                 : "ꬵ̣"   # ꬵ (Lenis F) + Dot Below
-<dead_belowdot> <U1DFB> <minus> <f>                     : "ꬵ̣"
+<dead_belowdot> <U1DFB> <minus> <F>                     : "ꬵ̣"
 <dead_belowdot> <U1DFB> <minus> <f>                     : "ꬵ̣"
 <dead_belowdot> <G>                                     : "G̣"
 <dead_belowdot> <g>                                     : "g̣"
@@ -245,7 +241,7 @@
 <dead_belowdot> <U1DFB> <minus> <G>                     : "Ꟑ̣"
 <dead_belowdot> <U1DFB> <minus> <g>                     : "ꟑ̣"
 <dead_belowdot> <U1DF01>                                : "𝼁̣"   # 𝼁 (Reversed G) + Dot Below
-<dead_belowdot> <U1DFB> <U21BA> <g>                     : "𝼁̣"
+<dead_belowdot> <U1DFB> <U21BA> <G>                     : "𝼁̣"
 <dead_belowdot> <U1DFB> <U21BA> <g>                     : "𝼁̣"
 <dead_belowdot> <UA78D>                                 : "Ɥ̣"   # Ɥ (Turned H) + Dot Below
 <dead_belowdot> <U0265>                                 : "ɥ̣"   # ɥ (Turned H) + Dot Below
@@ -290,7 +286,7 @@
 <dead_belowdot> <U1DFB> <slash> <L>                     : "ꝲ̣"
 <dead_belowdot> <U1DFB> <slash> <l>                     : "ꝲ̣"
 <dead_belowdot> <U2143>                                 : "⅃̣"   # ⅃ (Roman Epigraphic L) + Dot Below
-<dead_belowdot> <U1DFB> <U21BA> <l>                     : "⅃̣"
+<dead_belowdot> <U1DFB> <U21BA> <L>                     : "⅃̣"
 <dead_belowdot> <U1DFB> <U21BA> <l>                     : "⅃̣"
 <dead_belowdot> <U0270>                                 : "ɰ̣"   # ɰ (Voiced velar approximant) + Dot Below
 <dead_belowdot> <U035A> <M>                             : "ɰ̣"   # ɰ (Voiced velar approximant) + Dot Below
@@ -347,7 +343,7 @@
 <dead_belowdot> <U1DFB> <periodcentered> <P> <S>        : "Ꜿ̣"
 <dead_belowdot> <U1DFB> <periodcentered> <p> <s>        : "ꜿ̣"
 <dead_belowdot> <UA7FC>                                 : "ꟼ̣"   # ꟼ (Roman Epigraphic P) + Dot Below
-<dead_belowdot> <U1DFB> <U21BA> <p>                     : "ꟼ̣"
+<dead_belowdot> <U1DFB> <U21BA> <P>                     : "ꟼ̣"
 <dead_belowdot> <U1DFB> <U21BA> <p>                     : "ꟼ̣"
 <dead_belowdot> <UA752>                                 : "Ꝓ̣"   # Ꝓ + Dot Below
 <dead_belowdot> <UA753>                                 : "ꝓ̣"   # ꝓ + Dot Below
@@ -483,8 +479,8 @@
 <dead_belowdot> <U1DCF> <v> <Z>                         : "ꟃ̣"
 <dead_belowdot> <X>                                     : "X̣"
 <dead_belowdot> <x>                                     : "x̣"
-<dead_belowdot> <U21BA> <Y>                             : "⅄̣"   # ⅄ + Dot Below
-<dead_belowdot> <U21BA> <y>                             : "ʎ̣"   # ʎ + Dot Below
+<dead_belowdot> <U2144>                                 : "⅄̣"   # ⅄ + Dot Below
+<dead_belowdot> <U028E>                                 : "ʎ̣"   # ʎ + Dot Below
 <dead_belowdot> <U21BA> <Y>                             : "⅄̣"   # ⅄ + Dot Below
 <dead_belowdot> <U21BA> <y>                             : "ʎ̣"   # ʎ + Dot Below
 <dead_belowdot> <U021C>                                 : "Ȝ̣"   # Ȝ (Yogh) + Dot Below

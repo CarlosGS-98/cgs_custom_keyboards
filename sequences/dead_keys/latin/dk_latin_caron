@@ -150,7 +150,7 @@
 <dead_caron> <U1DFB> <U21BA> <F>                    : "ꟻ̌"
 <dead_caron> <U1DFB> <U21BA> <f>                    : "ꟻ̌"
 <dead_caron> <UAB35>                                : "ꬵ̌"   # ꬵ (Lenis F) + Caron
-<dead_caron> <U1DFB> <minus> <f>                    : "ꬵ̌"
+<dead_caron> <U1DFB> <minus> <F>                    : "ꬵ̌"
 <dead_caron> <U1DFB> <minus> <f>                    : "ꬵ̌"
 <dead_caron> <UA7AC>                                : "Ɡ̌"   # Ɡ (Single-storey G) + Caron
 <dead_caron> <U0261>                                : "ɡ̌"   # ɡ (Single-storey G) + Caron
@@ -177,7 +177,7 @@
 <dead_caron> <U1DFB> <minus> <G>                    : "Ꟑ̌"
 <dead_caron> <U1DFB> <minus> <g>                    : "ꟑ̌"
 <dead_caron> <U1DF01>                               : "𝼁̌"   # 𝼁 (Reversed G) + Caron
-<dead_caron> <U1DFB> <U21BA> <g>                    : "𝼁̌"
+<dead_caron> <U1DFB> <U21BA> <G>                    : "𝼁̌"
 <dead_caron> <U1DFB> <U21BA> <g>                    : "𝼁̌"
 <dead_caron> <U0196>                                : "Ɩ̌"   # Ɩ (Latin Iota) + Caron
 <dead_caron> <U0269>                                : "ɩ̌"   # ɩ (Latin Iota) + Caron
@@ -217,7 +217,7 @@
 <dead_caron> <U1DFB> <slash> <L>                    : "ꝲ̌"
 <dead_caron> <U1DFB> <slash> <l>                    : "ꝲ̌"
 <dead_caron> <U2143>                                : "⅃̌"   # ⅃ (Roman Epigraphic L) + Caron
-<dead_caron> <U1DFB> <U21BA> <l>                    : "⅃̌"
+<dead_caron> <U1DFB> <U21BA> <L>                    : "⅃̌"
 <dead_caron> <U1DFB> <U21BA> <l>                    : "⅃̌"
 <dead_caron> <M>                                    : "M̌"
 <dead_caron> <m>                                    : "m̌"
@@ -272,7 +272,7 @@
 <dead_caron> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̌"
 <dead_caron> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̌"
 <dead_caron> <UA7FC>                                : "ꟼ̌"   # ꟼ (Roman Epigraphic P) + Caron
-<dead_caron> <U1DFB> <U21BA> <p>                    : "ꟼ̌"
+<dead_caron> <U1DFB> <U21BA> <P>                    : "ꟼ̌"
 <dead_caron> <U1DFB> <U21BA> <p>                    : "ꟼ̌"
 <dead_caron> <UA752>                                : "Ꝓ̌"   # Ꝓ + Caron
 <dead_caron> <UA753>                                : "ꝓ̌"   # ꝓ + Caron
@@ -412,8 +412,8 @@
 <dead_caron> <x>                                    : "x̌"
 <dead_caron> <Y>                                    : "Y̌"
 <dead_caron> <y>                                    : "y̌"
-<dead_caron> <U21BA> <Y>                            : "⅄̌"   # ⅄ + Caron
-<dead_caron> <U21BA> <y>                            : "ʎ̌"   # ʎ + Caron
+<dead_caron> <U2144>                                : "⅄̌"   # ⅄ + Caron
+<dead_caron> <U028E>                                : "ʎ̌"   # ʎ + Caron
 <dead_caron> <U21BA> <Y>                            : "⅄̌"   # ⅄ + Caron
 <dead_caron> <U21BA> <y>                            : "ʎ̌"   # ʎ + Caron
 <dead_caron> <U021C>                                : "Ȝ̌"   # Ȝ (Yogh) + Caron

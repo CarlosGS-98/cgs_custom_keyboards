@@ -140,7 +140,7 @@
 <dead_belowcircumflex> <U1DFB> <U21BA> <F>                  : "ꟻ̭"
 <dead_belowcircumflex> <U1DFB> <U21BA> <f>                  : "ꟻ̭"
 <dead_belowcircumflex> <UAB35>                              : "ꬵ̭"   # ꬵ (Lenis F) + Circumflex Below
-<dead_belowcircumflex> <U1DFB> <minus> <f>                  : "ꬵ̭"
+<dead_belowcircumflex> <U1DFB> <minus> <F>                  : "ꬵ̭"
 <dead_belowcircumflex> <U1DFB> <minus> <f>                  : "ꬵ̭"
 <dead_belowcircumflex> <G>                                  : "G̭"
 <dead_belowcircumflex> <g>                                  : "g̭"
@@ -169,7 +169,7 @@
 <dead_belowcircumflex> <U1DFB> <minus> <G>                  : "Ꟑ̭"
 <dead_belowcircumflex> <U1DFB> <minus> <g>                  : "ꟑ̭"
 <dead_belowcircumflex> <U1DF01>                             : "𝼁̭"   # 𝼁 (Reversed G) + Circumflex Below
-<dead_belowcircumflex> <U1DFB> <U21BA> <g>                  : "𝼁̭"
+<dead_belowcircumflex> <U1DFB> <U21BA> <G>                  : "𝼁̭"
 <dead_belowcircumflex> <U1DFB> <U21BA> <g>                  : "𝼁̭"
 <dead_belowcircumflex> <H>                                  : "H̭"
 <dead_belowcircumflex> <h>                                  : "h̭"
@@ -220,7 +220,7 @@
 <dead_belowcircumflex> <U1DFB> <slash> <L>                  : "ꝲ̭"
 <dead_belowcircumflex> <U1DFB> <slash> <l>                  : "ꝲ̭"
 <dead_belowcircumflex> <U2143>                              : "⅃̭"   # ⅃ (Roman Epigraphic L) + Circumflex Below
-<dead_belowcircumflex> <U1DFB> <U21BA> <l>                  : "⅃̭"
+<dead_belowcircumflex> <U1DFB> <U21BA> <L>                  : "⅃̭"
 <dead_belowcircumflex> <U1DFB> <U21BA> <l>                  : "⅃̭"
 <dead_belowcircumflex> <M>                                  : "M̭"
 <dead_belowcircumflex> <m>                                  : "m̭"
@@ -281,7 +281,7 @@
 <dead_belowcircumflex> <U1DFB> <periodcentered> <P> <S>     : "Ꜿ̭"
 <dead_belowcircumflex> <U1DFB> <periodcentered> <p> <s>     : "ꜿ̭"
 <dead_belowcircumflex> <UA7FC>                              : "ꟼ̭"   # ꟼ (Roman Epigraphic P) + Circumflex Below
-<dead_belowcircumflex> <U1DFB> <U21BA> <p>                  : "ꟼ̭"
+<dead_belowcircumflex> <U1DFB> <U21BA> <P>                  : "ꟼ̭"
 <dead_belowcircumflex> <U1DFB> <U21BA> <p>                  : "ꟼ̭"
 <dead_belowcircumflex> <UA752>                              : "Ꝓ̭"   # Ꝓ + Circumflex Below
 <dead_belowcircumflex> <UA753>                              : "ꝓ̭"   # ꝓ + Circumflex Below
@@ -425,8 +425,8 @@
 <dead_belowcircumflex> <x>                                  : "x̭"
 <dead_belowcircumflex> <Y>                                  : "Y̭"
 <dead_belowcircumflex> <y>                                  : "y̭"
-<dead_belowcircumflex> <U21BA> <Y>                          : "⅄̭"   # ⅄ + Circumflex Below
-<dead_belowcircumflex> <U21BA> <y>                          : "ʎ̭"   # ʎ + Circumflex Below
+<dead_belowcircumflex> <U2144>                              : "⅄̭"   # ⅄ + Circumflex Below
+<dead_belowcircumflex> <U028E>                              : "ʎ̭"   # ʎ + Circumflex Below
 <dead_belowcircumflex> <U21BA> <Y>                          : "⅄̭"   # ⅄ + Circumflex Below
 <dead_belowcircumflex> <U21BA> <y>                          : "ʎ̭"   # ʎ + Circumflex Below
 <dead_belowcircumflex> <U021C>                              : "Ȝ̭"   # Ȝ (Yogh) + Circumflex Below

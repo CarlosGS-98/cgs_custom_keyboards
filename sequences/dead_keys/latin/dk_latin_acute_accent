@@ -28,8 +28,6 @@
 <dead_acute> <n>        : "ń"
 <dead_acute> <O>        : "Ó"
 <dead_acute> <o>        : "ó"
-<dead_acute> <Oslash>   : "Ǿ"
-<dead_acute> <oslash>   : "ǿ"
 <dead_acute> <P>        : "Ṕ"
 <dead_acute> <p>        : "ṕ"
 <dead_acute> <R>        : "Ŕ"
@@ -55,10 +53,6 @@
 <dead_acute> <acircumflex>          : "ấ"
 <dead_acute> <dead_circumflex> <A>  : "Ấ"
 <dead_acute> <dead_circumflex> <a>  : "ấ"
-<dead_acute> <Aring>                : "Ǻ"
-<dead_acute> <aring>                : "ǻ"
-<dead_acute> <dead_abovering> <A>   : "Ǻ"
-<dead_acute> <dead_abovering> <a>   : "ǻ"
 <dead_acute> <Ecircumflex>          : "Ế"
 <dead_acute> <ecircumflex>          : "ế"
 <dead_acute> <dead_circumflex> <E>  : "Ế"
@@ -222,7 +216,7 @@
 <dead_acute> <U1DFB> <U21BA> <F>                    : "ꟻ́"
 <dead_acute> <U1DFB> <U21BA> <f>                    : "ꟻ́"
 <dead_acute> <UAB35>                                : "ꬵ́"   # ꬵ (Lenis F) + Acute
-<dead_acute> <U1DFB> <minus> <f>                    : "ꬵ́"
+<dead_acute> <U1DFB> <minus> <F>                    : "ꬵ́"
 <dead_acute> <U1DFB> <minus> <f>                    : "ꬵ́"
 <dead_acute> <UA7AC>                                : "Ɡ́"   # Ɡ (Single-storey G) + Acute
 <dead_acute> <U0261>                                : "ɡ́"   # ɡ (Single-storey G) + Acute
@@ -249,7 +243,7 @@
 <dead_acute> <U1DFB> <minus> <G>                    : "Ꟑ́"
 <dead_acute> <U1DFB> <minus> <g>                    : "ꟑ́"
 <dead_acute> <U1DF01>                               : "𝼁́"   # 𝼁 (Reversed G) + Acute
-<dead_acute> <U1DFB> <U21BA> <g>                    : "𝼁́"
+<dead_acute> <U1DFB> <U21BA> <G>                    : "𝼁́"
 <dead_acute> <U1DFB> <U21BA> <g>                    : "𝼁́"
 <dead_acute> <H>                                    : "H́"
 <dead_acute> <h>                                    : "h́"
@@ -294,7 +288,7 @@
 <dead_acute> <U1DFB> <slash> <L>                    : "ꝲ́"
 <dead_acute> <U1DFB> <slash> <l>                    : "ꝲ́"
 <dead_acute> <U2143>                                : "⅃́"   # ⅃ (Roman Epigraphic L) + Acute
-<dead_acute> <U1DFB> <U21BA> <l>                    : "⅃́"
+<dead_acute> <U1DFB> <U21BA> <L>                    : "⅃́"
 <dead_acute> <U1DFB> <U21BA> <l>                    : "⅃́"
 <dead_acute> <U0270>                                : "ɰ́"   # ɰ (Voiced velar approximant) + Acute
 <dead_acute> <U035A> <M>                            : "ɰ́"   # ɰ (Voiced velar approximant) + Acute
@@ -353,7 +347,7 @@
 <dead_acute> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ́"
 <dead_acute> <U1DFB> <periodcentered> <p> <s>       : "ꜿ́"
 <dead_acute> <UA7FC>                                : "ꟼ́"   # ꟼ (Roman Epigraphic P) + Acute
-<dead_acute> <U1DFB> <U21BA> <p>                    : "ꟼ́"
+<dead_acute> <U1DFB> <U21BA> <P>                    : "ꟼ́"
 <dead_acute> <U1DFB> <U21BA> <p>                    : "ꟼ́"
 <dead_acute> <UA752>                                : "Ꝓ́"   # Ꝓ + Acute
 <dead_acute> <UA753>                                : "ꝓ́"   # ꝓ + Acute
@@ -485,8 +479,8 @@
 <dead_acute> <U1DCF> <v> <Z>                        : "ꟃ́"
 <dead_acute> <X>                                    : "X́"
 <dead_acute> <x>                                    : "x́"
-<dead_acute> <U21BA> <Y>                            : "⅄́"   # ⅄ + Acute
-<dead_acute> <U21BA> <y>                            : "ʎ́"   # ʎ + Acute
+<dead_acute> <U2144>                                : "⅄́"   # ⅄ + Acute
+<dead_acute> <U028E>                                : "ʎ́"   # ʎ + Acute
 <dead_acute> <U21BA> <Y>                            : "⅄́"   # ⅄ + Acute
 <dead_acute> <U21BA> <y>                            : "ʎ́"   # ʎ + Acute
 <dead_acute> <U021C>                                : "Ȝ́"   # Ȝ (Yogh) + Acute

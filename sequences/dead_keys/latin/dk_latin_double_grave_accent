@@ -140,7 +140,7 @@
 <dead_doublegrave> <U1DFB> <U21BA> <F>                  : "ꟻ̏"
 <dead_doublegrave> <U1DFB> <U21BA> <f>                  : "ꟻ̏"
 <dead_doublegrave> <UAB35>                              : "ꬵ̏"   # ꬵ (Lenis F) + Double Grave
-<dead_doublegrave> <U1DFB> <minus> <f>                  : "ꬵ̏"
+<dead_doublegrave> <U1DFB> <minus> <F>                  : "ꬵ̏"
 <dead_doublegrave> <U1DFB> <minus> <f>                  : "ꬵ̏"
 <dead_doublegrave> <G>                                  : "G̏"
 <dead_doublegrave> <g>                                  : "g̏"
@@ -169,7 +169,7 @@
 <dead_doublegrave> <U1DFB> <minus> <G>                  : "Ꟑ̏"
 <dead_doublegrave> <U1DFB> <minus> <g>                  : "ꟑ̏"
 <dead_doublegrave> <U1DF01>                             : "𝼁̏"   # 𝼁 (Reversed G) + Double Grave
-<dead_doublegrave> <U1DFB> <U21BA> <g>                  : "𝼁̏"
+<dead_doublegrave> <U1DFB> <U21BA> <G>                  : "𝼁̏"
 <dead_doublegrave> <U1DFB> <U21BA> <g>                  : "𝼁̏"
 <dead_doublegrave> <H>                                  : "H̏"
 <dead_doublegrave> <h>                                  : "h̏"
@@ -220,7 +220,7 @@
 <dead_doublegrave> <U1DFB> <slash> <L>                  : "ꝲ̏"
 <dead_doublegrave> <U1DFB> <slash> <l>                  : "ꝲ̏"
 <dead_doublegrave> <U2143>                              : "⅃̏"   # ⅃ (Roman Epigraphic L) + Double Grave
-<dead_doublegrave> <U1DFB> <U21BA> <l>                  : "⅃̏"
+<dead_doublegrave> <U1DFB> <U21BA> <L>                  : "⅃̏"
 <dead_doublegrave> <U1DFB> <U21BA> <l>                  : "⅃̏"
 <dead_doublegrave> <M>                                  : "M̏"
 <dead_doublegrave> <m>                                  : "m̏"
@@ -281,7 +281,7 @@
 <dead_doublegrave> <U1DFB> <periodcentered> <P> <S>     : "Ꜿ̏"
 <dead_doublegrave> <U1DFB> <periodcentered> <p> <s>     : "ꜿ̏"
 <dead_doublegrave> <UA7FC>                              : "ꟼ̏"   # ꟼ (Roman Epigraphic P) + Double Grave
-<dead_doublegrave> <U1DFB> <U21BA> <p>                  : "ꟼ̏"
+<dead_doublegrave> <U1DFB> <U21BA> <P>                  : "ꟼ̏"
 <dead_doublegrave> <U1DFB> <U21BA> <p>                  : "ꟼ̏"
 <dead_doublegrave> <UA752>                              : "Ꝓ̏"   # Ꝓ + Double Grave
 <dead_doublegrave> <UA753>                              : "ꝓ̏"   # ꝓ + Double Grave
@@ -427,8 +427,8 @@
 <dead_doublegrave> <x>                                  : "x̏"
 <dead_doublegrave> <Y>                                  : "Y̏"
 <dead_doublegrave> <y>                                  : "y̏"
-<dead_doublegrave> <U21BA> <Y>                          : "⅄̏"   # ⅄ + Double Grave
-<dead_doublegrave> <U21BA> <y>                          : "ʎ̏"   # ʎ + Double Grave
+<dead_doublegrave> <U2144>                              : "⅄̏"   # ⅄ + Double Grave
+<dead_doublegrave> <U028E>                              : "ʎ̏"   # ʎ + Double Grave
 <dead_doublegrave> <U21BA> <Y>                          : "⅄̏"   # ⅄ + Double Grave
 <dead_doublegrave> <U21BA> <y>                          : "ʎ̏"   # ʎ + Double Grave
 <dead_doublegrave> <U021C>                              : "Ȝ̏"   # Ȝ (Yogh) + Double Grave

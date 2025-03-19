@@ -179,7 +179,7 @@
 <dead_horn> <U1DFB> <U21BA> <F>                     : "ꟻ̛"
 <dead_horn> <U1DFB> <U21BA> <f>                     : "ꟻ̛"
 <dead_horn> <UAB35>                                 : "ꬵ̛"   # ꬵ (Lenis F) + Horn
-<dead_horn> <U1DFB> <minus> <f>                     : "ꬵ̛"
+<dead_horn> <U1DFB> <minus> <F>                     : "ꬵ̛"
 <dead_horn> <U1DFB> <minus> <f>                     : "ꬵ̛"
 <dead_horn> <G>                                     : "G̛"
 <dead_horn> <g>                                     : "g̛"
@@ -208,7 +208,7 @@
 <dead_horn> <U1DFB> <minus> <G>                     : "Ꟑ̛"
 <dead_horn> <U1DFB> <minus> <g>                     : "ꟑ̛"
 <dead_horn> <U1DF01>                                : "𝼁̛"   # 𝼁 (Reversed G) + Horn
-<dead_horn> <U1DFB> <U21BA> <g>                     : "𝼁̛"
+<dead_horn> <U1DFB> <U21BA> <G>                     : "𝼁̛"
 <dead_horn> <U1DFB> <U21BA> <g>                     : "𝼁̛"
 <dead_horn> <H>                                     : "H̛"
 <dead_horn> <h>                                     : "h̛"
@@ -261,7 +261,7 @@
 <dead_horn> <U1DFB> <slash> <L>                     : "ꝲ̛"
 <dead_horn> <U1DFB> <slash> <l>                     : "ꝲ̛"
 <dead_horn> <U2143>                                 : "⅃̛"   # ⅃ (Roman Epigraphic L) + Horn
-<dead_horn> <U1DFB> <U21BA> <l>                     : "⅃̛"
+<dead_horn> <U1DFB> <U21BA> <L>                     : "⅃̛"
 <dead_horn> <U1DFB> <U21BA> <l>                     : "⅃̛"
 <dead_horn> <M>                                     : "M̛"
 <dead_horn> <m>                                     : "m̛"
@@ -322,7 +322,7 @@
 <dead_horn> <U1DFB> <periodcentered> <P> <S>        : "Ꜿ̛"
 <dead_horn> <U1DFB> <periodcentered> <p> <s>        : "ꜿ̛"
 <dead_horn> <UA7FC>                                 : "ꟼ̛"   # ꟼ (Roman Epigraphic P) + Horn
-<dead_horn> <U1DFB> <U21BA> <p>                     : "ꟼ̛"
+<dead_horn> <U1DFB> <U21BA> <P>                     : "ꟼ̛"
 <dead_horn> <U1DFB> <U21BA> <p>                     : "ꟼ̛"
 <dead_horn> <UA752>                                 : "Ꝓ̛"   # Ꝓ + Horn
 <dead_horn> <UA753>                                 : "ꝓ̛"   # ꝓ + Horn
@@ -466,8 +466,8 @@
 <dead_horn> <x>                                     : "x̛"
 <dead_horn> <Y>                                     : "Y̛"
 <dead_horn> <y>                                     : "y̛"
-<dead_horn> <U21BA> <Y>                             : "⅄̛"   # ⅄ + Horn
-<dead_horn> <U21BA> <y>                             : "ʎ̛"   # ʎ + Horn
+<dead_horn> <U2144>                                 : "⅄̛"   # ⅄ + Horn
+<dead_horn> <U028E>                                 : "ʎ̛"   # ʎ + Horn
 <dead_horn> <U21BA> <Y>                             : "⅄̛"   # ⅄ + Horn
 <dead_horn> <U21BA> <y>                             : "ʎ̛"   # ʎ + Horn
 <dead_horn> <U021C>                                 : "Ȝ̛"   # Ȝ (Yogh) + Horn

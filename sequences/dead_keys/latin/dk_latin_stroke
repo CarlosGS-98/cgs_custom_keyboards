@@ -208,7 +208,7 @@
 <dead_stroke> <U1DFB> <U21BA> <F>                   : "ꟻ̵"
 <dead_stroke> <U1DFB> <U21BA> <f>                   : "ꟻ̵"
 <dead_stroke> <UAB35>                               : "ꬵ̵"   # ꬵ (Lenis F) + Stroke
-<dead_stroke> <U1DFB> <minus> <f>                   : "ꬵ̵"
+<dead_stroke> <U1DFB> <minus> <F>                   : "ꬵ̵"
 <dead_stroke> <U1DFB> <minus> <f>                   : "ꬵ̵"
 <dead_stroke> <UA7AC>                               : "Ɡ̵"   # Ɡ (Single-storey G) + Stroke
 <dead_stroke> <U0261>                               : "ɡ̵"   # ɡ (Single-storey G) + Stroke
@@ -235,7 +235,7 @@
 <dead_stroke> <U1DFB> <minus> <G>                   : "Ꟑ̵"
 <dead_stroke> <U1DFB> <minus> <g>                   : "ꟑ̵"
 <dead_stroke> <U1DF01>                              : "𝼁̵"   # 𝼁 (Reversed G) + Stroke
-<dead_stroke> <U1DFB> <U21BA> <g>                   : "𝼁̵"
+<dead_stroke> <U1DFB> <U21BA> <G>                   : "𝼁̵"
 <dead_stroke> <U1DFB> <U21BA> <g>                   : "𝼁̵"
 <dead_stroke> <UA78D>                               : "Ɥ̵"   # Ɥ (Turned H) + Stroke
 <dead_stroke> <U0265>                               : "ɥ̵"   # ɥ (Turned H) + Stroke
@@ -274,7 +274,7 @@
 <dead_stroke> <U1DFB> <slash> <L>                   : "ꝲ̵"
 <dead_stroke> <U1DFB> <slash> <l>                   : "ꝲ̵"
 <dead_stroke> <U2143>                               : "⅃̵"   # ⅃ (Roman Epigraphic L) + Stroke
-<dead_stroke> <U1DFB> <U21BA> <l>                   : "⅃̵"
+<dead_stroke> <U1DFB> <U21BA> <L>                   : "⅃̵"
 <dead_stroke> <U1DFB> <U21BA> <l>                   : "⅃̵"
 <dead_stroke> <M>                                   : "M̵"
 <dead_stroke> <m>                                   : "m̵"
@@ -333,7 +333,7 @@
 <dead_stroke> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̵"
 <dead_stroke> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̵"
 <dead_stroke> <UA7FC>                               : "ꟼ̵"   # ꟼ (Roman Epigraphic P) + Stroke
-<dead_stroke> <U1DFB> <U21BA> <p>                   : "ꟼ̵"
+<dead_stroke> <U1DFB> <U21BA> <P>                   : "ꟼ̵"
 <dead_stroke> <U1DFB> <U21BA> <p>                   : "ꟼ̵"
 <dead_stroke> <UA752>                               : "Ꝓ̵"   # Ꝓ + Stroke
 <dead_stroke> <UA753>                               : "ꝓ̵"   # ꝓ + Stroke
@@ -462,8 +462,8 @@
 <dead_stroke> <U1DCF> <v> <Z>                       : "ꟃ̵"
 <dead_stroke> <X>                                   : "X̵"
 <dead_stroke> <x>                                   : "x̵"
-<dead_stroke> <U21BA> <Y>                           : "⅄̵"   # ⅄ + Stroke
-<dead_stroke> <U21BA> <y>                           : "ʎ̵"   # ʎ + Stroke
+<dead_stroke> <U2144>                               : "⅄̵"   # ⅄ + Stroke
+<dead_stroke> <U028E>                               : "ʎ̵"   # ʎ + Stroke
 <dead_stroke> <U21BA> <Y>                           : "⅄̵"   # ⅄ + Stroke
 <dead_stroke> <U21BA> <y>                           : "ʎ̵"   # ʎ + Stroke
 <dead_stroke> <U021C>                               : "Ȝ̵"   # Ȝ (Yogh) + Stroke

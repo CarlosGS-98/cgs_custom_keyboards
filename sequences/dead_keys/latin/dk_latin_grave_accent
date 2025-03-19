@@ -186,7 +186,7 @@
 <dead_grave> <U1DFB> <U21BA> <F>                    : "ꟻ̀"
 <dead_grave> <U1DFB> <U21BA> <f>                    : "ꟻ̀"
 <dead_grave> <UAB35>                                : "ꬵ̀"   # ꬵ (Lenis F) + Grave
-<dead_grave> <U1DFB> <minus> <f>                    : "ꬵ̀"
+<dead_grave> <U1DFB> <minus> <F>                    : "ꬵ̀"
 <dead_grave> <U1DFB> <minus> <f>                    : "ꬵ̀"
 <dead_grave> <G>                                    : "G̀"
 <dead_grave> <g>                                    : "g̀"
@@ -215,7 +215,7 @@
 <dead_grave> <U1DFB> <minus> <G>                    : "Ꟑ̀"
 <dead_grave> <U1DFB> <minus> <g>                    : "ꟑ̀"
 <dead_grave> <U1DF01>                               : "𝼁̀"   # 𝼁 (Reversed G) + Grave
-<dead_grave> <U1DFB> <U21BA> <g>                    : "𝼁̀"
+<dead_grave> <U1DFB> <U21BA> <G>                    : "𝼁̀"
 <dead_grave> <U1DFB> <U21BA> <g>                    : "𝼁̀"
 <dead_grave> <H>                                    : "h̀"
 <dead_grave> <h>                                    : "h̀"
@@ -268,7 +268,7 @@
 <dead_grave> <U1DFB> <slash> <L>                    : "ꝲ̀"
 <dead_grave> <U1DFB> <slash> <l>                    : "ꝲ̀"
 <dead_grave> <U2143>                                : "⅃̀"   # ⅃ (Roman Epigraphic L) + Grave
-<dead_grave> <U1DFB> <U21BA> <l>                    : "⅃̀"
+<dead_grave> <U1DFB> <U21BA> <L>                    : "⅃̀"
 <dead_grave> <U1DFB> <U21BA> <l>                    : "⅃̀"
 <dead_grave> <M>                                    : "M̀"
 <dead_grave> <m>                                    : "m̀"
@@ -329,7 +329,7 @@
 <dead_grave> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̀"
 <dead_grave> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̀"
 <dead_grave> <UA7FC>                                : "ꟼ̀"   # ꟼ (Roman Epigraphic P) + Grave
-<dead_grave> <U1DFB> <U21BA> <p>                    : "ꟼ̀"
+<dead_grave> <U1DFB> <U21BA> <P>                    : "ꟼ̀"
 <dead_grave> <U1DFB> <U21BA> <p>                    : "ꟼ̀"
 <dead_grave> <UA752>                                : "Ꝓ̀"   # Ꝓ + Grave
 <dead_grave> <UA753>                                : "ꝓ̀"   # ꝓ + Grave
@@ -473,8 +473,8 @@
 <dead_grave> <U1DCF> <v> <Z>                        : "ꟃ̀"
 <dead_grave> <X>                                    : "X̀"
 <dead_grave> <x>                                    : "x̀"
-<dead_grave> <U21BA> <Y>                            : "⅄̀"   # ⅄ + Grave
-<dead_grave> <U21BA> <y>                            : "ʎ̀"   # ʎ + Grave
+<dead_grave> <U2144>                                : "⅄̀"   # ⅄ + Grave
+<dead_grave> <U028E>                                : "ʎ̀"   # ʎ + Grave
 <dead_grave> <U21BA> <Y>                            : "⅄̀"   # ⅄ + Grave
 <dead_grave> <U21BA> <y>                            : "ʎ̀"   # ʎ + Grave
 <dead_grave> <U021C>                                : "Ȝ̀"   # Ȝ (Yogh) + Grave
@@ -838,8 +838,6 @@
 <dead_grave> <oslash>                                   : "ø̀"
 <dead_grave> <dead_tilde> <Oslash>                      : "Ø̃̀"
 <dead_grave> <dead_tilde> <oslash>                      : "ø̃̀"
-<dead_grave> <dead_tilde> <dead_longsolidusoverlay> <O> : "Ø̃̀"
-<dead_grave> <dead_tilde> <dead_longsolidusoverlay> <o> : "ø̃̀"
 <dead_grave> <dead_tilde> <dead_longsolidusoverlay> <O> : "Ø̃̀"
 <dead_grave> <dead_tilde> <dead_longsolidusoverlay> <o> : "ø̃̀"
 <dead_grave> <dead_longsolidusoverlay> <O>              : "Ø̀"

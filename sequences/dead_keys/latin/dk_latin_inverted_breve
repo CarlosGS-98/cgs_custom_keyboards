@@ -140,7 +140,7 @@
 <dead_invertedbreve> <U1DFB> <U21BA> <F>                    : "ꟻ̑"
 <dead_invertedbreve> <U1DFB> <U21BA> <f>                    : "ꟻ̑"
 <dead_invertedbreve> <UAB35>                                : "ꬵ̑"   # ꬵ (Lenis F) + Inverted Breve
-<dead_invertedbreve> <U1DFB> <minus> <f>                    : "ꬵ̑"
+<dead_invertedbreve> <U1DFB> <minus> <F>                    : "ꬵ̑"
 <dead_invertedbreve> <U1DFB> <minus> <f>                    : "ꬵ̑"
 <dead_invertedbreve> <G>                                    : "G̑"
 <dead_invertedbreve> <g>                                    : "g̑"
@@ -169,7 +169,7 @@
 <dead_invertedbreve> <U1DFB> <minus> <G>                    : "Ꟑ̑"
 <dead_invertedbreve> <U1DFB> <minus> <g>                    : "ꟑ̑"
 <dead_invertedbreve> <U1DF01>                               : "𝼁̑"   # 𝼁 (Reversed G) + Inverted Breve
-<dead_invertedbreve> <U1DFB> <U21BA> <g>                    : "𝼁̑"
+<dead_invertedbreve> <U1DFB> <U21BA> <G>                    : "𝼁̑"
 <dead_invertedbreve> <U1DFB> <U21BA> <g>                    : "𝼁̑"
 <dead_invertedbreve> <H>                                    : "H̑"
 <dead_invertedbreve> <h>                                    : "h̑"
@@ -222,7 +222,7 @@
 <dead_invertedbreve> <U1DFB> <slash> <L>                    : "ꝲ̑"
 <dead_invertedbreve> <U1DFB> <slash> <l>                    : "ꝲ̑"
 <dead_invertedbreve> <U2143>                                : "⅃̑"   # ⅃ (Roman Epigraphic L) + Inverted Breve
-<dead_invertedbreve> <U1DFB> <U21BA> <l>                    : "⅃̑"
+<dead_invertedbreve> <U1DFB> <U21BA> <L>                    : "⅃̑"
 <dead_invertedbreve> <U1DFB> <U21BA> <l>                    : "⅃̑"
 <dead_invertedbreve> <M>                                    : "M̑"
 <dead_invertedbreve> <m>                                    : "m̑"
@@ -283,7 +283,7 @@
 <dead_invertedbreve> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̑"
 <dead_invertedbreve> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̑"
 <dead_invertedbreve> <UA7FC>                                : "ꟼ̑"   # ꟼ (Roman Epigraphic P) + Inverted Breve
-<dead_invertedbreve> <U1DFB> <U21BA> <p>                    : "ꟼ̑"
+<dead_invertedbreve> <U1DFB> <U21BA> <P>                    : "ꟼ̑"
 <dead_invertedbreve> <U1DFB> <U21BA> <p>                    : "ꟼ̑"
 <dead_invertedbreve> <UA752>                                : "Ꝓ̑"   # Ꝓ + Inverted Breve
 <dead_invertedbreve> <UA753>                                : "ꝓ̑"   # ꝓ + Inverted Breve
@@ -429,8 +429,8 @@
 <dead_invertedbreve> <x>                                    : "x̑"
 <dead_invertedbreve> <Y>                                    : "Y̑"
 <dead_invertedbreve> <y>                                    : "y̑"
-<dead_invertedbreve> <U21BA> <Y>                            : "⅄̑"   # ⅄ + Inverted Breve
-<dead_invertedbreve> <U21BA> <y>                            : "ʎ̑"   # ʎ + Inverted Breve
+<dead_invertedbreve> <U2144>                                : "⅄̑"   # ⅄ + Inverted Breve
+<dead_invertedbreve> <U028E>                                : "ʎ̑"   # ʎ + Inverted Breve
 <dead_invertedbreve> <U21BA> <Y>                            : "⅄̑"   # ⅄ + Inverted Breve
 <dead_invertedbreve> <U21BA> <y>                            : "ʎ̑"   # ʎ + Inverted Breve
 <dead_invertedbreve> <U021C>                                : "Ȝ̑"   # Ȝ (Yogh) + Inverted Breve

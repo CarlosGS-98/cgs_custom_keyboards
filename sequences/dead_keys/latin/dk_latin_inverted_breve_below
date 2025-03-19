@@ -133,7 +133,7 @@
 <U032F> <U1DFB> <U21BA> <F>                     : "ꟻ̯"
 <U032F> <U1DFB> <U21BA> <f>                     : "ꟻ̯"
 <U032F> <UAB35>                                 : "ꬵ̯"   # ꬵ (Lenis F) + Inverted Breve Below
-<U032F> <U1DFB> <minus> <f>                     : "ꬵ̯"
+<U032F> <U1DFB> <minus> <F>                     : "ꬵ̯"
 <U032F> <U1DFB> <minus> <f>                     : "ꬵ̯"
 <U032F> <G>                                     : "G̯"
 <U032F> <g>                                     : "g̯"
@@ -162,7 +162,7 @@
 <U032F> <U1DFB> <minus> <G>                     : "Ꟑ̯"
 <U032F> <U1DFB> <minus> <g>                     : "ꟑ̯"
 <U032F> <U1DF01>                                : "𝼁̯"   # 𝼁 (Reversed G) + Inverted Breve Below
-<U032F> <U1DFB> <U21BA> <g>                     : "𝼁̯"
+<U032F> <U1DFB> <U21BA> <G>                     : "𝼁̯"
 <U032F> <U1DFB> <U21BA> <g>                     : "𝼁̯"
 <U032F> <H>                                     : "H̯"
 <U032F> <h>                                     : "h̯"
@@ -217,7 +217,7 @@
 <U032F> <U1DFB> <slash> <L>                     : "ꝲ̯"
 <U032F> <U1DFB> <slash> <l>                     : "ꝲ̯"
 <U032F> <U2143>                                 : "⅃̯"   # ⅃ (Roman Epigraphic L) + Inverted Breve Below
-<U032F> <U1DFB> <U21BA> <l>                     : "⅃̯"
+<U032F> <U1DFB> <U21BA> <L>                     : "⅃̯"
 <U032F> <U1DFB> <U21BA> <l>                     : "⅃̯"
 <U032F> <M>                                     : "M̯"
 <U032F> <m>                                     : "m̯"
@@ -280,7 +280,7 @@
 <U032F> <U1DFB> <periodcentered> <P> <S>        : "Ꜿ̯"
 <U032F> <U1DFB> <periodcentered> <p> <s>        : "ꜿ̯"
 <U032F> <UA7FC>                                 : "ꟼ̯"   # ꟼ (Roman Epigraphic P) + Inverted Breve Below
-<U032F> <U1DFB> <U21BA> <p>                     : "ꟼ̯"
+<U032F> <U1DFB> <U21BA> <P>                     : "ꟼ̯"
 <U032F> <U1DFB> <U21BA> <p>                     : "ꟼ̯"
 <U032F> <UA752>                                 : "Ꝓ̯"   # Ꝓ + Inverted Breve Below
 <U032F> <UA753>                                 : "ꝓ̯"   # ꝓ + Inverted Breve Below
@@ -430,8 +430,8 @@
 <U032F> <x>                                     : "x̯"
 <U032F> <Y>                                     : "Y̯"
 <U032F> <y>                                     : "y̯"
-<U032F> <U21BA> <Y>                             : "⅄̯"   # ⅄ + Inverted Breve Below
-<U032F> <U21BA> <y>                             : "ʎ̯"   # ʎ + Inverted Breve Below
+<U032F> <U2144>                                 : "⅄̯"   # ⅄ + Inverted Breve Below
+<U032F> <U028E>                                 : "ʎ̯"   # ʎ + Inverted Breve Below
 <U032F> <U21BA> <Y>                             : "⅄̯"   # ⅄ + Inverted Breve Below
 <U032F> <U21BA> <y>                             : "ʎ̯"   # ʎ + Inverted Breve Below
 <U032F> <U021C>                                 : "Ȝ̯"   # Ȝ (Yogh) + Inverted Breve Below
