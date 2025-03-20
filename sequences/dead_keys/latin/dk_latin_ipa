@@ -17,6 +17,8 @@
 <U035A> <e>                             : "ə"   # Schwa
 <U035A> <minus> <E>                     : "ɘ"   # Close-mid central unrounded vowel
 <U035A> <minus> <e>                     : "ɘ"   # Close-mid central unrounded vowel
+<U035A> <G>                             : "Ɡ"   # Single-storey G
+<U035A> <g>                             : "ɡ"   # Single-storey G
 <U035A> <H>                             : "ɧ"   # SJ-Sound
 <U035A> <h>                             : "ɧ"   # SJ-Sound
 <U035A> <I>                             : "Ɪ"   # Near-close near-front unrounded vowel
@@ -33,6 +35,8 @@
 <U035A> <oslash>                        : "ɤ"   # Ram's Horn
 <U035A> <R>                             : "ɻ"   # Voiced retroflex approximant
 <U035A> <r>                             : "ɹ"   # Voiced alveolar approximant
+<U035A> <minus> <R>                     : "ꭅ"   # Teuthonista [ɾ]
+<U035A> <minus> <r>                     : "ꭅ"   # Teuthonista [ɾ]
 <U035A> <underscore> <R>                : "ɾ"   # Voiced alveolar flap
 <U035A> <underscore> <r>                : "ɾ"   # Voiced alveolar flap
 <U035A> <S>                             : "Ʃ"   # Esh

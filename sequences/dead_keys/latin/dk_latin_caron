@@ -79,6 +79,31 @@
 <dead_caron> <UA7B5>                                : "ꞵ̌"   # ꞵ (Latin Beta) + Caron
 <dead_caron> <dead_greek> <dead_circumflex> <B>     : "Ꞵ̌"   # Ꞵ (Latin Beta) + Caron
 <dead_caron> <dead_greek> <dead_circumflex> <b>     : "ꞵ̌"   # ꞵ (Latin Beta) + Caron
+<dead_caron> <UA796>                                : "Ꞗ̌"   # Ꞗ (Middle Vietnamese B) + Caron
+<dead_caron> <UA797>                                : "ꞗ̌"   # ꞗ (Middle Vietnamese B) + Caron
+<dead_caron> <U1DFB> <B>                            : "Ꞗ̌"
+<dead_caron> <U1DFB> <b>                            : "ꞗ̌"
+<dead_caron> <UA76E>                                : "Ꝯ̌"   # Ꝯ (Con/Us) + Caron
+<dead_caron> <UA76F>                                : "ꝯ̌"   # ꝯ (Con/Us) + Caron
+<dead_caron> <U1DFB> <C> <O> <N>                    : "Ꝯ̌"
+<dead_caron> <U1DFB> <c> <o> <n>                    : "ꝯ̌"
+<dead_caron> <U1DFB> <U> <S>                        : "Ꝯ̌"
+<dead_caron> <U1DFB> <u> <s>                        : "ꝯ̌"
+<dead_caron> <ETH>                                  : "Ð̌"
+<dead_caron> <eth>                                  : "ð̌"
+<dead_caron> <U1E9F>                                : "ẟ̌"   # ẟ (Latin Delta) + Caron
+<dead_caron> <dead_greek> <dead_circumflex> <D>     : "ẟ̌"
+<dead_caron> <dead_greek> <dead_circumflex> <d>     : "ẟ̌"
+<dead_caron> <U018D>                                : "ƍ̌"   # ƍ (Turned Latin Delta) + Caron
+<dead_caron> <dead_greek> <dead_circumflex> <ETH>   : "ƍ̌"
+<dead_caron> <dead_greek> <dead_circumflex> <eth>   : "ƍ̌"
+<dead_caron> <UA779>                                : "Ꝺ̌"   # Ꝺ (Insular D) + Caron
+<dead_caron> <UA77A>                                : "ꝺ̌"   # ꝺ (Insular D) + Caron
+<dead_caron> <U1DFB> <D>                            : "Ꝺ̌"
+<dead_caron> <U1DFB> <d>                            : "ꝺ̌"
+<dead_caron> <UA771>                                : "ꝱ̌"   # ꝱ (Dum) + Caron
+<dead_caron> <U1DFB> <slash> <D>                    : "ꝱ̌"
+<dead_caron> <U1DFB> <slash> <d>                    : "ꝱ̌"
 <dead_caron> <U0190>                                : "Ɛ̌"   # Ɛ (Latin Epsilon) + Caron
 <dead_caron> <U025B>                                : "ɛ̌"   # ɛ (Latin Epsilon) + Caron
 <dead_caron> <dead_greek> <dead_circumflex> <E>     : "Ɛ̌"   # Ɛ (Latin Epsilon) + Caron
@@ -104,41 +129,159 @@
 <dead_caron> <U01DD>                                : "ǝ̂"   # ǝ (Turned E) + Caron
 <dead_caron> <U21BA> <E>                            : "Ǝ̌"   # Ǝ (Turned E) + Caron
 <dead_caron> <U21BA> <e>                            : "ǝ̌"   # ǝ (Turned E) + Caron
+<dead_caron> <UA76A>                                : "Ꝫ̌"   # Ꝫ (Et) + Caron
+<dead_caron> <UA76B>                                : "ꝫ̌"   # ꝫ (Et) + Caron
+<dead_caron> <U1DFB> <ampersand> <E> <T>            : "Ꝫ̌"
+<dead_caron> <U1DFB> <ampersand> <e> <t>            : "ꝫ̌"
+<dead_caron> <U2E52>                                : "⹒̌"   # ⹒ (Tironian Et) + Caron
+<dead_caron> <U204A>                                : "⁊̌"   # ⁊ (Tironian Et) + Caron
+<dead_caron> <U1DFB> <E> <T>                        : "⹒̌"
+<dead_caron> <U1DFB> <e> <t>                        : "⁊̌"
 <dead_caron> <F>                                    : "F̌"
 <dead_caron> <f>                                    : "f̌"
 <dead_caron> <U0278>                                : "ɸ̌"   # ɸ (Latin Phi) + Caron
 <dead_caron> <dead_greek> <dead_circumflex> <F>     : "ɸ̌"   # ɸ (Latin Phi) + Caron
 <dead_caron> <dead_greek> <dead_circumflex> <f>     : "ɸ̌"   # ɸ (Latin Phi) + Caron
+<dead_caron> <UA77B>                                : "Ꝼ̌"   # Ꝼ (Insular F) + Caron
+<dead_caron> <UA77C>                                : "ꝼ̌"   # ꝼ (Insular F) + Caron
+<dead_caron> <U1DFB> <F>                            : "Ꝼ̌"   # Ꝼ (Insular F) + Caron
+<dead_caron> <U1DFB> <f>                            : "ꝼ̌"   # ꝼ (Insular F) + Caron
+<dead_caron> <UA7FB>                                : "ꟻ̌"   # ꟻ (Roman Epigraphic F) + Caron
+<dead_caron> <U1DFB> <U21BA> <F>                    : "ꟻ̌"
+<dead_caron> <U1DFB> <U21BA> <f>                    : "ꟻ̌"
+<dead_caron> <UAB35>                                : "ꬵ̌"   # ꬵ (Lenis F) + Caron
+<dead_caron> <U1DFB> <minus> <F>                    : "ꬵ̌"
+<dead_caron> <U1DFB> <minus> <f>                    : "ꬵ̌"
+<dead_caron> <UA7AC>                                : "Ɡ̌"   # Ɡ (Single-storey G) + Caron
+<dead_caron> <U0261>                                : "ɡ̌"   # ɡ (Single-storey G) + Caron
+<dead_caron> <U035A> <G>                            : "Ɡ̌"
+<dead_caron> <U035A> <g>                            : "ɡ̌"
 <dead_caron> <U0194>                                : "Ɣ̌"   # Ɣ (Latin Gamma) + Caron
 <dead_caron> <U0263>                                : "ɣ̌"   # ɣ (Latin Gamma) + Caron
 <dead_caron> <dead_greek> <dead_circumflex> <G>     : "Ɣ̌"   # Ɣ (Latin Gamma) + Caron
 <dead_caron> <dead_greek> <dead_circumflex> <g>     : "ɣ̌"   # ɣ (Latin Gamma) + Caron
+<dead_caron> <UA77D>                                : "Ᵹ̌"   # Ᵹ (Insular G) + Caron
+<dead_caron> <U1D79>                                : "ᵹ̌"   # ᵹ (Insular G) + Caron
+<dead_caron> <U1DFB> <G>                            : "Ᵹ̌"
+<dead_caron> <U1DFB> <g>                            : "ᵹ̌"
+<dead_caron> <UA77E>                                : "Ꝿ̌"   # Ꝿ (Turned Insular G) + Caron
+<dead_caron> <UA77F>                                : "ꝿ̌"   # ꝿ (Turned Insular G) + Caron
+<dead_caron> <U1DFB> <01A2>                         : "Ꝿ̌"
+<dead_caron> <U1DFB> <01A3>                         : "ꝿ̌"
+<dead_caron> <U1DFB> <U1DCF> <G> <H>                : "Ꝿ̌"
+<dead_caron> <U1DFB> <U1DCF> <g> <h>                : "ꝿ̌"
+<dead_caron> <U1DFB> <U1DCF> <O> <I>                : "Ꝿ̌"
+<dead_caron> <U1DFB> <U1DCF> <o> <i>                : "ꝿ̌"
+<dead_caron> <UA7D0>                                : "Ꟑ̌"   # Ꟑ (Closed Insular G) + Caron
+<dead_caron> <UA7D1>                                : "ꟑ̌"   # ꟑ (Closed Insular G) + Caron
+<dead_caron> <U1DFB> <minus> <G>                    : "Ꟑ̌"
+<dead_caron> <U1DFB> <minus> <g>                    : "ꟑ̌"
+<dead_caron> <U1DF01>                               : "𝼁̌"   # 𝼁 (Reversed G) + Caron
+<dead_caron> <U1DFB> <U21BA> <G>                    : "𝼁̌"
+<dead_caron> <U1DFB> <U21BA> <g>                    : "𝼁̌"
 <dead_caron> <U0196>                                : "Ɩ̌"   # Ɩ (Latin Iota) + Caron
 <dead_caron> <U0269>                                : "ɩ̌"   # ɩ (Latin Iota) + Caron
+<dead_caron> <UA7AE>                                : "Ɪ̌"   # Ɪ (Near-close near-front unrounded vowel) + Caron
+<dead_caron> <U026A>                                : "ɪ̌"   # ɪ (Near-close near-front unrounded vowel) + Caron
+<dead_caron> <U035A> <I>                            : "Ɪ̌"   # Ɪ (Near-close near-front unrounded vowel) + Caron
+<dead_caron> <U035A> <i>                            : "ɪ̌"   # ɪ (Near-close near-front unrounded vowel) + Caron
+<dead_caron> <UA7FE>                                : "ꟾ̌"   # ꟾ (I Longa) + Caron
+<dead_caron> <UA7F7>                                : "ꟷ̌"   # ꟷ (Sideways I) + Caron
+<dead_caron> <U1DFB> <U21BA> <I>                    : "ꟾ̌"
+<dead_caron> <U1DFB> <U21BA> <i>                    : "ꟷ̌"
+<dead_caron> <UA76C>                                : "Ꝭ̌"   # Ꝭ (Is) + Caron
+<dead_caron> <UA76D>                                : "ꝭ̌"   # ꝭ (Is) + Caron
+<dead_caron> <U1DFB> <I> <S>                        : "Ꝭ̌"
+<dead_caron> <U1DFB> <i> <s>                        : "ꝭ̌"
 <dead_caron> <J>                                    : "J̌"
+<dead_caron> <U025F>                                : "ɟ̌"   # ɟ (Barred Dotless J) + Caron
 <dead_caron> <U035A> <J>                            : "ɟ̌"   # ɟ (Barred Dotless J) + Caron
 <dead_caron> <U035A> <j>                            : "ɟ̌"   # ɟ (Barred Dotless J) + Caron
+<dead_caron> <U0138>                                : "ĸ̌"   # ĸ (Kra) + Caron
+<dead_caron> <U1DFB> <K>                            : "ĸ̌"
+<dead_caron> <U1DFB> <k>                            : "ĸ̌"
+<dead_caron> <U1DF03>                               : "𝼃̌"   # 𝼃 (Reversed K) + Caron
+<dead_caron> <U1DFB> <U21BA> <K>                    : "𝼃̌"
+<dead_caron> <U1DFB> <U21BA> <k>                    : "𝼃̌"
 <dead_caron> <U1DF08>                               : "𝼈̌"   # 𝼈 (Retroflex lateral flap) + Caron
 <dead_caron> <U027A>                                : "ɺ̌"   # ɺ (Lateral flap) + Caron
 <dead_caron> <U035A> <L>                            : "𝼈̌"   # 𝼈 (Retroflex lateral flap) + Caron
 <dead_caron> <U035A> <l>                            : "ɺ̌"   # ɺ (Lateral flap) + Caron
+<dead_caron> <UA7DA>                                : "Ꟛ̴̌"   # Ꟛ (Latin Lambda) + Caron
+<dead_caron> <UA7DB>                                : "ꟛ̴̌"   # ꟛ (Latin Lambda) + Caron
+<dead_caron> <UA746>                                : "Ꝇ̌"   # Ꝇ (Broken L) + Caron
+<dead_caron> <UA747>                                : "ꝇ̌"   # ꝇ (Broken L) + Caron
+<dead_caron> <U1DFB> <L>                            : "Ꝇ̌"
+<dead_caron> <U1DFB> <l>                            : "ꝇ̌"
+<dead_caron> <UA772>                                : "ꝲ̌"   # ꝲ (Lum) + Caron
+<dead_caron> <U1DFB> <slash> <L>                    : "ꝲ̌"
+<dead_caron> <U1DFB> <slash> <l>                    : "ꝲ̌"
+<dead_caron> <U2143>                                : "⅃̌"   # ⅃ (Roman Epigraphic L) + Caron
+<dead_caron> <U1DFB> <U21BA> <L>                    : "⅃̌"
+<dead_caron> <U1DFB> <U21BA> <l>                    : "⅃̌"
 <dead_caron> <M>                                    : "M̌"
 <dead_caron> <m>                                    : "m̌"
 <dead_caron> <U0270>                                : "ɰ̌"   # ɰ (Voiced velar approximant) + Caron
 <dead_caron> <U035A> <M>                            : "ɰ̌"   # ɰ (Voiced velar approximant) + Caron
 <dead_caron> <U035A> <m>                            : "ɰ̌"   # ɰ (Voiced velar approximant) + Caron
+<dead_caron> <UA7FD>                                : "ꟽ̌"   # ꟽ (Roman Epigraphic M) + Caron
+<dead_caron> <U21BA> <M>                            : "ꟽ̌"
+<dead_caron> <U21BA> <m>                            : "ꟽ̌"
+<dead_caron> <UA7FF>                                : "ꟿ̌"  # ꟿ (Manius) + Caron
+<dead_caron> <U1DCF> <M> <W>                        : "ꟿ̌"
+<dead_caron> <U1DCF> <m> <w>                        : "ꟿ̌"
+<dead_caron> <UA773>                                : "ꝳ̌"  # ꝳ (Mum) + Caron
+<dead_caron> <U1DFB> <slash> <M>                    : "ꝳ̌"
+<dead_caron> <U1DFB> <slash> <m>                    : "ꝳ̌"
+<dead_caron> <UA774>                                : "ꝴ̌"   # ꝴ (Num) + Caron
+<dead_caron> <U1DFB> <slash> <N>                    : "ꝴ̌"
+<dead_caron> <U1DFB> <slash> <n>                    : "ꝴ̌"
 <dead_caron> <ENG>                                  : "Ŋ̌"   # Ŋ + Caron
 <dead_caron> <eng>                                  : "ŋ̌"   # ŋ + Caron
+<dead_caron> <U1DF07>                               : "𝼇̌"   # 𝼇 (Reversed Eng) + Caron
+<dead_caron> <U1DFB> <U21BA> <ENG>                  : "𝼇̌"
+<dead_caron> <U1DFB> <U21BA> <eng>                  : "𝼇̌"
 <dead_caron> <OE>                                   : "Œ̌"
 <dead_caron> <oe>                                   : "œ̌"
 <dead_caron> <U1DCF> <O> <E>                        : "Œ̌"
 <dead_caron> <U1DCF> <o> <e>                        : "œ̌"
 <dead_caron> <U0186>                                : "Ɔ̌"   # Ɔ + Caron
 <dead_caron> <U0254>                                : "ɔ̌"   # ɔ + Caron
-<dead_caron> <UA7CB>                                : "Ɤ̂"   # Ɤ (Ram's Horn) + Caron
-<dead_caron> <U0264>                                : "ɤ̂"   # ɤ (Ram's Horn) + Caron
+<dead_caron> <U035A> <O>                            : "Ɔ̌"   # Ɔ + Caron
+<dead_caron> <U035A> <o>                            : "ɔ̌"   # ɔ + Caron
+<dead_caron> <UA7CB>                                : "Ɤ̌"   # Ɤ (Ram's Horn) + Caron
+<dead_caron> <U0264>                                : "ɤ̌"   # ɤ (Ram's Horn) + Caron
+<dead_caron> <U035A> <Oslash>                       : "Ɤ̌"   # Ɤ (Ram's Horn) + Caron
+<dead_caron> <U035A> <oslash>                       : "ɤ̌"   # ɤ (Ram's Horn) + Caron
+<dead_caron> <UA7C0>                                : "Ꟁ̌"   # Ꟁ (Old Polish O) + Caron
+<dead_caron> <UA7C0>                                : "ꟁ̌"   # ꟁ (Old Polish O) + Caron
+<dead_caron> <U1DFB> <Oslash>                       : "Ꟁ̌"
+<dead_caron> <U1DFB> <oslash>                       : "ꟁ̌"
+<dead_caron> <UA74A>                                : "Ꝋ̌"   # Ꝋ + Caron
+<dead_caron> <UA74B>                                : "ꝋ̌"   # ꝋ + Caron
+<dead_caron> <U1DFB> <O>                            : "Ꝋ̌"
+<dead_caron> <U1DFB> <o>                            : "ꝋ̌"
 <dead_caron> <P>                                    : "P̌"
 <dead_caron> <p>                                    : "p̌"
+<dead_caron> <U2183>                                : "Ↄ̌"   # Ↄ (Antisigma) + Caron
+<dead_caron> <U2184>                                : "ↄ̌"   # ↄ (Antisigma) + Caron
+<dead_caron> <UA73E>                                : "Ꜿ̌"   # Ꜿ (Lunate Antisigma) + Caron
+<dead_caron> <UA73F>                                : "ꜿ̌"   # ꜿ (Lunate Antisigma) + Caron
+<dead_caron> <U1DFB> <U2183>                        : "Ꜿ̌"
+<dead_caron> <U1DFB> <U2184>                        : "ꜿ̌"
+<dead_caron> <U1DFB> <periodcentered> <P> <S>       : "Ꜿ̌"
+<dead_caron> <U1DFB> <periodcentered> <p> <s>       : "ꜿ̌"
+<dead_caron> <UA7FC>                                : "ꟼ̌"   # ꟼ (Roman Epigraphic P) + Caron
+<dead_caron> <U1DFB> <U21BA> <P>                    : "ꟼ̌"
+<dead_caron> <U1DFB> <U21BA> <p>                    : "ꟼ̌"
+<dead_caron> <UA752>                                : "Ꝓ̌"   # Ꝓ + Caron
+<dead_caron> <UA753>                                : "ꝓ̌"   # ꝓ + Caron
+<dead_caron> <U1DFB> <minus> <P>                    : "Ꝓ̌"
+<dead_caron> <U1DFB> <minus> <p>                    : "ꝓ̌"
+<dead_caron> <UA754>                                : "Ꝕ̌"   # Ꝕ + Caron
+<dead_caron> <UA755>                                : "ꝕ̌"   # ꝕ + Caron
+<dead_caron> <U1DFB> <plus> <P>                     : "Ꝕ̌"
+<dead_caron> <U1DFB> <plus> <p>                     : "ꝕ̌"
 <dead_caron> <Q>                                    : "Q̌"
 <dead_caron> <q>                                    : "q̌"
 <dead_caron> <U027B>                                : "ɻ̌"   # ɻ + Caron
@@ -147,10 +290,83 @@
 <dead_caron> <U035A> <r>                            : "ɹ̌"   # ɹ + Caron
 <dead_caron> <U21BA> <R>                            : "ɻ̌"   # ɻ + Caron
 <dead_caron> <U21BA> <r>                            : "ɹ̌"   # ɹ + Caron
+<dead_caron> <U027E>                                : "ɾ̌"   # ɾ + Caron
+<dead_caron> <UAB45>                                : "ꭅ̌"   # ꭅ (Teuthonista [ɾ]) + Caron
+<dead_caron> <U035A> <minus> <R>                    : "ꭅ̌"
+<dead_caron> <U035A> <minus> <r>                    : "ꭅ̌"
+<dead_caron> <UA782>                                : "Ꞃ̌"   # Ꞃ (Insular R) + Caron
+<dead_caron> <UA783>                                : "ꞃ̌"   # ꞃ (Insular R)  + Caron
+<dead_caron> <U1DFB> <R> <space>                    : "Ꞃ̌"
+<dead_caron> <U1DFB> <r> <space>                    : "ꞃ̌"
+<dead_caron> <U01A6>                                : "Ʀ̌"   # Ʀ (Yr) + Caron
+<dead_caron> <U0280>                                : "ʀ̌"   # ʀ (Yr) + Caron
+<dead_caron> <U1DFB> <Y> <R>                        : "Ʀ̌"
+<dead_caron> <U1DFB> <y> <r>                        : "ʀ̌"
+<dead_caron> <A75A>                                 : "Ꝛ̌"   # Ꝛ (R Rotunda) + Caron
+<dead_caron> <A75B>                                 : "ꝛ̌"   # ꝛ (R Rotunda) + Caron
+<dead_caron> <U1DFB> <minus> <R>                    : "Ꝛ̌"
+<dead_caron> <U1DFB> <minus> <r>                    : "ꝛ̌"
+<dead_caron> <UA75C>                                : "Ꝝ̌"   # Ꝝ (Rum Rotunda) + Caron
+<dead_caron> <UA75D>                                : "ꝝ̌"   # ꝝ (Rum Rotunda) + Caron
+<dead_caron> <U1DFB> <R> <U> <M>                    : "Ꝝ̌"
+<dead_caron> <U1DFB> <r> <u> <m>                    : "ꝝ̌"
+<dead_caron> <U1D19>                                : "ᴙ̌"   # ᴙ (Reversed Smallcaps R) + Caron
+<dead_caron> <U1DFB> <U21BA> <R>                    : "ᴙ̌"
+<dead_caron> <U1DFB> <U21BA> <r>                    : "ᴙ̌"
+<dead_caron> <UA776>                                : "ꝶ̌"   # ꝶ (Smallcaps Rum)
+<dead_caron> <UA775>                                : "ꝵ̌"   # ꝵ (Rum)
+<dead_caron> <U1DFB> <slash> <R>                    : "ꝶ̌"
+<dead_caron> <U1DFB> <slash> <r>                    : "ꝵ̌"
+<dead_caron> <U017F>                                : "ſ̌"   # ſ (Long S) + Caron
+<dead_caron> <U1DFB> <minus> <S>                    : "ſ̌"
+<dead_caron> <U1DFB> <minus> <s>                    : "ſ̌"
+<dead_caron> <U1E9E>                                : "ẞ̌"   # ẞ (Eszett) + Caron
+<dead_caron> <ssharp>                               : "ß̌"
 <dead_caron> <U01A9>                                : "Ʃ̌"   # Ʃ (Esh) + Caron
 <dead_caron> <U0283>                                : "ʃ̌"   # ʃ (Esh) + Caron
 <dead_caron> <U035A> <S>                            : "Ʃ̌"   # Ʃ (Esh) + Caron
 <dead_caron> <U035A> <s>                            : "ʃ̌"   # ʃ (Esh) + Caron
+<dead_caron> <UA784>                                : "Ꞅ̌"   # Ꞅ (Insular S) + Caron
+<dead_caron> <UA785>                                : "ꞅ̌"   # ꞅ (Insular S) + Caron
+<dead_caron> <U1DFB> <S> <space>                    : "Ꞅ̌"
+<dead_caron> <U1DFB> <s> <space>                    : "ꞅ̌"
+<dead_caron> <UA7D8>                                : "Ꟙ̌"   # Ꟙ (Sigmoid S) + Caron
+<dead_caron> <UA7D9>                                : "ꟙ̌"   # ꟙ (Sigmoid S) + Caron
+<dead_caron> <U1DFB> <S> <S>                        : "Ꟙ̌"
+<dead_caron> <U1DFB> <s> <s>                        : "ꟙ̌"
+<dead_caron> <UA7D6>                                : "Ꟗ̌"   # Ꟗ (Middle Scots S) + Caron
+<dead_caron> <UA7D7>                                : "ꟗ̌"   # ꟗ (Middle Scots S) + Caron
+<dead_caron> <U1DFB> <U1E9E>                        : "Ꟗ̌"
+<dead_caron> <U1DFB> <ssharp>                       : "ꟗ̌"
+<dead_caron> <U01A7>                                : "Ƨ̌"   # Ƨ (Tone Two) + Caron
+<dead_caron> <U01A8>                                : "ƨ̌"   # ƨ (Tone Two) + Caron
+<dead_caron> <U1DFB> <S> <2>                        : "Ƨ̌"
+<dead_caron> <U1DFB> <s> <2>                        : "ƨ̌"
+<dead_caron> <UA72A>                                : "Ꜫ̌"   # Ꜫ (Tresillo) + Caron
+<dead_caron> <UA72B>                                : "ꜫ̌"   # ꜫ (Tresillo) + Caron
+<dead_caron> <U1DFB> <S> <3>                        : "Ꜫ̌"
+<dead_caron> <U1DFB> <s> <3>                        : "ꜫ̌"
+<dead_caron> <UA72C>                                : "Ꜭ̌"   # Ꜭ (Cuatrillo) + Caron
+<dead_caron> <UA72D>                                : "ꜭ̌"   # ꜭ (Cuatrillo) + Caron
+<dead_caron> <U1DFB> <S> <4>                        : "Ꜭ̌"
+<dead_caron> <U1DFB> <s> <4>                        : "ꜭ̌"
+<dead_caron> <U01BC>                                : "Ƽ̌"   # Ƽ (Tone Five) + Caron
+<dead_caron> <U01BD>                                : "ƽ̌"   # ƽ (Tone Five) + Caron
+<dead_caron> <U1DFB> <S> <5>                        : "Ƽ̌"
+<dead_caron> <U1DFB> <s> <5>                        : "ƽ̌"
+<dead_caron> <U0184>                                : "Ƅ̌"   # Ƅ (Tone Six) + Caron
+<dead_caron> <U0185>                                : "ƅ̌"   # ƅ (Tone Six) + Caron
+<dead_caron> <U1DFB> <S> <6>                        : "Ƅ̌"
+<dead_caron> <U1DFB> <s> <6>                        : "ƅ̌"
+<dead_caron> <THORN>                                : "Þ̌"
+<dead_caron> <thorn>                                : "þ̌"
+<dead_caron> <UA786>                                : "Ꞇ̌"   # Ꞇ (Insular T) + Caron
+<dead_caron> <UA787>                                : "ꞇ̌"   # ꞇ (Insular T) + Caron
+<dead_caron> <U1DFB> <T> <space>                    : "Ꞇ̌"
+<dead_caron> <U1DFB> <t> <space>                    : "ꞇ̌"
+<dead_caron> <UA777>                                : "ꝷ̌"   # ꝷ (Tum) + Caron
+<dead_caron> <U1DFB> <T> <U> <M>                    : "ꝷ̌"
+<dead_caron> <U1DFB> <t> <u> <m>                    : "ꝷ̌"
 <dead_caron> <U01B1>                                : "Ʊ̌"   # Ʊ (Latin Upsilon) + Caron
 <dead_caron> <U028A>                                : "ʊ̌"   # ʊ (Latin Upsilon) + Caron
 <dead_caron> <dead_greek> <dead_circumflex> <U>     : "Ʊ̌"   # Ʊ (Latin Upsilon) + Caron
@@ -159,6 +375,9 @@
 <dead_caron> <U026F>                                : "ɯ̌"   # ɯ (Turned M) + Caron
 <dead_caron> <U21BA> <M>                            : "Ɯ̌"   # Ɯ (Turned M) + Caron
 <dead_caron> <U21BA> <m>                            : "ɯ̌"   # ɯ (Turned M) + Caron
+<dead_caron> <UA778>                                : "ꝸ̌"   # ꝸ (Um) + Caron
+<dead_caron> <U1DFB> <U> <M>                        : "ꝸ̌"
+<dead_caron> <U1DFB> <u> <m>                        : "ꝸ̌"
 <dead_caron> <V>                                    : "V̌"
 <dead_caron> <v>                                    : "v̌"
 <dead_caron> <U0245>                                : "Ʌ̌"   # Ʌ + Caron
@@ -167,16 +386,44 @@
 <dead_caron> <U21BA> <v>                            : "ʌ̌"   # ʌ + Caron
 <dead_caron> <U01B2>                                : "Ʋ̌"   # Ʋ + Caron
 <dead_caron> <U028B>                                : "ʋ̌"   # ʋ + Caron
+<dead_caron> <UA768>                                : "Ꝩ̌"   # Ꝩ (Vend) + Caron
+<dead_caron> <UA769>                                : "ꝩ̌"   # ꝩ (Vend) + Caron
+<dead_caron> <U1DFB> <minus> <V>                    : "Ꝩ̌"
+<dead_caron> <U1DFB> <minus> <v>                    : "ꝩ̌"
+<dead_caron> <U1EFC>                                : "Ỽ̌"   # Ỽ (Middle Welsh V) + Caron
+<dead_caron> <U1EFD>                                : "ỽ̌"   # ỽ (Middle Welsh V) + Caron
+<dead_caron> <U1DFB> <V>                            : "Ỽ̌"
+<dead_caron> <U1DFB> <v>                            : "ỽ̌"
 <dead_caron> <W>                                    : "W̌"
 <dead_caron> <w>                                    : "w̌"
+<dead_caron> <U01F7>                                : "Ƿ̌"   # Ƿ (Wynn) + Caron
+<dead_caron> <U01BF>                                : "ƿ̌"   # ƿ (Wynn) + Caron
+<dead_caron> <U1DFB> <W>                            : "Ƿ̌"
+<dead_caron> <U1DFB> <w>                            : "ƿ̌"
+<dead_caron> <UA760>                                : "Ꝡ̌"   # Ꝡ + Caron
+<dead_caron> <UA761>                                : "ꝡ̌"   # ꝡ + Caron
+<dead_caron> <U1DCF> <V> <Y>                        : "Ꝡ̌"
+<dead_caron> <U1DCF> <v> <y>                        : "ꝡ̌"
+<dead_caron> <UA7C2>                                : "Ꟃ̌"   # Ꟃ (W Anglicana) + Caron
+<dead_caron> <UA7C3>                                : "ꟃ̌"   # ꟃ (W Anglicana) + Caron
+<dead_caron> <U1DCF> <V> <Z>                        : "Ꟃ̌"
+<dead_caron> <U1DCF> <v> <Z>                        : "ꟃ̌"
 <dead_caron> <X>                                    : "X̌"
 <dead_caron> <x>                                    : "x̌"
 <dead_caron> <Y>                                    : "Y̌"
 <dead_caron> <y>                                    : "y̌"
+<dead_caron> <U2144>                                : "⅄̌"   # ⅄ + Caron
+<dead_caron> <U028E>                                : "ʎ̌"   # ʎ + Caron
 <dead_caron> <U21BA> <Y>                            : "⅄̌"   # ⅄ + Caron
 <dead_caron> <U21BA> <y>                            : "ʎ̌"   # ʎ + Caron
-<dead_caron> <U21BA> <Y>                            : "⅄̌"   # ⅄ + Caron
-<dead_caron> <U21BA> <y>                            : "ʎ̌"   # ʎ + Caron
+<dead_caron> <U021C>                                : "Ȝ̌"   # Ȝ (Yogh) + Caron
+<dead_caron> <U021D>                                : "ȝ̌"   # ȝ (Yogh) + Caron
+<dead_caron> <U1DFB> <Y> <O>                        : "Ȝ̌"
+<dead_caron> <U1DFB> <y> <o>                        : "ȝ̌"
+<dead_caron> <UA762>                                : "Ꝣ̌"   # Ꝣ (Visigothic Z) + Caron
+<dead_caron> <UA763>                                : "ꝣ̌"   # ꝣ (Visigothic Z) + Caron
+<dead_caron> <U1DCF> <C> <Z>                        : "Ꝣ̌"
+<dead_caron> <U1DCF> <c> <z>                        : "ꝣ̌"
 <dead_caron> <U0294>                                : "ʔ̌"   # ʔ (Glottal Stop) + Caron
 <dead_caron> <U035A> <question>                     : "ʔ̌"   # ʔ (Glottal Stop) + Caron
 <dead_caron> <U035A> <U0241> <space>                : "ʔ̌"   # Ɂ (Capital Glottal Stop) + Caron
@@ -187,6 +434,17 @@
 <dead_caron> <U035A> <questiondown>                 : "ʕ̌"   # ʕ (Turned Glottal Glottal Stop) + Caron
 <dead_caron> <U035A> <U0241> <underscore> <space>   : "ʕ̌"   # Ɂ (Capital Glottal Stop) + "_" + Caron
 <dead_caron> <U035A> <U0242> <underscore> <space>   : "ʕ̌"   # ɂ (Small Glottal Stop) + "_" + Caron
+<dead_caron> <UA722>                                : "Ꜣ̌"   # Ꜣ (Egyptological Alef) + Caron
+<dead_caron> <UA723>                                : "ꜣ̌"   # ꜣ (Egyptological Alef) + Caron
+<dead_caron> <U1DFB> <U0241>                        : "Ꜣ̌"
+<dead_caron> <U1DFB> <U0242>                        : "ꜣ̌"
+<dead_caron> <UA724>                                : "Ꜥ̌"   # Ꜥ (Egyptological Ayin) + Caron
+<dead_caron> <UA725>                                : "ꜥ̌"   # ꜥ (Egyptological Ayin) + Caron
+<dead_caron> <U1DFB> <UA78B>                        : "Ꜥ̌"
+<dead_caron> <U1DFB> <UA78C>                        : "ꜥ̌"
+<dead_caron> <U1D25>                                : "ᴥ̌"   # ᴥ (UPA Ain) + Caron
+<dead_caron> <U1DFB> <minus> <U0241>                : "ᴥ̌"
+<dead_caron> <U1DFB> <minus> <U0242>                : "ᴥ̌"
 
 
 # Composed caron combinations (Not directly encoded in Unicode) (Unidirectional)

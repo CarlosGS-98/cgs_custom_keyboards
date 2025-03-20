@@ -122,8 +122,33 @@
 <dead_circumflex> <UA7B5>                               : "ꞵ̂"   # ꞵ (Latin Beta) + Circumflex
 <dead_circumflex> <dead_greek> <dead_circumflex> <B>    : "Ꞵ̂"   # Ꞵ (Latin Beta) + Circumflex
 <dead_circumflex> <dead_greek> <dead_circumflex> <b>    : "ꞵ̂"   # ꞵ (Latin Beta) + Circumflex
+<dead_circumflex> <UA796>                               : "Ꞗ̂"   # Ꞗ (Middle Vietnamese B) + Circumflex
+<dead_circumflex> <UA797>                               : "ꞗ̂"   # ꞗ (Middle Vietnamese B) + Circumflex
+<dead_circumflex> <U1DFB> <B>                           : "Ꞗ̂"
+<dead_circumflex> <U1DFB> <b>                           : "ꞗ̂"
+<dead_circumflex> <UA76E>                               : "Ꝯ̂"   # Ꝯ (Con/Us) + Circumflex
+<dead_circumflex> <UA76F>                               : "ꝯ̂"   # ꝯ (Con/Us) + Circumflex
+<dead_circumflex> <U1DFB> <C> <O> <N>                   : "Ꝯ̂"
+<dead_circumflex> <U1DFB> <c> <o> <n>                   : "ꝯ̂"
+<dead_circumflex> <U1DFB> <U> <S>                       : "Ꝯ̂"
+<dead_circumflex> <U1DFB> <u> <s>                       : "ꝯ̂"
 <dead_circumflex> <D>                                   : "D̂"
 <dead_circumflex> <d>                                   : "d̂"
+<dead_circumflex> <ETH>                                 : "Ð̂"
+<dead_circumflex> <eth>                                 : "ð̂"
+<dead_circumflex> <U1E9F>                               : "ẟ̂"   # ẟ (Latin Delta) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <D>    : "ẟ̂"
+<dead_circumflex> <dead_greek> <dead_circumflex> <d>    : "ẟ̂"
+<dead_circumflex> <U018D>                               : "ƍ̂"   # ƍ (Turned Latin Delta) + Circumflex
+<dead_circumflex> <dead_greek> <dead_circumflex> <ETH>  : "ƍ̂"
+<dead_circumflex> <dead_greek> <dead_circumflex> <eth>  : "ƍ̂"
+<dead_circumflex> <UA779>                               : "Ꝺ̂"   # Ꝺ (Insular D) + Circumflex
+<dead_circumflex> <UA77A>                               : "ꝺ̂"   # ꝺ (Insular D) + Circumflex
+<dead_circumflex> <U1DFB> <D>                           : "Ꝺ̂"
+<dead_circumflex> <U1DFB> <d>                           : "ꝺ̂"
+<dead_circumflex> <UA771>                               : "ꝱ̂"   # ꝱ (Dum) + Circumflex
+<dead_circumflex> <U1DFB> <slash> <D>                   : "ꝱ̂"
+<dead_circumflex> <U1DFB> <slash> <d>                   : "ꝱ̂"
 <dead_circumflex> <U0190>                               : "Ɛ̂"   # Ɛ (Latin Epsilon) + Circumflex
 <dead_circumflex> <U025B>                               : "ɛ̂"   # ɛ (Latin Epsilon) + Circumflex
 <dead_circumflex> <dead_greek> <dead_circumflex> <E>    : "Ɛ̂"   # Ɛ (Latin Epsilon) + Circumflex
@@ -149,15 +174,56 @@
 <dead_circumflex> <U01DD>                               : "ǝ̂"   # ǝ (Turned E) + Circumflex
 <dead_circumflex> <U21BA> <E>                           : "Ǝ̂"   # Ǝ (Turned E) + Circumflex
 <dead_circumflex> <U21BA> <e>                           : "ǝ̂"   # ǝ (Turned E) + Circumflex
+<dead_circumflex> <UA76A>                               : "Ꝫ̂"   # Ꝫ (Et) + Circumflex
+<dead_circumflex> <UA76B>                               : "ꝫ̂"   # ꝫ (Et) + Circumflex
+<dead_circumflex> <U1DFB> <ampersand> <E> <T>           : "Ꝫ̂"
+<dead_circumflex> <U1DFB> <ampersand> <e> <t>           : "ꝫ̂"
+<dead_circumflex> <U2E52>                               : "⹒̂"   # ⹒ (Tironian Et) + Circumflex
+<dead_circumflex> <U204A>                               : "⁊̂"   # ⁊ (Tironian Et) + Circumflex
+<dead_circumflex> <U1DFB> <E> <T>                       : "⹒̂"
+<dead_circumflex> <U1DFB> <e> <t>                       : "⁊̂"
 <dead_circumflex> <F>                                   : "F̂"
 <dead_circumflex> <f>                                   : "f̂"
 <dead_circumflex> <U0278>                               : "ɸ̂"   # ɸ (Latin Phi) + Circumflex
 <dead_circumflex> <dead_greek> <dead_circumflex> <F>    : "ɸ̂"   # ɸ (Latin Phi) + Circumflex
 <dead_circumflex> <dead_greek> <dead_circumflex> <f>    : "ɸ̂"   # ɸ (Latin Phi) + Circumflex
+<dead_circumflex> <UA77B>                               : "Ꝼ̂"   # Ꝼ (Insular F) + Circumflex
+<dead_circumflex> <UA77C>                               : "ꝼ̂"   # ꝼ (Insular F) + Circumflex
+<dead_circumflex> <U1DFB> <F>                           : "Ꝼ̂"   # Ꝼ (Insular F) + Circumflex
+<dead_circumflex> <U1DFB> <f>                           : "ꝼ̂"   # ꝼ (Insular F) + Circumflex
+<dead_circumflex> <UA7FB>                               : "ꟻ̂"   # ꟻ (Roman Epigraphic F) + Circumflex
+<dead_circumflex> <U1DFB> <U21BA> <F>                   : "ꟻ̂"
+<dead_circumflex> <U1DFB> <U21BA> <f>                   : "ꟻ̂"
+<dead_circumflex> <UAB35>                               : "ꬵ̂"   # ꬵ (Lenis F) + Circumflex
+<dead_circumflex> <U1DFB> <minus> <F>                   : "ꬵ̂"
+<dead_circumflex> <U1DFB> <minus> <f>                   : "ꬵ̂"
+<dead_circumflex> <UA7AC>                               : "Ɡ̂"   # Ɡ (Single-storey G) + Circumflex
+<dead_circumflex> <U0261>                               : "ɡ̂"   # ɡ (Single-storey G) + Circumflex
+<dead_circumflex> <U035A> <G>                           : "Ɡ̂"
+<dead_circumflex> <U035A> <g>                           : "ɡ̂"
 <dead_circumflex> <U0194>                               : "Ɣ̂"   # Ɣ (Latin Gamma) + Circumflex
 <dead_circumflex> <U0263>                               : "ɣ̂"   # ɣ (Latin Gamma) + Circumflex
 <dead_circumflex> <dead_greek> <dead_circumflex> <G>    : "Ɣ̂"   # Ɣ (Latin Gamma) + Circumflex
 <dead_circumflex> <dead_greek> <dead_circumflex> <g>    : "ɣ̂"   # ɣ (Latin Gamma) + Circumflex
+<dead_circumflex> <UA77D>                               : "Ᵹ̂"   # Ᵹ (Insular G) + Circumflex
+<dead_circumflex> <U1D79>                               : "ᵹ̂"   # ᵹ (Insular G) + Circumflex
+<dead_circumflex> <U1DFB> <G>                           : "Ᵹ̂"
+<dead_circumflex> <U1DFB> <g>                           : "ᵹ̂"
+<dead_circumflex> <UA77E>                               : "Ꝿ̂"   # Ꝿ (Turned Insular G) + Circumflex
+<dead_circumflex> <UA77F>                               : "ꝿ̂"   # ꝿ (Turned Insular G) + Circumflex
+<dead_circumflex> <U1DFB> <01A2>                        : "Ꝿ̂"
+<dead_circumflex> <U1DFB> <01A3>                        : "ꝿ̂"
+<dead_circumflex> <U1DFB> <U1DCF> <G> <H>               : "Ꝿ̂"
+<dead_circumflex> <U1DFB> <U1DCF> <g> <h>               : "ꝿ̂"
+<dead_circumflex> <U1DFB> <U1DCF> <O> <I>               : "Ꝿ̂"
+<dead_circumflex> <U1DFB> <U1DCF> <o> <i>               : "ꝿ̂"
+<dead_circumflex> <UA7D0>                               : "Ꟑ̂"   # Ꟑ (Closed Insular G) + Circumflex
+<dead_circumflex> <UA7D1>                               : "ꟑ̂"   # ꟑ (Closed Insular G) + Circumflex
+<dead_circumflex> <U1DFB> <minus> <G>                   : "Ꟑ̂"
+<dead_circumflex> <U1DFB> <minus> <g>                   : "ꟑ̂"
+<dead_circumflex> <U1DF01>                              : "𝼁̂"   # 𝼁 (Reversed G) + Circumflex
+<dead_circumflex> <U1DFB> <U21BA> <G>                   : "𝼁̂"
+<dead_circumflex> <U1DFB> <U21BA> <g>                   : "𝼁̂"
 <dead_circumflex> <UA78D>                               : "Ɥ̂"   # Ɥ (Turned H) + Circumflex
 <dead_circumflex> <U0265>                               : "ɥ̂"   # ɥ (Turned H) + Circumflex
 <dead_circumflex> <U21BA> <H>                           : "Ɥ̂"   # Ɥ (Turned H) + Circumflex
@@ -168,35 +234,108 @@
 <dead_circumflex> <U026A>                               : "ɪ̂"   # ɪ (Near-close near-front unrounded vowel) + Circumflex
 <dead_circumflex> <U035A> <I>                           : "Ɪ̂"   # Ɪ (Near-close near-front unrounded vowel) + Circumflex
 <dead_circumflex> <U035A> <i>                           : "ɪ̂"   # ɪ (Near-close near-front unrounded vowel) + Circumflex
+<dead_circumflex> <UA7FE>                               : "ꟾ̂"   # ꟾ (I Longa) + Circumflex
+<dead_circumflex> <UA7F7>                               : "ꟷ̂"   # ꟷ (Sideways I) + Circumflex
+<dead_circumflex> <U1DFB> <U21BA> <I>                   : "ꟾ̂"
+<dead_circumflex> <U1DFB> <U21BA> <i>                   : "ꟷ̂"
+<dead_circumflex> <UA76C>                               : "Ꝭ̂"   # Ꝭ (Is) + Circumflex
+<dead_circumflex> <UA76D>                               : "ꝭ̂"   # ꝭ (Is) + Circumflex
+<dead_circumflex> <U1DFB> <I> <S>                       : "Ꝭ̂"
+<dead_circumflex> <U1DFB> <i> <s>                       : "ꝭ̂"
+<dead_circumflex> <U025F>                               : "ɟ̂"   # ɟ (Barred Dotless J) + Circumflex
 <dead_circumflex> <U035A> <J>                           : "ɟ̂"   # ɟ (Barred Dotless J) + Circumflex
 <dead_circumflex> <U035A> <j>                           : "ɟ̂"   # ɟ (Barred Dotless J) + Circumflex
 <dead_circumflex> <K>                                   : "K̂"
 <dead_circumflex> <k>                                   : "k̂"
+<dead_circumflex> <U0138>                               : "ĸ̂"   # ĸ (Kra) + Circumflex
+<dead_circumflex> <U1DFB> <K>                           : "ĸ̂"
+<dead_circumflex> <U1DFB> <k>                           : "ĸ̂"
+<dead_circumflex> <U1DF03>                              : "𝼃̂"   # 𝼃 (Reversed K) + Circumflex
+<dead_circumflex> <U1DFB> <U21BA> <K>                   : "𝼃̂"
+<dead_circumflex> <U1DFB> <U21BA> <k>                   : "𝼃̂"
 <dead_circumflex> <L>                                   : "L̂"
 <dead_circumflex> <l>                                   : "l̂"
 <dead_circumflex> <U1DF08>                              : "𝼈̂"   # 𝼈 (Retroflex lateral flap) + Circumflex
 <dead_circumflex> <U027A>                               : "ɺ̂"   # ɺ (Lateral flap) + Circumflex
 <dead_circumflex> <U035A> <L>                           : "𝼈̂"   # 𝼈 (Retroflex lateral flap) + Circumflex
 <dead_circumflex> <U035A> <l>                           : "ɺ̂"   # ɺ (Lateral flap) + Circumflex
+<dead_circumflex> <UA7DA>                               : "Ꟛ̴̂"   # Ꟛ (Latin Lambda) + Circumflex
+<dead_circumflex> <UA7DB>                               : "ꟛ̴̂"   # ꟛ (Latin Lambda) + Circumflex
+<dead_circumflex> <UA746>                               : "Ꝇ̂"   # Ꝇ (Broken L) + Circumflex
+<dead_circumflex> <UA747>                               : "ꝇ̂"   # ꝇ (Broken L) + Circumflex
+<dead_circumflex> <U1DFB> <L>                           : "Ꝇ̂"
+<dead_circumflex> <U1DFB> <l>                           : "ꝇ̂"
+<dead_circumflex> <UA772>                               : "ꝲ̂"   # ꝲ (Lum) + Circumflex
+<dead_circumflex> <U1DFB> <slash> <L>                   : "ꝲ̂"
+<dead_circumflex> <U1DFB> <slash> <l>                   : "ꝲ̂"
+<dead_circumflex> <U2143>                               : "⅃̂"   # ⅃ (Roman Epigraphic L) + Circumflex
+<dead_circumflex> <U1DFB> <U21BA> <L>                   : "⅃̂"
+<dead_circumflex> <U1DFB> <U21BA> <l>                   : "⅃̂"
 <dead_circumflex> <M>                                   : "M̂"
 <dead_circumflex> <m>                                   : "m̂"
 <dead_circumflex> <U0270>                               : "ɰ̂"   # ɰ (Voiced velar approximant) + Circumflex
 <dead_circumflex> <U035A> <M>                           : "ɰ̂"   # ɰ (Voiced velar approximant) + Circumflex
 <dead_circumflex> <U035A> <m>                           : "ɰ̂"   # ɰ (Voiced velar approximant) + Circumflex
+<dead_circumflex> <UA7FD>                               : "ꟽ̂"   # ꟽ (Roman Epigraphic M) + Circumflex
+<dead_circumflex> <U21BA> <M>                           : "ꟽ̂"
+<dead_circumflex> <U21BA> <m>                           : "ꟽ̂"
+<dead_circumflex> <UA7FF>                               : "ꟿ̂"  # ꟿ (Manius) + Circumflex
+<dead_circumflex> <U1DCF> <M> <W>                       : "ꟿ̂"
+<dead_circumflex> <U1DCF> <m> <w>                       : "ꟿ̂"
+<dead_circumflex> <UA773>                               : "ꝳ̂"  # ꝳ (Mum) + Circumflex
+<dead_circumflex> <U1DFB> <slash> <M>                   : "ꝳ̂"
+<dead_circumflex> <U1DFB> <slash> <m>                   : "ꝳ̂"
 <dead_circumflex> <N>                                   : "N̂"
 <dead_circumflex> <n>                                   : "n̂"
+<dead_circumflex> <UA774>                               : "ꝴ̂"   # ꝴ (Num) + Circumflex
+<dead_circumflex> <U1DFB> <slash> <N>                   : "ꝴ̂"
+<dead_circumflex> <U1DFB> <slash> <n>                   : "ꝴ̂"
 <dead_circumflex> <ENG>                                 : "Ŋ̂"   # Ŋ + Circumflex
 <dead_circumflex> <eng>                                 : "ŋ̂"   # ŋ + Circumflex
+<dead_circumflex> <U1DF07>                              : "𝼇̂"   # 𝼇 (Reversed Eng) + Circumflex
+<dead_circumflex> <U1DFB> <U21BA> <ENG>                 : "𝼇̂"
+<dead_circumflex> <U1DFB> <U21BA> <eng>                 : "𝼇̂"
 <dead_circumflex> <OE>                                  : "Œ̂"
 <dead_circumflex> <oe>                                  : "œ̂"
 <dead_circumflex> <U1DCF> <O> <E>                       : "Œ̂"
 <dead_circumflex> <U1DCF> <o> <e>                       : "œ̂"
 <dead_circumflex> <U0186>                               : "Ɔ̂"   # Ɔ + Circumflex
 <dead_circumflex> <U0254>                               : "ɔ̂"   # ɔ + Circumflex
+<dead_circumflex> <U035A> <O>                           : "Ɔ̂"   # Ɔ + Circumflex
+<dead_circumflex> <U035A> <o>                           : "ɔ̂"   # ɔ + Circumflex
 <dead_circumflex> <UA7CB>                               : "Ɤ̂"   # Ɤ (Ram's Horn) + Circumflex
 <dead_circumflex> <U0264>                               : "ɤ̂"   # ɤ (Ram's Horn) + Circumflex
+<dead_circumflex> <U035A> <Oslash>                      : "Ɤ̂"   # Ɤ (Ram's Horn) + Circumflex
+<dead_circumflex> <U035A> <oslash>                      : "ɤ̂"   # ɤ (Ram's Horn) + Circumflex
+<dead_circumflex> <UA7C0>                               : "Ꟁ̂"   # Ꟁ (Old Polish O) + Circumflex
+<dead_circumflex> <UA7C0>                               : "ꟁ̂"   # ꟁ (Old Polish O) + Circumflex
+<dead_circumflex> <U1DFB> <Oslash>                      : "Ꟁ̂"
+<dead_circumflex> <U1DFB> <oslash>                      : "ꟁ̂"
+<dead_circumflex> <UA74A>                               : "Ꝋ̂"   # Ꝋ + Circumflex
+<dead_circumflex> <UA74B>                               : "ꝋ̂"   # ꝋ + Circumflex
+<dead_circumflex> <U1DFB> <O>                           : "Ꝋ̂"
+<dead_circumflex> <U1DFB> <o>                           : "ꝋ̂"
 <dead_circumflex> <P>                                   : "P̂"
 <dead_circumflex> <p>                                   : "p̂"
+<dead_circumflex> <U2183>                               : "Ↄ̂"   # Ↄ (Antisigma) + Circumflex
+<dead_circumflex> <U2184>                               : "ↄ̂"   # ↄ (Antisigma) + Circumflex
+<dead_circumflex> <UA73E>                               : "Ꜿ̂"   # Ꜿ (Lunate Antisigma) + Circumflex
+<dead_circumflex> <UA73F>                               : "ꜿ̂"   # ꜿ (Lunate Antisigma) + Circumflex
+<dead_circumflex> <U1DFB> <U2183>                       : "Ꜿ̂"
+<dead_circumflex> <U1DFB> <U2184>                       : "ꜿ̂"
+<dead_circumflex> <U1DFB> <periodcentered> <P> <S>      : "Ꜿ̂"
+<dead_circumflex> <U1DFB> <periodcentered> <p> <s>      : "ꜿ̂"
+<dead_circumflex> <UA7FC>                               : "ꟼ̂"   # ꟼ (Roman Epigraphic P) + Circumflex
+<dead_circumflex> <U1DFB> <U21BA> <P>                   : "ꟼ̂"
+<dead_circumflex> <U1DFB> <U21BA> <p>                   : "ꟼ̂"
+<dead_circumflex> <UA752>                               : "Ꝓ̂"   # Ꝓ + Circumflex
+<dead_circumflex> <UA753>                               : "ꝓ̂"   # ꝓ + Circumflex
+<dead_circumflex> <U1DFB> <minus> <P>                   : "Ꝓ̂"
+<dead_circumflex> <U1DFB> <minus> <p>                   : "ꝓ̂"
+<dead_circumflex> <UA754>                               : "Ꝕ̂"   # Ꝕ + Circumflex
+<dead_circumflex> <UA755>                               : "ꝕ̂"   # ꝕ + Circumflex
+<dead_circumflex> <U1DFB> <plus> <P>                    : "Ꝕ̂"
+<dead_circumflex> <U1DFB> <plus> <p>                    : "ꝕ̂"
 <dead_circumflex> <Q>                                   : "Q̂"
 <dead_circumflex> <q>                                   : "q̂"
 <dead_circumflex> <R>                                   : "R̂"
@@ -207,12 +346,85 @@
 <dead_circumflex> <U035A> <r>                           : "ɹ̂"   # ɹ + Circumflex
 <dead_circumflex> <U21BA> <R>                           : "ɻ̂"   # ɻ + Circumflex
 <dead_circumflex> <U21BA> <r>                           : "ɹ̂"   # ɹ + Circumflex
+<dead_circumflex> <U027E>                               : "ɾ̂"   # ɾ + Circumflex
+<dead_circumflex> <UAB45>                               : "ꭅ̂"   # ꭅ (Teuthonista [ɾ]) + Circumflex
+<dead_circumflex> <U035A> <minus> <R>                   : "ꭅ̂"
+<dead_circumflex> <U035A> <minus> <r>                   : "ꭅ̂"
+<dead_circumflex> <UA782>                               : "Ꞃ̂"   # Ꞃ (Insular R) + Circumflex
+<dead_circumflex> <UA783>                               : "ꞃ̂"   # ꞃ (Insular R)  + Circumflex
+<dead_circumflex> <U1DFB> <R> <space>                   : "Ꞃ̂"
+<dead_circumflex> <U1DFB> <r> <space>                   : "ꞃ̂"
+<dead_circumflex> <U01A6>                               : "Ʀ̂"   # Ʀ (Yr) + Circumflex
+<dead_circumflex> <U0280>                               : "ʀ̂"   # ʀ (Yr) + Circumflex
+<dead_circumflex> <U1DFB> <Y> <R>                       : "Ʀ̂"
+<dead_circumflex> <U1DFB> <y> <r>                       : "ʀ̂"
+<dead_circumflex> <A75A>                                : "Ꝛ̂"   # Ꝛ (R Rotunda) + Circumflex
+<dead_circumflex> <A75B>                                : "ꝛ̂"   # ꝛ (R Rotunda) + Circumflex
+<dead_circumflex> <U1DFB> <minus> <R>                   : "Ꝛ̂"
+<dead_circumflex> <U1DFB> <minus> <r>                   : "ꝛ̂"
+<dead_circumflex> <UA75C>                               : "Ꝝ̂"   # Ꝝ (Rum Rotunda) + Circumflex
+<dead_circumflex> <UA75D>                               : "ꝝ̂"   # ꝝ (Rum Rotunda) + Circumflex
+<dead_circumflex> <U1DFB> <R> <U> <M>                   : "Ꝝ̂"
+<dead_circumflex> <U1DFB> <r> <u> <m>                   : "ꝝ̂"
+<dead_circumflex> <U1D19>                               : "ᴙ̂"   # ᴙ (Reversed Smallcaps R) + Circumflex
+<dead_circumflex> <U1DFB> <U21BA> <R>                   : "ᴙ̂"
+<dead_circumflex> <U1DFB> <U21BA> <r>                   : "ᴙ̂"
+<dead_circumflex> <UA776>                               : "ꝶ̂"   # ꝶ (Smallcaps Rum)
+<dead_circumflex> <UA775>                               : "ꝵ̂"   # ꝵ (Rum)
+<dead_circumflex> <U1DFB> <slash> <R>                   : "ꝶ̂"
+<dead_circumflex> <U1DFB> <slash> <r>                   : "ꝵ̂"
+<dead_circumflex> <U017F>                               : "ſ̂"   # ſ (Long S) + Circumflex
+<dead_circumflex> <U1DFB> <minus> <S>                   : "ſ̂"
+<dead_circumflex> <U1DFB> <minus> <s>                   : "ſ̂"
+<dead_circumflex> <U1E9E>                               : "ẞ̂"   # ẞ (Eszett) + Circumflex
+<dead_circumflex> <ssharp>                              : "ß̂"
 <dead_circumflex> <U01A9>                               : "Ʃ̂"   # Ʃ (Esh) + Circumflex
 <dead_circumflex> <U0283>                               : "ʃ̂"   # ʃ (Esh) + Circumflex
 <dead_circumflex> <U035A> <S>                           : "Ʃ̂"   # Ʃ (Esh) + Circumflex
 <dead_circumflex> <U035A> <s>                           : "ʃ̂"   # ʃ (Esh) + Circumflex
+<dead_circumflex> <UA784>                               : "Ꞅ̂"   # Ꞅ (Insular S) + Circumflex
+<dead_circumflex> <UA785>                               : "ꞅ̂"   # ꞅ (Insular S) + Circumflex
+<dead_circumflex> <U1DFB> <S> <space>                   : "Ꞅ̂"
+<dead_circumflex> <U1DFB> <s> <space>                   : "ꞅ̂"
+<dead_circumflex> <UA7D8>                               : "Ꟙ̂"   # Ꟙ (Sigmoid S) + Circumflex
+<dead_circumflex> <UA7D9>                               : "ꟙ̂"   # ꟙ (Sigmoid S) + Circumflex
+<dead_circumflex> <U1DFB> <S> <S>                       : "Ꟙ̂"
+<dead_circumflex> <U1DFB> <s> <s>                       : "ꟙ̂"
+<dead_circumflex> <UA7D6>                               : "Ꟗ̂"   # Ꟗ (Middle Scots S) + Circumflex
+<dead_circumflex> <UA7D7>                               : "ꟗ̂"   # ꟗ (Middle Scots S) + Circumflex
+<dead_circumflex> <U1DFB> <U1E9E>                       : "Ꟗ̂"
+<dead_circumflex> <U1DFB> <ssharp>                      : "ꟗ̂"
+<dead_circumflex> <U01A7>                               : "Ƨ̂"   # Ƨ (Tone Two) + Circumflex
+<dead_circumflex> <U01A8>                               : "ƨ̂"   # ƨ (Tone Two) + Circumflex
+<dead_circumflex> <U1DFB> <S> <2>                       : "Ƨ̂"
+<dead_circumflex> <U1DFB> <s> <2>                       : "ƨ̂"
+<dead_circumflex> <UA72A>                               : "Ꜫ̂"   # Ꜫ (Tresillo) + Circumflex
+<dead_circumflex> <UA72B>                               : "ꜫ̂"   # ꜫ (Tresillo) + Circumflex
+<dead_circumflex> <U1DFB> <S> <3>                       : "Ꜫ̂"
+<dead_circumflex> <U1DFB> <s> <3>                       : "ꜫ̂"
+<dead_circumflex> <UA72C>                               : "Ꜭ̂"   # Ꜭ (Cuatrillo) + Circumflex
+<dead_circumflex> <UA72D>                               : "ꜭ̂"   # ꜭ (Cuatrillo) + Circumflex
+<dead_circumflex> <U1DFB> <S> <4>                       : "Ꜭ̂"
+<dead_circumflex> <U1DFB> <s> <4>                       : "ꜭ̂"
+<dead_circumflex> <U01BC>                               : "Ƽ̂"   # Ƽ (Tone Five) + Circumflex
+<dead_circumflex> <U01BD>                               : "ƽ̂"   # ƽ (Tone Five) + Circumflex
+<dead_circumflex> <U1DFB> <S> <5>                       : "Ƽ̂"
+<dead_circumflex> <U1DFB> <s> <5>                       : "ƽ̂"
+<dead_circumflex> <U0184>                               : "Ƅ̂"   # Ƅ (Tone Six) + Circumflex
+<dead_circumflex> <U0185>                               : "ƅ̂"   # ƅ (Tone Six) + Circumflex
+<dead_circumflex> <U1DFB> <S> <6>                       : "Ƅ̂"
+<dead_circumflex> <U1DFB> <s> <6>                       : "ƅ̂"
 <dead_circumflex> <T>                                   : "T̂"
 <dead_circumflex> <t>                                   : "t̂"
+<dead_circumflex> <THORN>                               : "Þ̂"
+<dead_circumflex> <thorn>                               : "þ̂"
+<dead_circumflex> <UA786>                               : "Ꞇ̂"   # Ꞇ (Insular T) + Circumflex
+<dead_circumflex> <UA787>                               : "ꞇ̂"   # ꞇ (Insular T) + Circumflex
+<dead_circumflex> <U1DFB> <T> <space>                   : "Ꞇ̂"
+<dead_circumflex> <U1DFB> <t> <space>                   : "ꞇ̂"
+<dead_circumflex> <UA777>                               : "ꝷ̂"   # ꝷ (Tum) + Circumflex
+<dead_circumflex> <U1DFB> <T> <U> <M>                   : "ꝷ̂"
+<dead_circumflex> <U1DFB> <t> <u> <m>                   : "ꝷ̂"
 <dead_circumflex> <U01B1>                               : "Ʊ̂"   # Ʊ (Latin Upsilon) + Circumflex
 <dead_circumflex> <U028A>                               : "ʊ̂"   # ʊ (Latin Upsilon) + Circumflex
 <dead_circumflex> <dead_greek> <dead_circumflex> <U>    : "Ʊ̂"   # Ʊ (Latin Upsilon) + Circumflex
@@ -221,6 +433,9 @@
 <dead_circumflex> <U026F>                               : "ɯ̂"   # ɯ (Turned M) + Circumflex
 <dead_circumflex> <U21BA> <M>                           : "Ɯ̂"   # Ɯ (Turned M) + Circumflex
 <dead_circumflex> <U21BA> <m>                           : "ɯ̂"   # ɯ (Turned M) + Circumflex
+<dead_circumflex> <UA778>                               : "ꝸ̂"   # ꝸ (Um) + Circumflex
+<dead_circumflex> <U1DFB> <U> <M>                       : "ꝸ̂"
+<dead_circumflex> <U1DFB> <u> <m>                       : "ꝸ̂"
 <dead_circumflex> <V>                                   : "V̂"
 <dead_circumflex> <v>                                   : "v̂"
 <dead_circumflex> <U0245>                               : "Ʌ̂"   # Ʌ + Circumflex
@@ -229,14 +444,42 @@
 <dead_circumflex> <U21BA> <v>                           : "ʌ̂"   # ʌ + Circumflex
 <dead_circumflex> <U01B2>                               : "Ʋ̂"   # Ʋ + Circumflex
 <dead_circumflex> <U028B>                               : "ʋ̂"   # ʋ + Circumflex
+<dead_circumflex> <UA768>                               : "Ꝩ̂"   # Ꝩ (Vend) + Circumflex
+<dead_circumflex> <UA769>                               : "ꝩ̂"   # ꝩ (Vend) + Circumflex
+<dead_circumflex> <U1DFB> <minus> <V>                   : "Ꝩ̂"
+<dead_circumflex> <U1DFB> <minus> <v>                   : "ꝩ̂"
+<dead_circumflex> <U1EFC>                               : "Ỽ̂"   # Ỽ (Middle Welsh V) + Circumflex
+<dead_circumflex> <U1EFD>                               : "ỽ̂"   # ỽ (Middle Welsh V) + Circumflex
+<dead_circumflex> <U1DFB> <V>                           : "Ỽ̂"
+<dead_circumflex> <U1DFB> <v>                           : "ỽ̂"
+<dead_circumflex> <U01F7>                               : "Ƿ̂"   # Ƿ (Wynn) + Circumflex
+<dead_circumflex> <U01BF>                               : "ƿ̂"   # ƿ (Wynn) + Circumflex
+<dead_circumflex> <U1DFB> <W>                           : "Ƿ̂"
+<dead_circumflex> <U1DFB> <w>                           : "ƿ̂"
+<dead_circumflex> <UA760>                               : "Ꝡ̂"   # Ꝡ + Circumflex
+<dead_circumflex> <UA761>                               : "ꝡ̂"   # ꝡ + Circumflex
+<dead_circumflex> <U1DCF> <V> <Y>                       : "Ꝡ̂"
+<dead_circumflex> <U1DCF> <v> <y>                       : "ꝡ̂"
+<dead_circumflex> <UA7C2>                               : "Ꟃ̂"   # Ꟃ (W Anglicana) + Circumflex
+<dead_circumflex> <UA7C3>                               : "ꟃ̂"   # ꟃ (W Anglicana) + Circumflex
+<dead_circumflex> <U1DCF> <V> <Z>                       : "Ꟃ̂"
+<dead_circumflex> <U1DCF> <v> <Z>                       : "ꟃ̂"
 <dead_circumflex> <X>                                   : "X̂"
 <dead_circumflex> <x>                                   : "x̂"
+<dead_circumflex> <U2144>                               : "⅄̂"   # ⅄ + Circumflex
+<dead_circumflex> <U028E>                               : "ʎ̂"   # ʎ + Circumflex
 <dead_circumflex> <U21BA> <Y>                           : "⅄̂"   # ⅄ + Circumflex
 <dead_circumflex> <U21BA> <y>                           : "ʎ̂"   # ʎ + Circumflex
-<dead_circumflex> <U21BA> <Y>                           : "⅄̂"   # ⅄ + Circumflex
-<dead_circumflex> <U21BA> <y>                           : "ʎ̂"   # ʎ + Circumflex
+<dead_circumflex> <U021C>                               : "Ȝ̂"   # Ȝ (Yogh) + Circumflex
+<dead_circumflex> <U021D>                               : "ȝ̂"   # ȝ (Yogh) + Circumflex
+<dead_circumflex> <U1DFB> <Y> <O>                       : "Ȝ̂"
+<dead_circumflex> <U1DFB> <y> <o>                       : "ȝ̂"
 <dead_circumflex> <EZH>                                 : "Ʒ̂"   # Ʒ + Circumflex
 <dead_circumflex> <ezh>                                 : "ʒ̂"   # ʒ + Circumflex
+<dead_circumflex> <UA762>                               : "Ꝣ̂"   # Ꝣ (Visigothic Z) + Circumflex
+<dead_circumflex> <UA763>                               : "ꝣ̂"   # ꝣ (Visigothic Z) + Circumflex
+<dead_circumflex> <U1DCF> <C> <Z>                       : "Ꝣ̂"
+<dead_circumflex> <U1DCF> <c> <z>                       : "ꝣ̂"
 <dead_circumflex> <U0294>                               : "ʔ̂"   # ʔ (Glottal Stop) + Circumflex
 <dead_circumflex> <U035A> <question>                    : "ʔ̂"   # ʔ (Glottal Stop) + Circumflex
 <dead_circumflex> <U035A> <U0241> <space>               : "ʔ̂"   # Ɂ (Capital Glottal Stop) + Circumflex
@@ -247,6 +490,17 @@
 <dead_circumflex> <U035A> <questiondown>                : "ʕ̂"   # ʕ (Turned Glottal Glottal Stop) + Circumflex
 <dead_circumflex> <U035A> <U0241> <underscore> <space>  : "ʕ̂"   # Ɂ (Capital Glottal Stop) + "_" + Circumflex
 <dead_circumflex> <U035A> <U0242> <underscore> <space>  : "ʕ̂"   # ɂ (Small Glottal Stop) + "_" + Circumflex
+<dead_circumflex> <UA722>                               : "Ꜣ̂"   # Ꜣ (Egyptological Alef) + Circumflex
+<dead_circumflex> <UA723>                               : "ꜣ̂"   # ꜣ (Egyptological Alef) + Circumflex
+<dead_circumflex> <U1DFB> <U0241>                       : "Ꜣ̂"
+<dead_circumflex> <U1DFB> <U0242>                       : "ꜣ̂"
+<dead_circumflex> <UA724>                               : "Ꜥ̂"   # Ꜥ (Egyptological Ayin) + Circumflex
+<dead_circumflex> <UA725>                               : "ꜥ̂"   # ꜥ (Egyptological Ayin) + Circumflex
+<dead_circumflex> <U1DFB> <UA78B>                       : "Ꜥ̂"
+<dead_circumflex> <U1DFB> <UA78C>                       : "ꜥ̂"
+<dead_circumflex> <U1D25>                               : "ᴥ̂"   # ᴥ (UPA Ain) + Circumflex
+<dead_circumflex> <U1DFB> <minus> <U0241>               : "ᴥ̂"
+<dead_circumflex> <U1DFB> <minus> <U0242>               : "ᴥ̂"
 
 
 # Composed circumflex accent combinations (Not directly encoded in Unicode) (Unidirectional)

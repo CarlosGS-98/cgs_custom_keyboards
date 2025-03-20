@@ -81,8 +81,6 @@
 <U221D> <d> <space>             : "∂"   # Partial differential
 <U221D> <D> <underscore>        : "∇"   # Nabla operator
 <U221D> <d> <underscore>        : "∇"   # Nabla operator
-<U221D> <equal> <D>             : "≝"   # Equal to by definition
-<U221D> <equal> <d>             : "≜"   # Delta equal to
 <U221D> <less> <s>              : "∳"   # Anticlockwise contour integral
 <U221D> <less> <S>              : "∳"   # Anticlockwise contour integral
 <U221D> <minus> <1> <s>         : "∱"   # Clockwise integral
@@ -215,8 +213,6 @@
 <U221D> <c> <underscore> <o>        : "⊶"   # Original of
 <U221D> <D> <equal>                 : "≝"   # Equal to by definition
 <U221D> <d> <equal>                 : "≜"   # Delta equal to
-<U221D> <equal> <D>                 : "≝"   # Equal to by definition
-<U221D> <equal> <d>                 : "≜"   # Delta equal to
 <U221D> <I> <T>                     : "⊺"   # Intercalate
 <U221D> <i> <t>                     : "⊺"   # Intercalate
 <U221D> <minus> <minus> <C>         : "⊸"   # Multimap
