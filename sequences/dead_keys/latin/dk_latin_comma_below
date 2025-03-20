@@ -170,8 +170,8 @@
 <dead_belowcomma> <U21BA> <r>                           : "ɹ̦"   # ɹ + Comma Below
 <dead_belowcomma> <U01A6>                               : "Ʀ̦"   # Ʀ (Yr) + Comma Below
 <dead_belowcomma> <U0280>                               : "ʀ̦"   # ʀ (Yr) + Comma Below
-<dead_belowcomma> <A75A>                                : "Ꝛ̦"   # Ꝛ (R Rotunda) + Comma Below
-<dead_belowcomma> <A75B>                                : "ꝛ̦"   # ꝛ (R Rotunda) + Comma Below
+<dead_belowcomma> <UA75A>                               : "Ꝛ̦"   # Ꝛ (R Rotunda) + Comma Below
+<dead_belowcomma> <UA75B>                               : "ꝛ̦"   # ꝛ (R Rotunda) + Comma Below
 <dead_belowcomma> <U01A9>                               : "Ʃ̦"   # Ʃ (Esh) + Comma Below
 <dead_belowcomma> <U0283>                               : "ʃ̦"   # ʃ (Esh) + Comma Below
 <dead_belowcomma> <U035A> <S>                           : "Ʃ̦"   # Ʃ (Esh) + Comma Below

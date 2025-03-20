@@ -172,8 +172,8 @@
 <U0334> <U027E>                                 : "ɾ̬"   # ɾ + Caron Below
 <U0334> <U01A6>                                 : "Ʀ̬"   # Ʀ (Yr) + Caron Below
 <U0334> <U0280>                                 : "ʀ̬"   # ʀ (Yr) + Caron Below
-<U0334> <A75A>                                  : "Ꝛ̬"   # Ꝛ (R Rotunda) + Caron Below
-<U0334> <A75B>                                  : "ꝛ̬"   # ꝛ (R Rotunda) + Caron Below
+<U0334> <UA75A>                                 : "Ꝛ̬"   # Ꝛ (R Rotunda) + Caron Below
+<U0334> <UA75B>                                 : "ꝛ̬"   # ꝛ (R Rotunda) + Caron Below
 <U0334> <S>                                     : "S̬"
 <U0334> <s>                                     : "s̬"
 <U0334> <U017F>                                 : "ſ̬"   # ſ (Long S) + Caron Below

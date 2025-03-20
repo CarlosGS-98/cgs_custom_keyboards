@@ -167,8 +167,8 @@
 <dead_abovecomma> <U21BA> <r>                           : "ɹ̓"   # ɹ + Comma Above
 <dead_abovecomma> <U01A6>                               : "Ʀ̓"   # Ʀ (Yr) + Comma Above
 <dead_abovecomma> <U0280>                               : "ʀ̓"   # ʀ (Yr) + Comma Above
-<dead_abovecomma> <A75A>                                : "Ꝛ̓"   # Ꝛ (R Rotunda) + Comma Above
-<dead_abovecomma> <A75B>                                : "ꝛ̓"   # ꝛ (R Rotunda) + Comma Above
+<dead_abovecomma> <UA75A>                               : "Ꝛ̓"   # Ꝛ (R Rotunda) + Comma Above
+<dead_abovecomma> <UA75B>                               : "ꝛ̓"   # ꝛ (R Rotunda) + Comma Above
 <dead_abovecomma> <S>                                   : "S̓"
 <dead_abovecomma> <s>                                   : "s̓"
 <dead_abovecomma> <U01A9>                               : "Ʃ̓"   # Ʃ (Esh) + Comma Above

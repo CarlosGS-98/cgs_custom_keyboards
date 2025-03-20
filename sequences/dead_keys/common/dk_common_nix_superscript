@@ -8,16 +8,16 @@
 #
 
 # Superscript Circumflex (Western Arabic Numerals)
-<dead_circumflex> <0>           : "⁰"
-<dead_circumflex> <1>           : "¹"
-<dead_circumflex> <2>           : "²"
-<dead_circumflex> <3>           : "³"
-<dead_circumflex> <4>           : "⁴"
-<dead_circumflex> <5>           : "⁵"
-<dead_circumflex> <6>           : "⁶"
-<dead_circumflex> <7>           : "⁷"
-<dead_circumflex> <8>           : "⁸"
-<dead_circumflex> <9>           : "⁹"
+<dead_circumflex> <0>   : "⁰"
+<dead_circumflex> <1>   : "¹"
+<dead_circumflex> <2>   : "²"
+<dead_circumflex> <3>   : "³"
+<dead_circumflex> <4>   : "⁴"
+<dead_circumflex> <5>   : "⁵"
+<dead_circumflex> <6>   : "⁶"
+<dead_circumflex> <7>   : "⁷"
+<dead_circumflex> <8>   : "⁸"
+<dead_circumflex> <9>   : "⁹"
 
 
 # Superscript Circumflex (ASCII)
@@ -27,6 +27,10 @@
 <dead_circumflex> <period>      : "·"
 <dead_circumflex> <parenleft>   : "⁽"
 <dead_circumflex> <parenright>  : "⁾"
+
+
+# Superscript Circumflex (Non-Alphabetical)
+<dead_circumflex> <exclamdown>  : "ꜞ"
 
 ##################
 # [END OF RULES] #

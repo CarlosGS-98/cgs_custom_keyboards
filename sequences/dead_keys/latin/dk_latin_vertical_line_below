@@ -167,8 +167,8 @@
 <dead_belowverticalline> <U21BA> <r>                            : "ɹ̩"   # ɹ + Vertical Line Below
 <dead_belowverticalline> <U01A6>                                : "Ʀ̩"   # Ʀ (Yr) + Vertical Line Below
 <dead_belowverticalline> <U0280>                                : "ʀ̩"   # ʀ (Yr) + Vertical Line Below
-<dead_belowverticalline> <A75A>                                 : "Ꝛ̩"   # Ꝛ (R Rotunda) + Vertical Line Below
-<dead_belowverticalline> <A75B>                                 : "ꝛ̩"   # ꝛ (R Rotunda) + Vertical Line Below
+<dead_belowverticalline> <UA75A>                                : "Ꝛ̩"   # Ꝛ (R Rotunda) + Vertical Line Below
+<dead_belowverticalline> <UA75B>                                : "ꝛ̩"   # ꝛ (R Rotunda) + Vertical Line Below
 <dead_belowverticalline> <S>                                    : "S̩"
 <dead_belowverticalline> <s>                                    : "s̩"
 <dead_belowverticalline> <U01A9>                                : "Ʃ̩"   # Ʃ (Esh) + Vertical Line Below

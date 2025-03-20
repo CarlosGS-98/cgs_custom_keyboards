@@ -167,8 +167,8 @@
 <U032F> <U21BA> <r>                             : "ɹ̯"   # ɹ + Inverted Breve Below
 <U032F> <U01A6>                                 : "Ʀ̯"   # Ʀ (Yr) + Inverted Breve Below
 <U032F> <U0280>                                 : "ʀ̯"   # ʀ (Yr) + Inverted Breve Below
-<U032F> <A75A>                                  : "Ꝛ̯"   # Ꝛ (R Rotunda) + Inverted Breve Below
-<U032F> <A75B>                                  : "ꝛ̯"   # ꝛ (R Rotunda) + Inverted Breve Below
+<U032F> <UA75A>                                 : "Ꝛ̯"   # Ꝛ (R Rotunda) + Inverted Breve Below
+<U032F> <UA75B>                                 : "ꝛ̯"   # ꝛ (R Rotunda) + Inverted Breve Below
 <U032F> <S>                                     : "S̯"
 <U032F> <s>                                     : "s̯"
 <U032F> <U01A9>                                 : "Ʃ̯"   # Ʃ (Esh) + Inverted Breve Below

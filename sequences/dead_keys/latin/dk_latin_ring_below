@@ -166,8 +166,8 @@
 <dead_belowring> <U21BA> <r>                            : "ɹ̥"   # ɹ + Ring Below
 <dead_belowring> <U01A6>                                : "Ʀ̥"   # Ʀ (Yr) + Ring Below
 <dead_belowring> <U0280>                                : "ʀ̥"   # ʀ (Yr) + Ring Below
-<dead_belowring> <A75A>                                 : "Ꝛ̥"   # Ꝛ (R Rotunda) + Ring Below
-<dead_belowring> <A75B>                                 : "ꝛ̥"   # ꝛ (R Rotunda) + Ring Below
+<dead_belowring> <UA75A>                                : "Ꝛ̥"   # Ꝛ (R Rotunda) + Ring Below
+<dead_belowring> <UA75B>                                : "ꝛ̥"   # ꝛ (R Rotunda) + Ring Below
 <dead_belowring> <S>                                    : "S̥"
 <dead_belowring> <s>                                    : "s̥"
 <dead_belowring> <U01A9>                                : "Ʃ̥"   # Ʃ (Esh) + Ring Below

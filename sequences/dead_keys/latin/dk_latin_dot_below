@@ -234,8 +234,8 @@
 <dead_belowdot> <U21BA> <r>                             : "ɹ̣"   # ɹ + Dot Below
 <dead_belowdot> <U01A6>                                 : "Ʀ̣"   # Ʀ (Yr) + Dot Below
 <dead_belowdot> <U0280>                                 : "ʀ̣"   # ʀ (Yr) + Dot Below
-<dead_belowdot> <A75A>                                  : "Ꝛ̣"   # Ꝛ (R Rotunda) + Dot Below
-<dead_belowdot> <A75B>                                  : "ꝛ̣"   # ꝛ (R Rotunda) + Dot Below
+<dead_belowdot> <UA75A>                                 : "Ꝛ̣"   # Ꝛ (R Rotunda) + Dot Below
+<dead_belowdot> <UA75B>                                 : "ꝛ̣"   # ꝛ (R Rotunda) + Dot Below
 <dead_belowdot> <U01A9>                                 : "Ʃ̣"   # Ʃ (Esh) + Dot Below
 <dead_belowdot> <U0283>                                 : "ʃ̣"   # ʃ (Esh) + Dot Below
 <dead_belowdot> <U035A> <S>                             : "Ʃ̣"   # Ʃ (Esh) + Dot Below

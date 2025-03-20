@@ -166,8 +166,8 @@
 <dead_belowbreve> <U21BA> <r>                           : "ɹ̮"   # ɹ + Breve Below
 <dead_belowbreve> <U01A6>                               : "Ʀ̮"   # Ʀ (Yr) + Breve Below
 <dead_belowbreve> <U0280>                               : "ʀ̮"   # ʀ (Yr) + Breve Below
-<dead_belowbreve> <A75A>                                : "Ꝛ̮"   # Ꝛ (R Rotunda) + Breve Below
-<dead_belowbreve> <A75B>                                : "ꝛ̮"   # ꝛ (R Rotunda) + Breve Below
+<dead_belowbreve> <UA75A>                               : "Ꝛ̮"   # Ꝛ (R Rotunda) + Breve Below
+<dead_belowbreve> <UA75B>                               : "ꝛ̮"   # ꝛ (R Rotunda) + Breve Below
 <dead_belowbreve> <S>                                   : "S̮"
 <dead_belowbreve> <s>                                   : "s̮"
 <dead_belowbreve> <U01A9>                               : "Ʃ̮"   # Ʃ (Esh) + Breve Below

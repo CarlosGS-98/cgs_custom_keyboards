@@ -174,8 +174,8 @@
 <U0334> <U21BA> <r>                             : "ɹ̴"   # ɹ + Middle Tilde
 <U0334> <U01A6>                                 : "Ʀ̴"   # Ʀ (Yr) + Middle Tilde
 <U0334> <U0280>                                 : "ʀ̴"   # ʀ (Yr) + Middle Tilde
-<U0334> <A75A>                                  : "Ꝛ̴"   # Ꝛ (R Rotunda) + Middle Tilde
-<U0334> <A75B>                                  : "ꝛ̴"   # ꝛ (R Rotunda) + Middle Tilde
+<U0334> <UA75A>                                 : "Ꝛ̴"   # Ꝛ (R Rotunda) + Middle Tilde
+<U0334> <UA75B>                                 : "ꝛ̴"   # ꝛ (R Rotunda) + Middle Tilde
 <U0334> <S>                                     : "S̴"
 <U0334> <U017F>                                 : "ſ̴"   # ſ (Long S) + Middle Tilde
 <U0334> <U1E9E>                                 : "ẞ̴"   # ẞ (Eszett) + Middle Tilde

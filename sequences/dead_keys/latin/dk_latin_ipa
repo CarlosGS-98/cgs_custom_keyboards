@@ -11,10 +11,14 @@
 #
 
 # IPA Sounds (Alphabetical)
+<U035A> <D> <D>                         : "ʭ"   # Bidental percussive
+<U035A> <d> <d>                         : "ʭ"   # Bidental percussive
 <U035A> <E>                             : "Ə"   # Schwa
 <U035A> <e>                             : "ə"   # Schwa
 <U035A> <minus> <E>                     : "ɘ"   # Close-mid central unrounded vowel
 <U035A> <minus> <e>                     : "ɘ"   # Close-mid central unrounded vowel
+<U035A> <H>                             : "ɧ"   # SJ-Sound
+<U035A> <h>                             : "ɧ"   # SJ-Sound
 <U035A> <I>                             : "Ɪ"   # Near-close near-front unrounded vowel
 <U035A> <i>                             : "ɪ"   # Near-close near-front unrounded vowel
 <U035A> <J>                             : "ɟ"   # Barred Dotless J

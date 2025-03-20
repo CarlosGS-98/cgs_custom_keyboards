@@ -171,8 +171,8 @@
 <dead_belowdiaeresis> <U21BA> <r>                           : "ɹ̤"   # ɹ + Diaeresis Below
 <dead_belowdiaeresis> <U01A6>                               : "Ʀ̤"   # Ʀ (Yr) + Diaeresis Below
 <dead_belowdiaeresis> <U0280>                               : "ʀ̤"   # ʀ (Yr) + Diaeresis Below
-<dead_belowdiaeresis> <A75A>                                : "Ꝛ̤"   # Ꝛ (R Rotunda) + Diaeresis Below
-<dead_belowdiaeresis> <A75B>                                : "ꝛ̤"   # ꝛ (R Rotunda) + Diaeresis Below
+<dead_belowdiaeresis> <UA75A>                                : "Ꝛ̤"   # Ꝛ (R Rotunda) + Diaeresis Below
+<dead_belowdiaeresis> <UA75B>                                : "ꝛ̤"   # ꝛ (R Rotunda) + Diaeresis Below
 <dead_belowdiaeresis> <S>                                   : "S̤"
 <dead_belowdiaeresis> <s>                                   : "s̤"
 <dead_belowdiaeresis> <U017F>                               : "ſ̤"   # ſ (Long S) + Diaeresis Below

@@ -20,6 +20,12 @@
 <U0359> <comma> <comma>     : "˞"   # Modifier letter rhotic hook   | (Its letters will start with the combination <U0359> <comma> (...))
 <U0359> <period> <period>   : "˞"   # Modifier letter rhotic hook   | (Its letters will start with the combination <U0359> <period> (...))
 
+
+# Basic precomposed retroflex hook letter combinations
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+<U0359> <greater> <!>   : "𝼊"
+
 ##################
 # [END OF RULES] #
 ##################

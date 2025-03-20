@@ -96,7 +96,6 @@
 # Precomposed retroflex hook letter combinations
 # [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
 #
-<U0359> <greater> <!>                   : "𝼊"
 #<U0359> <greater> <A>                  : "¿?" (Not encoded yet)
 <U0359> <greater> <a>                   : "ᶏ"
 #<U0359> <greater> <U2C6D>              : "¿?" (Not encoded yet)

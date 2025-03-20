@@ -215,8 +215,8 @@
 <dead_stroke> <U21BA> <r>                           : "ɹ̑"   # ɹ + Stroke
 <dead_stroke> <U01A6>                               : "Ʀ̵"   # Ʀ (Yr) + Stroke
 <dead_stroke> <U0280>                               : "ʀ̵"   # ʀ (Yr) + Stroke
-<dead_stroke> <A75A>                                : "Ꝛ̵"   # Ꝛ (R Rotunda) + Stroke
-<dead_stroke> <A75B>                                : "ꝛ̵"   # ꝛ (R Rotunda) + Stroke
+<dead_stroke> <UA75A>                               : "Ꝛ̵"   # Ꝛ (R Rotunda) + Stroke
+<dead_stroke> <UA75B>                               : "ꝛ̵"   # ꝛ (R Rotunda) + Stroke
 <dead_stroke> <U1E9E>                               : "ẞ̵"   # ẞ (Eszett) + Stroke
 <dead_stroke> <ssharp>                              : "ß̵"
 <dead_stroke> <U01A9>                               : "Ʃ̑"   # Ʃ (Esh) + Stroke

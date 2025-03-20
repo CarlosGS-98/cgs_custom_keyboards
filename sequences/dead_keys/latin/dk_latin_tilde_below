@@ -168,8 +168,8 @@
 <dead_belowtilde> <U21BA> <r>                           : "ɹ̰"   # ɹ + Tilde Below
 <dead_belowtilde> <U01A6>                               : "Ʀ̰"   # Ʀ (Yr) + Tilde Below
 <dead_belowtilde> <U0280>                               : "ʀ̰"   # ʀ (Yr) + Tilde Below
-<dead_belowtilde> <A75A>                                : "Ꝛ̰"   # Ꝛ (R Rotunda) + Tilde Below
-<dead_belowtilde> <A75B>                                : "ꝛ̰"   # ꝛ (R Rotunda) + Tilde Below
+<dead_belowtilde> <UA75A>                               : "Ꝛ̰"   # Ꝛ (R Rotunda) + Tilde Below
+<dead_belowtilde> <UA75B>                               : "ꝛ̰"   # ꝛ (R Rotunda) + Tilde Below
 <dead_belowtilde> <S>                                   : "S̰"
 <dead_belowtilde> <s>                                   : "s̰"
 <dead_belowtilde> <U01A9>                               : "Ʃ̰"   # Ʃ (Esh) + Tilde Below

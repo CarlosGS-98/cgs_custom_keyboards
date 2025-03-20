@@ -195,8 +195,8 @@
 <dead_cedilla> <U21BA> <r>                          : "ɹ̧"   # ɹ + Cedilla
 <dead_cedilla> <U01A6>                              : "Ʀ̧"   # Ʀ (Yr) + Cedilla
 <dead_cedilla> <U0280>                              : "ʀ̧"   # ʀ (Yr) + Cedilla
-<dead_cedilla> <A75A>                               : "Ꝛ̧"   # Ꝛ (R Rotunda) + Cedilla
-<dead_cedilla> <A75B>                               : "ꝛ̧"   # ꝛ (R Rotunda) + Cedilla
+<dead_cedilla> <UA75A>                              : "Ꝛ̧"   # Ꝛ (R Rotunda) + Cedilla
+<dead_cedilla> <UA75B>                              : "ꝛ̧"   # ꝛ (R Rotunda) + Cedilla
 <dead_cedilla> <U1E9E>                              : "ẞ̧"   # ẞ (Eszett) + Cedilla
 <dead_cedilla> <ssharp>                             : "ß̧"
 <dead_cedilla> <U01A9>                              : "Ʃ̧"   # Ʃ (Esh) + Cedilla

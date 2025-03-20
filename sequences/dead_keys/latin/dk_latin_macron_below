@@ -170,8 +170,8 @@
 <dead_belowmacron> <U21BA> <r>                          : "ɹ̱"   # ɹ + Macron Below
 <dead_belowmacron> <U01A6>                              : "Ʀ̱"   # Ʀ (Yr) + Macron Below
 <dead_belowmacron> <U0280>                              : "ʀ̱"   # ʀ (Yr) + Macron Below
-<dead_belowmacron> <A75A>                               : "Ꝛ̱"   # Ꝛ (R Rotunda) + Macron Below
-<dead_belowmacron> <A75B>                               : "ꝛ̱"   # ꝛ (R Rotunda) + Macron Below
+<dead_belowmacron> <UA75A>                              : "Ꝛ̱"   # Ꝛ (R Rotunda) + Macron Below
+<dead_belowmacron> <UA75B>                              : "ꝛ̱"   # ꝛ (R Rotunda) + Macron Below
 <dead_belowmacron> <S>                                  : "S̱"
 <dead_belowmacron> <s>                                  : "s̱"
 <dead_belowmacron> <U01A9>                              : "Ʃ̱"   # Ʃ (Esh) + Macron Below

@@ -175,8 +175,8 @@
 <dead_ogonek> <U21BA> <r>                           : "ɹ̨"   # ɹ + Ogonek
 <dead_ogonek> <U01A6>                               : "Ʀ̨"   # Ʀ (Yr) + Ogonek
 <dead_ogonek> <U0280>                               : "ʀ̨"   # ʀ (Yr) + Ogonek
-<dead_ogonek> <A75A>                                : "Ꝛ̨"   # Ꝛ (R Rotunda) + Ogonek
-<dead_ogonek> <A75B>                                : "ꝛ̨"   # ꝛ (R Rotunda) + Ogonek
+<dead_ogonek> <UA75A>                               : "Ꝛ̨"   # Ꝛ (R Rotunda) + Ogonek
+<dead_ogonek> <UA75B>                               : "ꝛ̨"   # ꝛ (R Rotunda) + Ogonek
 <dead_ogonek> <S>                                   : "S̨"
 <dead_ogonek> <s>                                   : "s̨"
 <dead_ogonek> <U1E9E>                               : "ẞ̨"   # ẞ (Eszett) + Ogonek

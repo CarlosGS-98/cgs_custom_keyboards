@@ -170,8 +170,8 @@
 <dead_belowcircumflex> <U21BA> <r>                          : "ɹ̭"   # ɹ + Circumflex Below
 <dead_belowcircumflex> <U01A6>                              : "Ʀ̭"   # Ʀ (Yr) + Circumflex Below
 <dead_belowcircumflex> <U0280>                              : "ʀ̭"   # ʀ (Yr) + Circumflex Below
-<dead_belowcircumflex> <A75A>                               : "Ꝛ̭"   # Ꝛ (R Rotunda) + Circumflex Below
-<dead_belowcircumflex> <A75B>                               : "ꝛ̭"   # ꝛ (R Rotunda) + Circumflex Below
+<dead_belowcircumflex> <UA75A>                              : "Ꝛ̭"   # Ꝛ (R Rotunda) + Circumflex Below
+<dead_belowcircumflex> <UA75B>                              : "ꝛ̭"   # ꝛ (R Rotunda) + Circumflex Below
 <dead_belowcircumflex> <S>                                  : "S̭"
 <dead_belowcircumflex> <s>                                  : "s̭"
 <dead_belowcircumflex> <U01A9>                              : "Ʃ̭"   # Ʃ (Esh) + Circumflex Below

@@ -167,8 +167,8 @@
 <U1DCE> <U21BA> <r>                             : "ɹ᷎"   # ɹ + Ogonek Above
 <U1DCE> <U01A6>                                 : "Ʀ᷎"   # Ʀ (Yr) + Ogonek Above
 <U1DCE> <U0280>                                 : "ʀ᷎"   # ʀ (Yr) + Ogonek Above
-<U1DCE> <A75A>                                  : "Ꝛ᷎"   # Ꝛ (R Rotunda) + Ogonek Above
-<U1DCE> <A75B>                                  : "ꝛ᷎"   # ꝛ (R Rotunda) + Ogonek Above
+<U1DCE> <UA75A>                                 : "Ꝛ᷎"   # Ꝛ (R Rotunda) + Ogonek Above
+<U1DCE> <UA75B>                                 : "ꝛ᷎"   # ꝛ (R Rotunda) + Ogonek Above
 <U1DCE> <S>                                     : "S᷎"
 <U1DCE> <s>                                     : "s᷎"
 <U1DCE> <U1E9E>                                 : "ẞ᷎"   # ẞ (Eszett) + Ogonek Above

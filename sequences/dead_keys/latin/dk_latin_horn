@@ -211,8 +211,8 @@
 <dead_horn> <U21BA> <r>                             : "ɹ̛"   # ɹ + Horn
 <dead_horn> <U01A6>                                 : "Ʀ̛"   # Ʀ (Yr) + Horn
 <dead_horn> <U0280>                                 : "ʀ̛"   # ʀ (Yr) + Horn
-<dead_horn> <A75A>                                  : "Ꝛ̛"   # Ꝛ (R Rotunda) + Horn
-<dead_horn> <A75B>                                  : "ꝛ̛"   # ꝛ (R Rotunda) + Horn
+<dead_horn> <UA75A>                                 : "Ꝛ̛"   # Ꝛ (R Rotunda) + Horn
+<dead_horn> <UA75B>                                 : "ꝛ̛"   # ꝛ (R Rotunda) + Horn
 <dead_horn> <S>                                     : "S̛"
 <dead_horn> <s>                                     : "s̛"
 <dead_horn> <U1E9E>                                 : "ẞ̛"   # ẞ (Eszett) + Horn

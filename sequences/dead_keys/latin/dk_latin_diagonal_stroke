@@ -192,8 +192,8 @@
 <dead_longsolidusoverlay> <U21BA> <r>                           : "ɹ̸"   # ɹ + Diagonal Stroke
 <dead_longsolidusoverlay> <U01A6>                               : "Ʀ̸"   # Ʀ (Yr) + Diagonal Stroke
 <dead_longsolidusoverlay> <U0280>                               : "ʀ̸"   # ʀ (Yr) + Diagonal Stroke
-<dead_longsolidusoverlay> <A75A>                                : "Ꝛ̸"   # Ꝛ (R Rotunda) + Diagonal Stroke
-<dead_longsolidusoverlay> <A75B>                                : "ꝛ̸"   # ꝛ (R Rotunda) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA75A>                                : "Ꝛ̸"   # Ꝛ (R Rotunda) + Diagonal Stroke
+<dead_longsolidusoverlay> <UA75B>                                : "ꝛ̸"   # ꝛ (R Rotunda) + Diagonal Stroke
 <dead_longsolidusoverlay> <U1E9E>                               : "ẞ̸"   # ẞ (Eszett) + Diagonal Stroke
 <dead_longsolidusoverlay> <ssharp>                              : "ß̸"
 <dead_longsolidusoverlay> <U01A9>                               : "Ʃ̸"   # Ʃ (Esh) + Diagonal Stroke

@@ -167,8 +167,8 @@
 <dead_aboveverticalline> <U21BA> <r>                            : "ɹ̍"   # ɹ + Vertical Line Above
 <dead_aboveverticalline> <U01A6>                                : "Ʀ̍"   # Ʀ (Yr) + Vertical Line Above
 <dead_aboveverticalline> <U0280>                                : "ʀ̍"   # ʀ (Yr) + Vertical Line Above
-<dead_aboveverticalline> <A75A>                                 : "Ꝛ̍"   # Ꝛ (R Rotunda) + Vertical Line Above
-<dead_aboveverticalline> <A75B>                                 : "ꝛ̍"   # ꝛ (R Rotunda) + Vertical Line Above
+<dead_aboveverticalline> <UA75A>                                : "Ꝛ̍"   # Ꝛ (R Rotunda) + Vertical Line Above
+<dead_aboveverticalline> <UA75B>                                : "ꝛ̍"   # ꝛ (R Rotunda) + Vertical Line Above
 <dead_aboveverticalline> <S>                                    : "S̍"
 <dead_aboveverticalline> <s>                                    : "s̍"
 <dead_aboveverticalline> <U01A9>                                : "Ʃ̍"   # Ʃ (Esh) + Vertical Line Above
