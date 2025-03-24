@@ -27,10 +27,10 @@
 # IPA Sounds (Non-Alphabetical)
 <U035A> <0>             : "ʘ"   # Bilabial click
 <U035A> <bar> <bar>     : "ǁ"   # Lateral click
-<U035A> <bar> <equal>   : "ǂ"   # Alveolar click
+<U035A> <bar> <equal>   : "ǂ"   # Palatal click
 <U035A> <bar> <space>   : "ǀ"   # Dental click
-<U035A> <equal> <bar>   : "ǂ"   # Alveolar click
-<U035A> <exclam>        : "ǃ"   # Retroflex click
+<U035A> <equal> <bar>   : "ǂ"   # Palatal click
+<U035A> <exclam>        : "ǃ"   # Alveolar click
 <U035A> <minus> <minus> : "ʭ"   # Bidental percussive
 <U035A> <question>      : "ʔ"   # Glottal stop
 <U035A> <questiondown>  : "ʕ"   # Voiced pharyngeal fricative
