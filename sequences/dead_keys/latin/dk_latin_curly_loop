@@ -4,7 +4,6 @@
 # Precomposed belt+curl+loop letter combinations
 # [Main source]: https://fr.wikipedia.org/wiki/Boucle_(diacritique)
 #
-
 <U035B> <C>                             : "𝼏" 
 <U035B> <c>                             : "ɕ"
 #<U035B> <D>                            : "¿?" (Not encoded yet)
@@ -47,6 +46,13 @@
 <U035B> <z>                             : "ʑ"
 #<U035B> <EZH>                          : "¿?" (Not encoded yet)
 <U035B> <ezh>                           : "ʓ"
+
+
+# Composed belt+curl+loop combinations (Not directly encoded in Unicode) (Unidirectional)
+# [Main source]: https://fr.wikipedia.org/wiki/Boucle_(diacritique)
+#
+<U035B> <U21BA> <Y> : "𝼆"
+<U035B> <U21BA> <y> : "𝼆"
 
 ##################
 # [END OF RULES] #

@@ -27,8 +27,24 @@
 <U1DCF> <D> <Z>             : "Ǳ"
 <U1DCF> <D> <z>             : "ǲ"
 <U1DCF> <d> <z>             : "ǳ"
+<U1DCF> <D> <z>             : "ǲ"
+<U1DCF> <d> <z>             : "ǳ"
+<U1DCF> <minus> <D> <Z>     : "ʣ"
+<U1DCF> <minus> <d> <z>     : "ʣ"
+<U1DCF> <D> <U0291>         : "ʥ"   # d + ʑ
+<U1DCF> <d> <U0291>         : "ʥ"   # d + ʑ
+<U1DCF> <D> <U035B> <Z>     : "ʥ"
+<U1DCF> <d> <U035B> <z>     : "ʥ"
+<U1DCF> <d> <U0290>         : "ꭦ"    # d + ʐ
+<U1DCF> <D> <U0359> <greater> <Z>   : "ꭦ"
+<U1DCF> <d> <U0359> <greater> <z>   : "ꭦ"
 <U1DCF> <D> <EZH>           : "ʤ"
 <U1DCF> <d> <ezh>           : "ʤ"
+<U1DCF> <D> <U035A> <Z>     : "ʤ"
+<U1DCF> <d> <U035A> <z>     : "ʤ"
+<U1DCF> <d> <U1D9A>                 : "𝼙"   # d + ᶚ
+<U1DCF> <D> <U0359> <greater> <EZH> : "𝼙"
+<U1DCF> <d> <U0359> <greater> <ezh> : "𝼙"
 <U1DCF> <E> <A>             : "Ꞛ"  # Volapük Ä
 <U1DCF> <e> <a>             : "ꞛ"  # Volapük Ä
 <U1DCF> <E> <O>             : "Ꞝ"  # Volapük Ö
@@ -69,6 +85,12 @@
 <U1DCF> <l> <z>             : "ʫ"
 <U1DCF> <L> <EZH>           : "ɮ"
 <U1DCF> <l> <ezh>           : "ɮ"
+<U1DCF> <L> <U035A> <Z>     : "ɮ"
+<U1DCF> <l> <U035A> <z>     : "ɮ"
+<U1DCF> <U026D> <EZH>       : "𝼅"   # ɭ + Ʒ
+<U1DCF> <U026D> <ezh>       : "𝼅"   # ɭ + ʒ
+<U1DCF> <U0359> <greater> <L> <EZH> : "𝼅"
+<U1DCF> <U0359> <greater> <l> <ezh> : "𝼅"
 <U1DCF> <M> <W>             : "ꟿ"   # Manius
 <U1DCF> <m> <w>             : "ꟿ"   # Manius
 <U1DCF> <O> <E>             : "Œ"
@@ -99,10 +121,27 @@
 <U1DCF> <U017F> <t>         : "ﬅ"   # ſ (Long S) + t
 <U1DCF> <S> <Z>             : "ẞ"
 <U1DCF> <s> <z>             : "ß"
+<U1DCF> <T> <U1DF0F>        : "ʨ"  # T + 𝼏 
+<U1DCF> <T> <U0255>         : "ʨ"  # t + ɕ 
+<U1DCF> <T> <U035B> <C>     : "ʨ" 
+<U1DCF> <T> <U035B> <c>     : "ʨ"
 <U1DCF> <T> <S>             : "ʦ"
 <U1DCF> <t> <s>             : "ʦ"
+<U1DCF> <T> <UA7C5>         : "ꭧ"   # T + Ʂ
+<U1DCF> <t> <U0282>         : "ꭧ"   # t + ʂ
+<U1DCF> <T> <U0359> <greater> <S>   : "ꭧ"
+<U1DCF> <t> <U0359> <greater> <s>   : "ꭧ"
+<U1DCF> <T> <U01A9>         : "ʧ"   # T + Ʃ (Esh)
+<U1DCF> <t> <U0283>         : "ʧ"   # t + ʃ (Esh)
+<U1DCF> <T> <U035A> <S>     : "ʧ"   # T + Ʃ (Esh)
+<U1DCF> <t> <U035A> <s>     : "ʧ"   # t + ʃ (Esh)
+<U1DCF> <T> <U1D98>         : "𝼜"   # T + ᶘ (Esh) + Retroflex Hook
+<U1DCF> <T> <U0359> <greater> <U0283>   : "𝼜"   # T + ᶘ (Esh) + Retroflex Hook
+<U1DCF> <t> <U0359> <greater> <U0283>   : "𝼜"   # T + ᶘ (Esh) + Retroflex Hook
 <U1DCF> <T> <EZH>           : "Ꜩ"
 <U1DCF> <t> <ezh>           : "ꜩ"
+<U1DCF> <T> <U035A> <Z>     : "Ꜩ"
+<U1DCF> <t> <U035A> <z>     : "ꜩ"
 <U1DCF> <THORN> <THORN>     : "ꟓ"
 <U1DCF> <thorn> <thorn>     : "ꟓ"
 <U1DCF> <U> <E>             : "ᵫ"

@@ -41,6 +41,8 @@
 <U035A> <underscore> <r>                : "ɾ"   # Voiced alveolar flap
 <U035A> <S>                             : "Ʃ"   # Esh
 <U035A> <s>                             : "ʃ"   # Esh
+<U035A> <V>                             : "ⱱ"   # Labiodental flap
+<U035A> <v>                             : "ⱱ"   # Labiodental flap
 <U035A> <W> <W>                         : "ʬ"   # Bilabial percussive
 <U035A> <w> <w>                         : "ʬ"   # Bilabial percussive
 <U035A> <Z>                             : "Ʒ"   # Ezh

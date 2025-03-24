@@ -104,6 +104,8 @@
 <U0359> <greater> <c>                   : "𝼝"
 <U0359> <greater> <D>                   : "Ɖ"
 <U0359> <greater> <d>                   : "ɖ"
+<U0359> <greater> <ETH>                 : "ᶑ"   # Technical exception
+<U0359> <greater> <eth>                 : "ᶑ"   # Technical exception
 #<U0359> <greater> <E>                  : "¿?" (Not encoded yet)
 <U0359> <greater> <e>                   : "ᶒ"
 #<U0359> <greater> <U0190>              : "¿?" (Not encoded yet)

@@ -55,9 +55,9 @@
 <dead_stroke> <S>                                   : "Ꟊ"
 <dead_stroke> <s>                                   : "ꟊ"
 <dead_stroke> <U017F>                               : "ẝ"   # ſ (Long S) + Stroke
-<dead_stroke> <U1DFB> <minus> <S>                     : "ſ̬"
-<dead_stroke> <U1DFB> <minus> <s>                     : "ſ̬"
-<dead_stroke> <U0283>                                 : "ʃ̬"   # ʃ (Esh) + Stroke
+<dead_stroke> <U1DFB> <minus> <S>                   : "ẝ"
+<dead_stroke> <U1DFB> <minus> <s>                   : "ẝ"
+<dead_stroke> <U0283>                               : "ʄ"   # ʃ (Esh) + Stroke
 <dead_stroke> <U035A> <s>                           : "ʄ"
 <dead_stroke> <T>                                   : "Ŧ"
 <dead_stroke> <t>                                   : "ŧ"
