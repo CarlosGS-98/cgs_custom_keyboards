@@ -10,6 +10,32 @@
 # - https://emojipedia.org/es/banderas
 #
 
+# Color & Identity RGI Flags
+#
+# [Main source]: https://emojipedia.org/es/banderas
+#
+<Multi_key> <colon> <2> <J> <P> <colon>                                             : "🎌"
+<Multi_key> <colon> <2> <j> <p> <colon>                                             : "🎌"
+<Multi_key> <colon> <J> <O> <L> <L> <Y> <colon>                                     : "🏴‍☠️"
+<Multi_key> <colon> <j> <o> <l> <l> <y> <colon>                                     : "🏴‍☠️"
+<Multi_key> <colon> <J> <O> <L> <L> <Y> <R> <O> <G> <E> <R> <colon>                 : "🏴‍☠️"
+<Multi_key> <colon> <j> <o> <l> <l> <y> <r> <o> <g> <e> <r> <colon>                 : "🏴‍☠️"
+<Multi_key> <colon> <J> <O> <L> <L> <Y> <space> <R> <O> <G> <E> <R> <colon>         : "🏴‍☠️"
+<Multi_key> <colon> <j> <o> <l> <l> <y> <space> <r> <o> <g> <e> <r> <colon>         : "🏴‍☠️"
+<Multi_key> <colon> <J> <O> <L> <L> <Y> <underscore> <R> <O> <G> <E> <R> <colon>    : "🏴‍☠️"
+<Multi_key> <colon> <j> <o> <l> <l> <y> <underscore> <r> <o> <g> <e> <r> <colon>    : "🏴‍☠️"
+<Multi_key> <colon> <J> <P> <2> <colon>                                             : "🎌"
+<Multi_key> <colon> <j> <p> <2> <colon>                                             : "🎌"
+<Multi_key> <colon> <L> <G> <B> <T> <colon>                                         : "🏳️‍🌈"
+<Multi_key> <colon> <l> <g> <b> <t> <colon>                                         : "🏳️‍🌈"
+<Multi_key> <colon> <L> <G> <T> <B> <colon>                                         : "🏳️‍🌈"
+<Multi_key> <colon> <l> <g> <t> <b> <colon>                                         : "🏳️‍🌈"
+<Multi_key> <colon> <R> <O> <G> <E> <R> <colon>                                     : "🏴‍☠️"
+<Multi_key> <colon> <r> <o> <g> <e> <r> <colon>                                     : "🏴‍☠️"
+<Multi_key> <colon> <T> <R> <A> <N> <S> <colon>                                     : "🏳️‍⚧️"
+<Multi_key> <colon> <t> <r> <a> <n> <s> <colon>                                     : "🏳️‍⚧️"
+
+
 # ISO 3166-1 + CLDR Flag Sequences
 #
 # [Main source]: https://en.wikipedia.org/wiki/Regional_indicator_symbol#Emoji_flag_sequences
