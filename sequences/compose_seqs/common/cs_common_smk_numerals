@@ -1,0 +1,56 @@
+# Latin Alphabet | Numerals Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing cross-linguistic numeral symbols
+# > that can be input with alphabetical Latin characters
+# > by using the "Logic + Math Symbols" dead key (<U221D>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Numerals_in_Unicode
+#
+
+# Counting Rod Numerals/Tally Marks
+#
+# [Main source]: https://en.wikipedia.org/wiki/Counting_Rod_Numerals
+#
+<Multi_key> <U221D> <1> <space>                 : "𝍷"   # Tally Mark 1
+<Multi_key> <U221D> <5> <space>                 : "𝍸"   # Tally Mark 5
+<Multi_key> <U221D> <bar> <space>               : "𝍩"   # Counting rod Tens 1
+<Multi_key> <U221D> <bar> <2> <space>           : "𝍪"   # Counting rod Tens 2
+<Multi_key> <U221D> <bar> <3> <space>           : "𝍫"   # Counting rod Tens 3
+<Multi_key> <U221D> <bar> <4> <space>           : "𝍬"   # Counting rod Tens 4
+<Multi_key> <U221D> <bar> <5> <space>           : "𝍭"   # Counting rod Tens 5
+<Multi_key> <U221D> <bar> <6> <space>           : "𝍮"   # Counting rod Tens 6
+<Multi_key> <U221D> <bar> <7> <space>           : "𝍯"   # Counting rod Tens 7
+<Multi_key> <U221D> <bar> <8> <space>           : "𝍰"   # Counting rod Tens 8
+<Multi_key> <U221D> <bar> <9> <space>           : "𝍱"   # Counting rod Tens 9
+<Multi_key> <U221D> <2> <bar> <space>           : "𝍪"   # Counting rod Tens 2
+<Multi_key> <U221D> <2> <underscore> <space>    : "𝍡"   # Counting rod Unit 2
+<Multi_key> <U221D> <3> <bar> <space>           : "𝍫"   # Counting rod Tens 3
+<Multi_key> <U221D> <3> <underscore> <space>    : "𝍢"   # Counting rod Unit 3
+<Multi_key> <U221D> <4> <bar> <space>           : "𝍬"   # Counting rod Tens 4
+<Multi_key> <U221D> <4> <underscore> <space>    : "𝍣"   # Counting rod Unit 4
+<Multi_key> <U221D> <5> <bar> <space>           : "𝍭"   # Counting rod Tens 5
+<Multi_key> <U221D> <5> <underscore> <space>    : "𝍤"   # Counting rod Unit 5
+<Multi_key> <U221D> <6> <bar> <space>           : "𝍮"   # Counting rod Tens 6
+<Multi_key> <U221D> <6> <underscore> <space>    : "𝍥"   # Counting rod Unit 6
+<Multi_key> <U221D> <7> <bar> <space>           : "𝍯"   # Counting rod Tens 7
+<Multi_key> <U221D> <7> <underscore> <space>    : "𝍦"   # Counting rod Unit 7
+<Multi_key> <U221D> <8> <bar> <space>           : "𝍰"   # Counting rod Tens 8
+<Multi_key> <U221D> <8> <underscore> <space>    : "𝍧"   # Counting rod Unit 8
+<Multi_key> <U221D> <9> <bar> <space>           : "𝍱"   # Counting rod Tens 9
+<Multi_key> <U221D> <9> <underscore> <space>    : "𝍨"   # Counting rod Unit 9
+<Multi_key> <U221D> <underscore> <space>        : "𝍠"   # Counting rod Unit 1
+<Multi_key> <U221D> <underscore> <2> <space>    : "𝍡"   # Counting rod Unit 2
+<Multi_key> <U221D> <underscore> <3> <space>    : "𝍢"   # Counting rod Unit 3
+<Multi_key> <U221D> <underscore> <4> <space>    : "𝍣"   # Counting rod Unit 4
+<Multi_key> <U221D> <underscore> <5> <space>    : "𝍤"   # Counting rod Unit 5
+<Multi_key> <U221D> <underscore> <6> <space>    : "𝍥"   # Counting rod Unit 6
+<Multi_key> <U221D> <underscore> <7> <space>    : "𝍦"   # Counting rod Unit 7
+<Multi_key> <U221D> <underscore> <8> <space>    : "𝍧"   # Counting rod Unit 8
+<Multi_key> <U221D> <underscore> <9> <space>    : "𝍨"   # Counting rod Unit 9
+
+##################
+# [END OF RULES] #
+##################
