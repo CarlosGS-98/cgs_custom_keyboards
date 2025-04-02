@@ -20,6 +20,11 @@
 <U21BA> <greater>   : "↻"   # Clockwise Open Circle Arrow
 
 
+# Reversed Digits
+<U21BA> <2> : "↊"   # Turned digit Two   | Duodecimal 10
+<U21BA> <3> : "↋"   # Turned digit Three | Duodecimal 11
+
+
 # Reversed Punctuation
 <U21BA> <comma>         : "،"   # Arabic comma
 <U21BA> <period>        : "·"   # Ano Teleia
