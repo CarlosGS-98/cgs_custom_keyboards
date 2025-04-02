@@ -1,4 +1,4 @@
-# Latin Alphabet | Numerals Rules
+# Common Compose Sequences | Numerals Rules
 # [AUTHOR]: Carlos González Sanz
 #
 # > The purpose of this file is to store default
@@ -41,6 +41,11 @@
 <Multi_key> <U221D> <8> <underscore> <space>    : "𝍧"   # Counting rod Unit 8
 <Multi_key> <U221D> <9> <bar> <space>           : "𝍱"   # Counting rod Tens 9
 <Multi_key> <U221D> <9> <underscore> <space>    : "𝍨"   # Counting rod Unit 9
+<Multi_key> <U221D> <plus> <1> <space>          : "𝍲"   # Ideographic Tally Mark 1
+<Multi_key> <U221D> <plus> <2> <space>          : "𝍳"   # Ideographic Tally Mark 2
+<Multi_key> <U221D> <plus> <3> <space>          : "𝍴"   # Ideographic Tally Mark 3
+<Multi_key> <U221D> <plus> <4> <space>          : "𝍵"   # Ideographic Tally Mark 4
+<Multi_key> <U221D> <plus> <5> <space>          : "𝍶"   # Ideographic Tally Mark 5
 <Multi_key> <U221D> <underscore> <space>        : "𝍠"   # Counting rod Unit 1
 <Multi_key> <U221D> <underscore> <2> <space>    : "𝍡"   # Counting rod Unit 2
 <Multi_key> <U221D> <underscore> <3> <space>    : "𝍢"   # Counting rod Unit 3

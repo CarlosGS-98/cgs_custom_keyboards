@@ -25,8 +25,12 @@
 <U232C> <less> <x> <bar>                : "⌫"  # Erase to the left
 <U232C> <less> <H> <greater>            : "⌂"   # House
 <U232C> <less> <h> <greater>            : "⌂"   # House
+<U232C> <M> <space>                     : "µ"   # Micro Sign
+<U232C> <m> <space>                     : "µ"   # Micro Sign
 <U232C> <M> <H> <O>                     : "℧"   # Mho (Inverted Ohm) Symbol
 <U232C> <m> <h> <o>                     : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <M> <I> <C> <R> <O>             : "µ"   # Micro Sign
+<U232C> <m> <i> <c> <r> <o>             : "µ"   # Micro Sign
 <U232C> <O> <H> <M>                     : "Ω"   # Ohm Symbol
 <U232C> <o> <h> <m>                     : "Ω"   # Ohm Symbol
 <U232C> <Oslash>                        : "⌀"   # Diameter sign
