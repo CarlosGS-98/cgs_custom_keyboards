@@ -14,280 +14,313 @@
 #
 # [NOTE]: All symbols listed here are enclosed inside curly brackets.
 #
-<Multi_key> <U232C> <bracketleft> <A> <M> <P> <H> <I> <T> <R> <I> <T> <E> <bracketright>                    : "𜻏"   # MPC: 29 Amphitrite
-<Multi_key> <U232C> <bracketleft> <a> <m> <p> <h> <i> <t> <r> <i> <t> <e> <bracketright>                    : "𜻏"   # MPC: 29 Amphitrite
-<Multi_key> <U232C> <bracketleft> <A> <N> <F> <I> <T> <R> <I> <T> <E> <bracketright>                        : "𜻏"   # MPC: 29 Amphitrite
-<Multi_key> <U232C> <bracketleft> <a> <n> <f> <i> <t> <r> <i> <t> <e> <bracketright>                        : "𜻏"   # MPC: 29 Amphitrite
-# <Multi_key> <U232C> <bracketleft> <A> <P> <O> <F> <I> <S> <bracketright>                                  : "¿?"   # MPC: 99942 Apophis
-# <Multi_key> <U232C> <bracketleft> <a> <p> <o> <f> <i> <s> <bracketright>                                  : "¿?"   # MPC: 99942 Apophis
-# <Multi_key> <U232C> <bracketleft> <A> <P> <Oacute> <F> <I> <S> <bracketright>                             : "¿?"   # MPC: 99942 Apophis
-# <Multi_key> <U232C> <bracketleft> <a> <p> <oacute> <f> <i> <s> <bracketright>                             : "¿?"   # MPC: 99942 Apophis
-# <Multi_key> <U232C> <bracketleft> <A> <P> <dead_acute> <O> <F> <I> <S> <bracketright>                     : "¿?"   # MPC: 99942 Apophis
-# <Multi_key> <U232C> <bracketleft> <a> <p> <dead_acute> <o> <f> <i> <s> <bracketright>                     : "¿?"   # MPC: 99942 Apophis
-# <Multi_key> <U232C> <bracketleft> <A> <P> <O> <P> <H> <I> <S> <bracketright>                              : "¿?"   # MPC: 99942 Apophis
-# <Multi_key> <U232C> <bracketleft> <a> <p> <o> <p> <h> <i> <s> <bracketright>                              : "¿?"   # MPC: 99942 Apophis
-<Multi_key> <U232C> <bracketleft> <A> <S> <T> <R> <A> <E> <A> <bracketright>                                : "🝸"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <a> <s> <t> <r> <a> <e> <a> <bracketright>                                : "⚖"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <A> <S> <T> <R> <E> <A> <bracketright>                                    : "🝸"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <a> <s> <t> <r> <e> <a> <bracketright>                                    : "⚖"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <A> <S> <T> <R> <Eacute> <E> <bracketright>                               : "🝸"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <a> <s> <t> <r> <eacute> <e> <bracketright>                               : "⚖"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <A> <S> <T> <R> <dead_acute> <E> <E> <bracketright>                       : "🝸"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <a> <s> <t> <r> <dead_acute> <e> <e> <bracketright>                       : "⚖"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <A> <S> <T> <R> <E> <I> <A> <bracketright>                                : "🝸"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <a> <s> <t> <r> <e> <i> <a> <bracketright>                                : "⚖"   # MPC: 5 Astraea
-<Multi_key> <U232C> <bracketleft> <A> <U> <M> <Eacute> <A> <bracketright>                                   : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <a> <u> <m> <eacute> <a> <bracketright>                                   : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <A> <U> <M> <dead_acute> <E> <A> <bracketright>                           : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <a> <u> <m> <dead_acute> <e> <a> <bracketright>                           : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <B> <E> <L> <O> <N> <A> <bracketright>                                    : "𜻎"   # MPC: 28 Belona
-<Multi_key> <U232C> <bracketleft> <b> <e> <l> <o> <n> <a> <bracketright>                                    : "𜻎"   # MPC: 28 Belona
-<Multi_key> <U232C> <bracketleft> <B> <E> <L> <L> <O> <N> <A> <bracketright>                                : "𜻎"   # MPC: 28 Belona
-<Multi_key> <U232C> <bracketleft> <b> <e> <l> <l> <o> <n> <a> <bracketright>                                : "𜻎"   # MPC: 28 Belona
-<Multi_key> <U232C> <bracketleft> <B> <E> <L> <L> <O> <N> <E> <bracketright>                                : "𜻎"   # MPC: 28 Belona
-<Multi_key> <U232C> <bracketleft> <b> <e> <l> <l> <o> <n> <e> <bracketright>                                : "𜻎"   # MPC: 28 Belona
-<Multi_key> <U232C> <bracketleft> <C> <E> <R> <E> <S> <bracketright>                                        : "⚳"   # MPC: 1 Ceres
-<Multi_key> <U232C> <bracketleft> <c> <e> <r> <e> <s> <bracketright>                                        : "⚳"   # MPC: 1 Ceres
-<Multi_key> <U232C> <bracketleft> <E> <G> <E> <R> <I> <A> <bracketright>                                    : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <e> <g> <e> <r> <i> <a> <bracketright>                                    : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <E> <G> <Eacute> <R> <I> <A> <bracketright>                               : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <e> <g> <eacute> <r> <i> <a> <bracketright>                               : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <E> <G> <dead_acute> <E> <R> <I> <A> <bracketright>                       : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <e> <g> <dead_acute> <e> <r> <i> <a> <bracketright>                       : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <Eacute> <G> <Eacute> <R> <I> <E> <bracketright>                          : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <eacute> <g> <eacute> <r> <i> <e> <bracketright>                          : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <dead_acute> <E> <G> <dead_acute> <E> <R> <I> <E> <bracketright>          : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <dead_acute> <e> <g> <dead_acute> <e> <r> <i> <e> <bracketright>          : "𜻆"   # MPC: 13 Egeria
-<Multi_key> <U232C> <bracketleft> <E> <R> <I> <S> <bracketright>                                            : "⯰"   # MPC: 136199 Eris
-<Multi_key> <U232C> <bracketleft> <e> <r> <i> <s> <bracketright>                                            : "⯰"   # MPC: 136199 Eris
-<Multi_key> <U232C> <bracketleft> <Eacute> <R> <I> <S> <bracketright>                                       : "⯰"   # MPC: 136199 Eris
-<Multi_key> <U232C> <bracketleft> <eacute> <r> <i> <s> <bracketright>                                       : "⯰"   # MPC: 136199 Eris
-<Multi_key> <U232C> <bracketleft> <dead_acute> <E> <R> <I> <S> <bracketright>                               : "⯰"   # MPC: 136199 Eris
-<Multi_key> <U232C> <bracketleft> <dead_acute> <e> <r> <i> <s> <bracketright>                               : "⯰"   # MPC: 136199 Eris
-<Multi_key> <U232C> <bracketleft> <E> <U> <N> <O> <M> <I> <A> <bracketright>                                : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <e> <u> <n> <o> <m> <i> <a> <bracketright>                                : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <E> <U> <N> <Oacute> <M> <I> <A> <bracketright>                           : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <e> <u> <n> <oacute> <m> <i> <a> <bracketright>                           : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <E> <U> <N> <dead_acute> <O> <M> <I> <A> <bracketright>                   : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <e> <u> <n> <dead_acute> <o> <m> <i> <a> <bracketright>                   : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <E> <U> <N> <Ocircumflex> <M> <I> <A> <bracketright>                      : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <e> <u> <n> <ocircumflex> <m> <i> <a> <bracketright>                      : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <E> <U> <N> <dead_circumflex> <O> <M> <I> <A> <bracketright>              : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <e> <u> <n> <dead_circumflex> <o> <m> <i> <a> <bracketright>              : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <E> <U> <N> <O> <M> <I> <E> <bracketright>                                : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <e> <u> <n> <o> <m> <i> <e> <bracketright>                                : "𜻈"   # MPC: 15 Eunomia
-<Multi_key> <U232C> <bracketleft> <F> <I> <D> <E> <S> <bracketright>                                        : "✝"   # MPC: 37 Fides (Latin Cross)
-<Multi_key> <U232C> <bracketleft> <f> <i> <d> <e> <s> <bracketright>                                        : "✝"   # MPC: 37 Fides (Latin Cross)
-<Multi_key> <U232C> <bracketleft> <F> <I> <D> <Egrave> <S> <bracketright>                                   : "✝"   # MPC: 37 Fides (Latin Cross)
-<Multi_key> <U232C> <bracketleft> <f> <i> <d> <egrave> <s> <bracketright>                                   : "✝"   # MPC: 37 Fides (Latin Cross)
-<Multi_key> <U232C> <bracketleft> <F> <I> <D> <dead_grave> <E> <S> <bracketright>                           : "✝"   # MPC: 37 Fides (Latin Cross)
-<Multi_key> <U232C> <bracketleft> <f> <i> <d> <dead_grave> <e> <s> <bracketright>                           : "✝"   # MPC: 37 Fides (Latin Cross)
-<Multi_key> <U232C> <bracketleft> <F> <L> <O> <R> <A> <bracketright>                                        : "𜻂"   # MPC: 8 Flora
-<Multi_key> <U232C> <bracketleft> <f> <l> <o> <r> <a> <bracketright>                                        : "𜻂"   # MPC: 8 Flora
-<Multi_key> <U232C> <bracketleft> <F> <L> <O> <R> <E> <bracketright>                                        : "𜻂"   # MPC: 8 Flora
-<Multi_key> <U232C> <bracketleft> <f> <l> <o> <r> <e> <bracketright>                                        : "𜻂"   # MPC: 8 Flora
-<Multi_key> <U232C> <bracketleft> <F> <O> <R> <T> <U> <N> <A> <bracketright>                                : "𜻌"   # MPC: 19 Fortuna
-<Multi_key> <U232C> <bracketleft> <f> <o> <r> <t> <u> <n> <a> <bracketright>                                : "𜻌"   # MPC: 19 Fortuna
-<Multi_key> <U232C> <bracketleft> <F> <O> <R> <T> <U> <N> <E> <bracketright>                                : "𜻌"   # MPC: 19 Fortuna
-<Multi_key> <U232C> <bracketleft> <f> <o> <r> <t> <u> <n> <e> <bracketright>                                : "𜻌"   # MPC: 19 Fortuna
-<Multi_key> <U232C> <bracketleft> <G> <O> <N> <G> <G> <O> <N> <G> <bracketright>                            : "🝽"   # MPC: 225088 Gonggong
-<Multi_key> <U232C> <bracketleft> <g> <o> <n> <g> <g> <o> <n> <g> <bracketright>                            : "🝽"   # MPC: 225088 Gonggong
-<Multi_key> <U232C> <bracketleft> <H> <A> <U> <M> <E> <A> <bracketright>                                    : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <h> <a> <u> <m> <e> <a> <bracketright>                                    : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <H> <A> <U> <M> <Eacute> <A> <bracketright>                               : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <h> <a> <u> <m> <eacute> <a> <bracketright>                               : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <H> <A> <U> <M> <dead_acute> <E> <A> <bracketright>                       : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <h> <a> <u> <m> <dead_acute> <e> <a> <bracketright>                       : "🝻"   # MPC: 136108 Haumea
-<Multi_key> <U232C> <bracketleft> <H> <E> <B> <E> <bracketright>                                            : "𜻀"   # MPC: 6 Hebe
-<Multi_key> <U232C> <bracketleft> <h> <e> <b> <e> <bracketright>                                            : "𜻀"   # MPC: 6 Hebe
-<Multi_key> <U232C> <bracketleft> <H> <Eacute> <B> <Eacute> <bracketright>                                  : "𜻀"   # MPC: 6 Hebe
-<Multi_key> <U232C> <bracketleft> <h> <eacute> <b> <eacute> <bracketright>                                  : "𜻀"   # MPC: 6 Hebe
-<Multi_key> <U232C> <bracketleft> <H> <dead_acute> <E> <B> <dead_acute> <E> <bracketright>                  : "𜻀"   # MPC: 6 Hebe
-<Multi_key> <U232C> <bracketleft> <h> <dead_acute> <e> <b> <dead_acute> <e> <bracketright>                  : "𜻀"   # MPC: 6 Hebe
-<Multi_key> <U232C> <bracketleft> <H> <E> <R> <A> <bracketright>                                            : "⚵"   # MPC: 3 Juno
-<Multi_key> <U232C> <bracketleft> <h> <e> <r> <a> <bracketright>                                            : "⚵"   # MPC: 3 Juno
-<Multi_key> <U232C> <bracketleft> <H> <I> <G> <Iacute> <A> <bracketright>                                   : "🝹"   # MPC: 10 Hygiea
-<Multi_key> <U232C> <bracketleft> <h> <i> <g> <iacute> <a> <bracketright>                                   : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
-<Multi_key> <U232C> <bracketleft> <H> <I> <G> <dead_acute> <I> <A> <bracketright>                           : "🝹"   # MPC: 10 Hygiea
-<Multi_key> <U232C> <bracketleft> <h> <i> <g> <dead_acute> <i> <a> <bracketright>                           : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
-<Multi_key> <U232C> <bracketleft> <H> <Iacute> <G> <I> <A> <bracketright>                                   : "🝹"   # MPC: 10 Hygiea
-<Multi_key> <U232C> <bracketleft> <h> <Iacute> <g> <i> <a> <bracketright>                                   : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
-<Multi_key> <U232C> <bracketleft> <H> <dead_acute> <I> <G> <I> <A> <bracketright>                           : "🝹"   # MPC: 10 Hygiea
-<Multi_key> <U232C> <bracketleft> <h> <dead_acute> <i> <g> <i> <a> <bracketright>                           : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
-<Multi_key> <U232C> <bracketleft> <H> <Y> <G> <I> <E> <bracketright>                                        : "🝹"   # MPC: 10 Hygiea
-<Multi_key> <U232C> <bracketleft> <h> <y> <g> <i> <e> <bracketright>                                        : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
-<Multi_key> <U232C> <bracketleft> <H> <Y> <G> <I> <E> <A> <bracketright>                                    : "🝹"   # MPC: 10 Hygiea
-<Multi_key> <U232C> <bracketleft> <h> <y> <g> <i> <e> <a> <bracketright>                                    : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
-<Multi_key> <U232C> <bracketleft> <I> <R> <E> <N> <E> <bracketright>                                        : "𜻇"   # MPC: 14 Irene
-<Multi_key> <U232C> <bracketleft> <i> <r> <e> <n> <e> <bracketright>                                        : "𜻇"   # MPC: 14 Irene
-<Multi_key> <U232C> <bracketleft> <I> <R> <Egrave> <N> <E> <bracketright>                                   : "𜻇"   # MPC: 14 Irene
-<Multi_key> <U232C> <bracketleft> <i> <r> <egrave> <n> <e> <bracketright>                                   : "𜻇"   # MPC: 14 Irene
-<Multi_key> <U232C> <bracketleft> <I> <R> <dead_grave> <E> <N> <E> <bracketright>                           : "𜻇"   # MPC: 14 Irene
-<Multi_key> <U232C> <bracketleft> <i> <r> <dead_grave> <e> <n> <e> <bracketright>                           : "𜻇"   # MPC: 14 Irene
-<Multi_key> <U232C> <bracketleft> <I> <R> <I> <S> <bracketright>                                            : "𜻁"   # MPC: 7 Iris
-<Multi_key> <U232C> <bracketleft> <i> <r> <i> <s> <bracketright>                                            : "𜻁"   # MPC: 7 Iris
-<Multi_key> <U232C> <bracketleft> <J> <U> <N> <O> <bracketright>                                            : "⚵"   # MPC: 3 Juno
-<Multi_key> <U232C> <bracketleft> <j> <u> <n> <o> <bracketright>                                            : "⚵"   # MPC: 3 Juno
-<Multi_key> <U232C> <bracketleft> <J> <U> <N> <O> <N> <bracketright>                                        : "⚵"   # MPC: 3 Juno
-<Multi_key> <U232C> <bracketleft> <j> <u> <n> <o> <n> <bracketright>                                        : "⚵"   # MPC: 3 Juno
-<Multi_key> <U232C> <bracketleft> <L> <E> <U> <C> <Oacute> <T> <E> <A> <bracketright>                       : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <l> <e> <u> <c> <oacute> <t> <e> <a> <bracketright>                       : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <L> <E> <U> <C> <dead_acute> <O> <T> <E> <A> <bracketright>               : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <l> <e> <u> <c> <dead_acute> <o> <t> <e> <a> <bracketright>               : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <L> <E> <U> <C> <O> <T> <H> <Eacute> <E> <bracketright>                   : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <l> <e> <u> <c> <o> <t> <h> <eacute> <e> <bracketright>                   : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <L> <E> <U> <C> <O> <T> <H> <dead_acute> <E> <E> <bracketright>           : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <l> <e> <u> <c> <o> <t> <h> <dead_acute> <e> <e> <bracketright>           : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <L> <E> <U> <K> <O> <T> <H> <E> <A> <bracketright>                        : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <l> <e> <u> <k> <o> <t> <h> <e> <a> <bracketright>                        : "𜻐"   # MPC: 35 Leukothea
-<Multi_key> <U232C> <bracketleft> <M> <A> <K> <E> <M> <A> <K> <E> <bracketright>                            : "🝼"   # MPC: 136472 Makemake
-<Multi_key> <U232C> <bracketleft> <m> <a> <k> <e> <m> <a> <k> <e> <bracketright>                            : "🝼"   # MPC: 136472 Makemake
-<Multi_key> <U232C> <bracketleft> <M> <A> <K> <Eacute> <M> <A> <K> <Eacute> <bracketright>                  : "🝼"   # MPC: 136472 Makemake
-<Multi_key> <U232C> <bracketleft> <m> <a> <k> <eacute> <m> <a> <k> <eacute> <bracketright>                  : "🝼"   # MPC: 136472 Makemake
-<Multi_key> <U232C> <bracketleft> <M> <A> <K> <dead_acute> <E> <M> <A> <K> <dead_acute> <E> <bracketright>  : "🝼"   # MPC: 136472 Makemake
-<Multi_key> <U232C> <bracketleft> <m> <a> <k> <dead_acute> <e> <m> <a> <k> <dead_acute> <e> <bracketright>  : "🝼"   # MPC: 136472 Makemake
-<Multi_key> <U232C> <bracketleft> <M> <E> <L> <P> <O> <M> <E> <N> <E> <bracketright>                        : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <m> <e> <l> <p> <o> <m> <e> <n> <e> <bracketright>                        : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <M> <E> <L> <P> <Oacute> <M> <E> <N> <E> <bracketright>                   : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <m> <e> <l> <p> <oacute> <m> <e> <n> <e> <bracketright>                   : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <M> <E> <L> <P> <dead_acute> <O> <M> <E> <N> <E> <bracketright>           : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <m> <e> <l> <p> <dead_acute> <o> <m> <e> <n> <e> <bracketright>           : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <M> <E> <L> <P> <O> <M> <Egrave> <N> <E> <bracketright>                   : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <m> <e> <l> <p> <o> <m> <egrave> <n> <e> <bracketright>                   : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <M> <E> <L> <P> <O> <M> <dead_grave> <E> <N> <E> <bracketright>           : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <m> <e> <l> <p> <o> <m> <dead_grave> <e> <n> <e> <bracketright>           : "𜻋"   # MPC: 18 Melpomene
-<Multi_key> <U232C> <bracketleft> <M> <E> <T> <I> <S> <bracketright>                                        : "𜻃"   # MPC: 9 Metis
-<Multi_key> <U232C> <bracketleft> <m> <e> <t> <i> <s> <bracketright>                                        : "𜻃"   # MPC: 9 Metis
-<Multi_key> <U232C> <bracketleft> <M> <Eacute> <T> <I> <S> <bracketright>                                   : "𜻃"   # MPC: 9 Metis
-<Multi_key> <U232C> <bracketleft> <m> <eacute> <t> <i> <s> <bracketright>                                   : "𜻃"   # MPC: 9 Metis
-<Multi_key> <U232C> <bracketleft> <M> <dead_acute> <E> <T> <I> <S> <bracketright>                           : "𜻃"   # MPC: 9 Metis
-<Multi_key> <U232C> <bracketleft> <m> <dead_acute> <e> <t> <i> <s> <bracketright>                           : "𜻃"   # MPC: 9 Metis
-<Multi_key> <U232C> <bracketleft> <O> <R> <C> <O> <bracketright>                                            : "🝿"   # MPC: 90482 Orcus
-<Multi_key> <U232C> <bracketleft> <o> <r> <c> <o> <bracketright>                                            : "🝿"   # MPC: 90482 Orcus
-<Multi_key> <U232C> <bracketleft> <O> <R> <C> <U> <S> <bracketright>                                        : "🝿"   # MPC: 90482 Orcus
-<Multi_key> <U232C> <bracketleft> <o> <r> <c> <u> <s> <bracketright>                                        : "🝿"   # MPC: 90482 Orcus
-<Multi_key> <U232C> <bracketleft> <P> <A> <L> <A> <S> <bracketright>                                        : "⚴"   # MPC: 2 Pallas
-<Multi_key> <U232C> <bracketleft> <p> <a> <l> <a> <s> <bracketright>                                        : "⚴"   # MPC: 2 Pallas
-<Multi_key> <U232C> <bracketleft> <P> <A> <L> <L> <A> <S> <bracketright>                                    : "⚴"   # MPC: 2 Pallas
-<Multi_key> <U232C> <bracketleft> <p> <a> <l> <l> <a> <s> <bracketright>                                    : "⚴"   # MPC: 2 Pallas
-<Multi_key> <U232C> <bracketleft> <P> <A> <R> <T> <Eacute> <N> <O> <P> <E> <bracketright>                   : "𜻄"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <p> <a> <r> <t> <eacute> <n> <o> <p> <e> <bracketright>                   : "🝺"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <P> <A> <R> <T> <dead_acute> <E> <N> <O> <P> <E> <bracketright>           : "𜻄"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <p> <a> <r> <t> <dead_acute> <e> <n> <o> <p> <e> <bracketright>           : "🝺"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <P> <A> <R> <T> <H> <E> <N> <O> <P> <E> <bracketright>                    : "𜻄"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <p> <a> <r> <t> <h> <e> <n> <o> <p> <e> <bracketright>                    : "🝺"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <P> <A> <R> <T> <H> <Eacute> <N> <O> <P> <E> <bracketright>               : "𜻄"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <p> <a> <r> <t> <h> <eacute> <n> <o> <p> <e> <bracketright>               : "🝺"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <P> <A> <R> <T> <H> <dead_acute> <E> <N> <O> <P> <E> <bracketright>       : "𜻄"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <p> <a> <r> <t> <h> <dead_acute> <e> <n> <o> <p> <e> <bracketright>       : "🝺"   # MPC: 11 Parthenope
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <Atilde> <O> <bracketright>                               : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <atilde> <o> <bracketright>                               : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <dead_tilde> <A> <O> <bracketright>                       : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <dead_tilde> <a> <o> <bracketright>                       : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <O> <bracketright>                                        : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <o> <bracketright>                                        : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <Uacute> <T> <Oacute> <bracketright>                              : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <uacute> <t> <oacute> <bracketright>                              : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <dead_acute> <U> <T> <dead_acute> <O> <bracketright>              : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <dead_acute> <u> <t> <dead_acute> <o> <bracketright>              : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <Otilde> <bracketright>                                   : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <otilde> <bracketright>                                   : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <dead_tilde> <O> <bracketright>                           : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <dead_tilde> <o> <bracketright>                           : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <O> <N> <bracketright>                                    : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <o> <n> <bracketright>                                    : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <Udiaeresis> <T> <O> <N> <bracketright>                           : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <udiaeresis> <t> <o> <n> <bracketright>                           : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <dead_diaeresis> <U> <T> <O> <N> <bracketright>                   : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <dead_diaeresis> <u> <t> <o> <n> <bracketright>                   : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <Oacute> <N> <bracketright>                               : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <oacute> <n> <bracketright>                               : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <dead_acute> <O> <N> <bracketright>                       : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <dead_acute> <o> <n> <bracketright>                       : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <O> <N> <E> <bracketright>                                : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <o> <n> <e> <bracketright>                                : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <O> <N> <O> <bracketright>                                : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <o> <n> <o> <bracketright>                                : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <L> <U> <T> <U> <N> <bracketright>                                    : "⯓"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <p> <l> <u> <t> <u> <n> <bracketright>                                    : "♇"   # MPC: 134340 Pluto
-<Multi_key> <U232C> <bracketleft> <P> <R> <O> <S> <E> <R> <P> <I> <N> <A> <bracketright>                    : "𜻍"   # MPC: 26 Proserpina
-<Multi_key> <U232C> <bracketleft> <p> <r> <o> <s> <e> <r> <p> <i> <n> <a> <bracketright>                    : "𜻍"   # MPC: 26 Proserpina
-<Multi_key> <U232C> <bracketleft> <P> <R> <O> <S> <E> <R> <P> <I> <N> <E> <bracketright>                    : "𜻍"   # MPC: 26 Proserpina
-<Multi_key> <U232C> <bracketleft> <p> <r> <o> <s> <e> <r> <p> <i> <n> <e> <bracketright>                    : "𜻍"   # MPC: 26 Proserpina
-<Multi_key> <U232C> <bracketleft> <P> <S> <I> <Q> <U> <E> <bracketright>                                    : "𜻉"   # MPC: 16 Psyche
-<Multi_key> <U232C> <bracketleft> <p> <s> <i> <q> <u> <e> <bracketright>                                    : "𜻉"   # MPC: 16 Psyche
-<Multi_key> <U232C> <bracketleft> <P> <S> <Y> <C> <H> <E> <bracketright>                                    : "𜻉"   # MPC: 16 Psyche
-<Multi_key> <U232C> <bracketleft> <p> <s> <y> <c> <h> <e> <bracketright>                                    : "𜻉"   # MPC: 16 Psyche
-<Multi_key> <U232C> <bracketleft> <P> <S> <Y> <C> <H> <Eacute> <bracketright>                               : "𜻉"   # MPC: 16 Psyche
-<Multi_key> <U232C> <bracketleft> <p> <s> <y> <c> <h> <eacute> <bracketright>                               : "𜻉"   # MPC: 16 Psyche
-<Multi_key> <U232C> <bracketleft> <P> <S> <Y> <C> <H> <dead_acute> <E> <bracketright>                       : "𜻉"   # MPC: 16 Psyche
-<Multi_key> <U232C> <bracketleft> <p> <s> <y> <c> <h> <dead_acute> <e> <bracketright>                       : "𜻉"   # MPC: 16 Psyche
-<Multi_key> <U232C> <bracketleft> <Q> <U> <A> <O> <A> <R> <bracketright>                                    : "🝾"   # MPC: 50000 Quaoar
-<Multi_key> <U232C> <bracketleft> <q> <u> <a> <o> <a> <r> <bracketright>                                    : "🝾"   # MPC: 50000 Quaoar
-<Multi_key> <U232C> <bracketleft> <S> <E> <D> <N> <A> <bracketright>                                        : "⯲"   # MPC: 90377 Sedna
-<Multi_key> <U232C> <bracketleft> <s> <e> <d> <n> <a> <bracketright>                                        : "⯲"   # MPC: 90377 Sedna
-<Multi_key> <U232C> <bracketleft> <T> <E> <T> <I> <S> <bracketright>                                        : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <t> <e> <t> <i> <s> <bracketright>                                        : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <T> <Eacute> <T> <I> <S> <bracketright>                                   : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <t> <eacute> <t> <i> <s> <bracketright>                                   : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <T> <dead_acute> <E> <T> <I> <S> <bracketright>                           : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <t> <dead_acute> <e> <t> <i> <s> <bracketright>                           : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <T> <H> <E> <T> <I> <S> <bracketright>                                    : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <t> <h> <e> <t> <i> <s> <bracketright>                                    : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <T> <H> <Eacute> <T> <I> <S> <bracketright>                               : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <t> <h> <eacute> <t> <i> <s> <bracketright>                               : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <T> <H> <dead_acute> <E> <T> <I> <S> <bracketright>                       : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <t> <h> <dead_acute> <e> <t> <i> <s> <bracketright>                       : "𜻊"   # MPC: 17 Thetis
-<Multi_key> <U232C> <bracketleft> <V> <E> <S> <T> <A> <bracketright>                                        : "🝷"   # MPC: 4 Vesta
-<Multi_key> <U232C> <bracketleft> <v> <e> <s> <t> <a> <bracketright>                                        : "⚶"   # MPC: 4 Vesta
-<Multi_key> <U232C> <bracketleft> <V> <I> <C> <T> <O> <R> <I> <A> <bracketright>                            : "𜻅"   # MPC: 12 Victoria
-<Multi_key> <U232C> <bracketleft> <v> <i> <c> <t> <o> <r> <i> <a> <bracketright>                            : "𜻅"   # MPC: 12 Victoria
-<Multi_key> <U232C> <bracketleft> <V> <I> <T> <Oacute> <R> <I> <A> <bracketright>                           : "𜻅"   # MPC: 12 Victoria
-<Multi_key> <U232C> <bracketleft> <v> <i> <t> <oacute> <r> <i> <a> <bracketright>                           : "𜻅"   # MPC: 12 Victoria
-<Multi_key> <U232C> <bracketleft> <V> <I> <T> <dead_acute> <O> <R> <I> <A> <bracketright>                   : "𜻅"   # MPC: 12 Victoria
-<Multi_key> <U232C> <bracketleft> <v> <i> <t> <dead_acute> <o> <r> <i> <a> <bracketright>                   : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <A> <M> <P> <H> <I> <T> <R> <I> <T> <E> <braceright>                    : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <a> <m> <p> <h> <i> <t> <r> <i> <t> <e> <braceright>                    : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <A> <N> <F> <I> <T> <R> <I> <T> <E> <braceright>                        : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <a> <n> <f> <i> <t> <r> <i> <t> <e> <braceright>                        : "𜻏"   # MPC: 29 Amphitrite
+# <Multi_key> <U232C> <braceleft> <A> <P> <O> <F> <I> <S> <braceright>                                  : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <a> <p> <o> <f> <i> <s> <braceright>                                  : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <A> <P> <Oacute> <F> <I> <S> <braceright>                             : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <a> <p> <oacute> <f> <i> <s> <braceright>                             : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <A> <P> <dead_acute> <O> <F> <I> <S> <braceright>                     : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <a> <p> <dead_acute> <o> <f> <i> <s> <braceright>                     : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <A> <P> <O> <P> <H> <I> <S> <braceright>                              : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <a> <p> <o> <p> <h> <i> <s> <braceright>                              : "¿?"   # MPC: 99942 Apophis
+<Multi_key> <U232C> <braceleft> <A> <S> <T> <R> <A> <E> <A> <braceright>                                : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <a> <s> <t> <r> <a> <e> <a> <braceright>                                : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <A> <S> <T> <R> <E> <A> <braceright>                                    : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <a> <s> <t> <r> <e> <a> <braceright>                                    : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <A> <S> <T> <R> <Eacute> <E> <braceright>                               : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <a> <s> <t> <r> <eacute> <e> <braceright>                               : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <A> <S> <T> <R> <dead_acute> <E> <E> <braceright>                       : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <a> <s> <t> <r> <dead_acute> <e> <e> <braceright>                       : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <A> <S> <T> <R> <E> <I> <A> <braceright>                                : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <a> <s> <t> <r> <e> <i> <a> <braceright>                                : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <A> <U> <M> <Eacute> <A> <braceright>                                   : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <a> <u> <m> <eacute> <a> <braceright>                                   : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <A> <U> <M> <dead_acute> <E> <A> <braceright>                           : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <a> <u> <m> <dead_acute> <e> <a> <braceright>                           : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <B> <E> <L> <O> <N> <A> <braceright>                                    : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <b> <e> <l> <o> <n> <a> <braceright>                                    : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <B> <E> <L> <L> <O> <N> <A> <braceright>                                : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <b> <e> <l> <l> <o> <n> <a> <braceright>                                : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <B> <E> <L> <L> <O> <N> <E> <braceright>                                : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <b> <e> <l> <l> <o> <n> <e> <braceright>                                : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <C> <E> <R> <E> <S> <braceright>                                        : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <c> <e> <r> <e> <s> <braceright>                                        : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <E> <G> <E> <R> <I> <A> <braceright>                                    : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <e> <g> <e> <r> <i> <a> <braceright>                                    : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <E> <G> <Eacute> <R> <I> <A> <braceright>                               : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <e> <g> <eacute> <r> <i> <a> <braceright>                               : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <E> <G> <dead_acute> <E> <R> <I> <A> <braceright>                       : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <e> <g> <dead_acute> <e> <r> <i> <a> <braceright>                       : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Eacute> <G> <Eacute> <R> <I> <E> <braceright>                          : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <eacute> <g> <eacute> <r> <i> <e> <braceright>                          : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <dead_acute> <E> <G> <dead_acute> <E> <R> <I> <E> <braceright>          : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <dead_acute> <e> <g> <dead_acute> <e> <r> <i> <e> <braceright>          : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <E> <R> <I> <S> <braceright>                                            : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <e> <r> <i> <s> <braceright>                                            : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Eacute> <R> <I> <S> <braceright>                                       : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <eacute> <r> <i> <s> <braceright>                                       : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <dead_acute> <E> <R> <I> <S> <braceright>                               : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <dead_acute> <e> <r> <i> <s> <braceright>                               : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <E> <U> <N> <O> <M> <I> <A> <braceright>                                : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <e> <u> <n> <o> <m> <i> <a> <braceright>                                : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <E> <U> <N> <Oacute> <M> <I> <A> <braceright>                           : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <e> <u> <n> <oacute> <m> <i> <a> <braceright>                           : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <E> <U> <N> <dead_acute> <O> <M> <I> <A> <braceright>                   : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <e> <u> <n> <dead_acute> <o> <m> <i> <a> <braceright>                   : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <E> <U> <N> <Ocircumflex> <M> <I> <A> <braceright>                      : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <e> <u> <n> <ocircumflex> <m> <i> <a> <braceright>                      : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <E> <U> <N> <dead_circumflex> <O> <M> <I> <A> <braceright>              : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <e> <u> <n> <dead_circumflex> <o> <m> <i> <a> <braceright>              : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <E> <U> <N> <O> <M> <I> <E> <braceright>                                : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <e> <u> <n> <o> <m> <i> <e> <braceright>                                : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <F> <I> <D> <E> <S> <braceright>                                        : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <f> <i> <d> <e> <s> <braceright>                                        : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <F> <I> <D> <Egrave> <S> <braceright>                                   : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <f> <i> <d> <egrave> <s> <braceright>                                   : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <F> <I> <D> <dead_grave> <E> <S> <braceright>                           : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <f> <i> <d> <dead_grave> <e> <s> <braceright>                           : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <F> <L> <O> <R> <A> <braceright>                                        : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <f> <l> <o> <r> <a> <braceright>                                        : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <F> <L> <O> <R> <E> <braceright>                                        : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <f> <l> <o> <r> <e> <braceright>                                        : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <F> <O> <R> <T> <U> <N> <A> <braceright>                                : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <f> <o> <r> <t> <u> <n> <a> <braceright>                                : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <F> <O> <R> <T> <U> <N> <E> <braceright>                                : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <f> <o> <r> <t> <u> <n> <e> <braceright>                                : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <G> <O> <N> <G> <G> <O> <N> <G> <braceright>                            : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <g> <o> <n> <g> <g> <o> <n> <g> <braceright>                            : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <H> <A> <U> <M> <E> <A> <braceright>                                    : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <h> <a> <u> <m> <e> <a> <braceright>                                    : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <H> <A> <U> <M> <Eacute> <A> <braceright>                               : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <h> <a> <u> <m> <eacute> <a> <braceright>                               : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <H> <A> <U> <M> <dead_acute> <E> <A> <braceright>                       : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <h> <a> <u> <m> <dead_acute> <e> <a> <braceright>                       : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <H> <E> <B> <E> <braceright>                                            : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <h> <e> <b> <e> <braceright>                                            : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <H> <Eacute> <B> <Eacute> <braceright>                                  : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <h> <eacute> <b> <eacute> <braceright>                                  : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <H> <dead_acute> <E> <B> <dead_acute> <E> <braceright>                  : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <h> <dead_acute> <e> <b> <dead_acute> <e> <braceright>                  : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <H> <E> <R> <A> <braceright>                                            : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <h> <e> <r> <a> <braceright>                                            : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <H> <I> <G> <Iacute> <A> <braceright>                                   : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <h> <i> <g> <iacute> <a> <braceright>                                   : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <H> <I> <G> <dead_acute> <I> <A> <braceright>                           : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <h> <i> <g> <dead_acute> <i> <a> <braceright>                           : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <H> <Iacute> <G> <I> <A> <braceright>                                   : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <h> <Iacute> <g> <i> <a> <braceright>                                   : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <H> <dead_acute> <I> <G> <I> <A> <braceright>                           : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <h> <dead_acute> <i> <g> <i> <a> <braceright>                           : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <H> <Y> <G> <I> <E> <braceright>                                        : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <h> <y> <g> <i> <e> <braceright>                                        : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <H> <Y> <G> <I> <E> <A> <braceright>                                    : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <h> <y> <g> <i> <e> <a> <braceright>                                    : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <I> <R> <E> <N> <E> <braceright>                                        : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <i> <r> <e> <n> <e> <braceright>                                        : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <I> <R> <Egrave> <N> <E> <braceright>                                   : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <i> <r> <egrave> <n> <e> <braceright>                                   : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <I> <R> <dead_grave> <E> <N> <E> <braceright>                           : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <i> <r> <dead_grave> <e> <n> <e> <braceright>                           : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <I> <R> <I> <S> <braceright>                                            : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <i> <r> <i> <s> <braceright>                                            : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <J> <U> <N> <O> <braceright>                                            : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <j> <u> <n> <o> <braceright>                                            : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <J> <U> <N> <O> <N> <braceright>                                        : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <j> <u> <n> <o> <n> <braceright>                                        : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <L> <E> <U> <C> <Oacute> <T> <E> <A> <braceright>                       : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <l> <e> <u> <c> <oacute> <t> <e> <a> <braceright>                       : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <L> <E> <U> <C> <dead_acute> <O> <T> <E> <A> <braceright>               : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <l> <e> <u> <c> <dead_acute> <o> <t> <e> <a> <braceright>               : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <L> <E> <U> <C> <O> <T> <H> <Eacute> <E> <braceright>                   : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <l> <e> <u> <c> <o> <t> <h> <eacute> <e> <braceright>                   : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <L> <E> <U> <C> <O> <T> <H> <dead_acute> <E> <E> <braceright>           : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <l> <e> <u> <c> <o> <t> <h> <dead_acute> <e> <e> <braceright>           : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <L> <E> <U> <K> <O> <T> <H> <E> <A> <braceright>                        : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <l> <e> <u> <k> <o> <t> <h> <e> <a> <braceright>                        : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <M> <A> <K> <E> <M> <A> <K> <E> <braceright>                            : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <m> <a> <k> <e> <m> <a> <k> <e> <braceright>                            : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <M> <A> <K> <Eacute> <M> <A> <K> <Eacute> <braceright>                  : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <m> <a> <k> <eacute> <m> <a> <k> <eacute> <braceright>                  : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <M> <A> <K> <dead_acute> <E> <M> <A> <K> <dead_acute> <E> <braceright>  : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <m> <a> <k> <dead_acute> <e> <m> <a> <k> <dead_acute> <e> <braceright>  : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <M> <E> <L> <P> <O> <M> <E> <N> <E> <braceright>                        : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <m> <e> <l> <p> <o> <m> <e> <n> <e> <braceright>                        : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <M> <E> <L> <P> <Oacute> <M> <E> <N> <E> <braceright>                   : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <m> <e> <l> <p> <oacute> <m> <e> <n> <e> <braceright>                   : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <M> <E> <L> <P> <dead_acute> <O> <M> <E> <N> <E> <braceright>           : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <m> <e> <l> <p> <dead_acute> <o> <m> <e> <n> <e> <braceright>           : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <M> <E> <L> <P> <O> <M> <Egrave> <N> <E> <braceright>                   : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <m> <e> <l> <p> <o> <m> <egrave> <n> <e> <braceright>                   : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <M> <E> <L> <P> <O> <M> <dead_grave> <E> <N> <E> <braceright>           : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <m> <e> <l> <p> <o> <m> <dead_grave> <e> <n> <e> <braceright>           : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <M> <E> <T> <I> <S> <braceright>                                        : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <m> <e> <t> <i> <s> <braceright>                                        : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <M> <Eacute> <T> <I> <S> <braceright>                                   : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <m> <eacute> <t> <i> <s> <braceright>                                   : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <M> <dead_acute> <E> <T> <I> <S> <braceright>                           : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <m> <dead_acute> <e> <t> <i> <s> <braceright>                           : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <O> <R> <C> <O> <braceright>                                            : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <o> <r> <c> <o> <braceright>                                            : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <O> <R> <C> <U> <S> <braceright>                                        : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <o> <r> <c> <u> <s> <braceright>                                        : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <P> <A> <L> <A> <S> <braceright>                                        : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <p> <a> <l> <a> <s> <braceright>                                        : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <P> <A> <L> <L> <A> <S> <braceright>                                    : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <p> <a> <l> <l> <a> <s> <braceright>                                    : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <P> <A> <R> <T> <Eacute> <N> <O> <P> <E> <braceright>                   : "𜻄"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <p> <a> <r> <t> <eacute> <n> <o> <p> <e> <braceright>                   : "🝺"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <P> <A> <R> <T> <dead_acute> <E> <N> <O> <P> <E> <braceright>           : "𜻄"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <p> <a> <r> <t> <dead_acute> <e> <n> <o> <p> <e> <braceright>           : "🝺"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <P> <A> <R> <T> <H> <E> <N> <O> <P> <E> <braceright>                    : "𜻄"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <p> <a> <r> <t> <h> <e> <n> <o> <p> <e> <braceright>                    : "🝺"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <P> <A> <R> <T> <H> <Eacute> <N> <O> <P> <E> <braceright>               : "𜻄"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <p> <a> <r> <t> <h> <eacute> <n> <o> <p> <e> <braceright>               : "🝺"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <P> <A> <R> <T> <H> <dead_acute> <E> <N> <O> <P> <E> <braceright>       : "𜻄"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <p> <a> <r> <t> <h> <dead_acute> <e> <n> <o> <p> <e> <braceright>       : "🝺"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <Atilde> <O> <braceright>                               : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <atilde> <o> <braceright>                               : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <dead_tilde> <A> <O> <braceright>                       : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <dead_tilde> <a> <o> <braceright>                       : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <O> <braceright>                                        : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <o> <braceright>                                        : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <Uacute> <T> <Oacute> <braceright>                              : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <uacute> <t> <oacute> <braceright>                              : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <dead_acute> <U> <T> <dead_acute> <O> <braceright>              : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <dead_acute> <u> <t> <dead_acute> <o> <braceright>              : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <Otilde> <braceright>                                   : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <otilde> <braceright>                                   : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <dead_tilde> <O> <braceright>                           : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <dead_tilde> <o> <braceright>                           : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <O> <N> <braceright>                                    : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <o> <n> <braceright>                                    : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <Udiaeresis> <T> <O> <N> <braceright>                           : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <udiaeresis> <t> <o> <n> <braceright>                           : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <dead_diaeresis> <U> <T> <O> <N> <braceright>                   : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <dead_diaeresis> <u> <t> <o> <n> <braceright>                   : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <Oacute> <N> <braceright>                               : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <oacute> <n> <braceright>                               : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <dead_acute> <O> <N> <braceright>                       : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <dead_acute> <o> <n> <braceright>                       : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <O> <N> <E> <braceright>                                : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <o> <n> <e> <braceright>                                : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <O> <N> <O> <braceright>                                : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <o> <n> <o> <braceright>                                : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <L> <U> <T> <U> <N> <braceright>                                    : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <p> <l> <u> <t> <u> <n> <braceright>                                    : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <P> <R> <O> <S> <E> <R> <P> <I> <N> <A> <braceright>                    : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <p> <r> <o> <s> <e> <r> <p> <i> <n> <a> <braceright>                    : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <P> <R> <O> <S> <E> <R> <P> <I> <N> <E> <braceright>                    : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <p> <r> <o> <s> <e> <r> <p> <i> <n> <e> <braceright>                    : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <P> <S> <I> <Q> <U> <E> <braceright>                                    : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <p> <s> <i> <q> <u> <e> <braceright>                                    : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <P> <S> <Y> <C> <H> <E> <braceright>                                    : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <p> <s> <y> <c> <h> <e> <braceright>                                    : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <P> <S> <Y> <C> <H> <Eacute> <braceright>                               : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <p> <s> <y> <c> <h> <eacute> <braceright>                               : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <P> <S> <Y> <C> <H> <dead_acute> <E> <braceright>                       : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <p> <s> <y> <c> <h> <dead_acute> <e> <braceright>                       : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Q> <U> <A> <O> <A> <R> <braceright>                                    : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <q> <u> <a> <o> <a> <r> <braceright>                                    : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <S> <E> <D> <N> <A> <braceright>                                        : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <s> <e> <d> <n> <a> <braceright>                                        : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <T> <E> <T> <I> <S> <braceright>                                        : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <t> <e> <t> <i> <s> <braceright>                                        : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <T> <Eacute> <T> <I> <S> <braceright>                                   : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <t> <eacute> <t> <i> <s> <braceright>                                   : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <T> <dead_acute> <E> <T> <I> <S> <braceright>                           : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <t> <dead_acute> <e> <t> <i> <s> <braceright>                           : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <T> <H> <E> <T> <I> <S> <braceright>                                    : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <t> <h> <e> <t> <i> <s> <braceright>                                    : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <T> <H> <Eacute> <T> <I> <S> <braceright>                               : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <t> <h> <eacute> <t> <i> <s> <braceright>                               : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <T> <H> <dead_acute> <E> <T> <I> <S> <braceright>                       : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <t> <h> <dead_acute> <e> <t> <i> <s> <braceright>                       : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <V> <E> <S> <T> <A> <braceright>                                        : "🝷"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <v> <e> <s> <t> <a> <braceright>                                        : "⚶"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <V> <I> <C> <T> <O> <R> <I> <A> <braceright>                            : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <v> <i> <c> <t> <o> <r> <i> <a> <braceright>                            : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <V> <I> <T> <Oacute> <R> <I> <A> <braceright>                           : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <v> <i> <t> <oacute> <r> <i> <a> <braceright>                           : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <V> <I> <T> <dead_acute> <O> <R> <I> <A> <braceright>                   : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <v> <i> <t> <dead_acute> <o> <r> <i> <a> <braceright>                   : "𜻅"   # MPC: 12 Victoria
 
 
 # Astronomical + Astrological Symbols (Major Celestial Bodies & Planets)
 #
 # [NOTE]: All symbols listed here are enclosed in curly brackets.
 #
-<Multi_key> <U232C> <bracketleft> <E> <bracketright>            : "🜨"   # Earth
-<Multi_key> <U232C> <bracketleft> <e> <bracketright>            : "♁"   # Earth
-<Multi_key> <U232C> <bracketleft> <H> <bracketright>            : "☿"   # Mercury
-<Multi_key> <U232C> <bracketleft> <h> <bracketright>            : "☿"   # Mercury
-<Multi_key> <U232C> <bracketleft> <J> <bracketright>            : "♃"   # Jupiter
-<Multi_key> <U232C> <bracketleft> <j> <bracketright>            : "♃"   # Jupiter
-<Multi_key> <U232C> <bracketleft> <M> <bracketright>            : "♂"   # Mars
-<Multi_key> <U232C> <bracketleft> <m> <bracketright>            : "♂"   # Mars
-<Multi_key> <U232C> <bracketleft> <M> <A> <bracketright>        : "♂"   # Mars
-<Multi_key> <U232C> <bracketleft> <m> <a> <bracketright>        : "♂"   # Mars
-<Multi_key> <U232C> <bracketleft> <M> <greater> <bracketright>  : "☽︎"   # Waxing Moon
-<Multi_key> <U232C> <bracketleft> <M> <E> <bracketright>        : "☿"   # Mercury
-<Multi_key> <U232C> <bracketleft> <m> <e> <bracketright>        : "☿"   # Mercury
-<Multi_key> <U232C> <bracketleft> <m> <less> <bracketright>     : "☾"   # Waning Moon
-<Multi_key> <U232C> <bracketleft> <N> <bracketright>            : "⯉"   # Neptune
-<Multi_key> <U232C> <bracketleft> <n> <bracketright>            : "♆"   # Neptune
-<Multi_key> <U232C> <bracketleft> <O> <period> <bracketright>   : "☉︎"   # Sun
-<Multi_key> <U232C> <bracketleft> <o> <period> <bracketright>   : "☉︎"   # Sun
-<Multi_key> <U232C> <bracketleft> <period> <O> <bracketright>   : "☉︎"   # Sun
-<Multi_key> <U232C> <bracketleft> <period> <o> <bracketright>   : "☉︎"   # Sun
-<Multi_key> <U232C> <bracketleft> <S> <bracketright>            : "♄"   # Saturn
-<Multi_key> <U232C> <bracketleft> <s> <bracketright>            : "♄"   # Saturn
-<Multi_key> <U232C> <bracketleft> <U> <bracketright>            : "♅"   # Uranus
-<Multi_key> <U232C> <bracketleft> <u> <bracketright>            : "⛢"   # Uranus
-<Multi_key> <U232C> <bracketleft> <V> <bracketright>            : "♀"   # Venus
-<Multi_key> <U232C> <bracketleft> <v> <bracketright>            : "♀"   # Venus
+<Multi_key> <U232C> <braceleft> <E> <braceright>            : "🜨"   # Earth
+<Multi_key> <U232C> <braceleft> <e> <braceright>            : "♁"   # Earth
+<Multi_key> <U232C> <braceleft> <H> <braceright>            : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <h> <braceright>            : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <J> <braceright>            : "♃"   # Jupiter
+<Multi_key> <U232C> <braceleft> <j> <braceright>            : "♃"   # Jupiter
+<Multi_key> <U232C> <braceleft> <M> <braceright>            : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <m> <braceright>            : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <M> <A> <braceright>        : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <m> <a> <braceright>        : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <M> <greater> <braceright>  : "☽︎"   # Waxing Moon
+<Multi_key> <U232C> <braceleft> <M> <E> <braceright>        : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <m> <e> <braceright>        : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <m> <less> <braceright>     : "☾"   # Waning Moon
+<Multi_key> <U232C> <braceleft> <N> <braceright>            : "⯉"   # Neptune
+<Multi_key> <U232C> <braceleft> <n> <braceright>            : "♆"   # Neptune
+<Multi_key> <U232C> <braceleft> <O> <period> <braceright>   : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <o> <period> <braceright>   : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <period> <O> <braceright>   : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <period> <o> <braceright>   : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <S> <braceright>            : "♄"   # Saturn
+<Multi_key> <U232C> <braceleft> <s> <braceright>            : "♄"   # Saturn
+<Multi_key> <U232C> <braceleft> <U> <braceright>            : "♅"   # Uranus
+<Multi_key> <U232C> <braceleft> <u> <braceright>            : "⛢"   # Uranus
+<Multi_key> <U232C> <braceleft> <V> <braceright>            : "♀"   # Venus
+<Multi_key> <U232C> <braceleft> <v> <braceright>            : "♀"   # Venus
 
 
 # Miscellaneous Celestial Symbols
 #
 # [NOTE]: All symbols listed here are enclosed in curly brackets.
 #
-<Multi_key> <U232C> <bracketleft> <M> <C> <bracketright>    : "🌚︎"  # Moon with face
-<Multi_key> <U232C> <bracketleft> <m> <c> <bracketright>    : "🌚︎"  # Moon with face
-<Multi_key> <U232C> <bracketleft> <O> <C> <bracketright>    : "🌞︎︎"  # Sun with face
-<Multi_key> <U232C> <bracketleft> <o> <c> <bracketright>    : "🌞︎︎"  # Sun with face
+<Multi_key> <U232C> <braceleft> <M> <C> <braceright>    : "🌚︎"  # Moon with face
+<Multi_key> <U232C> <braceleft> <m> <c> <braceright>    : "🌚︎"  # Moon with face
+<Multi_key> <U232C> <braceleft> <O> <C> <braceright>    : "🌞︎︎"  # Sun with face
+<Multi_key> <U232C> <braceleft> <o> <c> <braceright>    : "🌞︎︎"  # Sun with face
+
+
+# Zodiac Symbols
+#
+# [NOTE]: All symbols listed here are enclosed in curly brackets,
+#         with each name denoting its IAU abbreviation.
+#
+<Multi_key> <U232C> <braceleft> <A> <R> <I> <braceright>    : "♈︎"  # Aries
+<Multi_key> <U232C> <braceleft> <a> <r> <i> <braceright>    : "♈︎"  # Aries
+<Multi_key> <U232C> <braceleft> <T> <A> <U> <braceright>    : "♉︎"  # Taurus
+<Multi_key> <U232C> <braceleft> <t> <a> <u> <braceright>    : "♉︎"  # Taurus
+<Multi_key> <U232C> <braceleft> <G> <E> <M> <braceright>    : "♊︎"  # Gemini
+<Multi_key> <U232C> <braceleft> <g> <e> <m> <braceright>    : "♊︎"  # Gemini
+<Multi_key> <U232C> <braceleft> <C> <N> <C> <braceright>    : "♋︎"  # Cancer
+<Multi_key> <U232C> <braceleft> <c> <n> <c> <braceright>    : "♋︎"  # Cancer
+<Multi_key> <U232C> <braceleft> <L> <E> <O> <braceright>    : "♌︎"  # Leo
+<Multi_key> <U232C> <braceleft> <l> <e> <o> <braceright>    : "♌︎"  # Leo
+<Multi_key> <U232C> <braceleft> <V> <I> <R> <braceright>    : "♍︎"  # Virgo
+<Multi_key> <U232C> <braceleft> <v> <i> <r> <braceright>    : "♍︎"  # Virgo
+<Multi_key> <U232C> <braceleft> <L> <I> <B> <braceright>    : "♎︎"  # Libra
+<Multi_key> <U232C> <braceleft> <l> <i> <b> <braceright>    : "♎︎"  # Libra
+<Multi_key> <U232C> <braceleft> <S> <C> <O> <braceright>    : "♏︎"  # Scorpio
+<Multi_key> <U232C> <braceleft> <s> <c> <o> <braceright>    : "♏︎"  # Scorpio
+<Multi_key> <U232C> <braceleft> <S> <G> <R> <braceright>    : "♐︎"  # Sagitarius
+<Multi_key> <U232C> <braceleft> <s> <g> <r> <braceright>    : "♐︎"  # Sagitarius
+<Multi_key> <U232C> <braceleft> <C> <A> <P> <braceright>    : "♑︎"  # Capricorn
+<Multi_key> <U232C> <braceleft> <c> <a> <p> <braceright>    : "♑︎"  # Capricorn
+<Multi_key> <U232C> <braceleft> <A> <Q> <R> <braceright>    : "♒︎"  # Aquarius
+<Multi_key> <U232C> <braceleft> <a> <q> <r> <braceright>    : "♒︎"  # Aquarius
+<Multi_key> <U232C> <braceleft> <P> <S> <C> <braceright>    : "♓︎"  # Pisces
+<Multi_key> <U232C> <braceleft> <p> <s> <c> <braceright>    : "♓︎"  # Pisces
+<Multi_key> <U232C> <braceleft> <O> <P> <H> <braceright>    : "⛎︎"  # Ophiucus
+<Multi_key> <U232C> <braceleft> <o> <p> <h> <braceright>    : "⛎︎"  # Ophiucus
 
 ##################
 # [END OF RULES] #

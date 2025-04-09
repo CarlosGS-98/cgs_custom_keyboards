@@ -1,0 +1,371 @@
+# Latin Alphabet | Board Game Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing board game symbols
+# > that can be input with alphabetical Latin characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+#
+
+# Chess Piece Symbols (Excluding Pawns)
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#         Additionally, each symbol is represented by their
+#         corresponding letter in both the English and Spanish
+#         algebraic chess notations whenever possible.
+#
+# [NOTE]: Each piece does also encode info about its rotation and color
+#         in the following regex-like notation:
+#           
+#         regexp = \[[ABCDEFHKNQRT]*([0-9]{,3})?[*-]?\]
+#
+#         Where:
+#         - [ABCDEFHKNQRT]  = Any orthodox chess piece (including both the alfil and ferz) and some fairy chess pieces. Omitting this field will always produce a pawn.
+#         - [0-9]{,3}       = The piece's own rotation measured in sexagesimal degrees (more specifically, in multiples of 45º). The default rotation is 0º.
+#         - [*-]            = The piece's own color ("*" for black, "-" for neutral). Leaving this field blank will result in a white piece.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <A> <bracketright>                        : "🩕"  # White Alfil [EN]
+<Multi_key> <U232C> <bracketleft> <A> <asterisk> <bracketright>             : "🩗"  # Black Alfil [EN]
+<Multi_key> <U232C> <bracketleft> <B> <bracketright>                        : "♗"  # White Bishop
+<Multi_key> <U232C> <bracketleft> <B> <9> <0> <bracketright>                : "🨌"  # White Bishop + 90º
+<Multi_key> <U232C> <bracketleft> <B> <1> <8> <0> <bracketright>            : "🨡"  # White Bishop + 180º
+<Multi_key> <U232C> <bracketleft> <B> <2> <7> <0> <bracketright>            : "🨶"  # White Bishop + 270º
+<Multi_key> <U232C> <bracketleft> <B> <N> <bracketright>                    : "🩐"  # White Princess
+<Multi_key> <U232C> <bracketleft> <B> <minus> <bracketright>                : "🨃"  # Neutral Bishop
+<Multi_key> <U232C> <bracketleft> <B> <9> <0> <minus> <bracketright>        : "🨘"  # Neutral Bishop + 90º
+<Multi_key> <U232C> <bracketleft> <B> <1> <8> <0> <minus> <bracketright>    : "🨭"  # Neutral Bishop + 180º
+<Multi_key> <U232C> <bracketleft> <B> <2> <7> <0> <minus> <bracketright>    : "🩂"  # Neutral Bishop + 270º
+<Multi_key> <U232C> <bracketleft> <B> <asterisk> <bracketright>             : "♝"  # Black Bishop
+<Multi_key> <U232C> <bracketleft> <B> <9> <0> <asterisk> <bracketright>     : "🨒"  # Black Bishop + 90º
+<Multi_key> <U232C> <bracketleft> <B> <1> <8> <0> <asterisk> <bracketright> : "🨧"  # Black Bishop + 180º
+<Multi_key> <U232C> <bracketleft> <B> <2> <7> <0> <asterisk> <bracketright> : "🨼"  # Black Bishop + 270º
+<Multi_key> <U232C> <bracketleft> <B> <N> <asterisk> <bracketright>         : "🩓"  # Black Princess
+<Multi_key> <U232C> <bracketleft> <C> <bracketright>                        : "♘"  # Caballo Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <C> <4> <5> <bracketright>                : "🨆"  # Caballo Blanco [ES] + 45º
+<Multi_key> <U232C> <bracketleft> <C> <9> <0> <bracketright>                : "🨍"  # Caballo Blanco [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <C> <1> <3> <5> <bracketright>            : "🨛"  # Caballo Blanco [ES] + 135º
+<Multi_key> <U232C> <bracketleft> <C> <1> <8> <0> <bracketright>            : "🨢"  # Caballo Blanco [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <C> <2> <2> <5> <bracketright>            : "🨰"  # Caballo Blanco [ES] + 225º
+<Multi_key> <U232C> <bracketleft> <C> <2> <7> <0> <bracketright>            : "🨷"  # Caballo Blanco [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <C> <3> <1> <5> <bracketright>            : "🩅"  # Caballo Blanco [ES] + 315º
+<Multi_key> <U232C> <bracketleft> <C> <D> <bracketright>                    : "🩎"  # Amazona Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <C> <T> <bracketright>                    : "🩏"  # Canciller Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <C> <minus> <bracketright>                : "🨄"  # Caballo Neutro [ES]
+<Multi_key> <U232C> <bracketleft> <C> <4> <5> <minus> <bracketright>        : "🨈"  # Caballo Neutro [ES] + 45º
+<Multi_key> <U232C> <bracketleft> <C> <9> <0> <minus> <bracketright>        : "🨙"  # Caballo Neutro [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <C> <1> <3> <5> <minus> <bracketright>    : "🨝"  # Caballo Neutro [ES] + 135º
+<Multi_key> <U232C> <bracketleft> <C> <1> <8> <0> <minus> <bracketright>    : "🨮"  # Caballo Neutro [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <C> <2> <2> <5> <minus> <bracketright>    : "🨲"  # Caballo Neutro [ES] + 225º
+<Multi_key> <U232C> <bracketleft> <C> <2> <7> <0> <minus> <bracketright>    : "🩃"  # Caballo Neutro [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <C> <3> <1> <5> <minus> <bracketright>    : "🩇"  # Caballo Neutro [ES] + 315º
+<Multi_key> <U232C> <bracketleft> <C> <asterisk> <bracketright>             : "♞"  # Caballo Negro [ES]
+<Multi_key> <U232C> <bracketleft> <C> <4> <5> <asterisk> <bracketright>     : "🨇"  # Caballo Negro [ES] + 45º
+<Multi_key> <U232C> <bracketleft> <C> <9> <0> <asterisk> <bracketright>     : "🨓"  # Caballo Negro [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <C> <1> <3> <5> <asterisk> <bracketright> : "🨜"  # Caballo Negro [ES] + 135º
+<Multi_key> <U232C> <bracketleft> <C> <1> <8> <0> <asterisk> <bracketright> : "🨨"  # Caballo Negro [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <C> <2> <2> <5> <asterisk> <bracketright> : "🨱"  # Caballo Negro [ES] + 225º
+<Multi_key> <U232C> <bracketleft> <C> <2> <7> <0> <asterisk> <bracketright> : "🨽"  # Caballo Negro [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <C> <3> <1> <5> <asterisk> <bracketright> : "🩆"  # Caballo Negro [ES] + 315º
+<Multi_key> <U232C> <bracketleft> <C> <D> <asterisk> <bracketright>         : "🩑"  # Amazona Negra [ES]
+<Multi_key> <U232C> <bracketleft> <C> <T> <asterisk> <bracketright>         : "🩒"  # Canciller Negro [ES]
+<Multi_key> <U232C> <bracketleft> <D> <bracketright>                        : "♕"  # Dama Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <D> <9> <0> <bracketright>                : "🨊"  # Dama Blanca [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <D> <1> <8> <0> <bracketright>            : "🨟"  # Dama Blanca [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <D> <2> <7> <0> <bracketright>            : "🨴"  # Dama Blanca [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <D> <C> <bracketright>                    : "🩎"  # Amazona Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <D> <minus> <bracketright>                : "🨁"  # Dama Neutra [ES]
+<Multi_key> <U232C> <bracketleft> <D> <9> <0> <minus> <bracketright>        : "🨖"  # Dama Neutra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <D> <1> <8> <0> <minus> <bracketright>    : "🨫"  # Dama Neutra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <D> <2> <7> <0> <minus> <bracketright>    : "🩀"  # Dama Neutra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <D> <asterisk> <bracketright>             : "♛"  # Dama Negra [ES]
+<Multi_key> <U232C> <bracketleft> <D> <9> <0> <asterisk> <bracketright>     : "🨐"  # Dama Negra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <D> <1> <8> <0> <asterisk> <bracketright> : "🨥"  # Dama Negra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <D> <2> <7> <0> <asterisk> <bracketright> : "🨺"  # Dama Negra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <D> <C> <asterisk> <bracketright>         : "🩑"  # Amazona BlNegraanca [ES]
+<Multi_key> <U232C> <bracketleft> <E> <bracketright>                        : "🩕"  # Elefante Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <E> <asterisk> <bracketright>             : "🩗"  # Elefante Negro [ES]
+<Multi_key> <U232C> <bracketleft> <F> <bracketright>                        : "🩔"  # White Ferz
+<Multi_key> <U232C> <bracketleft> <F> <asterisk> <bracketright>             : "🩖"  # Black Ferz
+<Multi_key> <U232C> <bracketleft> <H> <bracketright>                        : "🩈"  # White Equihopper
+<Multi_key> <U232C> <bracketleft> <H> <9> <0> <bracketright>                : "🩋"  # White Equihopper + 90º
+<Multi_key> <U232C> <bracketleft> <H> <minus> <bracketright>                : "🩊"  # Neutral Equihopper
+<Multi_key> <U232C> <bracketleft> <H> <9> <0> <minus> <bracketright>        : "🩍"  # Neutral Equihopper + 90º
+<Multi_key> <U232C> <bracketleft> <H> <asterisk> <bracketright>             : "🩉"  # Black Equihopper
+<Multi_key> <U232C> <bracketleft> <H> <9> <0> <asterisk> <bracketright>     : "🩌"  # Black Equihopper + 90º
+<Multi_key> <U232C> <bracketleft> <K> <bracketright>                        : "♔"  # White King
+<Multi_key> <U232C> <bracketleft> <K> <9> <0> <bracketright>                : "🨉"  # White King + 90º
+<Multi_key> <U232C> <bracketleft> <K> <1> <8> <0> <bracketright>            : "🨞"  # White King + 180º
+<Multi_key> <U232C> <bracketleft> <K> <2> <7> <0> <bracketright>            : "🨳"  # White King + 270º
+<Multi_key> <U232C> <bracketleft> <K> <minus> <bracketright>                : "🨀"  # Neutral King
+<Multi_key> <U232C> <bracketleft> <K> <9> <0> <minus> <bracketright>        : "🨕"  # Neutral King + 90º
+<Multi_key> <U232C> <bracketleft> <K> <1> <8> <0> <minus> <bracketright>    : "🨪"  # Neutral King + 180º
+<Multi_key> <U232C> <bracketleft> <K> <2> <7> <0> <minus> <bracketright>    : "🨿"  # Neutral King + 270º
+<Multi_key> <U232C> <bracketleft> <K> <asterisk> <bracketright>             : "♚"  # Black King
+<Multi_key> <U232C> <bracketleft> <K> <9> <0> <asterisk> <bracketright>     : "🨏"  # Black King + 90º
+<Multi_key> <U232C> <bracketleft> <K> <1> <8> <0> <asterisk> <bracketright> : "🨤"  # Black King + 180º
+<Multi_key> <U232C> <bracketleft> <K> <2> <7> <0> <asterisk> <bracketright> : "🨹"  # Black King + 270º
+<Multi_key> <U232C> <bracketleft> <N> <bracketright>                        : "♘"  # White Knight [EN]
+<Multi_key> <U232C> <bracketleft> <N> <4> <5> <bracketright>                : "🨆"  # White Knight [EN] + 45º
+<Multi_key> <U232C> <bracketleft> <N> <9> <0> <bracketright>                : "🨍"  # White Knight [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <N> <1> <3> <5> <bracketright>            : "🨛"  # White Knight [EN] + 135º
+<Multi_key> <U232C> <bracketleft> <N> <1> <8> <0> <bracketright>            : "🨢"  # White Knight [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <N> <2> <2> <5> <bracketright>            : "🨰"  # White Knight [EN] + 225º
+<Multi_key> <U232C> <bracketleft> <N> <2> <7> <0> <bracketright>            : "🨷"  # White Knight [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <N> <3> <1> <5> <bracketright>            : "🩅"  # White Knight [EN] + 315º
+<Multi_key> <U232C> <bracketleft> <N> <B> <bracketright>                    : "🩐"  # White Princess
+<Multi_key> <U232C> <bracketleft> <N> <R> <bracketright>                    : "🩏"  # White Empress [EN]
+<Multi_key> <U232C> <bracketleft> <N> <Q> <bracketright>                    : "🩎"  # White Amazon [EN]
+<Multi_key> <U232C> <bracketleft> <N> <minus> <bracketright>                : "🨄"  # Neutral Knight [EN]
+<Multi_key> <U232C> <bracketleft> <N> <4> <5> <minus> <bracketright>        : "🨈"  # Neutral Knight [EN] + 45º
+<Multi_key> <U232C> <bracketleft> <N> <9> <0> <minus> <bracketright>        : "🨙"  # Neutral Knight [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <N> <1> <3> <5> <minus> <bracketright>    : "🨝"  # Neutral Knight [EN] + 135º
+<Multi_key> <U232C> <bracketleft> <N> <1> <8> <0> <minus> <bracketright>    : "🨮"  # Neutral Knight [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <N> <2> <2> <5> <minus> <bracketright>    : "🨲"  # Neutral Knight [EN] + 225º
+<Multi_key> <U232C> <bracketleft> <N> <2> <7> <0> <minus> <bracketright>    : "🩃"  # Neutral Knight [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <N> <3> <1> <5> <minus> <bracketright>    : "🩇"  # Neutral Knight [EN] + 315º
+<Multi_key> <U232C> <bracketleft> <N> <asterisk> <bracketright>             : "♞"  # Black Knight [EN]
+<Multi_key> <U232C> <bracketleft> <N> <4> <5> <asterisk> <bracketright>     : "🨇"  # Black Knight [EN] + 45º
+<Multi_key> <U232C> <bracketleft> <N> <9> <0> <asterisk> <bracketright>     : "🨓"  # Black Knight [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <N> <1> <3> <5> <asterisk> <bracketright> : "🨜"  # Black Knight [EN] + 135º
+<Multi_key> <U232C> <bracketleft> <N> <1> <8> <0> <asterisk> <bracketright> : "🨨"  # Black Knight [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <N> <2> <2> <5> <asterisk> <bracketright> : "🨱"  # Black Knight [EN] + 225º
+<Multi_key> <U232C> <bracketleft> <N> <2> <7> <0> <asterisk> <bracketright> : "🨽"  # Black Knight [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <N> <3> <1> <5> <asterisk> <bracketright> : "🩆"  # Black Knight [EN] + 315º
+<Multi_key> <U232C> <bracketleft> <N> <B> <asterisk> <bracketright>         : "🩓"  # Black Princess
+<Multi_key> <U232C> <bracketleft> <N> <R> <asterisk> <bracketright>         : "🩒"  # Black Empress [EN]
+<Multi_key> <U232C> <bracketleft> <N> <Q> <asterisk> <bracketright>         : "🩑"  # Black Amazon [EN]
+<Multi_key> <U232C> <bracketleft> <Q> <bracketright>                        : "♕"  # White Queen [EN]
+<Multi_key> <U232C> <bracketleft> <Q> <9> <0> <bracketright>                : "🨊"  # White Queen [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Q> <1> <8> <0> <bracketright>            : "🨟"  # White Queen [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Q> <2> <7> <0> <bracketright>            : "🨴"  # White Queen [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Q> <N> <bracketright>                    : "🩎"  # White Amazon [EN]
+<Multi_key> <U232C> <bracketleft> <Q> <minus> <bracketright>                : "🨁"  # Neutral Queen [EN]
+<Multi_key> <U232C> <bracketleft> <Q> <9> <0> <minus> <bracketright>        : "🨖"  # Neutral Queen [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Q> <1> <8> <0> <minus> <bracketright>    : "🨫"  # Neutral Queen [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Q> <2> <7> <0> <minus> <bracketright>    : "🩀"  # Neutral Queen [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Q> <asterisk> <bracketright>             : "♛"  # Black Queen [EN]
+<Multi_key> <U232C> <bracketleft> <Q> <9> <0> <asterisk> <bracketright>     : "🨐"  # Black Queen [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Q> <1> <8> <0> <asterisk> <bracketright> : "🨥"  # Black Queen [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Q> <2> <7> <0> <asterisk> <bracketright> : "🨺"  # Black Queen [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <R> <bracketright>                        : "♖"  # White Rook [EN]
+<Multi_key> <U232C> <bracketleft> <R> <9> <0> <bracketright>                : "🨋"  # White Rook [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <R> <1> <8> <0> <bracketright>            : "🨠"  # White Rook [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <R> <2> <7> <0> <bracketright>            : "🨵"  # White Rook [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <R> <N> <bracketright>                    : "🩏"  # White Empress [EN]
+<Multi_key> <U232C> <bracketleft> <R> <minus> <bracketright>                : "🨂"  # Neutral Rook [EN]
+<Multi_key> <U232C> <bracketleft> <R> <9> <0> <minus> <bracketright>        : "🨗"  # Neutral Rook [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <R> <1> <8> <0> <minus> <bracketright>    : "🨬"  # Neutral Rook [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <R> <2> <7> <0> <minus> <bracketright>    : "🩁"  # Neutral Rook [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <R> <asterisk> <bracketright>             : "♜"  # Black Rook [EN]
+<Multi_key> <U232C> <bracketleft> <R> <9> <0> <asterisk> <bracketright>     : "🨑"  # Black Rook [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <R> <1> <8> <0> <asterisk> <bracketright> : "🨦"  # Black Rook [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <R> <2> <7> <0> <asterisk> <bracketright> : "🨻"  # Black Rook [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <R> <N> <asterisk> <bracketright>         : "🩒"  # Black Empress [EN]
+<Multi_key> <U232C> <bracketleft> <T> <bracketright>                        : "♖"  # Torre Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <T> <9> <0> <bracketright>                : "🨋"  # Torre Blanca [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <T> <1> <8> <0> <bracketright>            : "🨠"  # Torre Blanca [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <T> <2> <7> <0> <bracketright>            : "🨵"  # Torre Blanca [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <T> <C> <bracketright>                    : "🩏"  # Canciller Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <T> <minus> <bracketright>                : "🨂"  # Torre Neutra [ES]
+<Multi_key> <U232C> <bracketleft> <T> <9> <0> <minus> <bracketright>        : "🨗"  # Torre Neutra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <T> <1> <8> <0> <minus> <bracketright>    : "🨬"  # Torre Neutra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <T> <2> <7> <0> <minus> <bracketright>    : "🩁"  # Torre Neutra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <T> <asterisk> <bracketright>             : "♜"  # Torre Negra [ES]
+<Multi_key> <U232C> <bracketleft> <T> <9> <0> <asterisk> <bracketright>     : "🨑"  # Torre Negra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <T> <1> <8> <0> <asterisk> <bracketright> : "🨦"  # Torre Negra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <T> <2> <7> <0> <asterisk> <bracketright> : "🨻"  # Torre Negra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <T> <C> <asterisk> <bracketright>         : "🩒"  # Canciller Negro [ES]
+
+
+# Mahjong Tile Symbols (Alphabetical)
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)
+#
+<Multi_key> <U232C> <bracketleft> <1> <B> <bracketright>            : "🀐"  # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <1> <b> <bracketright>            : "🀐"  # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <1> <C> <bracketright>            : "🀇"  # One of Characters
+<Multi_key> <U232C> <bracketleft> <1> <c> <bracketright>            : "🀇"  # One of Characters
+<Multi_key> <U232C> <bracketleft> <2> <B> <bracketright>            : "🀑"  # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <2> <b> <bracketright>            : "🀑"  # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <2> <C> <bracketright>            : "🀈"  # Two of Characters
+<Multi_key> <U232C> <bracketleft> <2> <c> <bracketright>            : "🀈"  # Two of Characters
+<Multi_key> <U232C> <bracketleft> <3> <B> <bracketright>            : "🀒"  # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <3> <b> <bracketright>            : "🀒"  # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <3> <C> <bracketright>            : "🀉"  # Three of Characters
+<Multi_key> <U232C> <bracketleft> <3> <c> <bracketright>            : "🀉"  # Three of Characters
+<Multi_key> <U232C> <bracketleft> <4> <B> <bracketright>            : "🀓"  # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <4> <b> <bracketright>            : "🀓"  # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <4> <C> <bracketright>            : "🀊"  # Four of Characters
+<Multi_key> <U232C> <bracketleft> <4> <c> <bracketright>            : "🀊"  # Four of Characters
+<Multi_key> <U232C> <bracketleft> <5> <B> <bracketright>            : "🀔"  # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <5> <b> <bracketright>            : "🀔"  # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <5> <C> <bracketright>            : "🀋"  # Five of Characters
+<Multi_key> <U232C> <bracketleft> <5> <c> <bracketright>            : "🀋"  # Five of Characters
+<Multi_key> <U232C> <bracketleft> <6> <B> <bracketright>            : "🀕"  # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <6> <b> <bracketright>            : "🀕"  # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <6> <C> <bracketright>            : "🀌"  # Six of Characters
+<Multi_key> <U232C> <bracketleft> <6> <c> <bracketright>            : "🀌"  # Six of Characters
+<Multi_key> <U232C> <bracketleft> <7> <B> <bracketright>            : "🀖"  # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <7> <b> <bracketright>            : "🀖"  # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <7> <C> <bracketright>            : "🀍"  # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <7> <c> <bracketright>            : "🀍"  # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <8> <B> <bracketright>            : "🀗"  # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <8> <b> <bracketright>            : "🀗"  # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <8> <C> <bracketright>            : "🀎"  # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <8> <c> <bracketright>            : "🀎"  # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <9> <B> <bracketright>            : "🀘"  # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <9> <b> <bracketright>            : "🀘"  # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <9> <C> <bracketright>            : "🀏"  # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <9> <c> <bracketright>            : "🀏"  # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <at> <M> <bracketright>           : "🀫"  # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <at> <m> <bracketright>           : "🀫"  # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <B> <1> <bracketright>            : "🀐"  # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <b> <1> <bracketright>            : "🀐"  # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <B> <2> <bracketright>            : "🀑"  # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <b> <2> <bracketright>            : "🀑"  # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <B> <3> <bracketright>            : "🀒"  # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <b> <3> <bracketright>            : "🀒"  # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <B> <4> <bracketright>            : "🀓"  # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <b> <4> <bracketright>            : "🀓"  # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <B> <5> <bracketright>            : "🀔"  # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <b> <5> <bracketright>            : "🀔"  # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <B> <6> <bracketright>            : "🀕"  # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <b> <6> <bracketright>            : "🀕"  # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <B> <7> <bracketright>            : "🀖"  # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <b> <7> <bracketright>            : "🀖"  # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <B> <8> <bracketright>            : "🀗"  # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <b> <8> <bracketright>            : "🀗"  # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <B> <9> <bracketright>            : "🀘"  # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <b> <9> <bracketright>            : "🀘"  # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <C> <1> <bracketright>            : "🀇"  # One of Characters
+<Multi_key> <U232C> <bracketleft> <c> <1> <bracketright>            : "🀇"  # One of Characters
+<Multi_key> <U232C> <bracketleft> <C> <2> <bracketright>            : "🀈"  # Two of Characters
+<Multi_key> <U232C> <bracketleft> <c> <2> <bracketright>            : "🀈"  # Two of Characters
+<Multi_key> <U232C> <bracketleft> <C> <3> <bracketright>            : "🀉"  # Three of Characters
+<Multi_key> <U232C> <bracketleft> <c> <3> <bracketright>            : "🀉"  # Three of Characters
+<Multi_key> <U232C> <bracketleft> <C> <4> <bracketright>            : "🀊"  # Four of Characters
+<Multi_key> <U232C> <bracketleft> <c> <4> <bracketright>            : "🀊"  # Four of Characters
+<Multi_key> <U232C> <bracketleft> <C> <5> <bracketright>            : "🀋"  # Five of Characters
+<Multi_key> <U232C> <bracketleft> <c> <5> <bracketright>            : "🀋"  # Five of Characters
+<Multi_key> <U232C> <bracketleft> <C> <6> <bracketright>            : "🀌"  # Six of Characters
+<Multi_key> <U232C> <bracketleft> <c> <6> <bracketright>            : "🀌"  # Six of Characters
+<Multi_key> <U232C> <bracketleft> <C> <7> <bracketright>            : "🀍"  # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <c> <7> <bracketright>            : "🀍"  # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <C> <8> <bracketright>            : "🀎"  # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <c> <8> <bracketright>            : "🀎"  # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <C> <9> <bracketright>            : "🀏"  # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <c> <9> <bracketright>            : "🀏"  # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <dollar> <J> <bracketright>       : "🀪"  # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <dollar> <j> <bracketright>       : "🀪"  # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <E> <asciitilde> <bracketright>   : "🀀"  # East Wind
+<Multi_key> <U232C> <bracketleft> <e> <asciitilde> <bracketright>   : "🀀"  # East Wind
+<Multi_key> <U232C> <bracketleft> <E> <dead_tilde> <bracketright>   : "🀀"  # East Wind
+<Multi_key> <U232C> <bracketleft> <e> <dead_tilde> <bracketright>   : "🀀"  # East Wind
+<Multi_key> <U232C> <bracketleft> <G> <at> <bracketright>           : "🀅"  # Green Dragon
+<Multi_key> <U232C> <bracketleft> <g> <at> <bracketright>           : "🀅"  # Green Dragon
+<Multi_key> <U232C> <bracketleft> <J> <dollar> <bracketright>       : "🀪"  # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <j> <dollar> <bracketright>       : "🀪"  # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <M> <at> <bracketright>           : "🀫"  # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <m> <at> <bracketright>           : "🀫"  # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <R> <at> <bracketright>           : "🀄"  # Red Dragon
+<Multi_key> <U232C> <bracketleft> <r> <at> <bracketright>           : "🀄"  # Red Dragon
+<Multi_key> <U232C> <bracketleft> <N> <asciitilde> <bracketright>   : "🀃"  # North Wind
+<Multi_key> <U232C> <bracketleft> <n> <asciitilde> <bracketright>   : "🀃"  # North Wind
+<Multi_key> <U232C> <bracketleft> <N> <dead_tilde> <bracketright>   : "🀃"  # North Wind
+<Multi_key> <U232C> <bracketleft> <n> <dead_tilde> <bracketright>   : "🀃"  # North Wind
+<Multi_key> <U232C> <bracketleft> <S> <asciitilde> <bracketright>   : "🀁"  # South Wind
+<Multi_key> <U232C> <bracketleft> <s> <asciitilde> <bracketright>   : "🀁"  # South Wind
+<Multi_key> <U232C> <bracketleft> <S> <dead_tilde> <bracketright>   : "🀁"  # South Wind
+<Multi_key> <U232C> <bracketleft> <s> <dead_tilde> <bracketright>   : "🀁"  # South Wind
+<Multi_key> <U232C> <bracketleft> <W> <asciitilde> <bracketright>   : "🀂"  # West Wind
+<Multi_key> <U232C> <bracketleft> <w> <asciitilde> <bracketright>   : "🀂"  # West Wind
+<Multi_key> <U232C> <bracketleft> <W> <dead_tilde> <bracketright>   : "🀂"  # West Wind
+<Multi_key> <U232C> <bracketleft> <w> <dead_tilde> <bracketright>   : "🀂"  # West Wind
+<Multi_key> <U232C> <bracketleft> <W> <at> <bracketright>           : "🀆"  # White Dragon
+<Multi_key> <U232C> <bracketleft> <w> <at> <bracketright>           : "🀆"  # White Dragon
+
+
+# Xiàngqí Piece Symbols
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [NOTE]: Each piece does also encode info about its color
+#         in the following regex-like notation:
+#           
+#         regexp = \[[a-zA-Z]*\*?\]
+#
+#         Where:
+#         - [a-zA-Z]        = The full pinyin name of the corresponding xiangqi piece.
+#         - \*              = Denotes a black xiangqi piece. Leaving this field blank will result in a red piece.
+#
+# [Main sources]:
+#   - https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+#   - https://es.wikipedia.org/wiki/Xiangqi
+#   - https://en.wikipedia.org/wiki/Xiangqi
+#
+<Multi_key> <U232C> <bracketleft> <B> <Imacron> <N> <G> <bracketright>                          : "🩦"  # Red Soldier (Bīng [兵])
+<Multi_key> <U232C> <bracketleft> <B> <dead_macron> <I> <N> <G> <bracketright>                  : "🩦"  # Red Soldier (Bīng [兵])
+<Multi_key> <U232C> <bracketleft> <b> <imacron> <n> <g> <bracketright>                          : "🩦"  # Red Soldier (Bīng [兵])
+<Multi_key> <U232C> <bracketleft> <b> <dead_macron> <i> <n> <g> <bracketright>                  : "🩦"  # Red Soldier (Bīng [兵])
+<Multi_key> <U232C> <bracketleft> <J> <I> <Agrave> <N> <G> <bracketright>                       : "🩧"  # Black General (Jiàng [將/将])
+<Multi_key> <U232C> <bracketleft> <J> <I> <dead_grave> <A> <N> <G> <bracketright>               : "🩧"  # Black General (Jiàng [將/将])
+<Multi_key> <U232C> <bracketleft> <j> <i> <agrave> <n> <g> <bracketright>                       : "🩧"  # Black General (Jiàng [將/将])
+<Multi_key> <U232C> <bracketleft> <j> <i> <dead_grave> <a> <n> <g> <bracketright>               : "🩧"  # Black General (Jiàng [將/将])
+<Multi_key> <U232C> <bracketleft> <J> <Umacron> <bracketright>                                  : "🩤"  # Red Chariot (Jū [俥/车])
+<Multi_key> <U232C> <bracketleft> <J> <dead_macron> <U> <bracketright>                          : "🩤"  # Red Chariot (Jū [俥/车])
+<Multi_key> <U232C> <bracketleft> <j> <umacron> <bracketright>                                  : "🩤"  # Red Chariot (Jū [俥/车])
+<Multi_key> <U232C> <bracketleft> <j> <dead_macron> <u> <bracketright>                          : "🩤"  # Red Chariot (Jū [俥/车])
+<Multi_key> <U232C> <bracketleft> <J> <Umacron> <asterisk> <bracketright>                       : "🩫"  # Black Chariot (Jū [車/车])
+<Multi_key> <U232C> <bracketleft> <J> <dead_macron> <U> <asterisk> <bracketright>               : "🩫"  # Black Chariot (Jū [車/车])
+<Multi_key> <U232C> <bracketleft> <j> <umacron> <asterisk> <bracketright>                       : "🩫"  # Black Chariot (Jū [車/车])
+<Multi_key> <U232C> <bracketleft> <j> <dead_macron> <u> <asterisk> <bracketright>               : "🩫"  # Black Chariot (Jū [車/车])
+<Multi_key> <U232C> <bracketleft> <M> <U01CD> <bracketright>                                    : "🩣"  # Red Horse (Mǎ [傌/马])
+<Multi_key> <U232C> <bracketleft> <M> <dead_caron> <A> <bracketright>                           : "🩣"  # Red Horse (Mǎ [傌/马])
+<Multi_key> <U232C> <bracketleft> <m> <U01CE> <bracketright>                                    : "🩣"  # Red Horse (Mǎ [傌/马])
+<Multi_key> <U232C> <bracketleft> <m> <dead_caron> <a> <bracketright>                           : "🩣"  # Red Horse (Mǎ [傌/马])
+<Multi_key> <U232C> <bracketleft> <M> <U01CD> <asterisk> <bracketright>                         : "🩪"  # Black Horse (Mǎ [馬/马])
+<Multi_key> <U232C> <bracketleft> <M> <dead_caron> <A> <asterisk> <bracketright>                : "🩪"  # Black Horse (Mǎ [馬/马])
+<Multi_key> <U232C> <bracketleft> <m> <U01CE> <asterisk> <bracketright>                         : "🩪"  # Black Horse (Mǎ [馬/马])
+<Multi_key> <U232C> <bracketleft> <m> <dead_caron> <a> <asterisk> <bracketright>                : "🩪"  # Black Horse (Mǎ [馬/马])
+<Multi_key> <U232C> <bracketleft> <P> <Agrave> <O> <bracketright>                               : "🩥"  # Red Cannon (Pào [炮])
+<Multi_key> <U232C> <bracketleft> <P> <dead_grave> <A> <O> <bracketright>                       : "🩥"  # Red Cannon (Pào [炮])
+<Multi_key> <U232C> <bracketleft> <p> <agrave> <o> <bracketright>                               : "🩥"  # Red Cannon (Pào [炮])
+<Multi_key> <U232C> <bracketleft> <p> <dead_grave> <a> <o> <bracketright>                       : "🩥"  # Red Cannon (Pào [炮])
+<Multi_key> <U232C> <bracketleft> <P> <Agrave> <O> <asterisk> <bracketright>                    : "🩬"  # Black Cannon (Pào [砲])
+<Multi_key> <U232C> <bracketleft> <P> <dead_grave> <A> <O> <asterisk> <bracketright>            : "🩬"  # Black Cannon (Pào [砲])
+<Multi_key> <U232C> <bracketleft> <p> <agrave> <o> <asterisk> <bracketright>                    : "🩬"  # Black Cannon (Pào [砲])
+<Multi_key> <U232C> <bracketleft> <p> <dead_grave> <a> <o> <asterisk> <bracketright>            : "🩬"  # Black Cannon (Pào [砲])
+<Multi_key> <U232C> <bracketleft> <S> <H> <Igrave> <bracketright>                               : "🩡"  # Red Advisor/Mandarin (Shì [仕])
+<Multi_key> <U232C> <bracketleft> <S> <H> <dead_grave> <I> <bracketright>                       : "🩡"  # Red Advisor/Mandarin (Shì [仕])
+<Multi_key> <U232C> <bracketleft> <s> <h> <igrave> <bracketright>                               : "🩡"  # Red Advisor/Mandarin (Shì [仕])
+<Multi_key> <U232C> <bracketleft> <s> <h> <dead_grave> <i> <bracketright>                       : "🩡"  # Red Advisor/Mandarin (Shì [仕])
+<Multi_key> <U232C> <bracketleft> <S> <H> <Igrave> <asterisk> <bracketright>                    : "🩨"  # Black Advisor/Mandarin (Shì [士])
+<Multi_key> <U232C> <bracketleft> <S> <H> <dead_grave> <I> <asterisk> <bracketright>            : "🩨"  # Black Advisor/Mandarin (Shì [士])
+<Multi_key> <U232C> <bracketleft> <s> <h> <igrave> <asterisk> <bracketright>                    : "🩨"  # Black Advisor/Mandarin (Shì [士])
+<Multi_key> <U232C> <bracketleft> <s> <h> <dead_grave> <i> <asterisk> <bracketright>            : "🩨"  # Black Advisor/Mandarin (Shì [士])
+<Multi_key> <U232C> <bracketleft> <S> <H> <U> <Agrave> <I> <bracketright>                       : "🩠"  # Red General (Shuài [帥/帅])
+<Multi_key> <U232C> <bracketleft> <S> <H> <U> <dead_grave> <A> <I> <bracketright>               : "🩠"  # Red General (Shuài [帥/帅])
+<Multi_key> <U232C> <bracketleft> <s> <h> <u> <agrave> <i> <bracketright>                       : "🩠"  # Red General (Shuài [帥/帅])
+<Multi_key> <U232C> <bracketleft> <s> <h> <u> <dead_grave> <a> <i> <bracketright>               : "🩠"  # Red General (Shuài [帥/帅])
+<Multi_key> <U232C> <bracketleft> <X> <I> <Agrave> <N> <G> <bracketright>                       : "🩢"  # Red Elephant (Xiàng [相])
+<Multi_key> <U232C> <bracketleft> <X> <I> <dead_grave> <A> <N> <G> <bracketright>               : "🩢"  # Red Elephant (Xiàng [相])
+<Multi_key> <U232C> <bracketleft> <x> <i> <agrave> <n> <g> <bracketright>                       : "🩢"  # Red Elephant (Xiàng [相])
+<Multi_key> <U232C> <bracketleft> <x> <i> <dead_grave> <a> <n> <g> <bracketright>               : "🩢"  # Red Elephant (Xiàng [相])
+<Multi_key> <U232C> <bracketleft> <X> <I> <Agrave> <N> <G> <asterisk> <bracketright>            : "🩩"  # Black Elephant (Xiàng [象])
+<Multi_key> <U232C> <bracketleft> <X> <I> <dead_grave> <A> <N> <G> <asterisk> <bracketright>    : "🩩"  # Black Elephant (Xiàng [象])
+<Multi_key> <U232C> <bracketleft> <x> <i> <agrave> <n> <g> <asterisk> <bracketright>            : "🩩"  # Black Elephant (Xiàng [象])
+<Multi_key> <U232C> <bracketleft> <x> <i> <dead_grave> <a> <n> <g> <asterisk> <bracketright>    : "🩩"  # Black Elephant (Xiàng [象])
+<Multi_key> <U232C> <bracketleft> <Z> <Uacute> <bracketright>                                   : "🩭"  # Black Soldier (Zú [卒])
+<Multi_key> <U232C> <bracketleft> <Z> <dead_acute> <U> <bracketright>                           : "🩭"  # Black Soldier (Zú [卒])
+<Multi_key> <U232C> <bracketleft> <z> <uacute> <bracketright>                                   : "🩭"  # Black Soldier (Zú [卒])
+<Multi_key> <U232C> <bracketleft> <z> <dead_acute> <u> <bracketright>                           : "🩭"  # Black Soldier (Zú [卒])
+
+##################
+# [END OF RULES] #
+##################
