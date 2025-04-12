@@ -9,6 +9,56 @@
 #
 #
 
+# Anglo-French Playing Card Symbols
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [NOTE]: Each piece does also encode info about its suit and value
+#         in the following regex-like notation:
+#           
+#         regexp = \[([0-9]{,2}|[CcJjQqKk])?[(->)|(<3)|(<>)|(\.3)](\*)?\]
+#
+#         Where:
+#         - [CcJjQqKk]              = Any non-numerical playing card (Knight/Cavalier -> Jack -> Queen -> King).
+#         - (->)|(<3)|(<>)|(\.3)]   = The card's own suit (Spade, Heart, Diamond or Club). Omitting the card's value will output the corresponding suit symbol.
+#         - \*                      = Whether the current suit is black. If not entered, it means the current suit is white/red.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <J> <minus> <greater> <bracketright>  : "🂫"  # Jack of Spades
+<Multi_key> <U232C> <bracketleft> <j> <minus> <greater> <bracketright>  : "🂫"  # Jack of Spades
+<Multi_key> <U232C> <bracketleft> <C> <minus> <greater> <bracketright>  : "🂬"  # Knight of Spades
+<Multi_key> <U232C> <bracketleft> <c> <minus> <greater> <bracketright>  : "🂬"  # Knight of Spades
+<Multi_key> <U232C> <bracketleft> <Q> <minus> <greater> <bracketright>  : "🂭"  # Queen of Spades
+<Multi_key> <U232C> <bracketleft> <q> <minus> <greater> <bracketright>  : "🂭"  # Queen of Spades
+<Multi_key> <U232C> <bracketleft> <K> <minus> <greater> <bracketright>  : "🂮"  # King of Spades
+<Multi_key> <U232C> <bracketleft> <k> <minus> <greater> <bracketright>  : "🂮"  # King of Spades
+<Multi_key> <U232C> <bracketleft> <J> <less> <3> <bracketright>         : "🂻"  # Jack of Hearts
+<Multi_key> <U232C> <bracketleft> <j> <less> <3> <bracketright>         : "🂻"  # Jack of Hearts
+<Multi_key> <U232C> <bracketleft> <C> <less> <3> <bracketright>         : "🂼"  # Knight of Hearts
+<Multi_key> <U232C> <bracketleft> <c> <less> <3> <bracketright>         : "🂼"  # Knight of Hearts
+<Multi_key> <U232C> <bracketleft> <Q> <less> <3> <bracketright>         : "🂽"  # Queen of Hearts
+<Multi_key> <U232C> <bracketleft> <q> <less> <3> <bracketright>         : "🂽"  # Queen of Hearts
+<Multi_key> <U232C> <bracketleft> <K> <less> <3> <bracketright>         : "🂾"  # King of Hearts
+<Multi_key> <U232C> <bracketleft> <k> <less> <3> <bracketright>         : "🂾"  # King of Hearts
+<Multi_key> <U232C> <bracketleft> <J> <less> <greater> <bracketright>   : "🃋"  # Jack of Diamonds
+<Multi_key> <U232C> <bracketleft> <j> <less> <greater> <bracketright>   : "🃋"  # Jack of Diamonds
+<Multi_key> <U232C> <bracketleft> <C> <less> <greater> <bracketright>   : "🃌"  # Knight of Diamonds
+<Multi_key> <U232C> <bracketleft> <c> <less> <greater> <bracketright>   : "🃌"  # Knight of Diamonds
+<Multi_key> <U232C> <bracketleft> <Q> <less> <greater> <bracketright>   : "🃍"  # Queen of Diamonds
+<Multi_key> <U232C> <bracketleft> <q> <less> <greater> <bracketright>   : "🃍"  # Queen of Diamonds
+<Multi_key> <U232C> <bracketleft> <K> <less> <greater> <bracketright>   : "🃎"  # King of Diamonds
+<Multi_key> <U232C> <bracketleft> <k> <less> <greater> <bracketright>   : "🃎"  # King of Diamonds
+<Multi_key> <U232C> <bracketleft> <J> <period> <3> <bracketright>       : "🃛"  # Jack of Clubs
+<Multi_key> <U232C> <bracketleft> <j> <period> <3> <bracketright>       : "🃛"  # Jack of Clubs
+<Multi_key> <U232C> <bracketleft> <C> <period> <3> <bracketright>       : "🃜"  # Knight of Clubs
+<Multi_key> <U232C> <bracketleft> <c> <period> <3> <bracketright>       : "🃜"  # Knight of Clubs
+<Multi_key> <U232C> <bracketleft> <Q> <period> <3> <bracketright>       : "🃝"  # Queen of Clubs
+<Multi_key> <U232C> <bracketleft> <q> <period> <3> <bracketright>       : "🃝"  # Queen of Clubs
+<Multi_key> <U232C> <bracketleft> <K> <period> <3> <bracketright>       : "🃞"  # King of Clubs
+<Multi_key> <U232C> <bracketleft> <k> <period> <3> <bracketright>       : "🃞"  # King of Clubs
+
+
 # Chess Piece Symbols (Excluding Pawns)
 #
 # [NOTE]: All symbols listed here are enclosed inside square brackets.
@@ -179,6 +229,56 @@
 <Multi_key> <U232C> <bracketleft> <T> <1> <8> <0> <asterisk> <bracketright> : "🨦"  # Torre Negra [ES] + 180º
 <Multi_key> <U232C> <bracketleft> <T> <2> <7> <0> <asterisk> <bracketright> : "🨻"  # Torre Negra [ES] + 270º
 <Multi_key> <U232C> <bracketleft> <T> <C> <asterisk> <bracketright>         : "🩒"  # Canciller Negro [ES]
+
+
+# Generic Bourgeois Tarot Card (Alphabetical)
+#
+# [NOTE]: All symbols listed here are enclosed inside double square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <bracketleft> <I> <bracketright> <bracketright>                   : "🃡"  # Trump Card 1 (Individual)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <i> <bracketright> <bracketright>                   : "🃡"  # Trump Card 1 (Individual)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <I> <I> <bracketright> <bracketright>               : "🃢"  # Trump Card 2 (Childhood)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <i> <i> <bracketright> <bracketright>               : "🃢"  # Trump Card 2 (Childhood)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <I> <I> <I> <bracketright> <bracketright>           : "🃣"  # Trump Card 3 (Youth)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <i> <i> <i> <bracketright> <bracketright>           : "🃣"  # Trump Card 3 (Youth)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <I> <V> <bracketright> <bracketright>               : "🃤"  # Trump Card 4 (Maturity)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <i> <v> <bracketright> <bracketright>               : "🃤"  # Trump Card 4 (Maturity)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <V> <bracketright> <bracketright>                   : "🃥"  # Trump Card 5 (Old Age)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <v> <bracketright> <bracketright>                   : "🃥"  # Trump Card 5 (Old Age)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <V> <I> <bracketright> <bracketright>               : "🃦"  # Trump Card 6 (Morning)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <v> <i> <bracketright> <bracketright>               : "🃦"  # Trump Card 6 (Morning)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <V> <I> <I> <bracketright> <bracketright>           : "🃧"  # Trump Card 7 (Afternoon)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <v> <i> <i> <bracketright> <bracketright>           : "🃧"  # Trump Card 7 (Afternoon)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <V> <I> <I> <I> <bracketright> <bracketright>       : "🃨"  # Trump Card 8 (Evening)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <v> <i> <i> <i> <bracketright> <bracketright>       : "🃨"  # Trump Card 8 (Evening)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <I> <X> <bracketright> <bracketright>               : "🃩"  # Trump Card 9 (Night)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <i> <x> <bracketright> <bracketright>               : "🃩"  # Trump Card 9 (Night)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <bracketright> <bracketright>                   : "🃪"  # Trump Card 10 (Earth & Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <bracketright> <bracketright>                   : "🃪"  # Trump Card 10 (Earth & Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <I> <bracketright> <bracketright>               : "🃫"  # Trump Card 11 (Water & Fire)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <i> <bracketright> <bracketright>               : "🃫"  # Trump Card 11 (Water & Fire)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <I> <I> <bracketright> <bracketright>           : "🃬"  # Trump Card 12 (Dance)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <i> <i> <bracketright> <bracketright>           : "🃬"  # Trump Card 12 (Dance)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <I> <I> <I> <bracketright> <bracketright>       : "🃭"  # Trump Card 13 (Shopping)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <i> <i> <i> <bracketright> <bracketright>       : "🃭"  # Trump Card 13 (Shopping)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <I> <V> <bracketright> <bracketright>           : "🃮"  # Trump Card 14 (Open Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <i> <v> <bracketright> <bracketright>           : "🃮"  # Trump Card 14 (Open Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <V> <bracketright> <bracketright>               : "🃯"  # Trump Card 15 (Visual Arts)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <v> <bracketright> <bracketright>               : "🃯"  # Trump Card 15 (Visual Arts)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <V> <I> <bracketright> <bracketright>           : "🃰"  # Trump Card 16 (Spring)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <v> <i> <bracketright> <bracketright>           : "🃰"  # Trump Card 16 (Spring)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <V> <I> <I> <bracketright> <bracketright>       : "🃱"  # Trump Card 17 (Summer)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <v> <i> <i> <bracketright> <bracketright>       : "🃱"  # Trump Card 17 (Summer)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <V> <I> <I> <I> <bracketright> <bracketright>   : "🃲"  # Trump Card 18 (Autumn)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <v> <i> <i> <i> <bracketright> <bracketright>   : "🃲"  # Trump Card 18 (Autumn)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <I> <X> <bracketright> <bracketright>           : "🃳"  # Trump Card 19 (Winter)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <i> <x> <bracketright> <bracketright>           : "🃳"  # Trump Card 19 (Winter)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <X> <bracketright> <bracketright>               : "🃴"  # Trump Card 20 (The Game)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <x> <bracketright> <bracketright>               : "🃴"  # Trump Card 20 (The Game)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <X> I> <bracketright> <bracketright>            : "🃵"  # Trump Card 21 (Collective)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <x> <x> <i> <bracketright> <bracketright>           : "🃵"  # Trump Card 21 (Collective)
 
 
 # Mahjong Tile Symbols (Alphabetical)
