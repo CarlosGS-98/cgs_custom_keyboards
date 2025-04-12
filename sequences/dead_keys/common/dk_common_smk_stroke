@@ -11,6 +11,9 @@
 <dead_stroke> <dead_stroke> : "̵"    # Combining short stroke overlay
 <dead_stroke> <less>        : "̶"    # Combining long stroke overlay
 <dead_stroke> <greater>     : "̶"    # Combining long stroke overlay
+<dead_stroke> <plus>        : "⃒"    # Combining long vertical line overlay
+<dead_stroke> <minus>       : "⃓"    # Combining short vertical line overlay
+<dead_stroke> <bar>         : "⃦"    # Combining double vertical stroke overlay
 
 
 # Basic precomposed letter combinations (Non-Alphabetical)

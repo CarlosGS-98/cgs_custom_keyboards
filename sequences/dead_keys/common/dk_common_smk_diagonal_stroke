@@ -11,7 +11,9 @@
 <dead_longsolidusoverlay> <space>                   : "̸"    # Combining long solidus overlay
 <dead_longsolidusoverlay> <dead_longsolidusoverlay> : "̸"    # Combining long solidus overlay
 <dead_longsolidusoverlay> <less>                    : "̷"    # Combining short solidus overlay
-<dead_longsolidusoverlay> <greater>                 : "⃥"   # Combining reverse long solidus overlay
+<dead_longsolidusoverlay> <greater>                 : "⃥"    # Combining reverse long solidus overlay
+<dead_longsolidusoverlay> <backslash>               : "⃥"    # Combining reverse long solidus overlay
+<dead_longsolidusoverlay> <slash>                   : "⃫"    # Combining long double solidus overlay
 
 ##################
 # [END OF RULES] #

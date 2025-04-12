@@ -1,0 +1,340 @@
+# Common Compose Sequences | Board Game Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing board game symbols
+# > that can be input with non-alphabetical Latin characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+#
+
+# Anglo-French Playing Card Symbols
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [NOTE]: Each piece does also encode info about its suit and value
+#         in the following regex-like notation:
+#           
+#         regexp = \[([0-9]{,2}|[CcJjQqKk])?[(->)|(<3)|(<>)|(\.3)](\*)?\]
+#
+#         Where:
+#         - [CcJjQqKk]              = Any non-numerical playing card (Knight/Cavalier -> Jack -> Queen -> King).
+#         - (->)|(<3)|(<>)|(\.3)]   = The card's own suit (Spade, Heart, Diamond or Club). Omitting the card's value will output the corresponding suit symbol.
+#         - \*                      = Whether the current suit is black. If not entered, it means the current suit is white/red.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <dollar> <0> <bracketright>                   : "🂠"  # Anglo-French Playing Card Back
+<Multi_key> <U232C> <bracketleft> <dollar> <1> <bracketright>                   : "🂿"   # Red Joker
+<Multi_key> <U232C> <bracketleft> <dollar> <2> <bracketright>                   : "🃏"  # Black Joker
+<Multi_key> <U232C> <bracketleft> <dollar> <3> <bracketright>                   : "🃟"  # White Joker
+<Multi_key> <U232C> <bracketleft> <minus> <greater> <bracketright>              : "♤"  # White Spade
+<Multi_key> <U232C> <bracketleft> <minus> <greater> <asterisk> <bracketright>   : "♠"   # Black Spade
+<Multi_key> <U232C> <bracketleft> <minus> <greater> <at> <bracketright>         : "♠️"  # Spade Emoji
+<Multi_key> <U232C> <bracketleft> <1> <minus> <greater> <bracketright>          : "🂡"  # Ace of Spades
+<Multi_key> <U232C> <bracketleft> <2> <minus> <greater> <bracketright>          : "🂢"  # Two of Spades
+<Multi_key> <U232C> <bracketleft> <3> <minus> <greater> <bracketright>          : "🂣"  # Three of Spades
+<Multi_key> <U232C> <bracketleft> <4> <minus> <greater> <bracketright>          : "🂤"  # Four of Spades
+<Multi_key> <U232C> <bracketleft> <5> <minus> <greater> <bracketright>          : "🂥"  # Five of Spades
+<Multi_key> <U232C> <bracketleft> <6> <minus> <greater> <bracketright>          : "🂦"  # Six of Spades
+<Multi_key> <U232C> <bracketleft> <7> <minus> <greater> <bracketright>          : "🂧"  # Seven of Spades
+<Multi_key> <U232C> <bracketleft> <8> <minus> <greater> <bracketright>          : "🂨"  # Eight of Spades
+<Multi_key> <U232C> <bracketleft> <9> <minus> <greater> <bracketright>          : "🂩"  # Nine of Spades
+<Multi_key> <U232C> <bracketleft> <1> <0> <minus> <greater> <bracketright>      : "🂪"  # Ten of Spades
+<Multi_key> <U232C> <bracketleft> <1> <1> <minus> <greater> <bracketright>      : "🂫"  # Jack of Spades
+<Multi_key> <U232C> <bracketleft> <1> <2> <minus> <greater> <bracketright>      : "🂬"  # Knight of Spades
+<Multi_key> <U232C> <bracketleft> <1> <3> <minus> <greater> <bracketright>      : "🂭"  # Queen of Spades
+<Multi_key> <U232C> <bracketleft> <1> <4> <minus> <greater> <bracketright>      : "🂮"  # King of Spades
+<Multi_key> <U232C> <bracketleft> <less> <3> <bracketright>                     : "♡"  # White Heart
+<Multi_key> <U232C> <bracketleft> <less> <3> <asterisk> <bracketright>          : "♥"   # Black Heart
+<Multi_key> <U232C> <bracketleft> <less> <3> <at> <bracketright>                : "♥️"  # Heart Emoji
+<Multi_key> <U232C> <bracketleft> <1> <less> <3> <bracketright>                 : "🂱"  # Ace of Hearts
+<Multi_key> <U232C> <bracketleft> <2> <less> <3> <bracketright>                 : "🂲"  # Two of Hearts
+<Multi_key> <U232C> <bracketleft> <3> <less> <3> <bracketright>                 : "🂳"  # Three of Hearts
+<Multi_key> <U232C> <bracketleft> <4> <less> <3> <bracketright>                 : "🂴"  # Four of Hearts
+<Multi_key> <U232C> <bracketleft> <5> <less> <3> <bracketright>                 : "🂵"  # Five of Hearts
+<Multi_key> <U232C> <bracketleft> <6> <less> <3> <bracketright>                 : "🂶"  # Six of Hearts
+<Multi_key> <U232C> <bracketleft> <7> <less> <3> <bracketright>                 : "🂷"  # Seven of Hearts
+<Multi_key> <U232C> <bracketleft> <8> <less> <3> <bracketright>                 : "🂸"  # Eight of Hearts
+<Multi_key> <U232C> <bracketleft> <9> <less> <3> <bracketright>                 : "🂹"  # Nine of Hearts
+<Multi_key> <U232C> <bracketleft> <1> <0> <less> <3> <bracketright>             : "🂺"  # Ten of Hearts
+<Multi_key> <U232C> <bracketleft> <1> <1> <less> <3> <bracketright>             : "🂻"  # Jack of Hearts
+<Multi_key> <U232C> <bracketleft> <1> <2> <less> <3> <bracketright>             : "🂼"  # Knight of Hearts
+<Multi_key> <U232C> <bracketleft> <1> <3> <less> <3> <bracketright>             : "🂽"  # Queen of Hearts
+<Multi_key> <U232C> <bracketleft> <1> <4> <less> <3> <bracketright>             : "🂾"  # King of Hearts
+<Multi_key> <U232C> <bracketleft> <less> <greater> <bracketright>               : "♢"  # White Diamond
+<Multi_key> <U232C> <bracketleft> <less> <greater> <asterisk> <bracketright>    : "♦"   # Black Diamond
+<Multi_key> <U232C> <bracketleft> <less> <greater> <at> <bracketright>          : "♦️"  # Diamond Emoji
+<Multi_key> <U232C> <bracketleft> <1> <less> <greater> <bracketright>           : "🃁"  # Ace of Diamonds
+<Multi_key> <U232C> <bracketleft> <2> <less> <greater> <bracketright>           : "🃂"  # Two of Diamonds
+<Multi_key> <U232C> <bracketleft> <3> <less> <greater> <bracketright>           : "🃃"  # Three of Diamonds
+<Multi_key> <U232C> <bracketleft> <4> <less> <greater> <bracketright>           : "🃄"  # Four of Diamonds
+<Multi_key> <U232C> <bracketleft> <5> <less> <greater> <bracketright>           : "🃅"  # Five of Diamonds
+<Multi_key> <U232C> <bracketleft> <6> <less> <greater> <bracketright>           : "🃆"  # Six of Diamonds
+<Multi_key> <U232C> <bracketleft> <7> <less> <greater> <bracketright>           : "🃇"  # Seven of Diamonds
+<Multi_key> <U232C> <bracketleft> <8> <less> <greater> <bracketright>           : "🃈"  # Eight of Diamonds
+<Multi_key> <U232C> <bracketleft> <9> <less> <greater> <bracketright>           : "🃉"  # Nine of Diamonds
+<Multi_key> <U232C> <bracketleft> <1> <0> <less> <greater> <bracketright>       : "🃊"  # Ten of Diamonds
+<Multi_key> <U232C> <bracketleft> <1> <1> <less> <greater> <bracketright>       : "🃋"  # Jack of Diamonds
+<Multi_key> <U232C> <bracketleft> <1> <2> <less> <greater> <bracketright>       : "🃌"  # Knight of Diamonds
+<Multi_key> <U232C> <bracketleft> <1> <3> <less> <greater> <bracketright>       : "🃍"  # Queen of Diamonds
+<Multi_key> <U232C> <bracketleft> <1> <4> <less> <greater> <bracketright>       : "🃎"  # King of Diamonds
+<Multi_key> <U232C> <bracketleft> <period> <3> <bracketright>                   : "♧"  # White Club
+<Multi_key> <U232C> <bracketleft> <period> <3> <asterisk> <bracketright>        : "♣"   # Black Club
+<Multi_key> <U232C> <bracketleft> <period> <3> <at> <bracketright>              : "♣️"  # Club Emoji
+<Multi_key> <U232C> <bracketleft> <1> <period> <3> <bracketright>               : "🃑"  # Ace of Clubs
+<Multi_key> <U232C> <bracketleft> <2> <period> <3> <bracketright>               : "🃒"  # Two of Clubs
+<Multi_key> <U232C> <bracketleft> <3> <period> <3> <bracketright>               : "🃓"  # Three of Clubs
+<Multi_key> <U232C> <bracketleft> <4> <period> <3> <bracketright>               : "🃔"  # Four of Clubs
+<Multi_key> <U232C> <bracketleft> <5> <period> <3> <bracketright>               : "🃕"  # Five of Clubs
+<Multi_key> <U232C> <bracketleft> <6> <period> <3> <bracketright>               : "🃖"  # Six of Clubs
+<Multi_key> <U232C> <bracketleft> <7> <period> <3> <bracketright>               : "🃗"  # Seven of Clubs
+<Multi_key> <U232C> <bracketleft> <8> <period> <3> <bracketright>               : "🃘"  # Eight of Clubs
+<Multi_key> <U232C> <bracketleft> <9> <period> <3> <bracketright>               : "🃙"  # Nine of Clubs
+<Multi_key> <U232C> <bracketleft> <1> <0> <period> <3> <bracketright>           : "🃚"  # Ten of Clubs
+<Multi_key> <U232C> <bracketleft> <1> <1> <period> <3> <bracketright>           : "🃛"  # Jack of Clubs
+<Multi_key> <U232C> <bracketleft> <1> <2> <period> <3> <bracketright>           : "🃜"  # Knight of Clubs
+<Multi_key> <U232C> <bracketleft> <1> <3> <period> <3> <bracketright>           : "🃝"  # Queen of Clubs
+<Multi_key> <U232C> <bracketleft> <1> <4> <period> <3> <bracketright>           : "🃞"  # King of Clubs
+
+
+# Checkers/Draughts Symbols
+<Multi_key> <U232C> <bracketleft> <degree> <bracketright>                       : "⛀"  # White Checkers Man
+<Multi_key> <U232C> <bracketleft> <degree> <degree> <bracketright>              : "⛁"  # White Checkers King
+<Multi_key> <U232C> <bracketleft> <degree> <asterisk> <bracketright>            : "⛂"  # Black Checkers Man
+<Multi_key> <U232C> <bracketleft> <degree> <degree> <asterisk> <bracketright>   : "⛃"  # Black Checkers King
+
+
+# Chess Pawn Symbols
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#         Additionally, each symbol is represented by their
+#         corresponding letter in both the English and Spanish
+#         algebraic chess notations whenever possible.
+#
+# [NOTE]: Each piece does also encode info about its rotation and color
+#         in the following regex-like notation:
+#           
+#         regexp = \[[ABCDEFHKNQRT]*([0-9]{,3})?[*-]?\]
+#
+#         Where:
+#         - [ABCDEFHKNQRT]  = Any orthodox chess piece (including both the alfil and ferz) and some fairy chess pieces. Omitting this field will always produce a pawn.
+#         - [0-9]{,3}       = The piece's own rotation measured in sexagesimal degrees (more specifically, in multiples of 45º). The default rotation is 0º.
+#         - [*-]            = The piece's own color ("*" for black, "-" for neutral). Leaving this field blank will result in a white piece.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <bracketright>                        : "♙"   # White Pawn
+<Multi_key> <U232C> <bracketleft> <9> <0> <bracketright>                : "🨎"   # White Pawn + 90º
+<Multi_key> <U232C> <bracketleft> <1> <8> <0> <bracketright>            : "🨣"   # White Pawn + 180º
+<Multi_key> <U232C> <bracketleft> <2> <7> <0> <bracketright>            : "🨸"   # White Pawn + 270º
+<Multi_key> <U232C> <bracketleft> <minus> <bracketright>                : "🨅"   # Neutral Pawn
+<Multi_key> <U232C> <bracketleft> <9> <0> <minus> <bracketright>        : "🨚"   # Neutral Pawn + 90º
+<Multi_key> <U232C> <bracketleft> <1> <8> <0> <minus> <bracketright>    : "🨯"   # Neutral Pawn + 180º
+<Multi_key> <U232C> <bracketleft> <2> <7> <0> <minus> <bracketright>    : "🩄"   # Neutral Pawn + 270º
+<Multi_key> <U232C> <bracketleft> <asterisk> <bracketright>             : "♟"   # Black Pawn
+<Multi_key> <U232C> <bracketleft> <9> <0> <asterisk> <bracketright>     : "🨔"   # Black Pawn + 90º
+<Multi_key> <U232C> <bracketleft> <1> <8> <0> <asterisk> <bracketright> : "🨩"   # Black Pawn + 180º
+<Multi_key> <U232C> <bracketleft> <2> <7> <0> <asterisk> <bracketright> : "🨾"   # Black Pawn + 270º
+
+
+# Dice Symbols
+#
+# [Main source]: https://en.wikipedia.org/wiki/Dice#Unicode_representation
+#
+#
+<Multi_key> <U232C> <bracketleft> <0> <bracketright>    : "🎲"  # Regular Dice
+<Multi_key> <U232C> <bracketleft> <1> <bracketright>    : "⚀"
+<Multi_key> <U232C> <bracketleft> <2> <bracketright>    : "⚁"
+<Multi_key> <U232C> <bracketleft> <3> <bracketright>    : "⚂"
+<Multi_key> <U232C> <bracketleft> <4> <bracketright>    : "⚃"
+<Multi_key> <U232C> <bracketleft> <5> <bracketright>    : "⚄"
+<Multi_key> <U232C> <bracketleft> <6> <bracketright>    : "⚅"
+
+
+# Domino Tile Symbols
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [NOTE]: Each piece does also encode info about its rotation and dot number
+#         in the following regex-like notation:
+#           
+#         regexp = \[[0-6\*][+\-][0-6\*]\]
+#
+#         Where "+" denotes a vertical tile, "-" a horizontal tile and "*" the tile's back.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Domino_Tiles
+#
+<Multi_key> <U232C> <bracketleft> <0> <minus> <0> <bracketright>                : "🀱"  # 0|0 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <0> <minus> <1> <bracketright>                : "🀲"  # 0|1 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <0> <minus> <2> <bracketright>                : "🀳"  # 0|2 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <0> <minus> <3> <bracketright>                : "🀴"  # 0|3 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <0> <minus> <4> <bracketright>                : "🀵"  # 0|4 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <0> <minus> <5> <bracketright>                : "🀶"  # 0|5 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <0> <minus> <6> <bracketright>                : "🀷"  # 0|6 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <0> <plus> <0> <bracketright>                 : "🁣"   # 0|0 (Vertical)
+<Multi_key> <U232C> <bracketleft> <0> <plus> <1> <bracketright>                 : "🁤"   # 0|1 (Vertical)
+<Multi_key> <U232C> <bracketleft> <0> <plus> <2> <bracketright>                 : "🁥"   # 0|2 (Vertical)
+<Multi_key> <U232C> <bracketleft> <0> <plus> <3> <bracketright>                 : "🁦"   # 0|3 (Vertical)
+<Multi_key> <U232C> <bracketleft> <0> <plus> <4> <bracketright>                 : "🁧"   # 0|4 (Vertical)
+<Multi_key> <U232C> <bracketleft> <0> <plus> <5> <bracketright>                 : "🁨"   # 0|5 (Vertical)
+<Multi_key> <U232C> <bracketleft> <0> <plus> <6> <bracketright>                 : "🁩"   # 0|6 (Vertical)
+<Multi_key> <U232C> <bracketleft> <1> <minus> <0> <bracketright>                : "🀸"  # 1|0 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <1> <minus> <1> <bracketright>                : "🀹"  # 1|1 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <1> <minus> <2> <bracketright>                : "🀺"  # 1|2 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <1> <minus> <3> <bracketright>                : "🀻"  # 1|3 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <1> <minus> <4> <bracketright>                : "🀼"  # 1|4 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <1> <minus> <5> <bracketright>                : "🀽"  # 1|5 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <1> <minus> <6> <bracketright>                : "🀾"  # 1|6 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <1> <plus> <0> <bracketright>                 : "🁪"   # 1|0 (Vertical)
+<Multi_key> <U232C> <bracketleft> <1> <plus> <1> <bracketright>                 : "🁫"   # 1|1 (Vertical)
+<Multi_key> <U232C> <bracketleft> <1> <plus> <2> <bracketright>                 : "🁬"   # 1|2 (Vertical)
+<Multi_key> <U232C> <bracketleft> <1> <plus> <3> <bracketright>                 : "🁭"   # 1|3 (Vertical)
+<Multi_key> <U232C> <bracketleft> <1> <plus> <4> <bracketright>                 : "🁮"   # 1|4 (Vertical)
+<Multi_key> <U232C> <bracketleft> <1> <plus> <5> <bracketright>                 : "🁯"   # 1|5 (Vertical)
+<Multi_key> <U232C> <bracketleft> <1> <plus> <6> <bracketright>                 : "🁰"   # 1|6 (Vertical)
+<Multi_key> <U232C> <bracketleft> <2> <minus> <0> <bracketright>                : "🀿"  # 2|0 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <2> <minus> <1> <bracketright>                : "🁀"  # 2|1 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <2> <minus> <2> <bracketright>                : "🁁"  # 2|2 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <2> <minus> <3> <bracketright>                : "🁂"  # 2|3 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <2> <minus> <4> <bracketright>                : "🁃"  # 2|4 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <2> <minus> <5> <bracketright>                : "🁄"  # 2|5 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <2> <minus> <6> <bracketright>                : "🁅"  # 2|6 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <2> <plus> <0> <bracketright>                 : "🁱"   # 2|0 (Vertical)
+<Multi_key> <U232C> <bracketleft> <2> <plus> <1> <bracketright>                 : "🁲"   # 2|1 (Vertical)
+<Multi_key> <U232C> <bracketleft> <2> <plus> <2> <bracketright>                 : "🁳"   # 2|2 (Vertical)
+<Multi_key> <U232C> <bracketleft> <2> <plus> <3> <bracketright>                 : "🁴"   # 2|3 (Vertical)
+<Multi_key> <U232C> <bracketleft> <2> <plus> <4> <bracketright>                 : "🁵"   # 2|4 (Vertical)
+<Multi_key> <U232C> <bracketleft> <2> <plus> <5> <bracketright>                 : "🁶"   # 2|5 (Vertical)
+<Multi_key> <U232C> <bracketleft> <2> <plus> <6> <bracketright>                 : "🁷"   # 2|6 (Vertical)
+<Multi_key> <U232C> <bracketleft> <3> <minus> <0> <bracketright>                : "🁆"  # 3|0 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <3> <minus> <1> <bracketright>                : "🁇"  # 3|1 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <3> <minus> <2> <bracketright>                : "🁈"  # 3|2 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <3> <minus> <3> <bracketright>                : "🁉"  # 3|3 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <3> <minus> <4> <bracketright>                : "🁊"  # 3|4 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <3> <minus> <5> <bracketright>                : "🁋"  # 3|5 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <3> <minus> <6> <bracketright>                : "🁌"  # 3|6 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <3> <plus> <0> <bracketright>                 : "🁸"   # 3|0 (Vertical)
+<Multi_key> <U232C> <bracketleft> <3> <plus> <1> <bracketright>                 : "🁹"   # 3|1 (Vertical)
+<Multi_key> <U232C> <bracketleft> <3> <plus> <2> <bracketright>                 : "🁺"   # 3|2 (Vertical)
+<Multi_key> <U232C> <bracketleft> <3> <plus> <3> <bracketright>                 : "🁻"   # 3|3 (Vertical)
+<Multi_key> <U232C> <bracketleft> <3> <plus> <4> <bracketright>                 : "🁼"   # 3|4 (Vertical)
+<Multi_key> <U232C> <bracketleft> <3> <plus> <5> <bracketright>                 : "🁽"   # 3|5 (Vertical)
+<Multi_key> <U232C> <bracketleft> <3> <plus> <6> <bracketright>                 : "🁾"   # 3|6 (Vertical)
+<Multi_key> <U232C> <bracketleft> <4> <minus> <0> <bracketright>                : "🁍"  # 4|0 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <4> <minus> <1> <bracketright>                : "🁎"  # 4|1 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <4> <minus> <2> <bracketright>                : "🁏"  # 4|2 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <4> <minus> <3> <bracketright>                : "🁐"  # 4|3 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <4> <minus> <4> <bracketright>                : "🁑"  # 4|4 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <4> <minus> <5> <bracketright>                : "🁒"  # 4|5 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <4> <minus> <6> <bracketright>                : "🁓"  # 4|6 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <4> <plus> <0> <bracketright>                 : "🁿"   # 4|0 (Vertical)
+<Multi_key> <U232C> <bracketleft> <4> <plus> <1> <bracketright>                 : "🂀"   # 4|1 (Vertical)
+<Multi_key> <U232C> <bracketleft> <4> <plus> <2> <bracketright>                 : "🂁"   # 4|2 (Vertical)
+<Multi_key> <U232C> <bracketleft> <4> <plus> <3> <bracketright>                 : "🂂"   # 4|3 (Vertical)
+<Multi_key> <U232C> <bracketleft> <4> <plus> <4> <bracketright>                 : "🂃"   # 4|4 (Vertical)
+<Multi_key> <U232C> <bracketleft> <4> <plus> <5> <bracketright>                 : "🂄"   # 4|5 (Vertical)
+<Multi_key> <U232C> <bracketleft> <4> <plus> <6> <bracketright>                 : "🂅"   # 4|6 (Vertical)
+<Multi_key> <U232C> <bracketleft> <5> <minus> <0> <bracketright>                : "🁔"  # 5|0 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <5> <minus> <1> <bracketright>                : "🁕"  # 5|1 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <5> <minus> <2> <bracketright>                : "🁖"  # 5|2 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <5> <minus> <3> <bracketright>                : "🁗"  # 5|3 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <5> <minus> <4> <bracketright>                : "🁘"  # 5|4 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <5> <minus> <5> <bracketright>                : "🁙"  # 5|5 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <5> <minus> <6> <bracketright>                : "🁚"  # 5|6 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <5> <plus> <0> <bracketright>                 : "🂆"   # 5|0 (Vertical)
+<Multi_key> <U232C> <bracketleft> <5> <plus> <1> <bracketright>                 : "🂇"   # 5|1 (Vertical)
+<Multi_key> <U232C> <bracketleft> <5> <plus> <2> <bracketright>                 : "🂈"   # 5|2 (Vertical)
+<Multi_key> <U232C> <bracketleft> <5> <plus> <3> <bracketright>                 : "🂉"   # 5|3 (Vertical)
+<Multi_key> <U232C> <bracketleft> <5> <plus> <4> <bracketright>                 : "🂊"   # 5|4 (Vertical)
+<Multi_key> <U232C> <bracketleft> <5> <plus> <5> <bracketright>                 : "🂋"   # 5|5 (Vertical)
+<Multi_key> <U232C> <bracketleft> <5> <plus> <6> <bracketright>                 : "🂌"   # 5|6 (Vertical)
+<Multi_key> <U232C> <bracketleft> <6> <minus> <0> <bracketright>                : "🁛"  # 6|0 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <6> <minus> <1> <bracketright>                : "🁜"  # 6|1 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <6> <minus> <2> <bracketright>                : "🁝"  # 6|2 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <6> <minus> <3> <bracketright>                : "🁞"  # 6|3 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <6> <minus> <4> <bracketright>                : "🁟"  # 6|4 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <6> <minus> <5> <bracketright>                : "🁠"  # 6|5 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <6> <minus> <6> <bracketright>                : "🁡"  # 6|6 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <6> <plus> <0> <bracketright>                 : "🂍"   # 6|0 (Vertical)
+<Multi_key> <U232C> <bracketleft> <6> <plus> <1> <bracketright>                 : "🂎"   # 6|1 (Vertical)
+<Multi_key> <U232C> <bracketleft> <6> <plus> <2> <bracketright>                 : "🂏"   # 6|2 (Vertical)
+<Multi_key> <U232C> <bracketleft> <6> <plus> <3> <bracketright>                 : "🂐"   # 6|3 (Vertical)
+<Multi_key> <U232C> <bracketleft> <6> <plus> <4> <bracketright>                 : "🂑"   # 6|4 (Vertical)
+<Multi_key> <U232C> <bracketleft> <6> <plus> <5> <bracketright>                 : "🂒"   # 6|5 (Vertical)
+<Multi_key> <U232C> <bracketleft> <6> <plus> <6> <bracketright>                 : "🂓"   # 6|6 (Horizontal)
+<Multi_key> <U232C> <bracketleft> <asterisk> <minus> <asterisk> <bracketright>  : "🀰"  # Horizontal Back Tile
+<Multi_key> <U232C> <bracketleft> <asterisk> <plus> <asterisk> <bracketright>   : "🁢"   # Vertical Back Tile
+
+
+# Generic Bourgeois Tarot Card (Non-Alphabetical)
+#
+# [NOTE]: All symbols listed here are enclosed inside double square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <bracketleft> <0> <bracketright> <bracketright>       : "🃠"  # Trump Card 0 (Fool)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <bracketright> <bracketright>       : "🃡"  # Trump Card 1 (Individual)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <2> <bracketright> <bracketright>       : "🃢"  # Trump Card 2 (Childhood)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <3> <bracketright> <bracketright>       : "🃣"  # Trump Card 3 (Youth)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <4> <bracketright> <bracketright>       : "🃤"  # Trump Card 4 (Maturity)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <5> <bracketright> <bracketright>       : "🃥"  # Trump Card 5 (Old Age)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <6> <bracketright> <bracketright>       : "🃦"  # Trump Card 6 (Morning)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <7> <bracketright> <bracketright>       : "🃧"  # Trump Card 7 (Afternoon)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <8> <bracketright> <bracketright>       : "🃨"  # Trump Card 8 (Evening)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <9> <bracketright> <bracketright>       : "🃩"  # Trump Card 9 (Night)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <0> <bracketright> <bracketright>   : "🃪"  # Trump Card 10 (Earth & Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <1> <bracketright> <bracketright>   : "🃫"  # Trump Card 11 (Water & Fire)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <2> <bracketright> <bracketright>   : "🃬"  # Trump Card 12 (Dance)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <3> <bracketright> <bracketright>   : "🃭"  # Trump Card 13 (Shopping)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <4> <bracketright> <bracketright>   : "🃮"  # Trump Card 14 (Open Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <5> <bracketright> <bracketright>   : "🃯"  # Trump Card 15 (Visual Arts)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <6> <bracketright> <bracketright>   : "🃰"  # Trump Card 16 (Spring)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <7> <bracketright> <bracketright>   : "🃱"  # Trump Card 17 (Summer)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <8> <bracketright> <bracketright>   : "🃲"  # Trump Card 18 (Autumn)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <1> <9> <bracketright> <bracketright>   : "🃳"  # Trump Card 19 (Winter)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <2> <0> <bracketright> <bracketright>   : "🃴"  # Trump Card 20 (The Game)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <2> <1> <bracketright> <bracketright>   : "🃵"  # Trump Card 21 (Collective)
+
+
+# Mahjong Tile Symbols (Non-Alphabetical)
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)
+#
+<Multi_key> <U232C> <bracketleft> <1> <at> <bracketright>       : "🀢"  # Plum Blossom
+<Multi_key> <U232C> <bracketleft> <2> <at> <bracketright>       : "🀣"  # Orchid
+<Multi_key> <U232C> <bracketleft> <3> <at> <bracketright>       : "🀥"  # Chrysanthemum
+<Multi_key> <U232C> <bracketleft> <4> <at> <bracketright>       : "🀤"  # Bamboo
+<Multi_key> <U232C> <bracketleft> <1> <dollar> <bracketright>   : "🀙"  # One of Circles
+<Multi_key> <U232C> <bracketleft> <2> <dollar> <bracketright>   : "🀚"  # Two of Circles
+<Multi_key> <U232C> <bracketleft> <3> <dollar> <bracketright>   : "🀛"  # Three of Circles
+<Multi_key> <U232C> <bracketleft> <4> <dollar> <bracketright>   : "🀜"  # Four of Circles
+<Multi_key> <U232C> <bracketleft> <5> <dollar> <bracketright>   : "🀝"  # Five of Circles
+<Multi_key> <U232C> <bracketleft> <6> <dollar> <bracketright>   : "🀞"  # Six of Circles
+<Multi_key> <U232C> <bracketleft> <7> <dollar> <bracketright>   : "🀟"  # Seven of Circles
+<Multi_key> <U232C> <bracketleft> <8> <dollar> <bracketright>   : "🀠"  # Eight of Circles
+<Multi_key> <U232C> <bracketleft> <9> <dollar> <bracketright>   : "🀡"  # Nine of Circles
+<Multi_key> <U232C> <bracketleft> <at> <1> <bracketright>       : "🀦"  # Spring
+<Multi_key> <U232C> <bracketleft> <at> <2> <bracketright>       : "🀧"  # Summer
+<Multi_key> <U232C> <bracketleft> <at> <3> <bracketright>       : "🀨"  # Autumn
+<Multi_key> <U232C> <bracketleft> <at> <4> <bracketright>       : "🀩"  # Winter
+<Multi_key> <U232C> <bracketleft> <Right> <bracketright>        : "🀀"  # East Wind
+<Multi_key> <U232C> <bracketleft> <Up> <bracketright>           : "🀃"  # North Wind
+<Multi_key> <U232C> <bracketleft> <Down> <bracketright>         : "🀁"  # South Wind
+<Multi_key> <U232C> <bracketleft> <Left> <bracketright>         : "🀂"  # West Wind
+
+
+# Shōgi Piece Symbols
+<Multi_key> <U232C> <bracketleft> <asciicircum> <bracketright>                  : "☖"  # White Shōgi Piece
+<Multi_key> <U232C> <bracketleft> <asciicircum> <asterisk> <bracketright>       : "☗"  # Black Shōgi Piece
+<Multi_key> <U232C> <bracketleft> <dead_circumflex> <bracketright>              : "☖"  # White Shōgi Piece
+<Multi_key> <U232C> <bracketleft> <dead_circumflex> <asterisk> <bracketright>   : "☗"  # Black Shōgi Piece
+<Multi_key> <U232C> <bracketleft> <underscore> <bracketright>                   : "⛉"  # Turned White Shōgi Piece
+<Multi_key> <U232C> <bracketleft> <underscore> <asterisk> <bracketright>        : "⛊"  # Turned Black Shōgi Piece
+
+##################
+# [END OF RULES] #
+##################

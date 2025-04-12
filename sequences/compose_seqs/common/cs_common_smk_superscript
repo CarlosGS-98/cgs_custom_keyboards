@@ -9,6 +9,18 @@
 # [Main source]: https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
 #
 
+# Skorpian Overscript Circumflex
+<Multi_key> <dead_circumflex> <dead_circumflex> <asterisk> <space>                          : "⃰"   # * + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U035A> <minus> <minus>                     : "⃩"   # ʭ/2 + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <asciicircum> <greater> <space>     : "⃕"   # ↷ + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <asciicircum> <space>        : "⃔"   # ↶ + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <asterisk> <plus> <space>    : "⃐"   # ↼ + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <minus> <greater> <space>    : "⃡"   # ↔ + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <minus> <space>              : "⃖"   # ← + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <minus> <greater> <space>           : "⃗"   # → + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <plus> <asterisk> <greater> <space> : "⃑"   # ⇀ + Superscript
+
+
 # Skorpian Superscript Circumflex (IPA Sounds)
 <Multi_key> <dead_circumflex> <U0298>                   : "𐞵"   # ʘ (Bilabial Click) + Superscript
 <Multi_key> <dead_circumflex> <U035A> <0>               : "𐞵"
