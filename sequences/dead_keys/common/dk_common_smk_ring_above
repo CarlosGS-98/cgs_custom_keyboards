@@ -15,6 +15,9 @@
 <dead_abovering> <semicolon>        : "̜"        # Combining left half ring below
 <dead_abovering> <period>           : "͗"        # Combining right half ring above
 <dead_abovering> <colon>            : "̹"        # Combining right half ring below
+<dead_abovering> <degree> <space>   : "⃘"        # Combining ring overlay
+<dead_abovering> <degree> <less>    : "⃚"        # Combining anticlockwise ring overlay
+<dead_abovering> <degree> <greater> : "⃙"        # Combining clockwise ring overlay
 
 
 # Chained dead keys

@@ -11,6 +11,8 @@
 <dead_diaeresis> <dead_diaeresis>   : "¨"   # Regular spacing diaeresis
 <dead_diaeresis> <less>             : "̤"    # Combining diaeresis below
 <dead_diaeresis> <greater>          : "̤"    # Combining diaeresis below
+<dead_diaeresis> <3>                : "⃛"    # Combining 3 dots above
+<dead_diaeresis> <4>                : "⃜"    # Combining 4 dots above
 
 
 # Chained dead keys

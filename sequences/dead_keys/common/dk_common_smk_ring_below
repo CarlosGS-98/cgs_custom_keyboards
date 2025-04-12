@@ -15,6 +15,9 @@
 <dead_belowring> <semicolon>        : "̜"    # Combining left half ring below
 <dead_belowring> <period>           : "͗"    # Combining right half ring above
 <dead_belowring> <colon>            : "̹"    # Combining right half ring below
+<dead_belowring> <degree> <space>   : "⃘"    # Combining ring overlay
+<dead_belowring> <degree> <less>    : "⃚"    # Combining anticlockwise ring overlay
+<dead_belowring> <degree> <greater> : "⃙"    # Combining clockwise ring overlay
 
 ##################
 # [END OF RULES] #

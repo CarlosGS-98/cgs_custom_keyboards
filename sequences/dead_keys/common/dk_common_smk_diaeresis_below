@@ -11,6 +11,7 @@
 <dead_belowdiaeresis> <dead_belowdiaeresis> : "¨"   # Regular spacing diaeresis
 <dead_belowdiaeresis> <less>                : "̈"    # Combining diaeresis
 <dead_belowdiaeresis> <greater>             : "̈"    # Combining diaeresis
+<dead_belowdiaeresis> <3>                   : "⃨"    # Combining 3 dots below
 
 ##################
 # [END OF RULES] #

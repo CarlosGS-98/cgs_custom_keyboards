@@ -14,8 +14,9 @@
 #
 
 # Basic combinations
-<U21BB> <space> : "↻"   # Clockwise Open Circle Arrow
-<U21BB> <U21BB> : "↻"   # Clockwise Open Circle Arrow
+<U21BB> <space>                 : "↻"   # Clockwise Open Circle Arrow
+<U21BB> <U21BB>                 : "↻"   # Clockwise Open Circle Arrow
+<U21BB> <U25CC> <less> <minus>  : "⃪"   # Combining Leftwards Arrow Overlay
 
 
 # Functional Arrows
