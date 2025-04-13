@@ -75,6 +75,7 @@
 # Circled Characters (Non-Alphabetical)
 <Multi_key> <dollar> <degree> <0> <space>                       : "⓪"
 <Multi_key> <dollar> <degree> <degree> <0> <space>              : "🄍"
+<Multi_key> <dollar> <degree> <degree> <slash> <dollar> <space> : "🄏"
 <Multi_key> <dollar> <dollar> <degree> <0> <space>              : "🄋"
 <Multi_key> <dollar> <degree> <0> <asterisk> <space>            : "⓿"
 <Multi_key> <dollar> <dollar> <degree> <0> <asterisk> <space>   : "🄌"
@@ -108,6 +109,7 @@
 <Multi_key> <dollar> <degree> <1> <9> <asterisk> <space>        : "⓳"
 <Multi_key> <dollar> <degree> <2> <0> <space>                   : "⑳"
 <Multi_key> <dollar> <degree> <2> <0> <asterisk> <space>        : "⓴"
+<Multi_key> <dollar> <degree> <asterisk> <plus> <space>         : "🅯"
 <Multi_key> <dollar> <degree> <Left> <space>                    : "🄎"
 
 

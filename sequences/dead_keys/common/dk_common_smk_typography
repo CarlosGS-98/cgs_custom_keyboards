@@ -14,9 +14,10 @@
 #
 
 # Basic combinations
-<U203B> <space>         : "※"   # Reference mark
-<U203B> <U203B>         : "※"   # Reference mark
-<U203B> <bar> <space>   : "¦"    # Broken bar
+<U203B> <space>                 : "※"   # Reference mark
+<U203B> <U203B>                 : "※"   # Reference mark
+<U203B> <bar> <space>           : "¦"    # Broken bar
+<U203B> <underscore> <space>    : "␣"    # Open box space
 
 
 # Dashes
