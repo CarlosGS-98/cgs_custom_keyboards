@@ -1,0 +1,110 @@
+# Cyrillic Alphabet | Letter Fusion Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/List_of_Cyrillic_letters
+#
+<U1DCF> <Cyrillic_A> <Cyrillic_E>               : "Ӕ"
+<U1DCF> <Cyrillic_a> <Cyrillic_e>               : "ӕ"
+<U1DCF> <Cyrillic_A> <Cyrillic_IE>              : "Ә"
+<U1DCF> <Cyrillic_a> <Cyrillic_ie>              : "ә"
+<U1DCF> <Cyrillic_VE> <Cyrillic_VE>             : "Ԝ"   # We
+<U1DCF> <Cyrillic_ve> <Cyrillic_ve>             : "ԝ"   # We
+<U1DCF> <Cyrillic_DE> <Cyrillic_VE>             : "Ꚁ"   # Dwe
+<U1DCF> <Cyrillic_de> <Cyrillic_ve>             : "ꚁ"   # Dwe
+<U1DCF> <Cyrillic_DE> <Cyrillic_GHE>            : "Ꙣ"
+<U1DCF> <Cyrillic_de> <Cyrillic_ghe>            : "ꙣ"
+<U1DCF> <Cyrillic_DE> <Cyrillic_ZHE>            : "Ԫ"  # Dzzhe
+<U1DCF> <Cyrillic_de> <Cyrillic_zhe>            : "ԫ"  # Dzzhe
+<U1DCF> <Cyrillic_DE> <minus> <Cyrillic_ZHE>    : "Џ"
+<U1DCF> <Cyrillic_de> <minus> <Cyrillic_zhe>    : "џ"
+<U1DCF> <Cyrillic_DE> <Cyrillic_ZE>             : "Ꚉ"   # Dzze
+<U1DCF> <Cyrillic_de> <Cyrillic_ze>             : "ꚉ"   # Dzze
+<U1DCF> <Cyrillic_DE> <Cyrillic_JE>             : "Ђ"
+<U1DCF> <Cyrillic_de> <Cyrillic_je>             : "ђ"
+<U1DCF> <Cyrillic_DE> <Cyrillic_CHE>            : "Ԭ"
+<U1DCF> <Cyrillic_de> <Cyrillic_che>            : "ԭ"
+<U1DCF> <Cyrillic_ZE> <Cyrillic_ZHE>            : "Ꚅ"
+<U1DCF> <Cyrillic_ze> <Cyrillic_zhe>            : "ꚅ"
+<U1DCF> <Macedonia_DSE> <Cyrillic_VE>           : "Ꚃ̏"   # Dzwe
+<U1DCF> <Macedonia_dse> <Cyrillic_ve>           : "ꚃ̏"   # Dzwe
+<U1DCF> <Cyrillic_I> <Cyrillic_A>               : "Ꙗ"
+<U1DCF> <Cyrillic_i> <Cyrillic_a>               : "ꙗ"
+<U1DCF> <Ukrainian_I> <Cyrillic_A>              : "Ꙗ"
+<U1DCF> <Ukrainian_i> <Cyrillic_a>              : "ꙗ"
+<U1DCF> <Cyrillic_I> <Ukrainian_IE>             : "Ѥ"
+<U1DCF> <Cyrillic_i> <Ukrainian_ie>             : "ѥ"
+<U1DCF> <Ukrainian_I> <Ukrainian_IE>            : "Ѥ"
+<U1DCF> <Ukrainian_i> <Ukrainian_ie>            : "ѥ"
+<U1DCF> <Cyrillic_I> <Cyrillic_O>               : "Ю"   # Yu
+<U1DCF> <Cyrillic_i> <Cyrillic_o>               : "ю"   # Yu
+<U1DCF> <Ukrainian_I> <Cyrillic_O>              : "Ю"   # Yu
+<U1DCF> <Ukrainian_i> <Cyrillic_o>              : "ю"   # Yu
+<U1DCF> <Cyrillic_I> <U0462>                    : "Ꙓ"   # Ѣ (Yat) + И
+<U1DCF> <Cyrillic_i> <U0463>                    : "ꙓ"   # ѣ (Yat) + и
+<U1DCF> <Ukrainian_I> <U0462>                   : "Ꙓ"   # Ѣ (Yat) + І
+<U1DCF> <Ukrainian_i> <U0463>                   : "ꙓ"   # ѣ (Yat) + і
+<U1DCF> <Cyrillic_KA> <Cyrillic_KA>             : "Ҡ"   # Bashkir Qa
+<U1DCF> <Cyrillic_ka> <Cyrillic_ka>             : "ҡ"   # Bashkir Qa
+<U1DCF> <Cyrillic_EL> <Cyrillic_GHE>            : "Ꙥ"
+<U1DCF> <Cyrillic_el> <Cyrillic_ghe>            : "ꙥ"
+<U1DCF> <Cyrillic_EL> <Cyrillic_HA>             : "Ԕ"
+<U1DCF> <Cyrillic_el> <Cyrillic_ha>             : "ԕ"
+<U1DCF> <Cyrillic_EL> <Cyrillic_SOFTSIGN>       : "Љ"
+<U1DCF> <Cyrillic_el> <Cyrillic_softsign>       : "љ"
+<U1DCF> <Cyrillic_EM> <Cyrillic_GHE>            : "Ꙧ"
+<U1DCF> <Cyrillic_em> <Cyrillic_ghe>            : "ꙧ"
+<U1DCF> <Cyrillic_EN> <Cyrillic_GHE>            : "Ҥ"
+<U1DCF> <Cyrillic_en> <Cyrillic_ghe>            : "ҥ"
+<U1DCF> <Cyrillic_EN> <Cyrillic_SOFTSIGN>       : "Њ"
+<U1DCF> <Cyrillic_en> <Cyrillic_softsign>       : "њ"
+<U1DCF> <Cyrillic_O> <Cyrillic_I>               : "Ꙕ"   # Reversed Yu
+<U1DCF> <Cyrillic_o> <Cyrillic_i>               : "ꙕ"   # Reversed Yu
+<U1DCF> <Cyrillic_O> <Ukrainian_I>              : "Ꙕ"   # Reversed Yu
+<U1DCF> <Cyrillic_o> <Ukrainian_i>              : "ꙕ"   # Reversed Yu
+<U1DCF> <Cyrillic_O> <Cyrillic_O>               : "Ꚙ"
+<U1DCF> <Cyrillic_o> <Cyrillic_o>               : "ꚙ"
+<U1DCF> <Cyrillic_O> <colon> <Cyrillic_O>       : "Ꙭ"
+<U1DCF> <Cyrillic_o> <colon> <Cyrillic_o>       : "ꙭ"
+<U1DCF> <Cyrillic_O> <period> <Cyrillic_O>      : "Ꙭ"
+<U1DCF> <Cyrillic_o> <period> <Cyrillic_o>      : "ꙭ"
+<U1DCF> <Cyrillic_O> <Cyrillic_U>               : "Ѹ"
+<U1DCF> <Cyrillic_o> <Cyrillic_u>               : "ѹ"
+<U1DCF> <Cyrillic_U> <Cyrillic_KA>              : "Ꙋ"
+<U1DCF> <Cyrillic_u> <Cyrillic_ka>              : "ꙋ"
+<U1DCF> <Cyrillic_O> <Cyrillic_TE>              : "Ѿ"
+<U1DCF> <Cyrillic_o> <Cyrillic_te>              : "ѿ"
+<U1DCF> <Cyrillic_ER> <Cyrillic_HA>             : "Ԗ"
+<U1DCF> <Cyrillic_er> <Cyrillic_ha>             : "ԗ"
+<U1DCF> <Cyrillic_TE> <Cyrillic_VE>             : "Ꚍ"   # Twe
+<U1DCF> <Cyrillic_te> <Cyrillic_ve>             : "ꚍ"   # Twe
+<U1DCF> <Cyrillic_TE> <Cyrillic_ES>             : "Ꚑ"   # Tsse
+<U1DCF> <Cyrillic_te> <Cyrillic_es>             : "ꚑ"   # Tsse
+<U1DCF> <Cyrillic_TE> <Cyrillic_TSE>            : "Ҵ"
+<U1DCF> <Cyrillic_te> <Cyrillic_tse>            : "ҵ"
+<U1DCF> <Cyrillic_TE> <Cyrillic_CHE>            : "Ꚓ"
+<U1DCF> <Cyrillic_te> <Cyrillic_che>            : "ꚓ"
+<U1DCF> <Cyrillic_TE> <Cyrillic_SHA>            : "Ћ"
+<U1DCF> <Cyrillic_te> <Cyrillic_sha>            : "ћ"
+<U1DCF> <Cyrillic_TE> <Cyrillic_SOFTSIGN>       : "Ᲊ"
+<U1DCF> <Cyrillic_te> <Cyrillic_softsign>       : "ᲊ"
+<U1DCF> <Cyrillic_TSE> <Cyrillic_VE>            : "Ꚏ"   # Tswe
+<U1DCF> <Cyrillic_tse> <Cyrillic_ve>            : "ꚏ"   # Tswe
+<U1DCF> <Cyrillic_CHE> <Cyrillic_CHE>           : "Ꚇ"
+<U1DCF> <Cyrillic_che> <Cyrillic_che>           : "ꚇ"
+<U1DCF> <Cyrillic_SHA> <Cyrillic_VE>            : "Ꚗ"   # Shwe
+<U1DCF> <Cyrillic_sha> <Cyrillic_ve>            : "ꚗ"   # Shwe
+<U1DCF> <Cyrillic_HARDSIGN> <Cyrillic_I>        : "Ꙑ"   # Ꙑ (Yeru + Back Yer)
+<U1DCF> <Cyrillic_hardsign> <Cyrillic_i>        : "ꙑ"   # ꙑ (Yeru + Back Yer)
+<U1DCF> <Cyrillic_HARDSIGN> <Ukrainian_I>       : "Ꙑ"   # Ꙑ (Yeru + Back Yer)
+<U1DCF> <Cyrillic_hardsign> <Ukrainian_i>       : "ꙑ"   # ꙑ (Yeru + Back Yer)
+<U1DCF> <Cyrillic_SOFTSIGN> <Cyrillic_I>        : "Ы"   # Yeru
+<U1DCF> <Cyrillic_softsign> <Cyrillic_i>        : "ы"   # Yeru
+<U1DCF> <Cyrillic_SOFTSIGN> <Ukrainian_I>       : "Ы"   # Yeru
+<U1DCF> <Cyrillic_softsign> <Ukrainian_i>       : "ы"   # Yeru
+<U1DCF> <Cyrillic_YA> <Cyrillic_E>              : "Ԙ"
+<U1DCF> <Cyrillic_ya> <Cyrillic_e>              : "ԙ"
+
+##################
+# [END OF RULES] #
+##################
