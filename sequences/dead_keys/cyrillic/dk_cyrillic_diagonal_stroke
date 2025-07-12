@@ -77,6 +77,8 @@
 <dead_longsolidusoverlay> <Cyrillic_ze>                                 : "з̸"
 <dead_longsolidusoverlay> <U0510>                                       : "Ԑ̸"   # Ԑ (Reversed Ze) + Diagonal Stroke
 <dead_longsolidusoverlay> <U0511>                                       : "ԑ̸"   # ԑ (Reversed Ze) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <Cyrillic_ZE>                         : "Ԑ̸"
+<dead_longsolidusoverlay> <U21BA> <Cyrillic_ze>                         : "ԑ̸"
 <dead_longsolidusoverlay> <U04E0>                                       : "Ӡ̸"   # Ӡ (Abkhazian Dze) + Diagonal Stroke
 <dead_longsolidusoverlay> <U04E1>                                       : "ӡ̸"   # ӡ (Abkhazian Dze) + Diagonal Stroke
 <dead_longsolidusoverlay> <UA640>                                       : "Ꙁ̸"   # Ꙁ (Zemlya) + Diagonal Stroke
@@ -89,6 +91,8 @@
 <dead_longsolidusoverlay> <UA643>                                       : "ꙃ̸"   # ꙃ (Dzelo) + Diagonal Stroke
 <dead_longsolidusoverlay> <UA644>                                       : "Ꙅ̸"   # Ꙅ (Reversed Dze) + Diagonal Stroke
 <dead_longsolidusoverlay> <UA645>                                       : "ꙅ̸"   # ꙅ (Reversed Dze) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <Macedonia_DSE>                       : "Ꙅ̸"
+<dead_longsolidusoverlay> <U21BA> <Macedonia_dse>                       : "ꙅ̸"
 <dead_longsolidusoverlay> <U0506>                                       : "Ԇ̸"   # Ԇ (Komi Dzje) + Diagonal Stroke
 <dead_longsolidusoverlay> <U0507>                                       : "ԇ̸"   # ԇ (Komi Dzje) + Diagonal Stroke
 <dead_longsolidusoverlay> <UA682>                                       : "Ꚃ̸"   # Ꚃ (Dzwe) + Diagonal Stroke
@@ -267,6 +271,8 @@
 <dead_longsolidusoverlay> <U1DCF> <Cyrillic_te> <Cyrillic_tse>          : "ҵ̸"
 <dead_longsolidusoverlay> <UA660>                                       : "Ꙡ̸"   # Ꙡ (Reversed Tse) + Diagonal Stroke
 <dead_longsolidusoverlay> <UA661>                                       : "ꙡ̸"   # ꙡ (Reversed Tse) + Diagonal Stroke
+<dead_longsolidusoverlay> <U21BA> <Cyrillic_TSE>                        : "Ꙡ̸"
+<dead_longsolidusoverlay> <U21BA> <Cyrillic_tse>                        : "ꙡ̸"
 <dead_longsolidusoverlay> <UA68E>                                       : "Ꚏ̸"   # Ꚏ (Tswe) + Diagonal Stroke
 <dead_longsolidusoverlay> <UA68F>                                       : "ꚏ̸"   # ꚏ (Tswe) + Diagonal Stroke
 <dead_longsolidusoverlay> <U1DCF> <Cyrillic_TSE> <Cyrillic_VE>          : "Ꚏ̸"   # Tswe
@@ -348,6 +354,8 @@
 <dead_longsolidusoverlay> <U1DCF> <Cyrillic_o> <Cyrillic_i>             : "ꙕ̸"
 <dead_longsolidusoverlay> <U1DCF> <Cyrillic_O> <Ukrainian_I>            : "Ꙕ̸"
 <dead_longsolidusoverlay> <U1DCF> <Cyrillic_o> <Ukrainian_i>            : "ꙕ̸"
+<dead_longsolidusoverlay> <U21BA> <Cyrillic_YU>                         : "Ꙕ̸"
+<dead_longsolidusoverlay> <U21BA> <Cyrillic_yu>                         : "ꙕ̸"
 <dead_longsolidusoverlay> <UA656>                                       : "Ꙗ̸"  # Ꙗ (Iotified A/Iya) + Diagonal Stroke
 <dead_longsolidusoverlay> <UA657>                                       : "ꙗ̸"  # ꙗ (Iotified A/Iya) + Diagonal Stroke
 <dead_longsolidusoverlay> <U1DCF> <Cyrillic_I> <Cyrillic_A>             : "Ꙗ̸"

@@ -1,0 +1,18 @@
+# Cyrillic Alphabet | Letter Flip Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/List_of_Cyrillic_letters
+#
+<U21BA> <Cyrillic_ZE>   : "Ԑ"
+<U21BA> <Cyrillic_ze>   : "ԑ"
+<U21BA> <Macedonia_DSE> : "Ꙅ"
+<U21BA> <Macedonia_dse> : "ꙅ"
+<U21BA> <Cyrillic_TSE>  : "Ꙡ"
+<U21BA> <Cyrillic_tse>  : "ꙡ"
+<U21BA> <Cyrillic_YU>   : "Ꙕ"
+<U21BA> <Cyrillic_yu>   : "ꙕ"
+
+##################
+# [END OF RULES] #
+##################

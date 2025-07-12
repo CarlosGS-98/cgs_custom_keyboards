@@ -92,6 +92,8 @@
 <dead_stroke> <Cyrillic_ze>                                 : "з̵"
 <dead_stroke> <U0510>                                       : "Ԑ̵"   # Ԑ (Reversed Ze) + Stroke
 <dead_stroke> <U0511>                                       : "ԑ̵"   # ԑ (Reversed Ze) + Stroke
+<dead_stroke> <U21BA> <Cyrillic_ZE>                         : "Ԑ̵"
+<dead_stroke> <U21BA> <Cyrillic_ze>                         : "ԑ̵"
 <dead_stroke> <U04E0>                                       : "Ӡ̵"   # Ӡ (Abkhazian Dze) + Stroke
 <dead_stroke> <U04E1>                                       : "ӡ̵"   # ӡ (Abkhazian Dze) + Stroke
 <dead_stroke> <UA640>                                       : "Ꙁ̵"   # Ꙁ (Zemlya) + Stroke
@@ -104,6 +106,8 @@
 <dead_stroke> <UA643>                                       : "ꙃ̵"   # ꙃ (Dzelo) + Stroke
 <dead_stroke> <UA644>                                       : "Ꙅ̵"   # Ꙅ (Reversed Dze) + Stroke
 <dead_stroke> <UA645>                                       : "ꙅ̵"   # ꙅ (Reversed Dze) + Stroke
+<dead_stroke> <U21BA> <Macedonia_DSE>                       : "Ꙅ̵"
+<dead_stroke> <U21BA> <Macedonia_dse>                       : "ꙅ̵"
 <dead_stroke> <U0506>                                       : "Ԇ̵"   # Ԇ (Komi Dzje) + Stroke
 <dead_stroke> <U0507>                                       : "ԇ̵"   # ԇ (Komi Dzje) + Stroke
 <dead_stroke> <UA682>                                       : "Ꚃ̵"   # Ꚃ (Dzwe) + Stroke
@@ -274,6 +278,8 @@
 <dead_stroke> <U1DCF> <Cyrillic_te> <Cyrillic_tse>          : "ҵ̵"
 <dead_stroke> <UA660>                                       : "Ꙡ̵"   # Ꙡ (Reversed Tse) + Stroke
 <dead_stroke> <UA661>                                       : "ꙡ̵"   # ꙡ (Reversed Tse) + Stroke
+<dead_stroke> <U21BA> <Cyrillic_TSE>                        : "Ꙡ̵"
+<dead_stroke> <U21BA> <Cyrillic_tse>                        : "ꙡ̵"
 <dead_stroke> <UA68E>                                       : "Ꚏ̵"   # Ꚏ (Tswe) + Stroke
 <dead_stroke> <UA68F>                                       : "ꚏ̵"   # ꚏ (Tswe) + Stroke
 <dead_stroke> <U1DCF> <Cyrillic_TSE> <Cyrillic_VE>          : "Ꚏ̵"   # Tswe
@@ -353,6 +359,8 @@
 <dead_stroke> <U1DCF> <Cyrillic_o> <Cyrillic_i>             : "ꙕ̵"
 <dead_stroke> <U1DCF> <Cyrillic_O> <Ukrainian_I>            : "Ꙕ̵"
 <dead_stroke> <U1DCF> <Cyrillic_o> <Ukrainian_i>            : "ꙕ̵"
+<dead_stroke> <U21BA> <Cyrillic_YU>                         : "Ꙕ̵"
+<dead_stroke> <U21BA> <Cyrillic_yu>                         : "ꙕ̵"
 <dead_stroke> <UA656>                                       : "Ꙗ̵"  # Ꙗ (Iotified A/Iya) + Stroke
 <dead_stroke> <UA657>                                       : "ꙗ̵"  # ꙗ (Iotified A/Iya) + Stroke
 <dead_stroke> <U1DCF> <Cyrillic_I> <Cyrillic_A>             : "Ꙗ̵"
