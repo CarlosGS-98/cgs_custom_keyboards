@@ -1,0 +1,25 @@
+# Latin Alphabet | Macron Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowmacron> <B>  : "Ḇ"
+<dead_belowmacron> <b>  : "ḇ"
+<dead_belowmacron> <D>  : "Ḏ"
+<dead_belowmacron> <d>  : "ḏ"
+<dead_belowmacron> <h>  : "ẖ"
+<dead_belowmacron> <K>  : "Ḵ"
+<dead_belowmacron> <k>  : "ḵ"
+<dead_belowmacron> <L>  : "Ḻ"
+<dead_belowmacron> <l>  : "ḻ"
+<dead_belowmacron> <N>  : "Ṉ"
+<dead_belowmacron> <n>  : "ṉ"
+<dead_belowmacron> <R>  : "Ṟ"
+<dead_belowmacron> <r>  : "ṟ"
+<dead_belowmacron> <T>  : "Ṯ"
+<dead_belowmacron> <t>  : "ṯ"
+<dead_belowmacron> <Z>  : "Ẕ"
+<dead_belowmacron> <z>  : "ẕ"
+
+##################
+# [END OF RULES] #
+##################

@@ -1,0 +1,50 @@
+# Latin Alphabet | Diagonal Stroke Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_longsolidusoverlay> <A>           : "Ⱥ"
+<dead_longsolidusoverlay> <a>           : "ⱥ"
+<dead_longsolidusoverlay> <C>           : "Ȼ"
+<dead_longsolidusoverlay> <c>           : "ȼ"
+<dead_longsolidusoverlay> <E>           : "Ɇ"
+<dead_longsolidusoverlay> <e>           : "ɇ"
+<dead_longsolidusoverlay> <G>           : "Ꞡ"
+<dead_longsolidusoverlay> <g>           : "ꞡ"
+<dead_longsolidusoverlay> <K>           : "Ꞣ"
+<dead_longsolidusoverlay> <k>           : "ꞣ"
+<dead_longsolidusoverlay> <L>           : "Ł"
+<dead_longsolidusoverlay> <l>           : "ł"
+<dead_longsolidusoverlay> <035A> <L>    : "ᴌ"
+<dead_longsolidusoverlay> <035A> <l>    : "ᴌ"
+<dead_longsolidusoverlay> <O>           : "Ø"
+<dead_longsolidusoverlay> <o>           : "ø"
+<dead_longsolidusoverlay> <Q>           : "Ꝙ"
+<dead_longsolidusoverlay> <q>           : "ꝙ"
+<dead_longsolidusoverlay> <R>           : "Ꞧ"
+<dead_longsolidusoverlay> <r>           : "ꞧ"
+<dead_longsolidusoverlay> <S>           : "Ꞩ"
+<dead_longsolidusoverlay> <s>           : "ꞩ"
+<dead_longsolidusoverlay> <minus> <S>   : "Ꟍ"
+<dead_longsolidusoverlay> <minus> <s>   : "ꟍ"
+<dead_longsolidusoverlay> <U017F>       : "ẜ"   # ſ (Long S) + Diagonal Stroke
+<dead_longsolidusoverlay> <T>           : "Ⱦ"
+<dead_longsolidusoverlay> <t>           : "ⱦ"
+<dead_longsolidusoverlay> <U>           : "Ꞹ"
+<dead_longsolidusoverlay> <u>           : "ꞹ"
+<dead_longsolidusoverlay> <V>           : "Ꝟ"
+<dead_longsolidusoverlay> <v>           : "ꝟ"
+
+
+# Other precomposed diagonal stroke combinations (Unidirectional)
+<dead_longsolidusoverlay> <UA740>           : "Ꝅ"  # Ꝁ + Diagonal Stroke
+<dead_longsolidusoverlay> <UA741>           : "ꝅ"  # ꝁ + Diagonal Stroke
+<dead_longsolidusoverlay> <dead_stroke> <K> : "Ꝅ"
+<dead_longsolidusoverlay> <dead_stroke> <k> : "ꝅ"
+<dead_longsolidusoverlay> <Oacute>          : "Ǿ"
+<dead_longsolidusoverlay> <oacute>          : "ǿ"
+<dead_longsolidusoverlay> <dead_acute> <O>  : "Ǿ"
+<dead_longsolidusoverlay> <dead_acute> <o>  : "ǿ"
+
+##################
+# [END OF RULES] #
+##################

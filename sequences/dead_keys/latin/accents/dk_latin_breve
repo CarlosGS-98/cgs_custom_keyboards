@@ -1,0 +1,50 @@
+# Latin Alphabet | Breve Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_breve> <A>    : "Ă"
+<dead_breve> <a>    : "ă"
+<dead_breve> <E>    : "Ĕ"
+<dead_breve> <e>    : "ĕ"
+<dead_breve> <G>    : "Ğ"
+<dead_breve> <g>    : "ğ"
+<dead_breve> <I>    : "Ĭ"
+<dead_breve> <i>    : "ĭ"
+<dead_breve> <O>    : "Ŏ"
+<dead_breve> <o>    : "ŏ"
+<dead_breve> <U>    : "Ŭ"
+<dead_breve> <u>    : "ŭ"
+
+
+# Precomposed Vietnamese letter combinations (Unidirectional)
+<dead_breve> <Aacute>               : "Ắ"
+<dead_breve> <aacute>               : "ắ"
+<dead_breve> <dead_acute> <A>       : "Ắ"
+<dead_breve> <dead_acute> <a>       : "ắ"
+<dead_breve> <Agrave>               : "Ằ"
+<dead_breve> <agrave>               : "ằ"
+<dead_breve> <dead_grave> <A>       : "Ằ"
+<dead_breve> <dead_grave> <a>       : "ằ"
+<dead_breve> <Atilde>               : "Ẵ"
+<dead_breve> <atilde>               : "ẵ"
+<dead_breve> <dead_tilde> <A>       : "Ẵ"
+<dead_breve> <dead_tilde> <a>       : "ẵ"
+<dead_breve> <Ahook>                : "Ẳ"
+<dead_breve> <ahook>                : "ẳ"
+<dead_breve> <dead_hook> <A>        : "Ẳ"
+<dead_breve> <dead_hook> <a>        : "ẳ"
+<dead_breve> <Abelowdot>            : "Ặ"
+<dead_breve> <abelowdot>            : "ặ"
+<dead_breve> <dead_belowdot> <A>    : "Ặ"
+<dead_breve> <dead_belowdot> <a>    : "ặ"
+
+
+# Other precomposed breve combinations (Unidirectional)
+<dead_breve> <U0228>            : "Ḝ"   # Ȩ + Breve
+<dead_breve> <U0229>            : "ḝ"   # ȩ + Breve
+<dead_breve> <dead_cedilla> <E> : "Ḝ"
+<dead_breve> <dead_cedilla> <e> : "ḝ"
+
+##################
+# [END OF RULES] #
+##################

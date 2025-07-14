@@ -1,0 +1,10 @@
+# Latin Alphabet | Diaeresis Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowdiaeresis> <U>   : "Ṳ"
+<dead_belowdiaeresis> <u>   : "ṳ"
+
+##################
+# [END OF RULES] #
+##################

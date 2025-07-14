@@ -1,0 +1,14 @@
+# Latin Alphabet | Tilde Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowtilde> <E>   : "Ḛ"
+<dead_belowtilde> <e>   : "ḛ"
+<dead_belowtilde> <I>   : "Ḭ"
+<dead_belowtilde> <i>   : "ḭ"
+<dead_belowtilde> <U>   : "Ṵ"
+<dead_belowtilde> <u>   : "ṵ"
+
+##################
+# [END OF RULES] #
+##################

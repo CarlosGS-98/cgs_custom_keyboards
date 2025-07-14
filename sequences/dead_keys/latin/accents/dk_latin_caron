@@ -1,0 +1,54 @@
+# Latin Alphabet | Caron Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_caron> <A>    : "Ǎ"
+<dead_caron> <a>    : "ǎ"
+<dead_caron> <C>    : "Č"
+<dead_caron> <c>    : "č"
+<dead_caron> <D>    : "Ď"
+<dead_caron> <d>    : "ď"
+<dead_caron> <E>    : "Ě"
+<dead_caron> <e>    : "ě"
+<dead_caron> <G>    : "Ǧ"
+<dead_caron> <g>    : "ǧ"
+<dead_caron> <H>    : "Ȟ"
+<dead_caron> <h>    : "ȟ"
+<dead_caron> <I>    : "Ǐ"
+<dead_caron> <i>    : "ǐ"
+<dead_caron> <j>    : "ǰ"
+<dead_caron> <K>    : "Ǩ"
+<dead_caron> <k>    : "ǩ"
+<dead_caron> <L>    : "Ľ"
+<dead_caron> <l>    : "ľ"
+<dead_caron> <N>    : "Ň"
+<dead_caron> <n>    : "ň"
+<dead_caron> <O>    : "Ǒ"
+<dead_caron> <o>    : "ǒ"
+<dead_caron> <R>    : "Ř"
+<dead_caron> <r>    : "ř"
+<dead_caron> <S>    : "Š"
+<dead_caron> <s>    : "š"
+<dead_caron> <T>    : "Ť"
+<dead_caron> <t>    : "ť"
+<dead_caron> <U>    : "Ǔ"
+<dead_caron> <u>    : "ǔ"
+<dead_caron> <Z>    : "Ž"
+<dead_caron> <z>    : "ž"
+<dead_caron> <EZH>  : "Ǯ"
+<dead_caron> <ezh>  : "ǯ"
+
+
+# Other precomposed caron combinations (Unidirectional)
+<dead_caron> <Sabovedot>            : "Ṧ"
+<dead_caron> <sabovedot>            : "ṧ"
+<dead_caron> <dead_abovedot> <S>    : "Ṧ"
+<dead_caron> <dead_abovedot> <s>    : "ṧ"
+<dead_caron> <Udiaeresis>           : "Ǚ"
+<dead_caron> <udiaeresis>           : "ǚ"
+<dead_caron> <dead_diaeresis> <U>   : "Ǚ"
+<dead_caron> <dead_diaeresis> <u>   : "ǚ"
+
+##################
+# [END OF RULES] #
+##################

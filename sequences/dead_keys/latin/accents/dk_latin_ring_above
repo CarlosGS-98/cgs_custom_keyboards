@@ -1,0 +1,21 @@
+# Latin Alphabet | Ring Above Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations 
+<dead_abovering> <A>    : "Å"
+<dead_abovering> <a>    : "å"
+<dead_abovering> <U>    : "Ů"
+<dead_abovering> <u>    : "ů"
+<dead_abovering> <w>    : "ẘ"
+<dead_abovering> <y>    : "ẙ"
+
+
+# Other precomposed ring above combinations (Unidirectional)
+<dead_abovering> <Aacute>           : "Ǻ"
+<dead_abovering> <aacute>           : "ǻ"
+<dead_abovering> <dead_acute> <A>   : "Ǻ"
+<dead_abovering> <dead_acute> <a>   : "ǻ"
+
+##################
+# [END OF RULES] #
+##################

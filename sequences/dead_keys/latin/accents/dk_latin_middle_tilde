@@ -1,0 +1,21 @@
+# Latin Alphabet | Middle Tilde Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations 
+<U0334> <b>     : "ᵬ"
+<U0334> <d>     : "ᵭ"
+<U0334> <f>     : "ᵮ"
+<U0334> <L>     : "Ɫ"
+<U0334> <l>     : "ɫ"
+<U0334> <m>     : "ᵯ"
+<U0334> <n>     : "ᵰ"
+<U0334> <p>     : "ᵱ"
+<U0334> <r>     : "ᵲ"
+<U0334> <U027E> : "ᵳ"   # ɾ + Middle Tilde
+<U0334> <s>     : "ᵴ"
+<U0334> <t>     : "ᵵ"
+<U0334> <z>     : "ᵶ"
+
+##################
+# [END OF RULES] #
+##################

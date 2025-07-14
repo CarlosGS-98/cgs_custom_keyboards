@@ -1,0 +1,98 @@
+# Latin Alphabet | Stroke Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+#
+# [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_stroke> <UA738>                               : "Ꜻ"  # Ꜹ + Stroke
+<dead_stroke> <UA739>                               : "ꜻ"   # ꜹ + Stroke
+<dead_stroke> <U1DCF> <A> <V>                       : "Ꜻ"  # Ꜹ + Stroke
+<dead_stroke> <U1DCF> <a> <v>                       : "ꜻ"   # ꜹ + Stroke
+<dead_stroke> <B>                                   : "Ƀ"
+<dead_stroke> <b>                                   : "ƀ"
+<dead_stroke> <U035A> <B>                           : "ᴃ"
+<dead_stroke> <U035A> <b>                           : "ᴃ"
+<dead_stroke> <C>                                   : "Ꞓ"
+<dead_stroke> <c>                                   : "ꞓ"
+<dead_stroke> <D>                                   : "Đ"
+<dead_stroke> <d>                                   : "đ"
+<dead_stroke> <ETH>                                 : "Ꟈ"
+<dead_stroke> <eth>                                 : "ꟈ"
+<dead_stroke> <e>                                   : "ꬳ"
+<dead_stroke> <F>                                   : "Ꞙ"
+<dead_stroke> <f>                                   : "ꞙ"
+<dead_stroke> <G>                                   : "Ǥ"
+<dead_stroke> <g>                                   : "ǥ"
+<dead_stroke> <H>                                   : "Ħ"
+<dead_stroke> <h>                                   : "ħ"
+<dead_stroke> <I>                                   : "Ɨ"
+<dead_stroke> <i>                                   : "ɨ"
+<dead_stroke> <U035A> <I>                           : "ᵻ"
+<dead_stroke> <U035A> <i>                           : "ᵻ"
+<dead_stroke> <U0269>                               : "ᵼ"   # ɩ (Latin Iota) + Stroke
+<dead_stroke> <J>                                   : "Ɉ"
+<dead_stroke> <j>                                   : "ɉ"
+<dead_stroke> <U0237>                               : "ɟ"   # ȷ (Dotless J) + Stroke
+<dead_stroke> <U035A> <J>                           : "ɟ"   # ȷ (Dotless J) + Stroke
+<dead_stroke> <U035A> <j>                           : "ɟ"   # ȷ (Dotless J) + Stroke
+<dead_stroke> <K>                                   : "Ꝁ"
+<dead_stroke> <k>                                   : "ꝁ"
+<dead_stroke> <L>                                   : "Ƚ"
+<dead_stroke> <l>                                   : "ƚ"
+<dead_stroke> <UA7DA>                               : "Ƛ"   # Ꟛ (Latin Lambda) + Stroke
+<dead_stroke> <UA7DB>                               : "ƛ"   # ꟛ (Latin Lambda) + Stroke
+<dead_stroke> <O>                                   : "Ɵ"
+<dead_stroke> <o>                                   : "ɵ"
+<dead_stroke> <P>                                   : "Ᵽ"
+<dead_stroke> <p>                                   : "ᵽ"
+<dead_stroke> <Q>                                   : "Ꝗ"
+<dead_stroke> <q>                                   : "ꝗ"
+<dead_stroke> <R>                                   : "Ɍ"
+<dead_stroke> <r>                                   : "ɍ"
+<dead_stroke> <S>                                   : "Ꟊ"
+<dead_stroke> <s>                                   : "ꟊ"
+<dead_stroke> <U017F>                               : "ẝ"   # ſ (Long S) + Stroke
+<dead_stroke> <U1DFB> <minus> <S>                   : "ẝ"
+<dead_stroke> <U1DFB> <minus> <s>                   : "ẝ"
+<dead_stroke> <U0283>                               : "ʄ"   # ʃ (Esh) + Stroke
+<dead_stroke> <U035A> <s>                           : "ʄ"
+<dead_stroke> <T>                                   : "Ŧ"
+<dead_stroke> <t>                                   : "ŧ"
+<dead_stroke> <THORN>                               : "Ꝥ"
+<dead_stroke> <thorn>                               : "ꝥ"
+<dead_stroke> <minus> <THORN>                       : "Ꝧ"
+<dead_stroke> <minus> <thorn>                       : "ꝧ"
+<dead_stroke> <U>                                   : "Ʉ"
+<dead_stroke> <u>                                   : "ʉ"
+<dead_stroke> <U035A> <U>                           : "ᵾ"
+<dead_stroke> <U035A> <u>                           : "ᵾ"
+<dead_stroke> <U028A>                               : "ᵿ"   # ʊ (Latin Upsilon) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <u>    : "ᵿ"   # ʊ (Latin Upsilon) + Stroke
+<dead_stroke> <Y>                                   : "Ɏ"
+<dead_stroke> <y>                                   : "ɏ"
+<dead_stroke> <Z>                                   : "Ƶ"
+<dead_stroke> <z>                                   : "ƶ"
+<dead_stroke> <U0294>                               : "ʡ"   # ʔ (Glottal Stop) + Stroke
+<dead_stroke> <U035A> <question>                    : "ʡ"   # ʔ (Glottal Stop) + Stroke
+<dead_stroke> <U035A> <U0241> <space>               : "ʡ"   # Ɂ (Capital Glottal Stop) + Stroke
+<dead_stroke> <U035A> <U0242> <space>               : "ʡ"   # ɂ (Small Glottal Stop) + Stroke
+<dead_stroke> <U0241>                               : "ʡ"   # Ɂ (Capital Glottal Stop) + Stroke
+<dead_stroke> <U0242>                               : "ʡ"   # ɂ (Small Glottal Stop)) + Stroke
+<dead_stroke> <U0295>                               : "ʢ"   # ʕ (Turned Glottal Glottal Stop) + Stroke
+<dead_stroke> <U035A> <questiondown>                : "ʢ"   # ʕ (Turned Glottal Glottal Stop) + Stroke
+<dead_stroke> <U035A> <U0241> <underscore> <space>  : "ʢ"   # Ɂ (Capital Glottal Stop) + "_" + Stroke
+<dead_stroke> <U035A> <U0242> <underscore> <space>  : "ʢ"   # ɂ (Small Glottal Stop) + "_" + Stroke
+
+
+# Other precomposed stroke combinations (Unidirectional)
+<dead_stroke> <UA7A2>                       : "Ꝅ"  # Ꞣ + Stroke
+<dead_stroke> <UA7A3>                       : "ꝅ"  # ꞣ + Stroke
+<dead_stroke> <dead_longsolidusoverlay> <K> : "Ꝅ"
+<dead_stroke> <dead_longsolidusoverlay> <k> : "ꝅ"
+
+##################
+# [END OF RULES] #
+##################

@@ -1,0 +1,10 @@
+# Latin Alphabet | Breve Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowbreve> <H>   : "Ḫ"
+<dead_belowbreve> <h>   : "ḫ"
+
+##################
+# [END OF RULES] #
+##################

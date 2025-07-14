@@ -1,0 +1,70 @@
+# Latin Alphabet | Tilde Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations 
+<dead_tilde> <A>    : "Ã"
+<dead_tilde> <a>    : "ã"
+<dead_tilde> <E>    : "Ẽ"
+<dead_tilde> <e>    : "ẽ"
+<dead_tilde> <I>    : "Ĩ"
+<dead_tilde> <i>    : "ĩ"
+<dead_tilde> <N>    : "Ñ"
+<dead_tilde> <n>    : "ñ"
+<dead_tilde> <O>    : "Õ"
+<dead_tilde> <o>    : "õ"
+<dead_tilde> <U>    : "Ũ"
+<dead_tilde> <u>    : "ũ"
+<dead_tilde> <V>    : "Ṽ"
+<dead_tilde> <v>    : "ṽ"
+<dead_tilde> <Y>    : "Ỹ"
+<dead_tilde> <v>    : "ỹ"
+
+
+# Precomposed Vietnamese letter combinations (Unidirectional)
+<dead_tilde> <Acircumflex>           : "Ẫ"
+<dead_tilde> <acircumflex>           : "ẫ"
+<dead_tilde> <dead_circumflex> <A>   : "Ẫ"
+<dead_tilde> <dead_circumflex> <a>   : "ẫ"
+<dead_tilde> <Abreve>                : "Ẵ"
+<dead_tilde> <abreve>                : "ẵ"
+<dead_tilde> <dead_breve> <A>        : "Ẵ"
+<dead_tilde> <dead_breve> <a>        : "ẵ"
+<dead_tilde> <Ecircumflex>           : "Ễ"
+<dead_tilde> <ecircumflex>           : "ễ"
+<dead_tilde> <dead_circumflex> <E>   : "Ễ"
+<dead_tilde> <dead_circumflex> <e>   : "ễ"
+<dead_tilde> <Ocircumflex>           : "Ỗ"
+<dead_tilde> <ocircumflex>           : "ỗ"
+<dead_tilde> <dead_circumflex> <O>   : "Ỗ"
+<dead_tilde> <dead_circumflex> <o>   : "ỗ"
+<dead_tilde> <Ohorn>                 : "Ỡ"
+<dead_tilde> <ohorn>                 : "ỡ"
+<dead_tilde> <dead_horn> <O>         : "Ỡ"
+<dead_tilde> <dead_horn> <o>         : "ỡ"
+<dead_tilde> <Uhorn>                 : "Ữ"
+<dead_tilde> <uhorn>                 : "ữ"
+<dead_tilde> <dead_horn> <U>         : "Ữ"
+<dead_tilde> <dead_horn> <u>         : "ữ"
+
+
+# Other precomposed tilde combinations (Unidirectional)
+<dead_tilde> <Oacute>               : "Ṍ"
+<dead_tilde> <oacute>               : "ṍ"
+<dead_tilde> <dead_acute> <O>       : "Ṍ"
+<dead_tilde> <dead_acute> <o>       : "ṍ"
+<dead_tilde> <Odiaeresis>           : "Ṏ"
+<dead_tilde> <odiaeresis>           : "ṏ"
+<dead_tilde> <dead_diaeresis> <O>   : "Ṏ"
+<dead_tilde> <dead_diaeresis> <o>   : "ṏ"
+<dead_tilde> <Omacron>              : "Ȭ"
+<dead_tilde> <omacron>              : "ȭ"
+<dead_tilde> <dead_macron> <O>      : "Ȭ"
+<dead_tilde> <dead_macron> <o>      : "ȭ"
+<dead_tilde> <Uacute>               : "Ṹ"
+<dead_tilde> <uacute>               : "ṹ"
+<dead_tilde> <dead_acute> <U>       : "Ṹ"
+<dead_tilde> <dead_acute> <u>       : "ṹ"
+
+##################
+# [END OF RULES] #
+##################

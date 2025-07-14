@@ -1,0 +1,163 @@
+# Latin Alphabet | Greek Converter Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Greek_alphabet
+#
+# [NOTE]: Combinations will be listed following Greek letter ordering.
+# Additionally, each combination will get assigned to the closest
+# Latin letter that better matches its Greek counterpart.
+#
+<dead_greek> <A>            : "Α"
+<dead_greek> <a>            : "α"
+<dead_greek> <B>            : "Β"
+<dead_greek> <b>            : "β"
+<dead_greek> <G>            : "Γ"
+<dead_greek> <g>            : "γ"
+<dead_greek> <D>            : "Δ"
+<dead_greek> <d>            : "δ"
+<dead_greek> <E>            : "Ε"
+<dead_greek> <e>            : "ε"
+<dead_greek> <Z>            : "Ζ"
+<dead_greek> <z>            : "ζ"
+<dead_greek> <Idotabove>    : "Η"   # Eta is pronounced as [i] in Modern Greek
+<dead_greek> <idotless>     : "η"   # Eta is pronounced as [i] in Modern Greek
+<dead_greek> <THORN>        : "Θ"
+<dead_greek> <thorn>        : "θ"
+<dead_greek> <I>            : "Ι"
+<dead_greek> <i>            : "ι"
+<dead_greek> <K>            : "Κ"
+<dead_greek> <k>            : "κ"
+<dead_greek> <L>            : "Λ"
+<dead_greek> <l>            : "λ"
+<dead_greek> <M>            : "Μ"
+<dead_greek> <m>            : "μ"
+<dead_greek> <N>            : "Ν"
+<dead_greek> <n>            : "ν"
+<dead_greek> <X>            : "Ξ"
+<dead_greek> <x>            : "ξ"
+<dead_greek> <O>            : "Ο"
+<dead_greek> <o>            : "ο"
+<dead_greek> <P>            : "Π"
+<dead_greek> <p>            : "π"
+<dead_greek> <R>            : "Ρ"
+<dead_greek> <r>            : "ρ"
+<dead_greek> <S>            : "Σ"
+<dead_greek> <s>            : "σ"
+
+# [NOTE]: Final Sigma (sound [s]) is entered this way (<dead_greek> + [Ñ])
+# because this mapping has been inherited from SMK 15.x
+# (as well as a lack of additional physical space
+# in the 105-key Spanish PC keyboard).
+
+<dead_greek> <Ntilde>       : "ς"   
+<dead_greek> <ntilde>       : "ς"
+<dead_greek> <T>            : "Τ"
+<dead_greek> <t>            : "τ"
+<dead_greek> <U>            : "Υ"
+<dead_greek> <u>            : "υ"
+<dead_greek> <F>            : "Φ"
+<dead_greek> <f>            : "φ"
+<dead_greek> <J>            : "Χ"
+<dead_greek> <j>            : "χ"
+<dead_greek> <U2183>        : "Ψ"   # Ↄ (Antisigma) + Greek Converter = Psi
+<dead_greek> <U2184>        : "ψ"   # ↄ (Antisigma) + Greek Converter = Psi
+<dead_greek> <Oslash>       : "Ω"
+<dead_greek> <oslash>       : "ω"
+
+
+# Archaic Greek Letters
+# [Main source]: https://en.wikipedia.org/wiki/Archaic_Greek_alphabets
+#
+<dead_greek> <C>        : "Ϻ"   # San
+<dead_greek> <c>        : "ϻ"   # San
+<dead_greek> <Ccedilla> : "Ϛ"   # Ç + Greek Converter = Stigma | Legacy mapping from SMK 15.x
+<dead_greek> <ccedilla> : "ϛ"   # ç + Greek Converter = Stigma | Legacy mapping from SMK 15.x
+<dead_greek> <ETH>      : "Ϟ"   # Ð + Greek Converter = Koppa | Legacy mapping from SMK 15.x
+<dead_greek> <eth>      : "ϟ"   # ð + Greek Converter = Koppa | Legacy mapping from SMK 15.x
+<dead_greek> <H>        : "Ͱ"   # Heta
+<dead_greek> <h>        : "ͱ"   # Heta
+<dead_greek> <Q>        : "Ϙ"   # Archaic Koppa
+<dead_greek> <q>        : "ϙ"   # Archaic Koppa
+<dead_greek> <U1E9E>    : "Ϸ"   # ẞ (Eszett) + Greek Converter = Sho | Legacy mapping from SMK 15.x
+<dead_greek> <ssharp>   : "ϸ"   # ß (Eszett) + Greek Converter = Sho | Legacy mapping from SMK 15.x
+<dead_greek> <01A7>     : "Ϻ"   # Ƨ (Tone Two) + Greek Converter = San | Legacy mapping from SMK 15.x
+<dead_greek> <01A8>     : "ϻ"   # ƨ (Tone Two) + Greek Converter = San | Legacy mapping from SMK 15.x
+<dead_greek> <W>        : "Ϝ"   # Digamma
+<dead_greek> <w>        : "ϝ"   # Digamma
+<dead_greek> <EZH>      : "Ϡ"   # Ʒ + Greek Converter = Sampi | Legacy mapping from SMK 15.x
+<dead_greek> <ezh>      : "ϡ"   # ʒ + Greek Converter = Sampi | Legacy mapping from SMK 15.x
+
+
+# Alternative Fallback ASCII --> Greek Letter Sequences (SMK 16.0+)
+# [Main source]: https://en.wikipedia.org/wiki/Archaic_Greek_alphabets
+#
+<dead_greek> <minus> <E>            : "Η"   # Eta
+<dead_greek> <minus> <e>            : "η"   # Eta
+<dead_greek> <minus> <K> <space>    : "Ϗ"   # Kai
+<dead_greek> <minus> <k> <space>    : "ϗ"   # Kai
+<dead_greek> <minus> <K> <S>        : "Ξ"   # Xi
+<dead_greek> <minus> <k> <s>        : "ξ"   # Xi
+<dead_greek> <minus> <O> <O>        : "Ω"   # Omega
+<dead_greek> <minus> <o> <o>        : "ω"   # Omega
+<dead_greek> <minus> <O> <U>        : "Ȣ"   # Ligature OU
+<dead_greek> <minus> <o> <u>        : "Ȣ"   # Ligature OU
+<dead_greek> <minus> <P> <S>        : "Ψ"   # Psi
+<dead_greek> <minus> <p> <s>        : "ψ"   # Psi
+<dead_greek> <minus> <Q>            : "Ϟ"   # Koppa
+<dead_greek> <minus> <q>            : "ϟ"   # Koppa
+<dead_greek> <minus> <S> <space>    : "ς"   # Final Sigma
+<dead_greek> <minus> <s> <space>    : "ς"   # Final Sigma
+<dead_greek> <minus> <S> <H>        : "Ϸ"   # Sho
+<dead_greek> <minus> <s> <h>        : "ϸ"   # Sho
+<dead_greek> <minus> <S> <S>        : "Ϡ"   # Sampi
+<dead_greek> <minus> <s> <s>        : "ϡ"   # Sampi
+<dead_greek> <plus> <S> <S>         : "Ͳ"   # Archaic Sampi
+<dead_greek> <plus> <s> <s>         : "ͳ"   # Archaic Sampi
+<dead_greek> <minus> <S> <T>        : "Ϛ"   # Stigma
+<dead_greek> <minus> <s> <t>        : "ϛ"   # Stigma
+<dead_greek> <minus> <T> <H>        : "Θ"   # Theta
+<dead_greek> <minus> <t> <h>        : "θ"   # Theta
+<dead_greek> <minus> <T> <S>        : "Ϻ"   # San
+<dead_greek> <minus> <t> <s>        : "ϻ"   # San
+<dead_greek> <minus> <W>            : "Ͷ"   # Pamphylian Digamma / Tsan
+<dead_greek> <minus> <w>            : "ͷ"   # Pamphylian Digamma / Tsan
+
+
+# Greek-Like Latin Letters (SMK 16.0+)
+# [Main source]: https://en.wikipedia.org/wiki/List_of_Latin-script_letters
+#
+<dead_greek> <dead_circumflex> <A>      : "Ɑ"   # Latin Alpha
+<dead_greek> <dead_circumflex> <a>      : "ɑ"   # Latin Alpha
+<dead_greek> <underscore> <A>           : "Ɒ"   # Latin Turned Alpha
+<dead_greek> <underscore> <a>           : "ɒ"   # Latin Turned Alpha
+<dead_greek> <dead_circumflex> <B>      : "Ꞵ"   # Latin Beta
+<dead_greek> <dead_circumflex> <b>      : "ꞵ"   # Latin Beta
+<dead_greek> <dead_circumflex> <D>      : "ẟ"   # Latin Delta
+<dead_greek> <dead_circumflex> <d>      : "ẟ"   # Latin Delta
+<dead_greek> <dead_circumflex> <ETH>    : "ƍ"   # Turned Latin Delta
+<dead_greek> <dead_circumflex> <eth>    : "ƍ"   # Turned Latin Delta
+<dead_greek> <dead_circumflex> <E>      : "Ɛ"   # Latin Epsilon
+<dead_greek> <dead_circumflex> <e>      : "ɛ"   # Latin Epsilon
+<dead_greek> <dead_circumflex> <F>      : "ɸ"   # Latin Phi
+<dead_greek> <dead_circumflex> <f>      : "ɸ"   # Latin Phi
+<dead_greek> <dead_circumflex> <G>      : "Ɣ"   # Latin Gamma
+<dead_greek> <dead_circumflex> <g>      : "ɣ"   # Latin Gamma
+<dead_greek> <dead_circumflex> <I>      : "Ɩ"   # Latin Iota
+<dead_greek> <dead_circumflex> <i>      : "ɩ"   # Latin Iota
+<dead_greek> <dead_circumflex> <L>      : "Ꟛ"   # Latin Lambda
+<dead_greek> <dead_circumflex> <l>      : "ꟛ"   # Latin Lambda
+<dead_greek> <dead_circumflex> <O>      : "Ꞷ"   # Latin Omega
+<dead_greek> <dead_circumflex> <o>      : "ꞷ"   # Latin Omega
+<dead_greek> <dead_circumflex> <Oslash> : "Ꞷ"   # Latin Omega
+<dead_greek> <dead_circumflex> <oslash> : "ꞷ"   # Latin Omega
+<dead_greek> <underscore> <O>           : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <o>           : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <Oslash>      : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <oslash>      : "ɷ"   # Latin Closed Omega
+<dead_greek> <dead_circumflex> <U>      : "Ʊ"   # Latin Upsilon
+<dead_greek> <dead_circumflex> <u>      : "ʊ"   # Latin Upsilon
+
+##################
+# [END OF RULES] #
+##################

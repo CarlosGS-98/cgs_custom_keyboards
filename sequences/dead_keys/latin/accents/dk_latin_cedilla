@@ -1,0 +1,55 @@
+# Latin Alphabet | Cedilla Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_cedilla> <C>  : "Ç"
+<dead_cedilla> <c>  : "ç"
+<dead_cedilla> <D>  : "Ḑ"
+<dead_cedilla> <d>  : "ḑ"
+<dead_cedilla> <E>  : "Ȩ"
+<dead_cedilla> <e>  : "ȩ"
+<dead_cedilla> <G>  : "Ģ"
+<dead_cedilla> <g>  : "ģ"
+<dead_cedilla> <H>  : "Ḩ"
+<dead_cedilla> <h>  : "ḩ"
+<dead_cedilla> <K>  : "Ķ"
+<dead_cedilla> <k>  : "ķ"
+<dead_cedilla> <L>  : "Ļ"
+<dead_cedilla> <l>  : "ļ"
+<dead_cedilla> <N>  : "Ņ"
+<dead_cedilla> <n>  : "ņ"
+<dead_cedilla> <R>  : "Ŗ"
+<dead_cedilla> <r>  : "ŗ"
+<dead_cedilla> <S>  : "Ş"
+<dead_cedilla> <s>  : "ş"
+<dead_cedilla> <T>  : "Ţ"
+<dead_cedilla> <t>  : "ţ"
+
+
+# Other precomposed cedilla combinations (Unidirectional)
+<dead_cedilla> <Cacute>         : "Ḉ"
+<dead_cedilla> <cacute>         : "ḉ"
+<dead_cedilla> <dead_acute> <C> : "Ḉ"
+<dead_cedilla> <dead_acute> <c> : "ḉ"
+<dead_cedilla> <U0114>          : "Ḝ"   # Ĕ + Cedilla
+<dead_cedilla> <U0115>          : "ḝ"   # ĕ + Cedilla
+<dead_cedilla> <dead_breve> <E> : "Ḝ"
+<dead_cedilla> <dead_breve> <e> : "ḝ"
+
+
+# Special letters with descender (Preceded by <dead_cedilla> <minus>)
+#
+# [NOTE]: This diacritic has been placed here for convenience.
+#
+<dead_cedilla> <minus> <H>  : "Ⱨ"
+<dead_cedilla> <minus> <h>  : "ⱨ"
+<dead_cedilla> <minus> <K>  : "Ⱪ"
+<dead_cedilla> <minus> <k>  : "ⱪ"
+<dead_cedilla> <minus> <N>  : "Ꞑ"
+<dead_cedilla> <minus> <n>  : "ꞑ"
+<dead_cedilla> <minus> <Z>  : "Ⱬ"
+<dead_cedilla> <minus> <z>  : "ⱬ"
+
+##################
+# [END OF RULES] #
+##################

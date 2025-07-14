@@ -32,7 +32,7 @@ xkb_symbols "basic" {
     name[Group1]= "SMK-Latin (QWERTY)";
 
     key <TLDE>	{ [  masculine,  ordfeminine,       backslash,              U25CC               ] };    // U+25CC = Dotted Circle
-    key <AE01>	{ [          1,  exclam,            bar                     ] };                        // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE01>	{ [          1,  exclam,            bar,                    U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
     key <AE02>	{ [          2,  quotedbl,          at,                     dead_greek          ] };
     key <AE03>	{ [          3,  periodcentered,    numbersign              ] };
     key <AE04>	{ [          4,  dollar,            dead_tilde              ] };

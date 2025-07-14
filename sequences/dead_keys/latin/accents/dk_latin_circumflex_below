@@ -1,0 +1,20 @@
+# Latin Alphabet | Circumflex Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowcircumflex> <D>  : "Ḓ"
+<dead_belowcircumflex> <d>  : "ḓ"
+<dead_belowcircumflex> <E>  : "Ḙ"
+<dead_belowcircumflex> <e>  : "ḙ"
+<dead_belowcircumflex> <L>  : "Ḽ"
+<dead_belowcircumflex> <l>  : "ḽ"
+<dead_belowcircumflex> <N>  : "Ṋ"
+<dead_belowcircumflex> <n>  : "ṋ"
+<dead_belowcircumflex> <T>  : "Ṱ"
+<dead_belowcircumflex> <t>  : "ṱ"
+<dead_belowcircumflex> <U>  : "Ṷ"
+<dead_belowcircumflex> <u>  : "ṷ"
+
+##################
+# [END OF RULES] #
+##################

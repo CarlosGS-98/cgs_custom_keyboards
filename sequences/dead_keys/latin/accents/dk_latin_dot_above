@@ -1,0 +1,77 @@
+# Latin Alphabet | Dot Above Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_abovedot> <A>         : "Ȧ"
+<dead_abovedot> <a>         : "ȧ"
+<dead_abovedot> <B>         : "Ḃ"
+<dead_abovedot> <b>         : "ḃ"
+<dead_abovedot> <C>         : "Ċ"
+<dead_abovedot> <c>         : "ċ"
+<dead_abovedot> <D>         : "Ḋ"
+<dead_abovedot> <d>         : "ḋ"
+<dead_abovedot> <E>         : "Ė"
+<dead_abovedot> <e>         : "ė"
+<dead_abovedot> <F>         : "Ḟ"
+<dead_abovedot> <f>         : "ḟ"
+<dead_abovedot> <G>         : "Ġ"
+<dead_abovedot> <g>         : "ġ"
+<dead_abovedot> <H>         : "Ḣ"
+<dead_abovedot> <h>         : "ḣ"
+<dead_abovedot> <I>         : "İ"
+<dead_abovedot> <i>         : "ı"
+<dead_abovedot> <Idotabove> : "I"
+<dead_abovedot> <idotless>  : "i"
+<dead_abovedot> <L>         : "Ŀ"   # L amb punt volat (Precomposed)
+<dead_abovedot> <l>         : "ŀ"   # l amb punt volat (Precomposed)
+<dead_abovedot> <M>         : "Ṁ"
+<dead_abovedot> <m>         : "ṁ"
+<dead_abovedot> <N>         : "Ṅ"
+<dead_abovedot> <n>         : "ṅ"
+<dead_abovedot> <O>         : "Ȯ"
+<dead_abovedot> <o>         : "ȯ"
+<dead_abovedot> <P>         : "Ṗ"
+<dead_abovedot> <p>         : "ṗ"
+<dead_abovedot> <U2183>     : "Ꜿ"  # Ↄ (Antisigma) + Middle Dot
+<dead_abovedot> <U2184>     : "ꜿ"  # ↄ (Antisigma) + Middle Dot
+<dead_abovedot> <R>         : "Ṙ"
+<dead_abovedot> <r>         : "ṙ"
+<dead_abovedot> <S>         : "Ṡ"
+<dead_abovedot> <s>         : "ṡ"
+<dead_abovedot> <T>         : "Ṫ"
+<dead_abovedot> <t>         : "ṫ"
+<dead_abovedot> <W>         : "Ẇ"
+<dead_abovedot> <w>         : "ẇ"
+<dead_abovedot> <X>         : "Ẋ"
+<dead_abovedot> <x>         : "ẋ"
+<dead_abovedot> <Y>         : "Ẏ"
+<dead_abovedot> <y>         : "ẏ"
+<dead_abovedot> <Z>         : "Ż"
+<dead_abovedot> <z>         : "ż"
+
+
+# Other precomposed dot above combinations (Unidirectional)
+<dead_abovedot> <Amacron>           : "Ǡ"
+<dead_abovedot> <amacron>           : "ǡ"
+<dead_abovedot> <dead_macron> <A>   : "Ǡ"
+<dead_abovedot> <dead_macron> <a>   : "ǡ"
+<dead_abovedot> <Omacron>           : "Ȱ"
+<dead_abovedot> <omacron>           : "ȱ"
+<dead_abovedot> <dead_macron> <O>   : "Ȱ"
+<dead_abovedot> <dead_macron> <o>   : "ȱ"
+<dead_abovedot> <Sacute>            : "Ṥ"
+<dead_abovedot> <sacute>            : "ṥ"
+<dead_abovedot> <dead_acute> <S>    : "Ṥ"
+<dead_abovedot> <dead_acute> <s>    : "ṥ"
+<dead_abovedot> <Scaron>            : "Ṧ"
+<dead_abovedot> <scaron>            : "ṧ"
+<dead_abovedot> <dead_caron> <S>    : "Ṧ"
+<dead_abovedot> <dead_caron> <s>    : "ṧ"
+<dead_abovedot> <U1E62>             : "Ṩ"   # Ṣ + Dot Above
+<dead_abovedot> <U1E63>             : "ṩ"   # ṣ + Dot Above
+<dead_abovedot> <dead_belowdot> <S> : "Ṩ"
+<dead_abovedot> <dead_belowdot> <s> : "ṩ"
+
+##################
+# [END OF RULES] #
+##################

@@ -1,0 +1,10 @@
+# Latin Alphabet | Ring Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowring> <A>    : "Ḁ"
+<dead_belowring> <a>    : "ḁ"
+
+##################
+# [END OF RULES] #
+##################
