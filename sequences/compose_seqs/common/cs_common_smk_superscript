@@ -22,20 +22,20 @@
 
 
 # Skorpian Superscript Circumflex (IPA Sounds)
-<Multi_key> <dead_circumflex> <U0298>                   : "𐞵"   # ʘ (Bilabial Click) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <0>               : "𐞵"
-<Multi_key> <dead_circumflex> <U01C1>                   : "𐞷"   # ǁ (Lateral Click) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <bar> <bar>       : "𐞷"
-<Multi_key> <dead_circumflex> <U01C2>                   : "𐞸"   # ǂ (Palatal Click) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <bar> <equal>     : "ǂ"
-<Multi_key> <dead_circumflex> <U035A> <equal> <bar>     : "ǂ"
-<Multi_key> <dead_circumflex> <U01C0>                   : "𐞶"   # ǀ (Dental Click) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <bar> <space>     : "𐞶" 
-<Multi_key> <dead_circumflex> <U01C3>                   : "ꜝ"   # ǃ (Alveolar Click) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <exclam>          : "ꜝ"
-<Multi_key> <dead_circumflex> <U1DF0A>                  : "𐞹"   # 𝼊 (Retroflex Click) + Superscript
-<Multi_key> <dead_circumflex> <U0359> <greater> <!>     : "𐞹"
-<Multi_key> <dead_circumflex> <exclamdown>              : "ꜞ"
+<Multi_key> <dead_circumflex> <U0298>                       : "𐞵"   # ʘ (Bilabial Click) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <0>                   : "𐞵"
+<Multi_key> <dead_circumflex> <U01C1>                       : "𐞷"   # ǁ (Lateral Click) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <bar> <bar>           : "𐞷"
+<Multi_key> <dead_circumflex> <U01C2>                       : "𐞸"   # ǂ (Palatal Click) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <bar> <equal>         : "ǂ"
+<Multi_key> <dead_circumflex> <U035A> <equal> <bar>         : "ǂ"
+<Multi_key> <dead_circumflex> <U01C0>                       : "𐞶"   # ǀ (Dental Click) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <bar> <space>         : "𐞶" 
+<Multi_key> <dead_circumflex> <U01C3>                       : "ꜝ"   # ǃ (Alveolar Click) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <exclam>              : "ꜝ"
+<Multi_key> <dead_circumflex> <U1DF0A>                      : "𐞹"   # 𝼊 (Retroflex Click) + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <exclam>    : "𐞹"
+<Multi_key> <dead_circumflex> <exclamdown>                  : "ꜞ"
 
 
 # Skorpian Superscript Circumflex (IPA Suprasegmentals)

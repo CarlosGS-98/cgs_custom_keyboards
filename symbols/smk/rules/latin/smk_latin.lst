@@ -1,0 +1,5 @@
+! layout
+  smk/latin     Skorpian Master Keyboard (Latin Alphabet)ç
+
+! variant
+  qwerty        smk/latin: SMK-Latin (QWERTY)

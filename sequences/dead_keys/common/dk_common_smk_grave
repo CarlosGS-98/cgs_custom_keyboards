@@ -7,7 +7,7 @@
 #
 
 # Basic combinations
-<dead_grave> <space>        : "́"    # Combining grave accent
+<dead_grave> <space>        : "̀"    # Combining grave accent
 <dead_grave> <dead_grave>   : "`"   # Regular spacing grave accent
 <dead_grave> <less>         : "̖"    # Combining grave accent below
 <dead_grave> <greater>      : "̖"    # Combining grave accent below

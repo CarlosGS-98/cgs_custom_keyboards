@@ -1,0 +1,171 @@
+// Latin Alphabet | XKB Keyboard Symbols
+// [AUTHOR]: Carlos González Sanz
+
+// [NOTE]: These keyboards are partially based upon the
+// default "latin" and "es" symbols in regards to the
+// physical key layout.
+
+// Default SMK-Latin Keyboard
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    // [NOTE]: Keys are arranged the same way as
+    // in the standard European Spanish QWERTY keyboard.
+
+    // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ? Ɂ │ ¿ Ꞌ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ɂ │ ¡ ꞌ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Q   │ W Ⅎ │ E ¤ │ R ɻ │ T Þ │ Y Ꟛ │ U Ů │ I İ │ O Ø │ P Ↄ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ q   │ w ⅎ │ e € │ r ɹ │ t þ │ y ꟛ │ u ů │ i ı │ o ø │ p ↄ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ A Å │ S ẞ │ D Ð │ F   │ G Ƣ │ H Ⱶ │ J ɟ │ K   │ L Ł │ Ñ ◌̌ │ ◌̈ ◌̋ │ Ç ◌̨ ┃      ┃
+    // ┃  Lock  ┃ a å │ s ß │ d ð │ f   │ g ƣ │ h ⱶ │ j ȷ │ k   │ l ł │ ñ ◌̄ │ ◌́ { │ ç } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ Z Ʒ │ X Ƨ │ C ◌̑ │ V ◌̊ │ B ⌬ │ N Ŋ │ М  ͛ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < æ │ z ʒ │ x ƨ │ c ◌̧ │ v ◌̆ │ b ※ │ n ŋ │ m ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Latin (QWERTY)";
+
+    key <TLDE>	{ [  masculine,  ordfeminine,       backslash,              U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [          1,  exclam,            bar                     ] };                        // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [          2,  quotedbl,          at,                     dead_greek          ] };
+    key <AE03>	{ [          3,  periodcentered,    numbersign              ] };
+    key <AE04>	{ [          4,  dollar,            dead_tilde              ] };
+    key <AE05>	{ [          5,  percent,           U1DCF                   ] };                        // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [          6,  ampersand,         notsign                 ] };
+    key <AE07>	{ [          7,  slash,             dead_longsolidusoverlay ] };
+    key <AE08>	{ [          8,  parenleft,         U221D,                  U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [          9,  parenright,        U1DFB                   ] };                        // U+1DFB = "Historical Letters" Dead Key
+    key <AE10>	{ [          0,  equal,             U035A,                  U21BA               ] };    // U+035A = "IPA Symbols" Dead Key; U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [ apostrophe,  question,          U0242,                  U0241               ] };    // "'", "?", Lowercase Glottal Stop, Uppercase Glottal Stop 
+    key <AE12>	{ [ exclamdown,  questiondown,      UA78C,                  UA78B               ] };    // "¡", "¿", Lowercase Saltillo, Uppercase Saltillo 
+
+    key <AD01>	{ [          q,  Q                  ] };
+    key <AD02>	{ [          w,  W,                 U214E,                  U2132               ] };    // "f", "F", Lowercase Digamma Inversum, Uppercase Digamma Inversum
+    key <AD03>	{ [          e,  E,                 EuroSign,               dead_currency       ] };
+    key <AD04>	{ [          r,  R,                 U0279,                  U027B               ] };    // "r", "R", "ɹ̛", "ɻ̛"
+    key <AD05>	{ [          t,  T,                 thorn,                  THORN               ] };
+    key <AD06>	{ [          y,  Y,                 UA7DB,                  UA7DA               ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
+    key <AD07>	{ [          u,  U,                 uring,                  Uring               ] };
+    key <AD08>	{ [          i,  I,                 idotless,               Idotabove           ] };
+    key <AD09>	{ [          o,  O,                 oslash,                 Oslash              ] };
+    key <AD10>	{ [          p,  P,                 U2184,                  U2183               ] };    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
+    key <AD11>	{ [ dead_grave,  dead_circumflex,   bracketleft,            dead_doublegrave    ] };
+    key <AD12>	{ [       plus,  asterisk,          bracketright,           dead_horn           ] };
+
+    key <AC01>	{ [          a,  A,                 aring,                  Aring               ] };
+    key <AC02>	{ [          s,  S,                 ssharp,                 U1E9E               ] };    // U+1E9E = Uppercase Eszett
+    key <AC03>	{ [          d,  D,                 eth,                    ETH                 ] };
+    key <AC04>	{ [          f,  F                  ] };
+    key <AC05>	{ [          g,  G,                 U01A3,                  U01A2               ] };    // "g", "G", Lowercase Gha, Uppercase Gha
+    key <AC06>	{ [          h,  H,                 U2C76,                  U2C75               ] };    // "h", "H", Lowercase Sonus Medius, Uppercase Sonus Medius
+    key <AC07>	{ [          j,  J,                 U0237,                  U025F               ] };    // "j", "J", Lowercase Dotless J, Lowercase Barred Dotless J
+    key <AC08>	{ [          k,  K                  ] };
+    key <AC09>	{ [          l,  L,                 lstroke,                Lstroke             ] };
+    key <AC10>	{ [     ntilde,  Ntilde,            dead_macron,            dead_caron          ] };
+    key <AC11>	{ [ dead_acute,  dead_diaeresis,    braceleft,              dead_doubleacute    ] };
+    key <BKSL>	{ [   ccedilla,  Ccedilla,          braceright,             dead_ogonek         ] };
+
+    key <LSGT>	{ [       less,  greater,           ae,                     AE                  ] };
+    key <AB01>	{ [          z,  Z,                 ezh,                    EZH                 ] };
+    key <AB02>	{ [          x,  X,                 U01A8,                  U01A7               ] };    // "x", "X", Lowercase Tone Two, Uppercase Tone Two
+    key <AB03>	{ [          c,  C,                 dead_cedilla,           dead_invertedbreve  ] };
+    key <AB04>	{ [          v,  V,                 dead_breve,             dead_abovering      ] };
+    key <AB05>	{ [          b,  B,                 U203B,                  U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB06>	{ [          n,  N,                 eng,                    ENG                 ] };
+    key <AB07>	{ [          m,  M,                 U0359,                  U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AB08>	{ [      comma,  semicolon,         dead_belowcomma,        dead_abovecomma     ] };
+    key <AB09>	{ [     period,  colon,             dead_abovedot,          dead_belowdot       ] };
+    key <AB10>	{ [     minus,   underscore,        dead_stroke,            dead_hook           ] };
+
+    // Default modifiers
+    include "level3(ralt_switch)"
+    include "compose(rctrl-altgr)"  // As a middle ground (feel free to change this line if you want or need to)
+};
+
+// partial alphanumeric_keys
+// xkb_symbols "qwerty_us" {
+//     // [TODO]: Implement this layout variant.
+//     include "smk/latin(basic)"
+
+//     // [TODO]: Define all placement differences for this variant
+//     name[Group1]= "SMK-Latin (US QWERTY)";
+//     // (...)
+// };
+
+// partial alphanumeric_keys
+// xkb_symbols "qwertz" {
+//     // [TODO]: Implement this layout variant.
+//     include "smk/latin(basic)"
+
+//     // [TODO]: Define all placement differences for this variant
+//     name[Group1]= "SMK-Latin (QWERTZ)";
+//     // (...)
+// };
+
+// partial alphanumeric_keys
+// xkb_symbols "azerty" {
+//     // [TODO]: Implement this layout variant.
+//     include "smk/latin(basic)"
+
+//     // [TODO]: Define all placement differences for this variant
+//     name[Group1]= "SMK-Latin (AZERTY)";
+//     // (...)
+// };
+
+// partial alphanumeric_keys
+// xkb_symbols "lithuanian_azerty" {
+//     // [TODO]: Implement this layout variant.
+//     include "smk/latin(basic)"
+
+//     // [TODO]: Define all placement differences for this variant
+//     name[Group1]= "SMK-Latin (ĄŽERTY)";
+//     // (...)
+// };
+
+// partial alphanumeric_keys
+// xkb_symbols "dvorak" {
+//     // [TODO]: Implement this layout variant.
+//     include "smk/latin(basic)"
+
+//     // [TODO]: Define all placement differences for this variant
+//     name[Group1]= "SMK-Latin (Dvorak)";
+//     // (...)
+// };
+
+// partial alphanumeric_keys
+// xkb_symbols "colemak" {
+//     // [TODO]: Implement this layout variant.
+//     include "smk/latin(basic)"
+
+//     // [TODO]: Define all placement differences for this variant
+//     name[Group1]= "SMK-Latin (Colemak)";
+//     // (...)
+// };
+
+// partial alphanumeric_keys
+// xkb_symbols "jcuken" {
+//     // [TODO]: Implement this layout variant.
+//     include "smk/latin(basic)"
+
+//     // [TODO]: Define all placement differences for this variant
+//     name[Group1]= "SMK-Latin (JCUKEN)";
+//     // (...)
+// };
+
+// partial alphanumeric_keys
+// xkb_symbols "turkish" {
+//     // [TODO]: Implement this layout variant.
+//     include "smk/latin(basic)"
+
+//     // [TODO]: Define all placement differences for this variant
+//     name[Group1]= "SMK-Latin (FGĞIOD)";
+//     // (...)
+// };
+
+// [TODO]; Add more variants if needed

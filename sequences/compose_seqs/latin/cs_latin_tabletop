@@ -276,7 +276,7 @@
 <Multi_key> <U232C> <bracketleft> <bracketleft> <x> <i> <x> <bracketright> <bracketright>           : "🃳"  # Trump Card 19 (Winter)
 <Multi_key> <U232C> <bracketleft> <bracketleft> <X> <X> <bracketright> <bracketright>               : "🃴"  # Trump Card 20 (The Game)
 <Multi_key> <U232C> <bracketleft> <bracketleft> <x> <x> <bracketright> <bracketright>               : "🃴"  # Trump Card 20 (The Game)
-<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <X> I> <bracketright> <bracketright>            : "🃵"  # Trump Card 21 (Collective)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <X> <X> <I> <bracketright> <bracketright>           : "🃵"  # Trump Card 21 (Collective)
 <Multi_key> <U232C> <bracketleft> <bracketleft> <x> <x> <i> <bracketright> <bracketright>           : "🃵"  # Trump Card 21 (Collective)
 
 

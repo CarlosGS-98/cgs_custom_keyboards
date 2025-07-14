@@ -24,7 +24,7 @@
 # Basic precomposed retroflex hook letter combinations
 # [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
 #
-<U0359> <greater> <!>   : "𝼊"
+<U0359> <greater> <exclam>  : "𝼊"
 
 ##################
 # [END OF RULES] #

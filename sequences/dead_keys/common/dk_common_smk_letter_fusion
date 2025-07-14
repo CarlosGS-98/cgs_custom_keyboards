@@ -74,7 +74,7 @@
 #
 <U1DCF> <0> <0> <slash>     : "%"
 <U1DCF> <0> <3> <slash>     : "↉"
-<U1DCF> <1> <slash>< space> : "⅟"
+<U1DCF> <1> <slash> <space> : "⅟"
 <U1DCF> <1> <2> <slash>     : "½"
 <U1DCF> <1> <3> <slash>     : "⅓"
 <U1DCF> <1> <4> <slash>     : "¼"
