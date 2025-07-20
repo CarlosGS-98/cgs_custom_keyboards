@@ -27,8 +27,9 @@
 
 # Reversed Punctuation
 <U21BA> <comma>         : "،"   # Arabic comma
+<U21BA> <exclam>        : "¡"   # Inverted exclamation mark
 <U21BA> <period>        : "·"   # Ano Teleia
-<U21BA> <question>      : "؟"   # Arabic question mark
+<U21BA> <question>      : "¿"   # Inverted question mark
 <U21BA> <questiondown>  : "؟"   # Arabic question mark
 <U21BA> <semicolon>     : "؛"   # Arabic semicolon
 

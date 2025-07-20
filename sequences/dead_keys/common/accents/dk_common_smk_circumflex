@@ -1,4 +1,4 @@
-# Common Dead Keys | Circumflex Accent Rules
+# Common Dead Keys | Circumflex + Circumflex Below Accent Rules
 # [AUTHOR]: Carlos González Sanz
 #
 # > The purpose of this file is to store default
@@ -13,8 +13,11 @@
 <dead_circumflex> <greater>         : "ˆ"   # Modifier circumflex accent 
 
 
-# Chained dead keys
-<dead_circumflex> <minus>   : dead_belowcircumflex
+# Rules from "<dead_belowcircumflex>"
+<dead_circumflex> <minus> <space>   : "̭"    # Combining circumflex accent below
+<dead_circumflex> <minus> <minus>   : "ꞈ"   # Modifier letter low circumflex accent
+<dead_circumflex> <minus> <less>    : "̂"    # Combining circumflex accent
+<dead_circumflex> <minus> <greater> : "＾"   # Full-width circumflex accent
 
 ##################
 # [END OF RULES] #

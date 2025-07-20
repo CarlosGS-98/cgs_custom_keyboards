@@ -15,8 +15,11 @@
 <dead_macron> <period>       : "͟"    # Combining double macron below
 
 
-# Chained dead keys
-<dead_macron> <minus>   : dead_belowmacron
+# Rules from "<dead_belowmacron>"
+<dead_macron> <minus> <space>       : "̱"    # Combining macron below
+<dead_macron> <minus> <minus>       : "ˍ"   # Modifier letter low macron
+<dead_macron> <minus> <minus>       : "᷌"    # Combining macron-breve
+<dead_macron> <minus> <underscore>  : "᷋"    # Combining breve-macron
 
 ##################
 # [END OF RULES] #

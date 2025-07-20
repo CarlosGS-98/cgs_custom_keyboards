@@ -77,7 +77,7 @@
 <U221D> <bracketright> <asciicircum>            : "⌉"   # Right ceiling
 <U221D> <bracketright> <dead_circumflex>        : "⌉"   # Right ceiling
 <U221D> <bracketright> <underscore>             : "⌋"   # Right floor
-<U221D> <degree> <space>                        : "∘"   # Ring/composition operator
+<U221D> <masculine> <space>                     : "∘"   # Ring/composition operator
 
 
 # Enclosed operators (Non-Alphabetical)
@@ -85,7 +85,7 @@
 <U221D> <bracketleft> <period> <bracketright>           : "⊡"   # Squared dot operator
 <U221D> <bracketleft> <plus> <bracketright>             : "⊞"   # Squaredc plus
 <U221D> <parenleft> <asterisk> <asterisk> <parenright>  : "⊛"   # Circled asterisk operator
-<U221D> <parenleft> <degree> <parenright>               : "⊚"   # Circled ring operator
+<U221D> <parenleft> <masculine> <parenright>            : "⊚"   # Circled ring operator
 <U221D> <parenleft> <equal> <parenright>                : "⊜"   # Circled equals
 <U221D> <parenleft> <minus> <parenright>                : "⊖"   # Circled minus
 <U221D> <parenleft> <minus> <minus> <parenright>        : "⊝"   # Circled dash
@@ -101,16 +101,16 @@
 <U221D> <bar> <equal> <bar>                         : "⋕"   # Equal and parallel to
 <U221D> <colon> <minus> <colon>                     : "∺"   # Geometrical Proportion
 <U221D> <dead_circumflex> <period> <equal> <period> : "≒"   # Approximately equal to or the image of
-<U221D> <degree> <degree> <equal>                   : "⊾"   # Right angle with arc
-<U221D> <degree> <equal>                            : "∟"   # Right angle
-<U221D> <degree> <greater>                          : "∡"   # Measured angle
-<U221D> <degree> <less>                             : "∠"   # Angle
+<U221D> <masculine> <masculine> <equal>             : "⊾"   # Right angle with arc
+<U221D> <masculine> <equal>                         : "∟"   # Right angle
+<U221D> <masculine> <greater>                       : "∡"   # Measured angle
+<U221D> <masculine> <less>                          : "∠"   # Angle
 <U221D> <equal> <bar> <equal>                       : "⋕"   # Equal and parallel to
 <U221D> <exclam> <bar> <bar>                        : "∦"   # Not parallel to
 <U221D> <period> <equal> <period>                   : "≑"   # Geometrically equal to
-<U221D> <greater> <degree>                          : "∢"   # Spherical angle
+<U221D> <greater> <masculine>                       : "∢"   # Spherical angle
 <U221D> <minus> <3>                                 : "⊿"   # Right triangle
-<U221D> <less> <degree>                             : "∠"   # Angle
+<U221D> <less> <masculine>                          : "∠"   # Angle
 <U221D> <underscore> <period> <equal> <period>      : "≓"   # Image of or approximately equal to
 
 
@@ -142,10 +142,10 @@
 <U221D> <dead_tilde> <space>            : "∼"   # Tilde operator
 <U221D> <equal> <asterisk>              : "≛"   # Star-Equals
 <U221D> <equal> <colon>                 : "≕"   # Equals-Colon (Defined by?)
-<U221D> <equal> <degree>                : "≗"   # Ring equal to
+<U221D> <equal> <masculine>             : "≗"   # Ring equal to
 <U221D> <equal> <period>                : "≐"   # Approaches the limit (Dot Equal)
 <U221D> <minus> <asterisk>              : "⋆"   # Star operator
-<U221D> <minus> <degree> <minus>        : "≖"   # Ring in equal to
+<U221D> <minus> <masculine> <minus>     : "≖"   # Ring in equal to
 <U221D> <minus> <dead_tilde> <space>    : "≂"   # Minus-Tilde
 <U221D> <minus> <colon>                 : "∹"   # Excess
 <U221D> <minus> <period>                : "∸"   # Dot Minus

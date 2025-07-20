@@ -106,8 +106,8 @@
 <U221D> <asterisk> <o>                      : "⊛"  # Circled asterisk operator
 <U221D> <bracketleft> <X> <bracketright>    : "⊠"   # Squared times
 <U221D> <bracketleft> <x> <bracketright>    : "⊠"   # Squared times
-<U221D> <degree> <O>                        : "⊚"  # Circled ring operator
-<U221D> <degree> <o>                        : "⊚"  # Circled ring operator
+<U221D> <masculine> <O>                     : "⊚"  # Circled ring operator
+<U221D> <masculine> <o>                     : "⊚"  # Circled ring operator
 <U221D> <equal> <O>                         : "⊜"  # Circled equals
 <U221D> <equal> <o>                         : "⊜"  # Circled equals            
 <U221D> <minus> <O>                         : "⊖"  # Circled minus
@@ -116,8 +116,8 @@
 <U221D> <minus> <minus> <o>                 : "⊝"   # Circled dash
 <U221D> <O> <asterisk>                      : "⊛"  # Circled asterisk operator
 <U221D> <o> <asterisk>                      : "⊛"  # Circled asterisk operator
-<U221D> <O> <degree>                        : "⊚"  # Circled ring operator
-<U221D> <o> <degree>                        : "⊚"  # Circled ring operator
+<U221D> <O> <masculine>                     : "⊚"  # Circled ring operator
+<U221D> <o> <masculine>                     : "⊚"  # Circled ring operator
 <U221D> <O> <equal>                         : "⊜"  # Circled equals
 <U221D> <o> <equal>                         : "⊜"  # Circled equals  
 <U221D> <O> <minus>                         : "⊖"  # Circled minus

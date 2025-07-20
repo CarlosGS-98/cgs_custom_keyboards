@@ -48,15 +48,15 @@ compose_rule_compression() {
     RULES_SUBDIR=$2
     COMPOSE_PREFIX=$3
 
-    # [RULE COMPRESSION ALGORITHM]
+    # [RULE ONE-WAY COMPRESSION ALGORITHM]
     #
-    # This compression is done in 3 steps as follows:
+    # This "compression" is done in 3 steps as follows:
     # - 1: Remove all comments from the current directory's rule modules.
     # - 2: Remove every blank line from the aforementioned modules.
-    # - 3: Leave only a single space before and after each rule definition.
+    # - 3: Leave only a single space before and after each rule definition (" : ").
     #
     # After that, we just simply sort and discard any duplicate rules
-    # before writing them to our current .XCompose submodule.
+    # before writing them to our current local .XCompose file.
     #
     cat "$RULES_SUBDIR"/* | sed 's/^#[[:space:]]*.*$//' | sed '/^$/d' | sed 's/[[:space:]]*:[[:space:]]*/ : /' | sort | uniq > "$KSC_COMPOSE_DIR/$COMPOSE_PREFIX$(basename "$RULES_DIR")-$(basename "$RULES_SUBDIR")"
 
@@ -99,7 +99,7 @@ for CUR_DIR in "$KSC_COMPOSE_SEQS"/*; do
     fi
 done
 
-# Write the final .XCompose file
+# Write out the final .XCompose file
 echo -e "$KSC_COMPOSE_HEADER" > "$KSC_XCOMPOSE"
 
 for RULE_FILE in "$KSC_COMPOSE_DIR"/*; do

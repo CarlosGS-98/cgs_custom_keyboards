@@ -1,4 +1,4 @@
-# Latin Alphabet | Breve Rules
+# Latin Alphabet | Breve + Breve Below Rules
 # [AUTHOR]: Carlos González Sanz
 
 # Basic precomposed letter combinations
@@ -14,6 +14,11 @@
 <dead_breve> <o>    : "ŏ"
 <dead_breve> <U>    : "Ŭ"
 <dead_breve> <u>    : "ŭ"
+
+
+# Basic precomposed letter combinations (Breve Below)
+<dead_breve> <minus> <H>    : "Ḫ"
+<dead_breve> <minus> <h>    : "ḫ"
 
 
 # Precomposed Vietnamese letter combinations (Unidirectional)

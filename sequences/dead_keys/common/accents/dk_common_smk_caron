@@ -1,4 +1,4 @@
-# Common Dead Keys | Caron Rules
+# Common Dead Keys | Caron + Caron Below Rules
 # [AUTHOR]: Carlos González Sanz
 #
 # > The purpose of this file is to store default
@@ -12,8 +12,9 @@
 <dead_caron> <greater>      : "ˬ"   # Modifier letter voicing
 
 
-# Chained dead keys
-<dead_caron> <minus>    : U032C # Caron Below (as a dead key) 
+# Rules from "<dead_caron> <minus>" ("dead_belowcaron")
+<dead_caron> <minus> <space>     : "̬"    # Combining caron below
+<dead_caron> <minus> <minus>     : "ˬ"   # Modifier letter voicing
 
 ##################
 # [END OF RULES] #

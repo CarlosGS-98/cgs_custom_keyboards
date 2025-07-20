@@ -7,21 +7,21 @@
 #
 
 # Basic combinations
-<dead_abovering> <space>            : "̊"        # Combining ring above
-<dead_abovering> <dead_abovering>   : "˚"       # Regular spacing ring above
-<dead_abovering> <less>             : "̥"        # Combining ring below
-<dead_abovering> <greater>          : "̥"        # Combining ring below
-<dead_abovering> <comma>            : "͑"        # Combining left half ring above
-<dead_abovering> <semicolon>        : "̜"        # Combining left half ring below
-<dead_abovering> <period>           : "͗"        # Combining right half ring above
-<dead_abovering> <colon>            : "̹"        # Combining right half ring below
-<dead_abovering> <degree> <space>   : "⃘"        # Combining ring overlay
-<dead_abovering> <degree> <less>    : "⃚"        # Combining anticlockwise ring overlay
-<dead_abovering> <degree> <greater> : "⃙"        # Combining clockwise ring overlay
+<dead_abovering> <space>                : "̊"     # Combining ring above
+<dead_abovering> <dead_abovering>       : "˚"    # Regular spacing ring above
+<dead_abovering> <less>                 : "̥"     # Combining ring below
+<dead_abovering> <greater>              : "˳"    # Modifier letter low ring
+<dead_abovering> <comma>                : "͑"     # Combining left half ring above
+<dead_abovering> <semicolon>            : "̜"     # Combining left half ring below
+<dead_abovering> <period>               : "͗"     # Combining right half ring above
+<dead_abovering> <colon>                : "̹"     # Combining right half ring below
+<dead_abovering> <masculine> <space>    : "⃘"    # Combining ring overlay
+<dead_abovering> <masculine> <less>     : "⃚"    # Combining anticlockwise ring overlay
+<dead_abovering> <masculine> <greater>  : "⃙"    # Combining clockwise ring overlay
 
 
-# Chained dead keys
-<dead_abovering> <minus>    : dead_belowring    # Ring Below (as a dead key)
+# Rules from "dead_belowring"
+<dead_abovering> <minus> <space>    : "̥"    # Combining ring below
 
 ##################
 # [END OF RULES] #

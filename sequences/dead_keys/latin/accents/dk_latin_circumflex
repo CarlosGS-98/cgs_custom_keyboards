@@ -1,4 +1,4 @@
-# Latin Alphabet | Circumflex Accent Rules
+# Latin Alphabet | Circumflex + Circumflex Below Accent Rules
 # [AUTHOR]: Carlos González Sanz
 
 # Basic precomposed letter combinations
@@ -28,6 +28,21 @@
 <dead_circumflex> <y>   : "ŷ"
 <dead_circumflex> <Z>   : "Ẑ"
 <dead_circumflex> <z>   : "ẑ"
+
+
+# Basic precomposed letter combinations (Circumflex Below)
+<dead_circumflex> <minus> <D>   : "Ḓ"
+<dead_circumflex> <minus> <d>   : "ḓ"
+<dead_circumflex> <minus> <E>   : "Ḙ"
+<dead_circumflex> <minus> <e>   : "ḙ"
+<dead_circumflex> <minus> <L>   : "Ḽ"
+<dead_circumflex> <minus> <l>   : "ḽ"
+<dead_circumflex> <minus> <N>   : "Ṋ"
+<dead_circumflex> <minus> <n>   : "ṋ"
+<dead_circumflex> <minus> <T>   : "Ṱ"
+<dead_circumflex> <minus> <t>   : "ṱ"
+<dead_circumflex> <minus> <U>   : "Ṷ"
+<dead_circumflex> <minus> <u>   : "ṷ"
 
 
 # Precomposed Vietnamese letter combinations (Unidirectional)

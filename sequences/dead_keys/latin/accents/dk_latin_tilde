@@ -1,4 +1,4 @@
-# Latin Alphabet | Tilde Rules
+# Latin Alphabet | High, Middle & Low Tilde Rules
 # [AUTHOR]: Carlos González Sanz
 
 # Basic precomposed letter combinations 
@@ -18,6 +18,31 @@
 <dead_tilde> <v>    : "ṽ"
 <dead_tilde> <Y>    : "Ỹ"
 <dead_tilde> <v>    : "ỹ"
+
+
+# Basic precomposed letter combinations (Middle Tilde)
+<dead_tilde> <minus> <b>     : "ᵬ"
+<dead_tilde> <minus> <d>     : "ᵭ"
+<dead_tilde> <minus> <f>     : "ᵮ"
+<dead_tilde> <minus> <L>     : "Ɫ"
+<dead_tilde> <minus> <l>     : "ɫ"
+<dead_tilde> <minus> <m>     : "ᵯ"
+<dead_tilde> <minus> <n>     : "ᵰ"
+<dead_tilde> <minus> <p>     : "ᵱ"
+<dead_tilde> <minus> <r>     : "ᵲ"
+<dead_tilde> <minus> <U027E> : "ᵳ"   # ɾ + Middle Tilde
+<dead_tilde> <minus> <s>     : "ᵴ"
+<dead_tilde> <minus> <t>     : "ᵵ"
+<dead_tilde> <minus> <z>     : "ᵶ"
+
+
+# Basic precomposed letter combinations (Tilde Below)
+<dead_tilde> <underscore> <E>   : "Ḛ"
+<dead_tilde> <underscore> <e>   : "ḛ"
+<dead_tilde> <underscore> <I>   : "Ḭ"
+<dead_tilde> <underscore> <i>   : "ḭ"
+<dead_tilde> <underscore> <U>   : "Ṵ"
+<dead_tilde> <underscore> <u>   : "ṵ"
 
 
 # Precomposed Vietnamese letter combinations (Unidirectional)

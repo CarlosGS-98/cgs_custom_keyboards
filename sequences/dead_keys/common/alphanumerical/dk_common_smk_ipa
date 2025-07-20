@@ -19,9 +19,18 @@
 <U035A> <U035A> : "͚"    # Combining Double Ring Below
 
 
-# Chained dead keys
-<U035A> <dead_acute> <dead_acute>   : dead_aboveverticalline    # Vertical Line Above
-<U035A> <dead_grave> <dead_grave>   : dead_belowverticalline    # Vertical Line Below
+# Rules from "<dead_aboveverticalline>"
+<U035A> <dead_acute> <space>        : "̍"    # Combining vertical line above
+<U035A> <dead_acute> <dead_acute>   : "ˈ"   # Modifier letter vertical line
+<U035A> <dead_acute> <less>         : "̎"    # Combining double vertical line above
+<U035A> <dead_acute> <greater>      : "̎"    # Combining double vertical line above
+
+
+# Rules from "<dead_belowverticalline>"
+<U035A> <dead_grave> <space>        : "̩"    # Combining vertical line below
+<U035A> <dead_grave> <dead_grave>   : "ˌ"   # Modifier letter low vertical line
+<U035A> <dead_grave> <less>         : "͈"    # Combining double vertical line below
+<U035A> <dead_grave> <greater>      : "͈"    # Combining double vertical line below
 
 
 # IPA Sounds (Non-Alphabetical)
@@ -47,10 +56,8 @@
 <U035A> <apostrophe> <space>            : "ʼ"   # Modifier letter apostrophe (Ejective Sound)
 <U035A> <bracketleft> <bracketright>    : "̻"    # Combining square below (Laminal Sound)
 <U035A> <colon>                         : "ː"   # Modifier letter triangular colon (Length)
-<U035A> <dead_acute> <space>            : "ˈ"   # Modifier letter vertical line (Primary Stress)
 <U035A> <dead_circumflex> <colon>       : "˸"   # Modifier letter raised colon
 <U035A> <dead_circumflex> <underscore>  : "͆"    # Combining bridge above
-<U035A> <dead_grave> <space>            : "ˌ"   # Modifier letter low vertical line (Secondary Stress)
 <U035A> <greater> <space>               : "̙"    # Combining right tack below (Retracted Tongue Root)
 <U035A> <greater> <underscore>          : "˲"   # Modifier letter right arrowhead
 <U035A> <less> <space>                  : "̘"    # Combining left tack below (Advanced Tongue Root)

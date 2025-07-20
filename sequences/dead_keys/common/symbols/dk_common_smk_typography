@@ -80,7 +80,7 @@
 <U203B> <asciitilde> <dead_abovedot>        : "⸞"   # Tilde + Dot Above
 <U203B> <asciitilde> <dead_belowdot>        : "⸟"   # Tilde + Dot Below
 <U203B> <asciitilde> <dead_abovering>       : "⸛"   # Tilde + Ring Above
-<U203B> <asciitilde> <degree>               : "⸛"   # Tilde + Ring Above
+<U203B> <asciitilde> <masculine>            : "⸛"   # Tilde + Ring Above
 <U203B> <asciitilde> <plus> <asciitilde>    : "⁓"  # Swung dash
 <U203B> <ampersand> <7>                     : "⁊"   # Tironian sign Et
 <U203B> <ampersand> <ampersand>             : "⁊"   # Tironian sign Et
@@ -128,14 +128,14 @@
 <U203B> <dead_circumflex> <period>          : "⸳"   # Raised dot
 <U203B> <dead_circumflex> <slash>           : "⁁"   # Caret insertion point
 <U203B> <dead_circumflex> <underscore>      : "‸"   # Low caret
-<U203B> <degree> <asciitilde>               : "⸛"   # Tilde + Ring Above
-<U203B> <degree> <dead_tilde>               : "⸛"   # Tilde + Ring Above
-<U203B> <degree> <space>                    : "⸰"   # Ring point
+<U203B> <masculine> <asciitilde>            : "⸛"   # Tilde + Ring Above
+<U203B> <masculine> <dead_tilde>            : "⸛"   # Tilde + Ring Above
+<U203B> <masculine> <space>                 : "⸰"   # Ring point
 <U203B> <dead_tilde> <bar>                  : "⸾"   # Vertical wiggly line
 <U203B> <dead_tilde> <dead_abovedot>        : "⸞"   # Tilde + Dot Above
 <U203B> <dead_tilde> <dead_belowdot>        : "⸟"   # Tilde + Dot Below
 <U203B> <dead_tilde> <dead_abovering>       : "⸛"   # Tilde + Ring Above
-<U203B> <dead_tilde> <degree>               : "⸛"   # Tilde + Ring Above
+<U203B> <dead_tilde> <masculine>            : "⸛"   # Tilde + Ring Above
 <U203B> <dead_tilde> <plus> <dead_tilde>    : "⁓"  # Swung dash
 <U203B> <dollar> <dollar>                   : "§"   # Section sign
 <U203B> <dollar> <minus>                    : "⸹"   # Top-half section sign

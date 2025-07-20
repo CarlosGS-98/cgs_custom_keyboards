@@ -1,4 +1,4 @@
-# Common Dead Keys | Diaeresis Rules
+# Common Dead Keys | Diaeresis + Diaeresis Below Rules
 # [AUTHOR]: Carlos González Sanz
 #
 # > The purpose of this file is to store default
@@ -15,8 +15,8 @@
 <dead_diaeresis> <4>                : "⃜"    # Combining 4 dots above
 
 
-# Chained dead keys
-<dead_diaeresis> <minus>    : dead_belowdiaeresis
+# Rules from "<dead_belowdiaeresis>"
+<dead_diaeresis> <minus> <space>    : "̤"    # Combining diaeresis below
 
 ##################
 # [END OF RULES] #

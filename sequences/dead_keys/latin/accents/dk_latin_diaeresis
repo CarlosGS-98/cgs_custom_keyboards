@@ -1,4 +1,4 @@
-# Latin Alphabet | Diaeresis Rules
+# Latin Alphabet | Diaeresis + Diaeresis Below Rules
 # [AUTHOR]: Carlos González Sanz
 
 # Basic precomposed letter combinations
@@ -21,6 +21,11 @@
 <dead_diaeresis> <x>    : "ẍ"
 <dead_diaeresis> <Y>    : "Ÿ"
 <dead_diaeresis> <y>    : "ÿ"
+
+
+# Basic precomposed letter combinations (Diaeresis Below)
+<dead_diaeresis> <minus> <U>    : "Ṳ"
+<dead_diaeresis> <minus> <u>    : "ṳ"
 
 
 # Other precomposed diaeresis combinations (Unidirectional)

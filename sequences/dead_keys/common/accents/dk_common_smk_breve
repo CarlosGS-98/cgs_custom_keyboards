@@ -1,4 +1,4 @@
-# Common Dead Keys | Breve Rules
+# Common Dead Keys | Breve + Breve Below Rules
 # [AUTHOR]: Carlos González Sanz
 #
 # > The purpose of this file is to store default
@@ -15,8 +15,9 @@
 <dead_breve> <periodcentered>   : "̐"    # Combining chandrabindu
 
 
-# Chained dead keys
-<dead_breve> <minus>    : dead_belowbreve
+# Rules from "<dead_belowbreve>"
+<dead_breve> <minus> <space>           : "̮"    # Combining breve below
+
 ##################
 # [END OF RULES] #
 ##################

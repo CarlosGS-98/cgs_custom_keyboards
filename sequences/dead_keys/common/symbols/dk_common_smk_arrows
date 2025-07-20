@@ -178,7 +178,7 @@
 <U21BB> <minus> <bracketleft> <greater> <space>                     : "⇾"   # Rightwards open-headed arrow
 <U21BB> <minus> <dead_abovering> <greater> <space>                  : "⇴"   # Right arrow with small circle
 <U21BB> <minus> <dead_circumflex> <space>                           : "↗"   # Northeast arrow
-<U21BB> <minus> <degree> <greater> <space>                          : "⇴"   # Right arrow with small circle
+<U21BB> <minus> <masculine> <greater> <space>                       : "⇴"   # Right arrow with small circle
 <U21BB> <minus> <greater> <space>                                   : "→"   # Rightwards arrow
 <U21BB> <minus> <greater> <bar> <space>                             : "⇥"   # Rightwards arrow to bar
 <U21BB> <minus> <greater> <greater> <space>                         : "↠"  # Rightwards two-headed arrow
