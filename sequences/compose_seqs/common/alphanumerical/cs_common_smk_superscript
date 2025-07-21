@@ -10,15 +10,17 @@
 #
 
 # Skorpian Overscript Circumflex
-<Multi_key> <dead_circumflex> <dead_circumflex> <asterisk> <space>                          : "⃰"   # * + Superscript
-<Multi_key> <dead_circumflex> <dead_circumflex> <U035A> <minus> <minus>                     : "⃩"   # ʭ/2 + Superscript
-<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <asciicircum> <greater> <space>     : "⃕"   # ↷ + Superscript
-<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <asciicircum> <space>        : "⃔"   # ↶ + Superscript
-<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <asterisk> <plus> <space>    : "⃐"   # ↼ + Superscript
-<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <minus> <greater> <space>    : "⃡"   # ↔ + Superscript
-<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <minus> <space>              : "⃖"   # ← + Superscript
-<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <minus> <greater> <space>           : "⃗"   # → + Superscript
-<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <plus> <asterisk> <greater> <space> : "⃑"   # ⇀ + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <asterisk> <space>                              : "⃰"    # * + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <numbersign> <asciicircum> <period> <space>     : "͒"    # Combining Fermata Above
+<Multi_key> <dead_circumflex> <dead_circumflex> <numbersign> <dead_circumflex> <period> <space> : "͒"    # Combining Fermata Above
+<Multi_key> <dead_circumflex> <dead_circumflex> <U035A> <minus> <minus>                         : "⃩"   # ʭ/2 + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <asciicircum> <greater> <space>         : "⃕"   # ↷ + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <asciicircum> <space>            : "⃔"   # ↶ + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <asterisk> <plus> <space>        : "⃐"   # ↼ + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <minus> <greater> <space>        : "⃡"   # ↔ + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <less> <minus> <space>                  : "⃖"   # ← + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <minus> <greater> <space>               : "⃗"   # → + Superscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U21BB> <plus> <asterisk> <greater> <space>     : "⃑"   # ⇀ + Superscript
 
 
 # Skorpian Superscript Circumflex (IPA Sounds)
