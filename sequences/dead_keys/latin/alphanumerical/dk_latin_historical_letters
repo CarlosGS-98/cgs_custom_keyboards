@@ -44,8 +44,8 @@
 <U1DFB> <f>             : "ꝼ"
 <U1DFB> <G>             : "Ᵹ"
 <U1DFB> <g>             : "ᵹ"
-<U1DFB> <01A2>          : "Ꝿ"  # Ƣ (Gha) + Historical Letters Key = Ꝿ
-<U1DFB> <01A3>          : "ꝿ"  # ƣ (Gha) + Historical Letters Key = ꝿ
+<U1DFB> <U01A2>         : "Ꝿ"  # Ƣ (Gha) + Historical Letters Key = Ꝿ
+<U1DFB> <U01A3>         : "ꝿ"  # ƣ (Gha) + Historical Letters Key = ꝿ
 <U1DFB> <U1DCF> <G> <H> : "Ꝿ"
 <U1DFB> <U1DCF> <g> <h> : "ꝿ"
 <U1DFB> <U1DCF> <O> <I> : "Ꝿ"

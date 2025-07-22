@@ -56,7 +56,7 @@ xkb_symbols "basic" {
     key <AD05>	{ [          t,  T,                 thorn,                  THORN               ] };
     key <AD06>	{ [          y,  Y,                 UA7DB,                  UA7DA               ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
     key <AD07>	{ [          u,  U,                 uring,                  Uring               ] };
-    key <AD08>	{ [          i,  I,                 idotless,               Idotabove           ] };
+    key <AD08>	{ [          i,  I,                 idotless,               Iabovedot           ] };
     key <AD09>	{ [          o,  O,                 oslash,                 Oslash              ] };
     key <AD10>	{ [          p,  P,                 U2184,                  U2183               ] };    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
     key <AD11>	{ [ dead_grave,  dead_circumflex,   bracketleft,            dead_doublegrave    ] };
@@ -412,7 +412,7 @@ xkb_symbols "dvorak" {
     key <AC02>	{ [          o,  O,                 oslash,             Oslash              ] };
     key <AC03>	{ [          e,  E,                 schwa,              SCHWA               ] };
     key <AC04>	{ [          u,  U,                 uring,              Uring               ] };
-    key <AC05>	{ [          i,  I,                 idotless,           Idotabove           ] };
+    key <AC05>	{ [          i,  I,                 idotless,           Iabovedot           ] };
     key <AC06>	{ [          d,  D,                 eth,                ETH                 ] };
     key <AC07>	{ [          r,  R,                 U0279,              U027B               ] };    // "r", "R", "ɹ̛", "ɻ̛"
     key <AC08>	{ [          t,  T,                 thorn,              THORN               ] };
@@ -476,7 +476,7 @@ xkb_symbols "colemak" {
     key <AC06>	{ [          h,  H,                 U2C76,              U2C75               ] };    // "h", "H", Lowercase Sonus Medius, Uppercase Sonus Medius
     key <AC07>	{ [          n,  N,                 eng,                ENG                 ] };
     key <AC08>	{ [          e,  E,                 schwa,              SCHWA               ] };
-    key <AC09>	{ [          i,  I,                 idotless,           Idotabove           ] };
+    key <AC09>	{ [          i,  I,                 idotless,           Iabovedot           ] };
     key <AC10>	{ [          o,  O,                 oslash,             Oslash              ] };
 
     key <AB06>	{ [          k,  K                  ] };
@@ -526,7 +526,7 @@ xkb_symbols "jcuken" {
     key <AD10>	{ [     U0242,   U0241,             UA78C,                  UA78B               ] };    // Lowercase Glottal Stop, Uppercase Glottal Stop, Lowercase Saltillo, Uppercase Saltillo 
 
     key <AC01>	{ [          f,  F                  ] };
-    key <AC02>	{ [          i,  I,                 idotless,               Idotabove           ] };
+    key <AC02>	{ [          i,  I,                 idotless,               Iabovedot           ] };
     key <AC03>	{ [          v,  V,                 dead_breve,             dead_abovering      ] };
     key <AC04>	{ [          a,  A,                 aring,                  Aring               ] };
     key <AC05>	{ [          p,  P,                 U2184,                  U2183               ] };    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
@@ -588,7 +588,7 @@ xkb_symbols "turkish" {
     key <AD01>	{ [            f,   F,                  at,                   masculine                 ] };
     key <AD02>	{ [            g,   G,                  U01A3,                U01A2                     ] };    // "g", "G", Lowercase Gha, Uppercase Gha
     key <AD03>	{ [       gbreve,   Gbreve,             U0242,                U0241                     ] };    // "ğ", "Ğ", Lowercase Glottal Stop, Uppercase Glottal Stop 
-    key <AD04>	{ [     idotless,   I,                  i,                    Idotabove                 ] };
+    key <AD04>	{ [     idotless,   I,                  i,                    Iabovedot                 ] };
     key <AD05>	{ [            o,   O,                  oslash,               Oslash                    ] };
     key <AD06>	{ [            d,   D,                  eth,                  ETH                       ] };
     key <AD07>	{ [            r,   R,                  U0279,                U027B                     ] };    // "r", "R", "ɹ̛", "ɻ̛"
@@ -666,7 +666,7 @@ xkb_symbols "hcesar" {
     key <AC02>	{ [          q,  Q                  ] };
     key <AC03>	{ [          t,  T,                 thorn,                  THORN               ] };
     key <AC04>	{ [          d,  D,                 eth,                    ETH                 ] };
-    key <AC05>	{ [          i,  I,                 idotless,               Idotabove           ] };
+    key <AC05>	{ [          i,  I,                 idotless,               Iabovedot           ] };
     key <AC06>	{ [          n,  N,                 eng,                    ENG                 ] };
     key <AC07>	{ [          u,  U,                 uring,                  Uring               ] };
     key <AC08>	{ [          l,  L,                 lstroke,                Lstroke             ] };
