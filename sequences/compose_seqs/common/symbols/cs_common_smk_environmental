@@ -1,0 +1,39 @@
+# Common Compose Sequences | Environmental Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing environmental symbols
+# > that can be input with non-alphabetical characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Astronomical_symbols
+#
+
+# Recycling Symbols (General)
+#
+# [NOTE]: All symbols listed here are enclosed inside angled brackets.
+#
+<Multi_key> <U232C> <less> <greater>                                            : "♺"  # Recycling Symbol for Generic Materials
+<Multi_key> <U232C> <less> <8> <greater>                                        : "♾"  # Acid-Free Paper Symbol
+<Multi_key> <U232C> <less> <at> <greater>                                       : "♲"  # White Universal Recycling Symbol
+<Multi_key> <U232C> <less> <at> <asterisk> <greater>                            : "♻"  # Black Universal Recycling Symbol
+<Multi_key> <U232C> <less> <parenleft> <at> <parenright> <greater>              : "♽"  # Partially Recycled Paper Symbol
+<Multi_key> <U232C> <less> <parenleft> <at> <asterisk> <parenright> <greater>   : "♼"  # Recycled Paper Symbol
+
+
+# Recycling Symbols (Plastic Resin Identification Codes)
+#
+# [NOTE]: All symbols listed here are enclosed inside angled brackets.
+#
+<Multi_key> <U232C> <less> <1> <greater>    : "♳"  # Type-1 Plastics Symbol (PET)
+<Multi_key> <U232C> <less> <2> <greater>    : "♴"  # Type-2 Plastics Symbol (PEHD)
+<Multi_key> <U232C> <less> <3> <greater>    : "♵"  # Type-3 Plastics Symbol (PVC)
+<Multi_key> <U232C> <less> <4> <greater>    : "♶"  # Type-4 Plastics Symbol (PELD)
+<Multi_key> <U232C> <less> <5> <greater>    : "♷"  # Type-5 Plastics Symbol (PP)
+<Multi_key> <U232C> <less> <6> <greater>    : "♸"  # Type-6 Plastics Symbol (PS)
+<Multi_key> <U232C> <less> <7> <greater>    : "♹"  # Type-7 Plastics Symbol (Other Plastic(s))
+
+##################
+# [END OF RULES] #
+##################

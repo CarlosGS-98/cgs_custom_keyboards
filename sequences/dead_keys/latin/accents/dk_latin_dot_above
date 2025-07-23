@@ -20,7 +20,7 @@
 <dead_abovedot> <h>         : "ḣ"
 <dead_abovedot> <I>         : "İ"
 <dead_abovedot> <i>         : "ı"
-<dead_abovedot> <Idotabove> : "I"
+<dead_abovedot> <Iabovedot> : "I"
 <dead_abovedot> <idotless>  : "i"
 <dead_abovedot> <L>         : "Ŀ"   # L amb punt volat (Precomposed)
 <dead_abovedot> <l>         : "ŀ"   # l amb punt volat (Precomposed)

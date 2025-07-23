@@ -20,7 +20,7 @@
 <dead_greek> <e>            : "ε"
 <dead_greek> <Z>            : "Ζ"
 <dead_greek> <z>            : "ζ"
-<dead_greek> <Idotabove>    : "Η"   # Eta is pronounced as [i] in Modern Greek
+<dead_greek> <Iabovedot>    : "Η"   # Eta is pronounced as [i] in Modern Greek
 <dead_greek> <idotless>     : "η"   # Eta is pronounced as [i] in Modern Greek
 <dead_greek> <THORN>        : "Θ"
 <dead_greek> <thorn>        : "θ"
@@ -81,8 +81,8 @@
 <dead_greek> <q>        : "ϙ"   # Archaic Koppa
 <dead_greek> <U1E9E>    : "Ϸ"   # ẞ (Eszett) + Greek Converter = Sho | Legacy mapping from SMK 15.x
 <dead_greek> <ssharp>   : "ϸ"   # ß (Eszett) + Greek Converter = Sho | Legacy mapping from SMK 15.x
-<dead_greek> <01A7>     : "Ϻ"   # Ƨ (Tone Two) + Greek Converter = San | Legacy mapping from SMK 15.x
-<dead_greek> <01A8>     : "ϻ"   # ƨ (Tone Two) + Greek Converter = San | Legacy mapping from SMK 15.x
+<dead_greek> <U01A7>    : "Ϻ"   # Ƨ (Tone Two) + Greek Converter = San | Legacy mapping from SMK 15.x
+<dead_greek> <U01A8>    : "ϻ"   # ƨ (Tone Two) + Greek Converter = San | Legacy mapping from SMK 15.x
 <dead_greek> <W>        : "Ϝ"   # Digamma
 <dead_greek> <w>        : "ϝ"   # Digamma
 <dead_greek> <EZH>      : "Ϡ"   # Ʒ + Greek Converter = Sampi | Legacy mapping from SMK 15.x

@@ -75,7 +75,7 @@
 <U0359> <less> <p>          : "ᶈ"
 #<U0359> <less> <R>         : "¿?" (Not encoded yet)
 <U0359> <less> <r>          : "ᶉ"
-<U0359> <less> <0279>       : "𝼕"   # ɹ + Palatal Hook
+<U0359> <less> <U0279>      : "𝼕"   # ɹ + Palatal Hook
 #<U0359> <less> <S>         : "¿?" (Not encoded yet)
 <U0359> <less> <s>          : "ᶊ"
 <U0359> <less> <U0283>      : "ᶋ"   # Esh + Palatal Hook

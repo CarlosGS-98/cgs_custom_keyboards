@@ -31,7 +31,7 @@
 <Multi_key> <dead_circumflex> <dead_circumflex> <dead_cedilla> <c>                  : "ᷗ"
 <Multi_key> <dead_circumflex> <dead_circumflex> <d>                                 : "ͩ"
 <Multi_key> <dead_circumflex> <dead_circumflex> <eth>                               : "ᷙ"
-<Multi_key> <dead_circumflex> <dead_circumflex> <A77A>                              : "ᷘ"    # ꝺ (Insular D) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <UA77A>                             : "ᷘ"    # ꝺ (Insular D) + Overscript
 <Multi_key> <dead_circumflex> <dead_circumflex> <e>                                 : "ͤ"
 <Multi_key> <dead_circumflex> <dead_circumflex> <schwa>                             : "ᷪ"
 <Multi_key> <dead_circumflex> <dead_circumflex> <U035A> <e>                         : "ᷪ"

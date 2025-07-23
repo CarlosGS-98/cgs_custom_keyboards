@@ -70,7 +70,7 @@
 <Multi_key> <dollar> <Korean_Won> <space>   : "￦"
 <Multi_key> <dollar> <macron> <space>       : "￣"
 <Multi_key> <dollar> <notsign> <space>      : "￢"
-<Multi_key> <dollar> <pound> <space>        : "￡"
+<Multi_key> <dollar> <sterling> <space>     : "￡"
 <Multi_key> <dollar> <WonSign> <space>      : "￦"
 <Multi_key> <dollar> <yen> <space>          : "￥"
 
