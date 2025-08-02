@@ -1,0 +1,55 @@
+# Latin Alphabet | Religious & Spiritual Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing religious and spiritual symbols
+# > that can be input with alphabetical Latin characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Religious_and_political_symbols_in_Unicode
+#
+# [NOTE]: All symbols listed here are enclosed inside double angled brackets.
+#
+
+# Chinese Folk Religion Symbols
+#
+# [NOTE]: All symbols present on this section
+# are input with their Pinyin transcriptions
+# enclosed inside double angled brackets.
+#
+<Multi_key> <U232C> <less> <less> <C> <Aacute> <I> <greater> <greater>                                              : "🉥"  # Chinese Symbol for Wealth (財/Cái)
+<Multi_key> <U232C> <less> <less> <c> <aacute> <i> <greater> <greater>                                              : "🉥"  # Chinese Symbol for Wealth (財/Cái)
+<Multi_key> <U232C> <less> <less> <C> <dead_acute> <A> <I> <greater> <greater>                                      : "🉥"  # Chinese Symbol for Wealth (財/Cái)
+<Multi_key> <U232C> <less> <less> <c> <dead_acute> <a> <i> <greater> <greater>                                      : "🉥"  # Chinese Symbol for Wealth (財/Cái)
+<Multi_key> <U232C> <less> <less> <F> <Uacute> <greater> <greater>                                                  : "🉠"  # Chinese Symbol for Luck & Fortune (福/Fú)
+<Multi_key> <U232C> <less> <less> <f> <uacute> <greater> <greater>                                                  : "🉠"  # Chinese Symbol for Luck & Fortune (福/Fú)
+<Multi_key> <U232C> <less> <less> <F> <dead_acute> <U> <greater> <greater>                                          : "🉠"  # Chinese Symbol for Luck & Fortune (福/Fú)
+<Multi_key> <U232C> <less> <less> <f> <dead_acute> <u> <greater> <greater>                                          : "🉠"  # Chinese Symbol for Luck & Fortune (福/Fú)
+<Multi_key> <U232C> <less> <less> <L> <Ugrave> <greater> <greater>                                                  : "🉡"  # Chinese Symbol for Prosperity (祿/Lù)
+<Multi_key> <U232C> <less> <less> <l> <ugrave> <greater> <greater>                                                  : "🉡"  # Chinese Symbol for Prosperity (祿/Lù)
+<Multi_key> <U232C> <less> <less> <L> <dead_grave> <U> <greater> <greater>                                          : "🉡"  # Chinese Symbol for Prosperity (祿/Lù)
+<Multi_key> <U232C> <less> <less> <l> <dead_grave> <u> <greater> <greater>                                          : "🉡"  # Chinese Symbol for Prosperity (祿/Lù)
+<Multi_key> <U232C> <less> <less> <S> <H> <Ograve> <U> <greater> <greater>                                          : "🉢"  # Chinese Symbol for Longevity (壽/Shòu)
+<Multi_key> <U232C> <less> <less> <s> <h> <ograve> <u> <greater> <greater>                                          : "🉢"  # Chinese Symbol for Longevity (壽/Shòu)
+<Multi_key> <U232C> <less> <less> <S> <H> <dead_grave> <O> <U> <greater> <greater>                                  : "🉢"  # Chinese Symbol for Longevity (壽/Shòu)
+<Multi_key> <U232C> <less> <less> <s> <h> <dead_grave> <o> <u> <greater> <greater>                                  : "🉢"  # Chinese Symbol for Longevity (壽/Shòu)
+<Multi_key> <U232C> <less> <less> <S> <H> <U> <Amacron> <N> <G> <X> <U01CF> <greater> <greater>                     : "🉤"  # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ)
+<Multi_key> <U232C> <less> <less> <s> <h> <u> <amacron> <n> <g> <x> <U01D0> <greater> <greater>                     : "🉤"  # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ)
+<Multi_key> <U232C> <less> <less> <S> <H> <U> <dead_macron> <A> <N> <G> <X> <dead_caron> <I> <greater> <greater>    : "🉤"  # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ)
+<Multi_key> <U232C> <less> <less> <s> <h> <u> <dead_macron> <a> <n> <g> <x> <dead_caron> <i> <greater> <greater>    : "🉤"  # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ)
+<Multi_key> <U232C> <less> <less> <X> <U01CF> <greater> <greater>                                                   : "🉣"  # Chinese Symbol for Happiness (喜/Xǐ)
+<Multi_key> <U232C> <less> <less> <x> <U01D0> <greater> <greater>                                                   : "🉣"  # Chinese Symbol for Happiness (喜/Xǐ)
+<Multi_key> <U232C> <less> <less> <X> <dead_caron> <I> <greater> <greater>                                          : "🉣"  # Chinese Symbol for Happiness (喜/Xǐ)
+<Multi_key> <U232C> <less> <less> <x> <dead_caron> <i> <greater> <greater>                                          : "🉣"  # Chinese Symbol for Happiness (喜/Xǐ)
+
+
+# General Religious & Spiritual Symbols & Artifacts (Alphabetical)
+<Multi_key> <U232C> <less> <less> <dead_tilde> <M> <P> <greater> <greater>  : "🕅"  # Orthodox Marks Chapter
+<Multi_key> <U232C> <less> <less> <dead_tilde> <m> <p> <greater> <greater>  : "🕅"  # Orthodox Marks Chapter
+<Multi_key> <U232C> <less> <less> <dead_tilde> <O> <M> <greater> <greater>  : "🕉︎"  # Om Symbol
+<Multi_key> <U232C> <less> <less> <dead_tilde> <o> <m> <greater> <greater>  : "🕉︎"  # Om Symbol
+
+##################
+# [END OF RULES] #
+##################
