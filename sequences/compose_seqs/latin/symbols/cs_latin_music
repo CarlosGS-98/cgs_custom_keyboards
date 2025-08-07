@@ -1,0 +1,245 @@
+# Latin Alphabet | Musical Notation Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing musical symbols
+# > with alphabetical Latin characters
+# > by using "#" (<numbersign>) in conjunction
+# > with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Musical_Symbols_(Unicode_block)
+#
+
+# Gregorian Musical Notation (Clefs)
+<Multi_key> <numbersign> <G> <C> <colon> <space>        : "𝇐"   # Gregorian C-Clef
+<Multi_key> <numbersign> <g> <c> <colon> <space>        : "𝇐"   # Gregorian C-Clef
+<Multi_key> <numbersign> <G> <D> <O> <colon> <space>    : "𝇐"   # Gregorian C-Clef
+<Multi_key> <numbersign> <g> <d> <o> <colon> <space>    : "𝇐"   # Gregorian C-Clef
+<Multi_key> <numbersign> <G> <F> <colon> <space>        : "𝇑"   # Gregorian F-Clef
+<Multi_key> <numbersign> <g> <f> <colon> <space>        : "𝇑"   # Gregorian F-Clef
+<Multi_key> <numbersign> <G> <F> <A> <colon> <space>    : "𝇑"   # Gregorian F-Clef
+<Multi_key> <numbersign> <g> <f> <a> <colon> <space>    : "𝇑"   # Gregorian F-Clef
+
+
+# Gregorian Musical Notation (Note Symbols)
+<Multi_key> <numbersign> <G> <asterisk> <bar> <space>                                   : "𝇓"   # Virga
+<Multi_key> <numbersign> <g> <asterisk> <bar> <space>                                   : "𝇓"   # Virga
+<Multi_key> <numbersign> <G> <asterisk> <bar> <periodcentered> <space>                  : "𝇗"   # Climacus
+<Multi_key> <numbersign> <g> <asterisk> <bar> <periodcentered> <space>                  : "𝇗"   # Climacus
+<Multi_key> <numbersign> <G> <bar> <asterisk> <period> <space>                          : "𝇕"   # Clivis
+<Multi_key> <numbersign> <g> <bar> <asterisk> <period> <space>                          : "𝇕"   # Clivis
+<Multi_key> <numbersign> <G> <bar> <backslash> <asterisk> <bar> <space>                 : "𝇙"   # Porrectus
+<Multi_key> <numbersign> <g> <bar> <backslash> <asterisk> <bar> <space>                 : "𝇙"   # Porrectus
+<Multi_key> <numbersign> <G> <bar> <backslash> <bar> <asterisk> <period> <space>        : "𝇚"   # Porrectus Flexus
+<Multi_key> <numbersign> <g> <bar> <backslash> <bar> <asterisk> <period> <space>        : "𝇚"   # Porrectus Flexus
+<Multi_key> <numbersign> <G> <colon> <bar> <asterisk> <period> <space>                  : "𝇛"   # Scandicus Flexus
+<Multi_key> <numbersign> <g> <colon> <bar> <asterisk> <period> <space>                  : "𝇛"   # Scandicus Flexus
+<Multi_key> <numbersign> <G> <colon> <period> <space>                                   : "𝇝"   # Pes Subpunctis
+<Multi_key> <numbersign> <g> <colon> <period> <space>                                   : "𝇝"   # Pes Subpunctis
+<Multi_key> <numbersign> <G> <colon> <underscore> <space>                               : "𝇔"   # Podatus
+<Multi_key> <numbersign> <g> <colon> <underscore> <space>                               : "𝇔"   # Podatus
+<Multi_key> <numbersign> <G> <period> <dead_macron> <period> <space>                    : "𝇘"   # Torculus
+<Multi_key> <numbersign> <g> <period> <dead_macron> <period> <space>                    : "𝇘"   # Torculus
+<Multi_key> <numbersign> <G> <underscore> <bar> <backslash> <asterisk> <bar> <space>    : "𝇜"   # Torculus Resupinus
+<Multi_key> <numbersign> <g> <underscore> <bar> <backslash> <asterisk> <bar> <space>    : "𝇜"   # Torculus Resupinus
+<Multi_key> <numbersign> <G> <underscore> <colon> <space>                               : "𝇖"   # Scandicus
+<Multi_key> <numbersign> <g> <underscore> <colon> <space>                               : "𝇖"   # Scandicus
+
+
+# Gregorian Musical Notation (Tones)
+<Multi_key> <numbersign> <G> <6> <space>    : "𝇒"  # Square B
+<Multi_key> <numbersign> <g> <6> <space>    : "𝇒"  # Square B
+
+
+# Iranian Musical Notation (Tones) (Alphabetical)
+<Multi_key> <numbersign> <I> <space>        : "𝇩"  # Sori (½ ♯)
+<Multi_key> <numbersign> <i> <space>        : "𝇩"  # Sori (½ ♯)
+<Multi_key> <numbersign> <I> <6> <space>    : "𝇪"  # Koron (½ ♭)
+<Multi_key> <numbersign> <i> <6> <space>    : "𝇪"  # Koron (½ ♭)
+
+
+# Kievan Square Notation (Clefs)
+<Multi_key> <numbersign> <K> <C> <colon> <space>        : "𝇞"   # Kievan C-Clef
+<Multi_key> <numbersign> <k> <c> <colon> <space>        : "𝇞"   # Kievan C-Clef
+<Multi_key> <numbersign> <K> <D> <O> <colon> <space>    : "𝇞"   # Kievan C-Clef
+<Multi_key> <numbersign> <k> <d> <o> <colon> <space>    : "𝇞"   # Kievan C-Clef
+
+
+# Kievan Square Notation (Note Length & Symbols)
+<Multi_key> <numbersign> <K> <bar> <equal> <bar> <space>        : "𝇠"   # Kievan Recitative Note
+<Multi_key> <numbersign> <k> <bar> <equal> <bar> <space>        : "𝇠"   # Kievan Recitative Note
+<Multi_key> <numbersign> <K> <colon> <bar> <space>              : "𝇠"   # Kievan Final Note
+<Multi_key> <numbersign> <k> <colon> <bar> <space>              : "𝇠"   # Kievan Final Note
+<Multi_key> <numbersign> <K> <1> <slash> <1> <space>            : "𝇢"   # Kievan Whole Note
+<Multi_key> <numbersign> <k> <1> <slash> <1> <space>            : "𝇢"   # Kievan Whole Note
+<Multi_key> <numbersign> <K> <1> <slash> <2> <space>            : "𝇣"   # Kievan Half Note
+<Multi_key> <numbersign> <k> <1> <slash> <2> <space>            : "𝇣"   # Kievan Half Note
+<Multi_key> <numbersign> <K> <1> <slash> <4> <Down> <space>     : "𝇤"   # Kievan Quarter Note (Stem Down)
+<Multi_key> <numbersign> <k> <1> <slash> <4> <Down> <space>     : "𝇤"   # Kievan Quarter Note (Stem Down)
+<Multi_key> <numbersign> <K> <1> <slash> <4> <Up> <space>       : "𝇥"   # Kievan Quarter Note (Stem Up)
+<Multi_key> <numbersign> <k> <1> <slash> <4> <Up> <space>       : "𝇥"   # Kievan Quarter Note (Stem Up)
+<Multi_key> <numbersign> <K> <1> <slash> <8> <Down> <space>     : "𝇦"   # Kievan Eighth Note (Stem Down)
+<Multi_key> <numbersign> <k> <1> <slash> <8> <Down> <space>     : "𝇦"   # Kievan Eighth Note (Stem Down)
+<Multi_key> <numbersign> <K> <1> <slash> <8> <Up> <space>       : "𝇧"   # Kievan Eighth Note (Stem Up)
+<Multi_key> <numbersign> <k> <1> <slash> <8> <Up> <space>       : "𝇧"   # Kievan Eighth Note (Stem Up)
+
+
+# Kievan Square Notation (Scores) (Alphabetical)
+<Multi_key> <numbersign> <K> <ampersand> <space>    : "𝇟"   # Kievan End Of Piece
+<Multi_key> <numbersign> <k> <ampersand> <space>    : "𝇟"   # Kievan End Of Piece
+
+
+# Kievan Square Notation (Tones) (Alphabetical)
+<Multi_key> <numbersign> <K> <6> <space>    : "𝇨"  # Kievan Flat Sign
+<Multi_key> <numbersign> <k> <6> <space>    : "𝇨"  # Kievan Flat Sign
+
+
+# Mensural Musical Notation (Measures)
+<Multi_key> <numbersign> <M> <percent> <C> <space>                  : "𝇋"   # Tempus Imperfectum Cum Prolatione Imperfecta
+<Multi_key> <numbersign> <m> <percent> <c> <space>                  : "𝇋"   # Tempus Imperfectum Cum Prolatione Imperfecta
+<Multi_key> <numbersign> <M> <percent> <C> <period> <space>         : "𝇊"   # Tempus Imperfectum Cum Prolatione Perfecta
+<Multi_key> <numbersign> <m> <percent> <c> <period> <space>         : "𝇊"   # Tempus Imperfectum Cum Prolatione Perfecta
+<Multi_key> <numbersign> <M> <percent> <masculine> <space>          : "𝇈"   # Tempus Perfectum Cum Prolatione Imperfecta
+<Multi_key> <numbersign> <m> <percent> <masculine> <space>          : "𝇈"   # Tempus Perfectum Cum Prolatione Imperfecta
+<Multi_key> <numbersign> <M> <percent> <masculine> <period> <space> : "𝇇"   # Tempus Perfectum Cum Prolatione Perfecta
+<Multi_key> <numbersign> <m> <percent> <masculine> <period> <space> : "𝇇"   # Tempus Perfectum Cum Prolatione Perfecta
+<Multi_key> <numbersign> <M> <percent> <slash> <C> <space>          : "𝇍"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-2
+<Multi_key> <numbersign> <m> <percent> <slash> <c> <space>          : "𝇍"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-2
+<Multi_key> <numbersign> <M> <percent> <slash> <masculine> <space>  : "𝇉"   # Tempus Perfectum Cum Prolatione Imperfecta Diminution-1
+<Multi_key> <numbersign> <m> <percent> <slash> <masculine> <space>  : "𝇉"   # Tempus Perfectum Cum Prolatione Imperfecta Diminution-1
+<Multi_key> <numbersign> <M> <percent> <slash> <U2183> <space>      : "𝇎"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-3
+<Multi_key> <numbersign> <m> <percent> <slash> <U2184> <space>      : "𝇎"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-3
+<Multi_key> <numbersign> <M> <percent> <U2183> <space>              : "𝇌"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-1
+<Multi_key> <numbersign> <m> <percent> <U2184> <space>              : "𝇌"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-1
+
+
+# Mensural Musical Notation (Note Breaks/Rests)
+<Multi_key> <numbersign> <M> <at> <4> <space>               : "𝇁"    # Longa Perfecta Rest
+<Multi_key> <numbersign> <m> <at> <4> <space>               : "𝇂"    # Longa Imperfecta Rest
+<Multi_key> <numbersign> <M> <at> <4> <slash> <1> <space>   : "𝇁"    # Longa Perfecta Rest
+<Multi_key> <numbersign> <m> <at> <4> <slash> <1> <space>   : "𝇂"    # Longa Imperfecta Rest
+<Multi_key> <numbersign> <M> <at> <2> <space>               : "𝇃"    # Brevis Rest
+<Multi_key> <numbersign> <m> <at> <2> <space>               : "𝇃"    # Brevis Rest
+<Multi_key> <numbersign> <M> <at> <2> <slash> <1> <space>   : "𝇃"    # Brevis Rest
+<Multi_key> <numbersign> <m> <at> <2> <slash> <1> <space>   : "𝇃"    # Brevis Rest
+<Multi_key> <numbersign> <M> <at> <1> <space>               : "𝇄"    # Semibrevis Rest
+<Multi_key> <numbersign> <m> <at> <1> <space>               : "𝇄"    # Semibrevis Rest
+<Multi_key> <numbersign> <M> <at> <1> <slash> <1> <space>   : "𝇄"    # Semibrevis Rest
+<Multi_key> <numbersign> <m> <at> <1> <slash> <1> <space>   : "𝇄"    # Semibrevis Rest
+<Multi_key> <numbersign> <M> <at> <1> <slash> <2> <space>   : "𝇅"    # Minima Rest
+<Multi_key> <numbersign> <m> <at> <1> <slash> <2> <space>   : "𝇅"    # Minima Rest
+<Multi_key> <numbersign> <M> <at> <1> <slash> <4> <space>   : "𝇆"    # Semiminima Rest
+<Multi_key> <numbersign> <m> <at> <1> <slash> <4> <space>   : "𝇆"    # Semiminima Rest
+
+
+# Mensural Musical Notation (Note Length & Symbols)
+<Multi_key> <numbersign> <M> <8> <slash> <1> <space>            : "𝆶"   # Maxima
+<Multi_key> <numbersign> <m> <8> <slash> <1> <space>            : "𝆶"   # Maxima
+<Multi_key> <numbersign> <M> <4> <slash> <1> <space>            : "𝆷"   # Longa
+<Multi_key> <numbersign> <m> <4> <slash> <1> <space>            : "𝆷"   # Longa
+<Multi_key> <numbersign> <M> <2> <slash> <1> <space>            : "𝆸"   # Brevis
+<Multi_key> <numbersign> <m> <2> <slash> <1> <space>            : "𝆸"   # Brevis
+<Multi_key> <numbersign> <M> <1> <slash> <1> <space>            : "𝆹"   # White Semibrevis
+<Multi_key> <numbersign> <m> <1> <slash> <1> <space>            : "𝆹"   # White Semibrevis
+<Multi_key> <numbersign> <M> <1> <slash> <1> <asterisk> <space> : "𝆺"   # Black Semibrevis
+<Multi_key> <numbersign> <m> <1> <slash> <1> <asterisk> <space> : "𝆺"   # Black Semibrevis
+<Multi_key> <numbersign> <M> <1> <slash> <2> <space>            : "𝆹𝅥"   # Minima
+<Multi_key> <numbersign> <m> <1> <slash> <2> <space>            : "𝆹𝅥"   # Minima
+<Multi_key> <numbersign> <M> <1> <slash> <4> <space>            : "𝆺𝅥"   # Semiminima
+<Multi_key> <numbersign> <m> <1> <slash> <4> <space>            : "𝆺𝅥"   # Semiminima
+<Multi_key> <numbersign> <M> <1> <slash> <4> <asterisk> <space> : "𝆹𝅥𝅮"   # Semiminima
+<Multi_key> <numbersign> <m> <1> <slash> <4> <asterisk> <space> : "𝆹𝅥𝅮"   # Semiminima
+<Multi_key> <numbersign> <M> <1> <slash> <8> <space>            : "𝆺𝅥𝅮"   # Fusa
+<Multi_key> <numbersign> <m> <1> <slash> <8> <space>            : "𝆺𝅥𝅮"   # Fusa
+<Multi_key> <numbersign> <M> <1> <slash> <8> <asterisk> <space> : "𝆹𝅥𝅯"   # Fusa
+<Multi_key> <numbersign> <m> <1> <slash> <8> <asterisk> <space> : "𝆹𝅥𝅯"   # Fusa
+<Multi_key> <numbersign> <M> <1> <slash> <1> <6> <space>        : "𝆺𝅥𝅯"   # Semifusa
+<Multi_key> <numbersign> <m> <1> <slash> <1> <6> <space>        : "𝆺𝅥𝅯"   # Semifusa
+
+
+# Modern Musical Notation (Clefs)
+<Multi_key> <numbersign> <C> <colon> <space>                        : "𝄡"   # C-Clef (Do₄/C4)
+<Multi_key> <numbersign> <c> <colon> <space>                        : "𝄡"   # C-Clef (Do₄/C4)
+<Multi_key> <numbersign> <D> <O> <colon> <space>                    : "𝄡"   # C-Clef (Do₄/C4)
+<Multi_key> <numbersign> <d> <o> <colon> <space>                    : "𝄡"   # C-Clef (Do₄/C4)
+<Multi_key> <numbersign> <F> <colon> <space>                        : "𝄢"   # F-Clef (Fa₃/F3)
+<Multi_key> <numbersign> <f> <colon> <space>                        : "𝄢"   # F-Clef (Fa₃/F3)
+<Multi_key> <numbersign> <F> <A> <colon> <space>                    : "𝄢"   # F-Clef (Fa₃/F3)
+<Multi_key> <numbersign> <f> <a> <colon> <space>                    : "𝄢"   # F-Clef (Fa₃/F3)
+<Multi_key> <numbersign> <F> <A> <minus> <A> <colon> <space>        : "𝄣"   # F-Clef, Ottava Alta (Fa₄/F4)
+<Multi_key> <numbersign> <f> <a> <minus> <a> <colon> <space>        : "𝄣"   # F-Clef, Ottava Alta (Fa₄/F4)
+<Multi_key> <numbersign> <F> <A> <minus> <B> <colon> <space>        : "𝄤"   # F-Clef, Ottava Bassa (Fa₂/F2)
+<Multi_key> <numbersign> <f> <a> <minus> <b> <colon> <space>        : "𝄤"   # F-Clef, Ottava Bassa (Fa₂/F2)
+<Multi_key> <numbersign> <F> <minus> <A> <colon> <space>            : "𝄣"   # F-Clef, Ottava Alta (Fa₄/F4)
+<Multi_key> <numbersign> <f> <minus> <a> <colon> <space>            : "𝄣"   # F-Clef, Ottava Alta (Fa₄/F4)
+<Multi_key> <numbersign> <F> <minus> <B> <colon> <space>            : "𝄤"   # F-Clef, Ottava Bassa (Fa₂/F2)
+<Multi_key> <numbersign> <f> <minus> <b> <colon> <space>            : "𝄤"   # F-Clef, Ottava Bassa (Fa₂/F2)
+<Multi_key> <numbersign> <G> <colon> <space>                        : "𝄞"   # G-Clef (Sol₄/G4)
+<Multi_key> <numbersign> <g> <colon> <space>                        : "𝄞"   # G-Clef (Sol₄/G4)
+<Multi_key> <numbersign> <G> <minus> <A> <colon> <space>            : "𝄟"   # G-Clef, Ottava Alta (Sol₅/G5)
+<Multi_key> <numbersign> <g> <minus> <a> <colon> <space>            : "𝄟"   # G-Clef, Ottava Alta (Sol₅/G5)
+<Multi_key> <numbersign> <G> <minus> <B> <colon> <space>            : "𝄠"   # G-Clef, Ottava Bassa (Sol₄/G4)
+<Multi_key> <numbersign> <g> <minus> <b> <colon> <space>            : "𝄠"   # G-Clef, Ottava Bassa (Sol₄/G4)
+<Multi_key> <numbersign> <S> <O> <L> <colon> <space>                : "𝄞"   # G-Clef (Sol₄/G4)
+<Multi_key> <numbersign> <s> <o> <l> <colon> <space>                : "𝄞"   # G-Clef (Sol₄/G4)
+<Multi_key> <numbersign> <S> <O> <L> <minus> <A> <colon> <space>    : "𝄟"   # G-Clef, Ottava Alta (Sol₅/G5)
+<Multi_key> <numbersign> <s> <o> <l> <minus> <a> <colon> <space>    : "𝄟"   # G-Clef, Ottava Alta (Sol₅/G5)
+<Multi_key> <numbersign> <S> <O> <L> <minus> <B> <colon> <space>    : "𝄠"   # G-Clef, Ottava Bassa (Sol₃/G3)
+<Multi_key> <numbersign> <s> <o> <l> <minus> <b> <colon> <space>    : "𝄠"   # G-Clef, Ottava Bassa (Sol₃/G3)
+
+
+# Modern Musical Notation (Loudness Marks) (Alphabetical)
+<Multi_key> <numbersign> <F> <space>    : "𝆑"   # Forte
+<Multi_key> <numbersign> <f> <space>    : "𝆑"   # Forte
+<Multi_key> <numbersign> <M> <space>    : "𝆐"   # Mezzo
+<Multi_key> <numbersign> <m> <space>    : "𝆐"   # Mezzo
+<Multi_key> <numbersign> <P> <space>    : "𝆏"   # Piano
+<Multi_key> <numbersign> <p> <space>    : "𝆏"   # Piano
+<Multi_key> <numbersign> <R> <space>    : "𝆌"   # Rinforzando
+<Multi_key> <numbersign> <r> <space>    : "𝆌"   # Rinforzando
+<Multi_key> <numbersign> <S> <space>    : "𝆍"   # Subito
+<Multi_key> <numbersign> <s> <space>    : "𝆍"   # Subito
+<Multi_key> <numbersign> <Z> <space>    : "𝆎"   # Musical Symbol Z
+<Multi_key> <numbersign> <z> <space>    : "𝆎"   # Musical Symbol Z
+
+
+# Modern Musical Notation (Pedal Marks) (Alphabetical)
+<Multi_key> <numbersign> <P> <E> <D> <space>    : "𝆮"   # Pedal Mark
+<Multi_key> <numbersign> <P> <e> <d> <space>    : "𝆮"   # Pedal Mark
+<Multi_key> <numbersign> <p> <e> <d> <space>    : "𝆮"   # Pedal Mark
+
+
+# Modern Musical Notation (Scores) (Alphabetical)
+<Multi_key> <numbersign> <C> <space>            : "𝄴"   # Common Time
+<Multi_key> <numbersign> <c> <space>            : "𝄴"   # Common Time
+<Multi_key> <numbersign> <C> <bar> <space>      : "𝄵"   # Cut Time
+<Multi_key> <numbersign> <c> <bar> <space>      : "𝄵"   # Cut Time
+<Multi_key> <numbersign> <C> <slash> <space>    : "𝄵"   # Cut Time
+<Multi_key> <numbersign> <c> <slash> <space>    : "𝄵"   # Cut Time
+<Multi_key> <numbersign> <D> <C> <space>        : "𝄊"   # Da Capo
+<Multi_key> <numbersign> <d> <c> <space>        : "𝄊"   # Da Capo
+<Multi_key> <numbersign> <D> <S> <space>        : "𝄉"   # Dal Segno
+<Multi_key> <numbersign> <d> <s> <space>        : "𝄉"   # Dal Segno
+<Multi_key> <numbersign> <E> <minus> <space>    : "𝆨"   # Endstimme
+<Multi_key> <numbersign> <e> <minus> <space>    : "𝆨"   # Endstimme
+<Multi_key> <numbersign> <H> <minus> <space>    : "𝆦"   # Hauptstimme
+<Multi_key> <numbersign> <h> <minus> <space>    : "𝆦"   # Hauptstimme
+<Multi_key> <numbersign> <N> <minus> <space>    : "𝆧"   # Nebenstimme
+<Multi_key> <numbersign> <n> <minus> <space>    : "𝆧"   # Nebenstimme
+
+
+# Modern Musical Notation (Tones) (Alphabetical)
+<Multi_key> <numbersign> <8> <V> <A> <space>        : "𝄶"   # Ottava Alta
+<Multi_key> <numbersign> <8> <v> <a> <space>        : "𝄶"   # Ottava Alta
+<Multi_key> <numbersign> <8> <V> <B> <space>        : "𝄷"   # Ottava Bassa
+<Multi_key> <numbersign> <8> <v> <b> <space>        : "𝄷"   # Ottava Bassa
+<Multi_key> <numbersign> <1> <5> <M> <A> <space>    : "𝄸"   # Quindicesima Alta
+<Multi_key> <numbersign> <1> <5> <m> <a> <space>    : "𝄸"   # Quindicesima Alta
+<Multi_key> <numbersign> <1> <5> <M> <B> <space>    : "𝄹"   # Quindicesima Bassa
+<Multi_key> <numbersign> <1> <5> <m> <b> <space>    : "𝄹"   # Quindicesima Bassa
+<Multi_key> <numbersign> <T> <R> <space>            : "𝆖"    # Musical Trill
+<Multi_key> <numbersign> <t> <r> <space>            : "𝆖"    # Musical Trill
+
+##################
+# [END OF RULES] #
+##################

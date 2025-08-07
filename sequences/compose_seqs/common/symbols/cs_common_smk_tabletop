@@ -100,10 +100,10 @@
 
 
 # Checkers/Draughts Symbols
-<Multi_key> <U232C> <bracketleft> <masculine> <bracketright>                       : "⛀"  # White Checkers Man
-<Multi_key> <U232C> <bracketleft> <masculine> <masculine> <bracketright>              : "⛁"  # White Checkers King
-<Multi_key> <U232C> <bracketleft> <masculine> <asterisk> <bracketright>            : "⛂"  # Black Checkers Man
-<Multi_key> <U232C> <bracketleft> <masculine> <masculine> <asterisk> <bracketright>   : "⛃"  # Black Checkers King
+<Multi_key> <U232C> <bracketleft> <masculine> <bracketright>                        : "⛀"  # White Checkers Man
+<Multi_key> <U232C> <bracketleft> <masculine> <masculine> <bracketright>            : "⛁"  # White Checkers King
+<Multi_key> <U232C> <bracketleft> <masculine> <asterisk> <bracketright>             : "⛂"  # Black Checkers Man
+<Multi_key> <U232C> <bracketleft> <masculine> <masculine> <asterisk> <bracketright> : "⛃"  # Black Checkers King
 
 
 # Chess Pawn Symbols
