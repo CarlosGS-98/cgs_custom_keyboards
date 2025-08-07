@@ -1,0 +1,74 @@
+# Latin Alphabet | Phoenician Converter Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Phoenician_alphabet
+#
+# [NOTE]: Combinations will be listed following
+# Phoenician letter ordering as closely as possible.
+#
+# Additionally, each combination will get assigned to the closest
+# Latin letter that better matches its Phoenician counterpart.
+#
+<U10900> <A>        : "𐤀"   # ʾĀlep
+<U10900> <a>        : "𐤀"   # ʾĀlep
+<U10900> <B>        : "𐤁"   # Bēt
+<U10900> <b>        : "𐤁"   # Bēt
+<U10900> <C>        : "𐤂"   # Gīml
+<U10900> <c>        : "𐤂"   # Gīml
+<U10900> <G>        : "𐤂"   # Gīml
+<U10900> <g>        : "𐤂"   # Gīml
+<U10900> <D>        : "𐤃"   # Dālet
+<U10900> <d>        : "𐤃"   # Dālet
+<U10900> <E>        : "𐤄"   # He
+<U10900> <e>        : "𐤄"   # He
+<U10900> <F>        : "𐤅"   # Wāw
+<U10900> <f>        : "𐤅"   # Wāw
+<U10900> <U>        : "𐤅"   # Wāw
+<U10900> <u>        : "𐤅"   # Wāw
+<U10900> <V>        : "𐤅"   # Wāw
+<U10900> <v>        : "𐤅"   # Wāw
+<U10900> <W>        : "𐤅"   # Wāw
+<U10900> <w>        : "𐤅"   # Wāw
+<U10900> <Y>        : "𐤅"   # Wāw
+<U10900> <y>        : "𐤅"   # Wāw
+<U10900> <Z>        : "𐤆"   # Zayin
+<U10900> <z>        : "𐤆"   # Zayin
+<U10900> <H>        : "𐤇"   # Ḥēt
+<U10900> <h>        : "𐤇"   # Ḥēt
+<U10900> <THORN>    : "𐤈"   # Ṭēt | (Non-graphological Latin mapping)
+<U10900> <thorn>    : "𐤈"   # Ṭēt | (Non-graphological Latin mapping)
+<U10900> <I>        : "𐤉"   # Yod
+<U10900> <i>        : "𐤉"   # Yod
+<U10900> <J>        : "𐤉"   # Yod
+<U10900> <j>        : "𐤉"   # Yod
+<U10900> <K>        : "𐤊"   # Kāp
+<U10900> <k>        : "𐤊"   # Kāp
+<U10900> <L>        : "𐤋"   # Lāmed
+<U10900> <l>        : "𐤋"   # Lāmed
+<U10900> <M>        : "𐤌"   # Mēm
+<U10900> <m>        : "𐤌"   # Mēm
+<U10900> <N>        : "𐤍"   # Nūn
+<U10900> <n>        : "𐤍"   # Nūn
+<U10900> <U1E9E>    : "𐤎"   # Śāmek | (Non-graphological Latin mapping with ẞ (Eszett))
+<U10900> <ssharp>   : "𐤎"   # Śāmek | (Non-graphological Latin mapping with ß (Eszett))
+<U10900> <O>        : "𐤏"   # ʿAyin
+<U10900> <o>        : "𐤏"   # ʿAyin
+<U10900> <P>        : "𐤐"   # Pē
+<U10900> <p>        : "𐤐"   # Pē
+<U10900> <X>        : "𐤑"   # Ṣādē | (Non-graphological Latin mapping)
+<U10900> <x>        : "𐤑"   # Ṣādē | (Non-graphological Latin mapping)
+<U10900> <U01A7>    : "𐤑"   # Ṣādē | (Non-graphological Latin mapping with Ƨ (Tone Two))
+<U10900> <U01A8>    : "𐤑"   # Ṣādē | (Non-graphological Latin mapping with ƨ (Tone Two))
+<U10900> <Q>        : "𐤒"   # Qōp
+<U10900> <q>        : "𐤒"   # Qōp
+<U10900> <R>        : "𐤓"   # Rēs/Reš
+<U10900> <r>        : "𐤓"   # Rēs/Reš
+<U10900> <S>        : "𐤔"   # Šīn
+<U10900> <s>        : "𐤔"   # Šīn
+<U10900> <T>        : "𐤕"   # Tāw
+<U10900> <t>        : "𐤕"   # Tāw
+
+##################
+# [END OF RULES] #
+##################

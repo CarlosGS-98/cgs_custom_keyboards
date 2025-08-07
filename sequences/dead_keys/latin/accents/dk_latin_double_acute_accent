@@ -1,0 +1,12 @@
+# Latin Alphabet | Double Acute Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_doubleacute> <O>  : "Ő"
+<dead_doubleacute> <o>  : "ő"
+<dead_doubleacute> <U>  : "Ű"
+<dead_doubleacute> <u>  : "ű"
+
+##################
+# [END OF RULES] #
+##################

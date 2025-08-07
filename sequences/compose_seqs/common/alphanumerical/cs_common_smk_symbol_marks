@@ -1,0 +1,30 @@
+# Common Compose Sequences | Miscellaneous Combining Diacritics Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing combining diacritical marks for symbols
+# > that can be input with non-alphabetical Latin characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+
+# Miscellaneous Combining Diacritics for Symbols [U+25CC = "◌" (Dotted Circle)]
+#
+# [Main source]: https://en.wikipedia.org/wiki/Combining_Diacritical_Marks_for_Symbols
+#
+<Multi_key> <U25CC> <asciicircum> <underscore>                                  : "⃤"    # Combining enclosing upward pointing triangle
+<Multi_key> <U25CC> <bracketleft> <bracketleft> <bracketright> <bracketright>   : "⃣"    # Combining enclosing keycap
+<Multi_key> <U25CC> <bracketleft> <bracketright>                                : "⃞"    # Combining enclosing square
+<Multi_key> <U25CC> <dead_circumflex> <underscore>                              : "⃤"    # Combining enclosing upward pointing triangle
+<Multi_key> <U25CC> <less> <greater>                                            : "⃟"    # Combining enclosing diamond
+<Multi_key> <U25CC> <notsign>                                                   : "⃧"    # Combining annuity symbol
+<Multi_key> <U25CC> <parenleft> <backslash> <parenright>                        : "⃠"    # Combining enclosing circle backslash
+<Multi_key> <U25CC> <parenleft> <parenleft> <parenright> <parenright>           : "⃢"    # Combining enclosing screen
+<Multi_key> <U25CC> <parenleft> <parenright>                                    : "⃝"    # Combining enclosing circle
+<Multi_key> <U25CC> <parenleft> <slash> <parenright>                            : "⃠"    # Combining enclosing circle backslash
+<Multi_key> <U25CC> <underscore> <asciicircum>                                  : "⃤"    # Combining enclosing upward pointing triangle
+<Multi_key> <U25CC> <underscore> <dead_circumflex>                              : "⃤"    # Combining enclosing upward pointing triangle
+
+##################
+# [END OF RULES] #
+##################

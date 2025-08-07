@@ -1,0 +1,24 @@
+# Common Dead Keys | Circumflex + Circumflex Below Accent Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the circumflex accent
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_circumflex> <space>           : "̂"    # Combining circumflex accent
+<dead_circumflex> <dead_circumflex> : "^"   # Caret
+<dead_circumflex> <less>            : "̭"    # Combining circumflex accent below
+<dead_circumflex> <greater>         : "ˆ"   # Modifier circumflex accent 
+
+
+# Rules from "<dead_belowcircumflex>"
+<dead_circumflex> <minus> <space>   : "̭"    # Combining circumflex accent below
+<dead_circumflex> <minus> <minus>   : "ꞈ"   # Modifier letter low circumflex accent
+<dead_circumflex> <minus> <less>    : "̂"    # Combining circumflex accent
+<dead_circumflex> <minus> <greater> : "＾"   # Full-width circumflex accent
+
+##################
+# [END OF RULES] #
+##################

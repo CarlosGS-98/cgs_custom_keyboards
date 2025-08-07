@@ -1,0 +1,265 @@
+# Common Compose Sequences | Musical Notation Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing non-alphabetical musical symbols
+# > by using "#" (<numbersign>) in conjunction
+# > with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Musical_Symbols_(Unicode_block)
+#
+
+# Miscellaneous Musical Symbols (Non-Alphabetical)
+<Multi_key> <numbersign> <asterisk> <space> : "𝇏"   # Croix
+
+
+# Modern Musical Notation (Beam Control Characters) (Non-Alphabetical)
+<Multi_key> <numbersign> <dollar> <less> <space>                : "𝅳"   # Begin Beam
+<Multi_key> <numbersign> <dollar> <grater> <space>              : "𝅴"   # End Beam
+<Multi_key> <numbersign> <dollar> <minus> <less> <space>        : "𝅷"   # Begin Musical Slur
+<Multi_key> <numbersign> <dollar> <minus> <less> <space>        : "𝅸"   # End Musical Slur
+<Multi_key> <numbersign> <dollar> <parenleft> <space>           : "𝅹"   # Begin Phrase
+<Multi_key> <numbersign> <dollar> <parenright> <less> <space>   : "𝅺"   # End Phrase
+<Multi_key> <numbersign> <dollar> <plus> <less> <space>         : "𝅵"   # Begin Tie
+<Multi_key> <numbersign> <dollar> <plus> <less> <space>         : "𝅶"   # End Tie
+
+
+# Modern Musical Notation (Chord Notation) (Non-Alphabetical)
+<Multi_key> <numbersign> <asciitilde> <Down> <space>                : "𝆄"   # Arpeggiato Down
+<Multi_key> <numbersign> <asciitilde> <2> <Down> <space>            : "𝆲"   # Glissando Down
+<Multi_key> <numbersign> <asciitilde> <2> <Up> <space>              : "𝆱"   # Glissando Up
+<Multi_key> <numbersign> <asciitilde> <asciitilde> <Down> <space>   : "𝆲"   # Glissando Down
+<Multi_key> <numbersign> <asciitilde> <asciitilde> <Up> <space>     : "𝆱"   # Glissando Up
+<Multi_key> <numbersign> <asciitilde> <Up> <space>                  : "𝆃"   # Arpeggiato Up
+<Multi_key> <numbersign> <dead_tilde> <Down> <space>                : "𝆄"   # Arpeggiato Down
+<Multi_key> <numbersign> <dead_tilde> <2> <Down> <space>            : "𝆲"   # Glissando Down
+<Multi_key> <numbersign> <dead_tilde> <2> <Up> <space>              : "𝆱"   # Glissando Up
+<Multi_key> <numbersign> <dead_tilde> <dead_tilde> <Down> <space>   : "𝆲"   # Glissando Down
+<Multi_key> <numbersign> <dead_tilde> <dead_tilde> <Up> <space>     : "𝆱"   # Glissando Up
+<Multi_key> <numbersign> <dead_tilde> <Up> <space>                  : "𝆃"   # Arpeggiato Up
+
+
+# Modern Musical Notation (Combining Accents & Marks) (Non-Alphabetical)
+<Multi_key> <numbersign> <asciicircum> <bar> <masculine> <space>        : "𝆭"   # Combining Snap Pizzicato
+<Multi_key> <numbersign> <asciicircum> <masculine> <space>              : "𝆬"   # Combining Harmonic
+<Multi_key> <numbersign> <asciicircum> <underscore> <space>             : "𝅾"   # Combining Staccatissimo
+<Multi_key> <numbersign> <asciitilde> <Up> <space>                      : "𝆈"   # Combining Smear
+<Multi_key> <numbersign> <bar> <backslash> <space>                      : "𝆇"   # Combining Flip
+<Multi_key> <numbersign> <bar> <minus> <bar> <Down> <space>             : "𝆪"   # Combining Bow Down
+<Multi_key> <numbersign> <bar> <minus> <bar> <Up> <space>               : "𝆫"   # Combining Bow Up
+<Multi_key> <numbersign> <dead_breve> <colon> <Down> <space>            : "𝆊"   # Combining Double Tongue
+<Multi_key> <numbersign> <dead_breve> <period> <3> <Down> <space>       : "𝆋"   # Combining Triple Tongue
+<Multi_key> <numbersign> <dead_breve> <Up> <space>                      : "𝆉"   # Combining Bend
+<Multi_key> <numbersign> <dead_circumflex> <bar> <masculine> <space>    : "𝆭"   # Combining Snap Pizzicato
+<Multi_key> <numbersign> <dead_circumflex> <masculine> <space>          : "𝆬"   # Combining Harmonic
+<Multi_key> <numbersign> <dead_circumflex> <underscore> <space>         : "𝅾"   # Combining Staccatissimo
+<Multi_key> <numbersign> <dead_invertedbreve> <space>                   : "𝆳"   # Musical Fingernails
+<Multi_key> <numbersign> <dead_tilde> <Up> <space>                      : "𝆈"   # Combining Smear
+<Multi_key> <numbersign> <Down> <underscore> <space>                    : "𝅿"   # Combining Marcato
+<Multi_key> <numbersign> <Down> <period> <underscore> <space>           : "𝆀"   # Combining Marcato-Staccato
+<Multi_key> <numbersign> <greater> <period> <underscore> <space>        : "𝆁"   # Combining Musical Accent-Staccato
+<Multi_key> <numbersign> <greater> <underscore> <space>                 : "𝅻"   # Combining Musical Accent
+<Multi_key> <numbersign> <masculine> <plus> <space>                     : "𝆵"   # Damp All
+<Multi_key> <numbersign> <period> <plus> <space>                        : "𝆴"   # Damp
+<Multi_key> <numbersign> <period> <underscore> <space>                  : "𝅼"   # Combining Staccato
+<Multi_key> <numbersign> <underscore> <Down> <space>                    : "𝆆"   # Combining Rip
+<Multi_key> <numbersign> <underscore> <period> <underscore> <space>     : "𝆂"   # Combining Loure
+<Multi_key> <numbersign> <underscore> <underscore> <space>              : "𝅽"   # Combining Tenuto
+<Multi_key> <numbersign> <underscore> <Up> <space>                      : "𝆅"   # Combining Doit
+
+
+# Modern Musical Notation (Combining Note Lengths) (Non-Alphabetical)
+<Multi_key> <numbersign> <dead_circumflex> <1> <slash> <8> <space>          : "𝅮"   # Combining Eighth Note Flag
+<Multi_key> <numbersign> <dead_circumflex> <1> <slash> <1> <6> <space>      : "𝅯"   # Combining Sixteenth Note Flag
+<Multi_key> <numbersign> <dead_circumflex> <1> <slash> <3> <2> <space>      : "𝅰"   # Combining Thirty-Second Note Flag
+<Multi_key> <numbersign> <dead_circumflex> <1> <slash> <6> <4> <space>      : "𝅱"   # Combining Sixty-Fourth Note Flag
+<Multi_key> <numbersign> <dead_circumflex> <1> <slash> <1> <2> <8> <space>  : "𝅲"   # Combining Hundred-Twenty-Eighth Note Flag
+<Multi_key> <numbersign> <dead_circumflex> <periodcentered> <space>         : "𝅭"   # Combining Augmentation Dot
+
+
+# Modern Musical Notation (Combining Stems) (Non-Alphabetical)
+<Multi_key> <numbersign> <dead_circumflex> <bar> <space>            : "𝅥"   # Combining Stem
+<Multi_key> <numbersign> <dead_circumflex> <bar> <slash> <space>    : "𝅦"   # Combining Sprechgesang/Sprechstimme Stem
+<Multi_key> <numbersign> <dead_circumflex> <slash> <bar> <space>    : "𝅦"   # Combining Sprechgesang/Sprechstimme Stem
+
+
+# Modern Musical Notation (Combining Tremoli) (Non-Alphabetical)
+<Multi_key> <numbersign> <dead_circumflex> <dead_tilde> <1> <space> : "𝅪"   # Combining Single Fingered Tremolo
+<Multi_key> <numbersign> <dead_circumflex> <dead_tilde> <2> <space> : "𝅫"   # Combining Double Fingered Tremolo
+<Multi_key> <numbersign> <dead_circumflex> <dead_tilde> <3> <space> : "𝅬"   # Combining Triple Fingered Tremolo
+<Multi_key> <numbersign> <dead_circumflex> <slash> <1> <space>      : "𝅧"   # Combining Single Tremolo
+<Multi_key> <numbersign> <dead_circumflex> <slash> <2> <space>      : "𝅨"   # Combining Double Tremolo
+<Multi_key> <numbersign> <dead_circumflex> <slash> <3> <space>      : "𝅩"   # Combining Triple Tremolo
+
+
+# Modern Musical Notation (Flourishes & Ornaments) (Non-Alphabetical)
+<Multi_key> <numbersign> <dollar> <Left> <space>            : "𝆘"   # Musical Inverted Turn
+<Multi_key> <numbersign> <dollar> <Right> <space>           : "𝆗"   # Musical Turn
+<Multi_key> <numbersign> <dollar> <slash> <Right> <space>   : "𝆙"   # Musical Slashed Turn
+<Multi_key> <numbersign> <dollar> <Up> <space>              : "𝆚"   # Musical Turn Up
+<Multi_key> <numbersign> <masculine> <1> <space>            : "𝆛"   # Ornament Stroke-1
+<Multi_key> <numbersign> <masculine> <2> <space>            : "𝆜"   # Ornament Stroke-2
+<Multi_key> <numbersign> <masculine> <3> <space>            : "𝆝"   # Ornament Stroke-3
+<Multi_key> <numbersign> <masculine> <4> <space>            : "𝆞"   # Ornament Stroke-4
+<Multi_key> <numbersign> <masculine> <5> <space>            : "𝆟"   # Ornament Stroke-5
+<Multi_key> <numbersign> <masculine> <6> <space>            : "𝆠"   # Ornament Stroke-6
+<Multi_key> <numbersign> <masculine> <7> <space>            : "𝆡"   # Ornament Stroke-7
+<Multi_key> <numbersign> <masculine> <8> <space>            : "𝆢"   # Ornament Stroke-8
+<Multi_key> <numbersign> <masculine> <9> <space>            : "𝆣"   # Ornament Stroke-9
+<Multi_key> <numbersign> <masculine> <1> <0> <space>        : "𝆤"   # Ornament Stroke-10
+<Multi_key> <numbersign> <masculine> <1> <1> <space>        : "𝆥"   # Ornament Stroke-11
+
+
+# Modern Musical Notation (Instruments) (Non-Alphabetical)
+<Multi_key> <numbersign> <4> <plus> : "𝄝"   # 4-String Fretboard
+<Multi_key> <numbersign> <6> <plus> : "𝄜"   # 6-String Fretboard
+<Multi_key> <numbersign> <plus> <4> : "𝄝"   # 4-String Fretboard
+<Multi_key> <numbersign> <plus> <6> : "𝄜"   # 6-String Fretboard
+
+
+# Modern Musical Notation (Loudness Marks) (Non-Alphabetical)
+<Multi_key> <numbersign> <greater> <greater> <space>    : "𝆓"   # Decrescendo
+<Multi_key> <numbersign> <less> <less> <space>          : "𝆒"   # Crescendo
+<Multi_key> <numbersign> <slash> <0> <space>            : "𝆩"   # Musical Degree Slash/Niente
+
+
+# Modern Musical Notation (Note Breaks/Rests) (Non-Alphabetical)
+<Multi_key> <numbersign> <apostrophe> <space>                   : "𝄒"    # Breath Mark/Luftpause
+<Multi_key> <numbersign> <at> <1> <space>                       : "𝄻"    # Whole Note Rest
+<Multi_key> <numbersign> <at> <1> <slash> <1> <space>           : "𝄻"    # Whole Note Rest
+<Multi_key> <numbersign> <at> <1> <slash> <2> <space>           : "𝄼"    # Half Note Rest
+<Multi_key> <numbersign> <at> <1> <slash> <4> <space>           : "𝄽"    # Quarter Note Rest
+<Multi_key> <numbersign> <at> <1> <slash> <8> <space>           : "𝄾"    # Eight Note Rest
+<Multi_key> <numbersign> <at> <1> <slash> <1> <6> <space>       : "𝄿"    # Sixteenth Note Rest
+<Multi_key> <numbersign> <at> <1> <slash> <3> <2> <space>       : "𝅀"    # Thirty-Second Rest
+<Multi_key> <numbersign> <at> <1> <slash> <6> <4> <space>       : "𝅁"    # Sixty-Fourth Rest
+<Multi_key> <numbersign> <at> <1> <slash> <1> <2> <8> <space>   : "𝅂"    # One Hundred Twenty-Eighth Rest
+<Multi_key> <numbersign> <bracketright> <bracketleft> <space>   : "𝄺"   # Multiple Rest
+<Multi_key> <numbersign> <minus> <space>                        : "𝄩"   # Multiple Measure Rest
+<Multi_key> <numbersign> <quotedbl> <space>                     : "𝄓"   # Cæsura
+
+
+# Modern Musical Notation (Noteheads) (Non-Alphabetical)
+<Multi_key> <numbersign> <plus> <asciicircum> <underscore> <space>                              : "𝅈"   # White Triangle Notehead
+<Multi_key> <numbersign> <plus> <asciicircum> <underscore> <Down> <space>                       : "𝅎"   # White Down Triangle Notehead
+<Multi_key> <numbersign> <plus> <asciicircum> <underscore> <Left> <space>                       : "𝅊"   # White Left Triangle Notehead
+<Multi_key> <numbersign> <plus> <asciicircum> <underscore> <Right> <space>                      : "𝅌"   # White Right Triangle Notehead
+<Multi_key> <numbersign> <plus> <asciicircum> <underscore> <Up> <space>                         : "𝅐"   # White Up Right Triangle Notehead
+<Multi_key> <numbersign> <plus> <asciicircum> <asterisk> <underscore> <space>                   : "𝅉"   # Black Triangle Notehead
+<Multi_key> <numbersign> <plus> <asciicircum> <asterisk> <underscore> <Down> <space>            : "𝅏"   # Black Down Triangle Notehead
+<Multi_key> <numbersign> <plus> <asciicircum> <asterisk> <underscore> <Left> <space>            : "𝅋"   # Black Left Triangle Notehead
+<Multi_key> <numbersign> <plus> <asciicircum> <asterisk> <underscore> <Right> <space>           : "𝅍"   # Black Right Triangle Notehead
+<Multi_key> <numbersign> <plus> <asciicircum> <asterisk> <underscore> <Up> <space>              : "𝅑"   # Black Up Right Triangle Notehead
+<Multi_key> <numbersign> <plus> <asterisk> <underscore> <space>                                 : "𝅘"   # Black Notehead
+<Multi_key> <numbersign> <plus> <bar> <degree> <underscore> <space>                             : "𝅒"   # White Moon Notehead
+<Multi_key> <numbersign> <plus> <bar> <asterisk> <degree> <underscore> <space>                  : "𝅓"   # Black Moon Notehead
+<Multi_key> <numbersign> <plus> <bracketleft> <bracketright> <space>                            : "𝅚"   # White Cluster Notehead
+<Multi_key> <numbersign> <plus> <bracketleft> <bracketright> <asterisk> <space>                 : "𝅛"   # Black Cluster Notehead
+<Multi_key> <numbersign> <plus> <bracketleft> <bracketright> <underscore> <space>               : "𝅆"   # White Square Notehead
+<Multi_key> <numbersign> <plus> <bracketleft> <asterisk> <bracketright> <underscore> <space>    : "𝅇"   # Black Square Notehead
+<Multi_key> <numbersign> <plus> <minus> <degree> <underscore> <space>                           : "𝅔"   # White Down Round Triangle Notehead
+<Multi_key> <numbersign> <plus> <minus> <asterisk> <degree> <underscore> <space>                : "𝅕"   # Black Down Round Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <underscore> <space>                          : "𝅈"   # White Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <underscore> <Down> <space>                   : "𝅎"   # White Down Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <underscore> <Left> <space>                   : "𝅊"   # White Left Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <underscore> <Right> <space>                  : "𝅌"   # White Right Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <underscore> <Up> <space>                     : "𝅐"   # White Up Right Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <asterisk> <underscore> <space>               : "𝅉"   # Black Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <asterisk> <underscore> <Down> <space>        : "𝅏"   # Black Down Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <asterisk> <underscore> <Left> <space>        : "𝅋"   # Black Left Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <asterisk> <underscore> <Right> <space>       : "𝅍"   # Black Right Triangle Notehead
+<Multi_key> <numbersign> <plus> <dead_circumflex> <asterisk> <underscore> <Up> <space>          : "𝅑"   # Black Up Right Triangle Notehead
+<Multi_key> <numbersign> <plus> <degree> <underscore> <space>                                   : "𝅅"   # Circle-X Notehead
+<Multi_key> <numbersign> <plus> <parenleft> <parenright> <underscore> <space>                   : "𝅖"   # Parenthesis Notehead
+<Multi_key> <numbersign> <plus> <underscore> <space>                                            : "𝅄"   # Plus Notehead
+<Multi_key> <numbersign> <plus> <underscore> <3> <space>                                        : "𝅙"   # Null Notehead
+<Multi_key> <numbersign> <plus> <underscore> <underscore> <space>                               : "𝅗"   # Void Notehead
+
+
+# Modern Musical Notation (Note Length & Symbols) (Non-Alphabetical)
+<Multi_key> <numbersign> <8> <Up> <space>                                           : "𝆕"   # Grace Note
+<Multi_key> <numbersign> <2> <slash> <1> <space>                                    : "𝅜"   # Breve/Double Whole Note            
+<Multi_key> <numbersign> <1> <slash> <1> <space>                                    : "𝅝"   # Whole Note
+<Multi_key> <numbersign> <1> <slash> <2> <space>                                    : "𝅗𝅥"   # Half Note
+<Multi_key> <numbersign> <1> <slash> <4> <space>                                    : "𝅘𝅥"   # Quarter Note
+<Multi_key> <numbersign> <1> <slash> <8> <space>                                    : "𝅘𝅥𝅮"   # Eighth Note
+<Multi_key> <numbersign> <1> <slash> <1> <6> <space>                                : "𝅘𝅥𝅯"   # Sixteenth Note
+<Multi_key> <numbersign> <1> <slash> <3> <2> <space>                                : "𝅘𝅥𝅰"   # Thirty-Second Note
+<Multi_key> <numbersign> <1> <slash> <6> <4> <space>                                : "𝅘𝅥𝅱"   # Sixty-Fourth Note
+<Multi_key> <numbersign> <1> <slash> <1> <2> <8> <space>                            : "𝅘𝅥𝅰"   # Hundred-Twenty-Eighth Note
+<Multi_key> <numbersign> <slash> <8> <Up> <space>                                   : "𝆔"   # Slashed Grace Note
+<Multi_key> <numbersign> <underscore> <1> <slash> <4> <space>                       : "♩"   # Quarter Note (BMP)
+<Multi_key> <numbersign> <underscore> <1> <slash> <8> <space>                       : "♪"   # Eighth Note (BMP)
+<Multi_key> <numbersign> <underscore> <1> <slash> <8> <asterisk> <2> <space>        : "♫"   # Beamed Eight Notes (BMP)
+<Multi_key> <numbersign> <underscore> <1> <slash> <1> <6> <asterisk> <2> <space>    : "♬"   # Beamed Sixteenth Notes (BMP)
+<Multi_key> <numbersign> <asciicircum> <period> <space>                             : "𝄐"   # Fermata Above
+<Multi_key> <numbersign> <dead_circumflex> <period> <space>                         : "𝄐"   # Fermata Above
+<Multi_key> <numbersign> <underscore> <period> <space>                              : "𝄑"   # Fermata Below
+
+
+# Modern Musical Notation (Pedal Marks) (Non-Alphabetical)
+<Multi_key> <numbersign> <asterisk> <masculine> <space>             : "𝆯"   # Pedal Up
+<Multi_key> <numbersign> <masculine> <asterisk> <space>             : "𝆯"   # Pedal Up
+<Multi_key> <numbersign> <minus> <asciicircum> <minus> <space>      : "𝆰"   # Half Pedal
+<Multi_key> <numbersign> <minus> <dead_circumflex> <minus> <space>  : "𝆰"   # Half Pedal
+
+
+# Modern Musical Notation (Repetition Symbols) (Non-Alphabetical)
+<Multi_key> <numbersign> <1> <slash> <space>                : "𝄍"   # Repeated Figure 1
+<Multi_key> <numbersign> <1> <minus> <space>                : "𝄖"  # 1-Line Staff
+<Multi_key> <numbersign> <2> <slash> <space>                : "𝄎"   # Repeated Figure 2
+<Multi_key> <numbersign> <2> <minus> <space>                : "𝄗"  # 2-Line Staff
+<Multi_key> <numbersign> <3> <slash> <space>                : "𝄏"   # Repeated Figure 3
+<Multi_key> <numbersign> <3> <minus> <space>                : "𝄘"  # 3-Line Staff
+<Multi_key> <numbersign> <4> <minus> <space>                : "𝄙"  # 4-Line Staff
+<Multi_key> <numbersign> <5> <minus> <space>                : "𝄚"  # 5-Line Staff
+<Multi_key> <numbersign> <6> <minus> <space>                : "𝄛"  # 6-Line Staff
+<Multi_key> <numbersign> <bar> <asterisk> <colon> <space>   : "𝄆"   # Left Repetition Sign
+<Multi_key> <numbersign> <colon> <bar> <asterisk> <space>   : "𝄇"   # Right Repetition Sign
+<Multi_key> <numbersign> <colon> <space>                    : "𝄈"   # Repetition Sign
+<Multi_key> <numbersign> <slash> <1> <space>                : "𝄍"   # Repeated Figure 1
+<Multi_key> <numbersign> <slash> <2> <space>                : "𝄎"   # Repeated Figure 2
+<Multi_key> <numbersign> <slash> <3> <space>                : "𝄏"   # Repeated Figure 3
+
+
+# Modern Musical Notation (Scores) (Non-Alphabetical)
+<Multi_key> <numbersign> <0> <plus> <space>                 : "𝄌"   # Coda
+<Multi_key> <numbersign> <bar> <minus>                      : "𝄅"   # Short Musical Bar
+<Multi_key> <numbersign> <bar> <space>                      : "𝄀"   # Musical Bar
+<Multi_key> <numbersign> <bar> <2> <space>                  : "𝄁𝄀"   # Double Musical Bar
+<Multi_key> <numbersign> <bar> <asterisk> <bar> <space>     : "𝄃𝄀"   # Initial Musical Bar
+<Multi_key> <numbersign> <bar> <bar> <space>                : "𝄁𝄀"   # Double Musical Bar
+<Multi_key> <numbersign> <bar> <bar> <asterisk> <space>     : "𝄂𝄀"   # Final Musical Bar
+<Multi_key> <numbersign> <bar> <colon> <space>              : "𝄄"   # Dashed Musical Bar
+<Multi_key> <numbersign> <braceleft> <space>                : "𝄔"   # Musical Brace
+<Multi_key> <numbersign> <bracketleft> <space>              : "𝄕"   # Musical Bracket
+<Multi_key> <numbersign> <dollar> <space>                   : "𝄋"   # Segno
+<Multi_key> <numbersign> <minus> <1> <space>                : "𝄖"  # 1-Line Staff
+<Multi_key> <numbersign> <minus> <2> <space>                : "𝄗"  # 2-Line Staff
+<Multi_key> <numbersign> <minus> <3> <space>                : "𝄘"  # 3-Line Staff
+<Multi_key> <numbersign> <minus> <4> <space>                : "𝄙"  # 4-Line Staff
+<Multi_key> <numbersign> <minus> <5> <space>                : "𝄚"  # 5-Line Staff
+<Multi_key> <numbersign> <minus> <6> <space>                : "𝄛"  # 6-Line Staff
+<Multi_key> <numbersign> <plus> <0> <space>                 : "𝄌"   # Coda
+
+
+# Modern Musical Notation (Tones) (Non-Alphabetical)
+<Multi_key> <numbersign> <2> <space>                                    : "𝄪"  # Double Sharp
+<Multi_key> <numbersign> <4> <6> <space>                                : "𝄳"  # Quarter Tone Flat
+<Multi_key> <numbersign> <6> <space>                                    : "♭"  # Flat
+<Multi_key> <numbersign> <6> <2> <space>                                : "𝄫"  # Double Flat
+<Multi_key> <numbersign> <6> <6> <space>                                : "𝄫"  # Double Flat
+<Multi_key> <numbersign> <6> <Up> <space>                               : "𝄬"  # Flat Up
+<Multi_key> <numbersign> <6> <Down> <space>                             : "𝄭"  # Flat Down
+<Multi_key> <numbersign> <bracketleft> <bracketright> <space>           : "♮"  # Natural
+<Multi_key> <numbersign> <bracketleft> <bracketright> <Up> <space>      : "𝄮"  # Natural Up
+<Multi_key> <numbersign> <bracketleft> <bracketright> <Down> <space>    : "𝄯"  # Natural Down
+<Multi_key> <numbersign> <numbersign> <space>                           : "𝄪"  # Double Sharp
+<Multi_key> <numbersign> <space>                                        : "♯"  # Sharp
+<Multi_key> <numbersign> <Up> <space>                                   : "𝄰"  # Sharp Up
+<Multi_key> <numbersign> <Down> <space>                                 : "𝄱"  # Sharp Down
+<Multi_key> <numbersign> <4> <space>                                    : "𝄲"  # Quarter Tone Sharp
+
+##################
+# [END OF RULES] #
+##################

@@ -1,0 +1,79 @@
+# Common Compose Sequences | Halfwidth & Fullwidth Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing non-alphabetical fullwidth characters
+# > by using "$" (<dollar>) in conjunction
+# > with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)
+#
+
+# Fullwidth ASCII + JIS Characters (Non-Alphabetical)
+<Multi_key> <dollar> <space>                            : "　"  # Ideographic space
+<Multi_key> <dollar> <exclam> <space>                   : "！"
+<Multi_key> <dollar> <quotedbl> <space>                 : "＂"
+<Multi_key> <dollar> <numbersign> <space>               : "＃"
+<Multi_key> <dollar> <dollar> <space>                   : "＄"
+<Multi_key> <dollar> <percent> <space>                  : "％"
+<Multi_key> <dollar> <ampersand> <space>                : "＆"
+<Multi_key> <dollar> <apostrophe> <space>               : "＇"
+<Multi_key> <dollar> <parenleft> <space>                : "（"
+<Multi_key> <dollar> <parenright> <space>               : "）"
+<Multi_key> <dollar> <asterisk> <space>                 : "＊"
+<Multi_key> <dollar> <plus> <space>                     : "＋"
+<Multi_key> <dollar> <comma> <space>                    : "，"
+<Multi_key> <dollar> <minus> <space>                    : "－"
+<Multi_key> <dollar> <period> <space>                   : "．"
+<Multi_key> <dollar> <slash> <space>                    : "／"
+<Multi_key> <dollar> <0> <space>                        : "０"
+<Multi_key> <dollar> <1> <space>                        : "１"
+<Multi_key> <dollar> <2> <space>                        : "２"
+<Multi_key> <dollar> <3> <space>                        : "３"
+<Multi_key> <dollar> <4> <space>                        : "４"
+<Multi_key> <dollar> <5> <space>                        : "５"
+<Multi_key> <dollar> <6> <space>                        : "６"
+<Multi_key> <dollar> <7> <space>                        : "７"
+<Multi_key> <dollar> <8> <space>                        : "８"
+<Multi_key> <dollar> <9> <space>                        : "９"
+<Multi_key> <dollar> <colon> <space>                    : "："
+<Multi_key> <dollar> <semicolon> <space>                : "；"
+<Multi_key> <dollar> <less> <space>                     : "＜"
+<Multi_key> <dollar> <equal> <space>                    : "＝"
+<Multi_key> <dollar> <greater> <space>                  : "＞"
+<Multi_key> <dollar> <question> <space>                 : "？"
+<Multi_key> <dollar> <at> <space>                       : "＠"
+<Multi_key> <dollar> <bracketleft> <space>              : "［"
+<Multi_key> <dollar> <backslash> <space>                : "＼"
+<Multi_key> <dollar> <bracketright> <space>             : "］"
+<Multi_key> <dollar> <asciicircum> <space>              : "＾"
+<Multi_key> <dollar> <dead_circumflex> <space>          : "＾"
+<Multi_key> <dollar> <underscore> <space>               : "＿"
+<Multi_key> <dollar> <grave> <space>                    : "｀"
+<Multi_key> <dollar> <dead_grave> <space>               : "｀"
+<Multi_key> <dollar> <braceleft> <space>                : "｛"
+<Multi_key> <dollar> <bar> <space>                      : "｜"
+<Multi_key> <dollar> <braceright> <space>               : "｝"
+<Multi_key> <dollar> <asciitilde> <space>               : "～"
+<Multi_key> <dollar> <dead_tilde> <space>               : "～"
+<Multi_key> <dollar> <parenleft> <2> <space>            : "｟"
+<Multi_key> <dollar> <parenleft> <parenleft> <space>    : "｟"
+<Multi_key> <dollar> <parenright> <2> <space>           : "｠"
+<Multi_key> <dollar> <parenright> <parenright> <space>  : "｠"
+
+
+# Fullwidth ISO-8859-1 Characters + Currency Symbols (Non-Alphabetical)
+<Multi_key> <dollar> <brokenbar> <space>    : "￤"
+<Multi_key> <dollar> <U203B> <bar> <space>  : "￤"
+<Multi_key> <dollar> <cent> <space>         : "￠"
+<Multi_key> <dollar> <dead_macron> <space>  : "￣"
+<Multi_key> <dollar> <Korean_Won> <space>   : "￦"
+<Multi_key> <dollar> <macron> <space>       : "￣"
+<Multi_key> <dollar> <notsign> <space>      : "￢"
+<Multi_key> <dollar> <sterling> <space>     : "￡"
+<Multi_key> <dollar> <WonSign> <space>      : "￦"
+<Multi_key> <dollar> <yen> <space>          : "￥"
+
+##################
+# [END OF RULES] #
+##################

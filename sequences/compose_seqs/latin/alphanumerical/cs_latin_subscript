@@ -1,0 +1,57 @@
+# Latin Alphabet | SMK Subscript Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store additional
+# > Compose rules for typing subscript and underscript characters
+# > using the caron/háček (<dead_caron>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
+#
+
+# Skorpian Underscript Caron (Greek Letters)
+<Multi_key> <dead_caron> <dead_caron> <dead_greek> <i>  : "ͅ"    # Combining Ypogegrammeni
+
+
+# Skorpian Underscript Caron (Latin Letters)
+<Multi_key> <dead_caron> <dead_caron> <r>           : "᷊"
+<Multi_key> <dead_caron> <dead_caron> <w>           : "ᪿ"
+<Multi_key> <dead_caron> <dead_caron> <U21BA> <w>   : "ᫀ"
+
+
+# Skorpian Subscript Caron (Greek Letters)
+<Multi_key> <dead_caron> <dead_greek> <b>   : "ᵦ"
+<Multi_key> <dead_caron> <dead_greek> <g>   : "ᵧ"
+<Multi_key> <dead_caron> <dead_greek> <d>   : "ᵟ"
+<Multi_key> <dead_caron> <dead_greek> <i>   : "ͺ"
+<Multi_key> <dead_caron> <dead_greek> <r>   : "ᵨ"
+<Multi_key> <dead_caron> <dead_greek> <f>   : "ᵩ"
+<Multi_key> <dead_caron> <dead_greek> <j>   : "ᵪ"
+
+
+# Skorpian Subscript Caron (Latin Letters)
+<Multi_key> <dead_caron> <a>            : "ₐ"
+<Multi_key> <dead_caron> <e>            : "ₑ"
+<Multi_key> <dead_caron> <schwa>        : "ₔ"
+<Multi_key> <dead_caron> <U035A> <e>    : "ₔ"
+<Multi_key> <dead_caron> <U01DD>        : "ₔ"   # ǝ (Turned E) + Subscript
+<Multi_key> <dead_caron> <U21BA> <e>    : "ₔ"
+<Multi_key> <dead_caron> <h>            : "ₕ"
+<Multi_key> <dead_caron> <i>            : "ᵢ"
+<Multi_key> <dead_caron> <j>            : "ⱼ"
+<Multi_key> <dead_caron> <k>            : "ₖ"
+<Multi_key> <dead_caron> <l>            : "ₗ"
+<Multi_key> <dead_caron> <m>            : "ₘ"
+<Multi_key> <dead_caron> <n>            : "ₙ"
+<Multi_key> <dead_caron> <o>            : "ₒ"
+<Multi_key> <dead_caron> <p>            : "ₚ"
+<Multi_key> <dead_caron> <r>            : "ᵣ"
+<Multi_key> <dead_caron> <s>            : "ₛ"
+<Multi_key> <dead_caron> <t>            : "ₜ"
+<Multi_key> <dead_caron> <u>            : "ᵤ"
+<Multi_key> <dead_caron> <v>            : "ᵥ"
+<Multi_key> <dead_caron> <x>            : "ₓ"
+
+##################
+# [END OF RULES] #
+##################

@@ -1,0 +1,15 @@
+! layout
+  smk/latin         Skorpian Master Keyboard v16.0 (Latin Alphabet)
+
+! variant
+  qwerty            smk/latin: SMK-Latin (QWERTY)
+  qwerty_pt         smk/latin: SMK-Latin (Portuguese QWERTY)
+  qwerty_us         smk/latin: SMK-Latin (US QWERTY)
+  qwertz            smk/latin: SMK-Latin (QWERTZ)
+  azerty            smk/latin: SMK-Latin (AZERTY)
+  lithuanian_azerty smk/latin: SMK-Latin (ĄŽERTY)
+  dvorak            smk/latin: SMK-Latin (Dvorak)
+  colemak           smk/latin: SMK-Latin (Colemak)
+  jcuken            smk/latin: SMK-Latin (JCUKEN)
+  turkish           smk/latin: SMK-Latin (FGĞIOD)
+  hcesar            smk/latin: SMK-Latin (HCESAR)

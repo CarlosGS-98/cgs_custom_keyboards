@@ -1,0 +1,87 @@
+# Common Compose Sequences | Halfwidth & Fullwidth Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing non-alphabetical fullwidth characters
+# > by using "$" (<dollar>) in conjunction
+# > with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)
+#
+
+# Fullwidth ASCII + JIS Characters (Alphabetical)
+<Multi_key> <dollar> <A> <space>    : "Ａ"
+<Multi_key> <dollar> <a> <space>    : "ａ"
+<Multi_key> <dollar> <B> <space>    : "Ｂ"
+<Multi_key> <dollar> <b> <space>    : "ｂ"
+<Multi_key> <dollar> <C> <space>    : "Ｃ"
+<Multi_key> <dollar> <c> <space>    : "ｃ"
+<Multi_key> <dollar> <D> <space>    : "Ｄ"
+<Multi_key> <dollar> <d> <space>    : "ｄ"
+<Multi_key> <dollar> <E> <space>    : "Ｅ"
+<Multi_key> <dollar> <e> <space>    : "ｅ"
+<Multi_key> <dollar> <F> <space>    : "Ｆ"
+<Multi_key> <dollar> <f> <space>    : "ｆ"
+<Multi_key> <dollar> <G> <space>    : "Ｇ"
+<Multi_key> <dollar> <g> <space>    : "ｇ"
+<Multi_key> <dollar> <H> <space>    : "Ｈ"
+<Multi_key> <dollar> <h> <space>    : "ｈ"
+<Multi_key> <dollar> <I> <space>    : "Ｉ"
+<Multi_key> <dollar> <i> <space>    : "ｉ"
+<Multi_key> <dollar> <J> <space>    : "Ｊ"
+<Multi_key> <dollar> <j> <space>    : "ｊ"
+<Multi_key> <dollar> <K> <space>    : "Ｋ"
+<Multi_key> <dollar> <k> <space>    : "ｋ"
+<Multi_key> <dollar> <L> <space>    : "Ｌ"
+<Multi_key> <dollar> <l> <space>    : "ｌ"
+<Multi_key> <dollar> <M> <space>    : "Ｍ"
+<Multi_key> <dollar> <m> <space>    : "ｍ"
+<Multi_key> <dollar> <N> <space>    : "Ｎ"
+<Multi_key> <dollar> <n> <space>    : "ｎ"
+<Multi_key> <dollar> <O> <space>    : "Ｏ"
+<Multi_key> <dollar> <o> <space>    : "ｏ"
+<Multi_key> <dollar> <P> <space>    : "Ｐ"
+<Multi_key> <dollar> <p> <space>    : "ｐ"
+<Multi_key> <dollar> <Q> <space>    : "Ｑ"
+<Multi_key> <dollar> <q> <space>    : "ｑ"
+<Multi_key> <dollar> <R> <space>    : "Ｒ"
+<Multi_key> <dollar> <r> <space>    : "ｒ"
+<Multi_key> <dollar> <S> <space>    : "Ｓ"
+<Multi_key> <dollar> <s> <space>    : "ｓ"
+<Multi_key> <dollar> <T> <space>    : "Ｔ"
+<Multi_key> <dollar> <t> <space>    : "ｔ"
+<Multi_key> <dollar> <U> <space>    : "Ｕ"
+<Multi_key> <dollar> <u> <space>    : "ｕ"
+<Multi_key> <dollar> <V> <space>    : "Ｖ"
+<Multi_key> <dollar> <v> <space>    : "ｖ"
+<Multi_key> <dollar> <W> <space>    : "Ｗ"
+<Multi_key> <dollar> <w> <space>    : "ｗ"
+<Multi_key> <dollar> <X> <space>    : "Ｘ"
+<Multi_key> <dollar> <x> <space>    : "ｘ"
+<Multi_key> <dollar> <Y> <space>    : "Ｙ"
+<Multi_key> <dollar> <y> <space>    : "ｙ"
+<Multi_key> <dollar> <Z> <space>    : "Ｚ"
+<Multi_key> <dollar> <z> <space>    : "ｚ"
+
+
+# Fullwidth ISO-8859-1 Characters + Currency Symbols (Alphabetical)
+<Multi_key> <dollar> <dead_currency> <bar> <C>      : "￠"
+<Multi_key> <dollar> <dead_currency> <bar> <c>      : "￠"
+<Multi_key> <dollar> <dead_currency> <C> <bar>      : "￠"
+<Multi_key> <dollar> <dead_currency> <c> <bar>      : "￠"
+<Multi_key> <dollar> <dead_currency> <minus> <L>    : "￡"
+<Multi_key> <dollar> <dead_currency> <minus> <l>    : "￡"
+<Multi_key> <dollar> <dead_currency> <L> <minus>    : "￡"
+<Multi_key> <dollar> <dead_currency> <l> <minus>    : "￡"
+<Multi_key> <dollar> <dead_currency> <minus> <W>    : "￦"
+<Multi_key> <dollar> <dead_currency> <minus> <w>    : "￦"
+<Multi_key> <dollar> <dead_currency> <W> <minus>    : "￦"
+<Multi_key> <dollar> <dead_currency> <w> <minus>    : "￦"
+<Multi_key> <dollar> <dead_currency> <equal> <Y>    : "￥"
+<Multi_key> <dollar> <dead_currency> <equal> <y>    : "￥"
+<Multi_key> <dollar> <dead_currency> <Y> <equal>    : "￥"
+<Multi_key> <dollar> <dead_currency> <y> <equal>    : "￥"
+
+##################
+# [END OF RULES] #
+##################

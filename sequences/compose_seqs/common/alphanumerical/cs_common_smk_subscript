@@ -1,0 +1,22 @@
+# Common Compose Sequences | SMK Subscript Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store additional
+# > Compose rules for typing subscript and underscript characters
+# > using the caron/háček (<dead_caron>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
+#
+
+# Skorpian Underscript Caron
+<Multi_key> <dead_caron> <dead_caron> <asciitilde>                                  : "᷂"   # Combining Snake Below + Underscript
+<Multi_key> <dead_caron> <dead_caron> <dead_tilde>                                  : "᷂"   # Combining Snake Below + Underscript
+<Multi_key> <dead_caron> <dead_caron> <U21BB> <less> <asterisk> <minus> <space>     : "⃬"   # ↽ + Underscript
+<Multi_key> <dead_caron> <dead_caron> <U21BB> <less> <minus> <space>                : "⃮"   # ← + Underscript
+<Multi_key> <dead_caron> <dead_caron> <U21BB> <minus> <asterisk> <greater> <space>  : "⃭"   # ⇁ + Underscript
+<Multi_key> <dead_caron> <dead_caron> <U21BB> <minus> <greater> <space>             : "⃯"   # → + Underscript
+
+##################
+# [END OF RULES] #
+##################

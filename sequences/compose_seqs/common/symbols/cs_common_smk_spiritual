@@ -1,0 +1,105 @@
+# Common Compose Sequences | Religious & Spiritual Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing religious and spiritual symbols
+# > that can be input with non-alphabetical characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Religious_and_political_symbols_in_Unicode
+#
+# [NOTE]: All symbols listed here are enclosed inside double angled brackets.
+#
+
+# Armenian Religious Symbols
+<Multi_key> <U232C> <less> <less> <at> <Left> <greater> <greater>   : "֎"  # Left-Facing Arevakhach (Արեւախաչ)
+<Multi_key> <U232C> <less> <less> <at> <Right> <greater> <greater>  : "֍"  # Right-Facing Arevakhach (Արեւախաչ)
+<Multi_key> <U232C> <less> <less> <Left> <at> <greater> <greater>   : "֎"  # Left-Facing Arevakhach (Արեւախաչ)
+<Multi_key> <U232C> <less> <less> <Right> <at> <greater> <greater>  : "֍"  # Right-Facing Arevakhach (Արեւախաչ)
+
+
+# Crosses (Non-Alphabetical)
+<Multi_key> <U232C> <less> <less> <bar> <plus> <greater> <greater>                              : "✝"  # Latin Cross
+<Multi_key> <U232C> <less> <less> <bar> <plus> <asterisk> <greater> <greater>                   : "✞"  # Shadowed White Latin Cross
+<Multi_key> <U232C> <less> <less> <bar> <plus> <asterisk> <asterisk> <greater> <greater>        : "🕆"  # White Latin Cross
+<Multi_key> <U232C> <less> <less> <bar> <plus> <asterisk> <3> <greater> <greater>               : "🕇"  # Heavy Latin Cross
+<Multi_key> <U232C> <less> <less> <bar> <plus> <masculine> <greater> <greater>                  : "🕈"  # Celtic Cross
+<Multi_key> <U232C> <less> <less> <bracketleft> <bar> <plus> <bracketright> <greater> <greater> : "✟"  # Outlined Latin Cross
+<Multi_key> <U232C> <less> <less> <bracketleft> <plus> <bracketright> <greater> <greater>       : "✙"  # Outlined Greek Cross
+<Multi_key> <U232C> <less> <less> <bracketleft> <plus> <bar> <bracketright> <greater> <greater> : "✟"  # Outlined Latin Cross
+<Multi_key> <U232C> <less> <less> <bracketright> <plus> <bracketleft> <greater>                 : "☩"  # Cross Of Jerusalem
+<Multi_key> <U232C> <less> <less> <colon> <plus> <colon> <greater> <greater>                    : "🕂"  # Cross Pommee
+<Multi_key> <U232C> <less> <less> <masculine> <3> <greater> <greater>                           : "♰"  # West Syriac Cross
+<Multi_key> <U232C> <less> <less> <masculine> <4> <greater> <greater>                           : "♱"  # East Syriac Cross
+<Multi_key> <U232C> <less> <less> <masculine> <plus> <greater> <greater>                        : "🕀"  # Circled Cross Pommee
+<Multi_key> <U232C> <less> <less> <minus> <bar> <minus> <greater> <greater>                     : "✛"  # Open-Center Cross
+<Multi_key> <U232C> <less> <less> <minus> <bar> <minus> <asterisk> <greater> <greater>          : "✜"  # Heavy Open-Center Cross
+<Multi_key> <U232C> <less> <less> <parenleft> <colon> <period> <greater> <greater>              : "🕃"  # Notched Left Semicircle
+<Multi_key> <U232C> <less> <less> <parenleft> <plus> <parenright> <greater> <greater>           : "🕀"  # Circled Cross Pommee
+<Multi_key> <U232C> <less> <less> <period> <colon> <parenright> <greater> <greater>             : "🕄"  # Notched Right Semicircle
+<Multi_key> <U232C> <less> <less> <plus> <2> <greater> <greater>                                : "☨"  # Cross Of Lorraine
+<Multi_key> <U232C> <less> <less> <plus> <3> <greater> <greater>                                : "☦︎"  # Orthodox Cross
+<Multi_key> <U232C> <less> <less> <plus> <asterisk> <greater> <greater>                         : "🞡"  # Thin Greek Cross
+<Multi_key> <U232C> <less> <less> <plus> <asterisk> <1> <greater> <greater>                     : "🞡"  # Thin Greek Cross
+<Multi_key> <U232C> <less> <less> <plus> <asterisk> <2> <greater> <greater>                     : "🞢"  # Light Greek Cross
+<Multi_key> <U232C> <less> <less> <plus> <asterisk> <3> <greater> <greater>                     : "🞣"  # Medium Greek Cross
+<Multi_key> <U232C> <less> <less> <plus> <asterisk> <4> <greater> <greater>                     : "🞤"  # Bold Greek Cross
+<Multi_key> <U232C> <less> <less> <plus> <asterisk> <5> <greater> <greater>                     : "🞥"  # Very Bold Greek Cross
+<Multi_key> <U232C> <less> <less> <plus> <asterisk> <6> <greater> <greater>                     : "🞦"  # Very Heavy Greek Cross
+<Multi_key> <U232C> <less> <less> <plus> <asterisk> <7> <greater> <greater>                     : "🞧"  # Extremely Heavy Greek Cross
+<Multi_key> <U232C> <less> <less> <plus> <asterisk> <8> <greater> <greater>                     : "✚"  # Heavy Greek Cross
+<Multi_key> <U232C> <less> <less> <plus> <bar> <masculine> <greater> <greater>                  : "🕈"  # Celtic Cross
+<Multi_key> <U232C> <less> <less> <plus> <masculine> <greater> <greater>                        : "🕀"  # Circled Cross Pommee
+<Multi_key> <U232C> <less> <less> <plus> <parenright> <greater> <greater>                       : "🕁"  # Cross Pommee with Half-Circle Below
+<Multi_key> <U232C> <less> <less> <plus> <plus> <greater> <greater>                             : "☨"  # Cross Of Lorraine
+<Multi_key> <U232C> <less> <less> <plus> <plus> <plus> <greater> <greater>                      : "☦︎"  # Orthodox Cross
+<Multi_key> <U232C> <less> <less> <greater> <bar> <less> <greater> <greater>                    : "✠"  # Maltese Cross
+<Multi_key> <U232C> <less> <less> <greater> <less> <greater> <greater>                          : "✠"  # Maltese Cross
+<Multi_key> <U232C> <less> <less> <plus> <bar> <greater> <greater>                              : "✝"  # Latin Cross
+<Multi_key> <U232C> <less> <less> <plus> <bar> <asterisk> <greater> <greater>                   : "✞"  # Shadowed White Latin Cross
+
+
+# General Religious & Spiritual Symbols & Artifacts (Non-Alphabetical)
+<Multi_key> <U232C> <less> <less> <8> <asterisk> <greater> <greater>                                    : "☸"  # Wheel Of Dharma
+<Multi_key> <U232C> <less> <less> <asterisk> <8> <greater> <greater>                                    : "☸"  # Wheel Of Dharma
+<Multi_key> <U232C> <less> <less> <asterisk> <masculine> <greater> <greater>                            : "📿️"  # Prayer Beads
+<Multi_key> <U232C> <less> <less> <bracketleft> <plus> <bar> <plus> <bracketright> <greater> <greater>  : "🕎︎"  # Menorah with 9 Branches
+<Multi_key> <U232C> <less> <less> <masculine> <asterisk> <greater> <greater>                            : "📿️"  # Prayer Beads
+<Multi_key> <U232C> <less> <less> <parenleft> <asterisk> <greater> <greater>                            : "☪︎"  # Star and Crescent
+<Multi_key> <U232C> <less> <less> <parenleft> <asterisk> <parenright> <greater> <greater>               : "☬"  # Adi Shakti/Khanda (BMP)
+<Multi_key> <U232C> <less> <less> <parenleft> <colon> <parenright> <greater> <greater>                  : "☯︎"  # Ying Yang
+
+
+# Landmarks & Places Of Worship (Non-Alphabetical)
+<Multi_key> <U232C> <less> <less> <asciicircum> <plus> <underscore> <greater> <greater>         : "⛪"  # Church
+<Multi_key> <U232C> <less> <less> <bar> <asterisk> <bar> <greater> <greater>                    : "🕌️"  # Mosque
+<Multi_key> <U232C> <less> <less> <bar> <bracketleft> <bracketright> <bar> <greater> <greater>  : "🕍️"  # Synagogue
+<Multi_key> <U232C> <less> <less> <bar> <minus> <bar> <greater> <greater>                       : "⛩️"  # Torī Gate/Shintō Shrine
+<Multi_key> <U232C> <less> <less> <bracketleft> <bracketright> <greater> <greater>              : "🕋️"  # Al-Kaʿba (ٱلْكَعْبَة)
+<Multi_key> <U232C> <less> <less> <dead_circumflex> <plus> <underscore> <greater> <greater>     : "⛪"  # Church
+
+
+# Religious Star Symbols (Non-Alphabetical)
+<Multi_key> <U232C> <less> <less> <5> <asterisk> <greater> <greater>                            : "⛤"  # Pentagram
+<Multi_key> <U232C> <less> <less> <5> <asterisk> <underscore> <greater> <greater>               : "⛧"  # Inverted Pentagram
+<Multi_key> <U232C> <less> <less> <5> <asterisk> <Left> <greater> <greater>                     : "⛦"  # Left-Handed Pentagram
+<Multi_key> <U232C> <less> <less> <5> <asterisk> <Right> <greater> <greater>                    : "⛥"  # Right-Handed Pentagram
+<Multi_key> <U232C> <less> <less> <6> <asterisk> <greater> <greater>                            : "✡"  # Star Of David
+<Multi_key> <U232C> <less> <less> <9> <asterisk> <greater> <greater>                            : "🟙"  # Baháʼí Star
+<Multi_key> <U232C> <less> <less> <asterisk> <5> <greater> <greater>                            : "⛤"  # Pentagram
+<Multi_key> <U232C> <less> <less> <asterisk> <5> <Left> <greater> <greater>                     : "⛦"  # Left-Handed Pentagram
+<Multi_key> <U232C> <less> <less> <asterisk> <5> <Right> <greater> <greater>                    : "⛥"  # Right-Handed Pentagram
+<Multi_key> <U232C> <less> <less> <asterisk> <6> <greater> <greater>                            : "✡"  # Star Of David
+<Multi_key> <U232C> <less> <less> <asterisk> <9> <greater> <greater>                            : "🟙"  # Baháʼí Star
+
+
+# Soyombo Alphabet Religious Symbols
+<Multi_key> <U232C> <less> <less> <bar> <bar> <bar> <3> <greater> <greater>     : "𑪞"  # Soyombo with Moon, Sun and Triple Flame (Соёмбо/ᠰᠣᠶᠤᠮᠪᠤ)
+<Multi_key> <U232C> <less> <less> <bar> <bar> <bar> <plus> <greater> <greater>  : "𑪟"  # Soyombo with Moon, Sun and Flame (Соёмбо/ᠰᠣᠶᠤᠮᠪᠤ)
+<Multi_key> <U232C> <less> <less> <bar> <bar> <bar> <greater> <greater>         : "𑪠"  # Soyombo (Соёмбо/ᠰᠣᠶᠤᠮᠪᠤ)
+<Multi_key> <U232C> <less> <less> <bar> <3> <greater> <greater>                 : "𑪠"  # Soyombo (Соёмбо/ᠰᠣᠶᠤᠮᠪᠤ)
+
+##################
+# [END OF RULES] #
+##################

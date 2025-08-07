@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <!-- Add these rules to both "base.xml" and "evdev.xml"
+       or, if you prefer, to "~/.config/xkb/rules/evdev.xml" -->
+  <layoutList>
+    <!-- (...) -->
+    <layout>
+      <configItem>
+        <name>smk/latin</name>
+        <!-- Keyboard indicator for Skorpian Master Keyboard (Latin Script) layouts -->
+        <shortDescription><!-- Insert locale name ("es", "fr", "de", "us", etc.) --></shortDescription>
+        <description>Skorpian Master Keyboard v16.0 (Latin Alphabet)</description>
+        <countryList>
+          <iso3166Id><!-- Insert ISO-3166-1 Code --></iso3166Id>
+        </countryList>
+        <languageList>
+          <iso639Id>smk</iso639Id>
+        </languageList>
+      </configItem>
+
+      <variantList>
+        <variant>
+          <configItem>
+            <name>qwerty</name>
+            <description>SMK-Latin (QWERTY)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_pt</name>
+            <description>SMK-Latin (Portuguese QWERTY)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_us</name>
+            <description>SMK-Latin (US QWERTY)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwertz</name>
+            <description>SMK-Latin (QWERTZ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>azerty</name>
+            <description>SMK-Latin (AZERTY)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>lithuanian_azerty</name>
+            <description>SMK-Latin (ĄŽERTY)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <description>SMK-Latin (Dvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>SMK-Latin (Colemak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>jcuken</name>
+            <description>SMK-Latin (JCUKEN)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>turkish</name>
+            <description>SMK-Latin (FGĞIOD)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>hcesar</name>
+            <description>SMK-Latin (HCESAR)</description>
+          </configItem>
+        </variant>
+        <!-- (...) -->
+      </variantList>
+    </layout>
+    <!-- (...) -->
+  </layoutList>
+  <!-- (...) -->
+</xkbConfigRegistry>

@@ -1,0 +1,62 @@
+# Latin Alphabet | Punctuation Marks Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Punctuation
+#
+
+# Dashes
+<U203B> <F> <minus> : "‒"   # Figure dash
+<U203B> <f> <minus> : "‒"   # Figure dash
+<U203B> <minus> <F> : "‒"   # Figure dash
+<U203B> <minus> <f> : "‒"   # Figure dash
+
+
+# Enclosed Latin Letters
+<U203B> <O> <C>                             : "©"   # Copyright symbol
+<U203B> <o> <c>                             : "©"   # Copyright symbol
+<U203B> <O> <U0186>                         : "🄯"   # Copyleft symbol
+<U203B> <o> <U0254>                         : "🄯"   # Copyleft symbol
+<U203B> <O> <P>                             : "℗"   # Sound copyright symbol
+<U203B> <o> <p>                             : "℗"   # Sound copyright symbol
+<U203B> <O> <U2183>                         : "🄯"   # Copyleft symbol
+<U203B> <o> <U2184>                         : "🄯"   # Copyleft symbol
+<U203B> <O> <R>                             : "®"   # Registered trademark symbol
+<U203B> <o> <r>                             : "®"   # Registered trademark symbol
+<U203B> <parenleft> <C> <parenright>        : "©"   # Copyright symbol
+<U203B> <parenleft> <c> <parenright>        : "©"   # Copyright symbol
+<U203B> <parenleft> <U0186> <parenright>    : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <U0254> <parenright>    : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <P> <parenright>        : "℗"   # Sound copyright symbol
+<U203B> <parenleft> <p> <parenright>        : "℗"   # Sound copyright symbol
+<U203B> <parenleft> <U2183> <parenright>    : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <U2184> <parenright>    : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <R> <parenright>        : "®"   # Registered trademark symbol
+<U203B> <parenleft> <r> <parenright>        : "®"   # Registered trademark symbol
+
+
+# Miscellaneous Punctuation
+<U203B> <C> <equal> : "⸿"    # Capitulum
+<U203B> <c> <equal> : "⸿"    # Capitulum
+<U203B> <colon> <X> : "※"   # Reference mark
+<U203B> <colon> <x> : "※"   # Reference mark
+<U203B> <equal> <C> : "⸿"    # Capitulum
+<U203B> <equal> <c> : "⸿"    # Capitulum
+<U203B> <P> <space> : "⹍"    # Paragraphus mark
+<U203B> <p> <space> : "⹍"    # Paragraphus mark
+<U203B> <S> <M>     : "℠"    # Service mark
+<U203B> <s> <m>     : "℠"    # Service mark
+<U203B> <T> <M>     : "™"    # Trademark
+<U203B> <t> <m>     : "™"    # Trademark
+<U203B> <X> <colon> : "※"   # Reference mark
+<U203B> <x> <colon> : "※"   # Reference mark
+
+
+# Parentheses & Brackets
+<U203B> <greater> <C>   : "⸧"   # Right sideways U-Fence
+<U203B> <greater> <c>   : "⸧"   # Right sideways U-Fence
+<U203B> <less> <C>      : "⸦"   # Left sideways U-Fence
+<U203B> <less> <c>      : "⸦"   # Left sideways U-Fence
+
+##################
+# [END OF RULES] #
+##################

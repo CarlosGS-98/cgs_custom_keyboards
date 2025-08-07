@@ -1,0 +1,18 @@
+# Common Compose Sequences | Ideological & Political Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing environmental symbols
+# > that can be input with non-alphabetical characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Religious_and_political_symbols_in_Unicode
+#
+
+# General Political Symbols & Artifacts (Non-Alphabetical)
+<Multi_key> <U232C> <less> <less> <minus> <plus> <greater> <greater>    : "☭"  # Hammer and Sickle
+
+##################
+# [END OF RULES] #
+##################

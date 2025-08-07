@@ -1,0 +1,77 @@
+# Common Dead Keys | IPA Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing phonetic symbols
+# > mainly found in the IPA chart (including some
+# > symbols from extIPA, UPA, etc.)
+# > through non-alphabetical means.
+#
+# [NOTE]: This diacritic will be represented as [U035A]
+# ("͚", Combining Double Ring Below) to serve
+# as a placeholder for this specific dead key.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Phonetic_symbols_in_Unicode
+#
+
+# Basic combinations
+<U035A> <space> : "͚"    # Combining Double Ring Below
+<U035A> <U035A> : "͚"    # Combining Double Ring Below
+
+
+# Rules from "<dead_aboveverticalline>"
+<U035A> <dead_acute> <space>        : "̍"    # Combining vertical line above
+<U035A> <dead_acute> <dead_acute>   : "ˈ"   # Modifier letter vertical line
+<U035A> <dead_acute> <less>         : "̎"    # Combining double vertical line above
+<U035A> <dead_acute> <greater>      : "̎"    # Combining double vertical line above
+
+
+# Rules from "<dead_belowverticalline>"
+<U035A> <dead_grave> <space>        : "̩"    # Combining vertical line below
+<U035A> <dead_grave> <dead_grave>   : "ˌ"   # Modifier letter low vertical line
+<U035A> <dead_grave> <less>         : "͈"    # Combining double vertical line below
+<U035A> <dead_grave> <greater>      : "͈"    # Combining double vertical line below
+
+
+# IPA Sounds (Non-Alphabetical)
+<U035A> <0>             : "ʘ"   # Bilabial click
+<U035A> <bar> <bar>     : "ǁ"   # Lateral click
+<U035A> <bar> <equal>   : "ǂ"   # Palatal click
+<U035A> <bar> <space>   : "ǀ"   # Dental click
+<U035A> <equal> <bar>   : "ǂ"   # Palatal click
+<U035A> <exclam>        : "ǃ"   # Alveolar click
+<U035A> <minus> <minus> : "ʭ"   # Bidental percussive
+<U035A> <question>      : "ʔ"   # Glottal stop
+<U035A> <questiondown>  : "ʕ"   # Voiced pharyngeal fricative
+
+
+# Suprasegmentals (Non-Alphabetical)
+<U035A> <1>                             : "˥"   # Modifier letter extra-high tone bar
+<U035A> <2>                             : "˦"   # Modifier letter high tone bar
+<U035A> <3>                             : "˧"   # Modifier letter mid tone bar
+<U035A> <4>                             : "˨"   # Modifier letter low tone bar
+<U035A> <5>                             : "˩"   # Modifier letter extra-low tone bar
+<U035A> <apostrophe> <less>             : "ʻ"   # Modifier letter turned comma (ʻOkina)
+<U035A> <apostrophe> <greater>          : "ʽ"   # Modifier letter reversed comma
+<U035A> <apostrophe> <space>            : "ʼ"   # Modifier letter apostrophe (Ejective Sound)
+<U035A> <bracketleft> <bracketright>    : "̻"    # Combining square below (Laminal Sound)
+<U035A> <colon>                         : "ː"   # Modifier letter triangular colon (Length)
+<U035A> <dead_circumflex> <colon>       : "˸"   # Modifier letter raised colon
+<U035A> <dead_circumflex> <underscore>  : "͆"    # Combining bridge above
+<U035A> <greater> <space>               : "̙"    # Combining right tack below (Retracted Tongue Root)
+<U035A> <greater> <underscore>          : "˲"   # Modifier letter right arrowhead
+<U035A> <less> <space>                  : "̘"    # Combining left tack below (Advanced Tongue Root)
+<U035A> <less> <underscore>             : "˱"   # Modifier letter left arrowhead
+<U035A> <minus> <space>                 : "̠"    # Combining minus sign below (Retracted Sound)
+<U035A> <notsign>                       : "̚"   # Combining left angle above (No Audible Release)
+<U035A> <period>                        : "ˑ"   # Modifier letter half triangular colon
+<U035A> <plus> <dead_circumflex>        : "̝"    # Combining up tack below (Raised Sound)
+<U035A> <plus> <space>                  : "̟"    # Combining plus sign below (Advanced Sound)
+<U035A> <plus> <underscore>             : "̞"    # Combining down tack below (Lowered Sound)
+<U035A> <quotedbl>                      : "ˮ"   # Modifier letter double quote
+<U035A> <underscore> <dead_circumflex>  : "̪"    # Combining bridge below (Dental Sound)
+<U035A> <underscore> <underscore>       : "̺"    # Combining inverted bridge below (Apical Sound)
+
+##################
+# [END OF RULES] #
+##################

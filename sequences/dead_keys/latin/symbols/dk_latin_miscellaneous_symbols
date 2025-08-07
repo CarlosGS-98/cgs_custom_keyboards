@@ -1,0 +1,51 @@
+# Latin Alphabet | Miscellaneous Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+
+
+# From the "Miscellaneous Technical" Block (Alphabetical)
+<U232C> <A> <C>                         : "⏦"   # AC Current
+<U232C> <a> <c>                         : "⏦"   # AC Current
+<U232C> <asciicircum> <T>               : "⏉"   # Downwards dentistry symbol
+<U232C> <asciicircum> <t>               : "⏉"   # Downwards dentistry symbol
+<U232C> <bar> <X> <greater>             : "⌦"  # Erase to the right
+<U232C> <bar> <x> <greater>             : "⌦"  # Erase to the right
+<U232C> <bracketleft> <O>               : "⎄"   # Compose Key Symbol
+<U232C> <bracketleft> <o>               : "⎄"   # Compose Key Symbol
+<U232C> <dead_circumflex> <T>           : "⏉"   # Downwards dentistry symbol
+<U232C> <dead_circumflex> <t>           : "⏉"   # Downwards dentistry symbol
+<U232C> <dead_longsolidusoverlay> <O>   : "⌀"   # Diameter sign
+<U232C> <dead_longsolidusoverlay> <o>   : "⌀"   # Diameter sign
+<U232C> <E> <N> <T> <E> <R>             : "⏎"   # Enter Symbol
+<U232C> <e> <n> <t> <e> <r>             : "⏎"   # Enter Symbol
+<U232C> <G> <N> <D>                     : "⏚"   # Electrical ground symbol
+<U232C> <g> <n> <d>                     : "⏚"   # Electrical ground symbol
+<U232C> <I> <N> <T> <R> <O>             : "⏎"   # Enter Symbol
+<U232C> <i> <n> <t> <r> <o>             : "⏎"   # Enter Symbol
+<U232C> <less> <X> <bar>                : "⌫"  # Erase to the left
+<U232C> <less> <x> <bar>                : "⌫"  # Erase to the left
+<U232C> <less> <H> <greater>            : "⌂"   # House
+<U232C> <less> <h> <greater>            : "⌂"   # House
+<U232C> <M> <space>                     : "µ"   # Micro Sign
+<U232C> <m> <space>                     : "µ"   # Micro Sign
+<U232C> <M> <H> <O>                     : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <m> <h> <o>                     : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <M> <I> <C> <R> <O>             : "µ"   # Micro Sign
+<U232C> <m> <i> <c> <r> <o>             : "µ"   # Micro Sign
+<U232C> <O> <H> <M>                     : "Ω"   # Ohm Symbol
+<U232C> <o> <h> <m>                     : "Ω"   # Ohm Symbol
+<U232C> <Oslash>                        : "⌀"   # Diameter sign
+<U232C> <oslash>                        : "⌀"   # Diameter sign
+<U232C> <S> <E> <C>                     : "⌔"   # Sector
+<U232C> <s> <e> <c>                     : "⌔"   # Sector
+<U232C> <S> <E> <G>                     : "⌓"   # Segment
+<U232C> <s> <e> <g>                     : "⌓"   # Segment
+<U232C> <T> <asciicircum>               : "⏉"   # Downwards dentistry symbol
+<U232C> <t> <asciicircum>               : "⏉"   # Downwards dentistry symbol
+<U232C> <T> <dead_circumflex>           : "⏉"   # Downwards dentistry symbol
+<U232C> <t> <dead_circumflex>           : "⏉"   # Downwards dentistry symbol
+<U232C> <T> <E> <L>                     : "⌕"   # Telephone recorder
+<U232C> <t> <e> <l>                     : "⌕"   # Telephone recorder
+
+##################
+# [END OF RULES] #
+##################

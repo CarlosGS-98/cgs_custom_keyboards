@@ -1,0 +1,59 @@
+# Latin Alphabet | Diaeresis + Diaeresis Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_diaeresis> <A>    : "Ä"
+<dead_diaeresis> <a>    : "ä"
+<dead_diaeresis> <E>    : "Ë"
+<dead_diaeresis> <e>    : "ë"
+<dead_diaeresis> <H>    : "Ḧ"
+<dead_diaeresis> <h>    : "ḧ"
+<dead_diaeresis> <I>    : "Ï"
+<dead_diaeresis> <i>    : "ï"
+<dead_diaeresis> <O>    : "Ö"
+<dead_diaeresis> <o>    : "ö"
+<dead_diaeresis> <t>    : "ẗ"
+<dead_diaeresis> <U>    : "Ü"
+<dead_diaeresis> <u>    : "ü"
+<dead_diaeresis> <W>    : "Ẅ"
+<dead_diaeresis> <w>    : "ẅ"
+<dead_diaeresis> <X>    : "Ẍ"
+<dead_diaeresis> <x>    : "ẍ"
+<dead_diaeresis> <Y>    : "Ÿ"
+<dead_diaeresis> <y>    : "ÿ"
+
+
+# Basic precomposed letter combinations (Diaeresis Below)
+<dead_diaeresis> <minus> <U>    : "Ṳ"
+<dead_diaeresis> <minus> <u>    : "ṳ"
+
+
+# Other precomposed diaeresis combinations (Unidirectional)
+<dead_diaeresis> <Iacute>           : "Ḯ"
+<dead_diaeresis> <iacute>           : "ḯ"
+<dead_diaeresis> <dead_acute> <I>   : "Ḯ"
+<dead_diaeresis> <dead_acute> <i>   : "ḯ"
+<dead_diaeresis> <Otilde>           : "Ṏ"
+<dead_diaeresis> <otilde>           : "ṏ"
+<dead_diaeresis> <dead_tilde> <O>   : "Ṏ"
+<dead_diaeresis> <dead_tilde> <o>   : "ṏ"
+<dead_diaeresis> <Uacute>           : "Ǘ"
+<dead_diaeresis> <uacute>           : "ǘ"
+<dead_diaeresis> <dead_acute> <U>   : "Ǘ"
+<dead_diaeresis> <dead_acute> <u>   : "ǘ"
+<dead_diaeresis> <Ugrave>           : "Ǜ"
+<dead_diaeresis> <ugrave>           : "ǜ"
+<dead_diaeresis> <dead_grave> <U>   : "Ǜ"
+<dead_diaeresis> <dead_grave> <u>   : "ǜ"
+<dead_diaeresis> <U01D3>            : "Ǚ"   # Ǔ + Diaeresis
+<dead_diaeresis> <U01D4>            : "ǚ"   # ǔ + Diaeresis
+<dead_diaeresis> <dead_caron> <U>   : "Ǚ"
+<dead_diaeresis> <dead_caron> <u>   : "ǚ"
+<dead_diaeresis> <Umacron>          : "Ǖ"
+<dead_diaeresis> <umacron>          : "ǖ"
+<dead_diaeresis> <dead_macron> <U>  : "Ǖ"
+<dead_diaeresis> <dead_macron> <u>  : "ǖ"
+
+##################
+# [END OF RULES] #
+##################

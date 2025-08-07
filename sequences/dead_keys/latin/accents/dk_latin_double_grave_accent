@@ -1,0 +1,20 @@
+# Latin Alphabet | Double Grave Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations 
+<dead_doublegrave> <A>  : "Ȁ"
+<dead_doublegrave> <a>  : "ȁ"
+<dead_doublegrave> <E>  : "Ȅ"
+<dead_doublegrave> <e>  : "ȅ"
+<dead_doublegrave> <I>  : "Ȉ"
+<dead_doublegrave> <i>  : "ȉ"
+<dead_doublegrave> <O>  : "Ȍ"
+<dead_doublegrave> <o>  : "ȍ"
+<dead_doublegrave> <R>  : "Ȑ"
+<dead_doublegrave> <r>  : "ȑ"
+<dead_doublegrave> <U>  : "Ȕ"
+<dead_doublegrave> <u>  : "ȕ"
+
+##################
+# [END OF RULES] #
+##################

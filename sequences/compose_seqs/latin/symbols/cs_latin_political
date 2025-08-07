@@ -1,0 +1,41 @@
+# Latin Alphabet | Ideological & Political Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing environmental symbols
+# > that can be input with alphabetical Latin characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Religious_and_political_symbols_in_Unicode
+#
+
+# General Political Symbols & Artifacts (Alphabetical)
+<Multi_key> <U232C> <less> <less> <C> <C> <C> <P> <greater> <greater>               : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <c> <c> <c> <p> <greater> <greater>               : "☭"  # Hammer and Sickle
+
+<Multi_key> <U232C> <less> <less> <F> <A> <R> <S> <I> <greater> <greater>           : "☫"  # Farsi Symbol/Emblem of Iran
+<Multi_key> <U232C> <less> <less> <f> <a> <r> <s> <i> <greater> <greater>           : "☫"  # Farsi Symbol/Emblem of Iran
+<Multi_key> <U232C> <less> <less> <F> <R> <I> <E> <D> <E> <N> <greater> <greater>   : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <f> <r> <i> <e> <d> <e> <n> <greater> <greater>   : "🕊️"  # Peace Dove
+
+<Multi_key> <U232C> <less> <less> <P> <A> <C> <E> <greater> <greater>               : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <p> <a> <c> <e> <greater> <greater>               : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <P> <A> <I> <X> <greater> <greater>               : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <p> <a> <i> <x> <greater> <greater>               : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <P> <A> <Z> <greater> <greater>                   : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <p> <a> <z> <greater> <greater>                   : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <P> <E> <A> <C> <E> <greater> <greater>           : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <p> <e> <a> <c> <e> <greater> <greater>           : "☮︎"  # Peace Symbol
+
+<Multi_key> <U232C> <less> <less> <S> <S> <S> <R> <greater> <greater>               : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <s> <s> <s> <r> <greater> <greater>               : "☭"  # Hammer and Sickle
+
+<Multi_key> <U232C> <less> <less> <U> <R> <S> <S> <greater> <greater>               : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <u> <r> <s> <s> <greater> <greater>               : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <U> <S> <S> <R> <greater> <greater>               : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <u> <s> <s> <r> <greater> <greater>               : "☭"  # Hammer and Sickle
+
+##################
+# [END OF RULES] #
+##################

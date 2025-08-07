@@ -1,0 +1,32 @@
+# Common Compose Sequences | Regional Tags + Flag Emoji Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store additional
+# > Compose rules for typing regional & language tags
+# > as well as flag emoji with the Compose Key (<Multi_key>).
+#
+# [Main sources]: 
+# - https://en.wikipedia.org/wiki/Regional_indicator_symbol
+# - https://emojipedia.org/es/banderas
+#
+
+# Color & Identity RGI Flags
+#
+# [Main source]: https://emojipedia.org/es/banderas
+#
+<Multi_key> <colon> <asterisk> <greater> <colon>        : "🏴"
+<Multi_key> <colon> <bar> <asterisk> <greater> <colon>  : "🏁"
+<Multi_key> <colon> <bar> <greater> <colon>             : "🚩"
+<Multi_key> <colon> <greater> <colon>                   : "🏳️"
+
+
+# Regional Tags
+#
+# [Main source]: https://en.wikipedia.org/wiki/Tags_(Unicode_block)
+#
+<Multi_key> <period> <backspace> <period>   : "󠁿"    # Cancel tag (Allows finishing an emoji flag/tag sequence)
+<Multi_key> <period> <less> <period>        : "󠁿"    # Cancel tag (Allows finishing an emoji flag/tag sequence)
+
+##################
+# [END OF RULES] #
+##################

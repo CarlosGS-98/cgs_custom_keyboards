@@ -1,0 +1,105 @@
+# Latin Alphabet | Macron Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+#
+# [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
+#
+<dead_macron> <A>                   : "Ā"
+<dead_macron> <a>                   : "ā"
+<dead_macron> <AE>                  : "Ǣ"
+<dead_macron> <ae>                  : "ǣ"
+<dead_macron> <U1DCF> <A> <E>       : "Ǣ"
+<dead_macron> <U1DCF> <a> <e>       : "ǣ"
+<dead_macron> <E>                   : "Ē"
+<dead_macron> <e>                   : "ē"
+<dead_macron> <G>                   : "Ḡ"
+<dead_macron> <g>                   : "ḡ"
+<dead_macron> <I>                   : "Ī"
+<dead_macron> <i>                   : "ī"
+<dead_macron> <O>                   : "Ō"
+<dead_macron> <o>                   : "ō"
+<dead_macron> <U>                   : "Ū"
+<dead_macron> <u>                   : "ū"
+<dead_macron> <Y>                   : "Ȳ"
+<dead_macron> <y>                   : "ȳ"
+
+
+# Basic precomposed letter combinations (Macron Below)
+<dead_macron> <minus> <B>   : "Ḇ"
+<dead_macron> <minus> <b>   : "ḇ"
+<dead_macron> <minus> <D>   : "Ḏ"
+<dead_macron> <minus> <d>   : "ḏ"
+<dead_macron> <minus> <h>   : "ẖ"
+<dead_macron> <minus> <K>   : "Ḵ"
+<dead_macron> <minus> <k>   : "ḵ"
+<dead_macron> <minus> <L>   : "Ḻ"
+<dead_macron> <minus> <l>   : "ḻ"
+<dead_macron> <minus> <N>   : "Ṉ"
+<dead_macron> <minus> <n>   : "ṉ"
+<dead_macron> <minus> <R>   : "Ṟ"
+<dead_macron> <minus> <r>   : "ṟ"
+<dead_macron> <minus> <T>   : "Ṯ"
+<dead_macron> <minus> <t>   : "ṯ"
+<dead_macron> <minus> <Z>   : "Ẕ"
+<dead_macron> <minus> <z>   : "ẕ"
+
+
+# Other precomposed macron combinations (Unidirectional)
+<dead_macron> <Adiaeresis>          : "Ǟ"
+<dead_macron> <adiaeresis>          : "ǟ"
+<dead_macron> <dead_diaeresis> <A>  : "Ǟ"
+<dead_macron> <dead_diaeresis> <a>  : "ǟ"
+<dead_macron> <U0226>               : "Ǡ"    # Ȧ + Macron
+<dead_macron> <U0227>               : "ǡ"    # ȧ + Macron
+<dead_macron> <dead_abovedot> <A>   : "Ǡ"
+<dead_macron> <dead_abovedot> <a>   : "ǡ"
+<dead_macron> <Eacute>              : "Ḗ"
+<dead_macron> <eacute>              : "ḗ"
+<dead_macron> <dead_acute> <E>      : "Ḗ"
+<dead_macron> <dead_acute> <e>      : "ḗ"
+<dead_macron> <Egrave>              : "Ḕ"
+<dead_macron> <egrave>              : "ḕ"
+<dead_macron> <dead_grave> <E>      : "Ḕ"
+<dead_macron> <dead_grave> <e>      : "ḕ"
+<dead_macron> <Lbelowdot>           : "Ḹ"
+<dead_macron> <lbelowdot>           : "ḹ"
+<dead_macron> <dead_belowdot> <L>   : "Ḹ"
+<dead_macron> <dead_belowdot> <l>   : "ḹ"
+<dead_macron> <Oacute>              : "Ṓ"
+<dead_macron> <oacute>              : "ṓ"
+<dead_macron> <dead_acute> <O>      : "Ṓ"
+<dead_macron> <dead_acute> <o>      : "ṓ"
+<dead_macron> <Ograve>              : "Ṑ"
+<dead_macron> <ograve>              : "ṑ"
+<dead_macron> <dead_grave> <O>      : "Ṑ"
+<dead_macron> <dead_grave> <o>      : "ṑ"
+<dead_macron> <Odiaeresis>          : "Ȫ"
+<dead_macron> <odiaeresis>          : "ȫ"
+<dead_macron> <dead_diaeresis> <O>  : "Ȫ"
+<dead_macron> <dead_diaeresis> <o>  : "ȫ"
+<dead_macron> <Otilde>              : "Ȭ"
+<dead_macron> <otilde>              : "ȭ"
+<dead_macron> <dead_tilde> <O>      : "Ȭ"
+<dead_macron> <dead_tilde> <o>      : "ȭ"
+<dead_macron> <U01EA>               : "Ǭ"   # Ǫ + Macron
+<dead_macron> <U01EB>               : "ǭ"   # ǫ + Macron
+<dead_macron> <dead_ogonek> <O>     : "Ǭ"
+<dead_macron> <dead_ogonek> <o>     : "ǭ"
+<dead_macron> <U022E>               : "Ȱ"   # Ȯ + Macron
+<dead_macron> <U022F>               : "ȱ"   # ȯ + Macron
+<dead_macron> <dead_abovedot> <O>   : "Ȱ"
+<dead_macron> <dead_abovedot> <o>   : "ȱ"
+<dead_macron> <U1E5A>               : "Ṝ"   # Ṛ + Macron
+<dead_macron> <U1E5B>               : "ṝ"   # ṛ + Macron
+<dead_macron> <dead_belowdot> <R>   : "Ṝ"
+<dead_macron> <dead_belowdot> <r>   : "ṝ"
+<dead_macron> <Udiaeresis>          : "Ǖ"
+<dead_macron> <udiaeresis>          : "ǖ"
+<dead_macron> <dead_diaeresis> <U>  : "Ǖ"
+<dead_macron> <dead_diaeresis> <u>  : "ǖ"
+
+##################
+# [END OF RULES] #
+##################

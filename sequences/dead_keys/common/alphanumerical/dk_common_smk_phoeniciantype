@@ -1,0 +1,22 @@
+# Common Dead Keys | Phoenician Converter Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the "Phoenician Converter" dead key
+# > to transform alphabetical characters into their
+# > equivalent Phoenician ones (whenever possible)
+# > across multiple writing systems.
+#
+# [NOTE]: This diacritic will be represented as [U10900]
+# ("𐤀", Phoenician ʾĀlep) to better transmit
+# the intention this specific dead key has.
+#
+
+# Basic combinations
+<U10900> <space>    : "𐤀"   # Phoenician ʾĀlep
+<U10900> <U10900>   : "𐤀"   # Phoenician ʾĀlep
+<U10900> <period>   : "𐤟"    # Phoenician word separator
+
+##################
+# [END OF RULES] #
+##################

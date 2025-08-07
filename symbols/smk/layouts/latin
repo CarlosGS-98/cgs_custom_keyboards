@@ -1,0 +1,689 @@
+// Latin Alphabet | XKB Keyboard Symbols
+// [AUTHOR]: Carlos González Sanz
+
+// [NOTE]: These keyboards are partially based upon the
+// default "latin" and "es" symbols in regards to the
+// physical key layout.
+//
+// Put this file on either ~/.config/xkb/symbols
+// or in the same directory as
+// the other system-wide keyboard layouts.
+
+// Default SMK-Latin Keyboard
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    // [NOTE]: Keys are arranged the same way as
+    // in the standard Spanish QWERTY keyboard.
+
+    // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ? Ɂ │ ¿ Ꞌ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ɂ │ ¡ ꞌ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Q   │ W Ⅎ │ E ¤ │ R ɻ │ T Þ │ Y Ꟛ │ U Ů │ I İ │ O Ø │ P Ↄ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ q   │ w ⅎ │ e € │ r ɹ │ t þ │ y ꟛ │ u ů │ i ı │ o ø │ p ↄ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ A Å │ S ẞ │ D Ð │ F   │ G Ƣ │ H Ⱶ │ J ɟ │ K   │ L Ł │ Ñ ◌̌ │ ◌̈ ◌̋ │ Ç ◌̨ ┃      ┃
+    // ┃  Lock  ┃ a å │ s ß │ d ð │ f   │ g ƣ │ h ⱶ │ j ȷ │ k   │ l ł │ ñ ◌̄ │ ◌́ { │ ç } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ Z Ʒ │ X Ƨ │ C ◌̑ │ V ◌̊ │ B ⌬ │ N Ŋ │ М  ͛ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < æ │ z ʒ │ x ƨ │ c ◌̧ │ v ◌̆ │ b ※ │ n ŋ │ m ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Latin (QWERTY)";
+
+    key <TLDE>	{ [  masculine,  ordfeminine,       backslash,              U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [          1,  exclam,            bar,                    U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [          2,  quotedbl,          at,                     dead_greek          ] };
+    key <AE03>	{ [          3,  periodcentered,    numbersign              ] };
+    key <AE04>	{ [          4,  dollar,            dead_tilde              ] };
+    key <AE05>	{ [          5,  percent,           U1DCF                   ] };                        // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [          6,  ampersand,         notsign                 ] };
+    key <AE07>	{ [          7,  slash,             dead_longsolidusoverlay ] };
+    key <AE08>	{ [          8,  parenleft,         U221D,                  U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [          9,  parenright,        U1DFB                   ] };                        // U+1DFB = "Historical Letters" Dead Key
+    key <AE10>	{ [          0,  equal,             U035A,                  U21BA               ] };    // U+035A = "IPA Symbols" Dead Key; U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [ apostrophe,  question,          U0242,                  U0241               ] };    // "'", "?", Lowercase Glottal Stop, Uppercase Glottal Stop 
+    key <AE12>	{ [ exclamdown,  questiondown,      UA78C,                  UA78B               ] };    // "¡", "¿", Lowercase Saltillo, Uppercase Saltillo 
+
+    key <AD01>	{ [          q,  Q                  ] };
+    key <AD02>	{ [          w,  W,                 U214E,                  U2132               ] };    // "w", "W", Lowercase Digamma Inversum, Uppercase Digamma Inversum
+    key <AD03>	{ [          e,  E,                 EuroSign,               dead_currency       ] };
+    key <AD04>	{ [          r,  R,                 U0279,                  U027B               ] };    // "r", "R", "ɹ̛", "ɻ̛"
+    key <AD05>	{ [          t,  T,                 thorn,                  THORN               ] };
+    key <AD06>	{ [          y,  Y,                 UA7DB,                  UA7DA               ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
+    key <AD07>	{ [          u,  U,                 uring,                  Uring               ] };
+    key <AD08>	{ [          i,  I,                 idotless,               Iabovedot           ] };
+    key <AD09>	{ [          o,  O,                 oslash,                 Oslash              ] };
+    key <AD10>	{ [          p,  P,                 U2184,                  U2183               ] };    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
+    key <AD11>	{ [ dead_grave,  dead_circumflex,   bracketleft,            dead_doublegrave    ] };
+    key <AD12>	{ [       plus,  asterisk,          bracketright,           dead_horn           ] };
+
+    key <AC01>	{ [          a,  A,                 aring,                  Aring               ] };
+    key <AC02>	{ [          s,  S,                 ssharp,                 U1E9E               ] };    // U+1E9E = Uppercase Eszett
+    key <AC03>	{ [          d,  D,                 eth,                    ETH                 ] };
+    key <AC04>	{ [          f,  F                  ] };
+    key <AC05>	{ [          g,  G,                 U01A3,                  U01A2               ] };    // "g", "G", Lowercase Gha, Uppercase Gha
+    key <AC06>	{ [          h,  H,                 U2C76,                  U2C75               ] };    // "h", "H", Lowercase Sonus Medius, Uppercase Sonus Medius
+    key <AC07>	{ [          j,  J,                 U0237,                  U025F               ] };    // "j", "J", Lowercase Dotless J, Lowercase Barred Dotless J
+    key <AC08>	{ [          k,  K                  ] };
+    key <AC09>	{ [          l,  L,                 lstroke,                Lstroke             ] };
+    key <AC10>	{ [     ntilde,  Ntilde,            dead_macron,            dead_caron          ] };
+    key <AC11>	{ [ dead_acute,  dead_diaeresis,    braceleft,              dead_doubleacute    ] };
+    key <BKSL>	{ [   ccedilla,  Ccedilla,          braceright,             dead_ogonek         ] };
+
+    key <LSGT>	{ [       less,  greater,           ae,                     AE                  ] };
+    key <AB01>	{ [          z,  Z,                 ezh,                    EZH                 ] };
+    key <AB02>	{ [          x,  X,                 U01A8,                  U01A7               ] };    // "x", "X", Lowercase Tone Two, Uppercase Tone Two
+    key <AB03>	{ [          c,  C,                 dead_cedilla,           dead_invertedbreve  ] };
+    key <AB04>	{ [          v,  V,                 dead_breve,             dead_abovering      ] };
+    key <AB05>	{ [          b,  B,                 U203B,                  U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB06>	{ [          n,  N,                 eng,                    ENG                 ] };
+    key <AB07>	{ [          m,  M,                 U0359,                  U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AB08>	{ [      comma,  semicolon,         dead_belowcomma         ] };
+    key <AB09>	{ [     period,  colon,             dead_abovedot,          dead_belowdot       ] };
+    key <AB10>	{ [      minus,  underscore,        dead_stroke,            dead_hook           ] };
+
+    key <SPCE>  { [      space,  space,             nobreakspace            ] };
+
+    // Default modifiers
+    include "level3(ralt_switch)"
+    include "compose(rctrl-altgr)"  // As a middle ground (feel free to change this line if you want or need to)
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty" {
+    include "smk/latin(basic)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_pt" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Portuguese QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ | Ꞌ │ !   │ " ᵅ │ # · │ $   │ %   │ &   │ / ◌̸ │ ( ∝ │ ) ↻ │ = ↺ │ ? Ɂ │ » ¿ ┃ ⌫       ┃
+    // │ \ ꞌ │ 1 𐤟 │ 2 @ │ 3 £ │ 4 § │ 5  ᷏ │ 6 ¬ │ 7 { │ 8 [ │ 9 ] │ 0 } │ ' ɂ │ « ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Q   │ W Ⅎ │ E ¤ │ R ɻ │ T Þ │ Y Ꟛ │ U Ů │ I İ │ O Ø │ P Ↄ │ * ◌ │ ◌̀ ◌̏ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ q   │ w ⅎ │ e € │ r ɹ │ t þ │ y ꟛ │ u ů │ i ı │ o ø │ p ↄ │ + ◌̈ │ ◌́ ◌̋ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ A Å │ S ẞ │ D Ð │ F   │ G Ƣ │ H Ⱶ │ J ɟ │ K   │ L Ł │ Ç ◌̌ │ ª  ͚ │ ◌̂ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ a å │ s ß │ d ð │ f   │ g ƣ │ h ⱶ │ j ȷ │ k   │ l ł │ ç ◌̄ │ º  ᷘ │ ◌̃ ◌̛ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ Z Ʒ │ X Ƨ │ C ◌̑ │ V ◌̊ │ B ⌬ │ N Ŋ │ М  ͛ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < æ │ z ʒ │ x ƨ │ c ◌̧ │ v ◌̆ │ b ※ │ n ŋ │ m ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(basic)"
+
+    key <TLDE>	{ [     backslash,  bar,               UA78C,                  UA78B                   ] };     // "\", "|", Lowercase Saltillo, Uppercase Saltillo 
+    key <AE01>	{ [             1,  exclam,            U10900                  ] };                             // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE03>	{ [             3,  numbersign,        sterling,               periodcentered          ] };
+    key <AE04>	{ [             4,  dollar,            section                 ] };
+    key <AE07>	{ [             7,  slash,             braceleft,              dead_longsolidusoverlay ] };
+    key <AE08>	{ [             8,  parenleft,         bracketleft,            U221D                   ] };     // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [             9,  parenright,        bracketright,           U21BB                   ] };     // U+21BB = "Arrows" Dead Key
+    key <AE10>	{ [             0,  equal,             braceright,             U21BA                   ] };     // U+21BA = "Letter Flip" Dead Key
+    key <AE12>	{ [ guillemetleft,  guillemetright,    exclamdown,             questiondown            ] };
+
+    key <AD11>	{ [          plus,  asterisk,          dead_diaeresis,         U25CC                   ] };     // U+25CC = Dotted Circle
+    key <AD12>	{ [    dead_acute,  dead_grave,        dead_doubleacute,       dead_doublegrave        ] };
+
+    key <AC10>	{ [      ccedilla,  Ccedilla,          dead_macron,            dead_caron              ] };
+    key <AC11>	{ [     masculine,  ordfeminine,       U1DCF,                  U035A                   ] };     // U+1DCF = "Letter Fusion" Dead Key; U+035A = "IPA Symbols" Dead Key 
+    key <BKSL>	{ [    dead_tilde,  dead_circumflex,   dead_horn,              dead_ogonek             ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_us" {
+    // [NOTE]: This layout is based off a mixture between
+    // the American QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌̃ ◌ │ !   │ @   │ #   │ $   │ %   │ ◌̂   │ &   │ * ↻ │ (   │ ) ↺ │ _ ◌̄ │ + ¿ ┃ ⌫       ┃
+    // │ ◌̀ ◌̏ │ 1 𐤟 │ 2 ᵅ │ 3 · │ 4 ¤ │ 5  ᷏ │ 6 ¬ │ 7   │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ - ◌̵ │ = ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Q   │ W Ⅎ │ E Ə │ R ɻ │ T Þ │ Y Ꟛ │ U Ů │ I İ │ O Ø │ P Ↄ │ { Ɂ │ } Ꞌ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ q   │ w ⅎ │ e ǝ │ r ɹ │ t þ │ y ꟛ │ u ů │ i ı │ o ø │ p ↄ │ [ ɂ │ ] ꞌ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ A Å │ S ẞ │ D Ð │ F   │ G Ƣ │ H Ⱶ │ J ɟ │ K   │ L Ł │ : ◌̌ │ " ◌̋ │ | ◌̛ ┃      ┃
+    // ┃  Lock  ┃ a å │ s ß │ d ð │ f   │ g ƣ │ h ⱶ │ j ȷ │ k   │ l ł │ ; ◌̈ │ ' ◌́ │ \ ◌̨ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ | Æ │ Z Ʒ │ X Ƨ │ C ◌̑ │ V ◌̊ │ B ⌬ │ N Ŋ │ М  ͛ │ <   │ > ◌̣ │ ? ◌̉ ┃              ┃
+    // ┃Shift ┃ \ æ │ z ʒ │ x ƨ │ c ◌̧ │ v ◌̆ │ b ※ │ n ŋ │ m ◌̡̢ │ , ◌̦ │ . ◌̇ │ / ◌̸ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(basic)"
+
+    name[Group1]= "SMK-Latin (US QWERTY)";
+
+    key <TLDE>	{ [   dead_grave,  dead_tilde,        dead_doublegrave,         U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [            1,  exclam,            U10900                    ] };                        // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [            2,  at,                dead_greek                ] };
+    key <AE03>	{ [            3,  numbersign,        periodcentered            ] };
+    key <AE04>	{ [            4,  dollar,            dead_currency             ] };
+    key <AE05>	{ [            5,  percent,           U1DCF                     ] };                        // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [            6,  dead_circumflex,   notsign                   ] };
+    key <AE07>	{ [            7,  ampersand          ] };
+    key <AE08>	{ [            8,  asterisk,          U221D,                    U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [            9,  parenleft,         U1DFB                     ] };                        // U+1DFB = "Historical Letters" Dead Key
+    key <AE10>	{ [            0,  parenright,        U035A,                    U21BA               ] };    // U+035A = "IPA Symbols" Dead Key; U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [        minus,  underscore,        dead_stroke,              dead_macron         ] };
+    key <AE12>	{ [        equal,  plus,              exclamdown,               questiondown        ] };
+
+    key <AD03>	{ [            e,  E,                 schwa,                    SCHWA               ] };
+    key <AD11>	{ [  bracketleft,  braceleft,         U0242,                    U0241               ] };    // "[", "{", Lowercase Glottal Stop, Uppercase Glottal Stop 
+    key <AD12>	{ [ bracketright,  braceright,        UA78C,                    UA78B               ] };    // "]", "}", Lowercase Saltillo, Uppercase Saltillo
+
+    key <AC10>	{ [    semicolon,  colon,             dead_diaeresis,           dead_caron          ] };
+    key <AC11>	{ [   apostrophe,  quotedbl,          dead_acute,               dead_doubleacute    ] };
+    key <BKSL>	{ [    backslash,  bar,               dead_ogonek,              dead_horn           ] };
+
+    key <LSGT>	{ [    backslash,  bar,               ae,                       AE                  ] };
+    key <AB08>	{ [        comma,  less,              dead_belowcomma           ] };
+    key <AB09>	{ [       period,  greater,           dead_abovedot,            dead_belowdot       ] };
+    key <AB10>	{ [       minus,   underscore,        dead_longsolidusoverlay,  dead_hook           ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwertz" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Austrian-German QWERTZ keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ §   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ? Ɂ │ ¿ Ꞌ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 ² │ 3 ³ │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ · ɂ │ ¡ ꞌ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Q   │ W Ⅎ │ E ¤ │ R ɻ │ T Þ │ Z Ʒ │ U Ü │ I İ │ O Ö │ P Ↄ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ q @ │ w ⅎ │ e € │ r ɹ │ t þ │ z ʒ │ u ü │ i ı │ o ö │ p ↄ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ A Ä │ S ẞ │ D Ð │ F   │ G Ƣ │ H Ⱶ │ J ɟ │ K   │ L Ł │ Ø ◌̌ │ ◌̈ ◌̋ │ ' ◌̨ ┃      ┃
+    // ┃  Lock  ┃ a ä │ s ß │ d ð │ f   │ g ƣ │ h ⱶ │ j ȷ │ k   │ l ł │ ø ◌̄ │ ◌́ { │ # } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ Y Ꟛ │ X Ƨ │ C ◌̑ │ V ◌̊ │ B ⌬ │ N Ŋ │ М  ͛ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < æ │ y ꟛ │ x ƨ │ c ◌̧ │ v ◌̆ │ b ※ │ n ŋ │ m ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(basic)"
+
+    name[Group1]= "SMK-Latin (QWERTZ)";
+
+    key <AE02>	{ [              2, quotedbl,   twosuperior,    dead_greek  ] };
+    key <AE03>	{ [              3, section,    threesuperior   ] };
+    key <AE11>	{ [ periodcentered, question,   U0242,          U0241       ] };    // "'", "?", Lowercase Glottal Stop, Uppercase Glottal Stop 
+
+    key <AD01>	{ [              q, Q,          at                          ] };
+    key <AD06>	{ [              z, Z,          ezh,            EZH         ] };
+    key <AD07>	{ [              u, U,          udiaeresis,     Udiaeresis  ] };
+    key <AD09>	{ [              o, O,          odiaeresis,     Odiaeresis  ] };
+
+    key <AC01>	{ [              a, A,          adiaeresis,     Adiaeresis  ] };
+    key <AC10>	{ [         oslash, Oslash,     dead_macron,    dead_caron  ] };
+    key <BKSL>	{ [     numbersign, apostrophe, braceright,     dead_ogonek ] };
+
+    key <AB01>	{ [              y, Y,          UA7DB,          UA7DA       ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
+};
+
+partial alphanumeric_keys
+xkb_symbols "azerty" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Belgian AZERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ³ ◌ │ 1 𐤟 │ 2   │ 3 · │ 4   │ 5   │ 6   │ 7   │ 8 ↻ │ 9   │ 0 ↺ │ º Ɂ │ _ Ꞌ ┃ ⌫       ┃
+    // │ ² \ │ & | │ ᵅ @ │ " # │ ' ◌̃ │ (  ᷏ │ § ◌̂ │ ¬ ◌̸ │ ! ∝ │  ᷘ { │  ͚ } │ ) ɂ │ - ꞌ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ A Å │ Z Ʒ │ E ¤ │ R ɻ │ T Þ │ Y Ꟛ │ U Ů │ I İ │ O Ø │ P Ↄ │ ◌̨   │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ a å │ z ʒ │ e € │ r ɹ │ t þ │ y ꟛ │ u ů │ i ı │ o ø │ p ↄ │ ◌̈ [ │ $ ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Q   │ S ẞ │ D Ð │ F   │ G Ƣ │ H Ⱶ │ J ɟ │ K   │ L Ł │ M ◌̌ │ %   │ £ ◌̏ ┃      ┃
+    // ┃  Lock  ┃ q   │ s ß │ d ð │ f   │ g ƣ │ h ⱶ │ j ȷ │ k   │ l ł │ m ◌̄ │ ◌́ ◌̋ │ µ ◌̀ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ W Ⅎ │ X Ƨ │ C ◌̑ │ V ◌̊ │ B ⌬ │ N Ŋ │ ?  ͛ │ .   │ / ◌̣ │ + ◌̉ ┃              ┃
+    // ┃Shift ┃ < æ │ w ⅎ │ x ƨ │ c ◌̧ │ v ◌̆ │ b ※ │ n ŋ │ , ◌̡̢ │ ; ◌̦ │ : ◌̇ │ = ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(basic)"
+
+    name[Group1]= "SMK-Latin (AZERTY)";
+
+    key <TLDE>	{ [    twosuperior,  threesuperior,    backslash,               U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [      ampersand,  1,                bar,                     U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [     dead_greek,  2,                at                       ] };
+    key <AE03>	{ [       quotedbl,  3,                numbersign,              periodcentered      ] };
+    key <AE04>	{ [     apostrophe,  4,                dead_tilde               ] };
+    key <AE05>	{ [      parenleft,  5,                U1DCF                    ] };                        // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [        section,  6,                dead_circumflex          ] };
+    key <AE07>	{ [        notsign,  7,                dead_longsolidusoverlay  ] };
+    key <AE08>	{ [         exclam,  8,                U221D,                   U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [          U1DFB,  9,                braceleft                ] };                        // U+1DFB = "Historical Letters" Dead Key
+    key <AE10>	{ [          U035A,  0,                braceright,              U21BA               ] };    // U+035A = "IPA Symbols" Dead Key; U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [     parenright,  masculine,        U0242,                   U0241               ] };    // ")", "º", Lowercase Glottal Stop, Uppercase Glottal Stop 
+    key <AE12>	{ [          minus,  underscore,       UA78C,                   UA78B               ] };    // "-", "_", Lowercase Saltillo, Uppercase Saltillo 
+
+    key <AD01>	{ [              a,  A,                aring,                   Aring               ] };
+    key <AD02>	{ [              z,  Z,                ezh,                     EZH                 ] };
+    key <AD11>	{ [ dead_diaeresis,  dead_ogonek,      bracketleft              ] };
+    key <AD12>	{ [         dollar,  asterisk,         bracketright,            dead_horn           ] };
+
+    key <AC01>	{ [              q,  Q                 ] };
+    key <AC10>	{ [              m,  M,                dead_macron,             dead_caron          ] };
+    key <AC11>	{ [     dead_acute,  percent,          dead_doubleacute         ] };
+    key <BKSL>	{ [             mu,  sterling,         dead_grave,              dead_doublegrave    ] };
+
+    key <AB01>	{ [             w,   W,                U214E,                   U2132               ] };    // "w", "W", Lowercase Digamma Inversum, Uppercase Digamma Inversum
+    key <AB07>	{ [         comma,   question,         U0359,                   U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AB08>	{ [     semicolon,   period,           dead_belowcomma          ] };
+    key <AB09>	{ [         colon,   slash,            dead_abovedot,           dead_belowdot       ] };
+    key <AB10>	{ [         equal,   plus,             dead_stroke,             dead_hook           ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "lithuanian_azerty" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Lithuanian ĄŽERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌̃ ◌ │ 1 𐤟 │ 2 ᵅ │ 3 ◌̸ │ 4 · │ 5 § │ 6 ¬ │ 7  ᷘ │ 8 ↻ │ 9  ͚ │ 0 ↺ │ + " │ X   ┃ ⌫       ┃
+    // │ ◌̀ ◌́ │ ! @ │ - _ │ / # │ ; $ │ :  ᷏ │ , ◌̂ │ . & │ = ∝ │ ( [ │ ) ] │ ? ' │ x % ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ą Æ │ Ž Ƨ │ E ¤ │ R ɻ │ T Þ │ Y Ꟛ │ U Ų │ I Į │ O Ø │ P Ↄ │ ◌̨   │ W Ⅎ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ą æ │ ž ƨ │ e € │ r ɹ │ t þ │ y ꟛ │ u ų │ i į │ o ø │ p ↄ │ ◌̈ ◌̛ │ w ⅎ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ A Å │ S ẞ │ D Ð │ Š Ɂ │ G Ƣ │ H Ⱶ │ J ɟ │ K   │ L Ł │ Ę ◌̌ │ Ė ◌̏ │ Q   ┃      ┃
+    // ┃  Lock  ┃ a å │ s ß │ d ð │ š ɂ │ g ƣ │ h ⱶ │ j ȷ │ k   │ l ł │ ę ◌̄ │ ė ◌̋ │ q | ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ◌̵ │ Z Ʒ │ Ū Ꞌ │ C ◌̑ │ V ◌̊ │ B ⌬ │ N Ŋ │ М  ͛ │ Č   │ F ◌̣ │ \ ◌̉ ┃              ┃
+    // ┃Shift ┃ < - │ z ʒ │ ū ꞌ │ c ◌̧ │ v ◌̆ │ b ※ │ n ŋ │ m ◌̡̢ │ č ◌̦ │ f ◌̇ │ { } ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(basic)"
+
+    name[Group1]= "SMK-Latin (ĄŽERTY)";
+
+    key <TLDE>	{ [     dead_grave,  dead_tilde,    dead_acute,         U25CC                   ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [         exclam,  1,             at                  ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [          minus,  2,             underscore,         dead_greek              ] };
+    key <AE03>	{ [          slash,  3,             numbersign,         dead_longsolidusoverlay ] };
+    key <AE04>	{ [      semicolon,  4,             dollar,             periodcentered          ] };
+    key <AE05>	{ [          colon,  5,             U1DCF,              section                 ] };    // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [          comma,  6,             dead_circumflex,    notsign                 ] };
+    key <AE07>	{ [         period,  7,             ampersand,          U1DFB                   ] };    // U+1DFB = "Historical Letters" Dead Key
+    key <AE08>	{ [          equal,  8,             U221D,              U21BB                   ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [      parenleft,  9,             bracketleft,        U035A                   ] };    // U+035A = "IPA Symbols" Dead Key
+    key <AE10>	{ [     parenright,  0,             bracketright,       U21BA                   ] };    // U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [       question,  plus,          apostrophe,         quotedbl                ] };
+    key <AE12>	{ [              x,  X,             percent             ] };
+
+    key <AD01>	{ [        aogonek,  Aogonek,       ae,                 AE                      ] };
+    key <AD02>	{ [         zcaron,  Zcaron,        U01A8,              U01A7                   ] };    // "x", "X", Lowercase Tone Two, Uppercase Tone Two
+    key <AD07>	{ [              u,  U,             uogonek,            Uogonek                 ] };
+    key <AD08>	{ [              i,  I,             iogonek,            Iogonek                 ] };
+    key <AD11>	{ [ dead_diaeresis,  dead_ogonek,   dead_horn           ] };
+    key <AD12>	{ [              w,  W,             U214E,              U2132                   ] };    // "w", "W", Lowercase Digamma Inversum, Uppercase Digamma Inversum
+
+    key <AC04>	{ [         scaron,  Scaron,        U0242,              U0241                   ] };    // "š", "Š", Lowercase Glottal Stop, Uppercase Glottal Stop
+    key <AC10>	{ [        eogonek,  Eogonek,       dead_macron,        dead_caron              ] };
+    key <AC11>	{ [      eabovedot,  Eabovedot,     dead_doubleacute,   dead_doublegrave        ] };
+    key <BKSL>	{ [              q,  Q,             bar                 ] };
+
+    key <LSGT>	{ [           less,  greater,       endash,             dead_stroke             ] };
+    key <AB02>	{ [        umacron,  Umacron,       UA78C,              UA78B                   ] };    // "ū", "Ū", Lowercase Saltillo, Uppercase Saltillo
+    key <AB08>	{ [         ccaron,  Ccaron,        dead_belowcomma     ] };
+    key <AB09>	{ [              f,  F,             dead_abovedot,      dead_belowdot           ] };
+    key <AB10>	{ [     braceleft,   backslash,     braceright,         dead_hook               ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Dvorak keyboard.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $ ¤ │ % € │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ? Ɂ │ ¿ Ꞌ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ɂ │ ¡ ꞌ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ : ◌̣ │ ;   │ Ñ ◌̌ │ P Ↄ │ Y Ꟛ │ F   │ G Ƣ │ C ◌̑ │ H Ⱶ │ L Ł │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ . ◌̇ │ , ◌̦ │ ñ ◌̄ │ p ↄ │ y ꟛ │ f   │ g ƣ │ c ◌̧ │ h ⱶ │ l ł │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ A Å │ O Ø │ E Ə │ U Ů │ I İ │ D Ð │ R ɻ │ T Þ │ N Ŋ │ S ẞ │ ◌̈ ◌̋ │ Ç ◌̨ ┃      ┃
+    // ┃  Lock  ┃ a å │ o ø │ e ə │ u ů │ i ı │ d ð │ r ɹ │ t þ │ n ŋ │ s ß │ ◌́ { │ ç } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ _ ◌̉ │ Q   │ J ɟ │ K   │ X Ƨ │ B ⌬ │ М  ͛ │ W Ⅎ │ V ◌̊ │ Z Ʒ ┃              ┃
+    // ┃Shift ┃ < æ │ - ◌̵ │ q   │ j ȷ │ k   │ x ƨ │ b ※ │ m ◌̡̢ │ w ⅎ │ v ◌̆ │ z ʒ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(basic)"
+
+    name[Group1]= "SMK-Latin (Dvorak)";
+
+    key <AE04>	{ [          4,  dollar,            dead_tilde,         dead_currency       ] };
+    key <AE05>	{ [          5,  percent,           U1DCF,              EuroSign            ] };    // U+1DCF = "Letter Fusion" Dead Key
+
+    key <AD01>	{ [     period,  colon,             dead_abovedot,      dead_belowdot       ] };
+    key <AD02>	{ [      comma,  semicolon,         dead_belowcomma     ] };
+    key <AD03>	{ [     ntilde,  Ntilde,            dead_macron,        dead_caron          ] };
+    key <AD04>	{ [          p,  P,                 U2184,              U2183               ] };    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
+    key <AD05>	{ [          y,  Y,                 UA7DB,              UA7DA               ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
+    key <AD06>	{ [          f,  F                  ] };
+    key <AD07>	{ [          g,  G,                 U01A3,              U01A2               ] };    // "g", "G", Lowercase Gha, Uppercase Gha
+    key <AD08>	{ [          c,  C,                 dead_cedilla,       dead_invertedbreve  ] };
+    key <AD09>	{ [          h,  H,                 U2C76,              U2C75               ] };    // "h", "H", Lowercase Sonus Medius, Uppercase Sonus Medius
+    key <AD10>	{ [          l,  L,                 lstroke,            Lstroke             ] };
+	
+    key <AC02>	{ [          o,  O,                 oslash,             Oslash              ] };
+    key <AC03>	{ [          e,  E,                 schwa,              SCHWA               ] };
+    key <AC04>	{ [          u,  U,                 uring,              Uring               ] };
+    key <AC05>	{ [          i,  I,                 idotless,           Iabovedot           ] };
+    key <AC06>	{ [          d,  D,                 eth,                ETH                 ] };
+    key <AC07>	{ [          r,  R,                 U0279,              U027B               ] };    // "r", "R", "ɹ̛", "ɻ̛"
+    key <AC08>	{ [          t,  T,                 thorn,              THORN               ] };
+    key <AC09>	{ [          n,  N,                 eng,                ENG                 ] };
+    key <AC10>	{ [          s,  S,                 ssharp,             U1E9E               ] };    // U+1E9E = Uppercase Eszett
+
+    key <AB01>	{ [      minus,  underscore,        dead_stroke,        dead_hook           ] };
+    key <AB02>	{ [          q,  Q                  ] };
+    key <AB03>	{ [          j,  J,                 U0237,              U025F               ] };    // "j", "J", Lowercase Dotless J, Lowercase Barred Dotless J
+    key <AB04>	{ [          k,  K                  ] };
+    key <AB05>	{ [          x,  X,                 U01A8,              U01A7               ] };    // "x", "X", Lowercase Tone Two, Uppercase Tone Two
+    key <AB06>	{ [          b,  B,                 U203B,              U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB08>	{ [          w,  W,                 U214E,              U2132               ] };    // "w", "W", Lowercase Digamma Inversum, Uppercase Digamma Inversum
+    key <AB09>	{ [          v,  V,                 dead_breve,         dead_abovering      ] };
+    key <AB10>	{ [          z,  Z,                 ezh,                EZH                 ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "colemak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Colemak keyboard.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $ ¤ │ % € │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ? Ɂ │ ¿ Ꞌ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ɂ │ ¡ ꞌ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Q   │ W Ⅎ │ F   │ P Ↄ │ G Ƣ │ J ɟ │ L Ł │ U Ů │ Y Ꟛ │ Ñ ◌̌ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ q   │ w ⅎ │ f   │ p ↄ │ g ƣ │ j ȷ │ l ł │ u ů │ y ꟛ │ ñ ◌̄ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ A Å │ R ɻ │ S ẞ │ T Þ │ D Ð │ H Ⱶ │ N Ŋ │ E Ə │ I İ │ O Ø │ ◌̈ ◌̋ │ Ç ◌̨ ┃      ┃
+    // ┃  Lock  ┃ a å │ r ɹ │ s ß │ t þ │ d ð │ h ⱶ │ n ŋ │ e ə │ i ı │ o ø │ ◌́ { │ ç } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ Z Ʒ │ X Ƨ │ C ◌̑ │ V ◌̊ │ B ⌬ │ K   │ М  ͛ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < æ │ z ʒ │ x ƨ │ c ◌̧ │ v ◌̆ │ b ※ │ k   │ m ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(basic)"
+
+    name[Group1]= "SMK-Latin (Colemak)";
+
+    key <AE04>	{ [          4,  dollar,            dead_tilde,         dead_currency       ] };
+    key <AE05>	{ [          5,  percent,           U1DCF,              EuroSign            ] };    // U+1DCF = "Letter Fusion" Dead Key
+
+    key <AD03>	{ [          f,  F                  ] };
+    key <AD04>	{ [          p,  P,                 U2184,              U2183               ] };    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
+    key <AD05>	{ [          g,  G,                 U01A3,              U01A2               ] };    // "g", "G", Lowercase Gha, Uppercase Gha
+    key <AD06>	{ [          j,  J,                 U0237,              U025F               ] };    // "j", "J", Lowercase Dotless J, Lowercase Barred Dotless J
+    key <AD07>	{ [          l,  L,                 lstroke,            Lstroke             ] };
+    key <AD08>	{ [          u,  U,                 uring,              Uring               ] };
+    key <AD09>	{ [          y,  Y,                 UA7DB,              UA7DA               ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
+    key <AD10>	{ [     ntilde,  Ntilde,            dead_macron,        dead_caron          ] };
+
+    key <AC02>	{ [          r,  R,                 U0279,              U027B               ] };    // "r", "R", "ɹ̛", "ɻ̛"
+    key <AC03>	{ [          s,  S,                 ssharp,             U1E9E               ] };    // U+1E9E = Uppercase Eszett
+    key <AC04>	{ [          t,  T,                 thorn,              THORN               ] };
+    key <AC05>	{ [          d,  D,                 eth,                ETH                 ] };
+    key <AC06>	{ [          h,  H,                 U2C76,              U2C75               ] };    // "h", "H", Lowercase Sonus Medius, Uppercase Sonus Medius
+    key <AC07>	{ [          n,  N,                 eng,                ENG                 ] };
+    key <AC08>	{ [          e,  E,                 schwa,              SCHWA               ] };
+    key <AC09>	{ [          i,  I,                 idotless,           Iabovedot           ] };
+    key <AC10>	{ [          o,  O,                 oslash,             Oslash              ] };
+
+    key <AB06>	{ [          k,  K                  ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "jcuken" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Russian ЙЦУКЕН keyboard (its approximate Latin-based form)
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ?   │ ¿   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ '   │ ¡   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ J ɟ │ C Č │ U Ů │ K   │ E ¤ │ N Ŋ │ G Ƣ │ Z Ž │ X Ƨ │ Ɂ Ꞌ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ j ȷ │ c č │ u ů │ k   │ e € │ n ŋ │ g ƣ │ z ž │ x ƨ │ ɂ ꞌ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ F   │ I İ │ V ◌̊ │ A Å │ P Ↄ │ R ɻ │ O Ø │ L Ł │ ẞ Ʒ │ Q ◌̌ │ ◌̈ ◌̋ │ Ñ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ f   │ i ı │ v ◌̆ │ a å │ p ↄ │ r ɹ │ o ø │ l ł │ ß ʒ │ q ◌̄ │ ◌́ { │ ñ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ Y Ꟛ │ Ç ◌̑ │ S Š │ М  ͛ │ Ɪ Ɩ │ T Þ │ B ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < æ │ y ꟛ │ ç ◌̧ │ s š │ m ◌̡̢ │ ɪ ɩ │ t þ │ b ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(basic)"
+
+    name[Group1]= "SMK-Latin (JCUKEN)";
+
+    key <AE11>	{ [ apostrophe,  question           ] };
+    key <AE12>	{ [ exclamdown,  questiondown       ] };
+
+    key <AD01>	{ [          j,  J,                 U0237,                  U025F               ] };    // "j", "J", Lowercase Dotless J, Lowercase Barred Dotless J
+    key <AD02>	{ [          c,  C,                 ccaron,                 Ccaron              ] };
+    key <AD03>	{ [          u,  U,                 uring,                  Uring               ] };
+    key <AD04>	{ [          k,  K                  ] };
+    key <AD05>	{ [          e,  E,                 EuroSign,               dead_currency       ] };
+    key <AD06>	{ [          n,  N,                 eng,                    ENG                 ] };
+    key <AD07>	{ [          g,  G,                 U01A3,                  U01A2               ] };    // "g", "G", Lowercase Gha, Uppercase Gha
+    key <AD08>	{ [          z,  Z,                 zcaron,                 Zcaron              ] };
+    key <AD09>	{ [          x,  X,                 U01A8,                  U01A7               ] };    // "x", "X", Lowercase Tone Two, Uppercase Tone Two
+    key <AD10>	{ [     U0242,   U0241,             UA78C,                  UA78B               ] };    // Lowercase Glottal Stop, Uppercase Glottal Stop, Lowercase Saltillo, Uppercase Saltillo 
+
+    key <AC01>	{ [          f,  F                  ] };
+    key <AC02>	{ [          i,  I,                 idotless,               Iabovedot           ] };
+    key <AC03>	{ [          v,  V,                 dead_breve,             dead_abovering      ] };
+    key <AC04>	{ [          a,  A,                 aring,                  Aring               ] };
+    key <AC05>	{ [          p,  P,                 U2184,                  U2183               ] };    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
+    key <AC06>	{ [          r,  R,                 U0279,                  U027B               ] };    // "r", "R", "ɹ̛", "ɻ̛"
+    key <AC07>	{ [          o,  O,                 oslash,                 Oslash              ] };
+    key <AC08>	{ [          l,  L,                 lstroke,                Lstroke             ] };
+    key <AC09>	{ [     ssharp,  U1E9E,             ezh,                    EZH                 ] };    // U+1E9E = Uppercase Eszett
+    key <AC10>	{ [          q,  Q,                 dead_macron,            dead_caron          ] };
+    key <BKSL>	{ [     ntilde,  Ntilde,            braceright,             dead_ogonek         ] };
+
+    key <AB01>	{ [          y,  Y,                 UA7DB,                  UA7DA               ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
+    key <AB02>	{ [   ccedilla,  Ccedilla,          dead_cedilla,           dead_invertedbreve  ] };
+    key <AB03>	{ [          s,  S,                 scaron,                 Scaron              ] };    // U+1E9E = Uppercase Eszett
+    key <AB04>	{ [          m,  M,                 U0359,                  U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AB05>	{ [      U026A,  UA7AE,             U0269,                  U0196               ] };    // Lowercase Smallcaps I, Uppercase Smallcaps I, Lowercase Latin Iota, Uppercase Latin Iota
+    key <AB06>	{ [          t,  T,                 thorn,                  THORN               ] };
+    key <AB07>	{ [          b,  B,                 U203B,                  U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+};
+
+partial alphanumeric_keys
+xkb_symbols "turkish" {
+    // [NOTE]: Keys are arranged the same way as
+    // in the standard Spanish QWERTY keyboard.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ * ◌ │ ! ¡ │ " ᵅ │ ◌̂ ³ │ $ ¤ │ % £ │ & ª │ ' ◌̸ │ ( ↻ │ )  ᷘ │ = ↺ │ ? ¿ │ _ ◌̉ ┃ ⌫       ┃
+    // │ + ¬ │ 1 ¹ │ 2 ² │ 3 # │ 4 ₺ │ 5  ᷏ │ 6 [ │ 7 { │ 8 } │ 9 ] │ 0  ͚ │ / \ │ - ◌̵ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ F º │ G Ƣ │ Ğ Ɂ │ I İ │ O Ø │ D Ð │ R ɻ │ N Ŋ │ H Ⱶ │ P Ↄ │ Q ◌̊ │ W Ⅎ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ f @ │ g ƣ │ ğ ɂ │ ı i │ o ø │ d ð │ r ɹ │ n ŋ │ h ⱶ │ p ↄ │ q ◌̈ │ w ⅎ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ U Ů │ ẞ Ʒ │ E Ə │ A Æ │ Ü Ꞌ │ T Þ │ K ◌̌ │ М  ͛ │ L Ł │ Y Ꟛ │ ◌̀ ◌̏ │ X Ƨ ┃      ┃
+    // ┃  Lock  ┃ u ů │ ß ʒ │ e ə │ a æ │ ü ꞌ │ t þ │ k ◌̄ │ m ◌̡̢ │ l ł │ y ꟛ │ ◌́ ◌̋ │ x ƨ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ¦ │ J ɟ │ Ö Œ │ V ◌̑ │ C Ç │ ◌̃ ◌̛ │ Z   │ S Ş │ B ⌬ │ : ◌̣ │ ; ∝ ┃              ┃
+    // ┃Shift ┃ < | │ j ȷ │ ö œ │ v ◌̆ │ c ç │ ◌̧ ◌̨ │ z   │ s ş │ b ※ │ . ◌̇ │ , ◌̦ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(basic)"
+
+    name[Group1]= "SMK-Latin (FGĞIOD)";
+
+    key <TLDE>	{ [         plus,   asterisk,           notsign,              U25CC                     ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [            1,   exclam,             onesuperior,          exclamdown                ] };
+    key <AE02>	{ [            2,   quotedbl,           twosuperior,          dead_greek                ] };
+    key <AE03>	{ [            3,   dead_circumflex,    numbersign,           threesuperior             ] };
+    key <AE04>	{ [            4,   dollar,             LiraSign,             dead_currency             ] };
+    key <AE05>	{ [            5,   percent,            U1DCF,                sterling                  ] };    // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [            6,   ampersand,          bracketleft,          ordfeminine               ] };
+    key <AE07>	{ [            7,   apostrophe,         braceleft,            dead_longsolidusoverlay   ] };
+    key <AE08>	{ [            8,   parenleft,          braceright,           U21BB                     ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE11>	{ [        slash,   question,           backslash,            questiondown              ] };
+    key <AE12>	{ [        minus,   underscore,         dead_stroke,          dead_hook                 ] };
+
+    key <AD01>	{ [            f,   F,                  at,                   masculine                 ] };
+    key <AD02>	{ [            g,   G,                  U01A3,                U01A2                     ] };    // "g", "G", Lowercase Gha, Uppercase Gha
+    key <AD03>	{ [       gbreve,   Gbreve,             U0242,                U0241                     ] };    // "ğ", "Ğ", Lowercase Glottal Stop, Uppercase Glottal Stop 
+    key <AD04>	{ [     idotless,   I,                  i,                    Iabovedot                 ] };
+    key <AD05>	{ [            o,   O,                  oslash,               Oslash                    ] };
+    key <AD06>	{ [            d,   D,                  eth,                  ETH                       ] };
+    key <AD07>	{ [            r,   R,                  U0279,                U027B                     ] };    // "r", "R", "ɹ̛", "ɻ̛"
+    key <AD08>	{ [            n,   N,                  eng,                  ENG                       ] };
+    key <AD09>	{ [            h,   H,                  U2C76,                U2C75                     ] };    // "h", "H", Lowercase Sonus Medius, Uppercase Sonus Medius
+    key <AD11>	{ [            q,   Q,                  dead_diaeresis,       dead_abovering            ] };
+    key <AD12>	{ [            w,   W,                  U214E,                U2132                     ] };    // "w", "W", Lowercase Digamma Inversum, Uppercase Digamma Inversum
+
+    key <AC01>	{ [            u,   U,                  uring,                Uring                     ] };
+    key <AC02>	{ [       ssharp,   U1E9E,              ezh,                  EZH                       ] };    // U+1E9E = Uppercase Eszett
+    key <AC03>	{ [            e,   E,                  schwa,                SCHWA                     ] };
+    key <AC04>	{ [            a,   A,                  ae,                   AE                        ] };
+    key <AC05>	{ [   udiaeresis,   Udiaeresis,         UA78C,                UA78B                     ] };    // "ü", "Ü", Lowercase Saltillo, Uppercase Saltillo 
+    key <AC06>	{ [            t,   T,                  thorn,                THORN                     ] };
+    key <AC07>	{ [            k,   K,                  dead_macron,          dead_caron                ] };
+    key <AC08>	{ [            m,   M,                  U0359,                U035B                     ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AC10>	{ [            y,   Y,                  UA7DB,                UA7DA                     ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
+    key <AC11>	{ [   dead_acute,   dead_grave,         dead_doubleacute,     dead_doublegrave          ] };
+    key <BKSL>	{ [            x,   X,                  U01A8,                U01A7                     ] };    // "x", "X", Lowercase Tone Two, Uppercase Tone Two
+
+    key <LSGT>	{ [         less,   greater,            bar,                  brokenbar                 ] };
+    key <AB01>	{ [            j,   J,                  U0237,                U025F                     ] };    // "j", "J", Lowercase Dotless J, Lowercase Barred Dotless J
+    key <AB02>	{ [   odiaeresis,   Odiaeresis,         oe,                   OE                        ] };
+    key <AB03>	{ [            v,   V,                  dead_breve,           dead_invertedbreve        ] };
+    key <AB04>	{ [            c,   C,                  ccedilla,             Ccedilla                  ] };
+    key <AB05>	{ [ dead_cedilla,   dead_tilde,         dead_ogonek,          dead_horn                 ] };
+    key <AB06>	{ [            z,   Z                   ] };
+    key <AB07>	{ [            s,   S,                  scedilla,             Scedilla                  ] };
+    key <AB08>	{ [            b,   B,                  U203B,                U232C                     ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB10>	{ [        comma,   semicolon,          dead_belowcomma,      U221D                     ] };    // U+221D = "Logic + Math Symbols" Dead Key
+};
+
+partial alphanumeric_keys
+xkb_symbols "hcesar" {
+    // [NOTE]: This layout is mostly based off
+    // the Portuguese HCESAR keyboard
+    // with some custom rearrangements and additions.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª  ͚ │ !   │ " ᵅ │ # · │ $   │ %   │ &   │ / ◌̸ │ ( ∝ │ ) ↻ │ = ↺ │ ? Ɂ │ » ¿ ┃ ⌫       ┃
+    // │ º  ᷘ │ 1 𐤟 │ 2 @ │ 3 £ │ 4 § │ 5  ᷏ │ 6 ¬ │ 7 { │ 8 [ │ 9 ] │ 0 } │ ' ɂ │ « ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ _ ◌̉ │ H Ⱶ │ C ◌̑ │ E ¤ │ S ẞ │ A Å │ R ɻ │ O Ø │ P Ↄ │ Z Ʒ │ * ◌ │ ◌̀ ◌̏ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ - ◌̵ │ h ⱶ │ c ◌̧ │ e € │ s ß │ a å │ r ɹ │ o ø │ p ↄ │ z ʒ │ + ◌̈ │ ◌́ ◌̋ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ | Ꞌ │ Q   │ T Þ │ D Ð │ I İ │ N Ŋ │ U Ů │ L Ł │ М  ͛ │ X Ƨ │ ; ◌̓ │ ◌̂ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ \ ꞌ │ q   │ t þ │ d ð │ i ı │ n ŋ │ u ů │ l ł │ m ◌̡̢ │ x ƨ │ , ◌̦ │ ◌̃ ◌̛ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ Y Ꟛ │ Ç ◌̌ │ J ɟ │ B ⌬ │ F   │ V ◌̊ │ G Ƣ │ K   │ W Ⅎ │ : ◌̣ ┃              ┃
+    // ┃Shift ┃ < æ │ y ꟛ │ ç ◌̄ │ j ȷ │ b ※ │ f   │ v ◌̆ │ g ƣ │ k   │ w ⅎ │ . ◌̇ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/latin(qwerty_pt)"
+
+    name[Group1]= "SMK-Latin (HCESAR)";
+
+    key <TLDE>	{ [  masculine,  ordfeminine,       U1DCF,                  U035A               ] };     // U+1DCF = "Letter Fusion" Dead Key; U+035A = "IPA Symbols" Dead Key
+
+    key <AD01>	{ [      minus,  underscore,        dead_stroke,            dead_hook           ] };
+    key <AD02>	{ [          h,  H,                 U2C76,                  U2C75               ] };    // "h", "H", Lowercase Sonus Medius, Uppercase Sonus Medius
+    key <AD03>	{ [          c,  C,                 dead_cedilla,           dead_invertedbreve  ] };
+    key <AD04>	{ [          e,  E,                 EuroSign,               dead_currency       ] };
+    key <AD05>	{ [          s,  S,                 ssharp,                 U1E9E               ] };    // U+1E9E = Uppercase Eszett
+    key <AD06>	{ [          a,  A,                 aring,                  Aring               ] };
+    key <AD07>	{ [          r,  R,                 U0279,                  U027B               ] };    // "r", "R", "ɹ̛", "ɻ̛"
+    key <AD08>	{ [          o,  O,                 oslash,                 Oslash              ] };
+    key <AD09>	{ [          p,  P,                 U2184,                  U2183               ] };    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
+    key <AD10>	{ [          z,  Z,                 ezh,                    EZH                 ] };
+
+    key <AC01>	{ [  backslash,  bar,               UA78C,                  UA78B               ] };    // "\", "|", Lowercase Saltillo, Uppercase Saltillo 
+    key <AC02>	{ [          q,  Q                  ] };
+    key <AC03>	{ [          t,  T,                 thorn,                  THORN               ] };
+    key <AC04>	{ [          d,  D,                 eth,                    ETH                 ] };
+    key <AC05>	{ [          i,  I,                 idotless,               Iabovedot           ] };
+    key <AC06>	{ [          n,  N,                 eng,                    ENG                 ] };
+    key <AC07>	{ [          u,  U,                 uring,                  Uring               ] };
+    key <AC08>	{ [          l,  L,                 lstroke,                Lstroke             ] };
+    key <AC09>	{ [          m,  M,                 U0359,                  U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AC10>	{ [          x,  X,                 U01A8,                  U01A7               ] };    // "x", "X", Lowercase Tone Two, Uppercase Tone Two
+    key <AC11>	{ [      comma,  semicolon,         dead_belowcomma         ] };
+
+    key <AB01>	{ [          y,  Y,                 UA7DB,                  UA7DA               ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
+    key <AB02>	{ [   ccedilla,  Ccedilla,          dead_macron,            dead_caron          ] };
+    key <AB03>	{ [          j,  J,                 U0237,                  U025F               ] };    // "j", "J", Lowercase Dotless J, Lowercase Barred Dotless J
+    key <AB04>	{ [          b,  B,                 U203B,                  U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB05>	{ [          f,  F                  ] };
+    key <AB06>	{ [          v,  V,                 dead_breve,             dead_abovering      ] };
+    key <AB07>	{ [          g,  G,                 U01A3,                  U01A2               ] };    // "g", "G", Lowercase Gha, Uppercase Gha
+    key <AB08>	{ [          k,  K                  ] };
+    key <AB09>	{ [          w,  W,                 U214E,                  U2132               ] };    // "w", "W", Lowercase Digamma Inversum, Uppercase Digamma Inversum
+    key <AB10>	{ [     period,  colon,             dead_abovedot,          dead_belowdot       ] };
+};
+
+// [TODO]; Add more variants if needed

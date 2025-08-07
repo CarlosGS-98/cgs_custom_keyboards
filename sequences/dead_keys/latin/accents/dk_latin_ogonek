@@ -1,0 +1,25 @@
+# Latin Alphabet | Ogonek Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_ogonek> <A>   : "Ą"
+<dead_ogonek> <a>   : "ą"
+<dead_ogonek> <E>   : "Ę"
+<dead_ogonek> <e>   : "ę"
+<dead_ogonek> <I>   : "Į"
+<dead_ogonek> <i>   : "į"
+<dead_ogonek> <O>   : "Ǫ"
+<dead_ogonek> <o>   : "ǫ"
+<dead_ogonek> <U>   : "Ų"
+<dead_ogonek> <u>   : "ų"
+
+
+# Other precomposed ogonek combinations (Unidirectional)
+<dead_ogonek> <U014C>           : "Ǭ"   # Ō + Ogonek
+<dead_ogonek> <U014D>           : "ǭ"   # ō + Ogonek
+<dead_ogonek> <dead_macron> <O> : "Ǭ"
+<dead_ogonek> <dead_macron> <o> : "ǭ"
+
+##################
+# [END OF RULES] #
+##################
