@@ -1,0 +1,12 @@
+# Cyrillic Alphabet | Macron Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_macron> <Cyrillic_I>  : "Ӣ"
+<dead_macron> <Cyrillic_i>  : "ӣ"
+<dead_macron> <Cyrillic_U>  : "Ӯ"
+<dead_macron> <Cyrillic_u>  : "ӯ"
+
+##################
+# [END OF RULES] #
+##################
