@@ -1,0 +1,12 @@
+# Cyrillic Alphabet | Diagonal Stroke Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic (indirect) precomposed letter combinations
+<dead_longsolidusoverlay> <minus> <Cyrillic_KA> : "Ԟ"
+<dead_longsolidusoverlay> <minus> <Cyrillic_ka> : "ԟ"
+<dead_longsolidusoverlay> <minus> <Cyrillic_ER> : "Ҏ"
+<dead_longsolidusoverlay> <minus> <Cyrillic_er> : "ҏ"
+
+##################
+# [END OF RULES] #
+##################

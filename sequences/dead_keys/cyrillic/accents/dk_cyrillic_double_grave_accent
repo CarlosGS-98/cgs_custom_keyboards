@@ -1,0 +1,10 @@
+# Cyrillic Alphabet | Double Grave Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_doublegrave> <U0474>  : "Ѷ"   # Ѵ (Izhitsa) + Double Grave
+<dead_doublegrave> <U0475>  : "ѷ"   # ѵ (Izhitsa) + Double Grave
+
+##################
+# [END OF RULES] #
+##################

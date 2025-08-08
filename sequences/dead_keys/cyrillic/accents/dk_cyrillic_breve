@@ -1,0 +1,23 @@
+# Cyrillic Alphabet | Breve Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_breve> <Cyrillic_A>   : "Ӑ"
+<dead_breve> <Cyrillic_a>   : "ӑ"
+<dead_breve> <Cyrillic_IE>  : "Ӗ"
+<dead_breve> <Cyrillic_ie>  : "ӗ"
+<dead_breve> <Cyrillic_ZHE> : "Ӂ"
+<dead_breve> <Cyrillic_zhe> : "ӂ"
+<dead_breve> <Cyrillic_I>   : "Й"
+<dead_breve> <Cyrillic_i>   : "й"
+<dead_breve> <Cyrillic_U>   : "Ў"
+<dead_breve> <Cyrillic_u>   : "ў"
+
+
+# Other precomposed breve combinations (Unidirectional)
+<dead_breve> <dead_cedilla> <minus> <Cyrillic_I>    : "Ҋ"
+<dead_breve> <dead_cedilla> <minus> <Cyrillic_i>    : "ҋ"
+
+##################
+# [END OF RULES] #
+##################

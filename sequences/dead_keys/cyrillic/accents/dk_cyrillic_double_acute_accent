@@ -1,0 +1,10 @@
+# Cyrillic Alphabet | Double Acute Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_doubleacute> <Cyrillic_U> : "Ӳ"
+<dead_doubleacute> <Cyrillic_u> : "ӳ"
+
+##################
+# [END OF RULES] #
+##################

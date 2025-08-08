@@ -1,0 +1,12 @@
+# Cyrillic Alphabet | Grave Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_grave> <Cyrillic_IE>  : "Ѐ"
+<dead_grave> <Cyrillic_ie>  : "ѐ"
+<dead_grave> <Cyrillic_I>   : "Ѝ"
+<dead_grave> <Cyrillic_i>   : "ѝ"
+
+##################
+# [END OF RULES] #
+##################

@@ -1,0 +1,29 @@
+# Cyrillic Alphabet | Stroke Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_stroke> <Cyrillic_GHE>            : "Ғ"
+<dead_stroke> <Cyrillic_ghe>            : "ғ"
+<dead_stroke> <Cyrillic_KA>             : "Ҟ"
+<dead_stroke> <Cyrillic_ka>             : "ҟ"
+<dead_stroke> <minus> <Cyrillic_KA>     : "Ҝ"
+<dead_stroke> <minus> <Cyrillic_ka>     : "ҝ"
+<dead_stroke> <Cyrillic_O>              : "Ө"
+<dead_stroke> <Cyrillic_o>              : "ө"
+<dead_stroke> <Cyrillic_U_straight>     : "Ұ"
+<dead_stroke> <Cyrillic_u_straight>     : "ұ"
+<dead_stroke> <Cyrillic_HA>             : "Ӿ"
+<dead_stroke> <Cyrillic_ha>             : "ӿ"
+<dead_stroke> <minus> <Cyrillic_CHE>    : "Ҹ"
+<dead_stroke> <minus> <Cyrillic_che>    : "ҹ"
+<dead_stroke> <Cyrillic_SOFTSIGN>       : "Ҍ"   # Ҍ (Semisoft Sign)
+<dead_stroke> <Cyrillic_softsign>       : "ҍ"   # ҍ (Semisoft Sign)
+
+
+# Other precomposed horizontal stroke combinations (Unidirectional)
+<dead_stroke> <U0359> <less> <Cyrillic_GHE> : "Ӻ"   # Г + Stroke + Palatal Hook
+<dead_stroke> <U0359> <less> <Cyrillic_ghe> : "ӻ"   # г + Stroke + Palatal Hook
+
+##################
+# [END OF RULES] #
+##################

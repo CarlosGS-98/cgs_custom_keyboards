@@ -1,0 +1,12 @@
+# Cyrillic Alphabet | Acute Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_acute> <Cyrillic_GHE> : "Ѓ"
+<dead_acute> <Cyrillic_ghe> : "ѓ"
+<dead_acute> <Cyrillic_KA>  : "Ќ"
+<dead_acute> <Cyrillic_ka>  : "ќ"
+
+##################
+# [END OF RULES] #
+##################
