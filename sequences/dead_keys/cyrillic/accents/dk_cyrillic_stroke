@@ -23,6 +23,10 @@
 # Other precomposed horizontal stroke combinations (Unidirectional)
 <dead_stroke> <U0359> <less> <Cyrillic_GHE> : "Ӻ"   # Г + Stroke + Palatal Hook
 <dead_stroke> <U0359> <less> <Cyrillic_ghe> : "ӻ"   # г + Stroke + Palatal Hook
+<dead_stroke> <U04E6>                       : "Ӫ"   # Ӧ + Diaeresis
+<dead_stroke> <U04E7>                       : "ӫ"   # ӧ + Diaeresis
+<dead_stroke> <dead_diaeresis> <Cyrillic_O> : "Ӫ"
+<dead_stroke> <dead_diaeresis> <Cyrillic_o> : "ӫ"
 
 ##################
 # [END OF RULES] #

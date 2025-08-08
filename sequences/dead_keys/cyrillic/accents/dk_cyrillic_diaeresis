@@ -1,0 +1,41 @@
+# Cyrillic Alphabet | Diaeresis Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_diaeresis> <Cyrillic_A>                               : "Ӓ"
+<dead_diaeresis> <Cyrillic_a>                               : "ӓ"
+<dead_diaeresis> <Cyrillic_SCHWA>                           : "Ӛ"
+<dead_diaeresis> <Cyrillic_schwa>                           : "ӛ"
+<dead_diaeresis> <Cyrillic_IE>                              : "Ё"
+<dead_diaeresis> <Cyrillic_ie>                              : "ё"
+<dead_diaeresis> <Cyrillic_ZHE>                             : "Ӝ"
+<dead_diaeresis> <Cyrillic_zhe>                             : "ӝ"
+<dead_diaeresis> <Cyrillic_ZE>                              : "Ӟ"
+<dead_diaeresis> <Cyrillic_ze>                              : "ӟ"
+<dead_diaeresis> <Cyrillic_I>                               : "Ӥ"
+<dead_diaeresis> <Cyrillic_i>                               : "ӥ"
+<dead_diaeresis> <Cyrillic_O>                               : "Ӧ"
+<dead_diaeresis> <Cyrillic_o>                               : "ӧ"
+<dead_diaeresis> <Cyrillic_U>                               : "Ӱ"
+<dead_diaeresis> <Cyrillic_u>                               : "ӱ"
+<dead_diaeresis> <Cyrillic_CHE>                             : "Ӵ"
+<dead_diaeresis> <Cyrillic_che>                             : "ӵ"
+<dead_diaeresis> <Cyrillic_YERU>                            : "Ӹ"
+<dead_diaeresis> <Cyrillic_che>                             : "ӹ"
+<dead_diaeresis> <U1DCF> <Cyrillic_SOFTSIGN> <Cyrillic_I>   : "Ӹ"
+<dead_diaeresis> <U1DCF> <Cyrillic_softsign> <Cyrillic_i>   : "ӹ"
+<dead_diaeresis> <U1DCF> <Cyrillic_SOFTSIGN> <Ukrainian_I>  : "Ӹ"
+<dead_diaeresis> <U1DCF> <Cyrillic_softsign> <Ukrainian_i>  : "ӹ"
+<dead_diaeresis> <Cyrillic_E>                               : "Ӭ"
+<dead_diaeresis> <Cyrillic_e>                               : "ӭ"
+
+
+# Other precomposed diaeresis combinations (Unidirectional)
+<dead_diaeresis> <U04E8>                    : "Ӫ"   # Ө + Diaeresis
+<dead_diaeresis> <U04E9>                    : "ӫ"   # ө + Diaeresis
+<dead_diaeresis> <dead_stroke> <Cyrillic_O> : "Ӫ"
+<dead_diaeresis> <dead_stroke> <Cyrillic_o> : "ӫ"
+
+##################
+# [END OF RULES] #
+##################
