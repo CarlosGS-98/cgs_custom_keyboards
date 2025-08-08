@@ -1,0 +1,38 @@
+# Common Dead Keys | Letter Flip Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the "Letter Flip" dead key
+# > (which represents a special dead key for precomposed
+# > turned, flipped and reversed Latin letters
+# > as a single character mainly for phonetic transcription)
+# > across multiple writing systems.
+#
+# [NOTE]: This diacritic will be represented as [U21BA]
+# ("↺", Anticlockwise Open Circle Arrow) to better transmit
+# the intention this specific dead key has.
+#
+
+# Basic combinations
+<U21BA> <space>     : "↺"   # Anticlockwise Open Circle Arrow
+<U21BA> <U21BA>     : "↺"   # Anticlockwise Open Circle Arrow
+<U21BA> <less>      : "↻"   # Clockwise Open Circle Arrow
+<U21BA> <greater>   : "↻"   # Clockwise Open Circle Arrow
+
+
+# Reversed Digits
+<U21BA> <2> : "↊"   # Turned digit Two   | Duodecimal 10
+<U21BA> <3> : "↋"   # Turned digit Three | Duodecimal 11
+
+
+# Reversed Punctuation
+<U21BA> <comma>         : "،"   # Arabic comma
+<U21BA> <exclam>        : "¡"   # Inverted exclamation mark
+<U21BA> <period>        : "·"   # Ano Teleia
+<U21BA> <question>      : "¿"   # Inverted question mark
+<U21BA> <questiondown>  : "؟"   # Arabic question mark
+<U21BA> <semicolon>     : "؛"   # Arabic semicolon
+
+##################
+# [END OF RULES] #
+##################

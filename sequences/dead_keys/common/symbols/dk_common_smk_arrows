@@ -1,0 +1,208 @@
+# Common Dead Keys | Arrows Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing many different arrows
+# > across multiple writing systems (mainly for
+# > mathematical purposes).
+#
+# [NOTE]: This diacritic will be represented as [U21BB]
+# ("↻", Clockwise Open Circle Arrow) to give a better idea of
+# the general intention this specific dead key has.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Arrows_(Unicode_block)
+#
+
+# Basic combinations
+<U21BB> <space>                 : "↻"   # Clockwise Open Circle Arrow
+<U21BB> <U21BB>                 : "↻"   # Clockwise Open Circle Arrow
+<U21BB> <U25CC> <less> <minus>  : "⃪"   # Combining Leftwards Arrow Overlay
+
+
+# Functional Arrows
+<U21BB> <dollar> <greater> <space>                      : "⇲"   # End Arrow Key
+<U21BB> <less> <dollar> <space>                         : "⇱"   # Home Arrow Key
+
+
+# Harpoons
+<U21BB> <asciicircum> <asterisk> <plus> <space>         : "↾"   # Upwards harpoon with rightwards barb
+<U21BB> <asciicircum> <asterisk> <minus> <space>        : "↿"   # Upwards harpoon with leftwards barb
+<U21BB> <asterisk> <greater> <less> <asterisk> <space>  : "⇌"   # Rightwards-leftwards harpoon
+<U21BB> <dead_circumflex> <asterisk> <plus> <space>     : "↾"   # Upwards harpoon with rightwards barb
+<U21BB> <dead_circumflex> <asterisk> <minus> <space>    : "↿"   # Upwards harpoon with leftwards barb
+<U21BB> <less> <asterisk> <asterisk> <greater> <space>  : "⇋"   # Leftwards-rightwards harpoon
+<U21BB> <less> <asterisk> <minus> <space>               : "↽"   # Leftwards harpoon with downwards barb
+<U21BB> <less> <asterisk> <plus> <space>                : "↼"   # Leftwards harpoon with upwards barb
+<U21BB> <minus> <asterisk> <asciicircum> <space>        : "↿"   # Upwards harpoon with leftwards barb
+<U21BB> <minus> <asterisk> <dead_circumflex> <space>    : "↿"   # Upwards harpoon with leftwards barb
+<U21BB> <minus> <asterisk> <greater> <space>            : "⇁"   # Rightwards harpoon with downwards barb
+<U21BB> <minus> <asterisk> <underscore> <space>         : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <plus> <asterisk> <greater> <space>             : "⇀"   # Rightwards harpoon with upwards barb
+<U21BB> <plus> <asterisk> <asciicircum> <space>         : "↾"   # Upwards harpoon with rightwards barb
+<U21BB> <plus> <asterisk> <dead_circumflex> <space>     : "↾"   # Upwards harpoon with rightwards barb
+<U21BB> <plus> <asterisk> <underscore> <space>          : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <underscore> <asterisk> <plus> <space>          : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <underscore> <asterisk> <minus> <space>         : "⇃"   # Downwards harpoon with leftwards barb
+
+
+# Multiple Arrows
+<U21BB> <2> <less> <minus> <space>                              : "⇇"   # Leftwards paired arrows
+<U21BB> <2> <minus> <greater> <space>                           : "⇉"   # Rightwards paired arrows
+<U21BB> <asciicircum> <bar> <bar> <underscore> <space>          : "⇅"   # Upwards-downwards arrow
+<U21BB> <asciicircum> <bar> <2> <space>                         : "⇈"   # Upwards paired arrows
+<U21BB> <asciicircum> <bar> <asciicircum> <bar> <space>         : "⇈"   # Upwards paired arrows
+<U21BB> <dead_circumflex> <bar> <2> <space>                     : "⇈"   # Upwards paired arrows
+<U21BB> <dead_circumflex> <bar> <dead_circumflex> <bar> <space> : "⇈"   # Upwards paired arrows
+<U21BB> <bar> <less> <greater> <bar> <space>                    : "↹"   # Horizontal Tab
+<U21BB> <dead_circumflex> <bar> <bar> <underscore> <space>      : "⇅"   # Upwards-downwards arrow
+<U21BB> <less> <minus> <2> <space>                              : "⇇"   # Leftwards paired arrows
+<U21BB> <less> <minus> <less> <minus> <space>                   : "⇇"   # Leftwards paired arrows
+<U21BB> <less> <minus> <minus> <greater> <space>                : "⇆"   # Leftwards-rightwards arrow
+<U21BB> <minus> <greater> <2> <space>                           : "⇉"   # Rightwards paired arrows
+<U21BB> <minus> <greater> <3> <space>                           : "⇶"   # Three rightward arrows
+<U21BB> <minus> <greater> <less> <minus> <space>                : "⇄"   # Rightwards-leftwards arrow
+<U21BB> <minus> <greater> <minus> <greater> <space>             : "⇉"   # Rightwards paired arrows
+<U21BB> <underscore> <bar> <2> <space>                          : "⇊"   # Downwards paired arrows
+<U21BB> <underscore> <bar> <underscore> <bar> <space>           : "⇊"   # Downwards paired arrows
+
+
+# Thick Arrows
+<U21BB> <3> <greater> <space>                                               : "⇛"   # Rightwards triple arrow
+<U21BB> <asciicircum> <bar> <bar> <space>                                   : "⇑"    # Upwards double arrow
+<U21BB> <asciicircum> <equal> <space>                                       : "⇖"   # Northwest double arrow
+<U21BB> <asciicircum> <equal> <underscore> <space>                          : "⇕"   # Upwards-downwards double arrow
+<U21BB> <bar> <bar> <asciicircum> <space>                                   : "⇑"    # Upwards double arrow
+<U21BB> <bar> <bar> <dead_circumflex> <space>                               : "⇑"    # Upwards double arrow
+<U21BB> <bar> <bar> <underscore> <space>                                    : "⇓"    # Downwards double arrow
+<U21BB> <bracketleft> <asciicircum> <bracketright> <space>                  : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <asciicircum> <underscore> <bracketright> <space>     : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <dead_circumflex> <bracketright> <space>              : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <dead_circumflex> <underscore> <bracketright> <space> : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <greater> <bracketright> <space>                      : "⇨"   # Rightwards white arrow
+<U21BB> <bracketleft> <less> <bracketright> <space>                         : "⇦"   # Leftwards white arrow
+<U21BB> <bracketleft> <underscore> <bracketright> <space>                   : "⇩"   # Downwards white arrow
+<U21BB> <bracketleft> <underscore> <asciicircum> <bracketright> <space>     : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <underscore> <dead_circumflex> <bracketright> <space> : "⇧"   # Upwards white arrow
+<U21BB> <dead_circumflex> <bar> <bar> <space>                               : "⇑"    # Upwards double arrow
+<U21BB> <dead_circumflex> <equal> <space>                                   : "⇖"   # Northwest double arrow
+<U21BB> <dead_circumflex> <equal> <underscore> <space>                      : "⇕"   # Upwards-downwards double arrow
+<U21BB> <equal> <asciicircum> <space>                                       : "⇗"   # Northeast double arrow
+<U21BB> <equal> <dead_circumflex> <space>                                   : "⇗"   # Northeast double arrow
+<U21BB> <equal> <greater> <space>                                           : "⇒"   # Rightwards double arrow
+<U21BB> <equal> <slash> <greater> <space>                                   : "⇏"   # Rightwards double arrow with stroke
+<U21BB> <equal> <underscore> <space>                                        : "⇘"   # Southeast double arrow
+<U21BB> <less> <3> <space>                                                  : "⇚"   # Leftwards triple arrow
+<U21BB> <less> <equal> <space>                                              : "⇐"   # Leftwards double arrow
+<U21BB> <less> <equal> <greater> <space>                                    : "⇔"   # Left-right double arrow
+<U21BB> <less> <equal> <slash> <equal> <greater> <space>                    : "⇎"   # Left-right double arrow with stroke
+<U21BB> <less> <slash> <equal> <space>                                      : "⇍"   # Leftwards double arrow with stroke
+<U21BB> <underscore> <bar> <bar> <space>                                    : "⇓"    # Downwards double arrow
+<U21BB> <underscore> <equal> <space>                                        : "⇙"   # Southwest double arrow
+<U21BB> <underscore> <equal> <asciicircum> <space>                          : "⇕"   # Upwards-downwards double arrow
+<U21BB> <underscore> <equal> <underscore> <space>                           : "⇕"   # Upwards-downwards double arrow
+
+
+# Thin Arrows
+<U21BB> <0> <greater> <space>                                       : "↻"   # Clockwise Open Circle Arrow
+<U21BB> <0> <minus> <greater> <space>                               : "↬"   # Rightwards arrow with loop
+<U21BB> <apostrophe> <minus> <greater> <space>                      : "↪"   # Rightwards arrow with hook
+<U21BB> <asciicircum> <asciicircum> <bar> <space>                   : "↟"   # Upwards two-headed arrow
+<U21BB> <asciicircum> <bar> <space>                                 : "↑"   # Upwards arrow
+<U21BB> <asciicircum> <bar> <underscore> <space>                    : "↕"   # Up-down arrow
+<U21BB> <asciicircum> <bar> <underscore> <underscore> <space>       : "↨"   # Up-down arrow with base
+<U21BB> <asciicircum> <equal> <bar> <space>                         : "⇞"   # Page Up
+<U21BB> <asciicircum> <greater> <space>                             : "↷"   # Clockwise top semicircle arrow
+<U21BB> <asciicircum> <minus> <space>                               : "↖"   # Northwest arrow
+<U21BB> <asciicircum> <period> <space>                              : "⇡"   # Upwards dashed arrow
+<U21BB> <asciicircum> <underscore> <space>                          : "↥"   # Upwards arrow from bar
+<U21BB> <asciitilde> <greater> <space>                              : "⇝"   # Rightwards squiggly arrow
+<U21BB> <asterisk> <underscore> <space>                             : "↯"   # Electrical arrow
+<U21BB> <bar> <asciicircum> <space>                                 : "↑"   # Upwards arrow
+<U21BB> <bar> <asciicircum> <asciicircum> <space>                   : "↟"   # Upwards two-headed arrow
+<U21BB> <bar> <asciicircum> <greater> <space>                       : "↱"   # Upwards-rightwards arrow
+<U21BB> <bar> <dead_circumflex> <space>                             : "↑"   # Upwards arrow
+<U21BB> <bar> <dead_circumflex> <dead_circumflex> <space>           : "↟"   # Upwards two-headed arrow
+<U21BB> <bar> <dead_circumflex> <greater> <space>                   : "↱"   # Upwards-rightwards arrow
+<U21BB> <bar> <equal> <asciicircum> <space>                         : "⇞"   # Page Up
+<U21BB> <bar> <equal> <dead_circumflex> <space>                     : "⇞"   # Page Up
+<U21BB> <bar> <equal> <underscore> <space>                          : "⇟"   # Page Down
+<U21BB> <bar> <less> <minus> <space>                                : "⇤"   # Leftwards arrow to bar
+<U21BB> <bar> <minus> <greater> <space>                             : "↦"  # Rightwards arrow from bar
+<U21BB> <bar> <underscore> <space>                                  : "↓"   # Downwards arrow
+<U21BB> <bar> <underscore> <greater> <space>                        : "↳"   # Downwards-rightwards arrow
+<U21BB> <bar> <underscore> <underscore> <space>                     : "↡"   # Downwards two-headed arrow
+<U21BB> <dead_circumflex> <bar> <space>                             : "↑"   # Upwards arrow
+<U21BB> <dead_circumflex> <bar> <underscore> <space>                : "↕"   # Up-down arrow
+<U21BB> <dead_circumflex> <bar> <underscore> <underscore> <space>   : "↨"   # Up-down arrow with base
+<U21BB> <dead_circumflex> <dead_circumflex> <bar> <space>           : "↟"   # Upwards two-headed arrow
+<U21BB> <dead_circumflex> <equal> <bar> <space>                     : "⇞"   # Page Up
+<U21BB> <dead_circumflex> <greater> <space>                         : "↷"   # Clockwise top semicircle arrow
+<U21BB> <dead_circumflex> <minus> <space>                           : "↖"   # Northwest arrow
+<U21BB> <dead_circumflex> <period> <space>                          : "⇡"   # Upwards dashed arrow
+<U21BB> <dead_circumflex> <underscore> <space>                      : "↥"   # Upwards arrow from bar
+<U21BB> <dead_macron> <asciicircum> <minus> <space>                 : "↸"   # Northwest arrow to long bar
+<U21BB> <dead_macron> <dead_circumflex> <minus> <space>             : "↸"   # Northwest arrow to long bar
+<U21BB> <dead_tilde> <greater> <space>                              : "⇝"   # Rightwards squiggly arrow
+<U21BB> <greater> <minus> <greater> <space>                         : "↣"  # Rightwards arrow with tail
+<U21BB> <less> <0> <space>                                          : "↺"   # Anticlockwise Open Circle Arrow
+<U21BB> <less> <asciicircum> <space>                                : "↶"   # Anticlockwise top semicircle arrow
+<U21BB> <less> <asciicircum> <bar> <space>                          : "↰"   # Upwards-leftwards arrow
+<U21BB> <less> <asciitilde> <space>                                 : "⇜"   # Leftwards squiggly arrow
+<U21BB> <less> <asciitilde> <greater> <space>                       : "↭"   # Left-right wave arrow
+<U21BB> <less> <bar> <bar> <greater> <space>                        : "⇼"   # Left-right arrow with double bar
+<U21BB> <less> <bar> <bar> <minus> <space>                          : "⇺"   # Leftwards arrow with double bar
+<U21BB> <less> <bar> <minus> <space>                                : "⇷"   # Leftwards arrow with bar
+<U21BB> <less> <bracketleft> <bracketright> <greater> <space>       : "⇿"   # Left-right open-headed arrow
+<U21BB> <less> <bracketright> <minus> <space>                       : "⇽"   # Leftwards open-headed arrow
+<U21BB> <less> <dead_circumflex> <space>                            : "↶"   # Anticlockwise top semicircle arrow
+<U21BB> <less> <dead_circumflex> <bar> <space>                      : "↰"   # Upwards-leftwards arrow
+<U21BB> <less> <dead_tilde> <space>                                 : "⇜"   # Leftwards squiggly arrow
+<U21BB> <less> <dead_tilde> <greater> <space>                       : "↭"   # Left-right wave arrow
+<U21BB> <less> <less> <minus> <space>                               : "↞"  # Leftwards two-headed arrow
+<U21BB> <less> <minus> <space>                                      : "←"   # Leftwards arrow
+<U21BB> <less> <minus> <0> <space>                                  : "↫"   # Leftwards arrow with loop
+<U21BB> <less> <minus> <apostrophe> <space>                         : "↩"   # Leftwards arrow with hook
+<U21BB> <less> <minus> <bar> <space>                                : "↤"  # Leftwards arrow from bar
+<U21BB> <less> <minus> <bar> <minus> <greater> <space>              : "⇹"   # Left-right arrow with bar
+<U21BB> <less> <minus> <greater> <space>                            : "↔"   # Left-right arrow
+<U21BB> <less> <minus> <less> <space>                               : "↢"  # Leftwards arrow with tail
+<U21BB> <less> <minus> <slash> <minus> <greater> <space>            : "↮"   # Left-right arrow with stroke
+<U21BB> <less> <period> <space>                                     : "⇠"   # Leftwards dashed arrow
+<U21BB> <less> <slash> <minus> <space>                              : "↚"   # Leftwards arrow with stroke
+<U21BB> <less> <underscore> <bar> <space>                           : "↲"   # Downwards-leftwards arrow
+<U21BB> <less> <underscore> <minus> <space>                         : "↜"  # Leftwards wave arrow
+<U21BB> <minus> <asciicircum> <space>                               : "↗"   # Northeast arrow
+<U21BB> <minus> <bar> <bar> <greater> <space>                       : "⇻"   # Rightwards arrow with double bar
+<U21BB> <minus> <bar> <greater> <space>                             : "⇸"   # Rightwards arrow with bar
+<U21BB> <minus> <bar> <underscore> <space>                          : "↴"   # Rightwards-downwards arrow with corner
+<U21BB> <minus> <bracketleft> <greater> <space>                     : "⇾"   # Rightwards open-headed arrow
+<U21BB> <minus> <dead_abovering> <greater> <space>                  : "⇴"   # Right arrow with small circle
+<U21BB> <minus> <dead_circumflex> <space>                           : "↗"   # Northeast arrow
+<U21BB> <minus> <masculine> <greater> <space>                       : "⇴"   # Right arrow with small circle
+<U21BB> <minus> <greater> <space>                                   : "→"   # Rightwards arrow
+<U21BB> <minus> <greater> <bar> <space>                             : "⇥"   # Rightwards arrow to bar
+<U21BB> <minus> <greater> <greater> <space>                         : "↠"  # Rightwards two-headed arrow
+<U21BB> <minus> <slash> <greater> <space>                           : "↛"   # Rightwards arrow with stroke
+<U21BB> <minus> <underscore> <space>                                : "↘"   # Southeast arrow
+<U21BB> <minus> <underscore> <greater> <space>                      : "↝"  # Rightwards wave arrow
+<U21BB> <period> <asciicircum> <space>                              : "⇡"   # Upwards dashed arrow
+<U21BB> <period> <dead_circumflex> <space>                          : "⇡"   # Upwards dashed arrow
+<U21BB> <period> <greater> <space>                                  : "⇢"   # Rightwards dashed arrow
+<U21BB> <period> <underscore> <space>                               : "⇣"   # Downwards dashed arrow
+<U21BB> <underscore> <asciicircum> <space>                          : "↧"   # Downwards arrow from bar
+<U21BB> <underscore> <asterisk> <space>                             : "↯"   # Electrical arrow
+<U21BB> <underscore> <bar> <space>                                  : "↓"   # Downwards arrow
+<U21BB> <underscore> <bar> <asciicircum> <space>                    : "↕"   # Up-down arrow
+<U21BB> <underscore> <bar> <dead_circumflex> <space>                : "↕"   # Up-down arrow
+<U21BB> <underscore> <bar> <minus> <space>                          : "↵"   # Downwards-leftwards arrow with corner
+<U21BB> <underscore> <dead_circumflex> <space>                      : "↧"   # Downwards arrow from bar
+<U21BB> <underscore> <equal> <bar> <space>                          : "⇟"   # Page Down
+<U21BB> <underscore> <minus> <space>                                : "↙"   # Southwest arrow
+<U21BB> <underscore> <period> <space>                               : "⇣"   # Downwards dashed arrow
+<U21BB> <underscore> <underscore> <bar> <space>                     : "↡"   # Downwards two-headed arrow
+<U21BB> <underscore> <underscore> <bar> <asciicircum> <space>       : "↨"   # Up-down arrow with base
+<U21BB> <underscore> <underscore> <bar> <dead_circumflex> <space>   : "↨"   # Up-down arrow with base
+
+##################
+# [END OF RULES] #
+##################

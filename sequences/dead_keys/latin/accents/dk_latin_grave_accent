@@ -1,0 +1,66 @@
+# Latin Alphabet | Grave Accent Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_grave> <A>    : "À"
+<dead_grave> <a>    : "à"
+<dead_grave> <E>    : "È"
+<dead_grave> <e>    : "è"
+<dead_grave> <I>    : "Ì"
+<dead_grave> <i>    : "ì"
+<dead_grave> <N>    : "Ǹ"
+<dead_grave> <n>    : "ǹ"
+<dead_grave> <O>    : "Ò"
+<dead_grave> <o>    : "ò"
+<dead_grave> <U>    : "Ù"
+<dead_grave> <u>    : "ù"
+<dead_grave> <W>    : "Ẁ"
+<dead_grave> <w>    : "ẁ"
+<dead_grave> <Y>    : "Ỳ"
+<dead_grave> <y>    : "ỳ"
+
+
+# Precomposed Vietnamese letter combinations (Unidirectional)
+<dead_grave> <Abreve>               : "Ằ"
+<dead_grave> <abreve>               : "ằ"
+<dead_grave> <dead_breve> <A>       : "Ằ"
+<dead_grave> <dead_breve> <a>       : "ằ"
+<dead_grave> <Acircumflex>          : "Ầ"
+<dead_grave> <acircumflex>          : "ầ"
+<dead_grave> <dead_circumflex> <A>  : "Ầ"
+<dead_grave> <dead_circumflex> <a>  : "ầ"
+<dead_grave> <Ecircumflex>          : "Ề"
+<dead_grave> <ecircumflex>          : "ề"
+<dead_grave> <dead_circumflex> <E>  : "Ề"
+<dead_grave> <dead_circumflex> <e>  : "ề"
+<dead_grave> <Ocircumflex>          : "Ồ"
+<dead_grave> <ocircumflex>          : "ồ"
+<dead_grave> <dead_circumflex> <O>  : "Ồ"
+<dead_grave> <dead_circumflex> <o>  : "ồ"
+<dead_grave> <Ohorn>                : "Ờ"
+<dead_grave> <ohorn>                : "ờ"
+<dead_grave> <dead_horn> <O>        : "Ờ"
+<dead_grave> <dead_horn> <o>        : "ờ"
+<dead_grave> <Uhorn>                : "Ừ"
+<dead_grave> <uhorn>                : "ừ"
+<dead_grave> <dead_horn> <U>        : "Ừ"
+<dead_grave> <dead_horn> <u>        : "ừ"
+
+
+# Other precomposed grave accent combinations (Unidirectional)
+<dead_grave> <Emacron>                      : "Ḕ"
+<dead_grave> <emacron>                      : "ḕ"
+<dead_grave> <dead_macron> <E>              : "Ḕ"
+<dead_grave> <dead_macron> <e>              : "ḕ"
+<dead_grave> <Omacron>                      : "Ṑ"
+<dead_grave> <omacron>                      : "ṑ"
+<dead_grave> <dead_macron> <O>              : "Ṑ"
+<dead_grave> <dead_macron> <o>              : "ṑ"
+<dead_grave> <Udiaeresis>                   : "Ǜ"
+<dead_grave> <udiaeresis>                   : "ǜ"
+<dead_grave> <dead_diaeresis> <U>           : "Ǜ"
+<dead_grave> <dead_diaeresis> <u>           : "ǜ"
+
+##################
+# [END OF RULES] #
+##################

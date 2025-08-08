@@ -1,0 +1,20 @@
+# Common Dead Keys | Grave Accent Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the grave accent
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<dead_grave> <space>        : "̀"    # Combining grave accent
+<dead_grave> <dead_grave>   : "`"   # Regular spacing grave accent
+<dead_grave> <less>         : "̖"    # Combining grave accent below
+<dead_grave> <greater>      : "̖"    # Combining grave accent below
+<dead_grave> <comma>        : "ˋ"   # Modifier letter grave accent
+<dead_grave> <semicolon>    : "˴"   # Modifier letter middle grave accent
+<dead_grave> <period>       : "ˎ"   # Modifier letter low grave accent
+
+##################
+# [END OF RULES] #
+##################

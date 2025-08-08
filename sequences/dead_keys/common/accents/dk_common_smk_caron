@@ -1,0 +1,21 @@
+# Common Dead Keys | Caron + Caron Below Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the caron/háček across multiple writing systems.
+#
+
+# Basic combinations
+<dead_caron> <space>        : "̌"    # Combining caron
+<dead_caron> <dead_caron>   : "ˇ"   # Regular spacing caron
+<dead_caron> <less>         : "̬"    # Combining caron below
+<dead_caron> <greater>      : "ˬ"   # Modifier letter voicing
+
+
+# Rules from "<dead_caron> <minus>" ("dead_belowcaron")
+<dead_caron> <minus> <space>     : "̬"    # Combining caron below
+<dead_caron> <minus> <minus>     : "ˬ"   # Modifier letter voicing
+
+##################
+# [END OF RULES] #
+##################

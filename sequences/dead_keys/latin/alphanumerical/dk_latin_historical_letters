@@ -1,0 +1,150 @@
+# Latin Alphabet | Historical Letters Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Egyptological Latin Letters
+<U1DFB> <U0241>     : "Ꜣ"  # Ɂ (Capital Glottal Stop) + Historical Letter Key = Ꜣ (Egyptological Alef)
+<U1DFB> <U0242>     : "ꜣ"  # ɂ (Small Glottal Stop) + Historical Letter Key = ꜣ (Egyptological Alef)
+<U1DFB> <UA78B>     : "Ꜥ"  # Ꞌ (Saltillo) + Historical Letter Key = Ꜥ (Egyptological Ayin)
+<U1DFB> <UA78C>     : "ꜥ"  # ꞌ (Saltillo) + Historical Letter Key = ꜥ (Egyptological Ayin)
+<U1DFB> <minus> <A> : "Ꞻ"  # Glottal A
+<U1DFB> <minus> <a> : "ꞻ"  # Glottal A
+<U1DFB> <minus> <I> : "Ꞽ"  # Glottal I/Egyptological Yod
+<U1DFB> <minus> <i> : "ꞽ"  # Glottal I/Egyptological Yod
+<U1DFB> <minus> <U> : "Ꞿ"  # Glottal U
+<U1DFB> <minus> <u> : "ꞿ"  # Glottal U
+
+
+# Epigraphic Roman + Reversed Latin Letters
+<U1DFB> <U21BA> <F>     : "ꟻ"
+<U1DFB> <U21BA> <f>     : "ꟻ"
+<U1DFB> <U21BA> <G>     : "𝼁"
+<U1DFB> <U21BA> <g>     : "𝼁"
+<U1DFB> <U21BA> <I>     : "ꟾ"  # I Longa
+<U1DFB> <U21BA> <i>     : "ꟷ"  # Sideways I
+<U1DFB> <U21BA> <K>     : "𝼃"
+<U1DFB> <U21BA> <k>     : "𝼃"
+<U1DFB> <U21BA> <L>     : "⅃"
+<U1DFB> <U21BA> <l>     : "⅃"
+<U1DFB> <U21BA> <M>     : "ꟽ"
+<U1DFB> <U21BA> <m>     : "ꟽ"
+<U1DFB> <U21BA> <ENG>   : "𝼇"
+<U1DFB> <U21BA> <eng>   : "𝼇"
+<U1DFB> <U21BA> <P>     : "ꟼ"
+<U1DFB> <U21BA> <p>     : "ꟼ"
+<U1DFB> <U21BA> <R>     : "ᴙ"
+<U1DFB> <U21BA> <r>     : "ᴙ"
+
+
+# Insular Gaelic + Historical Celtic Letters
+<U1DFB> <D>             : "Ꝺ"
+<U1DFB> <d>             : "ꝺ"
+<U1DFB> <E> <T>         : "⹒"
+<U1DFB> <e> <t>         : "⁊"
+<U1DFB> <F>             : "Ꝼ"
+<U1DFB> <f>             : "ꝼ"
+<U1DFB> <G>             : "Ᵹ"
+<U1DFB> <g>             : "ᵹ"
+<U1DFB> <U01A2>         : "Ꝿ"  # Ƣ (Gha) + Historical Letters Key = Ꝿ
+<U1DFB> <U01A3>         : "ꝿ"  # ƣ (Gha) + Historical Letters Key = ꝿ
+<U1DFB> <U1DCF> <G> <H> : "Ꝿ"
+<U1DFB> <U1DCF> <g> <h> : "ꝿ"
+<U1DFB> <U1DCF> <O> <I> : "Ꝿ"
+<U1DFB> <U1DCF> <o> <i> : "ꝿ"
+<U1DFB> <minus> <G>     : "Ꟑ"
+<U1DFB> <minus> <g>     : "ꟑ"
+<U1DFB> <R> <space>     : "Ꞃ"
+<U1DFB> <r> <space>     : "ꞃ"
+<U1DFB> <S> <space>     : "Ꞅ"
+<U1DFB> <s> <space>     : "ꞅ"
+<U1DFB> <T> <space>     : "Ꞇ"
+<U1DFB> <t> <space>     : "ꞇ"
+<U1DFB> <V>             : "Ỽ"   # Middle Welsh V
+<U1DFB> <v>             : "ỽ"   # Middle Welsh V
+
+
+# Middle English + Norse & Germanic Letters
+<U1DFB> <L>         : "Ꝇ"  # Broken L
+<U1DFB> <l>         : "ꝇ"  # Broken L
+<U1DFB> <S> <S>     : "Ꟙ"  # Sigmoid S
+<U1DFB> <s> <s>     : "ꟙ"  # Sigmoid S
+<U1DFB> <U1E9E>     : "Ꟗ"  # Middle Scots S
+<U1DFB> <ssharp>    : "ꟗ"  # Middle Scots S
+<U1DFB> <minus> <V> : "Ꝩ"  # Vend
+<U1DFB> <minus> <v> : "ꝩ"  # Vend
+<U1DFB> <W>         : "Ƿ"  # Wynn
+<U1DFB> <w>         : "ƿ"  # Wynn
+<U1DFB> <Y> <O>     : "Ȝ"  # Yogh
+<U1DFB> <y> <o>     : "ȝ"  # Yogh
+
+
+# Numberlike Latin Letters
+<U1DFB> <S> <2> : "Ƨ" # Tone Two
+<U1DFB> <s> <2> : "ƨ" # Tone Two
+<U1DFB> <S> <3> : "Ꜫ" # Tresillo
+<U1DFB> <s> <3> : "ꜫ" # Tresillo
+<U1DFB> <S> <4> : "Ꜭ" # Cuatrillo
+<U1DFB> <s> <4> : "ꜭ" # Cuatrillo
+<U1DFB> <S> <5> : "Ƽ" # Tone Five
+<U1DFB> <s> <5> : "ƽ" # Tone Five
+<U1DFB> <S> <6> : "Ƅ" # Tone Six
+<U1DFB> <s> <6> : "ƅ" # Tone Six
+
+
+# Other Historical Latin Letters
+<U1DFB> <B>             : "Ꞗ"   # Middle Vietnamese B
+<U1DFB> <b>             : "ꞗ"   # Middle Vietnamese B
+<U1DFB> <minus> <F>     : "ꬵ"   # Lenis F
+<U1DFB> <minus> <f>     : "ꬵ"   # Lenis F
+<U1DFB> <K>             : "ĸ"   # Kra
+<U1DFB> <k>             : "ĸ"   # Kra
+<U1DFB> <Oslash>        : "Ꟁ"   # Old Polish O
+<U1DFB> <oslash>        : "ꟁ"   # Old Polish O
+<U1DFB> <minus> <S>     : "ſ"   # Long S
+<U1DFB> <minus> <s>     : "ſ"   # Long S
+<U1DFB> <minus> <U0241> : "ᴥ"   # Ɂ (Capital Glottal Stop) + Historical Letter Key + "-" = ᴥ (UPA Ain)
+<U1DFB> <minus> <U0242> : "ᴥ"   # ɂ (Small Glottal Stop) + Historical Letter Key+ "-" = ᴥ (UPA Ain)
+
+
+# Scribal Abbreviations
+<U1DFB> <C> <O> <N>                 : "Ꝯ"
+<U1DFB> <c> <o> <n>                 : "ꝯ"
+<U1DFB> <slash> <D>                 : "ꝱ"  # Dum
+<U1DFB> <slash> <d>                 : "ꝱ"  # Dum
+<U1DFB> <ampersand> <E> <T>         : "Ꝫ"
+<U1DFB> <ampersand> <e> <t>         : "ꝫ"
+<U1DFB> <I> <S>                     : "Ꝭ"
+<U1DFB> <i> <s>                     : "ꝭ"
+<U1DFB> <slash> <L>                 : "ꝲ"  # Lum
+<U1DFB> <slash> <l>                 : "ꝲ"  # Lum
+<U1DFB> <slash> <M>                 : "ꝳ" # Mum
+<U1DFB> <slash> <m>                 : "ꝳ" # Mum
+<U1DFB> <slash> <N>                 : "ꝴ"  # Num
+<U1DFB> <slash> <n>                 : "ꝴ"  # Num
+<U1DFB> <O>                         : "Ꝋ"
+<U1DFB> <o>                         : "ꝋ"
+<U1DFB> <minus> <P>                 : "Ꝓ"
+<U1DFB> <minus> <p>                 : "ꝓ"
+<U1DFB> <plus> <P>                  : "Ꝕ"
+<U1DFB> <plus> <p>                  : "ꝕ"
+<U1DFB> <U2183>                     : "Ꜿ"  # Ↄ (Antisigma) + Historical Letters Key = Ꜿ
+<U1DFB> <U2184>                     : "ꜿ"  # ↄ (Antisigma) + Historical Letters Key = ꜿ
+<U1DFB> <periodcentered> <P> <S>    : "Ꜿ"
+<U1DFB> <periodcentered> <p> <s>    : "ꜿ"
+<U1DFB> <minus> <R>                 : "Ꝛ"  # R Rotunda
+<U1DFB> <minus> <r>                 : "ꝛ"  # R Rotunda
+<U1DFB> <slash> <R>                 : "ꝶ"  # Smallcaps Rum
+<U1DFB> <slash> <r>                 : "ꝵ"  # Rum
+<U1DFB> <R> <U> <M>                 : "Ꝝ"  # Rum Rotunda
+<U1DFB> <r> <u> <m>                 : "ꝝ"  # Rum Rotunda
+<U1DFB> <T> <U> <M>                 : "ꝷ"
+<U1DFB> <t> <u> <m>                 : "ꝷ"
+<U1DFB> <U> <M>                     : "ꝸ"
+<U1DFB> <u> <m>                     : "ꝸ"
+<U1DFB> <U> <S>                     : "Ꝯ"
+<U1DFB> <u> <s>                     : "ꝯ"
+<U1DFB> <Y> <R>                     : "Ʀ"
+<U1DFB> <y> <r>                     : "ʀ"
+
+##################
+# [END OF RULES] #
+##################

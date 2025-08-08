@@ -1,0 +1,55 @@
+# Latin Alphabet | Horn Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_horn> <O> : "Ơ"
+<dead_horn> <o> : "ơ"
+<dead_horn> <U> : "Ư"
+<dead_horn> <u> : "ư"
+
+
+# Precomposed Vietnamese letter combinations (Unidirectional)
+<dead_horn> <Oacute>            : "Ớ"
+<dead_horn> <oacute>            : "ớ"
+<dead_horn> <dead_acute> <O>    : "Ớ"
+<dead_horn> <dead_acute> <o>    : "ớ"
+<dead_horn> <Ograve>            : "Ờ"
+<dead_horn> <ograve>            : "ờ"
+<dead_horn> <dead_grave> <O>    : "Ờ"
+<dead_horn> <dead_grave> <o>    : "ờ"
+<dead_horn> <Otilde>            : "Ỡ"
+<dead_horn> <otilde>            : "ỡ"
+<dead_horn> <dead_tilde> <O>    : "Ỡ"
+<dead_horn> <dead_tilde> <o>    : "ỡ"
+<dead_horn> <Obelowdot>         : "Ợ"
+<dead_horn> <obelowdot>         : "ợ"
+<dead_horn> <dead_belowdot> <O> : "Ợ"
+<dead_horn> <dead_belowdot> <o> : "ợ"
+<dead_horn> <Ohook>             : "Ở"
+<dead_horn> <ohook>             : "ở"
+<dead_horn> <dead_hook> <O>     : "Ở"
+<dead_horn> <dead_hook> <o>     : "ở"
+<dead_horn> <Uacute>            : "Ứ"
+<dead_horn> <uacute>            : "ứ"
+<dead_horn> <dead_acute> <U>    : "Ứ"
+<dead_horn> <dead_acute> <u>    : "ứ"
+<dead_horn> <Ugrave>            : "Ừ"
+<dead_horn> <ugrave>            : "ừ"
+<dead_horn> <dead_grave> <U>    : "Ừ"
+<dead_horn> <dead_grave> <u>    : "ừ"
+<dead_horn> <Utilde>            : "Ữ"
+<dead_horn> <utilde>            : "ữ"
+<dead_horn> <dead_tilde> <U>    : "Ữ"
+<dead_horn> <dead_tilde> <u>    : "ữ"
+<dead_horn> <Ubelowdot>         : "Ự"
+<dead_horn> <ubelowdot>         : "ự"
+<dead_horn> <dead_belowdot> <U> : "Ự"
+<dead_horn> <dead_belowdot> <u> : "ự"
+<dead_horn> <Uhook>             : "Ử"
+<dead_horn> <uhook>             : "ử"
+<dead_horn> <dead_hook> <U>     : "Ử"
+<dead_horn> <dead_hook> <u>     : "ử"
+
+##################
+# [END OF RULES] #
+##################

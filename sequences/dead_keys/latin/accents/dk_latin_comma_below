@@ -1,0 +1,16 @@
+# Latin Alphabet | Comma Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowcomma> <UA72C>           : "Ꜯ"  # Ꜭ (Cuatrillo) + Comma Below
+<dead_belowcomma> <UA72D>           : "ꜯ"  # ꜭ (Cuatrillo) + Comma Below
+<dead_belowcomma> <U1DFB> <S> <4>   : "Ꜯ"
+<dead_belowcomma> <U1DFB> <s> <4>   : "ꜯ"
+<dead_belowcomma> <S>               : "Ș"
+<dead_belowcomma> <s>               : "ș"
+<dead_belowcomma> <T>               : "Ț"
+<dead_belowcomma> <t>               : "ț"
+
+##################
+# [END OF RULES] #
+##################

@@ -1,0 +1,20 @@
+# Latin Alphabet | Inverted Breve Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_invertedbreve> <A>  : "Ȃ"
+<dead_invertedbreve> <a>  : "ȃ"
+<dead_invertedbreve> <E>  : "Ȇ"
+<dead_invertedbreve> <e>  : "ȇ"
+<dead_invertedbreve> <I>  : "Ȋ"
+<dead_invertedbreve> <i>  : "ȋ"
+<dead_invertedbreve> <O>  : "Ȏ"
+<dead_invertedbreve> <o>  : "ȏ"
+<dead_invertedbreve> <R>  : "Ȓ"
+<dead_invertedbreve> <r>  : "ȓ"
+<dead_invertedbreve> <U>  : "Ȗ"
+<dead_invertedbreve> <u>  : "ȗ"
+
+##################
+# [END OF RULES] #
+##################

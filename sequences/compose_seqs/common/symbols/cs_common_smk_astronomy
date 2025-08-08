@@ -1,0 +1,79 @@
+# Common Compose Sequences | Astronomical + Astrological Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing astronomical symbols
+# > that can be input with alphabetical Latin characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Astronomical_symbols
+#
+
+# Astronomical + Astrological Symbols (Asteroids & Dwarf Planets)
+#
+# [NOTE]: All symbols listed here are enclosed inside curly brackets,
+#         with their correspondent number being their MPC numerical designation.
+#
+<Multi_key> <U232C> <braceleft> <1> <braceright>                                : "⚳"   # Ceres
+<Multi_key> <U232C> <braceleft> <2> <braceright>                                : "⚴"   # Pallas
+<Multi_key> <U232C> <braceleft> <3> <braceright>                                : "⚵"   # Juno
+<Multi_key> <U232C> <braceleft> <4> <minus> <braceright>                        : "🝷"   # Vesta
+<Multi_key> <U232C> <braceleft> <4> <plus> <braceright>                         : "⚶"   # Vesta
+<Multi_key> <U232C> <braceleft> <5> <minus> <braceright>                        : "⚖"   # Astraea
+<Multi_key> <U232C> <braceleft> <5> <plus> <braceright>                         : "🝸"   # Astraea
+<Multi_key> <U232C> <braceleft> <6> <braceright>                                : "𜻀"   # Hebe
+<Multi_key> <U232C> <braceleft> <7> <braceright>                                : "𜻁"   # Iris
+<Multi_key> <U232C> <braceleft> <8> <braceright>                                : "𜻂"   # Flora
+<Multi_key> <U232C> <braceleft> <9> <braceright>                                : "𜻃"   # Metis
+<Multi_key> <U232C> <braceleft> <1> <0> <braceright>                            : "🝹"   # Hygiea
+<Multi_key> <U232C> <braceleft> <1> <0> <braceright>                            : "⚕"   # Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <1> <1> <braceright>                            : "𜻄"   # Parthenope
+<Multi_key> <U232C> <braceleft> <1> <1> <braceright>                            : "🝺"   # Parthenope
+<Multi_key> <U232C> <braceleft> <1> <2> <braceright>                            : "𜻅"   # Victoria
+<Multi_key> <U232C> <braceleft> <1> <3> <braceright>                            : "𜻆"   # Egeria
+<Multi_key> <U232C> <braceleft> <1> <4> <braceright>                            : "𜻇"   # Irene
+<Multi_key> <U232C> <braceleft> <1> <5> <braceright>                            : "𜻈"   # Eunomia
+<Multi_key> <U232C> <braceleft> <1> <6> <braceright>                            : "𜻉"   # Psyche
+<Multi_key> <U232C> <braceleft> <1> <7> <braceright>                            : "𜻊"   # Thetis
+<Multi_key> <U232C> <braceleft> <1> <8> <braceright>                            : "𜻋"   # Melpomene
+<Multi_key> <U232C> <braceleft> <1> <9> <braceright>                            : "𜻌"   # Fortuna
+<Multi_key> <U232C> <braceleft> <2> <6> <braceright>                            : "𜻍"   # Proserpina
+<Multi_key> <U232C> <braceleft> <2> <8> <braceright>                            : "𜻎"   # Belona
+<Multi_key> <U232C> <braceleft> <2> <9> <braceright>                            : "𜻏"   # Amphitrite
+<Multi_key> <U232C> <braceleft> <3> <5> <braceright>                            : "𜻐"   # Leukothea
+<Multi_key> <U232C> <braceleft> <3> <7> <braceright>                            : "✝"   # Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <5> <0> <0> <0> <0> <braceright>                : "🝾"   # Quaoar
+<Multi_key> <U232C> <braceleft> <9> <0> <3> <7> <7> <braceright>                : "⯲"   # Sedna
+<Multi_key> <U232C> <braceleft> <9> <0> <4> <8> <2> <braceright>                : "🝿"   # Orcus
+# <Multi_key> <U232C> <braceleft> <9> <9> <9> <4> <2> <braceright>              : "¿?"   # Apophis
+<Multi_key> <U232C> <braceleft> <1> <3> <4> <3> <4> <0> <minus> <braceright>    : "⯓"   # Pluto
+<Multi_key> <U232C> <braceleft> <1> <3> <4> <3> <4> <0> <plus> <braceright>     : "♇"   # Pluto
+<Multi_key> <U232C> <braceleft> <1> <3> <6> <1> <0> <8> <braceright>            : "🝻"   # Haumea
+<Multi_key> <U232C> <braceleft> <1> <3> <6> <1> <9> <9> <braceright>            : "⯰"   # Eris
+<Multi_key> <U232C> <braceleft> <1> <3> <6> <4> <7> <2> <braceright>            : "🝼"   # Makemake
+<Multi_key> <U232C> <braceleft> <2> <2> <5> <0> <8> <8> <braceright>            : "🝽"   # Gonggong
+
+
+# Zodiac Symbols
+#
+# [NOTE]: All symbols listed here are enclosed in double curly brackets,
+#         each number being its zodiacal number/order.
+#
+<Multi_key> <U232C> <braceleft> <braceleft> <0> <braceright> <braceright>       : "♈︎"   # Aries
+<Multi_key> <U232C> <braceleft> <braceleft> <1> <braceright> <braceright>       : "♉︎"   # Taurus
+<Multi_key> <U232C> <braceleft> <braceleft> <2> <braceright> <braceright>       : "♊︎"   # Gemini
+<Multi_key> <U232C> <braceleft> <braceleft> <3> <braceright> <braceright>       : "♋︎"   # Cancer
+<Multi_key> <U232C> <braceleft> <braceleft> <4> <braceright> <braceright>       : "♌︎"   # Leo
+<Multi_key> <U232C> <braceleft> <braceleft> <5> <braceright> <braceright>       : "♍︎"   # Virgo
+<Multi_key> <U232C> <braceleft> <braceleft> <6> <braceright> <braceright>       : "♎︎"   # Libra
+<Multi_key> <U232C> <braceleft> <braceleft> <7> <braceright> <braceright>       : "♏︎"   # Scorpio
+<Multi_key> <U232C> <braceleft> <braceleft> <8> <braceright> <braceright>       : "♐︎"   # Sagitarius
+<Multi_key> <U232C> <braceleft> <braceleft> <9> <braceright> <braceright>       : "♑︎"   # Capricorn
+<Multi_key> <U232C> <braceleft> <braceleft> <1> <0> <braceright> <braceright>   : "♒︎"   # Aquarius
+<Multi_key> <U232C> <braceleft> <braceleft> <1> <1> <braceright> <braceright>   : "♓︎"   # Pisces
+<Multi_key> <U232C> <braceleft> <braceleft> <1> <2> <braceright> <braceright>   : "⛎︎"   # Ophiucus
+
+##################
+# [END OF RULES] #
+##################

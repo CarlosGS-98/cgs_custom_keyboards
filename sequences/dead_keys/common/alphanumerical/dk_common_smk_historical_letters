@@ -1,0 +1,19 @@
+# Common Dead Keys | Historical Letters Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing mainly historical letters
+# > across multiple writing systems.
+#
+# [NOTE]: This diacritic will be represented as [U1DFB]
+# ("᷻", Combining Deletion Mark) to serve
+# as a placeholder for this specific dead key.
+#
+
+# Basic combinations
+<U1DFB> <space> : "᷻"    # Combining Deletion Mark
+<U1DFB> <U1DFB> : "᷻"    # Combining Deletion Mark
+
+##################
+# [END OF RULES] #
+##################
