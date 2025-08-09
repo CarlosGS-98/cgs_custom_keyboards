@@ -1,0 +1,61 @@
+# Cyrillic Alphabet | Historical Letters Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Early Cyrillic Letters
+<U1DFB> <Cyrillic_DE> <Cyrillic_ZE>                             : "Ꙁ"  # Zemlja (Зємл҄ꙗ)
+<U1DFB> <Cyrillic_de> <Cyrillic_ze>                             : "ꙁ"  # Zemlja (Зємл҄ꙗ)
+<U1DFB> <dead_stroke> <Cyrillic_DE> <Cyrillic_ZE>               : "Ꙃ"  # Dzělo (Ѕѣло)
+<U1DFB> <dead_stroke> <Cyrillic_de> <Cyrillic_ze>               : "ꙃ"  # Dzělo (Ѕѣло)
+<U1DFB> <Cyrillic_DE> <Cyrillic_JE>                             : "Ꙉ"  # Djerv (Ꙉєрвъ)
+<U1DFB> <Cyrillic_de> <Cyrillic_je>                             : "ꙉ"  # Djerv (Ꙉєрвъ)
+<U1DFB> <dead_tilde> <Cyrillic_E>                               : "Ѧ"   # Little Yus
+<U1DFB> <dead_tilde> <Cyrillic_e>                               : "ѧ"   # Little Yus
+<U1DFB> <dead_tilde> <Cyrillic_IE>                              : "Ѩ"   # Iotated Little Yus
+<U1DFB> <dead_tilde> <Cyrillic_ie>                              : "ѩ"   # Iotated Little Yus
+<U1DFB> <dead_tilde> <Cyrillic_JE> <Cyrillic_E>                 : "Ѩ"   # Iotated Little Yus
+<U1DFB> <dead_tilde> <Cyrillic_je> <Cyrillic_e>                 : "ѩ"   # Iotated Little Yus
+<U1DFB> <dead_tilde> <underscore> <Cyrillic_E>                  : "Ꙙ"   # Closed Little Yus
+<U1DFB> <dead_tilde> <underscore> <Cyrillic_e>                  : "ꙙ"   # Closed Little Yus
+<U1DFB> <dead_tilde> <underscore> <Cyrillic_IE>                 : "Ꙝ"   # Iotated Closed Little Yus
+<U1DFB> <dead_tilde> <underscore> <Cyrillic_ie>                 : "ꙝ"   # Iotated Closed Little Yus
+<U1DFB> <dead_tilde> <underscore> <Cyrillic_JE> <Cyrillic_E>    : "Ꙝ"   # Iotated Closed Little Yus
+<U1DFB> <dead_tilde> <underscore> <Cyrillic_je> <Cyrillic_e>    : "ꙝ"   # Iotated Closed Little Yus
+<U1DFB> <dead_tilde> <Cyrillic_O>                               : "Ѫ"   # Big Yus
+<U1DFB> <dead_tilde> <Cyrillic_o>                               : "ѫ"   # Big Yus
+<U1DFB> <dead_tilde> <Cyrillic_IO>                              : "Ѭ"  # Iotated Big Yus
+<U1DFB> <dead_tilde> <Cyrillic_io>                              : "ѭ"  # Iotated Big Yus
+<U1DFB> <dead_tilde> <Cyrillic_JE> <Cyrillic_O>                 : "Ѭ"  # Iotated Big Yus
+<U1DFB> <dead_tilde> <Cyrillic_je> <Cyrillic_o>                 : "ѭ"  # Iotated Big Yus
+<U1DFB> <dead_tilde> <underscore> <Cyrillic_O>                  : "Ꙛ"   # Closed Little Yus
+<U1DFB> <dead_tilde> <underscore> <Cyrillic_o>                  : "ꙛ"   # Closed Little Yus
+<U1DFB> <Cyrillic_I>                                            : "Ꙇ"  # Cyrillic Iota
+<U1DFB> <Cyrillic_i>                                            : "ꙇ"  # Cyrillic Iota
+<U1DFB> <Ukrainian_I>                                           : "Ꙇ"  # Cyrillic Iota
+<U1DFB> <Ukrainian_i>                                           : "ꙇ"  # Cyrillic Iota
+<U1DFB> <Cyrillic_KA> <Cyrillic_ES>                             : "Ѯ"   # Ksi (Ѯи)
+<U1DFB> <Cyrillic_ka> <Cyrillic_es>                             : "ѯ"   # Ksi (Ѯи)
+<U1DFB> <Cyrillic_YERU> <Cyrillic_EN>                           : "Ꙟ"   # Yn
+<U1DFB> <Cyrillic_yeru> <Cyrillic_en>                           : "ꙟ"   # Yn
+
+
+# Historical Komi Letters
+<U1DFB> <Cyrillic_KA> <Cyrillic_DE> <space>                     : "Ԁ"
+<U1DFB> <Cyrillic_ka> <Cyrillic_de> <space>                     : "ԁ"
+<U1DFB> <Cyrillic_KA> <Cyrillic_DE> <Cyrillic_ZE> <Cyrillic_JE> : "Ԅ"
+<U1DFB> <Cyrillic_ka> <Cyrillic_de> <Cyrillic_ze> <Cyrillic_je> : "ԅ"
+<U1DFB> <Cyrillic_KA> <Cyrillic_DE> <Cyrillic_JE>               : "Ԃ"
+<U1DFB> <Cyrillic_ka> <Cyrillic_de> <Cyrillic_je>               : "ԃ"
+<U1DFB> <Cyrillic_KA> <Cyrillic_ZE> <Cyrillic_JE>               : "Ԅ"
+<U1DFB> <Cyrillic_ka> <Cyrillic_ze> <Cyrillic_je>               : "ԅ"
+<U1DFB> <Cyrillic_KA> <Cyrillic_EL> <Cyrillic_JE>               : "Ԉ"
+<U1DFB> <Cyrillic_ka> <Cyrillic_el> <Cyrillic_je>               : "ԉ"
+<U1DFB> <Cyrillic_KA> <Cyrillic_EN> <Cyrillic_JE>               : "Ԋ"
+<U1DFB> <Cyrillic_ka> <Cyrillic_en> <Cyrillic_je>               : "ԋ"
+<U1DFB> <Cyrillic_KA> <Cyrillic_ES> <Cyrillic_JE>               : "Ԍ"
+<U1DFB> <Cyrillic_ka> <Cyrillic_es> <Cyrillic_je>               : "ԍ"
+<U1DFB> <Cyrillic_KA> <Cyrillic_TE> <Cyrillic_JE>               : "Ԏ"
+<U1DFB> <Cyrillic_ka> <Cyrillic_te> <Cyrillic_je>               : "ԏ"
+
+##################
+# [END OF RULES] #
+##################

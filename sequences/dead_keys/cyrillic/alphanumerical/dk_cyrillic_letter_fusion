@@ -1,15 +1,19 @@
 # Cyrillic Alphabet | Letter Fusion Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Basic precomposed letter combinations
+# Basic precomposed letter combinations | Ҿҿ
 # [Main source]: https://en.wikipedia.org/wiki/List_of_Cyrillic_letters
 #
 <U1DCF> <Cyrillic_A> <Cyrillic_E>               : "Ӕ"
 <U1DCF> <Cyrillic_a> <Cyrillic_e>               : "ӕ"
+<U1DCF> <Cyrillic_A> <Cyrillic_SHHA>            : "Ҩ"   # Abkhazian Ha
+<U1DCF> <Cyrillic_a> <Cyrillic_shha>            : "ҩ"   # Abkhazian Ha
 <U1DCF> <Cyrillic_A> <Cyrillic_IE>              : "Ә"
 <U1DCF> <Cyrillic_a> <Cyrillic_ie>              : "ә"
 <U1DCF> <Cyrillic_VE> <Cyrillic_VE>             : "Ԝ"   # We
 <U1DCF> <Cyrillic_ve> <Cyrillic_ve>             : "ԝ"   # We
+<U1DCF> <Cyrillic_DE> <3>                       : "Ӡ"   # Abkhazian Dze
+<U1DCF> <Cyrillic_de> <3>                       : "ӡ"   # Abkhazian Dze
 <U1DCF> <Cyrillic_DE> <Cyrillic_VE>             : "Ꚁ"   # Dwe
 <U1DCF> <Cyrillic_de> <Cyrillic_ve>             : "ꚁ"   # Dwe
 <U1DCF> <Cyrillic_DE> <Cyrillic_GHE>            : "Ꙣ"
@@ -24,6 +28,8 @@
 <U1DCF> <Cyrillic_de> <Cyrillic_je>             : "ђ"
 <U1DCF> <Cyrillic_DE> <Cyrillic_CHE>            : "Ԭ"
 <U1DCF> <Cyrillic_de> <Cyrillic_che>            : "ԭ"
+<U1DCF> <Cyrillic_IE> <Cyrillic_CHE>            : "Ҽ"   # Abkhazian Che
+<U1DCF> <Cyrillic_ie> <Cyrillic_che>            : "ҽ"   # Abkhazian Che
 <U1DCF> <Cyrillic_ZE> <Cyrillic_ZHE>            : "Ꚅ"
 <U1DCF> <Cyrillic_ze> <Cyrillic_zhe>            : "ꚅ"
 <U1DCF> <Macedonia_DSE> <Cyrillic_VE>           : "Ꚃ̏"   # Dzwe
@@ -62,12 +68,20 @@
 <U1DCF> <Cyrillic_o> <Cyrillic_i>               : "ꙕ"   # Reversed Yu
 <U1DCF> <Cyrillic_O> <Ukrainian_I>              : "Ꙕ"   # Reversed Yu
 <U1DCF> <Cyrillic_o> <Ukrainian_i>              : "ꙕ"   # Reversed Yu
+<U1DCF> <Cyrillic_O> <period>                   : "Ꙩ"   # Monocular O
+<U1DCF> <Cyrillic_o> <period>                   : "ꙩ"   # Monocular O
+<U1DCF> <Cyrillic_O> <colon>                    : "Ꙫ"   # Binocular O
+<U1DCF> <Cyrillic_o> <colon>                    : "ꙫ"   # Binocular O
 <U1DCF> <Cyrillic_O> <Cyrillic_O>               : "Ꚙ"
 <U1DCF> <Cyrillic_o> <Cyrillic_o>               : "ꚙ"
 <U1DCF> <Cyrillic_O> <colon> <Cyrillic_O>       : "Ꙭ"
 <U1DCF> <Cyrillic_o> <colon> <Cyrillic_o>       : "ꙭ"
 <U1DCF> <Cyrillic_O> <period> <Cyrillic_O>      : "Ꙭ"
 <U1DCF> <Cyrillic_o> <period> <Cyrillic_o>      : "ꙭ"
+<U1DCF> <Cyrillic_O> <1> <0>                    : "ꙮ"   # Multiocular O
+<U1DCF> <Cyrillic_o> <1> <0>                    : "ꙮ"   # Multiocular O
+<U1DCF> <Cyrillic_O> <plus>                     : "Ꚛ"   # Crossed O
+<U1DCF> <Cyrillic_o> <plus>                     : "ꚛ"   # Crossed O
 <U1DCF> <Cyrillic_O> <Cyrillic_U>               : "Ѹ"
 <U1DCF> <Cyrillic_o> <Cyrillic_u>               : "ѹ"
 <U1DCF> <Cyrillic_U> <Cyrillic_KA>              : "Ꙋ"
@@ -104,6 +118,12 @@
 <U1DCF> <Cyrillic_softsign> <Ukrainian_i>       : "ы"   # Yeru
 <U1DCF> <Cyrillic_YA> <Cyrillic_E>              : "Ԙ"
 <U1DCF> <Cyrillic_ya> <Cyrillic_e>              : "ԙ"
+<U1DCF> <colon> <Cyrillic_O>                    : "Ꙫ"   # Binocular O
+<U1DCF> <colon> <Cyrillic_o>                    : "ꙫ"   # Binocular O
+<U1DCF> <period> <Cyrillic_O>                   : "Ꙩ"   # Monocular O
+<U1DCF> <period> <Cyrillic_o>                   : "ꙩ"   # Monocular O
+<U1DCF> <plus> <Cyrillic_O>                     : "Ꚛ"   # Crossed O
+<U1DCF> <plus> <Cyrillic_o>                     : "ꚛ"   # Crossed O
 
 ##################
 # [END OF RULES] #

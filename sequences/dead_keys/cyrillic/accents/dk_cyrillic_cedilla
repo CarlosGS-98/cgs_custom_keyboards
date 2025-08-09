@@ -9,38 +9,40 @@
 #
 # [NOTE]: This diacritic has been placed here for convenience.
 #
-<dead_cedilla> <minus> <Cyrillic_GHE>   : "Ӷ"
-<dead_cedilla> <minus> <Cyrillic_ghe>   : "ӷ"
-<dead_cedilla> <minus> <Cyrillic_ZHE>   : "Җ"
-<dead_cedilla> <minus> <Cyrillic_zhe>   : "җ"
-<dead_cedilla> <minus> <Cyrillic_ZE>    : "Ҙ"
-<dead_cedilla> <minus> <Cyrillic_ze>    : "ҙ"
-<dead_cedilla> <minus> <Cyrillic_SHHA>  : "Ԧ"
-<dead_cedilla> <minus> <Cyrillic_shha>  : "ԧ"
-<dead_cedilla> <minus> <Cyrillic_KA>    : "Қ"
-<dead_cedilla> <minus> <Cyrillic_ka>    : "қ"
-<dead_cedilla> <minus> <Cyrillic_EL>    : "Ԯ"
-<dead_cedilla> <minus> <Cyrillic_el>    : "ԯ"
-<dead_cedilla> <minus> <Cyrillic_EN>    : "Ң"
-<dead_cedilla> <minus> <Cyrillic_en>    : "ң"
-<dead_cedilla> <minus> <Cyrillic_PE>    : "Ԥ"
-<dead_cedilla> <minus> <Cyrillic_pe>    : "ԥ"
-<dead_cedilla> <minus> <Cyrillic_ES>    : "Ҫ"
-<dead_cedilla> <minus> <Cyrillic_es>    : "ҫ"
-<dead_cedilla> <minus> <Cyrillic_TE>    : "Ҭ"
-<dead_cedilla> <minus> <Cyrillic_te>    : "ҭ"
-<dead_cedilla> <minus> <Cyrillic_U>     : "Ү"   # Technical exception
-<dead_cedilla> <minus> <Cyrillic_u>     : "ү"   # Technical exception
-<dead_cedilla> <minus> <Cyrillic_HA>    : "Ҳ"
-<dead_cedilla> <minus> <Cyrillic_ha>    : "ҳ"
-<dead_cedilla> <minus> <Cyrillic_CHE>   : "Ҷ"
-<dead_cedilla> <minus> <Cyrillic_che>   : "ҷ"
-<dead_cedilla> <plus> <Cyrillic_CHE>    : "Ӌ"   # As an exception, as the descender is written to the left
-<dead_cedilla> <plus> <Cyrillic_che>    : "ӌ"   # As an exception, as the descender is written to the left
-<dead_cedilla> <minus> <U04BC>          : "Ҿ"   # Ҽ (Abkhazian Che) + Descender
-<dead_cedilla> <minus> <U04BD>          : "ҿ"   # ҽ (Abkhazian Che) + Descender
-<dead_cedilla> <minus> <Cyrillic_SHA>   : "Щ"
-<dead_cedilla> <minus> <Cyrillic_sha>   : "щ"
+<dead_cedilla> <minus> <Cyrillic_GHE>                       : "Ӷ"
+<dead_cedilla> <minus> <Cyrillic_ghe>                       : "ӷ"
+<dead_cedilla> <minus> <Cyrillic_ZHE>                       : "Җ"
+<dead_cedilla> <minus> <Cyrillic_zhe>                       : "җ"
+<dead_cedilla> <minus> <Cyrillic_ZE>                        : "Ҙ"
+<dead_cedilla> <minus> <Cyrillic_ze>                        : "ҙ"
+<dead_cedilla> <minus> <Cyrillic_SHHA>                      : "Ԧ"
+<dead_cedilla> <minus> <Cyrillic_shha>                      : "ԧ"
+<dead_cedilla> <minus> <Cyrillic_KA>                        : "Қ"
+<dead_cedilla> <minus> <Cyrillic_ka>                        : "қ"
+<dead_cedilla> <minus> <Cyrillic_EL>                        : "Ԯ"
+<dead_cedilla> <minus> <Cyrillic_el>                        : "ԯ"
+<dead_cedilla> <minus> <Cyrillic_EN>                        : "Ң"
+<dead_cedilla> <minus> <Cyrillic_en>                        : "ң"
+<dead_cedilla> <minus> <Cyrillic_PE>                        : "Ԥ"
+<dead_cedilla> <minus> <Cyrillic_pe>                        : "ԥ"
+<dead_cedilla> <minus> <Cyrillic_ES>                        : "Ҫ"
+<dead_cedilla> <minus> <Cyrillic_es>                        : "ҫ"
+<dead_cedilla> <minus> <Cyrillic_TE>                        : "Ҭ"
+<dead_cedilla> <minus> <Cyrillic_te>                        : "ҭ"
+<dead_cedilla> <minus> <Cyrillic_U>                         : "Ү"   # Technical exception
+<dead_cedilla> <minus> <Cyrillic_u>                         : "ү"   # Technical exception
+<dead_cedilla> <minus> <Cyrillic_HA>                        : "Ҳ"
+<dead_cedilla> <minus> <Cyrillic_ha>                        : "ҳ"
+<dead_cedilla> <minus> <Cyrillic_CHE>                       : "Ҷ"
+<dead_cedilla> <minus> <Cyrillic_che>                       : "ҷ"
+<dead_cedilla> <plus> <Cyrillic_CHE>                        : "Ӌ"   # As an exception, as the descender is written to the left
+<dead_cedilla> <plus> <Cyrillic_che>                        : "ӌ"   # As an exception, as the descender is written to the left
+<dead_cedilla> <minus> <U04BC>                              : "Ҿ"   # Ҽ (Abkhazian Che) + Descender
+<dead_cedilla> <minus> <U04BD>                              : "ҿ"   # ҽ (Abkhazian Che) + Descender
+<dead_cedilla> <minus> <U1DCF> <Cyrillic_IE> <Cyrillic_CHE> : "Ҽ"
+<dead_cedilla> <minus> <U1DCF> <Cyrillic_ie> <Cyrillic_che> : "ҽ"
+<dead_cedilla> <minus> <Cyrillic_SHA>                       : "Щ"
+<dead_cedilla> <minus> <Cyrillic_sha>                       : "щ"
 
 
 # Other precomposed descender combinations (Unidirectional)
