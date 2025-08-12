@@ -1,0 +1,121 @@
+# Greek Alphabet | Circumflex Accent (Perispomeni) Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Greek_diacritics
+#
+
+# Basic precomposed letter combinations
+<dead_tilde> <Greek_alpha>      : "ᾶ"
+<dead_tilde> <Greek_eta>        : "ῆ"
+<dead_tilde> <Greek_iota>       : "ῖ"
+<dead_tilde> <Greek_upsilon>    : "ῦ"
+<dead_tilde> <Greek_omega>      : "ῶ"
+
+
+# Other precomposed grave accent/Perispomeni combinations (Unidirectional)
+<dead_tilde> <U1F08>                                                : "Ἆ"   # Ἀ + Perispomeni
+<dead_tilde> <U1F00>                                                : "ἆ"   # ἀ + Perispomeni
+<dead_tilde> <dead_abovecomma> <Greek_ALPHA>                        : "Ἆ"
+<dead_tilde> <dead_abovecomma> <Greek_alpha>                        : "ἆ"
+<dead_tilde> <dead_abovecomma> <U1FBC>                              : "ᾎ"   # ᾼ + Perispomeni + Psili
+<dead_tilde> <dead_abovecomma> <U1FB3>                              : "ᾆ"   # ᾳ + Perispomeni + Psili
+<dead_tilde> <dead_abovecomma> <dead_iota> <Greek_ALPHA>            : "ᾎ"
+<dead_tilde> <dead_abovecomma> <dead_iota> <Greek_alpha>            : "ᾆ"
+<dead_tilde> <U1F09>                                                : "Ἇ"   # Ἁ + Perispomeni
+<dead_tilde> <U1F01>                                                : "ἇ"   # ἁ + Perispomeni
+<dead_tilde> <dead_abovereversedcomma> <Greek_ALPHA>                : "Ἇ"
+<dead_tilde> <dead_abovereversedcomma> <Greek_alpha>                : "ἇ"
+<dead_tilde> <dead_abovereversedcomma> <U1FBC>                      : "ᾏ"   # ᾼ + Perispomeni + Dasia
+<dead_tilde> <dead_abovereversedcomma> <U1FB3>                      : "ᾇ"   # ᾳ + Perispomeni + Dasia
+<dead_tilde> <dead_abovereversedcomma> <dead_iota> <Greek_ALPHA>    : "ᾏ"
+<dead_tilde> <dead_abovereversedcomma> <dead_iota> <Greek_alpha>    : "ᾇ"
+<dead_tilde> <U1F88>                                                : "ᾎ"   # ᾈ + Perispomeni
+<dead_tilde> <U1F80>                                                : "ᾆ"   # ᾀ + Perispomeni
+<dead_tilde> <dead_iota> <U1F08>                                    : "ᾎ"   # Ἀ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <U1F00>                                    : "ᾆ"   # ἀ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <dead_abovecomma> <Greek_ALPHA>            : "ᾎ"
+<dead_tilde> <dead_iota> <dead_abovecomma> <Greek_alpha>            : "ᾆ"
+<dead_tilde> <U1F89>                                                : "ᾏ"   # ᾉ + Perispomeni
+<dead_tilde> <U1F81>                                                : "ᾇ"   # ᾁ + Perispomeni
+<dead_tilde> <dead_iota> <U1F09>                                    : "ᾏ"   # Ἁ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <U1F01>                                    : "ᾇ"   # ἁ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <dead_abovereversedcomma> <Greek_ALPHA>    : "ᾏ"
+<dead_tilde> <dead_iota> <dead_abovereversedcomma> <Greek_alpha>    : "ᾇ"
+<dead_tilde> <U1F28>                                                : "Ἦ"   # Ἠ + Perispomeni
+<dead_tilde> <U1F20>                                                : "ἦ"   # ἠ + Perispomeni
+<dead_tilde> <dead_abovecomma> <Greek_ETA>                          : "Ἦ"
+<dead_tilde> <dead_abovecomma> <Greek_eta>                          : "ἦ"
+<dead_tilde> <dead_abovecomma> <U1F9C>                              : "ᾞ"   # ῌ + Perispomeni + Psili
+<dead_tilde> <dead_abovecomma> <U1F94>                              : "ᾖ"   # ῃ + Perispomeni + Psili
+<dead_tilde> <dead_abovecomma> <dead_iota> <Greek_ETA>              : "ᾞ"
+<dead_tilde> <dead_abovecomma> <dead_iota> <Greek_eta>              : "ᾖ"
+<dead_tilde> <U1F29>                                                : "Ἧ"   # Ἡ + Perispomeni
+<dead_tilde> <U1F21>                                                : "ἧ"   # ἡ + Perispomeni
+<dead_tilde> <dead_abovereversedcomma> <Greek_ETA>                  : "Ἧ"
+<dead_tilde> <dead_abovereversedcomma> <Greek_eta>                  : "ἧ"
+<dead_tilde> <dead_abovereversedcomma> <U1F9D>                      : "ᾟ"   # ῌ + Perispomeni + Dasia
+<dead_tilde> <dead_abovereversedcomma> <U1F95>                      : "ᾗ"   # ῃ + Perispomeni + Dasia
+<dead_tilde> <dead_abovereversedcomma> <dead_iota> <Greek_ETA>      : "ᾟ"
+<dead_tilde> <dead_abovereversedcomma> <dead_iota> <Greek_eta>      : "ᾗ"
+<dead_tilde> <U1F98>                                                : "ᾞ"   # ᾘ + Perispomeni
+<dead_tilde> <U1F90>                                                : "ᾖ"   # ᾐ + Perispomeni
+<dead_tilde> <dead_iota> <U1F28>                                    : "ᾞ"   # Ἠ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <U1F20>                                    : "ᾖ"   # ἠ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <dead_abovecomma> <Greek_ETA>              : "ᾞ"
+<dead_tilde> <dead_iota> <dead_abovecomma> <Greek_eta>              : "ᾖ"
+<dead_tilde> <U1F99>                                                : "ᾟ"   # ᾙ + Perispomeni
+<dead_tilde> <U1F91>                                                : "ᾗ"   # ᾑ + Perispomeni
+<dead_tilde> <dead_iota> <U1F29>                                    : "ᾟ"   # Ἡ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <U1F21>                                    : "ᾗ"   # ἡ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <dead_abovereversedcomma> <Greek_ETA>      : "ᾟ"
+<dead_tilde> <dead_iota> <dead_abovereversedcomma> <Greek_eta>      : "ᾗ"
+<dead_tilde> <U03CA>                                                : "ῗ"   # ϊ + Perispomeni + Dialytika
+<dead_tilde> <dead_diaeresis> <Greek_iota>                          : "ῗ"
+<dead_tilde> <U1F38>                                                : "Ἶ"   # Ἰ + Perispomeni
+<dead_tilde> <U1F30>                                                : "ἶ"   # ἰ + Perispomeni
+<dead_tilde> <dead_abovecomma> <Greek_IOTA>                         : "Ἶ"
+<dead_tilde> <dead_abovecomma> <Greek_iota>                         : "ἶ"
+<dead_tilde> <U1F39>                                                : "Ἷ"   # Ἱ + Perispomeni
+<dead_tilde> <U1F31>                                                : "ἷ"   # ἱ + Perispomeni
+<dead_tilde> <dead_abovereversedcomma> <Greek_IOTA>                 : "Ἷ"
+<dead_tilde> <dead_abovereversedcomma> <Greek_iota>                 : "ἷ"
+<dead_tilde> <U03CB>                                                : "ῧ"   # ϋ + Perispomeni + Dialytika
+<dead_tilde> <dead_diaeresis> <Greek_upsilon>                       : "ῧ"
+<dead_tilde> <U1F50>                                                : "ὖ"   # ὐ + Perispomeni
+<dead_tilde> <dead_abovecomma> <Greek_upsilon>                      : "ὖ"
+<dead_tilde> <U1F59>                                                : "Ὗ"   # Ὑ + Perispomeni
+<dead_tilde> <U1F51>                                                : "ὗ"   # ὑ + Perispomeni
+<dead_tilde> <dead_abovereversedcomma> <Greek_UPSILON>              : "Ὗ"
+<dead_tilde> <dead_abovereversedcomma> <Greek_upsilon>              : "ὗ"
+<dead_tilde> <U1F68>                                                : "Ὦ"   # Ὠ + Perispomeni
+<dead_tilde> <U1F60>                                                : "ὦ"   # ὠ + Perispomeni
+<dead_tilde> <dead_abovecomma> <Greek_OMEGA>                        : "Ὦ"
+<dead_tilde> <dead_abovecomma> <Greek_omega>                        : "ὦ"
+<dead_tilde> <dead_abovecomma> <U1FA8>                              : "ᾮ"   # ᾨ + Perispomeni + Psili
+<dead_tilde> <dead_abovecomma> <U1FA0>                              : "ᾦ"   # ᾠ + Perispomeni + Psili
+<dead_tilde> <dead_abovecomma> <dead_iota> <Greek_OMEGA>            : "ᾮ"
+<dead_tilde> <dead_abovecomma> <dead_iota> <Greek_omega>            : "ᾦ"
+<dead_tilde> <U1F69>                                                : "Ὧ"   # Ὡ + Perispomeni
+<dead_tilde> <U1F61>                                                : "ὧ"   # ὡ + Perispomeni
+<dead_tilde> <dead_abovereversedcomma> <Greek_OMEGA>                : "Ὧ"
+<dead_tilde> <dead_abovereversedcomma> <Greek_omega>                : "ὧ"
+<dead_tilde> <dead_abovereversedcomma> <U1FAD>                      : "ᾯ"   # ᾩ + Perispomeni + Dasia
+<dead_tilde> <dead_abovereversedcomma> <U1FA5>                      : "ᾧ"   # ᾡ + Perispomeni + Dasia
+<dead_tilde> <dead_abovereversedcomma> <dead_iota> <Greek_OMEGA>    : "ᾯ"
+<dead_tilde> <dead_abovereversedcomma> <dead_iota> <Greek_omega>    : "ᾧ"
+<dead_tilde> <U1FA8>                                                : "ᾮ"   # ᾨ + Perispomeni
+<dead_tilde> <U1FA0>                                                : "ᾦ"   # ᾠ + Perispomeni
+<dead_tilde> <dead_iota> <U1F68>                                    : "ᾮ"   # Ὠ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <U1F60>                                    : "ᾦ"   # ὠ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <dead_abovecomma> <Greek_OMEGA>            : "ᾮ"
+<dead_tilde> <dead_iota> <dead_abovecomma> <Greek_omega>            : "ᾦ"
+<dead_tilde> <U1FA9>                                                : "ᾯ"   # ᾩ + Perispomeni
+<dead_tilde> <U1FA1>                                                : "ᾧ"   # ᾡ + Perispomeni
+<dead_tilde> <dead_iota> <U1F69>                                    : "ᾯ"   # Ὡ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <U1F61>                                    : "ᾧ"   # ὡ + Perispomeni + Iota
+<dead_tilde> <dead_iota> <dead_abovereversedcomma> <Greek_OMEGA>    : "ᾯ"
+<dead_tilde> <dead_iota> <dead_abovereversedcomma> <Greek_omega>    : "ᾧ"
+
+##################
+# [END OF RULES] #
+##################
