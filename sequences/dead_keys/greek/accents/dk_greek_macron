@@ -1,0 +1,17 @@
+# Greek Alphabet | Macron Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Greek_diacritics
+#
+
+# Basic precomposed letter combinations
+<dead_macron> <Greek_ALPHA>     : "Ᾱ"
+<dead_macron> <Greek_alpha>     : "ᾱ"
+<dead_macron> <Greek_IOTA>      : "Ῑ"
+<dead_macron> <Greek_iota>      : "ῑ"
+<dead_macron> <Greek_UPSILON>   : "Ῡ"
+<dead_macron> <Greek_upsilon>   : "ῡ"
+
+##################
+# [END OF RULES] #
+##################
