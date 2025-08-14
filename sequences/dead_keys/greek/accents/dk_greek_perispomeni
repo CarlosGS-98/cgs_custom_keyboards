@@ -12,7 +12,7 @@
 <dead_tilde> <Greek_omega>      : "ῶ"
 
 
-# Other precomposed grave accent/Perispomeni combinations (Unidirectional)
+# Other precomposed circumflex accent/Perispomeni combinations (Unidirectional)
 <dead_tilde> <U1F08>                                                : "Ἆ"   # Ἀ + Perispomeni
 <dead_tilde> <U1F00>                                                : "ἆ"   # ἀ + Perispomeni
 <dead_tilde> <dead_abovecomma> <Greek_ALPHA>                        : "Ἆ"
