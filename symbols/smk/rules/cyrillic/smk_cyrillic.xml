@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <!-- Add these rules to both "base.xml" and "evdev.xml"
+       or, if you prefer, to "~/.config/xkb/rules/evdev.xml" -->
+  <layoutList>
+    <!-- (...) -->
+    <layout>
+      <configItem>
+        <name>smk/cyrillic</name>
+        <!-- Keyboard indicator for Skorpian Master Keyboard (Cyrillic Script) layouts -->
+        <shortDescription><!-- Insert locale name ("es", "fr", "de", "us", etc.) --></shortDescription>
+        <description>Skorpian Master Keyboard v16.0 (Cyrillic Alphabet)</description>
+        <countryList>
+          <iso3166Id><!-- Insert ISO-3166-1 Code --></iso3166Id>
+        </countryList>
+        <languageList>
+          <iso639Id>smk</iso639Id>
+        </languageList>
+      </configItem>
+
+      <variantList>
+        <variant>
+          <configItem>
+            <name>qwerty</name>
+            <description>SMK-Cyrillic (ԚЬЕРТЯ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_pt</name>
+            <description>SMK-Cyrillic (Portuguese ԚЬЕРТЯ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_us</name>
+            <description>SMK-Cyrillic (US ԚЬЕРТЯ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwertz</name>
+            <description>SMK-Cyrillic (ԚЬЕРТЗ)</description>
+          </configItem>
+        </variant>
+          <configItem>
+            <name>dvorak</name>
+            <description>SMK-Cyrillic (Дворак)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>SMK-Cyrillic (Colemak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>jcuken</name>
+            <description>SMK-Cyrillic (ЈЦУКЕН)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>bulgarian</name>
+            <description>SMK-Cyrillic (,УЕИШЩ)</description>
+          </configItem>
+        </variant>
+        <!-- (...) -->
+      </variantList>
+    </layout>
+    <!-- (...) -->
+  </layoutList>
+  <!-- (...) -->
+</xkbConfigRegistry>

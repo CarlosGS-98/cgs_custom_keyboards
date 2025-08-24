@@ -24,7 +24,7 @@
 #
 # [Main source]: https://en.wikipedia.org/wiki/Tags_(Unicode_block)
 #
-<Multi_key> <period> <backspace> <period>   : "󠁿"    # Cancel tag (Allows finishing an emoji flag/tag sequence)
+<Multi_key> <period> <BackSpace> <period>   : "󠁿"    # Cancel tag (Allows finishing an emoji flag/tag sequence)
 <Multi_key> <period> <less> <period>        : "󠁿"    # Cancel tag (Allows finishing an emoji flag/tag sequence)
 
 ##################

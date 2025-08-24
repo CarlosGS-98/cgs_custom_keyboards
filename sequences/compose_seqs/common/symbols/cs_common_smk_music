@@ -15,7 +15,7 @@
 
 # Modern Musical Notation (Beam Control Characters) (Non-Alphabetical)
 <Multi_key> <numbersign> <dollar> <less> <space>                : "𝅳"   # Begin Beam
-<Multi_key> <numbersign> <dollar> <grater> <space>              : "𝅴"   # End Beam
+<Multi_key> <numbersign> <dollar> <greater> <space>             : "𝅴"   # End Beam
 <Multi_key> <numbersign> <dollar> <minus> <less> <space>        : "𝅷"   # Begin Musical Slur
 <Multi_key> <numbersign> <dollar> <minus> <less> <space>        : "𝅸"   # End Musical Slur
 <Multi_key> <numbersign> <dollar> <parenleft> <space>           : "𝅹"   # Begin Phrase
