@@ -23,7 +23,7 @@
 <dead_abovereversedcomma> <Greek_omega>     : "ὡ"
 
 
-# Other precomposed diaeresis/Dialytika combinations (Unidirectional)
+# Other precomposed reversed comma above/Dasia combinations (Unidirectional)
 <dead_abovereversedcomma> <Greek_ALPHAaccent>                       : "Ἅ"   # Ά + Dasia
 <dead_abovereversedcomma> <Greek_alphaaccent>                       : "ἅ"   # ά + Dasia
 <dead_abovereversedcomma> <U1FBB>                                   : "Ἅ"   # Ά + Dasia

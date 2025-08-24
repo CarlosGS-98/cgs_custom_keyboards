@@ -21,7 +21,7 @@
 <dead_abovecomma> <Greek_omega>     : "ὠ"
 
 
-# Other precomposed diaeresis/Dialytika combinations (Unidirectional)
+# Other precomposed comma above/Psili combinations (Unidirectional)
 <dead_abovecomma> <Greek_ALPHAaccent>                       : "Ἄ"   # Ά + Psili
 <dead_abovecomma> <Greek_alphaaccent>                       : "ἄ"   # ά + Psili
 <dead_abovecomma> <U1FBB>                                   : "Ἄ"   # Ά + Psili
