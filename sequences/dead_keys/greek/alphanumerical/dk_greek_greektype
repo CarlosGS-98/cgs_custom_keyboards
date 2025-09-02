@@ -1,0 +1,47 @@
+# Greek Alphabet | Greek Converter Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Greek-Like Latin Letters (SMK 16.0+)
+# [Main source]: https://en.wikipedia.org/wiki/List_of_Latin-script_letters
+#
+# [NOTE]: This dead key also serves a purpose for Greek-based keyboards,
+# mainly to allow inputting Latin letters
+# intended for phonetic transcription (notably IPA).
+#
+# Additionally, each combination is listed according to its
+# (approximate) Latin alphabetical order.
+#
+<dead_greek> <Greek_ALPHA>                  : "Ɑ"   # Latin Alpha
+<dead_greek> <Greek_alpha>                  : "ɑ"   # Latin Alpha
+<dead_greek> <underscore> <Greek_ALPHA>     : "Ɒ"   # Latin Turned Alpha
+<dead_greek> <underscore> <Greek_alpha>     : "ɒ"   # Latin Turned Alpha
+<dead_greek> <Greek_BETA>                   : "Ꞵ"   # Latin Beta
+<dead_greek> <Greek_beta>                   : "ꞵ"   # Latin Beta
+<dead_greek> <Greek_DELTA>                  : "ẟ"   # Latin Delta
+<dead_greek> <Greek_delta>                  : "ẟ"   # Latin Delta
+<dead_greek> <U03E0>                        : "ƍ"   # "Greek Converter" + Ϡ = Turned Latin Delta
+<dead_greek> <U03E1>                        : "ƍ"   # "Greek Converter" + ϡ = Turned Latin Delta
+<dead_greek> <Greek_EPSILON>                : "Ɛ"   # Latin Epsilon
+<dead_greek> <Greek_epsilon>                : "ɛ"   # Latin Epsilon
+<dead_greek> <Greek_PHI>                    : "ɸ"   # Latin Phi
+<dead_greek> <Greek_phi>                    : "ɸ"   # Latin Phi
+<dead_greek> <Greek_GAMMA>                  : "Ɣ"   # Latin Gamma
+<dead_greek> <Greek_gamma>                  : "ɣ"   # Latin Gamma
+<dead_greek> <Greek_IOTA>                   : "Ɩ"   # Latin Iota
+<dead_greek> <Greek_iota>                   : "ɩ"   # Latin Iota
+<dead_greek> <Greek_LAMBDA>                 : "Ꟛ"   # Latin Lambda
+<dead_greek> <Greek_lambda>                 : "ꟛ"   # Latin Lambda
+<dead_greek> <Greek_OMICRON>                : "Ꞷ"   # Latin Omega
+<dead_greek> <Greek_omicron>                : "ꞷ"   # Latin Omega
+<dead_greek> <Greek_OMEGA>                  : "Ꞷ"   # Latin Omega
+<dead_greek> <Greek_omega>                  : "ꞷ"   # Latin Omega
+<dead_greek> <underscore> <Greek_OMICRON>   : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <Greek_omicron>   : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <Greek_OMEGA>     : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <Greek_omega>     : "ɷ"   # Latin Closed Omega
+<dead_greek> <Greek_UPSILON>                : "Ʊ"   # Latin Upsilon
+<dead_greek> <Greek_upsilon>                : "ʊ"   # Latin Upsilon
+
+##################
+# [END OF RULES] #
+##################
