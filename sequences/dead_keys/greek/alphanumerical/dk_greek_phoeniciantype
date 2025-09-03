@@ -1,0 +1,74 @@
+# Greek Alphabet | Phoenician Converter Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Phoenician_alphabet
+#
+# [NOTE]: Combinations will be listed following
+# Phoenician letter ordering as closely as possible.
+#
+# Additionally, each combination will get assigned to the closest
+# Greek letter that better matches its Phoenician counterpart.
+#
+<U10900> <Greek_ALPHA>      : "𐤀"   # ʾĀlep
+<U10900> <Greek_alpha>      : "𐤀"   # ʾĀlep
+<U10900> <Greek_BETA>       : "𐤁"   # Bēt
+<U10900> <Greek_beta>       : "𐤁"   # Bēt
+<U10900> <U03FA>            : "𐤂"   # Gīml
+<U10900> <U03FB>            : "𐤂"   # Gīml
+<U10900> <Greek_GAMMA>      : "𐤂"   # Gīml
+<U10900> <Greek_gamma>      : "𐤂"   # Gīml
+<U10900> <Greek_DELTA>      : "𐤃"   # Dālet
+<U10900> <Greek_delta>      : "𐤃"   # Dālet
+<U10900> <Greek_EPSILON>    : "𐤄"   # He
+<U10900> <Greek_epsilon>    : "𐤄"   # He
+<U10900> <Greek_PHI>        : "𐤅"   # Wāw
+<U10900> <Greek_phi>        : "𐤅"   # Wāw
+<U10900> <Greek_UPSILON>    : "𐤅"   # Wāw
+<U10900> <Greek_upsilon>    : "𐤅"   # Wāw
+<U10900> <U0376>            : "𐤅"   # Wāw
+<U10900> <U0377>            : "𐤅"   # Wāw
+<U10900> <U03DC>            : "𐤅"   # Wāw
+<U10900> <U03DD>            : "𐤅"   # Wāw
+<U10900> <U037F>            : "𐤅"   # Wāw
+<U10900> <U03F3>            : "𐤅"   # Wāw
+<U10900> <Greek_ZETA>       : "𐤆"   # Zayin
+<U10900> <Greek_zeta>       : "𐤆"   # Zayin
+<U10900> <U0370>            : "𐤇"   # Ḥēt
+<U10900> <U0371>            : "𐤇"   # Ḥēt
+<U10900> <Greek_THETA>      : "𐤈"   # Ṭēt | (Non-graphological Greek mapping)
+<U10900> <Greek_theta>      : "𐤈"   # Ṭēt | (Non-graphological Greek mapping)
+<U10900> <Greek_IOTA>       : "𐤉"   # Yod
+<U10900> <Greek_iota>       : "𐤉"   # Yod
+<U10900> <Greek_CHI>        : "𐤉"   # Yod
+<U10900> <Greek_chi>        : "𐤉"   # Yod
+<U10900> <Greek_KAPPA>      : "𐤊"   # Kāp
+<U10900> <Greek_kappa>      : "𐤊"   # Kāp
+<U10900> <Greek_LAMBDA>     : "𐤋"   # Lāmed
+<U10900> <Greek_lambda>     : "𐤋"   # Lāmed
+<U10900> <Greek_MU>         : "𐤌"   # Mēm
+<U10900> <Greek_mu>         : "𐤌"   # Mēm
+<U10900> <Greek_NU>         : "𐤍"   # Nūn
+<U10900> <Greek_nu>         : "𐤍"   # Nūn
+<U10900> <U03F7>            : "𐤎"   # Śāmek | (Non-graphological Greek mapping with Ϸ (Sho))
+<U10900> <UP3F8>            : "𐤎"   # Śāmek | (Non-graphological Greek mapping with ϸ (Sho))
+<U10900> <Greek_OMICRON>    : "𐤏"   # ʿAyin
+<U10900> <Greek_omicron>    : "𐤏"   # ʿAyin
+<U10900> <Greek_PI>         : "𐤐"   # Pē
+<U10900> <Greek_pi>         : "𐤐"   # Pē
+<U10900> <Greek_XI>         : "𐤑"   # Ṣādē | (Non-graphological Greek mapping)
+<U10900> <Greek_xi>         : "𐤑"   # Ṣādē | (Non-graphological Greek mapping)
+<U10900> <U01A7>            : "𐤑"   # Ṣādē | (Non-graphological Greek mapping with Ƨ (Tone Two))
+<U10900> <U01A8>            : "𐤑"   # Ṣādē | (Non-graphological Greek mapping with ƨ (Tone Two))
+<U10900> <U03D8>            : "𐤒"   # Qōp
+<U10900> <U03D9>            : "𐤒"   # Qōp
+<U10900> <Greek_RHO>        : "𐤓"   # Rēs/Reš
+<U10900> <Greek_rho>        : "𐤓"   # Rēs/Reš
+<U10900> <Greek_SIGMA>      : "𐤔"   # Šīn
+<U10900> <Greek_sigma>      : "𐤔"   # Šīn
+<U10900> <Greek_TAU>        : "𐤕"   # Tāw
+<U10900> <Greek_tau>        : "𐤕"   # Tāw
+
+##################
+# [END OF RULES] #
+##################
