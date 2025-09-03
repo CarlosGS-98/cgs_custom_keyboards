@@ -163,14 +163,14 @@
 <U1DCF> <a> <s> <slash> : "℁"
 <U1DCF> <A> <slash> <S> : "℁"
 <U1DCF> <a> <slash> <s> : "℁"
-<U1DCF> <C> <O> <slash> : "℅̸̸"
-<U1DCF> <c> <o> <slash> : "℅̸̸"
-<U1DCF> <C> <slash> <O> : "℅̸̸"
-<U1DCF> <c> <slash> <o> : "℅̸̸"
+<U1DCF> <C> <O> <slash> : "℅"
+<U1DCF> <c> <o> <slash> : "℅"
+<U1DCF> <C> <slash> <O> : "℅"
+<U1DCF> <c> <slash> <o> : "℅"
 <U1DCF> <slash> <A> <S> : "℁"
 <U1DCF> <slash> <a> <s> : "℁"
-<U1DCF> <slash> <C> <O> : "℅̸̸"
-<U1DCF> <slash> <c> <o> : "℅̸̸"
+<U1DCF> <slash> <C> <O> : "℅"
+<U1DCF> <slash> <c> <o> : "℅"
 
 ##################
 # [END OF RULES] #
