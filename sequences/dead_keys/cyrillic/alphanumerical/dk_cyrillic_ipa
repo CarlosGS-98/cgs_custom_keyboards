@@ -1,0 +1,179 @@
+# Cyrillic Alphabet | IPA Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing phonetic symbols
+# > mainly found in the IPA chart (including some
+# > symbols from extIPA, UPA, etc.)
+# > through alphabetical means.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Phonetic_symbols_in_Unicode
+#
+
+# IPA Sounds (Alphabetical)
+<U035A> <Cyrillic_DE> <Cyrillic_DE>             : "ʭ"   # Bidental percussive
+<U035A> <Cyrillic_de> <Cyrillic_de>             : "ʭ"   # Bidental percussive
+<U035A> <Cyrillic_IE>                           : "Ə"   # Schwa
+<U035A> <Cyrillic_ie>                           : "ə"   # Schwa
+<U035A> <minus> <Cyrillic_IE>                   : "ɘ"   # Close-mid central unrounded vowel
+<U035A> <minus> <Cyrillic_ie>                   : "ɘ"   # Close-mid central unrounded vowel
+<U035A> <Cyrillic_GHE>                          : "Ɡ"   # Single-storey G
+<U035A> <Cyrillic_ghe>                          : "ɡ"   # Single-storey G
+<U035A> <Cyrillic_SHHA>                         : "ɧ"   # SJ-Sound
+<U035A> <Cyrillic_shha>                         : "ɧ"   # SJ-Sound
+<U035A> <Cyrillic_I>                            : "Ɪ"   # Near-close near-front unrounded vowel
+<U035A> <Cyrillic_i>                            : "ɪ"   # Near-close near-front unrounded vowel
+<U035A> <Cyrillic_JE>                           : "ɟ"   # Barred Dotless J
+<U035A> <Cyrillic_je>                           : "ɟ"   # Barred Dotless J
+<U035A> <Cyrillic_EL>                           : "𝼈"   # Retroflex lateral flap
+<U035A> <Cyrillic_el>                           : "ɺ"   # Lateral flap
+<U035A> <Cyrillic_EM>                           : "ɰ"   # Voiced velar approximant
+<U035A> <Cyrillic_em>                           : "ɰ"   # Voiced velar approximant
+<U035A> <Cyrillic_O>                            : "Ɔ"   # Open O
+<U035A> <Cyrillic_o>                            : "ɔ"   # Open O
+<U035A> <U0460>                                 : "Ɤ"   # Ram's Horn
+<U035A> <U0461>                                 : "ɤ"   # Ram's Horn
+<U035A> <Cyrillic_ER>                           : "ɻ"   # Voiced retroflex approximant
+<U035A> <Cyrillic_er>                           : "ɹ"   # Voiced alveolar approximant
+<U035A> <minus> <Cyrillic_ER>                   : "ꭅ"   # Teuthonista [ɾ]
+<U035A> <minus> <Cyrillic_er>                   : "ꭅ"   # Teuthonista [ɾ]
+<U035A> <underscore> <Cyrillic_ER>              : "ɾ"   # Voiced alveolar flap
+<U035A> <underscore> <Cyrillic_er>              : "ɾ"   # Voiced alveolar flap
+<U035A> <Cyrillic_ES>                           : "Ʃ"   # Esh
+<U035A> <Cyrillic_es>                           : "ʃ"   # Esh
+<U035A> <Cyrillic_VE>                           : "ⱱ"   # Labiodental flap
+<U035A> <Cyrillic_ve>                           : "ⱱ"   # Labiodental flap
+<U035A> <Cyrillic_SOFTSIGN> <Cyrillic_SOFTSIGN> : "ʬ"   # Bilabial percussive
+<U035A> <Cyrillic_softsign> <Cyrillic_softsign> : "ʬ"   # Bilabial percussive
+<U035A> <U1DCF> <U051C>                         : "ʬ"   # Bilabial percussive
+<U035A> <U1DCF> <U051D>                         : "ʬ"   # Bilabial percussive
+<U035A> <U1DCF> <Cyrillic_VE> <Cyrillic_VE>     : "ʬ"   # Bilabial percussive
+<U035A> <U1DCF> <Cyrillic_ve> <Cyrillic_ve>     : "ʬ"   # Bilabial percussive
+<U035A> <Cyrillic_ZE>                           : "Ʒ"   # Ezh
+<U035A> <Cyrillic_ze>                           : "ʒ"   # Ezh
+<U035A> <question> <space>                      : "ʔ"   # "?" + IPA Key
+<U035A> <question> <minus>                      : "ʡ"   # "?" + "-" + IPA Key
+<U035A> <question> <underscore> <space>         : "ʕ"   # "?" + "_" + IPA Key
+<U035A> <question> <underscore> <minus>         : "ʢ"   # "?" + "_-" + IPA Key
+
+
+
+# Cyrillic Small Capital Letters
+#
+# [Main source]: https://en.wikipedia.org/wiki/Small_caps#Unicode
+#
+<U035A> <underscore> <Cyrillic_I>   : "ᴎ"
+<U035A> <underscore> <Cyrillic_i>   : "ᴎ"
+<U035A> <underscore> <Cyrillic_EL>  : "ᴫ"
+<U035A> <underscore> <Cyrillic_el>  : "ᴫ"
+<U035A> <underscore> <Cyrillic_YA>  : "ᴙ"
+<U035A> <underscore> <Cyrillic_ya>  : "ᴙ"
+
+
+# Greek Small Capital Letters
+#
+# [Main source]: https://en.wikipedia.org/wiki/Small_caps#Unicode
+#
+<U035A> <dead_greek> <Cyrillic_GHE>                         : "ᴦ"
+<U035A> <dead_greek> <Cyrillic_ghe>                         : "ᴦ"
+<U035A> <dead_greek> <Cyrillic_EL>                          : "ᴧ"
+<U035A> <dead_greek> <Cyrillic_el>                          : "ᴧ"
+<U035A> <dead_greek> <Cyrillic_PE>                          : "ᴨ"
+<U035A> <dead_greek> <Cyrillic_pe>                          : "ᴨ"
+<U035A> <dead_greek> <minus> <Cyrillic_PE> <Cyrillic_ES>    : "ᴪ"
+<U035A> <dead_greek> <minus> <Cyrillic_pe> <Cyrillic_es>    : "ᴪ"
+<U035A> <dead_greek> <U0470>                                : "ᴪ"   # Ѱ (Cyrillic Psi) + IPA Key = Small Capital Psi
+<U035A> <dead_greek> <U0471>                                : "ᴪ"   # ѱ (Cyrillic Psi) + IPA Key = Small Capital Psi
+<U035A> <dead_greek> <Cyrillic_ER>                          : "ᴩ"
+<U035A> <dead_greek> <Cyrillic_er>                          : "ᴩ"
+<U035A> <dead_greek> <minus> <Cyrillic_O> <Cyrillic_O>      : "ꭥ"
+<U035A> <dead_greek> <minus> <Cyrillic_o> <Cyrillic_o>      : "ꭥ"
+<U035A> <dead_greek> <U0460>                                : "ꭥ"   # Ѡ (Cyrillic Omega) + IPA Key = Small Capital Omega
+<U035A> <dead_greek> <U0461>                                : "ꭥ"   # ѡ (Cyrillic Omega) + IPA Key = Small Capital Omega   
+
+
+# Latin Small Capital Letters
+#
+# [Main source]: https://en.wikipedia.org/wiki/Small_caps#Unicode
+#
+<U035A> <dead_circumflex> <Cyrillic_A>                          : "ᴀ"
+<U035A> <dead_circumflex> <Cyrillic_a>                          : "ᴀ"
+<U035A> <dead_circumflex> <Cyrillic_E>                          : "ᴁ"
+<U035A> <dead_circumflex> <Cyrillic_e>                          : "ᴁ"
+<U035A> <dead_circumflex> <U1DCF> <Cyrillic_A> <Cyrillic_E>     : "ᴁ"
+<U035A> <dead_circumflex> <U1DCF> <Cyrillic_a> <Cyrillic_e>     : "ᴁ"
+<U035A> <dead_circumflex> <Cyrillic_BE>                         : "ʙ"
+<U035A> <dead_circumflex> <Cyrillic_be>                         : "ʙ"
+<U035A> <dead_circumflex> <underscore> <Cyrillic_BE>            : "ᴃ"
+<U035A> <dead_circumflex> <underscore> <Cyrillic_be>            : "ᴃ"
+<U035A> <dead_circumflex> <Cyrillic_TSE>                        : "ᴄ"
+<U035A> <dead_circumflex> <Cyrillic_tse>                        : "ᴄ"
+<U035A> <dead_circumflex> <Cyrillic_DE>                         : "ᴅ"
+<U035A> <dead_circumflex> <Cyrillic_de>                         : "ᴅ"
+<U035A> <dead_circumflex> <Macedonia_DSE>                       : "ᴆ"
+<U035A> <dead_circumflex> <Macedonia_dse>                       : "ᴆ"
+<U035A> <dead_circumflex> <Cyrillic_IE>                         : "ᴇ"
+<U035A> <dead_circumflex> <Cyrillic_ie>                         : "ᴇ"
+<U035A> <dead_circumflex> <Cyrillic_EF>                         : "ꜰ"
+<U035A> <dead_circumflex> <Cyrillic_ef>                         : "ꜰ"
+<U035A> <dead_circumflex> <Cyrillic_GHE>                        : "ɢ"
+<U035A> <dead_circumflex> <Cyrillic_ghe>                        : "ɢ"
+<U035A> <dead_circumflex> <Cyrillic_SHHA>                       : "ʜ"
+<U035A> <dead_circumflex> <Cyrillic_shha>                       : "ʜ"
+<U035A> <dead_circumflex> <Cyrillic_I>                          : "ɪ"
+<U035A> <dead_circumflex> <Cyrillic_i>                          : "ɪ"
+<U035A> <dead_circumflex> <Cyrillic_JE>                         : "ᴊ"
+<U035A> <dead_circumflex> <Cyrillic_je>                         : "ᴊ"
+<U035A> <dead_circumflex> <Cyrillic_KA>                         : "ᴋ"
+<U035A> <dead_circumflex> <Cyrillic_ka>                         : "ᴋ"
+<U035A> <dead_circumflex> <Cyrillic_EL>                         : "ʟ"
+<U035A> <dead_circumflex> <Cyrillic_el>                         : "ʟ"
+<U035A> <dead_circumflex> <Cyrillic_EM>                         : "ᴍ"
+<U035A> <dead_circumflex> <Cyrillic_em>                         : "ᴍ"
+<U035A> <dead_circumflex> <Cyrillic_EN>                         : "ɴ"
+<U035A> <dead_circumflex> <Cyrillic_en>                         : "ɴ"
+<U035A> <dead_circumflex> <Cyrillic_O>                          : "ᴏ"
+<U035A> <dead_circumflex> <Cyrillic_o>                          : "ᴏ"
+<U035A> <dead_circumflex> <Cyrillic_O> <Cyrillic_IE>            : "ɶ"
+<U035A> <dead_circumflex> <Cyrillic_o> <Cyrillic_ie>            : "ɶ"
+<U035A> <dead_circumflex> <underscore> <Cyrillic_O>             : "ᴐ"
+<U035A> <dead_circumflex> <underscore> <Cyrillic_o>             : "ᴐ"
+<U035A> <dead_circumflex> <Cyrillic_PE>                         : "ᴘ"
+<U035A> <dead_circumflex> <Cyrillic_pe>                         : "ᴘ"
+<U035A> <dead_circumflex> <Q>                                   : "ꞯ"
+<U035A> <dead_circumflex> <q>                                   : "ꞯ"
+<U035A> <dead_circumflex> <Cyrillic_ER>                         : "ʀ"
+<U035A> <dead_circumflex> <Cyrillic_er>                         : "ʀ"
+<U035A> <dead_circumflex> <underscore> <Cyrillic_ER>            : "ʁ"
+<U035A> <dead_circumflex> <underscore> <Cyrillic_er>            : "ʁ"
+<U035A> <dead_circumflex> <Cyrillic_ES>                         : "ꜱ"
+<U035A> <dead_circumflex> <Cyrillic_es>                         : "ꜱ"
+<U035A> <dead_circumflex> <Cyrillic_TE>                         : "ᴛ"
+<U035A> <dead_circumflex> <Cyrillic_te>                         : "ᴛ"
+<U035A> <dead_circumflex> <Cyrillic_U>                          : "ᴜ"
+<U035A> <dead_circumflex> <Cyrillic_u>                          : "ᴜ"
+<U035A> <dead_circumflex> <Cyrillic_VE>                         : "ᴠ"
+<U035A> <dead_circumflex> <Cyrillic_ve>                         : "ᴠ"
+<U035A> <dead_circumflex> <Cyrillic_SOFTSIGN>                   : "ᴡ"
+<U035A> <dead_circumflex> <Cyrillic_softsign>                   : "ᴡ"
+<U035A> <dead_circumflex> <U1DCF> <U051C>                       : "ᴡ"
+<U035A> <dead_circumflex> <U1DCF> <U051D>                       : "ᴡ"
+<U035A> <dead_circumflex> <U1DCF> <Cyrillic_VE> <Cyrillic_VE>   : "ᴡ"
+<U035A> <dead_circumflex> <U1DCF> <Cyrillic_ve> <Cyrillic_ve>   : "ᴡ"
+<U035A> <dead_circumflex> <Cyrillic_YA>                         : "ʏ"
+<U035A> <dead_circumflex> <Cyrillic_ya>                         : "ʏ"
+<U035A> <dead_circumflex> <Cyrillic_ZE>                         : "ᴢ"
+<U035A> <dead_circumflex> <Cyrillic_ze>                         : "ᴢ"
+<U035A> <dead_circumflex> <Cyrillic_ZHE>                        : "ᴣ"
+<U035A> <dead_circumflex> <Cyrillic_zhe>                        : "ᴣ"
+
+
+# Suprasegmentals (Alphabetical)
+<U035A> <Cyrillic_EL>   : "̼"    # Combining seagull below (Linguolabial Sound)
+<U035A> <Cyrillic_el>   : "̼"    # Combining seagull below (Linguolabial Sound)
+<U035A> <Cyrillic_HA>   : "̽"    # Combining X Above (Mid-Centralized Sound)
+<U035A> <Cyrillic_ha>   : "̽"    # Combining X Above (Mid-Centralized Sound)
+
+##################
+# [END OF RULES] #
+##################

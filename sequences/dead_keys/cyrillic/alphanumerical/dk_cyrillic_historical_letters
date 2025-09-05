@@ -1,7 +1,7 @@
 # Cyrillic Alphabet | Historical Letters Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Early Cyrillic Letters
+# Early & Deprecated Cyrillic Letters
 <U1DFB> <Cyrillic_DE> <Cyrillic_ZE>                             : "Ꙁ"  # Zemlja (Зємл҄ꙗ)
 <U1DFB> <Cyrillic_de> <Cyrillic_ze>                             : "ꙁ"  # Zemlja (Зємл҄ꙗ)
 <U1DFB> <dead_stroke> <Cyrillic_DE> <Cyrillic_ZE>               : "Ꙃ"  # Dzělo (Ѕѣло)
