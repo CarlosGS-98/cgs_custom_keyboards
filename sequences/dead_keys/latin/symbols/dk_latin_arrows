@@ -8,12 +8,12 @@
 <U21BB> <D> <U> <P> <space>                         : "⇮"
 <U21BB> <D> <u> <p> <space>                         : "⇯"
 <U21BB> <d> <u> <p> <space>                         : "⇰"
-# <U21BB> <M> <A> <Y> <Uacute> <S> <space>            : "⇬"   # Caps Lock Arrow Key
-# <U21BB> <M> <A> <Y> <dead_acute> <U> <S> <space>    : "⇬"   # Caps Lock Arrow Key
-# <U21BB> <M> <a> <y> <uacute> <s> <space>            : "⇬"   # Caps Lock Arrow Key
-# <U21BB> <M> <a> <y> <dead_acute> <u> <s> <space>    : "⇬"   # Caps Lock Arrow Key
-# <U21BB> <m> <a> <y> <uacute> <s> <space>            : "⇬"   # Caps Lock Arrow Key
-# <U21BB> <m> <a> <y> <dead_acute> <u> <s> <space>    : "⇬"   # Caps Lock Arrow Key
+<U21BB> <M> <A> <Y> <Uacute> <S> <space>            : "⇬"   # Caps Lock Arrow Key
+<U21BB> <M> <A> <Y> <dead_acute> <U> <S> <space>    : "⇬"   # Caps Lock Arrow Key
+<U21BB> <M> <a> <y> <uacute> <s> <space>            : "⇬"   # Caps Lock Arrow Key
+<U21BB> <M> <a> <y> <dead_acute> <u> <s> <space>    : "⇬"   # Caps Lock Arrow Key
+<U21BB> <m> <a> <y> <uacute> <s> <space>            : "⇬"   # Caps Lock Arrow Key
+<U21BB> <m> <a> <y> <dead_acute> <u> <s> <space>    : "⇬"   # Caps Lock Arrow Key
 <U21BB> <N> <U> <M> <space>                         : "⇭"   # Num Lock Arrow Key
 <U21BB> <N> <u> <m> <space>                         : "⇭"   # Num Lock Arrow Key
 <U21BB> <n> <u> <m> <space>                         : "⇭"   # Num Lock Arrow Key
