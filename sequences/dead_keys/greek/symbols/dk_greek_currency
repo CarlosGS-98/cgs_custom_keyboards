@@ -1,0 +1,212 @@
+# Greek Alphabet | Currency Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Precomposed currency letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Currency_symbol
+#
+<dead_currency> <Greek_ALPHA> <equal>                                           : "₳"   # Austral
+<dead_currency> <Greek_alpha> <equal>                                           : "₳"   # Austral
+<dead_currency> <Greek_ALPHA> <Greek_PHI>                                       : "؋"   # Afghani
+<dead_currency> <Greek_alpha> <Greek_phi>                                       : "؋"   # Afghani
+<dead_currency> <Greek_ALPHA> <Greek_SIGMA>                                     : "𐆚"   # Roman As
+<dead_currency> <Greek_alpha> <Greek_sigma>                                     : "𐆚"   # Roman As
+<dead_currency> <Greek_BETA> <Greek_ALPHA>                                      : "৹"   # Bengali Ānā
+<dead_currency> <Greek_beta> <Greek_alpha>                                      : "৹"   # Bengali Ānā
+<dead_currency> <Greek_BETA> <bar>                                              : "฿"   # Baht
+<dead_currency> <Greek_beta> <bar>                                              : "฿"   # Baht
+<dead_currency> <Greek_BETA> <equal>                                            : "₿"   # Bitcoin
+<dead_currency> <Greek_beta> <equal>                                            : "₿"   # Bitcoin
+<dead_currency> <Greek_BETA> <Greek_GAMMA>                                      : "৻"   # Bengali Gaṇḍā
+<dead_currency> <Greek_beta> <Greek_gamma>                                      : "৻"   # Bengali Gaṇḍā
+<dead_currency> <Greek_BETA> <Greek_RHO>                                        : "৲"   # Bengali Rupee mark
+<dead_currency> <Greek_beta> <Greek_rho>                                        : "৲"   # Bengali Rupee mark
+<dead_currency> <bar> <Greek_BETA>                                              : "฿"   # Baht
+<dead_currency> <bar> <Greek_beta>                                              : "฿"   # Baht
+<dead_currency> <bar> <U03FA>                                                   : "₵"   # Cedi
+<dead_currency> <bar> <U03FB>                                                   : "¢"   # Cent sign
+<dead_currency> <bar> <Greek_GAMMA>                                             : "₲"   # Guaraní
+<dead_currency> <bar> <Greek_gamma>                                             : "₲"   # Guaraní
+<dead_currency> <bar> <Greek_MU>                                                : "₥"   # Mill sign
+<dead_currency> <bar> <Greek_mu>                                                : "₥"   # Mill sign
+<dead_currency> <bar> <Greek_SIGMA>                                             : "$"   # Dollar/Peso sign
+<dead_currency> <bar> <Greek_sigma>                                             : "$"   # Dollar/Peso sign
+<dead_currency> <U03FA> <bar>                                                   : "₵"   # Cedi
+<dead_currency> <U03FB> <bar>                                                   : "¢"   # Cent sign
+<dead_currency> <U03FA> <Greek_EPSILON>                                         : "₠"   # European Currency Sign
+<dead_currency> <U03FB> <Greek_epsilon>                                         : "₠"   # European Currency Sign
+<dead_currency> <U03FA> <equal>                                                 : "₡"   # Colón
+<dead_currency> <U03FB> <equal>                                                 : "₡"   # Colón
+<dead_currency> <U03FA> <Greek_RHO>                                             : "₢"   # Cruzeiro
+<dead_currency> <U03FA> <Greek_rho>                                             : "₢"   # Cruzeiro
+<dead_currency> <U03FB> <Greek_rho>                                             : "₢"   # Cruzeiro
+<dead_currency> <Greek_DELTA> <equal>                                           : "֏"   # Dram
+<dead_currency> <Greek_delta> <equal>                                           : "֏"   # Dram
+<dead_currency> <Greek_DELTA> <Greek_MU>                                        : "ℳ︁"  # Mark
+<dead_currency> <Greek_delta> <Greek_mu>                                        : "ℳ︁"  # Mark
+<dead_currency> <Greek_DELTA> <minus>                                           : "₫"   # Đồng
+<dead_currency> <Greek_delta> <minus>                                           : "₫"   # Đồng
+<dead_currency> <Greek_DELTA> <O> <Greek_RHO> <O> <Greek_MU> <Greek_EPSILON>    : "߾"   # N'Ko Dorome sign
+<dead_currency> <Greek_delta> <o> <Greek_rho> <o> <Greek_mu> <Greek_epsilon>    : "߾"   # N'Ko Dorome sign
+<dead_currency> <Greek_DELTA> <Greek_RHO>                                       : "₯"   # Dracma
+<dead_currency> <Greek_delta> <Greek_rho>                                       : "₯"   # Dracma
+<dead_currency> <Greek_DELTA> <underscore>                                      : "₫"   # Đồng
+<dead_currency> <Greek_delta> <underscore>                                      : "₫"   # Đồng
+<dead_currency> <Greek_EPSILON> <equal>                                         : "€"   # Euro sign
+<dead_currency> <Greek_epsilon> <equal>                                         : "€"   # Euro sign
+<dead_currency> <equal> <Greek_ALPHA>                                           : "₳"   # Austral
+<dead_currency> <equal> <Greek_alpha>                                           : "₳"   # Austral
+<dead_currency> <equal> <Greek_BETA>                                            : "₿"   # Bitcoin
+<dead_currency> <equal> <Greek_beta>                                            : "₿"   # Bitcoin
+<dead_currency> <equal> <U03FA>                                                 : "₡"   # Colón
+<dead_currency> <equal> <U03FB>                                                 : "₡"   # Colón
+<dead_currency> <equal> <Greek_DELTA>                                           : "֏"   # Dram
+<dead_currency> <equal> <Greek_delta>                                           : "֏"   # Dram
+<dead_currency> <equal> <Greek_EPSILON>                                         : "€"   # Euro sign
+<dead_currency> <equal> <Greek_epsilon>                                         : "€"   # Euro sign
+<dead_currency> <equal> <Greek_GAMMA>                                           : "₴"   # Hryvnia
+<dead_currency> <equal> <Greek_gamma>                                           : "₴"   # Hryvnia
+<dead_currency> <equal> <Greek_LAMBDA>                                          : "₾"   # Lari
+<dead_currency> <equal> <Greek_lambda>                                          : "₺"   # Turkish Lira
+<dead_currency> <equal> <Greek_NU>                                              : "₦"   # Naira
+<dead_currency> <equal> <Greek_nu>                                              : "₦"   # Naira
+<dead_currency> <equal> <Greek_PI>                                              : "₱"   # Philippine Peso
+<dead_currency> <equal> <Greek_pi>                                              : "₱"   # Philippine Peso
+<dead_currency> <equal> <Greek_RHO>                                             : "₹"   # Indian Rupee
+<dead_currency> <equal> <Greek_rho>                                             : "₹"   # Indian Rupee
+<dead_currency> <equal> <Greek_SIGMA>                                           : "₷"  # Spesmilo
+<dead_currency> <equal> <Greek_sigma>                                           : "₷"  # Spesmilo
+<dead_currency> <equal> <Greek_TAU>                                             : "₮"   # Tögrög
+<dead_currency> <equal> <Greek_tau>                                             : "₮"   # Tögrög
+<dead_currency> <equal> <U037F>                                                 : "¥"   # Yen/Yuan sign
+<dead_currency> <equal> <U03F3>                                                 : "¥"   # Yen/Yuan sign
+<dead_currency> <Greek_PHI> <minus>                                             : "₣"   # Franc sign
+<dead_currency> <Greek_phi> <minus>                                             : "₣"   # Franc sign
+<dead_currency> <Greek_GAMMA> <bar>                                             : "₲"   # Guaraní
+<dead_currency> <Greek_gamma> <bar>                                             : "₲"   # Guaraní
+<dead_currency> <Greek_GAMMA> <equal>                                           : "₴"   # Hryvnia
+<dead_currency> <Greek_gamma> <equal>                                           : "₴"   # Hryvnia
+<dead_currency> <U0370> <minus>                                                 : "𐆙"   # Roman Dupondius
+<dead_currency> <U0371> <minus>                                                 : "𐆙"   # Roman Dupondius
+<dead_currency> <U0370> <Greek_SIGMA>                                           : "𐆘"  # Roman Sertertius
+<dead_currency> <U0371> <Greek_sigma>                                           : "𐆘"  # Roman Sertertius
+<dead_currency> <Greek_IOTA> <minus>                                            : "𐆚"   # Roman As
+<dead_currency> <Greek_iota> <minus>                                            : "𐆚"   # Roman As
+<dead_currency> <Greek_IOTA> <Greek_IOTA> <minus>                               : "𐆙"   # Roman Dupondius
+<dead_currency> <Greek_iota> <Greek_iota> <minus>                               : "𐆙"   # Roman Dupondius
+<dead_currency> <Greek_IOTA> <Greek_IOTA> <Greek_SIGMA>                         : "𐆘"  # Roman Sertertius
+<dead_currency> <Greek_iota> <Greek_iota> <Greek_sigma>                         : "𐆘"  # Roman Sertertius
+<dead_currency> <Greek_IOTA> <Greek_TAU>                                        : "₤"   # Italian Lira
+<dead_currency> <Greek_iota> <Greek_tau>                                        : "₤"   # Italian Lira
+<dead_currency> <Greek_KAPPA> <minus>                                           : "₭"   # Kip
+<dead_currency> <Greek_kappa> <minus>                                           : "₭"   # Kip
+<dead_currency> <Greek_LAMBDA> <equal>                                          : "₾"   # Lari
+<dead_currency> <Greek_lambda> <equal>                                          : "₺"   # Turkish Lira
+<dead_currency> <Greek_LAMBDA> <minus>                                          : "£"   # Sterling
+<dead_currency> <Greek_lambda> <minus>                                          : "£"   # Sterling
+<dead_currency> <Greek_LAMBDA> <Greek_TAU>                                      : "₶"   # Livre Tournois
+<dead_currency> <Greek_lambda> <Greek_tau>                                      : "₶"   # Livre Tournois
+<dead_currency> <Greek_MU> <bar>                                                : "₥"   # Mill sign
+<dead_currency> <Greek_mu> <bar>                                                : "₥"   # Mill sign
+<dead_currency> <Greek_MU> <minus>                                              : "₼"   # Manat
+<dead_currency> <Greek_mu> <minus>                                              : "₼"   # Manat
+<dead_currency> <minus> <Greek_DELTA>                                           : "₫"   # Đồng
+<dead_currency> <minus> <Greek_delta>                                           : "₫"   # Đồng
+<dead_currency> <minus> <Greek_PHI>                                             : "₣"   # Franc sign
+<dead_currency> <minus> <Greek_phi>                                             : "₣"   # Franc sign
+<dead_currency> <minus> <U0370>                                                 : "𐆙"   # Roman Dupondius
+<dead_currency> <minus> <U0371>                                                 : "𐆙"   # Roman Dupondius
+<dead_currency> <minus> <Greek_IOTA>                                            : "𐆚"   # Roman As
+<dead_currency> <minus> <Greek_iota>                                            : "𐆚"   # Roman As
+<dead_currency> <minus> <Greek_KAPPA>                                           : "₭"   # Kip
+<dead_currency> <minus> <Greek_kappa>                                           : "₭"   # Kip
+<dead_currency> <minus> <Greek_LAMBDA>                                          : "£"   # Sterling
+<dead_currency> <minus> <Greek_lambda>                                          : "£"   # Sterling
+<dead_currency> <minus> <Greek_MU>                                              : "₼"   # Manat
+<dead_currency> <minus> <Greek_mu>                                              : "₼"   # Manat
+<dead_currency> <minus> <Greek_RHO>                                             : "₽"   # Ruble sign
+<dead_currency> <minus> <Greek_rho>                                             : "₽"   # Ruble sign
+<dead_currency> <minus> <Greek_SIGMA>                                           : "⃀"   # Som
+<dead_currency> <minus> <Greek_sigma>                                           : "⃀"   # Som
+<dead_currency> <minus> <Greek_TAU>                                             : "₸"   # Tenge
+<dead_currency> <minus> <Greek_tau>                                             : "₸"   # Tenge
+<dead_currency> <minus> <U0376>                                                 : "𐆗"   # Roman Quinarius
+<dead_currency> <minus> <U0377>                                                 : "𐆗"   # Roman Quinarius
+<dead_currency> <minus> <U03DC>                                                 : "₩"   # Won sign
+<dead_currency> <minus> <U03DD>                                                 : "₩"   # Won sign
+<dead_currency> <minus> <Greek_XI>                                              : "𐆖"   # Roman Denarius
+<dead_currency> <minus> <Greek_xi>                                              : "𐆖"   # Roman Denarius
+<dead_currency> <Greek_NU> <equal>                                              : "₦"   # Naira
+<dead_currency> <Greek_nu> <equal>                                              : "₦"   # Naira
+<dead_currency> <Greek_NU> <Greek_MU>                                           : "₻"   # Nordic Mark
+<dead_currency> <Greek_nu> <Greek_mu>                                           : "₻"   # Nordic Mark
+<dead_currency> <Greek_PI> <equal>                                              : "₱"   # Philippine Peso
+<dead_currency> <Greek_pi> <equal>                                              : "₱"   # Philippine Peso
+<dead_currency> <Greek_PI> <Greek_PHI>                                          : "₰"   # Pfennig
+<dead_currency> <Greek_pi> <Greek_phi>                                          : "₰"   # Pfennig
+<dead_currency> <period> <U03DC>                                                : "؋"   # Afghani
+<dead_currency> <period> <U03DD>                                                : "؋"   # Afghani
+<dead_currency> <Greek_RHO> <1>                                                 : "రూ"   # Indian Rupee (Telugu script)
+<dead_currency> <Greek_rho> <1>                                                 : "రూ"   # Indian Rupee (Telugu script)
+<dead_currency> <Greek_RHO> <2>                                                 : "௹"   # Indian Rupee (Tamil script)
+<dead_currency> <Greek_rho> <2>                                                 : "௹"   # Indian Rupee (Tamil script)
+<dead_currency> <Greek_RHO> <3>                                                 : "૱"   # Indian Rupee (Gujarati script)
+<dead_currency> <Greek_rho> <3>                                                 : "૱"   # Indian Rupee (Gujarati script)
+<dead_currency> <Greek_RHO> <4>                                                 : "ರ"   # Indian Rupee (Kannada script)
+<dead_currency> <Greek_rho> <4>                                                 : "ರ"   # Indian Rupee (Kannada script)
+<dead_currency> <Greek_RHO> <5>                                                 : "රු"   # Sri Lankan Rupee (Sinhala script)
+<dead_currency> <Greek_rho> <5>                                                 : "රු"   # Sri Lankan Rupee (Sinhala script)
+<dead_currency> <Greek_RHO> <6>                                                 : "꠸"    # Indian Rupee (North Indic)
+<dead_currency> <Greek_rho> <6>                                                 : "꠸"    # Indian Rupee (North Indic)
+<dead_currency> <Greek_RHO> <Greek_IOTA> <Greek_ALPHA> <Greek_LAMBDA>           : "﷼"   # Iranian Rial
+<dead_currency> <Greek_rho> <Greek_iota> <Greek_alpha> <Greek_lambda>           : "﷼"   # Iranian Rial
+<dead_currency> <Greek_RHO> <Greek_IOTA> <Greek_EPSILON> <Greek_LAMBDA>         : "៛"    # Cambodian Riel
+<dead_currency> <Greek_rho> <Greek_iota> <Greek_epsilon> <Greek_lambda>         : "៛"    # Cambodian Riel
+<dead_currency> <Greek_RHO> <equal>                                             : "₹"    # Indian Rupee
+<dead_currency> <Greek_rho> <equal>                                             : "₹"    # Indian Rupee
+<dead_currency> <Greek_RHO> <Greek_IOTA> <Greek_SIGMA>                          : "𞲰"    # Indic Siyaq Rupee mark
+<dead_currency> <Greek_rho> <Greek_iota> <Greek_sigma>                          : "𞲰"    # Indic Siyaq Rupee mark
+<dead_currency> <Greek_RHO> <minus>                                             : "₽"    # Ruble sign
+<dead_currency> <Greek_rho> <minus>                                             : "₽"    # Ruble sign
+<dead_currency> <Greek_RHO> <Greek_SIGMA>                                       : "₨"   # Rupee sign
+<dead_currency> <Greek_rho> <Greek_sigma>                                       : "₨"   # Rupee sign
+<dead_currency> <Greek_RHO> <U03DC>                                             : "𞋿"    # Wancho
+<dead_currency> <Greek_rho> <U03DD>                                             : "𞋿"    # Wancho
+<dead_currency> <Greek_SIGMA> <bar>                                             : "$"   # Dollar/Peso sign
+<dead_currency> <Greek_sigma> <bar>                                             : "$"   # Dollar/Peso sign
+<dead_currency> <Greek_SIGMA> <equal>                                           : "₷"  # Spesmilo
+<dead_currency> <Greek_sigma> <equal>                                           : "₷"  # Spesmilo
+<dead_currency> <Greek_SIGMA> <U0370>                                           : "₪"   # New Shekel
+<dead_currency> <Greek_sigma> <U0371>                                           : "₪"   # New Shekel
+<dead_currency> <Greek_SIGMA> <minus>                                           : "⃀"   # Som
+<dead_currency> <Greek_sigma> <minus>                                           : "⃀"   # Som
+<dead_currency> <Greek_TAU> <Greek_ALPHA> <Greek_MU> <Greek_ALPHA> <Greek_NU>   : "߿"   # N'Ko Taman sign
+<dead_currency> <Greek_tau> <Greek_alpha> <Greek_mu> <Greek_alpha> <Greek_nu>   : "߿"   # N'Ko Taman sign
+<dead_currency> <Greek_TAU> <equal>                                             : "₮"   # Tögrög
+<dead_currency> <Greek_tau> <equal>                                             : "₮"   # Tögrög
+<dead_currency> <Greek_TAU> <Greek_KAPPA>                                       : "৳"   # Taka
+<dead_currency> <Greek_TAU> <Greek_kappa>                                       : "৳"   # Taka
+<dead_currency> <Greek_tau> <Greek_kappa>                                       : "৳"   # Taka
+<dead_currency> <Greek_TAU> <minus>                                             : "₸"   # Tenge
+<dead_currency> <Greek_tau> <minus>                                             : "₸"   # Tenge
+<dead_currency> <underscore> <Greek_DELTA>                                      : "₫"   # Đồng
+<dead_currency> <underscore> <Greek_delta>                                      : "₫"   # Đồng
+<dead_currency> <U0376> <minus>                                                 : "𐆗"   # Roman Quinarius
+<dead_currency> <U0377> <minus>                                                 : "𐆗"   # Roman Quinarius
+<dead_currency> <U03DC> <minus>                                                 : "₩"   # Won sign
+<dead_currency> <U03DD> <minus>                                                 : "₩"   # Won sign
+<dead_currency> <U03DC> <period>                                                : "؋"   # Afghani
+<dead_currency> <U03DD> <period>                                                : "؋"   # Afghani
+<dead_currency> <U03DC> <Greek_RHO>                                             : "𞋿"   # Wancho
+<dead_currency> <U03DD> <Greek_rho>                                             : "𞋿"   # Wancho
+<dead_currency> <Greek_XI> <minus>                                              : "𐆖"   # Roman Denarius
+<dead_currency> <Greek_xi> <minus>                                              : "𐆖"   # Roman Denarius
+<dead_currency> <U037F> <Greek_EPSILON> <Greek_NU>                              : "円"   # CJK Yen sign
+<dead_currency> <U03F3> <Greek_epsilon> <Greek_nu>                              : "円"   # CJK Yen sign
+<dead_currency> <U037F> <equal>                                                 : "¥"   # Yen/Yuan sign
+<dead_currency> <U03F3> <equal>                                                 : "¥"   # Yen/Yuan sign
+<dead_currency> <U037F> <Greek_UPSILON> <Greek_ALPHA> <Greek_NU>                : "元"   # CJK Yuan sign
+<dead_currency> <U03F3> <Greek_upsilon> <Greek_alpha> <Greek_nu>                : "元"   # CJK Yuan sign
+
+##################
+# [END OF RULES] #
+##################
