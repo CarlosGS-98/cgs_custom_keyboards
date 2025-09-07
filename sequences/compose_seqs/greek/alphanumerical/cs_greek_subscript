@@ -1,0 +1,56 @@
+# Greek Alphabet | SMK Subscript Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store additional
+# > Compose rules for typing subscript and underscript characters
+# > using the caron/háček (<dead_caron>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
+#
+
+# Skorpian Underscript Caron (Greek Letters)
+<Multi_key> <dead_caron> <dead_caron> <dead_greek> <Greek_iota> : "ͅ"    # Combining Ypogegrammeni
+
+
+# Skorpian Underscript Caron (Latin Letters)
+<Multi_key> <dead_caron> <dead_caron> <Greek_rho>       : "᷊"
+<Multi_key> <dead_caron> <dead_caron> <U03DD>           : "ᪿ"
+<Multi_key> <dead_caron> <dead_caron> <U21BA> <U03DD>   : "ᫀ"
+
+
+# Skorpian Subscript Caron (Greek Letters)
+<Multi_key> <dead_caron> <dead_greek> <Greek_beta>  : "ᵦ"
+<Multi_key> <dead_caron> <dead_greek> <Greek_gamma> : "ᵧ"
+<Multi_key> <dead_caron> <dead_greek> <Greek_delta> : "ᵟ"
+<Multi_key> <dead_caron> <dead_greek> <Greek_iota>  : "ͺ"
+<Multi_key> <dead_caron> <dead_greek> <Greek_rho>   : "ᵨ"
+<Multi_key> <dead_caron> <dead_greek> <Greek_phi>   : "ᵩ"
+<Multi_key> <dead_caron> <dead_greek> <Greek_chi>   : "ᵪ"
+
+
+# Skorpian Subscript Caron (Latin Letters)
+<Multi_key> <dead_caron> <Greek_alpha>                  : "ₐ"
+<Multi_key> <dead_caron> <Greek_epsilon>                : "ₑ"
+<Multi_key> <dead_caron> <underscore> <Greek_epsilon>   : "ₔ"
+<Multi_key> <dead_caron> <U035A> <Greek_epsilon>        : "ₔ"
+<Multi_key> <dead_caron> <U21BA> <Greek_epsilon>        : "ₔ"
+<Multi_key> <dead_caron> <U0371>                        : "ₕ"
+<Multi_key> <dead_caron> <Greek_iota>                   : "ᵢ"
+<Multi_key> <dead_caron> <Greek_chi>                    : "ⱼ"
+<Multi_key> <dead_caron> <Greek_kappa>                  : "ₖ"
+<Multi_key> <dead_caron> <Greek_lambda>                 : "ₗ"
+<Multi_key> <dead_caron> <Greek_mu>                     : "ₘ"
+<Multi_key> <dead_caron> <Greek_nu>                     : "ₙ"
+<Multi_key> <dead_caron> <Greek_omicron>                : "ₒ"
+<Multi_key> <dead_caron> <Greek_pi>                     : "ₚ"
+<Multi_key> <dead_caron> <Greek_rho>                    : "ᵣ"
+<Multi_key> <dead_caron> <Greek_sigma>                  : "ₛ"
+<Multi_key> <dead_caron> <Greek_tau>                    : "ₜ"
+<Multi_key> <dead_caron> <Greek_upsilon>                : "ᵤ"
+<Multi_key> <dead_caron> <U0377>                        : "ᵥ"
+<Multi_key> <dead_caron> <Greek_xi>                     : "ₓ"
+
+##################
+# [END OF RULES] #
+##################
