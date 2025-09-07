@@ -1,9 +1,9 @@
-# Common Compose Sequences | Halfwidth & Fullwidth Rules
+# Latin Alphabet | Halfwidth & Fullwidth Rules
 # [AUTHOR]: Carlos González Sanz
 #
 # > The purpose of this file is to store default
-# > Compose rules for typing non-alphabetical fullwidth characters
-# > by using "$" (<dollar>) in conjunction
+# > Compose rules for typing alphabetical fullwidth characters
+# > with Latin letters by using "$" (<dollar>) in conjunction
 # > with the Compose Key (<Multi_key>).
 #
 # [Main source]: https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)
