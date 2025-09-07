@@ -1,0 +1,50 @@
+# Greek Alphabet | Miscellaneous Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+
+# From the "Miscellaneous Technical" Block (Alphabetical)
+<U232C> <Greek_ALPHA> <U03FA>                                               : "⏦"   # AC Current
+<U232C> <Greek_alpha> <U03FB>                                               : "⏦"   # AC Current
+<U232C> <asciicircum> <Greek_TAU>                                           : "⏉"   # Downwards dentistry symbol
+<U232C> <asciicircum> <Greek_tau>                                           : "⏉"   # Downwards dentistry symbol
+<U232C> <bar> <Greek_XI> <greater>                                          : "⌦"  # Erase to the right
+<U232C> <bar> <Greek_xi> <greater>                                          : "⌦"  # Erase to the right
+<U232C> <bracketleft> <Greek_OMICRON>                                       : "⎄"   # Compose Key Symbol
+<U232C> <bracketleft> <Greek_omicron>                                       : "⎄"   # Compose Key Symbol
+<U232C> <dead_circumflex> <Greek_TAU>                                       : "⏉"   # Downwards dentistry symbol
+<U232C> <dead_circumflex> <Greek_tau>                                       : "⏉"   # Downwards dentistry symbol
+<U232C> <dead_longsolidusoverlay> <Greek_OMICRON>                           : "⌀"   # Diameter sign
+<U232C> <dead_longsolidusoverlay> <Greek_omicron>                           : "⌀"   # Diameter sign
+<U232C> <Greek_EPSILON> <Greek_NU> <Greek_TAU> <Greek_EPSILON> <Greek_RHO>  : "⏎"   # Enter Symbol
+<U232C> <Greek_epsilon> <Greek_nu> <Greek_tau> <Greek_epsilon> <Greek_rho>  : "⏎"   # Enter Symbol
+<U232C> <Greek_GAMMA> <Greek_NU> <Greek_DELTA>                              : "⏚"   # Electrical ground symbol
+<U232C> <Greek_gamma> <Greek_nu> <Greek_delta>                              : "⏚"   # Electrical ground symbol
+<U232C> <Greek_IOTA> <Greek_NU> <Greek_TAU> <Greek_RHO> <Greek_OMICRON>     : "⏎"   # Enter Symbol
+<U232C> <Greek_iota> <Greek_nu> <Greek_tau> <Greek_rho> <Greek_omicron>     : "⏎"   # Enter Symbol
+<U232C> <less> <Greek_XI> <bar>                                             : "⌫"  # Erase to the left
+<U232C> <less> <Greek_xi> <bar>                                             : "⌫"  # Erase to the left
+<U232C> <less> <U0370> <greater>                                            : "⌂"   # House
+<U232C> <less> <U0371> <greater>                                            : "⌂"   # House
+<U232C> <Greek_MU> <space>                                                  : "µ"   # Micro Sign
+<U232C> <Greek_mu> <space>                                                  : "µ"   # Micro Sign
+<U232C> <Greek_MU> <U0370> <Greek_OMICRON>                                  : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <Greek_mu> <U0371> <Greek_omicron>                                  : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <Greek_MU> <Greek_IOTA> <U03FA> <Greek_RHO> <Greek_OMICRON>         : "µ"   # Micro Sign
+<U232C> <Greek_mu> <Greek_iota> <U03FB> <Greek_rho> <Greek_omicron>         : "µ"   # Micro Sign
+<U232C> <Greek_OMICRON> <U0370> <Greek_MU>                                  : "Ω"   # Ohm Symbol
+<U232C> <Greek_omicron> <U0371> <Greek_mu>                                  : "Ω"   # Ohm Symbol
+<U232C> <Greek_OMEGA>                                                       : "⌀"   # Diameter sign
+<U232C> <Greek_omega>                                                       : "⌀"   # Diameter sign
+<U232C> <Greek_SIGMA> <Greek_EPSILON> <U03FA>                               : "⌔"   # Sector
+<U232C> <Greek_sigma> <Greek_epsilon> <U03FB>                               : "⌔"   # Sector
+<U232C> <Greek_SIGMA> <Greek_EPSILON> <Greek_GAMMA>                         : "⌓"   # Segment
+<U232C> <Greek_sigma> <Greek_epsilon> <Greek_gamma>                         : "⌓"   # Segment
+<U232C> <Greek_TAU> <asciicircum>                                           : "⏉"   # Downwards dentistry symbol
+<U232C> <Greek_tau> <asciicircum>                                           : "⏉"   # Downwards dentistry symbol
+<U232C> <Greek_TAU> <dead_circumflex>                                       : "⏉"   # Downwards dentistry symbol
+<U232C> <Greek_tau> <dead_circumflex>                                       : "⏉"   # Downwards dentistry symbol
+<U232C> <Greek_TAU> <Greek_EPSILON> <Greek_LAMBDA>                          : "⌕"   # Telephone recorder
+<U232C> <Greek_tau> <Greek_epsilon> <Greek_lambda>                          : "⌕"   # Telephone recorder
+
+##################
+# [END OF RULES] #
+##################
