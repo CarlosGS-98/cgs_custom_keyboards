@@ -1,0 +1,351 @@
+# Greek Alphabet | Logic + Math Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing mathematical and logical symbols
+# > that can be input with alphabetical Greek characters.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
+#
+
+# Algebraic operators (Alphabetical)
+<U221D> <bar> <Greek_XI> <bar>      : "⋈"   # Bowtie
+<U221D> <bar> <Greek_xi> <bar>      : "⋈"   # Bowtie
+<U221D> <bar> <Greek_XI> <minus>    : "⋋"   # Left semidirect product
+<U221D> <bar> <Greek_xi> <minus>    : "⋉"   # Left normal factor semidirect product
+<U221D> <U0370> <plus>              : "⊹"   # Hermitian Conjugate Matrix
+<U221D> <U0371> <plus>              : "⊹"   # Hermitian Conjugate Matrix
+<U221D> <minus> <Greek_XI> <bar>    : "⋌"   # Right semidirect product
+<U221D> <minus> <Greek_xi> <bar>    : "⋊"   # Right normal factor semidirect product
+<U221D> <plus> <U0370>              : "⊹"   # Hermitian Conjugate Matrix
+<U221D> <plus> <U0371>              : "⊹"   # Hermitian Conjugate Matrix
+
+
+# APL Symbols (Alphabetical)
+<U221D> <asterisk> <Greek_OMICRON>                  : "⍟"  # APL Functional Symbol Circle Star
+<U221D> <asterisk> <Greek_omicron>                  : "⍟"  # APL Functional Symbol Circle Star
+<U221D> <backslash> <Greek_omicron> <space>         : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <bar> <U0376>                               : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <bar> <U0377>                               : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <bar> <Greek_OMICRON>                       : "⌽"  # APL Functional Symbol Circle Stile
+<U221D> <bar> <Greek_omicron>                       : "⌽"  # APL Functional Symbol Circle Stile
+<U221D> <U03FA> <Greek_OMICRON>                     : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <U03FB> <Greek_omicron>                     : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <dead_tilde> <U0376>                        : "⍲"  # APL Functional Symbol Up Caret Tilde
+<U221D> <dead_tilde> <U0377>                        : "⍱"  # APL Functional Symbol Down Caret Tilde
+<U221D> <Greek_EPSILON> <minus> <underscore>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Greek_epsilon> <minus> <underscore>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Greek_EPSILON> <underscore> <minus>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Greek_epsilon> <underscore> <minus>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Greek_IOTA> <space>                        : "⍳"   # APL Functional Symbol Iota
+<U221D> <Greek_iota> <space>                        : "⍳"   # APL Functional Symbol Iota
+<U221D> <minus> <underscore> <Greek_EPSILON>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <minus> <underscore> <Greek_epsilon>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Greek_OMICRON> <backslash>                 : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <Greek_omicron> <backslash>                 : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <parenleft> <Greek_OMICRON> <parenright>    : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <parenleft> <Greek_omicron> <parenright>    : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <Greek_RHO> <space>                         : "⍴"   # APL Functional Symbol Rho
+<U221D> <Greek_rho> <space>                         : "⍴"   # APL Functional Symbol Rho
+<U221D> <U0376> <bar>                               : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <U0377> <bar>                               : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <U0376> <dead_tilde>                        : "⍲"  # APL Functional Symbol Up Caret Tilde
+<U221D> <U0377> <dead_tilde>                        : "⍱"  # APL Functional Symbol Down Caret Tilde
+<U221D> <underscore> <minus> <Greek_EPSILON>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <underscore> <minus> <Greek_epsilon>        : "⍷"   # APL Functional Symbol Epsilon Underbar
+
+
+# Arrows (Alphabetical)
+<U221D> <minus> <U0377> <space> : "↓"   # Downwards arrow
+<U221D> <U0377> <minus> <space> : "↓"   # Downwards arrow
+
+
+# Calculus symbols (Alphabetical)
+<U221D> <1> <minus> <Greek_sigma>       : "∱"   # Clockwise integral
+<U221D> <1> <minus> <Greek_SIGMA>       : "∱"   # Clockwise integral
+<U221D> <1> <Greek_sigma>               : "∫"   # Integral
+<U221D> <1> <Greek_SIGMA>               : "∮"   # Contour integral
+<U221D> <2> <Greek_sigma>               : "∬"   # Double integral
+<U221D> <2> <Greek_SIGMA>               : "∯"   # Surface integral
+<U221D> <equal> <Greek_DELTA>           : "≝"   # Equal to by definition
+<U221D> <equal> <Greek_delta>           : "≜"   # Delta equal to
+<U221D> <3> <Greek_sigma>               : "∭"   # Triple integral
+<U221D> <3> <Greek_SIGMA>               : "∰"   # Volume integral
+<U221D> <4> <Greek_sigma>               : "⨌"   # Quadruple integral
+<U221D> <4> <Greek_SIGMA>               : "⨌"   # Quadruple integral
+<U221D> <Greek_DELTA> <asciicircum>     : "∆"   # Increment operator
+<U221D> <Greek_delta> <asciicircum>     : "∆"   # Increment operator
+<U221D> <Greek_DELTA> <dead_circumflex> : "∆"   # Increment operator
+<U221D> <Greek_delta> <dead_circumflex> : "∆"   # Increment operator
+<U221D> <Greek_DELTA> <space>           : "∂"   # Partial differential
+<U221D> <Greek_delta> <space>           : "∂"   # Partial differential
+<U221D> <Greek_DELTA> <underscore>      : "∇"   # Nabla operator
+<U221D> <Greek_delta> <underscore>      : "∇"   # Nabla operator
+<U221D> <less> <Greek_sigma>            : "∳"   # Anticlockwise contour integral
+<U221D> <less> <Greek_SIGMA>            : "∳"   # Anticlockwise contour integral
+<U221D> <minus> <1> <Greek_sigma>       : "∱"   # Clockwise integral
+<U221D> <minus> <1> <Greek_SIGMA>       : "∱"   # Clockwise integral
+<U221D> <Greek_sigma> <1>               : "∫"   # Integral
+<U221D> <Greek_SIGMA> <1>               : "∮"   # Contour integral
+<U221D> <Greek_sigma> <2>               : "∬"   # Double integral
+<U221D> <Greek_SIGMA> <2>               : "∯"   # Surface integral
+<U221D> <Greek_sigma> <3>               : "∭"   # Triple integral
+<U221D> <Greek_SIGMA> <3>               : "∰"   # Volume integral
+<U221D> <Greek_sigma> <4>               : "⨌"   # Quadruple integral
+<U221D> <Greek_SIGMA> <4>               : "⨌"   # Quadruple integral
+<U221D> <Greek_sigma> <greater>         : "∲"   # Clockwise contour integral
+<U221D> <Greek_SIGMA> <greater>         : "∲"   # Clockwise contour integral
+<U221D> <Greek_sigma> <less>            : "∳"   # Anticlockwise contour integral
+<U221D> <Greek_SIGMA> <less>            : "∳"   # Anticlockwise contour integral
+<U221D> <Greek_sigma> <minus> <1>       : "∱"   # Clockwise integral
+<U221D> <Greek_SIGMA> <minus> <1>       : "∱"   # Clockwise integral
+
+
+# Enclosed operators (Alphabetical)
+<U221D> <asterisk> <Greek_OMICRON>              : "⊛"  # Circled asterisk operator
+<U221D> <asterisk> <Greek_omicron>              : "⊛"  # Circled asterisk operator
+<U221D> <bracketleft> <Greek_XI> <bracketright> : "⊠"   # Squared times
+<U221D> <bracketleft> <Greek_xi> <bracketright> : "⊠"   # Squared times
+<U221D> <masculine> <Greek_OMICRON>             : "⊚"  # Circled ring operator
+<U221D> <masculine> <Greek_omicron>             : "⊚"  # Circled ring operator
+<U221D> <equal> <Greek_OMICRON>                 : "⊜"  # Circled equals
+<U221D> <equal> <Greek_omicron>                 : "⊜"  # Circled equals            
+<U221D> <minus> <Greek_OMICRON>                 : "⊖"  # Circled minus
+<U221D> <minus> <Greek_omicron>                 : "⊖"  # Circled minus
+<U221D> <minus> <minus> <Greek_OMICRON>         : "⊝"   # Circled dash
+<U221D> <minus> <minus> <Greek_omicron>         : "⊝"   # Circled dash
+<U221D> <Greek_OMICRON> <asterisk>              : "⊛"  # Circled asterisk operator
+<U221D> <Greek_omicron> <asterisk>              : "⊛"  # Circled asterisk operator
+<U221D> <Greek_OMICRON> <masculine>             : "⊚"  # Circled ring operator
+<U221D> <Greek_omicron> <masculine>             : "⊚"  # Circled ring operator
+<U221D> <Greek_OMICRON> <equal>                 : "⊜"  # Circled equals
+<U221D> <Greek_omicron> <equal>                 : "⊜"  # Circled equals  
+<U221D> <Greek_OMICRON> <minus>                 : "⊖"  # Circled minus
+<U221D> <Greek_omicron> <minus>                 : "⊖"  # Circled minus
+<U221D> <Greek_OMICRON> <period>                : "⊙"  # Circled dot operator
+<U221D> <Greek_omicron> <period>                : "⊙"  # Circled dot operator
+<U221D> <Greek_OMICRON> <plus>                  : "⊕"  # Circled plus
+<U221D> <Greek_omicron> <plus>                  : "⊕"  # Circled plus
+<U221D> <Greek_OMICRON> <slash>                 : "⊘"  # Circled division slash
+<U221D> <Greek_omicron> <slash>                 : "⊘"  # Circled division slash
+<U221D> <Greek_OMICRON> <Greek_XI>              : "⊗"  # Circled times
+<U221D> <Greek_omicron> <Greek_xi>              : "⊗"  # Circled times
+<U221D> <parenleft> <Greek_XI> <parenright>     : "⊗"  # Circled times
+<U221D> <parenleft> <Greek_xi> <parenright>     : "⊗"  # Circled times
+<U221D> <period> <Greek_OMICRON>                : "⊙"  # Circled dot operator
+<U221D> <period> <Greek_omicron>                : "⊙"  # Circled dot operator
+<U221D> <plus> <Greek_OMICRON>                  : "⊕"  # Circled plus
+<U221D> <plus> <Greek_omicron>                  : "⊕"  # Circled plus
+<U221D> <slash> <Greek_OMICRON>                 : "⊘"  # Circled division slash
+<U221D> <slash> <Greek_omicron>                 : "⊘"  # Circled division slash
+<U221D> <Greek_XI> <Greek_OMICRON>              : "⊗"  # Circled times
+<U221D> <Greek_xi> <Greek_omicron>              : "⊗"  # Circled times
+
+
+# Geometrical operators (Alphabetical)
+<U221D> <bar> <U03FA>                   : "⋔"   # Pitchfork
+<U221D> <bar> <U03FB>                   : "⋔"   # Pitchfork
+<U221D> <U03FA> <bar>                   : "⋔"   # Pitchfork
+<U221D> <U03FB> <bar>                   : "⋔"   # Pitchfork
+<U221D> <equal> <Greek_GAMMA>           : "≎"   # Geomatrically equivalent to
+<U221D> <equal> <Greek_gamma>           : "≎"   # Geomatrically equivalent to
+<U221D> <equal> <minus> <Greek_GAMMA>   : "≏"   # Difference between
+<U221D> <equal> <minus> <Greek_gamma>   : "≏"   # Difference between
+<U221D> <equal> <U0376>                 : "≚"   # Equiangular to
+<U221D> <equal> <U0377>                 : "≚"   # Equiangular to
+<U221D> <Greek_GAMMA> <equal>           : "≎"   # Geomatrically equivalent to
+<U221D> <Greek_gamma> <equal>           : "≎"   # Geomatrically equivalent to
+<U221D> <minus> <equal> <Greek_GAMMA>   : "≏"   # Difference between
+<U221D> <minus> <equal> <Greek_gamma>   : "≏"   # Difference between
+<U221D> <U0376> <equal>                 : "≚"   # Equiangular to
+<U221D> <U0377> <equal>                 : "≚"   # Equiangular to
+
+
+# Letterlike mathematical operators
+<U221D> <Greek_ALPHA> <space>       : "∀"   # For all
+<U221D> <Greek_alpha> <space>       : "∀"   # For all
+<U221D> <Greek_EPSILON> <slash>     : "∄"   # There does not exist
+<U221D> <Greek_epsilon> <slash>     : "∄"   # There does not exist
+<U221D> <Greek_EPSILON> <exclam>    : "∃!"  # There exists one, and only one
+<U221D> <Greek_epsilon> <exclam>    : "∃!"  # There exists one, and only one
+<U221D> <Greek_EPSILON> <space>     : "∃"   # There exists
+<U221D> <Greek_epsilon> <space>     : "∃"   # There exists
+<U221D> <slash> <Greek_EPSILON>     : "∄"   # There does not exist
+<U221D> <slash> <Greek_epsilon>     : "∄"   # There does not exist
+
+
+# Logical operators (Alphabetical)
+<U221D> <asciicircum> <U0376>               : "⋀"   # N-Ary logical AND
+<U221D> <asciicircum> <U0377>               : "∧"   # Logical AND
+<U221D> <dead_circumflex> <U0376>           : "⋀"   # N-Ary logical AND
+<U221D> <dead_circumflex> <U0377>           : "∧"   # Logical AND
+<U221D> <minus> <asciicircum> <U0377>       : "⊼"   # Logical NAND
+<U221D> <minus> <dead_circumflex> <U0377>   : "⊼"   # Logical NAND
+<U221D> <minus> <U0377> <underscore>        : "⊽"   # Logical NOR
+<U221D> <U0376> <asciicircum>               : "⋀"   # N-Ary logical AND
+<U221D> <U0377> <asciicircum>               : "∧"   # Logical AND
+<U221D> <U0376> <U03FA> <asciicircum>       : "⋏"   # Curly logical AND
+<U221D> <U0377> <U03FB> <asciicircum>       : "⋏"   # Curly logical AND
+<U221D> <U0376> <U03FA> <underscore>        : "⋎"   # Curly logical OR
+<U221D> <U0377> <U03FB> <underscore>        : "⋎"   # Curly logical OR
+<U221D> <U0376> <dead_circumflex>           : "⋀"   # N-Ary logical AND
+<U221D> <U0377> <dead_circumflex>           : "∧"   # Logical AND
+<U221D> <U0376> <U03FA> <dead_circumflex>   : "⋏"   # Curly logical AND
+<U221D> <U0377> <U03FB> <dead_circumflex>   : "⋏"   # Curly logical AND
+<U221D> <U0377> <minus> <underscore>        : "⊻"   # Logical XOR
+<U221D> <U0376> <underscore>                : "⋁"   # N-Ary logical OR
+<U221D> <U0377> <underscore>                : "∨"   # Logical OR
+<U221D> <underscore> <U0376>                : "⋁"   # N-Ary logical OR
+<U221D> <underscore> <U0377>                : "∨"   # Logical OR
+
+
+# Miscellaneous mathematical operators & symbols
+<U221D> <2> <U0376>                             : "√"   # Square root
+<U221D> <2> <U0377>                             : "√"   # Square root
+<U221D> <3> <U0376>                             : "∛"   # Cubic root
+<U221D> <3> <U0377>                             : "∛"   # Cubic root
+<U221D> <4> <U0376>                             : "∜"   # Fourth root
+<U221D> <4> <U0377>                             : "∜"   # Fourth root
+<U221D> <backslash> <Greek_SIGMA> <space>       : "∿"   # Sine wave
+<U221D> <backslash> <Greek_sigma> <space>       : "∾"   # Inverted lazy S
+<U221D> <backslash> <U03DC> <Greek_RHO> <space> : "≀"   # Wreath product (Derived from LaTeX)
+<U221D> <U03FA> <underscore> <Greek_OMICRON>    : "⊶"   # Original of
+<U221D> <U03FB> <underscore> <Greek_omicron>    : "⊶"   # Original of
+<U221D> <Greek_DELTA> <equal>                   : "≝"   # Equal to by definition
+<U221D> <Greek_delta> <equal>                   : "≜"   # Delta equal to
+<U221D> <Greek_IOTA> <Greek_TAU>                : "⊺"   # Intercalate
+<U221D> <Greek_iota> <Greek_tau>                : "⊺"   # Intercalate
+<U221D> <minus> <minus> <U03FA>                 : "⊸"   # Multimap
+<U221D> <minus> <minus> <U03FB>                 : "⊸"   # Multimap
+<U221D> <Greek_OMICRON> <space>                 : "○"   # White circle (APL var * pi)
+<U221D> <Greek_omicron> <space>                 : "○"   # White circle (APL var * pi)
+<U221D> <Greek_OMICRON> <underscore> <U03FA>    : "⊷"   # Image of
+<U221D> <Greek_omicron> <underscore> <U03FB>    : "⊷"   # Image of
+<U221D> <Greek_PI> <space>                      : "∐"   # N-Ary coproduct
+<U221D> <Greek_pi> <space>                      : "∏"   # N-Ary product
+<U221D> <Greek_SIGMA> <space>                   : "∑"   # N-Ary summation
+<U221D> <Greek_sigma> <space>                   : "∑"   # N-Ary summation
+<U221D> <U0376> <2>                             : "√"   # Square root
+<U221D> <U0377> <2>                             : "√"   # Square root
+<U221D> <U0376> <3>                             : "∛"   # Cubic root
+<U221D> <U0377> <3>                             : "∛"   # Cubic root
+<U221D> <U0376> <4>                             : "∜"   # Fourth root
+<U221D> <U0377> <4>                             : "∜"   # Fourth root
+
+
+# Proof notation
+# (...)
+
+
+# Relational operators
+<U221D> <U03FA> <equal>                 : "≘"   # Corresponds to
+<U221D> <U03FB> <equal>                 : "≘"   # Corresponds to
+<U221D> <U03FA> <greater>               : "≽"   # Succeeds or equal to
+<U221D> <U03FB> <greater>               : "≻"   # Succeeds
+<U221D> <U03FA> <less>                  : "≼"   # Precedes or equal to
+<U221D> <U03FB> <less>                  : "≺"   # Precedes
+<U221D> <equal> <Greek_MU>              : "≞"   # Measured by
+<U221D> <equal> <Greek_mu>              : "≞"   # Measured by
+<U221D> <equal> <notsign> <Greek_XI>    : "≭"   # Not equivalent to
+<U221D> <equal> <notsign> <Greek_xi>    : "≭"   # Not equivalent to
+<U221D> <equal> <Greek_XI>              : "≍"   # Equivalent to
+<U221D> <equal> <Greek_xi>              : "≍"   # Equivalent to
+<U221D> <exclam> <dead_tilde> <U03FA>   : "⋩"   # Succeeds but not equivalent to
+<U221D> <exclam> <dead_tilde> <U03FB>   : "⋨"   # Precedes but not equivalent to
+<U221D> <exclam> <greater> <U03FB>      : "⊁"   # Does not succeed
+<U221D> <exclam> <less> <U03FB>         : "⊀"   # Does not precede
+<U221D> <exclam> <Greek_XI> <equal>     : "≭"   # Not equivalent to
+<U221D> <exclam> <Greek_xi> <equal>     : "≭"   # Not equivalent to
+<U221D> <greater> <U03FA>               : "≽"   # Succeeds or equal to
+<U221D> <greater> <U03FB>               : "≻"   # Succeeds
+<U221D> <greater> <dead_tilde> <U03FA>  : "≿"   # Succeeds or equivalent to
+<U221D> <greater> <dead_tilde> <U03FB>  : "≿"   # Succeeds or equivalent to
+<U221D> <greater> <minus> <U03FA>       : "⊱"   # Succeeds under relation
+<U221D> <greater> <minus> <U03FB>       : "⊱"   # Succeeds under relation
+<U221D> <greater> <slash> <U03FA>       : "⋡"   # Does not succeed nor equal
+<U221D> <greater> <slash> <U03FB>       : "⋡"   # Does not succeed nor equal
+<U221D> <less> <U03FA>                  : "≼"   # Precedes or equal to
+<U221D> <less> <U03FB>                  : "≺"   # Precedes
+<U221D> <less> <dead_tilde> <U03FA>     : "≾"   # Precedes or equivalent to
+<U221D> <less> <dead_tilde> <U03FB>     : "≾"   # Precedes or equivalent to
+<U221D> <less> <minus> <U03FA>          : "⊰"   # Precedes under relation
+<U221D> <less> <minus> <U03FB>          : "⊰"   # Precedes under relation
+<U221D> <less> <slash> <U03FA>          : "⋠"   # Does not precede nor equal
+<U221D> <less> <slash> <U03FB>          : "⋠"   # Does not precede nor equal
+<U221D> <Greek_MU> <equal>              : "≞"   # Measured by
+<U221D> <Greek_mu> <equal>              : "≞"   # Measured by
+<U221D> <minus> <U03FA> <greater>       : "⋟"   # Equal to or succeeds
+<U221D> <minus> <U03FA> <less>          : "⋞"   # Equal to or precedes
+<U221D> <minus> <greater> <U03FA>       : "⋟"   # Equal to or succeeds
+<U221D> <minus> <less> <U03FA>          : "⋞"   # Equal to or precedes
+<U221D> <notsign> <equal> <Greek_XI>    : "≭"   # Not quivalent to
+<U221D> <notsign> <equal> <Greek_xi>    : "≭"   # Not equivalent to
+<U221D> <Greek_XI> <equal>              : "≍"   # Equivalent to
+<U221D> <Greek_xi> <equal>              : "≍"   # Equivalent to
+
+
+# Set operators
+<U221D> <asciicircum> <2> <Greek_UPSILON>                   : "⋒"   # Double intersection
+<U221D> <asciicircum> <2> <Greek_upsilon>                   : "⋒"   # Double intersection
+<U221D> <asciicircum> <Greek_UPSILON>                       : "⋂"   # N-Ary intersection
+<U221D> <asciicircum> <Greek_upsilon>                       : "∩"   # Intersection
+<U221D> <bracketleft> <asciicircum> <Greek_upsilon>         : "⊓"   # Square cap
+<U221D> <bracketleft> <dead_circumflex> <Greek_upsilon>     : "⊓"   # Square cap
+<U221D> <bracketleft> <underscore> <Greek_upsilon>          : "⊔"   # Square cup
+<U221D> <bracketright> <asciicircum> <Greek_upsilon>        : "⊓"   # Square cap
+<U221D> <bracketright> <dead_circumflex> <Greek_upsilon>    : "⊓"   # Square cap
+<U221D> <bracketright> <underscore> <Greek_upsilon>         : "⊔"   # Square cup
+<U221D> <U03FA> <2>                                         : "⋑"   # Double superset
+<U221D> <U03FB> <2>                                         : "⋐"   # Double subset
+<U221D> <U03FA> <U03FA>                                     : "∁"   # Set complement
+<U221D> <U03FB> <U03FB>                                     : "∁"   # Set complement
+<U221D> <U03FA> <space>                                     : "⊃"   # Superset of
+<U221D> <U03FB> <space>                                     : "⊂"   # Subset of
+<U221D> <dead_circumflex> <2> <Greek_UPSILON>               : "⋒"   # Double intersection
+<U221D> <dead_circumflex> <2> <Greek_upsilon>               : "⋒"   # Double intersection
+<U221D> <dead_circumflex> <Greek_UPSILON>                   : "⋂"   # N-Ary intersection
+<U221D> <dead_circumflex> <Greek_upsilon>                   : "∩"   # Intersection
+<U221D> <Greek_EPSILON> <minus> <notsign>                   : "∉"   # Not an element of
+<U221D> <Greek_EPSILON> <minus> <space>                     : "∈"   # Element of
+<U221D> <Greek_epsilon> <minus> <space>                     : "∊"   # Small element of
+<U221D> <Greek_EPSILON> <notsign> <minus>                   : "∉"   # Not an element of
+<U221D> <Greek_EPSILON> <notsign> <plus>                    : "∌"   # Does not contain as member
+<U221D> <Greek_EPSILON> <plus> <space>                      : "∋"   # Contains as member
+<U221D> <Greek_epsilon> <plus> <space>                      : "∍"   # Small contains as member
+<U221D> <Greek_EPSILON> <plus> <notsign>                    : "∌"   # Does not contain as member
+<U221D> <equal> <U03FA>                                     : "⊇"   # Superset of or equal to
+<U221D> <equal> <U03FB>                                     : "⊆"   # Subset of or equal to
+<U221D> <equal> <slash> <U03FA>                             : "⊉"   # Neither a superset of nor equal to
+<U221D> <equal> <slash> <U03FB>                             : "⊈"   # Neither a subset of nor equal to
+<U221D> <exclam> <U03FA>                                    : "⊅"   # Not a superset of
+<U221D> <exclam> <U03FB>                                    : "⊄"   # Not a subset of
+<U221D> <exclam> <minus> <Greek_EPSILON>                    : "∉"   # Not an element of
+<U221D> <exclam> <plus> <Greek_EPSILON>                     : "∌"   # Does not contain as member
+<U221D> <minus> <Greek_EPSILON>                             : "∈"   # Element of
+<U221D> <minus> <Greek_epsilon>                             : "∊"   # Small element of
+<U221D> <minus> <notsign> <Greek_EPSILON>                   : "∉"   # Not an element of
+<U221D> <notsign> <minus> <Greek_EPSILON>                   : "∉"   # Not an element of
+<U221D> <notsign> <plus> <Greek_EPSILON>                    : "∌"   # Does not contain as member
+<U221D> <period> <underscore> <Greek_upsilon>               : "⊌"   # Multiset
+<U221D> <plus> <Greek_EPSILON>                              : "∋"   # Contains as member
+<U221D> <plus> <notsign> <Greek_EPSILON>                    : "∌"   # Does not contain as member
+<U221D> <plus> <underscore> <Greek_upsilon>                 : "⊎"   # Multiset union
+<U221D> <slash> <equal> <U03FA>                             : "⊋"   # Superset of with not equal to
+<U221D> <slash> <equal> <U03FB>                             : "⊊"   # Subset of with not equal to
+<U221D> <Greek_UPSILON> <asciicircum>                       : "⋂"   # N-Ary intersection
+<U221D> <Greek_upsilon> <asciicircum>                       : "∩"   # Intersection
+<U221D> <Greek_UPSILON> <dead_circumflex>                   : "⋂"   # N-Ary intersection
+<U221D> <Greek_upsilon> <dead_circumflex>                   : "∩"   # Intersection
+<U221D> <Greek_UPSILON> <2> <underscore>                    : "⋓"   # Double union
+<U221D> <Greek_upsilon> <2> <underscore>                    : "⋓"   # Double union
+<U221D> <Greek_UPSILON> <underscore>                        : "⋃"   # N-Ary union
+<U221D> <Greek_upsilon> <underscore>                        : "∪"   # Union
+<U221D> <underscore> <asterisk> <Greek_upsilon>             : "⊍"   # Multiset multiplication
+<U221D> <underscore> <period> <Greek_upsilon>               : "⊌"   # Multiset
+<U221D> <underscore> <plus> <Greek_upsilon>                 : "⊎"   # Multiset unions
+<U221D> <underscore> <Greek_UPSILON>                        : "⋃"   # N-Ary union
+<U221D> <underscore> <Greek_upsilon>                        : "∪"   # Union
+
+##################
+# [END OF RULES] #
+##################
