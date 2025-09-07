@@ -1,0 +1,62 @@
+# Greek Alphabet | Punctuation Marks Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Punctuation
+#
+
+# Dashes
+<U203B> <Greek_PHI> <minus> : "‒"   # Figure dash
+<U203B> <Greek_phi> <minus> : "‒"   # Figure dash
+<U203B> <minus> <Greek_PHI> : "‒"   # Figure dash
+<U203B> <minus> <Greek_phi> : "‒"   # Figure dash
+
+
+# Enclosed Latin Letters
+<U203B> <Greek_OMICRON> <U03FA>                 : "©"   # Copyright symbol
+<U203B> <Greek_omicron> <U03FB>                 : "©"   # Copyright symbol
+<U203B> <Greek_OMICRON> <U0186>                 : "🄯"   # Copyleft symbol
+<U203B> <Greek_omicron> <U0254>                 : "🄯"   # Copyleft symbol
+<U203B> <Greek_OMICRON> <Greek_PI>              : "℗"   # Sound copyright symbol
+<U203B> <Greek_omicron> <Greek_pi>              : "℗"   # Sound copyright symbol
+<U203B> <Greek_OMICRON> <U2183>                 : "🄯"   # Copyleft symbol
+<U203B> <Greek_omicron> <U2184>                 : "🄯"   # Copyleft symbol
+<U203B> <Greek_OMICRON> <Greek_RHO>             : "®"   # Registered trademark symbol
+<U203B> <Greek_omicron> <Greek_rho>             : "®"   # Registered trademark symbol
+<U203B> <parenleft> <U03FA> <parenright>        : "©"   # Copyright symbol
+<U203B> <parenleft> <U03FB> <parenright>        : "©"   # Copyright symbol
+<U203B> <parenleft> <U0186> <parenright>        : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <U0254> <parenright>        : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <Greek_PI> <parenright>     : "℗"   # Sound copyright symbol
+<U203B> <parenleft> <Greek_pi> <parenright>     : "℗"   # Sound copyright symbol
+<U203B> <parenleft> <U2183> <parenright>        : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <U2184> <parenright>        : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <Greek_RHO> <parenright>    : "®"   # Registered trademark symbol
+<U203B> <parenleft> <Greek_rho> <parenright>    : "®"   # Registered trademark symbol
+
+
+# Miscellaneous Punctuation
+<U203B> <U03FA> <equal>             : "⸿"    # Capitulum
+<U203B> <U03FB> <equal>             : "⸿"    # Capitulum
+<U203B> <colon> <Greek_XI>          : "※"   # Reference mark
+<U203B> <colon> <Greek_xi>          : "※"   # Reference mark
+<U203B> <equal> <U03FA>             : "⸿"    # Capitulum
+<U203B> <equal> <U03FB>             : "⸿"    # Capitulum
+<U203B> <Greek_PI> <space>          : "⹍"    # Paragraphus mark
+<U203B> <Greek_pi> <space>          : "⹍"    # Paragraphus mark
+<U203B> <Greek_SIGMA> <Greek_MU>    : "℠"    # Service mark
+<U203B> <Greek_sigma> <Greek_mu>    : "℠"    # Service mark
+<U203B> <Greek_TAU> <Greek_MU>      : "™"    # Trademark
+<U203B> <Greek_tau> <Greek_mu>      : "™"    # Trademark
+<U203B> <Greek_XI> <colon>          : "※"   # Reference mark
+<U203B> <Greek_xi> <colon>          : "※"   # Reference mark
+
+
+# Parentheses & Brackets
+<U203B> <greater> <U03FA>   : "⸧"   # Right sideways U-Fence
+<U203B> <greater> <U03FB>   : "⸧"   # Right sideways U-Fence
+<U203B> <less> <U03FA>      : "⸦"   # Left sideways U-Fence
+<U203B> <less> <U03FB>      : "⸦"   # Left sideways U-Fence
+
+##################
+# [END OF RULES] #
+##################
