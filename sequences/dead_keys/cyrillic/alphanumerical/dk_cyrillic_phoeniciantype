@@ -1,0 +1,100 @@
+# Cyrillic Alphabet | Phoenician Converter Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Phoenician_alphabet
+#
+# [NOTE]: Combinations will be listed following
+# Phoenician letter ordering as closely as possible.
+#
+# Additionally, each combination will get assigned to the closest
+# Cyrillic letter that better matches its Phoenician counterpart.
+#
+<U10900> <Cyrillic_A>                           : "𐤀"   # ʾĀlep
+<U10900> <Cyrillic_a>                           : "𐤀"   # ʾĀlep
+<U10900> <Cyrillic_BE>                          : "𐤁"   # Bēt
+<U10900> <Cyrillic_be>                          : "𐤁"   # Bēt
+<U10900> <Cyrillic_VE>                          : "𐤁"   # Bēt
+<U10900> <Cyrillic_ve>                          : "𐤁"   # Bēt
+<U10900> <Cyrillic_GHE>                         : "𐤂"   # Gīml
+<U10900> <Cyrillic_ghe>                         : "𐤂"   # Gīml
+<U10900> <Ukrainian_GHE_WITH_UPTURN>            : "𐤂"   # Gīml
+<U10900> <Ukrainian_ghe_with_upturn>            : "𐤂"   # Gīml
+<U10900> <Cyrillic_DE>                          : "𐤃"   # Dālet
+<U10900> <Cyrillic_de>                          : "𐤃"   # Dālet
+<U10900> <Cyrillic_IE>                          : "𐤄"   # He
+<U10900> <Cyrillic_ie>                          : "𐤄"   # He
+<U10900> <Cyrillic_IO>                          : "𐤄"   # He
+<U10900> <Cyrillic_io>                          : "𐤄"   # He
+<U10900> <dead_diaeresis> <Cyrillic_IE>         : "𐤄"   # He
+<U10900> <dead_diaeresis> <Cyrillic_ie>         : "𐤄"   # He
+<U10900> <Cyrillic_E>                           : "𐤄"   # He
+<U10900> <Cyrillic_e>                           : "𐤄"   # He
+<U10900> <Ukrainian_IE>                         : "𐤄"   # He
+<U10900> <Ukrainian_ie>                         : "𐤄"   # He
+<U10900> <Macedonia_DSE>                        : "𐤅"   # Wāw
+<U10900> <Macedonia_dse>                        : "𐤅"   # Wāw
+<U10900> <Cyrillic_U>                           : "𐤅"   # Wāw
+<U10900> <Cyrillic_u>                           : "𐤅"   # Wāw
+<U10900> <Byelorussian_SHORTU>                  : "𐤅"   # Wāw
+<U10900> <Byelorussian_shortu>                  : "𐤅"   # Wāw
+<U10900> <dead_breve> <Cyrillic_U>              : "𐤅"   # Wāw
+<U10900> <dead_breve> <Cyrillic_u>              : "𐤅"   # Wāw
+<U10900> <U0474>                                : "𐤅"   # Wāw
+<U10900> <U0475>                                : "𐤅"   # Wāw
+<U10900> <Cyrillic_ZE>                          : "𐤆"   # Zayin
+<U10900> <Cyrillic_ze>                          : "𐤆"   # Zayin
+<U10900> <Cyrillic_I>                           : "𐤇"   # Ḥēt
+<U10900> <Cyrillic_i>                           : "𐤇"   # Ḥēt
+<U10900> <Cyrillic_SHORTI>                      : "𐤇"   # Ḥēt
+<U10900> <Cyrillic_shorti>                      : "𐤇"   # Ḥēt
+<U10900> <dead_breve> <Cyrillic_I>              : "𐤇"   # Ḥēt
+<U10900> <dead_breve> <Cyrillic_i>              : "𐤇"   # Ḥēt
+<U10900> <U0472>                                : "𐤈"   # Ṭēt
+<U10900> <U0473>                                : "𐤈"   # Ṭēt
+<U10900> <Ukrainian_I>                          : "𐤉"   # Yod
+<U10900> <Ukrainian_i>                          : "𐤉"   # Yod
+<U10900> <Ukrainian_YI>                         : "𐤉"   # Yod
+<U10900> <Ukrainian_yi>                         : "𐤉"   # Yod
+<U10900> <dead_diaeresis> <Ukrainian_I>         : "𐤉"   # Yod
+<U10900> <dead_diaeresis> <Ukrainian_i>         : "𐤉"   # Yod
+<U10900> <Cyrillic_JE>                          : "𐤉"   # Yod
+<U10900> <Cyrillic_je>                          : "𐤉"   # Yod
+<U10900> <Cyrillic_KA>                          : "𐤊"   # Kāp
+<U10900> <Cyrillic_ka>                          : "𐤊"   # Kāp
+<U10900> <Cyrillic_EL>                          : "𐤋"   # Lāmed
+<U10900> <Cyrillic_el>                          : "𐤋"   # Lāmed
+<U10900> <Cyrillic_EM>                          : "𐤌"   # Mēm
+<U10900> <Cyrillic_em>                          : "𐤌"   # Mēm
+<U10900> <Cyrillic_EN>                          : "𐤍"   # Nūn
+<U10900> <Cyrillic_en>                          : "𐤍"   # Nūn
+<U10900> <U046E>                                : "𐤎"   # Śāmek
+<U10900> <U046F>                                : "𐤎"   # Śāmek
+<U10900> <U1DFB> <Cyrillic_KA> <Cyrillic_ES>    : "𐤎"   # Śāmek
+<U10900> <U1DFB> <Cyrillic_ka> <Cyrillic_es>    : "𐤎"   # Śāmek
+<U10900> <Cyrillic_O>                           : "𐤏"   # ʿAyin
+<U10900> <Cyrillic_o>                           : "𐤏"   # ʿAyin
+<U10900> <U0460>                                : "𐤏"   # ʿAyin
+<U10900> <U0461>                                : "𐤏"   # ʿAyin
+<U10900> <Cyrillic_PE>                          : "𐤐"   # Pē
+<U10900> <Cyrillic_pe>                          : "𐤐"   # Pē
+<U10900> <Cyrillic_TSE>                         : "𐤑"   # Ṣādē
+<U10900> <Cyrillic_tse>                         : "𐤑"   # Ṣādē
+<U10900> <U051A>                                : "𐤒"   # Qōp
+<U10900> <U051B>                                : "𐤒"   # Qōp
+<U10900> <Cyrillic_EF>                          : "𐤒"   # Qōp
+<U10900> <Cyrillic_ef>                          : "𐤒"   # Qōp
+<U10900> <Cyrillic_ER>                          : "𐤓"   # Rēs/Reš
+<U10900> <Cyrillic_er>                          : "𐤓"   # Rēs/Reš
+<U10900> <Cyrillic_ES>                          : "𐤔"   # Šīn
+<U10900> <Cyrillic_es>                          : "𐤔"   # Šīn
+<U10900> <Cyrillic_SHA>                         : "𐤔"   # Šīn
+<U10900> <Cyrillic_sha>                         : "𐤔"   # Šīn
+<U10900> <Cyrillic_SHCHA>                       : "𐤔"   # Šīn
+<U10900> <Cyrillic_shcha>                       : "𐤔"   # Šīn
+<U10900> <Cyrillic_TE>                          : "𐤕"   # Tāw
+<U10900> <Cyrillic_te>                          : "𐤕"   # Tāw
+
+##################
+# [END OF RULES] #
+##################
