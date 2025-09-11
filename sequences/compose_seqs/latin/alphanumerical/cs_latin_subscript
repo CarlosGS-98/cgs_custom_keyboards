@@ -22,7 +22,6 @@
 # Skorpian Subscript Caron (Greek Letters)
 <Multi_key> <dead_caron> <dead_greek> <b>   : "ᵦ"
 <Multi_key> <dead_caron> <dead_greek> <g>   : "ᵧ"
-<Multi_key> <dead_caron> <dead_greek> <d>   : "ᵟ"
 <Multi_key> <dead_caron> <dead_greek> <i>   : "ͺ"
 <Multi_key> <dead_caron> <dead_greek> <r>   : "ᵨ"
 <Multi_key> <dead_caron> <dead_greek> <f>   : "ᵩ"

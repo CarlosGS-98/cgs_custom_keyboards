@@ -91,7 +91,7 @@
 # Skorpian Superscript Circumflex (Latin Letters)
 <Multi_key> <dead_circumflex> <A>                                           : "ᴬ"
 <Multi_key> <dead_circumflex> <a>                                           : "ᵃ"
-<Multi_key> <dead_circumflex>  <U0250>                                      : "ᵄ"   # ɐ + Superscript
+<Multi_key> <dead_circumflex> <U0250>                                       : "ᵄ"   # ɐ + Superscript
 <Multi_key> <dead_circumflex> <U21BA> <a>                                   : "ᵄ"
 <Multi_key> <dead_circumflex> <AE>                                          : "ᴭ"
 <Multi_key> <dead_circumflex> <ae>                                          : "𐞃"
@@ -240,8 +240,8 @@
 <Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <oe>                : "𐞣"
 <Multi_key> <dead_circumflex> <oe>                                          : "ꟹ"
 <Multi_key> <dead_circumflex> <U1DCF> <o> <e>                               : "ꟹ"
-<Multi_key> <dead_circumflex> <dead_acute> <U0254>                          : "ᵓ"   # ɔ + Superscript
-<Multi_key> <dead_circumflex> <dead_acute> <U035A> <o>                      : "ᵓ"   # ɔ + Acute
+<Multi_key> <dead_circumflex> <U0254>                                       : "ᵓ"   # ɔ + Superscript
+<Multi_key> <dead_circumflex> <U035A> <o>                                   : "ᵓ"
 <Multi_key> <dead_circumflex> <U0264>                                       : "𐞑"   # ɤ (Ram's Horn) + Superscript
 <Multi_key> <dead_circumflex> <U035A> <oslash>                              : "𐞑"
 <Multi_key> <dead_circumflex> <U0277>                                       : "𐞤"   # ɷ (Latin Closed Omega) + Superscript
