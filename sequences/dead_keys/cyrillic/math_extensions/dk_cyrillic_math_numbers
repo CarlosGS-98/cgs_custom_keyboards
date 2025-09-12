@@ -1,0 +1,74 @@
+# Cyrillic Alphabet | Math Number Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [NOTE]: This file is part of the "Logic + Math Symbols" Dead Key,
+# which has been separated to  better maintain
+# different aspects pertaining to this extensive dead key.
+#
+# [NOTE]: The specific formatting of each character
+# is determined by the following Perl-like regular expression
+# applied to a LaTeX keyword (\{}):
+#
+# > regexp(Cyrillic) = \\[ФфМмСс]?[0-9]?{[а-яА-Я]}?[\*_|]?\с
+#
+# Where:
+#   -> "Ф" = "ф"        = Fraktur
+#   -> "М" = "м"        = Monospace
+#   -> "С"              = Script/Calligraphy
+#   -> "с"              = Sans-serif
+#   -> {[а-яА-Я]}       = Any alphabetical Cyrillic character enclosed in curly braces
+#   -> "*"              = Final Bold (inspired by Markdown)
+#   -> "_"              = Final Italic (inspired by Markdown)
+#   -> "|"              = Double-Struck (aka Blackboard Bold)
+#
+# Any of these rules can be preceded by any dead key keysym if needed
+# (and gets listed on any specific writing system file related to this diacritic).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols
+#
+
+# Mathematical Number Symbols
+<U221D> <backslash> <Cyrillic_EM> <0> <space>               : "𝟶"   # Monospace 0
+<U221D> <backslash> <Cyrillic_em> <0> <space>               : "𝟶"   # Monospace 0
+<U221D> <backslash> <Cyrillic_EM> <1> <space>               : "𝟷"   # Monospace 1
+<U221D> <backslash> <Cyrillic_em> <1> <space>               : "𝟷"   # Monospace 1
+<U221D> <backslash> <Cyrillic_EM> <2> <space>               : "𝟸"   # Monospace 2
+<U221D> <backslash> <Cyrillic_em> <2> <space>               : "𝟸"   # Monospace 2
+<U221D> <backslash> <Cyrillic_EM> <3> <space>               : "𝟹"   # Monospace 3
+<U221D> <backslash> <Cyrillic_em> <3> <space>               : "𝟹"   # Monospace 3
+<U221D> <backslash> <Cyrillic_EM> <4> <space>               : "𝟺"   # Monospace 4
+<U221D> <backslash> <Cyrillic_em> <4> <space>               : "𝟺"   # Monospace 4
+<U221D> <backslash> <Cyrillic_EM> <5> <space>               : "𝟻"   # Monospace 5
+<U221D> <backslash> <Cyrillic_em> <5> <space>               : "𝟻"   # Monospace 5
+<U221D> <backslash> <Cyrillic_EM> <6> <space>               : "𝟼"   # Monospace 6
+<U221D> <backslash> <Cyrillic_em> <6> <space>               : "𝟼"   # Monospace 6
+<U221D> <backslash> <Cyrillic_EM> <7> <space>               : "𝟽"   # Monospace 7
+<U221D> <backslash> <Cyrillic_em> <7> <space>               : "𝟽"   # Monospace 7
+<U221D> <backslash> <Cyrillic_EM> <8> <space>               : "𝟾"   # Monospace 8
+<U221D> <backslash> <Cyrillic_em> <8> <space>               : "𝟾"   # Monospace 8
+<U221D> <backslash> <Cyrillic_EM> <9> <space>               : "𝟿"   # Monospace 9
+<U221D> <backslash> <Cyrillic_em> <9> <space>               : "𝟿"   # Monospace 9
+<U221D> <backslash> <Cyrillic_es> <0> <space>               : "𝟢"   # Sans-serif 0
+<U221D> <backslash> <Cyrillic_es> <0> <asterisk> <space>    : "𝟬"   # Bold sans-serif 0
+<U221D> <backslash> <Cyrillic_es> <1> <space>               : "𝟣"   # Sans-serif 1
+<U221D> <backslash> <Cyrillic_es> <1> <asterisk> <space>    : "𝟭"   # Bold sans-serif 1
+<U221D> <backslash> <Cyrillic_es> <2> <space>               : "𝟤"   # Sans-serif 2
+<U221D> <backslash> <Cyrillic_es> <2> <asterisk> <space>    : "𝟮"   # Bold sans-serif 2
+<U221D> <backslash> <Cyrillic_es> <3> <space>               : "𝟥"   # Sans-serif 3
+<U221D> <backslash> <Cyrillic_es> <3> <asterisk> <space>    : "𝟯"   # Bold sans-serif 3
+<U221D> <backslash> <Cyrillic_es> <4> <space>               : "𝟦"   # Sans-serif 4
+<U221D> <backslash> <Cyrillic_es> <4> <asterisk> <space>    : "𝟰"   # Bold sans-serif 4
+<U221D> <backslash> <Cyrillic_es> <5> <space>               : "𝟧"   # Sans-serif 5
+<U221D> <backslash> <Cyrillic_es> <5> <asterisk> <space>    : "𝟱"   # Bold sans-serif 5
+<U221D> <backslash> <Cyrillic_es> <6> <space>               : "𝟨"   # Sans-serif 6
+<U221D> <backslash> <Cyrillic_es> <6> <asterisk> <space>    : "𝟲"   # Bold sans-serif 6
+<U221D> <backslash> <Cyrillic_es> <7> <space>               : "𝟩"   # Sans-serif 7
+<U221D> <backslash> <Cyrillic_es> <7> <asterisk> <space>    : "𝟳"   # Bold sans-serif 7
+<U221D> <backslash> <Cyrillic_es> <8> <space>               : "𝟪"   # Sans-serif 8
+<U221D> <backslash> <Cyrillic_es> <8> <asterisk> <space>    : "𝟴"   # Bold sans-serif 8
+<U221D> <backslash> <Cyrillic_es> <9> <space>               : "𝟫"   # Sans-serif 9
+<U221D> <backslash> <Cyrillic_es> <9> <asterisk> <space>    : "𝟵"   # Bold sans-serif 9
+
+##################
+# [END OF RULES] #
+##################
