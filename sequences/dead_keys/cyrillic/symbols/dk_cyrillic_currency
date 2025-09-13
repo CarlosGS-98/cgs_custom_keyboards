@@ -1,0 +1,212 @@
+# Cyrillic Alphabet | Currency Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Precomposed currency letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Currency_symbol
+#
+<dead_currency> <Cyrillic_A> <equal>                                                                : "₳"   # Austral
+<dead_currency> <Cyrillic_a> <equal>                                                                : "₳"   # Austral
+<dead_currency> <Cyrillic_A> <Cyrillic_EF>                                                          : "؋"   # Afghani
+<dead_currency> <Cyrillic_a> <Cyrillic_ef>                                                          : "؋"   # Afghani
+<dead_currency> <Cyrillic_A> <Cyrillic_ES>                                                          : "𐆚"   # Roman As
+<dead_currency> <Cyrillic_a> <Cyrillic_es>                                                          : "𐆚"   # Roman As
+<dead_currency> <Cyrillic_BE> <Cyrillic_A>                                                          : "৹"   # Bengali Ānā
+<dead_currency> <Cyrillic_be> <Cyrillic_a>                                                          : "৹"   # Bengali Ānā
+<dead_currency> <Cyrillic_BE> <bar>                                                                 : "฿"   # Baht
+<dead_currency> <Cyrillic_be> <bar>                                                                 : "฿"   # Baht
+<dead_currency> <Cyrillic_BE> <equal>                                                               : "₿"   # Bitcoin
+<dead_currency> <Cyrillic_be> <equal>                                                               : "₿"   # Bitcoin
+<dead_currency> <Cyrillic_BE> <Cyrillic_GHE>                                                        : "৻"   # Bengali Gaṇḍā
+<dead_currency> <Cyrillic_be> <Cyrillic_ghe>                                                        : "৻"   # Bengali Gaṇḍā
+<dead_currency> <Cyrillic_BE> <Cyrillic_ER>                                                         : "৲"   # Bengali Rupee mark
+<dead_currency> <Cyrillic_be> <Cyrillic_er>                                                         : "৲"   # Bengali Rupee mark
+<dead_currency> <bar> <Cyrillic_BE>                                                                 : "฿"   # Baht
+<dead_currency> <bar> <Cyrillic_be>                                                                 : "฿"   # Baht
+<dead_currency> <bar> <Cyrillic_TSE>                                                                : "₵"   # Cedi
+<dead_currency> <bar> <Cyrillic_tse>                                                                : "¢"   # Cent sign
+<dead_currency> <bar> <Cyrillic_GHE>                                                                : "₲"   # Guaraní
+<dead_currency> <bar> <Cyrillic_ghe>                                                                : "₲"   # Guaraní
+<dead_currency> <bar> <Cyrillic_EM>                                                                 : "₥"   # Mill sign
+<dead_currency> <bar> <Cyrillic_em>                                                                 : "₥"   # Mill sign
+<dead_currency> <bar> <Cyrillic_ES>                                                                 : "$"   # Dollar/Peso sign
+<dead_currency> <bar> <Cyrillic_es>                                                                 : "$"   # Dollar/Peso sign
+<dead_currency> <Cyrillic_TSE> <bar>                                                                : "₵"   # Cedi
+<dead_currency> <Cyrillic_tse> <bar>                                                                : "¢"   # Cent sign
+<dead_currency> <Cyrillic_TSE> <Cyrillic_IE>                                                        : "₠"   # European Currency Sign
+<dead_currency> <Cyrillic_tse> <Cyrillic_ie>                                                        : "₠"   # European Currency Sign
+<dead_currency> <Cyrillic_TSE> <equal>                                                              : "₡"   # Colón
+<dead_currency> <Cyrillic_tse> <equal>                                                              : "₡"   # Colón
+<dead_currency> <Cyrillic_TSE> <Cyrillic_ER>                                                        : "₢"   # Cruzeiro
+<dead_currency> <Cyrillic_TSE> <Cyrillic_er>                                                        : "₢"   # Cruzeiro
+<dead_currency> <Cyrillic_tse> <Cyrillic_er>                                                        : "₢"   # Cruzeiro
+<dead_currency> <Cyrillic_DE> <equal>                                                               : "֏"   # Dram
+<dead_currency> <Cyrillic_de> <equal>                                                               : "֏"   # Dram
+<dead_currency> <Cyrillic_DE> <Cyrillic_EM>                                                         : "ℳ︁"  # Mark
+<dead_currency> <Cyrillic_de> <Cyrillic_em>                                                         : "ℳ︁"  # Mark
+<dead_currency> <Cyrillic_DE> <minus>                                                               : "₫"   # Đồng
+<dead_currency> <Cyrillic_de> <minus>                                                               : "₫"   # Đồng
+<dead_currency> <Cyrillic_DE> <Cyrillic_O> <Cyrillic_ER> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_IE>   : "߾"   # N'Ko Dorome sign
+<dead_currency> <Cyrillic_de> <Cyrillic_o> <Cyrillic_er> <Cyrillic_o> <Cyrillic_em> <Cyrillic_ie>   : "߾"   # N'Ko Dorome sign
+<dead_currency> <Cyrillic_DE> <Cyrillic_ER>                                                         : "₯"   # Dracma
+<dead_currency> <Cyrillic_de> <Cyrillic_er>                                                         : "₯"   # Dracma
+<dead_currency> <Cyrillic_DE> <underscore>                                                          : "₫"   # Đồng
+<dead_currency> <Cyrillic_de> <underscore>                                                          : "₫"   # Đồng
+<dead_currency> <Cyrillic_IE> <equal>                                                               : "€"   # Euro sign
+<dead_currency> <Cyrillic_ie> <equal>                                                               : "€"   # Euro sign
+<dead_currency> <equal> <Cyrillic_A>                                                                : "₳"   # Austral
+<dead_currency> <equal> <Cyrillic_a>                                                                : "₳"   # Austral
+<dead_currency> <equal> <Cyrillic_BE>                                                               : "₿"   # Bitcoin
+<dead_currency> <equal> <Cyrillic_be>                                                               : "₿"   # Bitcoin
+<dead_currency> <equal> <Cyrillic_TSE>                                                              : "₡"   # Colón
+<dead_currency> <equal> <Cyrillic_tse>                                                              : "₡"   # Colón
+<dead_currency> <equal> <Cyrillic_DE>                                                               : "֏"   # Dram
+<dead_currency> <equal> <Cyrillic_de>                                                               : "֏"   # Dram
+<dead_currency> <equal> <Cyrillic_IE>                                                               : "€"   # Euro sign
+<dead_currency> <equal> <Cyrillic_ie>                                                               : "€"   # Euro sign
+<dead_currency> <equal> <Cyrillic_GHE>                                                              : "₴"   # Hryvnia
+<dead_currency> <equal> <Cyrillic_ghe>                                                              : "₴"   # Hryvnia
+<dead_currency> <equal> <Cyrillic_EL>                                                               : "₾"   # Lari
+<dead_currency> <equal> <Cyrillic_el>                                                               : "₺"   # Turkish Lira
+<dead_currency> <equal> <Cyrillic_EN>                                                               : "₦"   # Naira
+<dead_currency> <equal> <Cyrillic_en>                                                               : "₦"   # Naira
+<dead_currency> <equal> <Cyrillic_PE>                                                               : "₱"   # Philippine Peso
+<dead_currency> <equal> <Cyrillic_pe>                                                               : "₱"   # Philippine Peso
+<dead_currency> <equal> <Cyrillic_ER>                                                               : "₹"   # Indian Rupee
+<dead_currency> <equal> <Cyrillic_er>                                                               : "₹"   # Indian Rupee
+<dead_currency> <equal> <Cyrillic_ES>                                                               : "₷"  # Spesmilo
+<dead_currency> <equal> <Cyrillic_es>                                                               : "₷"  # Spesmilo
+<dead_currency> <equal> <Cyrillic_TE>                                                               : "₮"   # Tögrög
+<dead_currency> <equal> <Cyrillic_te>                                                               : "₮"   # Tögrög
+<dead_currency> <equal> <Cyrillic_YERU>                                                             : "¥"   # Yen/Yuan sign
+<dead_currency> <equal> <Cyrillic_yeru>                                                             : "¥"   # Yen/Yuan sign
+<dead_currency> <Cyrillic_EF> <minus>                                                               : "₣"   # Franc sign
+<dead_currency> <Cyrillic_ef> <minus>                                                               : "₣"   # Franc sign
+<dead_currency> <Cyrillic_GHE> <bar>                                                                : "₲"   # Guaraní
+<dead_currency> <Cyrillic_ghe> <bar>                                                                : "₲"   # Guaraní
+<dead_currency> <Cyrillic_GHE> <equal>                                                              : "₴"   # Hryvnia
+<dead_currency> <Cyrillic_ghe> <equal>                                                              : "₴"   # Hryvnia
+<dead_currency> <Cyrillic_SHHA> <minus>                                                             : "𐆙"   # Roman Dupondius
+<dead_currency> <Cyrillic_shha> <minus>                                                             : "𐆙"   # Roman Dupondius
+<dead_currency> <Cyrillic_SHHA> <Cyrillic_ES>                                                       : "𐆘"  # Roman Sertertius
+<dead_currency> <Cyrillic_shha> <Cyrillic_es>                                                       : "𐆘"  # Roman Sertertius
+<dead_currency> <Cyrillic_I> <minus>                                                                : "𐆚"   # Roman As
+<dead_currency> <Cyrillic_i> <minus>                                                                : "𐆚"   # Roman As
+<dead_currency> <Cyrillic_I> <Cyrillic_I> <minus>                                                   : "𐆙"   # Roman Dupondius
+<dead_currency> <Cyrillic_i> <Cyrillic_i> <minus>                                                   : "𐆙"   # Roman Dupondius
+<dead_currency> <Cyrillic_I> <Cyrillic_I> <Cyrillic_ES>                                             : "𐆘"  # Roman Sertertius
+<dead_currency> <Cyrillic_i> <Cyrillic_i> <Cyrillic_es>                                             : "𐆘"  # Roman Sertertius
+<dead_currency> <Cyrillic_I> <Cyrillic_TE>                                                          : "₤"   # Italian Lira
+<dead_currency> <Cyrillic_i> <Cyrillic_te>                                                          : "₤"   # Italian Lira
+<dead_currency> <Cyrillic_KA> <minus>                                                               : "₭"   # Kip
+<dead_currency> <Cyrillic_ka> <minus>                                                               : "₭"   # Kip
+<dead_currency> <Cyrillic_EL> <equal>                                                               : "₾"   # Lari
+<dead_currency> <Cyrillic_el> <equal>                                                               : "₺"   # Turkish Lira
+<dead_currency> <Cyrillic_EL> <minus>                                                               : "£"   # Pound sign
+<dead_currency> <Cyrillic_el> <minus>                                                               : "£"   # Pound sign
+<dead_currency> <Cyrillic_EL> <Cyrillic_TE>                                                         : "₶"   # Livre Tournois
+<dead_currency> <Cyrillic_el> <Cyrillic_te>                                                         : "₶"   # Livre Tournois
+<dead_currency> <Cyrillic_EM> <bar>                                                                 : "₥"   # Mill sign
+<dead_currency> <Cyrillic_em> <bar>                                                                 : "₥"   # Mill sign
+<dead_currency> <Cyrillic_EM> <minus>                                                               : "₼"   # Manat
+<dead_currency> <Cyrillic_em> <minus>                                                               : "₼"   # Manat
+<dead_currency> <minus> <Cyrillic_DE>                                                               : "₫"   # Đồng
+<dead_currency> <minus> <Cyrillic_de>                                                               : "₫"   # Đồng
+<dead_currency> <minus> <Cyrillic_EF>                                                               : "₣"   # Franc sign
+<dead_currency> <minus> <Cyrillic_ef>                                                               : "₣"   # Franc sign
+<dead_currency> <minus> <Cyrillic_SHHA>                                                             : "𐆙"   # Roman Dupondius
+<dead_currency> <minus> <Cyrillic_shha>                                                             : "𐆙"   # Roman Dupondius
+<dead_currency> <minus> <Cyrillic_I>                                                                : "𐆚"   # Roman As
+<dead_currency> <minus> <Cyrillic_i>                                                                : "𐆚"   # Roman As
+<dead_currency> <minus> <Cyrillic_KA>                                                               : "₭"   # Kip
+<dead_currency> <minus> <Cyrillic_ka>                                                               : "₭"   # Kip
+<dead_currency> <minus> <Cyrillic_EL>                                                               : "£"   # Pound sign
+<dead_currency> <minus> <Cyrillic_el>                                                               : "£"   # Pound sign
+<dead_currency> <minus> <Cyrillic_EM>                                                               : "₼"   # Manat
+<dead_currency> <minus> <Cyrillic_em>                                                               : "₼"   # Manat
+<dead_currency> <minus> <Cyrillic_ER>                                                               : "₽"   # Ruble sign
+<dead_currency> <minus> <Cyrillic_er>                                                               : "₽"   # Ruble sign
+<dead_currency> <minus> <Cyrillic_ES>                                                               : "⃀"   # Som
+<dead_currency> <minus> <Cyrillic_es>                                                               : "⃀"   # Som
+<dead_currency> <minus> <Cyrillic_TE>                                                               : "₸"   # Tenge
+<dead_currency> <minus> <Cyrillic_te>                                                               : "₸"   # Tenge
+<dead_currency> <minus> <Cyrillic_VE>                                                               : "𐆗"   # Roman Quinarius
+<dead_currency> <minus> <Cyrillic_ve>                                                               : "𐆗"   # Roman Quinarius
+<dead_currency> <minus> <Cyrillic_SOFTSIGN>                                                         : "₩"   # Won sign
+<dead_currency> <minus> <Cyrillic_softsign>                                                         : "₩"   # Won sign
+<dead_currency> <minus> <Cyrillic_HA>                                                               : "𐆖"   # Roman Denarius
+<dead_currency> <minus> <Cyrillic_ha>                                                               : "𐆖"   # Roman Denarius
+<dead_currency> <Cyrillic_EN> <equal>                                                               : "₦"   # Naira
+<dead_currency> <Cyrillic_en> <equal>                                                               : "₦"   # Naira
+<dead_currency> <Cyrillic_EN> <Cyrillic_EM>                                                         : "₻"   # Nordic Mark
+<dead_currency> <Cyrillic_en> <Cyrillic_em>                                                         : "₻"   # Nordic Mark
+<dead_currency> <Cyrillic_PE> <equal>                                                               : "₱"   # Philippine Peso
+<dead_currency> <Cyrillic_pe> <equal>                                                               : "₱"   # Philippine Peso
+<dead_currency> <Cyrillic_PE> <Cyrillic_EF>                                                         : "₰"   # Pfennig
+<dead_currency> <Cyrillic_pe> <Cyrillic_ef>                                                         : "₰"   # Pfennig
+<dead_currency> <period> <Cyrillic_SOFTSIGN>                                                        : "؋"   # Afghani
+<dead_currency> <period> <Cyrillic_softsign>                                                        : "؋"   # Afghani
+<dead_currency> <Cyrillic_ER> <1>                                                                   : "రూ"   # Indian Rupee (Telugu script)
+<dead_currency> <Cyrillic_er> <1>                                                                   : "రూ"   # Indian Rupee (Telugu script)
+<dead_currency> <Cyrillic_ER> <2>                                                                   : "௹"   # Indian Rupee (Tamil script)
+<dead_currency> <Cyrillic_er> <2>                                                                   : "௹"   # Indian Rupee (Tamil script)
+<dead_currency> <Cyrillic_ER> <3>                                                                   : "૱"   # Indian Rupee (Gujarati script)
+<dead_currency> <Cyrillic_er> <3>                                                                   : "૱"   # Indian Rupee (Gujarati script)
+<dead_currency> <Cyrillic_ER> <4>                                                                   : "ರ"   # Indian Rupee (Kannada script)
+<dead_currency> <Cyrillic_er> <4>                                                                   : "ರ"   # Indian Rupee (Kannada script)
+<dead_currency> <Cyrillic_ER> <5>                                                                   : "රු"   # Sri Lankan Rupee (Sinhala script)
+<dead_currency> <Cyrillic_er> <5>                                                                   : "රු"   # Sri Lankan Rupee (Sinhala script)
+<dead_currency> <Cyrillic_ER> <6>                                                                   : "꠸"    # Indian Rupee (North Indic)
+<dead_currency> <Cyrillic_er> <6>                                                                   : "꠸"    # Indian Rupee (North Indic)
+<dead_currency> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_A> <Cyrillic_EL>                               : "﷼"   # Iranian Rial
+<dead_currency> <Cyrillic_er> <Cyrillic_i> <Cyrillic_a> <Cyrillic_el>                               : "﷼"   # Iranian Rial
+<dead_currency> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_IE> <Cyrillic_EL>                              : "៛"    # Cambodian Riel
+<dead_currency> <Cyrillic_er> <Cyrillic_i> <Cyrillic_ie> <Cyrillic_el>                              : "៛"    # Cambodian Riel
+<dead_currency> <Cyrillic_ER> <equal>                                                               : "₹"    # Indian Rupee
+<dead_currency> <Cyrillic_er> <equal>                                                               : "₹"    # Indian Rupee
+<dead_currency> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_ES>                                            : "𞲰"    # Indic Siyaq Rupee mark
+<dead_currency> <Cyrillic_er> <Cyrillic_i> <Cyrillic_es>                                            : "𞲰"    # Indic Siyaq Rupee mark
+<dead_currency> <Cyrillic_ER> <minus>                                                               : "₽"    # Ruble sign
+<dead_currency> <Cyrillic_er> <minus>                                                               : "₽"    # Ruble sign
+<dead_currency> <Cyrillic_ER> <Cyrillic_ES>                                                         : "₨"   # Rupee sign
+<dead_currency> <Cyrillic_er> <Cyrillic_es>                                                         : "₨"   # Rupee sign
+<dead_currency> <Cyrillic_ER> <Cyrillic_SOFTSIGN>                                                   : "𞋿"    # Wancho
+<dead_currency> <Cyrillic_er> <Cyrillic_softsign>                                                   : "𞋿"    # Wancho
+<dead_currency> <Cyrillic_ES> <bar>                                                                 : "$"   # Dollar/Peso sign
+<dead_currency> <Cyrillic_es> <bar>                                                                 : "$"   # Dollar/Peso sign
+<dead_currency> <Cyrillic_ES> <equal>                                                               : "₷"  # Spesmilo
+<dead_currency> <Cyrillic_es> <equal>                                                               : "₷"  # Spesmilo
+<dead_currency> <Cyrillic_ES> <Cyrillic_SHHA>                                                       : "₪"   # New Shekel
+<dead_currency> <Cyrillic_es> <Cyrillic_shha>                                                       : "₪"   # New Shekel
+<dead_currency> <Cyrillic_ES> <minus>                                                               : "⃀"   # Som
+<dead_currency> <Cyrillic_es> <minus>                                                               : "⃀"   # Som
+<dead_currency> <Cyrillic_TE> <Cyrillic_A> <Cyrillic_EM> <Cyrillic_A> <Cyrillic_EN>                 : "߿"   # N'Ko Taman sign
+<dead_currency> <Cyrillic_te> <Cyrillic_a> <Cyrillic_em> <Cyrillic_a> <Cyrillic_en>                 : "߿"   # N'Ko Taman sign
+<dead_currency> <Cyrillic_TE> <equal>                                                               : "₮"   # Tögrög
+<dead_currency> <Cyrillic_te> <equal>                                                               : "₮"   # Tögrög
+<dead_currency> <Cyrillic_TE> <Cyrillic_KA>                                                         : "৳"   # Taka
+<dead_currency> <Cyrillic_TE> <Cyrillic_ka>                                                         : "৳"   # Taka
+<dead_currency> <Cyrillic_te> <Cyrillic_ka>                                                         : "৳"   # Taka
+<dead_currency> <Cyrillic_TE> <minus>                                                               : "₸"   # Tenge
+<dead_currency> <Cyrillic_te> <minus>                                                               : "₸"   # Tenge
+<dead_currency> <underscore> <Cyrillic_DE>                                                          : "₫"   # Đồng
+<dead_currency> <underscore> <Cyrillic_de>                                                          : "₫"   # Đồng
+<dead_currency> <Cyrillic_VE> <minus>                                                               : "𐆗"   # Roman Quinarius
+<dead_currency> <Cyrillic_ve> <minus>                                                               : "𐆗"   # Roman Quinarius
+<dead_currency> <Cyrillic_SOFTSIGN> <minus>                                                         : "₩"   # Won sign
+<dead_currency> <Cyrillic_softsign> <minus>                                                         : "₩"   # Won sign
+<dead_currency> <Cyrillic_SOFTSIGN> <period>                                                        : "؋"   # Afghani
+<dead_currency> <Cyrillic_softsign> <period>                                                        : "؋"   # Afghani
+<dead_currency> <Cyrillic_SOFTSIGN> <Cyrillic_ER>                                                   : "𞋿"   # Wancho
+<dead_currency> <Cyrillic_softsign> <Cyrillic_er>                                                   : "𞋿"   # Wancho
+<dead_currency> <Cyrillic_HA> <minus>                                                               : "𐆖"   # Roman Denarius
+<dead_currency> <Cyrillic_ha> <minus>                                                               : "𐆖"   # Roman Denarius
+<dead_currency> <Cyrillic_YERU> <Cyrillic_IE> <Cyrillic_EN>                                         : "円"   # CJK Yen sign
+<dead_currency> <Cyrillic_yeru> <Cyrillic_ie> <Cyrillic_en>                                         : "円"   # CJK Yen sign
+<dead_currency> <Cyrillic_YERU> <equal>                                                             : "¥"   # Yen/Yuan sign
+<dead_currency> <Cyrillic_yeru> <equal>                                                             : "¥"   # Yen/Yuan sign
+<dead_currency> <Cyrillic_YERU> <Cyrillic_U> <Cyrillic_A> <Cyrillic_EN>                             : "元"   # CJK Yuan sign
+<dead_currency> <Cyrillic_yeru> <Cyrillic_u> <Cyrillic_a> <Cyrillic_en>                             : "元"   # CJK Yuan sign
+
+##################
+# [END OF RULES] #
+##################
