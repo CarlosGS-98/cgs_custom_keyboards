@@ -1,0 +1,134 @@
+# Cyrillic Alphabet | Arrows Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Functional Arrows
+<U21BB> <Cyrillic_KA> <Cyrillic_A> <Cyrillic_PE> <Cyrillic_ES> <space>                              : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Cyrillic_KA> <Cyrillic_a> <Cyrillic_pe> <Cyrillic_es> <space>                              : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Cyrillic_ka> <Cyrillic_a> <Cyrillic_pe> <Cyrillic_es> <space>                              : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Cyrillic_DE> <Cyrillic_U> <Cyrillic_PE> <space>                                            : "⇮"
+<U21BB> <Cyrillic_DE> <Cyrillic_u> <Cyrillic_pe> <space>                                            : "⇯"
+<U21BB> <Cyrillic_de> <Cyrillic_u> <Cyrillic_pe> <space>                                            : "⇰"
+<U21BB> <Cyrillic_EM> <Cyrillic_A> <Cyrillic_YERU> <dead_acute> <Cyrillic_U> <Cyrillic_ES> <space>  : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Cyrillic_EM> <Cyrillic_a> <Cyrillic_yeru> <dead_acute> <Cyrillic_u> <Cyrillic_es> <space>  : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Cyrillic_em> <Cyrillic_a> <Cyrillic_yeru> <dead_acute> <Cyrillic_u> <Cyrillic_es> <space>  : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Cyrillic_EN> <Cyrillic_U> <Cyrillic_EM> <space>                                            : "⇭"   # Num Lock Arrow Key
+<U21BB> <Cyrillic_EN> <Cyrillic_u> <Cyrillic_em> <space>                                            : "⇭"   # Num Lock Arrow Key
+<U21BB> <Cyrillic_en> <Cyrillic_u> <Cyrillic_em> <space>                                            : "⇭"   # Num Lock Arrow Key
+<U21BB> <Cyrillic_ES> <Cyrillic_SHHA> <Cyrillic_I> <Cyrillic_EF> <Cyrillic_TE> <space>              : "⇫"   # Shift Arrow Key + Pedestal
+<U21BB> <Cyrillic_ES> <Cyrillic_SHHA> <Ukrainian_I> <Cyrillic_EF> <Cyrillic_TE> <space>             : "⇫"   # Shift Arrow Key + Pedestal
+<U21BB> <Cyrillic_ES> <Cyrillic_shha> <Cyrillic_i> <Cyrillic_ef> <Cyrillic_te> <space>              : "⇪"   # Shift Arrow Key
+<U21BB> <Cyrillic_ES> <Cyrillic_shha> <Ukrainian_i> <Cyrillic_ef> <Cyrillic_te> <space>             : "⇪"   # Shift Arrow Key
+<U21BB> <Cyrillic_es> <Cyrillic_shha> <Cyrillic_i> <Cyrillic_ef> <Cyrillic_te> <space>              : "⇪"   # Shift Arrow Key
+<U21BB> <Cyrillic_es> <Cyrillic_shha> <Ukrainian_i> <Cyrillic_ef> <Cyrillic_te> <space>             : "⇪"   # Shift Arrow Key
+
+
+# Harpoons
+<U21BB> <minus> <asterisk> <Cyrillic_VE> <space>    : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <minus> <asterisk> <Cyrillic_ve> <space>    : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <plus> <asterisk> <Cyrillic_VE> <space>     : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <plus> <asterisk> <Cyrillic_ve> <space>     : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <Cyrillic_VE> <asterisk> <plus> <space>     : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <Cyrillic_ve> <asterisk> <plus> <space>     : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <Cyrillic_VE> <asterisk> <minus> <space>    : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <Cyrillic_ve> <asterisk> <minus> <space>    : "⇃"   # Downwards harpoon with leftwards barb
+
+
+# Multiple Arrows
+<U21BB> <asciicircum> <bar> <bar> <Cyrillic_VE> <space>     : "⇅"   # Upwards-downwards arrow
+<U21BB> <asciicircum> <bar> <bar> <Cyrillic_ve> <space>     : "⇅"   # Upwards-downwards arrow
+<U21BB> <dead_circumflex> <bar> <bar> <Cyrillic_VE> <space> : "⇅"   # Upwards-downwards arrow
+<U21BB> <dead_circumflex> <bar> <bar> <Cyrillic_ve> <space> : "⇅"   # Upwards-downwards arrow
+<U21BB> <Cyrillic_VE> <bar> <2> <space>                     : "⇊"   # Downwards paired arrows
+<U21BB> <Cyrillic_ve> <bar> <2> <space>                     : "⇊"   # Downwards paired arrows
+<U21BB> <Cyrillic_VE> <bar> <Cyrillic_VE> <bar> <space>     : "⇊"   # Downwards paired arrows
+<U21BB> <Cyrillic_ve> <bar> <Cyrillic_ve> <bar> <space>     : "⇊"   # Downwards paired arrows
+
+
+# Thick Arrows
+<U21BB> <asciicircum> <equal> <Cyrillic_VE> <space>                             : "⇕"   # Upwards-downwards double arrow
+<U21BB> <asciicircum> <equal> <Cyrillic_ve> <space>                             : "⇕"   # Upwards-downwards double arrow
+<U21BB> <bar> <bar> <Cyrillic_VE> <space>                                       : "⇓"    # Downwards double arrow
+<U21BB> <bar> <bar> <Cyrillic_ve> <space>                                       : "⇓"    # Downwards double arrow
+<U21BB> <bracketleft> <asciicircum> <Cyrillic_VE> <bracketright> <space>        : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <asciicircum> <Cyrillic_ve> <bracketright> <space>        : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <dead_circumflex> <Cyrillic_VE> <bracketright> <space>    : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <dead_circumflex> <Cyrillic_ve> <bracketright> <space>    : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <Cyrillic_VE> <bracketright> <space>                      : "⇩"   # Downwards white arrow
+<U21BB> <bracketleft> <Cyrillic_ve> <bracketright> <space>                      : "⇩"   # Downwards white arrow
+<U21BB> <dead_circumflex> <equal> <Cyrillic_VE> <space>                         : "⇕"   # Upwards-downwards double arrow
+<U21BB> <dead_circumflex> <equal> <Cyrillic_ve> <space>                         : "⇕"   # Upwards-downwards double arrow
+<U21BB> <equal> <Cyrillic_VE> <space>                                           : "⇘"   # Southeast double arrow
+<U21BB> <equal> <Cyrillic_ve> <space>                                           : "⇘"   # Southeast double arrow
+<U21BB> <Cyrillic_VE> <bar> <bar> <space>                                       : "⇓"    # Downwards double arrow
+<U21BB> <Cyrillic_ve> <bar> <bar> <space>                                       : "⇓"    # Downwards double arrow
+<U21BB> <Cyrillic_VE> <equal> <space>                                           : "⇙"   # Southwest double arrow
+<U21BB> <Cyrillic_ve> <equal> <space>                                           : "⇙"   # Southwest double arrow
+<U21BB> <Cyrillic_VE> <equal> <asciicircum> <space>                             : "⇕"   # Upwards-downwards double arrow
+<U21BB> <Cyrillic_ve> <equal> <asciicircum> <space>                             : "⇕"   # Upwards-downwards double arrow
+<U21BB> <Cyrillic_VE> <equal> <Cyrillic_VE> <space>                             : "⇕"   # Upwards-downwards double arrow
+<U21BB> <Cyrillic_ve> <equal> <Cyrillic_ve> <space>                             : "⇕"   # Upwards-downwards double arrow
+
+
+# Thin Arrows
+<U21BB> <asciicircum> <bar> <Cyrillic_VE> <space>                   : "↕"   # Up-down arrow
+<U21BB> <asciicircum> <bar> <Cyrillic_ve> <space>                   : "↕"   # Up-down arrow
+<U21BB> <asciicircum> <bar> <Cyrillic_VE> <Cyrillic_VE> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <asciicircum> <bar> <Cyrillic_ve> <Cyrillic_ve> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <asterisk> <Cyrillic_VE> <space>                            : "↯"   # Electrical arrow
+<U21BB> <asterisk> <Cyrillic_ve> <space>                            : "↯"   # Electrical arrow
+<U21BB> <bar> <equal> <Cyrillic_VE> <space>                         : "⇟"   # Page Down
+<U21BB> <bar> <equal> <Cyrillic_ve> <space>                         : "⇟"   # Page Down
+<U21BB> <bar> <Cyrillic_VE> <space>                                 : "↓"   # Downwards arrow
+<U21BB> <bar> <Cyrillic_ve> <space>                                 : "↓"   # Downwards arrow
+<U21BB> <bar> <Cyrillic_VE> <greater> <space>                       : "↳"   # Downwards-rightwards arrow
+<U21BB> <bar> <Cyrillic_ve> <greater> <space>                       : "↳"   # Downwards-rightwards arrow
+<U21BB> <bar> <Cyrillic_VE> <Cyrillic_VE> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <bar> <Cyrillic_ve> <Cyrillic_ve> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <dead_circumflex> <bar> <Cyrillic_VE> <space>               : "↕"   # Up-down arrow
+<U21BB> <dead_circumflex> <bar> <Cyrillic_ve> <space>               : "↕"   # Up-down arrow
+<U21BB> <dead_circumflex> <bar> <Cyrillic_VE> <Cyrillic_VE> <space> : "↨"   # Up-down arrow with base
+<U21BB> <dead_circumflex> <bar> <Cyrillic_ve> <Cyrillic_ve> <space> : "↨"   # Up-down arrow with base
+<U21BB> <dead_circumflex> <Cyrillic_VE> <space>                     : "↥"   # Upwards arrow from bar
+<U21BB> <dead_circumflex> <Cyrillic_ve> <space>                     : "↥"   # Upwards arrow from bar
+<U21BB> <less> <Cyrillic_VE> <bar> <space>                          : "↲"   # Downwards-leftwards arrow
+<U21BB> <less> <Cyrillic_ve> <bar> <space>                          : "↲"   # Downwards-leftwards arrow
+<U21BB> <less> <Cyrillic_VE> <minus> <space>                        : "↜"  # Leftwards wave arrow
+<U21BB> <less> <Cyrillic_ve> <minus> <space>                        : "↜"  # Leftwards wave arrow
+<U21BB> <minus> <bar> <Cyrillic_VE> <space>                         : "↴"   # Rightwards-downwards arrow with corner
+<U21BB> <minus> <bar> <Cyrillic_ve> <space>                         : "↴"   # Rightwards-downwards arrow with corner
+<U21BB> <minus> <Cyrillic_VE> <space>                               : "↘"   # Southeast arrow
+<U21BB> <minus> <Cyrillic_ve> <space>                               : "↘"   # Southeast arrow
+<U21BB> <minus> <Cyrillic_VE> <greater> <space>                     : "↝"  # Rightwards wave arrow
+<U21BB> <minus> <Cyrillic_ve> <greater> <space>                     : "↝"  # Rightwards wave arrow
+<U21BB> <period> <Cyrillic_VE> <space>                              : "⇣"   # Downwards dashed arrow
+<U21BB> <period> <Cyrillic_ve> <space>                              : "⇣"   # Downwards dashed arrow
+<U21BB> <Cyrillic_VE> <asciicircum> <space>                         : "↧"   # Downwards arrow from bar
+<U21BB> <Cyrillic_ve> <asciicircum> <space>                         : "↧"   # Downwards arrow from bar
+<U21BB> <Cyrillic_VE> <asterisk> <space>                            : "↯"   # Electrical arrow
+<U21BB> <Cyrillic_ve> <asterisk> <space>                            : "↯"   # Electrical arrow
+<U21BB> <Cyrillic_VE> <bar> <space>                                 : "↓"   # Downwards arrow
+<U21BB> <Cyrillic_ve> <bar> <space>                                 : "↓"   # Downwards arrow
+<U21BB> <Cyrillic_VE> <bar> <asciicircum> <space>                   : "↕"   # Up-down arrow
+<U21BB> <Cyrillic_ve> <bar> <asciicircum> <space>                   : "↕"   # Up-down arrow
+<U21BB> <Cyrillic_VE> <bar> <dead_circumflex> <space>               : "↕"   # Up-down arrow
+<U21BB> <Cyrillic_ve> <bar> <dead_circumflex> <space>               : "↕"   # Up-down arrow
+<U21BB> <Cyrillic_VE> <bar> <minus> <space>                         : "↵"   # Downwards-leftwards arrow with corner
+<U21BB> <Cyrillic_ve> <bar> <minus> <space>                         : "↵"   # Downwards-leftwards arrow with corner
+<U21BB> <Cyrillic_VE> <dead_circumflex> <space>                     : "↧"   # Downwards arrow from bar
+<U21BB> <Cyrillic_ve> <dead_circumflex> <space>                     : "↧"   # Downwards arrow from bar
+<U21BB> <Cyrillic_VE> <equal> <bar> <space>                         : "⇟"   # Page Down
+<U21BB> <Cyrillic_ve> <equal> <bar> <space>                         : "⇟"   # Page Down
+<U21BB> <Cyrillic_VE> <minus> <space>                               : "↙"   # Southwest arrow
+<U21BB> <Cyrillic_ve> <minus> <space>                               : "↙"   # Southwest arrow
+<U21BB> <Cyrillic_VE> <period> <space>                              : "⇣"   # Downwards dashed arrow
+<U21BB> <Cyrillic_ve> <period> <space>                              : "⇣"   # Downwards dashed arrow
+<U21BB> <Cyrillic_VE> <Cyrillic_VE> <bar> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <Cyrillic_ve> <Cyrillic_ve> <bar> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <Cyrillic_VE> <Cyrillic_VE> <bar> <asciicircum> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <Cyrillic_ve> <Cyrillic_ve> <bar> <asciicircum> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <Cyrillic_VE> <Cyrillic_VE> <bar> <dead_circumflex> <space> : "↨"   # Up-down arrow with base
+<U21BB> <Cyrillic_ve> <Cyrillic_ve> <bar> <dead_circumflex> <space> : "↨"   # Up-down arrow with base
+
+##################
+# [END OF RULES] #
+##################
