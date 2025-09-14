@@ -1,0 +1,54 @@
+# Cyrillic Alphabet | Miscellaneous Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+
+# From the "Miscellaneous Technical" Block (Alphabetical)
+<U232C> <Cyrillic_A> <Cyrillic_TSE>                                             : "⏦"   # AC Current
+<U232C> <Cyrillic_a> <Cyrillic_tse>                                             : "⏦"   # AC Current
+<U232C> <asciicircum> <Cyrillic_TE>                                             : "⏉"   # Downwards dentistry symbol
+<U232C> <asciicircum> <Cyrillic_te>                                             : "⏉"   # Downwards dentistry symbol
+<U232C> <bar> <Cyrillic_HA> <greater>                                           : "⌦"  # Erase to the right
+<U232C> <bar> <Cyrillic_ha> <greater>                                           : "⌦"  # Erase to the right
+<U232C> <bracketleft> <Cyrillic_O>                                              : "⎄"   # Compose Key Symbol
+<U232C> <bracketleft> <Cyrillic_o>                                              : "⎄"   # Compose Key Symbol
+<U232C> <dead_circumflex> <Cyrillic_TE>                                         : "⏉"   # Downwards dentistry symbol
+<U232C> <dead_circumflex> <Cyrillic_te>                                         : "⏉"   # Downwards dentistry symbol
+<U232C> <dead_longsolidusoverlay> <Cyrillic_O>                                  : "⌀"   # Diameter sign
+<U232C> <dead_longsolidusoverlay> <Cyrillic_o>                                  : "⌀"   # Diameter sign
+<U232C> <Cyrillic_IE> <Cyrillic_EN> <Cyrillic_TE> <Cyrillic_IE> <Cyrillic_ER>   : "⏎"   # Enter Symbol
+<U232C> <Cyrillic_ie> <Cyrillic_en> <Cyrillic_te> <Cyrillic_ie> <Cyrillic_er>   : "⏎"   # Enter Symbol
+<U232C> <Cyrillic_GHE> <Cyrillic_EN> <Cyrillic_DE>                              : "⏚"   # Electrical ground symbol
+<U232C> <Cyrillic_ghe> <Cyrillic_en> <Cyrillic_de>                              : "⏚"   # Electrical ground symbol
+<U232C> <Cyrillic_I> <Cyrillic_EN> <Cyrillic_TE> <Cyrillic_ER> <Cyrillic_O>     : "⏎"   # Enter Symbol
+<U232C> <Cyrillic_i> <Cyrillic_en> <Cyrillic_te> <Cyrillic_er> <Cyrillic_o>     : "⏎"   # Enter Symbol
+<U232C> <Ukrainian_I> <Cyrillic_EN> <Cyrillic_TE> <Cyrillic_ER> <Cyrillic_O>    : "⏎"   # Enter Symbol
+<U232C> <Ukrainian_i> <Cyrillic_en> <Cyrillic_te> <Cyrillic_er> <Cyrillic_o>    : "⏎"   # Enter Symbol
+<U232C> <less> <Cyrillic_HA> <bar>                                              : "⌫"  # Erase to the left
+<U232C> <less> <Cyrillic_ha> <bar>                                              : "⌫"  # Erase to the left
+<U232C> <less> <Cyrillic_SHHA> <greater>                                        : "⌂"   # House
+<U232C> <less> <Cyrillic_shha> <greater>                                        : "⌂"   # House
+<U232C> <Cyrillic_EM> <space>                                                   : "µ"   # Micro Sign
+<U232C> <Cyrillic_em> <space>                                                   : "µ"   # Micro Sign
+<U232C> <Cyrillic_EM> <Cyrillic_SHHA> <Cyrillic_O>                              : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <Cyrillic_em> <Cyrillic_shha> <Cyrillic_o>                              : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_TSE> <Cyrillic_ER> <Cyrillic_O>    : "µ"   # Micro Sign
+<U232C> <Cyrillic_em> <Cyrillic_i> <Cyrillic_tse> <Cyrillic_er> <Cyrillic_o>    : "µ"   # Micro Sign
+<U232C> <Cyrillic_EM> <Ukrainian_I> <Cyrillic_TSE> <Cyrillic_ER> <Cyrillic_O>   : "µ"   # Micro Sign
+<U232C> <Cyrillic_em> <Ukrainian_i> <Cyrillic_tse> <Cyrillic_er> <Cyrillic_o>   : "µ"   # Micro Sign
+<U232C> <Cyrillic_O> <Cyrillic_SHHA> <Cyrillic_EM>                              : "Ω"   # Ohm Symbol
+<U232C> <Cyrillic_o> <Cyrillic_shha> <Cyrillic_em>                              : "Ω"   # Ohm Symbol
+<U232C> <U0460>                                                                 : "⌀"   # Diameter sign
+<U232C> <U0461>                                                                 : "⌀"   # Diameter sign
+<U232C> <Cyrillic_ES> <Cyrillic_IE> <Cyrillic_TSE>                              : "⌔"   # Sector
+<U232C> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_tse>                              : "⌔"   # Sector
+<U232C> <Cyrillic_ES> <Cyrillic_IE> <Cyrillic_GHE>                              : "⌓"   # Segment
+<U232C> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_ghe>                              : "⌓"   # Segment
+<U232C> <Cyrillic_TE> <asciicircum>                                             : "⏉"   # Downwards dentistry symbol
+<U232C> <Cyrillic_te> <asciicircum>                                             : "⏉"   # Downwards dentistry symbol
+<U232C> <Cyrillic_TE> <dead_circumflex>                                         : "⏉"   # Downwards dentistry symbol
+<U232C> <Cyrillic_te> <dead_circumflex>                                         : "⏉"   # Downwards dentistry symbol
+<U232C> <Cyrillic_TE> <Cyrillic_IE> <Cyrillic_EL>                               : "⌕"   # Telephone recorder
+<U232C> <Cyrillic_te> <Cyrillic_ie> <Cyrillic_el>                               : "⌕"   # Telephone recorder
+
+##################
+# [END OF RULES] #
+##################
