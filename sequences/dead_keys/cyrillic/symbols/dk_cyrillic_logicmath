@@ -1,0 +1,351 @@
+# Cyrillic Alphabet | Logic + Math Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing mathematical and logical symbols
+# > that can be input with alphabetical Cyrillic characters.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
+#
+
+# Algebraic operators (Alphabetical)
+<U221D> <bar> <Cyrillic_HA> <bar>   : "⋈"   # Bowtie
+<U221D> <bar> <Cyrillic_ha> <bar>   : "⋈"   # Bowtie
+<U221D> <bar> <Cyrillic_HA> <minus> : "⋋"   # Left semidirect product
+<U221D> <bar> <Cyrillic_ha> <minus> : "⋉"   # Left normal factor semidirect product
+<U221D> <Cyrillic_SHHA> <plus>      : "⊹"   # Hermitian Conjugate Matrix
+<U221D> <Cyrillic_shha> <plus>      : "⊹"   # Hermitian Conjugate Matrix
+<U221D> <minus> <Cyrillic_HA> <bar> : "⋌"   # Right semidirect product
+<U221D> <minus> <Cyrillic_ha> <bar> : "⋊"   # Right normal factor semidirect product
+<U221D> <plus> <Cyrillic_SHHA>      : "⊹"   # Hermitian Conjugate Matrix
+<U221D> <plus> <Cyrillic_shha>      : "⊹"   # Hermitian Conjugate Matrix
+
+
+# APL Symbols (Alphabetical)
+<U221D> <asterisk> <Cyrillic_O>                 : "⍟"  # APL Functional Symbol Circle Star
+<U221D> <asterisk> <Cyrillic_o>                 : "⍟"  # APL Functional Symbol Circle Star
+<U221D> <backslash> <Cyrillic_o> <space>        : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <bar> <Cyrillic_VE>                     : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <bar> <Cyrillic_ve>                     : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <bar> <Cyrillic_O>                      : "⌽"  # APL Functional Symbol Circle Stile
+<U221D> <bar> <Cyrillic_o>                      : "⌽"  # APL Functional Symbol Circle Stile
+<U221D> <Cyrillic_TSE> <Cyrillic_O>             : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <Cyrillic_tse> <Cyrillic_o>             : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <dead_tilde> <Cyrillic_VE>              : "⍲"  # APL Functional Symbol Up Caret Tilde
+<U221D> <dead_tilde> <Cyrillic_ve>              : "⍱"  # APL Functional Symbol Down Caret Tilde
+<U221D> <Cyrillic_IE> <minus> <underscore>      : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Cyrillic_ie> <minus> <underscore>      : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Cyrillic_IE> <underscore> <minus>      : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Cyrillic_ie> <underscore> <minus>      : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Cyrillic_I> <space>                    : "⍳"   # APL Functional Symbol Iota
+<U221D> <Cyrillic_i> <space>                    : "⍳"   # APL Functional Symbol Iota
+<U221D> <Ukrainian_I> <space>                   : "⍳"   # APL Functional Symbol Iota
+<U221D> <Ukrainian_i> <space>                   : "⍳"   # APL Functional Symbol Iota
+<U221D> <minus> <underscore> <Cyrillic_IE>      : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <minus> <underscore> <Cyrillic_ie>      : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <Cyrillic_O> <backslash>                : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <Cyrillic_o> <backslash>                : "⍉"  # APL Functional Symbol Circle Backslash
+<U221D> <parenleft> <Cyrillic_O> <parenright>   : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <parenleft> <Cyrillic_o> <parenright>   : "⍝"  # APL Functional Symbol Up Shoe Jot (APL Comment)
+<U221D> <Cyrillic_ER> <space>                   : "⍴"   # APL Functional Symbol Rho
+<U221D> <Cyrillic_er> <space>                   : "⍴"   # APL Functional Symbol Rho
+<U221D> <Cyrillic_VE> <bar>                     : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <Cyrillic_ve> <bar>                     : "⍒"   # APL Functional Symbol Del Stile
+<U221D> <Cyrillic_VE> <dead_tilde>              : "⍲"  # APL Functional Symbol Up Caret Tilde
+<U221D> <Cyrillic_ve> <dead_tilde>              : "⍱"  # APL Functional Symbol Down Caret Tilde
+<U221D> <underscore> <minus> <Cyrillic_IE>      : "⍷"   # APL Functional Symbol Epsilon Underbar
+<U221D> <underscore> <minus> <Cyrillic_ie>      : "⍷"   # APL Functional Symbol Epsilon Underbar
+
+
+# Arrows (Alphabetical)
+<U221D> <minus> <Cyrillic_ve> <space>   : "↓"   # Downwards arrow
+<U221D> <Cyrillic_ve> <minus> <space>   : "↓"   # Downwards arrow
+
+
+# Calculus symbols (Alphabetical)
+<U221D> <1> <minus> <Cyrillic_es>       : "∱"   # Clockwise integral
+<U221D> <1> <minus> <Cyrillic_ES>       : "∱"   # Clockwise integral
+<U221D> <1> <Cyrillic_es>               : "∫"   # Integral
+<U221D> <1> <Cyrillic_ES>               : "∮"   # Contour integral
+<U221D> <2> <Cyrillic_es>               : "∬"   # Double integral
+<U221D> <2> <Cyrillic_ES>               : "∯"   # Surface integral
+<U221D> <equal> <Cyrillic_DE>           : "≝"   # Equal to by definition
+<U221D> <equal> <Cyrillic_de>           : "≜"   # Delta equal to
+<U221D> <3> <Cyrillic_es>               : "∭"   # Triple integral
+<U221D> <3> <Cyrillic_ES>               : "∰"   # Volume integral
+<U221D> <4> <Cyrillic_es>               : "⨌"   # Quadruple integral
+<U221D> <4> <Cyrillic_ES>               : "⨌"   # Quadruple integral
+<U221D> <Cyrillic_DE> <asciicircum>     : "∆"   # Increment operator
+<U221D> <Cyrillic_de> <asciicircum>     : "∆"   # Increment operator
+<U221D> <Cyrillic_DE> <dead_circumflex> : "∆"   # Increment operator
+<U221D> <Cyrillic_de> <dead_circumflex> : "∆"   # Increment operator
+<U221D> <Cyrillic_DE> <space>           : "∂"   # Partial differential
+<U221D> <Cyrillic_de> <space>           : "∂"   # Partial differential
+<U221D> <Cyrillic_DE> <underscore>      : "∇"   # Nabla operator
+<U221D> <Cyrillic_de> <underscore>      : "∇"   # Nabla operator
+<U221D> <less> <Cyrillic_es>            : "∳"   # Anticlockwise contour integral
+<U221D> <less> <Cyrillic_ES>            : "∳"   # Anticlockwise contour integral
+<U221D> <minus> <1> <Cyrillic_es>       : "∱"   # Clockwise integral
+<U221D> <minus> <1> <Cyrillic_ES>       : "∱"   # Clockwise integral
+<U221D> <Cyrillic_es> <1>               : "∫"   # Integral
+<U221D> <Cyrillic_ES> <1>               : "∮"   # Contour integral
+<U221D> <Cyrillic_es> <2>               : "∬"   # Double integral
+<U221D> <Cyrillic_ES> <2>               : "∯"   # Surface integral
+<U221D> <Cyrillic_es> <3>               : "∭"   # Triple integral
+<U221D> <Cyrillic_ES> <3>               : "∰"   # Volume integral
+<U221D> <Cyrillic_es> <4>               : "⨌"   # Quadruple integral
+<U221D> <Cyrillic_ES> <4>               : "⨌"   # Quadruple integral
+<U221D> <Cyrillic_es> <greater>         : "∲"   # Clockwise contour integral
+<U221D> <Cyrillic_ES> <greater>         : "∲"   # Clockwise contour integral
+<U221D> <Cyrillic_es> <less>            : "∳"   # Anticlockwise contour integral
+<U221D> <Cyrillic_ES> <less>            : "∳"   # Anticlockwise contour integral
+<U221D> <Cyrillic_es> <minus> <1>       : "∱"   # Clockwise integral
+<U221D> <Cyrillic_ES> <minus> <1>       : "∱"   # Clockwise integral
+
+
+# Enclosed operators (Alphabetical)
+<U221D> <asterisk> <Cyrillic_O>                     : "⊛"  # Circled asterisk operator
+<U221D> <asterisk> <Cyrillic_o>                     : "⊛"  # Circled asterisk operator
+<U221D> <bracketleft> <Cyrillic_HA> <bracketright>  : "⊠"   # Squared times
+<U221D> <bracketleft> <Cyrillic_ha> <bracketright>  : "⊠"   # Squared times
+<U221D> <masculine> <Cyrillic_O>                    : "⊚"  # Circled ring operator
+<U221D> <masculine> <Cyrillic_o>                    : "⊚"  # Circled ring operator
+<U221D> <equal> <Cyrillic_O>                        : "⊜"  # Circled equals
+<U221D> <equal> <Cyrillic_o>                        : "⊜"  # Circled equals            
+<U221D> <minus> <Cyrillic_O>                        : "⊖"  # Circled minus
+<U221D> <minus> <Cyrillic_o>                        : "⊖"  # Circled minus
+<U221D> <minus> <minus> <Cyrillic_O>                : "⊝"   # Circled dash
+<U221D> <minus> <minus> <Cyrillic_o>                : "⊝"   # Circled dash
+<U221D> <Cyrillic_O> <asterisk>                     : "⊛"  # Circled asterisk operator
+<U221D> <Cyrillic_o> <asterisk>                     : "⊛"  # Circled asterisk operator
+<U221D> <Cyrillic_O> <masculine>                    : "⊚"  # Circled ring operator
+<U221D> <Cyrillic_o> <masculine>                    : "⊚"  # Circled ring operator
+<U221D> <Cyrillic_O> <equal>                        : "⊜"  # Circled equals
+<U221D> <Cyrillic_o> <equal>                        : "⊜"  # Circled equals  
+<U221D> <Cyrillic_O> <minus>                        : "⊖"  # Circled minus
+<U221D> <Cyrillic_o> <minus>                        : "⊖"  # Circled minus
+<U221D> <Cyrillic_O> <period>                       : "⊙"  # Circled dot operator
+<U221D> <Cyrillic_o> <period>                       : "⊙"  # Circled dot operator
+<U221D> <Cyrillic_O> <plus>                         : "⊕"  # Circled plus
+<U221D> <Cyrillic_o> <plus>                         : "⊕"  # Circled plus
+<U221D> <Cyrillic_O> <slash>                        : "⊘"  # Circled division slash
+<U221D> <Cyrillic_o> <slash>                        : "⊘"  # Circled division slash
+<U221D> <Cyrillic_O> <Cyrillic_HA>                  : "⊗"  # Circled times
+<U221D> <Cyrillic_o> <Cyrillic_ha>                  : "⊗"  # Circled times
+<U221D> <parenleft> <Cyrillic_HA> <parenright>      : "⊗"  # Circled times
+<U221D> <parenleft> <Cyrillic_ha> <parenright>      : "⊗"  # Circled times
+<U221D> <period> <Cyrillic_O>                       : "⊙"  # Circled dot operator
+<U221D> <period> <Cyrillic_o>                       : "⊙"  # Circled dot operator
+<U221D> <plus> <Cyrillic_O>                         : "⊕"  # Circled plus
+<U221D> <plus> <Cyrillic_o>                         : "⊕"  # Circled plus
+<U221D> <slash> <Cyrillic_O>                        : "⊘"  # Circled division slash
+<U221D> <slash> <Cyrillic_o>                        : "⊘"  # Circled division slash
+<U221D> <Cyrillic_HA> <Cyrillic_O>                  : "⊗"  # Circled times
+<U221D> <Cyrillic_ha> <Cyrillic_o>                  : "⊗"  # Circled times
+
+
+# Geometrical operators (Alphabetical)
+<U221D> <bar> <Cyrillic_TSE>            : "⋔"   # Pitchfork
+<U221D> <bar> <Cyrillic_tse>            : "⋔"   # Pitchfork
+<U221D> <Cyrillic_TSE> <bar>            : "⋔"   # Pitchfork
+<U221D> <Cyrillic_tse> <bar>            : "⋔"   # Pitchfork
+<U221D> <equal> <Cyrillic_GHE>          : "≎"   # Geomatrically equivalent to
+<U221D> <equal> <Cyrillic_ghe>          : "≎"   # Geomatrically equivalent to
+<U221D> <equal> <minus> <Cyrillic_GHE>  : "≏"   # Difference between
+<U221D> <equal> <minus> <Cyrillic_ghe>  : "≏"   # Difference between
+<U221D> <equal> <Cyrillic_VE>           : "≚"   # Equiangular to
+<U221D> <equal> <Cyrillic_ve>           : "≚"   # Equiangular to
+<U221D> <Cyrillic_GHE> <equal>          : "≎"   # Geomatrically equivalent to
+<U221D> <Cyrillic_ghe> <equal>          : "≎"   # Geomatrically equivalent to
+<U221D> <minus> <equal> <Cyrillic_GHE>  : "≏"   # Difference between
+<U221D> <minus> <equal> <Cyrillic_ghe>  : "≏"   # Difference between
+<U221D> <Cyrillic_VE> <equal>           : "≚"   # Equiangular to
+<U221D> <Cyrillic_ve> <equal>           : "≚"   # Equiangular to
+
+
+# Letterlike mathematical operators
+<U221D> <Cyrillic_A> <space>    : "∀"   # For all
+<U221D> <Cyrillic_a> <space>    : "∀"   # For all
+<U221D> <Cyrillic_IE> <slash>   : "∄"   # There does not exist
+<U221D> <Cyrillic_ie> <slash>   : "∄"   # There does not exist
+<U221D> <Cyrillic_IE> <exclam>  : "∃!"  # There exists one, and only one
+<U221D> <Cyrillic_ie> <exclam>  : "∃!"  # There exists one, and only one
+<U221D> <Cyrillic_IE> <space>   : "∃"   # There exists
+<U221D> <Cyrillic_ie> <space>   : "∃"   # There exists
+<U221D> <slash> <Cyrillic_IE>   : "∄"   # There does not exist
+<U221D> <slash> <Cyrillic_ie>   : "∄"   # There does not exist
+
+
+# Logical operators (Alphabetical)
+<U221D> <asciicircum> <Cyrillic_VE>                     : "⋀"   # N-Ary logical AND
+<U221D> <asciicircum> <Cyrillic_ve>                     : "∧"   # Logical AND
+<U221D> <dead_circumflex> <Cyrillic_VE>                 : "⋀"   # N-Ary logical AND
+<U221D> <dead_circumflex> <Cyrillic_ve>                 : "∧"   # Logical AND
+<U221D> <minus> <asciicircum> <Cyrillic_ve>             : "⊼"   # Logical NAND
+<U221D> <minus> <dead_circumflex> <Cyrillic_ve>         : "⊼"   # Logical NAND
+<U221D> <minus> <Cyrillic_ve> <underscore>              : "⊽"   # Logical NOR
+<U221D> <Cyrillic_VE> <asciicircum>                     : "⋀"   # N-Ary logical AND
+<U221D> <Cyrillic_ve> <asciicircum>                     : "∧"   # Logical AND
+<U221D> <Cyrillic_VE> <Cyrillic_TSE> <asciicircum>      : "⋏"   # Curly logical AND
+<U221D> <Cyrillic_ve> <Cyrillic_tse> <asciicircum>      : "⋏"   # Curly logical AND
+<U221D> <Cyrillic_VE> <Cyrillic_TSE> <underscore>       : "⋎"   # Curly logical OR
+<U221D> <Cyrillic_ve> <Cyrillic_tse> <underscore>       : "⋎"   # Curly logical OR
+<U221D> <Cyrillic_VE> <dead_circumflex>                 : "⋀"   # N-Ary logical AND
+<U221D> <Cyrillic_ve> <dead_circumflex>                 : "∧"   # Logical AND
+<U221D> <Cyrillic_VE> <Cyrillic_TSE> <dead_circumflex>  : "⋏"   # Curly logical AND
+<U221D> <Cyrillic_ve> <Cyrillic_tse> <dead_circumflex>  : "⋏"   # Curly logical AND
+<U221D> <Cyrillic_ve> <minus> <underscore>              : "⊻"   # Logical XOR
+<U221D> <Cyrillic_VE> <underscore>                      : "⋁"   # N-Ary logical OR
+<U221D> <Cyrillic_ve> <underscore>                      : "∨"   # Logical OR
+<U221D> <underscore> <Cyrillic_VE>                      : "⋁"   # N-Ary logical OR
+<U221D> <underscore> <Cyrillic_ve>                      : "∨"   # Logical OR
+
+
+# Miscellaneous mathematical operators & symbols
+<U221D> <2> <Cyrillic_VE>                                       : "√"   # Square root
+<U221D> <2> <Cyrillic_ve>                                       : "√"   # Square root
+<U221D> <3> <Cyrillic_VE>                                       : "∛"   # Cubic root
+<U221D> <3> <Cyrillic_ve>                                       : "∛"   # Cubic root
+<U221D> <4> <Cyrillic_VE>                                       : "∜"   # Fourth root
+<U221D> <4> <Cyrillic_ve>                                       : "∜"   # Fourth root
+<U221D> <backslash> <Cyrillic_ES> <space>                       : "∿"   # Sine wave
+<U221D> <backslash> <Cyrillic_es> <space>                       : "∾"   # Inverted lazy S
+<U221D> <backslash> <Cyrillic_SOFTSIGN> <Cyrillic_ER> <space>   : "≀"   # Wreath product (Derived from LaTeX)
+<U221D> <Cyrillic_TSE> <underscore> <Cyrillic_O>                : "⊶"   # Original of
+<U221D> <Cyrillic_tse> <underscore> <Cyrillic_o>                : "⊶"   # Original of
+<U221D> <Cyrillic_DE> <equal>                                   : "≝"   # Equal to by definition
+<U221D> <Cyrillic_de> <equal>                                   : "≜"   # Delta equal to
+<U221D> <Cyrillic_I> <Cyrillic_TE>                              : "⊺"   # Intercalate
+<U221D> <Cyrillic_i> <Cyrillic_te>                              : "⊺"   # Intercalate
+<U221D> <Ukrainian_I> <Cyrillic_TE>                             : "⊺"   # Intercalate
+<U221D> <Ukrainian_i> <Cyrillic_te>                             : "⊺"   # Intercalate
+<U221D> <minus> <minus> <Cyrillic_TSE>                          : "⊸"   # Multimap
+<U221D> <minus> <minus> <Cyrillic_tse>                          : "⊸"   # Multimap
+<U221D> <Cyrillic_O> <space>                                    : "○"   # White circle (APL var * pi)
+<U221D> <Cyrillic_o> <space>                                    : "○"   # White circle (APL var * pi)
+<U221D> <Cyrillic_O> <underscore> <Cyrillic_TSE>                : "⊷"   # Image of
+<U221D> <Cyrillic_o> <underscore> <Cyrillic_tse>                : "⊷"   # Image of
+<U221D> <Cyrillic_PE> <space>                                   : "∐"   # N-Ary coproduct
+<U221D> <Cyrillic_pe> <space>                                   : "∏"   # N-Ary product
+<U221D> <Cyrillic_ES> <space>                                   : "∑"   # N-Ary summation
+<U221D> <Cyrillic_es> <space>                                   : "∑"   # N-Ary summation
+<U221D> <Cyrillic_VE> <2>                                       : "√"   # Square root
+<U221D> <Cyrillic_ve> <2>                                       : "√"   # Square root
+<U221D> <Cyrillic_VE> <3>                                       : "∛"   # Cubic root
+<U221D> <Cyrillic_ve> <3>                                       : "∛"   # Cubic root
+<U221D> <Cyrillic_VE> <4>                                       : "∜"   # Fourth root
+<U221D> <Cyrillic_ve> <4>                                       : "∜"   # Fourth root
+
+
+# Relational operators
+<U221D> <Cyrillic_TSE> <equal>                  : "≘"   # Corresponds to
+<U221D> <Cyrillic_tse> <equal>                  : "≘"   # Corresponds to
+<U221D> <Cyrillic_TSE> <greater>                : "≽"   # Succeeds or equal to
+<U221D> <Cyrillic_tse> <greater>                : "≻"   # Succeeds
+<U221D> <Cyrillic_TSE> <less>                   : "≼"   # Precedes or equal to
+<U221D> <Cyrillic_tse> <less>                   : "≺"   # Precedes
+<U221D> <equal> <Cyrillic_EM>                   : "≞"   # Measured by
+<U221D> <equal> <Cyrillic_em>                   : "≞"   # Measured by
+<U221D> <equal> <notsign> <Cyrillic_HA>         : "≭"   # Not equivalent to
+<U221D> <equal> <notsign> <Cyrillic_ha>         : "≭"   # Not equivalent to
+<U221D> <equal> <Cyrillic_HA>                   : "≍"   # Equivalent to
+<U221D> <equal> <Cyrillic_ha>                   : "≍"   # Equivalent to
+<U221D> <exclam> <dead_tilde> <Cyrillic_TSE>    : "⋩"   # Succeeds but not equivalent to
+<U221D> <exclam> <dead_tilde> <Cyrillic_tse>    : "⋨"   # Precedes but not equivalent to
+<U221D> <exclam> <greater> <Cyrillic_tse>       : "⊁"   # Does not succeed
+<U221D> <exclam> <less> <Cyrillic_tse>          : "⊀"   # Does not precede
+<U221D> <exclam> <Cyrillic_HA> <equal>          : "≭"   # Not equivalent to
+<U221D> <exclam> <Cyrillic_ha> <equal>          : "≭"   # Not equivalent to
+<U221D> <greater> <Cyrillic_TSE>                : "≽"   # Succeeds or equal to
+<U221D> <greater> <Cyrillic_tse>                : "≻"   # Succeeds
+<U221D> <greater> <dead_tilde> <Cyrillic_TSE>   : "≿"   # Succeeds or equivalent to
+<U221D> <greater> <dead_tilde> <Cyrillic_tse>   : "≿"   # Succeeds or equivalent to
+<U221D> <greater> <minus> <Cyrillic_TSE>        : "⊱"   # Succeeds under relation
+<U221D> <greater> <minus> <Cyrillic_tse>        : "⊱"   # Succeeds under relation
+<U221D> <greater> <slash> <Cyrillic_TSE>        : "⋡"   # Does not succeed nor equal
+<U221D> <greater> <slash> <Cyrillic_tse>        : "⋡"   # Does not succeed nor equal
+<U221D> <less> <Cyrillic_TSE>                   : "≼"   # Precedes or equal to
+<U221D> <less> <Cyrillic_tse>                   : "≺"   # Precedes
+<U221D> <less> <dead_tilde> <Cyrillic_TSE>      : "≾"   # Precedes or equivalent to
+<U221D> <less> <dead_tilde> <Cyrillic_tse>      : "≾"   # Precedes or equivalent to
+<U221D> <less> <minus> <Cyrillic_TSE>           : "⊰"   # Precedes under relation
+<U221D> <less> <minus> <Cyrillic_tse>           : "⊰"   # Precedes under relation
+<U221D> <less> <slash> <Cyrillic_TSE>           : "⋠"   # Does not precede nor equal
+<U221D> <less> <slash> <Cyrillic_tse>           : "⋠"   # Does not precede nor equal
+<U221D> <Cyrillic_EM> <equal>                   : "≞"   # Measured by
+<U221D> <Cyrillic_em> <equal>                   : "≞"   # Measured by
+<U221D> <minus> <Cyrillic_TSE> <greater>        : "⋟"   # Equal to or succeeds
+<U221D> <minus> <Cyrillic_TSE> <less>           : "⋞"   # Equal to or precedes
+<U221D> <minus> <greater> <Cyrillic_TSE>        : "⋟"   # Equal to or succeeds
+<U221D> <minus> <less> <Cyrillic_TSE>           : "⋞"   # Equal to or precedes
+<U221D> <notsign> <equal> <Cyrillic_HA>         : "≭"   # Not quivalent to
+<U221D> <notsign> <equal> <Cyrillic_ha>         : "≭"   # Not equivalent to
+<U221D> <Cyrillic_HA> <equal>                   : "≍"   # Equivalent to
+<U221D> <Cyrillic_ha> <equal>                   : "≍"   # Equivalent to
+
+
+# Set operators
+<U221D> <asciicircum> <2> <Cyrillic_U>                  : "⋒"   # Double intersection
+<U221D> <asciicircum> <2> <Cyrillic_u>                  : "⋒"   # Double intersection
+<U221D> <asciicircum> <Cyrillic_U>                      : "⋂"   # N-Ary intersection
+<U221D> <asciicircum> <Cyrillic_u>                      : "∩"   # Intersection
+<U221D> <bracketleft> <asciicircum> <Cyrillic_u>        : "⊓"   # Square cap
+<U221D> <bracketleft> <dead_circumflex> <Cyrillic_u>    : "⊓"   # Square cap
+<U221D> <bracketleft> <underscore> <Cyrillic_u>         : "⊔"   # Square cup
+<U221D> <bracketright> <asciicircum> <Cyrillic_u>       : "⊓"   # Square cap
+<U221D> <bracketright> <dead_circumflex> <Cyrillic_u>   : "⊓"   # Square cap
+<U221D> <bracketright> <underscore> <Cyrillic_u>        : "⊔"   # Square cup
+<U221D> <Cyrillic_TSE> <2>                              : "⋑"   # Double superset
+<U221D> <Cyrillic_tse> <2>                              : "⋐"   # Double subset
+<U221D> <Cyrillic_TSE> <Cyrillic_TSE>                   : "∁"   # Set complement
+<U221D> <Cyrillic_tse> <Cyrillic_tse>                   : "∁"   # Set complement
+<U221D> <Cyrillic_TSE> <space>                          : "⊃"   # Superset of
+<U221D> <Cyrillic_tse> <space>                          : "⊂"   # Subset of
+<U221D> <dead_circumflex> <2> <Cyrillic_U>              : "⋒"   # Double intersection
+<U221D> <dead_circumflex> <2> <Cyrillic_u>              : "⋒"   # Double intersection
+<U221D> <dead_circumflex> <Cyrillic_U>                  : "⋂"   # N-Ary intersection
+<U221D> <dead_circumflex> <Cyrillic_u>                  : "∩"   # Intersection
+<U221D> <Cyrillic_IE> <minus> <notsign>                 : "∉"   # Not an element of
+<U221D> <Cyrillic_IE> <minus> <space>                   : "∈"   # Element of
+<U221D> <Cyrillic_ie> <minus> <space>                   : "∊"   # Small element of
+<U221D> <Cyrillic_IE> <notsign> <minus>                 : "∉"   # Not an element of
+<U221D> <Cyrillic_IE> <notsign> <plus>                  : "∌"   # Does not contain as member
+<U221D> <Cyrillic_IE> <plus> <space>                    : "∋"   # Contains as member
+<U221D> <Cyrillic_ie> <plus> <space>                    : "∍"   # Small contains as member
+<U221D> <Cyrillic_IE> <plus> <notsign>                  : "∌"   # Does not contain as member
+<U221D> <equal> <Cyrillic_TSE>                          : "⊇"   # Superset of or equal to
+<U221D> <equal> <Cyrillic_tse>                          : "⊆"   # Subset of or equal to
+<U221D> <equal> <slash> <Cyrillic_TSE>                  : "⊉"   # Neither a superset of nor equal to
+<U221D> <equal> <slash> <Cyrillic_tse>                  : "⊈"   # Neither a subset of nor equal to
+<U221D> <exclam> <Cyrillic_TSE>                         : "⊅"   # Not a superset of
+<U221D> <exclam> <Cyrillic_tse>                         : "⊄"   # Not a subset of
+<U221D> <exclam> <minus> <Cyrillic_IE>                  : "∉"   # Not an element of
+<U221D> <exclam> <plus> <Cyrillic_IE>                   : "∌"   # Does not contain as member
+<U221D> <minus> <Cyrillic_IE>                           : "∈"   # Element of
+<U221D> <minus> <Cyrillic_ie>                           : "∊"   # Small element of
+<U221D> <minus> <notsign> <Cyrillic_IE>                 : "∉"   # Not an element of
+<U221D> <notsign> <minus> <Cyrillic_IE>                 : "∉"   # Not an element of
+<U221D> <notsign> <plus> <Cyrillic_IE>                  : "∌"   # Does not contain as member
+<U221D> <period> <underscore> <Cyrillic_u>              : "⊌"   # Multiset
+<U221D> <plus> <Cyrillic_IE>                            : "∋"   # Contains as member
+<U221D> <plus> <notsign> <Cyrillic_IE>                  : "∌"   # Does not contain as member
+<U221D> <plus> <underscore> <Cyrillic_u>                : "⊎"   # Multiset union
+<U221D> <slash> <equal> <Cyrillic_TSE>                  : "⊋"   # Superset of with not equal to
+<U221D> <slash> <equal> <Cyrillic_tse>                  : "⊊"   # Subset of with not equal to
+<U221D> <Cyrillic_U> <asciicircum>                      : "⋂"   # N-Ary intersection
+<U221D> <Cyrillic_u> <asciicircum>                      : "∩"   # Intersection
+<U221D> <Cyrillic_U> <dead_circumflex>                  : "⋂"   # N-Ary intersection
+<U221D> <Cyrillic_u> <dead_circumflex>                  : "∩"   # Intersection
+<U221D> <Cyrillic_U> <2> <underscore>                   : "⋓"   # Double union
+<U221D> <Cyrillic_u> <2> <underscore>                   : "⋓"   # Double union
+<U221D> <Cyrillic_U> <underscore>                       : "⋃"   # N-Ary union
+<U221D> <Cyrillic_u> <underscore>                       : "∪"   # Union
+<U221D> <underscore> <asterisk> <Cyrillic_u>            : "⊍"   # Multiset multiplication
+<U221D> <underscore> <period> <Cyrillic_u>              : "⊌"   # Multiset
+<U221D> <underscore> <plus> <Cyrillic_u>                : "⊎"   # Multiset unions
+<U221D> <underscore> <Cyrillic_U>                       : "⋃"   # N-Ary union
+<U221D> <underscore> <Cyrillic_u>                       : "∪"   # Union
+
+##################
+# [END OF RULES] #
+##################

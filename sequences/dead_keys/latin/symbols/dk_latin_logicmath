@@ -233,10 +233,6 @@
 <U221D> <v> <4>                     : "∜"   # Fourth root
 
 
-# Proof notation
-# (...)
-
-
 # Relational operators
 <U221D> <C> <equal>                 : "≘"   # Corresponds to
 <U221D> <c> <equal>                 : "≘"   # Corresponds to
