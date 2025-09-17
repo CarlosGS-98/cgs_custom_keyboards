@@ -1,0 +1,62 @@
+# Cyrillic Alphabet | Punctuation Marks Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Punctuation
+#
+
+# Dashes
+<U203B> <Cyrillic_EF> <minus>   : "‒"   # Figure dash
+<U203B> <Cyrillic_ef> <minus>   : "‒"   # Figure dash
+<U203B> <minus> <Cyrillic_EF>   : "‒"   # Figure dash
+<U203B> <minus> <Cyrillic_ef>   : "‒"   # Figure dash
+
+
+# Enclosed Latin Letters
+<U203B> <Cyrillic_O> <Cyrillic_TSE>             : "©"   # Copyright symbol
+<U203B> <Cyrillic_o> <Cyrillic_tse>             : "©"   # Copyright symbol
+<U203B> <Cyrillic_O> <U0460>                    : "🄯"   # Copyleft symbol
+<U203B> <Cyrillic_o> <U0461>                    : "🄯"   # Copyleft symbol
+<U203B> <Cyrillic_O> <Cyrillic_PE>              : "℗"   # Sound copyright symbol
+<U203B> <Cyrillic_o> <Cyrillic_pe>              : "℗"   # Sound copyright symbol
+<U203B> <Cyrillic_O> <U0470>                    : "🄯"   # Copyleft symbol
+<U203B> <Cyrillic_o> <U0471>                    : "🄯"   # Copyleft symbol
+<U203B> <Cyrillic_O> <Cyrillic_ER>              : "®"   # Registered trademark symbol
+<U203B> <Cyrillic_o> <Cyrillic_er>              : "®"   # Registered trademark symbol
+<U203B> <parenleft> <Cyrillic_TSE> <parenright> : "©"   # Copyright symbol
+<U203B> <parenleft> <Cyrillic_tse> <parenright> : "©"   # Copyright symbol
+<U203B> <parenleft> <U0460> <parenright>        : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <U0461> <parenright>        : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <Cyrillic_PE> <parenright>  : "℗"   # Sound copyright symbol
+<U203B> <parenleft> <Cyrillic_pe> <parenright>  : "℗"   # Sound copyright symbol
+<U203B> <parenleft> <U0470> <parenright>        : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <U0471> <parenright>        : "🄯"   # Copyleft symbol
+<U203B> <parenleft> <Cyrillic_ER> <parenright>  : "®"   # Registered trademark symbol
+<U203B> <parenleft> <Cyrillic_er> <parenright>  : "®"   # Registered trademark symbol
+
+
+# Miscellaneous Punctuation
+<U203B> <Cyrillic_TSE> <equal>      : "⸿"    # Capitulum
+<U203B> <Cyrillic_tse> <equal>      : "⸿"    # Capitulum
+<U203B> <colon> <Cyrillic_HA>       : "※"   # Reference mark
+<U203B> <colon> <Cyrillic_ha>       : "※"   # Reference mark
+<U203B> <equal> <Cyrillic_TSE>      : "⸿"    # Capitulum
+<U203B> <equal> <Cyrillic_tse>      : "⸿"    # Capitulum
+<U203B> <Cyrillic_PE> <space>       : "⹍"    # Paragraphus mark
+<U203B> <Cyrillic_pe> <space>       : "⹍"    # Paragraphus mark
+<U203B> <Cyrillic_ES> <Cyrillic_EM> : "℠"    # Service mark
+<U203B> <Cyrillic_es> <Cyrillic_em> : "℠"    # Service mark
+<U203B> <Cyrillic_TE> <Cyrillic_EM> : "™"    # Trademark
+<U203B> <Cyrillic_te> <Cyrillic_em> : "™"    # Trademark
+<U203B> <Cyrillic_HA> <colon>       : "※"   # Reference mark
+<U203B> <Cyrillic_ha> <colon>       : "※"   # Reference mark
+
+
+# Parentheses & Brackets
+<U203B> <greater> <Cyrillic_TSE>    : "⸧"   # Right sideways U-Fence
+<U203B> <greater> <Cyrillic_tse>    : "⸧"   # Right sideways U-Fence
+<U203B> <less> <Cyrillic_TSE>       : "⸦"   # Left sideways U-Fence
+<U203B> <less> <Cyrillic_tse>       : "⸦"   # Left sideways U-Fence
+
+##################
+# [END OF RULES] #
+##################
