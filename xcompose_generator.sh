@@ -63,6 +63,9 @@ compose_rule_compression() {
     echo -e "Added new rules submodule on $KSC_COMPOSE_DIR/$COMPOSE_PREFIX$(basename "$1")-$(basename "$2")"
 }
 
+# Create XCompose folders
+mkdir -p "$KSC_COMPOSE_DIR"
+
 # Traverse all dead key rules first
 for CUR_DIR in "$KSC_DEAD_KEYS"/*; do
     # Check if we have our rules inside writing system subdirectories

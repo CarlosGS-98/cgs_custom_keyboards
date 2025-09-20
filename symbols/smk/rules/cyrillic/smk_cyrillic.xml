@@ -44,6 +44,7 @@
             <description>SMK-Cyrillic (ԚЬЕРТЗ)</description>
           </configItem>
         </variant>
+        <variant>
           <configItem>
             <name>dvorak</name>
             <description>SMK-Cyrillic (Дворак)</description>
