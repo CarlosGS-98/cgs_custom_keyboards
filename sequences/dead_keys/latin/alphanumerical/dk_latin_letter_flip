@@ -58,6 +58,8 @@
 <U21BA> <y>                 : "ʎ"
 <U21BA> <EZH>               : "Ƹ"
 <U21BA> <ezh>               : "ƹ"
+<U21BA> <U0241>             : "꟎"   # Ɂ (Capital Glottal Stop) + IPA Key = ꟎ (Capital Pharyngeal Voiced Fricative)
+<U21BA> <U0242>             : "꟏"   # ɂ (Small Glottal Stop) + IPA Key = ꟏ (Small Pharyngeal Voiced Fricative)
 
 ##################
 # [END OF RULES] #

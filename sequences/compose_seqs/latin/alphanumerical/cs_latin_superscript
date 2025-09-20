@@ -62,6 +62,8 @@
 <Multi_key> <dead_circumflex> <dead_circumflex> <UA75B>                             : "ᷣ"    # ꝛ (R Rotunda) + Overscript
 <Multi_key> <dead_circumflex> <dead_circumflex> <s>                                 : "ᷤ"
 <Multi_key> <dead_circumflex> <dead_circumflex> <U017F>                             : "ᷥ"    # ſ (Long S) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DFB> <minus> <S>                 : "ᷥ"    # ſ (Long S) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DFB> <minus> <s>                 : "ᷥ"    # ſ (Long S) + Overscript
 <Multi_key> <dead_circumflex> <dead_circumflex> <U0283>                             : "ᷯ"    # ʃ (Esh) + Overscript
 <Multi_key> <dead_circumflex> <dead_circumflex> <U035A> <s>                         : "ᷯ"
 <Multi_key> <dead_circumflex> <dead_circumflex> <t>                                 : "ͭ"
@@ -265,6 +267,7 @@
 <Multi_key> <dead_circumflex> <r>                                           : "ʳ"
 <Multi_key> <dead_circumflex> <U027D>                                       : "𐞨"   # ɽ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <greater> <r>                         : "𐞨"
+<Multi_key> <dead_circumflex> <S>                                           : "ꜱ"
 <Multi_key> <dead_circumflex> <s>                                           : "ˢ"
 <Multi_key> <dead_circumflex> <U0282>                                       : "ᶳ"   # ʂ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <greater> <s>                         : "ᶳ"
