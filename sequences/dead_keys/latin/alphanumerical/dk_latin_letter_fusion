@@ -150,6 +150,8 @@
 <U1DCF> <u> <i>             : "ꭐ"
 <U1DCF> <U> <O>             : "ꭣ"
 <U1DCF> <u> <o>             : "ꭣ"
+<U1DCF> <V> <V>             : "W"
+<U1DCF> <v> <v>             : "w"
 <U1DCF> <V> <Y>             : "Ꝡ"
 <U1DCF> <v> <y>             : "ꝡ"
 <U1DCF> <V> <Z>             : "Ꟃ"   # W Anglicana

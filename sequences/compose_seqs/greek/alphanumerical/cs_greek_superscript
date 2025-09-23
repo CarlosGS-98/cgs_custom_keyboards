@@ -197,7 +197,9 @@
 <Multi_key> <dead_circumflex> <U035A> <underscore> <Greek_rho>                                  : "𐞩"
 <Multi_key> <dead_circumflex> <Greek_rho>                                                       : "ʳ"
 <Multi_key> <dead_circumflex> <U0359> <greater> <Greek_rho>                                     : "𐞨"
+<Multi_key> <dead_circumflex> <Greek_SIGMA>                                                     : "ꜱ"
 <Multi_key> <dead_circumflex> <Greek_sigma>                                                     : "ˢ"
+<Multi_key> <dead_circumflex> <Greek_finalsmallsigma>                                           : "ˢ"
 <Multi_key> <dead_circumflex> <U0359> <greater> <Greek_sigma>                                   : "ᶳ"
 <Multi_key> <dead_circumflex> <U035A> <Greek_sigma>                                             : "ᶴ"
 <Multi_key> <dead_circumflex> <dead_stroke> <U0283>                                             : "𐞘"   # ʃ (Esh) + Stroke + Superscript
