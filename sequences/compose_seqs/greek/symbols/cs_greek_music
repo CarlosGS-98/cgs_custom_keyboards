@@ -1,0 +1,245 @@
+# Greek Alphabet | Musical Notation Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing musical symbols
+# > with alphabetical Greek characters
+# > by using "#" (<numbersign>) in conjunction
+# > with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Musical_Symbols_(Unicode_block)
+#
+
+# Gregorian Musical Notation (Clefs)
+<Multi_key> <numbersign> <Greek_GAMMA> <U03FA> <colon> <space>                          : "𝇐"   # Gregorian C-Clef
+<Multi_key> <numbersign> <Greek_gamma> <U03FB> <colon> <space>                          : "𝇐"   # Gregorian C-Clef
+<Multi_key> <numbersign> <Greek_GAMMA> <Greek_DELTA> <Greek_OMICRON> <colon> <space>    : "𝇐"   # Gregorian C-Clef
+<Multi_key> <numbersign> <Greek_gamma> <Greek_delta> <Greek_omicron> <colon> <space>    : "𝇐"   # Gregorian C-Clef
+<Multi_key> <numbersign> <Greek_GAMMA> <Greek_PHI> <colon> <space>                      : "𝇑"   # Gregorian F-Clef
+<Multi_key> <numbersign> <Greek_gamma> <Greek_phi> <colon> <space>                      : "𝇑"   # Gregorian F-Clef
+<Multi_key> <numbersign> <Greek_GAMMA> <Greek_PHI> <Greek_ALPHA> <colon> <space>        : "𝇑"   # Gregorian F-Clef
+<Multi_key> <numbersign> <Greek_gamma> <Greek_phi> <Greek_alpha> <colon> <space>        : "𝇑"   # Gregorian F-Clef
+
+
+# Gregorian Musical Notation (Note Symbols)
+<Multi_key> <numbersign> <Greek_GAMMA> <asterisk> <bar> <space>                                 : "𝇓"   # Virga
+<Multi_key> <numbersign> <Greek_gamma> <asterisk> <bar> <space>                                 : "𝇓"   # Virga
+<Multi_key> <numbersign> <Greek_GAMMA> <asterisk> <bar> <periodcentered> <space>                : "𝇗"   # Climacus
+<Multi_key> <numbersign> <Greek_gamma> <asterisk> <bar> <periodcentered> <space>                : "𝇗"   # Climacus
+<Multi_key> <numbersign> <Greek_GAMMA> <bar> <asterisk> <period> <space>                        : "𝇕"   # Clivis
+<Multi_key> <numbersign> <Greek_gamma> <bar> <asterisk> <period> <space>                        : "𝇕"   # Clivis
+<Multi_key> <numbersign> <Greek_GAMMA> <bar> <backslash> <asterisk> <bar> <space>               : "𝇙"   # Porrectus
+<Multi_key> <numbersign> <Greek_gamma> <bar> <backslash> <asterisk> <bar> <space>               : "𝇙"   # Porrectus
+<Multi_key> <numbersign> <Greek_GAMMA> <bar> <backslash> <bar> <asterisk> <period> <space>      : "𝇚"   # Porrectus Flexus
+<Multi_key> <numbersign> <Greek_gamma> <bar> <backslash> <bar> <asterisk> <period> <space>      : "𝇚"   # Porrectus Flexus
+<Multi_key> <numbersign> <Greek_GAMMA> <colon> <bar> <asterisk> <period> <space>                : "𝇛"   # Scandicus Flexus
+<Multi_key> <numbersign> <Greek_gamma> <colon> <bar> <asterisk> <period> <space>                : "𝇛"   # Scandicus Flexus
+<Multi_key> <numbersign> <Greek_GAMMA> <colon> <period> <space>                                 : "𝇝"   # Pes Subpunctis
+<Multi_key> <numbersign> <Greek_gamma> <colon> <period> <space>                                 : "𝇝"   # Pes Subpunctis
+<Multi_key> <numbersign> <Greek_GAMMA> <colon> <underscore> <space>                             : "𝇔"   # Podatus
+<Multi_key> <numbersign> <Greek_gamma> <colon> <underscore> <space>                             : "𝇔"   # Podatus
+<Multi_key> <numbersign> <Greek_GAMMA> <period> <dead_macron> <period> <space>                  : "𝇘"   # Torculus
+<Multi_key> <numbersign> <Greek_gamma> <period> <dead_macron> <period> <space>                  : "𝇘"   # Torculus
+<Multi_key> <numbersign> <Greek_GAMMA> <underscore> <bar> <backslash> <asterisk> <bar> <space>  : "𝇜"   # Torculus Resupinus
+<Multi_key> <numbersign> <Greek_gamma> <underscore> <bar> <backslash> <asterisk> <bar> <space>  : "𝇜"   # Torculus Resupinus
+<Multi_key> <numbersign> <Greek_GAMMA> <underscore> <colon> <space>                             : "𝇖"   # Scandicus
+<Multi_key> <numbersign> <Greek_gamma> <underscore> <colon> <space>                             : "𝇖"   # Scandicus
+
+
+# Gregorian Musical Notation (Tones)
+<Multi_key> <numbersign> <Greek_GAMMA> <6> <space>  : "𝇒"  # Square B
+<Multi_key> <numbersign> <Greek_gamma> <6> <space>  : "𝇒"  # Square B
+
+
+# Iranian Musical Notation (Tones) (Alphabetical)
+<Multi_key> <numbersign> <Greek_IOTA> <space>       : "𝇩"  # Sori (½ ♯)
+<Multi_key> <numbersign> <Greek_iota> <space>       : "𝇩"  # Sori (½ ♯)
+<Multi_key> <numbersign> <Greek_IOTA> <6> <space>   : "𝇪"  # Koron (½ ♭)
+<Multi_key> <numbersign> <Greek_iota> <6> <space>   : "𝇪"  # Koron (½ ♭)
+
+
+# Kievan Square Notation (Clefs)
+<Multi_key> <numbersign> <Greek_KAPPA> <U03FA> <colon> <space>                          : "𝇞"   # Kievan C-Clef
+<Multi_key> <numbersign> <Greek_kappa> <U03FB> <colon> <space>                          : "𝇞"   # Kievan C-Clef
+<Multi_key> <numbersign> <Greek_KAPPA> <Greek_DELTA> <Greek_OMICRON> <colon> <space>    : "𝇞"   # Kievan C-Clef
+<Multi_key> <numbersign> <Greek_kappa> <Greek_delta> <Greek_omicron> <colon> <space>    : "𝇞"   # Kievan C-Clef
+
+
+# Kievan Square Notation (Note Length & Symbols)
+<Multi_key> <numbersign> <Greek_KAPPA> <bar> <equal> <bar> <space>      : "𝇠"   # Kievan Recitative Note
+<Multi_key> <numbersign> <Greek_kappa> <bar> <equal> <bar> <space>      : "𝇠"   # Kievan Recitative Note
+<Multi_key> <numbersign> <Greek_KAPPA> <colon> <bar> <space>            : "𝇠"   # Kievan Final Note
+<Multi_key> <numbersign> <Greek_kappa> <colon> <bar> <space>            : "𝇠"   # Kievan Final Note
+<Multi_key> <numbersign> <Greek_KAPPA> <1> <slash> <1> <space>          : "𝇢"   # Kievan Whole Note
+<Multi_key> <numbersign> <Greek_kappa> <1> <slash> <1> <space>          : "𝇢"   # Kievan Whole Note
+<Multi_key> <numbersign> <Greek_KAPPA> <1> <slash> <2> <space>          : "𝇣"   # Kievan Half Note
+<Multi_key> <numbersign> <Greek_kappa> <1> <slash> <2> <space>          : "𝇣"   # Kievan Half Note
+<Multi_key> <numbersign> <Greek_KAPPA> <1> <slash> <4> <Down> <space>   : "𝇤"   # Kievan Quarter Note (Stem Down)
+<Multi_key> <numbersign> <Greek_kappa> <1> <slash> <4> <Down> <space>   : "𝇤"   # Kievan Quarter Note (Stem Down)
+<Multi_key> <numbersign> <Greek_KAPPA> <1> <slash> <4> <Up> <space>     : "𝇥"   # Kievan Quarter Note (Stem Up)
+<Multi_key> <numbersign> <Greek_kappa> <1> <slash> <4> <Up> <space>     : "𝇥"   # Kievan Quarter Note (Stem Up)
+<Multi_key> <numbersign> <Greek_KAPPA> <1> <slash> <8> <Down> <space>   : "𝇦"   # Kievan Eighth Note (Stem Down)
+<Multi_key> <numbersign> <Greek_kappa> <1> <slash> <8> <Down> <space>   : "𝇦"   # Kievan Eighth Note (Stem Down)
+<Multi_key> <numbersign> <Greek_KAPPA> <1> <slash> <8> <Up> <space>     : "𝇧"   # Kievan Eighth Note (Stem Up)
+<Multi_key> <numbersign> <Greek_kappa> <1> <slash> <8> <Up> <space>     : "𝇧"   # Kievan Eighth Note (Stem Up)
+
+
+# Kievan Square Notation (Scores) (Alphabetical)
+<Multi_key> <numbersign> <Greek_KAPPA> <ampersand> <space>  : "𝇟"   # Kievan End Of Piece
+<Multi_key> <numbersign> <Greek_kappa> <ampersand> <space>  : "𝇟"   # Kievan End Of Piece
+
+
+# Kievan Square Notation (Tones) (Alphabetical)
+<Multi_key> <numbersign> <Greek_KAPPA> <6> <space>  : "𝇨"  # Kievan Flat Sign
+<Multi_key> <numbersign> <Greek_kappa> <6> <space>  : "𝇨"  # Kievan Flat Sign
+
+
+# Mensural Musical Notation (Measures)
+<Multi_key> <numbersign> <Greek_MU> <percent> <U03FA> <space>               : "𝇋"   # Tempus Imperfectum Cum Prolatione Imperfecta
+<Multi_key> <numbersign> <Greek_mu> <percent> <U03FB> <space>               : "𝇋"   # Tempus Imperfectum Cum Prolatione Imperfecta
+<Multi_key> <numbersign> <Greek_MU> <percent> <U03FA> <period> <space>      : "𝇊"   # Tempus Imperfectum Cum Prolatione Perfecta
+<Multi_key> <numbersign> <Greek_mu> <percent> <U03FB> <period> <space>      : "𝇊"   # Tempus Imperfectum Cum Prolatione Perfecta
+<Multi_key> <numbersign> <Greek_MU> <percent> <masculine> <space>           : "𝇈"   # Tempus Perfectum Cum Prolatione Imperfecta
+<Multi_key> <numbersign> <Greek_mu> <percent> <masculine> <space>           : "𝇈"   # Tempus Perfectum Cum Prolatione Imperfecta
+<Multi_key> <numbersign> <Greek_MU> <percent> <masculine> <period> <space>  : "𝇇"   # Tempus Perfectum Cum Prolatione Perfecta
+<Multi_key> <numbersign> <Greek_mu> <percent> <masculine> <period> <space>  : "𝇇"   # Tempus Perfectum Cum Prolatione Perfecta
+<Multi_key> <numbersign> <Greek_MU> <percent> <slash> <U03FA> <space>       : "𝇍"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-2
+<Multi_key> <numbersign> <Greek_mu> <percent> <slash> <U03FB> <space>       : "𝇍"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-2
+<Multi_key> <numbersign> <Greek_MU> <percent> <slash> <masculine> <space>   : "𝇉"   # Tempus Perfectum Cum Prolatione Imperfecta Diminution-1
+<Multi_key> <numbersign> <Greek_mu> <percent> <slash> <masculine> <space>   : "𝇉"   # Tempus Perfectum Cum Prolatione Imperfecta Diminution-1
+<Multi_key> <numbersign> <Greek_MU> <percent> <slash> <Greek_PSI> <space>   : "𝇎"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-3
+<Multi_key> <numbersign> <Greek_mu> <percent> <slash> <Greek_psi> <space>   : "𝇎"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-3
+<Multi_key> <numbersign> <Greek_MU> <percent> <Greek_PSI> <space>           : "𝇌"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-1
+<Multi_key> <numbersign> <Greek_mu> <percent> <Greek_psi> <space>           : "𝇌"   # Tempus Imperfectum Cum Prolatione Imperfecta Diminution-1
+
+
+# Mensural Musical Notation (Note Breaks/Rests)
+<Multi_key> <numbersign> <Greek_MU> <at> <4> <space>                : "𝇁"    # Longa Perfecta Rest
+<Multi_key> <numbersign> <Greek_mu> <at> <4> <space>                : "𝇂"    # Longa Imperfecta Rest
+<Multi_key> <numbersign> <Greek_MU> <at> <4> <slash> <1> <space>    : "𝇁"    # Longa Perfecta Rest
+<Multi_key> <numbersign> <Greek_mu> <at> <4> <slash> <1> <space>    : "𝇂"    # Longa Imperfecta Rest
+<Multi_key> <numbersign> <Greek_MU> <at> <2> <space>                : "𝇃"    # Brevis Rest
+<Multi_key> <numbersign> <Greek_mu> <at> <2> <space>                : "𝇃"    # Brevis Rest
+<Multi_key> <numbersign> <Greek_MU> <at> <2> <slash> <1> <space>    : "𝇃"    # Brevis Rest
+<Multi_key> <numbersign> <Greek_mu> <at> <2> <slash> <1> <space>    : "𝇃"    # Brevis Rest
+<Multi_key> <numbersign> <Greek_MU> <at> <1> <space>                : "𝇄"    # Semibrevis Rest
+<Multi_key> <numbersign> <Greek_mu> <at> <1> <space>                : "𝇄"    # Semibrevis Rest
+<Multi_key> <numbersign> <Greek_MU> <at> <1> <slash> <1> <space>    : "𝇄"    # Semibrevis Rest
+<Multi_key> <numbersign> <Greek_mu> <at> <1> <slash> <1> <space>    : "𝇄"    # Semibrevis Rest
+<Multi_key> <numbersign> <Greek_MU> <at> <1> <slash> <2> <space>    : "𝇅"    # Minima Rest
+<Multi_key> <numbersign> <Greek_mu> <at> <1> <slash> <2> <space>    : "𝇅"    # Minima Rest
+<Multi_key> <numbersign> <Greek_MU> <at> <1> <slash> <4> <space>    : "𝇆"    # Semiminima Rest
+<Multi_key> <numbersign> <Greek_mu> <at> <1> <slash> <4> <space>    : "𝇆"    # Semiminima Rest
+
+
+# Mensural Musical Notation (Note Length & Symbols)
+<Multi_key> <numbersign> <Greek_MU> <8> <slash> <1> <space>             : "𝆶"   # Maxima
+<Multi_key> <numbersign> <Greek_mu> <8> <slash> <1> <space>             : "𝆶"   # Maxima
+<Multi_key> <numbersign> <Greek_MU> <4> <slash> <1> <space>             : "𝆷"   # Longa
+<Multi_key> <numbersign> <Greek_mu> <4> <slash> <1> <space>             : "𝆷"   # Longa
+<Multi_key> <numbersign> <Greek_MU> <2> <slash> <1> <space>             : "𝆸"   # Brevis
+<Multi_key> <numbersign> <Greek_mu> <2> <slash> <1> <space>             : "𝆸"   # Brevis
+<Multi_key> <numbersign> <Greek_MU> <1> <slash> <1> <space>             : "𝆹"   # White Semibrevis
+<Multi_key> <numbersign> <Greek_mu> <1> <slash> <1> <space>             : "𝆹"   # White Semibrevis
+<Multi_key> <numbersign> <Greek_MU> <1> <slash> <1> <asterisk> <space>  : "𝆺"   # Black Semibrevis
+<Multi_key> <numbersign> <Greek_mu> <1> <slash> <1> <asterisk> <space>  : "𝆺"   # Black Semibrevis
+<Multi_key> <numbersign> <Greek_MU> <1> <slash> <2> <space>             : "𝆹𝅥"   # Minima
+<Multi_key> <numbersign> <Greek_mu> <1> <slash> <2> <space>             : "𝆹𝅥"   # Minima
+<Multi_key> <numbersign> <Greek_MU> <1> <slash> <4> <space>             : "𝆺𝅥"   # Semiminima
+<Multi_key> <numbersign> <Greek_mu> <1> <slash> <4> <space>             : "𝆺𝅥"   # Semiminima
+<Multi_key> <numbersign> <Greek_MU> <1> <slash> <4> <asterisk> <space>  : "𝆹𝅥𝅮"   # Semiminima
+<Multi_key> <numbersign> <Greek_mu> <1> <slash> <4> <asterisk> <space>  : "𝆹𝅥𝅮"   # Semiminima
+<Multi_key> <numbersign> <Greek_MU> <1> <slash> <8> <space>             : "𝆺𝅥𝅮"   # Fusa
+<Multi_key> <numbersign> <Greek_mu> <1> <slash> <8> <space>             : "𝆺𝅥𝅮"   # Fusa
+<Multi_key> <numbersign> <Greek_MU> <1> <slash> <8> <asterisk> <space>  : "𝆹𝅥𝅯"   # Fusa
+<Multi_key> <numbersign> <Greek_mu> <1> <slash> <8> <asterisk> <space>  : "𝆹𝅥𝅯"   # Fusa
+<Multi_key> <numbersign> <Greek_MU> <1> <slash> <1> <6> <space>         : "𝆺𝅥𝅯"   # Semifusa
+<Multi_key> <numbersign> <Greek_mu> <1> <slash> <1> <6> <space>         : "𝆺𝅥𝅯"   # Semifusa
+
+
+# Modern Musical Notation (Clefs)
+<Multi_key> <numbersign> <U03FA> <colon> <space>                                                            : "𝄡"   # C-Clef (Do₄/C4)
+<Multi_key> <numbersign> <U03FB> <colon> <space>                                                            : "𝄡"   # C-Clef (Do₄/C4)
+<Multi_key> <numbersign> <Greek_DELTA> <Greek_OMICRON> <colon> <space>                                      : "𝄡"   # C-Clef (Do₄/C4)
+<Multi_key> <numbersign> <Greek_delta> <Greek_omicron> <colon> <space>                                      : "𝄡"   # C-Clef (Do₄/C4)
+<Multi_key> <numbersign> <Greek_PHI> <colon> <space>                                                        : "𝄢"   # F-Clef (Fa₃/F3)
+<Multi_key> <numbersign> <Greek_phi> <colon> <space>                                                        : "𝄢"   # F-Clef (Fa₃/F3)
+<Multi_key> <numbersign> <Greek_PHI> <Greek_ALPHA> <colon> <space>                                          : "𝄢"   # F-Clef (Fa₃/F3)
+<Multi_key> <numbersign> <Greek_phi> <Greek_alpha> <colon> <space>                                          : "𝄢"   # F-Clef (Fa₃/F3)
+<Multi_key> <numbersign> <Greek_PHI> <Greek_ALPHA> <minus> <Greek_ALPHA> <colon> <space>                    : "𝄣"   # F-Clef, Ottava Alta (Fa₄/F4)
+<Multi_key> <numbersign> <Greek_phi> <Greek_alpha> <minus> <Greek_alpha> <colon> <space>                    : "𝄣"   # F-Clef, Ottava Alta (Fa₄/F4)
+<Multi_key> <numbersign> <Greek_PHI> <Greek_ALPHA> <minus> <Greek_BETA> <colon> <space>                     : "𝄤"   # F-Clef, Ottava Bassa (Fa₂/F2)
+<Multi_key> <numbersign> <Greek_phi> <Greek_alpha> <minus> <Greek_beta> <colon> <space>                     : "𝄤"   # F-Clef, Ottava Bassa (Fa₂/F2)
+<Multi_key> <numbersign> <Greek_PHI> <minus> <Greek_ALPHA> <colon> <space>                                  : "𝄣"   # F-Clef, Ottava Alta (Fa₄/F4)
+<Multi_key> <numbersign> <Greek_phi> <minus> <Greek_alpha> <colon> <space>                                  : "𝄣"   # F-Clef, Ottava Alta (Fa₄/F4)
+<Multi_key> <numbersign> <Greek_PHI> <minus> <Greek_BETA> <colon> <space>                                   : "𝄤"   # F-Clef, Ottava Bassa (Fa₂/F2)
+<Multi_key> <numbersign> <Greek_phi> <minus> <Greek_beta> <colon> <space>                                   : "𝄤"   # F-Clef, Ottava Bassa (Fa₂/F2)
+<Multi_key> <numbersign> <Greek_GAMMA> <colon> <space>                                                      : "𝄞"   # G-Clef (Sol₄/G4)
+<Multi_key> <numbersign> <Greek_gamma> <colon> <space>                                                      : "𝄞"   # G-Clef (Sol₄/G4)
+<Multi_key> <numbersign> <Greek_GAMMA> <minus> <Greek_ALPHA> <colon> <space>                                : "𝄟"   # G-Clef, Ottava Alta (Sol₅/G5)
+<Multi_key> <numbersign> <Greek_gamma> <minus> <Greek_alpha> <colon> <space>                                : "𝄟"   # G-Clef, Ottava Alta (Sol₅/G5)
+<Multi_key> <numbersign> <Greek_GAMMA> <minus> <Greek_BETA> <colon> <space>                                 : "𝄠"   # G-Clef, Ottava Bassa (Sol₄/G4)
+<Multi_key> <numbersign> <Greek_gamma> <minus> <Greek_beta> <colon> <space>                                 : "𝄠"   # G-Clef, Ottava Bassa (Sol₄/G4)
+<Multi_key> <numbersign> <Greek_SIGMA> <Greek_OMICRON> <Greek_LAMBDA> <colon> <space>                       : "𝄞"   # G-Clef (Sol₄/G4)
+<Multi_key> <numbersign> <Greek_sigma> <Greek_omicron> <Greek_lambda> <colon> <space>                       : "𝄞"   # G-Clef (Sol₄/G4)
+<Multi_key> <numbersign> <Greek_SIGMA> <Greek_OMICRON> <Greek_LAMBDA> <minus> <Greek_ALPHA> <colon> <space> : "𝄟"   # G-Clef, Ottava Alta (Sol₅/G5)
+<Multi_key> <numbersign> <Greek_sigma> <Greek_omicron> <Greek_lambda> <minus> <Greek_alpha> <colon> <space> : "𝄟"   # G-Clef, Ottava Alta (Sol₅/G5)
+<Multi_key> <numbersign> <Greek_SIGMA> <Greek_OMICRON> <Greek_LAMBDA> <minus> <Greek_BETA> <colon> <space>  : "𝄠"   # G-Clef, Ottava Bassa (Sol₃/G3)
+<Multi_key> <numbersign> <Greek_sigma> <Greek_omicron> <Greek_lambda> <minus> <Greek_beta> <colon> <space>  : "𝄠"   # G-Clef, Ottava Bassa (Sol₃/G3)
+
+
+# Modern Musical Notation (Loudness Marks) (Alphabetical)
+<Multi_key> <numbersign> <Greek_PHI> <space>    : "𝆑"   # Forte
+<Multi_key> <numbersign> <Greek_phi> <space>    : "𝆑"   # Forte
+<Multi_key> <numbersign> <Greek_MU> <space>     : "𝆐"   # Mezzo
+<Multi_key> <numbersign> <Greek_mu> <space>     : "𝆐"   # Mezzo
+<Multi_key> <numbersign> <Greek_PI> <space>     : "𝆏"   # Piano
+<Multi_key> <numbersign> <Greek_pi> <space>     : "𝆏"   # Piano
+<Multi_key> <numbersign> <Greek_RHO> <space>    : "𝆌"   # Rinforzando
+<Multi_key> <numbersign> <Greek_rho> <space>    : "𝆌"   # Rinforzando
+<Multi_key> <numbersign> <Greek_SIGMA> <space>  : "𝆍"   # Subito
+<Multi_key> <numbersign> <Greek_sigma> <space>  : "𝆍"   # Subito
+<Multi_key> <numbersign> <Greek_ZETA> <space>   : "𝆎"   # Musical Symbol Z
+<Multi_key> <numbersign> <Greek_zeta> <space>   : "𝆎"   # Musical Symbol Z
+
+
+# Modern Musical Notation (Pedal Marks) (Alphabetical)
+<Multi_key> <numbersign> <Greek_PI> <Greek_EPSILON> <Greek_DELTA> <space>   : "𝆮"   # Pedal Mark
+<Multi_key> <numbersign> <Greek_PI> <Greek_epsilon> <Greek_delta> <space>   : "𝆮"   # Pedal Mark
+<Multi_key> <numbersign> <Greek_pi> <Greek_epsilon> <Greek_delta> <space>   : "𝆮"   # Pedal Mark
+
+
+# Modern Musical Notation (Scores) (Alphabetical)
+<Multi_key> <numbersign> <U03FA> <space>                        : "𝄴"   # Common Time
+<Multi_key> <numbersign> <U03FB> <space>                        : "𝄴"   # Common Time
+<Multi_key> <numbersign> <U03FA> <bar> <space>                  : "𝄵"   # Cut Time
+<Multi_key> <numbersign> <U03FB> <bar> <space>                  : "𝄵"   # Cut Time
+<Multi_key> <numbersign> <U03FA> <slash> <space>                : "𝄵"   # Cut Time
+<Multi_key> <numbersign> <U03FB> <slash> <space>                : "𝄵"   # Cut Time
+<Multi_key> <numbersign> <Greek_DELTA> <U03FA> <space>          : "𝄊"   # Da Capo
+<Multi_key> <numbersign> <Greek_delta> <U03FB> <space>          : "𝄊"   # Da Capo
+<Multi_key> <numbersign> <Greek_DELTA> <Greek_SIGMA> <space>    : "𝄉"   # Dal Segno
+<Multi_key> <numbersign> <Greek_delta> <Greek_sigma> <space>    : "𝄉"   # Dal Segno
+<Multi_key> <numbersign> <Greek_EPSILON> <minus> <space>        : "𝆨"   # Endstimme
+<Multi_key> <numbersign> <Greek_epsilon> <minus> <space>        : "𝆨"   # Endstimme
+<Multi_key> <numbersign> <U0370> <minus> <space>                : "𝆦"   # Hauptstimme
+<Multi_key> <numbersign> <U0371> <minus> <space>                : "𝆦"   # Hauptstimme
+<Multi_key> <numbersign> <Greek_NU> <minus> <space>             : "𝆧"   # Nebenstimme
+<Multi_key> <numbersign> <Greek_nu> <minus> <space>             : "𝆧"   # Nebenstimme
+
+
+# Modern Musical Notation (Tones) (Alphabetical)
+<Multi_key> <numbersign> <8> <U0376> <Greek_ALPHA> <space>          : "𝄶"   # Ottava Alta
+<Multi_key> <numbersign> <8> <U0377> <Greek_alpha> <space>          : "𝄶"   # Ottava Alta
+<Multi_key> <numbersign> <8> <U0376> <Greek_BETA> <space>           : "𝄷"   # Ottava Bassa
+<Multi_key> <numbersign> <8> <U0377> <Greek_beta> <space>           : "𝄷"   # Ottava Bassa
+<Multi_key> <numbersign> <1> <5> <Greek_MU> <Greek_ALPHA> <space>   : "𝄸"   # Quindicesima Alta
+<Multi_key> <numbersign> <1> <5> <Greek_mu> <Greek_alpha> <space>   : "𝄸"   # Quindicesima Alta
+<Multi_key> <numbersign> <1> <5> <Greek_MU> <Greek_BETA> <space>    : "𝄹"   # Quindicesima Bassa
+<Multi_key> <numbersign> <1> <5> <Greek_mu> <Greek_beta> <space>    : "𝄹"   # Quindicesima Bassa
+<Multi_key> <numbersign> <Greek_TAU> <Greek_RHO> <space>            : "𝆖"    # Musical Trill
+<Multi_key> <numbersign> <Greek_tau> <Greek_rho> <space>            : "𝆖"    # Musical Trill
+
+##################
+# [END OF RULES] #
+##################
