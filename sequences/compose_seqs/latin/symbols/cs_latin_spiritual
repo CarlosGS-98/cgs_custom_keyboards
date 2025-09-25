@@ -47,6 +47,8 @@
 # General Religious & Spiritual Symbols & Artifacts (Alphabetical)
 <Multi_key> <U232C> <less> <less> <dead_tilde> <M> <P> <greater> <greater>  : "🕅"  # Orthodox Marks Chapter
 <Multi_key> <U232C> <less> <less> <dead_tilde> <m> <p> <greater> <greater>  : "🕅"  # Orthodox Marks Chapter
+<Multi_key> <U232C> <less> <less> <Otilde> <M> <greater> <greater>          : "🕉︎"  # Om Symbol
+<Multi_key> <U232C> <less> <less> <otilde> <m> <greater> <greater>          : "🕉︎"  # Om Symbol
 <Multi_key> <U232C> <less> <less> <dead_tilde> <O> <M> <greater> <greater>  : "🕉︎"  # Om Symbol
 <Multi_key> <U232C> <less> <less> <dead_tilde> <o> <m> <greater> <greater>  : "🕉︎"  # Om Symbol
 

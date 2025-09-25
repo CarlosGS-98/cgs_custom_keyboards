@@ -1,0 +1,53 @@
+# Greek Alphabet | Religious & Spiritual Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing religious and spiritual symbols
+# > that can be input with alphabetical Greek characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Religious_and_political_symbols_in_Unicode
+#
+# [NOTE]: All symbols listed here are enclosed inside double angled brackets.
+#
+
+# Chinese Folk Religion Symbols
+#
+# [NOTE]: All symbols present on this section
+# are input with their approximate Greek Pinyin transcriptions
+# enclosed inside double angled brackets.
+#
+<Multi_key> <U232C> <less> <less> <Greek_TAU> <Greek_SIGMA> <Greek_ALPHAaccent> <Greek_IOTA> <greater> <greater>                                                                        : "🉥"  # Chinese Symbol for Wealth (財/Cái)
+<Multi_key> <U232C> <less> <less> <Greek_tau> <Greek_sigma> <Greek_alphaaccent> <Greek_iota> <greater> <greater>                                                                        : "🉥"  # Chinese Symbol for Wealth (財/Cái)
+<Multi_key> <U232C> <less> <less> <Greek_TAU> <Greek_SIGMA> <dead_acute> <Greek_ALPHA> <Greek_IOTA> <greater> <greater>                                                                 : "🉥"  # Chinese Symbol for Wealth (財/Cái)
+<Multi_key> <U232C> <less> <less> <Greek_tau> <Greek_sigma> <dead_acute> <Greek_alpha> <Greek_iota> <greater> <greater>                                                                 : "🉥"  # Chinese Symbol for Wealth (財/Cái)
+<Multi_key> <U232C> <less> <less> <Greek_PHI> <Greek_OMICRON> <Greek_UPSILONaccent> <greater> <greater>                                                                                 : "🉠"  # Chinese Symbol for Luck & Fortune (福/Fú)
+<Multi_key> <U232C> <less> <less> <Greek_phi> <Greek_omicron> <Greek_upsilonaccent> <greater> <greater>                                                                                 : "🉠"  # Chinese Symbol for Luck & Fortune (福/Fú)
+<Multi_key> <U232C> <less> <less> <Greek_PHI> <Greek_OMICRON> <dead_acute> <Greek_UPSILON> <greater> <greater>                                                                          : "🉠"  # Chinese Symbol for Luck & Fortune (福/Fú)
+<Multi_key> <U232C> <less> <less> <Greek_phi> <Greek_omicron> <dead_acute> <Greek_upsilon> <greater> <greater>                                                                          : "🉠"  # Chinese Symbol for Luck & Fortune (福/Fú)
+<Multi_key> <U232C> <less> <less> <Greek_LAMBDA> <Greek_OMICRON> <U1FEA> <greater> <greater>                                                                                            : "🉡"  # Chinese Symbol for Prosperity (祿/Lù)
+<Multi_key> <U232C> <less> <less> <Greek_lambda> <Greek_omicron> <U1F7A> <greater> <greater>                                                                                            : "🉡"  # Chinese Symbol for Prosperity (祿/Lù)
+<Multi_key> <U232C> <less> <less> <Greek_LAMBDA> <Greek_OMICRON> <dead_grave> <Greek_UPSILON> <greater> <greater>                                                                       : "🉡"  # Chinese Symbol for Prosperity (祿/Lù)
+<Multi_key> <U232C> <less> <less> <Greek_lambda> <Greek_omicron> <dead_grave> <Greek_upsilon> <greater> <greater>                                                                       : "🉡"  # Chinese Symbol for Prosperity (祿/Lù)
+<Multi_key> <U232C> <less> <less> <U03F7> <U1FF8> <Greek_UPSILON> <greater> <greater>                                                                                                   : "🉢"  # Chinese Symbol for Longevity (壽/Shòu)
+<Multi_key> <U232C> <less> <less> <U03F8> <U1F78> <Greek_upsilon> <greater> <greater>                                                                                                   : "🉢"  # Chinese Symbol for Longevity (壽/Shòu)
+<Multi_key> <U232C> <less> <less> <U03F7> <dead_grave> <Greek_OMICRON> <Greek_UPSILON> <greater> <greater>                                                                              : "🉢"  # Chinese Symbol for Longevity (壽/Shòu)
+<Multi_key> <U232C> <less> <less> <U03F8> <dead_grave> <Greek_omicron> <Greek_upsilon> <greater> <greater>                                                                              : "🉢"  # Chinese Symbol for Longevity (壽/Shòu)
+<Multi_key> <U232C> <less> <less> <U03F7> <Greek_UPSILON> <Amacron> <Greek_NU> <Greek_GAMMA> <Greek_KAPPA> <Greek_XI> <U01CF> <greater> <greater>                                       : "🉤"  # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ)
+<Multi_key> <U232C> <less> <less> <U03F8> <Greek_upsilon> <amacron> <Greek_nu> <Greek_gamma> <Greek_kappa> <Greek_xi> <U01D0> <greater> <greater>                                       : "🉤"  # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ)
+<Multi_key> <U232C> <less> <less> <U03F7> <Greek_UPSILON> <dead_macron> <Greek_ALPHA> <Greek_NU> <Greek_GAMMA> <Greek_KAPPA> <Greek_XI> <dead_caron> <Greek_IOTA> <greater> <greater>   : "🉤"  # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ)
+<Multi_key> <U232C> <less> <less> <U03F8> <Greek_upsilon> <dead_macron> <Greek_alpha> <Greek_nu> <Greek_gamma> <Greek_kappa> <Greek_xi> <dead_caron> <Greek_iota> <greater> <greater>   : "🉤"  # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ)
+<Multi_key> <U232C> <less> <less> <Greek_XI> <dead_caron> <Greek_IOTA> <greater> <greater>                                                                                              : "🉣"  # Chinese Symbol for Happiness (喜/Xǐ)
+<Multi_key> <U232C> <less> <less> <Greek_xi> <dead_caron> <Greek_iota> <greater> <greater>                                                                                              : "🉣"  # Chinese Symbol for Happiness (喜/Xǐ)
+
+
+# General Religious & Spiritual Symbols & Artifacts (Alphabetical)
+<Multi_key> <U232C> <less> <less> <dead_tilde> <Greek_MU> <Greek_PI> <greater> <greater>        : "🕅"  # Orthodox Marks Chapter
+<Multi_key> <U232C> <less> <less> <dead_tilde> <Greek_mu> <Greek_pi> <greater> <greater>        : "🕅"  # Orthodox Marks Chapter
+<Multi_key> <U232C> <less> <less> <dead_tilde> <Greek_OMICRON> <Greek_MU> <greater> <greater>   : "🕉︎"  # Om Symbol
+<Multi_key> <U232C> <less> <less> <dead_tilde> <Greek_omicron> <Greek_mu> <greater> <greater>   : "🕉︎"  # Om Symbol
+
+##################
+# [END OF RULES] #
+##################
