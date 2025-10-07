@@ -1,0 +1,468 @@
+# Greek Alphabet | Board Game Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing board game symbols
+# > that can be input with alphabetical Greek characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+
+# Anglo-French Playing Card Symbols
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [NOTE]: Each piece does also encode info about its suit and value
+#         in the following regex-like notation:
+#           
+#         regexp = \[([0-9]{,2}|[ϺϻΧχϘϙΚκ])?[(->)|(<3)|(<>)|(\.3)](\*)?\]
+#
+#         Where:
+#         - [ϺϻΧχϘϙΚκ]              = Any non-numerical playing card (Knight/Cavalier -> Jack -> Queen -> King).
+#         - (->)|(<3)|(<>)|(\.3)]   = The card's own suit (Spade, Heart, Diamond or Club). Omitting the card's value will output the corresponding suit symbol.
+#         - \*                      = Whether the current suit is black. If not entered, it means the current suit is white/red.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <minus> <greater> <bracketright>      : "🂫"  # Jack of Spades
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <minus> <greater> <bracketright>      : "🂫"  # Jack of Spades
+<Multi_key> <U232C> <bracketleft> <U03FA> <minus> <greater> <bracketright>          : "🂬"  # Knight of Spades
+<Multi_key> <U232C> <bracketleft> <U03FB> <minus> <greater> <bracketright>          : "🂬"  # Knight of Spades
+<Multi_key> <U232C> <bracketleft> <U03D8> <minus> <greater> <bracketright>          : "🂭"  # Queen of Spades
+<Multi_key> <U232C> <bracketleft> <U03D9> <minus> <greater> <bracketright>          : "🂭"  # Queen of Spades
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <minus> <greater> <bracketright>    : "🂮"  # King of Spades
+<Multi_key> <U232C> <bracketleft> <Greek_kappa> <minus> <greater> <bracketright>    : "🂮"  # King of Spades
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <less> <3> <bracketright>             : "🂻"  # Jack of Hearts
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <less> <3> <bracketright>             : "🂻"  # Jack of Hearts
+<Multi_key> <U232C> <bracketleft> <U03FA> <less> <3> <bracketright>                 : "🂼"  # Knight of Hearts
+<Multi_key> <U232C> <bracketleft> <U03FB> <less> <3> <bracketright>                 : "🂼"  # Knight of Hearts
+<Multi_key> <U232C> <bracketleft> <U03D8> <less> <3> <bracketright>                 : "🂽"  # Queen of Hearts
+<Multi_key> <U232C> <bracketleft> <U03D9> <less> <3> <bracketright>                 : "🂽"  # Queen of Hearts
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <less> <3> <bracketright>           : "🂾"  # King of Hearts
+<Multi_key> <U232C> <bracketleft> <Greek_kappa> <less> <3> <bracketright>           : "🂾"  # King of Hearts
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <less> <greater> <bracketright>       : "🃋"  # Jack of Diamonds
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <less> <greater> <bracketright>       : "🃋"  # Jack of Diamonds
+<Multi_key> <U232C> <bracketleft> <U03FA> <less> <greater> <bracketright>           : "🃌"  # Knight of Diamonds
+<Multi_key> <U232C> <bracketleft> <U03FB> <less> <greater> <bracketright>           : "🃌"  # Knight of Diamonds
+<Multi_key> <U232C> <bracketleft> <U03D8> <less> <greater> <bracketright>           : "🃍"  # Queen of Diamonds
+<Multi_key> <U232C> <bracketleft> <U03D9> <less> <greater> <bracketright>           : "🃍"  # Queen of Diamonds
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <less> <greater> <bracketright>     : "🃎"  # King of Diamonds
+<Multi_key> <U232C> <bracketleft> <Greek_kappa> <less> <greater> <bracketright>     : "🃎"  # King of Diamonds
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <period> <3> <bracketright>           : "🃛"  # Jack of Clubs
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <period> <3> <bracketright>           : "🃛"  # Jack of Clubs
+<Multi_key> <U232C> <bracketleft> <U03FA> <period> <3> <bracketright>               : "🃜"  # Knight of Clubs
+<Multi_key> <U232C> <bracketleft> <U03FB> <period> <3> <bracketright>               : "🃜"  # Knight of Clubs
+<Multi_key> <U232C> <bracketleft> <U03D8> <period> <3> <bracketright>               : "🃝"  # Queen of Clubs
+<Multi_key> <U232C> <bracketleft> <U03D9> <period> <3> <bracketright>               : "🃝"  # Queen of Clubs
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <period> <3> <bracketright>         : "🃞"  # King of Clubs
+<Multi_key> <U232C> <bracketleft> <Greek_kappa> <period> <3> <bracketright>         : "🃞"  # King of Clubs
+
+
+# Chess Piece Symbols (Excluding Pawns)
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#         Additionally, each symbol is represented by their
+#         corresponding letter in both the English and Spanish
+#         algebraic chess notations whenever possible.
+#
+# [NOTE]: Each piece does also encode info about its rotation and color
+#         in the following regex-like notation:
+#           
+#         regexp = \[[ABCDEFHKNQRT]*([0-9]{,3})?[*-]?\]
+#
+#         Where:
+#         - [ABCDEFHKNQRT]  = Any orthodox chess piece (including both the alfil and ferz) and some fairy chess pieces. Omitting this field will always produce a pawn.
+#         - [0-9]{,3}       = The piece's own rotation measured in sexagesimal degrees (more specifically, in multiples of 45º). The default rotation is 0º.
+#         - [*-]            = The piece's own color ("*" for black, "-" for neutral). Leaving this field blank will result in a white piece.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <Greek_ALPHA> <bracketright>                          : "🩕"  # White Alfil [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_ALPHA> <asterisk> <bracketright>               : "🩗"  # Black Alfil [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <bracketright>                           : "♗"  # White Bishop
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <9> <0> <bracketright>                   : "🨌"  # White Bishop + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <1> <8> <0> <bracketright>               : "🨡"  # White Bishop + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <2> <7> <0> <bracketright>               : "🨶"  # White Bishop + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <Greek_NU> <bracketright>                : "🩐"  # White Princess
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <minus> <bracketright>                   : "🨃"  # Neutral Bishop
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <9> <0> <minus> <bracketright>           : "🨘"  # Neutral Bishop + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <1> <8> <0> <minus> <bracketright>       : "🨭"  # Neutral Bishop + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <2> <7> <0> <minus> <bracketright>       : "🩂"  # Neutral Bishop + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <asterisk> <bracketright>                : "♝"  # Black Bishop
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <9> <0> <asterisk> <bracketright>        : "🨒"  # Black Bishop + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <1> <8> <0> <asterisk> <bracketright>    : "🨧"  # Black Bishop + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <2> <7> <0> <asterisk> <bracketright>    : "🨼"  # Black Bishop + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <Greek_NU> <asterisk> <bracketright>     : "🩓"  # Black Princess
+<Multi_key> <U232C> <bracketleft> <U03FA> <bracketright>                                : "♘"  # Caballo Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <U03FA> <4> <5> <bracketright>                        : "🨆"  # Caballo Blanco [ES] + 45º
+<Multi_key> <U232C> <bracketleft> <U03FA> <9> <0> <bracketright>                        : "🨍"  # Caballo Blanco [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <U03FA> <1> <3> <5> <bracketright>                    : "🨛"  # Caballo Blanco [ES] + 135º
+<Multi_key> <U232C> <bracketleft> <U03FA> <1> <8> <0> <bracketright>                    : "🨢"  # Caballo Blanco [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <U03FA> <2> <2> <5> <bracketright>                    : "🨰"  # Caballo Blanco [ES] + 225º
+<Multi_key> <U232C> <bracketleft> <U03FA> <2> <7> <0> <bracketright>                    : "🨷"  # Caballo Blanco [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <U03FA> <3> <1> <5> <bracketright>                    : "🩅"  # Caballo Blanco [ES] + 315º
+<Multi_key> <U232C> <bracketleft> <U03FA> <Greek_DELTA> <bracketright>                  : "🩎"  # Amazona Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <U03FA> <Greek_TAU> <bracketright>                    : "🩏"  # Canciller Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <U03FA> <minus> <bracketright>                        : "🨄"  # Caballo Neutro [ES]
+<Multi_key> <U232C> <bracketleft> <U03FA> <4> <5> <minus> <bracketright>                : "🨈"  # Caballo Neutro [ES] + 45º
+<Multi_key> <U232C> <bracketleft> <U03FA> <9> <0> <minus> <bracketright>                : "🨙"  # Caballo Neutro [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <U03FA> <1> <3> <5> <minus> <bracketright>            : "🨝"  # Caballo Neutro [ES] + 135º
+<Multi_key> <U232C> <bracketleft> <U03FA> <1> <8> <0> <minus> <bracketright>            : "🨮"  # Caballo Neutro [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <U03FA> <2> <2> <5> <minus> <bracketright>            : "🨲"  # Caballo Neutro [ES] + 225º
+<Multi_key> <U232C> <bracketleft> <U03FA> <2> <7> <0> <minus> <bracketright>            : "🩃"  # Caballo Neutro [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <U03FA> <3> <1> <5> <minus> <bracketright>            : "🩇"  # Caballo Neutro [ES] + 315º
+<Multi_key> <U232C> <bracketleft> <U03FA> <asterisk> <bracketright>                     : "♞"  # Caballo Negro [ES]
+<Multi_key> <U232C> <bracketleft> <U03FA> <4> <5> <asterisk> <bracketright>             : "🨇"  # Caballo Negro [ES] + 45º
+<Multi_key> <U232C> <bracketleft> <U03FA> <9> <0> <asterisk> <bracketright>             : "🨓"  # Caballo Negro [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <U03FA> <1> <3> <5> <asterisk> <bracketright>         : "🨜"  # Caballo Negro [ES] + 135º
+<Multi_key> <U232C> <bracketleft> <U03FA> <1> <8> <0> <asterisk> <bracketright>         : "🨨"  # Caballo Negro [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <U03FA> <2> <2> <5> <asterisk> <bracketright>         : "🨱"  # Caballo Negro [ES] + 225º
+<Multi_key> <U232C> <bracketleft> <U03FA> <2> <7> <0> <asterisk> <bracketright>         : "🨽"  # Caballo Negro [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <U03FA> <3> <1> <5> <asterisk> <bracketright>         : "🩆"  # Caballo Negro [ES] + 315º
+<Multi_key> <U232C> <bracketleft> <U03FA> <Greek_DELTA> <asterisk> <bracketright>       : "🩑"  # Amazona Negra [ES]
+<Multi_key> <U232C> <bracketleft> <U03FA> <Greek_TAU> <asterisk> <bracketright>         : "🩒"  # Canciller Negro [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <bracketright>                          : "♕"  # Dama Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <9> <0> <bracketright>                  : "🨊"  # Dama Blanca [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <1> <8> <0> <bracketright>              : "🨟"  # Dama Blanca [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <2> <7> <0> <bracketright>              : "🨴"  # Dama Blanca [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <U03FA> <bracketright>                  : "🩎"  # Amazona Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <minus> <bracketright>                  : "🨁"  # Dama Neutra [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <9> <0> <minus> <bracketright>          : "🨖"  # Dama Neutra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <1> <8> <0> <minus> <bracketright>      : "🨫"  # Dama Neutra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <2> <7> <0> <minus> <bracketright>      : "🩀"  # Dama Neutra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <asterisk> <bracketright>               : "♛"  # Dama Negra [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <9> <0> <asterisk> <bracketright>       : "🨐"  # Dama Negra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <1> <8> <0> <asterisk> <bracketright>   : "🨥"  # Dama Negra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <2> <7> <0> <asterisk> <bracketright>   : "🨺"  # Dama Negra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_DELTA> <U03FA> <asterisk> <bracketright>       : "🩑"  # Amazona BlNegraanca [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_EPSILON> <bracketright>                        : "🩕"  # Elefante Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_EPSILON> <asterisk> <bracketright>             : "🩗"  # Elefante Negro [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_PHI> <bracketright>                            : "🩔"  # White Ferz
+<Multi_key> <U232C> <bracketleft> <Greek_PHI> <asterisk> <bracketright>                 : "🩖"  # Black Ferz
+<Multi_key> <U232C> <bracketleft> <U0370> <bracketright>                                : "🩈"  # White Equihopper
+<Multi_key> <U232C> <bracketleft> <U0370> <9> <0> <bracketright>                        : "🩋"  # White Equihopper + 90º
+<Multi_key> <U232C> <bracketleft> <U0370> <minus> <bracketright>                        : "🩊"  # Neutral Equihopper
+<Multi_key> <U232C> <bracketleft> <U0370> <9> <0> <minus> <bracketright>                : "🩍"  # Neutral Equihopper + 90º
+<Multi_key> <U232C> <bracketleft> <U0370> <asterisk> <bracketright>                     : "🩉"  # Black Equihopper
+<Multi_key> <U232C> <bracketleft> <U0370> <9> <0> <asterisk> <bracketright>             : "🩌"  # Black Equihopper + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <bracketright>                          : "♔"  # White King
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <9> <0> <bracketright>                  : "🨉"  # White King + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <1> <8> <0> <bracketright>              : "🨞"  # White King + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <2> <7> <0> <bracketright>              : "🨳"  # White King + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <minus> <bracketright>                  : "🨀"  # Neutral King
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <9> <0> <minus> <bracketright>          : "🨕"  # Neutral King + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <1> <8> <0> <minus> <bracketright>      : "🨪"  # Neutral King + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <2> <7> <0> <minus> <bracketright>      : "🨿"  # Neutral King + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <asterisk> <bracketright>               : "♚"  # Black King
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <9> <0> <asterisk> <bracketright>       : "🨏"  # Black King + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <1> <8> <0> <asterisk> <bracketright>   : "🨤"  # Black King + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_KAPPA> <2> <7> <0> <asterisk> <bracketright>   : "🨹"  # Black King + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <bracketright>                             : "♘"  # White Knight [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <4> <5> <bracketright>                     : "🨆"  # White Knight [EN] + 45º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <9> <0> <bracketright>                     : "🨍"  # White Knight [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <1> <3> <5> <bracketright>                 : "🨛"  # White Knight [EN] + 135º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <1> <8> <0> <bracketright>                 : "🨢"  # White Knight [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <2> <2> <5> <bracketright>                 : "🨰"  # White Knight [EN] + 225º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <2> <7> <0> <bracketright>                 : "🨷"  # White Knight [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <3> <1> <5> <bracketright>                 : "🩅"  # White Knight [EN] + 315º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <Greek_BETA> <bracketright>                : "🩐"  # White Princess
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <Greek_RHO> <bracketright>                 : "🩏"  # White Empress [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <U03D8> <bracketright>                     : "🩎"  # White Amazon [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <minus> <bracketright>                     : "🨄"  # Neutral Knight [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <4> <5> <minus> <bracketright>             : "🨈"  # Neutral Knight [EN] + 45º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <9> <0> <minus> <bracketright>             : "🨙"  # Neutral Knight [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <1> <3> <5> <minus> <bracketright>         : "🨝"  # Neutral Knight [EN] + 135º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <1> <8> <0> <minus> <bracketright>         : "🨮"  # Neutral Knight [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <2> <2> <5> <minus> <bracketright>         : "🨲"  # Neutral Knight [EN] + 225º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <2> <7> <0> <minus> <bracketright>         : "🩃"  # Neutral Knight [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <3> <1> <5> <minus> <bracketright>         : "🩇"  # Neutral Knight [EN] + 315º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <asterisk> <bracketright>                  : "♞"  # Black Knight [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <4> <5> <asterisk> <bracketright>          : "🨇"  # Black Knight [EN] + 45º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <9> <0> <asterisk> <bracketright>          : "🨓"  # Black Knight [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <1> <3> <5> <asterisk> <bracketright>      : "🨜"  # Black Knight [EN] + 135º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <1> <8> <0> <asterisk> <bracketright>      : "🨨"  # Black Knight [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <2> <2> <5> <asterisk> <bracketright>      : "🨱"  # Black Knight [EN] + 225º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <2> <7> <0> <asterisk> <bracketright>      : "🨽"  # Black Knight [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <3> <1> <5> <asterisk> <bracketright>      : "🩆"  # Black Knight [EN] + 315º
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <Greek_BETA> <asterisk> <bracketright>     : "🩓"  # Black Princess
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <Greek_RHO> <asterisk> <bracketright>      : "🩒"  # Black Empress [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <U03D8> <asterisk> <bracketright>          : "🩑"  # Black Amazon [EN]
+<Multi_key> <U232C> <bracketleft> <U03D8> <bracketright>                                : "♕"  # White Queen [EN]
+<Multi_key> <U232C> <bracketleft> <U03D8> <9> <0> <bracketright>                        : "🨊"  # White Queen [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <U03D8> <1> <8> <0> <bracketright>                    : "🨟"  # White Queen [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <U03D8> <2> <7> <0> <bracketright>                    : "🨴"  # White Queen [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <U03D8> <Greek_NU> <bracketright>                     : "🩎"  # White Amazon [EN]
+<Multi_key> <U232C> <bracketleft> <U03D8> <minus> <bracketright>                        : "🨁"  # Neutral Queen [EN]
+<Multi_key> <U232C> <bracketleft> <U03D8> <9> <0> <minus> <bracketright>                : "🨖"  # Neutral Queen [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <U03D8> <1> <8> <0> <minus> <bracketright>            : "🨫"  # Neutral Queen [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <U03D8> <2> <7> <0> <minus> <bracketright>            : "🩀"  # Neutral Queen [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <U03D8> <asterisk> <bracketright>                     : "♛"  # Black Queen [EN]
+<Multi_key> <U232C> <bracketleft> <U03D8> <9> <0> <asterisk> <bracketright>             : "🨐"  # Black Queen [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <U03D8> <1> <8> <0> <asterisk> <bracketright>         : "🨥"  # Black Queen [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <U03D8> <2> <7> <0> <asterisk> <bracketright>         : "🨺"  # Black Queen [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <bracketright>                            : "♖"  # White Rook [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <9> <0> <bracketright>                    : "🨋"  # White Rook [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <1> <8> <0> <bracketright>                : "🨠"  # White Rook [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <2> <7> <0> <bracketright>                : "🨵"  # White Rook [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <Greek_NU> <bracketright>                 : "🩏"  # White Empress [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <minus> <bracketright>                    : "🨂"  # Neutral Rook [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <9> <0> <minus> <bracketright>            : "🨗"  # Neutral Rook [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <1> <8> <0> <minus> <bracketright>        : "🨬"  # Neutral Rook [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <2> <7> <0> <minus> <bracketright>        : "🩁"  # Neutral Rook [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <asterisk> <bracketright>                 : "♜"  # Black Rook [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <9> <0> <asterisk> <bracketright>         : "🨑"  # Black Rook [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <1> <8> <0> <asterisk> <bracketright>     : "🨦"  # Black Rook [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <2> <7> <0> <asterisk> <bracketright>     : "🨻"  # Black Rook [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <Greek_NU> <asterisk> <bracketright>      : "🩒"  # Black Empress [EN]
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <bracketright>                            : "♖"  # Torre Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <9> <0> <bracketright>                    : "🨋"  # Torre Blanca [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <1> <8> <0> <bracketright>                : "🨠"  # Torre Blanca [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <2> <7> <0> <bracketright>                : "🨵"  # Torre Blanca [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <U03FA> <bracketright>                    : "🩏"  # Canciller Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <minus> <bracketright>                    : "🨂"  # Torre Neutra [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <9> <0> <minus> <bracketright>            : "🨗"  # Torre Neutra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <1> <8> <0> <minus> <bracketright>        : "🨬"  # Torre Neutra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <2> <7> <0> <minus> <bracketright>        : "🩁"  # Torre Neutra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <asterisk> <bracketright>                 : "♜"  # Torre Negra [ES]
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <9> <0> <asterisk> <bracketright>         : "🨑"  # Torre Negra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <1> <8> <0> <asterisk> <bracketright>     : "🨦"  # Torre Negra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <2> <7> <0> <asterisk> <bracketright>     : "🨻"  # Torre Negra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Greek_TAU> <U03FA> <asterisk> <bracketright>         : "🩒"  # Canciller Negro [ES]
+
+
+# Generic Bourgeois Tarot Card (Alphabetical)
+#
+# [NOTE]: All symbols listed here are enclosed inside double square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_IOTA> <bracketright> <bracketright>                                              : "🃡"  # Trump Card 1 (Individual)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_iota> <bracketright> <bracketright>                                              : "🃡"  # Trump Card 1 (Individual)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_IOTA> <Greek_IOTA> <bracketright> <bracketright>                                 : "🃢"  # Trump Card 2 (Childhood)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_iota> <Greek_iota> <bracketright> <bracketright>                                 : "🃢"  # Trump Card 2 (Childhood)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_IOTA> <Greek_IOTA> <Greek_IOTA> <bracketright> <bracketright>                    : "🃣"  # Trump Card 3 (Youth)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_iota> <Greek_iota> <Greek_iota> <bracketright> <bracketright>                    : "🃣"  # Trump Card 3 (Youth)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_IOTA> <U0376> <bracketright> <bracketright>                                      : "🃤"  # Trump Card 4 (Maturity)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_iota> <U0377> <bracketright> <bracketright>                                      : "🃤"  # Trump Card 4 (Maturity)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <U0376> <bracketright> <bracketright>                                                   : "🃥"  # Trump Card 5 (Old Age)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <U0377> <bracketright> <bracketright>                                                   : "🃥"  # Trump Card 5 (Old Age)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <U0376> <Greek_IOTA> <bracketright> <bracketright>                                      : "🃦"  # Trump Card 6 (Morning)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <U0377> <Greek_iota> <bracketright> <bracketright>                                      : "🃦"  # Trump Card 6 (Morning)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <U0376> <Greek_IOTA> <Greek_IOTA> <bracketright> <bracketright>                         : "🃧"  # Trump Card 7 (Afternoon)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <U0377> <Greek_iota> <Greek_iota> <bracketright> <bracketright>                         : "🃧"  # Trump Card 7 (Afternoon)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <U0376> <Greek_IOTA> <Greek_IOTA> <Greek_IOTA> <bracketright> <bracketright>            : "🃨"  # Trump Card 8 (Evening)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <U0377> <Greek_iota> <Greek_iota> <Greek_iota> <bracketright> <bracketright>            : "🃨"  # Trump Card 8 (Evening)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_IOTA> <Greek_XI> <bracketright> <bracketright>                                   : "🃩"  # Trump Card 9 (Night)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_iota> <Greek_xi> <bracketright> <bracketright>                                   : "🃩"  # Trump Card 9 (Night)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <bracketright> <bracketright>                                                : "🃪"  # Trump Card 10 (Earth & Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <bracketright> <bracketright>                                                : "🃪"  # Trump Card 10 (Earth & Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <Greek_IOTA> <bracketright> <bracketright>                                   : "🃫"  # Trump Card 11 (Water & Fire)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <Greek_iota> <bracketright> <bracketright>                                   : "🃫"  # Trump Card 11 (Water & Fire)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <Greek_IOTA> <Greek_IOTA> <bracketright> <bracketright>                      : "🃬"  # Trump Card 12 (Dance)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <Greek_iota> <Greek_iota> <bracketright> <bracketright>                      : "🃬"  # Trump Card 12 (Dance)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <Greek_IOTA> <Greek_IOTA> <Greek_IOTA> <bracketright> <bracketright>         : "🃭"  # Trump Card 13 (Shopping)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <Greek_iota> <Greek_iota> <Greek_iota> <bracketright> <bracketright>         : "🃭"  # Trump Card 13 (Shopping)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <Greek_IOTA> <U0376> <bracketright> <bracketright>                           : "🃮"  # Trump Card 14 (Open Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <Greek_iota> <U0377> <bracketright> <bracketright>                           : "🃮"  # Trump Card 14 (Open Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <U0376> <bracketright> <bracketright>                                        : "🃯"  # Trump Card 15 (Visual Arts)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <U0377> <bracketright> <bracketright>                                        : "🃯"  # Trump Card 15 (Visual Arts)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <U0376> <Greek_IOTA> <bracketright> <bracketright>                           : "🃰"  # Trump Card 16 (Spring)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <U0377> <Greek_iota> <bracketright> <bracketright>                           : "🃰"  # Trump Card 16 (Spring)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <U0376> <Greek_IOTA> <Greek_IOTA> <bracketright> <bracketright>              : "🃱"  # Trump Card 17 (Summer)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <U0377> <Greek_iota> <Greek_iota> <bracketright> <bracketright>              : "🃱"  # Trump Card 17 (Summer)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <U0376> <Greek_IOTA> <Greek_IOTA> <Greek_IOTA> <bracketright> <bracketright> : "🃲"  # Trump Card 18 (Autumn)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <U0377> <Greek_iota> <Greek_iota> <Greek_iota> <bracketright> <bracketright> : "🃲"  # Trump Card 18 (Autumn)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <Greek_IOTA> <Greek_XI> <bracketright> <bracketright>                        : "🃳"  # Trump Card 19 (Winter)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <Greek_iota> <Greek_xi> <bracketright> <bracketright>                        : "🃳"  # Trump Card 19 (Winter)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <Greek_XI> <bracketright> <bracketright>                                     : "🃴"  # Trump Card 20 (The Game)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <Greek_xi> <bracketright> <bracketright>                                     : "🃴"  # Trump Card 20 (The Game)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_XI> <Greek_XI> <Greek_IOTA> <bracketright> <bracketright>                        : "🃵"  # Trump Card 21 (Collective)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Greek_xi> <Greek_xi> <Greek_iota> <bracketright> <bracketright>                        : "🃵"  # Trump Card 21 (Collective)
+
+
+# Mahjong Tile Symbols (Alphabetical)
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)
+#
+<Multi_key> <U232C> <bracketleft> <1> <Greek_BETA> <bracketright>               : "🀐"  # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <1> <Greek_beta> <bracketright>               : "🀐"  # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <1> <U03FA> <bracketright>                    : "🀇"  # One of Characters
+<Multi_key> <U232C> <bracketleft> <1> <U03FB> <bracketright>                    : "🀇"  # One of Characters
+<Multi_key> <U232C> <bracketleft> <2> <Greek_BETA> <bracketright>               : "🀑"  # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <2> <Greek_beta> <bracketright>               : "🀑"  # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <2> <U03FA> <bracketright>                    : "🀈"  # Two of Characters
+<Multi_key> <U232C> <bracketleft> <2> <U03FB> <bracketright>                    : "🀈"  # Two of Characters
+<Multi_key> <U232C> <bracketleft> <3> <Greek_BETA> <bracketright>               : "🀒"  # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <3> <Greek_beta> <bracketright>               : "🀒"  # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <3> <U03FA> <bracketright>                    : "🀉"  # Three of Characters
+<Multi_key> <U232C> <bracketleft> <3> <U03FB> <bracketright>                    : "🀉"  # Three of Characters
+<Multi_key> <U232C> <bracketleft> <4> <Greek_BETA> <bracketright>               : "🀓"  # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <4> <Greek_beta> <bracketright>               : "🀓"  # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <4> <U03FA> <bracketright>                    : "🀊"  # Four of Characters
+<Multi_key> <U232C> <bracketleft> <4> <U03FB> <bracketright>                    : "🀊"  # Four of Characters
+<Multi_key> <U232C> <bracketleft> <5> <Greek_BETA> <bracketright>               : "🀔"  # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <5> <Greek_beta> <bracketright>               : "🀔"  # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <5> <U03FA> <bracketright>                    : "🀋"  # Five of Characters
+<Multi_key> <U232C> <bracketleft> <5> <U03FB> <bracketright>                    : "🀋"  # Five of Characters
+<Multi_key> <U232C> <bracketleft> <6> <Greek_BETA> <bracketright>               : "🀕"  # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <6> <Greek_beta> <bracketright>               : "🀕"  # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <6> <U03FA> <bracketright>                    : "🀌"  # Six of Characters
+<Multi_key> <U232C> <bracketleft> <6> <U03FB> <bracketright>                    : "🀌"  # Six of Characters
+<Multi_key> <U232C> <bracketleft> <7> <Greek_BETA> <bracketright>               : "🀖"  # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <7> <Greek_beta> <bracketright>               : "🀖"  # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <7> <U03FA> <bracketright>                    : "🀍"  # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <7> <U03FB> <bracketright>                    : "🀍"  # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <8> <Greek_BETA> <bracketright>               : "🀗"  # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <8> <Greek_beta> <bracketright>               : "🀗"  # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <8> <U03FA> <bracketright>                    : "🀎"  # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <8> <U03FB> <bracketright>                    : "🀎"  # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <9> <Greek_BETA> <bracketright>               : "🀘"  # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <9> <Greek_beta> <bracketright>               : "🀘"  # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <9> <U03FA> <bracketright>                    : "🀏"  # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <9> <U03FB> <bracketright>                    : "🀏"  # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <at> <Greek_MU> <bracketright>                : "🀫"  # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <at> <Greek_mu> <bracketright>                : "🀫"  # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <1> <bracketright>               : "🀐"  # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <1> <bracketright>               : "🀐"  # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <2> <bracketright>               : "🀑"  # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <2> <bracketright>               : "🀑"  # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <3> <bracketright>               : "🀒"  # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <3> <bracketright>               : "🀒"  # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <4> <bracketright>               : "🀓"  # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <4> <bracketright>               : "🀓"  # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <5> <bracketright>               : "🀔"  # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <5> <bracketright>               : "🀔"  # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <6> <bracketright>               : "🀕"  # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <6> <bracketright>               : "🀕"  # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <7> <bracketright>               : "🀖"  # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <7> <bracketright>               : "🀖"  # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <8> <bracketright>               : "🀗"  # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <8> <bracketright>               : "🀗"  # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <9> <bracketright>               : "🀘"  # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <9> <bracketright>               : "🀘"  # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <U03FA> <1> <bracketright>                    : "🀇"  # One of Characters
+<Multi_key> <U232C> <bracketleft> <U03FB> <1> <bracketright>                    : "🀇"  # One of Characters
+<Multi_key> <U232C> <bracketleft> <U03FA> <2> <bracketright>                    : "🀈"  # Two of Characters
+<Multi_key> <U232C> <bracketleft> <U03FB> <2> <bracketright>                    : "🀈"  # Two of Characters
+<Multi_key> <U232C> <bracketleft> <U03FA> <3> <bracketright>                    : "🀉"  # Three of Characters
+<Multi_key> <U232C> <bracketleft> <U03FB> <3> <bracketright>                    : "🀉"  # Three of Characters
+<Multi_key> <U232C> <bracketleft> <U03FA> <4> <bracketright>                    : "🀊"  # Four of Characters
+<Multi_key> <U232C> <bracketleft> <U03FB> <4> <bracketright>                    : "🀊"  # Four of Characters
+<Multi_key> <U232C> <bracketleft> <U03FA> <5> <bracketright>                    : "🀋"  # Five of Characters
+<Multi_key> <U232C> <bracketleft> <U03FB> <5> <bracketright>                    : "🀋"  # Five of Characters
+<Multi_key> <U232C> <bracketleft> <U03FA> <6> <bracketright>                    : "🀌"  # Six of Characters
+<Multi_key> <U232C> <bracketleft> <U03FB> <6> <bracketright>                    : "🀌"  # Six of Characters
+<Multi_key> <U232C> <bracketleft> <U03FA> <7> <bracketright>                    : "🀍"  # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <U03FB> <7> <bracketright>                    : "🀍"  # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <U03FA> <8> <bracketright>                    : "🀎"  # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <U03FB> <8> <bracketright>                    : "🀎"  # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <U03FA> <9> <bracketright>                    : "🀏"  # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <U03FB> <9> <bracketright>                    : "🀏"  # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <dollar> <Greek_CHI> <bracketright>           : "🀪"  # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <dollar> <Greek_chi> <bracketright>           : "🀪"  # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <Greek_EPSILON> <asciitilde> <bracketright>   : "🀀"  # East Wind
+<Multi_key> <U232C> <bracketleft> <Greek_epsilon> <asciitilde> <bracketright>   : "🀀"  # East Wind
+<Multi_key> <U232C> <bracketleft> <Greek_EPSILON> <dead_tilde> <bracketright>   : "🀀"  # East Wind
+<Multi_key> <U232C> <bracketleft> <Greek_epsilon> <dead_tilde> <bracketright>   : "🀀"  # East Wind
+<Multi_key> <U232C> <bracketleft> <Greek_GAMMA> <at> <bracketright>             : "🀅"  # Green Dragon
+<Multi_key> <U232C> <bracketleft> <Greek_gamma> <at> <bracketright>             : "🀅"  # Green Dragon
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <dollar> <bracketright>           : "🀪"  # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <dollar> <bracketright>           : "🀪"  # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <Greek_MU> <at> <bracketright>                : "🀫"  # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <Greek_mu> <at> <bracketright>                : "🀫"  # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <Greek_RHO> <at> <bracketright>               : "🀄"  # Red Dragon
+<Multi_key> <U232C> <bracketleft> <Greek_rho> <at> <bracketright>               : "🀄"  # Red Dragon
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <asciitilde> <bracketright>        : "🀃"  # North Wind
+<Multi_key> <U232C> <bracketleft> <Greek_nu> <asciitilde> <bracketright>        : "🀃"  # North Wind
+<Multi_key> <U232C> <bracketleft> <Greek_NU> <dead_tilde> <bracketright>        : "🀃"  # North Wind
+<Multi_key> <U232C> <bracketleft> <Greek_nu> <dead_tilde> <bracketright>        : "🀃"  # North Wind
+<Multi_key> <U232C> <bracketleft> <Greek_SIGMA> <asciitilde> <bracketright>     : "🀁"  # South Wind
+<Multi_key> <U232C> <bracketleft> <Greek_sigma> <asciitilde> <bracketright>     : "🀁"  # South Wind
+<Multi_key> <U232C> <bracketleft> <Greek_SIGMA> <dead_tilde> <bracketright>     : "🀁"  # South Wind
+<Multi_key> <U232C> <bracketleft> <Greek_sigma> <dead_tilde> <bracketright>     : "🀁"  # South Wind
+<Multi_key> <U232C> <bracketleft> <U03DC> <asciitilde> <bracketright>           : "🀂"  # West Wind
+<Multi_key> <U232C> <bracketleft> <U03DD> <asciitilde> <bracketright>           : "🀂"  # West Wind
+<Multi_key> <U232C> <bracketleft> <U03DC> <dead_tilde> <bracketright>           : "🀂"  # West Wind
+<Multi_key> <U232C> <bracketleft> <U03DD> <dead_tilde> <bracketright>           : "🀂"  # West Wind
+<Multi_key> <U232C> <bracketleft> <U03DC> <at> <bracketright>                   : "🀆"  # White Dragon
+<Multi_key> <U232C> <bracketleft> <U03DD> <at> <bracketright>                   : "🀆"  # White Dragon
+
+
+# Xiàngqí Piece Symbols
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [NOTE]: Each piece does also encode info about its color
+#         in the following regex-like notation:
+#           
+#         regexp = \[[a-zA-Z]*\*?\]
+#
+#         Where:
+#         - [a-zA-Z]        = The full pinyin name of the corresponding xiangqi piece.
+#         - \*              = Denotes a black xiangqi piece. Leaving this field blank will result in a red piece.
+#
+# [Main sources]:
+#   - https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+#   - https://es.wikipedia.org/wiki/Xiangqi
+#   - https://en.wikipedia.org/wiki/Xiangqi
+#
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <U1FD9> <Greek_NU> <Greek_GAMMA> <bracketright>                                          : "🩦"  # Red Soldier (Bīng [兵])
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <U1FD1> <Greek_nu> <Greek_gamma> <bracketright>                                          : "🩦"  # Red Soldier (Bīng [兵])
+<Multi_key> <U232C> <bracketleft> <Greek_BETA> <dead_macron> <Greek_IOTA> <Greek_NU> <Greek_GAMMA> <bracketright>                       : "🩦"  # Red Soldier (Bīng [兵])
+<Multi_key> <U232C> <bracketleft> <Greek_beta> <dead_macron> <Greek_iota> <Greek_nu> <Greek_gamma> <bracketright>                       : "🩦"  # Red Soldier (Bīng [兵])
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <Greek_IOTA> <U1FBA> <Greek_NU> <Greek_GAMMA> <bracketright>                              : "🩧"  # Black General (Jiàng [將/将])
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <Greek_iota> <U1F70> <Greek_nu> <Greek_gamma> <bracketright>                              : "🩧"  # Black General (Jiàng [將/将])
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <Greek_IOTA> <dead_grave> <Greek_ALPHA> <Greek_NU> <Greek_GAMMA> <bracketright>           : "🩧"  # Black General (Jiàng [將/将])
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <Greek_iota> <dead_grave> <Greek_alpha> <Greek_nu> <Greek_gamma> <bracketright>           : "🩧"  # Black General (Jiàng [將/将])
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <U1FE9> <bracketright>                                                                    : "🩤"  # Red Chariot (Jū [俥/车])
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <U1FE1> <bracketright>                                                                    : "🩤"  # Red Chariot (Jū [俥/车])
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <dead_macron> <Greek_UPSILON> <bracketright>                                              : "🩤"  # Red Chariot (Jū [俥/车])
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <dead_macron> <Greek_upsilon> <bracketright>                                              : "🩤"  # Red Chariot (Jū [俥/车])
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <U1FE9> <asterisk> <bracketright>                                                         : "🩫"  # Black Chariot (Jū [車/车])
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <U1FE1> <asterisk> <bracketright>                                                         : "🩫"  # Black Chariot (Jū [車/车])
+<Multi_key> <U232C> <bracketleft> <Greek_CHI> <dead_macron> <Greek_UPSILON> <asterisk> <bracketright>                                   : "🩫"  # Black Chariot (Jū [車/车])
+<Multi_key> <U232C> <bracketleft> <Greek_chi> <dead_macron> <Greek_upsilon> <asterisk> <bracketright>                                   : "🩫"  # Black Chariot (Jū [車/车])
+<Multi_key> <U232C> <bracketleft> <Greek_MU> <dead_caron> <Greek_ALPHA> <bracketright>                                                  : "🩣"  # Red Horse (Mǎ [傌/马])
+<Multi_key> <U232C> <bracketleft> <Greek_mu> <dead_caron> <Greek_alpha> <bracketright>                                                  : "🩣"  # Red Horse (Mǎ [傌/马])
+<Multi_key> <U232C> <bracketleft> <Greek_MU> <dead_caron> <Greek_ALPHA> <asterisk> <bracketright>                                       : "🩪"  # Black Horse (Mǎ [馬/马])
+<Multi_key> <U232C> <bracketleft> <Greek_mu> <dead_caron> <Greek_alpha> <asterisk> <bracketright>                                       : "🩪"  # Black Horse (Mǎ [馬/马])
+<Multi_key> <U232C> <bracketleft> <Greek_PI> <U1FBA> <Greek_OMICRON> <bracketright>                                                     : "🩥"  # Red Cannon (Pào [炮])
+<Multi_key> <U232C> <bracketleft> <Greek_pi> <U1F70> <Greek_omicron> <bracketright>                                                     : "🩥"  # Red Cannon (Pào [炮])
+<Multi_key> <U232C> <bracketleft> <Greek_PI> <dead_grave> <Greek_ALPHA> <Greek_OMICRON> <bracketright>                                  : "🩥"  # Red Cannon (Pào [炮])
+<Multi_key> <U232C> <bracketleft> <Greek_pi> <dead_grave> <Greek_alpha> <Greek_omicron> <bracketright>                                  : "🩥"  # Red Cannon (Pào [炮])
+<Multi_key> <U232C> <bracketleft> <Greek_PI> <U1FBA> <Greek_OMICRON> <asterisk> <bracketright>                                          : "🩬"  # Black Cannon (Pào [砲])
+<Multi_key> <U232C> <bracketleft> <Greek_pi> <U1F70> <Greek_omicron> <asterisk> <bracketright>                                          : "🩬"  # Black Cannon (Pào [砲])
+<Multi_key> <U232C> <bracketleft> <Greek_PI> <dead_grave> <Greek_ALPHA> <Greek_OMICRON> <asterisk> <bracketright>                       : "🩬"  # Black Cannon (Pào [砲])
+<Multi_key> <U232C> <bracketleft> <Greek_pi> <dead_grave> <Greek_alpha> <Greek_omicron> <asterisk> <bracketright>                       : "🩬"  # Black Cannon (Pào [砲])
+<Multi_key> <U232C> <bracketleft> <U03F7> <U1FDA> <bracketright>                                                                        : "🩡"  # Red Advisor/Mandarin (Shì [仕])
+<Multi_key> <U232C> <bracketleft> <U03F8> <U1F76> <bracketright>                                                                        : "🩡"  # Red Advisor/Mandarin (Shì [仕])
+<Multi_key> <U232C> <bracketleft> <U03F7> <U1FDA> <asterisk> <bracketright>                                                             : "🩨"  # Black Advisor/Mandarin (Shì [士])
+<Multi_key> <U232C> <bracketleft> <U03F8> <U1F76> <asterisk> <bracketright>                                                             : "🩨"  # Black Advisor/Mandarin (Shì [士])
+<Multi_key> <U232C> <bracketleft> <U03F7> <dead_grave> <Greek_IOTA> <bracketright>                                                      : "🩡"  # Red Advisor/Mandarin (Shì [仕])
+<Multi_key> <U232C> <bracketleft> <U03F8> <dead_grave> <Greek_iota> <bracketright>                                                      : "🩡"  # Red Advisor/Mandarin (Shì [仕])
+<Multi_key> <U232C> <bracketleft> <U03F7> <dead_grave> <Greek_IOTA> <asterisk> <bracketright>                                           : "🩨"  # Black Advisor/Mandarin (Shì [士])
+<Multi_key> <U232C> <bracketleft> <U03F8> <dead_grave> <Greek_iota> <asterisk> <bracketright>                                           : "🩨"  # Black Advisor/Mandarin (Shì [士])
+<Multi_key> <U232C> <bracketleft> <U03F7> <Greek_UPSILON> <U1FBA> <Greek_IOTA> <bracketright>                                           : "🩠"  # Red General (Shuài [帥/帅])
+<Multi_key> <U232C> <bracketleft> <U03F8> <Greek_upsilon> <U1F70> <Greek_iota> <bracketright>                                           : "🩠"  # Red General (Shuài [帥/帅])
+<Multi_key> <U232C> <bracketleft> <U03F7> <Greek_UPSILON> <dead_grave> <Greek_ALPHA> <Greek_IOTA> <bracketright>                        : "🩠"  # Red General (Shuài [帥/帅])
+<Multi_key> <U232C> <bracketleft> <U03F8> <Greek_upsilon> <dead_grave> <Greek_alpha> <Greek_iota> <bracketright>                        : "🩠"  # Red General (Shuài [帥/帅])
+<Multi_key> <U232C> <bracketleft> <Greek_XI> <Greek_IOTA> <U1FBA> <Greek_NU> <Greek_GAMMA> <bracketright>                               : "🩢"  # Red Elephant (Xiàng [相])
+<Multi_key> <U232C> <bracketleft> <Greek_xi> <Greek_iota> <U1F70> <Greek_nu> <Greek_gamma> <bracketright>                               : "🩢"  # Red Elephant (Xiàng [相])
+<Multi_key> <U232C> <bracketleft> <Greek_XI> <Greek_IOTA> <U1FBA> <Greek_NU> <Greek_GAMMA> <asterisk> <bracketright>                    : "🩩"  # Black Elephant (Xiàng [象])
+<Multi_key> <U232C> <bracketleft> <Greek_xi> <Greek_iota> <U1F70> <Greek_nu> <Greek_gamma> <asterisk> <bracketright>                    : "🩩"  # Black Elephant (Xiàng [象])
+<Multi_key> <U232C> <bracketleft> <Greek_XI> <Greek_IOTA> <dead_grave> <Greek_ALPHA> <Greek_NU> <Greek_GAMMA> <bracketright>            : "🩢"  # Red Elephant (Xiàng [相])
+<Multi_key> <U232C> <bracketleft> <Greek_xi> <Greek_iota> <dead_grave> <Greek_alpha> <Greek_nu> <Greek_gamma> <bracketright>            : "🩢"  # Red Elephant (Xiàng [相])
+<Multi_key> <U232C> <bracketleft> <Greek_XI> <Greek_IOTA> <dead_grave> <Greek_ALPHA> <Greek_NU> <Greek_GAMMA> <asterisk> <bracketright> : "🩩"  # Black Elephant (Xiàng [象])
+<Multi_key> <U232C> <bracketleft> <Greek_xi> <Greek_iota> <dead_grave> <Greek_alpha> <Greek_nu> <Greek_gamma> <asterisk> <bracketright> : "🩩"  # Black Elephant (Xiàng [象])
+<Multi_key> <U232C> <bracketleft> <Greek_ZETA> <Greek_UPSILONaccent> <bracketright>                                                     : "🩭"  # Black Soldier (Zú [卒])
+<Multi_key> <U232C> <bracketleft> <Greek_zeta> <Greek_upsilonaccent> <bracketright>                                                     : "🩭"  # Black Soldier (Zú [卒])
+<Multi_key> <U232C> <bracketleft> <Greek_ZETA> <U1FEB> <bracketright>                                                                   : "🩭"  # Black Soldier (Zú [卒])
+<Multi_key> <U232C> <bracketleft> <Greek_zeta> <U1F7B> <bracketright>                                                                   : "🩭"  # Black Soldier (Zú [卒])
+<Multi_key> <U232C> <bracketleft> <Greek_ZETA> <dead_acute> <Greek_UPSILON> <bracketright>                                              : "🩭"  # Black Soldier (Zú [卒])
+<Multi_key> <U232C> <bracketleft> <Greek_zeta> <dead_acute> <Greek_upsilon> <bracketright>                                              : "🩭"  # Black Soldier (Zú [卒])
+
+##################
+# [END OF RULES] #
+##################
