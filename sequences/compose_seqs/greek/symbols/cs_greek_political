@@ -1,0 +1,29 @@
+# Greek Alphabet | Ideological & Political Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing environmental symbols
+# > that can be input with alphabetical Greek characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Religious_and_political_symbols_in_Unicode
+#
+
+# General Political Symbols & Artifacts (Alphabetical)
+<Multi_key> <U232C> <less> <less> <U03FA> <U03FA> <U03FA> <Greek_PI> <greater> <greater>                                                            : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <U03FB> <U03FB> <U03FB> <Greek_pi> <greater> <greater>                                                            : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Greek_EPSILON> <Greek_SIGMA> <Greek_SIGMA> <Greek_DELTA> <greater> <greater>                                     : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Greek_epsilon> <Greek_sigma> <Greek_sigma> <Greek_delta> <greater> <greater>                                     : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Greek_PHI> <Greek_ALPHA> <Greek_RHO> <Greek_SIGMA> <Greek_IOTA> <greater> <greater>                              : "☫"  # Farsi Symbol/Emblem of Iran
+<Multi_key> <U232C> <less> <less> <Greek_phi> <Greek_alpha> <Greek_rho> <Greek_sigma> <Greek_iota> <greater> <greater>                              : "☫"  # Farsi Symbol/Emblem of Iran
+<Multi_key> <U232C> <less> <less> <Greek_EPSILON> <Greek_IOTA> <Greek_RHO> <Greek_ETAaccent> <Greek_NU> <Greek_EPSILON> <greater> <greater>         : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Greek_epsilon> <Greek_iota> <Greek_rho> <Greek_etaaccent> <Greek_nu> <Greek_epsilon> <greater> <greater>         : "☮︎"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Greek_EPSILON> <Greek_IOTA> <Greek_RHO> <dead_acute> <Greek_ETA> <Greek_NU> <Greek_EPSILON> <greater> <greater>  : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Greek_epsilon> <Greek_iota> <Greek_rho> <dead_acute> <Greek_eta> <Greek_nu> <Greek_epsilon> <greater> <greater>  : "☮︎"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Greek_SIGMA> <Greek_SIGMA> <Greek_SIGMA> <Greek_RHO> <greater> <greater>                                         : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Greek_sigma> <Greek_sigma> <Greek_sigma> <Greek_rho> <greater> <greater>                                         : "☭"  # Hammer and Sickle
+
+##################
+# [END OF RULES] #
+##################

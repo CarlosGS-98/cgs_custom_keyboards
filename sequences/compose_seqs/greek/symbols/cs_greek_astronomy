@@ -1,0 +1,240 @@
+# Greek Alphabet | Astronomical + Astrological Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing astronomical symbols
+# > that can be input with alphabetical Greek characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Astronomical_symbols
+#
+
+# Astronomical + Astrological Symbols (Asteroids & Dwarf Planets)
+#
+# [NOTE]: All symbols listed here are enclosed inside curly brackets.
+#
+<Multi_key> <U232C> <braceleft> <Greek_ALPHA> <Greek_NU> <Greek_PHI> <Greek_IOTA> <Greek_TAU> <Greek_RHO> <Greek_IOTAaccent> <Greek_TAU> <Greek_ETA> <braceright>                                   : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <Greek_alpha> <Greek_nu> <Greek_phi> <Greek_iota> <Greek_tau> <Greek_rho> <Greek_iotaaccent> <Greek_tau> <Greek_eta> <braceright>                                   : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <Greek_ALPHA> <Greek_NU> <Greek_PHI> <Greek_IOTA> <Greek_TAU> <Greek_RHO> <dead_acute> <Greek_IOTA> <Greek_TAU> <Greek_ETA> <braceright>                            : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <Greek_alpha> <Greek_nu> <Greek_phi> <Greek_iota> <Greek_tau> <Greek_rho> <dead_acute> <Greek_iota> <Greek_tau> <Greek_eta> <braceright>                            : "𜻏"   # MPC: 29 Amphitrite
+# <Multi_key> <U232C> <braceleft> <Greek_ALPHAaccent> <Greek_PI> <Greek_OMICRON> <Greek_PHI> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <Greek_alphaaccent> <Greek_pi> <Greek_omicron> <Greek_phi> <Greek_iota> <Greek_sigma> <braceright>                                                                : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <Greek_alphaaccent> <Greek_pi> <Greek_omicron> <Greek_phi> <Greek_iota> <Greek_finalsmallsigma> <braceright>                                                      : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <dead_acute> <Greek_ALPHA> <Greek_PI> <Greek_OMICRON> <Greek_PHI> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                         : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <dead_acute> <Greek_alpha> <Greek_pi> <Greek_omicron> <Greek_phi> <Greek_iota> <Greek_sigma> <braceright>                                                         : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <dead_acute> <Greek_alpha> <Greek_pi> <Greek_omicron> <Greek_phi> <Greek_iota> <Greek_finalsmallsigmas> <braceright>                                              : "¿?"   # MPC: 99942 Apophis
+<Multi_key> <U232C> <braceleft> <Greek_ALPHA> <Greek_SIGMA> <Greek_TAU> <Greek_RHO> <Greek_ALPHA> <Greek_IOTAaccent> <Greek_ALPHA> <braceright>                                                     : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Greek_alpha> <Greek_sigma> <Greek_tau> <Greek_rho> <Greek_alpha> <Greek_iotaaccent> <Greek_alpha> <braceright>                                                     : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Greek_ALPHA> <Greek_SIGMA> <Greek_TAU> <Greek_RHO> <Greek_ALPHA> <dead_acute> <Greek_IOTA> <Greek_ALPHA> <braceright>                                              : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Greek_alpha> <Greek_sigma> <Greek_tau> <Greek_rho> <Greek_alpha> <dead_acute> <Greek_iota> <Greek_alpha> <braceright>                                              : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Greek_BETA> <Greek_IOTA> <Greek_KAPPA> <Greek_TAU> <Greek_OMEGAaccent> <Greek_RHO> <Greek_IOTA> <Greek_ALPHA> <braceright>                                         : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Greek_beta> <Greek_iota> <Greek_KAPPA> <Greek_tau> <Greek_omegaaccent> <Greek_rho> <Greek_iota> <Greek_alpha> <braceright>                                         : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Greek_BETA> <Greek_IOTA> <Greek_KAPPA> <Greek_TAU> <dead_acute> <Oslash> <Greek_RHO> <Greek_IOTA> <Greek_ALPHA> <braceright>                                       : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Greek_beta> <Greek_iota> <Greek_KAPPA> <Greek_tau> <dead_acute> <oslash> <Greek_rho> <Greek_iota> <Greek_alpha> <braceright>                                       : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Greek_GAMMA> <Greek_GAMMA> <Greek_EPSILON> <Greek_IOTAaccent> <Greek_ALPHA> <braceright>                                                                           : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <Greek_gamma> <Greek_gamma> <Greek_epsilon> <Greek_iotaaccent> <Greek_alpha> <braceright>                                                                           : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <Greek_GAMMA> <Greek_GAMMA> <Greek_EPSILON> <dead_acute> <Greek_IOTA> <Greek_ALPHA> <braceright>                                                                    : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <Greek_gamma> <Greek_gamma> <Greek_epsilon> <dead_acute> <Greek_iota> <Greek_alpha> <braceright>                                                                    : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <Greek_GAMMA> <Greek_KAPPA> <Greek_OMICRONaccent> <Greek_NU> <Greek_GAMMA> <Greek_KAPPA> <Greek_OMICRON> <Greek_NU> <Greek_GAMMA> <Greek_KAPPA> <braceright>        : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Greek_gamma> <Greek_kappa> <Greek_omicronaccent> <Greek_nu> <Greek_gamma> <Greek_KAPPA> <Greek_omicron> <Greek_nu> <Greek_gamma> <Greek_kappa> <braceright>        : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Greek_GAMMA> <Greek_KAPPA> <dead_acute> <Greek_OMICRON> <Greek_NU> <Greek_GAMMA> <Greek_KAPPA> <Greek_OMICRON> <Greek_NU> <Greek_GAMMA> <Greek_KAPPA> <braceright> : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Greek_gamma> <Greek_kappa> <dead_acute> <Greek_omicron> <Greek_nu> <Greek_gamma> <Greek_KAPPA> <Greek_omicron> <Greek_nu> <Greek_gamma> <Greek_kappa> <braceright> : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Greek_EPSILON> <Greek_IOTA> <Greek_RHO> <Greek_ETAaccent> <Greek_NU> <Greek_ETA> <braceright>                                                                      : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Greek_epsilon> <Greek_iota> <Greek_rho> <Greek_etaaccent> <Greek_nu> <Greek_eta> <braceright>                                                                      : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Greek_EPSILON> <Greek_IOTA> <Greek_RHO> <dead_acute> <Greek_ETA> <Greek_NU> <Greek_ETA> <braceright>                                                               : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Greek_epsilon> <Greek_iota> <Greek_rho> <dead_acute> <Greek_eta>  <Greek_nu> <Greek_eta> <braceright>                                                              : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Greek_EPSILONaccent> <Greek_RHO> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                                           : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Greek_epsilonaccent> <Greek_rho> <Greek_iota> <Greek_sigma> <braceright>                                                                                           : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Greek_epsilonaccent> <Greek_rho> <Greek_iota> <Greek_finalsmallsigmas> <braceright>                                                                                : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_EPSILON> <Greek_RHO> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                                    : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_epsilon> <Greek_rho> <Greek_iota> <Greek_sigma> <braceright>                                                                                    : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_epsilon> <Greek_rho> <Greek_iota> <Greek_finalsmallsigmas> <braceright>                                                                         : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Greek_EPSILON> <Greek_SIGMA> <Greek_TAU> <Greek_IOTAaccent> <Greek_ALPHA> <braceright>                                                                             : "🝷"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Greek_epsilon> <Greek_sigma> <Greek_tau> <Greek_iotaaccent> <Greek_alpha> <braceright>                                                                             : "⚶"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Greek_EPSILON> <Greek_SIGMA> <Greek_TAU> <dead_acute> <Greek_IOTA> <Greek_ALPHA> <braceright>                                                                      : "🝷"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Greek_epsilon> <Greek_sigma> <Greek_tau> <dead_acute> <Greek_iota> <Greek_alpha> <braceright>                                                                      : "⚶"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Greek_EPSILON> <Greek_UPSILON> <Greek_NU> <Greek_OMICRON> <Greek_MU> <Greek_IOTAaccent> <Greek_ALPHA> <braceright>                                                 : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Greek_epsilon> <Greek_upsilon> <Greek_nu> <Greek_omicron> <Greek_mu> <Greek_iotaaccent> <Greek_alpha> <braceright>                                                 : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Greek_EPSILON> <Greek_UPSILON> <Greek_NU> <Greek_OMICRON> <Greek_MU> <dead_acute> <Greek_IOTA> <Greek_ALPHA> <braceright>                                          : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Greek_epsilon> <Greek_upsilon> <Greek_nu> <Greek_omicron> <Greek_mu> <dead_acute> <Greek_iota> <Greek_alpha> <braceright>                                          : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Greek_ETAaccent> <Greek_BETA> <Greek_ETA> <braceright>                                                                                                             : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <Greek_etaaccent> <Greek_beta> <Greek_eta> <braceright>                                                                                                             : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_ETA> <Greek_BETA> <Greek_ETA> <braceright>                                                                                                      : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_eta> <Greek_beta> <Greek_eta> <braceright>                                                                                                      : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <Greek_ETA> <Greek_GAMMA> <Greek_EPSILON> <Greek_RHO> <Greek_IOTAaccent> <Greek_ALPHA> <braceright>                                                                 : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Greek_eta> <Greek_gamma> <Greek_epsilon> <Greek_rho> <Greek_iotaaccent> <Greek_alpha> <braceright>                                                                 : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Greek_ETA> <Greek_GAMMA> <Greek_EPSILON> <Greek_RHO> <dead_acute> <Greek_IOTA> <Greek_ALPHA> <braceright>                                                          : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Greek_eta> <Greek_gamma> <Greek_epsilon> <Greek_rho> <dead_acute> <Greek_iota> <Greek_alpha> <braceright>                                                          : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Greek_ETAaccent> <Greek_RHO> <Greek_ALPHA> <braceright>                                                                                                            : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <Greek_ETAaccent> <Greek_rho> <Greek_alpha> <braceright>                                                                                                            : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_ETA> <Greek_RHO> <Greek_ALPHA> <braceright>                                                                                                     : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_eta> <Greek_rho> <Greek_alpha> <braceright>                                                                                                     : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <Greek_THETA> <Greek_EPSILONaccent> <Greek_TAU> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                             : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Greek_theta> <Greek_epsilonaccent> <Greek_tau> <Greek_iota> <Greek_sigma> <braceright>                                                                             : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Greek_theta> <Greek_epsilonaccent> <Greek_tau> <Greek_iota> <Greek_finalsmallsigma> <braceright>                                                                   : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Greek_THETA> <dead_acute> <Greek_EPSILON> <Greek_TAU> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                      : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Greek_theta> <dead_acute> <Greek_epsilon> <Greek_tau> <Greek_iota> <Greek_sigma> <braceright>                                                                      : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Greek_theta> <dead_acute> <Greek_epsilon> <Greek_tau> <Greek_iota> <Greek_finalsmallsigma> <braceright>                                                            : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Greek_IOTAaccent> <Greek_RHO> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                                              : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Greek_iotaaccent> <Greek_rho> <Greek_iota> <Greek_sigma> <braceright>                                                                                              : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_IOTA> <Greek_RHO> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                                       : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_iota> <Greek_rho> <Greek_iota> <Greek_sigma> <braceright>                                                                                       : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Greek_KAPPA> <Greek_EPSILONaccent> <Greek_RHO> <Greek_EPSILON> <Greek_SIGMA> <braceright>                                                                          : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Greek_kappa> <Greek_epsilonaccent> <Greek_rho> <Greek_epsilon> <Greek_sigma> <braceright>                                                                          : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Greek_KAPPA> <dead_acute> <Greek_EPSILON> <Greek_RHO> <Greek_EPSILON> <Greek_SIGMA> <braceright>                                                                   : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Greek_kappa> <dead_acute> <Greek_epsilon> <Greek_rho> <Greek_epsilon> <Greek_sigma> <braceright>                                                                   : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Greek_KAPPA> <Greek_OMICRON> <Greek_UPSILON> <Greek_ALPHAaccent> <Greek_OMICRON> <Greek_ALPHA> <Greek_RHO> <braceright>                                            : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <Greek_kappa> <Greek_omicron> <Greek_upsilon> <Greek_alphaaccent> <Greek_omicron> <Greek_alpha> <Greek_rho> <braceright>                                            : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <Greek_KAPPA> <Greek_OMICRON> <Greek_UPSILON> <dead_acute> <Greek_ALPHA> <Greek_OMICRON> <Greek_ALPHA> <Greek_RHO> <braceright>                                     : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <Greek_kappa> <Greek_omicron> <Greek_upsilon> <dead_acute> <Greek_alpha> <Greek_omicron> <Greek_alpha> <Greek_rho> <braceright>                                     : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <Greek_LAMBDA> <Greek_EPSILON> <Greek_UPSILON> <Greek_KAPPA> <Greek_OMICRON> <Greek_THETA> <Greek_EPSILONaccent> <Greek_ALPHA> <braceright>                         : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Greek_lambda> <Greek_epsilon> <Greek_upsilon> <Greek_kappa> <Greek_omicron> <Greek_theta> <Greek_epsilonaccent> <Greek_alpha> <braceright>                         : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Greek_LAMBDA> <Greek_EPSILON> <Greek_UPSILON> <Greek_KAPPA> <Greek_OMICRON> <Greek_THETA> <dead_acute> <Greek_EPSILON> <Greek_ALPHA> <braceright>                  : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Greek_lambda> <Greek_epsilon> <Greek_upsilon> <Greek_kappa> <Greek_omicron> <Greek_theta> <dead_acute> <Greek_epsilon> <Greek_alpha> <braceright>                  : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Greek_MU> <Greek_ALPHA> <Greek_KAPPA> <Greek_EPSILON> <Greek_MU> <Greek_ALPHAaccent> <Greek_KAPPA> <Greek_EPSILON> <braceright>                                    : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <Greek_MU> <Greek_ALPHA> <Greek_KAPPA> <Greek_EPSILON> <Greek_MU> <dead_acute> <Greek_ALPHA> <Greek_KAPPA> <Greek_EPSILON> <braceright>                             : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_alpha> <Greek_kappa> <Greek_epsilon> <Greek_mu> <Greek_alphaaccent> <Greek_kappa> <Greek_epsilon> <braceright>                                    : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_alpha> <Greek_kappa> <Greek_epsilon> <Greek_mu> <dead_acute> <Greek_alpha> <Greek_kappa> <Greek_epsilon> <braceright>                             : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <Greek_MU> <Greek_EPSILON> <Greek_LAMBDA> <Greek_PI> <Greek_OMICRON> <Greek_MU> <Greek_EPSILONaccent> <Greek_NU> <Greek_ETA> <braceright>                           : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Greek_MU> <Greek_EPSILON> <Greek_LAMBDA> <Greek_PI> <Greek_OMICRON> <Greek_MU> <dead_acute> <Greek_EPSILON> <Greek_NU> <Greek_ETA> <braceright>                    : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_epsilon> <Greek_lambda> <Greek_pi> <Greek_omicron> <Greek_mu> <Greek_epsilonaccent> <Greek_nu> <Greek_eta> <braceright>                           : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_epsilon> <Greek_lambda> <Greek_pi> <Greek_omicron> <Greek_mu> <dead_acute> <Greek_epsilon> <Greek_nu> <Greek_eta> <braceright>                    : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Greek_MU> <Greek_ETAaccent> <Greek_TAU> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                                    : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Greek_MU> <dead_acute> <Greek_ETA> <Greek_TAU> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                             : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_etaaccent> <Greek_tau> <Greek_iota> <Greek_sigma> <braceright>                                                                                    : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_etaaccent> <Greek_tau> <Greek_iota> <Greek_finalsmallsigma> <braceright>                                                                          : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Greek_mu> <dead_acute> <Greek_eta> <Greek_tau> <Greek_iota> <Greek_sigma> <braceright>                                                                             : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Greek_mu> <dead_acute> <Greek_eta> <Greek_tau> <Greek_iota> <Greek_finalsmallsigma> <braceright>                                                                   : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Greek_MU> <Greek_PI> <Greek_EPSILON> <Greek_LAMBDA> <Greek_LAMBDA> <Greek_OMICRONaccent> <Greek_NU> <Greek_ALPHA> <braceright>                                     : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_pi> <Greek_epsilon> <Greek_lambda> <Greek_lambda> <Greek_omicronaccent> <Greek_nu> <Greek_alpha> <braceright>                                     : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <Greek_MU> <Greek_PI> <Greek_EPSILON> <Greek_LAMBDA> <Greek_LAMBDA> <dead_acute> <Greek_OMICRON> <Greek_NU> <Greek_ALPHA> <braceright>                              : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_pi> <Greek_epsilon> <Greek_lambda> <Greek_lambda> <dead_acute> <Greek_omicron> <Greek_nu> <Greek_alpha> <braceright>                              : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <Greek_OMICRONaccent> <Greek_RHO> <Greek_KAPPA> <Greek_OMICRON> <Greek_SIGMA> <braceright>                                                                          : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <Greek_omicronaccent> <Greek_rho> <Greek_kappa> <Greek_omicron> <Greek_sigma> <braceright>                                                                          : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_OMICRON> <Greek_RHO> <Greek_KAPPA> <Greek_OMICRON> <Greek_SIGMA> <braceright>                                                                   : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <dead_acute> <Greek_omicron> <Greek_rho> <Greek_kappa> <Greek_omicron> <Greek_sigma> <braceright>                                                                   : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_ALPHA> <Greek_LAMBDA> <Greek_LAMBDA> <Greek_ALPHAaccent> <Greek_SIGMA> <braceright>                                                               : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_alpha> <Greek_lambda> <Greek_lambda> <Greek_alphaaccent> <Greek_sigma> <braceright>                                                               : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_ALPHA> <Greek_LAMBDA> <Greek_LAMBDA> <dead_acute> <Greek_ALPHA> <Greek_SIGMA> <braceright>                                                        : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_alpha> <Greek_lambda> <Greek_lambda> <dead_acute> <Greek_alpha> <Greek_sigma> <braceright>                                                        : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_ALPHA> <Greek_RHO> <Greek_THETA> <Greek_EPSILON> <Greek_NU> <Greek_OMICRONaccent> <Greek_PI> <Greek_ETA> <braceright>                             : "𜻄"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_alpha> <Greek_rho> <Greek_theta> <Greek_epsilon> <Greek_nu> <Greek_omicronaccent> <Greek_pi> <Greek_eta> <braceright>                             : "🝺"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_ALPHA> <Greek_RHO> <Greek_THETA> <Greek_EPSILON> <Greek_NU> <dead_acute> <Greek_OMICRON> <Greek_PI> <Greek_ETA> <braceright>                      : "𜻄"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_alpha> <Greek_rho> <Greek_theta> <Greek_epsilon> <Greek_nu> <dead_acute> <Greek_omicron> <Greek_pi> <Greek_eta> <braceright>                      : "🝺"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_IOTAaccent> <Greek_SIGMA> <Greek_TAU> <Greek_ETA> <braceright>                                                                                    : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_iotaaccent> <Greek_sigma> <Greek_tau> <Greek_eta> <braceright>                                                                                    : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Greek_PI> <dead_acute> <Greek_IOTA> <Greek_SIGMA> <Greek_TAU> <Greek_ETA> <braceright>                                                                             : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Greek_pi> <dead_acute> <Greek_iota> <Greek_sigma> <Greek_tau> <Greek_eta> <braceright>                                                                             : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_LAMBDA> <Greek_OMICRON> <Greek_UPSILONaccent> <Greek_TAU> <Oslash> <Greek_NU> <Greek_ALPHA> <Greek_SIGMA> <braceright>                            : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_lambda> <Greek_omicron> <Greek_upsilonaccent> <Greek_tau> <oslash> <Greek_nu> <Greek_alpha> <Greek_sigma> <braceright>                            : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_lambda> <Greek_omicron> <Greek_upsilonaccent> <Greek_tau> <oslash> <Greek_nu> <Greek_alpha> <Greek_finalsmallsigma> <braceright>                  : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_LAMBDA> <Greek_OMICRON> <dead_acute> <Greek_UPSILON> <Greek_TAU> <Oslash> <Greek_NU> <Greek_ALPHA> <Greek_SIGMA> <braceright>                     : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_lambda> <Greek_omicron> <dead_acute> <Greek_upsilon> <Greek_tau> <oslash> <Greek_nu> <Greek_alpha> <Greek_sigma> <braceright>                     : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_lambda> <Greek_omicron> <dead_acute> <Greek_upsilon> <Greek_tau> <oslash> <Greek_nu> <Greek_alpha> <Greek_finalsmallsigma> <braceright>           : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_RHO> <Greek_OMICRON> <Greek_SIGMA> <Greek_EPSILON> <Greek_RHO> <Greek_PI> <Greek_IOTAaccent> <Greek_NU> <Greek_ALPHA> <braceright>                : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_RHO> <Greek_OMICRON> <Greek_SIGMA> <Greek_EPSILON> <Greek_RHO> <Greek_PI> <dead_acute> <Greek_IOTA> <Greek_NU> <Greek_ALPHA> <braceright>         : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_rho> <Greek_omicron> <Greek_sigma> <Greek_epsilon> <Greek_rho> <Greek_pi> <Greek_iotaaccent> <Greek_nu> <Greek_alpha> <braceright>                : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_rho> <Greek_omicron> <Greek_sigma> <Greek_epsilon> <Greek_rho> <Greek_pi> <dead_acute> <Greek_iota> <Greek_nu> <Greek_alpha> <braceright>         : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Greek_SIGMA> <Greek_EPSILONaccent> <Greek_NU> <Greek_TAU> <Greek_NU> <Greek_ALPHA> <braceright>                                                                    : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <Greek_sigma> <Greek_epsilonaccent> <Greek_nu> <Greek_tau> <Greek_nu> <Greek_alpha> <braceright>                                                                    : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <Greek_SIGMA> <dead_acute> <Greek_EPSILON> <Greek_NU> <Greek_TAU> <Greek_NU> <Greek_ALPHA> <braceright>                                                             : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <Greek_sigma> <dead_acute> <Greek_epsilon> <Greek_nu> <Greek_tau> <Greek_nu> <Greek_alpha> <braceright>                                                             : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <Greek_PHI> <Greek_OMICRON> <Greek_RHO> <Greek_TAU> <Greek_OMICRON> <Greek_UPSILONaccent> <Greek_NU> <Greek_ALPHA> <braceright>                                     : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <Greek_phi> <Greek_omicron> <Greek_rho> <Greek_tau> <Greek_omicron> <Greek_upsilonaccent> <Greek_nu> <Greek_alpha> <braceright>                                     : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <Greek_PHI> <Greek_OMICRON> <Greek_RHO> <Greek_TAU> <Greek_OMICRON> <dead_acute> <Greek_UPSILON> <Greek_NU> <Greek_ALPHA> <braceright>                              : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <Greek_phi> <Greek_omicron> <Greek_rho> <Greek_tau> <Greek_omicron> <dead_acute> <Greek_upsilon> <Greek_nu> <Greek_alpha> <braceright>                              : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <Greek_CHI> <Greek_ALPHA> <Greek_OMICRON> <Greek_UPSILON> <Greek_MU> <Greek_EPSILONaccent> <Greek_IOTA> <Greek_ALPHA> <braceright>                                  : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Greek_CHI> <Greek_alpha> <Greek_omicron> <Greek_upsilon> <Greek_mu> <Greek_epsilonaccent> <Greek_iota> <Greek_alpha> <braceright>                                  : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Greek_CHI> <Greek_ALPHA> <Greek_OMICRON> <Greek_UPSILON> <Greek_MU> <dead_acute> <Greek_EPSILON> <Greek_IOTA> <Greek_ALPHA> <braceright>                           : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Greek_CHI> <Greek_alpha> <Greek_omicron> <Greek_upsilon> <Greek_mu> <dead_acute> <Greek_epsilon> <Greek_iota> <Greek_alpha> <braceright>                           : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Greek_CHI> <Greek_LAMBDA> <Greek_OMEGAaccent> <Greek_RHO> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                  : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Greek_chi> <Greek_lambda> <Greek_omegaaccent> <Greek_rho> <Greek_iota> <Greek_sigma> <braceright>                                                                  : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Greek_chi> <Greek_lambda> <Greek_omegaaccent> <Greek_rho> <Greek_iota> <Greek_finalsmallsigmas> <braceright>                                                       : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Greek_CHI> <Greek_LAMBDA> <dead_acute> <Oslash> <Greek_RHO> <Greek_IOTA> <Greek_SIGMA> <braceright>                                                                : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Greek_chi> <Greek_lambda> <dead_acute> <oslash> <Greek_rho> <Greek_iota> <Greek_sigma> <braceright>                                                                : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Greek_chi> <Greek_lambda> <dead_acute> <oslash> <Greek_rho> <Greek_iota> <Greek_finalsmallsigmas> <braceright>                                                     : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Greek_PSI> <Greek_UPSILON> <Greek_CHI> <Greek_ETAaccent> <braceright>                                                                                              : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Greek_psi> <Greek_upsilon> <Greek_chi> <Greek_etaaccent> <braceright>                                                                                              : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Greek_PSI> <Greek_UPSILON> <Greek_CHI> <dead_acute> <Greek_ETA> <braceright>                                                                                       : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Greek_psi> <Greek_upsilon> <Greek_chi> <dead_acute> <Greek_eta> <braceright>                                                                                       : "𜻉"   # MPC: 16 Psyche
+
+
+# Astronomical + Astrological Symbols (Major Celestial Bodies & Planets)
+#
+# [NOTE]: All symbols listed here are enclosed in curly brackets.
+#
+<Multi_key> <U232C> <braceleft> <Greek_EPSILON> <braceright>            : "🜨"   # Earth
+<Multi_key> <U232C> <braceleft> <Greek_epsilon> <braceright>            : "♁"   # Earth
+<Multi_key> <U232C> <braceleft> <U0370> <braceright>                    : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <U0371> <braceright>                    : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <Greek_CHI> <braceright>                : "♃"   # Jupiter
+<Multi_key> <U232C> <braceleft> <Greek_chi> <braceright>                : "♃"   # Jupiter
+<Multi_key> <U232C> <braceleft> <Greek_MU> <braceright>                 : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <Greek_mu> <braceright>                 : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <Greek_MU> <Greek_ALPHA> <braceright>   : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_alpha> <braceright>   : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <Greek_MU> <greater> <braceright>       : "☽︎"   # Waxing Moon
+<Multi_key> <U232C> <braceleft> <Greek_MU> <Greek_EPSILON> <braceright> : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <Greek_mu> <Greek_epsilon> <braceright> : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <Greek_mu> <less> <braceright>          : "☾"   # Waning Moon
+<Multi_key> <U232C> <braceleft> <Greek_NU> <braceright>                 : "⯉"   # Neptune
+<Multi_key> <U232C> <braceleft> <Greek_nu> <braceright>                 : "♆"   # Neptune
+<Multi_key> <U232C> <braceleft> <Greek_OMICRON> <period> <braceright>   : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <Greek_omicron> <period> <braceright>   : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <period> <Greek_OMICRON> <braceright>   : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <period> <Greek_omicron> <braceright>   : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <Greek_SIGMA> <braceright>              : "♄"   # Saturn
+<Multi_key> <U232C> <braceleft> <Greek_sigma> <braceright>              : "♄"   # Saturn
+<Multi_key> <U232C> <braceleft> <Greek_UPSILON> <braceright>            : "♅"   # Uranus
+<Multi_key> <U232C> <braceleft> <Greek_upsilon> <braceright>            : "⛢"   # Uranus
+<Multi_key> <U232C> <braceleft> <U0376> <braceright>                    : "♀"   # Venus
+<Multi_key> <U232C> <braceleft> <U0377> <braceright>                    : "♀"   # Venus
+
+
+# Miscellaneous Celestial Symbols
+#
+# [NOTE]: All symbols listed here are enclosed in curly brackets.
+#
+<Multi_key> <U232C> <braceleft> <Greek_MU> <U03FA> <braceright>         : "🌚︎"  # Moon with face
+<Multi_key> <U232C> <braceleft> <Greek_mu> <U03FB> <braceright>         : "🌚︎"  # Moon with face
+<Multi_key> <U232C> <braceleft> <Greek_OMICRON> <U03FA> <braceright>    : "🌞︎︎"  # Sun with face
+<Multi_key> <U232C> <braceleft> <Greek_omicron> <U03FB> <braceright>    : "🌞︎︎"  # Sun with face
+
+
+# Zodiac Symbols
+#
+# [NOTE]: All symbols listed here are enclosed in curly brackets,
+#         with each name denoting its IAU abbreviation
+#         adapted to be written with Greek alphabetical characters.
+#
+<Multi_key> <U232C> <braceleft> <Greek_ALPHA> <Greek_RHO> <Greek_IOTA> <braceright>         : "♈︎"  # Aries
+<Multi_key> <U232C> <braceleft> <Greek_alpha> <Greek_rho> <Greek_iota> <braceright>         : "♈︎"  # Aries
+<Multi_key> <U232C> <braceleft> <Greek_TAU> <Greek_ALPHA> <Greek_UPSILON> <braceright>      : "♉︎"  # Taurus
+<Multi_key> <U232C> <braceleft> <Greek_tau> <Greek_alpha> <Greek_upsilon> <braceright>      : "♉︎"  # Taurus
+<Multi_key> <U232C> <braceleft> <Greek_GAMMA> <Greek_EPSILON> <Greek_MU> <braceright>       : "♊︎"  # Gemini
+<Multi_key> <U232C> <braceleft> <Greek_gamma> <Greek_epsilon> <Greek_mu> <braceright>       : "♊︎"  # Gemini
+<Multi_key> <U232C> <braceleft> <U03FA> <Greek_NU> <U03FA> <braceright>                     : "♋︎"  # Cancer
+<Multi_key> <U232C> <braceleft> <U03FB> <Greek_nu> <U03FB> <braceright>                     : "♋︎"  # Cancer
+<Multi_key> <U232C> <braceleft> <Greek_LAMBDA> <Greek_EPSILON> <Greek_OMICRON> <braceright> : "♌︎"  # Leo
+<Multi_key> <U232C> <braceleft> <Greek_lambda> <Greek_epsilon> <Greek_omicron> <braceright> : "♌︎"  # Leo
+<Multi_key> <U232C> <braceleft> <U0376> <Greek_IOTA> <Greek_RHO> <braceright>               : "♍︎"  # Virgo
+<Multi_key> <U232C> <braceleft> <U0377> <Greek_iota> <Greek_rho> <braceright>               : "♍︎"  # Virgo
+<Multi_key> <U232C> <braceleft> <Greek_LAMBDA> <Greek_IOTA> <Greek_BETA> <braceright>       : "♎︎"  # Libra
+<Multi_key> <U232C> <braceleft> <Greek_lambda> <Greek_iota> <Greek_beta> <braceright>       : "♎︎"  # Libra
+<Multi_key> <U232C> <braceleft> <Greek_SIGMA> <U03FA> <Greek_OMICRON> <braceright>          : "♏︎"  # Scorpio
+<Multi_key> <U232C> <braceleft> <Greek_sigma> <U03FB> <Greek_omicron> <braceright>          : "♏︎"  # Scorpio
+<Multi_key> <U232C> <braceleft> <Greek_SIGMA> <Greek_GAMMA> <Greek_RHO> <braceright>        : "♐︎"  # Sagitarius
+<Multi_key> <U232C> <braceleft> <Greek_sigma> <Greek_gamma> <Greek_rho> <braceright>        : "♐︎"  # Sagitarius
+<Multi_key> <U232C> <braceleft> <U03FA> <Greek_ALPHA> <Greek_PI> <braceright>               : "♑︎"  # Capricorn
+<Multi_key> <U232C> <braceleft> <U03FB> <Greek_alpha> <Greek_pi> <braceright>               : "♑︎"  # Capricorn
+<Multi_key> <U232C> <braceleft> <Greek_ALPHA> <U03D8> <Greek_RHO> <braceright>              : "♒︎"  # Aquarius
+<Multi_key> <U232C> <braceleft> <Greek_alpha> <U03D9> <Greek_rho> <braceright>              : "♒︎"  # Aquarius
+<Multi_key> <U232C> <braceleft> <Greek_PI> <Greek_SIGMA> <U03FA> <braceright>               : "♓︎"  # Pisces
+<Multi_key> <U232C> <braceleft> <Greek_pi> <Greek_sigma> <U03FB> <braceright>               : "♓︎"  # Pisces
+<Multi_key> <U232C> <braceleft> <Greek_OMICRON> <Greek_PI> <U0370> <braceright>             : "⛎︎"  # Ophiucus
+<Multi_key> <U232C> <braceleft> <Greek_omicron> <Greek_pi> <U0371> <braceright>             : "⛎︎"  # Ophiucus
+
+##################
+# [END OF RULES] #
+##################

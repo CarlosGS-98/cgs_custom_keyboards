@@ -1,0 +1,17 @@
+# Greek Alphabet | Breve (Vrachy) Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Greek_diacritics
+#
+
+# Basic precomposed letter combinations
+<dead_breve> <Greek_ALPHA>      : "Ᾰ"
+<dead_breve> <Greek_alpha>      : "ᾰ"
+<dead_breve> <Greek_IOTA>       : "Ῐ"
+<dead_breve> <Greek_iota>       : "ῐ"
+<dead_breve> <Greek_UPSILON>    : "Ῠ"
+<dead_breve> <Greek_upsilon>    : "ῠ"
+
+##################
+# [END OF RULES] #
+##################

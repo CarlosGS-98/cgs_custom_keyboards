@@ -1,0 +1,170 @@
+# Greek Alphabet | IPA Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing phonetic symbols
+# > mainly found in the IPA chart (including some
+# > symbols from extIPA, UPA, etc.)
+# > through alphabetical means.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Phonetic_symbols_in_Unicode
+#
+
+# IPA Sounds (Alphabetical)
+<U035A> <Greek_DELTA> <Greek_DELTA>     : "ʭ"   # Bidental percussive
+<U035A> <Greek_delta> <Greek_delta>     : "ʭ"   # Bidental percussive
+<U035A> <Greek_EPSILON>                 : "Ə"   # Schwa
+<U035A> <Greek_epsilon>                 : "ə"   # Schwa
+<U035A> <minus> <Greek_EPSILON>         : "ɘ"   # Close-mid central unrounded vowel
+<U035A> <minus> <Greek_epsilon>         : "ɘ"   # Close-mid central unrounded vowel
+<U035A> <Greek_GAMMA>                   : "Ɡ"   # Single-storey G
+<U035A> <Greek_gamma>                   : "ɡ"   # Single-storey G
+<U035A> <U0370>                         : "ɧ"   # "IPA Symbols" + Ͱ (Heta) = SJ-Sound
+<U035A> <U0371>                         : "ɧ"   # "IPA Symbols" + ͱ (Heta) = SJ-Sound
+<U035A> <Greek_IOTA>                    : "Ɪ"   # Near-close near-front unrounded vowel
+<U035A> <Greek_iota>                    : "ɪ"   # Near-close near-front unrounded vowel
+<U035A> <Greek_CHI>                     : "ɟ"   # Barred Dotless J
+<U035A> <Greek_chi>                     : "ɟ"   # Barred Dotless J
+<U035A> <Greek_LAMBDA>                  : "𝼈"   # Retroflex lateral flap
+<U035A> <Greek_lambda>                  : "ɺ"   # Lateral flap
+<U035A> <Greek_MU>                      : "ɰ"   # Voiced velar approximant
+<U035A> <Greek_mu>                      : "ɰ"   # Voiced velar approximant
+<U035A> <Greek_OMICRON>                 : "Ɔ"   # Open O
+<U035A> <Greek_omicron>                 : "ɔ"   # Open O
+<U035A> <Greek_OMEGA>                   : "Ɤ"   # Ram's Horn
+<U035A> <Greek_omega>                   : "ɤ"   # Ram's Horn
+<U035A> <Greek_RHO>                     : "ɻ"   # Voiced retroflex approximant
+<U035A> <Greek_rho>                     : "ɹ"   # Voiced alveolar approximant
+<U035A> <minus> <Greek_RHO>             : "ꭅ"   # Teuthonista [ɾ]
+<U035A> <minus> <Greek_rho>             : "ꭅ"   # Teuthonista [ɾ]
+<U035A> <underscore> <Greek_RHO>        : "ɾ"   # Voiced alveolar flap
+<U035A> <underscore> <Greek_rho>        : "ɾ"   # Voiced alveolar flap
+<U035A> <Greek_SIGMA>                   : "Ʃ"   # Esh
+<U035A> <Greek_sigma>                   : "ʃ"   # Esh
+<U035A> <U0376>                         : "ⱱ"   # "IPA Symbols" + Ͷ (Pamphylian Digamma) = Labiodental flap
+<U035A> <U0377>                         : "ⱱ"   # "IPA Symbols" + ͷ (Pamphylian Digamma) = Labiodental flap
+<U035A> <U03DC> <U03DC>                 : "ʬ"   # "IPA Symbols" + Ϝ (Greek Digamma) = Bilabial percussive
+<U035A> <U03DD> <U03DD>                 : "ʬ"   # "IPA Symbols" + ϝ (Greek Digamma) = Bilabial percussive
+<U035A> <Greek_ZETA>                    : "Ʒ"   # Ezh
+<U035A> <Greek_zeta>                    : "ʒ"   # Ezh
+<U035A> <question> <space>              : "ʔ"   # Glottal Stop
+<U035A> <question> <minus>              : "ʡ"   # Epiglottal Plosive
+<U035A> <question> <underscore> <space> : "ʕ"   # Voiced Pharyngeal Fricative
+<U035A> <question> <underscore> <minus> : "ʢ"   # Voiced Epiglottal Trill
+
+
+
+# Cyrillic Small Capital Letters
+#
+# [Main source]: https://en.wikipedia.org/wiki/Small_caps#Unicode
+#
+<U035A> <underscore> <Greek_IOTA>   : "ᴎ"
+<U035A> <underscore> <Greek_iota>   : "ᴎ"
+<U035A> <underscore> <Greek_LAMBDA> : "ᴫ"
+<U035A> <underscore> <Greek_lambda> : "ᴫ"
+<U035A> <underscore> <U037F>        : "ᴙ"   # "IPA Symbols" + "_" + Ͷ (Pamphylian Digamma) = Labiodental flap
+<U035A> <underscore> <U03F3>        : "ᴙ"   # "IPA Symbols" + "_" + ͷ (Pamphylian Digamma) = Labiodental flap
+
+
+# Greek Small Capital Letters
+#
+# [Main source]: https://en.wikipedia.org/wiki/Small_caps#Unicode
+#
+<U035A> <dead_greek> <Greek_GAMMA>                              : "ᴦ"
+<U035A> <dead_greek> <Greek_gamma>                              : "ᴦ"
+<U035A> <dead_greek> <Greek_LAMBDA>                             : "ᴧ"
+<U035A> <dead_greek> <Greek_lambda>                             : "ᴧ"
+<U035A> <dead_greek> <Greek_PI>                                 : "ᴨ"
+<U035A> <dead_greek> <Greek_pi>                                 : "ᴨ"
+<U035A> <dead_greek> <minus> <Greek_PI> <Greek_SIGMA>           : "ᴪ"
+<U035A> <dead_greek> <minus> <Greek_pi> <Greek_sigma>           : "ᴪ"
+<U035A> <dead_greek> <Greek_PSI>                                : "ᴪ"   # Small Capital Psi
+<U035A> <dead_greek> <Greek_psi>                                : "ᴪ"   # Small Capital Psi
+<U035A> <dead_greek> <Greek_RHO>                                : "ᴩ"
+<U035A> <dead_greek> <Greek_rho>                                : "ᴩ"
+<U035A> <dead_greek> <minus> <Greek_OMICRON> <Greek_OMICRON>    : "ꭥ"
+<U035A> <dead_greek> <minus> <Greek_omicron> <Greek_omicron>    : "ꭥ"
+<U035A> <dead_greek> <Greek_OMEGA>                              : "ꭥ"
+<U035A> <dead_greek> <Greek_omega>                              : "ꭥ"   
+
+
+# Latin Small Capital Letters
+#
+# [Main source]: https://en.wikipedia.org/wiki/Small_caps#Unicode
+#
+<U035A> <dead_circumflex> <Greek_ALPHA>                 : "ᴀ"
+<U035A> <dead_circumflex> <Greek_alpha>                 : "ᴀ"
+<U035A> <dead_circumflex> <underscore> <Greek_ALPHA>    : "ᴁ"
+<U035A> <dead_circumflex> <underscore> <Greek_alpha>    : "ᴁ"
+<U035A> <dead_circumflex> <Greek_BETA>                  : "ʙ"
+<U035A> <dead_circumflex> <Greek_beta>                  : "ʙ"
+<U035A> <dead_circumflex> <underscore> <Greek_BETA>     : "ᴃ"
+<U035A> <dead_circumflex> <underscore> <Greek_beta>     : "ᴃ"
+<U035A> <dead_circumflex> <U03FA>                       : "ᴄ"   # "IPA Symbols" + Circumflex + Ϻ (San) = Smallcaps C
+<U035A> <dead_circumflex> <U03FB>                       : "ᴄ"   # "IPA Symbols" + Circumflex + ϻ (San) = Smallcaps C
+<U035A> <dead_circumflex> <Greek_DELTA>                 : "ᴅ"
+<U035A> <dead_circumflex> <Greek_delta>                 : "ᴅ"
+<U035A> <dead_circumflex> <U03E0>                       : "ᴆ"   # "IPA Symbols" + Circumflex + Ϡ (Sampi) = Smallcaps Eth
+<U035A> <dead_circumflex> <U03E1>                       : "ᴆ"   # "IPA Symbols" + Circumflex + ϡ (Sampi) = Smallcaps Eth
+<U035A> <dead_circumflex> <Greek_EPSILON>               : "ᴇ"
+<U035A> <dead_circumflex> <Greek_epsilon>               : "ᴇ"
+<U035A> <dead_circumflex> <Greek_PHI>                   : "ꜰ"
+<U035A> <dead_circumflex> <Greek_phi>                   : "ꜰ"
+<U035A> <dead_circumflex> <Greek_GAMMA>                 : "ɢ"
+<U035A> <dead_circumflex> <Greek_gamma>                 : "ɢ"
+<U035A> <dead_circumflex> <U0370>                       : "ʜ"   # "IPA Symbols" + Circumflex + Ͱ (Heta) = Smallcaps H
+<U035A> <dead_circumflex> <U0371>                       : "ʜ"   # "IPA Symbols" + Circumflex + ͱ (Heta) = Smallcaps H
+<U035A> <dead_circumflex> <Greek_IOTA>                  : "ɪ"
+<U035A> <dead_circumflex> <Greek_iota>                  : "ɪ"
+<U035A> <dead_circumflex> <Greek_CHI>                   : "ᴊ"
+<U035A> <dead_circumflex> <Greek_chi>                   : "ᴊ"
+<U035A> <dead_circumflex> <Greek_KAPPA>                 : "ᴋ"
+<U035A> <dead_circumflex> <Greek_kappa>                 : "ᴋ"
+<U035A> <dead_circumflex> <Greek_LAMBDA>                : "ʟ"
+<U035A> <dead_circumflex> <Greek_lambda>                : "ʟ"
+<U035A> <dead_circumflex> <Greek_MU>                    : "ᴍ"
+<U035A> <dead_circumflex> <Greek_mu>                    : "ᴍ"
+<U035A> <dead_circumflex> <Greek_NU>                    : "ɴ"
+<U035A> <dead_circumflex> <Greek_nu>                    : "ɴ"
+<U035A> <dead_circumflex> <Greek_OMICRON>               : "ᴏ"
+<U035A> <dead_circumflex> <Greek_omicron>               : "ᴏ"
+<U035A> <dead_circumflex> <Greek_OMEGA>                 : "ɶ"
+<U035A> <dead_circumflex> <Greek_omega>                 : "ɶ"
+<U035A> <dead_circumflex> <underscore> <Greek_OMICRON>  : "ᴐ"
+<U035A> <dead_circumflex> <underscore> <Greek_omicron>  : "ᴐ"
+<U035A> <dead_circumflex> <Greek_PI>                    : "ᴘ"
+<U035A> <dead_circumflex> <Greek_pi>                    : "ᴘ"
+<U035A> <dead_circumflex> <U03D8>                       : "ꞯ"  # "IPA Symbols" + Circumflex + Ϙ (Archaic Koppa) = Smallcaps Q
+<U035A> <dead_circumflex> <U03D9>                       : "ꞯ"  # "IPA Symbols" + Circumflex + ϙ (Archaic Koppa) = Smallcaps Q
+<U035A> <dead_circumflex> <Greek_RHO>                   : "ʀ"
+<U035A> <dead_circumflex> <Greek_rho>                   : "ʀ"
+<U035A> <dead_circumflex> <underscore> <Greek_RHO>      : "ʁ"
+<U035A> <dead_circumflex> <underscore> <Greek_rho>      : "ʁ"
+<U035A> <dead_circumflex> <Greek_SIGMA>                 : "ꜱ"
+<U035A> <dead_circumflex> <Greek_sigma>                 : "ꜱ"
+<U035A> <dead_circumflex> <Greek_TAU>                   : "ᴛ"
+<U035A> <dead_circumflex> <Greek_tau>                   : "ᴛ"
+<U035A> <dead_circumflex> <Greek_UPSILON>               : "ᴜ"
+<U035A> <dead_circumflex> <Greek_upsilon>               : "ᴜ"
+<U035A> <dead_circumflex> <U0376>                       : "ᴠ"   # "IPA Symbols" + Circumflex + Ͷ (Pamphylian Digamma) = Smallcaps V
+<U035A> <dead_circumflex> <U0377>                       : "ᴠ"   # "IPA Symbols" + Circumflex + ͷ (Pamphylian Digamma) = Smallcaps V
+<U035A> <dead_circumflex> <U03DC>                       : "ᴡ"   # "IPA Symbols" + Circumflex + Ϝ (Greek Digamma) = Smallcaps W
+<U035A> <dead_circumflex> <U03DD>                       : "ᴡ"   # "IPA Symbols" + Circumflex + ϝ (Greek Digamma) = Smallcaps W
+<U035A> <dead_circumflex> <U037F>                       : "ʏ"   # "IPA Symbols" + Circumflex + Ϳ (Yot) = Smallcaps Y
+<U035A> <dead_circumflex> <U03F3>                       : "ʏ"   # "IPA Symbols" + Circumflex + ϳ (Yot) = Smallcaps y
+<U035A> <dead_circumflex> <Greek_ZETA>                  : "ᴢ"
+<U035A> <dead_circumflex> <Greek_zeta>                  : "ᴢ"
+<U035A> <dead_circumflex> <U0372>                       : "ᴣ"   # "IPA Symbols" + Circumflex + Ͳ (Archaic Sampi) = Smallcaps Ezh
+<U035A> <dead_circumflex> <U0373>                       : "ᴣ"   # "IPA Symbols" + Circumflex + ͳ (Archaic Sampi) = Smallcaps Ezh
+
+
+# Suprasegmentals (Alphabetical)
+<U035A> <Greek_LAMBDA>  : "̼"    # Combining seagull below (Linguolabial Sound)
+<U035A> <Greek_lambda>  : "̼"    # Combining seagull below (Linguolabial Sound)
+<U035A> <Greek_XI>      : "̽"    # Combining X Above (Mid-Centralized Sound)
+<U035A> <Greek_xi>      : "̽"    # Combining X Above (Mid-Centralized Sound)
+
+
+##################
+# [END OF RULES] #
+##################

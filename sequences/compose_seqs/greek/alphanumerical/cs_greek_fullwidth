@@ -1,0 +1,32 @@
+# Greek Alphabet | Halfwidth & Fullwidth Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing alphabetical fullwidth characters
+# > with Greek letters by using "$" (<dollar>) in conjunction
+# > with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)
+#
+
+# Fullwidth ISO-8859-1 Characters + Currency Symbols (Alphabetical)
+<Multi_key> <dollar> <dead_currency> <bar> <U03FA>          : "￠"
+<Multi_key> <dollar> <dead_currency> <bar> <U03FB>          : "￠"
+<Multi_key> <dollar> <dead_currency> <U03FA> <bar>          : "￠"
+<Multi_key> <dollar> <dead_currency> <U03FB> <bar>          : "￠"
+<Multi_key> <dollar> <dead_currency> <minus> <Greek_LAMBDA> : "￡"
+<Multi_key> <dollar> <dead_currency> <minus> <Greek_lambda> : "￡"
+<Multi_key> <dollar> <dead_currency> <Greek_LAMBDA> <minus> : "￡"
+<Multi_key> <dollar> <dead_currency> <Greek_lambda> <minus> : "￡"
+<Multi_key> <dollar> <dead_currency> <minus> <U03DC>        : "￦"
+<Multi_key> <dollar> <dead_currency> <minus> <U03DD>        : "￦"
+<Multi_key> <dollar> <dead_currency> <U03DC> <minus>        : "￦"
+<Multi_key> <dollar> <dead_currency> <U03DD> <minus>        : "￦"
+<Multi_key> <dollar> <dead_currency> <equal> <U037F>        : "￥"
+<Multi_key> <dollar> <dead_currency> <equal> <U03F3>        : "￥"
+<Multi_key> <dollar> <dead_currency> <U037F> <equal>        : "￥"
+<Multi_key> <dollar> <dead_currency> <U03F3> <equal>        : "￥"
+
+##################
+# [END OF RULES] #
+##################

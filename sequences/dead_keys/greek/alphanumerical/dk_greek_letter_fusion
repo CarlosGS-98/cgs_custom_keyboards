@@ -1,0 +1,31 @@
+# Greek Alphabet | Letter Fusion Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/List_of_Greek_letters
+#
+<U1DCF> <Greek_KAPPA> <Greek_ALPHA> <Greek_IOTA>    : "Ϗ"  # Kai
+<U1DCF> <Greek_kappa> <Greek_alpha> <Greek_iota>    : "ϗ"  # Kai
+<U1DCF> <Greek_OMICRON> <Greek_UPSILON>             : "Ȣ"  # Ou
+<U1DCF> <Greek_omicron> <Greek_upsilon>             : "ȣ"  # Ou
+<U1DCF> <Greek_SIGMA> <Greek_TAU>                   : "Ϛ"  # Stigma
+<U1DCF> <Greek_sigma> <Greek_tau>                   : "ϛ"  # Stigma
+
+
+# Special Fraction-Like Symbols
+<U1DCF> <Greek_ALPHA> <Greek_SIGMA> <slash> : "℁"
+<U1DCF> <Greek_alpha> <Greek_sigma> <slash> : "℁"
+<U1DCF> <Greek_ALPHA> <slash> <Greek_SIGMA> : "℁"
+<U1DCF> <Greek_alpha> <slash> <Greek_sigma> : "℁"
+<U1DCF> <U03FA> <Greek_OMICRON> <slash>     : "℅"
+<U1DCF> <U03FB> <Greek_omicron> <slash>     : "℅"
+<U1DCF> <U03FA> <slash> <Greek_OMICRON>     : "℅"
+<U1DCF> <U03FB> <slash> <Greek_omicron>     : "℅"
+<U1DCF> <slash> <Greek_ALPHA> <Greek_SIGMA> : "℁"
+<U1DCF> <slash> <Greek_alpha> <Greek_sigma> : "℁"
+<U1DCF> <slash> <U03FA> <Greek_OMICRON>     : "℅"
+<U1DCF> <slash> <U03FB> <Greek_omicron>     : "℅"
+
+##################
+# [END OF RULES] #
+##################

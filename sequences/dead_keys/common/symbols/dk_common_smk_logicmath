@@ -29,7 +29,7 @@
 # Algebraic operators (Non-Alphabetical)
 <U221D> <bar> <greater>                 : "⊳"   # Contains as normal subgroup
 <U221D> <bar> <minus> <greater>         : "⊵"   # Contains as normal subgroup or equal to
-<U221D> <bar> <minus> <slash> <greater> : "⋭"   #  Does not contain as normal subgroup nor equal to
+<U221D> <bar> <minus> <slash> <greater> : "⋭"   # Does not contain as normal subgroup nor equal to
 <U221D> <bar> <slash> <greater>         : "⋫"   # Does not contain as normal subgroup
 <U221D> <less> <bar>                    : "⊲"   # Normal subgroup of
 <U221D> <less> <minus> <bar>            : "⊴"   # Normal subgroup of or equal to
@@ -119,6 +119,10 @@
 <U221D> <minus> <bar>           : "⊣"   # Left tack
 <U221D> <minus> <underscore>    : "⊥"   # Up tack (Contradiction)
 <U221D> <underscore> <minus>    : "⊤"   # Down tack (Tautology)
+<U221D> <Down> <space>          : "⊤"   # Down tack (Tautology)
+<U221D> <Left> <space>          : "⊣"   # Left tack
+<U221D> <Right> <space>         : "⊢"   # Right tack
+<U221D> <Up> <space>            : "⊥"   # Up tack (Contradiction)
 
 
 # Miscellaneous mathematical operators & symbols

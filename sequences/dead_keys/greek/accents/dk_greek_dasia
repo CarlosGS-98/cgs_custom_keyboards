@@ -1,0 +1,195 @@
+# Greek Alphabet | Reversed Comma Above (Dasia) Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Greek_diacritics
+#
+
+# Basic precomposed letter combinations
+<dead_abovereversedcomma> <Greek_ALPHA>     : "Ἁ"
+<dead_abovereversedcomma> <Greek_alpha>     : "ἁ"
+<dead_abovereversedcomma> <Greek_EPSILON>   : "Ἑ"
+<dead_abovereversedcomma> <Greek_epsilon>   : "ἑ"
+<dead_abovereversedcomma> <Greek_ETA>       : "Ἡ"
+<dead_abovereversedcomma> <Greek_eta>       : "ἡ"
+<dead_abovereversedcomma> <Greek_IOTA>      : "Ἱ"
+<dead_abovereversedcomma> <Greek_iota>      : "ἱ"
+<dead_abovereversedcomma> <Greek_OMICRON>   : "Ὁ"
+<dead_abovereversedcomma> <Greek_omicron>   : "ὁ"
+<dead_abovereversedcomma> <Greek_RHO>       : "Ῥ"
+<dead_abovereversedcomma> <Greek_rho>       : "ῥ"
+<dead_abovereversedcomma> <Greek_UPSILON>   : "Ὑ"
+<dead_abovereversedcomma> <Greek_upsilon>   : "ὑ"
+<dead_abovereversedcomma> <Greek_OMEGA>     : "Ὡ"
+<dead_abovereversedcomma> <Greek_omega>     : "ὡ"
+
+
+# Other precomposed reversed comma above/Dasia combinations (Unidirectional)
+<dead_abovereversedcomma> <Greek_ALPHAaccent>                       : "Ἅ"   # Ά + Dasia
+<dead_abovereversedcomma> <Greek_alphaaccent>                       : "ἅ"   # ά + Dasia
+<dead_abovereversedcomma> <U1FBB>                                   : "Ἅ"   # Ά + Dasia
+<dead_abovereversedcomma> <U1F71>                                   : "ἅ"   # ά + Dasia
+<dead_abovereversedcomma> <dead_acute> <Greek_ALPHA>                : "Ἅ"
+<dead_abovereversedcomma> <dead_acute> <Greek_alpha>                : "ἅ"
+<dead_abovereversedcomma> <dead_acute> <U1FBC>                      : "ᾍ"   # ᾼ + Tonos/Oxia + Dasia
+<dead_abovereversedcomma> <dead_acute> <U1FB3>                      : "ᾅ"   # ᾳ + Tonos/Oxia + Dasia
+<dead_abovereversedcomma> <dead_acute> <dead_iota> <Greek_ALPHA>    : "ᾍ"
+<dead_abovereversedcomma> <dead_acute> <dead_iota> <Greek_alpha>    : "ᾅ"
+<dead_abovereversedcomma> <U1FBA>                                   : "Ἃ"   # Ὰ + Dasia
+<dead_abovereversedcomma> <U1F70>                                   : "ἃ"   # ὰ + Dasia
+<dead_abovereversedcomma> <dead_grave> <Greek_ALPHA>                : "Ἃ"
+<dead_abovereversedcomma> <dead_grave> <Greek_alpha>                : "ἃ"
+<dead_abovereversedcomma> <dead_grave> <U1FBC>                      : "ᾋ"   # ᾼ + Varia + Dasia
+<dead_abovereversedcomma> <dead_grave> <U1FB3>                      : "ᾃ"   # ᾳ + Varia + Dasia
+<dead_abovereversedcomma> <dead_grave> <dead_iota> <Greek_ALPHA>    : "ᾋ"
+<dead_abovereversedcomma> <dead_grave> <dead_iota> <Greek_alpha>    : "ᾃ"
+<dead_abovereversedcomma> <U1FB6>                                   : "ἇ"   # ᾶ + Dasia
+<dead_abovereversedcomma> <dead_tilde> <Greek_ALPHA>                : "Ἇ"
+<dead_abovereversedcomma> <dead_tilde> <Greek_alpha>                : "ἇ"
+<dead_abovereversedcomma> <dead_tilde> <U1FBC>                      : "ᾏ"   # ᾼ + Perispomeni + Dasia
+<dead_abovereversedcomma> <dead_tilde> <U1FB3>                      : "ᾇ"   # ᾳ + Perispomeni + Dasia
+<dead_abovereversedcomma> <dead_tilde> <dead_iota> <Greek_ALPHA>    : "ᾏ"
+<dead_abovereversedcomma> <dead_tilde> <dead_iota> <Greek_alpha>    : "ᾇ"
+<dead_abovereversedcomma> <U1FBC>                                   : "ᾉ"   # ᾼ + Dasia
+<dead_abovereversedcomma> <U1FB3>                                   : "ᾁ"   # ᾳ + Dasia
+<dead_abovereversedcomma> <dead_iota> <Greek_ALPHA>                 : "ᾉ"   # ᾼ + Dasia
+<dead_abovereversedcomma> <dead_iota> <Greek_alpha>                 : "ᾁ"   # ᾳ + Dasia
+<dead_abovereversedcomma> <dead_iota> <Greek_ALPHAaccent>           : "ᾍ"   # Ά + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <Greek_alphaaccent>           : "ᾅ"   # ά + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <U1FBB>                       : "ᾍ"   # Ά + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <U1F71>                       : "ᾅ"   # ά + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <dead_acute> <Greek_ALPHA>    : "ᾍ"
+<dead_abovereversedcomma> <dead_iota> <dead_acute> <Greek_alpha>    : "ᾅ"
+<dead_abovereversedcomma> <dead_iota> <U1F08>                       : "ᾏ"   # Ἁ + Varia + Iota
+<dead_abovereversedcomma> <dead_iota> <U1F00>                       : "ᾇ"   # ἁ + Varia + Iota
+<dead_abovereversedcomma> <dead_iota> <dead_grave> <Greek_ALPHA>    : "ᾏ"
+<dead_abovereversedcomma> <dead_iota> <dead_grave> <Greek_alpha>    : "ᾇ"
+<dead_abovereversedcomma> <U1F88>                                   : "ᾏ"   # ᾉ + Perispomeni
+<dead_abovereversedcomma> <U1F80>                                   : "ᾇ"   # ᾁ + Perispomeni
+<dead_abovereversedcomma> <dead_iota> <U1F08>                       : "ᾏ"   # Ἁ + Perispomeni + Iota
+<dead_abovereversedcomma> <dead_iota> <U1F00>                       : "ᾇ"   # ἁ + Perispomeni + Iota
+<dead_abovereversedcomma> <dead_iota> <U1FB6>                       : "ᾇ"   # ᾶ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_ALPHA>    : "ᾏ"
+<dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_alpha>    : "ᾇ"
+<dead_abovereversedcomma> <Greek_EPSILONaccent>                     : "Ἕ"   # Έ + Dasia
+<dead_abovereversedcomma> <Greek_epsilonccent>                      : "ἕ"   # έ + Dasia
+<dead_abovereversedcomma> <U1FC9>                                   : "Ἕ"   # Έ + Dasia
+<dead_abovereversedcomma> <U1F73>                                   : "ἕ"   # έ + Dasia
+<dead_abovereversedcomma> <dead_acute> <Greek_EPSILON>              : "Ἕ"
+<dead_abovereversedcomma> <dead_acute> <Greek_epsilon>              : "ἕ"
+<dead_abovereversedcomma> <U1FBA>                                   : "Ἓ"   # Ὲ + Dasia
+<dead_abovereversedcomma> <U1F70>                                   : "ἓ"   # ὲ + Dasia
+<dead_abovereversedcomma> <dead_grave> <Greek_EPSILON>              : "Ἓ"
+<dead_abovereversedcomma> <dead_grave> <Greek_epsilon>              : "ἓ"
+<dead_abovereversedcomma> <Greek_ETAaccent>                         : "Ἥ"   # Ή + Dasia
+<dead_abovereversedcomma> <Greek_etaaccent>                         : "ἥ"   # ή + Dasia
+<dead_abovereversedcomma> <U1FCB>                                   : "Ἥ"   # Ή + Dasia
+<dead_abovereversedcomma> <U1F75>                                   : "ἥ"   # ή + Dasia
+<dead_abovereversedcomma> <dead_acute> <Greek_ETA>                  : "Ἥ"
+<dead_abovereversedcomma> <dead_acute> <Greek_eta>                  : "ἥ"
+<dead_abovereversedcomma> <dead_acute> <U1FCC>                      : "ᾝ"   # ῌ + Tonos/Oxia + Dasia
+<dead_abovereversedcomma> <dead_acute> <U1FC3>                      : "ᾕ"   # ῃ + Tonos/Oxia + Dasia
+<dead_abovereversedcomma> <dead_acute> <dead_iota> <Greek_ETA>      : "ᾝ"
+<dead_abovereversedcomma> <dead_acute> <dead_iota> <Greek_eta>      : "ᾕ"
+<dead_abovereversedcomma> <U1FCA>                                   : "Ἣ"   # Ὴ + Dasia
+<dead_abovereversedcomma> <U1F74>                                   : "ἣ"   # ὴ + Dasia
+<dead_abovereversedcomma> <dead_grave> <Greek_ETA>                  : "Ἣ"
+<dead_abovereversedcomma> <dead_grave> <Greek_eta>                  : "ἣ"
+<dead_abovereversedcomma> <dead_grave> <U1FCC>                      : "ᾛ"   # ῌ + Varia + Dasia
+<dead_abovereversedcomma> <dead_grave> <U1FC3>                      : "ᾓ"   # ῃ + Varia + Dasia
+<dead_abovereversedcomma> <dead_grave> <dead_iota> <Greek_ETA>      : "ᾛ"
+<dead_abovereversedcomma> <dead_grave> <dead_iota> <Greek_eta>      : "ᾓ"
+<dead_abovereversedcomma> <U1FC6>                                   : "ἧ"   # ῆ + Dasia
+<dead_abovereversedcomma> <dead_tilde> <Greek_ETA>                  : "Ἧ"
+<dead_abovereversedcomma> <dead_tilde> <Greek_eta>                  : "ἧ"
+<dead_abovereversedcomma> <dead_tilde> <U1FBC>                      : "ᾟ"   # ῌ + Perispomeni + Dasia
+<dead_abovereversedcomma> <dead_tilde> <U1FB3>                      : "ᾗ"   # ῃ + Perispomeni + Dasia
+<dead_abovereversedcomma> <dead_tilde> <dead_iota> <Greek_ETA>      : "ᾟ"
+<dead_abovereversedcomma> <dead_tilde> <dead_iota> <Greek_eta>      : "ᾗ"
+<dead_abovereversedcomma> <U1FCC>                                   : "ᾙ"   # ῌ + Dasia
+<dead_abovereversedcomma> <U1FC3>                                   : "ᾑ"   # ῃ + Dasia
+<dead_abovereversedcomma> <dead_iota> <Greek_ETA>                   : "ᾙ"   # ῌ + Dasia
+<dead_abovereversedcomma> <dead_iota> <Greek_eta>                   : "ᾑ"   # ῃ + Dasia
+<dead_abovereversedcomma> <dead_iota> <Greek_ETAaccent>             : "ᾝ"   # Ή + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <Greek_etaaccent>             : "ᾕ"   # ή + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <U1FCB>                       : "ᾝ"   # ῌ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <U1F75>                       : "ᾕ"   # ῃ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <dead_acute> <Greek_ETA>      : "ᾝ"
+<dead_abovereversedcomma> <dead_iota> <dead_acute> <Greek_eta>      : "ᾕ"
+<dead_abovereversedcomma> <dead_iota> <U1FCA>                       : "ᾛ"   # Ὴ + Varia + Iota
+<dead_abovereversedcomma> <dead_iota> <U1F74>                       : "ᾓ"   # ὴ + Varia + Iota
+<dead_abovereversedcomma> <dead_iota> <dead_grave> <Greek_ETA>      : "ᾛ"
+<dead_abovereversedcomma> <dead_iota> <dead_grave> <Greek_eta>      : "ᾓ"
+<dead_abovereversedcomma> <dead_iota> <U1FC7>                       : "ᾗ"   # ῆ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_ETA>      : "ᾟ"
+<dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_eta>      : "ᾗ"
+<dead_abovereversedcomma> <Greek_IOTAaccent>                        : "Ἵ"   # Ί + Dasia
+<dead_abovereversedcomma> <Greek_iotaccent>                         : "ἵ"   # ί + Dasia
+<dead_abovereversedcomma> <U1FDB>                                   : "Ἵ"   # Ί + Dasia
+<dead_abovereversedcomma> <U1F77>                                   : "ἵ"   # ί + Dasia
+<dead_abovereversedcomma> <dead_acute> <Greek_IOTA>                 : "Ἵ"
+<dead_abovereversedcomma> <dead_acute> <Greek_iota>                 : "ἵ"
+<dead_abovereversedcomma> <U1FDA>                                   : "Ἳ"   # Ὶ + Dasia
+<dead_abovereversedcomma> <U1F76>                                   : "ἳ"   # ὶ + Dasia
+<dead_abovereversedcomma> <dead_grave> <Greek_IOTA>                 : "Ἳ"
+<dead_abovereversedcomma> <dead_grave> <Greek_iota>                 : "ἳ"
+<dead_abovereversedcomma> <U1FD6>                                   : "ἷ"   # ῖ + Dasia
+<dead_abovereversedcomma> <dead_tilde> <Greek_IOTA>                 : "Ἷ"
+<dead_abovereversedcomma> <dead_tilde> <Greek_iota>                 : "ἷ"
+<dead_abovereversedcomma> <Greek_OMICRONaccent>                     : "Ὅ"   # Ό + Psili
+<dead_abovereversedcomma> <Greek_omicronccent>                      : "ὅ"   # ό + Psili
+<dead_abovereversedcomma> <U1FF9>                                   : "Ὅ"   # Ό + Psili
+<dead_abovereversedcomma> <U1F79>                                   : "ὅ"   # ό + Psili
+<dead_abovereversedcomma> <dead_acute> <Greek_OMICRON>              : "Ὅ"
+<dead_abovereversedcomma> <dead_acute> <Greek_omicron>              : "ὅ"
+<dead_abovereversedcomma> <U1FF8>                                   : "Ὃ"   # Ὸ + Psili
+<dead_abovereversedcomma> <U1F78>                                   : "ὃ"   # ὸ + Psili
+<dead_abovereversedcomma> <dead_grave> <Greek_OMICRON>              : "Ὃ"
+<dead_abovereversedcomma> <dead_grave> <Greek_omicron>              : "ὃ"
+<dead_abovereversedcomma> <Greek_OMEGAaccent>                       : "Ὥ"   # Ώ + Dasia
+<dead_abovereversedcomma> <Greek_omegaaccent>                       : "ὥ"   # ώ + Dasia
+<dead_abovereversedcomma> <U1FFB>                                   : "Ὥ"   # Ώ + Dasia
+<dead_abovereversedcomma> <U1F7D>                                   : "ὥ"   # ώ + Dasia
+<dead_abovereversedcomma> <dead_acute> <Greek_OMEGA>                : "Ὥ"
+<dead_abovereversedcomma> <dead_acute> <Greek_omega>                : "ὥ"
+<dead_abovereversedcomma> <dead_acute> <U1FFC>                      : "ᾭ"   # ῼ + Tonos/Oxia + Dasia
+<dead_abovereversedcomma> <dead_acute> <U1FF3>                      : "ᾥ"   # ῳ + Tonos/Oxia + Dasia
+<dead_abovereversedcomma> <dead_acute> <dead_iota> <Greek_OMEGA>    : "ᾭ"
+<dead_abovereversedcomma> <dead_acute> <dead_iota> <Greek_omega>    : "ᾥ"
+<dead_abovereversedcomma> <U1FFA>                                   : "Ὣ"   # Ὼ + Dasia
+<dead_abovereversedcomma> <U1F7C>                                   : "ὣ"   # ὼ + Dasia
+<dead_abovereversedcomma> <dead_grave> <Greek_OMEGA>                : "Ὣ"
+<dead_abovereversedcomma> <dead_grave> <Greek_omega>                : "ὣ"
+<dead_abovereversedcomma> <dead_grave> <U1FBC>                      : "ᾫ"   # ῼ + Varia + Dasia
+<dead_abovereversedcomma> <dead_grave> <U1FB3>                      : "ᾣ"   # ῳ + Varia + Dasia
+<dead_abovereversedcomma> <dead_grave> <dead_iota> <Greek_OMEGA>    : "ᾫ"
+<dead_abovereversedcomma> <dead_grave> <dead_iota> <Greek_omega>    : "ᾣ"
+<dead_abovereversedcomma> <U1FB6>                                   : "ὧ"   # ῶ + Dasia
+<dead_abovereversedcomma> <dead_tilde> <Greek_OMEGA>                : "Ὧ"
+<dead_abovereversedcomma> <dead_tilde> <Greek_omega>                : "ὧ"
+<dead_abovereversedcomma> <dead_tilde> <U1FBC>                      : "ᾯ"   # ῼ + Perispomeni + Dasia
+<dead_abovereversedcomma> <dead_tilde> <U1FB3>                      : "ᾧ"   # ῳ + Perispomeni + Dasia
+<dead_abovereversedcomma> <dead_tilde> <dead_iota> <Greek_OMEGA>    : "ᾯ"
+<dead_abovereversedcomma> <dead_tilde> <dead_iota> <Greek_omega>    : "ᾧ"
+<dead_abovereversedcomma> <U1FBC>                                   : "ᾩ"   # ῼ + Dasia
+<dead_abovereversedcomma> <U1FB3>                                   : "ᾡ"   # ῳ + Dasia
+<dead_abovereversedcomma> <dead_iota> <Greek_OMEGA>                 : "ᾩ"   # ῼ + Dasia
+<dead_abovereversedcomma> <dead_iota> <Greek_omega>                 : "ᾡ"   # ῳ + Dasia
+<dead_abovereversedcomma> <dead_iota> <Greek_OMEGAaccent>           : "ᾭ"   # Ώ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <Greek_omegaaccent>           : "ᾥ"   # ώ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <U1FFB>                       : "ᾭ"   # Ώ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <U1F7D>                       : "ᾥ"   # ώ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <dead_acute> <Greek_OMEGA>    : "ᾭ"
+<dead_abovereversedcomma> <dead_iota> <dead_acute> <Greek_omega>    : "ᾥ"
+<dead_abovereversedcomma> <dead_iota> <U1FFA>                       : "ᾫ"   # Ὼ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <U1F7C>                       : "ᾣ"   # ὼ + Dasia + Iota
+<dead_abovereversedcomma> <dead_iota> <dead_grave> <Greek_OMEGA>    : "ᾫ"
+<dead_abovereversedcomma> <dead_iota> <dead_grave> <Greek_omega>    : "ᾣ"
+<dead_abovereversedcomma> <U1FF7>                                   : "ᾧ"   # ῷ + Dasia
+<dead_abovereversedcomma> <dead_iota> <U1F68>                       : "Ὡ"   # Ὠ + Perispomeni + Iota
+<dead_abovereversedcomma> <dead_iota> <U1F60>                       : "ᾧ"   # ὡ + Perispomeni + Iota
+<dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_OMEGA>    : "Ὡ"
+<dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_omega>    : "ᾧ"
+
+##################
+# [END OF RULES] #
+##################

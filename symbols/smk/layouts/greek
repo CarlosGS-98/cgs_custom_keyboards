@@ -1,0 +1,418 @@
+// Greek Alphabet | XKB Keyboard Symbols
+// [AUTHOR]: Carlos González Sanz
+
+// [NOTE]: These keyboards are partially based upon the
+// default "latin" and "es" symbols in regards to the
+// physical key layout.
+//
+// Put this file on either ~/.config/xkb/symbols
+// or in the same directory as
+// the other system-wide keyboard layouts.
+
+// Default SMK-Greek Keyboard
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    // [NOTE]: Keys are arranged the same way as
+    // in the standard Spanish QWERTY keyboard
+    // but with Greek letters instead.
+
+    // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ?   │ ¿   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9   │ 0  ͚ │ '   │ ¡   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ϙ Ϟ │ Ϝ   │ Ε ¤ │ Ρ   │ Τ Θ │ Ϳ   │ Υ Ȣ │ Ι Η │ Ο Ω │ Π Ψ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ϙ ϟ │ ϝ   │ ε € │ ρ   │ τ θ │ ϳ ◌ͅ │ υ ȣ │ ι η │ ο ω │ π ψ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Α   │ Σ Ϸ │ Δ Ϡ │ Φ   │ Γ   │ Ͱ   │ Χ   │ Κ Ϗ │ Λ   │ ς ◌̌ │ ◌̈ ◌̋ │ Ϛ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ α   │ σ ϸ │ δ ϡ │ φ   │ γ   │ ͱ ◌̔ │ χ   │ κ ϗ │ λ   │ ς ◌̄ │ ◌́ { │ ϛ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ Ζ Ͳ │ Ξ Ϲ │ Ϻ ◌̑ │ Ͷ ◌̊ │ Β ⌬ │ Ν   │ Μ  ͛ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ <   │ ζ ͳ │ ξ ϲ │ ϻ ◌̧ │ ͷ ◌̆ │ β ※ │ ν   │ μ ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Greek (ϘϜΕΡΤͿ)";
+
+    key <TLDE>	{ [             masculine,  ordfeminine,            backslash,              U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [                     1,  exclam,                 bar,                    U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [                     2,  quotedbl,               at,                     dead_greek          ] };
+    key <AE03>	{ [                     3,  periodcentered,         numbersign              ] };
+    key <AE04>	{ [                     4,  dollar,                 dead_tilde              ] };
+    key <AE05>	{ [                     5,  percent,                U1DCF                   ] };                        // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [                     6,  ampersand,              notsign                 ] };
+    key <AE07>	{ [                     7,  slash,                  dead_longsolidusoverlay ] };
+    key <AE08>	{ [                     8,  parenleft,              U221D,                  U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [                     9,  parenright              ] };
+    key <AE10>	{ [                     0,  equal,                  U035A,                  U21BA               ] };    // U+035A = "IPA Symbols" Dead Key; U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [            apostrophe,  question                ] };
+    key <AE12>	{ [            exclamdown,  questiondown            ] };
+
+    key <AD01>	{ [                 U03D8,  U03D9,                  U03DF,                  U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
+    key <AD02>	{ [                 U03DD,  U03DC                   ] };                                                // Lowercase Digamma, Uppercase Digamma
+    key <AD03>	{ [         Greek_epsilon,  Greek_EPSILON,          EuroSign,               dead_currency       ] };
+    key <AD04>	{ [             Greek_rho,  Greek_RHO               ] };
+    key <AD05>	{ [             Greek_tau,  Greek_TAU,              Greek_theta,            Greek_THETA         ] };
+    key <AD06>	{ [                 U03F3,  U037F,                  dead_iota               ] };                        // Lowercase Yot, Uppercase Yot, "Adscript/Subscript Iota" Dead Key
+    key <AD07>	{ [         Greek_upsilon,  Greek_UPSILON,          U0223,                  U0222               ] };    // "υ", "Υ", Lowercase Greek-Latin Ou, Uppercase Greek-Latin Ou
+    key <AD08>	{ [            Greek_iota,  Greek_IOTA,             Greek_eta,              Greek_ETA           ] };
+    key <AD09>	{ [         Greek_omicron,  Greek_OMICRON,          Greek_omega,            Greek_OMEGA         ] };
+    key <AD10>	{ [              Greek_pi,  Greek_PI,               Greek_psi,              Greek_PSI           ] };
+    key <AD11>	{ [            dead_grave,  dead_circumflex,        bracketleft,            dead_doublegrave    ] };
+    key <AD12>	{ [                  plus,  asterisk,               bracketright,           dead_horn           ] };
+
+    key <AC01>	{ [           Greek_alpha,  Greek_ALPHA             ] };
+    key <AC02>	{ [           Greek_sigma,  Greek_SIGMA,            U03F8,                  U03F7               ] };    // "σ", "Σ", Lowercase Sho, Uppercase Sho
+    key <AC03>	{ [           Greek_delta,  Greek_DELTA,            U03E1,                  U03E0               ] };    // "δ", "Δ", Lowercase Sampi, Uppercase Sampi
+    key <AC04>	{ [             Greek_phi,  Greek_PHI               ] };
+    key <AC05>	{ [           Greek_gamma,  Greek_GAMMA             ] };
+    key <AC06>	{ [                 U0371,  U0370,                  dead_abovereversedcomma ] };                        // Lowercase Heta, Uppercase Heta, "Reversed Comma Above/Dasia" Dead Key
+    key <AC07>	{ [             Greek_chi,  Greek_CHI               ] };
+    key <AC08>	{ [           Greek_kappa,  Greek_KAPPA,            U03D7,                  U03CF               ] };    // "κ", "Κ", Lowercase Kai, Uppercase Kai
+    key <AC09>	{ [          Greek_lambda,  Greek_LAMBDA            ] };
+    key <AC10>	{ [ Greek_finalsmallsigma,  Greek_finalsmallsigma,  dead_macron,            dead_caron          ] };
+    key <AC11>	{ [            dead_acute,  dead_diaeresis,         braceleft,              dead_doubleacute    ] };
+    key <BKSL>	{ [                 U03DB,  U03DA,                  braceright,             dead_ogonek         ] };    // Lowercase Stigma, Uppercase Stigma, "}", "Ogonek" Dead Key
+    
+    key <LSGT>	{ [                  less,  greater                 ] };
+    key <AB01>	{ [            Greek_zeta,  Greek_ZETA,             U0373,                  U0372               ] };    // "ζ", "Ζ", Lowercase Archaic Sampi, Uppercase Archaic Sampi
+    key <AB02>	{ [              Greek_xi,  Greek_XI,               U03F2,                  U03F9               ] };    // "ξ", "Ξ", Lowercase Lunate Sigma, Uppercase Lunate Sigma
+    key <AB03>	{ [                 U03FB,  U03FA,                  dead_cedilla,           dead_invertedbreve  ] };    // Lowercase San, Uppercase San, "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AB04>	{ [                 U0377,  U0376,                  dead_breve,             dead_abovering      ] };    // Lowercase Pamphylian Digamma, Uppercase Pamphylian Digamma, "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AB05>	{ [            Greek_beta,  Greek_BETA,             U203B,                  U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB06>	{ [              Greek_nu,  Greek_NU                ] };
+    key <AB07>	{ [              Greek_mu,  Greek_MU,               U0359,                  U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AB08>	{ [                 comma,  semicolon,              dead_belowcomma,        dead_abovecomma     ] };
+    key <AB09>	{ [                period,  colon,                  dead_abovedot,          dead_belowdot       ] };
+    key <AB10>	{ [                 minus,  underscore,             dead_stroke,            dead_hook           ] };
+
+    key <SPCE>  { [                 space,  space,                  nobreakspace            ] };
+
+    // Default modifiers
+    include "level3(ralt_switch)"
+    include "compose(rctrl-altgr)"  // As a middle ground (feel free to change this line if you want or need to)
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty" {
+    include "smk/greek(basic)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_pt" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Portuguese QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements and Greek letters.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ |   │ !   │ " ᵅ │ # · │ $   │ %   │ &   │ / ◌̸ │ ( ∝ │ ) ↻ │ = ↺ │ ?   │ » ¿ ┃ ⌫       ┃
+    // │ \   │ 1 𐤟 │ 2 @ │ 3 £ │ 4 § │ 5  ᷏ │ 6 ¬ │ 7 { │ 8 [ │ 9 ] │ 0 } │ '   │ « ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ϙ Ϟ │ Ϝ   │ Ε ¤ │ Ρ   │ Τ Θ │ Ϳ   │ Υ Ȣ │ Ι Η │ Ο Ω │ Π Ψ │ * ◌ │ ◌̀ ◌̏ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ϙ ϟ │ ϝ   │ ε € │ ρ   │ τ θ │ ϳ ◌ͅ │ υ ȣ │ ι η │ ο ω │ π ψ │ + ◌̈ │ ◌́ ◌̋ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Α   │ Σ Ϸ │ Δ Ϡ │ Φ   │ Γ   │ Ͱ   │ Χ   │ Κ Ϗ │ Λ ς │ Ϛ ◌̌ │ ª   │ ◌̂ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ α   │ σ ϸ │ δ ϡ │ φ   │ γ   │ ͱ ◌̔ │ χ   │ κ ϗ │ λ ς │ ϛ ◌̄ │ º  ͚ │ ◌̃ ◌̛ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ Ζ Ͳ │ Ξ Ϲ │ Ϻ ◌̑ │ Ͷ ◌̊ │ Β ⌬ │ Ν   │ Μ  ͛ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ <   │ ζ ͳ │ ξ ϲ │ ϻ ◌̧ │ ͷ ◌̆ │ β ※ │ ν   │ μ ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/greek(basic)"
+
+    name[Group1]= "SMK-Greek (Portuguese ϘϜΕΡΤͿ)";
+
+    key <AE01>	{ [             1,  exclam,            U10900                  ] };                             // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE03>	{ [             3,  numbersign,        sterling,               periodcentered          ] };
+    key <AE04>	{ [             4,  dollar,            section                 ] };
+    key <AE07>	{ [             7,  slash,             braceleft,              dead_longsolidusoverlay ] };
+    key <AE08>	{ [             8,  parenleft,         bracketleft,            U221D                   ] };     // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [             9,  parenright,        bracketright,           U21BB                   ] };     // U+21BB = "Arrows" Dead Key
+    key <AE10>	{ [             0,  equal,             braceright,             U21BA                   ] };     // U+21BA = "Letter Flip" Dead Key
+    key <AE12>	{ [ guillemetleft,  guillemetright,    exclamdown,             questiondown            ] };
+
+    key <AD11>	{ [          plus,  asterisk,          dead_diaeresis,         U25CC                   ] };     // U+25CC = Dotted Circle
+    key <AD12>	{ [    dead_acute,  dead_grave,        dead_doubleacute,       dead_doublegrave        ] };
+
+    key <AC10>	{ [         U03DB,  U03DA,             dead_macron,            dead_caron              ] };     // Lowercase Stigma, Uppercase Stigma, "Macron" Dead Key, "Ogonek" Dead Key
+    key <AC11>	{ [     masculine,  ordfeminine,       U035A                   ] };                             // U+035A = "IPA Symbols" Dead Key 
+    key <BKSL>	{ [    dead_tilde,  dead_circumflex,   dead_horn,              dead_ogonek             ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_el" {
+    // [NOTE]: This layout is based off a mixture between
+    // the American QWERTY keyboard, the Greek QWERTY/;ςΕΡΤΥ one
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌̃ ◌ │ !   │ @   │ #   │ $   │ %   │ ◌̂   │ &   │ * ↻ │ (   │ ) ↺ │ _ ◌̄ │ + ¿ ┃ ⌫       ┃
+    // │ ◌̀ ◌̏ │ 1 𐤟 │ 2 ᵅ │ 3 · │ 4 ¤ │ 5  ᷏ │ 6 ¬ │ 7   │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ - ◌̵ │ = ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ϙ Ϟ │ Ϝ   │ Ε   │ Ρ   │ Τ Θ │ Ϳ   │ Υ Ȣ │ Ι Η │ Ο Ω │ Π Ψ │ { ς │ } Ϛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ϙ ϟ │ ϝ   │ ε € │ ρ   │ τ θ │ ϳ ◌ͅ │ υ ȣ │ ι η │ ο ω │ π ψ │ [ ς │ ] ϛ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Α   │ Σ Ϸ │ Δ Ϡ │ Φ   │ Γ   │ Ͱ   │ Χ   │ Κ Ϗ │ Λ   │ : ◌̌ │ " ◌̋ │ | ◌̛ ┃      ┃
+    // ┃  Lock  ┃ α   │ σ ϸ │ δ ϡ │ φ   │ γ   │ ͱ ◌̔ │ χ   │ κ ϗ │ λ   │ ; ◌̈ │ ' ◌́ │ \ ◌̨ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ |   │ Ζ Ͳ │ Ξ Ϲ │ Ϻ ◌̑ │ Ͷ ◌̊ │ Β ⌬ │ Ν   │ Μ  ͛ │ < ◌̓ │ > ◌̣ │ ? ◌̉ ┃              ┃
+    // ┃Shift ┃ \   │ ζ ͳ │ ξ ϲ │ ϻ ◌̧ │ ͷ ◌̆ │ β ※ │ ν   │ μ ◌̡̢ │ , ◌̦ │ . ◌̇ │ / ◌̸ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/greek(basic)"
+
+    name[Group1]= "SMK-Greek (Greek+US ϘϜΕΡΤͿ)";
+
+    key <TLDE>	{ [    dead_grave,      dead_tilde,        dead_doublegrave,         U25CC                  ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [             1,      exclam,            U10900                    ] };                           // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [             2,      at,                dead_greek                ] };
+    key <AE03>	{ [             3,      numbersign,        periodcentered            ] };
+    key <AE04>	{ [             4,      dollar,            dead_currency             ] };
+    key <AE05>	{ [             5,      percent,           U1DCF                     ] };                           // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [             6,      dead_circumflex,   notsign                   ] };
+    key <AE07>	{ [             7,      ampersand          ] };
+    key <AE08>	{ [             8,      asterisk,          U221D,                    U21BB                  ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [             9,      parenleft,         U1DFB                     ] };                           // U+1DFB = "Historical Letters" Dead Key
+    key <AE10>	{ [             0,      parenright,        U035A,                    U21BA                  ] };    // U+035A = "IPA Symbols" Dead Key; U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [         minus,      underscore,        dead_stroke,              dead_macron            ] };
+    key <AE12>	{ [         equal,      plus,              exclamdown,               questiondown           ] };
+
+    key <AD03>	{ [ Greek_epsilon,      Greek_EPSILON,     EuroSign                  ] };
+    key <AD11>	{ [   bracketleft,      braceleft,         Greek_finalsmallsigma,    Greek_finalsmallsigma  ] };
+    key <AD12>	{ [  bracketright,      braceright,        U03DB,                    U03DA                  ] };    // "]", "}", Lowercase Stigma, Uppercase Stigma
+
+    key <AC10>	{ [     semicolon,      colon,             dead_diaeresis,           dead_caron             ] };
+    key <AC11>	{ [    apostrophe,      quotedbl,          dead_acute,               dead_doubleacute       ] };
+    key <BKSL>	{ [     backslash,      bar,               dead_ogonek,              dead_horn              ] };
+
+    key <LSGT>	{ [     backslash,      bar,               ] };
+    key <AB08>	{ [         comma,      less,              dead_belowcomma           ] };
+    key <AB09>	{ [        period,      greater,           dead_abovedot,            dead_belowdot          ] };
+    key <AB10>	{ [         minus,      underscore,        dead_longsolidusoverlay,  dead_hook              ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwertz" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Austrian-German QWERTZ keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements and Greek letters.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ §   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ?   │ ¿   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 ² │ 3 ³ │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9   │ 0  ͚ │ ·   │ ¡   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ϙ Ϟ │ Ϝ   │ Ε ¤ │ Ρ   │ Τ Θ │ Ζ Ͳ │ Υ Ȣ │ Ι Η │ Ο Ω │ Π Ψ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ϙ ϟ │ ϝ   │ ε € │ ρ   │ τ θ │ ζ ͳ │ υ ȣ │ ι η │ ο ω │ π ψ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Α   │ Σ Ϸ │ Δ Ϡ │ Φ   │ Γ   │ Ͱ   │ Χ   │ Κ Ϗ │ Λ   │ ς ◌̌ │ ◌̈ ◌̋ │ ' ◌̨ ┃      ┃
+    // ┃  Lock  ┃ α @ │ σ ϸ │ δ ϡ │ φ   │ γ   │ ͱ ◌̔ │ χ   │ κ ϗ │ λ   │ ς ◌̄ │ ◌́ { │ # } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Ϛ │ Ϳ   │ Ξ Ϲ │ Ϻ ◌̑ │ Ͷ ◌̊ │ Β ⌬ │ Ν   │ Μ  ͛ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < ϛ │ ϳ ◌ͅ │ ξ ϲ │ ϻ ◌̧ │ ͷ ◌̆ │ β ※ │ ν   │ μ ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/greek(basic)"
+
+    name[Group1]= "SMK-Greek (ϘϜΕΡΤΖ)";
+
+    key <AE02>	{ [                     2,  quotedbl,               twosuperior,    dead_greek  ] };
+    key <AE03>	{ [                     3,  section,                threesuperior   ] };
+    key <AE11>	{ [        periodcentered,  question                ] };
+
+    key <AD06>	{ [            Greek_zeta,  Greek_ZETA,             U0373,          U0372       ] };    // "ζ", "Ζ", Lowercase Archaic Sampi, Uppercase Archaic Sampi
+
+    key <AC01>	{ [           Greek_alpha,  Greek_ALPHA,            at              ] };
+    key <AC10>	{ [ Greek_finalsmallsigma,  Greek_finalsmallsigma,  dead_macron,    dead_caron  ] };
+    key <BKSL>	{ [            numbersign,  apostrophe,             braceright,     dead_ogonek ] };
+
+    key <LSGT>	{ [                  less,  greater,                U03DB,          U03DA       ] };    // "<", ">", Lowercase Stigma, Uppercase Stigma
+    key <AB01>	{ [                 U03F3,  U037F,                  dead_iota       ] };                // Lowercase Yot, Uppercase Yot, "Adscript/Subscript Iota" Dead Key
+};
+
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Dvorak keyboard, except for the presence
+    // of Greek letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ?   │ ¿   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9   │ 0  ͚ │ '   │ ¡   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ : ◌̣ │ ; ◌̓ │ ς ◌̌ │ Π Ψ │ Ϳ   │ F   │ Γ   │ Ϻ ◌̑ │ Ͱ   │ Λ   │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ . ◌̇ │ , ◌̦ │ ς ◌̄ │ π ψ │ ϳ ◌ͅ │ f   │ γ   │ ϻ ◌̧ │ ͱ ◌̔ │ λ   │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Α   │ Ο Ω │ Ε ¤ │ Υ Ȣ │ Ι Η │ Δ Ϡ │ Ρ   │ Τ Θ │ Ν   │ Σ Ϸ │ ◌̈ ◌̋ │ Ϛ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ α   │ ο ω │ ε € │ υ ȣ │ ι η │ δ ϡ │ ρ   │ τ θ │ ν   │ σ ϸ │ ◌́ { │ ϛ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ _ ◌̉ │ Ϙ Ϟ │ Χ   │ Κ Ϗ │ Ξ Ϲ │ Β ⌬ │ Μ  ͛ │ Ϝ   │ Ͷ ◌̊ │ Ζ Ͳ ┃              ┃
+    // ┃Shift ┃ <   │ - ◌̵ │ ϙ ϟ │ χ   │ κ ϗ │ ξ ϲ │ β ※ │ μ ◌̡̢ │ ϝ   │ ͷ ◌̆ │ ζ ͳ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/greek(basic)"
+
+    name[Group1]= "SMK-Greek (Ντβόρακ)";
+
+    key <AD01>	{ [                period,  colon,                  dead_abovedot,              dead_belowdot       ] };
+    key <AD02>	{ [                 comma,  semicolon,              dead_belowcomma,            dead_abovecomma     ] };
+    key <AD03>	{ [ Greek_finalsmallsigma,  Greek_finalsmallsigma,  dead_macron,                dead_caron          ] };
+    key <AD04>	{ [              Greek_pi,  Greek_PI,               Greek_psi,                  Greek_PSI           ] };
+    key <AD05>	{ [                 U03F3,  U037F,                  dead_iota                   ] };                        // Lowercase Yot, Uppercase Yot, "Adscript/Subscript Iota" Dead Key
+    key <AD06>	{ [             Greek_phi,  Greek_PHI               ] };
+    key <AD07>	{ [           Greek_gamma,  Greek_GAMMA             ] };
+    key <AD08>	{ [                 U03FB,  U03FA,                  dead_cedilla,               dead_invertedbreve  ] };    // Lowercase San, Uppercase San, "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AD09>	{ [                 U0371,  U0370,                  dead_abovereversedcomma     ] };                        // Lowercase Heta, Uppercase Heta, "Reversed Comma Above/Dasia" Dead Key
+    key <AD10>	{ [          Greek_lambda,  Greek_LAMBDA            ] };
+	
+    key <AC02>	{ [         Greek_omicron,  Greek_OMICRON,          Greek_omega,                Greek_OMEGA         ] };
+    key <AC03>	{ [         Greek_epsilon,  Greek_EPSILON,          EuroSign,                   dead_currency       ] };
+    key <AC04>	{ [         Greek_upsilon,  Greek_UPSILON,          U0223,                      U0222               ] };    // "υ", "Υ", Lowercase Greek-Latin Ou, Uppercase Greek-Latin Ou
+    key <AC05>	{ [            Greek_iota,  Greek_IOTA,             Greek_eta,                  Greek_ETA           ] };
+    key <AC06>	{ [           Greek_delta,  Greek_DELTA,            U03E1,                      U03E0               ] };    // "δ", "Δ", Lowercase Sampi, Uppercase Sampi
+    key <AC07>	{ [             Greek_rho,  Greek_RHO               ] };
+    key <AC08>	{ [             Greek_tau,  Greek_TAU,              Greek_theta,                Greek_THETA         ] };
+    key <AC09>	{ [              Greek_nu,  Greek_NU                ] };
+    key <AC10>	{ [           Greek_sigma,  Greek_SIGMA,            U03F8,                      U03F7               ] };    // "σ", "Σ", Lowercase Sho, Uppercase Sho
+
+    key <AB01>	{ [                 minus,  underscore,             dead_stroke,                dead_hook           ] };
+    key <AB02>	{ [                 U03D8,  U03D9,                  U03DF,                      U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
+    key <AB03>	{ [             Greek_chi,  Greek_CHI               ] };
+    key <AB04>	{ [           Greek_kappa,  Greek_KAPPA,            U03D7,                      U03CF               ] };    // "κ", "Κ", Lowercase Kai, Uppercase Kai
+    key <AB05>	{ [              Greek_xi,  Greek_XI,               U03F2,                      U03F9               ] };    // "ξ", "Ξ", Lowercase Lunate Sigma, Uppercase Lunate Sigma
+    key <AB06>	{ [            Greek_beta,  Greek_BETA,             U203B,                      U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB08>	{ [                 U03DD,  U03DC                   ] };                                                    // Lowercase Digamma, Uppercase Digamma
+    key <AB09>	{ [                 U0377,  U0376,                  dead_breve,                 dead_abovering      ] };    // Lowercase Pamphylian Digamma, Uppercase Pamphylian Digamma, "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AB10>	{ [            Greek_zeta,  Greek_ZETA,             U0373,                      U0372               ] };    // "ζ", "Ζ", Lowercase Archaic Sampi, Uppercase Archaic Sampi
+};
+
+partial alphanumeric_keys
+xkb_symbols "colemak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Colemak keyboard.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ?   │ ¿   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9   │ 0  ͚ │ '   │ ¡   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ϙ Ϟ │ Ϝ   │ Φ   │ Π Ψ │ Γ   │ Χ   │ Λ   │ Υ Ȣ │ Ϳ   │ ς ◌̌ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ϙ ϟ │ ϝ   │ φ   │ π ψ │ γ   │ χ   │ λ   │ υ ȣ │ ϳ ◌ͅ │ ς ◌̄ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Α   │ Ρ   │ Σ Ϸ │ Τ Θ │ Δ Ϡ │ Ͱ   │ Ν   │ Ε ¤ │ Ι Η │ Ο Ω │ ◌̈ ◌̋ │ Ϛ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ α   │ ρ   │ σ ϸ │ τ θ │ δ ϡ │ ͱ ◌̔ │ ν   │ ε € │ ι η │ ο ω │ ◌́ { │ ϛ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ Ζ Ͳ │ Ξ Ϲ │ Ϻ ◌̑ │ Ͷ ◌̊ │ Β ⌬ │ Κ Ϗ │ Μ  ͛ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ <   │ ζ ͳ │ ξ ϲ │ ϻ ◌̧ │ ͷ ◌̆ │ β ※ │ κ ϗ │ μ ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/greek(basic)"
+
+    name[Group1]= "SMK-Greek (Κόλμακ)";
+
+    key <AD03>	{ [                 Greek_phi,      Greek_PHI               ] };
+    key <AD04>	{ [                  Greek_pi,      Greek_PI,               Greek_psi,              Greek_PSI           ] };
+    key <AD05>	{ [               Greek_gamma,      Greek_GAMMA             ] };
+    key <AD06>	{ [                 Greek_chi,      Greek_CHI               ] };
+    key <AD07>	{ [              Greek_lambda,      Greek_LAMBDA            ] };
+    key <AD08>	{ [             Greek_upsilon,      Greek_UPSILON,          U0223,                  U0222               ] };    // "υ", "Υ", Lowercase Greek-Latin Ou, Uppercase Greek-Latin Ou
+    key <AD09>	{ [                     U03F3,      U037F,                  dead_iota               ] };                        // Lowercase Yot, Uppercase Yot, "Adscript/Subscript Iota" Dead Key
+    key <AD10>	{ [     Greek_finalsmallsigma,      Greek_finalsmallsigma,  dead_macron,            dead_caron          ] };
+
+    key <AC02>	{ [                 Greek_rho,      Greek_RHO               ] };
+    key <AC03>	{ [               Greek_sigma,      Greek_SIGMA,            U03F8,                  U03F7               ] };    // "σ", "Σ", Lowercase Sho, Uppercase Sho
+    key <AC04>	{ [                 Greek_tau,      Greek_TAU,              Greek_theta,            Greek_THETA         ] };
+    key <AC05>	{ [               Greek_delta,      Greek_DELTA,            U03E1,                  U03E0               ] };    // "δ", "Δ", Lowercase Sampi, Uppercase Sampi
+    key <AC06>	{ [                     U0371,      U0370,                  dead_abovereversedcomma ] };                        // Lowercase Heta, Uppercase Heta, "Reversed Comma Above/Dasia" Dead Key
+    key <AC07>	{ [                  Greek_nu,      Greek_NU                ] };
+    key <AC08>	{ [             Greek_epsilon,      Greek_EPSILON,          EuroSign,               dead_currency       ] };
+    key <AC09>	{ [                Greek_iota,      Greek_IOTA,             Greek_eta,              Greek_ETA           ] };
+    key <AC10>	{ [             Greek_omicron,      Greek_OMICRON,          Greek_omega,            Greek_OMEGA         ] };
+
+    key <AB06>	{ [               Greek_kappa,      Greek_KAPPA,            U03D7,                  U03CF               ] };    // "κ", "Κ", Lowercase Kai, Uppercase Kai
+};
+
+partial alphanumeric_keys
+xkb_symbols "jcuken" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Russian ЙЦУКЕН keyboard (its approximate Greek-based form)
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ?   │ ¿   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9   │ 0  ͚ │ '   │ ¡   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Χ   │ Ϻ Ϛ │ Υ Ȣ │ Κ Ϗ │ Ε ¤ │ Ν   │ Γ   │ Ζ Ͳ │ Ξ Ϲ │ Ϙ Ϟ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ χ   │ ϻ ϛ │ υ ȣ │ κ ϗ │ ε € │ ν   │ γ   │ ζ ͳ │ ξ ϲ │ ϙ ϟ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Φ   │ Ι Η │ Ͷ ◌̊ │ Α   │ Π Ψ │ Ρ   │ Ο Ω │ Λ   │ Ͱ   │ ς ◌̌ │ ◌̈ ◌̋ │ Ϝ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ φ   │ ι η │ ͷ ◌̆ │ α   │ π ψ │ ρ   │ ο ω │ λ   │ ͱ ◌̔ │ ς ◌̄ │ ◌́ { │ ϝ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ Ϳ   │ Ϛ ◌̑ │ Σ Ϸ │ Μ  ͛ │ Δ Ϡ │ Τ Θ │ Β ⌬ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ <   │ ϳ ◌ͅ │ ϛ ◌̧ │ σ ϸ │ μ ◌̡̢ │ δ ϡ │ τ θ │ β ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/greek(basic)"
+
+    name[Group1]= "SMK-Greek (ΧϺΥΚΕΝ)";
+
+    key <AD01>	{ [     Greek_chi,  Greek_CHI       ] };
+    key <AD02>	{ [         U03FB,  U03FA,          U03DB,                  U03DA               ] };    // Lowercase San, Uppercase San, Lowercase Stigma, Uppercase Stigma
+    key <AD03>	{ [ Greek_upsilon,  Greek_UPSILON,  U0223,                  U0222               ] };    // "υ", "Υ", Lowercase Greek-Latin Ou, Uppercase Greek-Latin Ou
+    key <AD04>	{ [   Greek_kappa,  Greek_KAPPA,    U03D7,                  U03CF               ] };    // "κ", "Κ", Lowercase Kai, Uppercase Kai
+    key <AD05>	{ [ Greek_epsilon,  Greek_EPSILON,  EuroSign,               dead_currency       ] };
+    key <AD06>	{ [      Greek_nu,  Greek_NU        ] };
+    key <AD07>	{ [   Greek_gamma,  Greek_GAMMA     ] };
+    key <AD08>	{ [    Greek_zeta,  Greek_ZETA,     U0373,                  U0372               ] };    // "ζ", "Ζ", Lowercase Archaic Sampi, Uppercase Archaic Sampi
+    key <AD09>	{ [      Greek_xi,  Greek_XI,       U03F2,                  U03F9               ] };    // "ξ", "Ξ", Lowercase Lunate Sigma, Uppercase Lunate Sigma
+    key <AD10>	{ [         U03D8,  U03D9,          U03DF,                  U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
+
+    key <AC01>	{ [     Greek_phi,  Greek_PHI       ] };
+    key <AC02>	{ [    Greek_iota,  Greek_IOTA,     Greek_eta,              Greek_ETA           ] };
+    key <AC03>	{ [         U0377,  U0376,          dead_breve,             dead_abovering      ] };    // Lowercase Pamphylian Digamma, Uppercase Pamphylian Digamma, "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AC04>	{ [   Greek_alpha,  Greek_ALPHA     ] };
+    key <AC05>	{ [      Greek_pi,  Greek_PI,       Greek_psi,              Greek_PSI           ] };
+    key <AC06>	{ [     Greek_rho,  Greek_RHO       ] };
+    key <AC07>	{ [ Greek_omicron,  Greek_OMICRON,  Greek_omega,            Greek_OMEGA         ] };
+    key <AC08>	{ [  Greek_lambda,  Greek_LAMBDA    ] };
+    key <AC09>	{ [         U0371,  U0370,          dead_abovereversedcomma ] };                        // Lowercase Heta, Uppercase Heta, "Reversed Comma Above/Dasia" Dead Key
+    key <BKSL>	{ [         U03DD,  U03DC,          braceright,             dead_ogonek         ] };    // Lowercase Digamma, Uppercase Digamma, "}", "Ogonek" Dead Key
+
+    key <AB01>	{ [         U03F3,  U037F,          dead_iota               ] };                        // Lowercase Yot, Uppercase Yot, "Adscript/Subscript Iota" Dead Key
+    key <AB02>	{ [         U03DB,  U03DA,          dead_cedilla,           dead_invertedbreve  ] };    // Lowercase Stigma, Uppercase Stigma, "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AB03>	{ [   Greek_sigma,  Greek_SIGMA,    U03F8,                  U03F7               ] };    // "σ", "Σ", Lowercase Sho, Uppercase Sho
+    key <AB04>	{ [      Greek_mu,  Greek_MU,       U0359,                  U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AB05>	{ [   Greek_delta,  Greek_DELTA,    U03E1,                  U03E0               ] };    // "δ", "Δ", Lowercase Sampi, Uppercase Sampi
+    key <AB06>	{ [     Greek_tau,  Greek_TAU,      Greek_theta,            Greek_THETA         ] };
+    key <AB07>	{ [    Greek_beta,  Greek_BETA,     U203B,                  U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+};
+
+// [TODO]; Add more variants if needed

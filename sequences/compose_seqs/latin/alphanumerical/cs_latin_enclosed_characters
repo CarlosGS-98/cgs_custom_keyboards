@@ -158,10 +158,6 @@
 <Multi_key> <dollar> <masculine> <z> <space>                        : "ⓩ"
 
 
-# Miscellaneous Characters (Alphabetical)
-<Multi_key> <dollar> <less> <question> <greater> <space>    : "�"   # Unicode Replacement Character
-
-
 # Squared Characters (Alphabetical)
 <Multi_key> <dollar> <bracketleft> <1> <2> <0> <P> <bracketright> <space>                   : "🆤"
 <Multi_key> <dollar> <bracketleft> <1> <2> <0> <p> <bracketright> <space>                   : "🆤"

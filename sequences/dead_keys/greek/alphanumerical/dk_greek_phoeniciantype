@@ -1,0 +1,67 @@
+# Greek Alphabet | Phoenician Converter Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Phoenician_alphabet
+#
+# [NOTE]: Combinations will be listed following
+# Phoenician letter ordering as closely as possible.
+#
+# Additionally, each combination will get assigned to the closest
+# Greek letter that better matches its Phoenician counterpart.
+#
+<U10900> <Greek_ALPHA>              : "𐤀"   # ʾĀlep
+<U10900> <Greek_alpha>              : "𐤀"   # ʾĀlep
+<U10900> <Greek_BETA>               : "𐤁"   # Bēt
+<U10900> <Greek_beta>               : "𐤁"   # Bēt
+<U10900> <Greek_GAMMA>              : "𐤂"   # Gīml
+<U10900> <Greek_gamma>              : "𐤂"   # Gīml
+<U10900> <Greek_DELTA>              : "𐤃"   # Dālet
+<U10900> <Greek_delta>              : "𐤃"   # Dālet
+<U10900> <Greek_EPSILON>            : "𐤄"   # He
+<U10900> <Greek_epsilon>            : "𐤄"   # He
+<U10900> <Greek_UPSILON>            : "𐤅"   # Wāw
+<U10900> <Greek_upsilon>            : "𐤅"   # Wāw
+<U10900> <U03DC>                    : "𐤅"   # Wāw
+<U10900> <U03DD>                    : "𐤅"   # Wāw
+<U10900> <Greek_ZETA>               : "𐤆"   # Zayin
+<U10900> <Greek_zeta>               : "𐤆"   # Zayin
+<U10900> <Greek_ETA>                : "𐤇"   # Ḥēt
+<U10900> <Greek_eta>                : "𐤇"   # Ḥēt
+<U10900> <Greek_THETA>              : "𐤈"   # Ṭēt
+<U10900> <Greek_theta>              : "𐤈"   # Ṭēt
+<U10900> <Greek_IOTA>               : "𐤉"   # Yod
+<U10900> <Greek_iota>               : "𐤉"   # Yod
+<U10900> <Greek_KAPPA>              : "𐤊"   # Kāp
+<U10900> <Greek_kappa>              : "𐤊"   # Kāp
+<U10900> <Greek_LAMBDA>             : "𐤋"   # Lāmed
+<U10900> <Greek_lambda>             : "𐤋"   # Lāmed
+<U10900> <Greek_MU>                 : "𐤌"   # Mēm
+<U10900> <Greek_mu>                 : "𐤌"   # Mēm
+<U10900> <Greek_NU>                 : "𐤍"   # Nūn
+<U10900> <Greek_nu>                 : "𐤍"   # Nūn
+<U10900> <Greek_XI>                 : "𐤎"   # Śāmek
+<U10900> <Greek_xi>                 : "𐤎"   # Śāmek
+<U10900> <Greek_OMICRON>            : "𐤏"   # ʿAyin
+<U10900> <Greek_omicron>            : "𐤏"   # ʿAyin
+<U10900> <Greek_OMEGA>              : "𐤏"   # ʿAyin
+<U10900> <Greek_omega>              : "𐤏"   # ʿAyin
+<U10900> <Greek_PI>                 : "𐤐"   # Pē
+<U10900> <Greek_pi>                 : "𐤐"   # Pē
+<U10900> <U03FA>                    : "𐤑"   # Ṣādē
+<U10900> <U03FB>                    : "𐤑"   # Ṣādē
+<U10900> <Greek_PHI>                : "𐤒"   # Qōp
+<U10900> <Greek_phi>                : "𐤒"   # Qōp
+<U10900> <U03D8>                    : "𐤒"   # Qōp
+<U10900> <U03D9>                    : "𐤒"   # Qōp
+<U10900> <Greek_RHO>                : "𐤓"   # Rēs/Reš
+<U10900> <Greek_rho>                : "𐤓"   # Rēs/Reš
+<U10900> <Greek_SIGMA>              : "𐤔"   # Šīn
+<U10900> <Greek_sigma>              : "𐤔"   # Šīn
+<U10900> <Greek_finalsmallsigma>    : "𐤔"   # Šīn
+<U10900> <Greek_TAU>                : "𐤕"   # Tāw
+<U10900> <Greek_tau>                : "𐤕"   # Tāw
+
+##################
+# [END OF RULES] #
+##################

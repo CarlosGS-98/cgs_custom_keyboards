@@ -1,0 +1,13 @@
+# Greek Alphabet | Adscript/Subscript Iota (Ypogegrammeni) Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Greek_diacritics
+#
+
+# Basic combinations
+<dead_iota> <space>     : "ͅ"    # Combining Ypogegrammeni
+<dead_iota> <dead_iota> : "ͺ"   # Spacing Ypogegrammeni
+
+##################
+# [END OF RULES] #
+##################

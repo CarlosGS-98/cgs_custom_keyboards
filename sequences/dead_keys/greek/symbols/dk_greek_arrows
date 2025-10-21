@@ -1,0 +1,134 @@
+# Greek Alphabet | Arrows Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Functional Arrows
+<U21BB> <Greek_KAPPA> <Greek_ALPHA> <Greek_PI> <Greek_SIGMA> <space>                        : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Greek_KAPPA> <Greek_alpha> <Greek_pi> <Greek_sigma> <space>                        : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Greek_kappa> <Greek_alpha> <Greek_pi> <Greek_sigma> <space>                        : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Greek_DELTA> <Greek_UPSILON> <Greek_PI> <space>                                    : "⇮"
+<U21BB> <Greek_DELTA> <Greek_upsilon> <Greek_pi> <space>                                    : "⇯"
+<U21BB> <Greek_delta> <Greek_upsilon> <Greek_pi> <space>                                    : "⇰"
+<U21BB> <Greek_MU> <Greek_ALPHA> <U037F> <Uacute> <Greek_SIGMA> <space>                     : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Greek_MU> <Greek_ALPHA> <U037F> <dead_acute> <Greek_UPSILON> <Greek_SIGMA> <space> : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Greek_MU> <Greek_alpha> <U03F3> <uacute> <Greek_sigma> <space>                     : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Greek_MU> <Greek_alpha> <U03F3> <dead_acute> <Greek_upsilon> <Greek_sigma> <space> : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Greek_mu> <Greek_alpha> <U03F3> <uacute> <Greek_sigma> <space>                     : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Greek_mu> <Greek_alpha> <U03F3> <dead_acute> <Greek_upsilon> <Greek_sigma> <space> : "⇬"   # Caps Lock Arrow Key
+<U21BB> <Greek_NU> <Greek_UPSILON> <Greek_MU> <space>                                       : "⇭"   # Num Lock Arrow Key
+<U21BB> <Greek_NU> <Greek_upsilon> <Greek_mu> <space>                                       : "⇭"   # Num Lock Arrow Key
+<U21BB> <Greek_nu> <Greek_upsilon> <Greek_mu> <space>                                       : "⇭"   # Num Lock Arrow Key
+<U21BB> <Greek_SIGMA> <U0370> <Greek_IOTA> <Greek_PHI> <Greek_TAU> <space>                  : "⇫"   # Shift Arrow Key + Pedestal
+<U21BB> <Greek_SIGMA> <U0371> <Greek_iota> <Greek_phi> <Greek_tau> <space>                  : "⇪"   # Shift Arrow Key
+<U21BB> <Greek_sigma> <U0371> <Greek_iota> <Greek_phi> <Greek_tau> <space>                  : "⇪"   # Shift Arrow Key
+
+
+# Harpoons
+<U21BB> <minus> <asterisk> <U0376> <space>  : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <minus> <asterisk> <U0377> <space>  : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <plus> <asterisk> <U0376> <space>   : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <plus> <asterisk> <U0377> <space>   : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <U0376> <asterisk> <plus> <space>   : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <U0377> <asterisk> <plus> <space>   : "⇂"   # Downwards harpoon with rightwards barb
+<U21BB> <U0376> <asterisk> <minus> <space>  : "⇃"   # Downwards harpoon with leftwards barb
+<U21BB> <U0377> <asterisk> <minus> <space>  : "⇃"   # Downwards harpoon with leftwards barb
+
+
+# Multiple Arrows
+<U21BB> <asciicircum> <bar> <bar> <U0376> <space>       : "⇅"   # Upwards-downwards arrow
+<U21BB> <asciicircum> <bar> <bar> <U0377> <space>       : "⇅"   # Upwards-downwards arrow
+<U21BB> <dead_circumflex> <bar> <bar> <U0376> <space>   : "⇅"   # Upwards-downwards arrow
+<U21BB> <dead_circumflex> <bar> <bar> <U0377> <space>   : "⇅"   # Upwards-downwards arrow
+<U21BB> <U0376> <bar> <2> <space>                       : "⇊"   # Downwards paired arrows
+<U21BB> <U0377> <bar> <2> <space>                       : "⇊"   # Downwards paired arrows
+<U21BB> <U0376> <bar> <U0376> <bar> <space>             : "⇊"   # Downwards paired arrows
+<U21BB> <U0377> <bar> <U0377> <bar> <space>             : "⇊"   # Downwards paired arrows
+
+
+# Thick Arrows
+<U21BB> <asciicircum> <equal> <U0376> <space>                           : "⇕"   # Upwards-downwards double arrow
+<U21BB> <asciicircum> <equal> <U0377> <space>                           : "⇕"   # Upwards-downwards double arrow
+<U21BB> <bar> <bar> <U0376> <space>                                     : "⇓"    # Downwards double arrow
+<U21BB> <bar> <bar> <U0377> <space>                                     : "⇓"    # Downwards double arrow
+<U21BB> <bracketleft> <asciicircum> <U0376> <bracketright> <space>      : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <asciicircum> <U0377> <bracketright> <space>      : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <dead_circumflex> <U0376> <bracketright> <space>  : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <dead_circumflex> <U0377> <bracketright> <space>  : "⇧"   # Upwards white arrow
+<U21BB> <bracketleft> <U0376> <bracketright> <space>                    : "⇩"   # Downwards white arrow
+<U21BB> <bracketleft> <U0377> <bracketright> <space>                    : "⇩"   # Downwards white arrow
+<U21BB> <dead_circumflex> <equal> <U0376> <space>                       : "⇕"   # Upwards-downwards double arrow
+<U21BB> <dead_circumflex> <equal> <U0377> <space>                       : "⇕"   # Upwards-downwards double arrow
+<U21BB> <equal> <U0376> <space>                                         : "⇘"   # Southeast double arrow
+<U21BB> <equal> <U0377> <space>                                         : "⇘"   # Southeast double arrow
+<U21BB> <U0376> <bar> <bar> <space>                                     : "⇓"    # Downwards double arrow
+<U21BB> <U0377> <bar> <bar> <space>                                     : "⇓"    # Downwards double arrow
+<U21BB> <U0376> <equal> <space>                                         : "⇙"   # Southwest double arrow
+<U21BB> <U0377> <equal> <space>                                         : "⇙"   # Southwest double arrow
+<U21BB> <U0376> <equal> <asciicircum> <space>                           : "⇕"   # Upwards-downwards double arrow
+<U21BB> <U0377> <equal> <asciicircum> <space>                           : "⇕"   # Upwards-downwards double arrow
+<U21BB> <U0376> <equal> <U0376> <space>                                 : "⇕"   # Upwards-downwards double arrow
+<U21BB> <U0377> <equal> <U0377> <space>                                 : "⇕"   # Upwards-downwards double arrow
+
+
+# Thin Arrows
+<U21BB> <asciicircum> <bar> <U0376> <space>             : "↕"   # Up-down arrow
+<U21BB> <asciicircum> <bar> <U0377> <space>             : "↕"   # Up-down arrow
+<U21BB> <asciicircum> <bar> <U0376> <U0376> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <asciicircum> <bar> <U0377> <U0377> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <asterisk> <U0376> <space>                      : "↯"   # Electrical arrow
+<U21BB> <asterisk> <U0377> <space>                      : "↯"   # Electrical arrow
+<U21BB> <bar> <equal> <U0376> <space>                   : "⇟"   # Page Down
+<U21BB> <bar> <equal> <U0377> <space>                   : "⇟"   # Page Down
+<U21BB> <bar> <U0376> <space>                           : "↓"   # Downwards arrow
+<U21BB> <bar> <U0377> <space>                           : "↓"   # Downwards arrow
+<U21BB> <bar> <U0376> <greater> <space>                 : "↳"   # Downwards-rightwards arrow
+<U21BB> <bar> <U0377> <greater> <space>                 : "↳"   # Downwards-rightwards arrow
+<U21BB> <bar> <U0376> <U0376> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <bar> <U0377> <U0377> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <dead_circumflex> <bar> <U0376> <space>         : "↕"   # Up-down arrow
+<U21BB> <dead_circumflex> <bar> <U0377> <space>         : "↕"   # Up-down arrow
+<U21BB> <dead_circumflex> <bar> <U0376> <U0376> <space> : "↨"   # Up-down arrow with base
+<U21BB> <dead_circumflex> <bar> <U0377> <U0377> <space> : "↨"   # Up-down arrow with base
+<U21BB> <dead_circumflex> <U0376> <space>               : "↥"   # Upwards arrow from bar
+<U21BB> <dead_circumflex> <U0377> <space>               : "↥"   # Upwards arrow from bar
+<U21BB> <less> <U0376> <bar> <space>                    : "↲"   # Downwards-leftwards arrow
+<U21BB> <less> <U0377> <bar> <space>                    : "↲"   # Downwards-leftwards arrow
+<U21BB> <less> <U0376> <minus> <space>                  : "↜"  # Leftwards wave arrow
+<U21BB> <less> <U0377> <minus> <space>                  : "↜"  # Leftwards wave arrow
+<U21BB> <minus> <bar> <U0376> <space>                   : "↴"   # Rightwards-downwards arrow with corner
+<U21BB> <minus> <bar> <U0377> <space>                   : "↴"   # Rightwards-downwards arrow with corner
+<U21BB> <minus> <U0376> <space>                         : "↘"   # Southeast arrow
+<U21BB> <minus> <U0377> <space>                         : "↘"   # Southeast arrow
+<U21BB> <minus> <U0376> <greater> <space>               : "↝"  # Rightwards wave arrow
+<U21BB> <minus> <U0377> <greater> <space>               : "↝"  # Rightwards wave arrow
+<U21BB> <period> <U0376> <space>                        : "⇣"   # Downwards dashed arrow
+<U21BB> <period> <U0377> <space>                        : "⇣"   # Downwards dashed arrow
+<U21BB> <U0376> <asciicircum> <space>                   : "↧"   # Downwards arrow from bar
+<U21BB> <U0377> <asciicircum> <space>                   : "↧"   # Downwards arrow from bar
+<U21BB> <U0376> <asterisk> <space>                      : "↯"   # Electrical arrow
+<U21BB> <U0377> <asterisk> <space>                      : "↯"   # Electrical arrow
+<U21BB> <U0376> <bar> <space>                           : "↓"   # Downwards arrow
+<U21BB> <U0377> <bar> <space>                           : "↓"   # Downwards arrow
+<U21BB> <U0376> <bar> <asciicircum> <space>             : "↕"   # Up-down arrow
+<U21BB> <U0377> <bar> <asciicircum> <space>             : "↕"   # Up-down arrow
+<U21BB> <U0376> <bar> <dead_circumflex> <space>         : "↕"   # Up-down arrow
+<U21BB> <U0377> <bar> <dead_circumflex> <space>         : "↕"   # Up-down arrow
+<U21BB> <U0376> <bar> <minus> <space>                   : "↵"   # Downwards-leftwards arrow with corner
+<U21BB> <U0377> <bar> <minus> <space>                   : "↵"   # Downwards-leftwards arrow with corner
+<U21BB> <U0376> <dead_circumflex> <space>               : "↧"   # Downwards arrow from bar
+<U21BB> <U0377> <dead_circumflex> <space>               : "↧"   # Downwards arrow from bar
+<U21BB> <U0376> <equal> <bar> <space>                   : "⇟"   # Page Down
+<U21BB> <U0377> <equal> <bar> <space>                   : "⇟"   # Page Down
+<U21BB> <U0376> <minus> <space>                         : "↙"   # Southwest arrow
+<U21BB> <U0377> <minus> <space>                         : "↙"   # Southwest arrow
+<U21BB> <U0376> <period> <space>                        : "⇣"   # Downwards dashed arrow
+<U21BB> <U0377> <period> <space>                        : "⇣"   # Downwards dashed arrow
+<U21BB> <U0376> <U0376> <bar> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <U0377> <U0377> <bar> <space>                   : "↡"   # Downwards two-headed arrow
+<U21BB> <U0376> <U0376> <bar> <asciicircum> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <U0377> <U0377> <bar> <asciicircum> <space>     : "↨"   # Up-down arrow with base
+<U21BB> <U0376> <U0376> <bar> <dead_circumflex> <space> : "↨"   # Up-down arrow with base
+<U21BB> <U0377> <U0377> <bar> <dead_circumflex> <space> : "↨"   # Up-down arrow with base
+
+##################
+# [END OF RULES] #
+##################

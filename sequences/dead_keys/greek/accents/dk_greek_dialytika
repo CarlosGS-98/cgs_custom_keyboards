@@ -1,0 +1,32 @@
+# Greek Alphabet | Diaeresis (Dialytika) Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Greek_diacritics
+#
+
+# Basic precomposed letter combinations
+<dead_diaeresis> <Greek_IOTA>       : "Ϊ"
+<dead_diaeresis> <Greek_iota>       : "ϊ"
+<dead_diaeresis> <Greek_UPSILON>    : "Ϋ"
+<dead_diaeresis> <Greek_upsilon>    : "ϋ"
+
+
+# Other precomposed diaeresis/Dialytika combinations (Unidirectional)
+<dead_diaeresis> <Greek_iotaaccent>                 : "ΐ"
+<dead_diaeresis> <U1F77>                            : "ΐ"   # ί + Dialytika
+<dead_diaeresis> <dead_acute> <Greek_iota>          : "ΐ"
+<dead_diaeresis> <U1F76>                            : "ῒ"   # ὶ + Dialytika
+<dead_diaeresis> <dead_grave> <Greek_iota>          : "ῒ"
+<dead_diaeresis> <U1FD6>                            : "ῗ"   # ῖ + Dialytika
+<dead_diaeresis> <dead_circumflex> <Greek_iota>     : "ῗ"
+<dead_diaeresis> <Greek_upsilonaccent>              : "ΰ"
+<dead_diaeresis> <U1F77>                            : "ΰ"   # ύ + Dialytika
+<dead_diaeresis> <dead_acute> <Greek_upsilon>       : "ῧ"
+<dead_diaeresis> <U1F76>                            : "ῢ"   # ὺ + Dialytika
+<dead_diaeresis> <dead_grave> <Greek_upsilon>       : "ῢ"
+<dead_diaeresis> <U1FD6>                            : "ῧ"   # ῦ + Dialytika
+<dead_diaeresis> <dead_circumflex> <Greek_upsilon>  : "ῧ"
+
+##################
+# [END OF RULES] #
+##################

@@ -101,8 +101,8 @@
 <dead_currency> <k> <minus>             : "₭"   # Kip
 <dead_currency> <L> <equal>             : "₾"   # Lari
 <dead_currency> <l> <equal>             : "₺"   # Turkish Lira
-<dead_currency> <L> <minus>             : "£"   # Pound sign
-<dead_currency> <l> <minus>             : "£"   # Pound sign
+<dead_currency> <L> <minus>             : "£"   # Sterling
+<dead_currency> <l> <minus>             : "£"   # Sterling
 <dead_currency> <L> <T>                 : "₶"   # Livre Tournois
 <dead_currency> <l> <t>                 : "₶"   # Livre Tournois
 <dead_currency> <M> <bar>               : "₥"   # Mill sign
@@ -119,8 +119,8 @@
 <dead_currency> <minus> <i>             : "𐆚"   # Roman As
 <dead_currency> <minus> <K>             : "₭"   # Kip
 <dead_currency> <minus> <k>             : "₭"   # Kip
-<dead_currency> <minus> <L>             : "£"   # Pound sign
-<dead_currency> <minus> <l>             : "£"   # Pound sign
+<dead_currency> <minus> <L>             : "£"   # Sterling
+<dead_currency> <minus> <l>             : "£"   # Sterling
 <dead_currency> <minus> <M>             : "₼"   # Manat
 <dead_currency> <minus> <m>             : "₼"   # Manat
 <dead_currency> <minus> <R>             : "₽"   # Ruble sign

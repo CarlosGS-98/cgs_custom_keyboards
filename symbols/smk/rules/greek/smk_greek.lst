@@ -1,0 +1,11 @@
+! layout
+  smk/greek         Skorpian Master Keyboard v16.0 (Greek Alphabet)
+
+! variant
+  qwerty            smk/greek: SMK-Greek (ϘϜΕΡΤͿ)
+  qwerty_pt         smk/greek: SMK-Greek (Portuguese ϘϜΕΡΤͿ)
+  qwerty_el         smk/greek: SMK-Greek (Greek+US ϘϜΕΡΤͿ)
+  qwertz            smk/greek: SMK-Greek (ϘϜΕΡΤΖ)
+  dvorak            smk/greek: SMK-Greek (Ντβόρακ)
+  colemak           smk/greek: SMK-Greek (Κόλμακ)
+  jcuken            smk/greek: SMK-Greek (ΧϺΥΚΕΝ)
