@@ -126,6 +126,8 @@ xkb_symbols "qwerty_pt" {
 
     include "smk/latin(basic)"
 
+    name[Group1]= "SMK-Greek (Portuguese QWERTY)";
+
     key <TLDE>	{ [     backslash,  bar,               UA78C,                  UA78B                   ] };     // "\", "|", Lowercase Saltillo, Uppercase Saltillo 
     key <AE01>	{ [             1,  exclam,            U10900                  ] };                             // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
     key <AE03>	{ [             3,  numbersign,        sterling,               periodcentered          ] };
