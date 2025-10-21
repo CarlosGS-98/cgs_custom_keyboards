@@ -77,8 +77,8 @@
 <dead_currency> <equal> <Cyrillic_es>                                                               : "₷"  # Spesmilo
 <dead_currency> <equal> <Cyrillic_TE>                                                               : "₮"   # Tögrög
 <dead_currency> <equal> <Cyrillic_te>                                                               : "₮"   # Tögrög
-<dead_currency> <equal> <Cyrillic_YERU>                                                             : "¥"   # Yen/Yuan sign
-<dead_currency> <equal> <Cyrillic_yeru>                                                             : "¥"   # Yen/Yuan sign
+<dead_currency> <equal> <Cyrillic_YA>                                                               : "¥"   # Yen/Yuan sign
+<dead_currency> <equal> <Cyrillic_ya>                                                               : "¥"   # Yen/Yuan sign
 <dead_currency> <Cyrillic_EF> <minus>                                                               : "₣"   # Franc sign
 <dead_currency> <Cyrillic_ef> <minus>                                                               : "₣"   # Franc sign
 <dead_currency> <Cyrillic_GHE> <bar>                                                                : "₲"   # Guaraní
@@ -200,12 +200,12 @@
 <dead_currency> <Cyrillic_softsign> <Cyrillic_er>                                                   : "𞋿"   # Wancho
 <dead_currency> <Cyrillic_HA> <minus>                                                               : "𐆖"   # Roman Denarius
 <dead_currency> <Cyrillic_ha> <minus>                                                               : "𐆖"   # Roman Denarius
-<dead_currency> <Cyrillic_YERU> <Cyrillic_IE> <Cyrillic_EN>                                         : "円"   # CJK Yen sign
-<dead_currency> <Cyrillic_yeru> <Cyrillic_ie> <Cyrillic_en>                                         : "円"   # CJK Yen sign
-<dead_currency> <Cyrillic_YERU> <equal>                                                             : "¥"   # Yen/Yuan sign
-<dead_currency> <Cyrillic_yeru> <equal>                                                             : "¥"   # Yen/Yuan sign
-<dead_currency> <Cyrillic_YERU> <Cyrillic_U> <Cyrillic_A> <Cyrillic_EN>                             : "元"   # CJK Yuan sign
-<dead_currency> <Cyrillic_yeru> <Cyrillic_u> <Cyrillic_a> <Cyrillic_en>                             : "元"   # CJK Yuan sign
+<dead_currency> <Cyrillic_YA> <Cyrillic_IE> <Cyrillic_EN>                                           : "円"   # CJK Yen sign
+<dead_currency> <Cyrillic_ya> <Cyrillic_ie> <Cyrillic_en>                                           : "円"   # CJK Yen sign
+<dead_currency> <Cyrillic_YA> <equal>                                                               : "¥"   # Yen/Yuan sign
+<dead_currency> <Cyrillic_ya> <equal>                                                               : "¥"   # Yen/Yuan sign
+<dead_currency> <Cyrillic_YA> <Cyrillic_U> <Cyrillic_A> <Cyrillic_EN>                               : "元"   # CJK Yuan sign
+<dead_currency> <Cyrillic_ya> <Cyrillic_u> <Cyrillic_a> <Cyrillic_en>                               : "元"   # CJK Yuan sign
 
 ##################
 # [END OF RULES] #

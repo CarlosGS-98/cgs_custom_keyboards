@@ -197,7 +197,7 @@ xkb_symbols "qwerty_el" {
     key <AC11>	{ [    apostrophe,      quotedbl,          dead_acute,               dead_doubleacute       ] };
     key <BKSL>	{ [     backslash,      bar,               dead_ogonek,              dead_horn              ] };
 
-    key <LSGT>	{ [     backslash,      bar,               ] };
+    key <LSGT>	{ [     backslash,      bar                ] };
     key <AB08>	{ [         comma,      less,              dead_belowcomma           ] };
     key <AB09>	{ [        period,      greater,           dead_abovedot,            dead_belowdot          ] };
     key <AB10>	{ [         minus,      underscore,        dead_longsolidusoverlay,  dead_hook              ] };

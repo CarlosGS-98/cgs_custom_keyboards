@@ -1,0 +1,32 @@
+# Cyrillic Alphabet | Halfwidth & Fullwidth Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing alphabetical fullwidth characters
+# > with Cyrillic letters by using "$" (<dollar>) in conjunction
+# > with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)
+#
+
+# Fullwidth ISO-8859-1 Characters + Currency Symbols (Alphabetical)
+<Multi_key> <dollar> <dead_currency> <bar> <Cyrillic_TSE>           : "￠"
+<Multi_key> <dollar> <dead_currency> <bar> <Cyrillic_tse>           : "￠"
+<Multi_key> <dollar> <dead_currency> <Cyrillic_TSE> <bar>           : "￠"
+<Multi_key> <dollar> <dead_currency> <Cyrillic_tse> <bar>           : "￠"
+<Multi_key> <dollar> <dead_currency> <minus> <Cyrillic_EL>          : "￡"
+<Multi_key> <dollar> <dead_currency> <minus> <Cyrillic_el>          : "￡"
+<Multi_key> <dollar> <dead_currency> <Cyrillic_EL> <minus>          : "￡"
+<Multi_key> <dollar> <dead_currency> <Cyrillic_el> <minus>          : "￡"
+<Multi_key> <dollar> <dead_currency> <minus> <Cyrillic_SOFTSIGN>    : "￦"
+<Multi_key> <dollar> <dead_currency> <minus> <Cyrillic_softsign>    : "￦"
+<Multi_key> <dollar> <dead_currency> <Cyrillic_SOFTSIGN> <minus>    : "￦"
+<Multi_key> <dollar> <dead_currency> <Cyrillic_softsign> <minus>    : "￦"
+<Multi_key> <dollar> <dead_currency> <equal> <Cyrillic_YA>          : "￥"
+<Multi_key> <dollar> <dead_currency> <equal> <Cyrillic_ya>          : "￥"
+<Multi_key> <dollar> <dead_currency> <Cyrillic_YA> <equal>          : "￥"
+<Multi_key> <dollar> <dead_currency> <Cyrillic_ya> <equal>          : "￥"
+
+##################
+# [END OF RULES] #
+##################
