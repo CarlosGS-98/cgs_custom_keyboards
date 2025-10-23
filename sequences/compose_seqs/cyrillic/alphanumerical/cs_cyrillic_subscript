@@ -1,0 +1,87 @@
+# Cyrillic Alphabet | SMK Subscript Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store additional
+# > Compose rules for typing subscript and underscript characters
+# > using the caron/háček (<dead_caron>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
+#
+
+# Skorpian Underscript Caron (Greek Letters)
+<Multi_key> <dead_caron> <dead_caron> <dead_greek> <Cyrillic_i>     : "ͅ"    # Combining Ypogegrammeni
+<Multi_key> <dead_caron> <dead_caron> <dead_greek> <Ukrainian_i>    : "ͅ"    # Combining Ypogegrammeni
+
+
+# Skorpian Underscript Caron (Latin Letters)
+<Multi_key> <dead_caron> <dead_caron> <underscore> <Cyrillic_er>                : "᷊"
+<Multi_key> <dead_caron> <dead_caron> <underscore> <Cyrillic_softsign>          : "ᪿ"
+<Multi_key> <dead_caron> <dead_caron> <underscore> <U21BA> <Cyrillic_softsign>  : "ᫀ"
+
+
+# Skorpian Subscript Caron (Cyrillic Letters)
+<Multi_key> <dead_caron> <Cyrillic_a>                                   : "𞁑"
+<Multi_key> <dead_caron> <Cyrillic_be>                                  : "𞁒"
+<Multi_key> <dead_caron> <Cyrillic_ve>                                  : "𞁓"
+<Multi_key> <dead_caron> <Cyrillic_ghe>                                 : "𞁔"
+<Multi_key> <dead_caron> <Ukrainian_ghe_with_upturn>                    : "𞁧"
+<Multi_key> <dead_caron> <Cyrillic_de>                                  : "𞁕"
+<Multi_key> <dead_caron> <Macedonia_dse>                                : "𞁩"
+<Multi_key> <dead_caron> <Cyrillic_dzhe>                                : "𞁪"
+<Multi_key> <dead_caron> <U1DCF> <Cyrillic_de> <minus> <Cyrillic_zhe>   : "𞁪"
+<Multi_key> <dead_caron> <Cyrillic_ie>                                  : "𞁖"
+<Multi_key> <dead_caron> <Cyrillic_zhe>                                 : "𞁗"
+<Multi_key> <dead_caron> <Cyrillic_ze>                                  : "𞁘"
+<Multi_key> <dead_caron> <Cyrillic_i>                                   : "𞁙"
+<Multi_key> <dead_caron> <Ukrainian_i>                                  : "𞁨"
+<Multi_key> <dead_caron> <Cyrillic_ka>                                  : "𞁚"
+<Multi_key> <dead_caron> <Cyrillic_el>                                  : "𞁛"
+<Multi_key> <dead_caron> <Cyrillic_o>                                   : "𞁜"
+<Multi_key> <dead_caron> <Cyrillic_pe>                                  : "𞁝"
+<Multi_key> <dead_caron> <Cyrillic_es>                                  : "𞁞"
+<Multi_key> <dead_caron> <Cyrillic_u>                                   : "𞁟"
+<Multi_key> <dead_caron> <Cyrillic_ef>                                  : "𞁠"
+<Multi_key> <dead_caron> <Cyrillic_ha>                                  : "𞁡"
+<Multi_key> <dead_caron> <Cyrillic_tse>                                 : "𞁢"
+<Multi_key> <dead_caron> <Cyrillic_che>                                 : "𞁣"
+<Multi_key> <dead_caron> <Cyrillic_sha>                                 : "𞁤"
+<Multi_key> <dead_caron> <Cyrillic_hardsign>                            : "𞁥"
+<Multi_key> <dead_caron> <Cyrillic_yeru>                                : "𞁦"
+
+
+# Skorpian Subscript Caron (Greek Letters)
+<Multi_key> <dead_caron> <dead_greek> <Cyrillic_be>     : "ᵦ"
+<Multi_key> <dead_caron> <dead_greek> <Cyrillic_ghe>    : "ᵧ"
+<Multi_key> <dead_caron> <dead_greek> <Cyrillic_i>      : "ͺ"
+<Multi_key> <dead_caron> <dead_greek> <Ukrainian_i>     : "ͺ"
+<Multi_key> <dead_caron> <dead_greek> <Cyrillic_er>     : "ᵨ"
+<Multi_key> <dead_caron> <dead_greek> <Cyrillic_ef>     : "ᵩ"
+<Multi_key> <dead_caron> <dead_greek> <Cyrillic_je>     : "ᵪ"
+
+
+# Skorpian Subscript Caron (Latin Letters)
+<Multi_key> <dead_caron> <underscore> <Cyrillic_a>          : "ₐ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_ie>         : "ₑ"
+<Multi_key> <dead_caron> <underscore> <U035A> <Cyrillic_ie> : "ₔ"
+<Multi_key> <dead_caron> <underscore> <U21BA> <Cyrillic_ie> : "ₔ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_shha>       : "ₕ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_i>          : "ᵢ"
+<Multi_key> <dead_caron> <underscore> <Ukrainian_i>         : "ᵢ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_je>         : "ⱼ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_ka>         : "ₖ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_el>         : "ₗ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_em>         : "ₘ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_en>         : "ₙ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_o>          : "ₒ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_pe>         : "ₚ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_er>         : "ᵣ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_es>         : "ₛ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_te>         : "ₜ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_u>          : "ᵤ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_ve>         : "ᵥ"
+<Multi_key> <dead_caron> <underscore> <Cyrillic_ha>         : "ₓ"
+
+##################
+# [END OF RULES] #
+##################
