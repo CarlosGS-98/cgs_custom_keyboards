@@ -116,8 +116,8 @@
 <U1DCF> <Cyrillic_softsign> <Cyrillic_i>        : "ы"   # Yeru
 <U1DCF> <Cyrillic_SOFTSIGN> <Ukrainian_I>       : "Ы"   # Yeru
 <U1DCF> <Cyrillic_softsign> <Ukrainian_i>       : "ы"   # Yeru
-<U1DCF> <Cyrillic_YA> <Cyrillic_E>              : "Ԙ"
-<U1DCF> <Cyrillic_ya> <Cyrillic_e>              : "ԙ"
+<U1DCF> <Cyrillic_YA> <Cyrillic_IE>             : "Ԙ"
+<U1DCF> <Cyrillic_ya> <Cyrillic_ie>             : "ԙ"
 <U1DCF> <colon> <Cyrillic_O>                    : "Ꙫ"   # Binocular O
 <U1DCF> <colon> <Cyrillic_o>                    : "ꙫ"   # Binocular O
 <U1DCF> <period> <Cyrillic_O>                   : "Ꙩ"   # Monocular O

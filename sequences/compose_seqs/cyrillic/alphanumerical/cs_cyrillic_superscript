@@ -1,0 +1,362 @@
+# Cyrillic Alphabet | SMK Superscript Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store additional
+# > Compose rules for typing superscript and overscript characters
+# > using the circumflex accent (<dead_circumflex>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
+#
+
+# Skorpian Overscript Circumflex (Cyrillic Letters)
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_a>                                    : "ⷶ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_be>                                   : "ⷠ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_ve>                                   : "ⷡ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_ghe>                                  : "ⷢ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_de>                                   : "ⷣ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DFB> <Cyrillic_de> <Cyrillic_je>             : "ⷸ"    # ꙉ (Djerv/Ꙉєрвъ) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DFB> <Cyrillic_de> <Cyrillic_je>             : "ⷸ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_ie>                                   : "ⷷ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Ukrainian_ie>                                  : "ꙴ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_zhe>                                  : "ⷤ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_ze>                                   : "ⷥ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_i>                                    : "ꙵ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Ukrainian_i>                                   : "𞂏"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Ukrainian_yi>                                  : "ꙶ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <dead_diaeresis> <Ukrainian_i>                  : "ꙶ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_ka>                                   : "ⷦ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_el>                                   : "ⷧ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_em>                                   : "ⷨ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_en>                                   : "ⷩ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_o>                                    : "ⷪ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <UA64B>                                         : "ⷹ"    # ꙋ (Monographic Uk) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Cyrillic_u> <Cyrillic_ka>              : "ⷹ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_pe>                                   : "ⷫ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_er>                                   : "ⷬ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_es>                                   : "ⷭ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Cyrillic_es> <Cyrillic_te>             : "ⷵ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_te>                                   : "ⷮ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_u>                                    : "ꙷ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_ef>                                   : "ꚞ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_ha>                                   : "ⷯ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U0461>                                         : "ꙻ"    # ѡ (Cyrillic Omega) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_tse>                                  : "ⷰ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_che>                                  : "ⷱ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_sha>                                  : "ⷲ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_shcha>                                : "ⷳ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_hardsign>                             : "ꙸ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_yeru>                                 : "ꙹ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Cyrillic_softsign> <Cyrillic_i>        : "ꙹ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Cyrillic_softsign> <Ukrainian_i>       : "ꙹ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_softsign>                             : "ꙺ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U0463>                                         : "ⷺ"    # ѣ (Yat) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <Cyrillic_yu>                                   : "ⷻ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Cyrillic_i> <Cyrillic_o>               : "ⷻ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Ukrainian_i> <Cyrillic_o>              : "ⷻ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <UA657>                                         : "ⷼ"    # ꙗ (Iotified A) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Cyrillic_i> <Cyrillic_a>               : "ⷼ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Ukrainian_i> <Cyrillic_a>              : "ⷼ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U0465>                                         : "ꚟ"    # ѥ (Iotated Ukrainian E) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Cyrillic_i> <Ukrainian_ie>             : "ꚟ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DCF> <Ukrainian_i> <Ukrainian_ie>            : "ꚟ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U0467>                                         : "ⷽ"    # ѧ (Little Yus) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DFB> <dead_tilde> <Cyrillic_e>               : "ⷽ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U046B>                                         : "ⷾ"    # ѫ (Big Yus) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DFB> <dead_tilde> <Cyrillic_o>               : "ⷾ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U046D>                                         : "ⷿ"    # ѭ (Iotified Big Yus) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <U1DFB> <dead_tilde> <Cyrillic_je> <Cyrillic_o> : "ⷿ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <U0473>                                         : "ⷴ"    # ѳ (Fita) + Overscript
+
+
+# Skorpian Overscript Circumflex (Greek Letters)
+<Multi_key> <dead_circumflex> <dead_circumflex> <dead_greek> <Cyrillic_be>  : "ᷩ"
+
+            
+# Skorpian Overscript Circumflex (Latin Letters)
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_a>                                   : "ͣ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U04D3>                                        : "ᷲ"    # ӓ + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <dead_diaeresis> <Cyrillic_a>                  : "ᷲ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U04D5>                                        : "ᷔ"    # ӕ (A + Ie) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_a> <Cyrillic_e>              : "ᷔ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_a> <Cyrillic_o>              : "ᷕ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_a> <Cyrillic_ve>             : "ᷖ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <dead_greek> <dead_circumflex> <Cyrillic_a>    : "ᷧ"    # ɑ (Latin Alpha) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_be>                                  : "ᷨ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_tse>                                 : "ͨ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_che>                                 : "ᷗ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <dead_cedilla> <Cyrillic_tse>                  : "ᷗ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_de>                                  : "ͩ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Macedonia_dse>                                : "ᷙ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_ie>                                  : "ͤ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_schwa>                               : "ᷪ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U035A> <Cyrillic_ie>                          : "ᷪ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U21BA> <Cyrillic_ie>                          : "ᷪ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_ef>                                  : "ᷫ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <minus> <Cyrillic_GHE>                         : "ᷛ"    # Smallcaps G
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_ghe>                                 : "ᷚ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_shha>                                : "ͪ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_i>                                   : "ͥ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_ka>                                  : "ᷜ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <minus> <Cyrillic_EL>                          : "ᷞ"    # Smallcaps L
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_el>                                  : "ᷝ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U0334> <Cyrillic_el>                          : "ᷬ"    # ɫ + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <minus> <Cyrillic_EM>                          : "ᷟ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_em>                                  : "ͫ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <minus> <Cyrillic_EN>                          : "ᷡ"    # Smallcaps N
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_en>                                  : "ᷠ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_O>                                   : "ᷭ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_o>                                   : "ͦ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U04E7>                                        : "ᷳ"    # ӧ + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <dead_diaeresis> <Cyrillic_o>                  : "ᷳ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_pe>                                  : "ᷮ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <minus> <Cyrillic_ER>                          : "ᷢ"    # Smallcaps R
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_er>                                  : "ͬ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_es>                                  : "ᷤ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U1DFB> <minus> <Cyrillic_ES>                  : "ᷥ"    # ſ (Long S) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U1DFB> <minus> <Cyrillic_es>                  : "ᷥ"    # ſ (Long S) + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U035A> <Cyrillic_es>                          : "ᷯ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_te>                                  : "ͭ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_U>                                   : "ᷰ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_u>                                   : "ͧ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <U04F1>                                        : "ᷴ"    # ӱ + Overscript
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <dead_diaeresis> <Cyrillic_u>                  : "ᷴ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_ve>                                  : "ͮ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_softsign>                            : "ᷱ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_ha>                                  : "ͯ"
+<Multi_key> <dead_circumflex> <dead_circumflex> <underscore> <Cyrillic_ze>                                  : "ᷦ"
+
+
+# Skorpian Superscript Circumflex (Cyrillic Letters)
+<Multi_key> <dead_circumflex> <Cyrillic_a>                                      : "𞀰"
+<Multi_key> <dead_circumflex> <Cyrillic_schwa>                                  : "𞁋"
+<Multi_key> <dead_circumflex> <U1DCF> <Cyrillic_a> <Cyrillic_ie>                : "𞁋"
+<Multi_key> <dead_circumflex> <Cyrillic_be>                                     : "𞀱"
+<Multi_key> <dead_circumflex> <Cyrillic_ve>                                     : "𞀲"
+<Multi_key> <dead_circumflex> <Cyrillic_ghe>                                    : "𞀳"
+<Multi_key> <dead_circumflex> <Cyrillic_de>                                     : "𞀴"
+<Multi_key> <dead_circumflex> <UA689>                                           : "𞁊"   # ꚉ (Dzze) + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <Cyrillic_de> <Cyrillic_ze>               : "𞁊"
+<Multi_key> <dead_circumflex> <Cyrillic_ie>                                     : "𞀵"
+<Multi_key> <dead_circumflex> <Cyrillic_zhe>                                    : "𞀶"
+<Multi_key> <dead_circumflex> <Cyrillic_ze>                                     : "𞀷"
+<Multi_key> <dead_circumflex> <Cyrillic_i>                                      : "𞀸"
+<Multi_key> <dead_circumflex> <Ukrainian_i>                                     : "𞁌"
+<Multi_key> <dead_circumflex> <Cyrillic_je>                                     : "𞁍"
+<Multi_key> <dead_circumflex> <Cyrillic_ka>                                     : "𞀹"
+<Multi_key> <dead_circumflex> <Cyrillic_el>                                     : "𞀺"
+<Multi_key> <dead_circumflex> <Cyrillic_em>                                     : "𞀻"
+<Multi_key> <dead_circumflex> <Cyrillic_en>                                     : "ᵸ"
+<Multi_key> <dead_circumflex> <Cyrillic_o>                                      : "𞀼"
+<Multi_key> <dead_circumflex> <Cyrillic_o_bar>                                  : "𞁎"
+<Multi_key> <dead_circumflex> <dead_stroke> <Cyrillic_o>                        : "𞁎"
+<Multi_key> <dead_circumflex> <Cyrillic_pe>                                     : "𞀽"
+<Multi_key> <dead_circumflex> <Cyrillic_er>                                     : "𞀾"
+<Multi_key> <dead_circumflex> <Cyrillic_es>                                     : "𞀿"
+<Multi_key> <dead_circumflex> <U04AB>                                           : "𞁫"   # ҫ + Superscript
+<Multi_key> <dead_circumflex> <dead_cedilla> <minus> <Cyrillic_es>              : "𞁫"
+<Multi_key> <dead_circumflex> <Cyrillic_te>                                     : "𞁀"
+<Multi_key> <dead_circumflex> <Cyrillic_u>                                      : "𞁁"
+<Multi_key> <dead_circumflex> <Cyrillic_u_straight>                             : "𞁏"
+<Multi_key> <dead_circumflex> <dead_cedilla> <minus> <Cyrillic_u>               : "𞁏"
+<Multi_key> <dead_circumflex> <Cyrillic_u_straight_bar>                         : "𞁭"
+<Multi_key> <dead_circumflex> <dead_stroke> <Cyrillic_u_straight>               : "𞁭"
+<Multi_key> <dead_circumflex> <dead_stroke> <dead_cedilla> <minus> <Cyrillic_u> : "𞁭"
+<Multi_key> <dead_circumflex> <Cyrillic_ef>                                     : "𞁂"
+<Multi_key> <dead_circumflex> <Cyrillic_ha>                                     : "𞁃"
+<Multi_key> <dead_circumflex> <Cyrillic_tse>                                    : "𞁄"
+<Multi_key> <dead_circumflex> <Cyrillic_che>                                    : "𞁅"
+<Multi_key> <dead_circumflex> <Cyrillic_sha>                                    : "𞁆"
+<Multi_key> <dead_circumflex> <Cyrillic_hardsign>                               : "ꚜ"
+<Multi_key> <dead_circumflex> <Cyrillic_yeru>                                   : "𞁇"
+<Multi_key> <dead_circumflex> <UA651>                                           : "𞁬"   # ꙑ (Yeru + Back Yer) + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <Cyrillic_hardsign> <Cyrillic_i>          : "𞁬"
+<Multi_key> <dead_circumflex> <U1DCF> <Cyrillic_hardsign> <Ukrainian_i>         : "𞁬"
+<Multi_key> <dead_circumflex> <Cyrillic_softsign>                               : "ꚝ"
+<Multi_key> <dead_circumflex> <Cyrillic_e>                                      : "𞁈"
+<Multi_key> <dead_circumflex> <Cyrillic_yu>                                     : "𞁉"
+<Multi_key> <dead_circumflex> <Cyrillic_yu> <U04CF>                             : "𞁐"   # ӏ (Palochka) + Superscript
+
+
+# Skorpian Superscript Circumflex (Greek Letters)
+<Multi_key> <dead_circumflex> <dead_greek> <Cyrillic_be>                            : "ᵝ"
+<Multi_key> <dead_circumflex> <dead_greek> <Cyrillic_ghe>                           : "ᵞ"
+<Multi_key> <dead_circumflex> <dead_greek> <Cyrillic_de>                            : "ᵟ"
+<Multi_key> <dead_circumflex> <dead_greek> <Cyrillic_ie>                            : "ᵋ"
+<Multi_key> <dead_circumflex> <dead_greek> <U0473>                                  : "ᶿ"
+<Multi_key> <dead_circumflex> <dead_greek> <minus> <Cyrillic_te> <Cyrillic_shha>    : "ᶿ"
+<Multi_key> <dead_circumflex> <dead_greek> <Cyrillic_i>                             : "ᶥ"
+<Multi_key> <dead_circumflex> <dead_greek> <Cyrillic_ef>                            : "ᵠ"
+<Multi_key> <dead_circumflex> <dead_greek> <Cyrillic_je>                            : "ᵡ"
+
+
+# Skorpian Superscript Circumflex (Latin Letters)
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_A>                                             : "ᴬ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_a>                                             : "ᵃ"
+<Multi_key> <dead_circumflex> <underscore> <U04D4>                                                  : "ᴭ"   # Ӕ (A + Ie) + "_" + Superscript
+<Multi_key> <dead_circumflex> <underscore> <U04D5>                                                  : "𐞃"   # ӕ (A + Ie) + "_" + Superscript
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_A> <Cyrillic_IE>                       : "ᴭ"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_a> <Cyrillic_ie>                       : "𐞃"
+<Multi_key> <dead_circumflex> <underscore> <dead_greek> <dead_circumflex> <Cyrillic_a>              : "ᵅ"
+<Multi_key> <dead_circumflex> <underscore> <U21BA> <dead_greek> <Cyrillic_a>                        : "ᶛ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_BE>                                            : "ᴮ"
+<Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_BE>                                    : "𐞄"   # Smallcaps B
+<Multi_key> <dead_circumflex> <underscore> <underscore> <Cyrillic_BE>                               : "ᴯ"   # Smallcaps Barred B
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_be>                                            : "ᵇ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <Cyrillic_be>                                    : "𐞅"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_TSE>                                           : "ꟲ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_tse>                                           : "ᶜ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_che>                                           : "ᶜ̧"
+<Multi_key> <dead_circumflex> <underscore> <dead_cedilla> <Cyrillic_tse>                            : "ᶜ̧"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_DE>                                            : "ᴰ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_de>                                            : "ᵈ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <Cyrillic_de>                                    : "𐞌"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <greater> <Macedonia_dse>                        : "𐞍"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_de> <Cyrillic_ze>                      : "𐞇"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <minus> <Cyrillic_de> <Cyrillic_ze>              : "𐞇"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_de> <U0291>                            : "𐞉"   # d + ʑ + Superscript
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_DE> <U035B> <Cyrillic_ZE>              : "𐞉"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_de> <U035B> <Cyrillic_ze>              : "𐞉"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_de> <UAB66>                            : "𐞈"   # ꭦ + Superscript
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_de> <U0290>                            : "𐞈"   # d + ʐ + Superscript
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_DE> <U0359> <greater> <Cyrillic_ZE>    : "𐞈"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_de> <U0359> <greater> <Cyrillic_ze>    : "𐞈"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_de> <Cyrillic_zhe>                     : "𐞊"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_de> <U035A> <Cyrillic_ze>              : "𐞊"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <greater> <Cyrillic_de>                          : "𐞋"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_IE>                                            : "ᴱ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ie>                                            : "ᵉ"
+<Multi_key> <dead_circumflex> <underscore> <dead_greek> <dead_circumflex> <Cyrillic_ie>             : "ᵋ"
+<Multi_key> <dead_circumflex> <underscore> <U21BA> <dead_greek> <Cyrillic_ie>                       : "ᶟ"
+<Multi_key> <dead_circumflex> <underscore> <U21BA> <underscore> <Cyrillic_ie>                       : "𐞏"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_schwa>                                         : "ᵊ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_ie>                                    : "ᵊ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <minus> <Cyrillic_ie>                            : "𐞎"
+<Multi_key> <dead_circumflex> <underscore> <U21BA> <Cyrillic_schwa>                                 : "𐞎"
+<Multi_key> <dead_circumflex> <underscore> <U21BA> <Cyrillic_IE>                                    : "ᴲ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_EF>                                            : "ꟳ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ef>                                            : "ᶠ"
+<Multi_key> <dead_circumflex> <underscore> <U0278>                                                  : "ᶲ"   # ɸ (Latin Phi) + Superscript
+<Multi_key> <dead_circumflex> <underscore> <dead_greek> <dead_circumflex> <Cyrillic_ef>             : "ᶲ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_GHE>                                           : "ᴳ"
+<Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_GHE>                                   : "𐞒"   # Smallcaps G
+<Multi_key> <dead_circumflex> <underscore> <U0359> <U035A> <Cyrillic_ghe>                           : "𐞔"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ghe>                                           : "ᵍ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <Cyrillic_ghe>                                   : "𐞓"
+<Multi_key> <dead_circumflex> <underscore> <dead_greek> <dead_circumflex> <Cyrillic_ghe>            : "ˠ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_SHHA>                                          : "ᴴ"
+<Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_SHHA>                                  : "𐞖"   # Smallcaps H
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_shha>                                          : "ʰ"
+<Multi_key> <dead_circumflex> <underscore> <dead_stroke> <Cyrillic_shha>                            : "𐞕"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <Cyrillic_shha>                                  : "ʱ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_shha>                                  : "𐞗"
+<Multi_key> <dead_circumflex> <underscore> <U21BA> <Cyrillic_shha>                                  : "ᶣ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_I>                                             : "ᴵ"
+<Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_I>                                     : "ᶦ"   # Smallcaps I
+<Multi_key> <dead_circumflex> <underscore> <dead_stroke> <U035A> <Cyrillic_i>                       : "ᶧ"
+<Multi_key> <dead_circumflex> <underscore> <underscore> <Cyrillic_I>                                : "ᴻ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_i>                                             : "ⁱ"
+<Multi_key> <dead_circumflex> <underscore> <dead_stroke> <Cyrillic_i>                               : "ᶤ"
+<Multi_key> <dead_circumflex> <underscore> <dead_greek> <dead_circumflex> <Cyrillic_i>              : "ᶥ"
+<Multi_key> <dead_circumflex> <underscore> <underscore> <Cyrillic_i>                                : "ᴻ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_JE>                                            : "ᴶ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_je>                                            : "ʲ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_je>                                    : "ᶡ"
+<Multi_key> <dead_circumflex> <underscore> <U035B> <Cyrillic_je>                                    : "ᶨ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_KA>                                            : "ᴷ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ka>                                            : "ᵏ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_EL>                                            : "ᴸ"
+<Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_EL>                                    : "ᶫ"   # Smallcaps L
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_el>                                            : "ˡ"
+<Multi_key> <dead_circumflex> <underscore> <U0334> <Cyrillic_el>                                    : "ꭞ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <less> <Cyrillic_el>                             : "ᶪ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <greater> <Cyrillic_el>                          : "ᶩ"
+<Multi_key> <dead_circumflex> <underscore> <U035B> <U035A> <Cyrillic_EL>                            : "𐞜"
+<Multi_key> <dead_circumflex> <underscore> <U035B> <Cyrillic_el>                                    : "𐞛"
+<Multi_key> <dead_circumflex> <underscore> <U035B> <U035A> <Cyrillic_el>                            : "𐞝"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_el>                                    : "𐞦"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_EL>                                    : "𐞧"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_el> <Cyrillic_zhe>                     : "𐞞"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_el> <U035A> <Cyrillic_ze>              : "𐞞"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <U0359> <greater> <Cyrillic_el> <Cyrillic_zhe>   : "𐞟"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_EM>                                            : "ᴹ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_em>                                            : "ᵐ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <Cyrillic_em>                                    : "ᶬ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_em>                                    : "ᶭ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_EN>                                            : "ᴺ"
+<Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_EN>                                    : "ᶰ"   # Smallcaps N
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_en>                                            : "ⁿ"
+<Multi_key> <dead_circumflex> <underscore> <eng>                                                    : "ᵑ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <less> <Cyrillic_en>                             : "ᶮ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <greater> <Cyrillic_en>                          : "ᶯ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_O>                                             : "ᴼ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_o>                                             : "ᵒ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_o_bar>                                         : "ᶱ"
+<Multi_key> <dead_circumflex> <underscore> <dead_stroke> <Cyrillic_o>                               : "ᶱ"
+<Multi_key> <dead_circumflex> <underscore> <U0461>                                                  : "𐞢"   # ѡ (Cyrillic Omega) + "_" + Superscript
+<Multi_key> <dead_circumflex> <underscore> <dead_longsolidusoverlay> <Cyrillic_o>                   : "𐞢"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_O> <Cyrillic_IE>                       : "𐞣"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_o> <Cyrillic_ie>                       : "ꟹ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_o>                                     : "ᵓ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <U0461>                                          : "𐞑"
+<Multi_key> <dead_circumflex> <underscore> <dead_greek> <underscore> <Cyrillic_o>                   : "𐞤"
+<Multi_key> <dead_circumflex> <underscore> <dead_greek> <underscore> <U0461>                        : "𐞤"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_PE>                                            : "ᴾ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_pe>                                            : "ᵖ"
+<Multi_key> <dead_circumflex> <underscore> <U051A>                                                  : "ꟴ"   # Ԛ (Cyrillic Qa) + "_" + Superscript
+<Multi_key> <dead_circumflex> <underscore> <U051B>                                                  : "𐞥"   # ԛ (Cyrillic Qa) + "_" + Superscript
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ER>                                            : "ᴿ"
+<Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_ER>                                    : "𐞪"   # Smallcaps R
+<Multi_key> <dead_circumflex> <underscore> <U035A> <dead_circumflex> <underscore> <Cyrillic_ER>     : "ʶ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <dead_circumflex> <underscore> <Cyrillic_er>     : "ʶ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_ER>                                    : "ʵ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_er>                                    : "ʴ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <underscore> <Cyrillic_er>                       : "𐞩"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_er>                                            : "ʳ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <greater> <Cyrillic_er>                          : "𐞨"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ES>                                            : "ꜱ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_es>                                            : "ˢ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <greater> <Cyrillic_es>                          : "ᶳ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_es>                                    : "ᶴ"
+<Multi_key> <dead_circumflex> <underscore> <dead_stroke> <U035A> <Cyrillic_es>                      : "𐞘"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <Cyrillic_je>                                    : "𐞘"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_TE>                                            : "ᵀ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_te>                                            : "ᵗ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <less> <Cyrillic_te>                             : "ᶵ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <greater> <Cyrillic_te>                          : "𐞯"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_TE> <U035B> <Cyrillic_tse>             : "𐞫"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_te> <Cyrillic_es>                      : "𐞬"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_te> <U0359> <greater> <Cyrillic_es>    : "𐞭"
+<Multi_key> <dead_circumflex> <underscore> <U1DCF> <Cyrillic_te> <U035A> <Cyrillic_es>              : "𐞮"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_U>                                             : "ᵁ"
+<Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_U>                                     : "ᶸ"   # Smallcaps U
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_u>                                             : "ᵘ"
+<Multi_key> <dead_circumflex> <underscore> <dead_stroke> <Cyrillic_u>                               : "ᶶ"
+<Multi_key> <dead_circumflex> <underscore> <dead_greek> <dead_circumflex> <Cyrillic_u>              : "ᶷ"
+<Multi_key> <dead_circumflex> <underscore> <U21BA> <Cyrillic_em>                                    : "ᵚ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_VE>                                            : "ⱽ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ve>                                            : "ᵛ"
+<Multi_key> <dead_circumflex> <underscore> <dead_acute> <U21BA> <Cyrillic_ve>                       : "ᶺ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <Cyrillic_ve>                                    : "ᶹ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_ve>                                    : "𐞰"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_SOFTSIGN>                                      : "ᵂ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_softsign>                                      : "ʷ"
+<Multi_key> <dead_circumflex> <underscore> <U21BA> <Cyrillic_softsign>                              : "ꭩ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ha>                                            : "ˣ"
+<Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_YA>                                    : "𐞲"   # Smallcaps Y
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ya>                                            : "ʸ"
+<Multi_key> <dead_circumflex> <underscore> <U21BA> <Cyrillic_ya>                                    : "𐞠"
+<Multi_key> <dead_circumflex> <underscore> <U035B> <U21BA> <Cyrillic_ya>                            : "𐞡"   # 𝼆 + Superscript
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_ze>                                            : "ᶻ"
+<Multi_key> <dead_circumflex> <underscore> <U0359> <greater> <Cyrillic_ze>                          : "ᶼ"
+<Multi_key> <dead_circumflex> <underscore> <Cyrillic_zhe>                                           : "ᶾ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <Cyrillic_ze>                                    : "ᶾ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <question> <space>                               : "ˀ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <question> <minus>                               : "𐞳"
+<Multi_key> <dead_circumflex> <underscore> <dead_stroke> <U035A> <question>                         : "𐞳"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <question> <underscore> <space>                  : "ˁ"
+<Multi_key> <dead_circumflex> <underscore> <U035A> <question> <underscore> <minus>                  : "𐞴"
+
+##################
+# [END OF RULES] #
+##################
