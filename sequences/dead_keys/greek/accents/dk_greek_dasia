@@ -71,7 +71,7 @@
 <dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_ALPHA>    : "ᾏ"
 <dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_alpha>    : "ᾇ"
 <dead_abovereversedcomma> <Greek_EPSILONaccent>                     : "Ἕ"   # Έ + Dasia
-<dead_abovereversedcomma> <Greek_epsilonccent>                      : "ἕ"   # έ + Dasia
+<dead_abovereversedcomma> <Greek_epsilonaccent>                      : "ἕ"   # έ + Dasia
 <dead_abovereversedcomma> <U1FC9>                                   : "Ἕ"   # Έ + Dasia
 <dead_abovereversedcomma> <U1F73>                                   : "ἕ"   # έ + Dasia
 <dead_abovereversedcomma> <dead_acute> <Greek_EPSILON>              : "Ἕ"
@@ -123,7 +123,7 @@
 <dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_ETA>      : "ᾟ"
 <dead_abovereversedcomma> <dead_iota> <dead_tilde> <Greek_eta>      : "ᾗ"
 <dead_abovereversedcomma> <Greek_IOTAaccent>                        : "Ἵ"   # Ί + Dasia
-<dead_abovereversedcomma> <Greek_iotaccent>                         : "ἵ"   # ί + Dasia
+<dead_abovereversedcomma> <Greek_iotaaccent>                         : "ἵ"   # ί + Dasia
 <dead_abovereversedcomma> <U1FDB>                                   : "Ἵ"   # Ί + Dasia
 <dead_abovereversedcomma> <U1F77>                                   : "ἵ"   # ί + Dasia
 <dead_abovereversedcomma> <dead_acute> <Greek_IOTA>                 : "Ἵ"
@@ -136,7 +136,7 @@
 <dead_abovereversedcomma> <dead_tilde> <Greek_IOTA>                 : "Ἷ"
 <dead_abovereversedcomma> <dead_tilde> <Greek_iota>                 : "ἷ"
 <dead_abovereversedcomma> <Greek_OMICRONaccent>                     : "Ὅ"   # Ό + Psili
-<dead_abovereversedcomma> <Greek_omicronccent>                      : "ὅ"   # ό + Psili
+<dead_abovereversedcomma> <Greek_omicronaccent>                      : "ὅ"   # ό + Psili
 <dead_abovereversedcomma> <U1FF9>                                   : "Ὅ"   # Ό + Psili
 <dead_abovereversedcomma> <U1F79>                                   : "ὅ"   # ό + Psili
 <dead_abovereversedcomma> <dead_acute> <Greek_OMICRON>              : "Ὅ"

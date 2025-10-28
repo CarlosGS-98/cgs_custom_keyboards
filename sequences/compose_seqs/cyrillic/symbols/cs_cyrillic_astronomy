@@ -1,0 +1,337 @@
+# Cyrillic Alphabet | Astronomical + Astrological Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing astronomical symbols
+# > that can be input with alphabetical Cyrillic characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Astronomical_symbols
+#
+
+# Astronomical + Astrological Symbols (Asteroids & Dwarf Planets)
+#
+# [NOTE]: All symbols listed here are enclosed inside curly brackets.
+#
+<Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_EM> <Cyrillic_EF> <Cyrillic_I> <Cyrillic_TE> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_TE> <Cyrillic_A> <braceright>                                      : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_em> <Cyrillic_ef> <Cyrillic_i> <Cyrillic_te> <Cyrillic_er> <Cyrillic_i> <Cyrillic_te> <Cyrillic_a> <braceright>                                      : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_EM> <Cyrillic_EF> <Ukrainian_I> <Cyrillic_TE> <Cyrillic_ER> <Ukrainian_I> <Cyrillic_TE> <Cyrillic_A> <braceright>                                    : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_em> <Cyrillic_ef> <Ukrainian_i> <Cyrillic_te> <Cyrillic_er> <Ukrainian_i> <Cyrillic_te> <Cyrillic_a> <braceright>                                    : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_EM> <Cyrillic_EF> <Ukrainian_I> <Cyrillic_TE> <Cyrillic_ER> <Cyrillic_YERU> <Cyrillic_TE> <Cyrillic_A> <braceright>                                  : "𜻏"   # MPC: 29 Amphitrite
+<Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_em> <Cyrillic_ef> <Ukrainian_i> <Cyrillic_te> <Cyrillic_er> <Cyrillic_yeru> <Cyrillic_te> <Cyrillic_a> <braceright>                                  : "𜻏"   # MPC: 29 Amphitrite
+# <Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_PE> <Cyrillic_O> <Cyrillic_EF> <Cyrillic_I> <Cyrillic_ES> <braceright>                                                                             : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_pe> <Cyrillic_o> <Cyrillic_ef> <Cyrillic_i> <Cyrillic_es> <braceright>                                                                             : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_PE> <Cyrillic_O> <Cyrillic_EF> <Ukrainian_I> <Cyrillic_ES> <braceright>                                                                            : "¿?"   # MPC: 99942 Apophis
+# <Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_pe> <Cyrillic_o> <Cyrillic_ef> <Ukrainian_i> <Cyrillic_es> <braceright>                                                                            : "¿?"   # MPC: 99942 Apophis
+<Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_ER> <Cyrillic_KA> <Cyrillic_U> <Cyrillic_ES> <braceright>                                                                                            : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_er> <Cyrillic_ka> <Cyrillic_u> <Cyrillic_es> <braceright>                                                                                            : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_ES> <Cyrillic_TE> <Cyrillic_ER> <Cyrillic_IE> <Cyrillic_JE> <Cyrillic_A> <braceright>                                                                : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_es> <Cyrillic_te> <Cyrillic_er> <Cyrillic_ie> <Cyrillic_je> <Cyrillic_a> <braceright>                                                                : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_ES> <Cyrillic_TE> <Cyrillic_ER> <Cyrillic_E> <Cyrillic_YA> <braceright>                                                                              : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_es> <Cyrillic_te> <Cyrillic_er> <Cyrillic_e> <Cyrillic_ya> <braceright>                                                                              : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_ES> <Cyrillic_TE> <Cyrillic_ER> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                                             : "🝸"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_es> <Cyrillic_te> <Cyrillic_er> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                                             : "⚖"   # MPC: 5 Astraea
+<Multi_key> <U232C> <braceleft> <Cyrillic_BE> <Cyrillic_IE> <Cyrillic_EL> <Cyrillic_EL> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <Cyrillic_be> <Cyrillic_ie> <Cyrillic_el> <Cyrillic_el> <Cyrillic_o> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <Cyrillic_BE> <Cyrillic_IE> <Cyrillic_EL> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                              : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <Cyrillic_be> <Cyrillic_ie> <Cyrillic_el> <Cyrillic_o> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                              : "𜻎"   # MPC: 28 Belona
+<Multi_key> <U232C> <braceleft> <Cyrillic_VE> <Cyrillic_IE> <Cyrillic_ES> <Cyrillic_TE> <Cyrillic_A> <braceright>                                                                                           : "🝷"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Cyrillic_ve> <Cyrillic_ie> <Cyrillic_es> <Cyrillic_te> <Cyrillic_a> <braceright>                                                                                           : "⚶"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Cyrillic_VE> <Ukrainian_IE> <Cyrillic_ES> <Cyrillic_TE> <Cyrillic_A> <braceright>                                                                                          : "🝷"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Cyrillic_ve> <Ukrainian_ie> <Cyrillic_es> <Cyrillic_te> <Cyrillic_a> <braceright>                                                                                          : "⚶"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Cyrillic_VE> <Cyrillic_I> <Cyrillic_KA> <Cyrillic_TE> <Cyrillic_O> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_JE> <Cyrillic_A> <braceright>                                      : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Cyrillic_ve> <Cyrillic_i> <Cyrillic_ka> <Cyrillic_te> <Cyrillic_o> <Cyrillic_er> <Cyrillic_i> <Cyrillic_JE> <Cyrillic_A> <braceright>                                      : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Cyrillic_VE> <Cyrillic_I> <Cyrillic_KA> <Cyrillic_TE> <Cyrillic_O> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_YA> <braceright>                                                   : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Cyrillic_ve> <Cyrillic_i> <Cyrillic_ka> <Cyrillic_te> <Cyrillic_o> <Cyrillic_er> <Cyrillic_i> <Cyrillic_ya> <braceright>                                                   : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Cyrillic_VE> <Ukrainian_I> <Cyrillic_KA> <Cyrillic_TE> <Cyrillic_O> <Cyrillic_ER> <Ukrainian_I> <Cyrillic_YA> <braceright>                                                 : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Cyrillic_ve> <Ukrainian_i> <Cyrillic_ka> <Cyrillic_te> <Cyrillic_o> <Cyrillic_er> <Ukrainian_i> <Cyrillic_ya> <braceright>                                                 : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Cyrillic_VE> <Ukrainian_I> <Cyrillic_KA> <Cyrillic_TE> <Cyrillic_O> <Cyrillic_ER> <Cyrillic_YERU> <Cyrillic_YA> <braceright>                                               : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Cyrillic_ve> <Ukrainian_i> <Cyrillic_ka> <Cyrillic_te> <Cyrillic_o> <Cyrillic_er> <Cyrillic_yeru> <Cyrillic_ya> <braceright>                                               : "𜻅"   # MPC: 12 Victoria
+<Multi_key> <U232C> <braceleft> <Cyrillic_VE> <Cyrillic_E> <Cyrillic_ES> <Cyrillic_TE> <Cyrillic_A> <braceright>                                                                                            : "🝷"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Cyrillic_ve> <Cyrillic_e> <Cyrillic_es> <Cyrillic_te> <Cyrillic_a> <braceright>                                                                                            : "⚶"   # MPC: 4 Vesta
+<Multi_key> <U232C> <braceleft> <Cyrillic_DE> <Cyrillic_IE> <Cyrillic_EL> <Cyrillic_HA> <Cyrillic_I> <Cyrillic_SHORTI> <Cyrillic_EN> <Cyrillic_VE> <Cyrillic_A> <Cyrillic_EN> <braceright>                  : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_de> <Cyrillic_ie> <Cyrillic_el> <Cyrillic_ha> <Cyrillic_i> <Cyrillic_shorti> <Cyrillic_en> <Cyrillic_ve> <Cyrillic_a> <Cyrillic_en> <braceright>                  : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_DE> <Cyrillic_IE> <Cyrillic_EL> <Cyrillic_HA> <Cyrillic_I> <Cyrillic_SHORTI> <Cyrillic_EN> <space> <Cyrillic_VE> <Cyrillic_A> <Cyrillic_EN> <braceright>          : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_de> <Cyrillic_ie> <Cyrillic_el> <Cyrillic_ha> <Cyrillic_i> <Cyrillic_shorti> <Cyrillic_en> <space> <Cyrillic_ve> <Cyrillic_a> <Cyrillic_en> <braceright>          : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_DE> <Cyrillic_IE> <Cyrillic_EL> <Cyrillic_HA> <Cyrillic_I> <dead_breve> <Cyrillic_I> <Cyrillic_EN> <Cyrillic_VE> <Cyrillic_A> <Cyrillic_EN> <braceright>          : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_de> <Cyrillic_ie> <Cyrillic_el> <Cyrillic_ha> <Cyrillic_i> <dead_breve> <Cyrillic_i> <Cyrillic_en> <Cyrillic_ve> <Cyrillic_a> <Cyrillic_en> <braceright>          : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_DE> <Cyrillic_IE> <Cyrillic_EL> <Cyrillic_HA> <Cyrillic_I> <dead_breve> <Cyrillic_I> <Cyrillic_EN> <space> <Cyrillic_VE> <Cyrillic_A> <Cyrillic_EN> <braceright>  : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_de> <Cyrillic_ie> <Cyrillic_el> <Cyrillic_ha> <Cyrillic_i> <dead_breve> <Cyrillic_i> <Cyrillic_en> <space> <Cyrillic_ve> <Cyrillic_a> <Cyrillic_en> <braceright>  : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_IE> <Cyrillic_VE> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_JE> <Cyrillic_A> <braceright>                                                   : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_ie> <Cyrillic_ve> <Cyrillic_en> <Cyrillic_o> <Cyrillic_em> <Cyrillic_i> <Cyrillic_je> <Cyrillic_a> <braceright>                                                   : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_IE> <Cyrillic_VE> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_YA> <braceright>                                                                : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_ie> <Cyrillic_ve> <Cyrillic_en> <Cyrillic_o> <Cyrillic_em> <Cyrillic_i> <Cyrillic_ya> <braceright>                                                                : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_IE> <Cyrillic_VE> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EM> <Ukrainian_I> <Cyrillic_YA> <braceright>                                                               : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_ie> <Cyrillic_ve> <Cyrillic_en> <Cyrillic_o> <Cyrillic_em> <Ukrainian_i> <Cyrillic_ya> <braceright>                                                               : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_IE> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_A> <braceright>                                                                             : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_ie> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_i> <Cyrillic_a> <braceright>                                                                             : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_IE> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_ER> <Ukrainian_I> <Cyrillic_A> <braceright>                                                                            : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_ie> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_er> <Ukrainian_i> <Cyrillic_a> <braceright>                                                                            : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_IE> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_JE> <Cyrillic_A> <braceright>                                                               : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_ie> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_i> <Cyrillic_je> <Cyrillic_a> <braceright>                                                               : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                                            : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_i> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                                            : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Cyrillic_I> <Cyrillic_DE> <Cyrillic_IE> <Cyrillic_ES> <braceright>                                                                                           : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Cyrillic_i> <Cyrillic_de> <Cyrillic_ie> <Cyrillic_es> <braceright>                                                                                           : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Ukrainian_I> <Cyrillic_DE> <Cyrillic_IE> <Cyrillic_ES> <braceright>                                                                                          : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Ukrainian_i> <Cyrillic_de> <Cyrillic_ie> <Cyrillic_es> <braceright>                                                                                          : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Ukrainian_I> <Cyrillic_DE> <Cyrillic_E> <Cyrillic_ES> <braceright>                                                                                           : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Ukrainian_i> <Cyrillic_de> <Cyrillic_e> <Cyrillic_es> <braceright>                                                                                           : "✝"   # MPC: 37 Fides (Latin Cross)
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Cyrillic_EL> <Ediaeresis> <Cyrillic_ER> <Cyrillic_A> <braceright>                                                                                            : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Cyrillic_el> <ediaeresis> <Cyrillic_er> <Cyrillic_a> <braceright>                                                                                            : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Cyrillic_EL> <dead_diaeresis> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_A> <braceright>                                                                          : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Cyrillic_el> <dead_diaeresis> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_a> <braceright>                                                                          : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Cyrillic_EL> <Cyrillic_O> <Cyrillic_ER> <Cyrillic_A> <braceright>                                                                                            : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Cyrillic_el> <Cyrillic_o> <Cyrillic_er> <Cyrillic_a> <braceright>                                                                                            : "𜻂"   # MPC: 8 Flora
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Cyrillic_A> <Cyrillic_ER> <Cyrillic_TE> <Cyrillic_U> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                 : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Cyrillic_a> <Cyrillic_er> <Cyrillic_te> <Cyrillic_u> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                 : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Cyrillic_O> <Cyrillic_ER> <Cyrillic_TE> <Cyrillic_U> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                 : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Cyrillic_o> <Cyrillic_er> <Cyrillic_te> <Cyrillic_u> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                 : "𜻌"   # MPC: 19 Fortuna
+<Multi_key> <U232C> <braceleft> <Cyrillic_GHE> <Cyrillic_A> <Cyrillic_U> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_A> <braceright>                                                                              : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ghe> <Cyrillic_a> <Cyrillic_u> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_a> <braceright>                                                                              : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_BE> <Cyrillic_A> <braceright>                                                                                                        : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_be> <Cyrillic_a> <braceright>                                                                                                        : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <Cyrillic_GHE> <Cyrillic_I> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                                                         : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ghe> <Cyrillic_i> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                                                         : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <Cyrillic_GHE> <Ukrainian_I> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                                                        : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ghe> <Ukrainian_i> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                                                        : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <Cyrillic_GHE> <Cyrillic_U> <Cyrillic_EN> <Cyrillic_GHE> <Cyrillic_U> <Cyrillic_EN> <braceright>                                                                            : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Cyrillic_ghe> <Cyrillic_u> <Cyrillic_en> <Cyrillic_ghe> <Cyrillic_u> <Cyrillic_en> <braceright>                                                                            : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Cyrillic_GHE> <Cyrillic_U> <Cyrillic_EN> <minus> <Cyrillic_GHE> <Cyrillic_U> <Cyrillic_EN> <braceright>                                                                    : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Cyrillic_ghe> <Cyrillic_u> <Cyrillic_en> <minus> <Cyrillic_ghe> <Cyrillic_u> <Cyrillic_en> <braceright>                                                                    : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Cyrillic_I> <Cyrillic_ER> <Cyrillic_IE> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                                            : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Cyrillic_i> <Cyrillic_er> <Cyrillic_ie> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                                            : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Cyrillic_I> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                                             : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Cyrillic_i> <Cyrillic_er> <Cyrillic_i> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                                             : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Cyrillic_I> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                                             : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Cyrillic_i> <Cyrillic_er> <Cyrillic_i> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                                             : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Cyrillic_I> <Cyrillic_ER> <Cyrillic_YERU> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                                          : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Cyrillic_i> <Cyrillic_er> <Cyrillic_yeru> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                                          : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Cyrillic_I> <Cyrillic_ER> <Cyrillic_YERU> <Cyrillic_ES> <braceright>                                                                                                       : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Cyrillic_i> <Cyrillic_er> <Cyrillic_yeru> <Cyrillic_es> <braceright>                                                                                                       : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Ukrainian_I> <Cyrillic_ER> <Cyrillic_IE> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                                           : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Ukrainian_i> <Cyrillic_er> <Cyrillic_ie> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                                           : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Ukrainian_I> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                                            : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Ukrainian_i> <Cyrillic_er> <Cyrillic_i> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                                            : "𜻁"   # MPC: 7 Iris
+<Multi_key> <U232C> <braceleft> <Ukrainian_I> <Cyrillic_ER> <Cyrillic_E> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                                            : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Ukrainian_i> <Cyrillic_er> <Cyrillic_e> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                                            : "𜻇"   # MPC: 14 Irene
+<Multi_key> <U232C> <braceleft> <Ukrainian_YI> <Cyrillic_O> <Cyrillic_U> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                 : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <Ukrainian_yi> <Cyrillic_o> <Cyrillic_u> <Cyrillic_en> <Cyrillic_o> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                 : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <dead_diaeresis> <Ukrainian_I> <Cyrillic_O> <Cyrillic_U> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                 : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <dead_diaeresis> <Ukrainian_i> <Cyrillic_o> <Cyrillic_u> <Cyrillic_en> <Cyrillic_o> <Cyrillic_en> <Cyrillic_a> <braceright>                                                 : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <Cyrillic_JE> <Cyrillic_U> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                               : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <Cyrillic_je> <Cyrillic_u> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                               : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <Cyrillic_KA> <Cyrillic_VE> <Cyrillic_A> <Cyrillic_VE> <Cyrillic_A> <Cyrillic_ER> <braceright>                                                                              : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <Cyrillic_ka> <Cyrillic_ve> <Cyrillic_a> <Cyrillic_ve> <Cyrillic_a> <Cyrillic_er> <braceright>                                                                              : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <Cyrillic_KA> <Cyrillic_VE> <Cyrillic_A> <Cyrillic_O> <Cyrillic_A> <Cyrillic_ER> <braceright>                                                                               : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <Cyrillic_ka> <Cyrillic_ve> <Cyrillic_a> <Cyrillic_o> <Cyrillic_a> <Cyrillic_er> <braceright>                                                                               : "🝾"   # MPC: 50000 Quaoar
+<Multi_key> <U232C> <braceleft> <Cyrillic_KA> <Cyrillic_U> <Cyrillic_EN> <minus> <Cyrillic_KA> <Cyrillic_U> <Cyrillic_EN> <braceright>                                                                      : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Cyrillic_ka> <Cyrillic_u> <Cyrillic_en> <minus> <Cyrillic_ka> <Cyrillic_u> <Cyrillic_en> <braceright>                                                                      : "🝽"   # MPC: 225088 Gonggong
+<Multi_key> <U232C> <braceleft> <Cyrillic_EL> <Cyrillic_IE> <Cyrillic_VE> <Cyrillic_KA> <Cyrillic_O> <Cyrillic_EF> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                 : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_el> <Cyrillic_ie> <Cyrillic_ve> <Cyrillic_ka> <Cyrillic_o> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                 : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_EL> <Cyrillic_IE> <Cyrillic_VE> <Cyrillic_KA> <Cyrillic_O> <Cyrillic_TE> <Cyrillic_IE> <Cyrillic_JE> <Cyrillic_A> <braceright>                                    : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_el> <Cyrillic_ie> <Cyrillic_ve> <Cyrillic_ka> <Cyrillic_o> <Cyrillic_te> <Cyrillic_ie> <Cyrillic_je> <Cyrillic_a> <braceright>                                    : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_EL> <Cyrillic_IE> <Cyrillic_VE> <Cyrillic_KA> <Cyrillic_O> <Cyrillic_TE> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                 : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_el> <Cyrillic_ie> <Cyrillic_ve> <Cyrillic_ka> <Cyrillic_o> <Cyrillic_te> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                 : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_EL> <Cyrillic_IE> <Byelorussian_SHORTU> <Cyrillic_KA> <Cyrillic_A> <Cyrillic_EF> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                         : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_el> <Cyrillic_ie> <Byelorussian_shortu> <Cyrillic_ka> <Cyrillic_a> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                         : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_EL> <Cyrillic_IE> <dead_breve> <Cyrillic_U> <Cyrillic_KA> <Cyrillic_A> <Cyrillic_EF> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                     : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_el> <Cyrillic_ie> <dead_breve> <Cyrillic_u> <Cyrillic_ka> <Cyrillic_a> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                     : "𜻐"   # MPC: 35 Leukothea
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_A> <Cyrillic_KA> <Cyrillic_IE> <Cyrillic_EM> <Cyrillic_A> <Cyrillic_KA> <Cyrillic_IE> <braceright>                                                  : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_a> <Cyrillic_ka> <Cyrillic_ie> <Cyrillic_em> <Cyrillic_a> <Cyrillic_ka> <Cyrillic_ie> <braceright>                                                  : "🝼"   # MPC: 136472 Makemake
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_EL> <Cyrillic_PE> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_EN> <Cyrillic_A> <braceright>                                    : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_el> <Cyrillic_pe> <Cyrillic_o> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_en> <Cyrillic_a> <braceright>                                    : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_EL> <Cyrillic_SOFTSIGN> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_EN> <Cyrillic_A> <braceright>                : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_el> <Cyrillic_softsign> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_en> <Cyrillic_a> <braceright>                : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_EL> <Cyrillic_SOFTSIGN> <Cyrillic_PE> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_EN> <Cyrillic_A> <braceright>                : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_el> <Cyrillic_softsign> <Cyrillic_pe> <Cyrillic_o> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_en> <Cyrillic_a> <braceright>                : "𜻋"   # MPC: 18 Melpomene
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_TE> <Cyrillic_I> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                              : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_te> <Cyrillic_i> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                              : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_TE> <Ukrainian_I> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                             : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_te> <Ukrainian_i> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                             : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_TE> <Cyrillic_YERU> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                           : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_te> <Cyrillic_yeru> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                           : "𜻃"   # MPC: 9 Metis
+<Multi_key> <U232C> <braceleft> <Cyrillic_O> <Cyrillic_ER> <Cyrillic_KA> <braceright>                                                                                                                       : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <Cyrillic_o> <Cyrillic_er> <Cyrillic_ka> <braceright>                                                                                                                       : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <Cyrillic_O> <Cyrillic_ER> <Cyrillic_KA> <Cyrillic_U> <Cyrillic_ES> <braceright>                                                                                            : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <Cyrillic_o> <Cyrillic_er> <Cyrillic_ka> <Cyrillic_u> <Cyrillic_es> <braceright>                                                                                            : "🝿"   # MPC: 90482 Orcus
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_EL> <Cyrillic_A> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                               : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_el> <Cyrillic_a> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                               : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_EL> <Cyrillic_A> <Cyrillic_ES> <braceright>                                                                                            : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_el> <Cyrillic_a> <Cyrillic_es> <braceright>                                                                                            : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_EL> <Cyrillic_EL> <Cyrillic_A> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                 : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_el> <Cyrillic_el> <Cyrillic_a> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                 : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_EL> <Cyrillic_EL> <Cyrillic_A> <Cyrillic_ES> <Cyrillic_HARDSIGN> <braceright>                                                          : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_el> <Cyrillic_el> <Cyrillic_a> <Cyrillic_es> <Cyrillic_hardsign> <braceright>                                                          : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_EL> <Cyrillic_YA> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                              : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_el> <Cyrillic_ya> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                              : "⚴"   # MPC: 2 Pallas
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_ER> <Cyrillic_ef> <Cyrillic_IE> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_PE> <Cyrillic_A> <braceright>                                     : "𜻄"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_er> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_en> <Cyrillic_o> <Cyrillic_pe> <Cyrillic_a> <braceright>                                     : "🝺"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_ER> <Cyrillic_TE> <Cyrillic_IE> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_PE> <Cyrillic_A> <braceright>                                     : "𜻄"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_er> <Cyrillic_te> <Cyrillic_ie> <Cyrillic_en> <Cyrillic_o> <Cyrillic_pe> <Cyrillic_a> <braceright>                                     : "🝺"   # MPC: 11 Parthenope
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_EL> <Cyrillic_U> <Cyrillic_TE> <Cyrillic_O> <Cyrillic_EN> <braceright>                                                                              : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_el> <Cyrillic_u> <Cyrillic_te> <Cyrillic_o> <Cyrillic_en> <braceright>                                                                              : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_EL> <Cyrillic_YU> <Cyrillic_TE> <Cyrillic_O> <Cyrillic_EN> <braceright>                                                                             : "⯓"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_el> <Cyrillic_yu> <Cyrillic_te> <Cyrillic_o> <Cyrillic_en> <braceright>                                                                             : "♇"   # MPC: 134340 Pluto
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_ER> <Cyrillic_A> <Cyrillic_ZE> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_PE> <Ukrainian_I> <Cyrillic_EN> <Cyrillic_A> <braceright>                      : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_er> <Cyrillic_a> <Cyrillic_ze> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_pe> <Ukrainian_i> <Cyrillic_en> <Cyrillic_a> <braceright>                      : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_ER> <Cyrillic_O> <Cyrillic_ZE> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_PE> <Cyrillic_I> <Cyrillic_EN> <Cyrillic_A> <braceright>                       : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_er> <Cyrillic_o> <Cyrillic_ze> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_pe> <Cyrillic_i> <Cyrillic_en> <Cyrillic_a> <braceright>                       : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_ER> <Cyrillic_O> <Cyrillic_ZE> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_PE> <Ukrainian_I> <Cyrillic_EN> <Cyrillic_A> <braceright>                      : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_er> <Cyrillic_o> <Cyrillic_ze> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_pe> <Ukrainian_i> <Cyrillic_en> <Cyrillic_a> <braceright>                      : "𜻍"   # MPC: 26 Proserpina
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_ES> <Cyrillic_I> <Cyrillic_HA> <Cyrillic_IE> <Cyrillic_JE> <Cyrillic_A> <braceright>                                                                : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_es> <Cyrillic_i> <Cyrillic_ha> <Cyrillic_ie> <Cyrillic_je> <Cyrillic_a> <braceright>                                                                : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_ES> <Cyrillic_I> <Cyrillic_HA> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                                             : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_es> <Cyrillic_i> <Cyrillic_ha> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                                             : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_ES> <Ukrainian_I> <Cyrillic_HA> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                                            : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_es> <Ukrainian_i> <Cyrillic_ha> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                                            : "𜻉"   # MPC: 16 Psyche
+<Multi_key> <U232C> <braceleft> <Cyrillic_ES> <Cyrillic_IE> <Cyrillic_DE> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                                           : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_de> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                                           : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <Cyrillic_ES> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_A> <braceright>                                                                             : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_a> <braceright>                                                                             : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Cyrillic_ES> <Cyrillic_E> <Cyrillic_DE> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                                            : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <Cyrillic_es> <Cyrillic_e> <Cyrillic_de> <Cyrillic_en> <Cyrillic_a> <braceright>                                                                                            : "⯲"   # MPC: 90377 Sedna
+<Multi_key> <U232C> <braceleft> <Cyrillic_TE> <Cyrillic_IE> <Cyrillic_TE> <Cyrillic_I> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                              : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Cyrillic_te> <Cyrillic_ie> <Cyrillic_te> <Cyrillic_i> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                              : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Cyrillic_IE> <Cyrillic_TE> <Cyrillic_I> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                              : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_te> <Cyrillic_i> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                              : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Cyrillic_IE> <Cyrillic_TE> <Ukrainian_I> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                             : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_te> <Ukrainian_i> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                             : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Cyrillic_EF> <Cyrillic_IE> <Cyrillic_TE> <Cyrillic_YERU> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                           : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_te> <Cyrillic_yeru> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                           : "𜻊"   # MPC: 17 Thetis
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_A> <Cyrillic_U> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_A> <braceright>                                                                               : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_a> <Cyrillic_u> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_a> <braceright>                                                                               : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_A> <Cyrillic_U> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_JE> <Cyrillic_A> <braceright>                                                                 : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_a> <Cyrillic_u> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_je> <Cyrillic_a> <braceright>                                                                 : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_A> <Cyrillic_U> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                                              : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_a> <Cyrillic_u> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                                              : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_A> <Byelorussian_SHORTU> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_A> <braceright>                                                                      : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_a> <Byelorussian_shortu> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_a> <braceright>                                                                      : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_A> <dead_breve> <Cyrillic_U> <Cyrillic_EM> <Cyrillic_IE> <Cyrillic_A> <braceright>                                                                  : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_a> <dead_breve> <Cyrillic_u> <Cyrillic_em> <Cyrillic_ie> <Cyrillic_a> <braceright>                                                                  : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_A> <Byelorussian_SHORTU> <Cyrillic_EM> <Cyrillic_E> <Cyrillic_YA> <braceright>                                                                      : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_a> <Byelorussian_shortu> <Cyrillic_em> <Cyrillic_e> <Cyrillic_ya> <braceright>                                                                      : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_A> <dead_breve> <Cyrillic_U> <Cyrillic_EM> <Cyrillic_E> <Cyrillic_YA> <braceright>                                                                  : "🝻"   # MPC: 136108 Haumea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_a> <dead_breve> <Cyrillic_u> <Cyrillic_em> <Cyrillic_e> <Cyrillic_ya> <braceright>                                                                  : "🝻"   # MPC: 136108 
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_IE> <Cyrillic_BE> <Cyrillic_A> <braceright>                                                                                                         : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_ie> <Cyrillic_be> <Cyrillic_a> <braceright>                                                                                                         : "𜻀"   # MPC: 6 Hebe
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_I> <Cyrillic_GHE> <Cyrillic_I> <Cyrillic_JE> <Cyrillic_A> <braceright>                                                                              : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_i> <Cyrillic_ghe> <Cyrillic_i> <Cyrillic_je> <Cyrillic_a> <braceright>                                                                              : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <Cyrillic_HA> <Cyrillic_I> <Cyrillic_GHE> <Cyrillic_I> <Cyrillic_YA> <braceright>                                                                                           : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <Cyrillic_ha> <Cyrillic_i> <Cyrillic_ghe> <Cyrillic_i> <Cyrillic_ya> <braceright>                                                                                           : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <U04B2> <Cyrillic_I> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                                                                : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <U04B3> <Cyrillic_i> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                                                                : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <dead_cedilla> <minus> <Cyrillic_HA> <Cyrillic_I> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_YA> <braceright>                                                                   : "🝹"   # MPC: 10 Hygiea
+<Multi_key> <U232C> <braceleft> <dead_cedilla> <minus> <Cyrillic_ha> <Cyrillic_i> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_ya> <braceright>                                                                   : "⚕"   # MPC: 10 Hygiea (Rod of Aesculapius)
+<Multi_key> <U232C> <braceleft> <Cyrillic_TSE> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_A> <braceright>                                                                            : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Cyrillic_tse> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_a> <braceright>                                                                            : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Cyrillic_TSE> <Ukrainian_IE> <Cyrillic_ER> <Ukrainian_IE> <Cyrillic_ES> <Cyrillic_HARDSIGN> <braceright>                                                                   : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Cyrillic_tse> <Ukrainian_ie> <Cyrillic_er> <Ukrainian_ie> <Cyrillic_es> <Cyrillic_hardsign> <braceright>                                                                   : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Cyrillic_TSE> <Cyrillic_E> <Cyrillic_ER> <Cyrillic_E> <Cyrillic_ER> <Cyrillic_A> <braceright>                                                                              : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Cyrillic_tse> <Cyrillic_e> <Cyrillic_er> <Cyrillic_e> <Cyrillic_er> <Cyrillic_a> <braceright>                                                                              : "⚳"   # MPC: 1 Ceres
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <Cyrillic_VE> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_YA> <braceright>                                                                 : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <Cyrillic_ve> <Cyrillic_en> <Cyrillic_o> <Cyrillic_em> <Cyrillic_i> <Cyrillic_ya> <braceright>                                                                 : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_A> <braceright>                                                                              : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_i> <Cyrillic_a> <braceright>                                                                              : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_ER> <Cyrillic_YERU> <Cyrillic_A> <braceright>                                                                           : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_yeru> <Cyrillic_a> <braceright>                                                                           : "𜻆"   # MPC: 13 Egeria
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <Cyrillic_SHORTI> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_YA> <braceright>                                                             : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <Cyrillic_shorti> <Cyrillic_en> <Cyrillic_o> <Cyrillic_em> <Cyrillic_i> <Cyrillic_ya> <braceright>                                                             : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <dead_breve> <Cyrillic_I> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_YA> <braceright>                                                     : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <dead_breve> <Cyrillic_i> <Cyrillic_en> <Cyrillic_o> <Cyrillic_em> <Cyrillic_i> <Cyrillic_ya> <braceright>                                                     : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_DE> <Cyrillic_A> <braceright>                                                                                             : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <Cyrillic_er> <Cyrillic_i> <Cyrillic_de> <Cyrillic_a> <braceright>                                                                                             : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_ES> <braceright>                                                                                                          : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <Cyrillic_er> <Cyrillic_i> <Cyrillic_es> <braceright>                                                                                                          : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <Cyrillic_ER> <Cyrillic_YERU> <Cyrillic_ES> <braceright>                                                                                                       : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <Cyrillic_er> <Cyrillic_yeru> <Cyrillic_es> <braceright>                                                                                                       : "⯰"   # MPC: 136199 Eris
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <Byelorussian_SHORTU> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EM> <Ukrainian_I> <Cyrillic_YA> <braceright>                                                        : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <Byelorussian_shortu> <Cyrillic_en> <Cyrillic_o> <Cyrillic_em> <Ukrainian_i> <Cyrillic_ya> <braceright>                                                        : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_E> <dead_breve> <Cyrillic_U> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EM> <Ukrainian_I> <Cyrillic_YA> <braceright>                                                    : "𜻈"   # MPC: 15 Eunomia
+<Multi_key> <U232C> <braceleft> <Cyrillic_e> <dead_breve> <Cyrillic_u> <Cyrillic_en> <Cyrillic_o> <Cyrillic_em> <Ukrainian_i> <Cyrillic_ya> <braceright>                                                    : "𜻈"   # MPC: 15 
+<Multi_key> <U232C> <braceleft> <Cyrillic_YU> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                                            : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <Cyrillic_yu> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                                            : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <U1DCF> <Cyrillic_I> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                        : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <U1DCF> <Cyrillic_i> <Cyrillic_o> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                        : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <U1DCF> <Ukrainian_I> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                       : "⚵"   # MPC: 3 Juno
+<Multi_key> <U232C> <braceleft> <U1DCF> <Ukrainian_i> <Cyrillic_o> <Cyrillic_EN> <Cyrillic_O> <Cyrillic_EN> <Cyrillic_A> <braceright>                                                                       : "⚵"   # MPC: 3 Juno
+
+
+# Astronomical + Astrological Symbols (Major Celestial Bodies & Planets)
+#
+# [NOTE]: All symbols listed here are enclosed in curly brackets.
+#
+<Multi_key> <U232C> <braceleft> <Cyrillic_IE> <braceright>                  : "🜨"   # Earth
+<Multi_key> <U232C> <braceleft> <Cyrillic_ie> <braceright>                  : "♁"   # Earth
+<Multi_key> <U232C> <braceleft> <Cyrillic_SHHA> <braceright>                : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <Cyrillic_shha> <braceright>                : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <Cyrillic_JE> <braceright>                  : "♃"   # Jupiter
+<Multi_key> <U232C> <braceleft> <Cyrillic_je> <braceright>                  : "♃"   # Jupiter
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <braceright>                  : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <braceright>                  : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_A> <braceright>     : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_a> <braceright>     : "♂"   # Mars
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <greater> <braceright>        : "☽︎"   # Waxing Moon
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_IE> <braceright>    : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_ie> <braceright>    : "☿"   # Mercury
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <less> <braceright>           : "☾"   # Waning Moon
+<Multi_key> <U232C> <braceleft> <Cyrillic_EN> <braceright>                  : "⯉"   # Neptune
+<Multi_key> <U232C> <braceleft> <Cyrillic_en> <braceright>                  : "♆"   # Neptune
+<Multi_key> <U232C> <braceleft> <Cyrillic_O> <period> <braceright>          : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <Cyrillic_o> <period> <braceright>          : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <period> <Cyrillic_O> <braceright>          : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <period> <Cyrillic_o> <braceright>          : "☉︎"   # Sun
+<Multi_key> <U232C> <braceleft> <Cyrillic_ES> <braceright>                  : "♄"   # Saturn
+<Multi_key> <U232C> <braceleft> <Cyrillic_es> <braceright>                  : "♄"   # Saturn
+<Multi_key> <U232C> <braceleft> <Cyrillic_U> <braceright>                   : "♅"   # Uranus
+<Multi_key> <U232C> <braceleft> <Cyrillic_u> <braceright>                   : "⛢"   # Uranus
+<Multi_key> <U232C> <braceleft> <Cyrillic_VE> <braceright>                  : "♀"   # Venus
+<Multi_key> <U232C> <braceleft> <Cyrillic_ve> <braceright>                  : "♀"   # Venus
+
+
+# Miscellaneous Celestial Symbols
+#
+# [NOTE]: All symbols listed here are enclosed in curly brackets.
+#
+<Multi_key> <U232C> <braceleft> <Cyrillic_EM> <Cyrillic_TSE> <braceright>   : "🌚︎"  # Moon with face
+<Multi_key> <U232C> <braceleft> <Cyrillic_em> <Cyrillic_tse> <braceright>   : "🌚︎"  # Moon with face
+<Multi_key> <U232C> <braceleft> <Cyrillic_O> <Cyrillic_TSE> <braceright>    : "🌞︎︎"  # Sun with face
+<Multi_key> <U232C> <braceleft> <Cyrillic_o> <Cyrillic_tse> <braceright>    : "🌞︎︎"  # Sun with face
+
+
+# Zodiac Symbols
+#
+# [NOTE]: All symbols listed here are enclosed in curly brackets,
+#         with each name denoting its IAU abbreviation.
+#
+<Multi_key> <U232C> <braceleft> <Cyrillic_A> <Cyrillic_ER> <Cyrillic_I> <braceright>        : "♈︎"  # Aries
+<Multi_key> <U232C> <braceleft> <Cyrillic_a> <Cyrillic_er> <Cyrillic_i> <braceright>        : "♈︎"  # Aries
+<Multi_key> <U232C> <braceleft> <Cyrillic_TE> <Cyrillic_A> <Cyrillic_U> <braceright>        : "♉︎"  # Taurus
+<Multi_key> <U232C> <braceleft> <Cyrillic_te> <Cyrillic_a> <Cyrillic_u> <braceright>        : "♉︎"  # Taurus
+<Multi_key> <U232C> <braceleft> <Cyrillic_GHE> <Cyrillic_IE> <Cyrillic_EM> <braceright>     : "♊︎"  # Gemini
+<Multi_key> <U232C> <braceleft> <Cyrillic_ghe> <Cyrillic_ie> <Cyrillic_em> <braceright>     : "♊︎"  # Gemini
+<Multi_key> <U232C> <braceleft> <Cyrillic_TSE> <Cyrillic_EN> <Cyrillic_TSE> <braceright>    : "♋︎"  # Cancer
+<Multi_key> <U232C> <braceleft> <Cyrillic_tse> <Cyrillic_en> <Cyrillic_tse> <braceright>    : "♋︎"  # Cancer
+<Multi_key> <U232C> <braceleft> <Cyrillic_EL> <Cyrillic_IE> <Cyrillic_O> <braceright>       : "♌︎"  # Leo
+<Multi_key> <U232C> <braceleft> <Cyrillic_el> <Cyrillic_ie> <Cyrillic_o> <braceright>       : "♌︎"  # Leo
+<Multi_key> <U232C> <braceleft> <Cyrillic_VE> <Cyrillic_I> <Cyrillic_ER> <braceright>       : "♍︎"  # Virgo
+<Multi_key> <U232C> <braceleft> <Cyrillic_ve> <Cyrillic_i> <Cyrillic_er> <braceright>       : "♍︎"  # Virgo
+<Multi_key> <U232C> <braceleft> <Cyrillic_EL> <Cyrillic_I> <Cyrillic_BE> <braceright>       : "♎︎"  # Libra
+<Multi_key> <U232C> <braceleft> <Cyrillic_el> <Cyrillic_i> <Cyrillic_be> <braceright>       : "♎︎"  # Libra
+<Multi_key> <U232C> <braceleft> <Cyrillic_ES> <Cyrillic_TSE> <Cyrillic_O> <braceright>      : "♏︎"  # Scorpio
+<Multi_key> <U232C> <braceleft> <Cyrillic_es> <Cyrillic_tse> <Cyrillic_o> <braceright>      : "♏︎"  # Scorpio
+<Multi_key> <U232C> <braceleft> <Cyrillic_ES> <Cyrillic_GHE> <Cyrillic_ER> <braceright>     : "♐︎"  # Sagitarius
+<Multi_key> <U232C> <braceleft> <Cyrillic_es> <Cyrillic_ghe> <Cyrillic_er> <braceright>     : "♐︎"  # Sagitarius
+<Multi_key> <U232C> <braceleft> <Cyrillic_TSE> <Cyrillic_A> <Cyrillic_PE> <braceright>      : "♑︎"  # Capricorn
+<Multi_key> <U232C> <braceleft> <Cyrillic_tse> <Cyrillic_a> <Cyrillic_pe> <braceright>      : "♑︎"  # Capricorn
+<Multi_key> <U232C> <braceleft> <Cyrillic_A> <U051A> <Cyrillic_ER> <braceright>             : "♒︎"  # Aquarius
+<Multi_key> <U232C> <braceleft> <Cyrillic_a> <U051B> <Cyrillic_er> <braceright>             : "♒︎"  # Aquarius
+<Multi_key> <U232C> <braceleft> <Cyrillic_PE> <Cyrillic_ES> <Cyrillic_TSE> <braceright>     : "♓︎"  # Pisces
+<Multi_key> <U232C> <braceleft> <Cyrillic_pe> <Cyrillic_es> <Cyrillic_tse> <braceright>     : "♓︎"  # Pisces
+<Multi_key> <U232C> <braceleft> <Cyrillic_O> <Cyrillic_PE> <Cyrillic_SHHA> <braceright>     : "⛎︎"  # Ophiucus
+<Multi_key> <U232C> <braceleft> <Cyrillic_o> <Cyrillic_pe> <Cyrillic_shha> <braceright>     : "⛎︎"  # Ophiucus
+
+##################
+# [END OF RULES] #
+##################
