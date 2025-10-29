@@ -1,0 +1,45 @@
+# Cyrillic Alphabet | Religious & Spiritual Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing religious and spiritual symbols
+# > that can be input with alphabetical Cyrillic characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Religious_and_political_symbols_in_Unicode
+#
+# [NOTE]: All symbols listed here are enclosed inside double angled brackets.
+#
+
+# Chinese Folk Religion Symbols
+#
+# [NOTE]: All symbols present on this section
+# are input with their Palladius transcriptions
+# enclosed inside double angled brackets.
+#
+<Multi_key> <U232C> <less> <less> <Cyrillic_EF> <Cyrillic_U> <greater> <greater>                                                        : "🉠"   # Chinese Symbol for Luck & Fortune (福/Fú/Фу)
+<Multi_key> <U232C> <less> <less> <Cyrillic_ef> <Cyrillic_u> <greater> <greater>                                                        : "🉠"   # Chinese Symbol for Luck & Fortune (福/Fú/Фу)
+<Multi_key> <U232C> <less> <less> <Cyrillic_EL> <Cyrillic_U> <greater> <greater>                                                        : "🉡"   # Chinese Symbol for Prosperity (祿/Lù/Лу)
+<Multi_key> <U232C> <less> <less> <Cyrillic_el> <Cyrillic_u> <greater> <greater>                                                        : "🉡"   # Chinese Symbol for Prosperity (祿/Lù/Лу)
+<Multi_key> <U232C> <less> <less> <Cyrillic_SI> <Cyrillic_I> <greater> <greater>                                                        : "🉣"   # Chinese Symbol for Happiness (喜/Xǐ/Си)
+<Multi_key> <U232C> <less> <less> <Cyrillic_si> <Cyrillic_i> <greater> <greater>                                                        : "🉣"   # Chinese Symbol for Happiness (喜/Xǐ/Си)
+<Multi_key> <U232C> <less> <less> <Cyrillic_TSE> <Cyrillic_A> <Ibreve> <greater> <greater>                                              : "🉥"   # Chinese Symbol for Wealth (財/Cái/Цай)
+<Multi_key> <U232C> <less> <less> <Cyrillic_tse> <Cyrillic_a> <ibreve> <greater> <greater>                                              : "🉥"   # Chinese Symbol for Wealth (財/Cái/Цай)
+<Multi_key> <U232C> <less> <less> <Cyrillic_TSE> <Cyrillic_A> <dead_breve> <Cyrillic_I> <greater> <greater>                             : "🉥"   # Chinese Symbol for Wealth (財/Cái/Цай)
+<Multi_key> <U232C> <less> <less> <Cyrillic_tse> <Cyrillic_a> <dead_breve> <Cyrillic_i> <greater> <greater>                             : "🉥"   # Chinese Symbol for Wealth (財/Cái/Цай)
+<Multi_key> <U232C> <less> <less> <Cyrillic_SHA> <Cyrillic_O> <Cyrillic_U> <greater> <greater>                                          : "🉢"   # Chinese Symbol for Longevity (壽/Shòu/Шоу)
+<Multi_key> <U232C> <less> <less> <Cyrillic_sha> <Cyrillic_o> <Cyrillic_u> <greater> <greater>                                          : "🉢"   # Chinese Symbol for Longevity (壽/Shòu/Шоу)
+<Multi_key> <U232C> <less> <less> <Cyrillic_SHA> <Cyrillic_U> <Cyrillic_A> <Cyrillic_EN> <Cyrillic_SI> <Cyrillic_I> <greater> <greater> : "🉤"   # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ/Шуанси)
+<Multi_key> <U232C> <less> <less> <Cyrillic_sha> <Cyrillic_u> <Cyrillic_a> <Cyrillic_en> <Cyrillic_si> <Cyrillic_i> <greater> <greater> : "🉤"   # Chinese Symbol for Love & Marriage (囍/Shuāngxǐ/Шуанси)
+
+
+# General Religious & Spiritual Symbols & Artifacts (Alphabetical)
+<Multi_key> <U232C> <less> <less> <dead_tilde> <Cyrillic_EM> <Cyrillic_PE> <greater> <greater>  : "🕅"  # Orthodox Marks Chapter
+<Multi_key> <U232C> <less> <less> <dead_tilde> <Cyrillic_em> <Cyrillic_pe> <greater> <greater>  : "🕅"  # Orthodox Marks Chapter
+<Multi_key> <U232C> <less> <less> <dead_tilde> <Cyrillic_O> <Cyrillic_EM> <greater> <greater>   : "🕉︎"  # Om Symbol
+<Multi_key> <U232C> <less> <less> <dead_tilde> <Cyrillic_o> <Cyrillic_em> <greater> <greater>   : "🕉︎"  # Om Symbol
+
+##################
+# [END OF RULES] #
+##################
