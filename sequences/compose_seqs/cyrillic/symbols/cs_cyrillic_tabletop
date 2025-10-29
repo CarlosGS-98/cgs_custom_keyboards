@@ -1,0 +1,444 @@
+# Cyrillic Alphabet | Board Game Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing board game symbols
+# > that can be input with alphabetical Cyrillic characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+
+# Anglo-French Playing Card Symbols
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [NOTE]: Each piece does also encode info about its suit and value
+#         in the following regex-like notation:
+#           
+#         regexp = \[([0-9]{,2}|[ЦцЈјԚԛКк])?[(->)|(<3)|(<>)|(\.3)](\*)?\]
+#
+#         Where:
+#         - [ЦцЈјԚԛКк]              = Any non-numerical playing card (Knight/Cavalier -> Jack -> Queen -> King).
+#         - (->)|(<3)|(<>)|(\.3)]   = The card's own suit (Spade, Heart, Diamond or Club). Omitting the card's value will output the corresponding suit symbol.
+#         - \*                      = Whether the current suit is black. If not entered, it means the current suit is white/red.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <Cyrillic_JE> <minus> <greater> <bracketright>    : "🂫"   # Jack of Spades
+<Multi_key> <U232C> <bracketleft> <Cyrillic_je> <minus> <greater> <bracketright>    : "🂫"   # Jack of Spades
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <minus> <greater> <bracketright>   : "🂬"   # Knight of Spades
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <minus> <greater> <bracketright>   : "🂬"   # Knight of Spades
+<Multi_key> <U232C> <bracketleft> <U051A> <minus> <greater> <bracketright>          : "🂭"   # Queen of Spades
+<Multi_key> <U232C> <bracketleft> <U051B> <minus> <greater> <bracketright>          : "🂭"   # Queen of Spades
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <minus> <greater> <bracketright>    : "🂮"   # King of Spades
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ka> <minus> <greater> <bracketright>    : "🂮"   # King of Spades
+<Multi_key> <U232C> <bracketleft> <Cyrillic_JE> <less> <3> <bracketright>           : "🂻"   # Jack of Hearts
+<Multi_key> <U232C> <bracketleft> <Cyrillic_je> <less> <3> <bracketright>           : "🂻"   # Jack of Hearts
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <less> <3> <bracketright>          : "🂼"   # Knight of Hearts
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <less> <3> <bracketright>          : "🂼"   # Knight of Hearts
+<Multi_key> <U232C> <bracketleft> <U051A> <less> <3> <bracketright>                 : "🂽"   # Queen of Hearts
+<Multi_key> <U232C> <bracketleft> <U051B> <less> <3> <bracketright>                 : "🂽"   # Queen of Hearts
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <less> <3> <bracketright>           : "🂾"   # King of Hearts
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ka> <less> <3> <bracketright>           : "🂾"   # King of Hearts
+<Multi_key> <U232C> <bracketleft> <Cyrillic_JE> <less> <greater> <bracketright>     : "🃋"   # Jack of Diamonds
+<Multi_key> <U232C> <bracketleft> <Cyrillic_je> <less> <greater> <bracketright>     : "🃋"   # Jack of Diamonds
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <less> <greater> <bracketright>    : "🃌"   # Knight of Diamonds
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <less> <greater> <bracketright>    : "🃌"   # Knight of Diamonds
+<Multi_key> <U232C> <bracketleft> <U051A> <less> <greater> <bracketright>           : "🃍"   # Queen of Diamonds
+<Multi_key> <U232C> <bracketleft> <U051B> <less> <greater> <bracketright>           : "🃍"   # Queen of Diamonds
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <less> <greater> <bracketright>     : "🃎"   # King of Diamonds
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ka> <less> <greater> <bracketright>     : "🃎"   # King of Diamonds
+<Multi_key> <U232C> <bracketleft> <Cyrillic_JE> <period> <3> <bracketright>         : "🃛"   # Jack of Clubs
+<Multi_key> <U232C> <bracketleft> <Cyrillic_je> <period> <3> <bracketright>         : "🃛"   # Jack of Clubs
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <period> <3> <bracketright>        : "🃜"   # Knight of Clubs
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <period> <3> <bracketright>        : "🃜"   # Knight of Clubs
+<Multi_key> <U232C> <bracketleft> <U051A> <period> <3> <bracketright>               : "🃝"   # Queen of Clubs
+<Multi_key> <U232C> <bracketleft> <U051B> <period> <3> <bracketright>               : "🃝"   # Queen of Clubs
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <period> <3> <bracketright>         : "🃞"   # King of Clubs
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ka> <period> <3> <bracketright>         : "🃞"   # King of Clubs
+
+
+# Chess Piece Symbols (Excluding Pawns)
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#         Additionally, each symbol is represented by their
+#         corresponding letter in both the English and Spanish
+#         algebraic chess notations whenever possible.
+#
+# [NOTE]: Each piece does also encode info about its rotation and color
+#         in the following regex-like notation:
+#           
+#         regexp = \[[ABCDEFHKNQRT]*([0-9]{,3})?[*-]?\]
+#
+#         Where:
+#         - [ABCDEFHKNQRT]  = Any orthodox chess piece (including both the alfil and ferz) and some fairy chess pieces. Omitting this field will always produce a pawn.
+#         - [0-9]{,3}       = The piece's own rotation measured in sexagesimal degrees (more specifically, in multiples of 45º). The default rotation is 0º.
+#         - [*-]            = The piece's own color ("*" for black, "-" for neutral). Leaving this field blank will result in a white piece.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <Cyrillic_A> <bracketright>                               : "🩕"  # White Alfil [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_A> <asterisk> <bracketright>                    : "🩗"  # Black Alfil [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <bracketright>                              : "♗"  # White Bishop
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <9> <0> <bracketright>                      : "🨌"  # White Bishop + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <1> <8> <0> <bracketright>                  : "🨡"  # White Bishop + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <2> <7> <0> <bracketright>                  : "🨶"  # White Bishop + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <Cyrillic_EN> <bracketright>                : "🩐"  # White Princess
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <minus> <bracketright>                      : "🨃"  # Neutral Bishop
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <9> <0> <minus> <bracketright>              : "🨘"  # Neutral Bishop + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <1> <8> <0> <minus> <bracketright>          : "🨭"  # Neutral Bishop + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <2> <7> <0> <minus> <bracketright>          : "🩂"  # Neutral Bishop + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <asterisk> <bracketright>                   : "♝"  # Black Bishop
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <9> <0> <asterisk> <bracketright>           : "🨒"  # Black Bishop + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <1> <8> <0> <asterisk> <bracketright>       : "🨧"  # Black Bishop + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <2> <7> <0> <asterisk> <bracketright>       : "🨼"  # Black Bishop + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <Cyrillic_EN> <asterisk> <bracketright>     : "🩓"  # Black Princess
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <bracketright>                             : "♘"  # Caballo Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <4> <5> <bracketright>                     : "🨆"  # Caballo Blanco [ES] + 45º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <9> <0> <bracketright>                     : "🨍"  # Caballo Blanco [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <1> <3> <5> <bracketright>                 : "🨛"  # Caballo Blanco [ES] + 135º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <1> <8> <0> <bracketright>                 : "🨢"  # Caballo Blanco [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <2> <2> <5> <bracketright>                 : "🨰"  # Caballo Blanco [ES] + 225º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <2> <7> <0> <bracketright>                 : "🨷"  # Caballo Blanco [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <3> <1> <5> <bracketright>                 : "🩅"  # Caballo Blanco [ES] + 315º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <Cyrillic_DE> <bracketright>               : "🩎"  # Amazona Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <Cyrillic_TE> <bracketright>               : "🩏"  # Canciller Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <minus> <bracketright>                     : "🨄"  # Caballo Neutro [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <4> <5> <minus> <bracketright>             : "🨈"  # Caballo Neutro [ES] + 45º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <9> <0> <minus> <bracketright>             : "🨙"  # Caballo Neutro [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <1> <3> <5> <minus> <bracketright>         : "🨝"  # Caballo Neutro [ES] + 135º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <1> <8> <0> <minus> <bracketright>         : "🨮"  # Caballo Neutro [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <2> <2> <5> <minus> <bracketright>         : "🨲"  # Caballo Neutro [ES] + 225º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <2> <7> <0> <minus> <bracketright>         : "🩃"  # Caballo Neutro [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <3> <1> <5> <minus> <bracketright>         : "🩇"  # Caballo Neutro [ES] + 315º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <asterisk> <bracketright>                  : "♞"  # Caballo Negro [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <4> <5> <asterisk> <bracketright>          : "🨇"  # Caballo Negro [ES] + 45º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <9> <0> <asterisk> <bracketright>          : "🨓"  # Caballo Negro [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <1> <3> <5> <asterisk> <bracketright>      : "🨜"  # Caballo Negro [ES] + 135º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <1> <8> <0> <asterisk> <bracketright>      : "🨨"  # Caballo Negro [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <2> <2> <5> <asterisk> <bracketright>      : "🨱"  # Caballo Negro [ES] + 225º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <2> <7> <0> <asterisk> <bracketright>      : "🨽"  # Caballo Negro [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <3> <1> <5> <asterisk> <bracketright>      : "🩆"  # Caballo Negro [ES] + 315º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <Cyrillic_DE> <asterisk> <bracketright>    : "🩑"  # Amazona Negra [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <Cyrillic_TE> <asterisk> <bracketright>    : "🩒"  # Canciller Negro [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <bracketright>                              : "♕"  # Dama Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <9> <0> <bracketright>                      : "🨊"  # Dama Blanca [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <1> <8> <0> <bracketright>                  : "🨟"  # Dama Blanca [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <2> <7> <0> <bracketright>                  : "🨴"  # Dama Blanca [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <Cyrillic_TSE> <bracketright>               : "🩎"  # Amazona Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <minus> <bracketright>                      : "🨁"  # Dama Neutra [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <9> <0> <minus> <bracketright>              : "🨖"  # Dama Neutra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <1> <8> <0> <minus> <bracketright>          : "🨫"  # Dama Neutra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <2> <7> <0> <minus> <bracketright>          : "🩀"  # Dama Neutra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <asterisk> <bracketright>                   : "♛"  # Dama Negra [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <9> <0> <asterisk> <bracketright>           : "🨐"  # Dama Negra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <1> <8> <0> <asterisk> <bracketright>       : "🨥"  # Dama Negra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <2> <7> <0> <asterisk> <bracketright>       : "🨺"  # Dama Negra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_DE> <Cyrillic_TSE> <asterisk> <bracketright>    : "🩑"  # Amazona BlNegraanca [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_IE> <bracketright>                              : "🩕"  # Elefante Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_IE> <asterisk> <bracketright>                   : "🩗"  # Elefante Negro [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EF> <bracketright>                              : "🩔"  # White Ferz
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EF> <asterisk> <bracketright>                   : "🩖"  # Black Ferz
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHHA> <bracketright>                            : "🩈"  # White Equihopper
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHHA> <9> <0> <bracketright>                    : "🩋"  # White Equihopper + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHHA> <minus> <bracketright>                    : "🩊"  # Neutral Equihopper
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHHA> <9> <0> <minus> <bracketright>            : "🩍"  # Neutral Equihopper + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHHA> <asterisk> <bracketright>                 : "🩉"  # Black Equihopper
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHHA> <9> <0> <asterisk> <bracketright>         : "🩌"  # Black Equihopper + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <bracketright>                              : "♔"  # White King
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <9> <0> <bracketright>                      : "🨉"  # White King + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <1> <8> <0> <bracketright>                  : "🨞"  # White King + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <2> <7> <0> <bracketright>                  : "🨳"  # White King + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <minus> <bracketright>                      : "🨀"  # Neutral King
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <9> <0> <minus> <bracketright>              : "🨕"  # Neutral King + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <1> <8> <0> <minus> <bracketright>          : "🨪"  # Neutral King + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <2> <7> <0> <minus> <bracketright>          : "🨿"  # Neutral King + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <asterisk> <bracketright>                   : "♚"  # Black King
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <9> <0> <asterisk> <bracketright>           : "🨏"  # Black King + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <1> <8> <0> <asterisk> <bracketright>       : "🨤"  # Black King + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_KA> <2> <7> <0> <asterisk> <bracketright>       : "🨹"  # Black King + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <bracketright>                              : "♘"  # White Knight [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <4> <5> <bracketright>                      : "🨆"  # White Knight [EN] + 45º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <9> <0> <bracketright>                      : "🨍"  # White Knight [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <1> <3> <5> <bracketright>                  : "🨛"  # White Knight [EN] + 135º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <1> <8> <0> <bracketright>                  : "🨢"  # White Knight [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <2> <2> <5> <bracketright>                  : "🨰"  # White Knight [EN] + 225º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <2> <7> <0> <bracketright>                  : "🨷"  # White Knight [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <3> <1> <5> <bracketright>                  : "🩅"  # White Knight [EN] + 315º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <Cyrillic_BE> <bracketright>                : "🩐"  # White Princess
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <Cyrillic_ER> <bracketright>                : "🩏"  # White Empress [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <U051A> <bracketright>                      : "🩎"  # White Amazon [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <minus> <bracketright>                      : "🨄"  # Neutral Knight [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <4> <5> <minus> <bracketright>              : "🨈"  # Neutral Knight [EN] + 45º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <9> <0> <minus> <bracketright>              : "🨙"  # Neutral Knight [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <1> <3> <5> <minus> <bracketright>          : "🨝"  # Neutral Knight [EN] + 135º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <1> <8> <0> <minus> <bracketright>          : "🨮"  # Neutral Knight [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <2> <2> <5> <minus> <bracketright>          : "🨲"  # Neutral Knight [EN] + 225º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <2> <7> <0> <minus> <bracketright>          : "🩃"  # Neutral Knight [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <3> <1> <5> <minus> <bracketright>          : "🩇"  # Neutral Knight [EN] + 315º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <asterisk> <bracketright>                   : "♞"  # Black Knight [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <4> <5> <asterisk> <bracketright>           : "🨇"  # Black Knight [EN] + 45º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <9> <0> <asterisk> <bracketright>           : "🨓"  # Black Knight [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <1> <3> <5> <asterisk> <bracketright>       : "🨜"  # Black Knight [EN] + 135º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <1> <8> <0> <asterisk> <bracketright>       : "🨨"  # Black Knight [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <2> <2> <5> <asterisk> <bracketright>       : "🨱"  # Black Knight [EN] + 225º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <2> <7> <0> <asterisk> <bracketright>       : "🨽"  # Black Knight [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <3> <1> <5> <asterisk> <bracketright>       : "🩆"  # Black Knight [EN] + 315º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <Cyrillic_BE> <asterisk> <bracketright>     : "🩓"  # Black Princess
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <Cyrillic_ER> <asterisk> <bracketright>     : "🩒"  # Black Empress [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EN> <U051A> <asterisk> <bracketright>           : "🩑"  # Black Amazon [EN]
+<Multi_key> <U232C> <bracketleft> <U051A> <bracketright>                                    : "♕"  # White Queen [EN]
+<Multi_key> <U232C> <bracketleft> <U051A> <9> <0> <bracketright>                            : "🨊"  # White Queen [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <U051A> <1> <8> <0> <bracketright>                        : "🨟"  # White Queen [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <U051A> <2> <7> <0> <bracketright>                        : "🨴"  # White Queen [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <U051A> <Cyrillic_EN> <bracketright>                      : "🩎"  # White Amazon [EN]
+<Multi_key> <U232C> <bracketleft> <U051A> <minus> <bracketright>                            : "🨁"  # Neutral Queen [EN]
+<Multi_key> <U232C> <bracketleft> <U051A> <9> <0> <minus> <bracketright>                    : "🨖"  # Neutral Queen [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <U051A> <1> <8> <0> <minus> <bracketright>                : "🨫"  # Neutral Queen [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <U051A> <2> <7> <0> <minus> <bracketright>                : "🩀"  # Neutral Queen [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <U051A> <asterisk> <bracketright>                         : "♛"  # Black Queen [EN]
+<Multi_key> <U232C> <bracketleft> <U051A> <9> <0> <asterisk> <bracketright>                 : "🨐"  # Black Queen [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <U051A> <1> <8> <0> <asterisk> <bracketright>             : "🨥"  # Black Queen [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <U051A> <2> <7> <0> <asterisk> <bracketright>             : "🨺"  # Black Queen [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <bracketright>                              : "♖"  # White Rook [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <9> <0> <bracketright>                      : "🨋"  # White Rook [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <1> <8> <0> <bracketright>                  : "🨠"  # White Rook [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <2> <7> <0> <bracketright>                  : "🨵"  # White Rook [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <Cyrillic_EN> <bracketright>                : "🩏"  # White Empress [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <minus> <bracketright>                      : "🨂"  # Neutral Rook [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <9> <0> <minus> <bracketright>              : "🨗"  # Neutral Rook [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <1> <8> <0> <minus> <bracketright>          : "🨬"  # Neutral Rook [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <2> <7> <0> <minus> <bracketright>          : "🩁"  # Neutral Rook [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <asterisk> <bracketright>                   : "♜"  # Black Rook [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <9> <0> <asterisk> <bracketright>           : "🨑"  # Black Rook [EN] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <1> <8> <0> <asterisk> <bracketright>       : "🨦"  # Black Rook [EN] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <2> <7> <0> <asterisk> <bracketright>       : "🨻"  # Black Rook [EN] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <Cyrillic_EN> <asterisk> <bracketright>     : "🩒"  # Black Empress [EN]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <bracketright>                              : "♖"  # Torre Blanca [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <9> <0> <bracketright>                      : "🨋"  # Torre Blanca [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <1> <8> <0> <bracketright>                  : "🨠"  # Torre Blanca [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <2> <7> <0> <bracketright>                  : "🨵"  # Torre Blanca [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <Cyrillic_TSE> <bracketright>               : "🩏"  # Canciller Blanco [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <minus> <bracketright>                      : "🨂"  # Torre Neutra [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <9> <0> <minus> <bracketright>              : "🨗"  # Torre Neutra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <1> <8> <0> <minus> <bracketright>          : "🨬"  # Torre Neutra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <2> <7> <0> <minus> <bracketright>          : "🩁"  # Torre Neutra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <asterisk> <bracketright>                   : "♜"  # Torre Negra [ES]
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <9> <0> <asterisk> <bracketright>           : "🨑"  # Torre Negra [ES] + 90º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <1> <8> <0> <asterisk> <bracketright>       : "🨦"  # Torre Negra [ES] + 180º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <2> <7> <0> <asterisk> <bracketright>       : "🨻"  # Torre Negra [ES] + 270º
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TE> <Cyrillic_TSE> <asterisk> <bracketright>    : "🩒"  # Canciller Negro [ES]
+
+
+# Generic Bourgeois Tarot Card (Alphabetical)
+#
+# [NOTE]: All symbols listed here are enclosed inside double square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
+#
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_I> <bracketright> <bracketright>                                                          : "🃡"  # Trump Card 1 (Individual)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_i> <bracketright> <bracketright>                                                          : "🃡"  # Trump Card 1 (Individual)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_I> <Cyrillic_I> <bracketright> <bracketright>                                             : "🃢"  # Trump Card 2 (Childhood)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_i> <Cyrillic_i> <bracketright> <bracketright>                                             : "🃢"  # Trump Card 2 (Childhood)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_I> <Cyrillic_I> <Cyrillic_I> <bracketright> <bracketright>                                : "🃣"  # Trump Card 3 (Youth)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_i> <Cyrillic_i> <Cyrillic_i> <bracketright> <bracketright>                                : "🃣"  # Trump Card 3 (Youth)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_I> <Cyrillic_VE> <bracketright> <bracketright>                                            : "🃤"  # Trump Card 4 (Maturity)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_i> <Cyrillic_ve> <bracketright> <bracketright>                                            : "🃤"  # Trump Card 4 (Maturity)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_VE> <bracketright> <bracketright>                                                         : "🃥"  # Trump Card 5 (Old Age)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ve> <bracketright> <bracketright>                                                         : "🃥"  # Trump Card 5 (Old Age)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_VE> <Cyrillic_I> <bracketright> <bracketright>                                            : "🃦"  # Trump Card 6 (Morning)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ve> <Cyrillic_i> <bracketright> <bracketright>                                            : "🃦"  # Trump Card 6 (Morning)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_VE> <Cyrillic_I> <Cyrillic_I> <bracketright> <bracketright>                               : "🃧"  # Trump Card 7 (Afternoon)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ve> <Cyrillic_i> <Cyrillic_i> <bracketright> <bracketright>                               : "🃧"  # Trump Card 7 (Afternoon)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_VE> <Cyrillic_I> <Cyrillic_I> <Cyrillic_I> <bracketright> <bracketright>                  : "🃨"  # Trump Card 8 (Evening)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ve> <Cyrillic_i> <Cyrillic_i> <Cyrillic_i> <bracketright> <bracketright>                  : "🃨"  # Trump Card 8 (Evening)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_I> <Cyrillic_HA> <bracketright> <bracketright>                                            : "🃩"  # Trump Card 9 (Night)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_i> <Cyrillic_ha> <bracketright> <bracketright>                                            : "🃩"  # Trump Card 9 (Night)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <bracketright> <bracketright>                                                         : "🃪"  # Trump Card 10 (Earth & Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <bracketright> <bracketright>                                                         : "🃪"  # Trump Card 10 (Earth & Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_I> <bracketright> <bracketright>                                            : "🃫"  # Trump Card 11 (Water & Fire)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_i> <bracketright> <bracketright>                                            : "🃫"  # Trump Card 11 (Water & Fire)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_I> <Cyrillic_I> <bracketright> <bracketright>                               : "🃬"  # Trump Card 12 (Dance)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_i> <Cyrillic_i> <bracketright> <bracketright>                               : "🃬"  # Trump Card 12 (Dance)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_I> <Cyrillic_I> <Cyrillic_I> <bracketright> <bracketright>                  : "🃭"  # Trump Card 13 (Shopping)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_i> <Cyrillic_i> <Cyrillic_i> <bracketright> <bracketright>                  : "🃭"  # Trump Card 13 (Shopping)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_I> <Cyrillic_VE> <bracketright> <bracketright>                              : "🃮"  # Trump Card 14 (Open Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_i> <Cyrillic_ve> <bracketright> <bracketright>                              : "🃮"  # Trump Card 14 (Open Air)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_VE> <bracketright> <bracketright>                                           : "🃯"  # Trump Card 15 (Visual Arts)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_ve> <bracketright> <bracketright>                                           : "🃯"  # Trump Card 15 (Visual Arts)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_VE> <Cyrillic_I> <bracketright> <bracketright>                              : "🃰"  # Trump Card 16 (Spring)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_ve> <Cyrillic_i> <bracketright> <bracketright>                              : "🃰"  # Trump Card 16 (Spring)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_VE> <Cyrillic_I> <Cyrillic_I> <bracketright> <bracketright>                 : "🃱"  # Trump Card 17 (Summer)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_ve> <Cyrillic_i> <Cyrillic_i> <bracketright> <bracketright>                 : "🃱"  # Trump Card 17 (Summer)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_VE> <Cyrillic_I> <Cyrillic_I> <Cyrillic_I> <bracketright> <bracketright>    : "🃲"  # Trump Card 18 (Autumn)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_ve> <Cyrillic_i> <Cyrillic_i> <Cyrillic_i> <bracketright> <bracketright>    : "🃲"  # Trump Card 18 (Autumn)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_I> <Cyrillic_HA> <bracketright> <bracketright>                              : "🃳"  # Trump Card 19 (Winter)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_i> <Cyrillic_ha> <bracketright> <bracketright>                              : "🃳"  # Trump Card 19 (Winter)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_HA> <bracketright> <bracketright>                                           : "🃴"  # Trump Card 20 (The Game)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_ha> <bracketright> <bracketright>                                           : "🃴"  # Trump Card 20 (The Game)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_HA> <Cyrillic_HA> <Cyrillic_I> <bracketright> <bracketright>                              : "🃵"  # Trump Card 21 (Collective)
+<Multi_key> <U232C> <bracketleft> <bracketleft> <Cyrillic_ha> <Cyrillic_ha> <Cyrillic_i> <bracketright> <bracketright>                              : "🃵"  # Trump Card 21 (Collective)
+
+
+# Mahjong Tile Symbols (Alphabetical)
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Mahjong_Tiles_(Unicode_block)
+#
+<Multi_key> <U232C> <bracketleft> <1> <Cyrillic_BE> <bracketright>          : "🀐"   # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <1> <Cyrillic_be> <bracketright>          : "🀐"   # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <1> <Cyrillic_TSE> <bracketright>         : "🀇"   # One of Characters
+<Multi_key> <U232C> <bracketleft> <1> <Cyrillic_tse> <bracketright>         : "🀇"   # One of Characters
+<Multi_key> <U232C> <bracketleft> <2> <Cyrillic_BE> <bracketright>          : "🀑"   # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <2> <Cyrillic_be> <bracketright>          : "🀑"   # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <2> <Cyrillic_TSE> <bracketright>         : "🀈"   # Two of Characters
+<Multi_key> <U232C> <bracketleft> <2> <Cyrillic_tse> <bracketright>         : "🀈"   # Two of Characters
+<Multi_key> <U232C> <bracketleft> <3> <Cyrillic_BE> <bracketright>          : "🀒"   # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <3> <Cyrillic_be> <bracketright>          : "🀒"   # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <3> <Cyrillic_TSE> <bracketright>         : "🀉"   # Three of Characters
+<Multi_key> <U232C> <bracketleft> <3> <Cyrillic_tse> <bracketright>         : "🀉"   # Three of Characters
+<Multi_key> <U232C> <bracketleft> <4> <Cyrillic_BE> <bracketright>          : "🀓"   # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <4> <Cyrillic_be> <bracketright>          : "🀓"   # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <4> <Cyrillic_TSE> <bracketright>         : "🀊"   # Four of Characters
+<Multi_key> <U232C> <bracketleft> <4> <Cyrillic_tse> <bracketright>         : "🀊"   # Four of Characters
+<Multi_key> <U232C> <bracketleft> <5> <Cyrillic_BE> <bracketright>          : "🀔"   # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <5> <Cyrillic_be> <bracketright>          : "🀔"   # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <5> <Cyrillic_TSE> <bracketright>         : "🀋"   # Five of Characters
+<Multi_key> <U232C> <bracketleft> <5> <Cyrillic_tse> <bracketright>         : "🀋"   # Five of Characters
+<Multi_key> <U232C> <bracketleft> <6> <Cyrillic_BE> <bracketright>          : "🀕"   # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <6> <Cyrillic_be> <bracketright>          : "🀕"   # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <6> <Cyrillic_TSE> <bracketright>         : "🀌"   # Six of Characters
+<Multi_key> <U232C> <bracketleft> <6> <Cyrillic_tse> <bracketright>         : "🀌"   # Six of Characters
+<Multi_key> <U232C> <bracketleft> <7> <Cyrillic_BE> <bracketright>          : "🀖"   # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <7> <Cyrillic_be> <bracketright>          : "🀖"   # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <7> <Cyrillic_TSE> <bracketright>         : "🀍"   # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <7> <Cyrillic_tse> <bracketright>         : "🀍"   # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <8> <Cyrillic_BE> <bracketright>          : "🀗"   # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <8> <Cyrillic_be> <bracketright>          : "🀗"   # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <8> <Cyrillic_TSE> <bracketright>         : "🀎"   # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <8> <Cyrillic_tse> <bracketright>         : "🀎"   # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <9> <Cyrillic_BE> <bracketright>          : "🀘"   # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <9> <Cyrillic_be> <bracketright>          : "🀘"   # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <9> <Cyrillic_TSE> <bracketright>         : "🀏"   # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <9> <Cyrillic_tse> <bracketright>         : "🀏"   # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <at> <Cyrillic_EM> <bracketright>         : "🀫"   # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <at> <Cyrillic_em> <bracketright>         : "🀫"   # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <1> <bracketright>          : "🀐"   # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <1> <bracketright>          : "🀐"   # One of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <2> <bracketright>          : "🀑"   # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <2> <bracketright>          : "🀑"   # Two of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <3> <bracketright>          : "🀒"   # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <3> <bracketright>          : "🀒"   # Three of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <4> <bracketright>          : "🀓"   # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <4> <bracketright>          : "🀓"   # Four of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <5> <bracketright>          : "🀔"   # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <5> <bracketright>          : "🀔"   # Five of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <6> <bracketright>          : "🀕"   # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <6> <bracketright>          : "🀕"   # Six of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <7> <bracketright>          : "🀖"   # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <7> <bracketright>          : "🀖"   # Seven of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <8> <bracketright>          : "🀗"   # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <8> <bracketright>          : "🀗"   # Eight of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <9> <bracketright>          : "🀘"   # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <9> <bracketright>          : "🀘"   # Nine of Bamboos
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <1> <bracketright>         : "🀇"   # One of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <1> <bracketright>         : "🀇"   # One of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <2> <bracketright>         : "🀈"   # Two of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <2> <bracketright>         : "🀈"   # Two of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <3> <bracketright>         : "🀉"   # Three of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <3> <bracketright>         : "🀉"   # Three of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <4> <bracketright>         : "🀊"   # Four of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <4> <bracketright>         : "🀊"   # Four of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <5> <bracketright>         : "🀋"   # Five of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <5> <bracketright>         : "🀋"   # Five of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <6> <bracketright>         : "🀌"   # Six of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <6> <bracketright>         : "🀌"   # Six of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <7> <bracketright>         : "🀍"   # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <7> <bracketright>         : "🀍"   # Seven of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <8> <bracketright>         : "🀎"   # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <8> <bracketright>         : "🀎"   # Eight of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <9> <bracketright>         : "🀏"   # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <9> <bracketright>         : "🀏"   # Nine of Characters
+<Multi_key> <U232C> <bracketleft> <dollar> <Cyrillic_JE> <bracketright>     : "🀪"   # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <dollar> <Cyrillic_je> <bracketright>     : "🀪"   # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <Cyrillic_VE> <asciitilde> <bracketright> : "🀀"   # East Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ve> <asciitilde> <bracketright> : "🀀"   # East Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_VE> <dead_tilde> <bracketright> : "🀀"   # East Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ve> <dead_tilde> <bracketright> : "🀀"   # East Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_GHE> <at> <bracketright>        : "🀅"   # Green Dragon
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ghe> <at> <bracketright>        : "🀅"   # Green Dragon
+<Multi_key> <U232C> <bracketleft> <Cyrillic_JE> <dollar> <bracketright>     : "🀪"   # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <Cyrillic_je> <dollar> <bracketright>     : "🀪"   # Mahjong Joker
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EM> <at> <bracketright>         : "🀫"   # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <Cyrillic_em> <at> <bracketright>         : "🀫"   # Mahjong tile back
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ER> <at> <bracketright>         : "🀄"  # Red Dragon
+<Multi_key> <U232C> <bracketleft> <Cyrillic_er> <at> <bracketright>         : "🀄"  # Red Dragon
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ES> <asciitilde> <bracketright> : "🀃"   # North Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_es> <asciitilde> <bracketright> : "🀃"   # North Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ES> <dead_tilde> <bracketright> : "🀃"   # North Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_es> <dead_tilde> <bracketright> : "🀃"   # North Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_YU> <asciitilde> <bracketright> : "🀁"   # South Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_yu> <asciitilde> <bracketright> : "🀁"   # South Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_YU> <dead_tilde> <bracketright> : "🀁"   # South Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_yu> <dead_tilde> <bracketright> : "🀁"   # South Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ZE> <asciitilde> <bracketright> : "🀂"   # West Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ze> <asciitilde> <bracketright> : "🀂"   # West Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ZE> <dead_tilde> <bracketright> : "🀂"   # West Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ze> <dead_tilde> <bracketright> : "🀂"   # West Wind
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SOFTSIGN> <at> <bracketright>   : "🀆"   # White Dragon
+<Multi_key> <U232C> <bracketleft> <Cyrillic_softsign> <at> <bracketright>   : "🀆"   # White Dragon
+
+
+# Xiàngqí Piece Symbols
+#
+# [NOTE]: All symbols listed here are enclosed inside square brackets.
+#
+# [NOTE]: Each piece does also encode info about its color
+#         in the following regex-like notation:
+#           
+#         regexp = \[[a-zA-Z]*\*?\]
+#
+#         Where:
+#         - [a-zA-Z]        = The full Palladius name of the corresponding xiangqi piece.
+#         - \*              = Denotes a black xiangqi piece. Leaving this field blank will result in a red piece.
+#
+# [Main sources]:
+#   - https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+#   - https://es.wikipedia.org/wiki/Xiangqi
+#   - https://en.wikipedia.org/wiki/Xiangqi
+#
+<Multi_key> <U232C> <bracketleft> <Cyrillic_BE> <Cyrillic_I> <Cyrillic_EN> <bracketright>                           : "🩦"   # Red Soldier (Bīng/Бин [兵])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_be> <Cyrillic_i> <Cyrillic_en> <bracketright>                           : "🩦"   # Red Soldier (Bīng/Бин [兵])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ZE> <Cyrillic_U> <bracketright>                                         : "🩭"   # Black Soldier (Zú/Цзу [卒]) | *Modified to avoid having rule conflicts*
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ze> <Cyrillic_u> <bracketright>                                         : "🩭"   # Black Soldier (Zú/Цзу [卒]) | *Modified to avoid having rule conflicts*
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EM> <Cyrillic_A> <bracketright>                                         : "🩣"   # Red Horse (Mǎ/Ма [傌/马])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_em> <Cyrillic_a> <bracketright>                                         : "🩣"   # Red Horse (Mǎ/Ма [傌/马])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_EM> <Cyrillic_A> <asterisk> <bracketright>                              : "🩪"   # Black Horse (Mǎ/Ма [馬/马])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_em> <Cyrillic_a> <asterisk> <bracketright>                              : "🩪"   # Black Horse (Mǎ/Ма [馬/马])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_O> <bracketright>                            : "🩥"   # Red Cannon (Pào/Пао [炮])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_o> <bracketright>                            : "🩥"   # Red Cannon (Pào/Пао [炮])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_PE> <Cyrillic_A> <Cyrillic_O> <asterisk> <bracketright>                 : "🩬"   # Black Cannon (Pào/Пао [砲])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_pe> <Cyrillic_a> <Cyrillic_o> <asterisk> <bracketright>                 : "🩬"   # Black Cannon (Pào/Пао [砲])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ES> <Cyrillic_YA> <Cyrillic_EN> <bracketright>                          : "🩢"   # Red Elephant (Xiàng/Сян [相])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_es> <Cyrillic_ya> <Cyrillic_en> <bracketright>                          : "🩢"   # Red Elephant (Xiàng/Сян [相])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_ES> <Cyrillic_YA> <Cyrillic_EN> <asterisk> <bracketright>               : "🩩"   # Black Elephant (Xiàng/Сян [象])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_es> <Cyrillic_ya> <Cyrillic_en> <asterisk> <bracketright>               : "🩩"   # Black Elephant (Xiàng/Сян [象])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <Cyrillic_ZE> <Cyrillic_YA> <Cyrillic_EN> <bracketright>           : "🩧"   # Black General (Jiàng/Цзян [將/将])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <Cyrillic_ze> <Cyrillic_ya> <Cyrillic_en> <bracketright>           : "🩧"   # Black General (Jiàng/Цзян [將/将])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <Cyrillic_ZE> <Cyrillic_U> <bracketright>                          : "🩤"   # Red Chariot (Jū/Цзу [俥/车])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <Cyrillic_ze> <Cyrillic_u> <bracketright>                          : "🩤"   # Red Chariot (Jū/Цзу [俥/车])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_TSE> <Cyrillic_ZE> <Cyrillic_U> <asterisk> <bracketright>               : "🩫"   # Black Chariot (Jū/Цзу [車/车])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_tse> <Cyrillic_ze> <Cyrillic_u> <asterisk> <bracketright>               : "🩫"   # Black Chariot (Jū/Цзу [車/车])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHA> <Cyrillic_I> <bracketright>                                        : "🩡"   # Red Advisor/Mandarin (Shì/Ши [仕])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_sha> <Cyrillic_i> <bracketright>                                        : "🩡"   # Red Advisor/Mandarin (Shì/Ши [仕])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHA> <Cyrillic_I> <asterisk> <bracketright>                             : "🩨"   # Black Advisor/Mandarin (Shì/Ши [士])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_sha> <Cyrillic_i> <asterisk> <bracketright>                             : "🩨"   # Black Advisor/Mandarin (Shì/Ши [士])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHA> <Cyrillic_U> <Cyrillic_A> <Ibreve> <bracketright>                  : "🩠"   # Red General (Shuài/Шуай [帥/帅])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_sha> <Cyrillic_u> <Cyrillic_a> <ibreve> <bracketright>                  : "🩠"   # Red General (Shuài/Шуай [帥/帅])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_SHA> <Cyrillic_U> <Cyrillic_A> <dead_breve> <Cyrillic_I> <bracketright> : "🩠"   # Red General (Shuài/Шуай [帥/帅])
+<Multi_key> <U232C> <bracketleft> <Cyrillic_sha> <Cyrillic_u> <Cyrillic_a> <dead_breve> <Cyrillic_i> <bracketright> : "🩠"   # Red General (Shuài/Шуай [帥/帅])
+
+##################
+# [END OF RULES] #
+##################
