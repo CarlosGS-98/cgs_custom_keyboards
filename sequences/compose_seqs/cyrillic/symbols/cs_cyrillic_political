@@ -1,0 +1,69 @@
+# Cyrillic Alphabet | Ideological & Political Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing environmental symbols
+# > that can be input with alphabetical Cyrillic characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Religious_and_political_symbols_in_Unicode
+#
+
+# General Political Symbols & Artifacts (Alphabetical)
+<Multi_key> <U232C> <less> <less> <Cyrillic_BE> <Cyrillic_IE> <Cyrillic_SHORTI> <Cyrillic_BE> <Ukrainian_I> <Cyrillic_TE> <Cyrillic_SHA> <Ukrainian_I> <Cyrillic_EL> <Ukrainian_I> <Cyrillic_KA> <greater> <greater>            : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_be> <Cyrillic_ie> <Cyrillic_shorti> <Cyrillic_be> <Ukrainian_i> <Cyrillic_te> <Cyrillic_SHA> <Ukrainian_i> <Cyrillic_el> <Ukrainian_i> <Cyrillic_ka> <greater> <greater>            : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_BE> <Cyrillic_IE> <dead_breve> <Cyrillic_I> <Cyrillic_BE> <Ukrainian_I> <Cyrillic_TE> <Cyrillic_SHA> <Ukrainian_I> <Cyrillic_EL> <Ukrainian_I> <Cyrillic_KA> <greater> <greater>    : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_be> <Cyrillic_ie> <dead_breve> <Cyrillic_i> <Cyrillic_be> <Ukrainian_i> <Cyrillic_te> <Cyrillic_SHA> <Ukrainian_i> <Cyrillic_el> <Ukrainian_i> <Cyrillic_ka> <greater> <greater>    : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_EM> <Cyrillic_A> <Cyrillic_EM> <Cyrillic_YERU> <Cyrillic_ER> <Cyrillic_EL> <Cyrillic_YERU> <Cyrillic_KA> <Cyrillic_HARDSIGN> <greater> <greater>                                    : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_em> <Cyrillic_a> <Cyrillic_em> <Cyrillic_yeru> <Cyrillic_er> <Cyrillic_el> <Cyrillic_yeru> <Cyrillic_ka> <Cyrillic_hardsign> <greater> <greater>                                    : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_EM> <Cyrillic_A> <Cyrillic_SHA> <Cyrillic_A> <Cyrillic_ER> <greater> <greater>                                                                                                      : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_em> <Cyrillic_a> <Cyrillic_sha> <Cyrillic_a> <Cyrillic_er> <greater> <greater>                                                                                                      : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_ER> <greater> <greater>                                                                                                                                  : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_em> <Cyrillic_i> <Cyrillic_er> <greater> <greater>                                                                                                                                  : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_EM> <Ukrainian_I> <Cyrillic_ER> <greater> <greater>                                                                                                                                 : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_em> <Ukrainian_i> <Cyrillic_er> <greater> <greater>                                                                                                                                 : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_ES> <Cyrillic_ES> <Cyrillic_ES> <Cyrillic_ER> <greater> <greater>                                                                                                                   : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Cyrillic_es> <Cyrillic_es> <Cyrillic_es> <Cyrillic_er> <greater> <greater>                                                                                                                   : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Cyrillic_ES> <Cyrillic_U> <Cyrillic_EL> <U04B2> <greater> <greater>                                                                                                                          : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_es> <Cyrillic_u> <Cyrillic_el> <U04B3> <greater> <greater>                                                                                                                          : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_ES> <Cyrillic_U> <Cyrillic_EL> <dead_cedilla> <minus> <Cyrillic_HA> <greater> <greater>                                                                                             : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_es> <Cyrillic_u> <Cyrillic_el> <dead_cedilla> <minus> <Cyrillic_ha> <greater> <greater>                                                                                             : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_TE> <U04D0> <Cyrillic_EN> <U04D0> <U04AA> <greater> <greater>                                                                                                                       : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_te> <U04D1> <Cyrillic_en> <U04D1> <U04AB> <greater> <greater>                                                                                                                       : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_TE> <dead_breve> <Cyrillic_A> <Cyrillic_EN> <dead_breve> <Cyrillic_A> <dead_cedilla> <minus> <Cyrillic_ES> <greater> <greater>                                                      : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_te> <dead_breve> <Cyrillic_a> <Cyrillic_en> <dead_breve> <Cyrillic_a> <dead_cedilla> <minus> <Cyrillic_es> <greater> <greater>                                                      : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_TE> <Cyrillic_YERU> <Cyrillic_EN> <Cyrillic_YERU> <Cyrillic_ES> <Cyrillic_EL> <Cyrillic_YERU> <U04A0> <greater> <greater>                                                           : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_te> <Cyrillic_yeru> <Cyrillic_en> <Cyrillic_yeru> <Cyrillic_es> <Cyrillic_el> <Cyrillic_yeru> <U04A1> <greater> <greater>                                                           : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_TE> <Cyrillic_YERU> <Cyrillic_EN> <Cyrillic_YERU> <Ccedilla> <Cyrillic_EL> <Cyrillic_YERU> <Cyrillic_KA> <greater> <greater>                                                        : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_te> <Cyrillic_yeru> <Cyrillic_en> <Cyrillic_yeru> <ccedilla> <Cyrillic_el> <Cyrillic_yeru> <Cyrillic_ka> <greater> <greater>                                                        : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_U> <Cyrillic_ER> <Cyrillic_ES> <Cyrillic_ES> <greater> <greater>                                                                                                                    : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Cyrillic_u> <Cyrillic_er> <Cyrillic_es> <Cyrillic_es> <greater> <greater>                                                                                                                    : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Cyrillic_U> <Cyrillic_ES> <Cyrillic_ES> <Cyrillic_ER> <greater> <greater>                                                                                                                    : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Cyrillic_u> <Cyrillic_es> <Cyrillic_es> <Cyrillic_er> <greater> <greater>                                                                                                                    : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Cyrillic_EF> <Cyrillic_A> <Cyrillic_ER> <Cyrillic_ES> <Cyrillic_I> <greater> <greater>                                                                                                       : "☫"  # Farsi Symbol/Emblem of Iran
+<Multi_key> <U232C> <less> <less> <Cyrillic_ef> <Cyrillic_a> <Cyrillic_er> <Cyrillic_es> <Cyrillic_i> <greater> <greater>                                                                                                       : "☫"  # Farsi Symbol/Emblem of Iran
+<Multi_key> <U232C> <less> <less> <Cyrillic_EF> <Cyrillic_A> <Cyrillic_ER> <Cyrillic_ES> <Ukrainian_I> <greater> <greater>                                                                                                      : "☫"  # Farsi Symbol/Emblem of Iran
+<Multi_key> <U232C> <less> <less> <Cyrillic_ef> <Cyrillic_a> <Cyrillic_er> <Cyrillic_es> <Ukrainian_i> <greater> <greater>                                                                                                      : "☫"  # Farsi Symbol/Emblem of Iran
+<Multi_key> <U232C> <less> <less> <Cyrillic_TSE> <Cyrillic_TSE> <Cyrillic_TSE> <Cyrillic_PE> <greater> <greater>                                                                                                                : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Cyrillic_tse> <Cyrillic_tse> <Cyrillic_tse> <Cyrillic_pe> <greater> <greater>                                                                                                                : "☭"  # Hammer and Sickle
+<Multi_key> <U232C> <less> <less> <Cyrillic_E> <Cyrillic_SHORTI> <Cyrillic_E> <greater> <greater>                                                                                                                               : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_e> <Cyrillic_shorti> <Cyrillic_e> <greater> <greater>                                                                                                                               : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_E> <dead_breve> <Cyrillic_I> <Cyrillic_E> <greater> <greater>                                                                                                                       : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_e> <dead_breve> <Cyrillic_i> <Cyrillic_e> <greater> <greater>                                                                                                                       : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_E> <Cyrillic_EN> <Cyrillic_HA> <Cyrillic_TE> <Cyrillic_A> <Cyrillic_SHORTI> <Cyrillic_BE> <Cyrillic_A> <Cyrillic_EN> <greater> <greater>                                            : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_e> <Cyrillic_en> <Cyrillic_ha> <Cyrillic_te> <Cyrillic_a> <Cyrillic_shorti> <Cyrillic_be> <Cyrillic_a> <Cyrillic_en> <greater> <greater>                                            : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_E> <Cyrillic_EN> <Cyrillic_HA> <Cyrillic_TE> <Cyrillic_A> <dead_breve> <Cyrillic_I> <Cyrillic_BE> <Cyrillic_A> <Cyrillic_EN> <greater> <greater>                                    : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_e> <Cyrillic_en> <Cyrillic_ha> <Cyrillic_te> <Cyrillic_a> <dead_breve> <Cyrillic_i> <Cyrillic_be> <Cyrillic_a> <Cyrillic_en> <greater> <greater>                                    : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_E> <Cyrillic_EN> <Cyrillic_HA> <Cyrillic_E> <Cyrillic_TE> <Cyrillic_A> <Cyrillic_SHORTI> <Cyrillic_BE> <Cyrillic_A> <Cyrillic_EN> <greater> <greater>                               : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_e> <Cyrillic_en> <Cyrillic_ha> <Cyrillic_e> <Cyrillic_te> <Cyrillic_a> <Cyrillic_shorti> <Cyrillic_be> <Cyrillic_a> <Cyrillic_en> <greater> <greater>                               : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_E> <Cyrillic_EN> <Cyrillic_HA> <Cyrillic_E> <Cyrillic_TE> <Cyrillic_A> <dead_breve> <Cyrillic_I> <Cyrillic_BE> <Cyrillic_A> <Cyrillic_EN> <greater> <greater>                       : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_e> <Cyrillic_en> <Cyrillic_ha> <Cyrillic_e> <Cyrillic_te> <Cyrillic_a> <dead_breve> <Cyrillic_i> <Cyrillic_be> <Cyrillic_a> <Cyrillic_en> <greater> <greater>                       : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_E> <Cyrillic_EN> <Cyrillic_HA> <Cyrillic_E> <space> <Cyrillic_TE> <Cyrillic_A> <Cyrillic_SHORTI> <Cyrillic_BE> <Cyrillic_A> <Cyrillic_EN> <greater> <greater>                       : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_e> <Cyrillic_en> <Cyrillic_ha> <Cyrillic_e> <space> <Cyrillic_te> <Cyrillic_a> <Cyrillic_shorti> <Cyrillic_be> <Cyrillic_a> <Cyrillic_en> <greater> <greater>                       : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <Cyrillic_E> <Cyrillic_EN> <Cyrillic_HA> <Cyrillic_E> <space> <Cyrillic_TE> <Cyrillic_A> <dead_breve> <Cyrillic_I> <Cyrillic_BE> <Cyrillic_A> <Cyrillic_EN> <greater> <greater>               : "🕊️"  # Peace Dove
+<Multi_key> <U232C> <less> <less> <Cyrillic_e> <Cyrillic_en> <Cyrillic_ha> <Cyrillic_e> <space> <Cyrillic_te> <Cyrillic_a> <dead_breve> <Cyrillic_i> <Cyrillic_be> <Cyrillic_a> <Cyrillic_en> <greater> <greater>               : "☮︎"  # Peace Symbol
+
+##################
+# [END OF RULES] #
+##################
