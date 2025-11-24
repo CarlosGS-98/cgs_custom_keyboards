@@ -1,0 +1,43 @@
+# Hebrew Script | Phoenician Converter Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Phoenician_alphabet
+#
+# [NOTE]: Combinations will be listed following
+# Phoenician letter ordering as closely as possible.
+#
+# Additionally, each combination will get assigned to the closest
+# Hebrew letter that better matches its Phoenician counterpart.
+#
+<U10900> <hebrew_aleph>     : "𐤀"   # ʾĀlep
+<U10900> <hebrew_bet>       : "𐤁"   # Bēt
+<U10900> <hebrew_gimel>     : "𐤂"   # Gīml
+<U10900> <hebrew_dalet>     : "𐤃"   # Dālet
+<U10900> <hebrew_he>        : "𐤄"   # He
+<U10900> <hebrew_waw>       : "𐤅"   # Wāw
+<U10900> <hebrew_zain>      : "𐤆"   # Zayin
+<U10900> <hebrew_chet>      : "𐤇"   # Ḥēt
+<U10900> <hebrew_tet>       : "𐤈"   # Ṭēt
+<U10900> <hebrew_yod>       : "𐤉"   # Yod
+<U10900> <hebrew_kaph>      : "𐤊"   # Kāp
+<U10900> <hebrew_finalkaph> : "𐤊"   # Kāp
+<U10900> <hebrew_lamed>     : "𐤋"   # Lāmed
+<U10900> <hebrew_mem>       : "𐤌"   # Mēm
+<U10900> <hebrew_finalmem>  : "𐤌"   # Mēm
+<U10900> <hebrew_nun>       : "𐤍"   # Nūn
+<U10900> <hebrew_finalnun>  : "𐤍"   # Nūn
+<U10900> <hebrew_samech>    : "𐤎"   # Śāmek
+<U10900> <hebrew_ayin>      : "𐤏"   # ʿAyin
+<U10900> <hebrew_pe>        : "𐤐"   # Pē
+<U10900> <hebrew_finalpe>   : "𐤐"   # Pē
+<U10900> <hebrew_zade>      : "𐤑"   # Ṣādē
+<U10900> <hebrew_finalzade> : "𐤑"   # Ṣādē
+<U10900> <hebrew_qoph>      : "𐤒"   # Qōp
+<U10900> <hebrew_resh>      : "𐤓"   # Rēs/Reš
+<U10900> <hebrew_shin>      : "𐤔"   # Šīn
+<U10900> <hebrew_taw>       : "𐤕"   # Tāw
+
+##################
+# [END OF RULES] #
+##################
