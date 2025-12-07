@@ -1,0 +1,187 @@
+# Common Compose Sequences | General Magical Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing all sorts of magical and occult symbols
+# > that can be input with non-alphabetical characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [NOTE]: All symbols listed here are enclosed inside single parentheses.
+#
+
+# Alchemical Symbols (Non-Alphabetical)
+#
+# [Main source]: https://en.wikipedia.org/wiki/Alchemical_symbol
+#
+<Multi_key> <U232C> <parenleft> <0> <masculine> <parenright>                                                : "🝭"   # Retort
+<Multi_key> <U232C> <parenleft> <2> <bar> <2> <parenright>                                                  : "🜾"   # Bismuth Ore
+<Multi_key> <U232C> <parenleft> <2> <plus> <masculine> <parenright>                                         : "🜩"   # Tin Ore/Cassiterite (Tin(IV) oxide [SnO₂])
+<Multi_key> <U232C> <parenleft> <3> <minus> <bar> <parenright>                                              : "🜴"   # Regulus-3
+<Multi_key> <U232C> <parenleft> <3> <plus> <asterisk> <parenright>                                          : "🜟"   # Regulus of Iron
+<Multi_key> <U232C> <parenleft> <5> <masculine> <parenright>                                                : "🜪"   # Lead Ore/Galena (Lead(II) sulfide [PbS])
+<Multi_key> <U232C> <parenleft> <8> <bar> <equal> <parenright>                                              : "🜎"   # Black sulfur/Brimstone/Leviathan Cross
+<Multi_key> <U232C> <parenleft> <8> <minus> <equal> <parenright>                                            : "🜎"   # Black sulfur/Brimstone/Leviathan Cross
+<Multi_key> <U232C> <parenleft> <ampersand> <parenright>                                                    : "🜘"   # Rock Salt/Halite ([NaCl])
+<Multi_key> <U232C> <parenleft> <asterisk> <asterisk> <parenright>                                          : "🜹"   # Salammoniac (Ammonium chloride [NH₄Cl])
+<Multi_key> <U232C> <parenleft> <asterisk> <3> <parenright>                                                 : "🜰"   # Regulus of Antimony (Metallic antimony)
+<Multi_key> <U232C> <parenleft> <asterisk> <3> <plus> <parenright>                                          : "🜵"   # Regulus-4
+<Multi_key> <U232C> <parenleft> <asterisk> <masculine> <plus> <parenright>                                  : "🜯"   # Vinegar of antimony
+<Multi_key> <U232C> <parenleft> <asterisk> <minus> <cent> <parenright>                                      : "🝒"   # Starred Trident
+<Multi_key> <U232C> <parenleft> <asterisk> <minus> <EuroSign> <parenright>                                  : "🝒"   # Starred Trident
+<Multi_key> <U232C> <parenleft> <asterisk> <minus> <masculine> <parenright>                                 : "🜢"   # Sublimate of Copper (Copper(I) chloride [CuCl])
+<Multi_key> <U232C> <parenleft> <asterisk> <slash> <parenright>                                             : "🝵"   # Occultation
+<Multi_key> <U232C> <parenleft> <asterisk> <slash> <asterisk> <parenright>                                  : "🝶"   # Lunar Eclipse
+<Multi_key> <U232C> <parenleft> <backslash> <asciicircum> <slash> <parenright>                              : "🝧"   # Crucible-3
+<Multi_key> <U232C> <parenleft> <backslash> <dead_circumflex> <slash> <parenright>                          : "🝧"   # Crucible-3
+<Multi_key> <U232C> <parenleft> <backslash> <bar> <slash> <parenright>                                      : "🝤"   # Putrefaction
+<Multi_key> <U232C> <parenleft> <backslash> <greater> <parenright>                                          : "🝥"   # Crucible
+<Multi_key> <U232C> <parenleft> <bar> <dead_macron> <parenright>                                            : "🝨"   # Crucible-4
+<Multi_key> <U232C> <parenleft> <bar> <Down> <bar> <parenright>                                             : "🝟"   # Precipitate
+<Multi_key> <U232C> <parenleft> <bar> <masculine> <parenright>                                              : "🜕"   # Niter (Mineral potassium nitrate [KNO₃])
+<Multi_key> <U232C> <parenleft> <bar> <masculine> <bar> <parenright>                                        : "🜶"   # Alkali/Generic base
+<Multi_key> <U232C> <parenleft> <bar> <minus> <masculine> <parenright>                                      : "🜖"   # Vitriol
+<Multi_key> <U232C> <parenleft> <bar> <minus> <masculine> <EuroSign> <parenright>                           : "🜤"   # Crocus of Copper-2 (Copper(I) oxide [Cu₂O])
+<Multi_key> <U232C> <parenleft> <bar> <plus> <bar> <parenright>                                             : "🝘"   # Potash
+<Multi_key> <U232C> <parenleft> <bar> <Up> <bar> <parenright>                                               : "🝞"   # Sublimation
+<Multi_key> <U232C> <parenleft> <bracketleft> <bracketright> <parenright>                                   : "🝔"   # Generic soap
+<Multi_key> <U232C> <parenleft> <bracketleft> <asciicircum> <bracketright> <parenright>                     : "🝄"   # Borax-3 (Sodium borate decahydrate [Na₂H₂₀B₄O₁₇])
+<Multi_key> <U232C> <parenleft> <bracketleft> <asterisk> <bracketright> <parenright>                        : "🜲"   # Regulus
+<Multi_key> <U232C> <parenleft> <bracketleft> <bar> <bracketright> <parenright>                             : "🝙"   # Brick
+<Multi_key> <U232C> <parenleft> <bracketleft> <bar> <bar> <bracketright> <parenright>                       : "🝅"   # Generic alum
+<Multi_key> <U232C> <parenleft> <bracketleft> <dead_circumflex> <bracketright> <parenright>                 : "🝄"   # Borax-3 (Sodium borate decahydrate [Na₂H₂₀B₄O₁₇])
+<Multi_key> <U232C> <parenleft> <bracketleft> <equal> <bracketright> <parenright>                           : "🝚"   # Powdered brick
+<Multi_key> <U232C> <parenleft> <bracketleft> <period> <bracketright> <parenright>                          : "🝕"   # Urine
+<Multi_key> <U232C> <parenleft> <bracketleft> <plus> <bracketright> <parenright>                            : "🜿"   # Tartar (Tartaric acid [2,3-Dihydroxybutanedioic acid])
+<Multi_key> <U232C> <parenleft> <bracketleft> <U221D> <asterisk> <space> <bracketright> <parenright>        : "🝱"   # Month
+<Multi_key> <U232C> <parenleft> <bracketleft> <underscore> <bracketright> <parenright>                      : "🜷"   # Alkali-2/Generic base
+<Multi_key> <U232C> <parenleft> <colon> <bar> <colon> <parenright>                                          : "🜌"   # Vinegar-3
+<Multi_key> <U232C> <parenleft> <colon> <period> <parenright>                                               : "🝎"   # Caput Mortuum
+<Multi_key> <U232C> <parenleft> <colon> <plus> <colon> <parenright>                                         : "🜋"   # Vinegar-2
+<Multi_key> <U232C> <parenleft> <dead_caron> <masculine> <parenright>                                       : "🜻"   # Realgar (Ruby of arsenic [α-As₄S₄])
+<Multi_key> <U232C> <parenleft> <dead_macron> <bar> <parenright>                                            : "🝨"   # Crucible-4
+<Multi_key> <U232C> <parenleft> <Down> <bar> <Up> <parenright>                                              : "🝤"   # Putrefaction
+<Multi_key> <U232C> <parenleft> <Down> <underscore> <parenright>                                            : "🝀"   # Tartar-2 (Tartaric acid [2,3-Dihydroxybutanedioic acid])
+<Multi_key> <U232C> <parenleft> <greater> <less> <parenright>                                               : "🜄"   # Water
+<Multi_key> <U232C> <parenleft> <greater> <less> <equal> <parenright>                                       : "🜅"   # Aqua Fortis (Nitric acid [HNO₃])
+<Multi_key> <U232C> <parenleft> <greater> <bar> <less> <parenright>                                         : "🝏"   # Scepter of Jove
+<Multi_key> <U232C> <parenleft> <greater> <masculine> <less> <parenright>                                   : "🝍"   # Cadmia/Tutty
+<Multi_key> <U232C> <parenleft> <greater> <minus> <less> <parenright>                                       : "🜃"   # Earth
+<Multi_key> <U232C> <parenleft> <less> <greater> <parenright>                                               : "🜂"   # Fire
+<Multi_key> <U232C> <parenleft> <less> <greater> <minus> <parenright>                                       : "🜙"   # Rock Salt-2/Halite ([NaCl])
+<Multi_key> <U232C> <parenleft> <less> <asterisk> <greater> <parenright>                                    : "🜎"   # Philosopher's sulfur/stone
+<Multi_key> <U232C> <parenleft> <less> <minus> <greater> <parenright>                                       : "🜁"   # Air
+<Multi_key> <U232C> <parenleft> <less> <plus> <greater> <parenright>                                        : "🜍"   # Sulfur
+<Multi_key> <U232C> <parenleft> <less> <plus> <greater> <Up> <parenright>                                   : "🜞"   # Crocus of Iron (Iron(III) oxide-hydroxide [FeO(OH)])
+<Multi_key> <U232C> <parenleft> <less> <plus> <Up> <greater> <parenright>                                   : "🜞"   # Crocus of Iron (Iron(III) oxide-hydroxide [FeO(OH)])
+<Multi_key> <U232C> <parenleft> <masculine> <parenright>                                                    : "🜳"   # Regulus-2
+<Multi_key> <U232C> <parenleft> <masculine> <3> <parenright>                                                : "🝆"   # Generic oil
+<Multi_key> <U232C> <parenleft> <masculine> <asterisk> <parenright>                                         : "🜚"   # Gold
+<Multi_key> <U232C> <parenleft> <masculine> <asterisk> <masculine> <parenright>                             : "🜼"   # Realgar-2 (Ruby of arsenic [α-As₄S₄])
+<Multi_key> <U232C> <parenleft> <masculine> <asterisk> <plus> <parenright>                                  : "🜯"   # Vinegar of antimony
+<Multi_key> <U232C> <parenleft> <masculine> <bar> <parenright>                                              : "🜕"   # Niter (Mineral potassium nitrate [KNO₃])
+<Multi_key> <U232C> <parenleft> <masculine> <bar> <minus> <parenright>                                      : "🜖"   # Vitriol
+<Multi_key> <U232C> <parenleft> <masculine> <bar> <minus> <EuroSign> <parenright>                           : "🜤"   # Crocus of Copper-2 (Copper(I) oxide [Cu₂O])
+<Multi_key> <U232C> <parenleft> <masculine> <dead_caron> <parenright>                                       : "🜻"   # Realgar (Ruby of arsenic [α-As₄S₄])
+<Multi_key> <U232C> <parenleft> <masculine> <0> <masculine> <parenright>                                    : "🝖"   # Horse dung
+<Multi_key> <U232C> <parenleft> <masculine> <asciicircum> <masculine> <parenright>                          : "🝓"   # Lodestone (Magnetized magnetite)
+<Multi_key> <U232C> <parenleft> <masculine> <dead_circumflex> <masculine> <parenright>                      : "🝓"   # Lodestone (Magnetized magnetite)
+<Multi_key> <U232C> <parenleft> <masculine> <equal> <masculine> <parenright>                                : "🜽"   # Auripigment/Orpiment ([As₂S₃])
+<Multi_key> <U232C> <parenleft> <masculine> <equal> <plus> <parenright>                                     : "🝋"   # Generic powder
+<Multi_key> <U232C> <parenleft> <masculine> <greater> <parenright>                                          : "🜚"   # Gold
+<Multi_key> <U232C> <parenleft> <masculine> <greater> <masculine> <parenright>                              : "🜜"   # Iron Ore
+<Multi_key> <U232C> <parenleft> <masculine> <greater> <greater> <parenright>                                : "🜝"   # Iron Ore-2
+<Multi_key> <U232C> <parenleft> <masculine> <greater> <plus> <masculine> <parenright>                       : "🜜"   # Copper Ore-2
+<Multi_key> <U232C> <parenleft> <masculine> <masculine> <masculine> <parenright>                            : "🝆"   # Generic oil
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <asterisk> <parenright>                                 : "🜢"   # Sublimate of Copper (Copper(I) chloride [CuCl])
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <bar> <parenright>                                      : "🜗"   # Vitriol-2
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <parenright>                                            : "🜔"   # Generic salt
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <2> <parenright>                                        : "🜉"   # Aqua Vitae-2 (Dilute ethanol (aq))
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <3> <parenright>                                        : "🜛"   # Silver
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <masculine> <parenright>                                : "🜺"   # Arsenic
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <masculine> <minus> <masculine> <parenright>            : "🜉"   # Aqua Vitae-2 (Dilute ethanol (aq))
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <masculine> <minus> <masculine> <minus> <parenright>    : "🜛"   # Silver
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <plus> <parenright>                                     : "🜭"   # Salt of antimony (Antimony sulfate [Sb₂(SO₄)₃])
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <plus> <asterisk> <parenright>                          : "🜮"   # Sublimate of salt of antimony
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <plus> <masculine> <asterisk> <parenright>              : "🜧"   # Sublimate of copper salt (Copper(I) chloride [CuCl])
+<Multi_key> <U232C> <parenleft> <masculine> <minus> <plus> <masculine> <plus> <parenright>                  : "🜦"   # Copper antimoniate salt
+<Multi_key> <U232C> <parenleft> <masculine> <period> <plus> <parenright>                                    : "🜱"   # Regulus of Antimony-2 (Metallic antimony)
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <parenright>                                             : "🜨"   # Verdigris
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <3> <parenright>                                         : "🜸"   # Marcasite (Orthorhombic iron sulfide [FeS₂])
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <asterisk> <parenright>                                  : "🜬"   # Sublimate of antimony
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <equal> <parenright>                                     : "🝋"   # Generic powder
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <parenright>                                 : "🜫"   # Antimony Ore (Stibnite [Sb₂S₃])
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <greater> <parenright>                       : "🜡"   # Chalcopyrite ([CuFeS₂])
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <plus> <parenright>                          : "🜥"   # Copper antimoniate
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <Right> <parenright>                         : "🜡"   # Chalcopyrite ([CuFeS₂])
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <minus> <masculine> <asterisk> <parenright>              : "🜧"   # Sublimate of copper salt (Copper(I) chloride [CuCl])
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <minus> <masculine> <plus> <parenright>                  : "🜦"   # Copper antimoniate salt
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <period> <parenright>                                    : "🜱"   # Regulus of Antimony-2 (Metallic antimony)
+<Multi_key> <U232C> <parenleft> <masculine> <Right> <masculine> <parenright>                                : "🜜"   # Iron Ore
+<Multi_key> <U232C> <parenleft> <masculine> <Right> <Right> <parenright>                                    : "🜝"   # Iron Ore-2
+<Multi_key> <U232C> <parenleft> <masculine> <slash> <masculine> <parenright>                                : "🜣"   # Crocus of Copper (Copper(I) oxide [Cu₂O])
+<Multi_key> <U232C> <parenleft> <masculine> <slash> <slash> <masculine> <parenright>                        : "🝰"   # Day-Night Cycle
+<Multi_key> <U232C> <parenleft> <masculine> <U221D> <asterisk> <space> <masculine> <parenright>             : "🜼"   # Realgar-2 (Ruby of arsenic [α-As₄S₄])
+<Multi_key> <U232C> <parenleft> <minus> <3> <3> <minus> <parenright>                                        : "🝮"   # Hour
+<Multi_key> <U232C> <parenleft> <minus> <bar> <masculine> <parenright>                                      : "🜗"   # Vitriol-2
+<Multi_key> <U232C> <parenleft> <minus> <bracketleft> <parenright>                                          : "🝗"   # Ashes
+<Multi_key> <U232C> <parenleft> <minus> <masculine> <parenright>                                            : "🜔"   # Generic salt
+<Multi_key> <U232C> <parenleft> <minus> <minus> <asterisk> <parenright>                                     : "🝐"   # Caduceus
+<Multi_key> <U232C> <parenleft> <minus> <minus> <cent> <parenright>                                         : "🝑"   # Trident
+<Multi_key> <U232C> <parenleft> <minus> <minus> <EuroSign> <parenright>                                     : "🝑"   # Trident
+<Multi_key> <U232C> <parenleft> <parenleft> <U221D> <asterisk> <space> <parenright> <parenright>            : "🝴"   # Lot of Fortune
+<Multi_key> <U232C> <parenleft> <period> <colon> <parenright>                                               : "🝎"   # Caput Mortuum
+<Multi_key> <U232C> <parenleft> <period> <slash> <backslash> <parenright>                                   : "🝠"   # Distillation
+<Multi_key> <U232C> <parenleft> <plus> <asterisk> <3> <parenright>                                          : "🜵"   # Regulus-4
+<Multi_key> <U232C> <parenleft> <plus> <masculine> <parenright>                                             : "🜨"   # Verdigris
+<Multi_key> <U232C> <parenleft> <plus> <masculine> <plus> <parenright>                                      : "🝊"   # Wax
+<Multi_key> <U232C> <parenleft> <plus> <parenright>                                                         : "🜊"   # Vinegar
+<Multi_key> <U232C> <parenleft> <slash> <masculine> <parenright>                                            : "🝯"   # Night
+<Multi_key> <U232C> <parenleft> <U221D> <U221D> <bar> <equal> <parenright>                                  : "🜎"   # Black sulfur/Brimstone/Leviathan Cross
+<Multi_key> <U232C> <parenleft> <U221D> <U221D> <minus> <equal> <parenright>                                : "🜎"   # Black sulfur/Brimstone/Leviathan Cross
+<Multi_key> <U232C> <parenleft> <underscore> <Down> <parenright>                                            : "🝀"   # Tartar-2 (Tartaric acid [2,3-Dihydroxybutanedioic acid])
+<Multi_key> <U232C> <parenleft> <underscore> <slash> <backslash> <parenright>                               : "🝠"   # Distillation
+<Multi_key> <U232C> <parenleft> <Up> <3> <parenright>                                                       : "🝢"   # Dissolve-2
+<Multi_key> <U232C> <parenleft> <Up> <Up> <Up> <parenright>                                                 : "🝢"   # Dissolve-2
+
+
+# Geomantic Figures (Non-Alphabetical)
+#
+# [Main source]: https://en.wikipedia.org/wiki/Geomantic_figures
+#
+<Multi_key> <U232C> <parenleft> <0> <parenright>                                    : "𜻠"   # Populus
+<Multi_key> <U232C> <parenleft> <1> <parenright>                                    : "𜻡"   # Trīstitia
+<Multi_key> <U232C> <parenleft> <2> <parenright>                                    : "𜻢"   # Albus
+<Multi_key> <U232C> <parenleft> <3> <parenright>                                    : "𜻣"   # Fortūna Major
+<Multi_key> <U232C> <parenleft> <4> <parenright>                                    : "𜻤"   # Rubeus
+<Multi_key> <U232C> <parenleft> <5> <parenright>                                    : "𜻥"   # Acquīsītiō
+<Multi_key> <U232C> <parenleft> <6> <parenright>                                    : "𜻦"   # Conjūnctiō
+<Multi_key> <U232C> <parenleft> <7> <parenright>                                    : "𜻧"   # Caput Dracōnis
+<Multi_key> <U232C> <parenleft> <8> <parenright>                                    : "𜻨"   # Laetitia
+<Multi_key> <U232C> <parenleft> <9> <parenright>                                    : "𜻩"   # Carcer
+<Multi_key> <U232C> <parenleft> <1> <0> <parenright>                                : "𜻪"   # Āmissiō
+<Multi_key> <U232C> <parenleft> <1> <1> <parenright>                                : "𜻫"   # Puella
+<Multi_key> <U232C> <parenleft> <1> <2> <parenright>                                : "𜻬"   # Fortūna Minor
+<Multi_key> <U232C> <parenleft> <1> <3> <parenright>                                : "𜻭"   # Puer
+<Multi_key> <U232C> <parenleft> <1> <4> <parenright>                                : "𜻮"   # Cauda Dracōnis
+<Multi_key> <U232C> <parenleft> <1> <5> <parenright>                                : "𜻯"   # Via
+<Multi_key> <U232C> <parenleft> <colon> <colon> <colon> <colon> <parenright>        : "𜻠"   # Populus
+<Multi_key> <U232C> <parenleft> <colon> <colon> <colon> <period> <parenright>       : "𜻡"   # Trīstitia
+<Multi_key> <U232C> <parenleft> <colon> <colon> <period> <colon> <parenright>       : "𜻢"   # Albus
+<Multi_key> <U232C> <parenleft> <colon> <colon> <period> <period> <parenright>      : "𜻣"   # Fortūna Major
+<Multi_key> <U232C> <parenleft> <colon> <period> <colon> <colon> <parenright>       : "𜻤"   # Rubeus
+<Multi_key> <U232C> <parenleft> <colon> <period> <colon> <period> <parenright>      : "𜻥"   # Acquīsītiō
+<Multi_key> <U232C> <parenleft> <colon> <period> <period> <colon> <parenright>      : "𜻦"   # Conjūnctiō
+<Multi_key> <U232C> <parenleft> <colon> <period> <period> <period> <parenright>     : "𜻧"   # Caput Dracōnis
+<Multi_key> <U232C> <parenleft> <period> <colon> <colon> <colon> <parenright>       : "𜻨"   # Laetitia
+<Multi_key> <U232C> <parenleft> <period> <colon> <colon> <period> <parenright>      : "𜻩"   # Carcer
+<Multi_key> <U232C> <parenleft> <period> <colon> <period> <colon> <parenright>      : "𜻪"   # Āmissiō
+<Multi_key> <U232C> <parenleft> <period> <colon> <period> <period> <parenright>     : "𜻫"   # Puella
+<Multi_key> <U232C> <parenleft> <period> <period> <colon> <colon> <parenright>      : "𜻬"   # Fortūna Minor
+<Multi_key> <U232C> <parenleft> <period> <period> <colon> <period> <parenright>     : "𜻭"   # Puer
+<Multi_key> <U232C> <parenleft> <period> <period> <period> <colon> <parenright>     : "𜻮"   # Cauda Dracōnis
+<Multi_key> <U232C> <parenleft> <period> <period> <period> <period> <parenright>    : "𜻯"   # Via
+
+##################
+# [END OF RULES] #
+##################
