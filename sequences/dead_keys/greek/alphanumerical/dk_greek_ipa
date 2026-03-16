@@ -47,11 +47,6 @@
 <U035A> <U03DD> <U03DD>                 : "ʬ"   # "IPA Symbols" + ϝ (Greek Digamma) = Bilabial percussive
 <U035A> <Greek_ZETA>                    : "Ʒ"   # Ezh
 <U035A> <Greek_zeta>                    : "ʒ"   # Ezh
-<U035A> <question> <space>              : "ʔ"   # Glottal Stop
-<U035A> <question> <minus>              : "ʡ"   # Epiglottal Plosive
-<U035A> <question> <underscore> <space> : "ʕ"   # Voiced Pharyngeal Fricative
-<U035A> <question> <underscore> <minus> : "ʢ"   # Voiced Epiglottal Trill
-
 
 
 # Cyrillic Small Capital Letters
