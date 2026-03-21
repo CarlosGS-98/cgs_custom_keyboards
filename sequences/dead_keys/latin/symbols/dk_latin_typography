@@ -4,6 +4,89 @@
 # [Main source]: https://en.wikipedia.org/wiki/Punctuation
 #
 
+# Control Character Pictures (Non-Alphabetical)
+#
+# [NOTE]: Every character in this section
+# is enclosed inside a pair of single square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Control_Pictures
+#
+<U203B> <bracketleft> <A> <C> <K> <bracketright>        : "␆"   # Acknowledge
+<U203B> <bracketleft> <a> <c> <k> <bracketright>        : "␆"   # Acknowledge
+<U203B> <bracketleft> <B> <minus> <bracketright>        : "␢"   # Blank Symbol
+<U203B> <bracketleft> <b> <minus> <bracketright>        : "␢"   # Blank Symbol
+<U203B> <bracketleft> <B> <E> <L> <bracketright>        : "␇"   # Bell
+<U203B> <bracketleft> <b> <e> <l> <bracketright>        : "␇"   # Bell
+<U203B> <bracketleft> <B> <S> <bracketright>            : "␈"   # Backspace
+<U203B> <bracketleft> <b> <s> <bracketright>            : "␈"   # Backspace
+<U203B> <bracketleft> <C> <A> <N> <bracketright>        : "␘"   # Cancel
+<U203B> <bracketleft> <c> <a> <n> <bracketright>        : "␘"   # Cancel
+<U203B> <bracketleft> <C> <R> <bracketright>            : "␍"   # Carriage Return
+<U203B> <bracketleft> <c> <r> <bracketright>            : "␍"   # Carriage Return
+<U203B> <bracketleft> <D> <C> <1> <bracketright>        : "␑"   # Device Control One
+<U203B> <bracketleft> <d> <c> <1> <bracketright>        : "␑"   # Device Control One
+<U203B> <bracketleft> <D> <C> <2> <bracketright>        : "␒"   # Device Control Two
+<U203B> <bracketleft> <d> <c> <2> <bracketright>        : "␒"   # Device Control Two
+<U203B> <bracketleft> <D> <C> <3> <bracketright>        : "␓"   # Device Control Three
+<U203B> <bracketleft> <d> <c> <3> <bracketright>        : "␓"   # Device Control Three
+<U203B> <bracketleft> <D> <C> <4> <bracketright>        : "␔"   # Device Control Four
+<U203B> <bracketleft> <d> <c> <4> <bracketright>        : "␔"   # Device Control Four
+<U203B> <bracketleft> <D> <E> <L> <bracketright>        : "␡"   # Delete
+<U203B> <bracketleft> <d> <e> <l> <bracketright>        : "␡"   # Delete
+<U203B> <bracketleft> <D> <L> <E> <bracketright>        : "␐"   # Data Link Escape
+<U203B> <bracketleft> <d> <l> <e> <bracketright>        : "␐"   # Data Link Escape
+<U203B> <bracketleft> <E> <M> <bracketright>            : "␙"   # End Of Medium
+<U203B> <bracketleft> <e> <m> <bracketright>            : "␙"   # End Of Medium
+<U203B> <bracketleft> <E> <N> <Q> <bracketright>        : "␅"   # Enquiry
+<U203B> <bracketleft> <e> <n> <q> <bracketright>        : "␅"   # Enquiry
+<U203B> <bracketleft> <E> <O> <T> <bracketright>        : "␄"   # End Of Transmission
+<U203B> <bracketleft> <e> <o> <t> <bracketright>        : "␄"   # End Of Transmission
+<U203B> <bracketleft> <E> <S> <C> <bracketright>        : "␛"   # Escape
+<U203B> <bracketleft> <e> <s> <c> <bracketright>        : "␛"   # Escape
+<U203B> <bracketleft> <E> <T> <B> <bracketright>        : "␗"   # End Of Transmission Block
+<U203B> <bracketleft> <e> <t> <b> <bracketright>        : "␗"   # End Of Transmission Block
+<U203B> <bracketleft> <E> <T> <X> <bracketright>        : "␃"   # End Of Text
+<U203B> <bracketleft> <e> <t> <x> <bracketright>        : "␃"   # End Of Text
+<U203B> <bracketleft> <F> <F> <bracketright>            : "␌"   # Form Feed
+<U203B> <bracketleft> <f> <f> <bracketright>            : "␌"   # Form Feed
+<U203B> <bracketleft> <F> <S> <bracketright>            : "␜"   # File Separator
+<U203B> <bracketleft> <f> <s> <bracketright>            : "␜"   # File Separator
+<U203B> <bracketleft> <G> <S> <bracketright>            : "␝"   # Group Separator
+<U203B> <bracketleft> <g> <s> <bracketright>            : "␝"   # Group Separator
+<U203B> <bracketleft> <H> <T> <bracketright>            : "␉"   # Horizontal Tab
+<U203B> <bracketleft> <h> <t> <bracketright>            : "␉"   # Horizontal Tab
+<U203B> <bracketleft> <L> <F> <bracketright>            : "␊"   # Line Feed
+<U203B> <bracketleft> <l> <f> <bracketright>            : "␊"   # Line Feed
+<U203B> <bracketleft> <minus> <B> <bracketright>        : "␢"   # Blank Symbol
+<U203B> <bracketleft> <minus> <b> <bracketright>        : "␢"   # Blank Symbol
+<U203B> <bracketleft> <N> <A> <C> <K> <bracketright>    : "␕"   # Negative Acknowledge
+<U203B> <bracketleft> <n> <a> <c> <k> <bracketright>    : "␕"   # Negative Acknowledge
+<U203B> <bracketleft> <N> <L> <bracketright>            : "␤"   # Newline
+<U203B> <bracketleft> <n> <l> <bracketright>            : "␤"   # Newline
+<U203B> <bracketleft> <N> <U> <L> <bracketright>        : "␀"   # Null
+<U203B> <bracketleft> <n> <u> <l> <bracketright>        : "␀"   # Null
+<U203B> <bracketleft> <R> <S> <bracketright>            : "␞"   # Record Separator
+<U203B> <bracketleft> <r> <s> <bracketright>            : "␞"   # Record Separator
+<U203B> <bracketleft> <S> <I> <bracketright>            : "␏"   # Shift In
+<U203B> <bracketleft> <s> <i> <bracketright>            : "␏"   # Shift In
+<U203B> <bracketleft> <S> <O> <bracketright>            : "␎"   # Shift Out
+<U203B> <bracketleft> <s> <o> <bracketright>            : "␎"   # Shift Out
+<U203B> <bracketleft> <S> <O> <H> <bracketright>        : "␁"   # Start Of Heading
+<U203B> <bracketleft> <s> <o> <h> <bracketright>        : "␁"   # Start Of Heading
+<U203B> <bracketleft> <S> <P> <bracketright>            : "␠"   # Space
+<U203B> <bracketleft> <s> <p> <bracketright>            : "␠"   # Space
+<U203B> <bracketleft> <S> <U> <B> <bracketright>        : "␚"   # Substitute
+<U203B> <bracketleft> <s> <u> <b> <bracketright>        : "␚"   # Substitute
+<U203B> <bracketleft> <S> <T> <X> <bracketright>        : "␂"   # Start Of Text
+<U203B> <bracketleft> <s> <t> <x> <bracketright>        : "␂"   # Start Of Text
+<U203B> <bracketleft> <S> <Y> <N> <bracketright>        : "␖"   # Synchronous Idle
+<U203B> <bracketleft> <s> <y> <n> <bracketright>        : "␖"   # Synchronous Idle
+<U203B> <bracketleft> <U> <S> <bracketright>            : "␟"   # Unit Separator
+<U203B> <bracketleft> <u> <s> <bracketright>            : "␟"   # Unit Separator
+<U203B> <bracketleft> <V> <T> <bracketright>            : "␋"   # Vertical Tab
+<U203B> <bracketleft> <v> <t> <bracketright>            : "␋"   # Vertical Tab
+
+
 # Dashes
 <U203B> <F> <minus> : "‒"   # Figure dash
 <U203B> <f> <minus> : "‒"   # Figure dash
