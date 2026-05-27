@@ -37,6 +37,7 @@
 
 # IPA Sounds (Non-Alphabetical)
 <U035A> <0>                             : "ʘ"   # Bilabial click
+<U035A> <bar> <2>                       : "ǁ"   # Lateral click
 <U035A> <bar> <bar>                     : "ǁ"   # Lateral click
 <U035A> <bar> <equal>                   : "ǂ"   # Palatal click
 <U035A> <bar> <space>                   : "ǀ"   # Dental click
@@ -46,6 +47,7 @@
 <U035A> <question> <space>              : "ʔ"   # Glottal stop
 <U035A> <question> <minus>              : "ʡ"   # Epiglottal Plosive
 <U035A> <questiondown>                  : "ʕ"   # Voiced pharyngeal fricative
+<U035A> <questiondown> <minus>          : "ʢ"   # Voiced Epiglottal Trill
 <U035A> <question> <underscore> <space> : "ʕ"   # Voiced Pharyngeal Fricative
 <U035A> <question> <underscore> <minus> : "ʢ"   # Voiced Epiglottal Trill
 
@@ -68,6 +70,10 @@
 <U035A> <less> <space>                  : "̘"    # Combining left tack below (Advanced Tongue Root)
 <U035A> <less> <underscore>             : "˱"   # Modifier letter left arrowhead
 <U035A> <minus> <space>                 : "̠"    # Combining minus sign below (Retracted Sound)
+<U035A> <masculine> <greater>           : "ʾ"   # Modifier letter right half ring
+<U035A> <masculine> <less>              : "ʿ"   # Modifier letter left half ring
+<U035A> <masculine> <Left>              : "ʿ"   # Modifier letter left half ring
+<U035A> <masculine> <Right>             : "ʾ"   # Modifier letter right half ring
 <U035A> <notsign>                       : "̚"   # Combining left angle above (No Audible Release)
 <U035A> <period>                        : "ˑ"   # Modifier letter half triangular colon
 <U035A> <plus> <dead_circumflex>        : "̝"    # Combining up tack below (Raised Sound)

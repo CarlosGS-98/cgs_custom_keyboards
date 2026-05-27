@@ -147,6 +147,7 @@
 <U203B> <dead_circumflex> <underscore>      : "‸"   # Low caret
 <U203B> <masculine> <asciitilde>            : "⸛"   # Tilde + Ring Above
 <U203B> <masculine> <dead_tilde>            : "⸛"   # Tilde + Ring Above
+<U203B> <masculine> <masculine>             : "°"   # Degree sign
 <U203B> <masculine> <space>                 : "⸰"   # Ring point
 <U203B> <dead_tilde> <bar>                  : "⸾"   # Vertical wiggly line
 <U203B> <dead_tilde> <dead_abovedot>        : "⸞"   # Tilde + Dot Above

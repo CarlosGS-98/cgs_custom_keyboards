@@ -71,13 +71,17 @@
 
 
 # Calculus symbols (Non-Alphabetical)
-<U221D> <bracketleft> <asciicircum>             : "⌈"   # Left ceiling
-<U221D> <bracketleft> <dead_circumflex>         : "⌈"   # Left ceiling
-<U221D> <bracketleft> <underscore>              : "⌊"   # Left floor
-<U221D> <bracketright> <asciicircum>            : "⌉"   # Right ceiling
-<U221D> <bracketright> <dead_circumflex>        : "⌉"   # Right ceiling
-<U221D> <bracketright> <underscore>             : "⌋"   # Right floor
-<U221D> <masculine> <space>                     : "∘"   # Ring/composition operator
+<U221D> <bracketleft> <asciicircum> <space>         : "⌈"   # Left ceiling
+<U221D> <bracketleft> <dead_circumflex> <space>     : "⌈"   # Left ceiling
+<U221D> <bracketleft> <Down>                        : "⌊"   # Left floor
+<U221D> <bracketleft> <underscore> <space>          : "⌊"   # Left floor
+<U221D> <bracketleft> <Up>                          : "⌈"   # Left ceiling
+<U221D> <bracketright> <asciicircum> <space>        : "⌉"   # Right ceiling
+<U221D> <bracketright> <dead_circumflex> <space>    : "⌉"   # Right ceiling
+<U221D> <bracketright> <Down>                       : "⌋"   # Right floor
+<U221D> <bracketright> <underscore> <space>         : "⌋"   # Right floor
+<U221D> <bracketright> <Up>                         : "⌉"   # Right ceiling
+<U221D> <masculine> <space>                         : "∘"   # Ring/composition operator
 
 
 # Enclosed operators (Non-Alphabetical)

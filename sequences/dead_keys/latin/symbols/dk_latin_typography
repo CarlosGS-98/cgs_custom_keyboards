@@ -4,7 +4,7 @@
 # [Main source]: https://en.wikipedia.org/wiki/Punctuation
 #
 
-# Control Character Pictures (Non-Alphabetical)
+# Control Character Pictures (Alphabetical)
 #
 # [NOTE]: Every character in this section
 # is enclosed inside a pair of single square brackets.
@@ -118,18 +118,20 @@
 
 
 # Miscellaneous Punctuation
-<U203B> <C> <equal> : "⸿"    # Capitulum
-<U203B> <c> <equal> : "⸿"    # Capitulum
+<U203B> <C> <equal> : "⸿"   # Capitulum
+<U203B> <c> <equal> : "⸿"   # Capitulum
 <U203B> <colon> <X> : "※"   # Reference mark
 <U203B> <colon> <x> : "※"   # Reference mark
-<U203B> <equal> <C> : "⸿"    # Capitulum
-<U203B> <equal> <c> : "⸿"    # Capitulum
-<U203B> <P> <space> : "⹍"    # Paragraphus mark
-<U203B> <p> <space> : "⹍"    # Paragraphus mark
-<U203B> <S> <M>     : "℠"    # Service mark
-<U203B> <s> <m>     : "℠"    # Service mark
-<U203B> <T> <M>     : "™"    # Trademark
-<U203B> <t> <m>     : "™"    # Trademark
+<U203B> <equal> <C> : "⸿"   # Capitulum
+<U203B> <equal> <c> : "⸿"   # Capitulum
+<U203B> <P> <space> : "⹍"   # Paragraphus mark
+<U203B> <p> <space> : "⹍"   # Paragraphus mark
+<U203B> <S> <M>     : "℠"   # Service mark
+<U203B> <s> <m>     : "℠"   # Service mark
+<U203B> <S> <S>     : "§"   # Section sign
+<U203B> <s> <s>     : "§"   # Section sign
+<U203B> <T> <M>     : "™"   # Trademark
+<U203B> <t> <m>     : "™"   # Trademark
 <U203B> <X> <colon> : "※"   # Reference mark
 <U203B> <x> <colon> : "※"   # Reference mark
 
