@@ -279,6 +279,7 @@ xkb_symbols "latam" {
     key <AE02>	{ [            2,   quotedbl,       dead_greek              ] };
     key <AE03>	{ [            3,   numbersign,     periodcentered          ] };
     key <AE04>	{ [            4,   dollar,         dead_currency           ] };
+    key <AE06>	{ [            6,   ampersand,      ordfeminine             ] };
     key <AE12>	{ [ questiondown,   exclamdown,     UA78C,                  UA78B               ] };    // "¿", "¡", Lowercase Saltillo, Uppercase Saltillo 
 
     key <AD01>	{ [            q,   Q,              at                      ] };
