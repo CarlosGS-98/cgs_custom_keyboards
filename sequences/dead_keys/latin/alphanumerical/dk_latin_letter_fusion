@@ -107,8 +107,12 @@
 <U1DCF> <U035A> <o> <u>                 : "ᴕ"
 <U1DCF> <U0186> <E>                     : "ꭢ"   # Ɔ + E
 <U1DCF> <U0254> <e>                     : "ꭢ"   # ɔ + e
+<U1DCF> <U035A> <O> <E>                 : "ꭢ"   # Ɔ + E
+<U1DCF> <U035A> <o> <e>                 : "ꭢ"   # ɔ + e
 <U1DCF> <U0186> <O>                     : "ꭃ"   # Ɔ + O
 <U1DCF> <U0254> <o>                     : "ꭃ"   # ɔ + o
+<U1DCF> <U035A> <O> <O>                 : "ꭃ"   # Ɔ + O
+<U1DCF> <U035A> <o> <o>                 : "ꭃ"   # ɔ + o
 <U1DCF> <Q> <P>                         : "ȹ"
 <U1DCF> <q> <p>                         : "ȹ"
 <U1DCF> <S> <S>                         : "ẞ"
@@ -162,6 +166,8 @@
 <U1DCF> <v> <Z>                         : "ꟃ"   # W Anglicana
 <U1DCF> <U01F7> <U01F7>                 : "꟔"   # Ƿ (Wynn) * 2
 <U1DCF> <U01BF> <U01BF>                 : "ꟕ"   # ƿ (Wynn) * 2
+<U1DCF> <U1DFB> <W>                     : "꟔"   # Ƿ (Wynn) * 2
+<U1DCF> <U1DFB> <w>                     : "ꟕ"   # ƿ (Wynn) * 2
 
 
 # Special Fraction-Like Symbols

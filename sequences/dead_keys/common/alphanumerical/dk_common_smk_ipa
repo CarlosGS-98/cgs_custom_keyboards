@@ -22,27 +22,34 @@
 # Rules from "<dead_aboveverticalline>"
 <U035A> <dead_acute> <space>        : "̍"    # Combining vertical line above
 <U035A> <dead_acute> <dead_acute>   : "ˈ"   # Modifier letter vertical line
+<U035A> <dead_acute> <dead_grave>   : "₏"   # Modifier letter high & low vertical line
 <U035A> <dead_acute> <less>         : "̎"    # Combining double vertical line above
 <U035A> <dead_acute> <greater>      : "̎"    # Combining double vertical line above
 
 
 # Rules from "<dead_belowverticalline>"
 <U035A> <dead_grave> <space>        : "̩"    # Combining vertical line below
+<U035A> <dead_acute> <dead_acute>   : "₏"   # Modifier letter high & low vertical line
 <U035A> <dead_grave> <dead_grave>   : "ˌ"   # Modifier letter low vertical line
 <U035A> <dead_grave> <less>         : "͈"    # Combining double vertical line below
 <U035A> <dead_grave> <greater>      : "͈"    # Combining double vertical line below
 
 
 # IPA Sounds (Non-Alphabetical)
-<U035A> <0>             : "ʘ"   # Bilabial click
-<U035A> <bar> <bar>     : "ǁ"   # Lateral click
-<U035A> <bar> <equal>   : "ǂ"   # Palatal click
-<U035A> <bar> <space>   : "ǀ"   # Dental click
-<U035A> <equal> <bar>   : "ǂ"   # Palatal click
-<U035A> <exclam>        : "ǃ"   # Alveolar click
-<U035A> <minus> <minus> : "ʭ"   # Bidental percussive
-<U035A> <question>      : "ʔ"   # Glottal stop
-<U035A> <questiondown>  : "ʕ"   # Voiced pharyngeal fricative
+<U035A> <0>                             : "ʘ"   # Bilabial click
+<U035A> <bar> <2>                       : "ǁ"   # Lateral click
+<U035A> <bar> <bar>                     : "ǁ"   # Lateral click
+<U035A> <bar> <equal>                   : "ǂ"   # Palatal click
+<U035A> <bar> <space>                   : "ǀ"   # Dental click
+<U035A> <equal> <bar>                   : "ǂ"   # Palatal click
+<U035A> <exclam>                        : "ǃ"   # Alveolar click
+<U035A> <minus> <minus>                 : "ʭ"   # Bidental percussive
+<U035A> <question> <space>              : "ʔ"   # Glottal stop
+<U035A> <question> <minus>              : "ʡ"   # Epiglottal Plosive
+<U035A> <questiondown>                  : "ʕ"   # Voiced pharyngeal fricative
+<U035A> <questiondown> <minus>          : "ʢ"   # Voiced Epiglottal Trill
+<U035A> <question> <underscore> <space> : "ʕ"   # Voiced Pharyngeal Fricative
+<U035A> <question> <underscore> <minus> : "ʢ"   # Voiced Epiglottal Trill
 
 
 # Suprasegmentals (Non-Alphabetical)
@@ -63,6 +70,10 @@
 <U035A> <less> <space>                  : "̘"    # Combining left tack below (Advanced Tongue Root)
 <U035A> <less> <underscore>             : "˱"   # Modifier letter left arrowhead
 <U035A> <minus> <space>                 : "̠"    # Combining minus sign below (Retracted Sound)
+<U035A> <masculine> <greater>           : "ʾ"   # Modifier letter right half ring
+<U035A> <masculine> <less>              : "ʿ"   # Modifier letter left half ring
+<U035A> <masculine> <Left>              : "ʿ"   # Modifier letter left half ring
+<U035A> <masculine> <Right>             : "ʾ"   # Modifier letter right half ring
 <U035A> <notsign>                       : "̚"   # Combining left angle above (No Audible Release)
 <U035A> <period>                        : "ˑ"   # Modifier letter half triangular colon
 <U035A> <plus> <dead_circumflex>        : "̝"    # Combining up tack below (Raised Sound)

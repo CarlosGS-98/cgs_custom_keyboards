@@ -147,14 +147,14 @@
 <U221D> <bar> <U03FB>                   : "⋔"   # Pitchfork
 <U221D> <U03FA> <bar>                   : "⋔"   # Pitchfork
 <U221D> <U03FB> <bar>                   : "⋔"   # Pitchfork
-<U221D> <equal> <Greek_GAMMA>           : "≎"   # Geomatrically equivalent to
-<U221D> <equal> <Greek_gamma>           : "≎"   # Geomatrically equivalent to
+<U221D> <equal> <Greek_GAMMA>           : "≎"   # Geometrically equivalent to
+<U221D> <equal> <Greek_gamma>           : "≎"   # Geometrically equivalent to
 <U221D> <equal> <minus> <Greek_GAMMA>   : "≏"   # Difference between
 <U221D> <equal> <minus> <Greek_gamma>   : "≏"   # Difference between
 <U221D> <equal> <U0376>                 : "≚"   # Equiangular to
 <U221D> <equal> <U0377>                 : "≚"   # Equiangular to
-<U221D> <Greek_GAMMA> <equal>           : "≎"   # Geomatrically equivalent to
-<U221D> <Greek_gamma> <equal>           : "≎"   # Geomatrically equivalent to
+<U221D> <Greek_GAMMA> <equal>           : "≎"   # Geometrically equivalent to
+<U221D> <Greek_gamma> <equal>           : "≎"   # Geometrically equivalent to
 <U221D> <minus> <equal> <Greek_GAMMA>   : "≏"   # Difference between
 <U221D> <minus> <equal> <Greek_gamma>   : "≏"   # Difference between
 <U221D> <U0376> <equal>                 : "≚"   # Equiangular to

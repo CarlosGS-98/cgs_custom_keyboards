@@ -99,6 +99,8 @@
 <U1DFB> <k>             : "ĸ"   # Kra
 <U1DFB> <Oslash>        : "Ꟁ"   # Old Polish O
 <U1DFB> <oslash>        : "ꟁ"   # Old Polish O
+<U1DFB> <bar> <R>       : "꟢"  # R with Long Leg
+<U1DFB> <bar> <r>       : "ɼ"   # R with Long Leg
 <U1DFB> <minus> <S>     : "ſ"   # Long S
 <U1DFB> <minus> <s>     : "ſ"   # Long S
 <U1DFB> <minus> <U0241> : "ᴥ"   # Ɂ (Capital Glottal Stop) + Historical Letter Key + "-" = ᴥ (UPA Ain)

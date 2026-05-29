@@ -1,7 +1,7 @@
 # Latin Alphabet | Currency Symbols Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Precomposed currency letter combinations
+# Precomposed currency letter combinations (Alphabetical)
 # [Main source]: https://en.wikipedia.org/wiki/Currency_symbol
 #
 <dead_currency> <A> <equal>             : "₳"   # Austral
@@ -39,7 +39,7 @@
 <dead_currency> <C> <R>                 : "₢"   # Cruzeiro
 <dead_currency> <C> <r>                 : "₢"   # Cruzeiro
 <dead_currency> <c> <r>                 : "₢"   # Cruzeiro
-<dead_currency> <D> <equal>             : "֏"   # Dram
+<dead_currency> <D> <equal>             : "⃃"   # UAE Dirham
 <dead_currency> <d> <equal>             : "֏"   # Dram
 <dead_currency> <D> <M>                 : "ℳ︁"  # Mark
 <dead_currency> <d> <m>                 : "ℳ︁"  # Mark
@@ -59,7 +59,7 @@
 <dead_currency> <equal> <b>             : "₿"   # Bitcoin
 <dead_currency> <equal> <C>             : "₡"   # Colón
 <dead_currency> <equal> <c>             : "₡"   # Colón
-<dead_currency> <equal> <D>             : "֏"   # Dram
+<dead_currency> <equal> <D>             : "⃃"   # UAE Dirham
 <dead_currency> <equal> <d>             : "֏"   # Dram
 <dead_currency> <equal> <E>             : "€"   # Euro sign
 <dead_currency> <equal> <e>             : "€"   # Euro sign
@@ -139,6 +139,8 @@
 <dead_currency> <n> <equal>             : "₦"   # Naira
 <dead_currency> <N> <M>                 : "₻"   # Nordic Mark
 <dead_currency> <n> <m>                 : "₻"   # Nordic Mark
+<dead_currency> <O> <M> <A> <N> <I>     : "⃄"   # Omani Rial
+<dead_currency> <o> <m> <a> <n> <i>     : "⃄"   # Omani Rial
 <dead_currency> <P> <equal>             : "₱"   # Philippine Peso
 <dead_currency> <p> <equal>             : "₱"   # Philippine Peso
 <dead_currency> <P> <F>                 : "₰"   # Pfennig
@@ -161,6 +163,8 @@
 <dead_currency> <r> <i> <a> <l>         : "﷼"   # Iranian Rial
 <dead_currency> <R> <I> <E> <L>         : "៛"    # Cambodian Riel
 <dead_currency> <r> <i> <e> <l>         : "៛"    # Cambodian Riel
+<dead_currency> <R> <I> <Y> <A> <L>     : "⃁"   # Saudi Riyal
+<dead_currency> <r> <i> <y> <a> <l>     : "⃁"   # Saudi Riyal
 <dead_currency> <R> <equal>             : "₹"    # Indian Rupee
 <dead_currency> <r> <equal>             : "₹"    # Indian Rupee
 <dead_currency> <R> <I> <S>             : "𞲰"    # Indic Siyaq Rupee mark
