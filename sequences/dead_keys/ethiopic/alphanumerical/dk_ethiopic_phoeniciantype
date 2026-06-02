@@ -1,0 +1,38 @@
+# Geʻez Script | Phoenician Converter Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Phoenician_alphabet
+#
+# [NOTE]: Combinations will be listed following
+# Phoenician letter ordering as closely as possible.
+#
+# Additionally, each combination will get assigned to the closest
+# Geʻez letter that better matches its Phoenician counterpart.
+#
+<U10900> <U12A0>    : "𐤀"   # ʾĀlep ("Phoenician Converter Dead Key" + አ (ʼÄlf))
+<U10900> <U1260>    : "𐤁"   # Bēt ("Phoenician Converter Dead Key" + በ (Bet))
+<U10900> <U1308>    : "𐤂"   # Gīml ("Phoenician Converter Dead Key" + ገ (Gäml))
+<U10900> <U12F0>    : "𐤃"   # Dālet ("Phoenician Converter Dead Key" + ደ (Dänt))
+<U10900> <U1200>    : "𐤄"   # He ("Phoenician Converter Dead Key" + ሀ (Hoy))
+<U10900> <U12C8>    : "𐤅"   # Wāw ("Phoenician Converter Dead Key" + ወ (Wäwe))
+<U10900> <U12D8>    : "𐤆"   # Zayin ("Phoenician Converter Dead Key" + ዘ (Zäy))
+<U10900> <U1210>    : "𐤇"   # Ḥēt ("Phoenician Converter Dead Key" + ሐ (Ḥäwt))
+<U10900> <U1320>    : "𐤈"   # Ṭēt ("Phoenician Converter Dead Key" + ጠ (Ṭäyt))
+<U10900> <U12E8>    : "𐤉"   # Yod ("Phoenician Converter Dead Key" + የ (Yämän))
+<U10900> <U12A8>    : "𐤊"   # Kāp ("Phoenician Converter Dead Key" + ከ (Kaf))
+<U10900> <U1208>    : "𐤋"   # Lāmed ("Phoenician Converter Dead Key" + ለ (Läwe))
+<U10900> <U1218>    : "𐤌"   # Mēm ("Phoenician Converter Dead Key" + መ (May))
+<U10900> <U1290>    : "𐤍"   # Nūn ("Phoenician Converter Dead Key" + ነ (Nähas))
+<U10900> <U1238>    : "𐤎"   # Śāmek | (Non-graphological Latin mapping with ሸ (Šä))
+<U10900> <U12D0>    : "𐤏"   # ʿAyin ("Phoenician Converter Dead Key" + ዐ (ʽÄyn))
+<U10900> <U1348>    : "𐤐"   # Pē ("Phoenician Converter Dead Key" + ፈ (Äf))
+<U10900> <U1338>    : "𐤑"   # Ṣādē ("Phoenician Converter Dead Key" + ጸ (Ṣädäy))
+<U10900> <U1240>    : "𐤒"   # Qōp ("Phoenician Converter Dead Key" + ቀ (Ḳäf))
+<U10900> <U1228>    : "𐤓"   # Rēs/Reš ("Phoenician Converter Dead Key" + ረ (Rəʼs))
+<U10900> <U1220>    : "𐤔"   # Šīn ("Phoenician Converter Dead Key" + ሠ (Śäwt))
+<U10900> <U1270>    : "𐤕"   # Tāw ("Phoenician Converter Dead Key" + ተ (Täwe))
+
+##################
+# [END OF RULES] #
+##################

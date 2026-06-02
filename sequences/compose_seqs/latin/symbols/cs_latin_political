@@ -142,7 +142,7 @@
 <Multi_key> <U232C> <less> <less> <P> <Acircumflex> <S> <greater> <greater>                                                                                                                     : "🕊️"  # Peace Dove
 <Multi_key> <U232C> <less> <less> <p> <acircumflex> <s> <greater> <greater>                                                                                                                     : "☮︎"  # Peace Symbol
 <Multi_key> <U232C> <less> <less> <P> <dead_circumflex> <A> <S> <greater> <greater>                                                                                                             : "🕊️"  # Peace Dove
-<Multi_key> <U232C> <less> <less> <p> <dead_circumflex> <a> <s> <greater> <greater>                                                                                                             : "☮︎"  # Peace 
+<Multi_key> <U232C> <less> <less> <p> <dead_circumflex> <a> <s> <greater> <greater>                                                                                                             : "☮︎"  # Peace Symbol
 <Multi_key> <U232C> <less> <less> <P> <Aring> <S> <greater> <greater>                                                                                                                           : "🕊️"  # Peace Dove
 <Multi_key> <U232C> <less> <less> <p> <aring> <s> <greater> <greater>                                                                                                                           : "☮︎"  # Peace Symbol
 <Multi_key> <U232C> <less> <less> <P> <dead_abovering> <A> <S> <greater> <greater>                                                                                                              : "🕊️"  # Peace Dove
@@ -176,7 +176,7 @@
 <Multi_key> <U232C> <less> <less> <P> <E> <S> <C> <greater> <greater>                                                                                                                           : "🕊️"  # Peace Dove
 <Multi_key> <U232C> <less> <less> <p> <e> <s> <c> <greater> <greater>                                                                                                                           : "☮︎"  # Peace Symbol
 <Multi_key> <U232C> <less> <less> <P> <Egrave> <X> <greater> <greater>                                                                                                                          : "🕊️"  # Peace Dove
-<Multi_key> <U232C> <less> <less> <p> <egravE> <x> <greater> <greater>                                                                                                                          : "☮︎"  # Peace Symbol
+<Multi_key> <U232C> <less> <less> <p> <egrave> <x> <greater> <greater>                                                                                                                          : "☮︎"  # Peace Symbol
 <Multi_key> <U232C> <less> <less> <P> <dead_grave> <E> <X> <greater> <greater>                                                                                                                  : "🕊️"  # Peace Dove
 <Multi_key> <U232C> <less> <less> <p> <dead_grave> <e> <x> <greater> <greater>                                                                                                                  : "☮︎"  # Peace Symbol
 <Multi_key> <U232C> <less> <less> <P> <I> <I> <S> <greater> <greater>                                                                                                                           : "🕊️"  # Peace Dove

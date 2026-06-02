@@ -165,10 +165,10 @@
 <dead_currency> <Cyrillic_er> <Cyrillic_i> <Cyrillic_a> <Cyrillic_el>                               : "﷼"   # Iranian Rial
 <dead_currency> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_IE> <Cyrillic_EL>                              : "៛"    # Cambodian Riel
 <dead_currency> <Cyrillic_er> <Cyrillic_i> <Cyrillic_ie> <Cyrillic_el>                              : "៛"    # Cambodian Riel
-<dead_currency> <Cyrillic_R> <Cyrillic_I> <Cyrillic_YA> <Cyrillic_L>                                : "⃁"   # Saudi Riyal
-<dead_currency> <Cyrillic_r> <Cyrillic_i> <Cyrillic_ya> <Cyrillic_l>                                : "⃁"   # Saudi Riyal
-<dead_currency> <Cyrillic_R> <Ukrainian_I> <Cyrillic_YA> <Cyrillic_L>                               : "⃁"   # Saudi Riyal
-<dead_currency> <Cyrillic_r> <Ukrainian_i> <Cyrillic_ya> <Cyrillic_l>                               : "⃁"   # Saudi Riyal
+<dead_currency> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_YA> <Cyrillic_EL>                              : "⃁"   # Saudi Riyal
+<dead_currency> <Cyrillic_er> <Cyrillic_i> <Cyrillic_ya> <Cyrillic_el>                              : "⃁"   # Saudi Riyal
+<dead_currency> <Cyrillic_ER> <Ukrainian_I> <Cyrillic_YA> <Cyrillic_EL>                             : "⃁"   # Saudi Riyal
+<dead_currency> <Cyrillic_er> <Ukrainian_i> <Cyrillic_ya> <Cyrillic_el>                             : "⃁"   # Saudi Riyal
 <dead_currency> <Cyrillic_ER> <equal>                                                               : "₹"    # Indian Rupee
 <dead_currency> <Cyrillic_er> <equal>                                                               : "₹"    # Indian Rupee
 <dead_currency> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_ES>                                            : "𞲰"    # Indic Siyaq Rupee mark
