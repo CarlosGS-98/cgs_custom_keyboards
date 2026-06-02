@@ -1,0 +1,293 @@
+# Geʽez Script | Standard Geʻez Syllables Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Geʽez_script#Geʽez_abugida
+#
+# [NOTE]: All syllable combinations in this file are formed by fusing the corresponding
+# base consonant + vocalized አ (ʼÄlf). These base "vowels" are:
+#   - አ (ʼÄlf + Ä [æ])      [U+12A0 | U12A0]
+#   - ኡ (ʼÄlf + U [u])      [U+12A1 | U12A1]
+#   - ኢ (ʼÄlf + I [i])      [U+12A2 | U12A2]
+#   - ኣ (ʼÄlf + A [aː])     [U+12A3 | U12A3]
+#   - ኤ (ʼÄlf + E [e])      [U+12A4 | U12A4]
+#   - እ (ʼÄlf + Ə [ɨ])      [U+12A5 | U12A5]
+#   - ኦ (ʼÄlf + O [o])      [U+12A6 | U12A6]
+#
+
+# Syllables starting with "ሀ" (Hoy)
+<U1200> <space> : "ሀ"
+<U1200> <U12A0> : "ሀ"
+<U1200> <U12A1> : "ሁ"
+<U1200> <U12A2> : "ሂ"
+<U1200> <U12A3> : "ሃ"
+<U1200> <U12A4> : "ሄ"
+<U1200> <U12A5> : "ህ"
+<U1200> <U12A6> : "ሆ"
+
+
+# Syllables starting with "ለ" (Läwe)
+<U1208> <space> : "ለ"
+<U1208> <U12A0> : "ለ"
+<U1208> <U12A1> : "ሉ"
+<U1208> <U12A2> : "ሊ"
+<U1208> <U12A3> : "ላ"
+<U1208> <U12A4> : "ሌ"
+<U1208> <U12A5> : "ል"
+<U1208> <U12A6> : "ሎ"
+
+
+# Syllables starting with "ሐ" (Ḥäwt)
+<U1210> <space> : "ሐ"
+<U1210> <U12A0> : "ሐ"
+<U1210> <U12A1> : "ሑ"
+<U1210> <U12A2> : "ሒ"
+<U1210> <U12A3> : "ሓ"
+<U1210> <U12A4> : "ሔ"
+<U1210> <U12A5> : "ሕ"
+<U1210> <U12A6> : "ሖ"
+
+
+# Syllables starting with "መ" (May)
+<U1218> <space> : "መ"
+<U1218> <U12A0> : "መ"
+<U1218> <U12A1> : "ሙ"
+<U1218> <U12A2> : "ሚ"
+<U1218> <U12A3> : "ማ"
+<U1218> <U12A4> : "ሜ"
+<U1218> <U12A5> : "ም"
+<U1218> <U12A6> : "ሞ"
+
+
+# Syllables starting with "ሠ" (Śäwt)
+<U1220> <space> : "ሠ"
+<U1220> <U12A0> : "ሠ"
+<U1220> <U12A1> : "ሡ"
+<U1220> <U12A2> : "ሢ"
+<U1220> <U12A3> : "ሣ"
+<U1220> <U12A4> : "ሤ"
+<U1220> <U12A5> : "ሥ"
+<U1220> <U12A6> : "ሦ"
+
+
+# Syllables starting with "ረ" (Rəʼs)
+<U1220> <space> : "ረ"
+<U1220> <U12A0> : "ረ"
+<U1220> <U12A1> : "ሩ"
+<U1220> <U12A2> : "ሪ"
+<U1220> <U12A3> : "ራ"
+<U1220> <U12A4> : "ሬ"
+<U1220> <U12A5> : "ር"
+<U1220> <U12A6> : "ሮ"
+
+
+# Syllables starting with "ሰ" (Sat)
+<U1230> <space> : "ሰ"
+<U1230> <U12A0> : "ሰ"
+<U1230> <U12A1> : "ሱ"
+<U1230> <U12A2> : "ሲ"
+<U1230> <U12A3> : "ሳ"
+<U1230> <U12A4> : "ሴ"
+<U1230> <U12A5> : "ስ"
+<U1230> <U12A6> : "ሶ"
+
+
+# Syllables starting with "ቀ" (Ḳaf)
+<U1240> <space> : "ቀ"
+<U1240> <U12A0> : "ቀ"
+<U1240> <U12A1> : "ቁ"
+<U1240> <U12A2> : "ቂ"
+<U1240> <U12A3> : "ቃ"
+<U1240> <U12A4> : "ቄ"
+<U1240> <U12A5> : "ቅ"
+<U1240> <U12A6> : "ቆ"
+
+
+# Syllables starting with "በ" (Bet)
+<U1260> <space> : "በ"
+<U1260> <U12A0> : "በ"
+<U1260> <U12A1> : "ቡ"
+<U1260> <U12A2> : "ቢ"
+<U1260> <U12A3> : "ባ"
+<U1260> <U12A4> : "ቤ"
+<U1260> <U12A5> : "ብ"
+<U1260> <U12A6> : "ቦ"
+
+
+# Syllables starting with "ተ" (Täwe)
+<U1270> <space> : "ተ"
+<U1270> <U12A0> : "ተ"
+<U1270> <U12A1> : "ቱ"
+<U1270> <U12A2> : "ቲ"
+<U1270> <U12A3> : "ታ"
+<U1270> <U12A4> : "ቴ"
+<U1270> <U12A5> : "ት"
+<U1270> <U12A6> : "ቶ"
+
+
+# Syllables starting with "ኀ" (Ḫarm)
+<U1280> <space> : "ኀ"
+<U1280> <U12A0> : "ኀ"
+<U1280> <U12A1> : "ኁ"
+<U1280> <U12A2> : "ኂ"
+<U1280> <U12A3> : "ኃ"
+<U1280> <U12A4> : "ኄ"
+<U1280> <U12A5> : "ኅ"
+<U1280> <U12A6> : "ኆ"
+
+
+# Syllables starting with "ነ" (Nähas)
+<U1290> <space> : "ነ"
+<U1290> <U12A0> : "ነ"
+<U1290> <U12A1> : "ኑ"
+<U1290> <U12A2> : "ኒ"
+<U1290> <U12A3> : "ና"
+<U1290> <U12A4> : "ኔ"
+<U1290> <U12A5> : "ን"
+<U1290> <U12A6> : "ኖ"
+
+
+# Syllables starting with "ከ" (Kaf)
+<U12A8> <space> : "ከ"
+<U12A8> <U12A0> : "ከ"
+<U12A8> <U12A1> : "ኩ"
+<U12A8> <U12A2> : "ኪ"
+<U12A8> <U12A3> : "ካ"
+<U12A8> <U12A4> : "ኬ"
+<U12A8> <U12A5> : "ክ"
+<U12A8> <U12A6> : "ኮ"
+
+
+# Syllables starting with "ወ" (Wäwe)
+<U12C8> <space> : "ወ"
+<U12C8> <U12A0> : "ወ"
+<U12C8> <U12A1> : "ዉ"
+<U12C8> <U12A2> : "ዊ"
+<U12C8> <U12A3> : "ዋ"
+<U12C8> <U12A4> : "ዌ"
+<U12C8> <U12A5> : "ው"
+<U12C8> <U12A6> : "ዎ"
+
+
+# Syllables starting with "ዐ" (ʽÄyn)
+<U12D0> <space> : "ዐ"
+<U12D0> <U12A0> : "ዐ"
+<U12D0> <U12A1> : "ዑ"
+<U12D0> <U12A2> : "ዒ"
+<U12D0> <U12A3> : "ዓ"
+<U12D0> <U12A4> : "ዔ"
+<U12D0> <U12A5> : "ዕ"
+<U12D0> <U12A6> : "ዖ"
+
+
+# Syllables starting with "ዘ" (Zäy)
+<U12D8> <space> : "ዘ"
+<U12D8> <U12A0> : "ዘ"
+<U12D8> <U12A1> : "ዙ"
+<U12D8> <U12A2> : "ዚ"
+<U12D8> <U12A3> : "ዛ"
+<U12D8> <U12A4> : "ዜ"
+<U12D8> <U12A5> : "ዝ"
+<U12D8> <U12A6> : "ዞ"
+
+
+# Syllables starting with "የ" (Yämän)
+<U12E8> <space> : "የ"
+<U12E8> <U12A0> : "የ"
+<U12E8> <U12A1> : "ዩ"
+<U12E8> <U12A2> : "ዪ"
+<U12E8> <U12A3> : "ያ"
+<U12E8> <U12A4> : "ዬ"
+<U12E8> <U12A5> : "ይ"
+<U12E8> <U12A6> : "ዮ"
+
+
+# Syllables starting with "ደ" (Dänt)
+<U12F0> <space> : "ደ"
+<U12F0> <U12A0> : "ደ"
+<U12F0> <U12A1> : "ዱ"
+<U12F0> <U12A2> : "ዲ"
+<U12F0> <U12A3> : "ዳ"
+<U12F0> <U12A4> : "ዴ"
+<U12F0> <U12A5> : "ድ"
+<U12F0> <U12A6> : "ዶ"
+
+
+# Syllables starting with "ገ" (Gäml)
+<U1308> <space> : "ገ"
+<U1308> <U12A0> : "ገ"
+<U1308> <U12A1> : "ጉ"
+<U1308> <U12A2> : "ጊ"
+<U1308> <U12A3> : "ጋ"
+<U1308> <U12A4> : "ጌ"
+<U1308> <U12A5> : "ግ"
+<U1308> <U12A6> : "ጎ"
+
+
+# Syllables starting with "ጠ" (Ṭäyt)
+<U1320> <space> : "ጠ"
+<U1320> <U12A0> : "ጠ"
+<U1320> <U12A1> : "ጡ"
+<U1320> <U12A2> : "ጢ"
+<U1320> <U12A3> : "ጣ"
+<U1320> <U12A4> : "ጤ"
+<U1320> <U12A5> : "ጥ"
+<U1320> <U12A6> : "ጦ"
+
+
+# Syllables starting with "ጰ" (P̣äyt)
+<U1330> <space> : "ጰ"
+<U1330> <U12A0> : "ጰ"
+<U1330> <U12A1> : "ጱ"
+<U1330> <U12A2> : "ጲ"
+<U1330> <U12A3> : "ጳ"
+<U1330> <U12A4> : "ጴ"
+<U1330> <U12A5> : "ጵ"
+<U1330> <U12A6> : "ጶ"
+
+
+# Syllables starting with "ጸ" (Ṣädäy)
+<U1338> <space> : "ጸ"
+<U1338> <U12A0> : "ጸ"
+<U1338> <U12A1> : "ጹ"
+<U1338> <U12A2> : "ጺ"
+<U1338> <U12A3> : "ጻ"
+<U1338> <U12A4> : "ጼ"
+<U1338> <U12A5> : "ጽ"
+<U1338> <U12A6> : "ጾ"
+
+
+# Syllables starting with "ፀ" (Ṣ́äppä)
+<U1340> <space> : "ፀ"
+<U1340> <U12A0> : "ፀ"
+<U1340> <U12A1> : "ፁ"
+<U1340> <U12A2> : "ፂ"
+<U1340> <U12A3> : "ፃ"
+<U1340> <U12A4> : "ፄ"
+<U1340> <U12A5> : "ፅ"
+<U1340> <U12A6> : "ፆ"
+
+
+# Syllables starting with "ፈ" (Äf)
+<U1348> <space> : "ፈ"
+<U1348> <U12A0> : "ፈ"
+<U1348> <U12A1> : "ፉ"
+<U1348> <U12A2> : "ፊ"
+<U1348> <U12A3> : "ፋ"
+<U1348> <U12A4> : "ፌ"
+<U1348> <U12A5> : "ፍ"
+<U1348> <U12A6> : "ፎ"
+
+
+# Syllables starting with "ፐ" (Psa)
+<U1350> <space> : "ፐ"
+<U1350> <U12A0> : "ፐ"
+<U1350> <U12A1> : "ፑ"
+<U1350> <U12A2> : "ፒ"
+<U1350> <U12A3> : "ፓ"
+<U1350> <U12A4> : "ፔ"
+<U1350> <U12A5> : "ፕ"
+<U1350> <U12A6> : "ፖ"
+
+##################
+# [END OF RULES] #
+##################
