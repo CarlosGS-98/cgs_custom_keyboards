@@ -1,0 +1,128 @@
+# Geʽez Script | Extended Geʽez Syllables Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Geʽez_script#Additional_letters
+#
+# [NOTE]: All syllable combinations in this file are formed by fusing the corresponding
+# base consonant + vocalized አ (ʼÄlf). These base "vowels" are:
+#   - አ (ʼÄlf + Ä [æ])      [U+12A0 | U12A0]
+#   - ኡ (ʼÄlf + U [u])      [U+12A1 | U12A1]
+#   - ኢ (ʼÄlf + I [i])      [U+12A2 | U12A2]
+#   - ኣ (ʼÄlf + A [aː])     [U+12A3 | U12A3]
+#   - ኤ (ʼÄlf + E [e])      [U+12A4 | U12A4]
+#   - እ (ʼÄlf + Ə [ɨ])      [U+12A5 | U12A5]
+#   - ኦ (ʼÄlf + O [o])      [U+12A6 | U12A6]
+#
+
+# Syllables starting with "ቨ" (Vä)
+<U1268> <space> : "ቨ"
+<U1268> <U12A0> : "ቨ"
+<U1268> <U12A1> : "ቩ"
+<U1268> <U12A2> : "ቪ"
+<U1268> <U12A3> : "ቫ"
+<U1268> <U12A4> : "ቬ"
+<U1268> <U12A5> : "ቭ"
+<U1268> <U12A6> : "ቮ"
+
+
+# Syllables starting with "ቸ" (Čä)
+<U1278> <space> : "ቸ"
+<U1278> <U12A0> : "ቸ"
+<U1278> <U12A1> : "ቹ"
+<U1278> <U12A2> : "ቺ"
+<U1278> <U12A3> : "ቻ"
+<U1278> <U12A4> : "ቼ"
+<U1278> <U12A5> : "ች"
+<U1278> <U12A6> : "ቾ"
+
+
+# Syllables starting with "ጀ" (Ǧä)
+<U1300> <space> : "ጀ"
+<U1300> <U12A0> : "ጀ"
+<U1300> <U12A1> : "ጁ"
+<U1300> <U12A2> : "ጂ"
+<U1300> <U12A3> : "ጃ"
+<U1300> <U12A4> : "ጄ"
+<U1300> <U12A5> : "ጅ"
+<U1300> <U12A6> : "ጆ"
+
+
+# Syllables starting with "ጨ" (Č̣ä)
+<U1328> <space> : "ጨ"
+<U1328> <U12A0> : "ጨ"
+<U1328> <U12A1> : "ጩ"
+<U1328> <U12A2> : "ጪ"
+<U1328> <U12A3> : "ጫ"
+<U1328> <U12A4> : "ጬ"
+<U1328> <U12A5> : "ጭ"
+<U1328> <U12A6> : "ጮ"
+
+
+# Syllables starting with "ቐ" (Qä)
+<U1250> <space> : "ቐ"
+<U1250> <U12A0> : "ቐ"
+<U1250> <U12A1> : "ቑ"
+<U1250> <U12A2> : "ቒ"
+<U1250> <U12A3> : "ቓ"
+<U1250> <U12A4> : "ቔ"
+<U1250> <U12A5> : "ቕ"
+<U1250> <U12A6> : "ቖ"
+
+
+# Syllables starting with "ኸ" (Xä)
+<U12B8> <space> : "ኸ"
+<U12B8> <U12A0> : "ኸ"
+<U12B8> <U12A1> : "ኹ"
+<U12B8> <U12A2> : "ኺ"
+<U12B8> <U12A3> : "ኻ"
+<U12B8> <U12A4> : "ኼ"
+<U12B8> <U12A5> : "ኽ"
+<U12B8> <U12A6> : "ኾ"
+
+
+# Syllables starting with "ሸ" (Šä)
+<U1238> <space> : "ሸ"
+<U1238> <U12A0> : "ሸ"
+<U1238> <U12A1> : "ሹ"
+<U1238> <U12A2> : "ሺ"
+<U1238> <U12A3> : "ሻ"
+<U1238> <U12A4> : "ሼ"
+<U1238> <U12A5> : "ሽ"
+<U1238> <U12A6> : "ሾ"
+
+
+# Syllables starting with "ኘ" (Ñä)
+<U1298> <space> : "ኘ"
+<U1298> <U12A0> : "ኘ"
+<U1298> <U12A1> : "ኙ"
+<U1298> <U12A2> : "ኚ"
+<U1298> <U12A3> : "ኛ"
+<U1298> <U12A4> : "ኜ"
+<U1298> <U12A5> : "ኝ"
+<U1298> <U12A6> : "ኞ"
+
+
+# Syllables starting with "ዠ" (Žä)
+<U12E0> <space> : "ዠ"
+<U12E0> <U12A0> : "ዠ"
+<U12E0> <U12A1> : "ዡ"
+<U12E0> <U12A2> : "ዢ"
+<U12E0> <U12A3> : "ዣ"
+<U12E0> <U12A4> : "ዤ"
+<U12E0> <U12A5> : "ዥ"
+<U12E0> <U12A6> : "ዦ"
+
+
+# Syllables starting with "ጘ" (Ŋä)
+<U1318> <space> : "ጘ"
+<U1318> <U12A0> : "ጘ"
+<U1318> <U12A1> : "ጙ"
+<U1318> <U12A2> : "ጚ"
+<U1318> <U12A3> : "ጛ"
+<U1318> <U12A4> : "ጜ"
+<U1318> <U12A5> : "ጝ"
+<U1318> <U12A6> : "ጞ"
+
+##################
+# [END OF RULES] #
+##################
