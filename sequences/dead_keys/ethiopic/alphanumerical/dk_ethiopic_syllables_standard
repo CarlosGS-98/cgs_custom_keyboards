@@ -1,4 +1,4 @@
-# Geʽez Script | Standard Geʻez Syllables Rules
+# Geʽez Script | Standard Geʽez Syllables Rules
 # [AUTHOR]: Carlos González Sanz
 #
 # [Main source]: https://en.wikipedia.org/wiki/Geʽez_script#Geʽez_abugida
@@ -70,14 +70,14 @@
 
 
 # Syllables starting with "ረ" (Rəʼs)
-<U1220> <space> : "ረ"
-<U1220> <U12A0> : "ረ"
-<U1220> <U12A1> : "ሩ"
-<U1220> <U12A2> : "ሪ"
-<U1220> <U12A3> : "ራ"
-<U1220> <U12A4> : "ሬ"
-<U1220> <U12A5> : "ር"
-<U1220> <U12A6> : "ሮ"
+<U1228> <space> : "ረ"
+<U1228> <U12A0> : "ረ"
+<U1228> <U12A1> : "ሩ"
+<U1228> <U12A2> : "ሪ"
+<U1228> <U12A3> : "ራ"
+<U1228> <U12A4> : "ሬ"
+<U1228> <U12A5> : "ር"
+<U1228> <U12A6> : "ሮ"
 
 
 # Syllables starting with "ሰ" (Sat)

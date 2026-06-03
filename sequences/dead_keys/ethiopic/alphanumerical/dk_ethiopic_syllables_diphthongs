@@ -1,0 +1,43 @@
+# Geʽez Script | Geʽez Syllables With Diphthongs Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Geʽez_script#Geʽez_abugida
+#
+# [NOTE]: All syllable combinations in this file are formed by fusing the corresponding
+# base consonant + ወ (Wäwe)/የ (Yämän) + vocalized አ (ʼÄlf). These base "vowels" are:
+#   - አ (ʼÄlf + Ä [æ])      [U+12A0 | U12A0]
+#   - ኣ (ʼÄlf + A [aː])     [U+12A3 | U12A3]
+#
+
+# Diphthongs with "ወ" (Wäwe)
+<U1208> <U1200> <U12A3> : "ሏ"   # Lwa
+<U1210> <U1200> <U12A3> : "ሗ"   # Ḥwa
+<U1218> <U1200> <U12A3> : "ሟ"   # Mwa
+<U1220> <U1200> <U12A3> : "ሧ"   # Śwa
+<U1228> <U1200> <U12A3> : "ሯ"   # Rwa
+<U1230> <U1200> <U12A3> : "ሷ"   # Swa
+<U1240> <U1200> <U12A3> : "ቋ"   # Ḳwa
+<U1260> <U1200> <U12A3> : "ቧ"   # Bwa
+<U1270> <U1200> <U12A3> : "ቷ"   # Twa
+<U1280> <U1200> <U12A3> : "ኋ"   # Ḫwa
+<U1290> <U1200> <U12A3> : "ኗ"   # Nwa
+<U1200> <U1200> <U12A3> : "ኧ"   # ʼwa | Mapping altered to avoid treating "አ" as a dead key
+<U12A8> <U1200> <U12A3> : "ኳ"   # Kwa
+<U12D8> <U1200> <U12A3> : "ዟ"   # Zwa
+<U12F0> <U1200> <U12A3> : "ዷ"   # Dwa
+<U1308> <U1200> <U12A3> : "ጓ"   # Gwa
+<U1320> <U1200> <U12A3> : "ጧ"   # Ṭwa
+<U1330> <U1200> <U12A3> : "ጷ"   # P̣wa
+<U1338> <U1200> <U12A3> : "ጿ"   # Ṣwa
+<U1348> <U1200> <U12A3> : "ፏ"   # Fwa
+<U1350> <U1200> <U12A3> : "ፗ"   # Pwa
+
+
+# Diphthongs with "የ" (Yämän)
+<U1218> <U12E8> <U12A0> : "ፙ"   # Myä
+<U1228> <U12E8> <U12A0> : "ፘ"   # Ryä
+<U1348> <U12E8> <U12A0> : "ፚ"   # Fyä
+
+##################
+# [END OF RULES] #
+##################
