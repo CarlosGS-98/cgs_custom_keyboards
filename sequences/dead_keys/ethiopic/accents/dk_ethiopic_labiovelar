@@ -1,0 +1,78 @@
+# Geʽez Script | Labiovelar Geʽez Syllables Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Geʽez_script#Labiovelar_variants
+#
+# [NOTE]: All syllable combinations in this file are formed by fusing the corresponding
+# base consonant + vocalized አ (ʼÄlf). These base "vowels" are:
+#   - አ (ʼÄlf + Ä [æ])      [U+12A0 | U12A0]
+#   - ኢ (ʼÄlf + I [i])      [U+12A2 | U12A2]
+#   - ኣ (ʼÄlf + A [aː])     [U+12A3 | U12A3]
+#   - ኤ (ʼÄlf + E [e])      [U+12A4 | U12A4]
+#   - እ (ʼÄlf + Ə [ɨ])      [U+12A5 | U12A5]
+#
+
+# Syllables starting with "ቈ" (Ḳʷʻä)
+<U033E> <U1240> <U12C8> <space> : "ቈ"
+<U033E> <U1240> <U12C8> <U12A0> : "ቈ"
+<U033E> <U1240> <U12C8> <U12A2> : "ቊ"
+<U033E> <U1240> <U12C8> <U12A3> : "ቋ"
+<U033E> <U1240> <U12C8> <U12A4> : "ቌ"
+<U033E> <U1240> <U12C8> <U12A5> : "ቍ"
+
+
+# Syllables starting with "ቘ" (Qʷä)
+<U033E> <U1250> <U12C8> <space> : "ቘ"
+<U033E> <U1250> <U12C8> <U12A0> : "ቘ"
+<U033E> <U1250> <U12C8> <U12A2> : "ቚ"
+<U033E> <U1250> <U12C8> <U12A3> : "ቛ"
+<U033E> <U1250> <U12C8> <U12A4> : "ቜ"
+<U033E> <U1250> <U12C8> <U12A5> : "ቝ"
+
+
+# Syllables starting with "ኈ" (Ḫʷä)
+<U033E> <U1280> <U12C8> <space> : "ኈ"
+<U033E> <U1280> <U12C8> <U12A0> : "ኈ"
+<U033E> <U1280> <U12C8> <U12A2> : "ኊ"
+<U033E> <U1280> <U12C8> <U12A3> : "ኋ"
+<U033E> <U1280> <U12C8> <U12A4> : "ኌ"
+<U033E> <U1280> <U12C8> <U12A5> : "ኍ"
+
+
+# Syllables starting with "ኰ" (Kʷä)
+<U033E> <U12A8> <U12C8> <space> : "ኰ"
+<U033E> <U12A8> <U12C8> <U12A0> : "ኰ"
+<U033E> <U12A8> <U12C8> <U12A2> : "ኲ"
+<U033E> <U12A8> <U12C8> <U12A3> : "ኳ"
+<U033E> <U12A8> <U12C8> <U12A4> : "ኴ"
+<U033E> <U12A8> <U12C8> <U12A5> : "ኵ"
+
+
+# Syllables starting with "ዀ" (Xʷä)
+<U033E> <U12B8> <U12C8> <space> : "ዀ"
+<U033E> <U12B8> <U12C8> <U12A0> : "ዀ"
+<U033E> <U12B8> <U12C8> <U12A2> : "ዂ"
+<U033E> <U12B8> <U12C8> <U12A3> : "ዃ"
+<U033E> <U12B8> <U12C8> <U12A4> : "ዄ"
+<U033E> <U12B8> <U12C8> <U12A5> : "ዅ"
+
+
+# Syllables starting with "ጐ" (Gʷä)
+<U033E> <U1308> <U12C8> <space> : "ጐ"
+<U033E> <U1308> <U12C8> <U12A0> : "ጐ"
+<U033E> <U1308> <U12C8> <U12A2> : "ጒ"
+<U033E> <U1308> <U12C8> <U12A3> : "ጓ"
+<U033E> <U1308> <U12C8> <U12A4> : "ጔ"
+<U033E> <U1308> <U12C8> <U12A5> : "ጕ"
+
+
+# Syllables starting with "ⶓ" (Ŋʷä)
+<U033E> <U1318> <U12C8> <space> : "ⶓ"
+<U033E> <U1318> <U12C8> <U12A0> : "ⶓ"
+<U033E> <U1318> <U12C8> <U12A2> : "ⶔ"
+<U033E> <U1318> <U12C8> <U12A4> : "ⶕ"
+<U033E> <U1318> <U12C8> <U12A5> : "ⶖ"
+
+##################
+# [END OF RULES] #
+##################
