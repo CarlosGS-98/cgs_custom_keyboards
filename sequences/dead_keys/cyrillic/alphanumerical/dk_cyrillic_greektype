@@ -155,9 +155,9 @@
 <dead_greek> <dead_circumflex> <Cyrillic_o>     : "ꞷ"   # Latin Omega
 <dead_greek> <dead_circumflex> <U0460>          : "Ꞷ"   # Latin Omega
 <dead_greek> <dead_circumflex> <U0461>          : "ꞷ"   # Latin Omega
-<dead_greek> <underscore> <Cyrillic_O>          : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <Cyrillic_O>          : "꟝"   # Latin Closed Omega
 <dead_greek> <underscore> <Cyrillic_o>          : "ɷ"   # Latin Closed Omega
-<dead_greek> <underscore> <U0460>               : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <U0460>               : "꟝"   # Latin Closed Omega
 <dead_greek> <underscore> <U0461>               : "ɷ"   # Latin Closed Omega
 <dead_greek> <dead_circumflex> <Cyrillic_U>     : "Ʊ"   # Latin Upsilon
 <dead_greek> <dead_circumflex> <Cyrillic_u>     : "ʊ"   # Latin Upsilon

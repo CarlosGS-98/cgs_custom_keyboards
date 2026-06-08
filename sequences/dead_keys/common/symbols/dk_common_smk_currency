@@ -10,6 +10,13 @@
 <dead_currency> <space>         : "¤"    # ISO generic currency symbol
 <dead_currency> <dead_currency> : "¤"    # ISO generic currency symbol
 
+
+# Precomposed currency letter combinations (Non-alphabetical)
+# [Main source]: https://en.wikipedia.org/wiki/Currency_symbol
+#
+<dead_currency> <slash> <equal> : "⃂"   # Rufiyaa
+<dead_currency> <equal> <slash> : "⃂"   # Rufiyaa
+
 ##################
 # [END OF RULES] #
 ##################

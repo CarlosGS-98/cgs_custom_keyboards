@@ -49,7 +49,10 @@
 <Multi_key> <dead_caron> <t>            : "ₜ"
 <Multi_key> <dead_caron> <u>            : "ᵤ"
 <Multi_key> <dead_caron> <v>            : "ᵥ"
+<Multi_key> <dead_caron> <w>            : "₝"
 <Multi_key> <dead_caron> <x>            : "ₓ"
+<Multi_key> <dead_caron> <y>            : "₞"
+<Multi_key> <dead_caron> <z>            : "₟"
 
 ##################
 # [END OF RULES] #

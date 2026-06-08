@@ -249,6 +249,48 @@ xkb_symbols "qwertz" {
 };
 
 partial alphanumeric_keys
+xkb_symbols "latam" {
+    // [NOTE]: This keyboard layout is mostly based off
+    // the Latin-American Spanish one with some minor
+    // adjustments to adapt it to the SMK layout line.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ º ◌ │ ! 𐤀 │ "   │ #   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ? Ɂ │ ¡ Ꞌ ┃ ⌫       ┃
+    // │ | ¬ │ 1 \ │ 2 ᵅ │ 3 · │ 4 ¤ │ 5  ᷏ │ 6 ª │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ɂ │ ¿ ꞌ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Q   │ W Ⅎ │ E Ə │ R ɻ │ T Þ │ Y Ꟛ │ U Ů │ I İ │ O Ø │ P Ↄ │ ◌̈ ◌̨ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ q @ │ w ⅎ │ e ə │ r ɹ │ t þ │ y ꟛ │ u ů │ i ı │ o ø │ p ↄ │ ◌́ ◌̋ │ + ◌̃ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ A Å │ S ẞ │ D Ð │ F   │ G Ƣ │ H Ⱶ │ J ɟ │ K   │ L Ł │ Ñ ◌̌ │ [   │ ] ◌̏ ┃      ┃
+    // ┃  Lock  ┃ a å │ s ß │ d ð │ f   │ g ƣ │ h ⱶ │ j ȷ │ k   │ l ł │ ñ ◌̄ │ { ◌̂ │ } ◌̀ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Æ │ Z Ʒ │ X Ƨ │ C ◌̑ │ V ◌̊ │ B ⌬ │ N Ŋ │ М  ͛ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < æ │ z ʒ │ x ƨ │ c ◌̧ │ v ◌̆ │ b ※ │ n ŋ │ m ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Latin (Latam QWERTY)";
+
+    key <TLDE>	{ [          bar,   masculine,      notsign,                U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [            1,   exclam,         backslash,              U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [            2,   quotedbl,       dead_greek              ] };
+    key <AE03>	{ [            3,   numbersign,     periodcentered          ] };
+    key <AE04>	{ [            4,   dollar,         dead_currency           ] };
+    key <AE12>	{ [ questiondown,   exclamdown,     UA78C,                  UA78B               ] };    // "¿", "¡", Lowercase Saltillo, Uppercase Saltillo 
+
+    key <AD01>	{ [            q,   Q,              at                      ] };
+    key <AD03>	{ [            e,   E,              schwa,                  SCHWA               ] };
+    key <AD11>	{ [   dead_acute,   dead_diaeresis, dead_doubleacute,       dead_ogonek         ] };
+    key <AD12>	{ [         plus,   asterisk,       dead_tilde,             dead_horn           ] };
+
+    key <AC11>	{ [    braceleft,   bracketleft,    dead_circumflex         ] };
+    key <BKSL>	{ [   braceright,   bracketright,   dead_grave,             dead_doublegrave    ] };
+};
+
+partial alphanumeric_keys
 xkb_symbols "azerty" {
     // [NOTE]: This layout is based off a mixture between
     // the Belgian AZERTY keyboard

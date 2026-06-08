@@ -92,6 +92,7 @@
 
 # Skorpian Superscript Circumflex (Latin Letters)
 <Multi_key> <dead_circumflex> <A>                                           : "ᴬ"
+<Multi_key> <dead_circumflex> <minus> <A>                                   : "𝿩"   # ᴀ + Superscript
 <Multi_key> <dead_circumflex> <a>                                           : "ᵃ"
 <Multi_key> <dead_circumflex> <U0250>                                       : "ᵄ"   # ɐ + Superscript
 <Multi_key> <dead_circumflex> <U21BA> <a>                                   : "ᵄ"
@@ -114,6 +115,7 @@
 <Multi_key> <dead_circumflex> <ccedilla>                                    : "ᶜ̧"
 <Multi_key> <dead_circumflex> <dead_cedilla> <c>                            : "ᶜ̧"
 <Multi_key> <dead_circumflex> <D>                                           : "ᴰ"
+<Multi_key> <dead_circumflex> <minus> <D>                                   : "𝿨"   # ᴅ + Superscript
 <Multi_key> <dead_circumflex> <d>                                           : "ᵈ"
 <Multi_key> <dead_circumflex> <U0257>                                       : "𐞌"   # ɗ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <d>                                   : "𐞌"
@@ -136,6 +138,7 @@
 <Multi_key> <dead_circumflex> <U0256>                                       : "𐞋"   # ɖ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <greater> <d>                         : "𐞋"
 <Multi_key> <dead_circumflex> <E>                                           : "ᴱ"
+<Multi_key> <dead_circumflex> <minus> <E>                                   : "𝿪"   # ᴇ + Superscript
 <Multi_key> <dead_circumflex> <e>                                           : "ᵉ"
 <Multi_key> <dead_circumflex> <U025B>                                       : "ᵋ"   # ɛ (Latin Epsilon) + Superscript
 <Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <e>            : "ᵋ"
@@ -237,7 +240,7 @@
 <Multi_key> <dead_circumflex> <dead_stroke> <o>                             : "ᶱ"
 <Multi_key> <dead_circumflex> <oslash>                                      : "𐞢"
 <Multi_key> <dead_circumflex> <dead_longsolidusoverlay> <o>                 : "𐞢"
-<Multi_key> <dead_circumflex> <U0276>                                       : "𐞣"    # Smallcaps Œ
+<Multi_key> <dead_circumflex> <U0276>                                       : "𐞣"   # Smallcaps Œ
 <Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <OE>                : "𐞣"
 <Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <oe>                : "𐞣"
 <Multi_key> <dead_circumflex> <oe>                                          : "ꟹ"

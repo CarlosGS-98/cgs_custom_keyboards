@@ -46,6 +46,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>latam</name>
+            <description>SMK-Latin (Latam QWERTY)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>azerty</name>
             <description>SMK-Latin (AZERTY)</description>
           </configItem>

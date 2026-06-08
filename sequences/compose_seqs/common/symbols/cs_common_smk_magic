@@ -17,11 +17,13 @@
 <Multi_key> <U232C> <parenleft> <0> <masculine> <parenright>                                                : "🝭"   # Retort
 <Multi_key> <U232C> <parenleft> <2> <bar> <2> <parenright>                                                  : "🜾"   # Bismuth Ore
 <Multi_key> <U232C> <parenleft> <2> <plus> <masculine> <parenright>                                         : "🜩"   # Tin Ore/Cassiterite (Tin(IV) oxide [SnO₂])
+<Multi_key> <U232C> <parenleft> <3> <3> <equal> <parenright>                                                : "🜓"   # Cinnabar
+<Multi_key> <U232C> <parenleft> <3> <equal> <3> <parenright>                                                : "🜓"   # Cinnabar
 <Multi_key> <U232C> <parenleft> <3> <minus> <bar> <parenright>                                              : "🜴"   # Regulus-3
 <Multi_key> <U232C> <parenleft> <3> <plus> <asterisk> <parenright>                                          : "🜟"   # Regulus of Iron
 <Multi_key> <U232C> <parenleft> <5> <masculine> <parenright>                                                : "🜪"   # Lead Ore/Galena (Lead(II) sulfide [PbS])
-<Multi_key> <U232C> <parenleft> <8> <bar> <equal> <parenright>                                              : "🜎"   # Black sulfur/Brimstone/Leviathan Cross
-<Multi_key> <U232C> <parenleft> <8> <minus> <equal> <parenright>                                            : "🜎"   # Black sulfur/Brimstone/Leviathan Cross
+<Multi_key> <U232C> <parenleft> <8> <bar> <equal> <parenright>                                              : "🜏"   # Black sulfur/Brimstone/Leviathan Cross
+<Multi_key> <U232C> <parenleft> <8> <minus> <equal> <parenright>                                            : "🜏"   # Black sulfur/Brimstone/Leviathan Cross
 <Multi_key> <U232C> <parenleft> <ampersand> <parenright>                                                    : "🜘"   # Rock Salt/Halite ([NaCl])
 <Multi_key> <U232C> <parenleft> <asterisk> <asterisk> <parenright>                                          : "🜹"   # Salammoniac (Ammonium chloride [NH₄Cl])
 <Multi_key> <U232C> <parenleft> <asterisk> <3> <parenright>                                                 : "🜰"   # Regulus of Antimony (Metallic antimony)
@@ -58,10 +60,14 @@
 <Multi_key> <U232C> <parenleft> <colon> <bar> <colon> <parenright>                                          : "🜌"   # Vinegar-3
 <Multi_key> <U232C> <parenleft> <colon> <period> <parenright>                                               : "🝎"   # Caput Mortuum
 <Multi_key> <U232C> <parenleft> <colon> <plus> <colon> <parenright>                                         : "🜋"   # Vinegar-2
+<Multi_key> <U232C> <parenleft> <dead_breve> <equal> <parenright>                                           : "🝁"   # Quicklime (Calcium oxide [CaO])
+<Multi_key> <U232C> <parenleft> <dead_breve> <masculine> <plus> <equal> <parenright>                        : "🜐"   # Mercury Sublimate
 <Multi_key> <U232C> <parenleft> <dead_caron> <masculine> <parenright>                                       : "🜻"   # Realgar (Ruby of arsenic [α-As₄S₄])
 <Multi_key> <U232C> <parenleft> <dead_macron> <bar> <parenright>                                            : "🝨"   # Crucible-4
 <Multi_key> <U232C> <parenleft> <Down> <bar> <Up> <parenright>                                              : "🝤"   # Putrefaction
 <Multi_key> <U232C> <parenleft> <Down> <underscore> <parenright>                                            : "🝀"   # Tartar-2 (Tartaric acid [2,3-Dihydroxybutanedioic acid])
+<Multi_key> <U232C> <parenleft> <equal> <3> <3> <parenright>                                                : "🜓"   # Cinnabar
+<Multi_key> <U232C> <parenleft> <equal> <masculine> <plus> <parenright>                                     : "🜑"   # Mercury Sublimate-2
 <Multi_key> <U232C> <parenleft> <greater> <less> <parenright>                                               : "🜄"   # Water
 <Multi_key> <U232C> <parenleft> <greater> <less> <equal> <parenright>                                       : "🜅"   # Aqua Fortis (Nitric acid [HNO₃])
 <Multi_key> <U232C> <parenleft> <greater> <bar> <less> <parenright>                                         : "🝏"   # Scepter of Jove
@@ -69,6 +75,7 @@
 <Multi_key> <U232C> <parenleft> <greater> <minus> <less> <parenright>                                       : "🜃"   # Earth
 <Multi_key> <U232C> <parenleft> <less> <greater> <parenright>                                               : "🜂"   # Fire
 <Multi_key> <U232C> <parenleft> <less> <greater> <minus> <parenright>                                       : "🜙"   # Rock Salt-2/Halite ([NaCl])
+<Multi_key> <U232C> <parenleft> <less> <3> <greater> <parenright>                                           : "🜎"   # Philosopher's sulfur/stone
 <Multi_key> <U232C> <parenleft> <less> <asterisk> <greater> <parenright>                                    : "🜎"   # Philosopher's sulfur/stone
 <Multi_key> <U232C> <parenleft> <less> <minus> <greater> <parenright>                                       : "🜁"   # Air
 <Multi_key> <U232C> <parenleft> <less> <plus> <greater> <parenright>                                        : "🜍"   # Sulfur
@@ -110,7 +117,8 @@
 <Multi_key> <U232C> <parenleft> <masculine> <plus> <3> <parenright>                                         : "🜸"   # Marcasite (Orthorhombic iron sulfide [FeS₂])
 <Multi_key> <U232C> <parenleft> <masculine> <plus> <asterisk> <parenright>                                  : "🜬"   # Sublimate of antimony
 <Multi_key> <U232C> <parenleft> <masculine> <plus> <equal> <parenright>                                     : "🝋"   # Generic powder
-<Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <parenright>                                 : "🜫"   # Antimony Ore (Stibnite [Sb₂S₃])
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <Down> <parenright>                          : "🜠"   # Copper Ore
+<Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <Up> <parenright>                            : "🜫"   # Antimony Ore (Stibnite [Sb₂S₃])
 <Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <greater> <parenright>                       : "🜡"   # Chalcopyrite ([CuFeS₂])
 <Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <plus> <parenright>                          : "🜥"   # Copper antimoniate
 <Multi_key> <U232C> <parenleft> <masculine> <plus> <masculine> <Right> <parenright>                         : "🜡"   # Chalcopyrite ([CuFeS₂])
@@ -126,6 +134,7 @@
 <Multi_key> <U232C> <parenleft> <minus> <bar> <masculine> <parenright>                                      : "🜗"   # Vitriol-2
 <Multi_key> <U232C> <parenleft> <minus> <bracketleft> <parenright>                                          : "🝗"   # Ashes
 <Multi_key> <U232C> <parenleft> <minus> <masculine> <parenright>                                            : "🜔"   # Generic salt
+<Multi_key> <U232C> <parenleft> <minus> <masculine> <masculine> <plus> <parenright>                         : "🜒"   # Mercury Sublimate-3
 <Multi_key> <U232C> <parenleft> <minus> <minus> <asterisk> <parenright>                                     : "🝐"   # Caduceus
 <Multi_key> <U232C> <parenleft> <minus> <minus> <cent> <parenright>                                         : "🝑"   # Trident
 <Multi_key> <U232C> <parenleft> <minus> <minus> <EuroSign> <parenright>                                     : "🝑"   # Trident
@@ -137,8 +146,8 @@
 <Multi_key> <U232C> <parenleft> <plus> <masculine> <plus> <parenright>                                      : "🝊"   # Wax
 <Multi_key> <U232C> <parenleft> <plus> <parenright>                                                         : "🜊"   # Vinegar
 <Multi_key> <U232C> <parenleft> <slash> <masculine> <parenright>                                            : "🝯"   # Night
-<Multi_key> <U232C> <parenleft> <U221D> <U221D> <bar> <equal> <parenright>                                  : "🜎"   # Black sulfur/Brimstone/Leviathan Cross
-<Multi_key> <U232C> <parenleft> <U221D> <U221D> <minus> <equal> <parenright>                                : "🜎"   # Black sulfur/Brimstone/Leviathan Cross
+<Multi_key> <U232C> <parenleft> <U221D> <U221D> <bar> <equal> <parenright>                                  : "🜏"   # Black sulfur/Brimstone/Leviathan Cross
+<Multi_key> <U232C> <parenleft> <U221D> <U221D> <minus> <equal> <parenright>                                : "🜏"   # Black sulfur/Brimstone/Leviathan Cross
 <Multi_key> <U232C> <parenleft> <underscore> <Down> <parenright>                                            : "🝀"   # Tartar-2 (Tartaric acid [2,3-Dihydroxybutanedioic acid])
 <Multi_key> <U232C> <parenleft> <underscore> <slash> <backslash> <parenright>                               : "🝠"   # Distillation
 <Multi_key> <U232C> <parenleft> <Up> <3> <parenright>                                                       : "🝢"   # Dissolve-2

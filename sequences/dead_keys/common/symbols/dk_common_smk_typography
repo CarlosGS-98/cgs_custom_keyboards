@@ -20,6 +20,23 @@
 <U203B> <underscore> <space>    : "␣"    # Open box space
 
 
+# Control Character Pictures (Non-Alphabetical)
+#
+# [NOTE]: Every character in this section
+# is enclosed inside a pair of single square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Control_Pictures
+#
+<U203B> <bracketleft> <numbersign> <bracketright>               : "␧"   # Delete Square (Checkerboard Form)
+<U203B> <bracketleft> <numbersign> <1> <bracketright>           : "␧"   # Delete Square (Checkerboard Form)
+<U203B> <bracketleft> <numbersign> <2> <bracketright>           : "␨"   # Delete Square (Rectangular Checkerboard Form)
+<U203B> <bracketleft> <numbersign> <3> <bracketright>           : "␩"   # Delete Square (Medium Shade Form)
+<U203B> <bracketleft> <question> <bracketright>                 : "␦"   # Substitute (Form 2)
+<U203B> <bracketleft> <slash> <3> <bracketright>                : "␥"   # Delete (Form 2)
+<U203B> <bracketleft> <slash> <slash> <slash> <bracketright>    : "␥"   # Delete (Form 2)
+<U203B> <bracketleft> <U21BA> <questiondown> <bracketright>     : "␦"   # Substitute (Form 2)
+
+
 # Dashes
 <U203B> <2> <minus>                 : "⸺"  # 2-Em dash
 <U203B> <3> <minus>                 : "⸻" # 3-Em dash
@@ -130,6 +147,7 @@
 <U203B> <dead_circumflex> <underscore>      : "‸"   # Low caret
 <U203B> <masculine> <asciitilde>            : "⸛"   # Tilde + Ring Above
 <U203B> <masculine> <dead_tilde>            : "⸛"   # Tilde + Ring Above
+<U203B> <masculine> <masculine>             : "°"   # Degree sign
 <U203B> <masculine> <space>                 : "⸰"   # Ring point
 <U203B> <dead_tilde> <bar>                  : "⸾"   # Vertical wiggly line
 <U203B> <dead_tilde> <dead_abovedot>        : "⸞"   # Tilde + Dot Above
@@ -182,6 +200,31 @@
 <U203B> <underscore> <dead_circumflex>      : "‸"   # Low caret
 <U203B> <underscore> <semicolon>            : "⸵"   # Turned semicolon
 <U203B> <underscore> <underscore>           : "‗"   # Double low line
+
+
+# OCR-A + MICR Controls/Codes
+#
+# [NOTE]: Every character in this section
+# is preceded by "$" and terminated with
+# a single regular space (" ").
+#
+# [Main source]: https://en.wikipedia.org/wiki/Optical_Character_Recognition_(Unicode_block)
+#
+<U203B> <dollar> <backslash> <backslash> <space>                : "⑊"   # OCR Double Backslash
+<U203B> <dollar> <bar> <bar> <periodcentered> <space>           : "⑈"   # MICR On Us Symbol
+<U203B> <dollar> <bracketleft> <minus> <bracketright> <space>   : "⑄"   # OCR-A Belt Buckle
+<U203B> <dollar> <colon> <bar> <space>                          : "⑆"   # MICR Branch Bank Identification
+<U203B> <dollar> <Down> <space>                                 : "⑃"   # OCR-A Inverted Fork
+<U203B> <dollar> <Down> <bar> <Up> <space>                      : "⑀"   # OCR-A Hook
+<U203B> <dollar> <bar> <minus> <bar> <space>                    : "⑁"   # OCR-A Chair
+<U203B> <dollar> <greater> <less> <space>                       : "⑅"   # OCR-A Bowtie/Unique Asterisk
+<U203B> <dollar> <notsign> <bar> <space>                        : "⑁"   # OCR-A Chair
+<U203B> <dollar> <period> <3> <space>                           : "⑉"   # MICR Dash Symbol
+<U203B> <dollar> <period> <bar> <periodcentered> <space>        : "⑇"   # MICR Amount Of Check
+<U203B> <dollar> <period> <period> <period> <space>             : "⑉"   # MICR Dash Symbol
+<U203B> <dollar> <Right> <bar> <space>                          : "⑁"   # OCR-A Chair
+<U203B> <dollar> <underscore> <bar> <dead_macron> <space>       : "⑀"   # OCR-A Hook
+<U203B> <dollar> <Up> <space>                                   : "⑂"   # OCR-A Fork
 
 
 # Parentheses & Brackets
