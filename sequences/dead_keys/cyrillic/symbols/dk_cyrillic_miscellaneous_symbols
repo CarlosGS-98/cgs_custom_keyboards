@@ -30,6 +30,10 @@
 <U232C> <Cyrillic_em> <space>                                                   : "µ"   # Micro Sign
 <U232C> <Cyrillic_EM> <Cyrillic_SHHA> <Cyrillic_O>                              : "℧"   # Mho (Inverted Ohm) Symbol
 <U232C> <Cyrillic_em> <Cyrillic_shha> <Cyrillic_o>                              : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_KA> <Cyrillic_ER> <Cyrillic_O>     : "µ"   # Micro Sign
+<U232C> <Cyrillic_em> <Cyrillic_i> <Cyrillic_ka> <Cyrillic_er> <Cyrillic_o>     : "µ"   # Micro Sign
+<U232C> <Cyrillic_EM> <Ukrainian_I> <Cyrillic_KA> <Cyrillic_ER> <Cyrillic_O>    : "µ"   # Micro Sign
+<U232C> <Cyrillic_em> <Ukrainian_i> <Cyrillic_ka> <Cyrillic_er> <Cyrillic_o>    : "µ"   # Micro Sign
 <U232C> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_TSE> <Cyrillic_ER> <Cyrillic_O>    : "µ"   # Micro Sign
 <U232C> <Cyrillic_em> <Cyrillic_i> <Cyrillic_tse> <Cyrillic_er> <Cyrillic_o>    : "µ"   # Micro Sign
 <U232C> <Cyrillic_EM> <Ukrainian_I> <Cyrillic_TSE> <Cyrillic_ER> <Cyrillic_O>   : "µ"   # Micro Sign

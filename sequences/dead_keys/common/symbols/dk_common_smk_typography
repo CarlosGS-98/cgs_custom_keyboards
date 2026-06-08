@@ -274,6 +274,12 @@
 <U203B> <quotedbl> <underscore>     : "„"  # Double Low-9 quotation mark
 <U203B> <underscore> <quotedbl>     : "⹂"  # Double Low-Reversed-9 quotation mark
 
+
+# Unicode Control Characters (Mostly for Bidirectional Text Support)
+<U203B> <dollar> <at>       : "؜"   # Arabic Letter Mark
+<U203B> <dollar> <greater>  : "‎"   # Right-to-left Mark
+<U203B> <dollar> <less>     : "‏"   # Right-to-left Mark
+
 ##################
 # [END OF RULES] #
 ##################

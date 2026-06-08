@@ -28,6 +28,8 @@
 <U232C> <Greek_mu> <space>                                                  : "µ"   # Micro Sign
 <U232C> <Greek_MU> <U0370> <Greek_OMICRON>                                  : "℧"   # Mho (Inverted Ohm) Symbol
 <U232C> <Greek_mu> <U0371> <Greek_omicron>                                  : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <Greek_MU> <Greek_IOTA> <Greek_KAPPA> <Greek_RHO> <Greek_OMICRON>   : "µ"   # Micro Sign
+<U232C> <Greek_mu> <Greek_iota> <Greek_kappa> <Greek_rho> <Greek_omicron>   : "µ"   # Micro Sign
 <U232C> <Greek_MU> <Greek_IOTA> <U03FA> <Greek_RHO> <Greek_OMICRON>         : "µ"   # Micro Sign
 <U232C> <Greek_mu> <Greek_iota> <U03FB> <Greek_rho> <Greek_omicron>         : "µ"   # Micro Sign
 <U232C> <Greek_OMICRON> <U0370> <Greek_MU>                                  : "Ω"   # Ohm Symbol
