@@ -11,6 +11,8 @@
 #
 
 # IPA Sounds (Alphabetical)
+<U035A> <C>                             : "ʗ"   # Stretched C
+<U035A> <c>                             : "ʗ"   # Stretched C
 <U035A> <D> <D>                         : "ʭ"   # Bidental percussive
 <U035A> <d> <d>                         : "ʭ"   # Bidental percussive
 <U035A> <E>                             : "Ə"   # Schwa
@@ -41,6 +43,7 @@
 <U035A> <underscore> <r>                : "ɾ"   # Voiced alveolar flap
 <U035A> <S>                             : "Ʃ"   # Esh
 <U035A> <s>                             : "ʃ"   # Esh
+<U035A> <minus> <s>                     : "ʄ"   # Barred Esh
 <U035A> <V>                             : "ⱱ"   # Labiodental flap
 <U035A> <v>                             : "ⱱ"   # Labiodental flap
 <U035A> <W> <W>                         : "ʬ"   # Bilabial percussive
@@ -51,10 +54,16 @@
 <U035A> <U0242> <space>                 : "ʔ"   # ɂ (Small Glottal Stop) + IPA Key
 <U035A> <U0241> <minus>                 : "ʡ"   # Ɂ (Capital Glottal Stop) + "-" + IPA Key
 <U035A> <U0242> <minus>                 : "ʡ"   # ɂ (Small Glottal Stop) + "-" + IPA Key
-<U035A> <U0241> <underscore> <space>    : "ʕ"   # Ɂ (Capital Glottal Stop) + "_" + IPA Key
-<U035A> <U0242> <underscore> <space>    : "ʕ"   # ɂ (Small Glottal Stop) + "_" + IPA Key
-<U035A> <U0241> <underscore> <minus>    : "ʢ"   # Ɂ (Capital Glottal Stop) + "_-" + IPA Key
-<U035A> <U0242> <underscore> <minus>    : "ʢ"   # ɂ (Small Glottal Stop) + "_-" + IPA Key
+<U035A> <U21BA> <U0241>                 : "ʖ"   # Ɂ (Capital Glottal Stop) + "Letter Flip" Dead Key + IPA Key = Inverted Glottal Stop
+<U035A> <U21BA> <U0242>                 : "ʖ"   # ɂ (Small Glottal Stop) + "Letter Flip" Dead Key + IPA Key = Inverted Glottal Stop
+<U035A> <UA7CE> <space>                 : "ʕ"   # ꟎ (Capital Pharyngeal Voiced Fricative) + " " + IPA Key
+<U035A> <UA7CF> <space>                 : "ʕ"   # ꟏ (Small Pharyngeal Voiced Fricative) + " " + IPA Key
+<U035A> <UA7CE> <minus>                 : "ʢ"   # ꟎ (Capital Pharyngeal Voiced Fricative) + "-" + IPA Key
+<U035A> <UA7CF> <minus>                 : "ʢ"   # ꟏ (Small Pharyngeal Voiced Fricative) + "-" + IPA Key
+<U035A> <U0241> <underscore> <space>    : "ʕ"   # Ɂ (Capital Glottal Stop) + " " + IPA Key
+<U035A> <U0242> <underscore> <space>    : "ʕ"   # ɂ (Small Glottal Stop) + " " + IPA Key
+<U035A> <U0241> <underscore> <minus>    : "ʢ"   # Ɂ (Capital Glottal Stop) + "-" + IPA Key
+<U035A> <U0242> <underscore> <minus>    : "ʢ"   # ɂ (Small Glottal Stop) + "-" + IPA Key
 
 
 # Cyrillic Small Capital Letters

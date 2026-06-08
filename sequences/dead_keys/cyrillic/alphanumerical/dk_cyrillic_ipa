@@ -11,6 +11,8 @@
 #
 
 # IPA Sounds (Alphabetical)
+<U035A> <Cyrillic_TSE>                          : "ʗ"   # Stretched C
+<U035A> <Cyrillic_tse>                          : "ʗ"   # Stretched C
 <U035A> <Cyrillic_DE> <Cyrillic_DE>             : "ʭ"   # Bidental percussive
 <U035A> <Cyrillic_de> <Cyrillic_de>             : "ʭ"   # Bidental percussive
 <U035A> <Cyrillic_IE>                           : "Ə"   # Schwa
@@ -41,6 +43,7 @@
 <U035A> <underscore> <Cyrillic_er>              : "ɾ"   # Voiced alveolar flap
 <U035A> <Cyrillic_ES>                           : "Ʃ"   # Esh
 <U035A> <Cyrillic_es>                           : "ʃ"   # Esh
+<U035A> <minus> <Cyrillic_es>                   : "ʄ"   # Barred Esh
 <U035A> <Cyrillic_VE>                           : "ⱱ"   # Labiodental flap
 <U035A> <Cyrillic_ve>                           : "ⱱ"   # Labiodental flap
 <U035A> <Cyrillic_SOFTSIGN> <Cyrillic_SOFTSIGN> : "ʬ"   # Bilabial percussive

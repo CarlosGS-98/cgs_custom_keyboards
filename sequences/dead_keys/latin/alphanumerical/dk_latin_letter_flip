@@ -3,7 +3,11 @@
 
 # Basic precomposed letter combinations
 # [Main source]: https://en.wikipedia.org/wiki/List_of_Latin-script_letters
-#       
+#    
+<U21BA> <2> <R>                             : "꭬"  # German Dialectology Script R
+<U21BA> <2> <r>                             : "ꭋ"  # German Dialectology Script R
+<U21BA> <3> <R>                             : "꭭"  # German Dialectology Script R With Ring
+<U21BA> <3> <r>                             : "ꭌ"  # German Dialectology Script R With Ring
 <U21BA> <A>                                 : "Ɐ"
 <U21BA> <a>                                 : "ɐ"
 <U21BA> <U2C6D>                             : "Ɒ"   # Ɑ (Latin Alpha, Turned)

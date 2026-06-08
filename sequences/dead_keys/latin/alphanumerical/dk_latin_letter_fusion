@@ -168,6 +168,12 @@
 <U1DCF> <U01BF> <U01BF>                 : "ꟕ"   # ƿ (Wynn) * 2
 <U1DCF> <U1DFB> <W>                     : "꟔"   # Ƿ (Wynn) * 2
 <U1DCF> <U1DFB> <w>                     : "ꟕ"   # ƿ (Wynn) * 2
+<U1DCF> <U0241> <A>                     : "Ꞻ"   # Glottal A
+<U1DCF> <U0242> <a>                     : "ꞻ"   # Glottal A
+<U1DCF> <U0241> <I>                     : "Ꞽ"   # Glottal I/Egyptological Yod
+<U1DCF> <U0242> <i>                     : "ꞽ"   # Glottal I/Egyptological Yod
+<U1DCF> <U0241> <U>                     : "Ꞿ"   # Glottal U
+<U1DCF> <U0242> <u>                     : "ꞿ"   # Glottal U
 
 
 # Special Fraction-Like Symbols

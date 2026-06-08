@@ -265,6 +265,7 @@
 <Multi_key> <dead_circumflex> <underscore> <U035B> <Cyrillic_je>                                    : "ᶨ"
 <Multi_key> <dead_circumflex> <underscore> <Cyrillic_KA>                                            : "ᴷ"
 <Multi_key> <dead_circumflex> <underscore> <Cyrillic_ka>                                            : "ᵏ"
+<Multi_key> <dead_circumflex> <U21BA> <underscore> <Cyrillic_ka>                                    : "𐞾"  # ʞ + Superscript
 <Multi_key> <dead_circumflex> <underscore> <Cyrillic_EL>                                            : "ᴸ"
 <Multi_key> <dead_circumflex> <underscore> <minus> <Cyrillic_EL>                                    : "ᶫ"   # Smallcaps L
 <Multi_key> <dead_circumflex> <underscore> <Cyrillic_el>                                            : "ˡ"

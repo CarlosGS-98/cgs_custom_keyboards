@@ -73,6 +73,8 @@
 <dead_stroke> <U1DFB> <minus> <s>                   : "ẝ"
 <dead_stroke> <U0283>                               : "ʄ"   # ʃ (Esh) + Stroke
 <dead_stroke> <U035A> <s>                           : "ʄ"
+<dead_stroke> <U0284>                               : "𝼋"   # ʄ (Barred Esh) + Stroke
+<dead_stroke> <U035A> <minus> <s>                   : "𝼋"   # ʄ (Barred Esh) + Stroke
 <dead_stroke> <T>                                   : "Ŧ"
 <dead_stroke> <t>                                   : "ŧ"
 <dead_stroke> <THORN>                               : "Ꝥ"
