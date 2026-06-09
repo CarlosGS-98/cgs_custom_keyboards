@@ -149,14 +149,14 @@
 <U221D> <bar> <Cyrillic_tse>            : "⋔"   # Pitchfork
 <U221D> <Cyrillic_TSE> <bar>            : "⋔"   # Pitchfork
 <U221D> <Cyrillic_tse> <bar>            : "⋔"   # Pitchfork
-<U221D> <equal> <Cyrillic_GHE>          : "≎"   # Geomatrically equivalent to
-<U221D> <equal> <Cyrillic_ghe>          : "≎"   # Geomatrically equivalent to
+<U221D> <equal> <Cyrillic_GHE>          : "≎"   # Geometrically equivalent to
+<U221D> <equal> <Cyrillic_ghe>          : "≎"   # Geometrically equivalent to
 <U221D> <equal> <minus> <Cyrillic_GHE>  : "≏"   # Difference between
 <U221D> <equal> <minus> <Cyrillic_ghe>  : "≏"   # Difference between
 <U221D> <equal> <Cyrillic_VE>           : "≚"   # Equiangular to
 <U221D> <equal> <Cyrillic_ve>           : "≚"   # Equiangular to
-<U221D> <Cyrillic_GHE> <equal>          : "≎"   # Geomatrically equivalent to
-<U221D> <Cyrillic_ghe> <equal>          : "≎"   # Geomatrically equivalent to
+<U221D> <Cyrillic_GHE> <equal>          : "≎"   # Geometrically equivalent to
+<U221D> <Cyrillic_ghe> <equal>          : "≎"   # Geometrically equivalent to
 <U221D> <minus> <equal> <Cyrillic_GHE>  : "≏"   # Difference between
 <U221D> <minus> <equal> <Cyrillic_ghe>  : "≏"   # Difference between
 <U221D> <Cyrillic_VE> <equal>           : "≚"   # Equiangular to

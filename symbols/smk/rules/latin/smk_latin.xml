@@ -10,7 +10,7 @@
         <name>smk/latin</name>
         <!-- Keyboard indicator for Skorpian Master Keyboard (Latin Script) layouts -->
         <shortDescription><!-- Insert locale name ("es", "fr", "de", "us", etc.) --></shortDescription>
-        <description>Skorpian Master Keyboard v16.0 (Latin Alphabet)</description>
+        <description>Skorpian Master Keyboard v16.7.5 (Latin Alphabet)</description>
         <countryList>
           <iso3166Id><!-- Insert ISO-3166-1 Code --></iso3166Id>
         </countryList>
@@ -42,6 +42,12 @@
           <configItem>
             <name>qwertz</name>
             <description>SMK-Latin (QWERTZ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latam</name>
+            <description>SMK-Latin (Latam QWERTY)</description>
           </configItem>
         </variant>
         <variant>

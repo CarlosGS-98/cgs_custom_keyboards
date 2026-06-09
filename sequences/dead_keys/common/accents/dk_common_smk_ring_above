@@ -18,6 +18,8 @@
 <dead_abovering> <masculine> <space>    : "⃘"    # Combining ring overlay
 <dead_abovering> <masculine> <less>     : "⃚"    # Combining anticlockwise ring overlay
 <dead_abovering> <masculine> <greater>  : "⃙"    # Combining clockwise ring overlay
+<dead_abovering> <Left>                 : "ʿ"    # Modifier letter left half ring
+<dead_abovering> <Right>                : "ʾ"    # Modifier letter right half ring
 
 
 # Rules from "dead_belowring"

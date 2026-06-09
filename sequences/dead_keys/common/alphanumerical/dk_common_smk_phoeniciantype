@@ -8,7 +8,7 @@
 # > across multiple writing systems.
 #
 # [NOTE]: This diacritic will be represented as [U10900]
-# ("𐤀", Phoenician ʾĀlep) to better transmit
+# ("𐤀", Phoenician ʾĀlep) to better transmit 
 # the intention this specific dead key has.
 #
 
@@ -16,6 +16,15 @@
 <U10900> <space>    : "𐤀"   # Phoenician ʾĀlep
 <U10900> <U10900>   : "𐤀"   # Phoenician ʾĀlep
 <U10900> <period>   : "𐤟"    # Phoenician word separator
+
+
+# Phoenician Numerals
+<U10900> <1> <space>            : "𐤖"   # Phoenician 1
+<U10900> <2> <space>            : "𐤚"   # Phoenician 2
+<U10900> <3> <space>            : "𐤛"   # Phoenician 3
+<U10900> <1> <0> <space>        : "𐤗"   # Phoenician 10
+<U10900> <2> <0> <space>        : "𐤘"   # Phoenician 20
+<U10900> <1> <0> <0> <space>    : "𐤙"   # Phoenician 100
 
 ##################
 # [END OF RULES] #
