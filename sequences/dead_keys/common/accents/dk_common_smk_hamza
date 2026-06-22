@@ -1,0 +1,19 @@
+# Common Dead Keys | Hamza Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the letter Hamza (as a diacritic)
+# > across multiple writing systems.
+#
+
+# Basic precomposed letter combinations
+<dead_hamza> <space>                    : "ٴ"    # High Hamza
+<dead_hamza> <dead_hamza>               : "ٴ"    # High Hamza
+<dead_hamza> <dead_tilde>               : "ٟ"    # Wavy Hamza
+<dead_hamza> <dead_caron> <space>       : "ٕ"    # Hamza Below
+<dead_hamza> <dead_circumflex> <space>  : "ٔ"    # Hamza Above
+<dead_hamza> <dead_tilde> <space>       : "ٟ"    # Wavy Hamza
+
+##################
+# [END OF RULES] #
+##################

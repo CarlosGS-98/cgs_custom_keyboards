@@ -1,0 +1,23 @@
+# Arabic Abjad | Hamza Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Hamza Above combinations
+<dead_hamza> <dead_circumflex> <Arabic_alef>                : "أ"
+<dead_hamza> <dead_circumflex> <dead_tilde> <Arabic_alef>   : "ٲ"   # ʾAlif + Wavy Hamza Above
+<dead_hamza> <dead_circumflex> <Arabic_beh>                 : "ࢡ"
+<dead_hamza> <dead_circumflex> <Arabic_hah>                 : "ځ"
+<dead_hamza> <dead_circumflex> <Arabic_ra>                  : "ݬ"
+<dead_hamza> <dead_circumflex> <Arabic_ha>                  : "ۀ"
+<dead_hamza> <dead_circumflex> <Arabic_waw>                 : "ؤ"
+<dead_hamza> <dead_circumflex> <Arabic_yeh>                 : "ئ"
+<dead_hamza> <dead_circumflex> <Farsi_yeh>                  : "ࢨ"
+<dead_hamza> <dead_circumflex> <U06D2>                      : "ۓ"   # Baṛī Ye + Hamza Above
+
+
+# Hamza Below combinations
+<dead_hamza> <dead_caron> <Arabic_alef>                 : "إ"
+<dead_hamza> <dead_caron> <dead_tilde> <Arabic_alef>    : "ٳ"   # ʾAlif + Wavy Hamza Below
+
+##################
+# [END OF RULES] #
+##################
