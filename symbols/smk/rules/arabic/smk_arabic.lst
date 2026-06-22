@@ -1,0 +1,13 @@
+! layout
+  smk/arabic        Skorpian Master Keyboard v16.7.5 (Arabic Abjad)
+
+! variant
+  qwerty            smk/arabic: SMK-Arabic (قوّرتي)
+  qwerty_pt         smk/arabic: SMK-Arabic (Portuguese قوّرتي)
+  qwerty_us         smk/arabic: SMK-Arabic (US قوّرتي)
+  qwertz            smk/arabic: SMK-Arabic (قوّرتز)
+  latam             smk/arabic: SMK-Arabic (Latam قوّرتي)
+  dvorak            smk/arabic: SMK-Arabic (دفوراك)
+  colemak           smk/arabic: SMK-Arabic (كولماك)
+  jcuken            smk/arabic: SMK-Arabic (خڅُكّن)
+  haddad_sakhr      smk/arabic: SMK-Arabic (ضصثقفغ)

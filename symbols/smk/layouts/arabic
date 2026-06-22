@@ -1,0 +1,545 @@
+// Arabic Abjad | XKB Keyboard Symbols
+// [AUTHOR]: Carlos González Sanz
+
+// [NOTE]: These keyboards are partially based upon the
+// default "ara" and "es" symbols in regards to the
+// physical key layout.
+//
+// Put this file on either ~/.config/xkb/symbols
+// or in the same directory as
+// the other system-wide keyboard layouts.
+
+// [NOTE]: In order to be able to display the correct Shift ordering
+// (bottom-to-top, left-to-right), many alphabetical Arabic characters
+// have a Left-To-Right Mark attached to them so that each reference
+// shows the correct ordering.
+//
+// This doesn't affect the final key assignment, because, when these layouts
+// are rendered to show their underlying logical layout,
+// the bottom-to-top, left-to-right ordering is used, without the previously
+// aforementioned bidirectional marks.
+
+// Default SMK-Arabic Keyboard
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    // [NOTE]: Keys are arranged the same way as
+    // in the standard Spanish QWERTY keyboard,
+    // except with Arabic letters instead of
+    // Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌   │ ! 𐤀‎ │ "  ‎ │ ·   │ $ ۴‎ │ ٪‎ ؎‎ │ & ۽‎ │ /   │ ( ↻ │ )   │ =   │ ؟‎ ء‎ │ ع‎   ┃ ⌫       ┃
+    // │ ◌ْ \ │ ١‎ | │ ٢‎ @ │ ٣‎ # │ ٤‎ ◌̃ │ ٥‎  ᷏ │ ٦‎ ¬ │ ٧‎ ؍‎ │ ٨‎ ∝ │ ٩‎ ؏‎ │ ‎٠ ↺ │ '‎ ا‎ │ ع‎ ◌ٔ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ق‎   │ و‎   │ ◌ٙ ¤ │ ر‎   │ ث‎ ظ‎ │ ے‎ ݐ‎ │ ◌ٌ ◌ٝ │ ◌ٍ   │ ة‎   │ پ‎   │ ◌̤ ◌̤̣ │ * ٭‎ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ق‎   │ و‎   │ ◌ّ ؋‎ │ ر‎   │ ت‎ ط‎ │ ي‎ ی‎ │ ◌ُ ◌ٗ │ ◌ِ ى‎ │ ة‎   │ پ‎ ◌𐻹 │ ◌̣ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ً ◌ٖ │ ش‎ ص‎ │ ذ‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ڪ‎ │ ل‎   │ ڽ‎ ◌̌ │ ◌̈ ◌̈̇ │ ڜ‎   ┃      ┃
+    // ┃  Lock  ┃ ◌َ ◌ٰ │ س‎ ص‎ │ د‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ک‎ │ ل‎   │ ڽ‎ ◌̂ │ ◌̇ { │ چ‎ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ە‎ │ ژ‎ ج‎ │ ح‎   │ ځ‎   │ ڤ‎   │ ب‎ ⌬ │ ن‎ ݣ‎ │ م‎   │ ؛‎ ۔‎ │ : ۔‎ │ _ ـ‎ ┃              ┃
+    // ┃Shift ┃ < ە‎ │ ز‎ ج‎ │ ح‎   │ څ‎   │ ڤ‎ ◌̊ │ ب‎ ※ │ ن‎ ڭ‎ │ م‎   │ ،‎ , │ . ؞‎ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Arabic (قوّرتي)";
+
+    key <TLDE>	{ [      Arabic_sukun,  U25CC,                  backslash                   ] };                        // U+25CC = Dotted Circle
+    key <AE01>	{ [          Arabic_1,  exclam,                 bar,                        U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [          Arabic_2,  quotedbl,               at                          ] };
+    key <AE03>	{ [          Arabic_3,  periodcentered,         numbersign                  ] };
+    key <AE04>	{ [          Arabic_4,  dollar,                 dead_tilde,                 U06F4               ] };    // "dead_tilde" is being reused to signify the maddah being a dead key. Additionally, U+06F4 = Extended Arabic-Indic Digit 4.
+    key <AE05>	{ [          Arabic_5,  Arabic_percent,         U1DCF,                      U060E               ] };    // U+1DCF = "Letter Fusion" Dead Key; U+060E = Arabic Poetic Verse Sign
+    key <AE06>	{ [          Arabic_6,  ampersand,              notsign,                    U06FD               ] };    // U+06FD = Sindhi Ampersand
+    key <AE07>	{ [          Arabic_7,  slash,                  U060D                       ] };                        // U+060D = Arabic Date Separator
+    key <AE08>	{ [          Arabic_8,  parenleft,              U221D,                      U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [          Arabic_9,  parenright,             U060F                       ] };                        // U+060F = Arabic Sign Misra
+    key <AE10>	{ [          Arabic_0,  equal,                  U21BA                       ] };                        // U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [        apostrophe,  Arabic_question_mark,   Arabic_alef,                Arabic_hamza        ] };
+    key <AE12>	{ [        Arabic_ain,  Arabic_ain,             dead_hamza                  ] };
+
+    key <AD01>	{ [        Arabic_qaf,  Arabic_qaf              ] };
+    key <AD02>	{ [        Arabic_waw,  Arabic_waw              ] };
+    key <AD03>	{ [     Arabic_shadda,  U0659,                  U060B,                      dead_currency       ] };    // U+0659 = Zwarakay (Pashto [ə]); U+060B = Afghani Sign
+    key <AD04>	{ [         Arabic_ra,  Arabic_ra               ] };
+    key <AD05>	{ [        Arabic_teh,  Arabic_theh,            Arabic_tah,                 Arabic_zah          ] };
+    key <AD06>	{ [        Arabic_yeh,  U06D2,                  Farsi_yeh,                  U0750               ] };    // U+06D2 = Baṛī Ye; U+0750 = Fula/Fulfulde [ˀj]
+    key <AD07>	{ [      Arabic_damma,  Arabic_dammatan,        U0657,                      U065D               ] };    // U+0657 = Inverted Ḍammah; U+065D = Reversed Ḍammah
+    key <AD08>	{ [      Arabic_kasra,  Arabic_kasratan,        Arabic_alefmaksura          ] };
+    key <AD09>	{ [ Arabic_tehmarbuta,  Arabic_tehmarbuta       ] };
+    key <AD10>	{ [        Arabic_peh,  Arabic_peh,             U10EF9                      ] };                        // U+10EF9 = "Arabic Crown" Dead Key
+    key <AD11>	{ [     dead_belowdot,  dead_belowdiaeresis,    bracketleft,                UFBB9               ] };    // U+FBB9 = "Arabic Triple Dot Below" Dead Key
+    key <AD12>	{ [              plus,  asterisk,               bracketright,               U066D               ] };    // U+066D = Arabic Five-Pointed Star
+
+    key <AC01>	{ [      Arabic_fatha,  Arabic_fathatan,        Arabic_superscript_alef,    U0656               ] };    // U+0656 = Subscript ʾAlif
+    key <AC02>	{ [       Arabic_seen,  Arabic_sheen,           Arabic_sad,                 Arabic_sad          ] };
+    key <AC03>	{ [        Arabic_dal,  Arabic_thal,            Arabic_dad,                 Arabic_dad          ] };
+    key <AC04>	{ [        Arabic_feh,  Arabic_feh              ] };
+    key <AC05>	{ [        Arabic_gaf,  Arabic_gaf,             Arabic_ghain,               Arabic_ghain        ] };
+    key <AC06>	{ [         Arabic_ha,  Arabic_ha               ] };
+    key <AC07>	{ [       Arabic_khah,  Arabic_khah             ] };
+    key <AC08>	{ [        Arabic_kaf,  Arabic_kaf,             Arabic_keheh,               U06AA               ] };    // U+06AA = Swash Kāf
+    key <AC09>	{ [        Arabic_lam,  Arabic_lam              ] };
+    key <AC10>	{ [             U06BD,  U06BD,                  dead_circumflex,            dead_caron          ] };    // U+06BD = Jawi Nya
+    key <AC11>	{ [     dead_abovedot,  dead_diaeresis,         braceleft,                  UFBB6               ] };    // U+FBB6 = "Arabic Triple Dot Above" Dead Key
+    key <BKSL>	{ [      Arabic_tcheh,  U069C,                  braceright                  ] };                        // U+069C = Maghrebi Che
+
+    key <LSGT>	{ [              less,  greater,                U06D5,                      U06D5               ] };    // U+06D5 = Arabic Ae
+    key <AB01>	{ [       Arabic_zain,  Arabic_jeh,             Arabic_jeem,                Arabic_jeem         ] };
+    key <AB02>	{ [        Arabic_hah,  Arabic_hah              ] };
+    key <AB03>	{ [             U0685,  U0681                   ] };                                                    // U+0685 = Pashto Tsē; U+0681 = Pashto Dzē
+    key <AB04>	{ [        Arabic_veh,  Arabic_veh,             dead_abovering              ] };
+    key <AB05>	{ [        Arabic_beh,  Arabic_beh,             U203B,                      U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB06>	{ [       Arabic_noon,  Arabic_noon,            U06AD,                      U0763               ] };    // U+06AD = Ngaf; U+0763 = Maghrebi Gāf
+    key <AB07>	{ [       Arabic_meem,  Arabic_meem             ] };
+    key <AB08>	{ [      Arabic_comma,  Arabic_semicolon,       comma,                      Arabic_fullstop     ] };
+    key <AB09>	{ [            period,  colon,                  U061E,                      Arabic_fullstop     ] };    // U+061E = West African Triple Dot Mark
+    key <AB10>	{ [             minus,  underscore,             dead_stroke,                Arabic_tatweel      ] };
+
+    key <SPCE>  { [             space,  space,                  nobreakspace                ] };
+
+    // Default modifiers
+    include "level3(ralt_switch)"
+    include "compose(rctrl-altgr)"  // As a middle ground (feel free to change this line if you want or need to)
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty" {
+    include "smk/arabic(basic)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_pt" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Portuguese QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements and Arabic letters as well.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ | ◌ │ !   │ "  ‎ │ # · │ $ ۴‎ │ ٪‎ ؎‎ │ & ۽‎ │ / ؍‎ │ ( ∝ │ ) ↻ │ = ↺ │ ؟‎ ء‎ │ » ◌ٔ ┃ ⌫       ┃
+    // │ \ ◌ْ │ ١‎ 𐤀‎ │ ٢‎ @ │ ٣‎ £ │ ٤‎ § │ ٥‎  ᷏ │ ٦‎ ¬ │ ٧‎ { │ ٨‎ [ │ ٩‎ ] │ ‎٠ } │ '‎ ا‎ │ « ع‎ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ق‎   │ و‎   │ ◌ٙ ¤ │ ر‎   │ ث‎ ظ‎ │ ے‎ ݐ‎ │ ◌ٌ ◌ٝ │ ◌ٍ   │ ة‎   │ پ‎   │ * ٭‎ │ ◌̤   ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ق‎   │ و‎   │ ◌ّ ؋‎ │ ر‎   │ ت‎ ط‎ │ ي‎ ی‎ │ ◌ُ ◌ٗ │ ◌ِ ى‎ │ ة‎   │ پ‎ ◌𐻹 │ + ◌ │ ◌̣ ◌̤̣ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ً ◌ٖ │ ش‎ ص‎ │ ذ‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ڪ‎ │ ل‎   │ ڜ‎ ◌̌ │ ◌̈   │ ؏‎   ┃      ┃
+    // ┃  Lock  ┃ ◌َ ◌ٰ │ س‎ ص‎ │ د‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ک‎ │ ل‎   │ چ‎ ◌̂ │ ◌̇ ◌̈̇ │ ◌̃   ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ە‎ │ ژ‎ ج‎ │ ح‎   │ ځ‎   │ ڤ‎   │ ب‎ ⌬ │ ن‎ ݣ‎ │ م‎   │ ؛‎ ۔‎ │ : ۔‎ │ _ ـ‎ ┃              ┃
+    // ┃Shift ┃ < ە‎ │ ز‎ ج‎ │ ح‎   │ څ‎   │ ڤ‎ ◌̊ │ ب‎ ※ │ ن‎ ڭ‎ │ م‎   │ ،‎ , │ . ؞‎ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/arabic(basic)"
+
+    name[Group1]= "SMK-Arabic (Portuguese قوّرتي)";
+
+    key <TLDE>	{ [     backslash,  bar,                    Arabic_sukun,       U25CC                   ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [      Arabic_1,  exclam,                 U10900              ] };                            // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE03>	{ [      Arabic_3,  numbersign,             sterling,           periodcentered          ] };
+    key <AE04>	{ [      Arabic_4,  dollar,                 section,            U06F4                   ] };    // U+06F4 = Extended Arabic-Indic Digit 4
+    key <AE07>	{ [      Arabic_7,  slash,                  braceleft,          U060D                   ] };    // U+060D = Arabic Date Separator
+    key <AE08>	{ [      Arabic_8,  parenleft,              bracketleft,        U221D                   ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [      Arabic_9,  parenright,             bracketright,       U21BB                   ] };    // U+21BB = "Arrows" Dead Key
+    key <AE10>	{ [      Arabic_0,  equal,                  braceright,         U21BA                   ] };    // U+21BA = "Letter Flip" Dead Key
+    key <AE12>	{ [ guillemetleft,  guillemetright,         Arabic_ain,         dead_hamza              ] };
+
+    key <AD11>	{ [          plus,  asterisk,               U25CC,              U066D                   ] };    // U+25CC = Dotted Circle; U+066D = Arabic Five-Pointed Star
+    key <AD12>	{ [ dead_belowdot,  dead_belowdiaeresis,    UFBB9               ] };                            // U+FBB9 = "Arabic Triple Dot Below" Dead Key
+
+    key <AC10>	{ [  Arabic_tcheh,  U069C,                  dead_macron,        dead_caron              ] };
+    key <AC11>	{ [ dead_abovedot,  dead_diaeresis,         UFBB6               ] };                            // U+FBB6 = "Arabic Triple Dot Above" Dead Key
+    key <BKSL>	{ [    dead_tilde,  U060F                   ] };                                                // U+060F = Arabic Sign Misra
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_us" {
+    // [NOTE]: This layout is based off a mixture between
+    // the American QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements and Arabic letters as well.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌̃   │ !   │ @   │ #   │ $   │ ٪‎ ؎‎ │ ¬   │ &   │ * ↻ │ (   │ )   │ _ ـ‎ │ +   ┃ ⌫       ┃
+    // │ ◌ْ ◌ │ ١‎ 𐤀‎ │ ٢‎   │ ٣‎ · │ ٤‎ ۴‎ │ ٥‎  ᷏ │ ٦‎ ۽‎ │ ٧‎ ؍‎ │ ٨‎ ∝ │ ٩‎ ؏‎ │ ‎٠ ↺ │ - ◌̵ │ =   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ق‎   │ و‎   │ ◌ٙ ¤ │ ر‎   │ ث‎ ظ‎ │ ے‎ ݐ‎ │ ◌ٌ ◌ٝ │ ◌ٍ   │ ة‎   │ پ‎   │ { ء‎ │ } ◌ٔ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ق‎   │ و‎   │ ◌ّ ؋‎ │ ر‎   │ ت‎ ط‎ │ ي‎ ی‎ │ ◌ُ ◌ٗ │ ◌ِ ى‎ │ ة‎   │ پ‎ ◌𐻹 │ [ ا‎ │ ] ع‎ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ً ◌ٖ │ ش‎ ص‎ │ ذ‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ڪ‎ │ ل‎ ◌̌ │ : ۔‎ │ " ◌̈ │ | ◌̤ ┃      ┃
+    // ┃  Lock  ┃ ◌َ ◌ٰ │ س‎ ص‎ │ د‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ک‎ │ ل‎ ◌̂ │ ؛‎ ؞‎ │ ' ◌̇ │ \ ◌̣ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ | ە‎ │ ژ‎ ج‎ │ ح‎   │ ځ‎ ڜ‎ │ ڤ‎   │ ب‎ ⌬ │ ن‎ ݣ‎ │ م‎   │ <   │ >   │ ؟‎   ┃              ┃
+    // ┃Shift ┃ \ ە‎ │ ز‎ ج‎ │ ح‎   │ څ‎ چ‎ │ ڤ‎ ◌̊ │ ب‎ ※ │ ن‎ ڭ‎ │ م‎   │ ،‎ , │ . ◌̈̇ │ / ◌̤̣ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/arabic(basic)"
+
+    name[Group1]= "SMK-Arabic (US قوّرتي)";
+
+    key <TLDE>	{ [     Arabic_sukun,   dead_tilde,             U25CC               ] };                        // U+25CC = Dotted Circle
+    key <AE01>	{ [         Arabic_1,   exclam,                 U10900              ] };                        // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [         Arabic_2,   at                      ] };
+    key <AE03>	{ [         Arabic_3,   numbersign,             periodcentered      ] };
+    key <AE04>	{ [         Arabic_4,   dollar,                 U06F4               ] };                        // U+06F4 = Extended Arabic-Indic Digit 4
+    key <AE06>	{ [         Arabic_6,   notsign,                U06FD               ] };                        // U+06FD = Sindhi Ampersand
+    key <AE07>	{ [         Arabic_7,   ampersand,              U060D               ] };                        // U+060D = Arabic Date Separator
+    key <AE08>	{ [         Arabic_8,   asterisk,               U221D,              U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [         Arabic_9,   parenleft,              U060F               ] };                        // U+060F = Arabic Sign Misra
+    key <AE10>	{ [         Arabic_0,   parenright,             U21BA               ] };                        // U+035A = "IPA Symbols" Dead Key; U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [            minus,   underscore,             dead_stroke,        Arabic_tatweel      ] };
+    key <AE12>	{ [            equal,   plus                    ] };
+
+    key <AD11>	{ [      bracketleft,   braceleft,              Arabic_alef,        Arabic_hamza        ] };
+    key <AD12>	{ [     bracketright,   braceright,             Arabic_ain,         dead_hamza          ] };
+
+    key <AC10>	{ [ Arabic_semicolon,   colon,                  U061E,              Arabic_fullstop     ] };    // U+061E = West African Triple Dot Mark
+    key <AC11>	{ [       apostrophe,   quotedbl,               dead_abovedot,      dead_diaeresis      ] };
+    key <BKSL>	{ [        backslash,   bar,                    dead_belowdot,      dead_belowdiaeresis ] };
+
+    key <LSGT>	{ [        backslash,   bar,                    U06D5,              U06D5               ] };    // U+06D5 = Arabic Ae
+    key <AB08>	{ [     Arabic_comma,   less,                   comma               ] };
+    key <AB09>	{ [           period,   greater,                UFBB6               ] };                        // U+FBB6 = "Arabic Triple Dot Above" Dead Key
+    key <AB10>	{ [            slash,   Arabic_question_mark,   UFBB9               ] };                        // U+FBB9 = "Arabic Triple Dot Below" Dead Key
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwertz" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Austrian-German QWERTZ keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements and Arabic letters as well.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌   │ ! 𐤀‎ │ "  ‎ │ §   │ $ ۴‎ │ ٪‎ ؎‎ │ & ۽‎ │ /   │ ( ↻ │ )   │ =   │ ؟‎ ء‎ │ ع‎   ┃ ⌫       ┃
+    // │ ◌ْ \ │ ١‎ | │ ٢‎ ² │ 3 ³ │ ٤‎ ◌̃ │ ٥‎  ᷏ │ ٦‎ ¬ │ ٧‎ ؍‎ │ ٨‎ ∝ │ ٩‎ ؏‎ │ ‎٠ ↺ │ ·‎ ا‎ │ ع‎ ◌ٔ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ق‎   │ و‎   │ ◌ٙ ¤ │ ر‎   │ ث‎ ظ‎ │ ژ‎ ج‎ │ ◌ٌ ◌ٝ │ ◌ٍ   │ ة‎   │ پ‎   │ ◌̤ ◌̤̣ │ * ٭‎ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ق‎ @ │ و‎   │ ◌ّ ؋‎ │ ر‎   │ ت‎ ط‎ │ ز‎ ج‎ │ ◌ُ ◌ٗ │ ◌ِ ى‎ │ ة‎   │ پ‎ ◌𐻹 │ ◌̣ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ً ◌ٖ │ ش‎ ص‎ │ ذ‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ڪ‎ │ ل‎   │ ڽ‎ ◌̌ │ ◌̈ ◌̈̇ │ '   ┃      ┃
+    // ┃  Lock  ┃ ◌َ ◌ٰ │ س‎ ص‎ │ د‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ک‎ │ ل‎   │ ڽ‎ ◌̂ │ ◌̇ { │ # } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ە‎ │ ے‎ ݐ‎ │ ح‎   │ ځ‎ ڜ‎ │ ڤ‎   │ ب‎ ⌬ │ ن‎ ݣ‎ │ م‎   │ ؛‎ ۔‎ │ : ۔‎ │ _ ـ‎ ┃              ┃
+    // ┃Shift ┃ < ە‎ │ ي‎ ی‎ │ ح‎   │ څ‎ چ‎ │ ڤ‎ ◌̊ │ ب‎ ※ │ ن‎ ڭ‎ │ م‎   │ ،‎ , │ . ؞‎ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/arabic(basic)"
+
+    name[Group1]= "SMK-Arabic (قوّرتز)";
+
+    key <AE02>	{ [       Arabic_2, quotedbl,               twosuperior     ] };
+    key <AE03>	{ [       Arabic_3, section,                threesuperior   ] };
+    key <AE11>	{ [ periodcentered, Arabic_question_mark,   Arabic_alef,    Arabic_hamza    ] };    // "'", "?", Lowercase Glottal Stop, Uppercase Glottal Stop
+
+    key <AD01>	{ [     Arabic_qaf, Arabic_qaf,             at              ] };
+    key <AD06>	{ [    Arabic_zain, Arabic_jeh,             Arabic_jeem,    Arabic_jeem     ] };
+
+    key <BKSL>	{ [     numbersign, apostrophe,             braceright      ] };
+
+    key <AB01>	{ [     Arabic_yeh, U06D2,                  Farsi_yeh,      U0750           ] };    // U+06D2 = Baṛī Ye; U+0750 = Fula/Fulfulde [ˀj]
+};
+
+partial alphanumeric_keys
+xkb_symbols "latam" {
+    // [NOTE]: This keyboard layout is mostly based off
+    // the Latin-American Spanish one with some minor
+    // adjustments to adapt it to the SMK layout line
+    // and adapt it to be a phonetic Arabic layout.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌ْ ◌ │ ! 𐤀‎ │ "  ‎ │ #   │ $ ۴‎ │ ٪‎ ؎‎ │ &   │ /   │ ( ↻ │ )   │ =   │ ؟‎ ء‎ │ ع‎   ┃ ⌫       ┃
+    // │ | ¬ │ ١‎ \ │ ٢‎  ‎ │ ٣‎ · │ ٤‎ ¤ │ ٥‎  ᷏ │ ٦‎ ۽‎ │ ٧‎ ؍‎ │ ٨‎ ∝ │ ٩‎ ؏‎ │ ‎٠ ↺ │ '‎ ا‎ │ ع‎ ◌ٔ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ق‎   │ و‎   │ ◌ٙ ¤ │ ر‎   │ ث‎ ظ‎ │ ے‎ ݐ‎ │ ◌ٌ ◌ٝ │ ◌ٍ   │ ة‎   │ پ‎   │ ◌̈   │ * ٭‎ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ق‎ @ │ و‎   │ ◌ّ ؋‎ │ ر‎   │ ت‎ ط‎ │ ي‎ ی‎ │ ◌ُ ◌ٗ │ ◌ِ ى‎ │ ة‎   │ پ‎ ◌𐻹 │ ◌̇ ◌̈̇ │ + ◌̃ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ً ◌ٖ │ ش‎ ص‎ │ ذ‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ڪ‎ │ ل‎   │ ڽ‎ ◌̌ │ [ ◌̤ │ ]   ┃      ┃
+    // ┃  Lock  ┃ ◌َ ◌ٰ │ س‎ ص‎ │ د‎ ض‎ │ ف‎   │ گ‎ غ‎ │ ه‎   │ خ‎   │ ك‎ ک‎ │ ل‎   │ ڽ‎ ◌̂ │ { ◌̣ │ } ◌̤̣ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ە‎ │ ژ‎ ج‎ │ ح‎   │ ځ‎ ڜ‎ │ ڤ‎   │ ب‎ ⌬ │ ن‎ ݣ‎ │ م‎   │ ؛‎ ۔‎ │ : ۔‎ │ _ ـ‎ ┃              ┃
+    // ┃Shift ┃ < ە‎ │ ز‎ ج‎ │ ح‎   │ څ‎ چ‎ │ ڤ‎ ◌̊ │ ب‎ ※ │ ن‎ ڭ‎ │ م‎   │ ،‎ , │ . ؞‎ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Arabic (Latam قوّرتي)";
+
+    key <TLDE>	{ [           bar,  Arabic_sukun,   notsign,            U25CC                   ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [      Arabic_1,  exclam,         backslash,          U10900                  ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [      Arabic_2,  quotedbl        ] };
+    key <AE03>	{ [      Arabic_3,  numbersign,     periodcentered      ] };
+    key <AE04>	{ [      Arabic_4,  dollar,         dead_currency,      U06F4                   ] };    // U+06F4 = Extended Arabic-Indic Digit 4.
+    key <AE06>	{ [      Arabic_6,  ampersand,      U06FD               ] };                            // U+06FD = Sindhi Ampersand
+
+    key <AD01>	{ [    Arabic_qaf,  Arabic_qaf,     at                  ] };
+    key <AD11>	{ [ dead_abovedot,  dead_diaeresis, UFBB6               ] };                            // U+FBB6 = "Arabic Triple Dot Above" Dead Key
+    key <AD12>	{ [         plus,   asterisk,       dead_tilde,         U066D                   ] };    // U+066D = Arabic Five-Pointed Star
+
+    key <AC11>	{ [    braceleft,   bracketleft,    dead_belowdot,      dead_belowdiaeresis     ] };
+    key <BKSL>	{ [   braceright,   bracketright,   UFBB9               ] };                            // U+FBB9 = "Arabic Triple Dot Below" Dead Key
+};
+
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Dvorak keyboard, except with Arabic
+    // letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌   │ ! 𐤀‎ │ "  ‎ │ ·   │ $ ۴‎ │ ٪‎ ؎‎ │ & ۽‎ │ /   │ ( ↻ │ )   │ =   │ ؟‎ ء‎ │ ع‎   ┃ ⌫       ┃
+    // │ ◌ْ \ │ ١‎ | │ ٢‎ @ │ ٣‎ # │ ٤‎ ◌̃ │ ٥‎  ᷏ │ ٦‎ ¬ │ ٧‎ ؍‎ │ ٨‎ ∝ │ ٩‎ ؏‎ │ ‎٠ ↺ │ '‎ ا‎ │ ع‎ ◌ٔ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ : ۔‎ │ ؛‎ ۔‎ │ ڽ‎ ◌̌ │ پ‎   │ ے‎ ݐ‎ │ ف‎   │ گ‎ غ‎ │ ځ‎   │ ه‎   │ ل‎   │ ◌̤ ◌̤̣ │ * ٭‎ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ . ؞‎ │ ،‎ , │ ڽ‎ ◌̂ │ پ‎ ◌𐻹 │ ‎ي‎ ی‎ │ ف‎   │ گ‎ غ‎ │ څ‎   │ ه‎   │ ل‎   │ ◌̣ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ً ◌ٖ │ ة‎   │ ◌ٙ ¤ │ ◌ٌ ◌ٝ │ ◌ٍ   │ ذ‎ ض‎ │ ر‎   │ ث‎ ظ‎ │ ن‎ ݣ‎ │ ش‎ ص‎ │ ◌̈ ◌̈̇ │ ڜ‎   ┃      ┃
+    // ┃  Lock  ┃ ◌َ ◌ٰ │ ة‎   │ ◌ّ ؋‎ │ ◌ُ ◌ٗ │ ◌ِ ى‎ │ د‎ ض‎ │ ر‎   │ ت‎ ط‎ │ ن‎ ڭ‎ │ س‎ ص‎ │ ◌̇ { │ چ‎ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ە‎ │ _ ـ‎ │ ق‎   │ خ‎   │ ك‎ ڪ‎ │ ح‎   │ ب‎ ⌬ │ م‎   │ و‎   │ ڤ‎   │ ژ‎ ج‎ ┃              ┃
+    // ┃Shift ┃ < ە‎ │ - ◌̵ │ ق‎   │ خ‎   │ ك‎ ک‎ │ ح‎   │ ب‎ ※ │ م‎   │ و‎   │ ڤ‎ ◌̊ │ ز‎ ج‎ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/arabic(basic)"
+
+    name[Group1]= "SMK-Arabic (دفوراك)";
+
+    key <AD01>	{ [            period,  colon,              U061E,              Arabic_fullstop     ] };    // U+061E = West African Triple Dot Mark
+    key <AD02>	{ [      Arabic_comma,  Arabic_semicolon,   comma,              Arabic_fullstop     ] };
+    key <AD03>	{ [             U06BD,  U06BD,              dead_circumflex,    dead_caron          ] };    // U+06BD = Jawi Nya
+    key <AD04>	{ [        Arabic_peh,  Arabic_peh,         U10EF9              ] };                        // U+10EF9 = "Arabic Crown" Dead Key    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
+    key <AD05>	{ [        Arabic_yeh,  U06D2,              Farsi_yeh,          U0750               ] };    // U+06D2 = Baṛī Ye; U+0750 = Fula/Fulfulde [ˀj]
+    key <AD06>	{ [        Arabic_feh,  Arabic_feh          ] };
+    key <AD07>	{ [        Arabic_gaf,  Arabic_gaf,         Arabic_ghain,       Arabic_ghain        ] };
+    key <AD08>	{ [             U0685,  U0681               ] };                                            // U+0685 = Pashto Tsē; U+0681 = Pashto Dzē
+    key <AD09>	{ [         Arabic_ha,  Arabic_ha           ] };
+    key <AD10>	{ [        Arabic_lam,  Arabic_lam          ] };
+
+    key <AC02>	{ [ Arabic_tehmarbuta,  Arabic_tehmarbuta   ] };
+    key <AC03>	{ [     Arabic_shadda,  U0659,              U060B,              dead_currency       ] };    // U+0659 = Zwarakay (Pashto [ə]); U+060B = Afghani Sign
+    key <AC04>	{ [      Arabic_damma,  Arabic_dammatan,    U0657,              U065D               ] };    // U+0657 = Inverted Ḍammah; U+065D = Reversed Ḍammah
+    key <AC05>	{ [      Arabic_kasra,  Arabic_kasratan,    Arabic_alefmaksura  ] };
+    key <AC06>	{ [        Arabic_dal,  Arabic_thal,        Arabic_dad,         Arabic_dad          ] };
+    key <AC07>	{ [         Arabic_ra,  Arabic_ra           ] };
+    key <AC08>	{ [        Arabic_teh,  Arabic_theh,        Arabic_tah,         Arabic_zah          ] };
+    key <AC09>	{ [       Arabic_noon,  Arabic_noon,        U06AD,              U0763               ] };    // U+06AD = Ngaf; U+0763 = Maghrebi Gāf
+    key <AC10>	{ [       Arabic_seen,  Arabic_sheen,       Arabic_sad,         Arabic_sad          ] };
+
+    key <AB01>	{ [             minus,  underscore,         dead_stroke,        Arabic_tatweel      ] };
+    key <AB02>	{ [        Arabic_qaf,  Arabic_qaf          ] };
+    key <AB03>	{ [       Arabic_khah,  Arabic_khah         ] };
+    key <AB04>	{ [        Arabic_kaf,  Arabic_kaf,         Arabic_keheh,       U06AA               ] };    // U+06AA = Swash Kāf
+    key <AB05>	{ [        Arabic_hah,  Arabic_hah          ] };
+    key <AB06>	{ [        Arabic_beh,  Arabic_beh,         U203B,              U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB08>	{ [        Arabic_waw,  Arabic_waw          ] };
+    key <AB09>	{ [        Arabic_veh,  Arabic_veh,         dead_abovering      ] };
+    key <AB10>	{ [       Arabic_zain,  Arabic_jeh,         Arabic_jeem,        Arabic_jeem         ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "colemak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Colemak keyboard, except with
+    // Arabic letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌   │ ! 𐤀‎ │ "  ‎ │ ·   │ $ ۴‎ │ ٪‎ ؎‎ │ & ۽‎ │ /   │ ( ↻ │ )   │ =   │ ؟‎ ء‎ │ ع‎   ┃ ⌫       ┃
+    // │ ◌ْ \ │ ١‎ | │ ٢‎ @ │ ٣‎ # │ ٤‎ ◌̃ │ ٥‎  ᷏ │ ٦‎ ¬ │ ٧‎ ؍‎ │ ٨‎ ∝ │ ٩‎ ؏‎ │ ‎٠ ↺ │ '‎ ا‎ │ ع‎ ◌ٔ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ق‎   │ و‎   │ ف‎   │ پ‎   │ گ‎ غ‎ │ خ‎   │ ل‎   │ ◌ٌ ◌ٝ │ ے‎ ݐ‎ │ ڽ‎ ◌̌ │ ◌̤ ◌̤̣ │ * ٭‎ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ق‎   │ و‎   │ ف‎   │ پ‎ ◌𐻹‎ │ گ‎ غ‎ │ خ‎   │ ل‎   │ ◌ُ ◌ٗ │ ي‎ ی‎ │ ڽ‎ ◌̂ │ ◌̣ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ً ◌ٖ │ ر‎   │ ش‎ ص‎ │ ث‎ ظ‎ │ ذ‎ ض‎ │ ه‎   │ ن‎ ݣ‎ │ ◌ٙ ¤ │ ◌ٍ   │ ة‎   │ ◌̈ ◌̈̇ │ ڜ‎   ┃      ┃
+    // ┃  Lock  ┃ ◌َ ◌ٰ │ ر‎   │ س‎ ص‎ │ ت‎ ط‎ │ د‎ ض‎ │ ه‎   │ ن‎ ڭ‎ │ ◌ّ ؋‎ │ ◌ِ ى‎ │ ة‎   │ ◌̇ { │ چ‎ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ە‎ │ ژ‎ ج‎ │ ح‎   │ ځ‎   │ ڤ‎   │ ب‎ ⌬ │ ك‎ ڪ‎ │ م‎   │ ؛‎ ۔‎ │ : ۔‎ │ _ ـ‎ ┃              ┃
+    // ┃Shift ┃ < ە‎ │ ز‎ ج‎ │ ح‎   │ څ‎   │ ڤ‎ ◌̊ │ ب‎ ※ │ ك‎ ک‎ │ م‎   │ ،‎ , │ . ؞‎ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/arabic(basic)"
+
+    name[Group1]= "SMK-Arabic (كولماك)";
+
+    key <AD03>	{ [        Arabic_feh,  Arabic_feh          ] };
+    key <AD04>	{ [        Arabic_peh,  Arabic_peh,         U10EF9              ] };                        // U+10EF9 = "Arabic Crown" Dead Key
+    key <AD05>	{ [        Arabic_gaf,  Arabic_gaf,         Arabic_ghain,       Arabic_ghain        ] };
+    key <AD06>	{ [       Arabic_khah,  Arabic_khah         ] };
+    key <AD07>	{ [        Arabic_lam,  Arabic_lam          ] };
+    key <AD08>	{ [      Arabic_damma,  Arabic_dammatan,    U0657,              U065D               ] };    // U+0657 = Inverted Ḍammah; U+065D = Reversed Ḍammah
+    key <AD09>	{ [        Arabic_yeh,  U06D2,              Farsi_yeh,          U0750               ] };    // U+06D2 = Baṛī Ye; U+0750 = Fula/Fulfulde [ˀj]
+    key <AD10>	{ [             U06BD,  U06BD,              dead_circumflex,    dead_caron          ] };    // U+06BD = Jawi Nya
+
+    key <AC02>	{ [         Arabic_ra,  Arabic_ra           ] };
+    key <AC03>	{ [       Arabic_seen,  Arabic_sheen,       Arabic_sad,         Arabic_sad          ] };
+    key <AC04>	{ [        Arabic_teh,  Arabic_theh,        Arabic_tah,         Arabic_zah          ] };
+    key <AC05>	{ [        Arabic_dal,  Arabic_thal,        Arabic_dad,         Arabic_dad          ] };
+    key <AC06>	{ [         Arabic_ha,  Arabic_ha           ] };
+    key <AC07>	{ [       Arabic_noon,  Arabic_noon,        U06AD,              U0763               ] };    // U+06AD = Ngaf; U+0763 = Maghrebi Gāf
+    key <AC08>	{ [     Arabic_shadda,  U0659,              U060B,              dead_currency       ] };    // U+0659 = Zwarakay (Pashto [ə]); U+060B = Afghani Sign
+    key <AC09>	{ [      Arabic_kasra,  Arabic_kasratan,    Arabic_alefmaksura  ] };
+    key <AC10>	{ [ Arabic_tehmarbuta,  Arabic_tehmarbuta   ] };
+
+    key <AB06>	{ [        Arabic_kaf,  Arabic_kaf,         Arabic_keheh,       U06AA               ] };    // U+06AA = Swash Kāf
+};
+
+partial alphanumeric_keys
+xkb_symbols "jcuken" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Russian ЙЦУКЕН keyboard (its approximate Arabic-based form)
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌   │ ! 𐤀‎ │ "  ‎ │ ·   │ $ ۴‎ │ ٪‎ ؎‎ │ & ۽‎ │ /   │ ( ↻ │ )   │ =   │ ؟‎ ء‎ │ ◌ٔ   ┃ ⌫       ┃
+    // │ ◌ْ \ │ ١‎ | │ ٢‎ @ │ ٣‎ # │ ٤‎ ◌̃ │ ٥‎  ᷏ │ ٦‎ ¬ │ ٧‎ ؍‎ │ ٨‎ ∝ │ ٩‎ ؏‎ │ ‎٠ ↺ │ '‎ ء‎ │ ◌ٔ   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ خ‎   │ ځ‎   │ ◌ٌ ◌ٝ │ ك‎ ڪ‎ │ ◌ٙ ¤ │ ن‎ ݣ‎ │ گ‎ غ‎ │ ز‎ ژ‎ │ ح‎   │ ا‎ ع‎ │ ◌̤ ◌̤̣ │ * ٭‎ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ خ‎   │ څ‎   │ ◌ُ ◌ٗ │ ك‎ ک‎ │ ◌ّ ؋‎ │ ن‎ ڭ‎ │ گ‎ غ‎ │ ز‎ ژ‎ │ ح‎   │ ا‎ ع‎ │ ◌̣ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ف‎   │ ◌ٍ   │ ڤ‎   │ ◌ً ◌ٖ │ پ‎   │ ر‎   │ ة‎   │ ل‎   │ ص‎ ج‎ │ ق‎ ◌̌ │ ◌̈ ◌̋ │ ڽ‎   ┃      ┃
+    // ┃  Lock  ┃ ف‎   │ ◌ِ ى‎ │ ڤ‎ ◌̊ │ ◌َ ◌ٰ │ پ‎ ◌𐻹‎ │ ر‎   │ ة‎   │ ل‎   │ ص‎ ج‎ │ ق‎ ◌̂ │ ◌́ { │ ڽ‎ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ە‎ │ ي‎ ی‎ │ چ‎ ڜ‎ │ س‎ ش‎ │ م‎   │ ے‎ ݐ‎ │ ث‎ ظ‎ │ ب‎ ⌬ │ ؛‎ ۔‎ │ : ۔‎ │ _ ـ‎ ┃              ┃
+    // ┃Shift ┃ < ە‎ │ ي‎ ی‎ │ چ‎ ڜ‎ │ س‎ ش‎ │ م‎   │ ے‎ ݐ‎ │ ت‎ ط‎ │ ب‎ ※ │ ،‎ , │ . ؞‎ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/arabic(basic)"
+
+    name[Group1]= "SMK-Arabic (خڅُكّن)";
+
+    key <AE11>	{ [        apostrophe,  Arabic_question_mark,   Arabic_hamza,               Arabic_hamza    ] };
+    key <AE12>	{ [        dead_hamza,  dead_hamza              ] };
+
+    key <AD01>	{ [       Arabic_khah,  Arabic_khah             ] };
+    key <AD02>	{ [             U0685,  U0681                   ] };                                                // U+0685 = Pashto Tsē; U+0681 = Pashto Dzē
+    key <AD03>	{ [      Arabic_damma,  Arabic_dammatan,        U0657,                      U065D           ] };    // U+0657 = Inverted Ḍammah; U+065D = Reversed Ḍammah
+    key <AD04>	{ [        Arabic_kaf,  Arabic_kaf,             Arabic_keheh,               U06AA           ] };    // U+06AA = Swash Kāf
+    key <AD05>	{ [     Arabic_shadda,  U0659,                  U060B,                      dead_currency   ] };    // U+0659 = Zwarakay (Pashto [ə]); U+060B = Afghani Sign
+    key <AD06>	{ [       Arabic_noon,  Arabic_noon,            U06AD,                      U0763           ] };    // U+06AD = Ngaf; U+0763 = Maghrebi Gāf
+    key <AD07>	{ [        Arabic_gaf,  Arabic_gaf,             Arabic_ghain,               Arabic_ghain    ] };
+    key <AD08>	{ [       Arabic_zain,  Arabic_zain,            Arabic_jeh,                 Arabic_jeh      ] };
+    key <AD09>	{ [        Arabic_hah,  Arabic_hah              ] };
+    key <AD10>	{ [       Arabic_alef,  Arabic_alef,            Arabic_ain,                 Arabic_ain      ] };
+
+    key <AC01>	{ [        Arabic_feh,  Arabic_feh              ] };
+    key <AC02>	{ [      Arabic_kasra,  Arabic_kasratan,        Arabic_alefmaksura          ] };
+    key <AC03>	{ [        Arabic_veh,  Arabic_veh,             dead_abovering              ] };
+    key <AC04>	{ [      Arabic_fatha,  Arabic_fathatan,        Arabic_superscript_alef,    U0656           ] };    // U+0656 = Subscript ʾAlif
+    key <AC05>	{ [        Arabic_peh,  Arabic_peh,             U10EF9                      ] };                    // U+10EF9 = "Arabic Crown" Dead Key
+    key <AC06>	{ [         Arabic_ra,  Arabic_ra               ] };
+    key <AC07>	{ [ Arabic_tehmarbuta,  Arabic_tehmarbuta       ] };
+    key <AC08>	{ [        Arabic_lam,  Arabic_lam              ] };
+    key <AC09>	{ [        Arabic_sad,  Arabic_sad,             Arabic_jeem,                Arabic_jeem     ] };
+    key <AC10>	{ [        Arabic_qaf,  Arabic_qaf,             dead_circumflex,            dead_caron      ] };
+    key <BKSL>	{ [             U06BD,  U06BD,                  braceright                  ] };                    // U+06BD = Jawi Nya
+
+    key <AB01>	{ [        Arabic_yeh,  Arabic_yeh,             Farsi_yeh,                  Farsi_yeh       ] };
+    key <AB02>	{ [      Arabic_tcheh,  Arabic_tcheh,           U069C,                      U069C           ] };    // U+069C = Maghrebi Che
+    key <AB03>	{ [       Arabic_seen,  Arabic_seen,            Arabic_sheen,               Arabic_sheen    ] };
+    key <AB04>	{ [       Arabic_meem,  Arabic_meem             ] };
+    key <AB05>	{ [             U06D2,  U06D2,                  U0750,                      U0750           ] };    // U+06D2 = Baṛī Ye; U+0750 = Fula/Fulfulde [ˀj]
+    key <AB06>	{ [        Arabic_teh,  Arabic_theh,            Arabic_tah,                 Arabic_zah      ] };
+    key <AB07>	{ [        Arabic_beh,  Arabic_beh,             U203B,                      U232C           ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+};
+
+partial alphanumeric_keys
+xkb_symbols "haddad_sakhr" {
+    // [NOTE]: Keys are arranged primarily based off
+    // Selim Shibli Haddad's Arabic typewriter layout,
+    // with some key assignments selected from the Sakhr/MSX,
+    // Windows, macOS and Ubuntu Arabic keyboard layouts;
+    // all in order to better fit this layout
+    // with the rest of the SMK keyboard layout line.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌̃ ◌𐻹 │ !   │ @   │ #   │ $ ¤ │ ٪‎ ؎‎ │ ¬   │ &   │ * ↻ │ (   │ )   │ _ ـ‎ │ = ء‎ ┃ ⌫       ┃
+    // │ ◌ْ ◌ │ ١‎ 𐤀‎ │ ٢‎   │ ٣‎ · │ ٤‎ ۴‎ │ ٥‎  ᷏ │ ٦‎ ۽‎ │ ٧‎ ؍‎ │ ٨‎ ∝ │ ٩‎ ؏‎ │ ‎٠‎ ↺ │ - ◌̵ │ + ء‎ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ض‎   │ ص‎   │ ث‎ ◌ٙ │ ق‎   │ ف‎ ◌̊ │ غ‎ گ‎ │ ع‎ ◌ٔ │ [ ◌ٍ │ ]   │ {   │ } ڜ‎ │ ◌̤̣   ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ض‎   │ ص‎   │ ث‎ ◌ّ │ ق‎   │ ف‎ ڤ‎ │ غ‎ گ‎ │ ع‎ ◌ٔ │ ه‎ ◌ِ │ خ‎   │ ح‎   │ ج‎ چ‎ │ ◌̈̇ ٭‎ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ش‎ ◌ً │ س‎   │ ے‎ ݐ‎ │ ب‎ پ‎ │ ل‎   │ ى‎ ◌ٖ │ ت‎ ة‎ │ ڽ‎ ݣ‎ │ م‎ ◌̌ │ ك‎ ڪ‎ │ " ◌̈ │ | ◌̤ ┃      ┃
+    // ┃  Lock  ┃ ش‎ ◌َ │ س‎   │ ي‎ ی‎ │ ب‎ پ‎ │ ل‎   │ ا‎ ◌ٰ │ ت‎ ة‎ │ ن‎ ڭ‎ │ م‎ ◌̂ │ ك‎ ک‎ │ ' ◌̇ │ \ ◌̣ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ ¦ ە‎ │ ظ‎ ځ‎ │ ط‎ څ‎ │ ذ‎   │ د‎ ⌬ │ ز‎ ژ‎ │ ر‎ ◌ٝ │ و‎ ◌ٌ │ < , │ > ۔‎ │ ؟‎   ┃              ┃
+    // ┃Shift ┃ | ە‎ │ ظ‎ ځ‎ │ ط‎ څ‎ │ ذ‎   │ د‎ ※ │ ز‎ ژ‎ │ ر‎ ◌ٗ │ و‎ ◌ُ │ ،‎ ؛‎ │ . : │ / ؞‎ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/arabic(qwerty_us)"
+
+    name[Group1]= "SMK-Arabic (ضصثقفغ)";
+
+    key <TLDE>	{ [     Arabic_sukun,   dead_tilde,             U25CC,                      U10EF9              ] };    // U+25CC = Dotted Circle; U+10EF9 = "Arabic Crown" Dead Key
+    key <AE04>	{ [         Arabic_4,   dollar,                 U06F4,                      dead_currency       ] };    // U+06F4 = Extended Arabic-Indic Digit 4
+    key <AE12>	{ [             plus,   equal,                  Arabic_hamza,               Arabic_hamza        ] };
+
+    key <AD01>	{ [        Arabic_dad,  Arabic_dad              ] };
+    key <AD02>	{ [        Arabic_sad,  Arabic_sad              ] };
+    key <AD03>	{ [       Arabic_theh,  Arabic_theh,            Arabic_shadda,              U0659               ] };    // U+0659 = Zwarakay (Pashto [ə]); U+060B = Afghani Sign
+    key <AD04>	{ [        Arabic_qaf,  Arabic_qaf              ] };
+    key <AD05>	{ [        Arabic_feh,  Arabic_feh,             Arabic_veh,                 dead_abovering      ] };
+    key <AD06>	{ [      Arabic_ghain,  Arabic_ghain,           Arabic_gaf,                 Arabic_gaf          ] };
+    key <AD07>	{ [        Arabic_ain,  Arabic_ain,             dead_hamza,                 dead_hamza          ] };
+    key <AD08>	{ [         Arabic_ha,  bracketleft,            Arabic_kasra,               Arabic_kasra        ] };
+    key <AD09>	{ [       Arabic_khah,  bracketright            ] };
+    key <AD10>	{ [        Arabic_hah,  braceleft               ] };
+    key <AD11>	{ [       Arabic_jeem,  braceright,             Arabic_tcheh,               U069C               ] };    // U+069C = Maghrebi Che
+    key <AD12>	{ [             UFBB6,  UFBB9,                  U066D                       ] };                        // U+FBB6 = "Arabic Triple Dot Above" Dead Key; U+FBB9 = "Arabic Triple Dot Below" Dead Key; U+066D = Arabic Five-Pointed Star
+
+    key <AC01>	{ [      Arabic_sheen,  Arabic_sheen,           Arabic_fatha,               Arabic_fathatan     ] };
+    key <AC02>	{ [       Arabic_seen,  Arabic_seen             ] };
+    key <AC03>	{ [        Arabic_yeh,  U06D2,                  Farsi_yeh,                  U0750               ] };    // U+06D2 = Baṛī Ye; U+0750 = Fula/Fulfulde [ˀj]
+    key <AC04>	{ [        Arabic_beh,  Arabic_beh,             Arabic_peh,                 Arabic_peh          ] };
+    key <AC05>	{ [        Arabic_lam,  Arabic_lam              ] };
+    key <AC06>	{ [       Arabic_alef,  Arabic_alefmaksura,     Arabic_superscript_alef,    U0656               ] };    // U+0656 = Subscript ʾAlif
+    key <AC07>	{ [        Arabic_teh,  Arabic_teh,             Arabic_tehmarbuta,          Arabic_tehmarbuta   ] };
+    key <AC08>	{ [       Arabic_noon,  U06BD,                  U06AD,                      U0763               ] };    // U+06BD = Jawi Nya; U+06AD = Ngaf; U+0763 = Maghrebi Gāf
+    key <AC09>	{ [       Arabic_meem,  Arabic_meem,            dead_circumflex,            dead_caron          ] };
+    key <AC10>	{ [        Arabic_kaf,  Arabic_kaf,             Arabic_keheh,               U06AA               ] };    // U+06AA = Swash Kāf
+
+    key <LSGT>	{ [               bar,  brokenbar,              U06D5,                      U06D5               ] };    // U+06D5 = Arabic Ae
+    key <AB01>	{ [        Arabic_zah,  Arabic_zah,             U0681,                      U0681               ] };    // U+0681 = Pashto Dzē
+    key <AB02>	{ [        Arabic_tah,  Arabic_tah,             U0685,                      U0685               ] };    // U+0685 = Pashto Tsē
+    key <AB03>	{ [       Arabic_thal,  Arabic_thal             ] };
+    key <AB04>	{ [        Arabic_dal,  Arabic_dal,             U203B,                      U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB05>	{ [       Arabic_zain,  Arabic_zain,            Arabic_jeh,                 Arabic_jeh          ] };
+    key <AB06>	{ [         Arabic_ra,  Arabic_ra,              U0657,                      U065D               ] };    // U+0657 = Inverted Ḍammah; U+065D = Reversed Ḍammah
+    key <AB07>	{ [        Arabic_waw,  Arabic_waw,             Arabic_damma,               Arabic_dammatan     ] };
+    key <AB08>	{ [     Arabic_comma,   less,                   Arabic_semicolon,           comma               ] };
+    key <AB09>	{ [           period,   greater,                colon,                      Arabic_fullstop     ] };
+    key <AB10>	{ [            slash,   Arabic_question_mark,   U061E                       ] };                         // U+061E = West African Triple Dot Mark
+};
+
+// [TODO]; Add more variants if needed

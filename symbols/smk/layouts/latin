@@ -126,7 +126,7 @@ xkb_symbols "qwerty_pt" {
 
     include "smk/latin(basic)"
 
-    name[Group1]= "SMK-Greek (Portuguese QWERTY)";
+    name[Group1]= "SMK-Latin (Portuguese QWERTY)";
 
     key <TLDE>	{ [     backslash,  bar,               UA78C,                  UA78B                   ] };     // "\", "|", Lowercase Saltillo, Uppercase Saltillo 
     key <AE01>	{ [             1,  exclam,            U10900                  ] };                             // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
@@ -200,7 +200,7 @@ xkb_symbols "qwerty_us" {
     key <LSGT>	{ [    backslash,  bar,               ae,                       AE                  ] };
     key <AB08>	{ [        comma,  less,              dead_belowcomma           ] };
     key <AB09>	{ [       period,  greater,           dead_abovedot,            dead_belowdot       ] };
-    key <AB10>	{ [       minus,   underscore,        dead_longsolidusoverlay,  dead_hook           ] };
+    key <AB10>	{ [        slash,  question,          dead_longsolidusoverlay,  dead_hook           ] };
 };
 
 partial alphanumeric_keys

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <!-- Add these rules to both "base.xml" and "evdev.xml"
+       or, if you prefer, to "~/.config/xkb/rules/evdev.xml" -->
+  <layoutList>
+    <!-- (...) -->
+    <layout>
+      <configItem>
+        <name>smk/arabic</name>
+        <!-- Keyboard indicator for Skorpian Master Keyboard (Arabic Script) layouts -->
+        <shortDescription><!-- Insert locale name ("es", "fr", "de", "us", etc.) --></shortDescription>
+        <description>Skorpian Master Keyboard v16.7.5 (Arabic Abjad)</description>
+        <countryList>
+          <iso3166Id><!-- Insert ISO-3166-1 Code --></iso3166Id>
+        </countryList>
+        <languageList>
+          <iso639Id>smk</iso639Id>
+        </languageList>
+      </configItem>
+
+      <variantList>
+        <variant>
+          <configItem>
+            <name>qwerty</name>
+            <description>SMK-Arabic (قوّرتي)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_pt</name>
+            <description>SMK-Arabic (Portuguese قوّرتي)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_us</name>
+            <description>SMK-Arabic (US قوّرتي)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwertz</name>
+            <description>SMK-Arabic (قوّرتز)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latam</name>
+            <description>SMK-Arabic (Latam قوّرتي)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <description>SMK-Arabic (دفوراك)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>SMK-Arabic (كولماك)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>jcuken</name>
+            <description>SMK-Arabic (خڅُكّن)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>haddad_sakhr</name>
+            <description>SMK-Arabic (ضصثقفغ)</description>
+          </configItem>
+        </variant>
+        <!-- (...) -->
+      </variantList>
+    </layout>
+    <!-- (...) -->
+  </layoutList>
+  <!-- (...) -->
+</xkbConfigRegistry>
