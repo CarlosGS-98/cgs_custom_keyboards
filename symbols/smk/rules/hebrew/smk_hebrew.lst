@@ -1,0 +1,12 @@
+! layout
+  smk/hebrew         Skorpian Master Keyboard v16.7.5 (Hebrew Abjad)
+
+! variant
+  qwerty            smk/hebrew: SMK-Hebrew (קוֶרתי)
+  qwerty_pt         smk/hebrew: SMK-Hebrew (Portuguese קוֶרתי)
+  qwerty_us         smk/hebrew: SMK-Hebrew (US קוֶרתי)
+  qwertz            smk/hebrew: SMK-Hebrew (קוֶרתז)
+  latam             smk/hebrew: SMK-Hebrew (Latam קוֶרתי)
+  dvorak            smk/hebrew: SMK-Hebrew (דוואָראַק)
+  colemak           smk/hebrew: SMK-Hebrew (קאָלעמאַק)
+  jcuken            smk/hebrew: SMK-Hebrew (יצֻכֶנ)

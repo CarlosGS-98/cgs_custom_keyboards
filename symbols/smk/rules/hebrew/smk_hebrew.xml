@@ -7,10 +7,10 @@
     <!-- (...) -->
     <layout>
       <configItem>
-        <name>smk/cyrillic</name>
-        <!-- Keyboard indicator for Skorpian Master Keyboard (Cyrillic Script) layouts -->
+        <name>smk/hebrew</name>
+        <!-- Keyboard indicator for Skorpian Master Keyboard (Hebrew Abjad) layouts -->
         <shortDescription><!-- Insert locale name ("es", "fr", "de", "us", etc.) --></shortDescription>
-        <description>Skorpian Master Keyboard v16.7.5 (Cyrillic Alphabet)</description>
+        <description>Skorpian Master Keyboard v16.7.5 (Hebrew Abjad)</description>
         <countryList>
           <iso3166Id><!-- Insert ISO-3166-1 Code --></iso3166Id>
         </countryList>
@@ -23,55 +23,49 @@
         <variant>
           <configItem>
             <name>qwerty</name>
-            <description>SMK-Cyrillic (ԚЬЕРТЯ)</description>
+            <description>SMK-Hebrew (קוֶרתי)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty_pt</name>
-            <description>SMK-Cyrillic (Portuguese ԚЬЕРТЯ)</description>
+            <description>SMK-Hebrew (Portuguese קוֶרתי)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty_us</name>
-            <description>SMK-Cyrillic (US ԚЬЕРТЯ)</description>
+            <description>SMK-Hebrew (US קוֶרתי)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwertz</name>
-            <description>SMK-Cyrillic (ԚЬЕРТЗ)</description>
+            <description>SMK-Hebrew (קוֶרתז)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latam</name>
-            <description>SMK-Cyrillic (Latam ԚЬЕРТЯ)</description>
+            <description>SMK-Hebrew (Latam קוֶרתי)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <description>SMK-Cyrillic (Дворак)</description>
+            <description>SMK-Hebrew (דוואָראַק)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>colemak</name>
-            <description>SMK-Cyrillic (Colemak)</description>
+            <description>SMK-Hebrew (קאָלעמאַק)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>jcuken</name>
-            <description>SMK-Cyrillic (ЈЦУКЕН)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>bulgarian</name>
-            <description>SMK-Cyrillic (,УЕИСХ)</description>
+            <description>SMK-Hebrew (יצֻכֶנ)</description>
           </configItem>
         </variant>
         <!-- (...) -->

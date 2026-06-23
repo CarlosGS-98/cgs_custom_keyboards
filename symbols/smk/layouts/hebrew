@@ -1,0 +1,467 @@
+// Hebrew Abjad | XKB Keyboard Symbols
+// [AUTHOR]: Carlos González Sanz
+
+// [NOTE]: These keyboards are partially based upon the
+// default "es" symbols in regards to the
+// physical key layout.
+//
+// Put this file on either ~/.config/xkb/symbols
+// or in the same directory as
+// the other system-wide keyboard layouts.
+
+// Default SMK-Hebrew Keyboard
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    // [NOTE]: Keys are arranged the same way as
+    // in the standard Spanish QWERTY keyboard, except with
+    // Hebrew letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀‎ │ "  ‎ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ =   │ ? א‎ │ ע‎   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ¤ │ 5  ᷏ │ 6 ¬ │ 7   │ 8 ∝ │ 9   │ 0 ↺ │ ' א‎ │ ע‎   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ק‎   │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ תּ‎ טּ‎ │ י‎‎ יּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ ף‎ ףּ‎ │ ◌̄   │ * ﬩ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ק‎   │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ ת‎ ט‎ │ י‎‎ יּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ פ‎ פּ‎ │ ◌ֽ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ַ ◌ָ │ שּ‎ סּ‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ װ‎ ױ‎ │ ך‎ ךּ‎ │ לּ‎ ﭏ‎ │ ׆‎   │ ◌ְ   │ צּ‎   ┃      ┃
+    // ┃  Lock  ┃ ◌ַ ◌ָ │ ש‎ ס‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ ײ‎ ױ‎ │ כ‎ כּ‎ │ ל‎ ﭏ‎ │ ׆‎ ◌֒ │ ◌ּ { │ צּ‎ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ׀‎‎ │ ז‎ זּ‎ │ ח‎   │ ץ‎   │ ב‎   │ בּ‎ ⌬ │ ן‎ נּ‎ │ ם‎ מּ‎ │ ; ״‎ │ : ׃‎ │ _ ־‎ ┃              ┃
+    // ┃Shift ┃ < ׀‎ │ ז‎ זּ‎ │ ח‎   │ צ‎   │ ב‎   │ בּ‎ ※ │ נ‎ נּ‎ │ מ‎ מּ‎ │ , ׳‎ │ . ׃‎ │ - ־‎ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Hebrew (קוֶרתי)";
+
+    key <TLDE>	{ [     masculine,  ordfeminine,        backslash,              U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [             1,  exclam,             bar,                    U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [             2,  quotedbl,           at                      ] };
+    key <AE03>	{ [             3,  periodcentered,     numbersign              ] };
+    key <AE04>	{ [             4,  dollar,             dead_currency           ] };
+    key <AE05>	{ [             5,  percent,            U1DCF                   ] };                        // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [             6,  ampersand,          notsign                 ] };
+    key <AE07>	{ [             7,  slash               ] };
+    key <AE08>	{ [             8,  parenleft,          U221D,                  U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [             9,  parenright          ] };
+    key <AE10>	{ [             0,  equal,              U21BA                   ] };                        // U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [    apostrophe,  question,           hebrew_aleph,           hebrew_aleph        ] };
+    key <AE12>	{ [   hebrew_ayin,  hebrew_ayin         ] };
+
+    key <AD01>	{ [   hebrew_qoph,  hebrew_qoph         ] };
+    key <AD02>	{ [    hebrew_waw,  hebrew_waw,         UFB35,                  UFB35               ] };    // U+FB35 = Vav + Dagesh
+    key <AD03>	{ [         U05B6,  U05B6,              U05B5,                  U05B5               ] };    // U+05B6 = Segol (as niqqud); U+05B5 = Tzere
+    key <AD04>	{ [   hebrew_resh,  hebrew_resh,        UFB48,                  UFB48               ] };    // U+FB48 = Resh + Dagesh
+    key <AD05>	{ [    hebrew_taw,  UFB4A,              hebrew_tet,             UFB38               ] };    // U+FB4A = Tav + Dagesh; U+FB38 = Tet + Dagesh
+    key <AD06>	{ [    hebrew_yod,  hebrew_yod,         UFB39,                  UFB39               ] };    // U+FB39 = Yod + Dagesh
+    key <AD07>	{ [         U05BB,  U05BB               ] };                                                // U+05BB = Qubbutz
+    key <AD08>	{ [         U05B4,  U05B4               ] };                                                // U+05B4 = Ḥiriq
+    key <AD09>	{ [         U05B9,  U05B9,              U05BA,                  U05BA               ] };    // U+05B9 = Holam; U+05BA = Holam on Vav
+    key <AD10>	{ [     hebrew_pe,  hebrew_finalpe,     UFB44,                  UFB43               ] };    // U+FB44 = Hebrew Pe + Dagesh; U+FB43 = Final Hebrew Pe + Dagesh
+    key <AD11>	{ [         U05BD,  U05BF,              bracketleft             ] };                        // U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key
+    key <AD12>	{ [          plus,  asterisk,           bracketright,           UFB29               ] };    // U+FB29 = Hebrew Alternate Plus Sign
+
+    key <AC01>	{ [         U05B7,  U05B8               ] };                                                // U+05B7 = Patach; U+05B8 = Kamatz
+    key <AC02>	{ [   hebrew_shin,  UFB49,              hebrew_samech,          UFB41               ] };    // U+FB49 = Shin + Dagesh; U+FB41 = Samekh + Dagesh
+    key <AC03>	{ [  hebrew_dalet,  hebrew_dalet,       UFB33,                  UFB33               ] };
+    key <AC04>	{ [         UFB4E,  UFB4E               ] };                                                // U+FB4E = Hebrew Pe + Rafe
+    key <AC05>	{ [  hebrew_gimel,  hebrew_gimel,       UFB32,                  UFB32               ] };    // U+FB32 = Gimel + Dagesh
+    key <AC06>	{ [     hebrew_he,  hebrew_he           ] };
+    key <AC07>	{ [         U05F2,  U05F0,              U05F1,                  U05F1               ] };    // U+05F2 = Double Yod; U+05F0 = Double Vav; U+05F1 = Vav + Yod
+    key <AC08>	{ [   hebrew_kaph,  hebrew_finalkaph,   UFB3B,                  UFB3A               ] };    // U+FB3B = Kaf + Dagesh; U+FB3A = Final Kaf + Dagesh
+    key <AC09>	{ [  hebrew_lamed,  UFB3C,              UFB4F,                  UFB4F               ] };    // U+FB3C = Lamed + Dagesh; U+FB4F = Aleph + Lamed
+    key <AC10>	{ [         U05C6,  U05C6,              U0592                   ] };                        // U+05C6 = Inverted Hebrew Nun; U+0592 = "Cantillation Marks" Dead Key
+    key <AC11>	{ [         U05BC,  U05B0,              braceleft               ] };                        // U+05BC = "Dagesh" Dead Key; U+05B0 = "Shva" Dead Key
+    key <BKSL>	{ [         UFB46,  UFB46,              braceright              ] };                        // U+FB46 = Tsadi + Dagesh
+
+    key <LSGT>	{ [          less,  greater,            U05C0,                  U05C0               ] };    // U+05C0 = Paseq
+    key <AB01>	{ [   hebrew_zain,  hebrew_zain,        UFB36,                  UFB36               ] };    // U+FB36 = Zayin + Dagesh
+    key <AB02>	{ [   hebrew_chet,  hebrew_chet         ] };
+    key <AB03>	{ [   hebrew_zade,  hebrew_finalzade    ] };
+    key <AB04>	{ [    hebrew_bet,  hebrew_bet          ] };
+    key <AB05>	{ [         UFB31,  UFB31,              U203B,                  U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB06>	{ [    hebrew_nun,  hebrew_finalnun,    UFB40,                  UFB40               ] };    // U+FB40 = Hebrew Nun + Dagesh
+    key <AB07>	{ [    hebrew_mem,  hebrew_finalmem,    UFB3E,                  UFB3E               ] };    // U+FB3E = Mem + Dagesh
+    key <AB08>	{ [         comma,  semicolon,          U05F3,                  U05F4               ] };    // U+05F3 = Geresh; U+05F4 = Gershayim
+    key <AB09>	{ [        period,  colon,              U05C3,                  U05C3               ] };    // U+05C3 = Sof Pasuq
+    key <AB10>	{ [         minus,  underscore,         U05BE,                  U05BE               ] };    // U+05BE = Maqaf
+
+    key <SPCE>  { [         space,  space,             nobreakspace             ] };
+
+    // Default modifiers
+    include "level3(ralt_switch)"
+    include "compose(rctrl-altgr)"  // As a middle ground (feel free to change this line if you want or need to)
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty" {
+    include "smk/hebrew(basic)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_pt" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Portuguese QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements and Hebrew letters as well.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ | ª │ !   │ "  ‎ │ # · │ $ ¤ │ %   │ &   │ /   │ ( ∝ │ ) ↻ │ = ↺ │ ? א‎ │ » ע‎ ┃ ⌫       ┃
+    // │ \ º │ 1 𐤀‎ │ 2 @ │ 3 £ │ 4 § │ 5  ᷏ │ 6 ¬ │ 7 { │ 8 [ │ 9 ] │ 0 } │ ' א‎ │ « ע‎ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ק‎   │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ תּ‎ טּ‎ │ י‎‎ יּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ ף‎ ףּ‎ │ * ◌ │ ◌ֽ ◌̄ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ק‎   │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ ת‎ ט‎ │ י‎‎ יּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ פ‎ פּ‎ │ + ﬩ │ ◌ּ ◌ְ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ַ ◌ָ │ שּ‎ סּ‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ װ‎ ױ‎ │ ך‎ ךּ‎ │ לּ‎ ﭏ‎ │ צּ‎   │ ׆‎   │ ׀‎‎   ┃      ┃
+    // ┃  Lock  ┃ ◌ַ ◌ָ │ ש‎ ס‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ ײ‎ ױ‎ │ כ‎ כּ‎ │ ל‎ ﭏ‎ │ צּ‎ ◌֒ │ ׆‎   │ ׀‎‎   ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ ז‎ זּ‎ │ ח‎   │ ץ‎   │ ב‎   │ בּ‎ ⌬ │ ן‎ נּ‎ │ ם‎ מּ‎ │ ; ״‎ │ : ׃‎ │ _ ־‎ ┃              ┃
+    // ┃Shift ┃ <   │ ז‎ זּ‎ │ ח‎   │ צ‎   │ ב‎   │ בּ‎ ※ │ נ‎ נּ‎ │ מ‎ מּ‎ │ , ׳‎ │ . ׃‎ │ - ־‎ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/hebrew(basic)"
+
+    name[Group1]= "SMK-Hebrew (Portuguese קוֶרתי)";
+
+    key <TLDE>	{ [     backslash,  bar,               masculine,              ordfeminine             ] };
+    key <AE01>	{ [             1,  exclam,            U10900                  ] };                             // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE03>	{ [             3,  numbersign,        sterling,               periodcentered          ] };
+    key <AE04>	{ [             4,  dollar,            section,                dead_currency           ] };
+    key <AE07>	{ [             7,  slash,             braceleft               ] };
+    key <AE08>	{ [             8,  parenleft,         bracketleft,            U221D                   ] };     // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [             9,  parenright,        bracketright,           U21BB                   ] };     // U+21BB = "Arrows" Dead Key
+    key <AE10>	{ [             0,  equal,             braceright,             U21BA                   ] };     // U+21BA = "Letter Flip" Dead Key
+    key <AE12>	{ [ guillemetleft,  guillemetright,    hebrew_ayin,            hebrew_ayin             ] };
+
+    key <AD11>	{ [          plus,  asterisk,          UFB29,                  U25CC                   ] };     // U+FB29 = Hebrew Alternate Plus Sign; U+25CC = Dotted Circle
+    key <AD12>	{ [         U05BC,  U05B0,             U05BD,                  U05BF                   ] };     // U+05BC = "Dagesh" Dead Key; U+05B0 = "Shva" Dead Key; U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key
+
+    key <AC10>	{ [         UFB46,  UFB46,             U0592                   ] };                             // U+FB46 = Tsadi + Dagesh; U+0592 = "Cantillation Marks" Dead Key
+    key <AC11>	{ [         U05C6,  U05C6              ] };                                                     // U+05C6 = Inverted Hebrew Nun
+    key <BKSL>	{ [         U05C0,  U05C0              ] };                                                     // U+05C0 = Paseq
+
+    key <LSGT>	{ [          less,  greater            ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_us" {
+    // [NOTE]: This layout is based off a mixture between
+    // the American QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements and Hebrew letters as well.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ׀‎‎ º │ !   │ @   │ #   │ $   │ %   │ ¬   │ &   │ * ↻ │ (   │ )   │ _ ־‎ │ +   ┃ ⌫       ┃
+    // │ ׀‎‎ ◌ │ 1 𐤀‎ │ 2  ‎ │ 3 · │ 4 ¤ │ 5  ᷏ │ 6   │ 7   │ 8 ∝ │ 9   │ 0 ↺ │ - ־‎ │ = ﬩ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ק‎   │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ תּ‎ טּ‎ │ י‎‎ יּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ ף‎ ףּ‎ │ { א‎ │ } ע‎ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ק‎   │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ ת‎ ט‎ │ י‎‎ יּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ פ‎ פּ‎ │ [ א‎ │ ] ע‎ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ַ ◌ָ │ שּ‎ סּ‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ װ‎ ױ‎ │ ך‎ ךּ‎ │ לּ‎ ﭏ‎ │ : ״‎ │ " ◌ְ │ | ◌̄ ┃      ┃
+    // ┃  Lock  ┃ ◌ַ ◌ָ │ ש‎ ס‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ ײ‎ ױ‎ │ כ‎ כּ‎ │ ל‎ ﭏ‎ │ ; ׳‎ │ ' ◌ּ │ \ ◌ֽ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ |   │ ז‎ זּ‎ │ ח‎   │ ץ‎   │ ב‎   │ בּ‎ ⌬ │ ן‎ ׆‎ │ ם‎ מּ‎ │ <   │ >   │ ?   ┃              ┃
+    // ┃Shift ┃ \   │ ז‎ זּ‎ │ ח‎   │ צ‎   │ ב‎   │ בּ‎ ※ │ נ‎ נּ‎ │ מ‎ מּ‎ │ , ◌֒ │ .   │ /   ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/hebrew(basic)"
+
+    name[Group1]= "SMK-Hebrew (US קוֶרתי)";
+
+    key <TLDE>	{ [        U05C0,  U05C0,             U25CC,                    masculine           ] };    // U+05C0 = Paseq; U+25CC = Dotted Circle
+    key <AE01>	{ [            1,  exclam,            U10900                    ] };                        // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [            2,  at                 ] };
+    key <AE03>	{ [            3,  numbersign,        periodcentered            ] };
+    key <AE04>	{ [            4,  dollar,            dead_currency             ] };
+    key <AE05>	{ [            5,  percent,           U1DCF                     ] };                        // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [            6,  notsign            ] };
+    key <AE07>	{ [            7,  ampersand          ] };
+    key <AE08>	{ [            8,  asterisk,          U221D,                    U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [            9,  parenleft          ] };
+    key <AE10>	{ [            0,  parenright,        U21BA                     ] };                        // U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [        minus,  underscore,        U05BE,                    U05BE               ] };    // U+05BE = Maqaf
+    key <AE12>	{ [        equal,  plus,              UFB29                     ] };                        // U+FB29 = Hebrew Alternate Plus Sign
+    
+    key <AD11>	{ [  bracketleft,  braceleft,         hebrew_aleph,             hebrew_aleph        ] };
+    key <AD12>	{ [ bracketright,  braceright,        hebrew_ayin,              hebrew_ayin         ] };
+
+    key <AC10>	{ [    semicolon,  colon,             U05F3,                    U05F4               ] };    // U+05F3 = Geresh; U+05F4 = Gershayim
+    key <AC11>	{ [   apostrophe,  quotedbl,          U05BC,                    U05B0               ] };    // U+05BC = "Dagesh" Dead Key; U+05B0 = "Shva" Dead Key
+    key <BKSL>	{ [    backslash,  bar,               U05BD,                    U05BF               ] };    // U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key
+
+    key <LSGT>	{ [    backslash,  bar                ] };
+    key <AB06>	{ [   hebrew_nun,  hebrew_finalnun,   UFB40,                    U05C6               ] };    // U+FB40 = Hebrew Nun + Dagesh; U+05C6 = Inverted Hebrew Nun
+    key <AB08>	{ [        comma,  less,              U0592                     ] };                        // U+0592 = "Cantillation Marks" Dead Key
+    key <AB09>	{ [       period,  greater            ] };
+    key <AB10>	{ [       minus,   underscore         ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwertz" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Austrian-German QWERTZ keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements and Hebrew letters as well.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀‎ │ "  ‎ │ §   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ =   │ ? א‎ │ ע‎   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 ² │ 3 ³ │ 4 ¤ │ 5  ᷏ │ 6 ¬ │ 7   │ 8 ∝ │ 9   │ 0 ↺ │ · א‎ │ ע‎   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ק‎   │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ תּ‎ טּ‎ │ ז‎ זּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ ף‎ ףּ‎ │ ◌̄   │ * ﬩ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ק‎ @ │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ ת‎ ט‎ │ ז‎ זּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ פ‎ פּ‎ │ ◌ֽ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ַ ◌ָ │ שּ‎ סּ‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ װ‎ ױ‎ │ ך‎ ךּ‎ │ לּ‎ ﭏ‎ │ צּ‎   │ ◌ְ   │ '   ┃      ┃
+    // ┃  Lock  ┃ ◌ַ ◌ָ │ ש‎ ס‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ ײ‎ ױ‎ │ כ‎ כּ‎ │ ל‎ ﭏ‎ │ צּ‎ ◌֒ │ ◌ּ { │ # } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ׀‎‎ │ י‎‎ יּ‎ │ ח‎   │ ץ‎   │ ב‎   │ בּ‎ ⌬ │ ן‎ ׆‎ │ ם‎ מּ‎ │ ; ״‎ │ : ׃‎ │ _ ־‎ ┃              ┃
+    // ┃Shift ┃ < ׀‎ │ י‎‎ יּ‎ │ ח‎   │ צ‎   │ ב‎   │ בּ‎ ※ │ נ‎ נּ‎ │ מ‎ מּ‎ │ , ׳‎ │ . ׃‎ │ - ־‎ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/hebrew(basic)"
+
+    name[Group1]= "SMK-Hebrew (קוֶרתז)";
+
+    key <AE02>	{ [              2, quotedbl,           twosuperior     ] };
+    key <AE03>	{ [              3, section,            threesuperior   ] };
+    key <AE11>	{ [ periodcentered, question,           hebrew_aleph,   hebrew_aleph    ] };
+
+    key <AD01>	{ [    hebrew_qoph, hebrew_qoph,        at              ] };
+    key <AD06>	{ [    hebrew_zain, hebrew_zain,        UFB36,          UFB36           ] };    // U+FB36 = Zayin + Dagesh
+
+    key <AC10>	{ [          UFB46, UFB46,              U0592           ] };                    // U+FB46 = Tsadi + Dagesh; U+0592 = "Cantillation Marks" Dead Key
+    key <BKSL>	{ [     numbersign, apostrophe,         braceright      ] };
+
+    key <AB01>	{ [     hebrew_yod, hebrew_yod,         UFB39,          UFB39           ] };    // U+FB39 = Yod + Dagesh
+    key <AB06>	{ [     hebrew_nun, hebrew_finalnun,    UFB40,          U05C6           ] };    // U+FB40 = Hebrew Nun + Dagesh; U+05C6 = Inverted Hebrew Nun
+};
+
+partial alphanumeric_keys
+xkb_symbols "latam" {
+    // [NOTE]: This keyboard layout is mostly based off
+    // the Latin-American Spanish one with some minor
+    // adjustments (as well as Hebrew letters instead of Latin ones)
+    // to adapt it to the SMK layout line.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ º ◌ │ ! 𐤀‎ │ "  ‎ │ #   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ =   │ ? א‎ │ ע‎   ┃ ⌫       ┃
+    // │ | ¬ │ 1 \ │ 2  ‎ │ 3 · │ 4 ¤ │ 5  ᷏ │ 6 ª │ 7   │ 8 ∝ │ 9   │ 0 ↺ │ ' א‎ │ ע‎   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ק‎   │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ תּ‎ טּ‎ │ י‎‎ יּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ ף‎ ףּ‎ │ ◌̄ ◌ְ │ *   ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ק‎ @ │ ו‎ וּ‎ │ ◌ֶ ◌ֵ │ ר‎ רּ‎ │ ת‎ ט‎ │ י‎‎ יּ‎ │ ◌ֻ   │ ◌ִ   │ ◌ֹ ◌ֺ │ פ‎ פּ‎ │ ◌ֽ ◌ּ │ + ﬩ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ַ ◌ָ │ שּ‎ סּ‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ װ‎ ױ‎ │ ך‎ ךּ‎ │ לּ‎ ﭏ‎ │ ׆‎   │ [   │ ]   ┃      ┃
+    // ┃  Lock  ┃ ◌ַ ◌ָ │ ש‎ ס‎ │ ד‎ דּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ה‎   │ ײ‎ ױ‎ │ כ‎ כּ‎ │ ל‎ ﭏ‎ │ ׆‎ ◌֒ │ {   │ }   ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ׀‎‎ │ ז‎ זּ‎ │ ח‎   │ ץ‎   │ ב‎   │ בּ‎ ⌬ │ ן‎ נּ‎ │ ם‎ מּ‎ │ ; ״‎ │ : ׃‎ │ _ ־‎ ┃              ┃
+    // ┃Shift ┃ < ׀‎ │ ז‎ זּ‎ │ ח‎   │ צ‎   │ ב‎   │ בּ‎ ※ │ נ‎ נּ‎ │ מ‎ מּ‎ │ , ׳‎ │ . ׃‎ │ - ־‎ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Hebrew (Latam קוֶרתי)";
+
+    key <TLDE>	{ [          bar,   masculine,      notsign,            U25CC       ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [            1,   exclam,         backslash,          U10900      ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [            2,   quotedbl        ] };
+    key <AE03>	{ [            3,   numbersign,     periodcentered      ] };
+    key <AE04>	{ [            4,   dollar,         dead_currency       ] };
+    key <AE06>	{ [            6,   ampersand,      ordfeminine         ] };
+
+    key <AD01>	{ [  hebrew_qoph,   hebrew_qoph,    at                  ] };
+    key <AD11>	{ [        U05BD,   U05BF,          U05BC,              U05B0       ] };    // U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key; U+05BC = "Dagesh" Dead Key; U+05B0 = "Shva" Dead Key
+    key <AD12>	{ [         plus,   asterisk,       UFB29               ] };                // U+FB29 = Hebrew Alternate Plus Sign
+
+    key <AC11>	{ [    braceleft,   bracketleft     ] };
+    key <BKSL>	{ [   braceright,   bracketright    ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Dvorak keyboard, except with
+    // Hebrew letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀‎ │ "  ‎ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ =   │ ? א‎ │ ע‎   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ¤ │ 5  ᷏ │ 6 ¬ │ 7   │ 8 ∝ │ 9   │ 0 ↺ │ ' א‎ │ ע‎   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ : ׃‎ │ ; ״‎ │ ׆‎   │ ף‎ ףּ‎ │ י‎‎ יּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ ץ‎   │ ה‎   │ לּ‎ ﭏ‎ │ ◌̄   │ * ﬩ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ . ׃‎ │ , ׳‎ │ ׆‎ ◌֒ │ פ‎ פּ‎ │ י‎‎ יּ‎ │ פֿ‎   │ ג‎ גּ‎‎ │ צ‎   │ ה‎   │ לּ‎ ﭏ‎ │ ◌ֽ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ַ ◌ָ │ ◌ֹ ◌ֺ │ ◌ֶ ◌ֵ │ ◌ֻ   │ ◌ִ   │ ד‎ דּ‎ │ ר‎ רּ‎ │ תּ‎ טּ‎ │ ן‎ נּ‎ │ שּ‎ סּ‎ │ ◌ְ   │ צּ‎   ┃      ┃
+    // ┃  Lock  ┃ ◌ַ ◌ָ │ ◌ֹ ◌ֺ │ ◌ֶ ◌ֵ │ ◌ֻ   │ ◌ִ   │ ד‎ דּ‎ │ ר‎ רּ‎ │ ת‎ ט‎ │ נ‎ נּ‎ │ שּ‎ סּ‎ │ ◌ּ { │ צּ‎ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ׀‎‎ │ _ ־‎ │ ק‎   │ װ‎ ױ‎ │ ך‎ ךּ‎ │ ח‎   │ בּ‎ ⌬ │ ם‎ מּ‎ │ ו‎ וּ‎ │ ב‎   │ ז‎ זּ‎ ┃              ┃
+    // ┃Shift ┃ < ׀‎‎ │ - ־‎ │ ק‎   │ ײ‎ ױ‎ │ כ‎ כּ‎ │ ח‎   │ בּ‎ ※ │ מ‎ מּ‎ │ ו‎ וּ‎ │ ב‎   │ ז‎ זּ‎ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/hebrew(basic)"
+
+    name[Group1]= "SMK-Hebrew (דוואָראַק)";
+
+    key <AD01>	{ [       period,   colon,              U05C3,              U05C3           ] };    // U+05C3 = Sof Pasuq
+    key <AD02>	{ [        comma,   semicolon,          U05F3,              U05F4           ] };    // U+05F3 = Geresh; U+05F4 = Gershayim
+    key <AD03>	{ [        U05C6,   U05C6,              U0592               ] };                       // U+05C6 = Inverted Hebrew Nun; U+0592 = "Cantillation Marks" Dead Key
+    key <AD04>	{ [    hebrew_pe,   hebrew_finalpe,     UFB44,              UFB43           ] };    // U+FB44 = Hebrew Pe + Dagesh; U+FB43 = Final Hebrew Pe + Dagesh
+    key <AD05>	{ [   hebrew_yod,   hebrew_yod,         UFB39,              UFB39           ] };    // U+FB39 = Yod + Dagesh
+    key <AD06>	{ [        UFB4E,   UFB4E               ] };                                               // U+FB4E = Hebrew Pe + Rafe
+    key <AD07>	{ [ hebrew_gimel,   hebrew_gimel,       UFB32,              UFB32           ] };    // U+FB32 = Gimel + Dagesh
+    key <AD08>	{ [  hebrew_zade,   hebrew_finalzade    ] };   
+    key <AD09>	{ [     hebrew_he,  hebrew_he           ] };   
+    key <AD10>	{ [  hebrew_lamed,  UFB3C,              UFB4F,              UFB4F           ] };    // U+FB3C = Lamed + Dagesh; U+FB4F = Aleph + Lamed
+
+    key <AC02>	{ [         U05B9,  U05B9,              U05BA,              U05BA           ] };    // U+05B9 = Holam; U+05BA = Holam on Vav
+    key <AC03>	{ [         U05B6,  U05B6,              U05B5,              U05B5           ] };    // U+05B6 = Segol (as niqqud); U+05B5 = Tzere
+    key <AC04>	{ [         U05BB,  U05BB               ] };                                        // U+05BB = Qubbutz
+    key <AC05>	{ [         U05B4,  U05B4               ] };                                        // U+05B4 = Ḥiriq
+    key <AC06>	{ [  hebrew_dalet,  hebrew_dalet,       UFB33,              UFB33           ] };
+    key <AC07>	{ [   hebrew_resh,  hebrew_resh,        UFB48,              UFB48           ] };    // U+FB48 = Resh + Dagesh
+    key <AC08>	{ [    hebrew_taw,  UFB4A,              hebrew_tet,         UFB38           ] };    // U+FB4A = Tav + Dagesh; U+FB38 = Tet + Dagesh
+    key <AC09>	{ [    hebrew_nun,  hebrew_finalnun,    UFB40,              UFB40           ] };    // U+FB40 = Hebrew Nun + Dagesh
+    key <AC10>	{ [   hebrew_shin,  UFB49,              hebrew_samech,      UFB41           ] };    // U+FB49 = Shin + Dagesh; U+FB41 = Samekh + Dagesh
+
+    key <AB01>	{ [         minus,  underscore,         U05BE,              U05BE           ] };    // U+05BE = Maqaf
+    key <AB02>	{ [   hebrew_qoph,  hebrew_qoph         ] };
+    key <AB03>	{ [         U05F2,  U05F0,              U05F1,              U05F1           ] };    // U+05F2 = Double Yod; U+05F0 = Double Vav; U+05F1 = Vav + Yod
+    key <AB04>	{ [   hebrew_kaph,  hebrew_finalkaph,   UFB3B,              UFB3A           ] };    // U+FB3B = Kaf + Dagesh; U+FB3A = Final Kaf + Dagesh
+    key <AB05>	{ [   hebrew_chet,  hebrew_chet         ] };
+    key <AB06>	{ [         UFB31,  UFB31,              U203B,              U232C           ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB08>	{ [    hebrew_waw,  hebrew_waw,         UFB35,              UFB35           ] };    // U+FB35 = Vav + Dagesh
+    key <AB09>	{ [    hebrew_bet,  hebrew_bet          ] };
+    key <AB10>	{ [   hebrew_zain,  hebrew_zain,        UFB36,              UFB36           ] };    // U+FB36 = Zayin + Dagesh
+};
+
+partial alphanumeric_keys
+xkb_symbols "colemak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Colemak keyboard, except with
+    // Hebrew letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀‎ │ "  ‎ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ =   │ ? א‎ │ ע‎   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ¤ │ 5  ᷏ │ 6 ¬ │ 7   │ 8 ∝ │ 9   │ 0 ↺ │ ' א‎ │ ע‎   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ק‎   │ ו‎ וּ‎ │ פֿ‎   │ ף‎ ףּ‎ │ ג‎ גּ‎‎ │ װ‎ ױ‎ │ לּ‎ ﭏ‎ │ ◌ֻ   │ י‎‎ יּ‎ │ ׆‎   │ ◌̄   │ * ﬩ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ק‎   │ ו‎ וּ‎ │ פֿ‎   │ פ‎ פּ‎ │ ג‎ גּ‎‎ │ ײ‎ ױ‎ │ ל‎ ﭏ‎ │ ◌ֻ   │ י‎‎ יּ‎ │ ׆‎ ◌֒ │ ◌ֽ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ◌ַ ◌ָ │ ר‎ רּ‎ │ שּ‎ סּ‎ │ תּ‎ טּ‎ │ ד‎ דּ‎ │ ה‎   │ ן‎ נּ‎ │ ◌ֶ ◌ֵ │ ◌ִ   │ ◌ֹ ◌ֺ │ ◌ְ   │ צּ‎   ┃      ┃
+    // ┃  Lock  ┃ ◌ַ ◌ָ │ ר‎ רּ‎ │ ש‎ ס‎ │ ת‎ ט‎ │ ד‎ דּ‎ │ ה‎   │ נ‎ נּ‎ │ ◌ֶ ◌ֵ │ ◌ִ   │ ◌ֹ ◌ֺ │ ◌ּ { │ צּ‎ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ׀‎‎ │ ז‎ זּ‎ │ ח‎   │ ץ‎   │ ב‎   │ בּ‎ ⌬ │ ך‎ ךּ‎ │ ם‎ מּ‎ │ ; ״‎ │ : ׃‎ │ _ ־‎ ┃              ┃
+    // ┃Shift ┃ < ׀‎ │ ז‎ זּ‎ │ ח‎   │ צ‎   │ ב‎   │ בּ‎ ※ │ כ‎ כּ‎ │ מ‎ מּ‎ │ , ׳‎ │ . ׃‎ │ - ־‎ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/hebrew(basic)"
+
+    name[Group1]= "SMK-Hebrew (קאָלעמאַק)";
+
+    key <AD03>	{ [        UFB4E,   UFB4E               ] };                                            // U+FB4E = Hebrew Pe + Rafe
+    key <AD04>	{ [    hebrew_pe,   hebrew_finalpe,     UFB44,              UFB43               ] };    // U+FB44 = Hebrew Pe + Dagesh; U+FB43 = Final Hebrew Pe + Dagesh
+    key <AD05>	{ [ hebrew_gimel,   hebrew_gimel,       UFB32,              UFB32               ] };    // U+FB32 = Gimel + Dagesh
+    key <AD06>	{ [        U05F2,   U05F0,              U05F1,              U05F1               ] };    // U+05F2 = Double Yod; U+05F0 = Double Vav; U+05F1 = Vav + Yod
+    key <AD07>	{ [ hebrew_lamed,   UFB3C,              UFB4F,              UFB4F               ] };    // U+FB3C = Lamed + Dagesh; U+FB4F = Aleph + Lamed
+    key <AD08>	{ [        U05BB,   U05BB               ] };                                            // U+05BB = Qubbutz
+    key <AD09>	{ [   hebrew_yod,   hebrew_yod,         UFB39,              UFB39               ] };    // U+FB39 = Yod + Dagesh
+    key <AD10>	{ [         U05C6,  U05C6,              U0592               ] };                        // U+05C6 = Inverted Hebrew Nun; U+0592 = "Cantillation Marks" Dead Key
+
+    key <AC02>	{ [   hebrew_resh,  hebrew_resh,        UFB48,              UFB48               ] };    // U+FB48 = Resh + Dagesh
+    key <AC03>	{ [   hebrew_shin,  UFB49,              hebrew_samech,      UFB41               ] };    // U+FB49 = Shin + Dagesh; U+FB41 = Samekh + Dagesh
+    key <AC04>	{ [    hebrew_taw,  UFB4A,              hebrew_tet,         UFB38               ] };    // U+FB4A = Tav + Dagesh; U+FB38 = Tet + Dagesh
+    key <AC05>	{ [  hebrew_dalet,  hebrew_dalet,       UFB33,              UFB33               ] };
+    key <AC06>	{ [     hebrew_he,  hebrew_he           ] };
+    key <AC07>	{ [    hebrew_nun,  hebrew_finalnun,    UFB40,              UFB40               ] };    // U+FB40 = Hebrew Nun + Dagesh
+    key <AC08>	{ [         U05B6,  U05B6,              U05B5,              U05B5               ] };    // U+05B6 = Segol (as niqqud); U+05B5 = Tzere
+    key <AC09>	{ [         U05B4,  U05B4               ] };                                            // U+05B4 = Ḥiriq
+    key <AC10>	{ [         U05B9,  U05B9,              U05BA,              U05BA               ] };    // U+05B9 = Holam; U+05BA = Holam on Vav
+
+    key <AB06>	{ [   hebrew_kaph,  hebrew_finalkaph,   UFB3B,              UFB3A               ] };    // U+FB3B = Kaf + Dagesh; U+FB3A = Final Kaf + Dagesh
+};
+
+partial alphanumeric_keys
+xkb_symbols "jcuken" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Russian ЙЦУКЕН keyboard (its approximate Hebrew-based form)
+    // and the Spanish QWERTY one with Hebrew letters and
+    // some custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀‎ │ "  ‎ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ =   │ ?   │ ע‎   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ¤ │ 5  ᷏ │ 6 ¬ │ 7   │ 8 ∝ │ 9   │ 0 ↺ │ '   │ ע‎   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ װ‎ ױ‎ │ ץ‎   │ ◌ֻ   │ ך‎ ךּ‎ │ ◌ֶ ◌ֵ │ ן‎ נּ‎ │ ג‎ גּ‎‎ │ ז‎ זּ‎ │ ח‎   │ א‎   │ ◌̄   │ * ﬩ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ײ‎ ױ‎ │ צ‎   │ ◌ֻ   │ כ‎ כּ‎ │ ◌ֶ ◌ֵ │ נ‎ נּ‎ │ ג‎ גּ‎‎ │ ז‎ זּ‎ │ ח‎   │ א‎   │ ◌ֽ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ פֿ‎   │ ◌ִ   │ ב‎   │ ◌ַ ◌ָ │ ף‎ ףּ‎ │ ר‎ רּ‎ │ ◌ֹ ◌ֺ │ לּ‎ ﭏ‎ │ ס‎ סּ‎ │ ק‎   │ ◌ְ   │ ׆‎   ┃      ┃
+    // ┃  Lock  ┃ פֿ‎   │ ◌ִ   │ ב‎   │ ◌ַ ◌ָ │ פ‎ פּ‎ │ ר‎ רּ‎ │ ◌ֹ ◌ֺ │ ל‎ ﭏ‎ │ ס‎ סּ‎ │ ק‎   │ ◌ּ { │ ׆‎ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > ׀‎‎ │ י‎‎ יּ‎ │ צּ‎   │ ש‎ שּ‎ │ ם‎ מּ‎ │ ◌֒   │ תּ‎ טּ‎ │ בּ‎ ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < ׀‎ │ י‎‎ יּ‎ │ צּ‎   │ ש‎ שּ‎ │ מ‎ מּ‎ │ ◌֒   │ ת‎ ט‎ │ בּ‎ ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/hebrew(basic)"
+
+    name[Group1]= "SMK-Hebrew (יצֻכֶנ)";
+
+    key <AE11>	{ [  apostrophe,    question            ] };
+
+    key <AD01>	{ [        U05F2,   U05F0,              U05F1,          U05F1       ] };    // U+05F2 = Double Yod; U+05F0 = Double Vav; U+05F1 = Vav + Yod
+    key <AD02>	{ [  hebrew_zade,   hebrew_finalzade    ] };
+    key <AD03>	{ [        U05BB,   U05BB               ] };                                // U+05BB = Qubbutz
+    key <AD04>	{ [  hebrew_kaph,   hebrew_finalkaph,   UFB3B,          UFB3A       ] };    // U+FB3B = Kaf + Dagesh; U+FB3A = Final Kaf + Dagesh
+    key <AD05>	{ [        U05B6,   U05B6,              U05B5,          U05B5       ] };    // U+05B6 = Segol (as niqqud); U+05B5 = Tzere
+    key <AD06>	{ [   hebrew_nun,   hebrew_finalnun,    UFB40,          UFB40       ] };    // U+FB40 = Hebrew Nun + Dagesh
+    key <AD07>	{ [ hebrew_gimel,   hebrew_gimel,       UFB32,          UFB32       ] };    // U+FB32 = Gimel + Dagesh
+    key <AD08>	{ [  hebrew_zain,   hebrew_zain,        UFB36,          UFB36       ] };    // U+FB36 = Zayin + Dagesh
+    key <AD09>	{ [  hebrew_chet,   hebrew_chet         ] };
+    key <AD10>	{ [ hebrew_aleph,   hebrew_aleph        ] };
+
+    key <AC01>	{ [        UFB4E,   UFB4E               ] };                                // U+FB4E = Hebrew Pe + Rafe
+    key <AC02>	{ [        U05B4,   U05B4               ] };                                // U+05B4 = Ḥiriq
+    key <AC03>	{ [   hebrew_bet,   hebrew_bet          ] };
+    key <AC04>	{ [         U05B7,  U05B8               ] };                                // U+05B7 = Patach; U+05B8 = Kamatz
+    key <AC05>	{ [     hebrew_pe,  hebrew_finalpe,     UFB44,          UFB43       ] };    // U+FB44 = Hebrew Pe + Dagesh; U+FB43 = Final Hebrew Pe + Dagesh
+    key <AC06>	{ [   hebrew_resh,  hebrew_resh,        UFB48,          UFB48       ] };    // U+FB48 = Resh + Dagesh
+    key <AC07>	{ [         U05B9,  U05B9,              U05BA,          U05BA       ] };    // U+05B9 = Holam; U+05BA = Holam on Vav
+    key <AC08>	{ [  hebrew_lamed,  UFB3C,              UFB4F,          UFB4F       ] };    // U+FB3C = Lamed + Dagesh; U+FB4F = Aleph + Lamed
+    key <AC09>	{ [ hebrew_samech,  hebrew_samech,      UFB41,          UFB41       ] };    // U+FB41 = Samekh + Dagesh
+    key <AC10>	{ [   hebrew_qoph,  hebrew_qoph         ] };
+    key <BKSL>	{ [         U05C6,  U05C6,              braceright      ] };                // U+05C6 = Inverted Hebrew Nun
+
+    key <AB01>	{ [    hebrew_yod,  hebrew_yod,         UFB39,          UFB39       ] };    // U+FB39 = Yod + Dagesh
+    key <AB02>	{ [         UFB46,  UFB46               ] };                                // U+FB46 = Tsadi + Dagesh
+    key <AB03>	{ [   hebrew_shin,  hebrew_shin,        UFB49,          UFB49       ] };    // U+FB49 = Shin + Dagesh
+    key <AB04>	{ [    hebrew_mem,  hebrew_finalmem,    UFB3E,          UFB3E       ] };    // U+FB3E = Mem + Dagesh
+    key <AB05>	{ [         U05C6,  U05C6               ] };                                // U+0592 = "Cantillation Marks" Dead Key
+    key <AB06>	{ [    hebrew_taw,  UFB4A,              hebrew_tet,     UFB38       ] };    // U+FB4A = Tav + Dagesh; U+FB38 = Tet + Dagesh
+    key <AB07>	{ [         UFB31,  UFB31,              U203B,          U232C       ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+};
+
+// [TODO]; Add more variants if needed
