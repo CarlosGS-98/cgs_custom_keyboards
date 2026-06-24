@@ -1,0 +1,11 @@
+# Hebrew Abjad | Shva Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<U05B0> <U05B6> : "ֱ"    # Hataf/Reduced Segol
+<U05B0> <U05B7> : "ֲ"    # Hataf/Reduced Patach
+<U05B0> <U05B8> : "ֳ"    # Hataf/Reduced Kamatz
+
+##################
+# [END OF RULES] #
+##################

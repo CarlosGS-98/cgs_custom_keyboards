@@ -1,0 +1,15 @@
+# Hebrew Abjad | Shva Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the shva
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<U05B0> <space> : "ְ"    # Shva
+<U05B0> <U05B0> : "ְ"    # Shva
+
+##################
+# [END OF RULES] #
+##################
