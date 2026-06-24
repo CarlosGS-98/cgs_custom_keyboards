@@ -1,0 +1,44 @@
+# Hebrew Abjad | Dagesh + Shin Dot Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations (Dagesh/Mapiq)
+<U05BC> <hebrew_aleph>     : "אּ"    # Aleph + Mapiq
+<U05BC> <hebrew_bet>       : "בּ"
+<U05BC> <hebrew_gimel>     : "גּ"
+<U05BC> <hebrew_dalet>     : "דּ"
+<U05BC> <hebrew_he>        : "הּ"
+<U05BC> <hebrew_waw>       : "וּ"
+<U05BC> <hebrew_zain>      : "זּ"
+<U05BC> <hebrew_tet>       : "טּ"
+<U05BC> <hebrew_yod>       : "יּ"
+<U05BC> <hebrew_kaph>      : "כּ"
+<U05BC> <hebrew_finalkaph> : "ךּ"
+<U05BC> <hebrew_lamed>     : "לּ"
+<U05BC> <hebrew_mem>       : "מּ"
+<U05BC> <hebrew_nun>       : "נּ"
+<U05BC> <hebrew_samech>    : "סּ"
+<U05BC> <hebrew_pe>        : "פּ"
+<U05BC> <hebrew_finalpe>   : "ףּ"
+<U05BC> <hebrew_zade>      : "צּ"
+<U05BC> <hebrew_qoph>      : "קּ"
+<U05BC> <hebrew_resh>      : "רּ"
+<U05BC> <hebrew_shin>      : "שּ"
+<U05BC> <hebrew_taw>       : "תּ"
+
+
+# Basic precomposed letter combinations (Shin Dot)
+<U05BC> <greater> <hebrew_shin> : "שׁ"   # Shin + Shin Dot ([ʃ])
+<U05BC> <less> <hebrew_shin>    : "שׂ"   # Shin + Sin Dot ([s])
+<U05BC> <Left> <hebrew_shin>    : "שׂ"   # Shin + Sin Dot ([s])
+<U05BC> <Right> <hebrew_shin>   : "שׁ"   # Shin + Shin Dot ([ʃ])
+
+
+# Other precomposed dagesh + sin/shin dot combinations (Unidirectional)
+<U05BC> <greater> <UFB49>   : "שּׁ"   # Shin + Dagesh + Shin Dot
+<U05BC> <less> <UFB49>      : "שּׂ"   # Shin + Dagesh + Sin Dot
+<U05BC> <Left> <UFB49>      : "שּׂ"   # Shin + Dagesh + Sin Dot
+<U05BC> <Right> <UFB49>     : "שּׁ"   # Shin + Dagesh + Shin Dot
+
+##################
+# [END OF RULES] #
+##################

@@ -1,0 +1,19 @@
+# Common Dead Keys | Dagesh + Shin Dot Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the dagesh and shin dots
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<U05BC> <space>             : "ּ"    # Dagesh
+<U05BC> <U05BC>             : "ּ"    # Dagesh
+<U05BC> <greater> <space>   : "ׁ"    # Shin Dot
+<U05BC> <less> <space>      : "ׂ"    # Sin Dot
+<U05BC> <Left> <space>      : "ׂ"    # Sin Dot
+<U05BC> <Right> <space>     : "ׁ"    # Shin Dot
+
+##################
+# [END OF RULES] #
+##################
