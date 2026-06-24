@@ -1,0 +1,81 @@
+# Arabic Abjad | Dot Above Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_abovedot> <Arabic_alef>           : "ࡺ"
+<dead_abovedot> <Arabic_teh>            : "ث"   # Ṯāʾ
+<dead_abovedot> <Arabic_tcheh>          : "ڿ"
+<dead_abovedot> <Arabic_hah>            : "خ"   # Ḫāʾ
+<dead_abovedot> <Arabic_khah>           : "ڂ"
+<dead_abovedot> <Arabic_dal>            : "ذ"   # Ḏāl
+<dead_abovedot> <Arabic_ra>             : "ز"   # Zāyn
+<dead_abovedot> <Arabic_zain>           : "ݫ"
+<dead_abovedot> <Arabic_sad>            : "ض"   # Ḍād
+<dead_abovedot> <Arabic_tah>            : "ظ"   # Ẓāʾ
+<dead_abovedot> <Arabic_ain>            : "غ"   # Ġayn
+<dead_abovedot> <Arabic_ghain>          : "ݟ"
+<dead_abovedot> <U06A1>                 : "ف"   # Fāʾ
+<dead_abovedot> <Arabic_qaf>            : "ࣄ"
+<dead_abovedot> <U066F>                 : "ڧ"
+<dead_abovedot> <Arabic_kaf>            : "ڬ"
+<dead_abovedot> <Arabic_keheh>          : "ݢ"
+<dead_abovedot> <Arabic_lam>            : "ڶ"
+<dead_abovedot> <Arabic_meem>           : "ݥ"
+<dead_abovedot> <Arabic_noon_ghunna>    : "ن"   # Nūn
+<dead_abovedot> <Arabic_waw>            : "ۏ"
+<dead_abovedot> <Arabic_yeh>            : "ࢩ"
+<dead_abovedot> <Arabic_fatha>          : "ࣵ"
+<dead_abovedot> <Arabic_damma>          : "ࣾ"
+
+
+# Other precomposed dot above combinations (Unidirectional)
+<dead_abovedot> <dead_circumflex> <Arabic_ra>                                           : "ࢲ"   # Zāyn + Inverted V
+
+<dead_abovedot> <dead_diaeresis> <U066E>                                                : "ث"   # Ṯāʾ
+<dead_abovedot> <dead_diaeresis> <Arabic_hah>                                           : "څ"
+<dead_abovedot> <U068C>                                                                 : "ڎ"
+<dead_abovedot> <dead_diaeresis> <Arabic_dal>                                           : "ڎ"
+<dead_abovedot> <U0698>                                                                 : "ژ"   # Že
+<dead_abovedot> <dead_diaeresis> <Arabic_ra>                                            : "ژ"   # Že
+<dead_abovedot> <dead_diaeresis> <U069B>                                                : "ڜ"   # ڛ + Dot Above + Diaeresis Above = Maghrebi Če
+<dead_abovedot> <dead_diaeresis> <dead_belowdiaeresis> <dead_belowdot> <Arabic_seen>    : "ڜ"
+<dead_abovedot> <dead_diaeresis> <dead_belowdot> <dead_belowdiaeresis> <Arabic_seen>    : "ڜ"
+<dead_abovedot> <dead_diaeresis> <Arabic_sad>                                           : "ڞ"
+<dead_abovedot> <dead_diaeresis> <Arabic_tah>                                           : "ڟ"
+<dead_abovedot> <U075D>                                                                 : "ڠ"
+<dead_abovedot> <dead_diaeresis> <Arabic_ain>                                           : "ڠ"
+<dead_abovedot> <dead_diaeresis> <dead_abovedot> <Arabic_ain>                           : "ࣃ"
+<dead_abovedot> <dead_diaeresis> <Arabic_ghain>                                         : "ࣃ"
+<dead_abovedot> <dead_diaeresis> <dead_belowdot> <U06A1>                                : "ࢤ"   # Ve + Dot Below
+<dead_abovedot> <dead_diaeresis> <U066F>                                                : "ࣄ"
+<dead_abovedot> <dead_diaeresis> <Arabic_kaf>                                           : "ڭ"   # Ngaf
+<dead_abovedot> <dead_diaeresis> <Arabic_gaf>                                           : "ڴ"
+<dead_abovedot> <dead_diaeresis> <Arabic_keheh>                                         : "ݣ"
+<dead_abovedot> <dead_diaeresis> <Arabic_lam>                                           : "ڷ"
+<dead_abovedot> <dead_diaeresis> <Arabic_meem>                                          : "ࢧ"
+<dead_abovedot> <dead_diaeresis> <Arabic_noon_ghunna>                                   : "ڽ"
+<dead_abovedot> <dead_diaeresis> <Arabic_waw>                                           : "ۋ"   # Kazakh/Uyghur Ve
+<dead_abovedot> <dead_diaeresis> <Farsi_yeh>                                            : "ؿ"
+
+<dead_abovedot> <dead_belowdiaeresis> <Arabic_alefmaksura>                              : "ࢩ"
+<dead_abovedot> <dead_belowdiaeresis> <U066E>                                           : "ݔ"
+<dead_abovedot> <dead_belowdiaeresis> <dead_diaeresis> <dead_belowdot> <Arabic_seen>    : "ڜ"
+<dead_abovedot> <dead_belowdiaeresis> <dead_belowdot> <dead_diaeresis> <Arabic_seen>    : "ڜ"
+<dead_abovedot> <dead_belowdiaeresis> <Arabic_noon_ghunna>                              : "ݧ"
+<dead_abovedot> <dead_belowdiaeresis> <Farsi_yeh>                                       : "ࢩ"
+
+<dead_abovedot> <dead_belowdot> <Arabic_ra>                                             : "ږ"
+<dead_abovedot> <dead_belowdot> <Arabic_seen>                                           : "ښ"
+<dead_abovedot> <dead_belowdot> <dead_diaeresis> <dead_belowdiaeresis> <Arabic_seen>    : "ڜ"
+<dead_abovedot> <dead_belowdot> <dead_belowdiaeresis> <dead_diaeresis> <Arabic_seen>    : "ڜ"
+<dead_abovedot> <dead_belowdot> <Arabic_sad>                                            : "ۻ"   # Ḍād + Dot Below
+<dead_abovedot> <dead_belowdot> <Arabic_ain>                                            : "ۼ"   # Ġayn + Dot Below
+<dead_abovedot> <dead_belowdot> <dead_diaeresis> <U06A1>                                : "ࢤ"   # Ve + Dot Below
+<dead_abovedot> <dead_belowdot> <Arabic_noon_ghunna>                                    : "ڹ"
+
+
+<dead_abovedot> <Amacron>   : ""
+
+##################
+# [END OF RULES] #
+##################

@@ -12,6 +12,13 @@
 <dead_abovedot> <less>          : "᷸"    # Combining dot above left
 <dead_abovedot> <greater>       : "͘"    # Combining dot above right
 
+
+# Arabic extensions
+<dead_abovedot> <at> <space>                    : "﮲"    # Arabic dot above
+<dead_abovedot> <at> <1>                        : "࣪"    # Arabic tone one dot above
+<dead_abovedot> <at> <period> <space>           : "ࢇ"    # Arabic baseline round dot
+<dead_abovedot> <at> <periodcentered> <space>   : "࢈"    # Arabic raised round dot
+
 ##################
 # [END OF RULES] #
 ##################
