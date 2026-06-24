@@ -60,7 +60,7 @@ xkb_symbols "basic" {
     key <AD08>	{ [         U05B4,  U05B4               ] };                                                // U+05B4 = Ḥiriq
     key <AD09>	{ [         U05B9,  U05B9,              U05BA,                  U05BA               ] };    // U+05B9 = Holam; U+05BA = Holam on Vav
     key <AD10>	{ [     hebrew_pe,  hebrew_finalpe,     UFB44,                  UFB43               ] };    // U+FB44 = Hebrew Pe + Dagesh; U+FB43 = Final Hebrew Pe + Dagesh
-    key <AD11>	{ [         U05BD,  U05BF,              bracketleft             ] };                        // U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key
+    key <AD11>	{ [         U05BD,  dead_macron,        bracketleft             ] };                        // U+05BD = "Meteg" Dead Key. "dead_macron" acts here as the Rafe.
     key <AD12>	{ [          plus,  asterisk,           bracketright,           UFB29               ] };    // U+FB29 = Hebrew Alternate Plus Sign
 
     key <AC01>	{ [         U05B7,  U05B8               ] };                                                // U+05B7 = Patach; U+05B8 = Kamatz
@@ -140,7 +140,7 @@ xkb_symbols "qwerty_pt" {
     key <AE12>	{ [ guillemetleft,  guillemetright,    hebrew_ayin,            hebrew_ayin             ] };
 
     key <AD11>	{ [          plus,  asterisk,          UFB29,                  U25CC                   ] };     // U+FB29 = Hebrew Alternate Plus Sign; U+25CC = Dotted Circle
-    key <AD12>	{ [         U05BC,  U05B0,             U05BD,                  U05BF                   ] };     // U+05BC = "Dagesh" Dead Key; U+05B0 = "Shva" Dead Key; U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key
+    key <AD12>	{ [         U05BC,  U05B0,             U05BD,                  dead_macron             ] };     // U+05BC = "Dagesh" Dead Key; U+05B0 = "Shva" Dead Key; U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key
 
     key <AC10>	{ [         UFB46,  UFB46,             U0592                   ] };                             // U+FB46 = Tsadi + Dagesh; U+0592 = "Cantillation Marks" Dead Key
     key <AC11>	{ [         U05C6,  U05C6              ] };                                                     // U+05C6 = Inverted Hebrew Nun
@@ -197,7 +197,7 @@ xkb_symbols "qwerty_us" {
 
     key <AC10>	{ [    semicolon,  colon,             U05F3,                    U05F4               ] };    // U+05F3 = Geresh; U+05F4 = Gershayim
     key <AC11>	{ [   apostrophe,  quotedbl,          U05BC,                    U05B0               ] };    // U+05BC = "Dagesh" Dead Key; U+05B0 = "Shva" Dead Key
-    key <BKSL>	{ [    backslash,  bar,               U05BD,                    U05BF               ] };    // U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key
+    key <BKSL>	{ [    backslash,  bar,               U05BD,                    dead_macron         ] };    // U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key
 
     key <LSGT>	{ [    backslash,  bar                ] };
     key <AB06>	{ [   hebrew_nun,  hebrew_finalnun,   UFB40,                    U05C6               ] };    // U+FB40 = Hebrew Nun + Dagesh; U+05C6 = Inverted Hebrew Nun
@@ -284,7 +284,7 @@ xkb_symbols "latam" {
     key <AE06>	{ [            6,   ampersand,      ordfeminine         ] };
 
     key <AD01>	{ [  hebrew_qoph,   hebrew_qoph,    at                  ] };
-    key <AD11>	{ [        U05BD,   U05BF,          U05BC,              U05B0       ] };    // U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key; U+05BC = "Dagesh" Dead Key; U+05B0 = "Shva" Dead Key
+    key <AD11>	{ [        U05BD,   dead_macron,    U05BC,              U05B0       ] };    // U+05BD = "Meteg" Dead Key; U+05BF = "Rafe" Dead Key; U+05BC = "Dagesh" Dead Key; U+05B0 = "Shva" Dead Key
     key <AD12>	{ [         plus,   asterisk,       UFB29               ] };                // U+FB29 = Hebrew Alternate Plus Sign
 
     key <AC11>	{ [    braceleft,   bracketleft     ] };

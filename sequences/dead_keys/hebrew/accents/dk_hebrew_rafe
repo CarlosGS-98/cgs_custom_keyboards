@@ -1,0 +1,11 @@
+# Hebrew Abjad | Rafe Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_macron> <hebrew_bet>   : "בֿ"
+<dead_macron> <hebrew_kaph>  : "כֿ"
+<dead_macron> <hebrew_pe>    : "פֿ"
+
+##################
+# [END OF RULES] #
+##################
