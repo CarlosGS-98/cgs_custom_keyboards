@@ -1,0 +1,15 @@
+# Hebrew Abjad | Meteg Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the meteg
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<U05BD> <space> : "ֽ"    # Meteg
+<U05BD> <U05BD> : "ֽ"    # Meteg
+
+##################
+# [END OF RULES] #
+##################
