@@ -1,0 +1,35 @@
+# Hebrew Abjad | Halfwidth & Fullwidth Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing alphabetical fullwidth characters
+# > with Hebrew letters by using "$" (<dollar>) in conjunction
+# > with the Compose Key (<Multi_key>).
+#
+# [Main source]: https://en.wikipedia.org/wiki/Unicode_and_HTML_for_the_Hebrew_alphabet#Compact_table
+#
+
+# Fullwidth Hebrew Letters (Alphabetical)
+<Multi_key> <dollar> <hebrew_aleph> <space> : "ﬡ"
+<Multi_key> <dollar> <hebrew_dalet> <space> : "ﬢ"
+<Multi_key> <dollar> <hebrew_he> <space>    : "ﬣ"
+<Multi_key> <dollar> <hebrew_kaph> <space>  : "ﬤ"
+<Multi_key> <dollar> <hebrew_lamed> <space> : "ﬥ"
+<Multi_key> <dollar> <hebrew_mem> <space>   : "ﬦ"
+<Multi_key> <dollar> <hebrew_resh> <space>  : "ﬧ"
+<Multi_key> <dollar> <hebrew_taw> <space>   : "ﬨ"
+
+
+# Fullwidth ISO-8859-1 Characters + Currency Symbols (Alphabetical)
+<Multi_key> <dollar> <dead_currency> <bar> <hebrew_zade>    : "￠"
+<Multi_key> <dollar> <dead_currency> <hebrew_zade> <bar>    : "￠"
+<Multi_key> <dollar> <dead_currency> <minus> <hebrew_lamed> : "￡"
+<Multi_key> <dollar> <dead_currency> <hebrew_lamed> <minus> : "￡"
+<Multi_key> <dollar> <dead_currency> <minus> <hebrew_waw>   : "￦"
+<Multi_key> <dollar> <dead_currency> <hebrew_waw> <minus>   : "￦"
+<Multi_key> <dollar> <dead_currency> <equal> <hebrew_yod>   : "￥"
+<Multi_key> <dollar> <dead_currency> <hebrew_yod> <equal>   : "￥"
+
+##################
+# [END OF RULES] #
+##################
