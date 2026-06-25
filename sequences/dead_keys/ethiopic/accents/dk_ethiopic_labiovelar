@@ -1,16 +1,24 @@
-# Geʽez Script | Labiovelar Geʽez Syllables Rules
+# Geʽez Abugida | Labiovelar Geʽez Syllables Rules
 # [AUTHOR]: Carlos González Sanz
 #
 # [Main source]: https://en.wikipedia.org/wiki/Geʽez_script#Labiovelar_variants
 #
 # [NOTE]: All syllable combinations in this file are formed by fusing the corresponding
-# base consonant + vocalized አ (ʼÄlf). These base "vowels" are:
+# base consonant + ወ (Wäwe) + vocalized አ (ʼÄlf). These base "vowels" are:
 #   - አ (ʼÄlf + Ä [æ])      [U+12A0 | U12A0]
 #   - ኢ (ʼÄlf + I [i])      [U+12A2 | U12A2]
 #   - ኣ (ʼÄlf + A [aː])     [U+12A3 | U12A3]
 #   - ኤ (ʼÄlf + E [e])      [U+12A4 | U12A4]
 #   - እ (ʼÄlf + Ə [ɨ])      [U+12A5 | U12A5]
 #
+
+# Syllables starting with "ᎀ" (Mʷä)
+<U033E> <U1218> <U12C8> <space> : "ᎀ"
+<U033E> <U1218> <U12C8> <U12A0> : "ᎀ"
+<U033E> <U1218> <U12C8> <U12A2> : "ᎁ"
+<U033E> <U1218> <U12C8> <U12A4> : "ᎂ"
+<U033E> <U1218> <U12C8> <U12A5> : "ᎃ"
+
 
 # Syllables starting with "ቈ" (Ḳʷʻä)
 <U033E> <U1240> <U12C8> <space> : "ቈ"
@@ -28,6 +36,14 @@
 <U033E> <U1250> <U12C8> <U12A3> : "ቛ"
 <U033E> <U1250> <U12C8> <U12A4> : "ቜ"
 <U033E> <U1250> <U12C8> <U12A5> : "ቝ"
+
+
+# Syllables starting with "ᎄ" (Bʷä)
+<U033E> <U1260> <U12C8> <space> : "ᎄ"
+<U033E> <U1260> <U12C8> <U12A0> : "ᎄ"
+<U033E> <U1260> <U12C8> <U12A2> : "ᎅ"
+<U033E> <U1260> <U12C8> <U12A4> : "ᎆ"
+<U033E> <U1260> <U12C8> <U12A5> : "ᎇ"
 
 
 # Syllables starting with "ኈ" (Ḫʷä)
@@ -72,6 +88,22 @@
 <U033E> <U1318> <U12C8> <U12A2> : "ⶔ"
 <U033E> <U1318> <U12C8> <U12A4> : "ⶕ"
 <U033E> <U1318> <U12C8> <U12A5> : "ⶖ"
+
+
+# Syllables starting with "ᎈ" (Fʷä)
+<U033E> <U1348> <U12C8> <space> : "ᎈ"
+<U033E> <U1348> <U12C8> <U12A0> : "ᎈ"
+<U033E> <U1348> <U12C8> <U12A2> : "ᎉ"
+<U033E> <U1348> <U12C8> <U12A4> : "ᎊ"
+<U033E> <U1348> <U12C8> <U12A5> : "ᎋ"
+
+
+# Syllables starting with "ᎌ" (Pʷä)
+<U033E> <U1350> <U12C8> <space> : "ᎌ"
+<U033E> <U1350> <U12C8> <U12A0> : "ᎌ"
+<U033E> <U1350> <U12C8> <U12A2> : "ᎍ"
+<U033E> <U1350> <U12C8> <U12A4> : "ᎎ"
+<U033E> <U1350> <U12C8> <U12A5> : "ᎏ"
 
 ##################
 # [END OF RULES] #
