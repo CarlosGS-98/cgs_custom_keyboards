@@ -1,0 +1,12 @@
+# Hebrew Abjad | Cantillation Marks Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations (Alphabetical)
+<U0592> <hebrew_zain>       : "֧"    # Darga
+<U0592> <hebrew_zade>       : "֡"    # Pazer
+<U0592> <hebrew_finalzade>  : "֡"    # Pazer
+<U0592> <U05B6>             : "֒"    # Segolta
+
+##################
+# [END OF RULES] #
+##################

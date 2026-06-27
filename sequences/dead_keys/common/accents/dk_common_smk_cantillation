@@ -1,0 +1,67 @@
+# Common Dead Keys | Cantillation Marks Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for Hebrew cantillation marks
+# > across multiple writing systems.
+#
+
+# Basic combinations
+<U0592> <space> : "֒"    # Segolta
+<U0592> <U0592> : "֒"    # Segolta
+
+
+# Basic precomposed letter combinations (Non-Alphabetical)
+<U0592> <3>                             : "֓"    # Shalshele
+<U0592> <5>                             : "֧"    # Darga
+<U0592> <bar>                           : "׀"   # Paseq
+<U0592> <colon> <bar>                   : "֕"    # Zaqef Gadol
+<U0592> <colon> <space>                 : "׃"   # Sof Pāsuq
+<U0592> <colon> <Up>                    : "֔"    # Zaqef Qatan
+<U0592> <comma> <dead_caron>            : "֖"    # Tipcha
+<U0592> <comma> <Down>                  : "֖"    # Tipcha
+<U0592> <comma> <Left>                  : "֨"    # Qadma
+<U0592> <comma> <minus>                 : "֖"    # Tipcha
+<U0592> <comma> <period>                : "֛"    # Tevir
+<U0592> <comma> <Right>                 : "֭"    # Dechi
+<U0592> <comma> <underscore>            : "֖"    # Tipcha
+<U0592> <comma> <dead_circumflex>       : "֙"    # Pashta
+<U0592> <comma> <Up>                    : "֙"    # Pashta
+<U0592> <dead_tilde> <space>            : "֘"    # Tsinnorit
+<U0592> <dead_tilde> <Left>             : "֮"    # Zarqa
+<U0592> <dollar> <space>                : "֘"    # Tsinnorit
+<U0592> <dollar> <Left>                 : "֮"    # Zarqa
+<U0592> <less> <asciicircum>            : "֫"    # Oleh
+<U0592> <less> <dead_circumflex>        : "֫"    # Oleh
+<U0592> <less> <dead_caron>             : "֚"    # Yetiv
+<U0592> <less> <Down>                   : "֤"    # Mahpach
+<U0592> <less> <minus>                  : "֚"    # Yetiv
+<U0592> <less> <plus>                   : "֫"    # Oleh
+<U0592> <less> <underscore>             : "֚"    # Yetiv
+<U0592> <less> <Up>                     : "֫"    # Oleh
+<U0592> <masculine> <minus> <space>     : "֩"    # Telisha Qetana
+<U0592> <masculine> <minus> <masculine> : "֟"    # Qarnei Farah
+<U0592> <minus> <Down>                  : "֑"    # Etnachta
+<U0592> <minus> <masculine>             : "֠"    # Telisha Gedola
+<U0592> <notsign> <asciicircum>         : "֬"    # Illuy
+<U0592> <notsign> <dead_circumflex>     : "֬"    # Illuy
+<U0592> <notsign> <dead_caron>          : "֣"    # Munach
+<U0592> <notsign> <Down>                : "֣"    # Munach
+<U0592> <notsign> <underscore>          : "֣"    # Munach
+<U0592> <notsign> <Up>                  : "֬"    # Illuy
+<U0592> <period>                        : "֗"    # Revia
+<U0592> <plus> <plus>                   : "֪"    # Yerach Ben Yomo
+<U0592> <plus> <Up>                     : "֢"    # Atnah Hafuch
+<U0592> <U05F3> <dead_caron>            : "֥"    # Mercha
+<U0592> <U05F3> <Down>                  : "֥"    # Mercha
+<U0592> <U05F3> <space>                 : "֜"    # Cantillation Geresh
+<U0592> <U05F3> <Right>                 : "֝"    # Geresh Muqdam
+<U0592> <U05F3> <underscore>            : "֥"    # Mercha
+<U0592> <U05F4> <dead_caron>            : "֦"    # Mercha Kefulah
+<U0592> <U05F4> <Down>                  : "֦"    # Mercha Kefulah
+<U0592> <U05F4> <underscore>            : "֦"    # Mercha Kefulah
+<U0592> <U05F4>                         : "֞"    # Cantillation Gershayim
+
+##################
+# [END OF RULES] #
+##################
