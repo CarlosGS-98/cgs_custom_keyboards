@@ -60,7 +60,7 @@
 <U0592> <U05F4> <dead_caron>            : "֦"    # Mercha Kefulah
 <U0592> <U05F4> <Down>                  : "֦"    # Mercha Kefulah
 <U0592> <U05F4> <underscore>            : "֦"    # Mercha Kefulah
-<U0592> <U05F4>                         : "֞"    # Cantillation Gershayim
+<U0592> <U05F4> <space>                 : "֞"    # Cantillation Gershayim
 
 ##################
 # [END OF RULES] #

@@ -26,7 +26,7 @@
 <U05BC> <hebrew_taw>       : "תּ"
 
 
-# Basic precomposed letter combinations (Shin Dot)
+# Basic precomposed letter combinations (Sin/Shin Dot)
 <U05BC> <greater> <hebrew_shin> : "שׁ"   # Shin + Shin Dot ([ʃ])
 <U05BC> <less> <hebrew_shin>    : "שׂ"   # Shin + Sin Dot ([s])
 <U05BC> <Left> <hebrew_shin>    : "שׂ"   # Shin + Sin Dot ([s])

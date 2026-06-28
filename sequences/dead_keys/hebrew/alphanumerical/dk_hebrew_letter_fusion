@@ -1,0 +1,45 @@
+# Hebrew Abjad | Letter Fusion Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Unicode_and_HTML_for_the_Hebrew_alphabet
+#
+
+# Consonant Combinations
+<U1DCF> <hebrew_aleph> <hebrew_lamed>           : "ﭏ"   # Aleph + Lamed
+<U1DCF> <hebrew_waw> <hebrew_waw>               : "װ"   # Double Vav
+<U1DCF> <hebrew_waw> <hebrew_yod>               : "ױ"   # Vav + Yod
+<U1DCF> <hebrew_yod> <2>                        : "ײ"   # Double Yod
+<U1DCF> <hebrew_yod> <3>                        : "ׯ"   # Triple Yod/Yod Triangle
+<U1DCF> <hebrew_yod> <hebrew_yod> <space>       : "ײ"   # Double Yod
+<U1DCF> <hebrew_yod> <hebrew_yod> <hebrew_yod>  : "ׯ"   # Triple Yod/Yod Triangle
+
+
+# Consonant + Neqqudot Combinations
+<U1DCF> <hebrew_aleph> <U05B7>              : "אַ"   # Aleph + Patach
+<U1DCF> <hebrew_aleph> <U05B8>              : "אָ"   # Aleph + Kamatz
+<U1DCF> <hebrew_waw> <U05B9>                : "וֹ"   # Vav + Holam
+<U1DCF> <hebrew_waw> <U05BA>                : "וֹ"   # Vav + Holam on Vav
+<U1DCF> <hebrew_yod> <U05B4>                : "יִ"   # Yod + Ḥiriq
+<U1DCF> <hebrew_yod> <hebrew_yod> <U05B7>   : "ײַ"   # Double Yod + Patach
+
+
+# Special Fraction-Like Symbols
+<U1DCF> <hebrew_aleph> <hebrew_shin> <slash>    : "℁"
+<U1DCF> <hebrew_aleph> <slash> <hebrew_shin>    : "℁"
+<U1DCF> <hebrew_zade> <slash> <U05B9>           : "℅"
+<U1DCF> <hebrew_finalzade> <slash> <U05BA>      : "℅"
+<U1DCF> <hebrew_zade> <U05B9> <slash>           : "℅"
+<U1DCF> <hebrew_finalzade> <U05BA> <slash>      : "℅"
+<U1DCF> <slash> <hebrew_aleph> <hebrew_shin>    : "℁"
+<U1DCF> <slash> <hebrew_zade> <U05B9>           : "℅"
+<U1DCF> <slash> <hebrew_finalzade> <U05BA>      : "℅"
+<U1DCF> <slash> <U05B7> <hebrew_shin>           : "℁"
+<U1DCF> <slash> <U05B8> <hebrew_shin>           : "℁"
+<U1DCF> <U05B7> <hebrew_shin> <slash>           : "℁"
+<U1DCF> <U05B7> <slash> <hebrew_shin>           : "℁"
+<U1DCF> <U05B8> <hebrew_shin> <slash>           : "℁"
+<U1DCF> <U05B8> <slash> <hebrew_shin>           : "℁"
+
+##################
+# [END OF RULES] #
+##################

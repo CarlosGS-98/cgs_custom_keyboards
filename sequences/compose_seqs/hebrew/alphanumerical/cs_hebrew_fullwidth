@@ -16,6 +16,7 @@
 <Multi_key> <dollar> <hebrew_kaph> <space>  : "ﬤ"
 <Multi_key> <dollar> <hebrew_lamed> <space> : "ﬥ"
 <Multi_key> <dollar> <hebrew_mem> <space>   : "ﬦ"
+<Multi_key> <dollar> <hebrew_ayin> <space>  : "ﬠ"  # Alternative Ayin
 <Multi_key> <dollar> <hebrew_resh> <space>  : "ﬧ"
 <Multi_key> <dollar> <hebrew_taw> <space>   : "ﬨ"
 
