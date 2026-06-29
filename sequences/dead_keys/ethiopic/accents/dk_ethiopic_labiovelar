@@ -4,7 +4,7 @@
 # [Main source]: https://en.wikipedia.org/wiki/Geʽez_script#Labiovelar_variants
 #
 # [NOTE]: All syllable combinations in this file are formed by fusing the corresponding
-# base consonant + ወ (Wäwe) + vocalized አ (ʼÄlf). These base "vowels" are:
+# base consonant + ወ (Wäwe) [+ ወ (Wäwe)] + vocalized አ (ʼÄlf). These base "vowels" are:
 #   - አ (ʼÄlf + Ä [æ])      [U+12A0 | U12A0]
 #   - ኢ (ʼÄlf + I [i])      [U+12A2 | U12A2]
 #   - ኣ (ʼÄlf + A [aː])     [U+12A3 | U12A3]
@@ -12,21 +12,34 @@
 #   - እ (ʼÄlf + Ə [ɨ])      [U+12A5 | U12A5]
 #
 
+# Syllables starting with "𞟨" (Ḥʷä)
+<U033E> <U1210> <U12C8> <space> : "𞟨"
+<U033E> <U1210> <U12C8> <U12A0> : "𞟨"
+<U033E> <U1210> <U12C8> <U12A2> : "𞟩"
+<U033E> <U1210> <U12C8> <U12A4> : "𞟪"
+<U033E> <U1210> <U12C8> <U12A5> : "𞟫"
+
+
 # Syllables starting with "ᎀ" (Mʷä)
-<U033E> <U1218> <U12C8> <space> : "ᎀ"
-<U033E> <U1218> <U12C8> <U12A0> : "ᎀ"
-<U033E> <U1218> <U12C8> <U12A2> : "ᎁ"
-<U033E> <U1218> <U12C8> <U12A4> : "ᎂ"
-<U033E> <U1218> <U12C8> <U12A5> : "ᎃ"
+<U033E> <U1218> <U12C8> <space>         : "ᎀ"
+<U033E> <U1218> <U12C8> <U12A0>         : "ᎀ"
+<U033E> <U1218> <U12C8> <U12A2>         : "ᎁ"
+<U033E> <U1218> <U12C8> <U12C8> <U12A2> : "𞟭"   # Gurage Mʷi
+<U033E> <U1218> <U12C8> <U12A4>         : "ᎂ"
+<U033E> <U1218> <U12C8> <U12C8> <U12A4> : "𞟮"   # Gurage Mʷe
+<U033E> <U1218> <U12C8> <U12A5>         : "ᎃ"
 
 
 # Syllables starting with "ቈ" (Ḳʷʻä)
-<U033E> <U1240> <U12C8> <space> : "ቈ"
-<U033E> <U1240> <U12C8> <U12A0> : "ቈ"
-<U033E> <U1240> <U12C8> <U12A2> : "ቊ"
-<U033E> <U1240> <U12C8> <U12A3> : "ቋ"
-<U033E> <U1240> <U12C8> <U12A4> : "ቌ"
-<U033E> <U1240> <U12C8> <U12A5> : "ቍ"
+<U033E> <U1240> <U12C8> <space>         : "ቈ"
+<U033E> <U1240> <U12C8> <U12A0>         : "ቈ"
+<U033E> <U1240> <U12C8> <U12A2>         : "ቊ"
+<U033E> <U1240> <U12C8> <U12C8> <U12A2> : "𞟰"   # Gurage Ḳʷʻi
+<U033E> <U1240> <U12C8> <U12A3>         : "ቋ"
+<U033E> <U1240> <U12C8> <U12A4>         : "ቌ"
+<U033E> <U1240> <U12C8> <U12C8> <U12A4> : "𞟱"   # Gurage Ḳʷʻe
+<U033E> <U1240> <U12C8> <U12A5>         : "ቍ"
+<U033E> <U1240> <U12C8> <U12C8> <U12A5> : "𞟲"   # Gurage Ḳʷʻə
 
 
 # Syllables starting with "ቘ" (Qʷä)
@@ -39,11 +52,13 @@
 
 
 # Syllables starting with "ᎄ" (Bʷä)
-<U033E> <U1260> <U12C8> <space> : "ᎄ"
-<U033E> <U1260> <U12C8> <U12A0> : "ᎄ"
-<U033E> <U1260> <U12C8> <U12A2> : "ᎅ"
-<U033E> <U1260> <U12C8> <U12A4> : "ᎆ"
-<U033E> <U1260> <U12C8> <U12A5> : "ᎇ"
+<U033E> <U1260> <U12C8> <space>         : "ᎄ"
+<U033E> <U1260> <U12C8> <U12A0>         : "ᎄ"
+<U033E> <U1260> <U12C8> <U12A2>         : "ᎅ"
+<U033E> <U1260> <U12C8> <U12C8> <U12A2> : "𞟳"   # Gurage Bʷi
+<U033E> <U1260> <U12C8> <U12A4>         : "ᎆ"
+<U033E> <U1260> <U12C8> <U12C8> <U12A4> : "𞟴"   # Gurage Bʷe
+<U033E> <U1260> <U12C8> <U12A5>         : "ᎇ"
 
 
 # Syllables starting with "ኈ" (Ḫʷä)
@@ -56,12 +71,15 @@
 
 
 # Syllables starting with "ኰ" (Kʷä)
-<U033E> <U12A8> <U12C8> <space> : "ኰ"
-<U033E> <U12A8> <U12C8> <U12A0> : "ኰ"
-<U033E> <U12A8> <U12C8> <U12A2> : "ኲ"
-<U033E> <U12A8> <U12C8> <U12A3> : "ኳ"
-<U033E> <U12A8> <U12C8> <U12A4> : "ኴ"
-<U033E> <U12A8> <U12C8> <U12A5> : "ኵ"
+<U033E> <U12A8> <U12C8> <space>         : "ኰ"
+<U033E> <U12A8> <U12C8> <U12A0>         : "ኰ"
+<U033E> <U12A8> <U12C8> <U12A2>         : "ኲ"
+<U033E> <U12A8> <U12C8> <U12C8> <U12A2> : "𞟵"   # Gurage Kʷi
+<U033E> <U12A8> <U12C8> <U12A3>         : "ኳ"
+<U033E> <U12A8> <U12C8> <U12A4>         : "ኴ"
+<U033E> <U12A8> <U12C8> <U12C8> <U12A4> : "𞟶"   # Gurage Kʷe
+<U033E> <U12A8> <U12C8> <U12A5>         : "ኵ"
+<U033E> <U12A8> <U12C8> <U12C8> <U12A5> : "𞟷"   # Gurage Kʷə
 
 
 # Syllables starting with "ዀ" (Xʷä)
@@ -74,12 +92,15 @@
 
 
 # Syllables starting with "ጐ" (Gʷä)
-<U033E> <U1308> <U12C8> <space> : "ጐ"
-<U033E> <U1308> <U12C8> <U12A0> : "ጐ"
-<U033E> <U1308> <U12C8> <U12A2> : "ጒ"
-<U033E> <U1308> <U12C8> <U12A3> : "ጓ"
-<U033E> <U1308> <U12C8> <U12A4> : "ጔ"
-<U033E> <U1308> <U12C8> <U12A5> : "ጕ"
+<U033E> <U1308> <U12C8> <space>         : "ጐ"
+<U033E> <U1308> <U12C8> <U12A0>         : "ጐ"
+<U033E> <U1308> <U12C8> <U12A2>         : "ጒ"
+<U033E> <U1308> <U12C8> <U12C8> <U12A2> : "𞟸"   # Gurage Gʷi
+<U033E> <U1308> <U12C8> <U12A3>         : "ጓ"
+<U033E> <U1308> <U12C8> <U12A4>         : "ጔ"
+<U033E> <U1308> <U12C8> <U12C8> <U12A4> : "𞟹"   # Gurage Gʷe
+<U033E> <U1308> <U12C8> <U12A5>         : "ጕ"
+<U033E> <U1308> <U12C8> <U12C8> <U12A5> : "𞟺"   # Gurage Gʷə
 
 
 # Syllables starting with "ⶓ" (Ŋʷä)
@@ -91,19 +112,23 @@
 
 
 # Syllables starting with "ᎈ" (Fʷä)
-<U033E> <U1348> <U12C8> <space> : "ᎈ"
-<U033E> <U1348> <U12C8> <U12A0> : "ᎈ"
-<U033E> <U1348> <U12C8> <U12A2> : "ᎉ"
-<U033E> <U1348> <U12C8> <U12A4> : "ᎊ"
-<U033E> <U1348> <U12C8> <U12A5> : "ᎋ"
+<U033E> <U1348> <U12C8> <space>         : "ᎈ"
+<U033E> <U1348> <U12C8> <U12A0>         : "ᎈ"
+<U033E> <U1348> <U12C8> <U12A2>         : "ᎉ"
+<U033E> <U1348> <U12C8> <U12C8> <U12A2> : "𞟻"   # Gurage Fʷi
+<U033E> <U1348> <U12C8> <U12A4>         : "ᎊ"
+<U033E> <U1348> <U12C8> <U12C8> <U12A4> : "𞟼"   # Gurage Fʷe
+<U033E> <U1348> <U12C8> <U12A5>         : "ᎋ"
 
 
 # Syllables starting with "ᎌ" (Pʷä)
-<U033E> <U1350> <U12C8> <space> : "ᎌ"
-<U033E> <U1350> <U12C8> <U12A0> : "ᎌ"
-<U033E> <U1350> <U12C8> <U12A2> : "ᎍ"
-<U033E> <U1350> <U12C8> <U12A4> : "ᎎ"
-<U033E> <U1350> <U12C8> <U12A5> : "ᎏ"
+<U033E> <U1350> <U12C8> <space>         : "ᎌ"
+<U033E> <U1350> <U12C8> <U12A0>         : "ᎌ"
+<U033E> <U1350> <U12C8> <U12A2>         : "ᎍ"
+<U033E> <U1350> <U12C8> <U12C8> <U12A2> : "𞟽"   # Gurage Pʷi
+<U033E> <U1350> <U12C8> <U12A4>         : "ᎎ"
+<U033E> <U1350> <U12C8> <U12C8> <U12A4> : "𞟾"   # Gurage Pʷe
+<U033E> <U1350> <U12C8> <U12A5>         : "ᎏ"
 
 ##################
 # [END OF RULES] #
