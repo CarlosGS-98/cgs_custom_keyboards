@@ -1,0 +1,273 @@
+# Geʽez Abugida | Geminated/Composite Geʽez Syllables Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://en.wikipedia.org/wiki/Geʽez_script#Unicode
+#
+# [NOTE]: All syllables contained in this file count as geminated consonant + vowel
+# (or even composite consonants + vowel) pairs, at least according
+# to their main Unicode aliases. Additionally, this file
+# offers an alternative for entering certain Geʽez syllables
+# if they become unavailable as base characters
+# on any SMK-Ethiopic keyboard layout.
+#
+# [NOTE]: All syllable combinations in this file are formed by fusing the corresponding
+# base consonant + vocalized አ (ʼÄlf). These base "vowels" are:
+#   - አ (ʼÄlf + Ä [æ])      [U+12A0 | U12A0]
+#   - ኡ (ʼÄlf + U [u])      [U+12A1 | U12A1]
+#   - ኢ (ʼÄlf + I [i])      [U+12A2 | U12A2]
+#   - ኣ (ʼÄlf + A [aː])     [U+12A3 | U12A3]
+#   - ኤ (ʼÄlf + E [e])      [U+12A4 | U12A4]
+#   - እ (ʼÄlf + Ə [ɨ])      [U+12A5 | U12A5]
+#   - ኦ (ʼÄlf + O [o])      [U+12A6 | U12A6]
+#   - ኧ (ʼÄlf + WA [ʷaː])   [U+12A7 | U12A7]
+#   - ⶊ (ʼÄlf + OA [ɔ])     [U+2D8A | U2D8A]
+#
+
+# Syllables starting with "ሐ" (Ḥäwt/Unicode "Hha")
+<U1200> <U1200> <space> : "ሐ"
+<U1200> <U1200> <U12A0> : "ሐ"
+<U1200> <U1200> <U12A1> : "ሑ"
+<U1200> <U1200> <U12A2> : "ሒ"
+<U1200> <U1200> <U12A3> : "ሓ"
+<U1200> <U1200> <U12A4> : "ሔ"
+<U1200> <U1200> <U12A5> : "ሕ"
+<U1200> <U1200> <U12A6> : "ሖ"
+<U1200> <U1200> <U12A7> : "ሗ"
+
+
+# Syllables starting with "ሸ" (Šä/Unicode "Sha")
+<U1230> <U1200> <space> : "ሸ"
+<U1230> <U1200> <U12A0> : "ሸ"
+<U1230> <U1200> <U12A1> : "ሹ"
+<U1230> <U1200> <U12A2> : "ሺ"
+<U1230> <U1200> <U12A3> : "ሻ"
+<U1230> <U1200> <U12A4> : "ሼ"
+<U1230> <U1200> <U12A5> : "ሽ"
+<U1230> <U1200> <U12A6> : "ሾ"
+<U1230> <U1200> <U12A7> : "ሾ"
+<U1230> <U1200> <U2D8A> : "ⶄ"
+
+
+# Syllables starting with "ⶠ" (Šʼä/Unicode "Ssa")
+<U1230> <U1230> <space> : "ⶠ"
+<U1230> <U1230> <U12A0> : "ⶠ"
+<U1230> <U1230> <U12A1> : "ⶡ"
+<U1230> <U1230> <U12A2> : "ⶢ"
+<U1230> <U1230> <U12A3> : "ⶣ"
+<U1230> <U1230> <U12A4> : "ⶤ"
+<U1230> <U1230> <U12A5> : "ⶥ"
+<U1230> <U1230> <U12A6> : "ⶦ"
+
+
+# Syllables starting with "ሠ" (Śäwt/Unicode "Sza")
+<U1230> <U12D8> <space> : "ሠ"
+<U1230> <U12D8> <U12A0> : "ሠ"
+<U1230> <U12D8> <U12A1> : "ሡ"
+<U1230> <U12D8> <U12A2> : "ሢ"
+<U1230> <U12D8> <U12A3> : "ሣ"
+<U1230> <U12D8> <U12A4> : "ሤ"
+<U1230> <U12D8> <U12A5> : "ሥ"
+<U1230> <U12D8> <U12A6> : "ሦ"
+<U1230> <U12D8> <U12A7> : "ሧ"
+
+
+# Syllables starting with "ቐ" (Qä/Unicode "Qha")
+<U1240> <U1200> <space> : "ቐ"
+<U1240> <U1200> <U12A0> : "ቐ"
+<U1240> <U1200> <U12A1> : "ቑ"
+<U1240> <U1200> <U12A2> : "ቒ"
+<U1240> <U1200> <U12A3> : "ቓ"
+<U1240> <U1200> <U12A4> : "ቔ"
+<U1240> <U1200> <U12A5> : "ቕ"
+<U1240> <U1200> <U12A6> : "ቖ"
+
+
+# Syllables starting with "ጠ" (Ṭäyt/Unicode "Tha")
+<U1270> <U1200> <space> : "ጠ"
+<U1270> <U1200> <U12A0> : "ጠ"
+<U1270> <U1200> <U12A1> : "ጡ"
+<U1270> <U1200> <U12A2> : "ጢ"
+<U1270> <U1200> <U12A3> : "ጣ"
+<U1270> <U1200> <U12A4> : "ጤ"
+<U1270> <U1200> <U12A5> : "ጥ"
+<U1270> <U1200> <U12A6> : "ጦ"
+<U1270> <U1200> <U12A7> : "ጧ"
+<U1270> <U1200> <U2D8A> : "ⶏ"
+
+
+# Syllables starting with "ጸ" (Ṣädäy/Unicode "Tsa")
+<U1270> <U1230> <space> : "ጸ"
+<U1270> <U1230> <U12A0> : "ጸ"
+<U1270> <U1230> <U12A1> : "ጹ"
+<U1270> <U1230> <U12A2> : "ጺ"
+<U1270> <U1230> <U12A3> : "ጻ"
+<U1270> <U1230> <U12A4> : "ጼ"
+<U1270> <U1230> <U12A5> : "ጽ"
+<U1270> <U1230> <U12A6> : "ጾ"
+<U1270> <U1230> <U12A7> : "ጿ"
+
+
+# Syllables starting with "ፀ" (Ṣ́äppä/Unicode "Tza")
+<U1270> <U12D8> <space> : "ፀ"
+<U1270> <U12D8> <U12A0> : "ፀ"
+<U1270> <U12D8> <U12A1> : "ፁ"
+<U1270> <U12D8> <U12A2> : "ፂ"
+<U1270> <U12D8> <U12A3> : "ፃ"
+<U1270> <U12D8> <U12A4> : "ፄ"
+<U1270> <U12D8> <U12A5> : "ፅ"
+<U1270> <U12D8> <U12A6> : "ፆ"
+<U1270> <U12D8> <U2D8A> : "ፇ"
+
+
+# Syllables starting with "ጨ" (Č̣ä/Unicode "Cha")
+<U1278> <U1200> <space> : "ጨ"
+<U1278> <U1200> <U12A0> : "ጨ"
+<U1278> <U1200> <U12A1> : "ጩ"
+<U1278> <U1200> <U12A2> : "ጪ"
+<U1278> <U1200> <U12A3> : "ጫ"
+<U1278> <U1200> <U12A4> : "ጬ"
+<U1278> <U1200> <U12A5> : "ጭ"
+<U1278> <U1200> <U12A6> : "ጮ"
+<U1278> <U1200> <U12A7> : "ጯ"
+<U1278> <U1200> <U2D8A> : "ⶐ"
+
+
+# Syllables starting with "ⶨ" (Čʼä/Unicode "Cca")
+<U1278> <U1278> <space> : "ⶨ"
+<U1278> <U1278> <U12A0> : "ⶨ"
+<U1278> <U1278> <U12A1> : "ⶩ"
+<U1278> <U1278> <U12A2> : "ⶪ"
+<U1278> <U1278> <U12A3> : "ⶫ"
+<U1278> <U1278> <U12A4> : "ⶬ"
+<U1278> <U1278> <U12A5> : "ⶭ"
+<U1278> <U1278> <U12A6> : "ⶮ"
+
+
+# Syllables starting with "ⶸ" (Č̣ʼä/Unicode "Ccha")
+<U1278> <U1278> <U1200> <space> : "ⶸ"
+<U1278> <U1278> <U1200> <U12A0> : "ⶸ"
+<U1278> <U1278> <U1200> <U12A1> : "ⶹ"
+<U1278> <U1278> <U1200> <U12A2> : "ⶺ"
+<U1278> <U1278> <U1200> <U12A3> : "ⶻ"
+<U1278> <U1278> <U1200> <U12A4> : "ⶼ"
+<U1278> <U1278> <U1200> <U12A5> : "ⶽ"
+<U1278> <U1278> <U1200> <U12A6> : "ⶾ"
+<U1328> <U1328> <space>         : "ⶸ"
+<U1328> <U1328> <U12A0>         : "ⶸ"
+<U1328> <U1328> <U12A1>         : "ⶹ"
+<U1328> <U1328> <U12A2>         : "ⶺ"
+<U1328> <U1328> <U12A3>         : "ⶻ"
+<U1328> <U1328> <U12A4>         : "ⶼ"
+<U1328> <U1328> <U12A5>         : "ⶽ"
+<U1328> <U1328> <U12A6>         : "ⶾ"
+
+
+# Syllables starting with "ኘ" (Ñä/Unicode "Nya")
+<U1290> <U12E8> <space> : "ኘ"
+<U1290> <U12E8> <U12A0> : "ኘ"
+<U1290> <U12E8> <U12A1> : "ኙ"
+<U1290> <U12E8> <U12A2> : "ኚ"
+<U1290> <U12E8> <U12A3> : "ኛ"
+<U1290> <U12E8> <U12A4> : "ኜ"
+<U1290> <U12E8> <U12A5> : "ኝ"
+<U1290> <U12E8> <U12A6> : "ኞ"
+<U1290> <U12E8> <U12A7> : "ኟ"
+<U1290> <U12E8> <U2D8A> : "ⶉ"
+
+
+# Syllables starting with "ኸ" (Xä/Unicode "Kxa")
+<U12A8> <U1280> <space> : "ኸ"
+<U12A8> <U1280> <U12A0> : "ኸ"
+<U12A8> <U1280> <U12A1> : "ኹ"
+<U12A8> <U1280> <U12A2> : "ኺ"
+<U12A8> <U1280> <U12A3> : "ኻ"
+<U12A8> <U1280> <U12A4> : "ኼ"
+<U12A8> <U1280> <U12A5> : "ኽ"
+<U12A8> <U1280> <U12A6> : "ኾ"
+
+
+# Syllables starting with "ዠ" (Žä/Unicode "Zha")
+<U12D8> <U1200> <space> : "ዠ"
+<U12D8> <U1200> <U12A0> : "ዠ"
+<U12D8> <U1200> <U12A1> : "ዡ"
+<U12D8> <U1200> <U12A2> : "ዢ"
+<U12D8> <U1200> <U12A3> : "ዣ"
+<U12D8> <U1200> <U12A4> : "ዤ"
+<U12D8> <U1200> <U12A5> : "ዥ"
+<U12D8> <U1200> <U12A6> : "ዦ"
+<U12D8> <U1200> <U12A7> : "ዧ"
+
+
+# Syllables starting with "ⶰ" (Žʼä/Unicode "Zza")
+<U12D8> <U12D8> <space> : "ⶰ"
+<U12D8> <U12D8> <U12A0> : "ⶰ"
+<U12D8> <U12D8> <U12A1> : "ⶱ"
+<U12D8> <U12D8> <U12A2> : "ⶲ"
+<U12D8> <U12D8> <U12A3> : "ⶳ"
+<U12D8> <U12D8> <U12A4> : "ⶴ"
+<U12D8> <U12D8> <U12A5> : "ⶵ"
+<U12D8> <U12D8> <U12A6> : "ⶶ"
+
+
+# Syllables starting with "ዸ" (Dʼä/Unicode "Dda")
+<U12F0> <U12F0> <space> : "ዸ"
+<U12F0> <U12F0> <U12A0> : "ዸ"
+<U12F0> <U12F0> <U12A1> : "ዹ"
+<U12F0> <U12F0> <U12A2> : "ዺ"
+<U12F0> <U12F0> <U12A3> : "ዻ"
+<U12F0> <U12F0> <U12A4> : "ዼ"
+<U12F0> <U12F0> <U12A5> : "ዽ"
+<U12F0> <U12F0> <U12A6> : "ዾ"
+<U12F0> <U12F0> <U12A7> : "ዿ"
+<U12F0> <U12F0> <U2D8A> : "ⶍ"
+
+
+# Syllables starting with "ጘ" (Ŋä/Unicode "Gga")
+<U1308> <U1308> <space> : "ጘ"
+<U1308> <U1308> <U12A0> : "ጘ"
+<U1308> <U1308> <U12A1> : "ጙ"
+<U1308> <U1308> <U12A2> : "ጚ"
+<U1308> <U1308> <U12A3> : "ጛ"
+<U1308> <U1308> <U12A4> : "ጜ"
+<U1308> <U1308> <U12A5> : "ጝ"
+<U1308> <U1308> <U12A6> : "ጞ"
+<U1308> <U1308> <U12A7> : "ጟ"
+
+
+# Syllables starting with "ጰ" (P̣äyt/Unicode "Pha")
+<U1350> <U1200> <space> : "ጰ"
+<U1350> <U1200> <U12A0> : "ጰ"
+<U1350> <U1200> <U12A1> : "ጱ"
+<U1350> <U1200> <U12A2> : "ጲ"
+<U1350> <U1200> <U12A3> : "ጳ"
+<U1350> <U1200> <U12A4> : "ጴ"
+<U1350> <U1200> <U12A5> : "ጵ"
+<U1350> <U1200> <U12A6> : "ጶ"
+<U1350> <U1200> <U12A7> : "ጷ"
+<U1350> <U1200> <U2D8A> : "ⶑ"
+
+
+# Syllables starting with "ⷈ" (Kʲä/Unicode "Kya")
+<U12A8> <U12E8> <space> : "ⷈ"
+<U12A8> <U12E8> <U12A0> : "ⷈ"
+<U12A8> <U12E8> <U12A1> : "ⷉ"
+<U12A8> <U12E8> <U12A2> : "ⷊ"
+<U12A8> <U12E8> <U12A3> : "ⷋ"
+<U12A8> <U12E8> <U12A4> : "ⷌ"
+<U12A8> <U12E8> <U12A5> : "ⷍ"
+<U12A8> <U12E8> <U12A6> : "ⷎ"
+
+
+# Syllables starting with "ⷘ" (Gʲä/Unicode Gya)
+<U1308> <U12E8> <space> : "ⷘ"
+<U1308> <U12E8> <U12A0> : "ⷘ"
+<U1308> <U12E8> <U12A1> : "ⷙ"
+<U1308> <U12E8> <U12A2> : "ⷚ"
+<U1308> <U12E8> <U12A3> : "ⷛ"
+<U1308> <U12E8> <U12A4> : "ⷜ"
+<U1308> <U12E8> <U12A5> : "ⷝ"
+<U1308> <U12E8> <U12A6> : "ⷞ"
+
+##################
+# [END OF RULES] #
+##################
