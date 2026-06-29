@@ -239,6 +239,61 @@
 <U2DD8> <U12A5> : "ⷝ"
 <U2DD8> <U12A6> : "ⷞ"
 
+
+# Syllables starting with "꬀" (Ṭʼä/Unicode "Ttha")
+<UAB00> <space> : "꬀"
+<UAB00> <U12A0> : "꬀"
+<UAB00> <U12A1> : "ꬁ"
+<UAB00> <U12A2> : "ꬂ"
+<UAB00> <U12A3> : "ꬃ"
+<UAB00> <U12A4> : "ꬄ"
+<UAB00> <U12A5> : "ꬅ"
+<UAB00> <U12A6> : "ꬆ"
+
+
+# Syllables starting with "꬈" (Ddhä/Dʰʼä)
+<UAB08> <space> : "꬈"
+<UAB08> <U12A0> : "꬈"
+<UAB08> <U12A1> : "ꬉ"
+<UAB08> <U12A2> : "ꬊ"
+<UAB08> <U12A3> : "ꬋ"
+<UAB08> <U12A4> : "ꬌ"
+<UAB08> <U12A5> : "ꬍ"
+<UAB08> <U12A6> : "ꬎ"
+
+
+# Syllables starting with "꬐" (Dzä/Ẓä)
+<UAB10> <space> : "꬐"
+<UAB10> <U12A0> : "꬐"
+<UAB10> <U12A1> : "ꬑ"
+<UAB10> <U12A2> : "ꬒ"
+<UAB10> <U12A3> : "ꬓ"
+<UAB10> <U12A4> : "ꬔ"
+<UAB10> <U12A5> : "ꬕ"
+<UAB10> <U12A6> : "ꬖ"
+
+
+# Syllables starting with "ꬠ" (Č̣č̣hä/Č̣ʼʰä)
+<UAB20> <space> : "ꬠ"
+<UAB20> <U12A0> : "ꬠ"
+<UAB20> <U12A1> : "ꬡ"
+<UAB20> <U12A2> : "ꬢ"
+<UAB20> <U12A3> : "ꬣ"
+<UAB20> <U12A4> : "ꬤ"
+<UAB20> <U12A5> : "ꬥ"
+<UAB20> <U12A6> : "ꬦ"
+
+
+# Syllables starting with "ꬨ" (Bbä)
+<UAB28> <space> : "ꬨ"
+<UAB28> <U12A0> : "ꬨ"
+<UAB28> <U12A1> : "ꬩ"
+<UAB28> <U12A2> : "ꬪ"
+<UAB28> <U12A3> : "ꬫ"
+<UAB28> <U12A4> : "ꬬ"
+<UAB28> <U12A5> : "ꬭ"
+<UAB28> <U12A6> : "ꬮ"
+
 ##################
 # [END OF RULES] #
 ##################
