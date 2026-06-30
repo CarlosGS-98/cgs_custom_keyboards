@@ -1,0 +1,31 @@
+# Arabic Abjad | Crown Letters Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# [Main source]: https://unicode.org/charts/PDF/Unicode-18.0/U180-10EC0.pdf
+#
+<U10EF9> <Arabic_beh>   : "𐻙"
+<U10EF9> <Arabic_peh>   : "𐻚"
+<U10EF9> <Arabic_teh>   : "𐻛"
+<U10EF9> <Arabic_theh>  : "𐻜"
+<U10EF9> <Arabic_jeem>  : "𐻝"
+<U10EF9> <Arabic_hah>   : "𐻞"
+<U10EF9> <Arabic_khah>  : "𐻟"
+<U10EF9> <Arabic_seen>  : "𐻠"
+<U10EF9> <Arabic_sheen> : "𐻡"
+<U10EF9> <Arabic_sad>   : "𐻢"
+<U10EF9> <Arabic_dad>   : "𐻣"
+<U10EF9> <Arabic_tah>   : "𐻤"
+<U10EF9> <Arabic_zah>   : "𐻥"
+<U10EF9> <Arabic_ain>   : "𐻦"
+<U10EF9> <Arabic_ghain> : "𐻧"
+<U10EF9> <Arabic_feh>   : "𐻨"
+<U10EF9> <Arabic_qaf>   : "𐻩"
+<U10EF9> <Arabic_kaf>   : "𐻪"
+<U10EF9> <Arabic_meem>  : "𐻫"
+<U10EF9> <Arabic_noon>  : "𐻬"
+<U10EF9> <Arabic_ha>    : "𐻭"
+<U10EF9> <Arabic_yeh>   : "𐻮"
+
+##################
+# [END OF RULES] #
+##################

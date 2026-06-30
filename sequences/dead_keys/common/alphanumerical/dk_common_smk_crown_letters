@@ -1,0 +1,16 @@
+# Common Dead Keys | Crown Letters Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for the "Crown Letters" dead key
+# > to transform non-alphabetical characters into their
+# > equivalent Arabic crown letters.
+#
+# [Main source]: https://unicode.org/charts/PDF/Unicode-18.0/U180-10EC0.pdf
+#
+<U10EF9> <space>    : "𐻹"
+<U10EF9> <U10EF9>   : "𐻹"
+
+##################
+# [END OF RULES] #
+##################
