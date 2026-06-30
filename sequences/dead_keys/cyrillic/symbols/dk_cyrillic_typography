@@ -4,6 +4,91 @@
 # [Main source]: https://en.wikipedia.org/wiki/Punctuation
 #
 
+# Control Character Pictures (Alphabetical)
+#
+# [NOTE]: Every character in this section
+# is enclosed inside a pair of single square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Control_Pictures
+#
+<U203B> <bracketleft> <Cyrillic_A> <Cyrillic_TSE> <Cyrillic_KA> <bracketright>                  : "␆"   # Acknowledge
+<U203B> <bracketleft> <Cyrillic_a> <Cyrillic_tse> <Cyrillic_ka> <bracketright>                  : "␆"   # Acknowledge
+<U203B> <bracketleft> <Cyrillic_BE> <minus> <bracketright>                                      : "␢"   # Blank Symbol
+<U203B> <bracketleft> <Cyrillic_be> <minus> <bracketright>                                      : "␢"   # Blank Symbol
+<U203B> <bracketleft> <Cyrillic_BE> <Cyrillic_IE> <Cyrillic_EL> <bracketright>                  : "␇"   # Bell
+<U203B> <bracketleft> <Cyrillic_be> <Cyrillic_ie> <Cyrillic_el> <bracketright>                  : "␇"   # Bell
+<U203B> <bracketleft> <Cyrillic_BE> <Cyrillic_ES> <bracketright>                                : "␈"   # Backspace
+<U203B> <bracketleft> <Cyrillic_be> <Cyrillic_es> <bracketright>                                : "␈"   # Backspace
+<U203B> <bracketleft> <Cyrillic_TSE> <Cyrillic_A> <Cyrillic_EN> <bracketright>                  : "␘"   # Cancel
+<U203B> <bracketleft> <Cyrillic_tse> <Cyrillic_a> <Cyrillic_en> <bracketright>                  : "␘"   # Cancel
+<U203B> <bracketleft> <Cyrillic_TSE> <Cyrillic_ER> <bracketright>                               : "␍"   # Carriage Return
+<U203B> <bracketleft> <Cyrillic_tse> <Cyrillic_er> <bracketright>                               : "␍"   # Carriage Return
+<U203B> <bracketleft> <Cyrillic_DE> <Cyrillic_TSE> <1> <bracketright>                           : "␑"   # Device Control One
+<U203B> <bracketleft> <Cyrillic_de> <Cyrillic_tse> <1> <bracketright>                           : "␑"   # Device Control One
+<U203B> <bracketleft> <Cyrillic_DE> <Cyrillic_TSE> <2> <bracketright>                           : "␒"   # Device Control Two
+<U203B> <bracketleft> <Cyrillic_de> <Cyrillic_tse> <2> <bracketright>                           : "␒"   # Device Control Two
+<U203B> <bracketleft> <Cyrillic_DE> <Cyrillic_TSE> <3> <bracketright>                           : "␓"   # Device Control Three
+<U203B> <bracketleft> <Cyrillic_de> <Cyrillic_tse> <3> <bracketright>                           : "␓"   # Device Control Three
+<U203B> <bracketleft> <Cyrillic_DE> <Cyrillic_TSE> <4> <bracketright>                           : "␔"   # Device Control Four
+<U203B> <bracketleft> <Cyrillic_de> <Cyrillic_tse> <4> <bracketright>                           : "␔"   # Device Control Four
+<U203B> <bracketleft> <Cyrillic_DE> <Cyrillic_IE> <Cyrillic_EL> <bracketright>                  : "␡"   # Delete
+<U203B> <bracketleft> <Cyrillic_de> <Cyrillic_ie> <Cyrillic_el> <bracketright>                  : "␡"   # Delete
+<U203B> <bracketleft> <Cyrillic_DE> <Cyrillic_EL> <Cyrillic_IE> <bracketright>                  : "␐"   # Data Link Escape
+<U203B> <bracketleft> <Cyrillic_de> <Cyrillic_el> <Cyrillic_ie> <bracketright>                  : "␐"   # Data Link Escape
+<U203B> <bracketleft> <Cyrillic_IE> <Cyrillic_EM> <bracketright>                                : "␙"   # End Of Medium
+<U203B> <bracketleft> <Cyrillic_ie> <Cyrillic_em> <bracketright>                                : "␙"   # End Of Medium
+<U203B> <bracketleft> <Cyrillic_IE> <Cyrillic_EN> <U051A> <bracketright>                        : "␅"   # Enquiry
+<U203B> <bracketleft> <Cyrillic_ie> <Cyrillic_en> <U051B> <bracketright>                        : "␅"   # Enquiry
+<U203B> <bracketleft> <Cyrillic_IE> <Cyrillic_O> <Cyrillic_TE> <bracketright>                   : "␄"   # End Of Transmission
+<U203B> <bracketleft> <Cyrillic_ie> <Cyrillic_o> <Cyrillic_te> <bracketright>                   : "␄"   # End Of Transmission
+<U203B> <bracketleft> <Cyrillic_IE> <Cyrillic_ES> <Cyrillic_TSE> <bracketright>                 : "␛"   # Escape
+<U203B> <bracketleft> <Cyrillic_ie> <Cyrillic_es> <Cyrillic_tse> <bracketright>                 : "␛"   # Escape
+<U203B> <bracketleft> <Cyrillic_IE> <Cyrillic_TE> <Cyrillic_BE> <bracketright>                  : "␗"   # End Of Transmission Block
+<U203B> <bracketleft> <Cyrillic_ie> <Cyrillic_te> <Cyrillic_be> <bracketright>                  : "␗"   # End Of Transmission Block
+<U203B> <bracketleft> <Cyrillic_IE> <Cyrillic_TE> <Cyrillic_HA> <bracketright>                  : "␃"   # End Of Text
+<U203B> <bracketleft> <Cyrillic_ie> <Cyrillic_te> <Cyrillic_ha> <bracketright>                  : "␃"   # End Of Text
+<U203B> <bracketleft> <Cyrillic_EF> <Cyrillic_EF> <bracketright>                                : "␌"   # Form Feed
+<U203B> <bracketleft> <Cyrillic_ef> <Cyrillic_ef> <bracketright>                                : "␌"   # Form Feed
+<U203B> <bracketleft> <Cyrillic_EF> <Cyrillic_ES> <bracketright>                                : "␜"   # File Separator
+<U203B> <bracketleft> <Cyrillic_ef> <Cyrillic_es> <bracketright>                                : "␜"   # File Separator
+<U203B> <bracketleft> <Cyrillic_GHE> <Cyrillic_ES> <bracketright>                               : "␝"   # Group Separator
+<U203B> <bracketleft> <Cyrillic_ghe> <Cyrillic_es> <bracketright>                               : "␝"   # Group Separator
+<U203B> <bracketleft> <Cyrillic_SHHA> <Cyrillic_TE> <bracketright>                              : "␉"   # Horizontal Tab
+<U203B> <bracketleft> <Cyrillic_shha> <Cyrillic_te> <bracketright>                              : "␉"   # Horizontal Tab
+<U203B> <bracketleft> <Cyrillic_EL> <Cyrillic_EF> <bracketright>                                : "␊"   # Line Feed
+<U203B> <bracketleft> <Cyrillic_el> <Cyrillic_ef> <bracketright>                                : "␊"   # Line Feed
+<U203B> <bracketleft> <minus> <Cyrillic_BE> <bracketright>                                      : "␢"   # Blank Symbol
+<U203B> <bracketleft> <minus> <Cyrillic_be> <bracketright>                                      : "␢"   # Blank Symbol
+<U203B> <bracketleft> <Cyrillic_EN> <Cyrillic_A> <Cyrillic_TSE> <Cyrillic_KA> <bracketright>    : "␕"   # Negative Acknowledge
+<U203B> <bracketleft> <Cyrillic_en> <Cyrillic_a> <Cyrillic_tse> <Cyrillic_ka> <bracketright>    : "␕"   # Negative Acknowledge
+<U203B> <bracketleft> <Cyrillic_EN> <Cyrillic_EL> <bracketright>                                : "␤"   # Newline
+<U203B> <bracketleft> <Cyrillic_en> <Cyrillic_el> <bracketright>                                : "␤"   # Newline
+<U203B> <bracketleft> <Cyrillic_EN> <Cyrillic_U> <Cyrillic_EL> <bracketright>                   : "␀"   # Null
+<U203B> <bracketleft> <Cyrillic_en> <Cyrillic_u> <Cyrillic_el> <bracketright>                   : "␀"   # Null
+<U203B> <bracketleft> <Cyrillic_ER> <Cyrillic_ES> <bracketright>                                : "␞"   # Record Separator
+<U203B> <bracketleft> <Cyrillic_er> <Cyrillic_es> <bracketright>                                : "␞"   # Record Separator
+<U203B> <bracketleft> <Cyrillic_ES> <Cyrillic_I> <bracketright>                                 : "␏"   # Shift In
+<U203B> <bracketleft> <Cyrillic_es> <Cyrillic_i> <bracketright>                                 : "␏"   # Shift In
+<U203B> <bracketleft> <Cyrillic_ES> <Ukrainian_I> <bracketright>                                : "␏"   # Shift In
+<U203B> <bracketleft> <Cyrillic_es> <Ukrainian_i> <bracketright>                                : "␏"   # Shift In
+<U203B> <bracketleft> <Cyrillic_ES> <Cyrillic_O> <bracketright>                                 : "␎"   # Shift Out
+<U203B> <bracketleft> <Cyrillic_es> <Cyrillic_o> <bracketright>                                 : "␎"   # Shift Out
+<U203B> <bracketleft> <Cyrillic_ES> <Cyrillic_O> <Cyrillic_SHHA> <bracketright>                 : "␁"   # Start Of Heading
+<U203B> <bracketleft> <Cyrillic_es> <Cyrillic_o> <Cyrillic_shha> <bracketright>                 : "␁"   # Start Of Heading
+<U203B> <bracketleft> <Cyrillic_ES> <Cyrillic_PE> <bracketright>                                : "␠"   # Space
+<U203B> <bracketleft> <Cyrillic_es> <Cyrillic_pe> <bracketright>                                : "␠"   # Space
+<U203B> <bracketleft> <Cyrillic_ES> <Cyrillic_U> <Cyrillic_BE> <bracketright>                   : "␚"   # Substitute
+<U203B> <bracketleft> <Cyrillic_es> <Cyrillic_u> <Cyrillic_be> <bracketright>                   : "␚"   # Substitute
+<U203B> <bracketleft> <Cyrillic_ES> <Cyrillic_TE> <Cyrillic_HA> <bracketright>                  : "␂"   # Start Of Text
+<U203B> <bracketleft> <Cyrillic_es> <Cyrillic_te> <Cyrillic_ha> <bracketright>                  : "␂"   # Start Of Text
+<U203B> <bracketleft> <Cyrillic_ES> <Cyrillic_YA> <Cyrillic_EN> <bracketright>                  : "␖"   # Synchronous Idle
+<U203B> <bracketleft> <Cyrillic_es> <Cyrillic_ya> <Cyrillic_en> <bracketright>                  : "␖"   # Synchronous Idle
+<U203B> <bracketleft> <Cyrillic_U> <Cyrillic_ES> <bracketright>                                 : "␟"   # Unit Separator
+<U203B> <bracketleft> <Cyrillic_u> <Cyrillic_es> <bracketright>                                 : "␟"   # Unit Separator
+<U203B> <bracketleft> <Cyrillic_VE> <Cyrillic_TE> <bracketright>                                : "␋"   # Vertical Tab
+<U203B> <bracketleft> <Cyrillic_ve> <Cyrillic_te> <bracketright>                                : "␋"   # Vertical Tab
+
+
 # Dashes
 <U203B> <Cyrillic_EF> <minus>   : "‒"   # Figure dash
 <U203B> <Cyrillic_ef> <minus>   : "‒"   # Figure dash
