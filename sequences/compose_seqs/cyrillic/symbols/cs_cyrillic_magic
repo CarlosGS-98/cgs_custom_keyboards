@@ -1,0 +1,79 @@
+# Cyrillic Alphabet | General Magical Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing all sorts of magical and occult symbols
+# > that can be input with Cyrillic alphabetical characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [NOTE]: All symbols listed here are enclosed inside single parentheses.
+#
+
+# Alchemical Symbols (Alphabetical)
+#
+# [Main source]: https://en.wikipedia.org/wiki/Alchemical_symbol
+#
+<Multi_key> <U232C> <parenleft> <3> <Cyrillic_BE> <parenright>                                      : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <3> <Cyrillic_be> <parenright>                                      : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <3> <Cyrillic_SHA> <parenright>                                     : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <3> <Cyrillic_sha> <parenright>                                     : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <Cyrillic_A> <Cyrillic_EF> <parenright>                             : "🜅"   # Aqua Fortis (Nitric acid [HNO₃])
+<Multi_key> <U232C> <parenleft> <Cyrillic_a> <Cyrillic_ef> <parenright>                             : "🜅"   # Aqua Fortis (Nitric acid [HNO₃])
+<Multi_key> <U232C> <parenleft> <Cyrillic_A> <Cyrillic_ER> <parenright>                             : "🜆"   # Aqua Regia (Nitrohydrochloric acid)
+<Multi_key> <U232C> <parenleft> <Cyrillic_a> <Cyrillic_er> <parenright>                             : "🜇"   # Aqua Regia (Nitrohydrochloric acid)
+<Multi_key> <U232C> <parenleft> <Cyrillic_A> <Cyrillic_VE> <parenright>                             : "🜈"   # Aqua Vitae (Dilute ethanol (aq))
+<Multi_key> <U232C> <parenleft> <Cyrillic_a> <Cyrillic_ve> <parenright>                             : "🜈"   # Aqua Vitae (Dilute ethanol (aq))
+<Multi_key> <U232C> <parenleft> <Cyrillic_TSE> <bar> <parenright>                                   : "🝌"   # Calx
+<Multi_key> <U232C> <parenleft> <Cyrillic_tse> <bar> <parenright>                                   : "🝌"   # Calx
+<Multi_key> <U232C> <parenleft> <dead_macron> <Cyrillic_A> <Cyrillic_A> <Cyrillic_A> <parenright>   : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <Cyrillic_a> <Cyrillic_a> <Cyrillic_a> <parenright>   : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <Cyrillic_A> <3> <parenright>                         : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <Cyrillic_a> <3> <parenright>                         : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <Cyrillic_ER> <parenright>                            : "🝈"   # Tincture
+<Multi_key> <U232C> <parenleft> <dead_macron> <Cyrillic_er> <parenright>                            : "🝈"   # Tincture
+<Multi_key> <U232C> <parenleft> <dead_macron> <Cyrillic_SOFTSIGN> <parenright>                      : "🝃"   # Borax-2
+<Multi_key> <U232C> <parenleft> <dead_macron> <Cyrillic_softsign> <parenright>                      : "🝃"   # Borax-2
+<Multi_key> <U232C> <parenleft> <Cyrillic_EM> <Cyrillic_BE> <parenright>                            : "🝫"   # Bain-Marie
+<Multi_key> <U232C> <parenleft> <Cyrillic_em> <Cyrillic_be> <parenright>                            : "🝫"   # Bain-Marie
+<Multi_key> <U232C> <parenleft> <equal> <Cyrillic_ES> <Cyrillic_ES> <Cyrillic_ES> <parenright>      : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <equal> <Cyrillic_es> <Cyrillic_es> <Cyrillic_es> <parenright>      : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <minus> <Cyrillic_ES> <parenright>                                  : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <minus> <Cyrillic_es> <parenright>                                  : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <U051A> <Cyrillic_IE> <parenright>                                  : "🜀"   # Quintessence
+<Multi_key> <U232C> <parenleft> <U051B> <Cyrillic_ie> <parenright>                                  : "🜀"   # Quintessence
+<Multi_key> <U232C> <parenleft> <Cyrillic_ES> <Cyrillic_BE> <Cyrillic_ES> <parenright>              : "🝉"   # Gum/Resin
+<Multi_key> <U232C> <parenleft> <Cyrillic_ES> <Cyrillic_be> <Cyrillic_ES> <parenright>              : "🝉"   # Gum/Resin
+<Multi_key> <U232C> <parenleft> <Cyrillic_es> <Cyrillic_be> <Cyrillic_es> <parenright>              : "🝉"   # Gum/Resin
+<Multi_key> <U232C> <parenleft> <Cyrillic_ES> <minus> <parenright>                                  : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <Cyrillic_es> <minus> <parenright>                                  : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <Cyrillic_ES> <Cyrillic_ES> <Cyrillic_ES> <parenright>              : "🝜"   # Stratum Super Stratum
+<Multi_key> <U232C> <parenleft> <Cyrillic_es> <Cyrillic_es> <Cyrillic_es> <parenright>              : "🝜"   # Stratum Super Stratum
+<Multi_key> <U232C> <parenleft> <Cyrillic_ES> <Cyrillic_ES> <Cyrillic_ES> <equal> <parenright>      : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <Cyrillic_es> <Cyrillic_es> <Cyrillic_es> <equal> <parenright>      : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <Cyrillic_TE> <parenright>                                          : "🝨"   # Crucible-4
+<Multi_key> <U232C> <parenleft> <Cyrillic_te> <parenright>                                          : "🝨"   # Crucible-4
+<Multi_key> <U232C> <parenleft> <Cyrillic_TE> <Cyrillic_EN> <parenright>                            : "🝂"   # Borax
+<Multi_key> <U232C> <parenleft> <Cyrillic_te> <Cyrillic_en> <parenright>                            : "🝂"   # Borax
+<Multi_key> <U232C> <parenleft> <underscore> <Cyrillic_ES> <Cyrillic_PE> <parenright>               : "🝇"   # Spirit
+<Multi_key> <U232C> <parenleft> <underscore> <Cyrillic_es> <Cyrillic_pe> <parenright>               : "🝇"   # Spirit
+<Multi_key> <U232C> <parenleft> <Cyrillic_VE> <parenright>                                          : "🝦"   # Crucible-2
+<Multi_key> <U232C> <parenleft> <Cyrillic_ve> <parenright>                                          : "🝦"   # Crucible-2
+<Multi_key> <U232C> <parenleft> <Cyrillic_VE> <Cyrillic_BE> <parenright>                            : "🝬"   # Bath of Vapors
+<Multi_key> <U232C> <parenleft> <Cyrillic_ve> <Cyrillic_be> <parenright>                            : "🝬"   # Bath of Vapors
+<Multi_key> <U232C> <parenleft> <U0359> <Cyrillic_VE> <parenright>                                  : "🝣"   # Purification
+<Multi_key> <U232C> <parenleft> <U0359> <Cyrillic_ve> <parenright>                                  : "🝣"   # Purification
+<Multi_key> <U232C> <parenleft> <Cyrillic_HA> <Cyrillic_HA> <parenright>                            : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <Cyrillic_ha> <Cyrillic_ha> <parenright>                            : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <Cyrillic_HA> <2> <parenright>                                      : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <Cyrillic_ha> <2> <parenright>                                      : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <Cyrillic_YA> <parenright>                                          : "🝩"   # Crucible-5
+<Multi_key> <U232C> <parenleft> <Cyrillic_ya> <parenright>                                          : "🝩"   # Crucible-5
+<Multi_key> <U232C> <parenleft> <Cyrillic_ZE> <Cyrillic_BE> <parenright>                            : "🝳"   # Half Ounce
+<Multi_key> <U232C> <parenleft> <Cyrillic_ze> <Cyrillic_be> <parenright>                            : "🝳"   # Half Ounce
+<Multi_key> <U232C> <parenleft> <Cyrillic_ZE> <Cyrillic_SHA> <parenright>                           : "🝳"   # Half Ounce
+<Multi_key> <U232C> <parenleft> <Cyrillic_ze> <Cyrillic_sha> <parenright>                           : "🝳"   # Half Ounce
+
+##################
+# [END OF RULES] #
+##################
