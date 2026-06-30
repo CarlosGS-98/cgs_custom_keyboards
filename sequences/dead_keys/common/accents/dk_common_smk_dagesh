@@ -9,6 +9,7 @@
 # Basic combinations
 <U05BC> <space>             : "ּ"    # Dagesh
 <U05BC> <U05BC>             : "ּ"    # Dagesh
+<U05BC> <asterisk>          : "׉"    # Dagesh Hazaq Mudgash
 <U05BC> <greater> <space>   : "ׁ"    # Shin Dot
 <U05BC> <less> <space>      : "ׂ"    # Sin Dot
 <U05BC> <Left> <space>      : "ׂ"    # Sin Dot

@@ -7,8 +7,9 @@
 #
 
 # Basic combinations
-<U05B0> <space> : "ְ"    # Shva
-<U05B0> <U05B0> : "ְ"    # Shva
+<U05B0> <space>     : "ְ"    # Shva
+<U05B0> <U05B0>     : "ְ"    # Shva
+<U05B0> <asterisk>  : "׈"    # Shva Na Mudgash
 
 ##################
 # [END OF RULES] #
