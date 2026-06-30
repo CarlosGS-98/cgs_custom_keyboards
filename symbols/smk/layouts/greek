@@ -50,7 +50,7 @@ xkb_symbols "basic" {
     key <AE11>	{ [            apostrophe,  question                ] };
     key <AE12>	{ [            exclamdown,  questiondown            ] };
 
-    key <AD01>	{ [                 U03D8,  U03D9,                  U03DF,                  U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
+    key <AD01>	{ [                 U03D9,  U03D8,                  U03DF,                  U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
     key <AD02>	{ [                 U03DD,  U03DC                   ] };                                                // Lowercase Digamma, Uppercase Digamma
     key <AD03>	{ [         Greek_epsilon,  Greek_EPSILON,          EuroSign,               dead_currency       ] };
     key <AD04>	{ [             Greek_rho,  Greek_RHO               ] };
@@ -338,7 +338,7 @@ xkb_symbols "dvorak" {
     key <AC10>	{ [           Greek_sigma,  Greek_SIGMA,            U03F8,                      U03F7               ] };    // "σ", "Σ", Lowercase Sho, Uppercase Sho
 
     key <AB01>	{ [                 minus,  underscore,             dead_stroke,                dead_hook           ] };
-    key <AB02>	{ [                 U03D8,  U03D9,                  U03DF,                      U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
+    key <AB02>	{ [                 U03D9,  U03D8,                  U03DF,                      U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
     key <AB03>	{ [             Greek_chi,  Greek_CHI               ] };
     key <AB04>	{ [           Greek_kappa,  Greek_KAPPA,            U03D7,                      U03CF               ] };    // "κ", "Κ", Lowercase Kai, Uppercase Kai
     key <AB05>	{ [              Greek_xi,  Greek_XI,               U03F2,                      U03F9               ] };    // "ξ", "Ξ", Lowercase Lunate Sigma, Uppercase Lunate Sigma
@@ -435,7 +435,7 @@ xkb_symbols "jcuken" {
     key <AD07>	{ [   Greek_gamma,  Greek_GAMMA     ] };
     key <AD08>	{ [    Greek_zeta,  Greek_ZETA,     U0373,                  U0372               ] };    // "ζ", "Ζ", Lowercase Archaic Sampi, Uppercase Archaic Sampi
     key <AD09>	{ [      Greek_xi,  Greek_XI,       U03F2,                  U03F9               ] };    // "ξ", "Ξ", Lowercase Lunate Sigma, Uppercase Lunate Sigma
-    key <AD10>	{ [         U03D8,  U03D9,          U03DF,                  U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
+    key <AD10>	{ [         U03D9,  U03D8,          U03DF,                  U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
 
     key <AC01>	{ [     Greek_phi,  Greek_PHI       ] };
     key <AC02>	{ [    Greek_iota,  Greek_IOTA,     Greek_eta,              Greek_ETA           ] };

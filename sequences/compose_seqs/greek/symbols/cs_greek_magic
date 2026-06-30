@@ -1,0 +1,83 @@
+# Greek Alphabet | General Magical Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing all sorts of magical and occult symbols
+# > that can be input with Greek alphabetical characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [NOTE]: All symbols listed here are enclosed inside single parentheses.
+#
+
+# Alchemical Symbols (Alphabetical)
+#
+# [Main source]: https://en.wikipedia.org/wiki/Alchemical_symbol
+#
+<Multi_key> <U232C> <parenleft> <3> <Greek_BETA> <parenright>                                           : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <3> <Greek_beta> <parenright>                                           : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <3> <U03F7> <parenright>                                                : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <3> <U03F8> <parenright>                                                : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <Greek_ALPHA> <Greek_PHI> <parenright>                                  : "🜅"   # Aqua Fortis (Nitric acid [HNO₃])
+<Multi_key> <U232C> <parenleft> <Greek_alpha> <Greek_phi> <parenright>                                  : "🜅"   # Aqua Fortis (Nitric acid [HNO₃])
+<Multi_key> <U232C> <parenleft> <Greek_ALPHA> <Greek_RHO> <parenright>                                  : "🜆"   # Aqua Regia (Nitrohydrochloric acid)
+<Multi_key> <U232C> <parenleft> <Greek_alpha> <Greek_rho> <parenright>                                  : "🜇"   # Aqua Regia (Nitrohydrochloric acid)
+<Multi_key> <U232C> <parenleft> <Greek_ALPHA> <U0376> <parenright>                                      : "🜈"   # Aqua Vitae (Dilute ethanol (aq))
+<Multi_key> <U232C> <parenleft> <Greek_alpha> <U0377> <parenright>                                      : "🜈"   # Aqua Vitae (Dilute ethanol (aq))
+<Multi_key> <U232C> <parenleft> <U03FA> <bar> <parenright>                                              : "🝌"   # Calx
+<Multi_key> <U232C> <parenleft> <U03FB> <bar> <parenright>                                              : "🝌"   # Calx
+<Multi_key> <U232C> <parenleft> <U1FB9> <U1FB9> <U1FB9> <parenright>                                    : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <U1FB1> <U1FB1> <U1FB1> <parenright>                                    : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <U1FB9> <3> <parenright>                                                : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <U1FB1> <3> <parenright>                                                : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <Greek_ALPHA> <Greek_ALPHA> <Greek_ALPHA> <parenright>    : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <Greek_alpha> <Greek_alpha> <Greek_alpha> <parenright>    : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <Greek_ALPHA> <3> <parenright>                            : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <Greek_alpha> <3> <parenright>                            : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <Greek_RHO> <parenright>                                  : "🝈"   # Tincture
+<Multi_key> <U232C> <parenleft> <dead_macron> <Greek_rho> <parenright>                                  : "🝈"   # Tincture
+<Multi_key> <U232C> <parenleft> <dead_macron> <U03DC> <parenright>                                      : "🝃"   # Borax-2
+<Multi_key> <U232C> <parenleft> <dead_macron> <U03DD> <parenright>                                      : "🝃"   # Borax-2
+<Multi_key> <U232C> <parenleft> <Greek_MU> <Greek_BETA> <parenright>                                    : "🝫"   # Bain-Marie
+<Multi_key> <U232C> <parenleft> <Greek_mu> <Greek_beta> <parenright>                                    : "🝫"   # Bain-Marie
+<Multi_key> <U232C> <parenleft> <equal> <Greek_SIGMA> <Greek_SIGMA> <Greek_SIGMA> <parenright>          : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <equal> <Greek_sigma> <Greek_sigma> <Greek_sigma> <parenright>          : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <minus> <Greek_SIGMA> <parenright>                                      : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <minus> <Greek_sigma> <parenright>                                      : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <U03D8> <Greek_EPSILON> <parenright>                                    : "🜀"   # Quintessence
+<Multi_key> <U232C> <parenleft> <U03D9> <Greek_epsilon> <parenright>                                    : "🜀"   # Quintessence
+<Multi_key> <U232C> <parenleft> <Greek_SIGMA> <Greek_BETA> <Greek_SIGMA> <parenright>                   : "🝉"   # Gum/Resin
+<Multi_key> <U232C> <parenleft> <Greek_SIGMA> <Greek_beta> <Greek_SIGMA> <parenright>                   : "🝉"   # Gum/Resin
+<Multi_key> <U232C> <parenleft> <Greek_sigma> <Greek_beta> <Greek_sigma> <parenright>                   : "🝉"   # Gum/Resin
+<Multi_key> <U232C> <parenleft> <Greek_SIGMA> <minus> <parenright>                                      : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <Greek_sigma> <minus> <parenright>                                      : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <Greek_SIGMA> <Greek_SIGMA> <Greek_SIGMA> <parenright>                  : "🝜"   # Stratum Super Stratum
+<Multi_key> <U232C> <parenleft> <Greek_sigma> <Greek_sigma> <Greek_sigma> <parenright>                  : "🝜"   # Stratum Super Stratum
+<Multi_key> <U232C> <parenleft> <Greek_SIGMA> <Greek_SIGMA> <Greek_SIGMA> <equal> <parenright>          : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <Greek_sigma> <Greek_sigma> <Greek_sigma> <equal> <parenright>          : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <Greek_TAU> <parenright>                                                : "🝨"   # Crucible-4
+<Multi_key> <U232C> <parenleft> <Greek_tau> <parenright>                                                : "🝨"   # Crucible-4
+<Multi_key> <U232C> <parenleft> <Greek_TAU> <Greek_NU> <parenright>                                     : "🝂"   # Borax
+<Multi_key> <U232C> <parenleft> <Greek_tau> <Greek_nu> <parenright>                                     : "🝂"   # Borax
+<Multi_key> <U232C> <parenleft> <underscore> <Greek_SIGMA> <Greek_PI> <parenright>                      : "🝇"   # Spirit
+<Multi_key> <U232C> <parenleft> <underscore> <Greek_sigma> <Greek_pi> <parenright>                      : "🝇"   # Spirit
+<Multi_key> <U232C> <parenleft> <U0376> <parenright>                                                    : "🝦"   # Crucible-2
+<Multi_key> <U232C> <parenleft> <U0377> <parenright>                                                    : "🝦"   # Crucible-2
+<Multi_key> <U232C> <parenleft> <U0376> <Greek_BETA> <parenright>                                       : "🝬"   # Bath of Vapors
+<Multi_key> <U232C> <parenleft> <U0377> <Greek_beta> <parenright>                                       : "🝬"   # Bath of Vapors
+<Multi_key> <U232C> <parenleft> <U0359> <U0376> <parenright>                                            : "🝣"   # Purification
+<Multi_key> <U232C> <parenleft> <U0359> <U0377> <parenright>                                            : "🝣"   # Purification
+<Multi_key> <U232C> <parenleft> <Greek_XI> <Greek_XI> <parenright>                                      : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <Greek_xi> <Greek_xi> <parenright>                                      : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <Greek_XI> <2> <parenright>                                             : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <Greek_xi> <2> <parenright>                                             : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <U037F> <parenright>                                                    : "🝩"   # Crucible-5
+<Multi_key> <U232C> <parenleft> <U03F3> <parenright>                                                    : "🝩"   # Crucible-5
+<Multi_key> <U232C> <parenleft> <Greek_ZETA> <Greek_BETA> <parenright>                                  : "🝳"   # Half Ounce
+<Multi_key> <U232C> <parenleft> <Greek_zeta> <Greek_beta> <parenright>                                  : "🝳"   # Half Ounce
+<Multi_key> <U232C> <parenleft> <Greek_ZETA> <U03F7> <parenright>                                       : "🝳"   # Half Ounce
+<Multi_key> <U232C> <parenleft> <Greek_zeta> <U03F8> <parenright>                                       : "🝳"   # Half Ounce
+
+##################
+# [END OF RULES] #
+##################
