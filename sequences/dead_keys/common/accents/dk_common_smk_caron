@@ -16,6 +16,10 @@
 <dead_caron> <minus> <space>     : "̬"    # Combining caron below
 <dead_caron> <minus> <minus>     : "ˬ"   # Modifier letter voicing
 
+
+# Arabic extensions
+<dead_caron> <at>   : "ٚ"    # Small Arabic V Above
+
 ##################
 # [END OF RULES] #
 ##################

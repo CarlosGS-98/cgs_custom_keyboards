@@ -17,6 +17,7 @@
 <dead_diaeresis> <Arabic_keheh> : "ػ"
 <dead_diaeresis> <Arabic_gaf>   : "ڱ"   # Ngē/Ŋē
 <dead_diaeresis> <Arabic_ha>    : "ة"   # Tāʾ Marbūṭa
+<dead_diaeresis> <Arabic_waw>   : "ۊ"
 <dead_diaeresis> <Farsi_yeh>    : "ؾ"
 
 

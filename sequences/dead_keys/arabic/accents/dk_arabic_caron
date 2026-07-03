@@ -1,0 +1,29 @@
+# Arabic Abjad | Caron Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter  (Caron/Small V Above)
+<dead_caron> <Arabic_beh>   : "ݖ"
+<dead_caron> <U066E>        : "ݖ"
+<dead_caron> <Arabic_peh>   : "ࢾ"
+<dead_caron> <Arabic_teh>   : "ࢿ"
+<dead_caron> <Arabic_tcheh> : "ࣁ"
+<dead_caron> <Arabic_ra>    : "ڒ"
+<dead_caron> <Arabic_keheh> : "ࣂ"
+<dead_caron> <Arabic_lam>   : "ڵ"
+<dead_caron> <Arabic_noon>  : "ݩ"
+<dead_caron> <Arabic_waw>   : "ۆ"   # Ö/Ü/Kazakh V/Unicode "Oe"
+<dead_caron> <Arabic_yeh>   : "ێ"
+
+
+# Basic precomposed letter  (Caron/Small V Below)
+<dead_caron> <minus> <Arabic_beh>   : "ࢠ"
+<dead_caron> <minus> <U066E>        : "ࢠ"
+
+
+# Other precomposed caron combinations (Unidirectional)
+<dead_caron> <dead_diaeresis> <U066E>               : "ࢿ"
+<dead_caron> <dead_abovedot> <Arabic_noon_ghunna>   : "ݩ"
+
+##################
+# [END OF RULES] #
+##################

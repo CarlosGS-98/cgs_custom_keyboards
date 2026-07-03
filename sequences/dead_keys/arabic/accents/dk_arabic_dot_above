@@ -74,6 +74,7 @@
 <dead_abovedot> <dead_belowdiaeresis> <dead_belowdot> <dead_diaeresis> <Arabic_seen>    : "ڜ"
 <dead_abovedot> <dead_belowdiaeresis> <Arabic_noon_ghunna>                              : "ݧ"
 <dead_abovedot> <dead_belowdiaeresis> <Farsi_yeh>                                       : "ࢩ"
+<dead_abovedot> <dead_caron> <Arabic_noon_ghunna>                                       : "ݩ"
 <dead_abovedot> <dead_belowdot> <dead_diaeresis> <U066E>                                : "ݑ"
 <dead_abovedot> <dead_belowdot> <Arabic_teh>                                            : "ݑ"
 <dead_abovedot> <dead_belowdot> <dead_diaeresis> <Arabic_hah>                           : "ࣅ"
