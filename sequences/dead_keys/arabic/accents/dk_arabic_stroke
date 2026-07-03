@@ -3,6 +3,7 @@
 
 # Basic precomposed letter combinations
 <dead_stroke> <Arabic_hamza>        : "ࢃ"   # Tatwīl + Hamza
+<dead_stroke> <Arabic_ra>           : "ݛ"
 <dead_stroke> <Arabic_lam>          : "ݪ"
 <dead_stroke> <equal> <Arabic_lam>  : "ࢦ"
 <dead_stroke> <minus> <Arabic_lam>  : "ࢦ"

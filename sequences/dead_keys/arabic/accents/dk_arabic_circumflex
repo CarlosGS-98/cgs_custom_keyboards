@@ -1,0 +1,31 @@
+# Arabic Abjad | Circumflex + Circumflex Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter (Circumflex/Inverted Small V Above)
+<dead_circumflex> <Arabic_beh>          : "ݖ"
+<dead_circumflex> <U066E>               : "ݖ"
+<dead_circumflex> <Arabic_hah>          : "ࢊ"
+<dead_circumflex> <Arabic_dal>          : "ۮ"
+<dead_circumflex> <Arabic_ra>           : "ۯ"
+<dead_circumflex> <Arabic_zain>         : "ࢲ"
+<dead_circumflex> <Arabic_noon>         : "ࢉ"
+<dead_circumflex> <Arabic_noon_ghunna>  : "ࢉ"
+<dead_circumflex> <Arabic_ha>           : "ۿ"
+<dead_circumflex> <Arabic_waw>          : "ۉ"   # Kirghiz Yu
+<dead_circumflex> <Farsi_yeh>           : "ؽ"
+
+
+# Basic precomposed letter (Circumflex/Inverted Small V Below)
+<dead_circumflex> <minus> <Arabic_beh>  : "ݕ"
+<dead_circumflex> <minus> <U066E>       : "ݕ"
+<dead_circumflex> <minus> <Arabic_dal>  : "ݚ"
+
+
+# Other precomposed caron combinations (Unidirectional)
+<dead_circumflex> <dead_diaeresis> <U066E>              : "ࢿ"
+<dead_circumflex> <dead_abovedot> <Arabic_ra>           : "ࢲ"   # Zāyn + Inverted V
+<dead_circumflex> <dead_abovedot> <Arabic_noon_ghunna>  : "ݩ"
+
+##################
+# [END OF RULES] #
+##################
