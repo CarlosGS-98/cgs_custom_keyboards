@@ -1,0 +1,13 @@
+# Arabic Abjad | Stroke Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_stroke> <Arabic_hamza>        : "ࢃ"   # Tatwīl + Hamza
+<dead_stroke> <Arabic_lam>          : "ݪ"
+<dead_stroke> <equal> <Arabic_lam>  : "ࢦ"
+<dead_stroke> <minus> <Arabic_lam>  : "ࢦ"
+<dead_stroke> <Arabic_waw>          : "ࢄ"   # Tatwīl + Wāw
+
+##################
+# [END OF RULES] #
+##################
