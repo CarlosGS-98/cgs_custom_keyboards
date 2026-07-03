@@ -1,7 +1,7 @@
 # Cyrillic Alphabet | Currency Symbols Rules
 # [AUTHOR]: Carlos González Sanz
 
-# Precomposed currency letter combinations
+# Precomposed currency letter combinations (Alphabetical)
 # [Main source]: https://en.wikipedia.org/wiki/Currency_symbol
 #
 <dead_currency> <Cyrillic_A> <equal>                                                                : "₳"   # Austral
@@ -39,7 +39,7 @@
 <dead_currency> <Cyrillic_TSE> <Cyrillic_ER>                                                        : "₢"   # Cruzeiro
 <dead_currency> <Cyrillic_TSE> <Cyrillic_er>                                                        : "₢"   # Cruzeiro
 <dead_currency> <Cyrillic_tse> <Cyrillic_er>                                                        : "₢"   # Cruzeiro
-<dead_currency> <Cyrillic_DE> <equal>                                                               : "֏"   # Dram
+<dead_currency> <Cyrillic_DE> <equal>                                                               : "⃃"   # UAE Dirham
 <dead_currency> <Cyrillic_de> <equal>                                                               : "֏"   # Dram
 <dead_currency> <Cyrillic_DE> <Cyrillic_EM>                                                         : "ℳ︁"  # Mark
 <dead_currency> <Cyrillic_de> <Cyrillic_em>                                                         : "ℳ︁"  # Mark
@@ -59,7 +59,7 @@
 <dead_currency> <equal> <Cyrillic_be>                                                               : "₿"   # Bitcoin
 <dead_currency> <equal> <Cyrillic_TSE>                                                              : "₡"   # Colón
 <dead_currency> <equal> <Cyrillic_tse>                                                              : "₡"   # Colón
-<dead_currency> <equal> <Cyrillic_DE>                                                               : "֏"   # Dram
+<dead_currency> <equal> <Cyrillic_DE>                                                               : "⃃"   # UAE Dirham
 <dead_currency> <equal> <Cyrillic_de>                                                               : "֏"   # Dram
 <dead_currency> <equal> <Cyrillic_IE>                                                               : "€"   # Euro sign
 <dead_currency> <equal> <Cyrillic_ie>                                                               : "€"   # Euro sign
@@ -139,6 +139,10 @@
 <dead_currency> <Cyrillic_en> <equal>                                                               : "₦"   # Naira
 <dead_currency> <Cyrillic_EN> <Cyrillic_EM>                                                         : "₻"   # Nordic Mark
 <dead_currency> <Cyrillic_en> <Cyrillic_em>                                                         : "₻"   # Nordic Mark
+<dead_currency> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_A> <Cyrillic_EN> <Cyrillic_I>                  : "⃄"   # Omani Rial
+<dead_currency> <Cyrillic_o> <Cyrillic_em> <Cyrillic_a> <Cyrillic_en> <Cyrillic_i>                  : "⃄"   # Omani Rial
+<dead_currency> <Cyrillic_O> <Cyrillic_EM> <Cyrillic_A> <Cyrillic_EN> <Ukrainian_I>                 : "⃄"   # Omani Rial
+<dead_currency> <Cyrillic_o> <Cyrillic_em> <Cyrillic_a> <Cyrillic_en> <Ukrainian_i>                 : "⃄"   # Omani Rial
 <dead_currency> <Cyrillic_PE> <equal>                                                               : "₱"   # Philippine Peso
 <dead_currency> <Cyrillic_pe> <equal>                                                               : "₱"   # Philippine Peso
 <dead_currency> <Cyrillic_PE> <Cyrillic_EF>                                                         : "₰"   # Pfennig
@@ -161,6 +165,10 @@
 <dead_currency> <Cyrillic_er> <Cyrillic_i> <Cyrillic_a> <Cyrillic_el>                               : "﷼"   # Iranian Rial
 <dead_currency> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_IE> <Cyrillic_EL>                              : "៛"    # Cambodian Riel
 <dead_currency> <Cyrillic_er> <Cyrillic_i> <Cyrillic_ie> <Cyrillic_el>                              : "៛"    # Cambodian Riel
+<dead_currency> <Cyrillic_R> <Cyrillic_I> <Cyrillic_YA> <Cyrillic_L>                                : "⃁"   # Saudi Riyal
+<dead_currency> <Cyrillic_r> <Cyrillic_i> <Cyrillic_ya> <Cyrillic_l>                                : "⃁"   # Saudi Riyal
+<dead_currency> <Cyrillic_R> <Ukrainian_I> <Cyrillic_YA> <Cyrillic_L>                               : "⃁"   # Saudi Riyal
+<dead_currency> <Cyrillic_r> <Ukrainian_i> <Cyrillic_ya> <Cyrillic_l>                               : "⃁"   # Saudi Riyal
 <dead_currency> <Cyrillic_ER> <equal>                                                               : "₹"    # Indian Rupee
 <dead_currency> <Cyrillic_er> <equal>                                                               : "₹"    # Indian Rupee
 <dead_currency> <Cyrillic_ER> <Cyrillic_I> <Cyrillic_ES>                                            : "𞲰"    # Indic Siyaq Rupee mark

@@ -35,9 +35,9 @@
 <dead_greek> <Greek_omicron>                : "ꞷ"   # Latin Omega
 <dead_greek> <Greek_OMEGA>                  : "Ꞷ"   # Latin Omega
 <dead_greek> <Greek_omega>                  : "ꞷ"   # Latin Omega
-<dead_greek> <underscore> <Greek_OMICRON>   : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <Greek_OMICRON>   : "꟝"   # Latin Closed Omega
 <dead_greek> <underscore> <Greek_omicron>   : "ɷ"   # Latin Closed Omega
-<dead_greek> <underscore> <Greek_OMEGA>     : "ɷ"   # Latin Closed Omega
+<dead_greek> <underscore> <Greek_OMEGA>     : "꟝"   # Latin Closed Omega
 <dead_greek> <underscore> <Greek_omega>     : "ɷ"   # Latin Closed Omega
 <dead_greek> <Greek_UPSILON>                : "Ʊ"   # Latin Upsilon
 <dead_greek> <Greek_upsilon>                : "ʊ"   # Latin Upsilon

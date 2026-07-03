@@ -51,11 +51,6 @@
 <U035A> <U1DCF> <Cyrillic_ve> <Cyrillic_ve>     : "ʬ"   # Bilabial percussive
 <U035A> <Cyrillic_ZE>                           : "Ʒ"   # Ezh
 <U035A> <Cyrillic_ze>                           : "ʒ"   # Ezh
-<U035A> <question> <space>                      : "ʔ"   # "?" + IPA Key
-<U035A> <question> <minus>                      : "ʡ"   # "?" + "-" + IPA Key
-<U035A> <question> <underscore> <space>         : "ʕ"   # "?" + "_" + IPA Key
-<U035A> <question> <underscore> <minus>         : "ʢ"   # "?" + "_-" + IPA Key
-
 
 
 # Cyrillic Small Capital Letters

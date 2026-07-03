@@ -151,14 +151,14 @@
 <Multi_key> <numbersign> <plus> <asciicircum> <asterisk> <underscore> <Right> <space>           : "𝅍"   # Black Right Triangle Notehead
 <Multi_key> <numbersign> <plus> <asciicircum> <asterisk> <underscore> <Up> <space>              : "𝅑"   # Black Up Right Triangle Notehead
 <Multi_key> <numbersign> <plus> <asterisk> <underscore> <space>                                 : "𝅘"   # Black Notehead
-<Multi_key> <numbersign> <plus> <bar> <degree> <underscore> <space>                             : "𝅒"   # White Moon Notehead
-<Multi_key> <numbersign> <plus> <bar> <asterisk> <degree> <underscore> <space>                  : "𝅓"   # Black Moon Notehead
+<Multi_key> <numbersign> <plus> <bar> <masculine> <underscore> <space>                          : "𝅒"   # White Moon Notehead
+<Multi_key> <numbersign> <plus> <bar> <asterisk> <masculine> <underscore> <space>               : "𝅓"   # Black Moon Notehead
 <Multi_key> <numbersign> <plus> <bracketleft> <bracketright> <space>                            : "𝅚"   # White Cluster Notehead
 <Multi_key> <numbersign> <plus> <bracketleft> <bracketright> <asterisk> <space>                 : "𝅛"   # Black Cluster Notehead
 <Multi_key> <numbersign> <plus> <bracketleft> <bracketright> <underscore> <space>               : "𝅆"   # White Square Notehead
 <Multi_key> <numbersign> <plus> <bracketleft> <asterisk> <bracketright> <underscore> <space>    : "𝅇"   # Black Square Notehead
-<Multi_key> <numbersign> <plus> <minus> <degree> <underscore> <space>                           : "𝅔"   # White Down Round Triangle Notehead
-<Multi_key> <numbersign> <plus> <minus> <asterisk> <degree> <underscore> <space>                : "𝅕"   # Black Down Round Triangle Notehead
+<Multi_key> <numbersign> <plus> <minus> <masculine> <underscore> <space>                        : "𝅔"   # White Down Round Triangle Notehead
+<Multi_key> <numbersign> <plus> <minus> <asterisk> <masculine> <underscore> <space>             : "𝅕"   # Black Down Round Triangle Notehead
 <Multi_key> <numbersign> <plus> <dead_circumflex> <underscore> <space>                          : "𝅈"   # White Triangle Notehead
 <Multi_key> <numbersign> <plus> <dead_circumflex> <underscore> <Down> <space>                   : "𝅎"   # White Down Triangle Notehead
 <Multi_key> <numbersign> <plus> <dead_circumflex> <underscore> <Left> <space>                   : "𝅊"   # White Left Triangle Notehead
@@ -169,7 +169,7 @@
 <Multi_key> <numbersign> <plus> <dead_circumflex> <asterisk> <underscore> <Left> <space>        : "𝅋"   # Black Left Triangle Notehead
 <Multi_key> <numbersign> <plus> <dead_circumflex> <asterisk> <underscore> <Right> <space>       : "𝅍"   # Black Right Triangle Notehead
 <Multi_key> <numbersign> <plus> <dead_circumflex> <asterisk> <underscore> <Up> <space>          : "𝅑"   # Black Up Right Triangle Notehead
-<Multi_key> <numbersign> <plus> <degree> <underscore> <space>                                   : "𝅅"   # Circle-X Notehead
+<Multi_key> <numbersign> <plus> <masculine> <underscore> <space>                                : "𝅅"   # Circle-X Notehead
 <Multi_key> <numbersign> <plus> <parenleft> <parenright> <underscore> <space>                   : "𝅖"   # Parenthesis Notehead
 <Multi_key> <numbersign> <plus> <underscore> <space>                                            : "𝅄"   # Plus Notehead
 <Multi_key> <numbersign> <plus> <underscore> <3> <space>                                        : "𝅙"   # Null Notehead

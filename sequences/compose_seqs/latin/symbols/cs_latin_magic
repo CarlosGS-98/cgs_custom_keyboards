@@ -1,0 +1,85 @@
+# Latin Alphabet | General Magical Symbols Rules
+# [AUTHOR]: Carlos González Sanz
+#
+# > The purpose of this file is to store default
+# > Compose rules for typing all sorts of magical and occult symbols
+# > that can be input with Latin alphabetical characters
+# > by using the "Miscellaneous Symbols" dead key (<U232C>)
+# > in conjunction with the Compose Key (<Multi_key>).
+#
+# [NOTE]: All symbols listed here are enclosed inside single parentheses.
+#
+
+# Alchemical Symbols (Alphabetical)
+#
+# [Main source]: https://en.wikipedia.org/wiki/Alchemical_symbol
+#
+<Multi_key> <U232C> <parenleft> <3> <B> <parenright>                        : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <3> <b> <parenright>                        : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <3> <U1E9E> <parenright>                    : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <3> <ssharp> <parenright>                   : "🝲"   # Half Dram
+<Multi_key> <U232C> <parenleft> <A> <F> <parenright>                        : "🜅"   # Aqua Fortis (Nitric acid [HNO₃])
+<Multi_key> <U232C> <parenleft> <a> <f> <parenright>                        : "🜅"   # Aqua Fortis (Nitric acid [HNO₃])
+<Multi_key> <U232C> <parenleft> <A> <R> <parenright>                        : "🜆"   # Aqua Regia (Nitrohydrochloric acid)
+<Multi_key> <U232C> <parenleft> <a> <r> <parenright>                        : "🜇"   # Aqua Regia (Nitrohydrochloric acid)
+<Multi_key> <U232C> <parenleft> <A> <V> <parenright>                        : "🜈"   # Aqua Vitae (Dilute ethanol (aq))
+<Multi_key> <U232C> <parenleft> <a> <v> <parenright>                        : "🜈"   # Aqua Vitae (Dilute ethanol (aq))
+<Multi_key> <U232C> <parenleft> <C> <bar> <parenright>                      : "🝌"   # Calx
+<Multi_key> <U232C> <parenleft> <c> <bar> <parenright>                      : "🝌"   # Calx
+<Multi_key> <U232C> <parenleft> <Amacron> <Amacron> <Amacron> <parenright>  : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <amacron> <amacron> <amacron> <parenright>  : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <Amacron> <3> <parenright>                  : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <amacron> <3> <parenright>                  : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <A> <A> <A> <parenright>      : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <a> <a> <a> <parenright>      : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <A> <3> <parenright>          : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <a> <3> <parenright>          : "🝛"   # Mercury Amalgam
+<Multi_key> <U232C> <parenleft> <dead_macron> <R> <parenright>              : "🝈"   # Tincture
+<Multi_key> <U232C> <parenleft> <dead_macron> <r> <parenright>              : "🝈"   # Tincture
+<Multi_key> <U232C> <parenleft> <dead_macron> <W> <parenright>              : "🝃"   # Borax-2
+<Multi_key> <U232C> <parenleft> <dead_macron> <w> <parenright>              : "🝃"   # Borax-2
+<Multi_key> <U232C> <parenleft> <M> <B> <parenright>                        : "🝫"   # Bain-Marie
+<Multi_key> <U232C> <parenleft> <m> <b> <parenright>                        : "🝫"   # Bain-Marie
+<Multi_key> <U232C> <parenleft> <equal> <S> <S> <S> <parenright>            : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <equal> <s> <s> <s> <parenright>            : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <minus> <S> <parenright>                    : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <minus> <s> <parenright>                    : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <Q> <E> <parenright>                        : "🜀"   # Quintessence
+<Multi_key> <U232C> <parenleft> <q> <e> <parenright>                        : "🜀"   # Quintessence
+<Multi_key> <U232C> <parenleft> <S> <B> <S> <parenright>                    : "🝉"   # Gum/Resin
+<Multi_key> <U232C> <parenleft> <S> <b> <S> <parenright>                    : "🝉"   # Gum/Resin
+<Multi_key> <U232C> <parenleft> <s> <b> <s> <parenright>                    : "🝉"   # Gum/Resin
+<Multi_key> <U232C> <parenleft> <S> <minus> <parenright>                    : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <s> <minus> <parenright>                    : "🝡"   # Dissolve/Solvation
+<Multi_key> <U232C> <parenleft> <S> <S> <S> <parenright>                    : "🝜"   # Stratum Super Stratum
+<Multi_key> <U232C> <parenleft> <s> <s> <s> <parenright>                    : "🝜"   # Stratum Super Stratum
+<Multi_key> <U232C> <parenleft> <S> <S> <S> <equal> <parenright>            : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <s> <s> <s> <equal> <parenright>            : "🝝"   # Stratum Super Stratum-2
+<Multi_key> <U232C> <parenleft> <T> <parenright>                            : "🝨"   # Crucible-4
+<Multi_key> <U232C> <parenleft> <t> <parenright>                            : "🝨"   # Crucible-4
+<Multi_key> <U232C> <parenleft> <T> <N> <parenright>                        : "🝂"   # Borax
+<Multi_key> <U232C> <parenleft> <t> <n> <parenright>                        : "🝂"   # Borax
+<Multi_key> <U232C> <parenleft> <underscore> <S> <P> <parenright>           : "🝇"   # Spirit
+<Multi_key> <U232C> <parenleft> <underscore> <s> <p> <parenright>           : "🝇"   # Spirit
+<Multi_key> <U232C> <parenleft> <V> <parenright>                            : "🝦"   # Crucible-2
+<Multi_key> <U232C> <parenleft> <v> <parenright>                            : "🝦"   # Crucible-2
+<Multi_key> <U232C> <parenleft> <V> <B> <parenright>                        : "🝬"   # Bath of Vapors
+<Multi_key> <U232C> <parenleft> <v> <b> <parenright>                        : "🝬"   # Bath of Vapors
+<Multi_key> <U232C> <parenleft> <U01B2> <parenright>                        : "🝣"   # Purification
+<Multi_key> <U232C> <parenleft> <U028B> <parenright>                        : "🝣"   # Purification
+<Multi_key> <U232C> <parenleft> <U0359> <V> <parenright>                    : "🝣"   # Purification
+<Multi_key> <U232C> <parenleft> <U0359> <v> <parenright>                    : "🝣"   # Purification
+<Multi_key> <U232C> <parenleft> <X> <X> <parenright>                        : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <x> <x> <parenright>                        : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <X> <2> <parenright>                        : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <x> <2> <parenright>                        : "🝪"   # Alembic
+<Multi_key> <U232C> <parenleft> <Y> <parenright>                            : "🝩"   # Crucible-5
+<Multi_key> <U232C> <parenleft> <y> <parenright>                            : "🝩"   # Crucible-5
+<Multi_key> <U232C> <parenleft> <Z> <B> <parenright>                        : "🝳"   # Half Ounce
+<Multi_key> <U232C> <parenleft> <z> <b> <parenright>                        : "🝳"   # Half Ounce
+<Multi_key> <U232C> <parenleft> <Z> <U1E9E> <parenright>                    : "🝳"   # Half Ounce
+<Multi_key> <U232C> <parenleft> <z> <ssharp> <parenright>                   : "🝳"   # Half Ounce
+
+##################
+# [END OF RULES] #
+##################

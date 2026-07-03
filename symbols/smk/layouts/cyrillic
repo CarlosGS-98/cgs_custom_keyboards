@@ -245,6 +245,50 @@ xkb_symbols "qwertz" {
 };
 
 partial alphanumeric_keys
+xkb_symbols "latam" {
+    // [NOTE]: This keyboard layout is mostly based off
+    // the Latin-American Spanish one with some minor
+    // adjustments to adapt it to the SMK layout line,
+    // except with Cyrillic letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ º ◌ │ ! 𐤀 │ " ᵅ │ #   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ? Ɂ │ ¡ Ꞌ ┃ ⌫       ┃
+    // │ | ¬ │ 1 \ │ 2 @ │ 3 · │ 4 ¤ │ 5  ᷏ │ 6 ª │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ɂ │ ¿ ꞌ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ԛ Ҁ │ Ь Ъ │ Е Ѣ │ Р   │ Т Ѳ │ Я Ы │ У Ю │ И І │ О Ѡ │ П Ѱ │ ◌̈ ◌̨ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ԛ ҁ │ ь ъ │ е ѣ │ р ₽ │ т ѳ │ я ы │ у ю │ и і │ о ѡ │ п ѱ │ ◌́ ◌̋ │ + ◌̃ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ А Э │ С Ш │ Д Ѕ │ Ф ◌̑ │ Г Ґ │ Һ   │ Ј Ѵ │ К Ҡ │ Л Љ │ Њ ◌̌ │ [   │ ] ◌̏ ┃      ┃
+    // ┃  Lock  ┃ а э │ с ш │ д ѕ │ ф ◌̧ │ г ґ │ һ ₴ │ ј ѵ │ к ҡ │ л љ │ њ ◌̄ │ { ◌̂ │ } ◌̀ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Є │ З Ж │ Х Щ │ Ц Ч │ В ◌̊ │ Б ⌬ │ Н   │ М  ͛ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < є │ з ж │ х щ │ ц ч │ в ◌̆ │ б ※ │ н   │ м ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Cyrillic (Latam ԚЬЕРТЯ)";
+
+    key <TLDE>	{ [          bar,   masculine,      notsign,                U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [            1,   exclam,         backslash,              U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE03>	{ [            3,   numbersign,     periodcentered          ] };
+    key <AE04>	{ [            4,   dollar,         dead_currency           ] };
+    key <AE06>	{ [            6,   ampersand,      ordfeminine             ] };
+    key <AE12>	{ [ questiondown,   exclamdown,     UA78C,                  UA78B               ] };    // "¿", "¡", Lowercase Saltillo, Uppercase Saltillo 
+
+    key <AD11>	{ [   dead_acute,   dead_diaeresis, dead_doubleacute,       dead_ogonek         ] };
+    key <AD12>	{ [         plus,   asterisk,       dead_tilde,             dead_horn           ] };
+
+    key <AC04>	{ [  Cyrillic_ef,   Cyrillic_EF,    dead_cedilla,           dead_invertedbreve  ] };
+    key <AC11>	{ [    braceleft,   bracketleft,    dead_circumflex         ] };
+    key <BKSL>	{ [   braceright,   bracketright,   dead_grave,             dead_doublegrave    ] };
+
+    key <AB03>	{ [ Cyrillic_tse,   Cyrillic_TSE,   Cyrillic_che,           Cyrillic_CHE        ] };
+};
+
+partial alphanumeric_keys
 xkb_symbols "dvorak" {
     // [NOTE]: Keys are arranged mostly in the same way as
     // in the Spanish Dvorak keyboard,
