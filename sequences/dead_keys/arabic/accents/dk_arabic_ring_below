@@ -1,0 +1,26 @@
+# Latin Alphabet | Ring Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations 
+<dead_belowring> <Arabic_teh>   : "ټ"
+<dead_belowring> <Arabic_dal>   : "ډ"
+<dead_belowring> <Arabic_ra>    : "ړ"
+<dead_belowring> <Arabic_noon>  : "ڼ"
+<dead_belowring> <Arabic_yeh>   : "ؠ"   # Kashmiri Yāʾ
+
+
+# Basic precomposed letter combinations (Alternative)
+<dead_abovering> <minus> <Arabic_teh>   : "ټ"
+<dead_abovering> <minus> <Arabic_dal>   : "ډ"
+<dead_abovering> <minus> <Arabic_ra>    : "ړ"
+<dead_abovering> <minus> <Arabic_noon>  : "ڼ"
+<dead_abovering> <minus> <Arabic_yeh>   : "ؠ"   # Kashmiri Yāʾ
+
+
+# Other precomposed ring below combinations (Unidirectional)
+<dead_abovering> <minus> <dead_diaeresis> <U066E>   : "ټ"
+<dead_belowring> <dead_diaeresis> <U066E>           : "ټ"
+
+##################
+# [END OF RULES] #
+##################

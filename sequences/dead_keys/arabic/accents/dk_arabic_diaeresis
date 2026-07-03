@@ -40,8 +40,8 @@
 <dead_diaeresis> <dead_belowdiaeresis> <dead_belowdot> <U066E>                          : "ݓ"
 <dead_diaeresis> <dead_belowdiaeresis> <dead_belowdot> <dead_abovedot> <Arabic_seen>    : "ڜ"
 <dead_diaeresis> <dead_caron> <U066E>                                                   : "ࢿ"
-<dead_diaeresis> <dead_abovering> <minus> <Arabic_teh>                                  : "ټ"
-<dead_diaeresis> <dead_belowring> <Arabic_teh>                                          : "ټ"
+<dead_diaeresis> <dead_abovering> <minus> <U066E>                                       : "ټ"
+<dead_diaeresis> <dead_belowring> <U066E>                                               : "ټ"
 <dead_diaeresis> <dead_abovedot> <U066E>                                                : "ث"   # Ṯāʾ
 <dead_diaeresis> <dead_abovedot> <dead_belowdot> <U066E>                                : "ݑ"
 <dead_diaeresis> <dead_abovedot> <Arabic_hah>                                           : "څ"

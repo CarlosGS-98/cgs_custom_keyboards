@@ -1,0 +1,12 @@
+# Latin Alphabet | Ring Above Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations 
+<dead_abovering> <Arabic_kaf>           : "ګ"
+<dead_abovering> <Arabic_gaf>           : "ڰ"
+<dead_abovering> <Arabic_noon>          : "࢏"
+<dead_abovering> <Arabic_noon_ghunna>   : "࢏"
+
+##################
+# [END OF RULES] #
+##################
