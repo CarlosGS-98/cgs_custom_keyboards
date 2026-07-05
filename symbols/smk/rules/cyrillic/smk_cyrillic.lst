@@ -1,11 +1,12 @@
 ! layout
-  smk/cyrillic         Skorpian Master Keyboard v16.0 (Cyrillic Alphabet)
+  smk/cyrillic         Skorpian Master Keyboard v16.7.5 (Cyrillic Alphabet)
 
 ! variant
   qwerty            smk/cyrillic: SMK-Cyrillic (ԚЬЕРТЯ)
   qwerty_pt         smk/cyrillic: SMK-Cyrillic (Portuguese ԚЬЕРТЯ)
   qwerty_us         smk/cyrillic: SMK-Cyrillic (US ԚЬЕРТЯ)
   qwertz            smk/cyrillic: SMK-Cyrillic (ԚЬЕРТЗ)
+  latam             smk/cyrillic: SMK-Cyrillic (Latam ԚЬЕРТЯ)
   dvorak            smk/cyrillic: SMK-Cyrillic (Дворак)
   colemak           smk/cyrillic: SMK-Cyrillic (Colemak)
   jcuken            smk/cyrillic: SMK-Cyrillic (ЈЦУКЕН)

@@ -4,6 +4,93 @@
 # [Main source]: https://en.wikipedia.org/wiki/Punctuation
 #
 
+# Control Character Pictures (Alphabetical)
+#
+# [NOTE]: Every character in this section
+# is enclosed inside a pair of single square brackets.
+#
+# [Main source]: https://en.wikipedia.org/wiki/Control_Pictures
+#
+<U203B> <bracketleft> <Greek_ALPHA> <U03FA> <Greek_KAPPA> <bracketright>            : "␆"   # Acknowledge
+<U203B> <bracketleft> <Greek_alpha> <U03FB> <Greek_kappa> <bracketright>            : "␆"   # Acknowledge
+<U203B> <bracketleft> <Greek_BETA> <minus> <bracketright>                           : "␢"   # Blank Symbol
+<U203B> <bracketleft> <Greek_beta> <minus> <bracketright>                           : "␢"   # Blank Symbol
+<U203B> <bracketleft> <Greek_BETA> <Greek_EPSILON> <Greek_LAMBDA> <bracketright>    : "␇"   # Bell
+<U203B> <bracketleft> <Greek_beta> <Greek_epsilon> <Greek_lambda> <bracketright>    : "␇"   # Bell
+<U203B> <bracketleft> <Greek_BETA> <Greek_SIGMA> <bracketright>                     : "␈"   # Backspace
+<U203B> <bracketleft> <Greek_beta> <Greek_sigma> <bracketright>                     : "␈"   # Backspace
+<U203B> <bracketleft> <Greek_beta> <Greek_finalsmallsigma> <bracketright>           : "␈"   # Backspace
+<U203B> <bracketleft> <U03FA> <Greek_ALPHA> <Greek_NU> <bracketright>               : "␘"   # Cancel
+<U203B> <bracketleft> <U03FB> <Greek_alpha> <Greek_nu> <bracketright>               : "␘"   # Cancel
+<U203B> <bracketleft> <U03FA> <Greek_RHO> <bracketright>                            : "␍"   # Carriage Return
+<U203B> <bracketleft> <U03FB> <Greek_rho> <bracketright>                            : "␍"   # Carriage Return
+<U203B> <bracketleft> <Greek_DELTA> <U03FA> <1> <bracketright>                      : "␑"   # Device Control One
+<U203B> <bracketleft> <Greek_delta> <U03FB> <1> <bracketright>                      : "␑"   # Device Control One
+<U203B> <bracketleft> <Greek_DELTA> <U03FA> <2> <bracketright>                      : "␒"   # Device Control Two
+<U203B> <bracketleft> <Greek_delta> <U03FB> <2> <bracketright>                      : "␒"   # Device Control Two
+<U203B> <bracketleft> <Greek_DELTA> <U03FA> <3> <bracketright>                      : "␓"   # Device Control Three
+<U203B> <bracketleft> <Greek_delta> <U03FB> <3> <bracketright>                      : "␓"   # Device Control Three
+<U203B> <bracketleft> <Greek_DELTA> <U03FA> <4> <bracketright>                      : "␔"   # Device Control Four
+<U203B> <bracketleft> <Greek_delta> <U03FB> <4> <bracketright>                      : "␔"   # Device Control Four
+<U203B> <bracketleft> <Greek_DELTA> <Greek_EPSILON> <Greek_LAMBDA> <bracketright>   : "␡"   # Delete
+<U203B> <bracketleft> <Greek_delta> <Greek_epsilon> <Greek_lambda> <bracketright>   : "␡"   # Delete
+<U203B> <bracketleft> <Greek_DELTA> <Greek_LAMBDA> <Greek_EPSILON> <bracketright>   : "␐"   # Data Link Escape
+<U203B> <bracketleft> <Greek_delta> <Greek_lambda> <Greek_epsilon> <bracketright>   : "␐"   # Data Link Escape
+<U203B> <bracketleft> <Greek_EPSILON> <Greek_MU> <bracketright>                     : "␙"   # End Of Medium
+<U203B> <bracketleft> <Greek_epsilon> <Greek_mu> <bracketright>                     : "␙"   # End Of Medium
+<U203B> <bracketleft> <Greek_EPSILON> <Greek_NU> <U03D8> <bracketright>             : "␅"   # Enquiry
+<U203B> <bracketleft> <Greek_epsilon> <Greek_nu> <U03D9> <bracketright>             : "␅"   # Enquiry
+<U203B> <bracketleft> <Greek_EPSILON> <Greek_OMICRON> <Greek_TAU> <bracketright>    : "␄"   # End Of Transmission
+<U203B> <bracketleft> <Greek_epsilon> <Greek_omicron> <Greek_tau> <bracketright>    : "␄"   # End Of Transmission
+<U203B> <bracketleft> <Greek_EPSILON> <Greek_SIGMA> <U03FA> <bracketright>          : "␛"   # Escape
+<U203B> <bracketleft> <Greek_epsilon> <Greek_sigma> <U03FB> <bracketright>          : "␛"   # Escape
+<U203B> <bracketleft> <Greek_EPSILON> <Greek_TAU> <Greek_BETA> <bracketright>       : "␗"   # End Of Transmission Block
+<U203B> <bracketleft> <Greek_epsilon> <Greek_tau> <Greek_beta> <bracketright>       : "␗"   # End Of Transmission Block
+<U203B> <bracketleft> <Greek_EPSILON> <Greek_TAU> <Greek_XI> <bracketright>         : "␃"   # End Of Text
+<U203B> <bracketleft> <Greek_epsilon> <Greek_tau> <Greek_xi> <bracketright>         : "␃"   # End Of Text
+<U203B> <bracketleft> <Greek_PHI> <Greek_PHI> <bracketright>                        : "␌"   # Form Feed
+<U203B> <bracketleft> <Greek_phi> <Greek_phi> <bracketright>                        : "␌"   # Form Feed
+<U203B> <bracketleft> <Greek_PHI> <Greek_SIGMA> <bracketright>                      : "␜"   # File Separator
+<U203B> <bracketleft> <Greek_phi> <Greek_sigma> <bracketright>                      : "␜"   # File Separator
+<U203B> <bracketleft> <Greek_phi> <Greek_finalsmallsigma> <bracketright>            : "␜"   # File Separator
+<U203B> <bracketleft> <Greek_GAMMA> <Greek_SIGMA> <bracketright>                    : "␝"   # Group Separator
+<U203B> <bracketleft> <Greek_gamma> <Greek_sigma> <bracketright>                    : "␝"   # Group Separator
+<U203B> <bracketleft> <Greek_gamma> <Greek_finalsmallsigma> <bracketright>          : "␝"   # Group Separator
+<U203B> <bracketleft> <U0370> <Greek_TAU> <bracketright>                            : "␉"   # Horizontal Tab
+<U203B> <bracketleft> <U0371> <Greek_tau> <bracketright>                            : "␉"   # Horizontal Tab
+<U203B> <bracketleft> <Greek_LAMBDA> <Greek_PHI> <bracketright>                     : "␊"   # Line Feed
+<U203B> <bracketleft> <Greek_lambda> <Greek_phi> <bracketright>                     : "␊"   # Line Feed
+<U203B> <bracketleft> <minus> <Greek_BETA> <bracketright>                           : "␢"   # Blank Symbol
+<U203B> <bracketleft> <minus> <Greek_beta> <bracketright>                           : "␢"   # Blank Symbol
+<U203B> <bracketleft> <Greek_NU> <Greek_ALPHA> <U03FA> <Greek_KAPPA> <bracketright> : "␕"   # Negative Acknowledge
+<U203B> <bracketleft> <Greek_nu> <Greek_alpha> <U03FB> <Greek_kappa> <bracketright> : "␕"   # Negative Acknowledge
+<U203B> <bracketleft> <Greek_NU> <Greek_LAMBDA> <bracketright>                      : "␤"   # Newline
+<U203B> <bracketleft> <Greek_nu> <Greek_lambda> <bracketright>                      : "␤"   # Newline
+<U203B> <bracketleft> <Greek_NU> <Greek_UPSILON> <Greek_LAMBDA> <bracketright>      : "␀"   # Null
+<U203B> <bracketleft> <Greek_nu> <Greek_upsilon> <Greek_lambda> <bracketright>      : "␀"   # Null
+<U203B> <bracketleft> <Greek_RHO> <Greek_SIGMA> <bracketright>                      : "␞"   # Record Separator
+<U203B> <bracketleft> <Greek_rho> <Greek_sigma> <bracketright>                      : "␞"   # Record Separator
+<U203B> <bracketleft> <Greek_rho> <Greek_finalsmallsigma> <bracketright>            : "␞"   # Record Separator
+<U203B> <bracketleft> <Greek_SIGMA> <Greek_IOTA> <bracketright>                     : "␏"   # Shift In
+<U203B> <bracketleft> <Greek_sigma> <Greek_iota> <bracketright>                     : "␏"   # Shift In
+<U203B> <bracketleft> <Greek_SIGMA> <Greek_OMICRON> <bracketright>                  : "␎"   # Shift Out
+<U203B> <bracketleft> <Greek_sigma> <Greek_omicron> <bracketright>                  : "␎"   # Shift Out
+<U203B> <bracketleft> <Greek_SIGMA> <Greek_OMICRON> <U0370> <bracketright>          : "␁"   # Start Of Heading
+<U203B> <bracketleft> <Greek_sigma> <Greek_omicron> <U0371> <bracketright>          : "␁"   # Start Of Heading
+<U203B> <bracketleft> <Greek_SIGMA> <Greek_PI> <bracketright>                       : "␠"   # Space
+<U203B> <bracketleft> <Greek_sigma> <Greek_pi> <bracketright>                       : "␠"   # Space
+<U203B> <bracketleft> <Greek_SIGMA> <Greek_UPSILON> <Greek_BETA> <bracketright>     : "␚"   # Substitute
+<U203B> <bracketleft> <Greek_sigma> <Greek_upsilon> <Greek_beta> <bracketright>     : "␚"   # Substitute
+<U203B> <bracketleft> <Greek_SIGMA> <Greek_TAU> <Greek_XI> <bracketright>           : "␂"   # Start Of Text
+<U203B> <bracketleft> <Greek_sigma> <Greek_tau> <Greek_xi> <bracketright>           : "␂"   # Start Of Text
+<U203B> <bracketleft> <Greek_SIGMA> <U037F> <Greek_NU> <bracketright>               : "␖"   # Synchronous Idle
+<U203B> <bracketleft> <Greek_sigma> <U037F> <Greek_nu> <bracketright>               : "␖"   # Synchronous Idle
+<U203B> <bracketleft> <Greek_UPSILON> <Greek_SIGMA> <bracketright>                  : "␟"   # Unit Separator
+<U203B> <bracketleft> <Greek_upsilon> <Greek_sigma> <bracketright>                  : "␟"   # Unit Separator
+<U203B> <bracketleft> <U0376> <Greek_TAU> <bracketright>                            : "␋"   # Vertical Tab
+<U203B> <bracketleft> <U0377> <Greek_tau> <bracketright>                            : "␋"   # Vertical Tab
+
+
 # Dashes
 <U203B> <Greek_PHI> <minus> : "‒"   # Figure dash
 <U203B> <Greek_phi> <minus> : "‒"   # Figure dash

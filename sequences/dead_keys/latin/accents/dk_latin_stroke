@@ -7,6 +7,8 @@
 # - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
 # - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
 #
+<dead_stroke> <A>                                   : "𝽀"
+<dead_stroke> <a>                                   : "𝽁"
 <dead_stroke> <UA738>                               : "Ꜻ"  # Ꜹ + Stroke
 <dead_stroke> <UA739>                               : "ꜻ"   # ꜹ + Stroke
 <dead_stroke> <U1DCF> <A> <V>                       : "Ꜻ"  # Ꜹ + Stroke
@@ -38,12 +40,24 @@
 <dead_stroke> <U0237>                               : "ɟ"   # ȷ (Dotless J) + Stroke
 <dead_stroke> <U035A> <J>                           : "ɟ"   # ȷ (Dotless J) + Stroke
 <dead_stroke> <U035A> <j>                           : "ɟ"   # ȷ (Dotless J) + Stroke
-<dead_stroke> <K>                                   : "Ꝁ"
-<dead_stroke> <k>                                   : "ꝁ"
+<dead_stroke> <K>                                   : "𝽈"
+<dead_stroke> <k>                                   : "𝽉"
+<dead_stroke> <minus> <K>                           : "Ꝁ"
+<dead_stroke> <minus> <k>                           : "ꝁ"
 <dead_stroke> <L>                                   : "Ƚ"
 <dead_stroke> <l>                                   : "ƚ"
+<dead_stroke> <equal> <L>                           : "Ⱡ"
+<dead_stroke> <equal> <l>                           : "ⱡ"
+<dead_stroke> <minus> <L>                           : "Ꝉ"
+<dead_stroke> <minus> <l>                           : "ꝉ"
 <dead_stroke> <UA7DA>                               : "Ƛ"   # Ꟛ (Latin Lambda) + Stroke
 <dead_stroke> <UA7DB>                               : "ƛ"   # ꟛ (Latin Lambda) + Stroke
+<dead_stroke> <M>                                   : "𝽊"
+<dead_stroke> <m>                                   : "𝽋"
+<dead_stroke> <N>                                   : "𝽍"
+<dead_stroke> <n>                                   : "𝽎"
+<dead_stroke> <eng>                                 : "𝽏"
+<dead_stroke> <U0359> <n>                           : "𝽏"
 <dead_stroke> <O>                                   : "Ɵ"
 <dead_stroke> <o>                                   : "ɵ"
 <dead_stroke> <P>                                   : "Ᵽ"
@@ -71,8 +85,12 @@
 <dead_stroke> <U035A> <u>                           : "ᵾ"
 <dead_stroke> <U028A>                               : "ᵿ"   # ʊ (Latin Upsilon) + Stroke
 <dead_stroke> <dead_greek> <dead_circumflex> <u>    : "ᵿ"   # ʊ (Latin Upsilon) + Stroke
+<dead_stroke> <V>                                   : "𝽑"
+<dead_stroke> <v>                                   : "𝽒"
+<dead_stroke> <w>                                   : "𝼿"
 <dead_stroke> <Y>                                   : "Ɏ"
 <dead_stroke> <y>                                   : "ɏ"
+<dead_stroke> <minus> <y>                           : "𝽕"
 <dead_stroke> <Z>                                   : "Ƶ"
 <dead_stroke> <z>                                   : "ƶ"
 <dead_stroke> <U0294>                               : "ʡ"   # ʔ (Glottal Stop) + Stroke

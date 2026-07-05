@@ -147,14 +147,14 @@
 <U221D> <bar> <c>           : "⋔"   # Pitchfork
 <U221D> <C> <bar>           : "⋔"   # Pitchfork
 <U221D> <c> <bar>           : "⋔"   # Pitchfork
-<U221D> <equal> <G>         : "≎"   # Geomatrically equivalent to
-<U221D> <equal> <g>         : "≎"   # Geomatrically equivalent to
+<U221D> <equal> <G>         : "≎"   # Geometrically equivalent to
+<U221D> <equal> <g>         : "≎"   # Geometrically equivalent to
 <U221D> <equal> <minus> <G> : "≏"   # Difference between
 <U221D> <equal> <minus> <g> : "≏"   # Difference between
 <U221D> <equal> <V>         : "≚"   # Equiangular to
 <U221D> <equal> <v>         : "≚"   # Equiangular to
-<U221D> <G> <equal>         : "≎"   # Geomatrically equivalent to
-<U221D> <g> <equal>         : "≎"   # Geomatrically equivalent to
+<U221D> <G> <equal>         : "≎"   # Geometrically equivalent to
+<U221D> <g> <equal>         : "≎"   # Geometrically equivalent to
 <U221D> <minus> <equal> <G> : "≏"   # Difference between
 <U221D> <minus> <equal> <g> : "≏"   # Difference between
 <U221D> <V> <equal>         : "≚"   # Equiangular to

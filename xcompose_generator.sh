@@ -23,8 +23,8 @@ KSC_COMPOSE_HEADER=$(cat <<EOF
 # Feel free to (un)comment (out) any "include" statement you want.
 #
 # Skorpian Master Keyboard (SMK):
-#   - [CODENAME]:   Penguin Land
-#   - [VERSION]:    16.0
+#   - [CODENAME]:   Oldworldium
+#   - [VERSION]:    16.7.5
 #
 
 # Mandatory locale rules

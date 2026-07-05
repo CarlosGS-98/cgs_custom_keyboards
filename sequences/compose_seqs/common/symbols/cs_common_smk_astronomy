@@ -3,7 +3,7 @@
 #
 # > The purpose of this file is to store default
 # > Compose rules for typing astronomical symbols
-# > that can be input with alphabetical Latin characters
+# > that can be input with non-alphabetical characters
 # > by using the "Miscellaneous Symbols" dead key (<U232C>)
 # > in conjunction with the Compose Key (<Multi_key>).
 #
