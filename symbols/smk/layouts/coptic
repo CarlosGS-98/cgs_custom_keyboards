@@ -1,0 +1,480 @@
+// Coptic Alphabet | XKB Keyboard Symbols
+// [AUTHOR]: Carlos González Sanz
+
+// [NOTE]: These keyboards are partially based upon the
+// default "es" symbols in regards to the
+// physical key layout.
+//
+// Put this file on either ~/.config/xkb/symbols
+// or in the same directory as
+// the other system-wide keyboard layouts.
+
+// Default SMK-Coptic Keyboard
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    // [NOTE]: Keys are arranged the same way as
+    // in the standard Spanish QWERTY keyboard,
+    // except with Coptic letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $   │ %   │ & ⳤ │ / ⳽ │ ( ↻ │ ) ⳿ │ = ↺ │ ? Ⲳ │ ¿ Ⲵ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ⲳ │ ¡ ⲵ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ⳝ   │ Ⳣ   │ Ⲉ ¤ │ Ⲣ   │ Ⲧ Ⲑ │ Ⲏ   │ Ⲩ   │ Ⲓ   │ Ⲟ Ⲱ │ Ⲡ Ⲯ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ⳝ   │ ⳣ   │ ⲉ € │ ⲣ   │ ⲧ ⲑ │ ⲏ   │ ⲩ   │ ⲓ   │ ⲟ ⲱ │ ⲡ ⲯ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Ⲁ   │ Ⲥ Ϣ │ Ⲇ Ϯ │ Ⲫ Ϥ │ Ⲅ Ϫ │ Ϩ Ⳉ │ Ⲭ Ϧ │ Ⲕ Ⳳ │ Ⲗ   │ Ⳡ ◌̌ │ ◌̈ ◌̋ │ Ϭ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ ⲁ   │ ⲥ ϣ │ ⲇ ϯ │ ⲫ ϥ │ ⲅ ϫ │ ϩ ⳉ │ ⲭ ϧ │ ⲕ ⳳ │ ⲗ   │ ⳡ ◌̄ │ ◌́ { │ ϭ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ Ⲍ Ⳃ │ Ⲝ   │ Ⲋ ◌̑ │ Ⳁ ◌̊ │ Ⲃ ⌬ │ Ⲛ Ⳟ │ Ⲙ  ͛ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ <   │ ⲍ ⳃ │ ⲝ   │ ⲋ ◌̧ │ ⳁ ◌̆ │ ⲃ ※ │ ⲛ ⳟ │ ⲙ ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Coptic (ⳜⳢⲈⲢⲦⲎ)";
+
+    key <TLDE>	{ [  masculine,  ordfeminine,       backslash,                  U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [          1,  exclam,            bar,                        U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [          2,  quotedbl,          at,                         dead_greek          ] };
+    key <AE03>	{ [          3,  periodcentered,    numbersign                  ] };
+    key <AE04>	{ [          4,  dollar,            dead_tilde                  ] };
+    key <AE05>	{ [          5,  percent,           U1DCF                       ] };                        // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [          6,  ampersand,         notsign,                    U2CE4               ] };    // U+2CE4 = Coptic Kai Symbol
+    key <AE07>	{ [          7,  slash,             dead_longsolidusoverlay,    U2CFD               ] };    // U+2CFD = Coptic Fraction ½
+    key <AE08>	{ [          8,  parenleft,         U221D,                      U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [          9,  parenright,        U1DFB,                      U2CFF               ] };    // U+1DFB = "Historical Letters" Dead Key; U+2CFF = "Cryptogrammic Letters" Dead Key
+    key <AE10>	{ [          0,  equal,             U035A,                      U21BA               ] };    // U+035A = "IPA Symbols" Dead Key; U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [ apostrophe,  question,          U2CB3,                      U2CB2               ] };    // "'", "?", Lowercase Coptic Alef, Uppercase Coptic Alef
+    key <AE12>	{ [ exclamdown,  questiondown,      U2CB5,                      U2CB4               ] };    // "¡", "¿", Lowercase Coptic Ain, Uppercase Coptic Ain
+
+    key <AD01>	{ [      U2CDD,  U2CDC              ] };                                                    // Ⳝ (Old Nubian Shima)
+    key <AD02>	{ [      U2CE3,  U2CE2              ] };                                                    // Ⳣ (Old Nubian Wau)
+    key <AD03>	{ [      U2C89,  U2C88,             EuroSign,                   dead_currency       ] };    // Ⲉ (Eie); "€", "Currency Symbols" Dead Key
+    key <AD04>	{ [      U2CA3,  U2CA2              ] };                                                    // Ⲣ (Ro)
+    key <AD05>	{ [      U2CA7,  U2CA6,             U2C91,                      U2C90               ] };    // Ⲧ (Coptic Tau); Ⲑ (Thethe)
+    key <AD06>	{ [      U2C8F,  U2C8E              ] };                                                    // Ⲏ (Hate)
+    key <AD07>	{ [      U2CA9,  U2CA8              ] };                                                    // Ⲩ (Ua)
+    key <AD08>	{ [      U2C93,  U2C92              ] };                                                    // Ⲓ (Iauda)
+    key <AD09>	{ [      U2C9F,  U2C9E,             U2CB1,                      U2CB0               ] };    // Ⲟ (Coptic O); Ⲱ (Ōu)
+    key <AD10>	{ [      U2CA1,  U2CA0,             U2CAF,                      U2CAE               ] };    // Ⲡ (Coptic Pi); Ⲯ (Coptic Psi)
+    key <AD11>	{ [ dead_grave,  dead_circumflex,   bracketleft,                dead_doublegrave    ] };
+    key <AD12>	{ [       plus,  asterisk,          bracketright,               dead_horn           ] };
+
+    key <AC01>	{ [      U2C81,  U2C80              ] };                                                    // Ⲁ (Coptic Alfa)
+    key <AC02>	{ [      U2CA5,  U2CA4,             U03E3,                      U03E2               ] };    // Ⲥ (Sima); Ϣ (Shei)
+    key <AC03>	{ [      U2C87,  U2C86,             U03EF,                      U03EE               ] };    // Ⲇ (Dalda); Ϯ (Dei)
+    key <AC04>	{ [      U2CAB,  U2CAA,             U03E5,                      U03E4               ] };    // Ⲫ (Coptic Fi); Ϥ (Fei)
+    key <AC05>	{ [      U2C85,  U2C84              ] };                                                    // Ⲅ (Coptic Gamma)
+    key <AC06>	{ [      U03E9,  U03E8,             U2CC9,                      U2CC8               ] };    // Ϩ (Hori); Ⳉ (Akhmimic Khei)
+    key <AC07>	{ [      U2CAD,  U2CAC,             U03E7,                      U03E6               ] };    // Ⲭ (Coptic Khi); Ϧ (Khei)
+    key <AC08>	{ [      U2C95,  U2C94,             U2CF3,                      U2CF2               ] };    // Ⲕ (Kapa); Ⳳ (Bohairic Khei)
+    key <AC09>	{ [      U2C97,  U2C96              ] };                                                    // Ⲗ (Laula)
+    key <AC10>	{ [      U2CE1,  U2CE0,             dead_macron,                dead_caron          ] };    // Lowercase Old Nubian Nyi; Uppercase Old Nubian Nyi, "Macron" Dead Key, "Caron" Dead Key
+    key <AC11>	{ [ dead_acute,  dead_diaeresis,    braceleft,                  dead_doubleacute    ] };
+    key <BKSL>	{ [      U03ED,  U03EC,             braceright,                 dead_ogonek         ] };    // Lowercase Shima; Uppercase Shima, "}", "Ogonek" Dead Key
+
+    key <LSGT>	{ [       less,  greater            ] };
+    key <AB01>	{ [      U2C8D,  U2C8C,             U2CC3,                      U2CC2               ] };    // Ⲍ (Zata); Ⳃ (Crossed Shei)
+    key <AB02>	{ [      U2C9D,  U2C9C              ] };                                                    // Ⲝ (Coptic Ksi)
+    key <AB03>	{ [      U2C8B,  U2C8A,             dead_cedilla,               dead_invertedbreve  ] };    // Lowercase Sō; Uppercase Sō; "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AB04>	{ [      U2CC1,  U2CC0,             dead_breve,                 dead_abovering      ] };    // Lowercase Coptic Sampi; Uppercase Coptic Sampi; "Breve" Dead Key, "Ring Above" Dead Key
+    key <AB05>	{ [      U2C83,  U2C82,             U203B,                      U232C               ] };    // Ⲃ (Vida); U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB06>	{ [      U2C9B,  U2C9A,             U2CDF,                      U2CDE               ] };    // Ⲛ (Coptic Ni); Ⳟ (Old Nubian Ngi)
+    key <AB07>	{ [      U2C99,  U2C98,             U0359,                      U035B               ] };    // Ⲙ (Coptic Ni); U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AB08>	{ [      comma,  semicolon,         dead_belowcomma             ] };
+    key <AB09>	{ [     period,  colon,             dead_abovedot,              dead_belowdot       ] };
+    key <AB10>	{ [      minus,  underscore,        dead_stroke,                dead_hook           ] };
+
+    key <SPCE>  { [      space,  space,             nobreakspace                ] };
+
+    // Default modifiers
+    include "level3(ralt_switch)"
+    include "compose(rctrl-altgr)"  // As a middle ground (feel free to change this line if you want or need to)
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty" {
+    include "smk/coptic(basic)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_pt" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Portuguese QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements, except with
+    // Coptic letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ | Ⲵ │ !   │ " ᵅ │ # · │ $   │ % ⳽ │ & ⳤ │ / ◌̸ │ ( ∝ │ ) ↻ │ = ↺ │ ? Ⲳ │ » ¿ ┃ ⌫       ┃
+    // │ \ ⲵ │ 1 𐤀‎ │ 2 @ │ 3 £ │ 4 § │ 5  ᷏ │ 6 ¬ │ 7 { │ 8 [ │ 9 ] │ 0 } │ ' ⲳ │ « ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ⳝ   │ Ⳣ   │ Ⲉ ¤ │ Ⲣ   │ Ⲧ Ⲑ │ Ⲏ   │ Ⲩ   │ Ⲓ   │ Ⲟ Ⲱ │ Ⲡ Ⲯ │ * ◌ │ ◌̀ ◌̏ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ⳝ   │ ⳣ   │ ⲉ € │ ⲣ   │ ⲧ ⲑ │ ⲏ   │ ⲩ   │ ⲓ   │ ⲟ ⲱ │ ⲡ ⲯ │ + ◌̈ │ ◌́ ◌̋ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Ⲁ   │ Ⲥ Ϣ │ Ⲇ Ϯ │ Ⲫ Ϥ │ Ⲅ Ϫ │ Ϩ Ⳉ │ Ⲭ Ϧ │ Ⲕ Ⳳ │ Ⲗ   │ Ϭ ◌̌ │ ª  ͚ │ ◌̂ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ ⲁ   │ ⲥ ϣ │ ⲇ ϯ │ ⲫ ϥ │ ⲅ ϫ │ ϩ ⳉ │ ⲭ ϧ │ ⲕ ⳳ │ ⲗ   │ ϭ ◌̄ │ º  ᷘ │ ◌̃ ◌̛ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Ⳡ │ Ⲍ Ⳃ │ Ⲝ   │ Ⲋ ◌̑ │ Ⳁ ◌̊ │ Ⲃ ⌬ │ Ⲛ Ⳟ │ Ⲙ  ͛ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < ⳡ │ ⲍ ⳃ │ ⲝ   │ ⲋ ◌̧ │ ⳁ ◌̆ │ ⲃ ※ │ ⲛ ⳟ │ ⲙ ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/coptic(basic)"
+
+    name[Group1]= "SMK-Greek (Portuguese ⳜⳢⲈⲢⲦⲎ)";
+
+    key <TLDE>	{ [     backslash,  bar,               U2CB5,                  U2CB4                   ] };     // "\", "|", Lowercase Coptic Ain, Uppercase Coptic Ain
+    key <AE01>	{ [             1,  exclam,            U10900                  ] };                             // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE03>	{ [             3,  numbersign,        sterling,               periodcentered          ] };
+    key <AE04>	{ [             4,  dollar,            section                 ] };
+    key <AE05>	{ [             5,  percent,           U1DCF,                  U2CFD                   ] };     // U+1DCF = "Letter Fusion" Dead Key; U+2CFD = Coptic Fraction ½
+    key <AE07>	{ [             7,  slash,             braceleft,              dead_longsolidusoverlay ] };
+    key <AE08>	{ [             8,  parenleft,         bracketleft,            U221D                   ] };     // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [             9,  parenright,        bracketright,           U21BB                   ] };     // U+21BB = "Arrows" Dead Key
+    key <AE10>	{ [             0,  equal,             braceright,             U21BA                   ] };     // U+21BA = "Letter Flip" Dead Key
+    key <AE12>	{ [ guillemetleft,  guillemetright,    exclamdown,             questiondown            ] };
+
+    key <AD11>	{ [          plus,  asterisk,          dead_diaeresis,         U25CC                   ] };     // U+25CC = Dotted Circle
+    key <AD12>	{ [    dead_acute,  dead_grave,        dead_doubleacute,       dead_doublegrave        ] };
+
+    key <AC10>	{ [         U03ED,  U03EC,             dead_macron,            dead_caron              ] };     // Lowercase Shima; Uppercase Shima, "Macron" Dead Key, "Caron" Dead Key
+    key <AC11>	{ [     masculine,  ordfeminine,       U1DCF,                  U035A                   ] };     // U+1DCF = "Letter Fusion" Dead Key; U+035A = "IPA Symbols" Dead Key
+    key <BKSL>	{ [    dead_tilde,  dead_circumflex,   dead_horn,              dead_ogonek             ] };
+
+    key <LSGT>	{ [          less,  greater,           U2CE1,                  U2CE0                   ] };     // "<", ">", Lowercase Old Nubian Nyi, Uppercase Old Nubian Nyi
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_us" {
+    // [NOTE]: This layout is based off a mixture between
+    // the American QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements, except with
+    // Coptic letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌̃ ◌ │ !   │ @   │ #   │ $   │ %   │ ◌̂   │ & ⳽ │ * ↻ │ ( ⳿ │ ) ↺ │ _ ◌̄ │ + ¿ ┃ ⌫       ┃
+    // │ ◌̀ ◌̏ │ 1 𐤀‎ │ 2 ᵅ │ 3 · │ 4 ¤ │ 5  ᷏ │ 6 ¬ │ 7 ⳤ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ - ◌̵ │ = ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ⳝ   │ Ⳣ   │ Ⲉ   │ Ⲣ   │ Ⲧ Ⲑ │ Ⲏ   │ Ⲩ   │ Ⲓ   │ Ⲟ Ⲱ │ Ⲡ Ⲯ │ { Ⲳ │ } Ⲵ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ⳝ   │ ⳣ   │ ⲉ   │ ⲣ   │ ⲧ ⲑ │ ⲏ   │ ⲩ   │ ⲓ   │ ⲟ ⲱ │ ⲡ ⲯ │ [ ⲳ │ ] ⲵ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Ⲁ   │ Ⲥ Ϣ │ Ⲇ Ϯ │ Ⲫ Ϥ │ Ⲅ Ϫ │ Ϩ Ⳉ │ Ⲭ Ϧ │ Ⲕ Ⳳ │ Ⲗ Ⳡ │ : ◌̌ │ " ◌̋ │ | ◌̛ ┃      ┃
+    // ┃  Lock  ┃ ⲁ   │ ⲥ ϣ │ ⲇ ϯ │ ⲫ ϥ │ ⲅ ϫ │ ϩ ⳉ │ ⲭ ϧ │ ⲕ ⳳ │ ⲗ ⳡ │ ; ◌̈ │ ' ◌́ │ \ ◌̨ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ | Ϭ │ Ⲍ Ⳃ │ Ⲝ   │ Ⲋ ◌̑ │ Ⳁ ◌̊ │ Ⲃ ⌬ │ Ⲛ Ⳟ │ Ⲙ  ͛ │ <   │ > ◌̣ │ ? ◌̉ ┃              ┃
+    // ┃Shift ┃ \ ϭ │ ⲍ ⳃ │ ⲝ   │ ⲋ ◌̧ │ ⳁ ◌̆ │ ⲃ ※ │ ⲛ ⳟ │ ⲙ ◌̡̢ │ , ◌̦ │ . ◌̇ │ / ◌̸ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/coptic(basic)"
+
+    name[Group1]= "SMK-Coptic (US ⳜⳢⲈⲢⲦⲎ)";
+
+    key <TLDE>	{ [   dead_grave,  dead_tilde,        dead_doublegrave,         U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [            1,  exclam,            U10900                    ] };                        // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [            2,  at,                dead_greek                ] };
+    key <AE03>	{ [            3,  numbersign,        periodcentered            ] };
+    key <AE04>	{ [            4,  dollar,            dead_currency             ] };
+    key <AE05>	{ [            5,  percent,           U1DCF                     ] };                        // U+1DCF = "Letter Fusion" Dead Key
+    key <AE06>	{ [            6,  dead_circumflex,   notsign                   ] };
+    key <AE07>	{ [            7,  ampersand,         U2CE4,                    U2CFD               ] };    // U+2CE4 = Coptic Kai Symbol; U+2CFD = Coptic Fraction ½
+    key <AE08>	{ [            8,  asterisk,          U221D,                    U21BB               ] };    // U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [            9,  parenleft,         U1DFB                     ] };                        // U+1DFB = "Historical Letters" Dead Key
+    key <AE10>	{ [            0,  parenright,        U035A,                    U21BA               ] };    // U+035A = "IPA Symbols" Dead Key; U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [        minus,  underscore,        dead_stroke,              dead_macron         ] };
+    key <AE12>	{ [        equal,  plus,              exclamdown,               questiondown        ] };
+
+    key <AD03>	{ [        U2C89,  U2C88              ] };                                                  // Ⲉ (Eie)
+    key <AD11>	{ [  bracketleft,  braceleft,         U2CB3,                    U2CB2               ] };    // "[", "{", Lowercase Coptic Alef, Uppercase Coptic Alef
+    key <AD12>	{ [ bracketright,  braceright,        U2CB5,                    U2CB4               ] };    // "]", "}", Lowercase Coptic Ain, Uppercase Coptic Ain
+
+    key <AC10>	{ [    semicolon,  colon,             dead_diaeresis,           dead_caron          ] };
+    key <AC11>	{ [   apostrophe,  quotedbl,          dead_acute,               dead_doubleacute    ] };
+    key <BKSL>	{ [    backslash,  bar,               dead_ogonek,              dead_horn           ] };
+
+    key <LSGT>	{ [    backslash,  bar,               U03ED,                    U03EC               ] };    // "\", "|", Lowercase Shima, Uppercase Shima
+    key <AB08>	{ [        comma,  less,              dead_belowcomma           ] };
+    key <AB09>	{ [       period,  greater,           dead_abovedot,            dead_belowdot       ] };
+    key <AB10>	{ [       minus,   underscore,        dead_longsolidusoverlay,  dead_hook           ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwertz" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Austrian-German QWERTZ keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements, only with
+    // Coptic letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀‎ │ " ᵅ │ §   │ $   │ %   │ & ⳤ │ / ⳽ │ ( ↻ │ ) ⳿ │ = ↺ │ ? Ⲳ │ ¿ Ⲵ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 ² │ 3 ³ │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ · ⲳ │ ¡ ⲵ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ⳝ   │ Ⳣ   │ Ⲉ ¤ │ Ⲣ   │ Ⲧ Ⲑ │ Ⲍ Ⳃ │ Ⲩ   │ Ⲓ   │ Ⲟ Ⲱ │ Ⲡ Ⲯ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ⳝ @ │ ⳣ   │ ⲉ € │ ⲣ   │ ⲧ ⲑ │ ⲍ ⳃ │ ⲩ   │ ⲓ   │ ⲟ ⲱ │ ⲡ ⲯ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Ⲁ   │ Ⲥ Ϣ │ Ⲇ Ϯ │ Ⲫ Ϥ │ Ⲅ Ϫ │ Ϩ Ⳉ │ Ⲭ Ϧ │ Ⲕ Ⳳ │ Ⲗ   │ Ⳡ ◌̌ │ ◌̈ ◌̋ │ ' ◌̨ ┃      ┃
+    // ┃  Lock  ┃ ⲁ   │ ⲥ ϣ │ ⲇ ϯ │ ⲫ ϥ │ ⲅ ϫ │ ϩ ⳉ │ ⲭ ϧ │ ⲕ ⳳ │ ⲗ   │ ⳡ ◌̄ │ ◌́ { │ # } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Ϭ │ Ⲏ   │ Ⲝ   │ Ⲋ ◌̑ │ Ⳁ ◌̊ │ Ⲃ ⌬ │ Ⲛ Ⳟ │ Ⲙ  ͛ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < ϭ │ ⲏ   │ ⲝ   │ ⲋ ◌̧ │ ⳁ ◌̆ │ ⲃ ※ │ ⲛ ⳟ │ ⲙ ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/coptic(basic)"
+
+    name[Group1]= "SMK-Coptic (ⳜⳢⲈⲢⲦⲌ)";
+
+    key <AE02>	{ [              2, quotedbl,   twosuperior,    dead_greek  ] };
+    key <AE03>	{ [              3, section,    threesuperior   ] };
+    key <AE11>	{ [ periodcentered, question,   U2CB3,          U2CB2       ] };    // "'", "?", Lowercase Coptic Alef, Uppercase Coptic Alef
+
+
+    key <AD01>	{ [          U2CDD, U2CDC,      at              ] };                // Ⳝ (Old Nubian Shima); "@"
+    key <AD06>	{ [          U2C8D, U2C8C,      U2CC3,          U2CC2       ] };    // Ⲍ (Zata); Ⳃ (Crossed Shei)
+    key <AD07>	{ [          U2CA9, U2CA8       ] };                                // Ⲩ (Ua)
+
+    key <BKSL>	{ [     numbersign, apostrophe, braceright,     dead_ogonek ] };
+
+    key <LSGT>	{ [           less, greater,    U03ED,          U03EC       ] };    // "<", ">", Lowercase Shima, Uppercase Shima
+    key <AB01>	{ [          U2C8F, U2C8E       ] };                                // Ⲏ (Hate)
+};
+
+partial alphanumeric_keys
+xkb_symbols "latam" {
+    // [NOTE]: This keyboard layout is mostly based off
+    // the Coptic-American Spanish one with some minor
+    // adjustments to adapt it to the SMK layout line.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ º ◌ │ ! 𐤀‎ │ "   │ #   │ $   │ %   │ & ⳤ │ / ⳽ │ ( ↻ │ ) ⳿ │ = ↺ │ ? Ⲳ │ ¿ Ⲵ ┃ ⌫       ┃
+    // │ | ¬ │ 1 \ │ 2 ᵅ │ 3 · │ 4 ¤ │ 5  ᷏ │ 6 ª │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ⲳ │ ¡ ⲵ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ⳝ   │ Ⳣ   │ Ⲉ   │ Ⲣ   │ Ⲧ Ⲑ │ Ⲏ   │ Ⲩ   │ Ⲓ   │ Ⲟ Ⲱ │ Ⲡ Ⲯ │ ◌̈ ◌̨ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ⳝ @ │ ⳣ   │ ⲉ   │ ⲣ   │ ⲧ ⲑ │ ⲏ   │ ⲩ   │ ⲓ   │ ⲟ ⲱ │ ⲡ ⲯ │ ◌́ ◌̋ │ + ◌̃ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Ⲁ   │ Ⲥ Ϣ │ Ⲇ Ϯ │ Ⲫ Ϥ │ Ⲅ Ϫ │ Ϩ Ⳉ │ Ⲭ Ϧ │ Ⲕ Ⳳ │ Ⲗ   │ Ⳡ ◌̌ │ [   │ ] ◌̏ ┃      ┃
+    // ┃  Lock  ┃ ⲁ   │ ⲥ ϣ │ ⲇ ϯ │ ⲫ ϥ │ ⲅ ϫ │ ϩ ⳉ │ ⲭ ϧ │ ⲕ ⳳ │ ⲗ   │ ⳡ ◌̄ │ { ◌̂ │ } ◌̀ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > Ϭ │ Ⲍ Ⳃ │ Ⲝ   │ Ⲋ ◌̑ │ Ⳁ ◌̊ │ Ⲃ ⌬ │ Ⲛ Ⳟ │ Ⲙ  ͛ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < ϭ │ ⲍ ⳃ │ ⲝ   │ ⲋ ◌̧ │ ⳁ ◌̆ │ ⲃ ※ │ ⲛ ⳟ │ ⲙ ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Coptic (Latam ⳜⳢⲈⲢⲦⲎ)";
+
+    key <TLDE>	{ [          bar,   masculine,      notsign,                U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [            1,   exclam,         backslash,              U10900              ] };    // U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [            2,   quotedbl,       dead_greek              ] };
+    key <AE03>	{ [            3,   numbersign,     periodcentered          ] };
+    key <AE04>	{ [            4,   dollar,         dead_currency           ] };
+    key <AE06>	{ [            6,   ampersand,      ordfeminine,            U2CE4               ] };    // U+2CE4 = Coptic Kai Symbol
+
+    key <AD01>	{ [        U2CDD,   U2CDC,          at                      ] };                        // Ⳝ (Old Nubian Shima); "@"
+    key <AD03>	{ [        U2C89,   U2C88           ] };                                                // Ⲉ (Eie); "€", "Currency Symbols" Dead Key
+    key <AD11>	{ [   dead_acute,   dead_diaeresis, dead_doubleacute,       dead_ogonek         ] };
+    key <AD12>	{ [         plus,   asterisk,       dead_tilde,             dead_horn           ] };
+
+    key <AC11>	{ [    braceleft,   bracketleft,    dead_circumflex         ] };
+    key <BKSL>	{ [   braceright,   bracketright,   dead_grave,             dead_doublegrave    ] };
+
+    key <LSGT>	{ [         less,   greater,        U03ED,                  U03EC               ] };    // "<", ">", Lowercase Shima, Uppercase Shima
+};
+
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Dvorak keyboard, only with Coptic
+    // letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀‎ │ " ᵅ │ ·   │ $   │ % € │ & ⳤ │ / ⳽ │ ( ↻ │ ) ⳿ │ = ↺ │ ? Ⲳ │ ¿ Ⲵ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ⲳ │ ¡ ⲵ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ : ◌̣ │ ;   │ Ⳡ ◌̌ │ Ⲡ Ⲯ │ Ⲏ   │ Ⲫ Ϥ │ Ⲅ Ϫ │ Ⲋ ◌̑ │ Ϩ Ⳉ │ Ⲗ   │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ . ◌̇ │ , ◌̦ │ ⳡ ◌̄ │ ⲡ ⲯ │ ⲏ   │ ⲫ ϥ │ ⲅ ϫ │ ⲋ ◌̧ │ ϩ ⳉ │ ⲗ   │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Ⲁ   │ Ⲟ Ⲱ │ Ⲉ   │ Ⲩ   │ Ⲓ   │ Ⲇ Ϯ │ Ⲣ   │ Ⲧ Ⲑ │ Ⲛ Ⳟ │ Ⲥ Ϣ │ ◌̈ ◌̋ │ Ϭ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ ⲁ   │ ⲟ ⲱ │ ⲉ ¤ │ ⲩ   │ ⲓ   │ ⲇ ϯ │ ⲣ   │ ⲧ ⲑ │ ⲛ ⳟ │ ⲥ ϣ │ ◌́ { │ ϭ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ _ ◌̉ │ Ⳝ   │ Ⲭ Ϧ │ Ⲕ Ⳳ │ Ⲝ   │ Ⲃ ⌬ │ Ⲙ  ͛ │ Ⳣ   │ Ⳁ ◌̊ │ Ⲍ Ⳃ ┃              ┃
+    // ┃Shift ┃ <   │ - ◌̵ │ ⳝ   │ ⲭ ϧ │ ⲕ ⳳ │ ⲝ   │ ⲃ ※ │ ⲙ ◌̡̢ │ ⳣ   │ ⳁ ◌̆ │ ⲍ ⳃ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/coptic(basic)"
+
+    name[Group1]= "SMK-Coptic (Ⲇⲱⲣⲁⲕ)";
+
+    key <AE05>	{ [          5,  percent,           U1DCF,              EuroSign            ] };    // U+1DCF = "Letter Fusion" Dead Key
+
+    key <AD01>	{ [     period,  colon,             dead_abovedot,      dead_belowdot       ] };
+    key <AD02>	{ [      comma,  semicolon,         dead_belowcomma     ] };
+    key <AD03>	{ [      U2CE1,  U2CE0,             dead_macron,        dead_caron          ] };    // Lowercase Old Nubian Nyi; Uppercase Old Nubian Nyi, "Macron" Dead Key, "Caron" Dead Key
+    key <AD04>	{ [      U2CA1,  U2CA0,             U2CAF,              U2CAE               ] };    // Ⲡ (Coptic Pi); Ⲯ (Coptic Psi)
+    key <AD05>	{ [      U2C8F,  U2C8E              ] };                                            // Ⲏ (Hate)
+    key <AD06>	{ [      U2CAB,  U2CAA,             U03E5,              U03E4               ] };    // Ⲫ (Coptic Fi); Ϥ (Fei)
+    key <AD07>	{ [      U2C85,  U2C84              ] };                                            // Ⲅ (Coptic Gamma)
+    key <AD08>	{ [      U2C8B,  U2C8A,             dead_cedilla,       dead_invertedbreve  ] };    // Lowercase Sō; Uppercase Sō; "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AD09>	{ [      U03E9,  U03E8,             U2CC9,              U2CC8               ] };    // Ϩ (Hori); Ⳉ (Akhmimic Khei)
+    key <AD10>	{ [      U2C97,  U2C96              ] };                                            // Ⲗ (Laula)
+
+    key <AC02>	{ [      U2C9F,  U2C9E,             U2CB1,              U2CB0               ] };    // Ⲟ (Coptic O); Ⲱ (Ōu)
+    key <AC03>	{ [      U2C89,  U2C88,             dead_currency       ] };                        // Ⲉ (Eie); "Currency Symbols" Dead Key
+    key <AC04>	{ [      U2CA9,  U2CA8              ] };                                            // Ⲩ (Ua)
+    key <AC05>	{ [      U2C93,  U2C92              ] };                                            // Ⲓ (Iauda)
+    key <AC06>	{ [      U2C87,  U2C86,             U03EF,              U03EE               ] };    // Ⲇ (Dalda); Ϯ (Dei)
+    key <AC07>	{ [      U2CA3,  U2CA2              ] };                                            // Ⲣ (Ro)
+    key <AC08>	{ [      U2CA7,  U2CA6,             U2C91,              U2C90               ] };    // Ⲧ (Coptic Tau); Ⲑ (Thethe)
+    key <AC09>	{ [      U2C9B,  U2C9A,             U2CDF,              U2CDE               ] };    // Ⲛ (Coptic Ni); Ⳟ (Old Nubian Ngi)
+    key <AC10>	{ [      U2CA5,  U2CA4,             U03E3,              U03E2               ] };    // Ⲥ (Sima); Ϣ (Shei)
+
+    key <AB01>	{ [      minus,  underscore,        dead_stroke,        dead_hook           ] };
+    key <AB02>	{ [      U2CDD,  U2CDC              ] };                                            // Ⳝ (Old Nubian Shima)
+    key <AB03>	{ [      U2CAD,  U2CAC,             U03E7,              U03E6               ] };    // Ⲭ (Coptic Khi); Ϧ (Khei)
+    key <AB04>	{ [      U2C95,  U2C94,             U2CF3,              U2CF2               ] };    // Ⲕ (Kapa); Ⳳ (Bohairic Khei)
+    key <AB05>	{ [      U2C9D,  U2C9C              ] };                                            // Ⲝ (Coptic Ksi)
+    key <AB06>	{ [      U2C83,  U2C82,             U203B,              U232C               ] };    // Ⲃ (Vida); U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB08>	{ [      U2CE3,  U2CE2              ] };                                            // Ⳣ (Old Nubian Wau)
+    key <AB09>	{ [      U2CC1,  U2CC0,             dead_breve,         dead_abovering      ] };    // Lowercase Coptic Sampi; Uppercase Coptic Sampi; "Breve" Dead Key, "Ring Above" Dead Key
+    key <AB10>	{ [      U2C8D,  U2C8C,             U2CC3,              U2CC2               ] };    // Ⲍ (Zata); Ⳃ (Crossed Shei)
+};
+
+partial alphanumeric_keys
+xkb_symbols "colemak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Colemak keyboard.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀‎ │ " ᵅ │ ·   │ $ ¤ │ % € │ & ⳤ │ / ⳽ │ ( ↻ │ ) ⳿ │ = ↺ │ ? Ⲳ │ ¿ Ⲵ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ⲳ │ ¡ ⲵ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ⳝ   │ Ⳣ   │ Ⲫ Ϥ │ Ⲡ Ⲯ │ Ⲅ Ϫ │ Ⲭ Ϧ │ Ⲗ   │ Ⲩ   │ Ⲏ   │ Ⳡ ◌̌ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ⳝ   │ ⳣ   │ ⲫ ϥ │ ⲡ ⲯ │ ⲅ ϫ │ ⲭ ϧ │ ⲗ   │ ⲩ   │ ⲏ   │ ⳡ ◌̄ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Ⲁ   │ Ⲣ   │ Ⲥ Ϣ │ Ⲧ Ⲑ │ Ⲇ Ϯ │ Ϩ Ⳉ │ Ⲛ Ⳟ │ Ⲉ ¤ │ Ⲓ   │ Ⲟ Ⲱ │ ◌̈ ◌̋ │ Ϭ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ ⲁ   │ ⲣ   │ ⲥ ϣ │ ⲧ ⲑ │ ⲇ ϯ │ ϩ ⳉ │ ⲛ ⳟ │ ⲉ € │ ⲓ   │ ⲟ ⲱ │ ◌́ { │ ϭ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ Ⲍ Ⳃ │ Ⲝ   │ Ⲋ ◌̑ │ Ⳁ ◌̊ │ Ⲃ ⌬ │ Ⲕ Ⳳ │ Ⲙ  ͛ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ <   │ ⲍ ⳃ │ ⲝ   │ ⲋ ◌̧ │ ⳁ ◌̆ │ ⲃ ※ │ ⲕ ⳳ │ ⲙ ◌̡̢ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/coptic(basic)"
+
+    name[Group1]= "SMK-Coptic (Ⲕⲟⲗⲏⲙⲁⲕ)";
+
+    key <AE04>	{ [          4,  dollar,            dead_tilde,         dead_currency       ] };
+    key <AE05>	{ [          5,  percent,           U1DCF,              EuroSign            ] };    // U+1DCF = "Letter Fusion" Dead Key
+
+    key <AD03>	{ [      U2CAB,  U2CAA,             U03E5,              U03E4               ] };    // Ⲫ (Coptic Fi); Ϥ (Fei)
+    key <AD04>	{ [      U2CA1,  U2CA0,             U2CAF,              U2CAE               ] };    // Ⲡ (Coptic Pi); Ⲯ (Coptic Psi)
+    key <AD05>	{ [      U2C85,  U2C84              ] };                                            // Ⲅ (Coptic Gamma)
+    key <AD06>	{ [      U2CAD,  U2CAC,             U03E7,              U03E6               ] };    // Ⲭ (Coptic Khi); Ϧ (Khei)
+    key <AD07>	{ [      U2C97,  U2C96              ] };                                            // Ⲗ (Laula)
+    key <AD08>	{ [      U2CA9,  U2CA8              ] };                                            // Ⲩ (Ua)
+    key <AD09>	{ [      U2C8F,  U2C8E              ] };                                            // Ⲏ (Hate)
+    key <AD10>	{ [      U2CE1,  U2CE0,             dead_macron,        dead_caron          ] };    // Lowercase Old Nubian Nyi; Uppercase Old Nubian Nyi, "Macron" Dead Key, "Caron" Dead Key
+
+    key <AC02>	{ [      U2CA3,  U2CA2              ] };                                            // Ⲣ (Ro)
+    key <AC03>	{ [      U2CA5,  U2CA4,             U03E3,              U03E2               ] };    // Ⲥ (Sima); Ϣ (Shei)
+    key <AC04>	{ [      U2CA7,  U2CA6,             U2C91,              U2C90               ] };    // Ⲧ (Coptic Tau); Ⲑ (Thethe)
+    key <AC05>	{ [      U2C87,  U2C86,             U03EF,              U03EE               ] };    // Ⲇ (Dalda); Ϯ (Dei)
+    key <AC06>	{ [      U03E9,  U03E8,             U2CC9,              U2CC8               ] };    // Ϩ (Hori); Ⳉ (Akhmimic Khei)
+    key <AC07>	{ [      U2C9B,  U2C9A,             U2CDF,              U2CDE               ] };    // Ⲛ (Coptic Ni); Ⳟ (Old Nubian Ngi)
+    key <AC08>	{ [      U2C89,  U2C88,             EuroSign,           dead_currency       ] };    // Ⲉ (Eie); "€", "Currency Symbols" Dead Key
+    key <AC09>	{ [      U2C93,  U2C92              ] };                                            // Ⲓ (Iauda)
+    key <AC10>	{ [      U2C9F,  U2C9E,             U2CB1,              U2CB0               ] };    // Ⲟ (Coptic O); Ⲱ (Ōu)
+
+    key <AB06>	{ [      U2C95,  U2C94,             U2CF3,              U2CF2               ] };    // Ⲕ (Kapa); Ⳳ (Bohairic Khei)
+};
+
+partial alphanumeric_keys
+xkb_symbols "jcuken" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Russian ЙЦУКЕН keyboard (its approximate Coptic-based form)
+    // and the Spanish QWERTY one with some
+    // custom rearrangements.
+
+    // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ª ◌ │ ! 𐤀‎ │ " ᵅ │ ·   │ $ ¤ │ % € │ & ⳤ │ / ⳽ │ ( ↻ │ ) ⳿ │ = ↺ │ ?   │ ¿   ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ '   │ ¡   ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ Ⲭ Ϧ │ Ⲋ   │ Ⲩ   │ Ⲕ Ⳳ │ Ⲉ ¤ │ Ⲛ   │ Ⲅ Ϫ │ Ⲍ   │ Ⲝ   │ Ⲳ Ⲵ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ⲭ ϧ │ ⲋ   │ ⲩ   │ ⲕ ⳳ │ ⲉ € │ ⲛ   │ ⲅ ϫ │ ⲍ   │ ⲝ   │ ⲳ ⲵ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ Ⲫ Ϥ │ Ⲓ   │ Ⳁ ◌̊ │ Ⲁ   │ Ⲡ Ⲯ │ Ⲣ   │ Ⲟ Ⲱ│ Ⲗ   │ Ϣ Ⳃ │ Ⳝ ◌̌ │ ◌̈ ◌̋ │ Ⳡ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ ⲫ ϥ │ ⲓ   │ ⳁ ◌̆ │ ⲁ   │ ⲡ ⲯ │ ⲣ   │ ⲟ ⲱ │ ⲗ   │ ϣ ⳃ │ ⳝ ◌̄ │ ◌́ { │ ⳡ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ >   │ Ⲏ   │ Ϭ ◌̑ │ Ⲥ   │ Ⲙ  ͛ │ Ⳟ   │ Ⲧ Ⲑ │ Ⲃ ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ <   │ ⲏ   │ ϭ ◌̧ │ ⲥ   │ ⲙ ◌̡̢ │ ⳟ   │ ⲧ ⲑ │ ⲃ ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/coptic(basic)"
+
+    name[Group1]= "SMK-Coptic (ϪⲊⲨⲔⲈⲚ)";
+
+    key <AE11>	{ [ apostrophe,  question           ] };
+    key <AE12>	{ [ exclamdown,  questiondown       ] };
+
+    key <AD01>	{ [      U2CAD,  U2CAC,             U03E7,                  U03E6               ] };    // Ⲭ (Coptic Khi); Ϧ (Khei)
+    key <AD02>	{ [      U2C8B,  U2C8A              ] };                                                // Ⲋ (Sō)
+    key <AD03>	{ [      U2CA9,  U2CA8              ] };                                                // Ⲩ (Ua)
+    key <AD04>	{ [      U2C95,  U2C94,             U2CF3,                  U2CF2               ] };    // Ⲕ (Kapa); Ⳳ (Bohairic Khei)
+    key <AD05>	{ [      U2C89,  U2C88,             EuroSign,               dead_currency       ] };    // Ⲉ (Eie); "€", "Currency Symbols" Dead Key
+    key <AD06>	{ [      U2C9B,  U2C9A              ] };                                                // Ⲛ (Coptic Ni)
+    key <AD07>	{ [      U2C85,  U2C84              ] };                                                // Ⲅ (Coptic Gamma)
+    key <AD08>	{ [      U2C8D,  U2C8C              ] };                                                // Ⲍ (Zata)
+    key <AD09>	{ [      U2C9D,  U2C9C              ] };                                                // Ⲝ (Coptic Ksi)
+    key <AD10>	{ [      U2CB3,  U2CB2,             U2CB5,                  U2CB4               ] };    // Ⲳ (Coptic Alef); Ⲵ (Coptic Ain)
+
+    key <AC01>	{ [      U2CAB,  U2CAA,             U03E5,                  U03E4               ] };    // Ⲫ (Coptic Fi); Ϥ (Fei)
+    key <AC02>	{ [      U2C93,  U2C92              ] };                                                // Ⲓ (Iauda)
+    key <AC03>	{ [      U2CC1,  U2CC0,             dead_breve,             dead_abovering      ] };    // Lowercase Coptic Sampi; Uppercase Coptic Sampi; "Breve" Dead Key, "Ring Above" Dead Key
+    key <AC04>	{ [      U2C81,  U2C80              ] };                                                // Ⲁ (Coptic Alfa)
+    key <AC05>	{ [      U2CA1,  U2CA0,             U2CAF,                  U2CAE               ] };    // Ⲡ (Coptic Pi); Ⲯ (Coptic Psi)
+    key <AC06>	{ [      U2CA3,  U2CA2              ] };                                                // Ⲣ (Ro)
+    key <AC07>	{ [      U2C9F,  U2C9E,             U2CB1,                  U2CB0               ] };    // Ⲟ (Coptic O); Ⲱ (Ōu)
+    key <AC08>	{ [      U2C97,  U2C96              ] };                                                // Ⲗ (Laula)
+    key <AC09>	{ [      U03E3,  U03E2,             U2CC3,                  U2CC2               ] };    // Ϣ (Shei); Ⳃ (Crossed Shei)
+    key <AC10>	{ [      U2CDD,  U2CDC,             dead_macron,            dead_caron          ] };    // Lowercase Old Nubian Shima; Uppercase Old Nubian Shima, "Macron" Dead Key, "Caron" Dead Key
+    key <BKSL>	{ [     ntilde,  Ntilde,            braceright,             dead_ogonek         ] };    // Lowercase Old Nubian Nyi; Uppercase Old Nubian Nyi, "}", "Ogonek" Dead Key
+
+    key <AB01>	{ [      U2C8F,  U2C8E              ] };                                                // Ⲏ (Hate)
+    key <AB02>	{ [      U03ED,  U03EC,             dead_cedilla,           dead_invertedbreve  ] };    // Lowercase Shima, Uppercase Shima, "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AB03>	{ [      U2CA5,  U2CA4              ] };                                                // Ⲥ (Sima)
+    key <AB04>	{ [      U2C99,  U2C98,             U0359,                  U035B               ] };    // Ⲙ (Coptic Ni); U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AB05>	{ [      U2CDF,  U2CDE              ] };                                                // Ⳟ (Old Nubian Ngi)
+    key <AB06>	{ [      U2CA7,  U2CA6,             U2C91,                  U2C90               ] };    // Ⲧ (Coptic Tau); Ⲑ (Thethe)
+
+    key <AB07>	{ [      U2C83,  U2C82,             U203B,                  U232C               ] };    // Ⲃ (Vida); U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+};
+
+// [TODO]; Add more variants if needed

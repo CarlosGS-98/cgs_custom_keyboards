@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <!-- Add these rules to both "base.xml" and "evdev.xml"
+       or, if you prefer, to "~/.config/xkb/rules/evdev.xml" -->
+  <layoutList>
+    <!-- (...) -->
+    <layout>
+      <configItem>
+        <name>smk/coptic</name>
+        <!-- Keyboard indicator for Skorpian Master Keyboard (Coptic Script) layouts -->
+        <shortDescription><!-- Insert locale name ("es", "fr", "de", "us", etc.) --></shortDescription>
+        <description>Skorpian Master Keyboard v16.7.5 (Coptic Alphabet)</description>
+        <countryList>
+          <iso3166Id><!-- Insert ISO-3166-1 Code --></iso3166Id>
+        </countryList>
+        <languageList>
+          <iso639Id>smk</iso639Id>
+        </languageList>
+      </configItem>
+
+      <variantList>
+        <variant>
+          <configItem>
+            <name>qwerty</name>
+            <description>SMK-Coptic (ⳜⳢⲈⲢⲦⲎ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_pt</name>
+            <description>SMK-Coptic (Portuguese ⳜⳢⲈⲢⲦⲎ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_us</name>
+            <description>SMK-Coptic (US ⳜⳢⲈⲢⲦⲎ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwertz</name>
+            <description>SMK-Coptic (ⳜⳢⲈⲢⲦⲌ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latam</name>
+            <description>SMK-Coptic (Latam ⳜⳢⲈⲢⲦⲎ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <description>SMK-Coptic (Ⲇⲱⲣⲁⲕ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>SMK-Coptic (Ⲕⲟⲗⲏⲙⲁⲕ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>jcuken</name>
+            <description>SMK-Coptic (ϪⲊⲨⲔⲈⲚ)</description>
+          </configItem>
+        </variant>
+        <!-- (...) -->
+      </variantList>
+    </layout>
+    <!-- (...) -->
+  </layoutList>
+  <!-- (...) -->
+</xkbConfigRegistry>

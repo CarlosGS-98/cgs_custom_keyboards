@@ -1,0 +1,12 @@
+! layout
+  smk/coptic         Skorpian Master Keyboard v16.7.5 (Coptic Alphabet)
+
+! variant
+  qwerty            smk/coptic: SMK-Coptic (ⳜⳢⲈⲢⲦⲎ)
+  qwerty_pt         smk/coptic: SMK-Coptic (Portuguese ⳜⳢⲈⲢⲦⲎ)
+  qwerty_us         smk/coptic: SMK-Coptic (US ⳜⳢⲈⲢⲦⲎ)
+  qwertz            smk/coptic: SMK-Coptic (ⳜⳢⲈⲢⲦⲌ)
+  latam             smk/coptic: SMK-Coptic (Latam ⳜⳢⲈⲢⲦⲎ)
+  dvorak            smk/coptic: SMK-Coptic (Ⲇⲱⲣⲁⲕ)
+  colemak           smk/coptic: SMK-Coptic (Ⲕⲟⲗⲏⲙⲁⲕ)
+  jcuken            smk/coptic: SMK-Coptic (ϪⲊⲨⲔⲈⲚ)
