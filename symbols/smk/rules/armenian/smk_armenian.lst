@@ -1,0 +1,12 @@
+! layout
+  smk/armenian      Skorpian Master Keyboard v16.7.5 (Armenian Alphabet)
+
+! variant
+  qwerty            smk/armenian: SMK-Armenian (ՃՒԵՌՏՅ)
+  qwerty_pt         smk/armenian: SMK-Armenian (Portuguese ՃՒԵՌՏՅ)
+  qwerty_us         smk/armenian: SMK-Armenian (US ՃՒԵՌՏՅ)
+  qwertz            smk/armenian: SMK-Armenian (ՃՒԵՌՏԶ)
+  latam             smk/armenian: SMK-Armenian (Latam ՃՒԵՌՏՅ)
+  dvorak            smk/armenian: SMK-Armenian (Դվորժակ)
+  colemak           smk/armenian: SMK-Armenian (Քոլմաք)
+  jcuken            smk/armenian: SMK-Armenian (ԽԾՈՒԿԵՆ)
