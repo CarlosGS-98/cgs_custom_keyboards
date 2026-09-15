@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <!-- Add these rules to both "base.xml" and "evdev.xml"
+       or, if you prefer, to "~/.config/xkb/rules/evdev.xml" -->
+  <layoutList>
+    <!-- (...) -->
+    <layout>
+      <configItem>
+        <name>smk/ethiopic</name>
+        <!-- Keyboard indicator for Skorpian Master Keyboard (Geʽez Abugida) layouts -->
+        <shortDescription><!-- Insert locale name ("es", "fr", "de", "us", etc.) --></shortDescription>
+        <description>Skorpian Master Keyboard v16.7.5 (Geʽez Abugida)</description>
+        <countryList>
+          <iso3166Id><!-- Insert ISO-3166-1 Code --></iso3166Id>
+        </countryList>
+        <languageList>
+          <iso639Id>smk</iso639Id>
+        </languageList>
+      </configItem>
+
+      <variantList>
+        <variant>
+          <configItem>
+            <name>qwerty</name>
+            <description>SMK-Ethiopic (ቀወኤረተየ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_pt</name>
+            <description>SMK-Ethiopic (Portuguese ቀወኤረተየ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_us</name>
+            <description>SMK-Ethiopic (US ቀወኤረተየ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwertz</name>
+            <description>SMK-Ethiopic (ቀወኤረተዘ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latam</name>
+            <description>SMK-Ethiopic (Latam ቀወኤረተየ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <description>SMK-Ethiopic (የድቮራክ)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>SMK-Ethiopic (የኮልማክ)</description>
+          </configItem>
+        </variant>
+        <!-- <variant>
+          <configItem>
+            <name>jcuken</name>
+            <description>SMK-Ethiopic (ኸጸኡከኤነ)</description>
+          </configItem>
+        </variant> -->
+        <!-- (...) -->
+      </variantList>
+    </layout>
+    <!-- (...) -->
+  </layoutList>
+  <!-- (...) -->
+</xkbConfigRegistry>

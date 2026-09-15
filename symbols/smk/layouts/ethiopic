@@ -1,0 +1,482 @@
+// Geʽez Abugida | XKB Keyboard Symbols
+// [AUTHOR]: Carlos González Sanz
+
+// [NOTE]: These keyboards are partially based upon the
+// default "et" and "es" symbols in regards to the
+// physical key layout.
+//
+// Put this file on either ~/.config/xkb/symbols
+// or in the same directory as
+// the other system-wide keyboard layouts.
+
+// Default SMK-Ethiopic Keyboard
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    // [NOTE]: Keys are arranged the same way as
+    // in the standard Spanish QWERTY keyboard,
+    // except with Geʽez letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌ ፠ │ ፲ | │ ፳ @ │ ፴ # │ ፵ ¤ │ ፶ ~ │ ፷ ¬ │ ፸ 𐤀‎ │ ፹ ↻ │ ፺ ( │ ፼ ) │ ፧ ? │ ዐ ¿ ┃ ⌫       ┃
+    // │ º \ │ ፩ ! │ ፪ " │ ፫ · │ ፬ $ │ ፭ % │ ፮ & │ ፯ / │ ፰ ∝ │ ፱ ↺ │ ፻ = │ ፨ ' │ ዐ ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ቐ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ ᎙ ^ │ *   ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ቀ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ ◌፝ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ኣ ኧ │ ሠ ⶠ │ ዸ ጀ │ ፈ   │ ገ ⷘ │ ሐ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ኘ   │ ◌፟ ` │ ጨ   ┃      ┃
+    // ┃  Lock  ┃ ኣ ኧ │ ሰ ሸ │ ደ ጀ │ ፈ   │ ገ ⷘ │ ሀ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ኘ   │ ◌፞ { │ ቸ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > አ │ ዠ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ ꬨ ⌬ │ ነ ጘ │ መ ፦ │ ፤ ; │ ፥ : │ _   ┃              ┃
+    // ┃Shift ┃ < አ │ ዘ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ በ ※ │ ነ ጘ │ መ ፡ │ ፣ , │ ። . │ -   ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    name[Group1]= "SMK-Ethiopic (ቀወኤረተየ)";
+
+    key <TLDE>	{ [  masculine,  U25CC,             backslash,                  U1360               ] };    // U+25CC = Dotted Circle; U+1360 = Ethiopic Reference Mark
+    key <AE01>	{ [      U1369,  U1372,             exclam,                     bar                 ] };    // ፩ (Ethiopic 1); ፲ (Ethiopic 10); "!"; "|"
+    key <AE02>	{ [      U136A,  U1373,             quotedbl,                   at                  ] };    // ፪ (Ethiopic 2); ፳ (Ethiopic 20); '"'; "@"
+    key <AE03>	{ [      U136B,  U1374,             periodcentered,             numbersign          ] };    // ፫ (Ethiopic 3); ፴ (Ethiopic 30); '·'; "#"
+    key <AE04>	{ [      U136C,  U1375,             dollar,                     dead_currency       ] };    // ፬ (Ethiopic 4); ፵ (Ethiopic 40); "$"; "Currency Converter" Dead Key
+    key <AE05>	{ [      U136D,  U1376,             percent,                    asciitilde          ] };    // ፭ (Ethiopic 5); ፶ (Ethiopic 50); "%"; "~"
+    key <AE06>	{ [      U136E,  U1377,             ampersand,                  notsign             ] };    // ፮ (Ethiopic 6); ፷ (Ethiopic 60); "&"; "¬"
+    key <AE07>	{ [      U136F,  U1378,             dead_longsolidusoverlay,    U10900              ] };    // ፯ (Ethiopic 7); ፸ (Ethiopic 70); U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE08>	{ [      U1370,  U1379,             U221D,                      U21BB               ] };    // ፰ (Ethiopic 8); ፹ (Ethiopic 80); U+221D = "Logic + Math Symbols" Dead Key; U+21BB = "Arrows" Dead Key
+    key <AE09>	{ [      U1371,  U137A,             U21BA,                      parenleft           ] };    // ፱ (Ethiopic 9); ፺ (Ethiopic 90); U+21BA = "Letter Flip" Dead Key; "("
+    key <AE10>	{ [      U137B,  U137C,             equal,                      parenright          ] };    // ፻ (Ethiopic 100); ፼ (Ethiopic 1000); "="; ")"
+    key <AE11>	{ [      U1368,  U1367,             apostrophe,                 question            ] };    // ፨ (Ethiopic Paragraph Separator); ፧ (Ethiopic Question Mark); "'"; "?"
+    key <AE12>	{ [      U12D0,  U12D0,             exclamdown,                 questiondown        ] };    // ዐ (ʽÄyn); "¡"; "¿"
+
+    key <AD01>	{ [      U1240,  U1250,             U2DC0,                      U2DC0               ] };    // ቀ (Ḳaf); ቐ (Qä); ⷀ (Ḳʲʼä) × 2
+    key <AD02>	{ [      U12C8,  U12C8              ] };                                                    // ወ (Wäwe)
+    key <AD03>	{ [      U12A4,  U12A4,             U12A0,                      U12A0               ] };    // ኤ (ʼÄlf + E); አ (ʼÄlf)
+    key <AD04>	{ [      U1228,  U1228              ] };                                                    // ረ (Rəʼs)
+    key <AD05>	{ [      U1270,  U1270,             U1320,                      U1320               ] };    // ተ (Täwe); ጠ (Ṭäyt)
+    key <AD06>	{ [      U12E8,  U12E8              ] };                                                    // የ (Yämän)
+    key <AD07>	{ [      U12A1,  U12A1              ] };                                                    // ኡ (ʼÄlf + U)
+    key <AD08>	{ [      U12A2,  U12A2,             U12A5,                      U12A5               ] };    // ኢ (ʼÄlf + I); እ (ʼÄlf + Ə)
+    key <AD09>	{ [      U12A6,  U12A6,             U2D8A,                      U2D8A               ] };    // ኦ (ʼÄlf + O); ⶊ (ʼÄlf + OA)
+    key <AD10>	{ [      U1350,  U1350,             U1330,                      U1330               ] };    // ፐ (Psa); ጰ (P̣äyt)
+    key <AD11>	{ [      U135D,  U1399,             bracketleft,                asciicircum         ] };    // ◌፝ (Length + Gemination Mark); ᎙ (Tonal Mark Kurt/"Ethiopic Tones" Dead Key); "["; "^"
+    key <AD12>	{ [       plus,  asterisk,          bracketright                ] };
+
+    key <AC01>	{ [      U12A3,  U12A3,             U12A7,                      U12A7               ] };    // ኣ (ʼÄlf + A); ኧ (ʼÄlf + WA)
+    key <AC02>	{ [      U1230,  U1220,             U1238,                      U2DA0               ] };    // ሰ (Sat); ሠ (Śäwt); ሸ (Šä); ⶠ (Ššä/Šʼä)
+    key <AC03>	{ [      U12F0,  U12F8,             U1300,                      U1300               ] };    // ደ (Dänt); ዸ (Dʼä); ጀ (Ǧä) × 2
+    key <AC04>	{ [      U1348,  U1348              ] };                                                    // ፈ (Äf)
+    key <AC05>	{ [      U1308,  U1308,             U2DD8,                      U2DD8               ] };    // ገ (Gäml); ⷘ (Gʲä)
+    key <AC06>	{ [      U1200,  U1200,             U1E7E0,                     U1E7E0              ] };    // ሀ (Hoy); ሐ (Ḥäwt); 𞟠 (Ḥʲä)
+    key <AC07>	{ [      U12B8,  U12B8,             U2DD0,                      U2DD0               ] };    // ኸ (Xä); ⷐ (Xʲʼä)
+    key <AC08>	{ [      U12A8,  U12A8,             U2DC8,                      U2DC8               ] };    // ከ (Kaf); ⷈ (Kʲä)
+    key <AC09>	{ [      U1208,  U1208              ] };                                                    // ለ (Läwe)
+    key <AC10>	{ [      U1298,  U1298              ] };                                                    // ኘ (Ñä)
+    key <AC11>	{ [      U135E,  U135F,             braceleft,                  grave               ] };    // ◌፞ (Length Mark); ◌፟ (Gemination Mark); "{"; "`"
+    key <BKSL>	{ [      U1278,  U1328,             braceright                                      ] };    // ቸ (Čä); ጨ (Č̣ä); "}"
+
+    key <LSGT>	{ [       less,  greater,           U12A0,                      U12A0               ] };    // "<"; ">"; አ (ʼÄlf + Ä)
+    key <AB01>	{ [      U12D8,  U12E0,             U2DB0,                      U2DB0               ] };    // ዘ (Zäy); ዠ (Žä); ⶰ (Žʼä) × 2
+    key <AB02>	{ [      U1280,  U1280              ] };                                                    // ኀ (Ḫarm)
+    key <AB03>	{ [      U1338,  U1338,             U1340,                      U1340               ] };    // ጸ (Ṣädäy); ፀ (Ṣ́äppä)
+    key <AB04>	{ [      U1268,  U1268              ] };                                                    // ቨ (Vä)
+    key <AB05>	{ [      U1260,  UAB28,             U203B,                      U232C               ] };    // በ (Bet); ꬨ (Bbä); U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB06>	{ [      U1290,  U1290,             U1318,                      U1318               ] };    // ነ (Nähas); ጘ (Ŋä)
+    key <AB07>	{ [      U1218,  U1218,             U1361,                      U1366               ] };    // መ (May) × 2; U+1361 = Ethiopic Wordspace, U+1366 = Ethiopic Preface Colon
+    key <AB08>	{ [      U1363,  U1364,             comma,                      semicolon           ] };    // Ethiopic Comma; Ethiopic Semicolon; ","; ";"
+    key <AB09>	{ [      U1362,  U1365,             period,                     colon               ] };    // Ethiopic Full Stop; Ethiopic Colon; "."; ":"
+    key <AB10>	{ [      minus,  underscore         ] };
+
+    key <SPCE>  { [      space,  space,             nobreakspace            ] };
+
+    // Default modifiers
+    include "level3(ralt_switch)"
+    include "compose(rctrl-altgr)"  // As a middle ground (feel free to change this line if you want or need to)
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty" {
+    include "smk/ethiopic(basic)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_pt" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Portuguese QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements, except with Geʽez letters
+    // instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ | ዐ │ ፲ 𐤀‎ │ ፳ " │ ፴ · │ ፵ § │ ፶ ~ │ ፷ ¬ │ ፸ / │ ፹ ∝ │ ፺ ↻ │ ፼ = │ ፧ ? │ » ¿ ┃ ⌫       ┃
+    // │ \ ዐ │ ፩ ! │ ፪ @ │ ፫ # │ ፬ $ │ ፭ % │ ፮ & │ ፯ { │ ፰ [ │ ፱ ] │ ፻ } │ ፨ ' │ « ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ቐ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ * ፠ │ ᎙   ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ቀ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ + ◌ │ ◌፝ ) ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ኣ ኧ │ ሠ ⶠ │ ዸ ጀ │ ፈ   │ ገ ⷘ │ ሐ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ጨ   │ ª ^ │ ◌፟   ┃      ┃
+    // ┃  Lock  ┃ ኣ ኧ │ ሰ ሸ │ ደ ጀ │ ፈ   │ ገ ⷘ │ ሀ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ቸ   │ º ` │ ◌፞ ( ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > አ │ ዠ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ ꬨ ⌬ │ ኘ ጘ │ መ ፦ │ ፤ ; │ ፥ : │ _   ┃              ┃
+    // ┃Shift ┃ < አ │ ዘ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ በ ※ │ ነ ጘ │ መ ፡ │ ፣ , │ ። . │ - ↺ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/ethiopic(basic)"
+
+    name[Group1]= "SMK-Ethiopic (Portuguese ቀወኤረተየ)";
+
+    key <TLDE>	{ [     backslash,  bar,               U12D0,                   U12D0                   ] };    // "\"; "|"; ዐ (ʽÄyn) × 2
+    key <AE01>	{ [         U1369,  U1372,             exclam,                  U10900                  ] };    // ፩ (Ethiopic 1); ፲ (Ethiopic 10); "!"; U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [         U136A,  U1373,             at,                      quotedbl                ] };    // ፪ (Ethiopic 2); ፳ (Ethiopic 20); "@"; '"'
+    key <AE03>	{ [         U136B,  U1374,             numbersign,              periodcentered          ] };    // ፫ (Ethiopic 3); ፴ (Ethiopic 30); "#"; '·'
+    key <AE04>	{ [         U136C,  U1375,             dollar,                  section                 ] };    // ፬ (Ethiopic 4); ፵ (Ethiopic 40); "$"; "§"
+    key <AE07>	{ [         U136F,  U1378,             braceleft,               slash                   ] };    // ፯ (Ethiopic 7); ፸ (Ethiopic 70); "{"; "/"
+    key <AE08>	{ [         U1370,  U1379,             bracketleft,             U221D                   ] };    // ፰ (Ethiopic 8); ፹ (Ethiopic 80); "["; U+221D = "Logic + Math Symbols" Dead Key
+    key <AE09>	{ [         U1371,  U137A,             bracketright,            U21BB                   ] };    // ፱ (Ethiopic 9); ፺ (Ethiopic 90); "]"; U+21BB = "Arrows" Dead Key
+    key <AE10>	{ [         U137B,  U137C,             braceright,              equal                   ] };    // ፻ (Ethiopic 100); ፼ (Ethiopic 1000); "}"; "="
+    key <AE12>	{ [ guillemetleft,  guillemetright,    exclamdown,              questiondown            ] };
+
+    key <AD11>	{ [          plus,  asterisk,          U25CC,                   U1360                   ] };    // U+1360 = Ethiopic Reference Mark; U+25CC = Dotted Circle
+    key <AD12>	{ [         U135D,  U1399,             parenright               ] };                            // ◌፝ (Length + Gemination Mark); ᎙ (Tonal Mark Kurt/"Ethiopic Tones" Dead Key); ")"
+
+    key <AC10>	{ [         U1278,  U1328              ] };                                                     // ቸ (Čä); ጨ (Č̣ä)
+    key <AC11>	{ [     masculine,  ordfeminine,       grave,                   asciicircum             ] };
+    key <BKSL>	{ [         U135E,  U135F              ] };                                                     // ◌፞ (Length Mark); ◌፟ (Gemination Mark)
+
+    key <AB06>	{ [         U1290,  U1298,             U1318,                   U1318                   ] };    // ነ (Nähas); ኘ (Ñä); ጘ (Ŋä) × 2
+    key <AB10>	{ [         minus,  underscore,        U21BA                    ] };                            // "-"; "_"; U+21BA = "Letter Flip" Dead Key
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwerty_us" {
+    // [NOTE]: This layout is based off a mixture between
+    // the American QWERTY keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements, except with Geʽez letters
+    // instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ~ ፠ │ ፲ 𐤀‎ │ ፳   │ ፴ · │ ፵ ¤ │ ፶   │ ፷ ¬ │ ፸   │ ፹ ∝ │ ፺   │ ፼ ↺ │ _   │ + ¿ ┃ ⌫       ┃
+    // │ ` ◌ │ ፩ ! │ ፪ @ │ ፫ # │ ፬ $ │ ፭ % │ ፮ ^ │ ፯ & │ ፰ * │ ፱ ( │ ፻ ) │ - ↻ │ = ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ቐ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ { ፧ │ } ዐ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ቀ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ [ ፨ │ ] ዐ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ኣ ኧ │ ሠ ⶠ │ ዸ ጀ │ ፈ   │ ገ ⷘ │ ሐ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ : ᎙ │ " ◌፟ │ | ª ┃      ┃
+    // ┃  Lock  ┃ ኣ ኧ │ ሰ ሸ │ ደ ጀ │ ፈ   │ ገ ⷘ │ ሀ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ; ◌፝ │ ' ◌፞ │ \ º ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ | አ │ ዠ ⶰ │ ኀ ጨ │ ጸ ፀ │ ቨ   │ ꬨ ⌬ │ ነ ጘ │ መ ፦ │ < ፤ │ > ፥ │ ?   ┃              ┃
+    // ┃Shift ┃ \ አ │ ዘ ⶰ │ ኀ ቸ │ ጸ ፀ │ ቨ   │ በ ※ │ ነ ጘ │ መ ፡ │ , ፣ │ . ። │ /   ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/ethiopic(basic)"
+
+    name[Group1]= "SMK-Ethiopic (US ቀወኤረተየ)";
+
+    key <TLDE>	{ [   dead_grave,  dead_tilde,        U25CC,                    U1360               ] };    // U+25CC = Dotted Circle; U+1360 = Ethiopic Reference Mark
+    key <AE01>	{ [        U1369,  U1372,             exclam,                   U10900              ] };    // ፩ (Ethiopic 1); ፲ (Ethiopic 10); "!"; U+10900 = Phoenician ʾĀlep ("Phoenician Type" Dead Key)
+    key <AE02>	{ [        U136A,  U1373,             at                        ] };                        // ፪ (Ethiopic 2); ፳ (Ethiopic 20); "@"
+    key <AE03>	{ [        U136B,  U1374,             numbersign,               periodcentered      ] };    // ፫ (Ethiopic 3); ፴ (Ethiopic 30); "#"; '·'
+    key <AE05>	{ [        U136D,  U1376,             percent                   ] };                        // ፭ (Ethiopic 5); ፶ (Ethiopic 50); "%"
+    key <AE06>	{ [        U136E,  U1377,             asciicircum,              notsign             ] };    // ፮ (Ethiopic 6); ፷ (Ethiopic 60); "^"; "¬"
+    key <AE07>	{ [        U136F,  U1378,             ampersand                 ] };                        // ፯ (Ethiopic 7); ፸ (Ethiopic 70); "&"
+    key <AE08>	{ [        U1370,  U1379,             asterisk,                 U221D               ] };    // ፰ (Ethiopic 8); ፹ (Ethiopic 80); "*"; U+221D = "Logic + Math Symbols" Dead Key
+    key <AE09>	{ [        U1371,  U137A,             parenleft                 ] };                        // ፱ (Ethiopic 9); ፺ (Ethiopic 90); U+21BA = "Letter Flip" Dead Key; "("
+    key <AE10>	{ [        U137B,  U137C,             parenright,               U21BA               ] };    // ፻ (Ethiopic 100); ፼ (Ethiopic 1000); ")" U+21BA = "Letter Flip" Dead Key
+    key <AE11>	{ [        minus,  underscore,        U21BB                     ] };                        // U+21BB = "Arrows" Dead Key
+    key <AE12>	{ [        equal,  plus,              exclamdown,               questiondown        ] };
+
+    key <AD11>	{ [  bracketleft,  braceleft,         U1368,                    U1367               ] };    // "["; "{"; ፨ (Ethiopic Paragraph Separator); ፧ (Ethiopic Question Mark)
+    key <AD12>	{ [ bracketright,  braceright,        U12D0,                    U12D0               ] };    // "]", "}", ዐ (ʽÄyn) × 2
+
+    key <AC10>	{ [    semicolon,  colon,             U135D,                    U1399               ] };    // ";"; ":"; ◌፝ (Length + Gemination Mark); ᎙ (Tonal Mark Kurt/"Ethiopic Tones" Dead Key)
+    key <AC11>	{ [   apostrophe,  quotedbl,          U135E,                    U135F               ] };    // "'"; '"'; ◌፞ (Length Mark); ◌፟ (Gemination Mark)
+    key <BKSL>	{ [    backslash,  bar,               masculine,                ordfeminine         ] };
+
+    key <LSGT>	{ [    backslash,  bar,               U12A0,                    U12A0               ] };    // "\"; "|"; አ (ʼÄlf + Ä)
+    key <AB08>	{ [        comma,  less,              U1363,                    U1364               ] };    // ","; "<"; Ethiopic Comma; Ethiopic Semicolon
+    key <AB09>	{ [       period,  greater,           U1362,                    U1365               ] };    // "."; ">"; Ethiopic Full Stop; Ethiopic Colon
+    key <AB10>	{ [       slash,   question           ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "qwertz" {
+    // [NOTE]: This layout is based off a mixture between
+    // the Austrian-German QWERTZ keyboard
+    // and the Spanish QWERTY one with some
+    // custom rearrangements, except with Geʽez letters
+    // instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌ ፠ │ ፲ | │ ፳ @ │ ፴ # │ ፵ ¤ │ ፶ ~ │ ፷ ¬ │ ፸ 𐤀‎ │ ፹ ↻ │ ፺ ( │ ፼ ) │ ፧ ? │ ዐ ¿ ┃ ⌫       ┃
+    // │ º \ │ ፩ ! │ ፪ " │ ፫ · │ ፬ $ │ ፭ % │ ፮ & │ ፯ / │ ፰ ∝ │ ፱ ↺ │ ፻ = │ ፨ ' │ ዐ ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ቐ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ ዠ ⶰ │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ ᎙ ^ │ *   ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ቀ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ ዘ ⶰ │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ ◌፝ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ኣ ኧ │ ሠ ⶠ │ ዸ ጀ │ ፈ   │ ገ ⷘ │ ሐ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ኘ   │ ◌፟ ` │ ጨ ┃      ┃
+    // ┃  Lock  ┃ ኣ ኧ │ ሰ ሸ │ ደ ጀ │ ፈ   │ ገ ⷘ │ ሀ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ኘ   │ ◌፞ { │ ቸ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > አ │ የ   │ ኀ   │ ጸ ፀ │ ቨ   │ ꬨ ⌬ │ ነ ጘ │ መ ፦ │ ፤ ; │ ፥ : │ _   ┃              ┃
+    // ┃Shift ┃ < አ │ የ   │ ኀ   │ ጸ ፀ │ ቨ   │ በ ※ │ ነ ጘ │ መ ፡ │ ፣ , │ ። . │ -   ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/ethiopic(basic)"
+
+    name[Group1]= "SMK-Ethiopic (ቀወኤረተዘ)";
+
+    key <AD06>	{ [     U12D8,      U12E0,      U2DB0,          U2DB0       ] };    // ዘ (Zäy); ዠ (Žä); ⶰ (Žʼä) × 2
+
+    key <AB01>	{ [     U12E8,      U12E8       ] };                                // የ (Yämän)
+};
+
+partial alphanumeric_keys
+xkb_symbols "latam" {
+    // [NOTE]: This keyboard layout is mostly based off
+    // the Latin-American Spanish one with some minor
+    // adjustments to adapt it to the SMK layout line,
+    // only with Geʽez letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ º ◌ │ ፲ \ │ ፳ @ │ ፴ # │ ፵ ¤ │ ፶   │ ፷ ª │ ፸ 𐤀‎ │ ፹ ↻ │ ፺ ( │ ፼ ) │ ፧ ? │ ዐ ¿ ┃ ⌫       ┃
+    // │ | ¬ │ ፩ ! │ ፪ " │ ፫ · │ ፬ $ │ ፭ % │ ፮ & │ ፯ / │ ፰ ∝ │ ፱ ↺ │ ፻ = │ ፨ ' │ ዐ ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ቐ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ ᎙   │ *   ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ቀ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ ◌፝ ፠ │ + ~ ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ኣ ኧ │ ሠ ⶠ │ ዸ ጀ │ ፈ   │ ገ ⷘ │ ሐ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ኘ ጨ │ [ ` │ ] ◌፟ ┃      ┃
+    // ┃  Lock  ┃ ኣ ኧ │ ሰ ሸ │ ደ ጀ │ ፈ   │ ገ ⷘ │ ሀ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ኘ ቸ │ { ^ │ } ◌፞ ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > አ │ ዠ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ ꬨ ⌬ │ ነ ጘ │ መ ፦ │ ፤ ; │ ፥ : │ _   ┃              ┃
+    // ┃Shift ┃ < አ │ ዘ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ በ ※ │ ነ ጘ │ መ ፡ │ ፣ , │ ። . │ -   ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/ethiopic(basic)"
+
+    name[Group1]= "SMK-Ethiopic (Latam ቀወኤረተየ)";
+
+    key <TLDE>	{ [          bar,   masculine,      notsign,                U25CC               ] };    // U+25CC = Dotted Circle
+    key <AE01>	{ [        U1369,   U1372,          exclam,                 backslash           ] };    // ፩ (Ethiopic 1); ፲ (Ethiopic 10); "!"; "\"
+    key <AE04>	{ [        U136D,   U1376,          percent                 ] };                        // ፭ (Ethiopic 5); ፶ (Ethiopic 50); "%"
+    key <AE06>	{ [        U136E,   U1377,          ampersand,              ordfeminine         ] };    // ፮ (Ethiopic 6); ፷ (Ethiopic 60); "&"; "ª"
+
+    key <AD11>	{ [        U135D,   U1399,          U1360                   ] };                        // ◌፝ (Length + Gemination Mark); ᎙ (Tonal Mark Kurt/"Ethiopic Tones" Dead Key); ፠ (Ethiopic Reference Mark)
+    key <AD12>	{ [         plus,   asterisk,       asciitilde              ] };
+
+    key <AC10>	{ [        U1298,   U1298,          U1278,                  U1328               ] };    // ኘ (Ñä) × 2; ቸ (Čä); ጨ (Č̣ä)
+    key <AC11>	{ [    braceleft,   bracketleft,    asciicircum,            grave               ] };
+    key <BKSL>	{ [   braceright,   bracketright,   U135E,                  U135F               ] };    // "}"; "]"; ◌፞ (Length Mark); ◌፟ (Gemination Mark)
+};
+
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Dvorak keyboard, only with
+    // Geʽez letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌ ፠ │ ፲ | │ ፳ @ │ ፴ # │ ፵ ¤ │ ፶ ~ │ ፷ ¬ │ ፸ 𐤀‎ │ ፹ ↻ │ ፺ ( │ ፼ ) │ ፧ ? │ ዐ ¿ ┃ ⌫       ┃
+    // │ º \ │ ፩ ! │ ፪ " │ ፫ · │ ፬ $ │ ፭ % │ ፮ & │ ፯ / │ ፰ ∝ │ ፱ ↺ │ ፻ = │ ፨ ' │ ዐ ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ፥ : │ ፤ ; │ ኘ   │ ፐ ጰ │ የ   │ ፈ   │ ገ ⷘ │ ጸ ፀ │ ሐ 𞟠 │ ለ   │ ᎙ ^ │ *   ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ። . │ ፣ , │ ኘ   │ ፐ ጰ │ የ   │ ፈ   │ ገ ⷘ │ ጸ ፀ │ ሀ 𞟠 │ ለ   │ ◌፝ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ኣ ኧ │ ኦ ⶊ │ ኤ አ │ ኡ   │ ኢ እ │ ዸ ጀ │ ረ   │ ተ ጠ │ ነ ጘ │ ሠ ⶠ │ ◌፟ ` │ ጨ   ┃      ┃
+    // ┃  Lock  ┃ ኣ ኧ │ ኦ ⶊ │ ኤ አ │ ኡ   │ ኢ እ │ ደ ጀ │ ረ   │ ተ ጠ │ ነ ጘ │ ሰ ሸ │ ◌፞ { │ ቸ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > አ │ _   │ ቐ ⷀ │ ኸ ⷐ │ ከ ⷈ │ ኀ   │ ꬨ ⌬ │ መ ፦ │ ወ   │ ቨ   │ ዠ ⶰ ┃              ┃
+    // ┃Shift ┃ < አ │ -   │ ቀ ⷀ │ ኸ ⷐ │ ከ ⷈ │ ኀ   │ በ ※ │ መ ፡ │ ወ   │ ቨ   │ ዘ ⶰ ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/ethiopic(basic)"
+
+    name[Group1]= "SMK-Ethiopic (የድቮራክ)";
+
+    key <AD01>	{ [      U1362,  U1365,             period,             colon               ] };    // Ethiopic Full Stop; Ethiopic Colon; "."; ":"
+    key <AD02>	{ [      U1363,  U1364,             comma,              semicolon           ] };    // Ethiopic Comma; Ethiopic Semicolon; ","; ";"
+    key <AD03>	{ [      U1298,  U1298              ] };                                            // ኘ (Ñä)
+    key <AD04>	{ [      U1350,  U1350,             U1330,              U1330               ] };    // ፐ (Psa); ጰ (P̣äyt)
+    key <AD05>	{ [      U12E8,  U12E8              ] };                                            // የ (Yämän)
+    key <AD06>	{ [      U1348,  U1348              ] };                                            // ፈ (Äf)
+    key <AD07>	{ [      U1308,  U1308,             U2DD8,              U2DD8               ] };    // ገ (Gäml); ⷘ (Gʲä)
+    key <AD08>	{ [      U1338,  U1338,             U1340,              U1340               ] };    // ጸ (Ṣädäy); ፀ (Ṣ́äppä)
+    key <AD09>	{ [      U1200,  U1200,             U1E7E0,             U1E7E0              ] };    // ሀ (Hoy); ሐ (Ḥäwt); 𞟠 (Ḥʲä)
+    key <AD10>	{ [      U1208,  U1208              ] };                                            // ለ (Läwe)
+
+    key <AC02>	{ [      U12A6,  U12A6,             U2D8A,              U2D8A               ] };    // ኦ (ʼÄlf + O); ⶊ (ʼÄlf + OA)
+    key <AC03>	{ [      U12A4,  U12A4,             U12A0,              U12A0               ] };    // ኤ (ʼÄlf + E); አ (ʼÄlf)
+    key <AC04>	{ [      U12A1,  U12A1              ] };                                            // ኡ (ʼÄlf + U)
+    key <AC05>	{ [      U12A2,  U12A2,             U12A5,              U12A5               ] };    // ኢ (ʼÄlf + I); እ (ʼÄlf + Ə)
+    key <AC06>	{ [      U12F0,  U12F8,             U1300,              U1300               ] };    // ደ (Dänt); ዸ (Dʼä); ጀ (Ǧä) × 2
+    key <AC07>	{ [      U1228,  U1228              ] };                                            // ረ (Rəʼs)
+    key <AC08>	{ [      U1270,  U1270,             U1320,              U1320               ] };    // ተ (Täwe); ጠ (Ṭäyt)
+    key <AC09>	{ [      U1290,  U1290,             U1318,              U1318               ] };    // ነ (Nähas); ጘ (Ŋä)
+    key <AC10>	{ [      U1230,  U1220,             U1238,              U2DA0               ] };    // ሰ (Sat); ሠ (Śäwt); ሸ (Šä); ⶠ (Ššä/Šʼä)
+
+    key <AB01>	{ [      minus,  underscore         ] };
+    key <AB02>	{ [      U1240,  U1250,             U2DC0,              U2DC0               ] };    // ቀ (Ḳaf); ቐ (Qä); ⷀ (Ḳʲʼä) × 2
+    key <AB03>	{ [      U12B8,  U12B8,             U2DD0,              U2DD0               ] };    // ኸ (Xä); ⷐ (Xʲʼä)
+    key <AB04>	{ [      U12A8,  U12A8,             U2DC8,              U2DC8               ] };    // ከ (Kaf); ⷈ (Kʲä)
+    key <AB05>	{ [      U1280,  U1280              ] };                                            // ኀ (Ḫarm)
+    key <AB06>	{ [      U1260,  UAB28,             U203B,              U232C               ] };    // በ (Bet); ꬨ (Bbä); U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB08>	{ [      U12C8,  U12C8              ] };                                            // ወ (Wäwe)
+    key <AB09>	{ [      U1268,  U1268              ] };                                            // ቨ (Vä)
+    key <AB10>	{ [      U12D8,  U12E0,             U2DB0,              U2DB0               ] };    // ዘ (Zäy); ዠ (Žä); ⶰ (Žʼä) × 2
+};
+
+partial alphanumeric_keys
+xkb_symbols "colemak" {
+    // [NOTE]: Keys are arranged mostly in the same way as
+    // in the Spanish Colemak keyboard, only with
+    // Geʽez letters instead of Latin ones.
+
+    // [KEYBOARD LAYOUT REFERENCE]:
+    // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+    // │ ◌ ፠ │ ፲ | │ ፳ @ │ ፴ # │ ፵ ¤ │ ፶ ~ │ ፷ ¬ │ ፸ 𐤀‎ │ ፹ ↻ │ ፺ ( │ ፼ ) │ ፧ ? │ ዐ ¿ ┃ ⌫       ┃
+    // │ º \ │ ፩ ! │ ፪ " │ ፫ · │ ፬ $ │ ፭ % │ ፮ & │ ፯ / │ ፰ ∝ │ ፱ ↺ │ ፻ = │ ፨ ' │ ዐ ¡ ┃Backspace┃
+    // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+    // ┃       ┃ ቐ ⷀ │ ወ   │ ፈ   │ ፐ ጰ │ ገ ⷘ │ ኸ ⷐ │ ለ   │ ኡ   │ የ   │ ኘ   │ ᎙ ^ │ *   ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ቀ ⷀ │ ወ   │ ፈ   │ ፐ ጰ │ ገ ⷘ │ ኸ ⷐ │ ለ   │ ኡ   │ የ   │ ኘ   │ ◌፝ [ │ + ] ┃   ⏎   ┃
+    // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+    // ┃ Caps   ┃ ኣ ኧ │ ረ   │ ሠ ⶠ │ ተ ጠ │ ዸ ጀ │ ሐ 𞟠 │ ነ ጘ │ ኤ አ │ ኢ እ │ ኦ ⶊ │ ◌̈ ◌̋ │ ጨ   ┃      ┃
+    // ┃  Lock  ┃ ኣ ኧ │ ረ   │ ሰ ሸ │ ተ ጠ │ ደ ጀ │ ሀ 𞟠 │ ነ ጘ │ ኤ አ │ ኢ እ │ ኦ ⶊ │ ◌́ { │ ቸ } ┃      ┃
+    // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+    // ┃      ┃ > አ │ ዠ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ ꬨ ⌬ │ ከ ⷈ │ መ ፦ │ ፤ ; │ ፥ : │ _   ┃              ┃
+    // ┃Shift ┃ < አ │ ዘ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ በ ※ │ ከ ⷈ │ መ ፡ │ ፣ , │ ። . │ -   ┃ Shift ⇧      ┃
+    // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+    // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+    // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+    // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+    include "smk/ethiopic(basic)"
+
+    name[Group1]= "SMK-Ethiopic (የኮልማክ)";
+
+    key <AD03>	{ [      U1348,  U1348              ] };                                            // ፈ (Äf)
+    key <AD04>	{ [      U1350,  U1350,             U1330,              U1330               ] };    // ፐ (Psa); ጰ (P̣äyt)
+    key <AD05>	{ [      U1308,  U1308,             U2DD8,              U2DD8               ] };    // ገ (Gäml); ⷘ (Gʲä)
+    key <AD06>	{ [      U12B8,  U12B8,             U2DD0,              U2DD0               ] };    // ኸ (Xä); ⷐ (Xʲʼä)
+    key <AD07>	{ [      U1208,  U1208              ] };                                            // ለ (Läwe)
+    key <AD08>	{ [      U12A1,  U12A1              ] };                                            // ኡ (ʼÄlf + U)
+    key <AD09>	{ [      U12E8,  U12E8              ] };                                            // የ (Yämän)
+    key <AD10>	{ [      U1298,  U1298              ] };                                            // ኘ (Ñä)
+
+    key <AC02>	{ [      U1228,  U1228              ] };                                            // ረ (Rəʼs)
+    key <AC03>	{ [      U1230,  U1220,             U1238,              U2DA0               ] };    // ሰ (Sat); ሠ (Śäwt); ሸ (Šä); ⶠ (Ššä/Šʼä)
+    key <AC04>	{ [      U1270,  U1270,             U1320,              U1320               ] };    // ተ (Täwe); ጠ (Ṭäyt)
+    key <AC05>	{ [      U12F0,  U12F8,             U1300,              U1300               ] };    // ደ (Dänt); ዸ (Dʼä); ጀ (Ǧä) × 2
+    key <AC06>	{ [      U1200,  U1200,             U1E7E0,             U1E7E0              ] };    // ሀ (Hoy); ሐ (Ḥäwt); 𞟠 (Ḥʲä)
+    key <AC07>	{ [      U1290,  U1290,             U1318,              U1318               ] };    // ነ (Nähas); ጘ (Ŋä)
+    key <AC08>	{ [      U12A4,  U12A4,             U12A0,              U12A0               ] };    // ኤ (ʼÄlf + E); አ (ʼÄlf)
+    key <AC09>	{ [      U12A2,  U12A2,             U12A5,              U12A5               ] };    // ኢ (ʼÄlf + I); እ (ʼÄlf + Ə)
+    key <AC10>	{ [      U12A6,  U12A6,             U2D8A,              U2D8A               ] };    // ኦ (ʼÄlf + O); ⶊ (ʼÄlf + OA)
+
+    key <AB06>	{ [      U12A8,  U12A8,             U2DC8,              U2DC8               ] };    // ከ (Kaf); ⷈ (Kʲä)
+};
+
+// [TODO (!)]; Fix JCUKEN-derived keyboard layouts (as they lack the equivalent of the "D" key)
+//
+// partial alphanumeric_keys
+// xkb_symbols "jcuken" {
+//     // [NOTE]: This layout is based off a mixture between
+//     // the Russian ЙЦУКЕН keyboard (its approximate Latin-based form)
+//     // and the Spanish QWERTY one with some
+//     // custom rearrangements and Geʽez letters instead of Latin ones.
+
+//     // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
+//     // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+//     // │ ◌ ፠ │ ፲ | │ ፳ @ │ ፴ # │ ፵ ¤ │ ፶ ~ │ ፷ ¬ │ ፸ 𐤀‎ │ ፹ ↻ │ ፺ ( │ ፼ ) │ ፧ ? │ ዐ ¿ ┃ ⌫       ┃
+//     // │ º \ │ ፩ ! │ ፪ " │ ፫ · │ ፬ $ │ ፭ % │ ፮ & │ ፯ / │ ፰ ∝ │ ፱ ↺ │ ፻ = │ ፨ ' │ ዐ ¡ ┃Backspace┃
+//     // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+//     // ┃       ┃ ቐ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ ᎙ ^ │ *   ┃ Enter ┃
+//     // ┃ Tab ↹ ┃ ቀ ⷀ │ ወ   │ ኤ አ │ ረ   │ ተ ጠ │ የ   │ ኡ   │ ኢ እ │ ኦ ⶊ │ ፐ ጰ │ ◌፝ [ │ + ] ┃   ⏎   ┃
+//     // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+//     // ┃ Caps   ┃ ኣ ኧ │ ሠ ⶠ │ ዸ ጀ │ ፈ   │ ገ ⷘ │ ሐ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ኘ   │ ◌፟ ` │ ጨ   ┃      ┃
+//     // ┃  Lock  ┃ ኣ ኧ │ ሰ ሸ │ ደ ጀ │ ፈ   │ ገ ⷘ │ ሀ 𞟠 │ ኸ ⷐ │ ከ ⷈ │ ለ   │ ኘ   │ ◌፞ { │ ቸ } ┃      ┃
+//     // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+//     // ┃      ┃ > አ │ ዠ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ ꬨ ⌬ │ ነ ጘ │ መ ፦ │ ፤ ; │ ፥ : │ _   ┃              ┃
+//     // ┃Shift ┃ < አ │ ዘ ⶰ │ ኀ   │ ጸ ፀ │ ቨ   │ በ ※ │ ነ ጘ │ መ ፡ │ ፣ , │ ። . │ -   ┃ Shift ⇧      ┃
+//     // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+//     // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+//     // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+//     // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+//     // [KEYBOARD LAYOUT REFERENCE]:
+//     // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+//     // │ ◌ ፠ │ ፲ | │ ፳ @ │ ፴ # │ ፵ ¤ │ ፶ ~ │ ፷ ¬ │ ፸ 𐤀‎ │ ፹ ↻ │ ፺ ( │ ፼ ) │ ፧ ? │ ዐ ¿ ┃ ⌫       ┃
+//     // │ º \ │ ፩ ! │ ፪ " │ ፫ · │ ፬ $ │ ፭ % │ ፮ & │ ፯ / │ ፰ ∝ │ ፱ ↺ │ ፻ = │ ፨ ' │ ዐ ¡ ┃Backspace┃
+//     // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+//     // ┃       ┃ ኸ ⷐ │ ጸ ፀ │ ኡ   │ ከ ⷈ │ ኤ አ │ ነ ጘ │ ገ ⷘ │ ዘ ዠ │ ኀ   │ ሸ   │ ᎙ ^ │ *   ┃ Enter ┃
+//     // ┃ Tab ↹ ┃ ኸ ⷐ │ ጸ ፀ │ ኡ   │ ከ ⷈ │ ኤ አ │ ነ ጘ │ ገ ⷘ │ ዘ ዠ │ ኀ   │ ሸ   │ ◌፝ [ │ + ] ┃   ⏎   ┃
+//     // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+//     // ┃ Caps   ┃ ፈ   │ ኢ እ │ ቨ   │ ኣ ኧ │ ፐ ጰ │ ረ   │ ኦ ⶊ │ ለ   │ ⶠ ⶰ │ ቐ ⷀ │ ◌፟ ` │ ኘ   ┃      ┃
+//     // ┃  Lock  ┃ ፈ   │ ኢ እ │ ቨ   │ ኣ ኧ │ ፐ ጰ │ ረ   │ ኦ ⶊ │ ለ   │ ⶠ ⶰ │ ቀ ⷀ │ ◌፞ { │ ኘ } ┃      ┃
+//     // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
+//     // ┃      ┃ > አ │ የ   │ ቸ ጨ │ ሰ ሠ │ መ ፦ │ ወ   │ ተ ጠ │ ꬨ ⌬ │ ፤ ; │ ፥ : │ _   ┃              ┃
+//     // ┃Shift ┃ < አ │ የ   │ ቸ ጨ │ ሰ ሠ │ መ ፡ │ ወ   │ ተ ጠ │ በ ※ │ ፣ , │ ። . │ -   ┃ Shift ⇧      ┃
+//     // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
+//     // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
+//     // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+//     // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+
+//     include "smk/ethiopic(basic)"
+
+//     name[Group1]= "SMK-Ethiopic (ኸጸኡከኤነ)";
+
+//     key <AD01>	{ [      U12B8,  U12B8,             U2DD0,                  U2DD0               ] };    // ኸ (Xä); ⷐ (Xʲʼä)
+
+//     key <AD02>	{ [          c,  C,                 ccaron,                 Ccaron              ] };
+
+//     key <AD03>	{ [          u,  U,                 uring,                  Uring               ] };
+//     key <AD04>	{ [          k,  K                  ] };
+//     key <AD05>	{ [          e,  E,                 EuroSign,               dead_currency       ] };
+//     key <AD06>	{ [          n,  N,                 eng,                    ENG                 ] };
+//     key <AD07>	{ [          g,  G,                 U01A3,                  U01A2               ] };    // "g", "G", Lowercase Gha, Uppercase Gha
+//     key <AD08>	{ [          z,  Z,                 zcaron,                 Zcaron              ] };
+//     key <AD09>	{ [          x,  X,                 U01A8,                  U01A7               ] };    // "x", "X", Lowercase Tone Two, Uppercase Tone Two
+//     key <AD10>	{ [     U0242,   U0241,             UA78C,                  UA78B               ] };    // Lowercase Glottal Stop, Uppercase Glottal Stop, Lowercase Saltillo, Uppercase Saltillo
+
+
+//     key <AC01>	{ [          f,  F                  ] };
+//     key <AC02>	{ [          i,  I,                 idotless,               Iabovedot           ] };
+//     key <AC03>	{ [          v,  V,                 dead_breve,             dead_abovering      ] };
+//     key <AC04>	{ [          a,  A,                 aring,                  Aring               ] };
+//     key <AC05>	{ [          p,  P,                 U2184,                  U2183               ] };    // "p", "P", Lowercase Antisigma, Uppercase Antisigma
+//     key <AC06>	{ [          r,  R,                 U0279,                  U027B               ] };    // "r", "R", "ɹ̛", "ɻ̛"
+//     key <AC07>	{ [          o,  O,                 oslash,                 Oslash              ] };
+//     key <AC08>	{ [          l,  L,                 lstroke,                Lstroke             ] };
+//     key <AC09>	{ [     ssharp,  U1E9E,             ezh,                    EZH                 ] };    // U+1E9E = Uppercase Eszett
+//     key <AC10>	{ [          q,  Q,                 dead_macron,            dead_caron          ] };
+//     key <BKSL>	{ [     ntilde,  Ntilde,            braceright,             dead_ogonek         ] };
+
+//     key <AB01>	{ [          y,  Y,                 UA7DB,                  UA7DA               ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
+//     key <AB02>	{ [   ccedilla,  Ccedilla,          dead_cedilla,           dead_invertedbreve  ] };
+//     key <AB03>	{ [          s,  S,                 scaron,                 Scaron              ] };    // U+1E9E = Uppercase Eszett
+//     key <AB04>	{ [          m,  M,                 U0359,                  U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+//     key <AB05>	{ [      U026A,  UA7AE,             U0269,                  U0196               ] };    // Lowercase Smallcaps I, Uppercase Smallcaps I, Lowercase Latin Iota, Uppercase Latin Iota
+//     key <AB06>	{ [          t,  T,                 thorn,                  THORN               ] };
+//     key <AB07>	{ [          b,  B,                 U203B,                  U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+// };
+
+// [TODO]; Add more variants if needed

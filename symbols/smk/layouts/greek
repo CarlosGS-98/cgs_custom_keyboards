@@ -270,6 +270,8 @@ xkb_symbols "latam" {
     // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
     // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
 
+    include "smk/ethiopic(basic)"
+
     name[Group1]= "SMK-Greek (Latam ϘϜΕΡΤͿ)";
 
     key <TLDE>	{ [          bar,   masculine,      notsign,                U25CC                   ] };    // U+25CC = Dotted Circle

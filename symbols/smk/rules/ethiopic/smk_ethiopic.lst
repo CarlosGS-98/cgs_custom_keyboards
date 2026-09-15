@@ -1,0 +1,12 @@
+! layout
+  smk/ethiopic         Skorpian Master Keyboard v16.7.5 (Geʽez Abugida)
+
+! variant
+  qwerty            smk/ethiopic: SMK-Ethiopic (ቀወኤረተየ)
+  qwerty_pt         smk/ethiopic: SMK-Ethiopic (Portuguese ቀወኤረተየ)
+  qwerty_us         smk/ethiopic: SMK-Ethiopic (US ቀወኤረተየ)
+  qwertz            smk/ethiopic: SMK-Ethiopic (ቀወኤረተዘ)
+  latam             smk/ethiopic: SMK-Ethiopic (Latam ቀወኤረተየ)
+  dvorak            smk/ethiopic: SMK-Ethiopic (የድቮራክ)
+  colemak           smk/ethiopic: SMK-Ethiopic (የኮልማክ)
+  jcuken            smk/ethiopic: SMK-Ethiopic (ኸጸኡከኤነ)
