@@ -95,6 +95,128 @@
 <U1DCF> <7> <8> <slash>     : "⅞"
 
 
+# Fused/compound combining diacritical marks
+<U1DCF> <asciicircum> <asciicircum>                                 : "᪰"    # Combining double circumflex above
+
+<U1DCF> <asciitilde> <asciitilde>                                   : "͌"    # Combining almost equal to/double tilde above
+
+<U1DCF> <asciitilde> <colon>                                        : "͋"    # Combining homothetic above
+<U1DCF> <asciitilde> <slash>                                        : "͊"    # Combining not-tilde above
+
+<U1DCF> <colon> <asciitilde>                                        : "͋"    # Combining homothetic above
+<U1DCF> <colon> <dead_acute>                                        : "᷁"    # Combining dotted acute accent above
+<U1DCF> <colon> <dead_grave>                                        : "᷀"    # Combining dotted grave accent above
+<U1DCF> <colon> <dead_tilde>                                        : "͋"    # Combining homothetic above
+
+<U1DCF> <dead_abovecomma> <dead_abovecomma>                         : "᫰"    # Combining double comma above
+
+<U1DCF> <dead_abovering> <dead_diaeresis>                           : "᪱"    # Combining diaeresis-ring above
+
+<U1DCF> <dead_aboveverticalline> <asciicircum>                      : "᫖"    # Combining vertical line-(acute-grave/circumflex) above
+<U1DCF> <dead_aboveverticalline> <dead_acute> <space>               : "᫐"    # Combining vertical line-acute above
+<U1DCF> <dead_aboveverticalline> <dead_acute> <dead_acute>          : "᫭"   # Combining vertical line-double acute above
+<U1DCF> <dead_aboveverticalline> <dead_acute> <dead_grave>          : "᫖"    # Combining vertical line-(acute-grave/circumflex) above
+<U1DCF> <dead_aboveverticalline> <dead_caron>                       : "᫗"    # Combining vertical line-(grave-acute/caron) above
+<U1DCF> <dead_aboveverticalline> <dead_circumflex>                  : "᫖"    # Combining vertical line-(acute-grave/circumflex) above
+<U1DCF> <dead_aboveverticalline> <dead_doubleacute>                 : "᫭"   # Combining vertical line-double acute above
+<U1DCF> <dead_aboveverticalline> <dead_grave> <space>               : "᫒"    # Combining vertical line-grave above
+<U1DCF> <dead_aboveverticalline> <dead_grave> <dead_acute>          : "᫗"    # Combining vertical line-(grave-acute/caron) above
+<U1DCF> <dead_aboveverticalline> <dead_macron>                      : "᫔"    # Combining vertical line-macron above
+
+<U1DCF> <dead_acute> <3>                                            : "᫋"    # Combining triple acute accent above
+<U1DCF> <dead_acute> <colon>                                        : "᷁"    # Combining dotted acute accent above
+<U1DCF> <dead_acute> <dead_aboveverticalline>                       : "᫓"    # Combining acute-vertical line above
+<U1DCF> <dead_acute> <dead_acute>                                   : "̋"    # Combining double acute accent above
+<U1DCF> <dead_acute> <dead_diaeresis>                               : "̈́"    # Combining dialytika-tonos
+<U1DCF> <dead_acute> <dead_doubleacute>                             : "᫋"    # Combining triple acute accent above
+<U1DCF> <dead_acute> <dead_grave> <dead_acute>                      : "᷉"    # Combining acute-grave-acute above
+<U1DCF> <dead_acute> <dead_macron>                                  : "᷇"    # Combining acute-macron above
+<U1DCF> <dead_acute> <U035A> <dead_acute> <space>                   : "᫓"    # Combining acute-vertical line above
+<U1DCF> <dead_acute> <U035A> <dead_acute> <dead_acute>              : "᫓"    # Combining acute-vertical line above
+
+<U1DCF> <dead_abovedot> <dead_abovedot>                             : "̈"    # Combining diaeresis above
+<U1DCF> <dead_abovedot> <dead_acute>                                : "̈᫟"   # Combining dot-acute above
+<U1DCF> <dead_abovedot> <dead_breve>                                : "̐"    # Combining chandrabindu
+<U1DCF> <dead_abovedot> <dead_diaeresis>                            : "᪴"    # Combining triple dot above
+<U1DCF> <dead_abovedot> <dead_invertedbreve>                        : "͒"    # Combining fermata above
+
+<U1DCF> <dead_belowcomma> <less> <dead_belowcomma> <less>           : "᫰"    # Combining double comma above
+
+<U1DCF> <dead_belowdot> <dead_abovering> <minus> <space>            : "᫝"    # Combining dot-ring below
+<U1DCF> <dead_belowdot> <dead_belowdot>                             : "̤"    # Combining diaeresis below
+<U1DCF> <dead_belowdot> <dead_belowring>                            : "᫝"    # Combining dot-ring below
+
+<U1DCF> <dead_belowtilde> <dead_belowtilde>                         : "᷽"    # Combining almost equal to/double tilde below
+
+<U1DCF> <dead_breve> <dead_abovedot>                                : "̐"    # Combining chandrabindu
+<U1DCF> <dead_breve> <dead_macron>                                  : "᷋"    # Combining breve-macron above
+
+<U1DCF> <dead_caron> <dead_acute>                                   : "᫬"   # Combining caron-acute above
+<U1DCF> <dead_caron> <dead_caron>                                   : "᫏"    # Combining double caron above
+
+<U1DCF> <dead_circumflex> <dead_circumflex>                         : "᪰"    # Combining double circumflex above
+
+<U1DCF> <dead_diaeresis> <dead_abovedot>                            : "᪴"    # Combining triple dot above
+<U1DCF> <dead_diaeresis> <dead_abovering>                           : "᪱"    # Combining diaeresis-ring above
+<U1DCF> <dead_diaeresis> <slash>                                    : "᫜"   # Combining diaeresis with raised left dot above
+
+<U1DCF> <dead_doubleacute> <dead_acute>                             : "᫋"    # Combining triple acute accent above
+
+<U1DCF> <dead_grave> <colon>                                        : "᷀"    # Combining dotted grave accent above
+<U1DCF> <dead_grave> <dead_abovedot>                                : "̈᫞"   # Combining grave-dot above
+<U1DCF> <dead_grave> <dead_acute> <dead_grave>                      : "᷈"    # Combining grave-acute-grave above
+<U1DCF> <dead_grave> <dead_aboveverticalline>                       : "᫑"    # Combining grave-vertical line above
+<U1DCF> <dead_grave> <dead_grave>                                   : "̏"    # Combining double grave accent above
+<U1DCF> <dead_grave> <dead_macron>                                  : "᷅"    # Combining grave-macron above
+<U1DCF> <dead_grave> <U035A> <dead_acute> <space>                   : "᫑"    # Combining grave-vertical line above
+<U1DCF> <dead_grave> <U035A> <dead_acute> <dead_acute>              : "᫑"    # Combining grave-vertical line above
+
+<U1DCF> <dead_invertedbreve> <dead_abovedot>                        : "͒"    # Combining fermata above
+
+<U1DCF> <dead_macron> <dead_acute> <space>                          : "᷄"    # Combining macron-acute above
+<U1DCF> <dead_macron> <asciicircum>                                 : "᫘"    # Combining macron-(acute-grave/circumflex) above
+<U1DCF> <dead_macron> <dead_aboveverticalline>                      : "᫕"    # Combining macron-vertical line above
+<U1DCF> <dead_macron> <dead_acute> <dead_grave>                     : "᫘"    # Combining macron-(acute-grave/circumflex) above
+<U1DCF> <dead_macron> <dead_breve>                                  : "᷌"    # Combining macron-breve above
+<U1DCF> <dead_macron> <dead_circumflex>                             : "᫘"    # Combining macron-(acute-grave/circumflex) above
+<U1DCF> <dead_macron> <dead_grave>                                  : "᷆"    # Combining macron-grave above
+<U1DCF> <dead_macron> <U035A> <dead_acute> <space>                  : "᫕"    # Combining macron-vertical line above
+<U1DCF> <dead_macron> <U035A> <dead_acute> <dead_acute>             : "᫕"    # Combining macron-vertical line above
+
+<U1DCF> <dead_tilde> <colon>                                        : "͋"    # Combining homothetic above
+<U1DCF> <dead_tilde> <dead_tilde>                                   : "͌"    # Combining almost equal to/double tilde above
+<U1DCF> <dead_tilde> <slash>                                        : "͊"    # Combining not-tilde above
+<U1DCF> <dead_tilde> <underscore> <2>                               : "᷽"    # Combining almost equal to/double tilde below
+<U1DCF> <dead_tilde> <underscore> <space>                           : "᷽"    # Combining almost equal to/double tilde below
+
+<U1DCF> <parenleft> <parenright>                                    : "᪾"    # Combining parentheses overlay
+
+<U1DCF> <slash> <asciitilde>                                        : "͊"    # Combining not-tilde above
+<U1DCF> <slash> <dead_diaeresis>                                    : "᫜"   # Combining diaeresis with raised left dot above
+<U1DCF> <slash> <dead_tilde>                                        : "͊"    # Combining not-tilde above
+
+<U1DCF> <U035A> <dead_acute> <space> <asciicircum>                  : "᫖"    # Combining vertical line-(acute-grave/circumflex) above
+<U1DCF> <U035A> <dead_acute> <space> <dead_acute> <space>           : "᫐"    # Combining vertical line-acute above
+<U1DCF> <U035A> <dead_acute> <space> <dead_acute> <dead_acute>      : "᫭"   # Combining vertical line-double acute above
+<U1DCF> <U035A> <dead_acute> <space> <dead_acute> <dead_grave>      : "᫖"    # Combining vertical line-(acute-grave/circumflex) above
+<U1DCF> <U035A> <dead_acute> <space> <dead_caron>                   : "᫗"    # Combining vertical line-(grave-acute/caron) above
+<U1DCF> <U035A> <dead_acute> <space> <dead_circumflex>              : "᫖"    # Combining vertical line-(acute-grave/circumflex) above
+<U1DCF> <U035A> <dead_acute> <space> <dead_doubleacute>             : "᫭"   # Combining vertical line-double acute above
+<U1DCF> <U035A> <dead_acute> <space> <dead_grave>                   : "᫒"    # Combining vertical line-grave above
+<U1DCF> <U035A> <dead_acute> <space> <dead_grave> <dead_acute>      : "᫗"    # Combining vertical line-(grave-acute/caron) above
+<U1DCF> <U035A> <dead_acute> <space> <dead_macron>                  : "᫔"    # Combining vertical line-macron above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <asciicircum>             : "᫖"    # Combining vertical line-(acute-grave/circumflex) above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <dead_acute> <space>      : "᫐"    # Combining vertical line-acute above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <dead_acute> <dead_acute> : "᫭"   # Combining vertical line-double acute above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <dead_acute> <dead_grave> : "᫖"    # Combining vertical line-(acute-grave/circumflex) above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <dead_caron>              : "᫗"    # Combining vertical line-(grave-acute/caron) above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <dead_circumflex>         : "᫖"    # Combining vertical line-(acute-grave/circumflex) above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <dead_doubleacute>        : "᫭"   # Combining vertical line-double acute above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <dead_grave>              : "᫒"    # Combining vertical line-grave above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <dead_grave> <dead_acute> : "᫗"    # Combining vertical line-(grave-acute/caron) above
+<U1DCF> <U035A> <dead_acute> <dead_acute> <dead_macron>             : "᫔"    # Combining vertical line-macron above
+
+
 # Percentage Signs
 <U1DCF> <0> <0> <0> <slash>         : "‰"
 <U1DCF> <0> <0> <0> <0> <slash>     : "‱"

@@ -13,9 +13,10 @@
 <dead_tilde> <greater>      : "˜"   # Small tilde
 <dead_tilde> <comma>        : "͂"    # Combining Greek perispomeni
 <dead_tilde> <semicolon>    : "҃"    # Combining Cyrillic titlo
+<dead_tilde> <plus>         : "͠"   # Combining double tilde above
 
 
-# Rules from "<U0334>"  ("dead_middletilde")
+# Rules from "<U0334>" ("dead_middletilde")
 <dead_tilde> <minus> <space>    : "̴"    # Combining middle tilde
 
 

@@ -9,6 +9,7 @@
 # Basic combinations
 <dead_doublegrave> <space>              : "̏"    # Combining double grave accent
 <dead_doublegrave> <dead_doublegrave>   : "˵"   # Modifier middle double grave accent
+<dead_doublegrave> <underscore>         : "᫮"   # Combining double grave accent below
 
 ##################
 # [END OF RULES] #

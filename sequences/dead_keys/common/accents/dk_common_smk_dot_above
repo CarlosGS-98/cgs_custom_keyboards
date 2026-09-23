@@ -11,6 +11,7 @@
 <dead_abovedot> <dead_abovedot> : "˙"   # Regular spacing dot above
 <dead_abovedot> <less>          : "᷸"    # Combining dot above left
 <dead_abovedot> <greater>       : "͘"    # Combining dot above right
+<dead_abovedot> <Right>         : "͘"    # Combining dot above right
 
 ##################
 # [END OF RULES] #
