@@ -97,6 +97,8 @@
 <U203B> <asciitilde> <dead_abovedot>        : "⸞"   # Tilde + Dot Above
 <U203B> <asciitilde> <dead_belowdot>        : "⸟"   # Tilde + Dot Below
 <U203B> <asciitilde> <dead_abovering>       : "⸛"   # Tilde + Ring Above
+<U203B> <asciitilde> <exclam>               : "⹠"   # Wiggly exclamation mark
+<U203B> <asciitilde> <exclamdown>           : "⹡"   # Inverted wiggly exclamation mark
 <U203B> <asciitilde> <masculine>            : "⸛"   # Tilde + Ring Above
 <U203B> <asciitilde> <plus> <asciitilde>    : "⁓"  # Swung dash
 <U203B> <ampersand> <7>                     : "⁊"   # Tironian sign Et
@@ -145,28 +147,38 @@
 <U203B> <dead_circumflex> <period>          : "⸳"   # Raised dot
 <U203B> <dead_circumflex> <slash>           : "⁁"   # Caret insertion point
 <U203B> <dead_circumflex> <underscore>      : "‸"   # Low caret
-<U203B> <masculine> <asciitilde>            : "⸛"   # Tilde + Ring Above
-<U203B> <masculine> <dead_tilde>            : "⸛"   # Tilde + Ring Above
-<U203B> <masculine> <masculine>             : "°"   # Degree sign
-<U203B> <masculine> <space>                 : "⸰"   # Ring point
 <U203B> <dead_tilde> <bar>                  : "⸾"   # Vertical wiggly line
 <U203B> <dead_tilde> <dead_abovedot>        : "⸞"   # Tilde + Dot Above
 <U203B> <dead_tilde> <dead_belowdot>        : "⸟"   # Tilde + Dot Below
 <U203B> <dead_tilde> <dead_abovering>       : "⸛"   # Tilde + Ring Above
+<U203B> <dead_tilde> <exclam>               : "⹠"   # Wiggly exclamation mark
+<U203B> <dead_tilde> <exclamdown>           : "⹡"   # Inverted wiggly exclamation mark
 <U203B> <dead_tilde> <masculine>            : "⸛"   # Tilde + Ring Above
 <U203B> <dead_tilde> <plus> <dead_tilde>    : "⁓"  # Swung dash
 <U203B> <dollar> <dollar>                   : "§"   # Section sign
 <U203B> <dollar> <minus>                    : "⸹"   # Top-half section sign
+<U203B> <exclam> <asciitilde>               : "⹠"   # Wiggly exclamation mark
+<U203B> <exclam> <dead_tilde>               : "⹠"   # Wiggly exclamation mark
 <U203B> <exclam> <exclam>                   : "‼"   # Double exclamation mark
 <U203B> <exclam> <question>                 : "‽"   # Interrobang
 <U203B> <exclam> <underscore> <question>    : "⁉"   # Exclamation question mark
+<U203B> <exclamdown> <asciitilde>           : "⹡"   # Inverted wiggly exclamation mark
+<U203B> <exclamdown> <dead_tilde>           : "⹡"   # Inverted wiggly exclamation mark
 <U203B> <exclamdown> <questiondown>         : "⸘"   # Inverted interrobang
 <U203B> <greater> <colon>                   : "⸖"   # Dotted right-pointing angle
+<U203B> <masculine> <asciitilde>            : "⸛"   # Tilde + Ring Above
+<U203B> <masculine> <dead_tilde>            : "⸛"   # Tilde + Ring Above
+<U203B> <masculine> <masculine>             : "°"   # Degree sign
+<U203B> <masculine> <parenleft>             : "⹢"   # ( + º
+<U203B> <masculine> <parenright>            : "⹣"   # ) + º
+<U203B> <masculine> <space>                 : "⸰"   # Ring point
 <U203B> <minus> <asterisk>                  : "⁃"   # Hyphen bullet
 <U203B> <minus> <dollar>                    : "⸹"   # Top-half section sign
 <U203B> <minus> <plus>                      : "⸶"   # Dagger with left guard
 <U203B> <parenleft> <asterisk>              : "⁌"   # Black leftwards bullet
 <U203B> <parenleft> <bar> <parenright>      : "⁐"   # Close up
+<U203B> <parenleft> <masculine>             : "⹢"   # ( + º
+<U203B> <parenright> <masculine>            : "⹣"   # ) + º
 <U203B> <period> <1>                        : "․"   # One-dot leader
 <U203B> <period> <2>                        : "‥"   # Two-dot leader
 <U203B> <period> <3>                        : "…"   # Horizontal ellipsis
