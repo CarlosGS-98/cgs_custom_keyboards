@@ -42,19 +42,22 @@
 <dead_abovedot> <dead_circumflex> <Arabic_ra>                                           : "ࢲ"   # Zāyn + Inverted V
 <dead_abovedot> <dead_diaeresis> <U066E>                                                : "ٽ"
 <dead_abovedot> <dead_diaeresis> <dead_belowdot> <U066E>                                : "ݑ"
+<dead_abovedot> <UFBB6> <U066E>                                                         : "ٿ"
 <dead_abovedot> <dead_diaeresis> <Arabic_hah>                                           : "څ"
 <dead_abovedot> <dead_diaeresis> <dead_belowdot> <Arabic_hah>                           : "ࣅ"
 <dead_abovedot> <U068C>                                                                 : "ڏ"
 <dead_abovedot> <dead_diaeresis> <Arabic_dal>                                           : "ڏ"
+<dead_abovedot> <UFBB6> <Arabic_dal>                                                    : "ڐ"
 <dead_abovedot> <U0698>                                                                 : "ژ"   # Že
 <dead_abovedot> <dead_diaeresis> <Arabic_ra>                                            : "ژ"   # Že
+<dead_abovedot> <UFBB6> <Arabic_ra>                                                     : "ڗ"
+<dead_abovedot> <UFBB6> <Arabic_seen>                                                   : "ݜ"
 <dead_abovedot> <dead_diaeresis> <U069B>                                                : "ڜ"   # ڛ + Dot Above + Diaeresis Above = Maghrebi Če
 <dead_abovedot> <dead_diaeresis> <dead_belowdiaeresis> <dead_belowdot> <Arabic_seen>    : "ڜ"
 <dead_abovedot> <dead_diaeresis> <dead_belowdot> <dead_belowdiaeresis> <Arabic_seen>    : "ڜ"
 <dead_abovedot> <dead_diaeresis> <Arabic_sad>                                           : "ڞ"
 <dead_abovedot> <dead_diaeresis> <Arabic_tah>                                           : "ڟ"
-<dead_abovedot> <U075D>                                                                 : "ڠ"
-<dead_abovedot> <dead_diaeresis> <Arabic_ain>                                           : "ڠ"
+<dead_abovedot> <dead_diaeresis> <Arabic_ain>                                           : "ݞ"
 <dead_abovedot> <dead_diaeresis> <dead_abovedot> <Arabic_ain>                           : "ࣃ"
 <dead_abovedot> <dead_diaeresis> <Arabic_ghain>                                         : "ࣃ"
 <dead_abovedot> <dead_diaeresis> <dead_belowdot> <U06A1>                                : "ࢤ"   # Ve + Dot Below

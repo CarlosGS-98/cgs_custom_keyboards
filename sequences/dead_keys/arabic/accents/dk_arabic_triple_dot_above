@@ -1,0 +1,49 @@
+# Arabic Abjad | Triple Dot Above Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<UFBB6> <U066E>                 : "ث"   # Ṯāʾ
+<UFBB6> <Arabic_teh>            : ""
+<UFBB6> <Arabic_jeem>           : ""
+<UFBB6> <Arabic_hah>            : "څ"
+<UFBB6> <Arabic_dal>            : "ڎ"
+<UFBB6> <U068C>                 : ""
+<UFBB6> <Arabic_ra>             : "ژ"   # Že
+<UFBB6> <Arabic_seen>           : "ش"   # Šīn
+<UFBB6> <Arabic_sad>            : "ڞ"
+<UFBB6> <Arabic_tah>            : "ڟ"
+<UFBB6> <Arabic_ain>            : "ڠ"
+<UFBB6> <Arabic_feh>            : "ڤ"   # Ve
+<UFBB6> <U066F>                 : "ڨ"
+<UFBB6> <Arabic_kaf>            : "ڭ"   # Ngaf
+<UFBB6> <Arabic_keheh>          : ""
+<UFBB6> <Arabic_gaf>            : "ڴ"
+<UFBB6> <Arabic_lam>            : "ڷ"
+<UFBB6> <Arabic_meem>           : "ࢧ"
+<UFBB6> <Arabic_noon_ghunna>    : "ڽ"
+<UFBB6> <Arabic_ha>             : ""
+<UFBB6> <Arabic_waw>            : "ۋ"   # Kazakh/Uyghur Ve
+<UFBB6> <Farsi_yeh>             : "ؿ"
+
+
+# Downwards triple dot above combinations
+<UFBB6> <minus> <U066E>         : "ٽ"
+<UFBB6> <minus> <Arabic_dal>    : "ڏ"
+<UFBB6> <minus> <Arabic_ain>    : "ݞ"
+
+
+# Other precomposed triple dot above combinations (Unidirectional)
+<UFBB6> <dead_abovedot> <U066E>                             : "ٿ"
+<UFBB6> <dead_abovedot> <Arabic_dal>                        : "ڐ"
+<UFBB6> <dead_abovedot> <Arabic_ra>                         : "ڗ"
+<UFBB6> <dead_abovedot> <Arabic_seen>                       : "ݜ"
+<UFBB6> <dead_belowdot> <Arabic_seen>                       : "ۺ"
+<UFBB6> <U069B>                                             : "ڜ"   # ڛ + Triple Dot Above = Maghrebi Če
+<UFBB6> <dead_belowdiaeresis> <dead_belowdot> <Arabic_seen> : "ڜ"
+<UFBB6> <dead_belowdot> <dead_belowdiaeresis> <Arabic_seen> : "ڜ"
+<UFBB6> <Arabic_feh>                                        : "ڦ"   # Peheh
+<UFBB6> <dead_belowdot> <U06A1>                             : "ࢤ"   # Ve + Dot Below
+
+##################
+# [END OF RULES] #
+##################
