@@ -41,6 +41,8 @@
 <dead_diaeresis> <dead_belowdiaeresis> <dead_abovedot> <dead_belowdot> <Arabic_seen>    : "ڜ"
 <dead_diaeresis> <dead_belowdiaeresis> <dead_belowdot> <U066E>                          : "ݓ"
 <dead_diaeresis> <dead_belowdiaeresis> <dead_belowdot> <dead_abovedot> <Arabic_seen>    : "ڜ"
+<dead_diaeresis> <dead_abovedot> <dead_belowdot> <Arabic_seen>                          : "ۺ"
+<dead_diaeresis> <dead_abovedot> <dead_belowdot> <Arabic_seen>                          : "ۺ"
 <dead_diaeresis> <dead_caron> <U066E>                                                   : "ࢿ"
 <dead_diaeresis> <dead_abovering> <minus> <U066E>                                       : "ټ"
 <dead_diaeresis> <dead_belowring> <U066E>                                               : "ټ"

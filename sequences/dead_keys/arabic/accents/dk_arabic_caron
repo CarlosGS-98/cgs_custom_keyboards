@@ -21,8 +21,11 @@
 
 
 # Other precomposed caron combinations (Unidirectional)
-<dead_caron> <dead_diaeresis> <U066E>               : "ࢿ"
-<dead_caron> <dead_abovedot> <Arabic_noon_ghunna>   : "ݩ"
+<dead_caron> <dead_diaeresis> <U066E>                       : "ࢿ"
+<dead_caron> <dead_belowdot> <dead_belowdiaeresis> <U066E>  : "ࢾ"
+<dead_caron> <dead_belowdiaeresis> <dead_belowdot> <U066E>  : "ࢾ"
+<dead_caron> <UFBB9> <U066E>                                : "ࢾ"
+<dead_caron> <dead_abovedot> <Arabic_noon_ghunna>           : "ݩ"
 
 ##################
 # [END OF RULES] #

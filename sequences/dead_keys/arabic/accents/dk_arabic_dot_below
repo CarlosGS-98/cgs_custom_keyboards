@@ -1,0 +1,86 @@
+# Arabic Abjad | Dot Below Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+<dead_belowdot> <U066E>                 : "ب"   # Bāʾ
+<dead_belowdot> <Arabic_beh>            : "ٻ"   # B̤ē
+<dead_belowdot> <Arabic_hah>            : "ج"   # Ǧīm
+<dead_belowdot> <Arabic_dal>            : "ڊ"
+<dead_belowdot> <Arabic_ra>             : "ڔ"
+<dead_belowdot> <Arabic_dad>            : "ۻ"
+<dead_belowdot> <Arabic_tah>            : "ࢋ"
+<dead_abovedot> <Arabic_ghain>          : "ۼ"
+<dead_belowdot> <Arabic_feh>            : "ڣ"
+<dead_belowdot> <U06A1>                 : "ڢ"   # Maghrebi Pe
+<dead_belowdot> <Arabic_qaf>            : "ࢥ"
+<dead_belowdot> <U066F>                 : "ࢵ"
+<dead_belowdot> <Arabic_kaf>            : "ࢴ"
+<dead_belowdot> <Arabic_meem>           : "ݦ"
+<dead_belowdot> <Arabic_noon>           : "ڹ"
+
+
+# Doubly stacked dot below combinations
+<dead_belowdot> <2> <Arabic_jeem>   : "ڄ"   # Sindhi J̄e
+<dead_belowdot> <2> <Arabic_dal>    : "𐻂"
+<dead_belowdot> <2> <Arabic_tah>    : "𐻃"
+<dead_belowdot> <2> <Arabic_kaf>    : "𐻄"
+<dead_belowdot> <2> <Arabic_gaf>    : "ڳ"   # Gueh
+<dead_belowdot> <2> <Arabic_keheh>  : "ࢍ"
+<dead_belowdot> <2> <U06D2>         : "𐻅"
+
+
+# Horizontal dot below combinations
+<dead_belowdot> <minus> <3> <U066E> : "ݐ"   # Fula/Fulfulde [ˀj]
+
+
+# Other precomposed dot below combinations (Unidirectional)
+<dead_belowdot> <dead_diaeresis> <dead_belowdiaeresis> <U066E>                          : "ݓ"
+<dead_belowdot> <dead_diaeresis> <dead_abovedot> <U066E>                                : "ݑ"
+<dead_belowdot> <dead_belowdiaeresis> <U066E>                                           : "پ"   # Pe
+<dead_belowdot> <dead_belowdiaeresis> <dead_diaeresis> <U066E>                          : "ݓ"
+<dead_belowdot> <dead_belowdiaeresis> <dead_caron> <U066E>                              : "ࢾ"
+<dead_belowdot> <dead_caron> <dead_belowdiaeresis> <U066E>                              : "ࢾ"
+## "ݒ" ##
+<dead_belowdot> <UFBB6> <U066E>                                                         : "ݑ"
+<dead_belowdot> <UFBB9> <U066E>                                                         : "ڀ"   # Bhe
+<dead_belowdot> <dead_belowdiaeresis> <Arabic_teh>                                      : "ݓ"
+<dead_belowdot> <dead_diaeresis> <Arabic_hah>                                           : "ࢢ"
+<dead_belowdot> <dead_belowdiaeresis> <Arabic_hah>                                      : "ࣆ"
+<dead_belowdot> <dead_abovedot> <dead_belowdiaeresis> <Arabic_tcheh>                    : "ڿ"
+<dead_belowdot> <dead_belowdiaeresis> <dead_abovedot> <Arabic_tcheh>                    : "ڿ"
+<dead_belowdot> <dead_belowdiaeresis> <Arabic_hah>                                      : "چ"   # Če
+<dead_belowdot> <UFBB9> <Arabic_hah>                                                    : "ڇ"   # Sindhi Che
+#<dead_belowdot> <dead_belowdiaeresis> <Arabic_hah>                                      : "ݘ"
+<dead_belowdot> <dead_diaeresis> <Arabic_dal>                                           : "ࢮ"
+<dead_belowdot> <dead_abovedot> <Arabic_ra>                                             : "ږ"
+<dead_belowdot> <dead_abovedot> <Arabic_sad>                                            : "ࢯ"
+<dead_belowdot> <dead_diaeresis> <dead_belowdiaeresis> <dead_abovedot> <Arabic_seen>    : "ڜ"
+<dead_belowdot> <dead_diaeresis> <dead_abovedot> <dead_belowdiaeresis> <Arabic_seen>    : "ڜ"
+<dead_belowdot> <dead_diaeresis> <dead_abovedot> <Arabic_seen>                          : "ۺ"
+<dead_belowdot> <dead_belowdiaeresis> <Arabic_seen>                                     : "ڛ"
+<dead_belowdot> <dead_belowdiaeresis> <dead_diaeresis> <dead_abovedot> <Arabic_seen>    : "ڜ"
+<dead_belowdot> <dead_belowdiaeresis> <dead_abovedot> <dead_diaeresis> <Arabic_seen>    : "ڜ"
+<dead_belowdot> <dead_belowdiaeresis> <UFBB6> <Arabic_seen>                             : "ڜ"
+<dead_belowdot> <dead_abovedot> <Arabic_seen>                                           : "ښ"
+<dead_belowdot> <dead_abovedot> <dead_diaeresis> <Arabic_seen>                          : "ۺ"
+<dead_belowdot> <dead_abovedot> <dead_diaeresis> <dead_belowdiaeresis> <Arabic_seen>    : "ڜ"
+<dead_belowdot> <dead_abovedot> <dead_belowdiaeresis> <dead_diaeresis> <Arabic_seen>    : "ڜ"
+<dead_belowdot> <UFBB6> <Arabic_seen>                                                   : "ۺ"
+<dead_belowdot> <UFBB6> <dead_belowdiaeresis> <Arabic_seen>                             : "ڜ"
+<dead_belowdot> <dead_abovedot> <Arabic_sad>                                            : "ۻ"   # Ḍād + Dot Below
+<dead_belowdot> <dead_abovedot> <Arabic_ain>                                            : "ۼ"   # Ġayn + Dot Below
+<dead_belowdot> <dead_diaeresis> <dead_abovedot> <U06A1>                                : "ࢤ"   # Ve + Dot Below
+<dead_belowdot> <dead_belowdiaeresis> <U06A1>                                           : "ݡ"
+<dead_belowdot> <dead_abovedot> <U06A1>                                                 : "ڣ"
+<dead_belowdot> <dead_abovedot> <dead_diaeresis> <U06A1>                                : "ࢤ"   # Ve + Dot Below
+<dead_belowdot> <UFBB6> <U06A1>                                                         : "ࢤ"   # Ve + Dot Below
+<dead_belowdot> <dead_belowdiaeresis> <Arabic_kaf>                                      : "ڮ"
+<dead_belowdot> <dead_belowdiaeresis> <Arabic_keheh>                                    : "ؼ"   # Keheh + Triple Dot Below
+#<dead_belowdot> <dead_belowdiaeresis> <Arabic_keheh>                                    : "ݤ"
+<dead_belowdot> <dead_abovedot> <Arabic_lam>                                            : "ڸ"
+<dead_belowdot> <dead_diaeresis> <U066F>                                                : "ࢥ"
+<dead_belowdot> <UFBB9> <Arabic_yeh>                                                    : "𐻇"
+
+##################
+# [END OF RULES] #
+##################
