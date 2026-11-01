@@ -4,152 +4,213 @@
 # Precomposed implosive tail/hook letter combinations
 # [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
 #
-<U0359> <B>         : "Ɓ"
-<U0359> <b>         : "ɓ"
-<U0359> <C>         : "Ƈ"
-<U0359> <c>         : "ƈ"
-<U0359> <D>         : "Ɗ"
-<U0359> <d>         : "ɗ"
-<U0359> <F>         : "Ƒ"
-<U0359> <f>         : "ƒ"
-<U0359> <G>         : "Ɠ"
-<U0359> <g>         : "ɠ"
-<U0359> <U035A> <G> : "ʛ"
-<U0359> <U035A> <g> : "ʛ"
-<U0359> <H>         : "Ɦ"
-<U0359> <h>         : "ɦ"
-<U0359> <J>         : "ʄ"
-<U0359> <j>         : "ʄ"
-<U0359> <K>         : "Ƙ"
-<U0359> <k>         : "ƙ"
-<U0359> <M>         : "Ɱ"
-<U0359> <m>         : "ɱ"
-<U0359> <N>         : "Ŋ"
-<U0359> <n>         : "ŋ"
-<U0359> <P>         : "Ƥ"
-<U0359> <p>         : "ƥ"
-#<U0359> <Q>        : "¿?" (Not encoded yet)
-<U0359> <q>         : "ʠ"
-<U0359> <R>         : "ꭆ"
-<U0359> <r>         : "ꭆ"
-<U0359> <T>         : "Ƭ"
-<U0359> <t>         : "ƭ"
-#<U0359> <U>        : "¿?" (Not encoded yet)
-<U0359> <u>         : "ꭒ"
-<U0359> <V>         : "Ʋ"
-<U0359> <v>         : "ʋ"
-<U0359> <W>         : "Ⱳ"
-<U0359> <w>         : "ⱳ"
-<U0359> <Y>         : "Ƴ"
-<U0359> <y>         : "ƴ"
-<U0359> <Z>         : "Ȥ"
-<U0359> <z>         : "ȥ"
+<U0359> <B>                 : "Ɓ"
+<U0359> <b>                 : "ɓ"
+<U0359> <C>                 : "Ƈ"
+<U0359> <c>                 : "ƈ"
+<U0359> <D>                 : "Ɗ"
+<U0359> <d>                 : "ɗ"
+<U0359> <F>                 : "Ƒ"
+<U0359> <f>                 : "ƒ"
+<U0359> <G>                 : "Ɠ"
+<U0359> <g>                 : "ɠ"
+<U0359> <U0296>             : "ʛ"
+<U0359> <U035A> <G>         : "ʛ"
+<U0359> <U035A> <g>         : "ʛ"
+<U0359> <H>                 : "Ɦ"
+<U0359> <h>                 : "ɦ"
+<U0359> <hstroke>           : "𝽇"
+<U0359> <dead_stroke> <h>   : "𝽇"
+<U0359> <U0265>             : "ʮ"   # ɥ + Fishhook
+<U0359> <U21BA> <h>         : "ʮ"
+<U0359> <J>                 : "ʄ"
+<U0359> <j>                 : "ʄ"
+<U0359> <K>                 : "Ƙ"
+<U0359> <k>                 : "ƙ"
+<U0359> <M>                 : "Ɱ"
+<U0359> <m>                 : "ɱ"
+<U0359> <U1D4FB>            : "𝽌"
+<U0359> <dead_stroke> <m>   : "𝽌"
+<U0359> <N>                 : "Ŋ"
+<U0359> <n>                 : "ŋ"
+<U0359> <P>                 : "Ƥ"
+<U0359> <p>                 : "ƥ"
+<U0359> <q>                 : "ʠ"
+<U0359> <R>                 : "ꭆ"
+<U0359> <r>                 : "ꭆ"
+<U0359> <ssharp>            : "𝾕"   # Sursolidum-1 (x⁵)
+<U0359> <T>                 : "Ƭ"
+<U0359> <t>                 : "ƭ"
+<U0359> <u>                 : "ꭒ"
+<U0359> <V>                 : "Ʋ"
+<U0359> <v>                 : "ʋ"
+<U0359> <W>                 : "Ⱳ"
+<U0359> <w>                 : "ⱳ"
+<U0359> <Y>                 : "Ƴ"
+<U0359> <y>                 : "ƴ"
+<U0359> <Z>                 : "Ȥ"
+<U0359> <z>                 : "ȥ"
 
 
 # Precomposed palatal hook letter combinations
 # [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
 #
-#<U0359> <less> <B>         : "¿?" (Not encoded yet)
-<U0359> <less> <b>          : "ᶀ"
-<U0359> <less> <C>          : "Ꞔ"
-<U0359> <less> <c>          : "ꞔ"
-#<U0359> <less> <D>         : "¿?" (Not encoded yet)
-<U0359> <less> <d>          : "ᶁ"
-#<U0359> <less> <F>         : "¿?" (Not encoded yet)
-<U0359> <less> <f>          : "ᶂ"
-#<U0359> <less> <G>         : "¿?" (Not encoded yet)
-<U0359> <less> <g>          : "ᶃ"
-<U0359> <less> <H>          : "Ꜧ"
-<U0359> <less> <h>          : "ꜧ"
-#<U0359> <less> <K>         : "¿?" (Not encoded yet)
-<U0359> <less> <k>          : "ᶄ"
-#<U0359> <less> <L>         : "¿?" (Not encoded yet)
-<U0359> <less> <l>          : "ᶅ"
-#<U0359> <less> <M>         : "¿?" (Not encoded yet)
-<U0359> <less> <m>          : "ᶆ"
-<U0359> <less> <N>          : "Ɲ"
-<U0359> <less> <n>          : "ɲ"
-#<U0359> <less> <ENG>       : "¿?" (Not encoded yet)
-<U0359> <less> <eng>        : "𝼔"
-#<U0359> <less> <P>         : "¿?" (Not encoded yet)
-<U0359> <less> <p>          : "ᶈ"
-#<U0359> <less> <R>         : "¿?" (Not encoded yet)
-<U0359> <less> <r>          : "ᶉ"
-<U0359> <less> <U0279>      : "𝼕"   # ɹ + Palatal Hook
-#<U0359> <less> <S>         : "¿?" (Not encoded yet)
-<U0359> <less> <s>          : "ᶊ"
-<U0359> <less> <U0283>      : "ᶋ"   # Esh + Palatal Hook
-#<U0359> <less> <T>         : "¿?" (Not encoded yet)
-<U0359> <less> <t>          : "ƫ"
-#<U0359> <less> <T> <U0283> : "¿?" (Not encoded yet)
-<U0359> <less> <t> <U0283>  : "𝼗"   # T-Esh + Palatal Hook
-#<U0359> <less> <V>         : "¿?" (Not encoded yet)
-<U0359> <less> <v>          : "ᶌ"
-#<U0359> <less> <X>         : "¿?" (Not encoded yet)
-<U0359> <less> <x>          : "ᶍ"
-<U0359> <less> <Z>          : "Ᶎ"
-<U0359> <less> <z>          : "ᶎ"
-#<U0359> <less> <EZH>       : "¿?" (Not encoded yet)
-<U0359> <less> <ezh>        : "𝼘"
+<U0359> <less> <b>                                          : "ᶀ"
+<U0359> <less> <UA7B5>                                      : "𝼻"  # ꞵ (Latin Beta) + Palatal Hook
+<U0359> <less> <dead_greek> <dead_circumflex> <b>           : "𝼻"
+<U0359> <less> <C>                                          : "Ꞔ"
+<U0359> <less> <c>                                          : "ꞔ"
+<U0359> <less> <d>                                          : "ᶁ"
+<U0359> <less> <less> <d>                                   : "𝼭"
+<U0359> <less> <d> <z>                                      : "𝼮"
+<U0359> <less> <d> <ezh>                                    : "𝼒"
+<U0359> <less> <eth>                                        : "𝼯"
+<U0359> <less> <f>                                          : "ᶂ"
+<U0359> <less> <U0278>                                      : "𝼳"    # ɸ (Latin Phi) + Palatal Hook
+<U0359> <less> <dead_greek> <dead_circumflex> <F>           : "𝼳"
+<U0359> <less> <dead_greek> <dead_circumflex> <f>           : "𝼳"
+<U0359> <less> <g>                                          : "ᶃ"
+<U0359> <less> <U01E5>                                      : "𝽅"   # ǥ + Stroke
+<U0359> <less> <dead_stroke> <g>                            : "𝽅"
+<U0359> <less> <U0262>                                      : "𝼰"   # ɢ (Smallcaps G) + Palatal Hook
+<U0359> <less> <U035A> <dead_circumflex> <G>                : "𝼰"
+<U0359> <less> <U035A> <dead_circumflex> <g>                : "𝼰"
+<U0359> <less> <U0194>                                      : "𝼱"   # Ɣ (Latin Gamma) + Palatal Hook
+<U0359> <less> <U0263>                                      : "𝼱"   # ɣ (Latin Gamma) + Palatal Hook
+<U0359> <less> <dead_greek> <dead_circumflex> <G>           : "𝼱"
+<U0359> <less> <dead_greek> <dead_circumflex> <g>           : "𝼱"
+<U0359> <less> <H>                                          : "Ꜧ"  # Heng
+<U0359> <less> <h>                                          : "ꜧ"  # Heng
+<U0359> <less> <minus> <h>                                  : "ꞕ"
+<U0359> <less> <hstroke>                                    : "𝼲"
+<U0359> <less> <dead_stroke> <h>                            : "𝼲"
+<U0359> <less> <k>                                          : "ᶄ"
+<U0359> <less> <l>                                          : "ᶅ"
+<U0359> <U035B> <less> <l>                                  : "𝼓"
+<U0359> <less> <m>                                          : "ᶆ"
+<U0359> <less> <N>                                          : "Ɲ"
+<U0359> <less> <n>                                          : "ɲ"
+<U0359> <less> <minus> <n>                                  : "ᶇ"
+<U0359> <less> <eng>                                        : "𝼔"
+<U0359> <less> <p>                                          : "ᶈ"
+<U0359> <less> <q>                                          : "𝼴"
+<U0359> <less> <r>                                          : "ᶉ"
+<U0359> <less> <greater> <r>                                : "𝼷"   # ᶉ + Retroflex Hook
+<U0359> <less> <U0279>                                      : "𝼕"   # ɹ + Palatal Hook
+<U0359> <less> <U0276>                                      : "𝼖"   # ɾ (Fishhook R/Alveolar Tap) + Palatal Hook
+<U0359> <less> <U035A> <underscore> <R>                     : "𝼖"
+<U0359> <less> <U035A> <underscore> <r>                     : "𝼖"
+<U0359> <less> <U0280>                                      : "𝼵"   # ʀ (Smallcaps R) + Palatal Hook
+<U0359> <less> <U035A> <dead_circumflex> <R>                : "𝼵"
+<U0359> <less> <U035A> <dead_circumflex> <r>                : "𝼵"
+<U0359> <less> <U0281>                                      : "𝼶"   # ʁ (Inverted Smallcaps R) + Palatal Hook
+<U0359> <less> <U035A> <dead_circumflex> <underscore> <R>   : "𝼶"
+<U0359> <less> <U035A> <dead_circumflex> <underscore> <r>   : "𝼶"
+<U0359> <less> <s>                                          : "ᶊ"
+<U0359> <less> <U0283>                                      : "ᶋ"   # Esh + Palatal Hook
+<U0359> <less> <U035A> <S>                                  : "ᶋ"
+<U0359> <less> <U035A> <s>                                  : "ᶋ"
+<U0359> <less> <t>                                          : "ƫ"
+<U0359> <less> <U1DCF> <d> <U02A6>                          : "𝼸"   # ʦ + Palatal Hook
+<U0359> <less> <U1DCF> <t> <s>                              : "𝼸"
+<U0359> <less> <t> <U0283>                                  : "𝼗"   # T-Esh + Palatal Hook
+<U0359> <less> <t> <U035A> <S>                              : "𝼗"
+<U0359> <less> <t> <U035A> <s>                              : "𝼗"
+<U0359> <less> <dead_greek> <thorn>                         : "𝼼"
+<U0359> <less> <dead_greek> <minus> <t> <h>                 : "𝼼"
+<U0359> <less> <v>                                          : "ᶌ"
+<U0359> <less> <U028B>                                      : "𝼹"   # ʋ + Palatal Hook
+<U0359> <less> <less> <v>                                   : "𝼹"
+<U0359> <less> <x>                                          : "ᶍ"
+<U0359> <less> <dead_greek> <j>                             : "𝼽"
+<U0359> <less> <Z>                                          : "Ᶎ"
+<U0359> <less> <z>                                          : "ᶎ"
+<U0359> <less> <ezh>                                        : "𝼘"
+<U0359> <less> <UA7CE>                                      : "𝼺"   # ꟎ (Capital Pharyngeal Voiced Fricative) + Palatal Hook
+<U0359> <less> <UA7CF>                                      : "𝼺"   # ꟏ (Small Pharyngeal Voiced Fricative) + Palatal Hook
+<U0359> <less> <U035A> <U0241> <underscore> <space>         : "𝼺"
+<U0359> <less> <U035A> <U0242> <underscore> <space>         : "𝼺"
 
 
 # Precomposed retroflex hook letter combinations
 # [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
 #
-#<U0359> <greater> <A>                  : "¿?" (Not encoded yet)
-<U0359> <greater> <a>                   : "ᶏ"
-#<U0359> <greater> <U2C6D>              : "¿?" (Not encoded yet)
-<U0359> <greater> <U0251>               : "ᶐ"   # ɑ (Latin Alpha) + Retroflex Hook
-#<U0359> <greater> <C>                  : "¿?" (Not encoded yet)
-<U0359> <greater> <c>                   : "𝼝"
-<U0359> <greater> <D>                   : "Ɖ"
-<U0359> <greater> <d>                   : "ɖ"
-<U0359> <greater> <ETH>                 : "ᶑ"   # Technical exception
-<U0359> <greater> <eth>                 : "ᶑ"   # Technical exception
-#<U0359> <greater> <E>                  : "¿?" (Not encoded yet)
-<U0359> <greater> <e>                   : "ᶒ"
-#<U0359> <greater> <U0190>              : "¿?" (Not encoded yet)
-<U0359> <greater> <U025B>               : "ᶓ"   # ɛ (Latin Epsilon) + Retroflex Hook
-#<U0359> <greater> <SCHWA>              : "¿?" (Not encoded yet)
-<U0359> <greater> <schwa>               : "ᶕ"
-#<U0359> <greater> <I>                  : "¿?" (Not encoded yet)
-<U0359> <greater> <i>                   : "ᶖ"
-#<U0359> <greater> <U0197>              : "¿?" (Not encoded yet)
-<U0359> <greater> <U0268>               : "𝼚"   # ɨ + Retroflex Hook
-#<U0359> <greater> <dead_stroke> <I>    : "¿?" (Not encoded yet)
-<U0359> <greater> <dead_stroke> <i>     : "𝼚"   # ɨ + Retroflex Hook
-#<U0359> <greater> <L>                  : "¿?" (Not encoded yet)
-<U0359> <greater> <l>                   : "ɭ"
-#<U0359> <greater> <N>                  : "¿?" (Not encoded yet)
-<U0359> <greater> <n>                   : "ɳ"
-#<U0359> <greater> <O>                  : "¿?" (Not encoded yet)
-<U0359> <greater> <o>                   : "𝼛"
-#<U0359> <greater> <U0186>              : "¿?" (Not encoded yet)
-<U0359> <greater> <U0254>               : "ᶗ"   # ɔ + Tilde
-<U0359> <greater> <R>                   : "Ɽ"
-<U0359> <greater> <r>                   : "ɽ"
-<U0359> <greater> <S>                   : "Ʂ"
-<U0359> <greater> <s>                   : "ʂ"
-<U0359> <greater> <U0283>               : "ᶘ"   # Esh + Retroflex Hook
-<U0359> <greater> <T>                   : "Ʈ"
-<U0359> <greater> <t>                   : "ʈ"
-#<U0359> <greater> <U>                  : "¿?" (Not encoded yet)
-<U0359> <greater> <u>                   : "ᶙ"
-#<U0359> <greater> <Z>                  : "¿?" (Not encoded yet)
-<U0359> <greater> <z>                   : "ʐ"
-#<U0359> <greater> <EZH>                : "¿?" (Not encoded yet)
-<U0359> <greater> <ezh>                 : "ᶚ"
+<U0359> <greater> <a>                                   : "ᶏ"
+<U0359> <greater> <U0251>                               : "ᶐ"   # ɑ (Latin Alpha) + Retroflex Hook
+<U0359> <greater> <dead_greek> <dead_circumflex> <a>    : "ᶐ"
+<U0359> <greater> <c>                                   : "𝼝"
+<U0359> <greater> <D>                                   : "Ɖ"
+<U0359> <greater> <d>                                   : "ɖ"
+<U0359> <greater> <U1DCF> <d> <U0296>                   : "𝼡"   # 𝼠 + Retroflex Hook
+<U0359> <greater> <U1DCF> <d> <l> <ezh>                 : "𝼡"
+<U0359> <greater> <ETH>                                 : "ᶑ"   # Technical exception
+<U0359> <greater> <eth>                                 : "ᶑ"   # Technical exception
+<U0359> <greater> <e>                                   : "ᶒ"
+<U0359> <greater> <U025B>                               : "ᶓ"   # ɛ (Latin Epsilon) + Retroflex Hook
+<U0359> <greater> <dead_greek> <dead_circumflex> <e>    : "ᶓ"
+<U0359> <greater> <schwa>                               : "ᶕ"
+<U0359> <greater> <U035A> <e>                           : "ᶕ"
+<U0359> <greater> <U02AE>                               : "ʯ"   # ʮ + Retroflex Hook
+<U0359> <greater> <greater> <U21BA> <h>                 : "ʯ"
+<U0359> <greater> <i>                                   : "ᶖ"
+<U0359> <greater> <U0268>                               : "𝼚"   # ɨ + Retroflex Hook
+<U0359> <greater> <dead_stroke> <i>                     : "𝼚"   # ɨ + Retroflex Hook
+<U0359> <greater> <l>                                   : "ɭ"
+<U0359> <greater> <n>                                   : "ɳ"
+<U0359> <greater> <o>                                   : "𝼛"
+<U0359> <greater> <U0254>                               : "ᶗ"   # ɔ + Tilde
+<U0359> <greater> <R>                                   : "Ɽ"
+<U0359> <greater> <r>                                   : "ɽ"
+<U0359> <greater> <less> <r>                            : "𝼷"   # ɽ + Palatal Hook
+<U0359> <greater> <S>                                   : "Ʂ"
+<U0359> <greater> <s>                                   : "ʂ"
+<U0359> <greater> <U0283>                               : "ᶘ"   # Esh + Retroflex Hook
+<U0359> <greater> <U035A> <s>                           : "ᶘ"
+<U0359> <greater> <T>                                   : "Ʈ"
+<U0359> <greater> <t>                                   : "ʈ"
+<U0359> <greater> <greater> <t>                         : "𝼉"
+<U0359> <greater> <T> <U0283>                           : "𝼜"   # T + ʃ (Esh) + Retroflex Hook
+<U0359> <greater> <T> <U0359> <greater> <U0283>         : "𝼜"
+<U0359> <greater> <t> <U0359> <greater> <U035A> <s>     : "𝼜"
+<U0359> <greater> <u>                                   : "ᶙ"
+<U0359> <greater> <z>                                   : "ʐ"
+<U0359> <greater> <ezh>                                 : "ᶚ"
 
 
 # Precomposed rhotic hook letter combinations
 # [Main source]: https://fr.wikipedia.org/wiki/Crochet_rhotique
 #
-<U0359> <comma> <SCHWA>     : "ɚ"
-<U0359> <comma> <schwa>     : "ɚ"
-<U0359> <period> <SCHWA>    : "ɚ"
-<U0359> <period> <schwa>    : "ɚ"
-<U0359> <comma> <U025C>     : "ɝ"
-<U0359> <period> <U025C>    : "ɝ"
+<U0359> <comma> <SCHWA>                             : "ɚ"
+<U0359> <comma> <schwa>                             : "ɚ"
+<U0359> <comma> <U035A> <E>                         : "ɚ"
+<U0359> <comma> <U035A> <e>                         : "ɚ"
+<U0359> <period> <SCHWA>                            : "ɚ"
+<U0359> <period> <schwa>                            : "ɚ"
+<U0359> <period> <U035A> <E>                        : "ɚ"
+<U0359> <period> <U035A> <e>                        : "ɚ"
+<U0359> <comma> <U025C>                             : "ɝ"
+<U0359> <period> <U025C>                            : "ɝ"
+<U21BA> <comma> <dead_greek> <dead_circumflex> <e>  : "ɜ"
+<U21BA> <period> <dead_greek> <dead_circumflex> <e> : "ɜ"
+
+
+# Precomposed left fishhook letter combinations
+# [Main source]: https://unicode.org/charts/PDF/Unicode-18.0/U180-1DF00.pdf
+#
+<U0359> <minus> <d> : "𝼥"
+<U0359> <minus> <l> : "𝼦"
+<U0359> <minus> <n> : "𝼧"
+<U0359> <minus> <r> : "𝼨"
+<U0359> <minus> <s> : "𝼩"
+<U0359> <minus> <t> : "𝼪"
+
+
+# Precomposed right fishhook letter combinations
+# [Main source]: https://unicode.org/charts/PDF/Unicode-18.0/U180-1DF00.pdf
+#
+<U0359> <plus> <l>          : "𝼑"
+<U0359> <plus> <U0279>      : "𝽗"   # Unicode describes this letter as possessing a left fishhook, even though, graphically, it more closely matches a right fishhook (compared to the base letter form "ɹ")
+<U0359> <plus> <U035A> <r>  : "𝽗"
 
 
 ##################

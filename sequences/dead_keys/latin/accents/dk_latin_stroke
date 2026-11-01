@@ -24,17 +24,26 @@
 <dead_stroke> <ETH>                                 : "Ꟈ"
 <dead_stroke> <eth>                                 : "ꟈ"
 <dead_stroke> <e>                                   : "ꬳ"
+<dead_stroke> <U025B>                               : "𝽄"   # ɛ (Latin Epsilon) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <e>    : "𝽄"
+<dead_stroke> <U035A> <U1D07>                       : "𝽃"   # ᴇ (Smallcaps E) + Stroke
+<dead_stroke> <U035A> <dead_circumflex> <E>         : "𝽃"
+<dead_stroke> <U035A> <dead_circumflex> <e>         : "𝽃"
 <dead_stroke> <F>                                   : "Ꞙ"
 <dead_stroke> <f>                                   : "ꞙ"
 <dead_stroke> <G>                                   : "Ǥ"
 <dead_stroke> <g>                                   : "ǥ"
 <dead_stroke> <H>                                   : "Ħ"
 <dead_stroke> <h>                                   : "ħ"
+<dead_stroke> <minus> <h>                           : "𝽆"
+<dead_stroke> <U0265>                               : "𝼾"   # ɥ (Turned H) + Stroke
+<dead_stroke> <U21BA> <h>                           : "𝼾"
 <dead_stroke> <I>                                   : "Ɨ"
 <dead_stroke> <i>                                   : "ɨ"
 <dead_stroke> <U035A> <I>                           : "ᵻ"
 <dead_stroke> <U035A> <i>                           : "ᵻ"
 <dead_stroke> <U0269>                               : "ᵼ"   # ɩ (Latin Iota) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <i>    : "ᵼ"
 <dead_stroke> <J>                                   : "Ɉ"
 <dead_stroke> <j>                                   : "ɉ"
 <dead_stroke> <U0237>                               : "ɟ"   # ȷ (Dotless J) + Stroke
@@ -52,6 +61,8 @@
 <dead_stroke> <minus> <l>                           : "ꝉ"
 <dead_stroke> <UA7DA>                               : "Ƛ"   # Ꟛ (Latin Lambda) + Stroke
 <dead_stroke> <UA7DB>                               : "ƛ"   # ꟛ (Latin Lambda) + Stroke
+<dead_stroke> <dead_greek> <dead_circumflex> <L>    : "Ƛ"
+<dead_stroke> <dead_greek> <dead_circumflex> <l>    : "ƛ"
 <dead_stroke> <M>                                   : "𝽊"
 <dead_stroke> <m>                                   : "𝽋"
 <dead_stroke> <N>                                   : "𝽍"
@@ -60,12 +71,19 @@
 <dead_stroke> <U0359> <n>                           : "𝽏"
 <dead_stroke> <O>                                   : "Ɵ"
 <dead_stroke> <o>                                   : "ɵ"
+<dead_stroke> <U0254>                               : "𝽂"   # ɔ (Open O) + Stroke
+<dead_stroke> <U035A> <o>                           : "𝽂"
+<dead_stroke> <U0277>                               : "𝽓"   # ɷ (Latin Closed Omega) + Stroke
+<dead_stroke> <dead_greek> <underscore> <o>         : "𝽓"
+<dead_stroke> <dead_greek> <underscore> <oslash>    : "𝽓"
 <dead_stroke> <P>                                   : "Ᵽ"
 <dead_stroke> <p>                                   : "ᵽ"
 <dead_stroke> <Q>                                   : "Ꝗ"
 <dead_stroke> <q>                                   : "ꝗ"
 <dead_stroke> <R>                                   : "Ɍ"
 <dead_stroke> <r>                                   : "ɍ"
+<dead_stroke> <U0279>                               : "𝽐"   # ɹ (Turned R) + Stroke
+<dead_stroke> <U035A> <r>                           : "𝽐"
 <dead_stroke> <S>                                   : "Ꟊ"
 <dead_stroke> <s>                                   : "ꟊ"
 <dead_stroke> <U017F>                               : "ẝ"   # ſ (Long S) + Stroke
@@ -90,6 +108,7 @@
 <dead_stroke> <V>                                   : "𝽑"
 <dead_stroke> <v>                                   : "𝽒"
 <dead_stroke> <w>                                   : "𝼿"
+<dead_stroke> <dead_greek> <j>                      : "𝽔"
 <dead_stroke> <Y>                                   : "Ɏ"
 <dead_stroke> <y>                                   : "ɏ"
 <dead_stroke> <minus> <y>                           : "𝽕"
@@ -101,6 +120,12 @@
 <dead_stroke> <U035A> <U0242> <space>               : "ʡ"   # ɂ (Small Glottal Stop) + Stroke
 <dead_stroke> <U0241>                               : "ʡ"   # Ɂ (Capital Glottal Stop) + Stroke
 <dead_stroke> <U0242>                               : "ʡ"   # ɂ (Small Glottal Stop)) + Stroke
+<dead_stroke> <equal> <U0294>                       : "𝽖"   # ʔ (Glottal Stop) + Double Stroke
+<dead_stroke> <equal> <U035A> <question>            : "𝽖"   # ʔ (Glottal Stop) + Double Stroke
+<dead_stroke> <equal> <U035A> <U0241> <space>       : "𝽖"   # Ɂ (Capital Glottal Stop) + Double Stroke
+<dead_stroke> <equal> <U035A> <U0242> <space>       : "𝽖"   # ɂ (Small Glottal Stop) + Double Stroke
+<dead_stroke> <equal> <U0241>                       : "𝽖"   # Ɂ (Capital Glottal Stop) + Double Stroke
+<dead_stroke> <equal> <U0242>                       : "𝽖"   # ɂ (Small Glottal Stop)) + Double Stroke
 <dead_stroke> <U0295>                               : "ʢ"   # ʕ (Turned Glottal Glottal Stop) + Stroke
 <dead_stroke> <U035A> <questiondown>                : "ʢ"   # ʕ (Turned Glottal Glottal Stop) + Stroke
 <dead_stroke> <U035A> <U0241> <underscore> <space>  : "ʢ"   # Ɂ (Capital Glottal Stop) + "_" + Stroke
@@ -108,10 +133,23 @@
 
 
 # Other precomposed stroke combinations (Unidirectional)
+<dead_stroke> <g>                           : "𝽅"   # ᶃ + Stroke
+<dead_stroke> <U0359> <less> <g>            : "𝽅"
+<dead_stroke> <U0266>                       : "𝽇"   # ɦ + Stroke
+<dead_stroke> <U0359> <h>                   : "𝽇"
 <dead_stroke> <UA7A2>                       : "Ꝅ"  # Ꞣ + Stroke
 <dead_stroke> <UA7A3>                       : "ꝅ"  # ꞣ + Stroke
 <dead_stroke> <dead_longsolidusoverlay> <K> : "Ꝅ"
 <dead_stroke> <dead_longsolidusoverlay> <k> : "ꝅ"
+<dead_stroke> <U0359> <U0271>               : "𝽌"   # ɱ + Stroke
+<dead_stroke> <U0359> <m>                   : "𝽌"
+
+
+# Horizontal split letter combinations (technically an "anti-horizontal stroke")
+<dead_stroke> <notsign> <o>         : "𝽘"
+<dead_stroke> <notsign> <Down> <o>  : "ᴗ"   # Bottom Split O
+<dead_stroke> <notsign> <Up> <o>    : "ᴖ"   # Top Split O
+<dead_stroke> <notsign> <u>         : "𝽙"
 
 ##################
 # [END OF RULES] #

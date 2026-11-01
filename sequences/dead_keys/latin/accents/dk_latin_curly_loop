@@ -4,11 +4,15 @@
 # Precomposed belt+curl+loop letter combinations
 # [Main source]: https://fr.wikipedia.org/wiki/Boucle_(diacritique)
 #
-<U035B> <C>                             : "𝼏" 
+<U035B> <A>                             : "𝽨"   # English Phonotypic A
+<U035B> <a>                             : "𝽩"   # English Phonotypic A
+<U035B> <C>                             : "𝼏"
 <U035B> <c>                             : "ɕ"
-#<U035B> <D>                            : "¿?" (Not encoded yet)
+<U035B> <Right> <c>                     : "𝾒"   # Cubum-2 (x³)
+<U035B> <ccedilla>                      : "𝾑"   # Census (x²)
+<U035B> <dead_cedilla> <c>              : "𝾑"   # Census (x²)
 <U035B> <d>                             : "ȡ"
-#<U035B> <G>                            : "¿?" (Not encoded yet)
+<U035B> <underscore> <d>                : "𝾓"   # Mathematical Dragma
 <U035B> <g>                             : "ꬶ"
 <U035B> <J>                             : "Ʝ"
 <U035B> <j>                             : "ʝ"
@@ -20,39 +24,52 @@
 <U035B> <lstroke>                       : "ȴ"
 <U035B> <dead_longsolidusoverlay> <L>   : "ȴ"
 <U035B> <dead_longsolidusoverlay> <l>   : "ȴ"
-#<U035B> <M>                            : "¿?" (Not encoded yet)
 <U035B> <m>                             : "ꬺ"
 <U035B> <N>                             : "ꬻ"
 <U035B> <n>                             : "ȵ"
-#<U035B> <ENG>                          : "¿?" (Not encoded yet)
 <U035B> <eng>                           : "ꬼ"
 <U035B> <O>                             : "Ꝍ"
 <U035B> <o>                             : "ꝍ"
+<U035B> <minus> <O>                     : "𝽲"   # English Phonotypic Curled O
+<U035B> <minus> <o>                     : "𝽳"   # English Phonotypic Curled O
 <U035B> <R>                             : "ꭊ"
 <U035B> <r>                             : "ꭉ"
-#<U035B> <S>                            : "¿?" (Not encoded yet)
+<U035B> <underscore> <r>                : "𝾔"   # Mathematical Res/Radix
 <U035B> <s>                             : "𝼞"
+<U035B> <U017F>                         : "𝾖"   # ſ (Long S) + Curly Loop = Sursolidum-2 (x⁵)
+<U035B> <U1DFB> <minus> <S>             : "𝾖"
+<U035B> <U1DFB> <minus> <s>             : "𝾖"
 <U035B> <U1E9E>                         : "ƪ"
 <U035B> <ssharp>                        : "ʆ"
+<U035B> <U035A> <s>                     : "ʆ"
 <U035B> <T>                             : "𝼍"
 <U035B> <t>                             : "ȶ"
-#<U035B> <V>                            : "¿?" (Not encoded yet)
 <U035B> <v>                             : "ⱴ"
 <U035B> <X>                             : "ꭘ"
 <U035B> <x>                             : "ꭖ"
 <U035B> <Y>                             : "Ỿ"
 <U035B> <y>                             : "ỿ"
-#<U035B> <Z>                            : "¿?" (Not encoded yet)
 <U035B> <z>                             : "ʑ"
-#<U035B> <EZH>                          : "¿?" (Not encoded yet)
 <U035B> <ezh>                           : "ʓ"
+<U035B> <U0296>                         : "𝼎"   # ʖ (Inverted Glottal Stop) + Curly Loop
+<U035B> <U035A> <U21BA> <U0241>         : "𝼎"
+<U035B> <U035A> <U21BA> <U0242>         : "𝼎"
 
 
-# Composed belt+curl+loop combinations (Not directly encoded in Unicode) (Unidirectional)
+# Composed belt+curl+loop combinations (Unidirectional)
 # [Main source]: https://fr.wikipedia.org/wiki/Boucle_(diacritique)
 #
-<U035B> <U21BA> <Y> : "𝼆"
-<U035B> <U21BA> <y> : "𝼆"
+<U035B> <U1DCF> <d> <ezh>                   : "𝼫"
+<U035B> <U0359> <less> <l>                  : "𝼓"
+<U035B> <dead_stroke> <U0284>               : "𝼌"   # 𝼋 (Double Barred Esh) + Curly Loop
+<U035B> <dead_stroke> <U035A> <minus> <s>   : "𝼌"
+<U035B> <U1DCF> <t> <l>                     : "𝼢"
+<U035B> <U1DCF> <t> <U0359> <greater> <l>   : "𝼣"
+<U035B> <U1DCF> <t> <U0283>                 : "𝼬"   # t + ʃ (Esh) + Curly Loop
+<U035B> <U1DCF> <T> <U035A> <S>             : "𝼬"   # T + Ʃ (Esh) + Curly Loop
+<U035B> <U1DCF> <t> <U035A> <s>             : "𝼬"   # t + ʃ (Esh) + Curly Loop
+<U035B> <U21BA> <Y>                         : "𝼆"
+<U035B> <U21BA> <y>                         : "𝼆"
 
 ##################
 # [END OF RULES] #

@@ -35,6 +35,20 @@
 <U1DFB> <U21BA> <r>     : "ᴙ"
 
 
+# Initial Teaching + English Phonotypic Alphabet Letters
+<U1DFB> <notsign> <a>   : "𝽚"   # ITA Half A
+<U1DFB> <U21BA> <A>     : "𝽪"   # English Phonotypic Roundtop A
+<U1DFB> <U21BA> <a>     : "𝽫"   # English Phonotypic Roundtop A
+<U1DFB> <at> <E>        : "𝽬"   # English Phonotypic Reversed Scruple
+<U1DFB> <at> <e>        : "𝽭"   # English Phonotypic Reversed Scruple
+<U1DFB> <at> <A> <I>    : "𝽮"   # English Phonotypic AI
+<U1DFB> <at> <a> <i>    : "𝽯"   # English Phonotypic AI
+<U1DFB> <at> <T> <H>    : "𝽸"   # English Phonotypic TH
+<U1DFB> <at> <t> <h>    : "𝽹"   # English Phonotypic TH
+<U1DFB> <at> <U>        : "𝽺"   # English Phonotypic YU
+<U1DFB> <at> <u>        : "𝽻"   # English Phonotypic YU
+
+
 # Insular Gaelic + Historical Celtic Letters
 <U1DFB> <D>             : "Ꝺ"
 <U1DFB> <d>             : "ꝺ"

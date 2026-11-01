@@ -4,176 +4,249 @@
 # Basic precomposed letter combinations
 # [Main source]: https://en.wikipedia.org/wiki/List_of_Latin-script_letters
 #
-<U1DCF> <A> <A>                         : "Ꜳ"
-<U1DCF> <a> <a>                         : "ꜳ"
-<U1DCF> <A> <E>                         : "Æ"
-<U1DCF> <a> <e>                         : "æ"
-<U1DCF> <AE> <AE>                       : "ᴂ"
-<U1DCF> <ae> <ae>                       : "ᴂ"
-<U1DCF> <A> <SCHWA>                     : "ꬱ"
-<U1DCF> <a> <schwa>                     : "ꬱ"
-<U1DCF> <A> <O>                         : "Ꜵ"
-<U1DCF> <a> <o>                         : "ꜵ"
-<U1DCF> <A> <U>                         : "Ꜷ"
-<U1DCF> <a> <u>                         : "ꜷ"
-<U1DCF> <A> <V>                         : "Ꜹ"
-<U1DCF> <a> <v>                         : "ꜹ"
-<U1DCF> <A> <Y>                         : "Ꜽ"
-<U1DCF> <a> <y>                         : "ꜽ"
-<U1DCF> <C> <Z>                         : "Ꝣ"
-<U1DCF> <c> <z>                         : "ꝣ"
-<U1DCF> <D> <B>                         : "ȸ"
-<U1DCF> <d> <b>                         : "ȸ"
-<U1DCF> <D> <Z>                         : "Ǳ"
-<U1DCF> <D> <z>                         : "ǲ"
-<U1DCF> <d> <z>                         : "ǳ"
-<U1DCF> <D> <z>                         : "ǲ"
-<U1DCF> <d> <z>                         : "ǳ"
-<U1DCF> <minus> <D> <Z>                 : "ʣ"
-<U1DCF> <minus> <d> <z>                 : "ʣ"
-<U1DCF> <D> <U0291>                     : "ʥ"   # d + ʑ
-<U1DCF> <d> <U0291>                     : "ʥ"   # d + ʑ
-<U1DCF> <D> <U035B> <Z>                 : "ʥ"
-<U1DCF> <d> <U035B> <z>                 : "ʥ"
-<U1DCF> <d> <U0290>                     : "ꭦ"    # d + ʐ
-<U1DCF> <D> <U0359> <greater> <Z>       : "ꭦ"
-<U1DCF> <d> <U0359> <greater> <z>       : "ꭦ"
-<U1DCF> <D> <EZH>                       : "ʤ"
-<U1DCF> <d> <ezh>                       : "ʤ"
-<U1DCF> <D> <U035A> <Z>                 : "ʤ"
-<U1DCF> <d> <U035A> <z>                 : "ʤ"
-<U1DCF> <d> <U1D9A>                     : "𝼙"   # d + ᶚ
-<U1DCF> <D> <U0359> <greater> <EZH>     : "𝼙"
-<U1DCF> <d> <U0359> <greater> <ezh>     : "𝼙"
-<U1DCF> <E> <A>                         : "Ꞛ"  # Volapük Ä
-<U1DCF> <e> <a>                         : "ꞛ"  # Volapük Ä
-<U1DCF> <E> <O>                         : "Ꞝ"  # Volapük Ö
-<U1DCF> <e> <o>                         : "ꞝ"  # Volapük Ö
-<U1DCF> <E> <T>                         : "&"
-<U1DCF> <e> <t>                         : "&"
-<U1DCF> <E> <U>                         : "Ꞟ"  # Volapük Ü
-<U1DCF> <e> <u>                         : "ꞟ"  # Volapük Ü
-<U1DCF> <F> <F> <space>                 : "ﬀ"
-<U1DCF> <f> <f> <space>                 : "ﬀ"
-<U1DCF> <F> <F> <I>                     : "ﬃ"
-<U1DCF> <f> <f> <i>                     : "ﬃ"
-<U1DCF> <F> <F> <L>                     : "ﬄ"
-<U1DCF> <f> <f> <l>                     : "ﬄ"
-<U1DCF> <F> <I>                         : "ﬁ"
-<U1DCF> <f> <i>                         : "ﬁ"
-<U1DCF> <F> <L>                         : "ﬂ"
-<U1DCF> <f> <l>                         : "ﬂ"
-<U1DCF> <F> <ENG> <space>               : "ʩ"
-<U1DCF> <f> <eng> <space>               : "ʩ"
-<U1DCF> <F> <ENG> <R>                   : "𝼀"
-<U1DCF> <f> <eng> <r>                   : "𝼀"
-<U1DCF> <G> <H>                         : "Ƣ"  # Gha
-<U1DCF> <g> <h>                         : "ƣ"   # Gha
-<U1DCF> <H> <V>                         : "Ƕ"   # Hwair
-<U1DCF> <h> <v>                         : "ƕ"   # Hwair
-<U1DCF> <H> <W>                         : "Ƕ"   # Hwair
-<U1DCF> <h> <w>                         : "ƕ"   # Hwair
-<U1DCF> <I> <E>                         : "ꭡ"
-<U1DCF> <i> <e>                         : "ꭡ"
-<U1DCF> <I> <J>                         : "Ĳ"
-<U1DCF> <i> <j>                         : "ĳ"
-<U1DCF> <L> <L>                         : "Ỻ"   # Middle Welsh Ll
-<U1DCF> <l> <l>                         : "ỻ"   # Middle Welsh Ll
-<U1DCF> <L> <S>                         : "ʪ"
-<U1DCF> <l> <s>                         : "ʪ"
-<U1DCF> <L> <Z>                         : "ʫ"
-<U1DCF> <l> <z>                         : "ʫ"
-<U1DCF> <L> <EZH>                       : "ɮ"
-<U1DCF> <l> <ezh>                       : "ɮ"
-<U1DCF> <L> <U035A> <Z>                 : "ɮ"
-<U1DCF> <l> <U035A> <z>                 : "ɮ"
-<U1DCF> <U026D> <EZH>                   : "𝼅"   # ɭ + Ʒ
-<U1DCF> <U026D> <ezh>                   : "𝼅"   # ɭ + ʒ
-<U1DCF> <U0359> <greater> <L> <EZH>     : "𝼅"
-<U1DCF> <U0359> <greater> <l> <ezh>     : "𝼅"
-<U1DCF> <M> <W>                         : "ꟿ"   # Manius
-<U1DCF> <m> <w>                         : "ꟿ"   # Manius
-<U1DCF> <O> <E>                         : "Œ"
-<U1DCF> <o> <e>                         : "œ"
-<U1DCF> <OE> <OE>                       : "ꭀ"
-<U1DCF> <oe> <oe>                       : "ᴔ"
-<U1DCF> <O> <I>                         : "Ƣ"   # Gha (Making reference to its Unicode codepoint)
-<U1DCF> <o> <i>                         : "ƣ"    # Gha (Making reference to its Unicode codepoint)
-<U1DCF> <O> <O>                         : "Ꝏ"
-<U1DCF> <o> <o>                         : "ꝏ"
-<U1DCF> <O> <U>                         : "Ȣ"
-<U1DCF> <o> <u>                         : "ȣ"
-<U1DCF> <U035A> <O> <U>                 : "ᴕ"
-<U1DCF> <U035A> <o> <u>                 : "ᴕ"
-<U1DCF> <U0186> <E>                     : "ꭢ"   # Ɔ + E
-<U1DCF> <U0254> <e>                     : "ꭢ"   # ɔ + e
-<U1DCF> <U035A> <O> <E>                 : "ꭢ"   # Ɔ + E
-<U1DCF> <U035A> <o> <e>                 : "ꭢ"   # ɔ + e
-<U1DCF> <U0186> <O>                     : "ꭃ"   # Ɔ + O
-<U1DCF> <U0254> <o>                     : "ꭃ"   # ɔ + o
-<U1DCF> <U035A> <O> <O>                 : "ꭃ"   # Ɔ + O
-<U1DCF> <U035A> <o> <o>                 : "ꭃ"   # ɔ + o
-<U1DCF> <Q> <P>                         : "ȹ"
-<U1DCF> <q> <p>                         : "ȹ"
-<U1DCF> <S> <S>                         : "ẞ"
-<U1DCF> <s> <s>                         : "ß"
-<U1DCF> <U017F> <S>                     : "ẞ"   # ſ (Long S) + S
-<U1DCF> <U017F> <s>                     : "ß"   # ſ (Long S) + s
-<U1DCF> <U1DFB> <minus> <S>             : "ẞ"   # ſ (Long S) + S
-<U1DCF> <U1DFB> <minus> <s>             : "ß"   # ſ (Long S) + s
-<U1DCF> <S> <T>                         : "ﬆ"
-<U1DCF> <s> <t>                         : "ﬆ"
-<U1DCF> <U017F> <T>                     : "ﬅ"   # ſ (Long S) + T
-<U1DCF> <U017F> <t>                     : "ﬅ"   # ſ (Long S) + t
-<U1DCF> <U1DFB> <minus> <S>             : "ﬅ"   # ſ (Long S) + T
-<U1DCF> <U1DFB> <minus> <s>             : "ﬅ"   # ſ (Long S) + t
-<U1DCF> <S> <Z>                         : "ẞ"
-<U1DCF> <s> <z>                         : "ß"
-<U1DCF> <T> <U1DF0F>                    : "ʨ"  # T + 𝼏 
-<U1DCF> <T> <U0255>                     : "ʨ"  # t + ɕ 
-<U1DCF> <T> <U035B> <C>                 : "ʨ" 
-<U1DCF> <T> <U035B> <c>                 : "ʨ"
-<U1DCF> <T> <S>                         : "ʦ"
-<U1DCF> <t> <s>                         : "ʦ"
-<U1DCF> <T> <UA7C5>                     : "ꭧ"   # T + Ʂ
-<U1DCF> <t> <U0282>                     : "ꭧ"   # t + ʂ
-<U1DCF> <T> <U0359> <greater> <S>       : "ꭧ"
-<U1DCF> <t> <U0359> <greater> <s>       : "ꭧ"
-<U1DCF> <T> <U01A9>                     : "ʧ"   # T + Ʃ (Esh)
-<U1DCF> <t> <U0283>                     : "ʧ"   # t + ʃ (Esh)
-<U1DCF> <T> <U035A> <S>                 : "ʧ"   # T + Ʃ (Esh)
-<U1DCF> <t> <U035A> <s>                 : "ʧ"   # t + ʃ (Esh)
-<U1DCF> <T> <U1D98>                     : "𝼜"   # T + ᶘ (Esh) + Retroflex Hook
-<U1DCF> <T> <U0359> <greater> <U0283>   : "𝼜"   # T + ᶘ (Esh) + Retroflex Hook
-<U1DCF> <t> <U0359> <greater> <U0283>   : "𝼜"   # T + ᶘ (Esh) + Retroflex Hook
-<U1DCF> <T> <EZH>                       : "Ꜩ"
-<U1DCF> <t> <ezh>                       : "ꜩ"
-<U1DCF> <T> <U035A> <Z>                 : "Ꜩ"
-<U1DCF> <t> <U035A> <z>                 : "ꜩ"
-<U1DCF> <THORN> <THORN>                 : "꟒"
-<U1DCF> <thorn> <thorn>                 : "ꟓ"
-<U1DCF> <U> <E>                         : "ᵫ"
-<U1DCF> <u> <e>                         : "ᵫ"
-<U1DCF> <U> <I>                         : "ꭑ"
-<U1DCF> <u> <i>                         : "ꭐ"
-<U1DCF> <U> <O>                         : "ꭣ"
-<U1DCF> <u> <o>                         : "ꭣ"
-<U1DCF> <V> <V>                         : "W"
-<U1DCF> <v> <v>                         : "w"
-<U1DCF> <V> <Y>                         : "Ꝡ"
-<U1DCF> <v> <y>                         : "ꝡ"
-<U1DCF> <V> <Z>                         : "Ꟃ"   # W Anglicana
-<U1DCF> <v> <Z>                         : "ꟃ"   # W Anglicana
-<U1DCF> <U01F7> <U01F7>                 : "꟔"   # Ƿ (Wynn) * 2
-<U1DCF> <U01BF> <U01BF>                 : "ꟕ"   # ƿ (Wynn) * 2
-<U1DCF> <U1DFB> <W>                     : "꟔"   # Ƿ (Wynn) * 2
-<U1DCF> <U1DFB> <w>                     : "ꟕ"   # ƿ (Wynn) * 2
-<U1DCF> <U0241> <A>                     : "Ꞻ"   # Glottal A
-<U1DCF> <U0242> <a>                     : "ꞻ"   # Glottal A
-<U1DCF> <U0241> <I>                     : "Ꞽ"   # Glottal I/Egyptological Yod
-<U1DCF> <U0242> <i>                     : "ꞽ"   # Glottal I/Egyptological Yod
-<U1DCF> <U0241> <U>                     : "Ꞿ"   # Glottal U
-<U1DCF> <U0242> <u>                     : "ꞿ"   # Glottal U
+<U1DCF> <A> <dead_macron>                                                                                               : "𝾀"
+<U1DCF> <dead_macron> <A>                                                                                               : "𝾀"
+<U1DCF> <A> <A>                                                                                                         : "Ꜳ"
+<U1DCF> <a> <a>                                                                                                         : "ꜳ"
+<U1DCF> <A> <E>                                                                                                         : "Æ"
+<U1DCF> <a> <e>                                                                                                         : "æ"
+<U1DCF> <AE> <AE>                                                                                                       : "ᴂ"
+<U1DCF> <ae> <ae>                                                                                                       : "ᴂ"
+<U1DCF> <A> <SCHWA>                                                                                                     : "ꬱ"
+<U1DCF> <a> <schwa>                                                                                                     : "ꬱ"
+<U1DCF> <A> <U035A> <E>                                                                                                 : "ꬱ"
+<U1DCF> <a> <U035A> <e>                                                                                                 : "ꬱ"
+<U1DCF> <A> <O>                                                                                                         : "Ꜵ"
+<U1DCF> <a> <o>                                                                                                         : "ꜵ"
+<U1DCF> <A> <U>                                                                                                         : "Ꜷ"
+<U1DCF> <a> <u>                                                                                                         : "ꜷ"
+<U1DCF> <A> <V>                                                                                                         : "Ꜹ"
+<U1DCF> <a> <v>                                                                                                         : "ꜹ"
+<U1DCF> <A> <Y>                                                                                                         : "Ꜽ"
+<U1DCF> <a> <y>                                                                                                         : "ꜽ"
+<U1DCF> <A> <U0241>                                                                                                     : "Ꞻ"   # Glottal A
+<U1DCF> <a> <U0242>                                                                                                     : "ꞻ"   # Glottal A
+<U1DCF> <C> <Z>                                                                                                         : "Ꝣ"
+<U1DCF> <c> <z>                                                                                                         : "ꝣ"
+<U1DCF> <U0297> <h>                                                                                                     : "𝽛"   # ʗ + h (Initial Teaching Alphabet C-H)
+<U1DCF> <U035A> <C> <h>                                                                                                 : "𝽛"
+<U1DCF> <U035A> <c> <h>                                                                                                 : "𝽛"
+<U1DCF> <D> <B>                                                                                                         : "ȸ"
+<U1DCF> <d> <b>                                                                                                         : "ȸ"
+<U1DCF> <d> <eth>                                                                                                       : "𝼟"
+<U1DCF> <d> <U0296>                                                                                                     : "𝼠"   # d + ɮ (Lezh)
+<U1DCF> <d> <l> <ezh>                                                                                                   : "𝼠"
+<U1DCF> <D> <Z>                                                                                                         : "Ǳ"
+<U1DCF> <D> <z>                                                                                                         : "ǲ"
+<U1DCF> <d> <z>                                                                                                         : "ǳ"
+<U1DCF> <D> <z>                                                                                                         : "ǲ"
+<U1DCF> <d> <z>                                                                                                         : "ǳ"
+<U1DCF> <minus> <D> <Z>                                                                                                 : "ʣ"
+<U1DCF> <minus> <d> <z>                                                                                                 : "ʣ"
+<U1DCF> <D> <U0291>                                                                                                     : "ʥ"   # d + ʑ
+<U1DCF> <d> <U0291>                                                                                                     : "ʥ"   # d + ʑ
+<U1DCF> <D> <U035B> <Z>                                                                                                 : "ʥ"
+<U1DCF> <d> <U035B> <z>                                                                                                 : "ʥ"
+<U1DCF> <d> <U0290>                                                                                                     : "ꭦ"    # d + ʐ
+<U1DCF> <D> <U0359> <greater> <Z>                                                                                       : "ꭦ"
+<U1DCF> <d> <U0359> <greater> <z>                                                                                       : "ꭦ"
+<U1DCF> <D> <EZH>                                                                                                       : "ʤ"
+<U1DCF> <d> <ezh>                                                                                                       : "ʤ"
+<U1DCF> <D> <U035A> <Z>                                                                                                 : "ʤ"
+<U1DCF> <d> <U035A> <z>                                                                                                 : "ʤ"
+<U1DCF> <d> <U1D9A>                                                                                                     : "𝼙"   # d + ᶚ
+<U1DCF> <D> <U0359> <greater> <EZH>                                                                                     : "𝼙"
+<U1DCF> <d> <U0359> <greater> <ezh>                                                                                     : "𝼙"
+<U1DCF> <d> <U0293>                                                                                                     : "𝼫"   # d + ʓ
+<U1DCF> <d> <U035B> <ezh>                                                                                               : "𝼫"
+<U1DCF> <E> <dead_macron>                                                                                               : "𝾁"
+<U1DCF> <dead_macron> <E>                                                                                               : "𝾁"
+<U1DCF> <E> <A>                                                                                                         : "Ꞛ"  # Volapük Ä
+<U1DCF> <e> <a>                                                                                                         : "ꞛ"  # Volapük Ä
+<U1DCF> <U1DF6D> <2>                                                                                                    : "𝽜"   # 𝽭 (English Phonotypic Reversed Scruple) × 2
+<U1DCF> <U1DF6D> <U1DF6D>                                                                                               : "𝽜"   # 𝽭 (English Phonotypic Reversed Scruple) × 2
+<U1DCF> <U1DFB> <at> <e> <2>                                                                                            : "𝽜"   # 𝽭 (English Phonotypic Reversed Scruple) × 2
+<U1DCF> <U1DFB> <at> <e> <at> <e>                                                                                       : "𝽜"   # 𝽭 (English Phonotypic Reversed Scruple) × 2
+<U1DCF> <E> <O>                                                                                                         : "Ꞝ"  # Volapük Ö
+<U1DCF> <e> <o>                                                                                                         : "ꞝ"  # Volapük Ö
+<U1DCF> <E> <T>                                                                                                         : "&"
+<U1DCF> <e> <t>                                                                                                         : "&"
+<U1DCF> <E> <U>                                                                                                         : "Ꞟ"  # Volapük Ü
+<U1DCF> <e> <u>                                                                                                         : "ꞟ"  # Volapük Ü
+<U1DCF> <F> <F> <space>                                                                                                 : "ﬀ"
+<U1DCF> <f> <f> <space>                                                                                                 : "ﬀ"
+<U1DCF> <F> <F> <I>                                                                                                     : "ﬃ"
+<U1DCF> <f> <f> <i>                                                                                                     : "ﬃ"
+<U1DCF> <F> <F> <L>                                                                                                     : "ﬄ"
+<U1DCF> <f> <f> <l>                                                                                                     : "ﬄ"
+<U1DCF> <F> <I>                                                                                                         : "ﬁ"
+<U1DCF> <f> <i>                                                                                                         : "ﬁ"
+<U1DCF> <F> <L>                                                                                                         : "ﬂ"
+<U1DCF> <f> <l>                                                                                                         : "ﬂ"
+<U1DCF> <F> <ENG> <space>                                                                                               : "ʩ"
+<U1DCF> <f> <eng> <space>                                                                                               : "ʩ"
+<U1DCF> <F> <ENG> <R>                                                                                                   : "𝼀"
+<U1DCF> <f> <eng> <r>                                                                                                   : "𝼀"
+<U1DCF> <G> <H>                                                                                                         : "Ƣ"   # Gha
+<U1DCF> <g> <h>                                                                                                         : "ƣ"   # Gha
+<U1DCF> <H> <V>                                                                                                         : "Ƕ"   # Hwair
+<U1DCF> <h> <v>                                                                                                         : "ƕ"   # Hwair
+<U1DCF> <H> <W>                                                                                                         : "Ƕ"   # Hwair
+<U1DCF> <h> <w>                                                                                                         : "ƕ"   # Hwair
+<U1DCF> <I> <E>                                                                                                         : "ꭡ"   # Iotified Latin I + E
+<U1DCF> <i> <e>                                                                                                         : "𝽝"  # i + e
+<U1DCF> <i> <2>                                                                                                         : "𝽱"   # English Phonotypic Stretched I
+<U1DCF> <i> <i>                                                                                                         : "𝽱"   # English Phonotypic Stretched I
+<U1DCF> <I> <J>                                                                                                         : "Ĳ"
+<U1DCF> <i> <j>                                                                                                         : "ĳ"
+<U1DCF> <I> <U0241>                                                                                                     : "Ꞽ"   # Glottal I/Egyptological Yod
+<U1DCF> <i> <U0242>                                                                                                     : "ꞽ"   # Glottal I/Egyptological Yod
+<U1DCF> <I> <U027E>                                                                                                     : "ʅ"   # Doubly Hooked Reversed Alveolar Tap / ı + Double Fishhook
+<U1DCF> <i> <U027E>                                                                                                     : "ɿ"   # Hooked Reversed Alveolar Tap / ı + Fishhook
+<U1DCF> <I> <U035A> <underscore> <R>                                                                                    : "ʅ"   # Doubly Hooked Reversed Alveolar Tap / ı + Double Fishhook
+<U1DCF> <i> <U035A> <underscore> <r>                                                                                    : "ɿ"   # Hooked Reversed Alveolar Tap / ı + Fishhook
+<U1DCF> <L> <L>                                                                                                         : "Ỻ"   # Middle Welsh Ll
+<U1DCF> <l> <l>                                                                                                         : "ỻ"   # Middle Welsh Ll
+<U1DCF> <L> <S>                                                                                                         : "ʪ"
+<U1DCF> <l> <s>                                                                                                         : "ʪ"
+<U1DCF> <L> <Z>                                                                                                         : "ʫ"
+<U1DCF> <l> <z>                                                                                                         : "ʫ"
+<U1DCF> <L> <EZH>                                                                                                       : "ɮ"
+<U1DCF> <l> <ezh>                                                                                                       : "ɮ"
+<U1DCF> <L> <U035A> <Z>                                                                                                 : "ɮ"
+<U1DCF> <l> <U035A> <z>                                                                                                 : "ɮ"
+<U1DCF> <l> <U0293>                                                                                                     : "𝽧"   # l + ʓ (Curly Lezh)
+<U1DCF> <L> <U035B> <EZH>                                                                                               : "𝽧"
+<U1DCF> <l> <U035B> <ezh>                                                                                               : "𝽧"
+<U1DCF> <U026D> <EZH>                                                                                                   : "𝼅"   # ɭ + Ʒ
+<U1DCF> <U026D> <ezh>                                                                                                   : "𝼅"   # ɭ + ʒ
+<U1DCF> <U0359> <greater> <L> <EZH>                                                                                     : "𝼅"
+<U1DCF> <U0359> <greater> <l> <ezh>                                                                                     : "𝼅"
+<U1DCF> <M> <W>                                                                                                         : "ꟿ"   # Manius
+<U1DCF> <m> <w>                                                                                                         : "ꟿ"   # Manius
+<U1DCF> <ENG> <bar>                                                                                                     : "Ƞ"
+<U1DCF> <eng> <bar>                                                                                                     : "ƞ"
+<U1DCF> <bar> <ENG>                                                                                                     : "Ƞ"
+<U1DCF> <bar> <eng>                                                                                                     : "ƞ"
+<U1DCF> <O> <E>                                                                                                         : "Œ"
+<U1DCF> <o> <e>                                                                                                         : "œ"
+<U1DCF> <OE> <OE>                                                                                                       : "ꭀ"
+<U1DCF> <oe> <oe>                                                                                                       : "ᴔ"
+<U1DCF> <O> <I>                                                                                                         : "Ƣ"   # Gha (Making reference to its Unicode codepoint)
+<U1DCF> <o> <i>                                                                                                         : "ƣ"    # Gha (Making reference to its Unicode codepoint)
+<U1DCF> <o> <minus> <i>                                                                                                 : "𝽞"
+<U1DCF> <O> <O>                                                                                                         : "Ꝏ"
+<U1DCF> <o> <o>                                                                                                         : "ꝏ"
+<U1DCF> <O> <U>                                                                                                         : "Ȣ"
+<U1DCF> <o> <u>                                                                                                         : "ȣ"
+<U1DCF> <o> <minus> <u>                                                                                                 : "𝽟"
+<U1DCF> <U035A> <O> <U>                                                                                                 : "ᴕ"
+<U1DCF> <U035A> <o> <u>                                                                                                 : "ᴕ"
+<U1DCF> <U0186> <E>                                                                                                     : "ꭢ"   # Ɔ + E
+<U1DCF> <U0254> <e>                                                                                                     : "ꭢ"   # ɔ + e
+<U1DCF> <U035A> <O> <E>                                                                                                 : "ꭢ"   # Ɔ + E
+<U1DCF> <U035A> <o> <e>                                                                                                 : "ꭢ"   # ɔ + e
+<U1DCF> <U0186> <O>                                                                                                     : "ꭃ"   # Ɔ + O
+<U1DCF> <U0254> <o>                                                                                                     : "ꭃ"   # ɔ + o
+<U1DCF> <U035A> <O> <O>                                                                                                 : "ꭃ"   # Ɔ + O
+<U1DCF> <U035A> <o> <o>                                                                                                 : "ꭃ"   # ɔ + o
+<U1DCF> <U0277> <U0277>                                                                                                 : "𝽠"   # ɷ (Latin Closed Omega) × 2 (Actually with an inner loop)
+<U1DCF> <dead_greek> <underscore> <o> <2>                                                                               : "𝽠"
+<U1DCF> <dead_greek> <underscore> <o> <U035A> <o>                                                                       : "𝽠"
+<U1DCF> <dead_greek> <underscore> <oslash> <2>                                                                          : "𝽠"
+<U1DCF> <dead_greek> <underscore> <dead_longsolidusoverlay> <o> <2>                                                     : "𝽠"
+<U1DCF> <dead_greek> <underscore> <oslash> <dead_greek> <underscore> <oslash>                                           : "𝽠"
+<U1DCF> <dead_greek> <underscore> <dead_longsolidusoverlay> <o> <dead_greek> <underscore> <dead_longsolidusoverlay> <o> : "𝽠"
+<U1DCF> <UA7DD> <bar>                                                                                                   : "𝽴"   # 𝽴 (Latin Long-Stem Closed Omega)
+<U1DCF> <U0277> <bar>                                                                                                   : "𝽵"   # 𝽵 (Latin Long-Stem Closed Omega)
+<U1DCF> <dead_greek> <underscore> <O> <bar>                                                                             : "𝽴"
+<U1DCF> <dead_greek> <underscore> <o> <bar>                                                                             : "𝽵"
+<U1DCF> <dead_greek> <underscore> <Oslash> <bar>                                                                        : "𝽴"
+<U1DCF> <dead_greek> <underscore> <oslash> <bar>                                                                        : "𝽵"
+<U1DCF> <bar> <UA7DD>                                                                                                   : "𝽴"   # 𝽴 (Latin Long-Stem Closed Omega)
+<U1DCF> <bar> <U0277>                                                                                                   : "𝽵"   # 𝽵 (Latin Long-Stem Closed Omega)
+<U1DCF> <bar> <dead_greek> <underscore> <O>                                                                             : "𝽴"
+<U1DCF> <bar> <dead_greek> <underscore> <o>                                                                             : "𝽵"
+<U1DCF> <bar> <dead_greek> <underscore> <Oslash>                                                                        : "𝽴"
+<U1DCF> <bar> <dead_greek> <underscore> <oslash>                                                                        : "𝽵"
+<U1DCF> <Q> <P>                                                                                                         : "ȹ"
+<U1DCF> <q> <p>                                                                                                         : "ȹ"
+<U1DCF> <slash> <r>                                                                                                     : "𝽡"   # R with Left Tie
+<U1DCF> <S> <S>                                                                                                         : "ẞ"
+<U1DCF> <s> <s>                                                                                                         : "ß"
+<U1DCF> <U017F> <S>                                                                                                     : "ẞ"   # ſ (Long S) + S
+<U1DCF> <U017F> <s>                                                                                                     : "ß"   # ſ (Long S) + s
+<U1DCF> <U1DFB> <minus> <S>                                                                                             : "ẞ"   # ſ (Long S) + S
+<U1DCF> <U1DFB> <minus> <s>                                                                                             : "ß"   # ſ (Long S) + s
+<U1DCF> <S> <T>                                                                                                         : "ﬆ"
+<U1DCF> <s> <t>                                                                                                         : "ﬆ"
+<U1DCF> <U017F> <T>                                                                                                     : "ﬅ"   # ſ (Long S) + T
+<U1DCF> <U017F> <t>                                                                                                     : "ﬅ"   # ſ (Long S) + t
+<U1DCF> <U1DFB> <minus> <S>                                                                                             : "ﬅ"   # ſ (Long S) + T
+<U1DCF> <U1DFB> <minus> <s>                                                                                             : "ﬅ"   # ſ (Long S) + t
+<U1DCF> <S> <Z>                                                                                                         : "ẞ"
+<U1DCF> <s> <z>                                                                                                         : "ß"
+<U1DCF> <U0283> <h>                                                                                                     : "𝽢"   # ʃ + h
+<U1DCF> <U035A> <s> <h>                                                                                                 : "𝽢"
+<U1DCF> <T> <U1DF0F>                                                                                                    : "ʨ"  # T + 𝼏 
+<U1DCF> <T> <U0255>                                                                                                     : "ʨ"  # t + ɕ 
+<U1DCF> <T> <U035B> <C>                                                                                                 : "ʨ" 
+<U1DCF> <T> <U035B> <c>                                                                                                 : "ʨ"
+<U1DCF> <T> <S>                                                                                                         : "ʦ"
+<U1DCF> <t> <s>                                                                                                         : "ʦ"
+<U1DCF> <T> <UA7C5>                                                                                                     : "ꭧ"   # T + Ʂ
+<U1DCF> <t> <U0282>                                                                                                     : "ꭧ"   # t + ʂ
+<U1DCF> <T> <U0359> <greater> <S>                                                                                       : "ꭧ"
+<U1DCF> <t> <U0359> <greater> <s>                                                                                       : "ꭧ"
+<U1DCF> <T> <U01A9>                                                                                                     : "ʧ"   # T + Ʃ (Esh)
+<U1DCF> <t> <U0283>                                                                                                     : "ʧ"   # t + ʃ (Esh)
+<U1DCF> <T> <U035A> <S>                                                                                                 : "ʧ"   # T + Ʃ (Esh)
+<U1DCF> <t> <U035A> <s>                                                                                                 : "ʧ"   # t + ʃ (Esh)
+<U1DCF> <t> <U1D98>                                                                                                     : "𝼜"   # T + ᶘ (Esh) + Retroflex Hook
+<U1DCF> <t> <U0359> <greater> <U0283>                                                                                   : "𝼜"   # T + ᶘ (Esh) + Retroflex Hook
+<U1DCF> <t> <U0359> <greater> <U035A> <s>                                                                               : "𝼜"   # T + ᶘ (Esh) + Retroflex Hook
+<U1DCF> <t> <U035B> <U0283>                                                                                             : "𝼬"   # t + ʃ (Esh) + Curly Loop
+<U1DCF> <T> <U035B> <U035A> <S>                                                                                         : "𝼬"   # T + Ʃ (Esh) + Curly Loop
+<U1DCF> <t> <U035B> <U035A> <s>                                                                                         : "𝼬"   # t + ʃ (Esh) + Curly Loop
+<U1DCF> <t> <Greek_theta>                                                                                               : "𝼤"   # t + θ (Theta)
+<U1DCF> <t> <dead_greek> <thorn>                                                                                        : "𝼤"   # t + θ (Theta)
+<U1DCF> <t> <dead_greek> <minus> <t> <h>                                                                                : "𝼤"   # t + θ (Theta)
+<U1DCF> <T> <EZH>                                                                                                       : "Ꜩ"
+<U1DCF> <t> <ezh>                                                                                                       : "ꜩ"
+<U1DCF> <T> <U035A> <Z>                                                                                                 : "Ꜩ"
+<U1DCF> <t> <U035A> <z>                                                                                                 : "ꜩ"
+<U1DCF> <U0288> <h>                                                                                                     : "𝽣"   # ʈ + h
+<U1DCF> <U0359> <greater> <t> <h>                                                                                       : "𝽣"
+<U1DCF> <U21BA> <t> <h>                                                                                                 : "𝽤"
+<U1DCF> <THORN> <THORN>                                                                                                 : "꟒"
+<U1DCF> <thorn> <thorn>                                                                                                 : "ꟓ"
+<U1DCF> <U> <E>                                                                                                         : "ᵫ"
+<U1DCF> <u> <e>                                                                                                         : "ᵫ"
+<U1DCF> <U> <I>                                                                                                         : "ꭑ"
+<U1DCF> <u> <i>                                                                                                         : "ꭐ"
+<U1DCF> <U> <O>                                                                                                         : "ꭣ"
+<U1DCF> <u> <o>                                                                                                         : "ꭣ"
+<U1DCF> <U> <U>                                                                                                         : "𝽼"   # English Phonotypic [ʉ(ː)]
+<U1DCF> <u> <u>                                                                                                         : "𝽽"   # English Phonotypic [ʉ(ː)]
+<U1DCF> <U> <U0241>                                                                                                     : "Ꞿ"   # Glottal U
+<U1DCF> <u> <U0242>                                                                                                     : "ꞿ"   # Glottal U
+<U1DCF> <V> <V>                                                                                                         : "W"
+<U1DCF> <v> <v>                                                                                                         : "w"
+<U1DCF> <V> <Y>                                                                                                         : "Ꝡ"
+<U1DCF> <v> <y>                                                                                                         : "ꝡ"
+<U1DCF> <V> <Z>                                                                                                         : "Ꟃ"   # W Anglicana
+<U1DCF> <v> <Z>                                                                                                         : "ꟃ"   # W Anglicana
+<U1DCF> <w> <h>                                                                                                         : "𝽥"   # w + h
+<U1DCF> <U01F7> <U01F7>                                                                                                 : "꟔"   # Ƿ (Wynn) * 2
+<U1DCF> <U01BF> <U01BF>                                                                                                 : "ꟕ"   # ƿ (Wynn) * 2
+<U1DCF> <U1DFB> <W>                                                                                                     : "꟔"   # Ƿ (Wynn) * 2
+<U1DCF> <U1DFB> <w>                                                                                                     : "ꟕ"   # ƿ (Wynn) * 2
+<U1DCF> <U0241> <A>                                                                                                     : "Ꞻ"   # Glottal A
+<U1DCF> <U0242> <a>                                                                                                     : "ꞻ"   # Glottal A
+<U1DCF> <U0241> <I>                                                                                                     : "Ꞽ"   # Glottal I/Egyptological Yod
+<U1DCF> <U0242> <i>                                                                                                     : "ꞽ"   # Glottal I/Egyptological Yod
+<U1DCF> <U0241> <U>                                                                                                     : "Ꞿ"   # Glottal U
+<U1DCF> <U0242> <u>                                                                                                     : "ꞿ"   # Glottal U
 
 
 # Special Fraction-Like Symbols

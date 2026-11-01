@@ -6,6 +6,7 @@
 <dead_longsolidusoverlay> <a>                   : "ⱥ"
 <dead_longsolidusoverlay> <C>                   : "Ȼ"
 <dead_longsolidusoverlay> <c>                   : "ȼ"
+<dead_longsolidusoverlay> <underscore> <c>      : "𝾐"   # Cubum-1 (x³)
 <dead_longsolidusoverlay> <E>                   : "Ɇ"
 <dead_longsolidusoverlay> <e>                   : "ɇ"
 <dead_longsolidusoverlay> <G>                   : "Ꞡ"

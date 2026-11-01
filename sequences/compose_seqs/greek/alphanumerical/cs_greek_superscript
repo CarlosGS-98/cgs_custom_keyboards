@@ -75,6 +75,8 @@
 <Multi_key> <dead_circumflex> <dead_greek> <Greek_iota>     : "ᶥ"
 <Multi_key> <dead_circumflex> <dead_greek> <Greek_phi>      : "ᵠ"
 <Multi_key> <dead_circumflex> <dead_greek> <Greek_chi>      : "ᵡ"
+<Multi_key> <dead_circumflex> <dead_greek> <Greek_psi>      : "𝿳"
+<Multi_key> <dead_circumflex> <dead_greek> <Greek_omega>    : "𝿴"
 
 
 # Skorpian Superscript Circumflex (Latin Letters)
@@ -89,15 +91,23 @@
 <Multi_key> <dead_circumflex> <minus> <Greek_BETA>                                              : "𐞄"   # Smallcaps B
 <Multi_key> <dead_circumflex> <underscore> <Greek_BETA>                                         : "ᴯ"   # Smallcaps Barred B
 <Multi_key> <dead_circumflex> <Greek_beta>                                                      : "ᵇ"
+<Multi_key> <dead_circumflex> <dead_stroke> <Greek_beta>                                        : "𝿒"   # ƀ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <Greek_beta>                                              : "𐞅"
 <Multi_key> <dead_circumflex> <U03FA>                                                           : "ꟲ"
 <Multi_key> <dead_circumflex> <U03FB>                                                           : "ᶜ"
+<Multi_key> <dead_circumflex> <U035A> <U03FA>                                                   : "𐞽"   # ʗ + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U03FB>                                                   : "𐞽"   # ʗ + Superscript
 <Multi_key> <dead_circumflex> <U03DB>                                                           : "ᶜ̧"
 <Multi_key> <dead_circumflex> <dead_cedilla> <U03FB>                                            : "ᶜ̧"
+<Multi_key> <dead_circumflex> <U0359> <U03FB>                                                   : "𝿺"   # ƈ + Superscript
 <Multi_key> <dead_circumflex> <Greek_DELTA>                                                     : "ᴰ"
 <Multi_key> <dead_circumflex> <Greek_delta>                                                     : "ᵈ"
+<Multi_key> <dead_circumflex> <dead_stroke> <Greek_delta>                                       : "𝿓"   # đ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <Greek_delta>                                             : "𐞌"
+<Multi_key> <dead_circumflex> <U0359> <less> <Greek_delta>                                      : "𝿵"   # ᶁ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <greater> <U03E1>                                         : "𐞍"
+<Multi_key> <dead_circumflex> <U035B> <Greek_delta>                                             : "𝿯"   # ȡ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <Greek_delta> <Greek_beta>                                : "𝿞"   # ȸ + Superscript
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_delta> <Greek_zeta>                                : "𐞇"
 <Multi_key> <dead_circumflex> <U1DCF> <minus> <Greek_delta> <Greek_zeta>                        : "𐞇"
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_DELTA> <U035B> <Greek_ZETA>                        : "𐞉"
@@ -106,6 +116,8 @@
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_delta> <U0359> <greater> <Greek_zeta>              : "𐞈"
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_delta> <U0373>                                     : "𐞊"
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_delta> <U035A> <Greek_zeta>                        : "𐞊"
+<Multi_key> <dead_circumflex> <U1DCF> <Greek_delta> <U0359> <greater> <U035A> <Greek_zeta>      : "𝿡"   # 𝼙 + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <Greek_delta> <U035B> <U035A> <Greek_zeta>                : "𝿠"   # 𝼫 + Superscript
 <Multi_key> <dead_circumflex> <U0359> <greater> <Greek_delta>                                   : "𐞋"
 <Multi_key> <dead_circumflex> <Greek_EPSILON>                                                   : "ᴱ"
 <Multi_key> <dead_circumflex> <Greek_epsilon>                                                   : "ᵉ"
@@ -122,6 +134,7 @@
 <Multi_key> <dead_circumflex> <minus> <Greek_GAMMA>                                             : "𐞒"   # Smallcaps G
 <Multi_key> <dead_circumflex> <U0359> <U035A> <Greek_gamma>                                     : "𐞔"
 <Multi_key> <dead_circumflex> <Greek_gamma>                                                     : "ᵍ"
+<Multi_key> <dead_circumflex> <dead_stroke> <Greek_gamma>                                       : "𝿔"   # ǥ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <Greek_gamma>                                             : "𐞓"
 <Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <Greek_gamma>                      : "ˠ"
 <Multi_key> <dead_circumflex> <U0370>                                                           : "ᴴ"
@@ -129,27 +142,37 @@
 <Multi_key> <dead_circumflex> <U0371>                                                           : "ʰ"
 <Multi_key> <dead_circumflex> <dead_stroke> <U0371>                                             : "𐞕"
 <Multi_key> <dead_circumflex> <U0359> <U0371>                                                   : "ʱ"
+<Multi_key> <dead_circumflex> <U0359> <less> <minus> <U0371>                                    : "𝿶"   # ꞕ + Superscript
 <Multi_key> <dead_circumflex> <U035A> <U0371>                                                   : "𐞗"
 <Multi_key> <dead_circumflex> <U21BA> <U0371>                                                   : "ᶣ"
+<Multi_key> <dead_circumflex> <dead_stroke> <U21BA> <U0371>                                     : "𝿘"   # 𝼾 (Barred Turned H) + Superscript
+<Multi_key> <dead_circumflex> <U0359> <U21BA> <U0371>                                           : "𝿭"   # ʮ + Superscript
+<Multi_key> <dead_circumflex> <underscore> <U0359> <greater> <U21BA> <U0371>                    : "𝿮"   # ʯ + Retroflex Hook
 <Multi_key> <dead_circumflex> <Greek_IOTA>                                                      : "ᴵ"
 <Multi_key> <dead_circumflex> <minus> <Greek_IOTA>                                              : "ᶦ"   # Smallcaps I
 <Multi_key> <dead_circumflex> <dead_stroke> <U035A> <Greek_iota>                                : "ᶧ"
 <Multi_key> <dead_circumflex> <underscore> <Greek_IOTA>                                         : "ᴻ"
 <Multi_key> <dead_circumflex> <Greek_iota>                                                      : "ⁱ"
 <Multi_key> <dead_circumflex> <dead_stroke> <Greek_iota>                                        : "ᶤ"
+<Multi_key> <dead_circumflex> <U1DCF> <Greek_IOTA> <U035A> <underscore> <Greek_RHO>             : "𝿬"   # ʅ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <Greek_iota> <U035A> <underscore> <Greek_rho>             : "𝿫"   # ɿ + Superscript
 <Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <Greek_iota>                       : "ᶥ"
 <Multi_key> <dead_circumflex> <underscore> <Greek_iota>                                         : "ᴻ"
 <Multi_key> <dead_circumflex> <Greek_CHI>                                                       : "ᴶ"
 <Multi_key> <dead_circumflex> <Greek_chi>                                                       : "ʲ"
+<Multi_key> <dead_circumflex> <dead_stroke> <Greek_chi>                                         : "𝿙"   # ɉ + Superscript
 <Multi_key> <dead_circumflex> <U035A> <Greek_chi>                                               : "ᶡ"
 <Multi_key> <dead_circumflex> <U035B> <Greek_chi>                                               : "ᶨ"
 <Multi_key> <dead_circumflex> <Greek_KAPPA>                                                     : "ᴷ"
 <Multi_key> <dead_circumflex> <Greek_kappa>                                                     : "ᵏ"
-<Multi_key> <dead_circumflex> <U21BA> <Greek_kappa>                                             : "𐞾"  # ʞ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <Greek_kappa>                                             : "𝿻"   # ƙ + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <Greek_kappa>                                             : "𐞾"   # ʞ + Superscript
 <Multi_key> <dead_circumflex> <Greek_LAMBDA>                                                    : "ᴸ"
 <Multi_key> <dead_circumflex> <minus> <Greek_LAMBDA>                                            : "ᶫ"   # Smallcaps L
 <Multi_key> <dead_circumflex> <Greek_lambda>                                                    : "ˡ"
 <Multi_key> <dead_circumflex> <U0334> <Greek_lambda>                                            : "ꭞ"
+<Multi_key> <dead_circumflex> <dead_stroke> <Greek_lambda>                                      : "𝿖"   # ƚ + Superscript
+<Multi_key> <dead_circumflex> <dead_longsolidusoverlay> <Greek_lambda>                          : "𝿕"   # ł + Superscript
 <Multi_key> <dead_circumflex> <U0359> <less> <Greek_lambda>                                     : "ᶪ"
 <Multi_key> <dead_circumflex> <U0359> <greater> <Greek_lambda>                                  : "ᶩ"
 <Multi_key> <dead_circumflex> <U035B> <U1DF04>                                                  : "𐞜"   # 𝼄 + Superscript 
@@ -157,6 +180,7 @@
 <Multi_key> <dead_circumflex> <U035B> <Greek_lambda>                                            : "𐞛"
 <Multi_key> <dead_circumflex> <U035B> <UA78E>                                                   : "𐞝"   # ꞎ + Superscript
 <Multi_key> <dead_circumflex> <U035B> <U035A> <Greek_lambda>                                    : "𐞝"
+<Multi_key> <dead_circumflex> <U035B> <minus> <Greek_lambda>                                    : "𝿰"   # ȴ + Superscript
 <Multi_key> <dead_circumflex> <U035A> <Greek_lambda>                                            : "𐞦"
 <Multi_key> <dead_circumflex> <U035A> <Greek_LAMBDA>                                            : "𐞧"
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_lambda> <U0373>                                    : "𐞞"
@@ -171,8 +195,12 @@
 <Multi_key> <dead_circumflex> <minus> <Greek_NU>                                                : "ᶰ"   # Smallcaps N
 <Multi_key> <dead_circumflex> <Greek_nu>                                                        : "ⁿ"
 <Multi_key> <dead_circumflex> <minus> <Greek_nu>                                                : "ᵑ"
+<Multi_key> <dead_circumflex> <U1DCF> <minus> <Greek_nu> <bar>                                  : "𝿜"   # ƞ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <bar> <minus> <Greek_nu>                                  : "𝿜"   # ƞ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <less> <Greek_nu>                                         : "ᶮ"
+<Multi_key> <dead_circumflex> <U0359> <less> <minus> <Greek_nu>                                 : "𝿷"   # ᶇ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <greater> <Greek_nu>                                      : "ᶯ"
+<Multi_key> <dead_circumflex> <U035B> <Greek_nu>                                                : "𝿱"   # ȵ + Superscript
 <Multi_key> <dead_circumflex> <Greek_OMICRON>                                                   : "ᴼ"
 <Multi_key> <dead_circumflex> <Greek_omicron>                                                   : "ᵒ"
 <Multi_key> <dead_circumflex> <dead_stroke> <Greek_omicron>                                     : "ᶱ"
@@ -187,29 +215,42 @@
 <Multi_key> <dead_circumflex> <dead_greek> <underscore> <Greek_omega>                           : "𐞤"
 <Multi_key> <dead_circumflex> <Greek_PI>                                                        : "ᴾ"
 <Multi_key> <dead_circumflex> <Greek_pi>                                                        : "ᵖ"
+<Multi_key> <dead_circumflex> <minus> <Greek_PI>                                                : "𝿑"   # Smallcaps P
+<Multi_key> <dead_circumflex> <U0359> <Greek_pi>                                                : "𝿼"   # ƥ + Superscript
 <Multi_key> <dead_circumflex> <U03D8>                                                           : "ꟴ"
 <Multi_key> <dead_circumflex> <U03D9>                                                           : "𐞥"
+<Multi_key> <dead_circumflex> <U0359> <U03D9>                                                   : "𝿽"   # ʠ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <U03D9> <Greek_pi>                                        : "𝿟"   # ȹ + Superscript
 <Multi_key> <dead_circumflex> <Greek_RHO>                                                       : "ᴿ"
 <Multi_key> <dead_circumflex> <minus> <Greek_RHO>                                               : "𐞪"   # Smallcaps R
 <Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <underscore> <Greek_RHO>                : "ʶ"
 <Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <underscore> <Greek_rho>                : "ʶ"
 <Multi_key> <dead_circumflex> <U035A> <Greek_RHO>                                               : "ʵ"
 <Multi_key> <dead_circumflex> <U035A> <Greek_rho>                                               : "ʴ"
+<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <Greek_rho>                                 : "𝿗"   # 𝽐 + Superscript
 <Multi_key> <dead_circumflex> <U035A> <underscore> <Greek_rho>                                  : "𐞩"
 <Multi_key> <dead_circumflex> <Greek_rho>                                                       : "ʳ"
+<Multi_key> <dead_circumflex> <U1DFB> <bar> <Greek_rho>                                         : "𝿝"   # ɼ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <greater> <Greek_rho>                                     : "𐞨"
 <Multi_key> <dead_circumflex> <Greek_SIGMA>                                                     : "ꜱ"
 <Multi_key> <dead_circumflex> <Greek_sigma>                                                     : "ˢ"
 <Multi_key> <dead_circumflex> <Greek_finalsmallsigma>                                           : "ˢ"
+<Multi_key> <dead_circumflex> <U0359> <less> <Greek_sigma>                                      : "𝿸"   # ᶊ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <greater> <Greek_sigma>                                   : "ᶳ"
 <Multi_key> <dead_circumflex> <U035A> <Greek_sigma>                                             : "ᶴ"
 <Multi_key> <dead_circumflex> <dead_stroke> <U0283>                                             : "𐞘"   # ʃ (Esh) + Stroke + Superscript
 <Multi_key> <dead_circumflex> <dead_stroke> <U035A> <Greek_sigma>                               : "𐞘"
 <Multi_key> <dead_circumflex> <U0359> <Greek_chi>                                               : "𐞘"
+<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <minus> <Greek_sigma>                       : "𐞿"
+<Multi_key> <dead_circumflex> <underscore> <U035B> <U035A> <Greek_sigma>                        : "𝿢"   # ʆ + Superscript
 <Multi_key> <dead_circumflex> <Greek_TAU>                                                       : "ᵀ"
 <Multi_key> <dead_circumflex> <Greek_tau>                                                       : "ᵗ"
 <Multi_key> <dead_circumflex> <U0359> <less> <Greek_tau>                                        : "ᶵ"
 <Multi_key> <dead_circumflex> <U0359> <greater> <Greek_tau>                                     : "𐞯"
+<Multi_key> <dead_circumflex> <U035B> <Greek_tau>                                               : "𝿲"   # ȶ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <Greek_tau>                                               : "𝿾"   # ƭ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <greater> <Greek_tau>                           : "𝿿"   # 𝼉 + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <Greek_tau>                                               : "𐞻"   # ʇ + Superscript
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_TAU> <U0255>                                       : "𐞫"   # t + ɕ + Superscript
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_TAU> <U035B> <U03FB>                               : "𐞫"
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_tau> <Greek_sigma>                                 : "𐞬"
@@ -217,11 +258,16 @@
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_tau> <U0359> <greater> <Greek_sigma>               : "𐞭"
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_tau> <U0283>                                       : "𐞮"   # t + ʃ (Esh) + Superscript
 <Multi_key> <dead_circumflex> <U1DCF> <Greek_tau> <U035A> <Greek_sigma>                         : "𐞮"
+<Multi_key> <dead_circumflex> <U1DCF> <Greek_tau> <U0359> <greater> <U035A> <Greek_sigma>       : "𝿥"   # 𝼜 + Superscript
+<Multi_key> <dead_circumflex> <U035B> <U1DCF> <Greek_tau> <U035A> <Greek_sigma>                 : "𝿤"   # 𝼬 + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <Greek_tau> <U035B> <U0283>                               : "𝿤"
+<Multi_key> <dead_circumflex> <U1DCF> <Greek_tau> <U035B> <U035A> <Greek_sigma>                 : "𝿤"
 <Multi_key> <dead_circumflex> <Greek_UPSILON>                                                   : "ᵁ"
 <Multi_key> <dead_circumflex> <minus> <Greek_UPSILON>                                           : "ᶸ"   # Smallcaps U
 <Multi_key> <dead_circumflex> <Greek_upsilon>                                                   : "ᵘ"
 <Multi_key> <dead_circumflex> <dead_stroke> <Greek_upsilon>                                     : "ᶶ"
 <Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <Greek_upsilon>                    : "ᶷ"
+<Multi_key> <dead_circumflex> <dead_stroke> <dead_greek> <dead_circumflex> <Greek_upsilon>      : "𝿚"   # ᵿ + Stroke
 <Multi_key> <dead_circumflex> <U21BA> <Greek_mu>                                                : "ᵚ"
 <Multi_key> <dead_circumflex> <U0376>                                                           : "ⱽ"
 <Multi_key> <dead_circumflex> <U0377>                                                           : "ᵛ"
@@ -231,6 +277,7 @@
 <Multi_key> <dead_circumflex> <U035A> <U0377>                                                   : "𐞰"
 <Multi_key> <dead_circumflex> <U03DC>                                                           : "ᵂ"
 <Multi_key> <dead_circumflex> <U03DD>                                                           : "ʷ"
+<Multi_key> <dead_circumflex> <dead_stroke> <U03DD>                                             : "𝿛"   # 𝼿 + Superscript
 <Multi_key> <dead_circumflex> <U21BA> <U03DD>                                                   : "ꭩ"
 <Multi_key> <dead_circumflex> <Greek_xi>                                                        : "ˣ"
 <Multi_key> <dead_circumflex> <minus> <U037F>                                                   : "𐞲"   # Smallcaps Y
@@ -238,10 +285,16 @@
 <Multi_key> <dead_circumflex> <U21BA> <U03F3>                                                   : "𐞠"
 <Multi_key> <dead_circumflex> <U035B> <U21BA> <U03F3>                                           : "𐞡"   # 𝼆 + Superscript
 <Multi_key> <dead_circumflex> <Greek_zeta>                                                      : "ᶻ"
+<Multi_key> <dead_circumflex> <U0359> <less> <Greek_zeta>                                       : "𝿹"   # ᶎ + Superscript
 <Multi_key> <dead_circumflex> <U0359> <greater> <Greek_zeta>                                    : "ᶼ"
 <Multi_key> <dead_circumflex> <U0373>                                                           : "ᶾ"
 <Multi_key> <dead_circumflex> <U035A> <Greek_zeta>                                              : "ᶾ"
+<Multi_key> <dead_circumflex> <U0359> <greater> <U0373>                                         : "𝿧"   # ᶚ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <U035A> <Greek_zeta>                            : "𝿧"
+<Multi_key> <dead_circumflex> <U035B> <U0373>                                                   : "𝿦"   # ʓ + Supercript
+<Multi_key> <dead_circumflex> <U035B> <U035A> <Greek_zeta>                                      : "𝿦"
 <Multi_key> <dead_circumflex> <U035A> <question> <space>                                        : "ˀ"
+<Multi_key> <dead_circumflex> <U035A> <U21BA> <question> <space>                                : "𐞼"
 <Multi_key> <dead_circumflex> <U035A> <question> <minus>                                        : "𐞳"
 <Multi_key> <dead_circumflex> <U035A> <question> <underscore> <space>                           : "ˁ"
 <Multi_key> <dead_circumflex> <U035A> <question> <underscore> <minus>                           : "𐞴"

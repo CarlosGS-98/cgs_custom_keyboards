@@ -88,271 +88,377 @@
 <Multi_key> <dead_circumflex> <dead_greek> <i>              : "ᶥ"
 <Multi_key> <dead_circumflex> <dead_greek> <f>              : "ᵠ"
 <Multi_key> <dead_circumflex> <dead_greek> <j>              : "ᵡ"
+<Multi_key> <dead_circumflex> <dead_greek> <U2184>          : "𝿳"   # ψ (Psi) + Superscript
+<Multi_key> <dead_circumflex> <dead_greek> <minus> <p> <s>  : "𝿳"
+<Multi_key> <dead_circumflex> <dead_greek> <oslash>         : "𝿴"   # ω (Omega) + Superscript
+<Multi_key> <dead_circumflex> <dead_greek> <minus> <o> <o>  : "𝿴" 
 
 
 # Skorpian Superscript Circumflex (Latin Letters)
-<Multi_key> <dead_circumflex> <A>                                           : "ᴬ"
-<Multi_key> <dead_circumflex> <minus> <A>                                   : "𝿩"   # ᴀ + Superscript
-<Multi_key> <dead_circumflex> <a>                                           : "ᵃ"
-<Multi_key> <dead_circumflex> <U0250>                                       : "ᵄ"   # ɐ + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <a>                                   : "ᵄ"
-<Multi_key> <dead_circumflex> <AE>                                          : "ᴭ"
-<Multi_key> <dead_circumflex> <ae>                                          : "𐞃"
-<Multi_key> <dead_circumflex> <U1DCF> <A> <E>                               : "ᴭ"
-<Multi_key> <dead_circumflex> <U1DCF> <a> <e>                               : "𐞃"
-<Multi_key> <dead_circumflex> <U0251>                                       : "ᵅ"   # ɑ (Latin Alpha) + Superscript
-<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <a>            : "ᵅ"
-<Multi_key> <dead_circumflex> <U0252>                                       : "ᶛ"   # ɒ (Turned Latin Alpha) + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <dead_greek> <a>                      : "ᶛ"
-<Multi_key> <dead_circumflex> <B>                                           : "ᴮ"
-<Multi_key> <dead_circumflex> <minus> <B>                                   : "𐞄"   # Smallcaps B
-<Multi_key> <dead_circumflex> <underscore> <B>                              : "ᴯ"   # Smallcaps Barred B
-<Multi_key> <dead_circumflex> <b>                                           : "ᵇ"
-<Multi_key> <dead_circumflex> <U0253>                                       : "𐞅"   # ɓ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <b>                                   : "𐞅"
-<Multi_key> <dead_circumflex> <C>                                           : "ꟲ"
-<Multi_key> <dead_circumflex> <c>                                           : "ᶜ"
-<Multi_key> <dead_circumflex> <ccedilla>                                    : "ᶜ̧"
-<Multi_key> <dead_circumflex> <dead_cedilla> <c>                            : "ᶜ̧"
-<Multi_key> <dead_circumflex> <D>                                           : "ᴰ"
-<Multi_key> <dead_circumflex> <minus> <D>                                   : "𝿨"   # ᴅ + Superscript
-<Multi_key> <dead_circumflex> <d>                                           : "ᵈ"
-<Multi_key> <dead_circumflex> <U0257>                                       : "𐞌"   # ɗ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <d>                                   : "𐞌"
-<Multi_key> <dead_circumflex> <U1D91>                                       : "𐞍"   # ᶑ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <greater> <eth>                       : "𐞍"
-<Multi_key> <dead_circumflex> <U01F3>                                       : "𐞇"   # ǳ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <d> <z>                               : "𐞇"
-<Multi_key> <dead_circumflex> <U02A3>                                       : "𐞇"   # ʣ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <minus> <d> <z>                       : "𐞇"
-<Multi_key> <dead_circumflex> <U02A5>                                       : "𐞉"   # ʥ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <d> <U0291>                           : "𐞉"   # d + ʑ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <D> <U035B> <Z>                       : "𐞉"
-<Multi_key> <dead_circumflex> <U1DCF> <d> <U035B> <z>                       : "𐞉"
-<Multi_key> <dead_circumflex> <U1DCF> <d> <UAB66>                           : "𐞈"   # ꭦ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <d> <U0290>                           : "𐞈"   # d + ʐ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <D> <U0359> <greater> <Z>             : "𐞈"
-<Multi_key> <dead_circumflex> <U1DCF> <d> <U0359> <greater> <z>             : "𐞈"
-<Multi_key> <dead_circumflex> <U1DCF> <d> <ezh>                             : "𐞊"
-<Multi_key> <dead_circumflex> <U1DCF> <d> <U035A> <z>                       : "𐞊"
-<Multi_key> <dead_circumflex> <U0256>                                       : "𐞋"   # ɖ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <greater> <d>                         : "𐞋"
-<Multi_key> <dead_circumflex> <E>                                           : "ᴱ"
-<Multi_key> <dead_circumflex> <minus> <E>                                   : "𝿪"   # ᴇ + Superscript
-<Multi_key> <dead_circumflex> <e>                                           : "ᵉ"
-<Multi_key> <dead_circumflex> <U025B>                                       : "ᵋ"   # ɛ (Latin Epsilon) + Superscript
-<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <e>            : "ᵋ"
-<Multi_key> <dead_circumflex> <U025C>                                       : "ᶟ"   # ɜ (Turned Latin Epsilon) + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <dead_greek> <e>                      : "ᶟ"
-<Multi_key> <dead_circumflex> <U025E>                                       : "𐞏"   # ɞ + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <underscore> <e>                      : "𐞏"
-<Multi_key> <dead_circumflex> <schwa>                                       : "ᵊ"
-<Multi_key> <dead_circumflex> <U035A> <e>                                   : "ᵊ"
-<Multi_key> <dead_circumflex> <U0258>                                       : "𐞎"   # ɘ + Superscript
-<Multi_key> <dead_circumflex> <U035A> <minus> <e>                           : "𐞎"
-<Multi_key> <dead_circumflex> <U21BA> <schwa>                               : "𐞎"
-<Multi_key> <dead_circumflex> <U018E>                                       : "ᴲ"   # Ǝ (Turned E) + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <E>                                   : "ᴲ"
-<Multi_key> <dead_circumflex> <F>                                           : "ꟳ"
-<Multi_key> <dead_circumflex> <f>                                           : "ᶠ"
-<Multi_key> <dead_circumflex> <U0278>                                       : "ᶲ"   # ɸ (Latin Phi) + Superscript
-<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <f>            : "ᶲ"
-<Multi_key> <dead_circumflex> <G>                                           : "ᴳ"
-<Multi_key> <dead_circumflex> <minus> <G>                                   : "𐞒"   # Smallcaps G
-<Multi_key> <dead_circumflex> <U029B>                                       : "𐞔"   # ʛ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <U035A> <g>                           : "𐞔"
-<Multi_key> <dead_circumflex> <g>                                           : "ᵍ"
-<Multi_key> <dead_circumflex> <U0260>                                       : "𐞓"   # ɠ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <g>                                   : "𐞓"
-<Multi_key> <dead_circumflex> <U0263>                                       : "ˠ"   # ɣ (Latin Gamma) + Superscript
-<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <g>            : "ˠ"
-<Multi_key> <dead_circumflex> <H>                                           : "ᴴ"
-<Multi_key> <dead_circumflex> <minus> <H>                                   : "𐞖"   # Smallcaps H
-<Multi_key> <dead_circumflex> <h>                                           : "ʰ"
-<Multi_key> <dead_circumflex> <U0127>                                       : "𐞕"   # ħ + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <h>                             : "𐞕"
-<Multi_key> <dead_circumflex> <U0266>                                       : "ʱ"   # ɦ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <h>                                   : "ʱ"
-<Multi_key> <dead_circumflex> <U0267>                                       : "𐞗"   # ɧ (Sj-Sound) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <h>                                   : "𐞗"
-<Multi_key> <dead_circumflex> <U0265>                                       : "ᶣ"   # ɥ (Turned H) + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <h>                                   : "ᶣ"
-<Multi_key> <dead_circumflex> <I>                                           : "ᴵ"
-<Multi_key> <dead_circumflex> <minus> <I>                                   : "ᶦ"   # Smallcaps I
-<Multi_key> <dead_circumflex> <U1D7B>                                       : "ᶧ"   # ᵻ + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <i>                     : "ᶧ"
-<Multi_key> <dead_circumflex> <underscore> <I>                              : "ᴻ"
-<Multi_key> <dead_circumflex> <i>                                           : "ⁱ"
-<Multi_key> <dead_circumflex> <U0268>                                       : "ᶤ"   # ɨ + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <i>                             : "ᶤ"
-<Multi_key> <dead_circumflex> <U0269>                                       : "ᶥ"   # ɩ (Latin Iota) + Superscript
-<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <i>            : "ᶥ"
-<Multi_key> <dead_circumflex> <underscore> <i>                              : "ᴻ"
-<Multi_key> <dead_circumflex> <J>                                           : "ᴶ"
-<Multi_key> <dead_circumflex> <j>                                           : "ʲ"
-<Multi_key> <dead_circumflex> <U025F>                                       : "ᶡ"   # ɟ (Barred Dotless J) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <j>                                   : "ᶡ"
-<Multi_key> <dead_circumflex> <U029D>                                       : "ᶨ"   # ʝ + Superscript
-<Multi_key> <dead_circumflex> <U035B> <j>                                   : "ᶨ"
-<Multi_key> <dead_circumflex> <K>                                           : "ᴷ"
-<Multi_key> <dead_circumflex> <k>                                           : "ᵏ"
-<Multi_key> <dead_circumflex> <U029E>                                       : "𐞾"  # ʞ + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <k>                                   : "𐞾"  # ʞ + Superscript
-<Multi_key> <dead_circumflex> <L>                                           : "ᴸ"
-<Multi_key> <dead_circumflex> <minus> <L>                                   : "ᶫ"   # Smallcaps L
-<Multi_key> <dead_circumflex> <l>                                           : "ˡ"
-<Multi_key> <dead_circumflex> <U026B>                                       : "ꭞ"   # ɫ + Superscript
-<Multi_key> <dead_circumflex> <U0334> <l>                                   : "ꭞ"
-<Multi_key> <dead_circumflex> <U1D85>                                       : "ᶪ"   # ᶅ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <less> <l>                            : "ᶪ"
-<Multi_key> <dead_circumflex> <U026D>                                       : "ᶩ"   # ɭ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <greater> <l>                         : "ᶩ"
-<Multi_key> <dead_circumflex> <U035B> <U1DF04>                              : "𐞜"   # 𝼄 + Superscript 
-<Multi_key> <dead_circumflex> <U035B> <U035A> <L>                           : "𐞜"
-<Multi_key> <dead_circumflex> <U026C>                                       : "𐞛"   # ɬ + Superscript
-<Multi_key> <dead_circumflex> <U035B> <l>                                   : "𐞛"
-<Multi_key> <dead_circumflex> <U035B> <UA78E>                               : "𐞝"   # ꞎ + Superscript
-<Multi_key> <dead_circumflex> <U035B> <U035A> <l>                           : "𐞝"
-<Multi_key> <dead_circumflex> <U027A>                                       : "𐞦"   # ɺ (Lateral Flap) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <l>                                   : "𐞦"
-<Multi_key> <dead_circumflex> <U1DF08>                                      : "𐞧"   # 𝼈 (Retroflex Lateral Flap) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <L>                                   : "𐞧"
-<Multi_key> <dead_circumflex> <U026E>                                       : "𐞞"   # ɮ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <l> <ezh>                             : "𐞞"
-<Multi_key> <dead_circumflex> <U1DCF> <l> <U035A> <z>                       : "𐞞"
-<Multi_key> <dead_circumflex> <U1DCF> <U026D> <ezh>                         : "𐞟"   # ɭ + ʒ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <U0359> <greater> <l> <ezh>           : "𐞟"
-<Multi_key> <dead_circumflex> <M>                                           : "ᴹ"
-<Multi_key> <dead_circumflex> <m>                                           : "ᵐ"
-<Multi_key> <dead_circumflex> <U0271>                                       : "ᶬ"   # ɱ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <m>                                   : "ᶬ"
-<Multi_key> <dead_circumflex> <U0270>                                       : "ᶭ"   # ɰ + Superscript
-<Multi_key> <dead_circumflex> <U035A> <m>                                   : "ᶭ"
-<Multi_key> <dead_circumflex> <N>                                           : "ᴺ"
-<Multi_key> <dead_circumflex> <minus> <N>                                   : "ᶰ"   # Smallcaps N
-<Multi_key> <dead_circumflex> <n>                                           : "ⁿ"
-<Multi_key> <dead_circumflex> <eng>                                         : "ᵑ"
-<Multi_key> <dead_circumflex> <U0272>                                       : "ᶮ"   # ɲ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <less> <n>                            : "ᶮ"
-<Multi_key> <dead_circumflex> <U0273>                                       : "ᶯ"   # ɳ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <greater> <n>                         : "ᶯ"
-<Multi_key> <dead_circumflex> <O>                                           : "ᴼ"
-<Multi_key> <dead_circumflex> <o>                                           : "ᵒ"
-<Multi_key> <dead_circumflex> <U0275>                                       : "ᶱ"   # ɵ + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <o>                             : "ᶱ"
-<Multi_key> <dead_circumflex> <oslash>                                      : "𐞢"
-<Multi_key> <dead_circumflex> <dead_longsolidusoverlay> <o>                 : "𐞢"
-<Multi_key> <dead_circumflex> <U0276>                                       : "𐞣"   # Smallcaps Œ
-<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <OE>                : "𐞣"
-<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <oe>                : "𐞣"
-<Multi_key> <dead_circumflex> <oe>                                          : "ꟹ"
-<Multi_key> <dead_circumflex> <U1DCF> <o> <e>                               : "ꟹ"
-<Multi_key> <dead_circumflex> <U0254>                                       : "ᵓ"   # ɔ + Superscript
-<Multi_key> <dead_circumflex> <U035A> <o>                                   : "ᵓ"
-<Multi_key> <dead_circumflex> <U0264>                                       : "𐞑"   # ɤ (Ram's Horn) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <oslash>                              : "𐞑"
-<Multi_key> <dead_circumflex> <U0277>                                       : "𐞤"   # ɷ (Latin Closed Omega) + Superscript
-<Multi_key> <dead_circumflex> <dead_greek> <underscore> <o>                 : "𐞤"
-<Multi_key> <dead_circumflex> <dead_greek> <underscore> <oslash>            : "𐞤"
-<Multi_key> <dead_circumflex> <P>                                           : "ᴾ"
-<Multi_key> <dead_circumflex> <p>                                           : "ᵖ"
-<Multi_key> <dead_circumflex> <Q>                                           : "ꟴ"
-<Multi_key> <dead_circumflex> <q>                                           : "𐞥"
-<Multi_key> <dead_circumflex> <R>                                           : "ᴿ"
-<Multi_key> <dead_circumflex> <minus> <R>                                   : "𐞪"   # Smallcaps R
-<Multi_key> <dead_circumflex> <U0281>                                       : "ʶ"   # ʁ + Superscript
-<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <underscore> <R>    : "ʶ"
-<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <underscore> <r>    : "ʶ"
-<Multi_key> <dead_circumflex> <U027B>                                       : "ʵ"   # ɻ (Voiced retroflex approximant) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <R>                                   : "ʵ"
-<Multi_key> <dead_circumflex> <U0279>                                       : "ʴ"   # ɹ (Voiced alveolar approximant) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <r>                                   : "ʴ"
-<Multi_key> <dead_circumflex> <U027E>                                       : "𐞩"   # ɾ (Voiced alveolar flap) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <underscore> <r>                      : "𐞩"
-<Multi_key> <dead_circumflex> <r>                                           : "ʳ"
-<Multi_key> <dead_circumflex> <U027D>                                       : "𐞨"   # ɽ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <greater> <r>                         : "𐞨"
-<Multi_key> <dead_circumflex> <S>                                           : "ꜱ"
-<Multi_key> <dead_circumflex> <s>                                           : "ˢ"
-<Multi_key> <dead_circumflex> <U0282>                                       : "ᶳ"   # ʂ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <greater> <s>                         : "ᶳ"
-<Multi_key> <dead_circumflex> <U0283>                                       : "ᶴ"   # ʃ (Esh) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <s>                                   : "ᶴ"
-<Multi_key> <dead_circumflex> <U0284>                                       : "𐞘"   # ʄ + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <U0283>                         : "𐞘"   # ʃ (Esh) + Stroke + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <s>                     : "𐞘"
-<Multi_key> <dead_circumflex> <U0359> <j>                                   : "𐞘"
-<Multi_key> <dead_circumflex> <U035A> <s>                                   : "𐞘"
-<Multi_key> <dead_circumflex> <U1DF0B>                                      : "𐞿"   # 𝼋 + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <U0284>                         : "𐞿"   # ʄ (Barred Esh) + Stroke + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <minus> <s>             : "𐞿"
-<Multi_key> <dead_circumflex> <T>                                           : "ᵀ"
-<Multi_key> <dead_circumflex> <t>                                           : "ᵗ"
-<Multi_key> <dead_circumflex> <U01AB>                                       : "ᶵ"   # ƫ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <less> <t>                            : "ᶵ"
-<Multi_key> <dead_circumflex> <U0288>                                       : "𐞯"   # ʈ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <greater> <t>                         : "𐞯"
-<Multi_key> <dead_circumflex> <U0287>                                       : "𐞻"   # ʇ + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <t>                                   : "𐞻"   # ʇ + Superscript
-<Multi_key> <dead_circumflex> <U02A8>                                       : "𐞫"   # ʨ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <T> <U0255>                           : "𐞫"   # t + ɕ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <T> <U035B> <c>                       : "𐞫"
-<Multi_key> <dead_circumflex> <U02A6>                                       : "𐞬"   # ʦ + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <t> <s>                               : "𐞬"
-<Multi_key> <dead_circumflex> <U1DCF> <t> <U0282>                           : "𐞭"   # ꭧ +  Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <t> <U0359> <greater> <s>             : "𐞭"
-<Multi_key> <dead_circumflex> <U1DCF> <t> <U0283>                           : "𐞮"   # t + ʃ (Esh) + Superscript
-<Multi_key> <dead_circumflex> <U1DCF> <t> <U035A> <s>                       : "𐞮"
-<Multi_key> <dead_circumflex> <U>                                           : "ᵁ"
-<Multi_key> <dead_circumflex> <minus> <U>                                   : "ᶸ"   # Smallcaps U
-<Multi_key> <dead_circumflex> <u>                                           : "ᵘ"
-<Multi_key> <dead_circumflex> <U0289>                                       : "ᶶ"   # ʉ + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <u>                             : "ᶶ"
-<Multi_key> <dead_circumflex> <U028A>                                       : "ᶷ"   # ʊ (Latin Upsilon) + Superscript
-<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <u>            : "ᶷ"
-<Multi_key> <dead_circumflex> <U026F>                                       : "ᵚ"   # ɯ (Turned M) + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <m>                                   : "ᵚ"
-<Multi_key> <dead_circumflex> <V>                                           : "ⱽ"
-<Multi_key> <dead_circumflex> <v>                                           : "ᵛ"
-<Multi_key> <dead_circumflex> <dead_acute> <U028C>                          : "ᶺ"   # ʌ + Superscript
-<Multi_key> <dead_circumflex> <dead_acute> <U21BA> <v>                      : "ᶺ"
-<Multi_key> <dead_circumflex> <U028B>                                       : "ᶹ"   # ʋ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <v>                                   : "ᶹ"
-<Multi_key> <dead_circumflex> <U2C71>                                       : "𐞰"   # ⱱ (Labiodental flap) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <v>                                   : "𐞰"
-<Multi_key> <dead_circumflex> <W>                                           : "ᵂ"
-<Multi_key> <dead_circumflex> <w>                                           : "ʷ"
-<Multi_key> <dead_circumflex> <U028D>                                       : "ꭩ"   # ʍ + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <w>                                   : "ꭩ"
-<Multi_key> <dead_circumflex> <x>                                           : "ˣ"
-<Multi_key> <dead_circumflex> <minus> <Y>                                   : "𐞲"   # Smallcaps Y
-<Multi_key> <dead_circumflex> <y>                                           : "ʸ"
-<Multi_key> <dead_circumflex> <U028E>                                       : "𐞠"   # ʎ + Superscript
-<Multi_key> <dead_circumflex> <U21BA> <y>                                   : "𐞠"
-<Multi_key> <dead_circumflex> <U035B> <U21BA> <y>                           : "𐞡"   # 𝼆 + Superscript
-<Multi_key> <dead_circumflex> <z>                                           : "ᶻ"
-<Multi_key> <dead_circumflex> <U0290>                                       : "ᶼ"   # ʐ + Superscript
-<Multi_key> <dead_circumflex> <U0359> <greater> <z>                         : "ᶼ"
-<Multi_key> <dead_circumflex> <ezh>                                         : "ᶾ"
-<Multi_key> <dead_circumflex> <U035A> <z>                                   : "ᶾ"
-<Multi_key> <dead_circumflex> <U0294>                                       : "ˀ"   # ʔ (Glottal Stop) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <U0241> <space>                       : "ˀ"   # Ɂ (Capital Glottal Stop) + IPA Key
-<Multi_key> <dead_circumflex> <U035A> <U0242> <space>                       : "ˀ"   # ɂ (Small Glottal Stop) + IPA Key
-<Multi_key> <dead_circumflex> <U0296>                                       : "𐞼"   # ʖ (Inverted Glottal Stop) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <U21BA> <U0241>                       : "𐞼"   # Ɂ (Capital Glottal Stop) + "Letter Flip" Dead Key + IPA Key + Superscript
-<Multi_key> <dead_circumflex> <U035A> <U21BA> <U0242>                       : "𐞼"   # ɂ (Small Glottal Stop) + "Letter Flip" Dead Key + IPA Key + Superscript
-<Multi_key> <dead_circumflex> <U035A> <U0241> <minus>                       : "𐞳"   # Ɂ (Capital Glottal Stop) + "-" + IPA Key + Superscript
-<Multi_key> <dead_circumflex> <U035A> <U0242> <minus>                       : "𐞳"   # ɂ (Small Glottal Stop) + "-" + IPA Key + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <U0294>                         : "𐞳"   # ʔ (Glottal Stop) + Stroke + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <question>              : "𐞳"   # ʔ (Glottal Stop) + Stroke + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <U0241> <space>         : "𐞳"   # Ɂ (Capital Glottal Stop) + Stroke + Superscript
-<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <U0242> <space>         : "𐞳"   # ɂ (Small Glottal Stop) + Stroke + Superscript
-<Multi_key> <dead_circumflex> <U0295>                                       : "ˤ"   # ʕ (Reversed Glottal Stop) + Superscript
-<Multi_key> <dead_circumflex> <U035A> <U0241> <underscore> <space>          : "ˁ"   # Ɂ (Capital Glottal Stop) + "_" + IPA Key + Superscript
-<Multi_key> <dead_circumflex> <U035A> <U0242> <underscore> <space>          : "ˤ"   # ɂ (Small Glottal Stop) + "_" + IPA Key + Superscript
-<Multi_key> <dead_circumflex> <U02A2>                                       : "𐞴"   # Ɂ (Capital Glottal Stop) + "_-" + IPA Key + Superscript
-<Multi_key> <dead_circumflex> <U035A> <U0241> <underscore> <minus>          : "𐞴"   # Ɂ (Capital Glottal Stop) + "_-" + IPA Key + Superscript
-<Multi_key> <dead_circumflex> <U035A> <U0242> <underscore> <minus>          : "𐞴"   # ɂ (Small Glottal Stop) + "_-" + IPA Key + Superscript
+<Multi_key> <dead_circumflex> <A>                                               : "ᴬ"
+<Multi_key> <dead_circumflex> <minus> <A>                                       : "𝿩"   # ᴀ + Superscript
+<Multi_key> <dead_circumflex> <a>                                               : "ᵃ"
+<Multi_key> <dead_circumflex> <U0250>                                           : "ᵄ"   # ɐ + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <a>                                       : "ᵄ"
+<Multi_key> <dead_circumflex> <AE>                                              : "ᴭ"
+<Multi_key> <dead_circumflex> <ae>                                              : "𐞃"
+<Multi_key> <dead_circumflex> <U1DCF> <A> <E>                                   : "ᴭ"
+<Multi_key> <dead_circumflex> <U1DCF> <a> <e>                                   : "𐞃"
+<Multi_key> <dead_circumflex> <U0251>                                           : "ᵅ"   # ɑ (Latin Alpha) + Superscript
+<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <a>                : "ᵅ"
+<Multi_key> <dead_circumflex> <U0252>                                           : "ᶛ"   # ɒ (Turned Latin Alpha) + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <dead_greek> <a>                          : "ᶛ"
+<Multi_key> <dead_circumflex> <B>                                               : "ᴮ"
+<Multi_key> <dead_circumflex> <minus> <B>                                       : "𐞄"   # Smallcaps B
+<Multi_key> <dead_circumflex> <underscore> <B>                                  : "ᴯ"   # Smallcaps Barred B
+<Multi_key> <dead_circumflex> <b>                                               : "ᵇ"
+<Multi_key> <dead_circumflex> <dead_stroke> <b>                                 : "𝿒"   # ƀ + Superscript
+<Multi_key> <dead_circumflex> <U0253>                                           : "𐞅"   # ɓ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <b>                                       : "𐞅"
+<Multi_key> <dead_circumflex> <C>                                               : "ꟲ"
+<Multi_key> <dead_circumflex> <c>                                               : "ᶜ"
+<Multi_key> <dead_circumflex> <U035A> <C>                                       : "𐞽"   # ʗ + Superscript
+<Multi_key> <dead_circumflex> <U035A> <c>                                       : "𐞽"   # ʗ + Superscript
+<Multi_key> <dead_circumflex> <ccedilla>                                        : "ᶜ̧"
+<Multi_key> <dead_circumflex> <dead_cedilla> <c>                                : "ᶜ̧"
+<Multi_key> <dead_circumflex> <U0188>                                           : "𝿺"   # ƈ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <c>                                       : "𝿺"
+<Multi_key> <dead_circumflex> <D>                                               : "ᴰ"
+<Multi_key> <dead_circumflex> <minus> <D>                                       : "𝿨"   # ᴅ + Superscript
+<Multi_key> <dead_circumflex> <d>                                               : "ᵈ"
+<Multi_key> <dead_circumflex> <dead_stroke> <d>                                 : "𝿓"   # đ + Superscript
+<Multi_key> <dead_circumflex> <U0257>                                           : "𐞌"   # ɗ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <d>                                       : "𐞌"
+<Multi_key> <dead_circumflex> <U1D81>                                           : "𝿵"   # ᶁ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <less> <d>                                : "𝿵"
+<Multi_key> <dead_circumflex> <U1D91>                                           : "𐞍"   # ᶑ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <eth>                           : "𐞍"
+<Multi_key> <dead_circumflex> <U0221>                                           : "𝿯"   # ȡ + Superscript
+<Multi_key> <dead_circumflex> <U035B> <d>                                       : "𝿯"
+<Multi_key> <dead_circumflex> <U0238>                                           : "𝿞"   # ȸ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <d> <b>                                   : "𝿞"
+<Multi_key> <dead_circumflex> <U01F3>                                           : "𐞇"   # ǳ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <d> <z>                                   : "𐞇"
+<Multi_key> <dead_circumflex> <U02A3>                                           : "𐞇"   # ʣ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <minus> <d> <z>                           : "𐞇"
+<Multi_key> <dead_circumflex> <U02A5>                                           : "𐞉"   # ʥ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <d> <U0291>                               : "𐞉"   # d + ʑ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <D> <U035B> <Z>                           : "𐞉"
+<Multi_key> <dead_circumflex> <U1DCF> <d> <U035B> <z>                           : "𐞉"
+<Multi_key> <dead_circumflex> <U1DCF> <d> <UAB66>                               : "𐞈"   # ꭦ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <d> <U0290>                               : "𐞈"   # d + ʐ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <D> <U0359> <greater> <Z>                 : "𐞈"
+<Multi_key> <dead_circumflex> <U1DCF> <d> <U0359> <greater> <z>                 : "𐞈"
+<Multi_key> <dead_circumflex> <U1DCF> <d> <ezh>                                 : "𐞊"
+<Multi_key> <dead_circumflex> <U1DCF> <d> <U035A> <z>                           : "𐞊"
+<Multi_key> <dead_circumflex> <U1DCF> <d> <U1DF19>                              : "𝿡"   # 𝼙 + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <d> <U0359> <greater> <ezh>               : "𝿡"
+<Multi_key> <dead_circumflex> <U1DF2B>                                          : "𝿠"   # 𝼫 + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <d> <U035B> <ezh>                         : "𝿠"
+<Multi_key> <dead_circumflex> <U0256>                                           : "𐞋"   # ɖ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <d>                             : "𐞋"
+<Multi_key> <dead_circumflex> <E>                                               : "ᴱ"
+<Multi_key> <dead_circumflex> <minus> <E>                                       : "𝿪"   # ᴇ + Superscript
+<Multi_key> <dead_circumflex> <e>                                               : "ᵉ"
+<Multi_key> <dead_circumflex> <U025B>                                           : "ᵋ"   # ɛ (Latin Epsilon) + Superscript
+<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <e>                : "ᵋ"
+<Multi_key> <dead_circumflex> <U025C>                                           : "ᶟ"   # ɜ (Turned Latin Epsilon) + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <dead_greek> <e>                          : "ᶟ"
+<Multi_key> <dead_circumflex> <U025E>                                           : "𐞏"   # ɞ + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <underscore> <e>                          : "𐞏"
+<Multi_key> <dead_circumflex> <schwa>                                           : "ᵊ"
+<Multi_key> <dead_circumflex> <U035A> <e>                                       : "ᵊ"
+<Multi_key> <dead_circumflex> <U0258>                                           : "𐞎"   # ɘ + Superscript
+<Multi_key> <dead_circumflex> <U035A> <minus> <e>                               : "𐞎"
+<Multi_key> <dead_circumflex> <U21BA> <schwa>                                   : "𐞎"
+<Multi_key> <dead_circumflex> <U018E>                                           : "ᴲ"   # Ǝ (Turned E) + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <E>                                       : "ᴲ"
+<Multi_key> <dead_circumflex> <F>                                               : "ꟳ"
+<Multi_key> <dead_circumflex> <f>                                               : "ᶠ"
+<Multi_key> <dead_circumflex> <U0278>                                           : "ᶲ"   # ɸ (Latin Phi) + Superscript
+<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <f>                : "ᶲ"
+<Multi_key> <dead_circumflex> <G>                                               : "ᴳ"
+<Multi_key> <dead_circumflex> <minus> <G>                                       : "𐞒"   # Smallcaps G
+<Multi_key> <dead_circumflex> <U029B>                                           : "𐞔"   # ʛ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <U035A> <g>                               : "𐞔"
+<Multi_key> <dead_circumflex> <g>                                               : "ᵍ"
+<Multi_key> <dead_circumflex> <dead_stroke> <g>                                 : "𝿔"   # ǥ + Superscript
+<Multi_key> <dead_circumflex> <U0260>                                           : "𐞓"   # ɠ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <g>                                       : "𐞓"
+<Multi_key> <dead_circumflex> <U0263>                                           : "ˠ"   # ɣ (Latin Gamma) + Superscript
+<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <g>                : "ˠ"
+<Multi_key> <dead_circumflex> <H>                                               : "ᴴ"
+<Multi_key> <dead_circumflex> <minus> <H>                                       : "𐞖"   # Smallcaps H
+<Multi_key> <dead_circumflex> <h>                                               : "ʰ"
+<Multi_key> <dead_circumflex> <U0127>                                           : "𐞕"   # ħ + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <h>                                 : "𐞕"
+<Multi_key> <dead_circumflex> <U0266>                                           : "ʱ"   # ɦ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <h>                                       : "ʱ"
+<Multi_key> <dead_circumflex> <U0267>                                           : "𐞗"   # ɧ (Sj-Sound) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <h>                                       : "𐞗"
+<Multi_key> <dead_circumflex> <UA795>                                           : "𝿶"   # ꞕ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <less> <minus> <h>                        : "𝿶"
+<Multi_key> <dead_circumflex> <U0265>                                           : "ᶣ"   # ɥ (Turned H) + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <h>                                       : "ᶣ"
+<Multi_key> <dead_circumflex> <dead_stroke> <U1DF3E>                            : "𝿘"   # 𝼾 (Barred Turned H) + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U21BA> <h>                         : "𝿘"
+<Multi_key> <dead_circumflex> <U02AE>                                           : "𝿭"   # ʮ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <U21BA> <h>                               : "𝿭"
+<Multi_key> <dead_circumflex> <U02AF>                                           : "𝿮"   # ʯ + Retroflex Hook
+<Multi_key> <dead_circumflex> <U0359> <greater> <U21BA> <h>                     : "𝿮"
+<Multi_key> <dead_circumflex> <I>                                               : "ᴵ"
+<Multi_key> <dead_circumflex> <minus> <I>                                       : "ᶦ"   # Smallcaps I
+<Multi_key> <dead_circumflex> <U1D7B>                                           : "ᶧ"   # ᵻ + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <i>                         : "ᶧ"
+<Multi_key> <dead_circumflex> <underscore> <I>                                  : "ᴻ"
+<Multi_key> <dead_circumflex> <i>                                               : "ⁱ"
+<Multi_key> <dead_circumflex> <U0268>                                           : "ᶤ"   # ɨ + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <i>                                 : "ᶤ"
+<Multi_key> <dead_circumflex> <U0285>                                           : "𝿬"   # ʅ + Superscript
+<Multi_key> <dead_circumflex> <U027F>                                           : "𝿫"   # ɿ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <I> <U027E>                               : "𝿬"
+<Multi_key> <dead_circumflex> <U1DCF> <i> <U027E>                               : "𝿫"
+<Multi_key> <dead_circumflex> <U1DCF> <I> <U035A> <underscore> <R>              : "𝿬"
+<Multi_key> <dead_circumflex> <U1DCF> <i> <U035A> <underscore> <r>              : "𝿫"
+<Multi_key> <dead_circumflex> <U0269>                                           : "ᶥ"   # ɩ (Latin Iota) + Superscript
+<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <i>                : "ᶥ"
+<Multi_key> <dead_circumflex> <underscore> <i>                                  : "ᴻ"
+<Multi_key> <dead_circumflex> <J>                                               : "ᴶ"
+<Multi_key> <dead_circumflex> <j>                                               : "ʲ"
+<Multi_key> <dead_circumflex> <U0249>                                           : "𝿙"   # ɉ + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <j>                                 : "𝿙"
+<Multi_key> <dead_circumflex> <U025F>                                           : "ᶡ"   # ɟ (Barred Dotless J) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <j>                                       : "ᶡ"
+<Multi_key> <dead_circumflex> <U029D>                                           : "ᶨ"   # ʝ + Superscript
+<Multi_key> <dead_circumflex> <U035B> <j>                                       : "ᶨ"
+<Multi_key> <dead_circumflex> <K>                                               : "ᴷ"
+<Multi_key> <dead_circumflex> <k>                                               : "ᵏ"
+<Multi_key> <dead_circumflex> <U0199>                                           : "𝿻"   # ƙ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <k>                                       : "𝿻"
+<Multi_key> <dead_circumflex> <U029E>                                           : "𐞾"   # ʞ + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <k>                                       : "𐞾"   # ʞ + Superscript
+<Multi_key> <dead_circumflex> <L>                                               : "ᴸ"
+<Multi_key> <dead_circumflex> <minus> <L>                                       : "ᶫ"   # Smallcaps L
+<Multi_key> <dead_circumflex> <l>                                               : "ˡ"
+<Multi_key> <dead_circumflex> <U026B>                                           : "ꭞ"   # ɫ + Superscript
+<Multi_key> <dead_circumflex> <U0334> <l>                                       : "ꭞ"
+<Multi_key> <dead_circumflex> <dead_stroke> <l>                                 : "𝿖"   # ƚ + Superscript
+<Multi_key> <dead_circumflex> <dead_longsolidusoverlay> <l>                     : "𝿕"   # ł + Superscript
+<Multi_key> <dead_circumflex> <U1D85>                                           : "ᶪ"   # ᶅ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <less> <l>                                : "ᶪ"
+<Multi_key> <dead_circumflex> <U026D>                                           : "ᶩ"   # ɭ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <l>                             : "ᶩ"
+<Multi_key> <dead_circumflex> <U035B> <U1DF04>                                  : "𐞜"   # 𝼄 + Superscript 
+<Multi_key> <dead_circumflex> <U035B> <U035A> <L>                               : "𐞜"
+<Multi_key> <dead_circumflex> <U026C>                                           : "𐞛"   # ɬ + Superscript
+<Multi_key> <dead_circumflex> <U035B> <l>                                       : "𐞛"
+<Multi_key> <dead_circumflex> <U035B> <UA78E>                                   : "𐞝"   # ꞎ + Superscript
+<Multi_key> <dead_circumflex> <U035B> <U035A> <l>                               : "𐞝"
+<Multi_key> <dead_circumflex> <U0234>                                           : "𝿰"   # ȴ + Superscript
+<Multi_key> <dead_circumflex> <U035B> <lstroke>                                 : "𝿰"
+<Multi_key> <dead_circumflex> <U035B> <dead_longsolidusoverlay> <l>             : "𝿰"
+<Multi_key> <dead_circumflex> <U027A>                                           : "𐞦"   # ɺ (Lateral Flap) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <l>                                       : "𐞦"
+<Multi_key> <dead_circumflex> <U1DF08>                                          : "𐞧"   # 𝼈 (Retroflex Lateral Flap) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <L>                                       : "𐞧"
+<Multi_key> <dead_circumflex> <U026E>                                           : "𐞞"   # ɮ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <l> <ezh>                                 : "𐞞"
+<Multi_key> <dead_circumflex> <U1DCF> <l> <U035A> <z>                           : "𐞞"
+<Multi_key> <dead_circumflex> <U1DCF> <U026D> <ezh>                             : "𐞟"   # ɭ + ʒ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <U0359> <greater> <l> <ezh>               : "𐞟"
+<Multi_key> <dead_circumflex> <M>                                               : "ᴹ"
+<Multi_key> <dead_circumflex> <m>                                               : "ᵐ"
+<Multi_key> <dead_circumflex> <U0271>                                           : "ᶬ"   # ɱ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <m>                                       : "ᶬ"
+<Multi_key> <dead_circumflex> <U0270>                                           : "ᶭ"   # ɰ + Superscript
+<Multi_key> <dead_circumflex> <U035A> <m>                                       : "ᶭ"
+<Multi_key> <dead_circumflex> <N>                                               : "ᴺ"
+<Multi_key> <dead_circumflex> <minus> <N>                                       : "ᶰ"   # Smallcaps N
+<Multi_key> <dead_circumflex> <n>                                               : "ⁿ"
+<Multi_key> <dead_circumflex> <eng>                                             : "ᵑ"
+<Multi_key> <dead_circumflex> <U019E>                                           : "𝿜"   # ƞ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <eng> <bar>                               : "𝿜"
+<Multi_key> <dead_circumflex> <U1DCF> <bar> <eng>                               : "𝿜"
+<Multi_key> <dead_circumflex> <U0272>                                           : "ᶮ"   # ɲ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <less> <n>                                : "ᶮ"
+<Multi_key> <dead_circumflex> <U1D87>                                           : "𝿷"   # ᶇ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <less> <minus> <n>                        : "𝿷"
+<Multi_key> <dead_circumflex> <U0273>                                           : "ᶯ"   # ɳ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <n>                             : "ᶯ"
+<Multi_key> <dead_circumflex> <U0235>                                           : "𝿱"   # ȵ + Superscript
+<Multi_key> <dead_circumflex> <U035B> <n>                                       : "𝿱"
+<Multi_key> <dead_circumflex> <O>                                               : "ᴼ"
+<Multi_key> <dead_circumflex> <o>                                               : "ᵒ"
+<Multi_key> <dead_circumflex> <U0275>                                           : "ᶱ"   # ɵ + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <o>                                 : "ᶱ"
+<Multi_key> <dead_circumflex> <oslash>                                          : "𐞢"
+<Multi_key> <dead_circumflex> <dead_longsolidusoverlay> <o>                     : "𐞢"
+<Multi_key> <dead_circumflex> <U1DF58>                                          : "𝿎"   # 𝽘 + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <notsign> <o>                       : "𝿎"
+<Multi_key> <dead_circumflex> <U0276>                                           : "𐞣"   # Smallcaps Œ
+<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <OE>                    : "𐞣"
+<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <oe>                    : "𐞣"
+<Multi_key> <dead_circumflex> <oe>                                              : "ꟹ"
+<Multi_key> <dead_circumflex> <U1DCF> <o> <e>                                   : "ꟹ"
+<Multi_key> <dead_circumflex> <U0254>                                           : "ᵓ"   # ɔ + Superscript
+<Multi_key> <dead_circumflex> <U035A> <o>                                       : "ᵓ"
+<Multi_key> <dead_circumflex> <U0264>                                           : "𐞑"   # ɤ (Ram's Horn) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <oslash>                                  : "𐞑"
+<Multi_key> <dead_circumflex> <U0277>                                           : "𐞤"   # ɷ (Latin Closed Omega) + Superscript
+<Multi_key> <dead_circumflex> <dead_greek> <underscore> <o>                     : "𐞤"
+<Multi_key> <dead_circumflex> <dead_greek> <underscore> <oslash>                : "𐞤"
+<Multi_key> <dead_circumflex> <P>                                               : "ᴾ"
+<Multi_key> <dead_circumflex> <p>                                               : "ᵖ"
+<Multi_key> <dead_circumflex> <U1D18>                                           : "𝿑"   # Smallcaps P + Superscript
+<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <P>                     : "𝿑"
+<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <p>                     : "𝿑"
+<Multi_key> <dead_circumflex> <U01A5>                                           : "𝿼"   # ƥ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <p>                                       : "𝿼"
+<Multi_key> <dead_circumflex> <Q>                                               : "ꟴ"
+<Multi_key> <dead_circumflex> <q>                                               : "𐞥"
+<Multi_key> <dead_circumflex> <U02A0>                                           : "𝿽"   # ʠ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <q>                                       : "𝿽"
+<Multi_key> <dead_circumflex> <U0239>                                           : "𝿟"   # ȹ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <q> <p>                                   : "𝿟"
+<Multi_key> <dead_circumflex> <R>                                               : "ᴿ"
+<Multi_key> <dead_circumflex> <minus> <R>                                       : "𐞪"   # Smallcaps R
+<Multi_key> <dead_circumflex> <U0281>                                           : "ʶ"   # ʁ + Superscript
+<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <underscore> <R>        : "ʶ"
+<Multi_key> <dead_circumflex> <U035A> <dead_circumflex> <underscore> <r>        : "ʶ"
+<Multi_key> <dead_circumflex> <U027B>                                           : "ʵ"   # ɻ (Voiced retroflex approximant) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <R>                                       : "ʵ"
+<Multi_key> <dead_circumflex> <U0279>                                           : "ʴ"   # ɹ (Voiced alveolar approximant) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <r>                                       : "ʴ"
+<Multi_key> <dead_circumflex> <dead_stroke> <U0279>                             : "𝿗"   # 𝽐 + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <r>                         : "𝿗"
+<Multi_key> <dead_circumflex> <U1DF57>                                          : "𝿍" 
+<Multi_key> <dead_circumflex> <U0359> <plus> <U0279>                            : "𝿍"   # 𝽗 + Superscript
+<Multi_key> <dead_circumflex> <U0359> <plus> <U035A> <r>                        : "𝿍"
+<Multi_key> <dead_circumflex> <U027E>                                           : "𐞩"   # ɾ (Voiced alveolar flap) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <underscore> <r>                          : "𐞩"
+<Multi_key> <dead_circumflex> <r>                                               : "ʳ"
+<Multi_key> <dead_circumflex> <U027D>                                           : "𐞨"   # ɽ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <r>                             : "𐞨"
+<Multi_key> <dead_circumflex> <U027C>                                           : "𝿝"   # ɼ + Superscript
+<Multi_key> <dead_circumflex> <U1DFB> <bar> <r>                                 : "𝿝"
+<Multi_key> <dead_circumflex> <S>                                               : "ꜱ"
+<Multi_key> <dead_circumflex> <s>                                               : "ˢ"
+<Multi_key> <dead_circumflex> <U1D8A>                                           : "𝿸"   # ᶊ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <less> <s>                                : "𝿸"
+<Multi_key> <dead_circumflex> <U0282>                                           : "ᶳ"   # ʂ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <s>                             : "ᶳ"
+<Multi_key> <dead_circumflex> <U0283>                                           : "ᶴ"   # ʃ (Esh) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <s>                                       : "ᶴ"
+<Multi_key> <dead_circumflex> <U0284>                                           : "𐞘"   # ʄ + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U0283>                             : "𐞘"   # ʃ (Esh) + Stroke + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <s>                         : "𐞘"
+<Multi_key> <dead_circumflex> <U0359> <j>                                       : "𐞘"
+<Multi_key> <dead_circumflex> <U035A> <s>                                       : "𐞘"
+<Multi_key> <dead_circumflex> <U1DF0B>                                          : "𐞿"   # 𝼋 + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U0284>                             : "𐞿"   # ʄ (Barred Esh) + Stroke + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <minus> <s>                 : "𐞿"
+<Multi_key> <dead_circumflex> <U1D98>                                           : "𝿣"   # ᶘ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <U0283>                         : "𝿣"
+<Multi_key> <dead_circumflex> <U0359> <greater> <U035A> <s>                     : "𝿣"
+<Multi_key> <dead_circumflex> <U0286>                                           : "𝿢"   # ʆ + Superscript
+<Multi_key> <dead_circumflex> <U035B> <ssharp>                                  : "𝿢"
+<Multi_key> <dead_circumflex> <U035B> <U035A> <s>                               : "𝿢"
+<Multi_key> <dead_circumflex> <T>                                               : "ᵀ"
+<Multi_key> <dead_circumflex> <t>                                               : "ᵗ"
+<Multi_key> <dead_circumflex> <U01AD>                                           : "𝿾"   # ƭ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <t>                                       : "𝿾"
+<Multi_key> <dead_circumflex> <U1DF09>                                          : "𝿿"   # 𝼉 + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <greater> <t>                   : "𝿿"
+<Multi_key> <dead_circumflex> <U01AB>                                           : "ᶵ"   # ƫ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <less> <t>                                : "ᶵ"
+<Multi_key> <dead_circumflex> <U0288>                                           : "𐞯"   # ʈ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <t>                             : "𐞯"
+<Multi_key> <dead_circumflex> <U0236>                                           : "𝿲"   # ȶ + Superscript
+<Multi_key> <dead_circumflex> <U035B> <t>                                       : "𝿲"
+<Multi_key> <dead_circumflex> <U0287>                                           : "𐞻"   # ʇ + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <t>                                       : "𐞻"   # ʇ + Superscript
+<Multi_key> <dead_circumflex> <U02A8>                                           : "𐞫"   # ʨ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <T> <U0255>                               : "𐞫"   # t + ɕ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <T> <U035B> <c>                           : "𐞫"
+<Multi_key> <dead_circumflex> <U02A6>                                           : "𐞬"   # ʦ + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <t> <s>                                   : "𐞬"
+<Multi_key> <dead_circumflex> <U1DCF> <t> <U0282>                               : "𐞭"   # ꭧ +  Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <t> <U0359> <greater> <s>                 : "𐞭"
+<Multi_key> <dead_circumflex> <U1DCF> <t> <U0283>                               : "𐞮"   # t + ʃ (Esh) + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <t> <U035A> <s>                           : "𐞮"
+<Multi_key> <dead_circumflex> <U1D1FC>                                          : "𝿥"   # 𝼜 + Superscript
+<Multi_key> <dead_circumflex> <U1DCF> <t> <U0359> <greater> <U0283>             : "𝿥"
+<Multi_key> <dead_circumflex> <U1DCF> <t> <U0359> <greater> <U035A> <s>         : "𝿥"
+<Multi_key> <dead_circumflex> <U1DF2C>                                          : "𝿤"   # 𝼬 + Superscript
+<Multi_key> <dead_circumflex> <U035B> <U1DCF> <T> <U035A> <S>                   : "𝿤"
+<Multi_key> <dead_circumflex> <U035B> <U1DCF> <t> <U035A> <s>                   : "𝿤"
+<Multi_key> <dead_circumflex> <U1DCF> <t> <U035B> <U0283>                       : "𝿤"
+<Multi_key> <dead_circumflex> <U1DCF> <T> <U035B> <U035A> <S>                   : "𝿤"
+<Multi_key> <dead_circumflex> <U1DCF> <t> <U035B> <U035A> <s>                   : "𝿤"
+<Multi_key> <dead_circumflex> <U>                                               : "ᵁ"
+<Multi_key> <dead_circumflex> <minus> <U>                                       : "ᶸ"   # Smallcaps U
+<Multi_key> <dead_circumflex> <u>                                               : "ᵘ"
+<Multi_key> <dead_circumflex> <U0289>                                           : "ᶶ"   # ʉ + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <u>                                 : "ᶶ"
+<Multi_key> <dead_circumflex> <U1DF59>                                          : "𝿎"   # 𝽙 + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <notsign> <u>                       : "𝿎"
+<Multi_key> <dead_circumflex> <U028A>                                           : "ᶷ"   # ʊ (Latin Upsilon) + Superscript
+<Multi_key> <dead_circumflex> <dead_greek> <dead_circumflex> <u>                : "ᶷ"
+<Multi_key> <dead_circumflex> <dead_stroke> <U028A>                             : "𝿚"   # ᵿ + Stroke
+<Multi_key> <dead_circumflex> <dead_stroke> <dead_greek> <dead_circumflex> <u>  : "𝿚"
+<Multi_key> <dead_circumflex> <U026F>                                           : "ᵚ"   # ɯ (Turned M) + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <m>                                       : "ᵚ"
+<Multi_key> <dead_circumflex> <V>                                               : "ⱽ"
+<Multi_key> <dead_circumflex> <v>                                               : "ᵛ"
+<Multi_key> <dead_circumflex> <dead_acute> <U028C>                              : "ᶺ"   # ʌ + Superscript
+<Multi_key> <dead_circumflex> <dead_acute> <U21BA> <v>                          : "ᶺ"
+<Multi_key> <dead_circumflex> <U028B>                                           : "ᶹ"   # ʋ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <v>                                       : "ᶹ"
+<Multi_key> <dead_circumflex> <U2C71>                                           : "𐞰"   # ⱱ (Labiodental flap) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <v>                                       : "𐞰"
+<Multi_key> <dead_circumflex> <W>                                               : "ᵂ"
+<Multi_key> <dead_circumflex> <w>                                               : "ʷ"
+<Multi_key> <dead_circumflex> <U1DF3F>                                          : "𝿛"   # 𝼿 + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <w>                                 : "𝿛"
+<Multi_key> <dead_circumflex> <U028D>                                           : "ꭩ"   # ʍ + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <w>                                       : "ꭩ"
+<Multi_key> <dead_circumflex> <x>                                               : "ˣ"
+<Multi_key> <dead_circumflex> <minus> <Y>                                       : "𐞲"   # Smallcaps Y
+<Multi_key> <dead_circumflex> <y>                                               : "ʸ"
+<Multi_key> <dead_circumflex> <U028E>                                           : "𐞠"   # ʎ + Superscript
+<Multi_key> <dead_circumflex> <U21BA> <y>                                       : "𐞠"
+<Multi_key> <dead_circumflex> <U035B> <U21BA> <y>                               : "𐞡"   # 𝼆 + Superscript
+<Multi_key> <dead_circumflex> <z>                                               : "ᶻ"
+<Multi_key> <dead_circumflex> <U1D8E>                                           : "𝿹"   # ᶎ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <less> <z>                                : "𝿹"
+<Multi_key> <dead_circumflex> <U0290>                                           : "ᶼ"   # ʐ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <z>                             : "ᶼ"
+<Multi_key> <dead_circumflex> <ezh>                                             : "ᶾ"
+<Multi_key> <dead_circumflex> <U035A> <z>                                       : "ᶾ"
+<Multi_key> <dead_circumflex> <U1D9A>                                           : "𝿧"   # ᶚ + Superscript
+<Multi_key> <dead_circumflex> <U0359> <greater> <ezh>                           : "𝿧"
+<Multi_key> <dead_circumflex> <U0359> <greater> <U035A> <z>                     : "𝿧"
+<Multi_key> <dead_circumflex> <U0293>                                           : "𝿦"   # ʓ + Supercript
+<Multi_key> <dead_circumflex> <U035B> <ezh>                                     : "𝿦"
+<Multi_key> <dead_circumflex> <U035B> <U035A> <z>                               : "𝿦"
+<Multi_key> <dead_circumflex> <U0294>                                           : "ˀ"   # ʔ (Glottal Stop) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U0241> <space>                           : "ˀ"   # Ɂ (Capital Glottal Stop) + IPA Key
+<Multi_key> <dead_circumflex> <U035A> <U0242> <space>                           : "ˀ"   # ɂ (Small Glottal Stop) + IPA Key
+<Multi_key> <dead_circumflex> <U0296>                                           : "𐞼"   # ʖ (Inverted Glottal Stop) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U21BA> <U0241>                           : "𐞼"   # Ɂ (Capital Glottal Stop) + "Letter Flip" Dead Key + IPA Key + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U21BA> <U0242>                           : "𐞼"   # ɂ (Small Glottal Stop) + "Letter Flip" Dead Key + IPA Key + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U0241> <minus>                           : "𐞳"   # Ɂ (Capital Glottal Stop) + "-" + IPA Key + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U0242> <minus>                           : "𐞳"   # ɂ (Small Glottal Stop) + "-" + IPA Key + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U0294>                             : "𐞳"   # ʔ (Glottal Stop) + Stroke + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <question>                  : "𐞳"   # ʔ (Glottal Stop) + Stroke + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <U0241> <space>             : "𐞳"   # Ɂ (Capital Glottal Stop) + Stroke + Superscript
+<Multi_key> <dead_circumflex> <dead_stroke> <U035A> <U0242> <space>             : "𐞳"   # ɂ (Small Glottal Stop) + Stroke + Superscript
+<Multi_key> <dead_circumflex> <U0295>                                           : "ˤ"   # ʕ (Reversed Glottal Stop) + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U0241> <underscore> <space>              : "ˁ"   # Ɂ (Capital Glottal Stop) + "_" + IPA Key + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U0242> <underscore> <space>              : "ˤ"   # ɂ (Small Glottal Stop) + "_" + IPA Key + Superscript
+<Multi_key> <dead_circumflex> <U02A2>                                           : "𐞴"   # Ɂ (Capital Glottal Stop) + "_-" + IPA Key + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U0241> <underscore> <minus>              : "𐞴"   # Ɂ (Capital Glottal Stop) + "_-" + IPA Key + Superscript
+<Multi_key> <dead_circumflex> <U035A> <U0242> <underscore> <minus>              : "𐞴"   # ɂ (Small Glottal Stop) + "_-" + IPA Key + Superscript
 
 ##################
 # [END OF RULES] #
