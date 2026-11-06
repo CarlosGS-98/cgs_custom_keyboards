@@ -370,8 +370,8 @@ xkb_symbols "jcuken" {
     // ┃       ┃ Χ   │ Ϻ Ϛ │ Υ Ȣ │ Κ Ϗ │ Ε ¤ │ Ν   │ Γ   │ Ζ Ͳ │ Ξ Ϲ │ Ϙ Ϟ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
     // ┃ Tab ↹ ┃ χ   │ ϻ ϛ │ υ ȣ │ κ ϗ │ ε € │ ν   │ γ   │ ζ ͳ │ ξ ϲ │ ϙ ϟ │ ◌̀ [ │ + ] ┃   ⏎   ┃
     // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-    // ┃ Caps   ┃ Φ   │ Ι Η │ Ͷ ◌̊ │ Α   │ Π Ψ │ Ρ   │ Ο Ω │ Λ   │ Ͱ   │ ς ◌̌ │ ◌̈ ◌̋ │ Ϝ ◌̨ ┃      ┃
-    // ┃  Lock  ┃ φ   │ ι η │ ͷ ◌̆ │ α   │ π ψ │ ρ   │ ο ω │ λ   │ ͱ ◌̔ │ ς ◌̄ │ ◌́ { │ ϝ } ┃      ┃
+    // ┃ Caps   ┃ Φ   │ Ι Η │ Ͷ ◌̊ │ Α   │ Π Ψ │ Ρ   │ Ο Ω │ Λ   │ Ͱ ς │ Δ ◌̌ │ ◌̈ ◌̋ │ Ϝ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ φ   │ ι η │ ͷ ◌̆ │ α   │ π ψ │ ρ   │ ο ω │ λ   │ ͱ ◌̔ │ δ ◌̄ │ ◌́ { │ ϝ } ┃      ┃
     // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
     // ┃      ┃ >   │ Ϳ   │ Ϛ ◌̑ │ Σ Ϸ │ Μ  ͛ │ Δ Ϡ │ Τ Θ │ Β ⌬ │ ; ◌̓ │ : ◌̣ │ _ ◌̉ ┃              ┃
     // ┃Shift ┃ <   │ ϳ ◌ͅ │ ϛ ◌̧ │ σ ϸ │ μ ◌̡̢ │ δ ϡ │ τ θ │ β ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
@@ -385,34 +385,35 @@ xkb_symbols "jcuken" {
     name[Group1]= "SMK-Greek (ΧϺΥΚΕΝ)";
 
     key <AD01>	{ [     Greek_chi,  Greek_CHI       ] };
-    key <AD02>	{ [         U03FB,  U03FA,          U03DB,                  U03DA               ] };    // Lowercase San, Uppercase San, Lowercase Stigma, Uppercase Stigma
-    key <AD03>	{ [ Greek_upsilon,  Greek_UPSILON,  U0223,                  U0222               ] };    // "υ", "Υ", Lowercase Greek-Latin Ou, Uppercase Greek-Latin Ou
-    key <AD04>	{ [   Greek_kappa,  Greek_KAPPA,    U03D7,                  U03CF               ] };    // "κ", "Κ", Lowercase Kai, Uppercase Kai
-    key <AD05>	{ [ Greek_epsilon,  Greek_EPSILON,  EuroSign,               dead_currency       ] };
-    key <AD06>	{ [      Greek_nu,  Greek_NU        ] };
-    key <AD07>	{ [   Greek_gamma,  Greek_GAMMA     ] };
-    key <AD08>	{ [    Greek_zeta,  Greek_ZETA,     U0373,                  U0372               ] };    // "ζ", "Ζ", Lowercase Archaic Sampi, Uppercase Archaic Sampi
-    key <AD09>	{ [      Greek_xi,  Greek_XI,       U03F2,                  U03F9               ] };    // "ξ", "Ξ", Lowercase Lunate Sigma, Uppercase Lunate Sigma
-    key <AD10>	{ [         U03D8,  U03D9,          U03DF,                  U03DE               ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
+    key <AD02>	{ [         U03FB,  U03FA,          U03DB,                      U03DA                   ] };    // Lowercase San, Uppercase San, Lowercase Stigma, Uppercase Stigma
+    key <AD03>	{ [ Greek_upsilon,  Greek_UPSILON,  U0223,                      U0222                   ] };    // "υ", "Υ", Lowercase Greek-Latin Ou, Uppercase Greek-Latin Ou
+    key <AD04>	{ [   Greek_kappa,  Greek_KAPPA,    U03D7,                      U03CF                   ] };    // "κ", "Κ", Lowercase Kai, Uppercase Kai
+    key <AD05>	{ [ Greek_epsilon,  Greek_EPSILON,  EuroSign,                   dead_currency           ] };
+    key <AD06>	{ [      Greek_nu,  Greek_NU        ] };        
+    key <AD07>	{ [   Greek_gamma,  Greek_GAMMA     ] };        
+    key <AD08>	{ [    Greek_zeta,  Greek_ZETA,     U0373,                      U0372                   ] };    // "ζ", "Ζ", Lowercase Archaic Sampi, Uppercase Archaic Sampi
+    key <AD09>	{ [      Greek_xi,  Greek_XI,       U03F2,                      U03F9                   ] };    // "ξ", "Ξ", Lowercase Lunate Sigma, Uppercase Lunate Sigma
+    key <AD10>	{ [         U03D8,  U03D9,          U03DF,                      U03DE                   ] };    // Lowercase Archaic Greek Koppa, Uppercase Archaic Greek Koppa, Lowercase Greek Koppa, Uppercase Greek Koppa
 
-    key <AC01>	{ [     Greek_phi,  Greek_PHI       ] };
-    key <AC02>	{ [    Greek_iota,  Greek_IOTA,     Greek_eta,              Greek_ETA           ] };
-    key <AC03>	{ [         U0377,  U0376,          dead_breve,             dead_abovering      ] };    // Lowercase Pamphylian Digamma, Uppercase Pamphylian Digamma, "Cedilla" Dead Key, "Inverted Breve" Dead Key
-    key <AC04>	{ [   Greek_alpha,  Greek_ALPHA     ] };
-    key <AC05>	{ [      Greek_pi,  Greek_PI,       Greek_psi,              Greek_PSI           ] };
-    key <AC06>	{ [     Greek_rho,  Greek_RHO       ] };
-    key <AC07>	{ [ Greek_omicron,  Greek_OMICRON,  Greek_omega,            Greek_OMEGA         ] };
+    key <AC01>	{ [     Greek_phi,  Greek_PHI       ] };        
+    key <AC02>	{ [    Greek_iota,  Greek_IOTA,     Greek_eta,                  Greek_ETA               ] };
+    key <AC03>	{ [         U0377,  U0376,          dead_breve,                 dead_abovering          ] };    // Lowercase Pamphylian Digamma, Uppercase Pamphylian Digamma, "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AC04>	{ [   Greek_alpha,  Greek_ALPHA     ] };        
+    key <AC05>	{ [      Greek_pi,  Greek_PI,       Greek_psi,                  Greek_PSI               ] };
+    key <AC06>	{ [     Greek_rho,  Greek_RHO       ] };        
+    key <AC07>	{ [ Greek_omicron,  Greek_OMICRON,  Greek_omega,                Greek_OMEGA             ] };
     key <AC08>	{ [  Greek_lambda,  Greek_LAMBDA    ] };
-    key <AC09>	{ [         U0371,  U0370,          dead_abovereversedcomma ] };                        // Lowercase Heta, Uppercase Heta, "Reversed Comma Above/Dasia" Dead Key
-    key <BKSL>	{ [         U03DD,  U03DC,          braceright,             dead_ogonek         ] };    // Lowercase Digamma, Uppercase Digamma, "}", "Ogonek" Dead Key
+    key <AC09>	{ [         U0371,  U0370,          dead_abovereversedcomma,    Greek_finalsmallsigma   ] };    // Lowercase Heta, Uppercase Heta, "Reversed Comma Above/Dasia" Dead Key, Final Sigma
+    key <AC10>	{ [   Greek_delta,  Greek_DELTA,    dead_macron,                dead_caron              ] };
+    key <BKSL>	{ [         U03DD,  U03DC,          braceright,                 dead_ogonek             ] };    // Lowercase Digamma, Uppercase Digamma, "}", "Ogonek" Dead Key
 
-    key <AB01>	{ [         U03F3,  U037F,          dead_iota               ] };                        // Lowercase Yot, Uppercase Yot, "Adscript/Subscript Iota" Dead Key
-    key <AB02>	{ [         U03DB,  U03DA,          dead_cedilla,           dead_invertedbreve  ] };    // Lowercase Stigma, Uppercase Stigma, "Cedilla" Dead Key, "Inverted Breve" Dead Key
-    key <AB03>	{ [   Greek_sigma,  Greek_SIGMA,    U03F8,                  U03F7               ] };    // "σ", "Σ", Lowercase Sho, Uppercase Sho
-    key <AB04>	{ [      Greek_mu,  Greek_MU,       U0359,                  U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
-    key <AB05>	{ [   Greek_delta,  Greek_DELTA,    U03E1,                  U03E0               ] };    // "δ", "Δ", Lowercase Sampi, Uppercase Sampi
-    key <AB06>	{ [     Greek_tau,  Greek_TAU,      Greek_theta,            Greek_THETA         ] };
-    key <AB07>	{ [    Greek_beta,  Greek_BETA,     U203B,                  U232C               ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
+    key <AB01>	{ [         U03F3,  U037F,          dead_iota                   ] };                            // Lowercase Yot, Uppercase Yot, "Adscript/Subscript Iota" Dead Key
+    key <AB02>	{ [         U03DB,  U03DA,          dead_cedilla,               dead_invertedbreve      ] };    // Lowercase Stigma, Uppercase Stigma, "Cedilla" Dead Key, "Inverted Breve" Dead Key
+    key <AB03>	{ [   Greek_sigma,  Greek_SIGMA,    U03F8,                      U03F7                   ] };    // "σ", "Σ", Lowercase Sho, Uppercase Sho
+    key <AB04>	{ [      Greek_mu,  Greek_MU,       U0359,                      U035B                   ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
+    key <AB05>	{ [   Greek_delta,  Greek_DELTA,    U03E1,                      U03E0                   ] };    // "δ", "Δ", Lowercase Sampi, Uppercase Sampi
+    key <AB06>	{ [     Greek_tau,  Greek_TAU,      Greek_theta,                Greek_THETA             ] };
+    key <AB07>	{ [    Greek_beta,  Greek_BETA,     U203B,                      U232C                   ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
 };
 
 // [TODO]; Add more variants if needed

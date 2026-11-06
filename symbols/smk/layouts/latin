@@ -538,14 +538,14 @@ xkb_symbols "jcuken" {
     // │ ª ◌ │ ! 𐤀 │ " ᵅ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ?   │ ¿   ┃ ⌫       ┃
     // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ '   │ ¡   ┃Backspace┃
     // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
-    // ┃       ┃ J ɟ │ C Č │ U Ů │ K   │ E ¤ │ N Ŋ │ G Ƣ │ Z Ž │ X Ƨ │ Ɂ Ꞌ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
-    // ┃ Tab ↹ ┃ j ȷ │ c č │ u ů │ k   │ e € │ n ŋ │ g ƣ │ z ž │ x ƨ │ ɂ ꞌ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┃       ┃ J ɟ │ C Č │ U Ů │ K   │ E ¤ │ N Ŋ │ G Ƣ │ Z Ʒ │ X Ƨ │ Ɂ Ꞌ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ j ȷ │ c č │ u ů │ k   │ e € │ n ŋ │ g ƣ │ z ʒ │ x ƨ │ ɂ ꞌ │ ◌̀ [ │ + ] ┃   ⏎   ┃
     // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-    // ┃ Caps   ┃ F   │ I İ │ V ◌̊ │ A Å │ P Ↄ │ R ɻ │ O Ø │ L Ł │ ẞ Ʒ │ Q ◌̌ │ ◌̈ ◌̋ │ Ñ ◌̨ ┃      ┃
-    // ┃  Lock  ┃ f   │ i ı │ v ◌̆ │ a å │ p ↄ │ r ɹ │ o ø │ l ł │ ß ʒ │ q ◌̄ │ ◌́ { │ ñ } ┃      ┃
+    // ┃ Caps   ┃ F   │ I İ │ V ◌̊ │ A Å │ P Ↄ │ R ɻ │ O Ø │ L Ł │ D Ð │ Q ◌̌ │ ◌̈ ◌̋ │ Ñ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ f   │ i ı │ v ◌̆ │ a å │ p ↄ │ r ɹ │ o ø │ l ł │ d ð │ q ◌̄ │ ◌́ { │ ñ } ┃      ┃
     // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
-    // ┃      ┃ > Æ │ Y Ꟛ │ Ç ◌̑ │ S Š │ М  ͛ │ Ɪ Ɩ │ T Þ │ B ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
-    // ┃Shift ┃ < æ │ y ꟛ │ ç ◌̧ │ s š │ m ◌̡̢ │ ɪ ɩ │ t þ │ b ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┃      ┃ > Æ │ Y Ꟛ │ Ç ◌̑ │ S ẞ │ М  ͛ │ Ɪ Ɩ │ T Þ │ B ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < æ │ y ꟛ │ ç ◌̧ │ s ß │ m ◌̡̢ │ ɪ ɩ │ t þ │ b ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
     // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
     // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
     // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
@@ -565,7 +565,7 @@ xkb_symbols "jcuken" {
     key <AD05>	{ [          e,  E,                 EuroSign,               dead_currency       ] };
     key <AD06>	{ [          n,  N,                 eng,                    ENG                 ] };
     key <AD07>	{ [          g,  G,                 U01A3,                  U01A2               ] };    // "g", "G", Lowercase Gha, Uppercase Gha
-    key <AD08>	{ [          z,  Z,                 zcaron,                 Zcaron              ] };
+    key <AD08>	{ [          z,  Z,                 ezh,                    EZH                 ] };
     key <AD09>	{ [          x,  X,                 U01A8,                  U01A7               ] };    // "x", "X", Lowercase Tone Two, Uppercase Tone Two
     key <AD10>	{ [     U0242,   U0241,             UA78C,                  UA78B               ] };    // Lowercase Glottal Stop, Uppercase Glottal Stop, Lowercase Saltillo, Uppercase Saltillo 
 
@@ -577,13 +577,13 @@ xkb_symbols "jcuken" {
     key <AC06>	{ [          r,  R,                 U0279,                  U027B               ] };    // "r", "R", "ɹ̛", "ɻ̛"
     key <AC07>	{ [          o,  O,                 oslash,                 Oslash              ] };
     key <AC08>	{ [          l,  L,                 lstroke,                Lstroke             ] };
-    key <AC09>	{ [     ssharp,  U1E9E,             ezh,                    EZH                 ] };    // U+1E9E = Uppercase Eszett
+    key <AC09>	{ [          d,  D,                 eth,                    ETH                 ] };
     key <AC10>	{ [          q,  Q,                 dead_macron,            dead_caron          ] };
     key <BKSL>	{ [     ntilde,  Ntilde,            braceright,             dead_ogonek         ] };
 
     key <AB01>	{ [          y,  Y,                 UA7DB,                  UA7DA               ] };    // "y", "Y", Lowercase Latin Lambda, Uppercase Latin Lambda
     key <AB02>	{ [   ccedilla,  Ccedilla,          dead_cedilla,           dead_invertedbreve  ] };
-    key <AB03>	{ [          s,  S,                 scaron,                 Scaron              ] };    // U+1E9E = Uppercase Eszett
+    key <AB03>	{ [          s,  S,                 ssharp,                 U1E9E               ] };    // U+1E9E = Uppercase Eszett
     key <AB04>	{ [          m,  M,                 U0359,                  U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
     key <AB05>	{ [      U026A,  UA7AE,             U0269,                  U0196               ] };    // Lowercase Smallcaps I, Uppercase Smallcaps I, Lowercase Latin Iota, Uppercase Latin Iota
     key <AB06>	{ [          t,  T,                 thorn,                  THORN               ] };

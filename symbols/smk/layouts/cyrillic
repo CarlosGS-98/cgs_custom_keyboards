@@ -375,11 +375,11 @@ xkb_symbols "jcuken" {
     // ┃       ┃ Ј Ѵ │ Ц Ꙡ │ У Ю │ К Ҡ │ Е Ѣ │ Н   │ Г Ґ │ З Ж │ Х Щ │ Ь Ъ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
     // ┃ Tab ↹ ┃ ј ѵ │ ц ꙡ │ у ю │ к ҡ │ е ѣ │ н   │ г ґ │ з ж │ х щ │ ь ъ │ ◌̀ [ │ + ] ┃   ⏎   ┃
     // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-    // ┃ Caps   ┃ Ф   │ И І │ В ◌̊ │ А Э │ П Ѱ │ Р ¤ │ О Ѡ │ Л Љ │ Ԛ Ҁ │ Ѯ ◌̌ │ ◌̈ ◌̋ │ Њ ◌̨ ┃      ┃
-    // ┃  Lock  ┃ ф   │ и і │ в ◌̆ │ а э │ п ѱ │ р ₽ │ о ѡ │ л љ │ ԛ ҁ │ ѯ ◌̄ │ ◌́ { │ њ } ┃      ┃
+    // ┃ Caps   ┃ Ф   │ И І │ В ◌̊ │ А Э │ П Ѱ │ Р ¤ │ О Ѡ │ Л Љ │ Д Ѕ │ Ѯ ◌̌ │ ◌̈ ◌̋ │ Њ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ ф   │ и і │ в ◌̆ │ а э │ п ѱ │ р ₽ │ о ѡ │ л љ │ д ѕ │ ѯ ◌̄ │ ◌́ { │ њ } ┃      ┃
     // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
-    // ┃      ┃ > Є │ Я Ы │ Ч ◌̑ │ С Ш │ М  ͛ │ Ꙟ Ꙇ │ Т Ѳ │ Б ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
-    // ┃Shift ┃ < є │ я ы │ ч ◌̧ │ с ш │ м ◌̡̢ │ ꙟ ꙇ │ т ѳ │ б ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┃      ┃ > Є │ Я Ы │ Ч ◌̑ │ С Ш │ М  ͛ │ Ԛ Ҁ │ Т Ѳ │ Б ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ < є │ я ы │ ч ◌̧ │ с ш │ м ◌̡̢ │ ԛ ҁ │ т ѳ │ б ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
     // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
     // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
     // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
@@ -411,7 +411,7 @@ xkb_symbols "jcuken" {
     key <AC06>	{ [           Cyrillic_er,     Cyrillic_ER,         U20BD,                          dead_currency               ] };    // "р", "Р", Ruble Sign (₽); "Currency Symbols" Dead Key
     key <AC07>	{ [            Cyrillic_o,     Cyrillic_O,          U0461,                          U0460                       ] };    // "о", "О", Lowercase Cyrillic Omega, Uppercase Cyrillic Omega
     key <AC08>	{ [           Cyrillic_el,     Cyrillic_EL,         Cyrillic_lje,                   Cyrillic_LJE                ] };
-    key <AC09>	{ [                 U051B,     U051A,               U0481,                          U0480                       ] };    // Lowercase Cyrillic Qa, Uppercase Cyrillic Qa, Lowercase , Uppercase Cyrillic Qoppa
+    key <AC09>	{ [           Cyrillic_de,     Cyrillic_DE,         Macedonia_dse,                  Macedonia_DSE               ] };
     key <AC10>	{ [                 U046F,     U046E,               dead_macron,                    dead_caron                  ] };    // Lowercase Cyrillic Ksi (ѯ), Uppercase Cyrillic Ksi (Ѯ), "Macron" Dead Key, "Ogonek" Dead Key
     key <BKSL>	{ [          Cyrillic_nje,     Cyrillic_NJE,        braceright,                     dead_ogonek                 ] };
 
@@ -419,7 +419,7 @@ xkb_symbols "jcuken" {
     key <AB02>	{ [          Cyrillic_che,     Cyrillic_CHE,        dead_cedilla,                   dead_invertedbreve          ] };
     key <AB03>	{ [           Cyrillic_es,     Cyrillic_ES,         Cyrillic_sha,                   Cyrillic_SHA                ] };
     key <AB04>	{ [           Cyrillic_em,     Cyrillic_EM,         U0359,                          U035B                       ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
-    key <AB05>	{ [                 UA65F,     UA65E,               UA647,                          UA646                       ] };    // Lowercase Yn, Uppercase Yn, Lowercase Cyrillic Iota, Uppercase Cyrillic Iota
+    key <AB05>	{ [                 U051B,     U051A,               U0481,                          U0480                       ] };    // Lowercase Cyrillic Qa, Uppercase Cyrillic Qa, Lowercase , Uppercase Cyrillic Qoppa
     key <AB06>	{ [           Cyrillic_te,     Cyrillic_TE,         U0473,                          U0472                       ] };    // "т", "Т", Lowercase Fita, Uppercase Fita
     key <AB07>	{ [           Cyrillic_be,     Cyrillic_BE,         U203B,                          U232C                       ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
 };
