@@ -30,6 +30,8 @@
 <U232C> <m> <h> <o>                     : "℧"   # Mho (Inverted Ohm) Symbol
 <U232C> <M> <I> <C> <R> <O>             : "µ"   # Micro Sign
 <U232C> <m> <i> <c> <r> <o>             : "µ"   # Micro Sign
+<U232C> <M> <I> <K> <R> <O>             : "µ"   # Micro Sign
+<U232C> <m> <i> <k> <r> <o>             : "µ"   # Micro Sign
 <U232C> <O> <H> <M>                     : "Ω"   # Ohm Symbol
 <U232C> <o> <h> <m>                     : "Ω"   # Ohm Symbol
 <U232C> <Oslash>                        : "⌀"   # Diameter sign
