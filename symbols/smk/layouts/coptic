@@ -67,7 +67,7 @@ xkb_symbols "basic" {
     key <AC02>	{ [      U2CA5,  U2CA4,             U03E3,                      U03E2               ] };    // Ⲥ (Sima); Ϣ (Shei)
     key <AC03>	{ [      U2C87,  U2C86,             U03EF,                      U03EE               ] };    // Ⲇ (Dalda); Ϯ (Dei)
     key <AC04>	{ [      U2CAB,  U2CAA,             U03E5,                      U03E4               ] };    // Ⲫ (Coptic Fi); Ϥ (Fei)
-    key <AC05>	{ [      U2C85,  U2C84              ] };                                                    // Ⲅ (Coptic Gamma)
+    key <AC05>	{ [      U2C85,  U2C84,             U03EB,                      U03EA               ] };    // Ⲅ (Coptic Gamma); Ϫ (Gangia)
     key <AC06>	{ [      U03E9,  U03E8,             U2CC9,                      U2CC8               ] };    // Ϩ (Hori); Ⳉ (Akhmimic Khei)
     key <AC07>	{ [      U2CAD,  U2CAC,             U03E7,                      U03E6               ] };    // Ⲭ (Coptic Khi); Ϧ (Khei)
     key <AC08>	{ [      U2C95,  U2C94,             U2CF3,                      U2CF2               ] };    // Ⲕ (Kapa); Ⳳ (Bohairic Khei)
@@ -334,7 +334,7 @@ xkb_symbols "dvorak" {
     key <AD04>	{ [      U2CA1,  U2CA0,             U2CAF,              U2CAE               ] };    // Ⲡ (Coptic Pi); Ⲯ (Coptic Psi)
     key <AD05>	{ [      U2C8F,  U2C8E              ] };                                            // Ⲏ (Hate)
     key <AD06>	{ [      U2CAB,  U2CAA,             U03E5,              U03E4               ] };    // Ⲫ (Coptic Fi); Ϥ (Fei)
-    key <AD07>	{ [      U2C85,  U2C84              ] };                                            // Ⲅ (Coptic Gamma)
+    key <AD07>	{ [      U2C85,  U2C84,             U03EB,              U03EA               ] };    // Ⲅ (Coptic Gamma); Ϫ (Gangia)
     key <AD08>	{ [      U2C8B,  U2C8A,             dead_cedilla,       dead_invertedbreve  ] };    // Lowercase Sō; Uppercase Sō; "Cedilla" Dead Key, "Inverted Breve" Dead Key
     key <AD09>	{ [      U03E9,  U03E8,             U2CC9,              U2CC8               ] };    // Ϩ (Hori); Ⳉ (Akhmimic Khei)
     key <AD10>	{ [      U2C97,  U2C96              ] };                                            // Ⲗ (Laula)
@@ -392,7 +392,7 @@ xkb_symbols "colemak" {
 
     key <AD03>	{ [      U2CAB,  U2CAA,             U03E5,              U03E4               ] };    // Ⲫ (Coptic Fi); Ϥ (Fei)
     key <AD04>	{ [      U2CA1,  U2CA0,             U2CAF,              U2CAE               ] };    // Ⲡ (Coptic Pi); Ⲯ (Coptic Psi)
-    key <AD05>	{ [      U2C85,  U2C84              ] };                                            // Ⲅ (Coptic Gamma)
+    key <AD05>	{ [      U2C85,  U2C84,             U03EB,              U03EA               ] };    // Ⲅ (Coptic Gamma); Ϫ (Gangia)
     key <AD06>	{ [      U2CAD,  U2CAC,             U03E7,              U03E6               ] };    // Ⲭ (Coptic Khi); Ϧ (Khei)
     key <AD07>	{ [      U2C97,  U2C96              ] };                                            // Ⲗ (Laula)
     key <AD08>	{ [      U2CA9,  U2CA8              ] };                                            // Ⲩ (Ua)
@@ -450,7 +450,7 @@ xkb_symbols "jcuken" {
     key <AD04>	{ [      U2C95,  U2C94,             U2CF3,                  U2CF2               ] };    // Ⲕ (Kapa); Ⳳ (Bohairic Khei)
     key <AD05>	{ [      U2C89,  U2C88,             EuroSign,               dead_currency       ] };    // Ⲉ (Eie); "€", "Currency Symbols" Dead Key
     key <AD06>	{ [      U2C9B,  U2C9A              ] };                                                // Ⲛ (Coptic Ni)
-    key <AD07>	{ [      U2C85,  U2C84              ] };                                                // Ⲅ (Coptic Gamma)
+    key <AD07>	{ [      U2C85,  U2C84,             U03EB,                  U03EA               ] };    // Ⲅ (Coptic Gamma); Ϫ (Gangia)
     key <AD08>	{ [      U2C8D,  U2C8C              ] };                                                // Ⲍ (Zata)
     key <AD09>	{ [      U2C9D,  U2C9C              ] };                                                // Ⲝ (Coptic Ksi)
     key <AD10>	{ [      U2CB3,  U2CB2,             U2CB5,                  U2CB4               ] };    // Ⲳ (Coptic Alef); Ⲵ (Coptic Ain)

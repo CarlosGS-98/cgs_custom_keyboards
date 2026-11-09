@@ -1,0 +1,18 @@
+# Coptic Alphabet | Cryptogrammic Letter Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Coptic_script
+#
+<U2CFF> <U2C88> : "Ⲷ"   # Cryptogrammic Eie
+<U2CFF> <U2C89> : "ⲷ"   # Cryptogrammic Eie
+<U2CFF> <U2C9A> : "Ⲽ"   # Cryptogrammic Ni
+<U2CFF> <U2C9B> : "ⲽ"   # Cryptogrammic Ni
+<U2CFF> <U03E2> : "Ⳬ"   # Cryptogrammic Shei
+<U2CFF> <U03E3> : "ⳬ"   # Cryptogrammic Shei
+<U2CFF> <U03EA> : "Ⳮ"   # Cryptogrammic Gangia
+<U2CFF> <U03EB> : "ⳮ"   # Cryptogrammic Gangia
+
+##################
+# [END OF RULES] #
+##################
