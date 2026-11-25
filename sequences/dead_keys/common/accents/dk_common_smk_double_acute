@@ -11,6 +11,7 @@
 <dead_doubleacute> <dead_doubleacute>   : "˝"   # Regular spacing double acute accent
 <dead_doubleacute> <less>               : "˶"   # Modifier middle double acute
 <dead_doubleacute> <greater>            : "˶"   # Modifier middle double acute
+<dead_doubleacute> <underscore>         : "᫯"   # Combining double acute accent below
 
 ##################
 # [END OF RULES] #
