@@ -101,13 +101,18 @@
 # Geometrical operators (Non-Alphabetical)
 <U221D> <3> <minus>                                 : "⊿"   # Right triangle
 <U221D> <asciicircum> <period> <equal> <period>     : "≒"   # Approximately equal to or the image of
+<U221D> <backslash> <slash>                         : "𜻼"   # Angle opening up
 <U221D> <bar> <bar>                                 : "∥"   # Parallel to
 <U221D> <bar> <equal> <bar>                         : "⋕"   # Equal and parallel to
 <U221D> <colon> <minus> <colon>                     : "∺"   # Geometrical Proportion
 <U221D> <dead_circumflex> <period> <equal> <period> : "≒"   # Approximately equal to or the image of
+<U221D> <dead_invertedbreve> <space>                : "𜻽"   # Hyperbola
 <U221D> <masculine> <masculine> <equal>             : "⊾"   # Right angle with arc
 <U221D> <masculine> <equal>                         : "∟"   # Right angle
 <U221D> <masculine> <greater>                       : "∡"   # Measured angle
+<U221D> <masculine> <2> <parenleft>                 : "𜻻"   # Measured angle with concave arc
+<U221D> <masculine> <parenleft>                     : "𜻺"   # Measured angle with concave arc
+<U221D> <masculine> <parenright>                    : "𜻹"   # Measured angle with double arc
 <U221D> <masculine> <less>                          : "∠"   # Angle
 <U221D> <equal> <bar> <equal>                       : "⋕"   # Equal and parallel to
 <U221D> <exclam> <bar> <bar>                        : "∦"   # Not parallel to
