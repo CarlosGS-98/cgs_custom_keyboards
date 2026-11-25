@@ -560,6 +560,7 @@
 <U221D> <backslash> <braceleft> <r> <braceright> <underscore> <space>           : "𝑟"
 <U221D> <backslash> <braceleft> <S> <braceright> <underscore> <space>           : "𝑆"
 <U221D> <backslash> <braceleft> <s> <braceright> <underscore> <space>           : "𝑠"
+<U221D> <backslash> <braceleft> <ssharp> <braceright> <underscore> <space>      : "𝚦"   # Sursolidum (x⁵)
 <U221D> <backslash> <braceleft> <T> <braceright> <underscore> <space>           : "𝑇"
 <U221D> <backslash> <braceleft> <t> <braceright> <underscore> <space>           : "𝑡"
 <U221D> <backslash> <braceleft> <U> <braceright> <underscore> <space>           : "𝑈"

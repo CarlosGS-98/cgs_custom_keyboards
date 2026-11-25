@@ -11,6 +11,8 @@
 #
 
 # IPA Sounds (Alphabetical)
+<U035A> <U03FA>                         : "ʗ"   # Stretched C
+<U035A> <U03FB>                         : "ʗ"   # Stretched C
 <U035A> <Greek_DELTA> <Greek_DELTA>     : "ʭ"   # Bidental percussive
 <U035A> <Greek_delta> <Greek_delta>     : "ʭ"   # Bidental percussive
 <U035A> <Greek_EPSILON>                 : "Ə"   # Schwa
@@ -41,6 +43,7 @@
 <U035A> <underscore> <Greek_rho>        : "ɾ"   # Voiced alveolar flap
 <U035A> <Greek_SIGMA>                   : "Ʃ"   # Esh
 <U035A> <Greek_sigma>                   : "ʃ"   # Esh
+<U035A> <minus> <Greek_sigma>           : "ʄ"   # Barred Esh
 <U035A> <U0376>                         : "ⱱ"   # "IPA Symbols" + Ͷ (Pamphylian Digamma) = Labiodental flap
 <U035A> <U0377>                         : "ⱱ"   # "IPA Symbols" + ͷ (Pamphylian Digamma) = Labiodental flap
 <U035A> <U03DC> <U03DC>                 : "ʬ"   # "IPA Symbols" + Ϝ (Greek Digamma) = Bilabial percussive
