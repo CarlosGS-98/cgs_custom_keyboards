@@ -246,12 +246,12 @@
 <U221D> <U0377> <3>                             : "∛"   # Cubic root
 <U221D> <U0376> <4>                             : "∜"   # Fourth root
 <U221D> <U0377> <4>                             : "∜"   # Fourth root
-<U221D> <V> <V> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
-<U221D> <v> <v> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
-<U221D> <V> <V> <V> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
-<U221D> <v> <v> <v> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
-<U221D> <V> <V> <V> <V> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
-<U221D> <v> <v> <v> <v> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
+<U221D> <U0376> <U0376> <space>                 : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <U0377> <U0377> <space>                 : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <U0376> <U0376> <U0376> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <U0377> <U0377> <U0377> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <U0376> <U0376> <U0376> <U0376> <space> : "𜻟"   # Square root × 4 (16ᵗʰ Root)
+<U221D> <U0377> <U0377> <U0377> <U0377> <space> : "𜻟"   # Square root × 4 (16ᵗʰ Root)
 
 
 # Proof notation
