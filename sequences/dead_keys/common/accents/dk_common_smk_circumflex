@@ -7,10 +7,11 @@
 #
 
 # Basic combinations
-<dead_circumflex> <space>           : "̂"    # Combining circumflex accent
+<dead_circumflex> <space>           : "̂"    # Combining circumflex accent above
 <dead_circumflex> <dead_circumflex> : "^"   # Caret
 <dead_circumflex> <less>            : "̭"    # Combining circumflex accent below
-<dead_circumflex> <greater>         : "ˆ"   # Modifier circumflex accent 
+<dead_circumflex> <greater>         : "ˆ"   # Modifier circumflex accent
+<dead_circumflex> <plus>            : "᷍"    # Combining double circumflex accent above
 
 
 # Rules from "<dead_belowcircumflex>"
