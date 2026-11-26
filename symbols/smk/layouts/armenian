@@ -414,17 +414,17 @@ xkb_symbols "jcuken" {
 
     // [KEYBOARD LAYOUT REFERENCE (Expanded from SMK v15.x)]:
     // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
-    // │ ª ◌ │ ՜   │ " ᵅ │ ·   │ ֏ ¤ │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ՛ ՞ │ ?   ┃ ⌫       ┃
-    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ՚ │ !   ┃Backspace┃
+    // │ ª ◌ │ ՜   │ " ᵅ │ ·   │ ֏ ¤ │ %   │ &   │ /   │ ( ↻ │ )   │ = ↺ │ ՛ ՞ │ ? ¿ ┃ ⌫       ┃
+    // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ ' ՚ │ ! ¡ ┃Backspace┃
     // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
-    // ┃       ┃ Խ   │ Ծ   │ ՈՒ   │ Կ Ք │ Ե Է │ Ն   │ Գ Ղ │ Զ Ժ │ և   │ ¿   │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
-    // ┃ Tab ↹ ┃ խ   │ ծ   │ ու   │ կ ք │ ե է │ ն   │ գ ղ │ զ ժ │ և   │ ¡   │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┃       ┃ Խ   │ Ծ   │ ՈՒ   │ Կ Ք │ Ե Է │ Ն   │ Գ Ղ │ Զ Ժ │ և   │ Ջ   │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ խ   │ ծ   │ ու   │ կ ք │ ե է │ ն   │ գ ղ │ զ ժ │ և   │ ջ   │ ◌̀ [ │ + ] ┃   ⏎   ┃
     // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-    // ┃ Caps   ┃ Ֆ   │ Ի   │ Վ ◌̊ │ Ա   │ Պ Փ │ Ռ Ր │ Ո Օ │ Լ   │ Շ Ջ │ Ճ ◌̌ │ ◌̈ ◌̋ │ Չ ◌̨ ┃      ┃
-    // ┃  Lock  ┃ ֆ   │ ի   │ վ ◌̆ │ ա   │ պ փ │ ռ ր │ ո օ │ լ   │ շ ջ │ ճ ◌̄ │ ◌́ { │ չ } ┃      ┃
+    // ┃ Caps   ┃ Ֆ   │ Ի   │ Վ ◌̊ │ Ա   │ Պ Փ │ Ռ Ր │ Ո Օ │ Լ   │ Դ Ձ │ Ճ ◌̌ │ ◌̈ ◌̋ │ Չ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ ֆ   │ ի   │ վ ◌̆ │ ա   │ պ փ │ ռ ր │ ո օ │ լ   │ դ ձ │ ճ ◌̄ │ ◌́ { │ չ } ┃      ┃
     // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
-    // ┃      ┃ >   │ Յ   │ Ց ◌̑ │ Ս   │ Մ  ͛ │ Ը   │ Տ Թ │ Բ ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
-    // ┃Shift ┃ <   │ յ   │ ց ◌̧ │ ս   │ մ ◌̡̢ │ ը   │ տ թ │ բ ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┃      ┃ >   │ Յ   │ Ց ◌̑ │ Ս Շ │ Մ  ͛ │ Ը   │ Տ Թ │ Բ ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ <   │ յ   │ ց ◌̧ │ ս շ │ մ ◌̡̢ │ ը   │ տ թ │ բ ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
     // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
     // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
     // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
@@ -433,8 +433,6 @@ xkb_symbols "jcuken" {
     include "smk/armenian(basic)"
 
     name[Group1]= "SMK-Armenian (ԽԾՈՒԿԵՆ)";
-
-    key <AE12>	{ [           apostrophe,   question                ] };
 
     key <AD01>	{ [         Armenian_khe,   Armenian_KHE            ] };
     key <AD02>	{ [         Armenian_tsa,   Armenian_TSA            ] };
@@ -445,7 +443,7 @@ xkb_symbols "jcuken" {
     key <AD07>	{ [         Armenian_gim,   Armenian_GIM,           Armenian_ghat,      Armenian_GHAT       ] };
     key <AD08>	{ [          Armenian_za,   Armenian_ZA,            Armenian_zhe,       Armenian_ZHE        ] };
     key <AD09>	{ [ Armenian_ligature_ew,   Armenian_ligature_ew    ] };
-    key <AD10>	{ [           exclamdown,   questiondown            ] };
+    key <AD10>	{ [          Armenian_je,   Armenian_JE             ] };
 
     key <AC01>	{ [          Armenian_fe,   Armenian_FE             ] };
     key <AC02>	{ [         Armenian_ini,   Armenian_INI            ] };
@@ -455,13 +453,13 @@ xkb_symbols "jcuken" {
     key <AC06>	{ [          Armenian_ra,   Armenian_RA,            Armenian_re,        Armenian_RE         ] };
     key <AC07>	{ [          Armenian_vo,   Armenian_VO,            Armenian_o,         Armenian_O          ] };
     key <AC08>	{ [        Armenian_lyun,   Armenian_LYUN           ] };
-    key <AC09>	{ [         Armenian_sha,   Armenian_SHA,           Armenian_je,        Armenian_JE         ] };
+    key <AC09>	{ [          Armenian_da,   Armenian_DA,            Armenian_dza,       Armenian_DZA        ] };
     key <AC10>	{ [        Armenian_tche,   Armenian_TCHE,          dead_macron,        dead_caron          ] };
     key <BKSL>	{ [         Armenian_cha,   Armenian_CHA,           braceright,         dead_ogonek         ] };
 
     key <AB01>	{ [          Armenian_hi,   Armenian_HI             ] };
     key <AB02>	{ [         Armenian_tso,   Armenian_TSO,           dead_cedilla,       dead_invertedbreve  ] };
-    key <AB03>	{ [          Armenian_se,   Armenian_SE             ] };
+    key <AB03>	{ [          Armenian_se,   Armenian_SE,            Armenian_sha,       Armenian_SHA        ] };
     key <AB04>	{ [         Armenian_men,   Armenian_MEN,           U0359,              U035B               ] };    // U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
     key <AB05>	{ [          Armenian_at,   Armenian_AT             ] };
     key <AB06>	{ [        Armenian_tyun,   Armenian_TYUN,          Armenian_to,        Armenian_TO         ] };
