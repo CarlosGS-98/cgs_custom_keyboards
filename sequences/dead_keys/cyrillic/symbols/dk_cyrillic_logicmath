@@ -217,45 +217,45 @@
 
 
 # Miscellaneous mathematical operators & symbols
-<U221D> <2> <Cyrillic_VE>                                       : "√"   # Square root
-<U221D> <2> <Cyrillic_ve>                                       : "√"   # Square root
-<U221D> <3> <Cyrillic_VE>                                       : "∛"   # Cubic root
-<U221D> <3> <Cyrillic_ve>                                       : "∛"   # Cubic root
-<U221D> <4> <Cyrillic_VE>                                       : "∜"   # Fourth root
-<U221D> <4> <Cyrillic_ve>                                       : "∜"   # Fourth root
-<U221D> <backslash> <Cyrillic_ES> <space>                       : "∿"   # Sine wave
-<U221D> <backslash> <Cyrillic_es> <space>                       : "∾"   # Inverted lazy S
-<U221D> <backslash> <Cyrillic_SOFTSIGN> <Cyrillic_ER> <space>   : "≀"   # Wreath product (Derived from LaTeX)
-<U221D> <Cyrillic_TSE> <underscore> <Cyrillic_O>                : "⊶"   # Original of
-<U221D> <Cyrillic_tse> <underscore> <Cyrillic_o>                : "⊶"   # Original of
-<U221D> <Cyrillic_DE> <equal>                                   : "≝"   # Equal to by definition
-<U221D> <Cyrillic_de> <equal>                                   : "≜"   # Delta equal to
-<U221D> <Cyrillic_I> <Cyrillic_TE>                              : "⊺"   # Intercalate
-<U221D> <Cyrillic_i> <Cyrillic_te>                              : "⊺"   # Intercalate
-<U221D> <Ukrainian_I> <Cyrillic_TE>                             : "⊺"   # Intercalate
-<U221D> <Ukrainian_i> <Cyrillic_te>                             : "⊺"   # Intercalate
-<U221D> <minus> <minus> <Cyrillic_TSE>                          : "⊸"   # Multimap
-<U221D> <minus> <minus> <Cyrillic_tse>                          : "⊸"   # Multimap
-<U221D> <Cyrillic_O> <space>                                    : "○"   # White circle (APL var * pi)
-<U221D> <Cyrillic_o> <space>                                    : "○"   # White circle (APL var * pi)
-<U221D> <Cyrillic_O> <underscore> <Cyrillic_TSE>                : "⊷"   # Image of
-<U221D> <Cyrillic_o> <underscore> <Cyrillic_tse>                : "⊷"   # Image of
-<U221D> <Cyrillic_PE> <space>                                   : "∐"   # N-Ary coproduct
-<U221D> <Cyrillic_pe> <space>                                   : "∏"   # N-Ary product
-<U221D> <Cyrillic_ES> <space>                                   : "∑"   # N-Ary summation
-<U221D> <Cyrillic_es> <space>                                   : "∑"   # N-Ary summation
-<U221D> <Cyrillic_VE> <2>                                       : "√"   # Square root
-<U221D> <Cyrillic_ve> <2>                                       : "√"   # Square root
-<U221D> <Cyrillic_VE> <3>                                       : "∛"   # Cubic root
-<U221D> <Cyrillic_ve> <3>                                       : "∛"   # Cubic root
-<U221D> <Cyrillic_VE> <4>                                       : "∜"   # Fourth root
-<U221D> <Cyrillic_ve> <4>                                       : "∜"   # Fourth root
-<U221D> <V> <V> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
-<U221D> <v> <v> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
-<U221D> <V> <V> <V> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
-<U221D> <v> <v> <v> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
-<U221D> <V> <V> <V> <V> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
-<U221D> <v> <v> <v> <v> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
+<U221D> <2> <Cyrillic_VE>                                               : "√"   # Square root
+<U221D> <2> <Cyrillic_ve>                                               : "√"   # Square root
+<U221D> <3> <Cyrillic_VE>                                               : "∛"   # Cubic root
+<U221D> <3> <Cyrillic_ve>                                               : "∛"   # Cubic root
+<U221D> <4> <Cyrillic_VE>                                               : "∜"   # Fourth root
+<U221D> <4> <Cyrillic_ve>                                               : "∜"   # Fourth root
+<U221D> <backslash> <Cyrillic_ES> <space>                               : "∿"   # Sine wave
+<U221D> <backslash> <Cyrillic_es> <space>                               : "∾"   # Inverted lazy S
+<U221D> <backslash> <Cyrillic_SOFTSIGN> <Cyrillic_ER> <space>           : "≀"   # Wreath product (Derived from LaTeX)
+<U221D> <Cyrillic_TSE> <underscore> <Cyrillic_O>                        : "⊶"   # Original of
+<U221D> <Cyrillic_tse> <underscore> <Cyrillic_o>                        : "⊶"   # Original of
+<U221D> <Cyrillic_DE> <equal>                                           : "≝"   # Equal to by definition
+<U221D> <Cyrillic_de> <equal>                                           : "≜"   # Delta equal to
+<U221D> <Cyrillic_I> <Cyrillic_TE>                                      : "⊺"   # Intercalate
+<U221D> <Cyrillic_i> <Cyrillic_te>                                      : "⊺"   # Intercalate
+<U221D> <Ukrainian_I> <Cyrillic_TE>                                     : "⊺"   # Intercalate
+<U221D> <Ukrainian_i> <Cyrillic_te>                                     : "⊺"   # Intercalate
+<U221D> <minus> <minus> <Cyrillic_TSE>                                  : "⊸"   # Multimap
+<U221D> <minus> <minus> <Cyrillic_tse>                                  : "⊸"   # Multimap
+<U221D> <Cyrillic_O> <space>                                            : "○"   # White circle (APL var * pi)
+<U221D> <Cyrillic_o> <space>                                            : "○"   # White circle (APL var * pi)
+<U221D> <Cyrillic_O> <underscore> <Cyrillic_TSE>                        : "⊷"   # Image of
+<U221D> <Cyrillic_o> <underscore> <Cyrillic_tse>                        : "⊷"   # Image of
+<U221D> <Cyrillic_PE> <space>                                           : "∐"   # N-Ary coproduct
+<U221D> <Cyrillic_pe> <space>                                           : "∏"   # N-Ary product
+<U221D> <Cyrillic_ES> <space>                                           : "∑"   # N-Ary summation
+<U221D> <Cyrillic_es> <space>                                           : "∑"   # N-Ary summation
+<U221D> <Cyrillic_VE> <2>                                               : "√"   # Square root
+<U221D> <Cyrillic_ve> <2>                                               : "√"   # Square root
+<U221D> <Cyrillic_VE> <3>                                               : "∛"   # Cubic root
+<U221D> <Cyrillic_ve> <3>                                               : "∛"   # Cubic root
+<U221D> <Cyrillic_VE> <4>                                               : "∜"   # Fourth root
+<U221D> <Cyrillic_ve> <4>                                               : "∜"   # Fourth root
+<U221D> <Cyrillic_VE> <Cyrillic_VE> <space>                             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <Cyrillic_ve> <Cyrillic_ve> <space>                             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <Cyrillic_VE> <Cyrillic_VE> <Cyrillic_VE> <space>               : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <Cyrillic_ve> <Cyrillic_ve> <Cyrillic_ve> <space>               : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <Cyrillic_VE> <Cyrillic_VE> <Cyrillic_VE> <Cyrillic_VE> <space> : "𜻟"   # Square root × 4 (16ᵗʰ Root)
+<U221D> <Cyrillic_ve> <Cyrillic_ve> <Cyrillic_ve> <Cyrillic_ve> <space> : "𜻟"   # Square root × 4 (16ᵗʰ Root)
 
 
 # Relational operators
