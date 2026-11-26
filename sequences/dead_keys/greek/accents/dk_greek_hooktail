@@ -1,0 +1,45 @@
+# Greek Alphabet | Hooktail Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Precomposed implosive tail/hook letter combinations
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+# [NOTE]: No combinations with this diacritic are available alongside the Greek alphabet.
+
+
+# Precomposed palatal hook letter combinations
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+<U0359> <less> <Greek_beta>     : "𝼻"   
+<U0359> <less> <Greek_gamma>    : "𝼱"
+<U0359> <less> <Greek_theta>    : "𝼼"
+<U0359> <less> <Greek_chi>      : "𝼽"    
+
+
+# Precomposed retroflex hook letter combinations
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_(diacritique)
+#
+# [NOTE]: No combinations with this diacritic are available alongside the Greek alphabet.
+
+
+# Precomposed rhotic hook letter combinations
+# [Main source]: https://fr.wikipedia.org/wiki/Crochet_rhotique
+#
+# [NOTE]: No combinations with this diacritic are available alongside the Greek alphabet.
+
+
+# Precomposed left fishhook letter combinations
+# [Main source]: https://unicode.org/charts/PDF/Unicode-18.0/U180-1DF00.pdf
+#
+# [NOTE]: No combinations with this diacritic are available alongside the Greek alphabet.
+
+
+# Precomposed right fishhook letter combinations
+# [Main source]: https://unicode.org/charts/PDF/Unicode-18.0/U180-1DF00.pdf
+#
+# [NOTE]: No combinations with this diacritic are available alongside the Greek alphabet.
+
+
+##################
+# [END OF RULES] #
+##################

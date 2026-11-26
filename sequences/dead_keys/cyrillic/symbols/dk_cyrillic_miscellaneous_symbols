@@ -10,8 +10,12 @@
 <U232C> <bar> <Cyrillic_ha> <greater>                                           : "⌦"  # Erase to the right
 <U232C> <bracketleft> <Cyrillic_O>                                              : "⎄"   # Compose Key Symbol
 <U232C> <bracketleft> <Cyrillic_o>                                              : "⎄"   # Compose Key Symbol
+<U232C> <dead_abovedot> <Cyrillic_ES> <Cyrillic_IE> <Cyrillic_TSE>              : "𜻸"   # Sector + Dotted Arc
+<U232C> <dead_abovedot> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_tse>              : "𜻸"   # Sector + Dotted Arc
 <U232C> <dead_circumflex> <Cyrillic_TE>                                         : "⏉"   # Downwards dentistry symbol
 <U232C> <dead_circumflex> <Cyrillic_te>                                         : "⏉"   # Downwards dentistry symbol
+<U232C> <dead_invertedbreve> <Cyrillic_ES> <Cyrillic_IE> <Cyrillic_TSE>         : "𜻷"   # Sector + Double Arc
+<U232C> <dead_invertedbreve> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_tse>         : "𜻷"   # Sector + Double Arc
 <U232C> <dead_longsolidusoverlay> <Cyrillic_O>                                  : "⌀"   # Diameter sign
 <U232C> <dead_longsolidusoverlay> <Cyrillic_o>                                  : "⌀"   # Diameter sign
 <U232C> <Cyrillic_IE> <Cyrillic_EN> <Cyrillic_TE> <Cyrillic_IE> <Cyrillic_ER>   : "⏎"   # Enter Symbol
@@ -30,10 +34,16 @@
 <U232C> <Cyrillic_em> <space>                                                   : "µ"   # Micro Sign
 <U232C> <Cyrillic_EM> <Cyrillic_SHHA> <Cyrillic_O>                              : "℧"   # Mho (Inverted Ohm) Symbol
 <U232C> <Cyrillic_em> <Cyrillic_shha> <Cyrillic_o>                              : "℧"   # Mho (Inverted Ohm) Symbol
+<U232C> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_KA> <Cyrillic_ER> <Cyrillic_O>     : "µ"   # Micro Sign
+<U232C> <Cyrillic_em> <Cyrillic_i> <Cyrillic_ka> <Cyrillic_er> <Cyrillic_o>     : "µ"   # Micro Sign
+<U232C> <Cyrillic_EM> <Ukrainian_I> <Cyrillic_KA> <Cyrillic_ER> <Cyrillic_O>    : "µ"   # Micro Sign
+<U232C> <Cyrillic_em> <Ukrainian_i> <Cyrillic_ka> <Cyrillic_er> <Cyrillic_o>    : "µ"   # Micro Sign
 <U232C> <Cyrillic_EM> <Cyrillic_I> <Cyrillic_TSE> <Cyrillic_ER> <Cyrillic_O>    : "µ"   # Micro Sign
 <U232C> <Cyrillic_em> <Cyrillic_i> <Cyrillic_tse> <Cyrillic_er> <Cyrillic_o>    : "µ"   # Micro Sign
 <U232C> <Cyrillic_EM> <Ukrainian_I> <Cyrillic_TSE> <Cyrillic_ER> <Cyrillic_O>   : "µ"   # Micro Sign
 <U232C> <Cyrillic_em> <Ukrainian_i> <Cyrillic_tse> <Cyrillic_er> <Cyrillic_o>   : "µ"   # Micro Sign
+<U232C> <minus> <Cyrillic_ES> <Cyrillic_IE> <Cyrillic_TSE>                      : "𜻶"   # Sector + Chord
+<U232C> <minus> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_tse>                      : "𜻶"   # Sector + Chord
 <U232C> <Cyrillic_O> <Cyrillic_SHHA> <Cyrillic_EM>                              : "Ω"   # Ohm Symbol
 <U232C> <Cyrillic_o> <Cyrillic_shha> <Cyrillic_em>                              : "Ω"   # Ohm Symbol
 <U232C> <U0460>                                                                 : "⌀"   # Diameter sign

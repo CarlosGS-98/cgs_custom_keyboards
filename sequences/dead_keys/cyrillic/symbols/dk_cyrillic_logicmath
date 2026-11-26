@@ -163,6 +163,21 @@
 <U221D> <Cyrillic_ve> <equal>           : "≚"   # Equiangular to
 
 
+# Leibnizian mathematical operators
+<U221D> <Cyrillic_EL> <asterisk> <space>            : "𜻲"   # Leibnizian Multiplication sign
+<U221D> <Cyrillic_el> <asterisk> <space>            : "𜻲"   # Leibnizian Multiplication sign
+<U221D> <Cyrillic_EL> <asterisk> <slash> <space>    : "𜻳"   # Leibnizian Multiplication-division sign
+<U221D> <Cyrillic_el> <asterisk> <slash> <space>    : "𜻳"   # Leibnizian Multiplication-division sign
+<U221D> <Cyrillic_EL> <bar> <dead_breve> <space>    : "𜻴"   # Leibnizian Fraction Reduction-1
+<U221D> <Cyrillic_el> <bar> <dead_breve> <space>    : "𜻴"   # Leibnizian Fraction Reduction-1
+<U221D> <Cyrillic_EL> <bar> <parenleft> <space>     : "𜻵"   # Leibnizian Fraction Reduction-2
+<U221D> <Cyrillic_el> <bar> <parenleft> <space>     : "𜻵"   # Leibnizian Fraction Reduction-2
+<U221D> <Cyrillic_EL> <slash> <space>               : "𜻱"   # Leibnizian Division sign
+<U221D> <Cyrillic_el> <slash> <space>               : "𜻱"   # Leibnizian Division sign
+<U221D> <Cyrillic_EL> <slash> <asterisk> <space>    : "𜻳"   # Leibnizian Multiplication-division sign
+<U221D> <Cyrillic_el> <slash> <asterisk> <space>    : "𜻳"   # Leibnizian Multiplication-division sign
+
+
 # Letterlike mathematical operators
 <U221D> <Cyrillic_A> <space>    : "∀"   # For all
 <U221D> <Cyrillic_a> <space>    : "∀"   # For all
@@ -235,6 +250,12 @@
 <U221D> <Cyrillic_ve> <3>                                       : "∛"   # Cubic root
 <U221D> <Cyrillic_VE> <4>                                       : "∜"   # Fourth root
 <U221D> <Cyrillic_ve> <4>                                       : "∜"   # Fourth root
+<U221D> <V> <V> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <v> <v> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <V> <V> <V> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <v> <v> <v> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <V> <V> <V> <V> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
+<U221D> <v> <v> <v> <v> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
 
 
 # Relational operators

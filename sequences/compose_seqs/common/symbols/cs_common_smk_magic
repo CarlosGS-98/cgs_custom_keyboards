@@ -55,6 +55,7 @@
 <Multi_key> <U232C> <parenleft> <bracketleft> <equal> <bracketright> <parenright>                           : "🝚"   # Powdered brick
 <Multi_key> <U232C> <parenleft> <bracketleft> <period> <bracketright> <parenright>                          : "🝕"   # Urine
 <Multi_key> <U232C> <parenleft> <bracketleft> <plus> <bracketright> <parenright>                            : "🜿"   # Tartar (Tartaric acid [2,3-Dihydroxybutanedioic acid])
+<Multi_key> <U232C> <parenleft> <bracketleft> <plus> <bracketright> <masculine> <parenright>                : "𜻔"   # Salt of tartar (Potassium bitartarate [KC₄H₅O₆])
 <Multi_key> <U232C> <parenleft> <bracketleft> <U221D> <asterisk> <space> <bracketright> <parenright>        : "🝱"   # Month
 <Multi_key> <U232C> <parenleft> <bracketleft> <underscore> <bracketright> <parenright>                      : "🜷"   # Alkali-2/Generic base
 <Multi_key> <U232C> <parenleft> <colon> <bar> <colon> <parenright>                                          : "🜌"   # Vinegar-3
@@ -139,6 +140,7 @@
 <Multi_key> <U232C> <parenleft> <minus> <minus> <cent> <parenright>                                         : "🝑"   # Trident
 <Multi_key> <U232C> <parenleft> <minus> <minus> <EuroSign> <parenright>                                     : "🝑"   # Trident
 <Multi_key> <U232C> <parenleft> <parenleft> <U221D> <asterisk> <space> <parenright> <parenright>            : "🝴"   # Lot of Fortune
+<Multi_key> <U232C> <parenleft> <parenright> <plus> <parenright>                                            : "𜻓"   # Alchemical Moon-Jupiter
 <Multi_key> <U232C> <parenleft> <period> <colon> <parenright>                                               : "🝎"   # Caput Mortuum
 <Multi_key> <U232C> <parenleft> <period> <slash> <backslash> <parenright>                                   : "🝠"   # Distillation
 <Multi_key> <U232C> <parenleft> <plus> <asterisk> <3> <parenright>                                          : "🜵"   # Regulus-4
@@ -152,6 +154,8 @@
 <Multi_key> <U232C> <parenleft> <underscore> <slash> <backslash> <parenright>                               : "🝠"   # Distillation
 <Multi_key> <U232C> <parenleft> <Up> <3> <parenright>                                                       : "🝢"   # Dissolve-2
 <Multi_key> <U232C> <parenleft> <Up> <Up> <Up> <parenright>                                                 : "🝢"   # Dissolve-2
+<Multi_key> <U232C> <U21BA> <parenleft> <masculine> <3> <parenright>                                        : "𜻒"   # Generic oil (Inverted)
+<Multi_key> <U232C> <U21BA> <parenleft> <masculine> <masculine> <masculine> <parenright>                    : "𜻒"   # Generic oil (Inverted)
 
 
 # Geomantic Figures (Non-Alphabetical)
