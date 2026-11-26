@@ -1,0 +1,43 @@
+# Armenian Alphabet | Letter Fusion Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+# [Main source]: https://en.wikipedia.org/wiki/Armenian_alphabet
+#
+<U1DCF> <Armenian_YECH> <Armenian_VYUN> : "և"
+<U1DCF> <Armenian_yech> <Armenian_vyun> : "և"
+<U1DCF> <Armenian_MEN> <Armenian_YECH>  : "ﬔ"
+<U1DCF> <Armenian_men> <Armenian_yech>  : "ﬔ"
+<U1DCF> <Armenian_MEN> <Armenian_KHE>   : "ﬗ"
+<U1DCF> <Armenian_men> <Armenian_khe>   : "ﬗ"
+<U1DCF> <Armenian_MEN> <Armenian_NU>    : "ﬓ"
+<U1DCF> <Armenian_men> <Armenian_nu>    : "ﬓ"
+<U1DCF> <Armenian_MEN> <Armenian_INI>   : "ﬕ"
+<U1DCF> <Armenian_men> <Armenian_ini>   : "ﬕ"
+<U1DCF> <Armenian_VEV> <Armenian_NU>    : "ﬖ"
+<U1DCF> <Armenian_vev> <Armenian_nu>    : "ﬖ"
+
+
+# Special Fraction-Like Symbols
+<U1DCF> <Armenian_AYB> <Armenian_SE> <slash>    : "℁"
+<U1DCF> <Armenian_ayb> <Armenian_se> <slash>    : "℁"
+<U1DCF> <Armenian_AYB> <slash> <Armenian_SE>    : "℁"
+<U1DCF> <Armenian_ayb> <slash> <Armenian_se>    : "℁"
+<U1DCF> <Armenian_TSA> <Armenian_VO> <slash>    : "℅"
+<U1DCF> <Armenian_tsa> <Armenian_vo> <slash>    : "℅"
+<U1DCF> <Armenian_TSA> <Armenian_O> <slash>     : "℅"
+<U1DCF> <Armenian_tsa> <Armenian_o> <slash>     : "℅"
+<U1DCF> <Armenian_TSA> <slash> <Armenian_VO>    : "℅"
+<U1DCF> <Armenian_tsa> <slash> <Armenian_vo>    : "℅"
+<U1DCF> <Armenian_TSA> <slash> <Armenian_O>     : "℅"
+<U1DCF> <Armenian_tsa> <slash> <Armenian_o>     : "℅"
+<U1DCF> <slash> <Armenian_AYB> <Armenian_SE>    : "℁"
+<U1DCF> <slash> <Armenian_ayb> <Armenian_se>    : "℁"
+<U1DCF> <slash> <Armenian_TSA> <Armenian_VO>    : "℅"
+<U1DCF> <slash> <Armenian_tsa> <Armenian_vo>    : "℅"
+<U1DCF> <slash> <Armenian_TSA> <Armenian_O>     : "℅"
+<U1DCF> <slash> <Armenian_tsa> <Armenian_o>     : "℅"
+
+##################
+# [END OF RULES] #
+##################
