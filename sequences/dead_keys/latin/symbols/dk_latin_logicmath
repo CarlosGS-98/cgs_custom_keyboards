@@ -161,6 +161,21 @@
 <U221D> <v> <equal>         : "≚"   # Equiangular to
 
 
+# Leibnizian mathematical operators
+<U221D> <L> <asterisk> <space>          : "𜻲"   # Leibnizian Multiplication sign
+<U221D> <l> <asterisk> <space>          : "𜻲"   # Leibnizian Multiplication sign
+<U221D> <L> <asterisk> <slash> <space>  : "𜻳"   # Leibnizian Multiplication-division sign
+<U221D> <l> <asterisk> <slash> <space>  : "𜻳"   # Leibnizian Multiplication-division sign
+<U221D> <L> <bar> <dead_breve> <space>  : "𜻴"   # Leibnizian Fraction Reduction-1
+<U221D> <l> <bar> <dead_breve> <space>  : "𜻴"   # Leibnizian Fraction Reduction-1
+<U221D> <L> <bar> <parenleft> <space>   : "𜻵"   # Leibnizian Fraction Reduction-2
+<U221D> <l> <bar> <parenleft> <space>   : "𜻵"   # Leibnizian Fraction Reduction-2
+<U221D> <L> <slash> <space>             : "𜻱"   # Leibnizian Division sign
+<U221D> <l> <slash> <space>             : "𜻱"   # Leibnizian Division sign
+<U221D> <L> <slash> <asterisk> <space>  : "𜻳"   # Leibnizian Multiplication-division sign
+<U221D> <l> <slash> <asterisk> <space>  : "𜻳"   # Leibnizian Multiplication-division sign
+
+
 # Letterlike mathematical operators
 <U221D> <A> <space>     : "∀"   # For all
 <U221D> <a> <space>     : "∀"   # For all
@@ -231,6 +246,12 @@
 <U221D> <v> <3>                     : "∛"   # Cubic root
 <U221D> <V> <4>                     : "∜"   # Fourth root
 <U221D> <v> <4>                     : "∜"   # Fourth root
+<U221D> <V> <V> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <v> <v> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <V> <V> <V> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <v> <v> <v> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <V> <V> <V> <V> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
+<U221D> <v> <v> <v> <v> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
 
 
 # Relational operators

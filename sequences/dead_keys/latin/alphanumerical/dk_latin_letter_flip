@@ -3,7 +3,11 @@
 
 # Basic precomposed letter combinations
 # [Main source]: https://en.wikipedia.org/wiki/List_of_Latin-script_letters
-#       
+#    
+<U21BA> <2> <R>                             : "꭬"  # German Dialectology Script R
+<U21BA> <2> <r>                             : "ꭋ"  # German Dialectology Script R
+<U21BA> <3> <R>                             : "꭭"  # German Dialectology Script R With Ring
+<U21BA> <3> <r>                             : "ꭌ"  # German Dialectology Script R With Ring
 <U21BA> <A>                                 : "Ɐ"
 <U21BA> <a>                                 : "ɐ"
 <U21BA> <U2C6D>                             : "Ɒ"   # Ɑ (Latin Alpha, Turned)
@@ -23,7 +27,7 @@
 <U21BA> <U0190>                             : "Ɜ"   # Ɛ (Latin Epsilon, Turned)
 <U21BA> <U025B>                             : "ɜ"   # ɛ (Latin Epsilon, Turned)
 <U21BA> <dead_greek> <dead_circumflex> <E>  : "Ɜ"   # Ɛ (Latin Epsilon, Turned)
-<U21BA> <dead_greek> <dead_circumflex> <w>  : "ɜ"   # ɛ (Latin Epsilon, Turned)
+<U21BA> <dead_greek> <dead_circumflex> <e>  : "ɜ"   # ɛ (Latin Epsilon, Turned)
 <U21BA> <SCHWA>                             : "ɘ"   # Close-mid central unrounded vowel
 <U21BA> <schwa>                             : "ɘ"   # Close-mid central unrounded vowel
 <U21BA> <U035A> <underscore> <E>            : "ɘ"   # Close-mid central unrounded vowel
@@ -50,16 +54,25 @@
 <U21BA> <m>                                 : "ɯ"
 <U21BA> <U035A> <M>                         : "ꟺ"
 <U21BA> <U035A> <m>                         : "ꟺ"
+<U21BA> <UA7DD>                             : "𝽶"
+<U21BA> <U0277>                             : "𝽷"
+<U21BA> <dead_greek> <underscore> <O>       : "𝽶"
+<U21BA> <dead_greek> <underscore> <o>       : "𝽷"
+<U21BA> <dead_greek> <underscore> <Oslash>  : "𝽶"
+<U21BA> <dead_greek> <underscore> <oslash>  : "𝽷"
 <U21BA> <R>                                 : "ɻ"
 <U21BA> <r>                                 : "ɹ"
 <U21BA> <T>                                 : "Ʇ"
 <U21BA> <t>                                 : "ʇ"
+<U21BA> <U>                                 : "𝽾"
+<U21BA> <u>                                 : "𝽿"
 <U21BA> <V>                                 : "Ʌ"
 <U21BA> <v>                                 : "ʌ"
 <U21BA> <W>                                 : "ʍ"
 <U21BA> <w>                                 : "ʍ"
 <U21BA> <Y>                                 : "⅄"
 <U21BA> <y>                                 : "ʎ"
+<U21BA> <z>                                 : "𝽦"
 <U21BA> <EZH>                               : "Ƹ"
 <U21BA> <ezh>                               : "ƹ"
 <U21BA> <U0241>                             : "꟎"   # Ɂ (Capital Glottal Stop) + IPA Key = ꟎ (Capital Pharyngeal Voiced Fricative)

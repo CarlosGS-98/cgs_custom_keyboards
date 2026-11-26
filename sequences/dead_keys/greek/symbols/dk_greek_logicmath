@@ -161,6 +161,21 @@
 <U221D> <U0377> <equal>                 : "≚"   # Equiangular to
 
 
+# Leibnizian mathematical operators
+<U221D> <Greek_LAMBDA> <asterisk> <space>           : "𜻲"   # Leibnizian Multiplication sign
+<U221D> <Greek_lambda> <asterisk> <space>           : "𜻲"   # Leibnizian Multiplication sign
+<U221D> <Greek_LAMBDA> <asterisk> <slash> <space>   : "𜻳"   # Leibnizian Multiplication-division sign
+<U221D> <Greek_lambda> <asterisk> <slash> <space>   : "𜻳"   # Leibnizian Multiplication-division sign
+<U221D> <Greek_LAMBDA> <bar> <dead_breve> <space>   : "𜻴"   # Leibnizian Fraction Reduction-1
+<U221D> <Greek_lambda> <bar> <dead_breve> <space>   : "𜻴"   # Leibnizian Fraction Reduction-1
+<U221D> <Greek_LAMBDA> <bar> <parenleft> <space>    : "𜻵"   # Leibnizian Fraction Reduction-2
+<U221D> <Greek_lambda> <bar> <parenleft> <space>    : "𜻵"   # Leibnizian Fraction Reduction-2
+<U221D> <Greek_LAMBDA> <slash> <space>              : "𜻱"   # Leibnizian Division sign
+<U221D> <Greek_lambda> <slash> <space>              : "𜻱"   # Leibnizian Division sign
+<U221D> <Greek_LAMBDA> <slash> <asterisk> <space>   : "𜻳"   # Leibnizian Multiplication-division sign
+<U221D> <Greek_lambda> <slash> <asterisk> <space>   : "𜻳"   # Leibnizian Multiplication-division sign
+
+
 # Letterlike mathematical operators
 <U221D> <Greek_ALPHA> <space>       : "∀"   # For all
 <U221D> <Greek_alpha> <space>       : "∀"   # For all
@@ -231,6 +246,12 @@
 <U221D> <U0377> <3>                             : "∛"   # Cubic root
 <U221D> <U0376> <4>                             : "∜"   # Fourth root
 <U221D> <U0377> <4>                             : "∜"   # Fourth root
+<U221D> <V> <V> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <v> <v> <space>             : "𜻝"   # Square root × 2 (4ᵗʰ Root)
+<U221D> <V> <V> <V> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <v> <v> <v> <space>         : "𜻞"   # Square root × 3 (8ᵗʰ Root)
+<U221D> <V> <V> <V> <V> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
+<U221D> <v> <v> <v> <v> <space>     : "𜻟"   # Square root × 4 (16ᵗʰ Root)
 
 
 # Proof notation

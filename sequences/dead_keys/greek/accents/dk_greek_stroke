@@ -1,0 +1,19 @@
+# Greek Alphabet | Stroke Rules
+# [AUTHOR]: Carlos González Sanz
+
+# Basic precomposed letter combinations
+#
+# [CUSTOM DEAD KEYS]:
+# - ᷏ (Combining Zigzag Below [U1DCF]) -> Represents the "Letter Fusion" dead key
+# - ↺ (Anticlockwise Open Circle Arrow [U21BA]) -> Represents the "Letter Flip" dead key
+#
+<dead_stroke> <Greek_chi>   : "𝽔"
+
+
+# Other precomposed stroke combinations (Unidirectional)
+#
+# [NOTE]: No combinations with this diacritic are available alongside the Greek alphabet.
+
+##################
+# [END OF RULES] #
+##################
