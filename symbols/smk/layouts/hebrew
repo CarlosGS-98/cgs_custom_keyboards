@@ -65,7 +65,7 @@ xkb_symbols "basic" {
 
     key <AC01>	{ [         U05B7,  U05B8               ] };                                                // U+05B7 = Patach; U+05B8 = Kamatz
     key <AC02>	{ [   hebrew_shin,  UFB49,              hebrew_samech,          UFB41               ] };    // U+FB49 = Shin + Dagesh; U+FB41 = Samekh + Dagesh
-    key <AC03>	{ [  hebrew_dalet,  hebrew_dalet,       UFB33,                  UFB33               ] };
+    key <AC03>	{ [  hebrew_dalet,  hebrew_dalet,       UFB33,                  UFB33               ] };    // U+FB33 = Dalet + Dagesh
     key <AC04>	{ [         UFB4E,  UFB4E               ] };                                                // U+FB4E = Hebrew Pe + Rafe
     key <AC05>	{ [  hebrew_gimel,  hebrew_gimel,       UFB32,                  UFB32               ] };    // U+FB32 = Gimel + Dagesh
     key <AC06>	{ [     hebrew_he,  hebrew_he           ] };
@@ -413,14 +413,14 @@ xkb_symbols "jcuken" {
     // │ ª ◌ │ ! 𐤀‎ │ "  ‎ │ ·   │ $   │ %   │ &   │ /   │ ( ↻ │ )   │ =   │ ?   │ ע‎   ┃ ⌫       ┃
     // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ¤ │ 5  ᷏ │ 6 ¬ │ 7   │ 8 ∝ │ 9   │ 0 ↺ │ '   │ ע‎   ┃Backspace┃
     // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
-    // ┃       ┃ װ‎ ױ‎ │ ץ‎   │ ◌ֻ   │ ך‎ ךּ‎ │ ◌ֶ ◌ֵ │ ן‎ נּ‎ │ ג‎ גּ‎‎ │ ז‎ זּ‎ │ ח‎   │ א‎   │ ◌̄   │ * ﬩ ┃ Enter ┃
-    // ┃ Tab ↹ ┃ ײ‎ ױ‎ │ צ‎   │ ◌ֻ   │ כ‎ כּ‎ │ ◌ֶ ◌ֵ │ נ‎ נּ‎ │ ג‎ גּ‎‎ │ ז‎ זּ‎ │ ח‎   │ א‎   │ ◌ֽ [ │ + ] ┃   ⏎   ┃
+    // ┃       ┃ װ‎ ױ‎ │ ץ‎ צּ‎ │ ◌ֻ   │ ך‎ ךּ‎ │ ◌ֶ ◌ֵ │ ן‎ נּ‎ │ ג‎ גּ‎‎ │ ז‎ זּ‎ │ ח‎ ה‎ │ א‎   │ ◌̄   │ * ﬩ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ײ‎ ױ‎ │ צ‎ צּ‎ │ ◌ֻ   │ כ‎ כּ‎ │ ◌ֶ ◌ֵ │ נ‎ נּ‎ │ ג‎ גּ‎‎ │ ז‎ זּ‎ │ ח‎ ה‎ │ א‎   │ ◌ֽ [ │ + ] ┃   ⏎   ┃
     // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-    // ┃ Caps   ┃ פֿ‎   │ ◌ִ   │ ב‎   │ ◌ַ ◌ָ │ ף‎ ףּ‎ │ ר‎ רּ‎ │ ◌ֹ ◌ֺ │ לּ‎ ﭏ‎ │ ס‎ סּ‎ │ ק‎   │ ◌ְ   │ ׆‎   ┃      ┃
-    // ┃  Lock  ┃ פֿ‎   │ ◌ִ   │ ב‎   │ ◌ַ ◌ָ │ פ‎ פּ‎ │ ר‎ רּ‎ │ ◌ֹ ◌ֺ │ ל‎ ﭏ‎ │ ס‎ סּ‎ │ ק‎   │ ◌ּ { │ ׆‎ } ┃      ┃
+    // ┃ Caps   ┃ פֿ‎   │ ◌ִ   │ ב‎   │ ◌ַ ◌ָ │ ף‎ ףּ‎ │ ר‎ רּ‎ │ ◌ֹ ◌ֺ │ לּ‎ ﭏ‎ │ ד‎ דּ‎ │ ק‎   │ ◌ְ   │ ׆‎   ┃      ┃
+    // ┃  Lock  ┃ פֿ‎   │ ◌ִ   │ ב‎   │ ◌ַ ◌ָ │ פ‎ פּ‎ │ ר‎ רּ‎ │ ◌ֹ ◌ֺ │ ל‎ ﭏ‎ │ ד‎ דּ‎ │ ק‎   │ ◌ּ { │ ׆‎ } ┃      ┃
     // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
-    // ┃      ┃ > ׀‎‎ │ י‎‎ יּ‎ │ צּ‎   │ ש‎ שּ‎ │ ם‎ מּ‎ │ ◌֒   │ תּ‎ טּ‎ │ בּ‎ ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
-    // ┃Shift ┃ < ׀‎ │ י‎‎ יּ‎ │ צּ‎   │ ש‎ שּ‎ │ מ‎ מּ‎ │ ◌֒   │ ת‎ ט‎ │ בּ‎ ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┃      ┃ > ׀‎‎ │ י‎‎ יּ‎ │ ו‎ וּ‎ │ שּ‎ סּ‎ │ ם‎ מּ‎ │ ◌֒   │ תּ‎ טּ‎ │ בּ‎ ⌬ │ ;   │ : ◌̣ │ _ ־‎ ┃              ┃
+    // ┃Shift ┃ < ׀‎ │ י‎‎ יּ‎ │ ו‎ וּ‎ │ ש‎ ס‎ │ מ‎ מּ‎ │ ◌֒   │ ת‎ ט‎ │ בּ‎ ※ │ , ◌̦ │ . ◌̇ │ - ־‎ ┃ Shift ⇧      ┃
     // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
     // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
     // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
@@ -433,33 +433,33 @@ xkb_symbols "jcuken" {
     key <AE11>	{ [  apostrophe,    question            ] };
 
     key <AD01>	{ [        U05F2,   U05F0,              U05F1,          U05F1       ] };    // U+05F2 = Double Yod; U+05F0 = Double Vav; U+05F1 = Vav + Yod
-    key <AD02>	{ [  hebrew_zade,   hebrew_finalzade    ] };
+    key <AD02>	{ [  hebrew_zade,   hebrew_finalzade,   UFB46,          UFB46       ] };    // U+FB46 = Tsadi + Dagesh
     key <AD03>	{ [        U05BB,   U05BB               ] };                                // U+05BB = Qubbutz
     key <AD04>	{ [  hebrew_kaph,   hebrew_finalkaph,   UFB3B,          UFB3A       ] };    // U+FB3B = Kaf + Dagesh; U+FB3A = Final Kaf + Dagesh
     key <AD05>	{ [        U05B6,   U05B6,              U05B5,          U05B5       ] };    // U+05B6 = Segol (as niqqud); U+05B5 = Tzere
     key <AD06>	{ [   hebrew_nun,   hebrew_finalnun,    UFB40,          UFB40       ] };    // U+FB40 = Hebrew Nun + Dagesh
     key <AD07>	{ [ hebrew_gimel,   hebrew_gimel,       UFB32,          UFB32       ] };    // U+FB32 = Gimel + Dagesh
     key <AD08>	{ [  hebrew_zain,   hebrew_zain,        UFB36,          UFB36       ] };    // U+FB36 = Zayin + Dagesh
-    key <AD09>	{ [  hebrew_chet,   hebrew_chet         ] };
+    key <AD09>	{ [  hebrew_chet,   hebrew_chet,        hebrew_he,      hebrew_he   ] };
     key <AD10>	{ [ hebrew_aleph,   hebrew_aleph        ] };
 
-    key <AC01>	{ [        UFB4E,   UFB4E               ] };                                // U+FB4E = Hebrew Pe + Rafe
-    key <AC02>	{ [        U05B4,   U05B4               ] };                                // U+05B4 = Ḥiriq
-    key <AC03>	{ [   hebrew_bet,   hebrew_bet          ] };
+    key <AC01>	{ [         UFB4E,  UFB4E               ] };                                // U+FB4E = Hebrew Pe + Rafe
+    key <AC02>	{ [         U05B4,  U05B4               ] };                                // U+05B4 = Ḥiriq
+    key <AC03>	{ [    hebrew_bet,  hebrew_bet          ] };
     key <AC04>	{ [         U05B7,  U05B8               ] };                                // U+05B7 = Patach; U+05B8 = Kamatz
     key <AC05>	{ [     hebrew_pe,  hebrew_finalpe,     UFB44,          UFB43       ] };    // U+FB44 = Hebrew Pe + Dagesh; U+FB43 = Final Hebrew Pe + Dagesh
     key <AC06>	{ [   hebrew_resh,  hebrew_resh,        UFB48,          UFB48       ] };    // U+FB48 = Resh + Dagesh
     key <AC07>	{ [         U05B9,  U05B9,              U05BA,          U05BA       ] };    // U+05B9 = Holam; U+05BA = Holam on Vav
     key <AC08>	{ [  hebrew_lamed,  UFB3C,              UFB4F,          UFB4F       ] };    // U+FB3C = Lamed + Dagesh; U+FB4F = Aleph + Lamed
-    key <AC09>	{ [ hebrew_samech,  hebrew_samech,      UFB41,          UFB41       ] };    // U+FB41 = Samekh + Dagesh
+    key <AC09>	{ [  hebrew_dalet,  hebrew_dalet,       UFB33,          UFB33       ] };    // U+FB33 = Dalet + Dagesh
     key <AC10>	{ [   hebrew_qoph,  hebrew_qoph         ] };
     key <BKSL>	{ [         U05C6,  U05C6,              braceright      ] };                // U+05C6 = Inverted Hebrew Nun
 
     key <AB01>	{ [    hebrew_yod,  hebrew_yod,         UFB39,          UFB39       ] };    // U+FB39 = Yod + Dagesh
-    key <AB02>	{ [         UFB46,  UFB46               ] };                                // U+FB46 = Tsadi + Dagesh
-    key <AB03>	{ [   hebrew_shin,  hebrew_shin,        UFB49,          UFB49       ] };    // U+FB49 = Shin + Dagesh
+    key <AB02>	{ [    hebrew_waw,  hebrew_waw,         UFB35,          UFB35       ] };    // U+FB35 = Vav + Dagesh
+    key <AB03>	{ [   hebrew_shin,  UFB49,              hebrew_samech,  UFB41       ] };    // U+FB49 = Shin + Dagesh; U+FB41 = Samekh + Dagesh
     key <AB04>	{ [    hebrew_mem,  hebrew_finalmem,    UFB3E,          UFB3E       ] };    // U+FB3E = Mem + Dagesh
-    key <AB05>	{ [         U05C6,  U05C6               ] };                                // U+0592 = "Cantillation Marks" Dead Key
+    key <AB05>	{ [         U0592,  U0592               ] };                                // U+0592 = "Cantillation Marks" Dead Key
     key <AB06>	{ [    hebrew_taw,  UFB4A,              hebrew_tet,     UFB38       ] };    // U+FB4A = Tav + Dagesh; U+FB38 = Tet + Dagesh
     key <AB07>	{ [         UFB31,  UFB31,              U203B,          U232C       ] };    // U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
 };
