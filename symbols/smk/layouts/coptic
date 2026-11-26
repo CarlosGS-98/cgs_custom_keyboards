@@ -424,14 +424,14 @@ xkb_symbols "jcuken" {
     // │ ª ◌ │ ! 𐤀‎ │ " ᵅ │ ·   │ $ ¤ │ % € │ & ⳤ │ / ⳽ │ ( ↻ │ ) ⳿ │ = ↺ │ ?   │ ¿   ┃ ⌫       ┃
     // │ º \ │ 1 | │ 2 @ │ 3 # │ 4 ◌̃ │ 5  ᷏ │ 6 ¬ │ 7 ◌̸ │ 8 ∝ │ 9  ᷘ │ 0  ͚ │ '   │ ¡   ┃Backspace┃
     // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
-    // ┃       ┃ Ⲭ Ϧ │ Ⲋ   │ Ⲩ   │ Ⲕ Ⳳ │ Ⲉ ¤ │ Ⲛ   │ Ⲅ Ϫ │ Ⲍ   │ Ⲝ   │ Ⲳ Ⲵ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
-    // ┃ Tab ↹ ┃ ⲭ ϧ │ ⲋ   │ ⲩ   │ ⲕ ⳳ │ ⲉ € │ ⲛ   │ ⲅ ϫ │ ⲍ   │ ⲝ   │ ⲳ ⲵ │ ◌̀ [ │ + ] ┃   ⏎   ┃
+    // ┃       ┃ Ⲭ Ϧ │ Ⲋ   │ Ⲩ   │ Ⲕ Ⳳ │ Ⲉ ¤ │ Ⲛ Ⳟ │ Ⲅ Ϫ │ Ⲍ Ⳃ │ Ⲝ Ⳣ │ Ⲳ Ⲵ │ ◌̂ ◌̏ │ * ◌̛ ┃ Enter ┃
+    // ┃ Tab ↹ ┃ ⲭ ϧ │ ⲋ   │ ⲩ   │ ⲕ ⳳ │ ⲉ € │ ⲛ ⳟ │ ⲅ ϫ │ ⲍ ⳃ │ ⲝ ⳣ │ ⲳ ⲵ │ ◌̀ [ │ + ] ┃   ⏎   ┃
     // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-    // ┃ Caps   ┃ Ⲫ Ϥ │ Ⲓ   │ Ⳁ ◌̊ │ Ⲁ   │ Ⲡ Ⲯ │ Ⲣ   │ Ⲟ Ⲱ│ Ⲗ   │ Ϣ Ⳃ │ Ⳝ ◌̌ │ ◌̈ ◌̋ │ Ⳡ ◌̨ ┃      ┃
-    // ┃  Lock  ┃ ⲫ ϥ │ ⲓ   │ ⳁ ◌̆ │ ⲁ   │ ⲡ ⲯ │ ⲣ   │ ⲟ ⲱ │ ⲗ   │ ϣ ⳃ │ ⳝ ◌̄ │ ◌́ { │ ⳡ } ┃      ┃
+    // ┃ Caps   ┃ Ⲫ Ϥ │ Ⲓ   │ Ⳁ ◌̊ │ Ⲁ   │ Ⲡ Ⲯ │ Ⲣ   │ Ⲟ Ⲱ│ Ⲗ   │ Ⲇ Ϯ │ Ⳝ ◌̌ │ ◌̈ ◌̋ │ Ⳡ ◌̨ ┃      ┃
+    // ┃  Lock  ┃ ⲫ ϥ │ ⲓ   │ ⳁ ◌̆ │ ⲁ   │ ⲡ ⲯ │ ⲣ   │ ⲟ ⲱ │ ⲗ   │ ⲇ ϯ │ ⳝ ◌̄ │ ◌́ { │ ⳡ } ┃      ┃
     // ┣━━━━━━┳━┻───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━┻━━━━━━┫
-    // ┃      ┃ >   │ Ⲏ   │ Ϭ ◌̑ │ Ⲥ   │ Ⲙ  ͛ │ Ⳟ   │ Ⲧ Ⲑ │ Ⲃ ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
-    // ┃Shift ┃ <   │ ⲏ   │ ϭ ◌̧ │ ⲥ   │ ⲙ ◌̡̢ │ ⳟ   │ ⲧ ⲑ │ ⲃ ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
+    // ┃      ┃ >   │ Ⲏ   │ Ϭ ◌̑ │ Ⲥ Ϣ │ Ⲙ  ͛ │ Ϩ Ⳉ │ Ⲧ Ⲑ │ Ⲃ ⌬ │ ;   │ : ◌̣ │ _ ◌̉ ┃              ┃
+    // ┃Shift ┃ <   │ ⲏ   │ ϭ ◌̧ │ ⲥ ϣ │ ⲙ ◌̡̢ │ ϩ ⳉ │ ⲧ ⲑ │ ⲃ ※ │ , ◌̦ │ . ◌̇ │ - ◌̵ ┃ Shift ⇧      ┃
     // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━┷┳━━━━┻━━┳━━━━━━━┳━━━┛
     // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃ ⎄     ┃
     // ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
@@ -449,10 +449,10 @@ xkb_symbols "jcuken" {
     key <AD03>	{ [      U2CA9,  U2CA8              ] };                                                // Ⲩ (Ua)
     key <AD04>	{ [      U2C95,  U2C94,             U2CF3,                  U2CF2               ] };    // Ⲕ (Kapa); Ⳳ (Bohairic Khei)
     key <AD05>	{ [      U2C89,  U2C88,             EuroSign,               dead_currency       ] };    // Ⲉ (Eie); "€", "Currency Symbols" Dead Key
-    key <AD06>	{ [      U2C9B,  U2C9A              ] };                                                // Ⲛ (Coptic Ni)
+    key <AD06>	{ [      U2C9B,  U2C9A,             U2CDF,                      U2CDE               ] };    // Ⲛ (Coptic Ni); Ⳟ (Old Nubian Ngi)
     key <AD07>	{ [      U2C85,  U2C84,             U03EB,                  U03EA               ] };    // Ⲅ (Coptic Gamma); Ϫ (Gangia)
-    key <AD08>	{ [      U2C8D,  U2C8C              ] };                                                // Ⲍ (Zata)
-    key <AD09>	{ [      U2C9D,  U2C9C              ] };                                                // Ⲝ (Coptic Ksi)
+    key <AD08>	{ [      U2C8D,  U2C8C,             U2CC3,                  U2CC2               ] };    // Ⲍ (Zata); Ⳃ (Crossed Shei)
+    key <AD09>	{ [      U2C9D,  U2C9C,             U2CE3,                  U2CE2               ] };    // Ⲝ (Coptic Ksi); Ⳣ (Old Nubian Wau)
     key <AD10>	{ [      U2CB3,  U2CB2,             U2CB5,                  U2CB4               ] };    // Ⲳ (Coptic Alef); Ⲵ (Coptic Ain)
 
     key <AC01>	{ [      U2CAB,  U2CAA,             U03E5,                  U03E4               ] };    // Ⲫ (Coptic Fi); Ϥ (Fei)
@@ -463,15 +463,15 @@ xkb_symbols "jcuken" {
     key <AC06>	{ [      U2CA3,  U2CA2              ] };                                                // Ⲣ (Ro)
     key <AC07>	{ [      U2C9F,  U2C9E,             U2CB1,                  U2CB0               ] };    // Ⲟ (Coptic O); Ⲱ (Ōu)
     key <AC08>	{ [      U2C97,  U2C96              ] };                                                // Ⲗ (Laula)
-    key <AC09>	{ [      U03E3,  U03E2,             U2CC3,                  U2CC2               ] };    // Ϣ (Shei); Ⳃ (Crossed Shei)
+    key <AC09>	{ [      U2C87,  U2C86,             U03EF,                  U03EE               ] };    // Ⲇ (Dalda); Ϯ (Dei)
     key <AC10>	{ [      U2CDD,  U2CDC,             dead_macron,            dead_caron          ] };    // Lowercase Old Nubian Shima; Uppercase Old Nubian Shima, "Macron" Dead Key, "Caron" Dead Key
     key <BKSL>	{ [     ntilde,  Ntilde,            braceright,             dead_ogonek         ] };    // Lowercase Old Nubian Nyi; Uppercase Old Nubian Nyi, "}", "Ogonek" Dead Key
 
     key <AB01>	{ [      U2C8F,  U2C8E              ] };                                                // Ⲏ (Hate)
     key <AB02>	{ [      U03ED,  U03EC,             dead_cedilla,           dead_invertedbreve  ] };    // Lowercase Shima, Uppercase Shima, "Cedilla" Dead Key, "Inverted Breve" Dead Key
-    key <AB03>	{ [      U2CA5,  U2CA4              ] };                                                // Ⲥ (Sima)
+    key <AB03>	{ [      U2CA5,  U2CA4,             U03E3,                  U03E2               ] };    // Ⲥ (Sima); Ϣ (Shei)
     key <AB04>	{ [      U2C99,  U2C98,             U0359,                  U035B               ] };    // Ⲙ (Coptic Ni); U+0359 = "Hooktail" Dead Key, U+035B = "Curly Loop" Dead Key
-    key <AB05>	{ [      U2CDF,  U2CDE              ] };                                                // Ⳟ (Old Nubian Ngi)
+    key <AB05>	{ [      U03E9,  U03E8,             U2CC9,                  U2CC8               ] };    // Ϩ (Hori); Ⳉ (Akhmimic Khei)
     key <AB06>	{ [      U2CA7,  U2CA6,             U2C91,                  U2C90               ] };    // Ⲧ (Coptic Tau); Ⲑ (Thethe)
 
     key <AB07>	{ [      U2C83,  U2C82,             U203B,                  U232C               ] };    // Ⲃ (Vida); U+203B = "Punctuation Marks" Dead Key; U+232C = "Miscellaneous Symbols" Dead Key
